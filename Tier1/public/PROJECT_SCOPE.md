@@ -1,18 +1,11 @@
-# Tier1 — project starting point
+# Tier1 — project scope and current proposal
 
-Status: initial project orientation, not an agreed model specification.
+The starting package is [Baseline 1103](baseline_1103/INDEX.md), published on 3 November 2026 by Mocry. It collects teacher source wording, our interpretations, a gap register, a deterministic A/B model family and four independent-research requests. The proposal is open to all members' review; numerical parameterisation and group adoption are pending.
 
-Tier1 studies investment and operation of battery storage and hydrogen production alongside the given generation, demand and price inputs. The group must settle the interpretation of those inputs, the objective, time resolution, physical constraints and financial assumptions before presenting a recommendation.
+Tier1 assesses investment and operation of batteries and electrolysers using the given generation, demand and prices. The original brief, five unchanged CSVs and complete launch transcripts are shared at the repository root; start with [PROJECT.md](../../PROJECT.md). Source hashes and collection dates are in [SOURCE_MANIFEST.json](../../SOURCE_MANIFEST.json).
 
-Keep the official brief and supplied data available locally through the course's authorized distribution. They are not included in this public scaffold. Shared data manifests should record file names, units, coverage, original source and checksums without uploading restricted originals.
+Current proposed boundary: fixed total generation plus the independent simulated farm; daily perfect-information analysis; A economic allocation versus B current-generation supply priority; scheme profit as objective and matching no-investment improvements as reported metrics.
 
-Suggested first shared artifacts:
+Research themes: electricity market/trading, batteries, electrolysers/H2, and miscellaneous financial/data/implementation conventions. Mocry is requested to dispatch GPT-6 Astra, GPT-6.1 Sol/Codex and DS v4.1 flash1017/Clever User researchers for independent work and cross-validation. Other members/agents may undertake additional independent research, challenge any interpretation or propose baseline changes. No named external researcher is assumed to have started.
 
-- A source/data manifest with definitions and any unresolved mapping between series.
-- An assumptions and decisions record, separating supplied facts, teacher clarifications, researched parameters and group choices.
-- A model interface defining input/output fields, units and time conventions.
-- A reproducible baseline with results clearly labelled as experiments until reviewed.
-
-Cross-tier handoff: publish a versioned interface and reference implementation/results when ready. Tier2 chooses a pinned revision and requests changes through messages. Neither tier silently changes the other's files or baseline.
-
-No previous individual solution, cost assumption or numerical result has been adopted by initializing this repository.
+Publish reviewed results with explicit sources, units, assumptions and status. Cross-tier dependencies should pin a public path and commit/hash. Discuss changes through messages and preserve original findings rather than silently adopting an evolving experiment as a shared decision.
