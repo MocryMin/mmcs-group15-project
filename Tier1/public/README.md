@@ -22,3 +22,7 @@ The original v1 is preserved. Version v1.1 corrects four Markdown manifest hashe
 ## Past project report examples
 
 [Six teacher-supplied examples](reference/past_project_reports/20261103-v1/README.md) are now archived with years/topics, source links and original/public hashes. They are historical completed reports, useful for structure and presentation; current project requirements remain separate.
+
+## Generation data quality
+
+[Generation provenance audit and 107-day repair candidate](data_quality/generation_repair/20261103-v1/README.md) includes official-source evidence, a per-date audit, two model-ready CSVs and an offline verifier. It is a Tier 1 comparison input. See the audit for known data issues outside the patch.
