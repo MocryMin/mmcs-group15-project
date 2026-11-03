@@ -1,6 +1,6 @@
 # Original project-launch transcript excerpts
 
-Source: the transcript export supplied by Mocry, associated with the 26 October 2026 project-launch class. Selected complete timestamped segments below are reproduced verbatim from that export. They have not been checked against audio; speech repetitions and transcription errors are preserved. Speaker 0 is the lecturer in these selected segments. These are excerpts, not the complete recording.
+Source: the transcript export supplied by Ran Min, associated with the 26 October 2026 project-launch class. Selected complete timestamped segments below are reproduced verbatim from that export. They have not been checked against audio; speech repetitions and transcription errors are preserved. Speaker 0 is the lecturer in these selected segments. These are excerpts, not the complete recording.
 
 Interpretations and the separately reported after-class discussion are in [TEACHER_CLARIFICATIONS.md](TEACHER_CLARIFICATIONS.md).
 

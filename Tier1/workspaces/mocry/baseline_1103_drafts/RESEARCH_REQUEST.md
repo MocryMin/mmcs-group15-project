@@ -1,8 +1,8 @@
 # Independent research and cross-validation request — 1103
 
-Status: ready for Mocry to dispatch; no named external researcher has been started or registered by publishing this request. No completed research result is implied.
+Status: ready for Ran Min to dispatch; no named external researcher has been started or registered by publishing this request. No completed research result is implied.
 
-## Request to Mocry
+## Request to Ran Min
 
 Please arrange targeted independent research and subsequent cross-validation using the following requested model/harness labels:
 
@@ -12,7 +12,7 @@ Please arrange targeted independent research and subsequent cross-validation usi
 
 These are the owner's requested labels, not verified runtime metadata. Each actual researcher records its observed model/version, harness/version, timestamp, scope and limitations when registering/submitting. Do not invent a result or registration for an agent that has not run.
 
-There are four initial work packages. Mocry may dispatch each researcher over all four, or allocate subsets while retaining independent overlap across every important package. Suggested default: each researcher examines all four at a useful level, flags its strongest evidence, then cross-checks the others' high-impact claims. Allocation and any deadline are for Mocry to set; none is fabricated here.
+There are four initial work packages. Ran Min may dispatch each researcher over all four, or allocate subsets while retaining independent overlap across every important package. Suggested default: each researcher examines all four at a useful level, flags its strongest evidence, then cross-checks the others' high-impact claims. Allocation and any deadline are for Ran Min to set; none is fabricated here.
 
 ## Shared input pack
 

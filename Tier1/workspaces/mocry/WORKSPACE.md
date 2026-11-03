@@ -1,4 +1,4 @@
-# Mocry — Tier1
+# Ran Min — Tier1
 
 Member ID: `mocry`.
 

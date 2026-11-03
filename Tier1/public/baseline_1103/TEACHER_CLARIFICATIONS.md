@@ -1,6 +1,6 @@
 # Teacher wording, clarifications and interpretation
 
-The source text and our interpretation have different roles. `Written` means the supplied brief. `Transcript` means wording in the owner's transcript export, not an audio-verified quotation. `Reported discussion` means Mocry's report of a teacher conversation; no original recording/email of that conversation is available here. `Interpretation` and `generalisation` are our own modelling readings and remain open to challenge.
+The source text and our interpretation have different roles. `Written` means the supplied brief. `Transcript` means wording in the owner's transcript export, not an audio-verified quotation. `Reported discussion` means Ran Min's report of a teacher conversation; no original recording/email of that conversation is available here. `Interpretation` and `generalisation` are our own modelling readings and remain open to challenge.
 
 Read the [complete original TXT](../../../Project_Launch_Transcript.txt), [complete timestamped TXT](../../../Project_Launch_Transcript_Timed.txt), [selected exact segments](TEACHER_ORIGINAL_EXCERPTS.md) and [original brief](../../../Project_Brief.pdf) alongside this document.
 
@@ -12,7 +12,7 @@ Written, brief page 2:
 
 > The supplied generation, demand and pricing data represent a constructed energy system and should not be interpreted as a detailed picture of Scottish transmission constraints or actual curtailment events.
 
-Interpretation: Tier1 inherits generation rather than requiring new generation investment. The actual asset/data connection must be made explicit. Mocry's proposed connection is total generation plus the independent simulated farm; this particular addition/non-inclusion convention is a baseline assumption, not a verbatim teacher statement about a facility's inclusion in the national total.
+Interpretation: Tier1 inherits generation rather than requiring new generation investment. The actual asset/data connection must be made explicit. Ran Min's proposed connection is total generation plus the independent simulated farm; this particular addition/non-inclusion convention is a baseline assumption, not a verbatim teacher statement about a facility's inclusion in the national total.
 
 ## TC-02 — daily national-scale background and simulated farm
 
@@ -74,7 +74,7 @@ Interpretation: a baseline without spatial/transmission constraints matches this
 
 ## TC-08 — costs, modules and permission to change assumptions
 
-Source: Mocry's report of teacher discussion, recorded on 2 November. This is the owner's original report, not the teacher's verbatim speech:
+Source: Ran Min's report of teacher discussion, recorded on 2 November. This is the owner's original report, not the teacher's verbatim speech:
 
 > 教师表示这个你可以自己调研，甚至可以用调研结果覆盖288000的数值；甚至可以引入类似真实商业中的"多买更便宜“这类机制；然后提到一般不是纯粹的连续integer的”定制化“电池，而是有一个变化grid。我认为，可能，电池，电解池，我们可以用自己调研的参数、价格覆盖它的题设参数。teacher说”no right and wrong"，但是如果你改变参数，你需要说明为什么改变（调研来源）
 
@@ -82,7 +82,7 @@ Reported teacher clarification: researched battery costs may replace EUR288000/M
 
 Our interpretation: research should identify real installed-cost boundaries, modules and price schedules rather than assume endlessly customised fractional devices.
 
-Generalisation proposed by Mocry: the same source-and-explain principle may extend to electrolyser prices and other equipment parameters. The discussion report does not enumerate permission for replacing every efficiency, SOC or duration requirement. Preserve the written defaults and explicitly identify proposed departures.
+Generalisation proposed by Ran Min: the same source-and-explain principle may extend to electrolyser prices and other equipment parameters. The discussion report does not enumerate permission for replacing every efficiency, SOC or duration requirement. Preserve the written defaults and explicitly identify proposed departures.
 
 ## TC-09 — equipment reference values
 

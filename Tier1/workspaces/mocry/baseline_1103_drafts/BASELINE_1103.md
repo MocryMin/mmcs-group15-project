@@ -1,6 +1,6 @@
 # Deterministic Tier1 — Baseline 1103
 
-Version: 2026-11-03. Proposed by Mocry. Status: common structure and A/B family defined; research-dependent parameterisation and team adoption are pending. References: [teacher evidence](TEACHER_CLARIFICATIONS.md), [gap IDs](GAPS.md), [research request](RESEARCH_REQUEST.md).
+Version: 2026-11-03. Proposed by Ran Min. Status: common structure and A/B family defined; research-dependent parameterisation and team adoption are pending. References: [teacher evidence](TEACHER_CLARIFICATIONS.md), [gap IDs](GAPS.md), [research request](RESEARCH_REQUEST.md).
 
 ## BL-01 — study purpose and investment boundary
 

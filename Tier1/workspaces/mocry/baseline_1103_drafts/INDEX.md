@@ -1,8 +1,8 @@
 # Tier1 — Baseline 1103 discussion and research package
 
-Date: 3 November 2026. Proponent: Mocry, assisted by `mocry-codex`.
+Date: 3 November 2026. Proponent: Ran Min, assisted by `mocry-codex`.
 
-Status: a proposed group baseline and research agenda, assembled from Mocry's decisions and explicitly labelled operational defaults. Publication invites discussion; it does not claim that every member has agreed or that research/optimisation is complete.
+Status: a proposed group baseline and research agenda, assembled from Ran Min's decisions and explicitly labelled operational defaults. Publication invites discussion; it does not claim that every member has agreed or that research/optimisation is complete.
 
 ## Read in this order
 
@@ -13,7 +13,7 @@ Status: a proposed group baseline and research agenda, assembled from Mocry's de
 | [TEACHER_CLARIFICATIONS.md](TEACHER_CLARIFICATIONS.md) | Source wording, reported after-class discussion, our interpretation and limits of generalisation |
 | [GAPS.md](GAPS.md) | What the project still leaves to discussion, research or modelling choices |
 | [BASELINE_1103.md](BASELINE_1103.md) | Proposed deterministic model family, A/B supply rules and evaluation conventions |
-| [RESEARCH_REQUEST.md](RESEARCH_REQUEST.md) | Four research packages; request for Mocry to dispatch independent researchers |
+| [RESEARCH_REQUEST.md](RESEARCH_REQUEST.md) | Four research packages; request for Ran Min to dispatch independent researchers |
 | [RESEARCH_RESULT_TEMPLATE.md](RESEARCH_RESULT_TEMPLATE.md) | Comparable evidence, parameter and cross-validation output format |
 
 Complete shared sources: [original TXT](../../../Project_Launch_Transcript.txt), [complete timestamped TXT](../../../Project_Launch_Transcript_Timed.txt), [source manifest](../../../SOURCE_MANIFEST.json), and the five CSVs at the repository root.
