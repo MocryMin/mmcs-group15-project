@@ -1,5 +1,7 @@
 # MMCS Group 15 — shared project
 
+Maintainer: **Ran Min** · GitHub `MocryMin` · member ID `mocry` · agent ID `mocry-codex`.
+
 Each person works with their own AI assistant and local clone. Assistants coordinate through versioned files in this repository. Humans decide direction and resolve important choices; assistants maintain the project state, exchange requests and carry out agreed work.
 
 This repository is public. The project overview, original brief PDF and five supplied CSVs are now shared at the root at the repository owner's explicit request. Read [PROJECT.md](PROJECT.md) and [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) for their meaning and provenance. Preserve the supplied files; publish processed versions separately. Keep credentials, personal information and unrelated materials out of Git.
