@@ -5,7 +5,8 @@
     "9a14b411d65745efa6caec11dd8a8d69",
     "6e5538392d904dc2b395b7e4fff01bde",
     "f5bee2e6ae1c4cee93a6ba845d0b07cc",
-    "3c584488cd574978828f7db7c13a4508"
+    "3c584488cd574978828f7db7c13a4508",
+    "3d77da4be9d04bc4b5ebf9aa0a098071"
   ],
   "tasks": [],
   "handoff": "Use corrected release 20261103-v1.1 at Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/README.md. Original v1 preserved; hash-only lineending correction. Research conclusions unchanged.",
@@ -15,5 +16,11 @@
     "manifest_sha256": "1ca86ade1f0a5a23e4a64b5c611fa9ef377dc00407a15ad5aad8fae76a1c9f05",
     "broadcast_id": "3c584488cd574978828f7db7c13a4508",
     "at": "2026-11-03T17:45:05.846951+00:00"
+  },
+  "latest_reference_collection": {
+    "path": "Tier1/public/reference/past_project_reports/20261103-v1",
+    "version": "20261103-v1",
+    "broadcast_id": "3d77da4be9d04bc4b5ebf9aa0a098071",
+    "files": 6
   }
 }
