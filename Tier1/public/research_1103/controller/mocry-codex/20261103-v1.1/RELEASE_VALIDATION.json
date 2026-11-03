@@ -1,0 +1,10 @@
+{
+  "release": "20261103-v1.1",
+  "status": "passed",
+  "checked_at": "2026-11-03T17:44:01.473190+00:00",
+  "files_hashed_and_Git_clean_idempotence_verified": 37,
+  "relative_links_verified": 25,
+  "source_and_public_hashes_distinguished": true,
+  "research_numeric_values_changed": false,
+  "correction": "Supersedes v1 hash metadata only; source content preserved with GitLFnormalisation"
+}

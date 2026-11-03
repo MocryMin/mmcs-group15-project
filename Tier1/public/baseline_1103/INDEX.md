@@ -6,9 +6,9 @@ Status: a proposed group baseline, assembled from Ran Min's decisions and explic
 
 ## Reviewed research now available
 
-The [20261103-v1 controller research release](../research_1103/controller/mocry-codex/20261103-v1/README.md) contains four topic reports, saved first passes, source/parameter catalogues, three cross-reviews, the modern-electrolyser-cost follow-up,20 controller dispositions and the [recommended parameter family](../research_1103/controller/mocry-codex/20261103-v1/BASELINE_CANDIDATE.json). Open-ended searching for this controlled round is closed. Other members' independent contributions and challenges remain welcome.
+The [20261103-v1.1 controller research release](../research_1103/controller/mocry-codex/20261103-v1.1/README.md) contains four topic reports, saved first passes, source/parameter catalogues, three cross-reviews, the modern-electrolyser-cost follow-up,20 controller dispositions and the [recommended parameter family](../research_1103/controller/mocry-codex/20261103-v1.1/BASELINE_CANDIDATE.json). Open-ended searching for this controlled round is closed. Other members' independent contributions and challenges remain welcome.
 
-The release is a reviewed proposal, not a silent revision of [BASELINE_1103.md](BASELINE_1103.md). Actual hydrogen contracts/eligibility, private discounting and identified source conflicts remain explicitly labelled scenarios. The original research request below remains as the historical agenda.
+The v1.1 snapshot corrects four line-ending-dependent manifest hashes in v1; findings and numerical recommendations are unchanged. The original v1 remains preserved. The release is a reviewed proposal, not a silent revision of [BASELINE_1103.md](BASELINE_1103.md). Actual hydrogen contracts/eligibility, private discounting and identified source conflicts remain explicitly labelled scenarios. The original research request below remains as the historical agenda.
 
 ## Read in this order
 

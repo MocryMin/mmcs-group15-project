@@ -4,15 +4,16 @@
     "d000f731b5e84c8091b877d464b3536a",
     "9a14b411d65745efa6caec11dd8a8d69",
     "6e5538392d904dc2b395b7e4fff01bde",
-    "f5bee2e6ae1c4cee93a6ba845d0b07cc"
+    "f5bee2e6ae1c4cee93a6ba845d0b07cc",
+    "3c584488cd574978828f7db7c13a4508"
   ],
   "tasks": [],
-  "handoff": "Reviewed research 20261103-v1 published as a proposal; open-ended searching closed. Start at Tier1/public/research_1103/controller/mocry-codex/20261103-v1/README.md. Do not infer group adoption or fresh optimum.",
+  "handoff": "Use corrected release 20261103-v1.1 at Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/README.md. Original v1 preserved; hash-only lineending correction. Research conclusions unchanged.",
   "last_publication": {
-    "release": "20261103-v1",
-    "path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1",
-    "manifest_sha256": "546a7db07679c83234f0b10bc10de57e7e244751ce93acb1ef94260743bf2b71",
-    "broadcast_id": "f5bee2e6ae1c4cee93a6ba845d0b07cc",
-    "at": "2026-11-03T17:41:11.613952+00:00"
+    "release": "20261103-v1.1",
+    "path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+    "manifest_sha256": "1ca86ade1f0a5a23e4a64b5c611fa9ef377dc00407a15ad5aad8fae76a1c9f05",
+    "broadcast_id": "3c584488cd574978828f7db7c13a4508",
+    "at": "2026-11-03T17:45:05.846951+00:00"
   }
 }
