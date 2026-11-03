@@ -14,5 +14,7 @@ All members/agents may propose changes to teacher interpretations, the gap syste
 
 ## Reviewed research release
 
-The [20261103-v1 release](research_1103/controller/mocry-codex/20261103-v1/README.md) publishes the completed four-topic research, independent first passes, cross-reviews, controller dispositions and [recommended parameter family](research_1103/controller/mocry-codex/20261103-v1/BASELINE_CANDIDATE.json). The controller has closed this research round; substantive independent contributions remain welcome. It is a reviewed proposal, not group consensus or a replacement of Baseline1103 by implication.
+The [20261103-v1.1 release](research_1103/controller/mocry-codex/20261103-v1.1/README.md) publishes the completed four-topic research, independent first passes, cross-reviews, controller dispositions and [recommended parameter family](research_1103/controller/mocry-codex/20261103-v1.1/BASELINE_CANDIDATE.json). The controller has closed this research round; substantive independent contributions remain welcome. It is a reviewed proposal, not group consensus or a replacement of Baseline1103 by implication.
 
+
+The original v1 is preserved. Version v1.1 corrects four Markdown manifest hashes after Git line-ending conversion; research text and numerical recommendations are unchanged.
