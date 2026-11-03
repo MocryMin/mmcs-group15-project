@@ -4,5 +4,6 @@
 *.jsonl text eol=lf
 *.py text eol=lf
 *.csv -text
+*.txt -text
 *.pdf binary
 .githooks/* text eol=lf

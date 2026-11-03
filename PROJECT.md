@@ -10,6 +10,8 @@ The supplied generation, demand and prices form a constructed system. They are n
 
 Read the original [Project_Brief.pdf](Project_Brief.pdf). Its six pages cover client context/data, mandatory Tier1, the two Tier2 routes, client expectations and reference technology parameters.
 
+The complete recording transcript is shared as [Project_Launch_Transcript.txt](Project_Launch_Transcript.txt), copied from the original TXT export. [Project_Launch_Transcript_Timed.txt](Project_Launch_Transcript_Timed.txt) is the complete timestamped rendering made from the companion VTT. Both represent the same recording, not independent evidence. The transcript has not been checked against audio; names, numbers and wording may contain automatic-transcription errors. The class date is associated with 26 October 2026 from context, not independently established from the export metadata. Selected exact segments and our interpretation are linked from the Tier1 package.
+
 ## Work and outputs
 
 - Implement the main optimisation in Python using Xpress.

@@ -105,6 +105,28 @@
       "distinct_dates": 2422,
       "first_date": "2020-01-01",
       "last_date": "2026-09-17"
+    },
+    {
+      "path": "Project_Launch_Transcript.txt",
+      "source": "Original complete TXT export supplied by repository owner",
+      "archived_on": "2026-10-28",
+      "uploaded_on": "2026-11-03",
+      "bytes": 65130,
+      "sha256": "8e50a2273029841413ec28432b475d23e81bcba8450528641319110950d72746",
+      "original_bytes_preserved": true,
+      "audio_verified": false,
+      "same_recording_as": "Project_Launch_Transcript_Timed.txt"
+    },
+    {
+      "path": "Project_Launch_Transcript_Timed.txt",
+      "source": "Complete timestamped rendering from companion VTT; derivative of the same recording",
+      "archived_on": "2026-10-28",
+      "uploaded_on": "2026-11-03",
+      "bytes": 69192,
+      "sha256": "30afa99c66b0115b31c29a41638a8056a425c2f1078e78a2083bd75273aceb48",
+      "original_bytes_preserved": true,
+      "audio_verified": false,
+      "same_recording_as": "Project_Launch_Transcript.txt"
     }
   ]
 }
