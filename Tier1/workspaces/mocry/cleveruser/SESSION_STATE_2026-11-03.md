@@ -43,3 +43,27 @@ This subfolder is this agent's own writing area inside member `mocry`'s workspac
 - Published as `Tier1/public/research_1103/independent/mocry-cleveruser/20261103-cu-v1/` (65 files, one operation record each in `Tier1/public/logs/mocry-cleveruser.jsonl`), commit to be recorded below in git history.
 - Local-only by design: `firstpass/` (raw worker folders incl. vendor PDFs/XLSX), `release/` staging tree and the byte-identical `inputs/` copies are not committed; the public release and `inputs/INPUT_BUNDLE.json` hashes are the durable evidence.
 - Open decision items for the human: discount-rate convention, electrolyser CAPEX basis (~1.8x disagreement with the earlier round on a common price basis), battery maintenance convention, hydrogen offtake cap, purchases on/off.
+
+## Addendum 2026-11-03 23:0xZ — review of v1.1, exemplar assessment, self-compaction
+
+**Published since the previous addendum** (all pushed; remote `main` = `3ad9095`):
+
+| Artifact | Path | Commit |
+|---|---|---|
+| Independent research release | `Tier1/public/research_1103/independent/mocry-cleveruser/20261103-cu-v1/` (65 files: README, SYNTHESIS, BASELINE_CANDIDATE_CU.json, CROSS_REVIEW_NOTES, four package folders, controller audit) | `c152ed4`; announcement message `598302e` |
+| Review of v1.1 (summary) | `.../20261103-cu-review-v1/REVIEW_OF_20261103_v1.1.md` | `ade78f3` / `d8da86f` |
+| Review of v1.1 (full + machine-readable) | `.../20261103-cu-review-v2/REVIEW_OF_20261103_v1.1_FULL.md`, `REVIEW_ITEMS.json` | `6fa9316` |
+| Request message to `mocry-codex` (kind=request, priority=action, due 2026-11-05T18:00Z) | `Tier1/agent_message/messages/20261103T222511579125Z_mocry-cleveruser_6a4ccd82b6e44940bb6ab197f5917096.md` | `6fa9316` |
+| Past-report assessment | `.../20261103-cu-review-v2/REFERENCE_EXEMPLARS_ASSESSMENT.md` + workspace `reference_review/` profiles | `3ad9095` |
+
+**Review items awaiting `mocry-codex` reply (accept/reject/defer per ID):** RV-01 model absent; RV-02 Tier1 vs Tier2B time treatment; RV-03 107-day zero-dispatch artefact; RV-04 electrolyser CAPEX 1.8x route spread; RV-05 missing "previous consultancy" comparator; RV-06 decision thresholds; RV-07 discount/price-basis and ROI metrics; RV-08 Tier2A research absent; RV-09 repo hygiene; plus six classification corrections (E-03, E-06, H-04, E-05, H-05, Q).
+
+**Verified findings to reuse:** controller audit vs R4 audit agree exactly (2,406 dates / 28 segments / fuel sum exact / price identity exact / 9 negative-price days); 107 zero-dispatch dates reproduced (9 blocks, deficit 160.30→111.41 TWh, surplus 40.63→40.01 TWh); one arithmetic defect in the earlier round's R3 (stated core electrolyser CAPEX £1.50 m/MW_e does not follow from 0.829×1.25 = £1.04 m/MW_e).
+
+**Exemplar assessment conclusions:** six past reports are non-energy topics; no data reusable; report length 14–18 pages is the observed ceiling; the five transferable devices are quantified-compromise disclosure, two-stage stochastic + scalability table, staged validation ladder with out-of-time and information-poor cases, switch-point/reservation-value analysis, and a one-page decision block. My bands: 74 (2025) distinction upper; historical Group15 (2025) distinction lower; Group_23 distinction lower; Group_8 merit upper; Group_20 merit mid; Group_10 merit low. No exemplar varies a decision parameter — the cheapest way to beat them.
+
+**Workers:** `res-r1-market`, `res-r2-battery`, `res-r3-hydrogen`, `res-r4-finance-b`, `ref-tv-bank`, `ref-bank-bike` all hibernated (durable sessions kept, nothing closed). `res-r4-finance` was closed earlier after a router startup failure.
+
+**Local-only material** (kept out of git via `.git/info/exclude`, not just .gitignore): `.clever-user/`, `firstpass/`, `release/`, `tools/`, `audit/`, `inputs/`. `git status` must stay clean before `collab.py push`.
+
+**Next actions after resume:** check whether `mocry-codex` replied per ID; if yes, act on the two priority items (RV-05 comparator definition, RV-03 SA-DQ date list + script) and offer the threshold chart spec; if no, do not re-ping before the due time. Keep Tier2 unselected until the human decides.
