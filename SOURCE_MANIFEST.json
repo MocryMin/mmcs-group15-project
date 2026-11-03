@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "publication_authorization": "Repository owner explicitly requested the brief and datasets at repository root",
+  "course": "Methodology, Modelling and Consulting Skills",
+  "academic_year": "2026/27",
+  "raw_data_modified": false,
+  "line_endings": "CSV -text attribute preserves exact source bytes",
+  "files": [
+    {
+      "path": "Project_Brief.pdf",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-23",
+      "uploaded_on": "2026-11-03",
+      "bytes": 333134,
+      "sha256": "b9672d12850a3e02bd0c0ed3e248a5c19cb5b10140fbc6ebde8ae35571213631",
+      "original_bytes_preserved": true,
+      "pages": 6,
+      "original_filename": "MMCS 2026-2027 - Project Brief.pdf"
+    },
+    {
+      "path": "daily_generation_by_fuel.csv",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-30",
+      "uploaded_on": "2026-11-03",
+      "bytes": 786436,
+      "sha256": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4",
+      "original_bytes_preserved": true,
+      "columns": [
+        "date",
+        "psrType",
+        "MW"
+      ],
+      "data_rows": 26642,
+      "distinct_dates": 2422,
+      "first_date": "2020-01-01",
+      "last_date": "2026-09-17"
+    },
+    {
+      "path": "daily_generation_total.csv",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-30",
+      "uploaded_on": "2026-11-03",
+      "bytes": 43549,
+      "sha256": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318",
+      "original_bytes_preserved": true,
+      "columns": [
+        "date",
+        "total_MW"
+      ],
+      "data_rows": 2422,
+      "distinct_dates": 2422,
+      "first_date": "2020-01-01",
+      "last_date": "2026-09-17"
+    },
+    {
+      "path": "daily_demand.csv",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-30",
+      "uploaded_on": "2026-11-03",
+      "bytes": 76008,
+      "sha256": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b",
+      "original_bytes_preserved": true,
+      "columns": [
+        "recordType",
+        "startTime",
+        "demand"
+      ],
+      "data_rows": 2451,
+      "distinct_dates": 2451,
+      "first_date": "2020-01-01",
+      "last_date": "2026-09-17"
+    },
+    {
+      "path": "wind_farm_generation.csv",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-30",
+      "uploaded_on": "2026-11-03",
+      "bytes": 73849,
+      "sha256": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f",
+      "original_bytes_preserved": true,
+      "columns": [
+        "date",
+        "wind_farm_MW"
+      ],
+      "data_rows": 2453,
+      "distinct_dates": 2453,
+      "first_date": "2020-01-01",
+      "last_date": "2026-09-18"
+    },
+    {
+      "path": "daily_market_index_price.csv",
+      "source": "MMCS 2026/27 supplied project materials",
+      "archived_on": "2026-10-30",
+      "uploaded_on": "2026-11-03",
+      "bytes": 91950,
+      "sha256": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364",
+      "original_bytes_preserved": true,
+      "columns": [
+        "date",
+        "avg_price_£_per_MWh",
+        "avg_price_£_per_MW_day"
+      ],
+      "data_rows": 2422,
+      "distinct_dates": 2422,
+      "first_date": "2020-01-01",
+      "last_date": "2026-09-17"
+    }
+  ]
+}

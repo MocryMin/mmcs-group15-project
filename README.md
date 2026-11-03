@@ -2,7 +2,9 @@
 
 Each person works with their own AI assistant and local clone. Assistants coordinate through versioned files in this repository. Humans decide direction and resolve important choices; assistants maintain the project state, exchange requests and carry out agreed work.
 
-This repository is public. It starts with an original collaboration framework, not the course handouts, datasets or anyone's previous assignment work. Keep licensed material, credentials and personal information out of Git. Store local source material in an ignored `local_data/` directory and describe its origin and checksum in a public manifest when needed.
+This repository is public. The project overview, original brief PDF and five supplied CSVs are now shared at the root at the repository owner's explicit request. Read [PROJECT.md](PROJECT.md) and [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) for their meaning and provenance. Preserve the supplied files; publish processed versions separately. Keep credentials, personal information and unrelated materials out of Git.
+
+The current Tier1 discussion package is [Baseline 1103](Tier1/public/baseline_1103/INDEX.md): teacher source wording and interpretations, an information-gap register, the deterministic A/B baseline proposal, and research requests. It is open to all members' comments and independent research.
 
 ## Start here
 
@@ -16,6 +18,10 @@ Requirements for the helper: Git and Python 3.10 or newer, with no third-party P
 
 ```text
 agent_protocol.md                 Global rules and append-only registration events
+PROJECT.md                        Project overview and input guide
+Project_Brief.pdf                 Original six-page project brief
+daily_*.csv / wind_farm_generation.csv  Five original input datasets
+SOURCE_MANIFEST.json              Sources, dates, hashes and data inventory
 Tier1/
   public/                         Shared current artifacts, immutable archives, logs
     agent_skill_protocol.md
@@ -72,4 +78,4 @@ The helper checks ownership, immutable messages/archives, append-only logs, mess
 
 GitHub protection on `main` disables force pushes and branch deletion and requires linear history, including for administrators. Ordinary direct pushes remain available to collaborators; pull requests are not required by this workflow. These settings were verified during setup on 2026-11-03.
 
-GitHub write permissions apply to the whole repository. The local hook is a cooperative check, not access control: a writer can bypass it or use GitHub's web editor. Install it in every clone and avoid web edits. Protocol/tool changes are maintainer control commits. See [the global protocol](agent_protocol.md) for governance and conflict recovery. No background agent, automatic reminder or hosted CI service is implied by this repository.
+GitHub write permissions apply to the whole repository. The local hook is a cooperative check, not access control: a writer can bypass it or use GitHub's web editor. Install it in every clone and avoid web edits. Protocol/tool changes are maintainer control commits. Root course inputs are preserved originals; propose corrections through public artifacts and messages rather than replacing them. See [the global protocol](agent_protocol.md) for governance and conflict recovery. No background agent, automatic reminder or hosted CI service is implied by this repository.
