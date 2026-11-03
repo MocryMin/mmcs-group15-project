@@ -1,0 +1,118 @@
+{
+  "review": {
+    "id": "20261103-cu-review-v2",
+    "reviewer": "mocry-cleveruser",
+    "target": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+    "target_commit_context": "release snapshot as published; control-layer files read 2026-11-03",
+    "reviewed_at_utc": "2026-11-03T22:15:00Z",
+    "blind": false,
+    "blind_note": "Controller had read v1.1 README and executive summary before designing its own independent round; the four CU first passes remained blind.",
+    "supersedes": "20261103-cu-review-v1/REVIEW_OF_20261103_v1.1.md (summary version, retained unmodified)",
+    "verdict": "A-grade research memo; approximately 20% of the graded submission; model, validation, consulting narrative and Tier2 are not started"
+  },
+  "verified_recomputations": [
+    {"item": "battery installed CAPEX", "cdx": "256234.78 GBP2020/MWh", "cu_check": "288000 x 0.889704 = 256235", "result": "match"},
+    {"item": "battery FOM primary/sensitivity", "cdx": "14861.62 / 7430.81 GBP2020/MW-yr", "cu_check": "16704 / 8352 x 0.889704; ratio exactly 2.000", "result": "match"},
+    {"item": "usable window hours", "cdx": "1.138 h", "cu_check": "0.6*3/0.9487/1.5 = 1.1385", "result": "match; CU adopts CDX precision"},
+    {"item": "electrolyser modern CAPEX", "cdx": "1269.95-1650.93 GBP2020/kW_e", "cu_check": "2000/2300/2600 x 0.634974", "result": "match"},
+    {"item": "H2 supported value", "cdx": "7.799 GBP2020/kg", "cu_check": "175*39.4/1000 = 6.895 GBP2012/kg, x~1.131", "result": "match"},
+    {"item": "dataset facts", "cdx": "2406 days, 28 segments, 9 negative-price days", "cu_check": "independent implementation identical", "result": "match"}
+  ],
+  "items": [
+    {
+      "id": "RV-01",
+      "severity": "high",
+      "title": "Research weight is high, model is absent",
+      "claim": "v1.1 covers the research stage only: no model code, no solve, no figures; project_solver_run=false and control/RUN.json solver_run=false.",
+      "impact": "Three of the five brief success criteria (modelling methodology, technical validation, consulting interpretation) are untouched.",
+      "ask": "Compress control layer to a one-page appendix and re-centre the plan on the model this week.",
+      "evidence": ["BASELINE_CANDIDATE.json:project_solver_run", "control/RUN.json:solver_run"]
+    },
+    {
+      "id": "RV-02",
+      "severity": "medium",
+      "title": "Daily-chronology treatment in Tier1 blurs the Tier1/Tier2B boundary",
+      "claim": "Brief: 'Tier 1 models should use a simplified treatment of time - detailed chronological operation of storage is not required at this stage'. v1.1 adopts a daily one-direction/one-window rule as the Tier1 core (BL-04, BL-11).",
+      "impact": "Raises Tier1 complexity without adding accuracy and pre-consumes the Tier2B upgrade, shrinking the measurable 2B delta.",
+      "ask": "Tier1 = aggregate-period energy balance with efficiency/capacity constraints; keep the daily rule as the 2B sub-case and a conservative sensitivity.",
+      "evidence": ["Project_Brief.pdf p3", "BASELINE_1103.md BL-04/BL-11", "RESEARCH_SYNTHESIS.md"]
+    },
+    {
+      "id": "RV-03",
+      "severity": "high",
+      "title": "107 dates with every dispatchable fuel at exactly 0 MW are not reported",
+      "claim": "107 dates (2022-10-17 to 2026-08-03) have nuclear/gas/coal/oil/biomass/run-of-river/pumped-storage/other all exactly 0 MW while total generation remains 1450-17614 MW.",
+      "evidence_cu": {"dates": 107, "contiguous_blocks": 9, "deficit_all_TWh": 160.30, "deficit_excluded_TWh": 111.41, "surplus_all_TWh": 40.63, "surplus_excluded_TWh": 40.01, "method": "controller-data-audit/crosscheck_r4_artefact.py"},
+      "impact": "Under regime B, q_t = min(G_t, D_t) assigns nearly all generation to direct sale on these days, leaving nothing to charge or electrolyse: battery and H2 value under B is systematically depressed and the deficit overstated.",
+      "ask": "Add a mandatory SA-DQ double run (all days vs 108 excluded) to the run manifest and disclose the artefact in the report.",
+      "evidence": ["daily_generation_by_fuel.csv", "CU crosscheck_r4_artefact.json"]
+    },
+    {
+      "id": "RV-04",
+      "severity": "high",
+      "title": "Electrolyser CAPEX evidence routes differ by roughly 1.8x and are treated as settled",
+      "claim": "Modern IEA route 1270-1651 GBP2020/kW_e versus legacy BEIS 672-1329 (central 816); the legacy route is demoted to sensitivity rather than presented as the decisive uncertainty.",
+      "impact": "This spread alone can decide whether an electrolyser is built; it is the first-order sensitivity of the H2 case. The modern-case stack replacement also borrows the old BEIS absolute proxy (489.61 GBP2020/kW_e at years 11/22).",
+      "ask": "Produce a two-way critical map (CAPEX x H2 price) with each curve labelled by source, and record 'which CAPEX route' as an open decision rather than an adopted value.",
+      "evidence": ["BASELINE_CANDIDATE.json:hydrogen.modern_CAPEX/legacy_CAPEX", "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md"]
+    },
+    {
+      "id": "RV-05",
+      "severity": "high",
+      "title": "The 'simple solution from the previous consultancy' comparator is undefined",
+      "claim": "The brief's premise is a prior consultancy proposal the client rejected, and the marking asks why the recommendation beats a simpler strategy. A0/B0 are 'no investment', not that simple solution.",
+      "evidence": "keyword search of the whole v1.1 tree returns no 'consultancy' / 'previous solution' content",
+      "impact": "The report cannot answer the central client question without it; this is a low-cost, high-return comparison.",
+      "ask": "Define and quantify two comparators: (a) no investment; (b) a naive rule (e.g. 50 MW battery cycling one full window daily at the daily average price, or a static capacity estimate from annual surplus x conversion efficiency).",
+      "evidence": ["Project_Brief.pdf p2/p5"]
+    },
+    {
+      "id": "RV-06",
+      "severity": "medium",
+      "title": "No decision thresholds or break-even points",
+      "claim": "v1.1 lists scenarios to run but no thresholds; the brief calls 'what could cause the recommendation to change' a very important question.",
+      "thresholds_cu": [
+        "battery arbitrage requires p_sell/p_buy > 1/0.9 = 1.111; equal-price cycling loses (1-0.9)p per MWh bought",
+        "H2 electricity-equivalent value 9.4954 GBP/kg / 55.9 kWh/kg = 169.95 GBP/MWh of input electricity",
+        "battery FOM convention moves a 3 MWh unit from 25056 to 12528 EUR2020/yr, shifting the critical capacity"
+      ],
+      "ask": "Add a 'what would change the recommendation' section driven by these three thresholds, with a tornado chart."
+    },
+    {
+      "id": "RV-07",
+      "severity": "medium",
+      "title": "Discount rate and price basis are choices, but no reporting basis is fixed and ROI metrics are missing",
+      "claim": "CDX uses 5% real in constant GBP2020; CU used 7% real in GBP2026. Neither is evidenced. The brief names ROI explicitly; no IRR/payback/ROI presentation is specified.",
+      "ask": "Fix one reporting basis in the run manifest, report NPV x discount-rate, payback and ROI, and record the choice as a team decision."
+    },
+    {
+      "id": "RV-08",
+      "severity": "medium",
+      "title": "Tier2A research is entirely absent",
+      "claim": "No REPD pipeline, no technology-level CAPEX/LCOE, no capacity factors derived from the supplied fuel data, no connection/land costs.",
+      "impact": "If 2A is chosen, at least a week of research is missing; if 2B is chosen, the existing temporal research is directly reusable.",
+      "ask": "Decide Tier2 this week and record it in a message; if 2A, open a generation-side research line immediately."
+    },
+    {
+      "id": "RV-09",
+      "severity": "low",
+      "title": "Repository hygiene: duplicated first passes and an unlabelled derived CSV",
+      "claim": "FIRST_PASS/ duplicates the topic folders; prices_gbp2020.csv (146 KB) is derived and not labelled as such.",
+      "ask": "Add a derived-artefact note in the README and stop duplicating first passes in future versions."
+    }
+  ],
+  "classification_corrections": [
+    {"id": "E-03", "cdx": "purchases fixed at 0, treated as closed", "cu": "0 is a choice, not evidence; add an adder sensitivity and report break-even a* = 0.9 p_sell - p_buy"},
+    {"id": "E-06", "cdx": "unused-energy payment 0", "cu": "same: label as a choice and run {0,10,20} GBP/MWh ablation"},
+    {"id": "H-04", "cdx": "offtake caps 0/2000/10000/50000 kg/day", "cu": "label them as decision-variable bounds, not demand estimates; 50000 kg/day implies ~116 MW continuous input"},
+    {"id": "E-05", "cdx": "deferred", "cu": "an acceptable price-elasticity threshold can bound the conclusion without half-hourly data"},
+    {"id": "H-05", "cdx": "deferred", "cu": "BEIS T&S gives 0.26-3.56 GBP/kg/100 km; enough for a stored-vs-delivered threshold"},
+    {"id": "Q items", "cdx": "unresolved", "cu": "report length, appendix rules and pitch duration are directly askable; do not leave them to late November"}
+  ],
+  "response_request": {
+    "due_utc": "2026-11-05T18:00:00Z",
+    "format": "reply per ID: accept / reject (with reason) / defer (with trigger)",
+    "priority_ids": ["RV-05", "RV-03"],
+    "reason": "RV-05 decides whether the report can answer the brief's central question; RV-03 decides whether regime-B conclusions are trustworthy."
+  }
+}
