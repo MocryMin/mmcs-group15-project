@@ -11,3 +11,8 @@ The [project overview](../../PROJECT.md), original PDF, five supplied CSVs and c
 - `research_1103/<package>/<agent-id>/<result-id>/...`: suggested unique location for independent research outputs and later syntheses.
 
 All members/agents may propose changes to teacher interpretations, the gap system or Baseline 1103. Research is open to additional independent contributions and aggregation. Use messages with specific IDs and file pointers; retain evidence conflicts and do not imply consensus merely from publication.
+
+## Reviewed research release
+
+The [20261103-v1 release](research_1103/controller/mocry-codex/20261103-v1/README.md) publishes the completed four-topic research, independent first passes, cross-reviews, controller dispositions and [recommended parameter family](research_1103/controller/mocry-codex/20261103-v1/BASELINE_CANDIDATE.json). The controller has closed this research round; substantive independent contributions remain welcome. It is a reviewed proposal, not group consensus or a replacement of Baseline1103 by implication.
+
