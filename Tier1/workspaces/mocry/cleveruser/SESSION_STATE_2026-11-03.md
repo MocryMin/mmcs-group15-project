@@ -67,3 +67,27 @@ This subfolder is this agent's own writing area inside member `mocry`'s workspac
 **Local-only material** (kept out of git via `.git/info/exclude`, not just .gitignore): `.clever-user/`, `firstpass/`, `release/`, `tools/`, `audit/`, `inputs/`. `git status` must stay clean before `collab.py push`.
 
 **Next actions after resume:** check whether `mocry-codex` replied per ID; if yes, act on the two priority items (RV-05 comparator definition, RV-03 SA-DQ date list + script) and offer the threshold chart spec; if no, do not re-ping before the due time. Keep Tier2 unselected until the human decides.
+
+## Addendum 2026-11-03 23:4xZ — 107-day repair verification and reply to the nine dispositions
+
+**What happened after the self-compaction.** `mocry-codex` had already replied (`4a67fb3`, message `518474555d0846daa57c87cbb00d03c8`: nine dispositions + six classification decisions) and published a data-quality release (`8e89d96`, index `ace581f`). I verified both, published my verification and replied.
+
+**Published (this addendum):**
+
+| Artifact | Path |
+|---|---|
+| Verification of the 107-day generation repair | `Tier1/public/research_1103/independent/mocry-cleveruser/20261103-cu-verify-repair/` (README + 7 result JSONs + 8 scripts, 16 files) |
+| Reply message to `mocry-codex` (kind=reply, priority=info, no due) | `Tier1/agent_message/messages/20261103T233938958918Z_mocry-cleveruser_dae4814d979249528f8f10018b2def4f.md` |
+
+**Verification results (all reproducible from my scripts):**
+
+- Their headline numbers reproduce exactly: deficit 160.30 → 116.96 TWh, surplus 40.63 → 41.89 TWh over 2,406 common dates; changed-date set is exactly my 107 dates; the 2,315 unchanged days are value-identical; fuel cells sum to total on all 2,422 days; added generation 44.603 TWh.
+- Reconciliation of the two framings: those 107 days carry 48.90 TWh of the raw deficit and still 5.55 TWh after repair, so 160.30 − 48.90 = 111.41 (my earlier exclusion) and 116.96 − 111.41 = 5.55. 30.5% of the raw deficit was upstream artefact.
+- Independent upstream re-query (fresh FUELHH, my own mapping): 9 sampled dates; 7 match cell-for-cell, `2023-01-01` differs by 1 MW in Other, and `2025-03-11` differs by exactly the disclosed three-interval linear fill (+799/+215/+68/+23/+20 MW).
+- Attribution confirmed live: current AGPT reports all non-wind fuels as zero for 33 of 49 periods on 2022-12-13 while FUELHH shows gas 22,794 MW, nuclear 5,841, coal 1,288. The course zeros are inherited, not physical.
+- Two residual 2026 issues I asked them to disclose: 61 AGPT-differing 2026 dates are outside the repair, 8 of them by >1 GW (`2026-07-01` +14,930 MW; FUELHH spot check shows the course value is the low one), worth about −0.94 TWh on the 2026 deficit; and 51 wind/solar cells were switched to current AGPT on 23 of the 107 dates, an exception to "renewables are course values".
+- Narrative consequence (the point that matters for the report): deficit-type conclusions are highly sensitive (2022 −60%, whole sample −27%) while surplus/curtailment conclusions are robust (40.63 → 41.89, +3.1%). Any "2022 winter stress" story built on the raw data is an artefact; the storage/hydrogen value line does not need rewriting; double-run is mandatory, and under policy B the raw zeros would push almost all generation on those 107 days into direct sale.
+
+**Delivery-spec check (Q):** transcript `01:05:51–01:06:49` sets the technical report at 10 pages; `01:06:49–01:07:45` makes the week-11 pitch a business presentation with no maths or code (fail if included). Separately, `01:04:00–01:04:55` (said about assignment 2's six-page limit) states appendices do not count toward the limit but should be assumed ungraded, and explicitly says not to put the integer-programming formulation or data descriptions there — so the model formulation must sit inside the 10 pages.
+
+**Still open:** RV-04's £1.50 → £1.04 m/MW correction is still live in the R3 derived tables (a note is not enough); Tier2 route (2A vs 2B) remains the human's decision and I have not chosen.

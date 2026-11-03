@@ -1,0 +1,124 @@
+{
+  "date_keys": {
+    "orig_fuel": 2422,
+    "rep_fuel": 2422,
+    "orig_total": 2422,
+    "rep_total": 2422,
+    "same_fuel_keys": true,
+    "same_total_keys": true
+  },
+  "changed": {
+    "total_changed_count": 107,
+    "fuel_changed_count": 107,
+    "same_sets": true,
+    "only_in_repair": [],
+    "only_in_mine": [],
+    "changed_fuel_minus_total": []
+  },
+  "unchanged_rows_identical": true,
+  "repair_fuel_sum_vs_total_mismatches": {
+    "count": 0,
+    "examples": []
+  },
+  "renewables_changed_on_repaired_dates": {
+    "count": 54,
+    "examples": [
+      [
+        "2023-01-05",
+        "Solar",
+        0.0,
+        199.0
+      ],
+      [
+        "2023-01-05",
+        "Wind Offshore",
+        7470.0,
+        6140.0
+      ],
+      [
+        "2023-01-05",
+        "Wind Onshore",
+        3626.0,
+        5030.0
+      ],
+      [
+        "2026-06-30",
+        "Solar",
+        3267.0,
+        3233.0
+      ],
+      [
+        "2026-06-30",
+        "Wind Offshore",
+        1521.0,
+        1518.0
+      ]
+    ]
+  },
+  "totals_TWh": {
+    "common_days": 2406,
+    "original": {
+      "surplus": 40.63,
+      "deficit": 160.3
+    },
+    "repaired": {
+      "surplus": 41.89,
+      "deficit": 116.96
+    },
+    "original_minus_107_and_2022_08_02(keep=2298)": {
+      "surplus": 40.01,
+      "deficit": 111.41
+    }
+  },
+  "repaired_day_balance": {
+    "days_in_common": 107,
+    "orig_deficit_TWh": 48.9,
+    "orig_surplus_TWh": 0,
+    "rep_deficit_TWh": 5.55,
+    "rep_surplus_TWh": 1.26,
+    "rep_gen_vs_demand_ratio_min": 0.758,
+    "rep_gen_vs_demand_ratio_max": 1.217,
+    "days_still_short_after_repair": 77
+  },
+  "level_check": {
+    "Nuclear": {
+      "min": 2983.0,
+      "max": 5861.0,
+      "lowest3": [
+        2983.0,
+        2986.0,
+        2986.0
+      ],
+      "highest3": [
+        5853.0,
+        5857.0,
+        5861.0
+      ],
+      "zeros_remaining": 0
+    },
+    "Fossil Gas": {
+      "min": 2379.0,
+      "max": 22998.0,
+      "lowest3": [
+        2379.0,
+        2455.0,
+        2498.0
+      ],
+      "highest3": [
+        21045.0,
+        22794.0,
+        22998.0
+      ],
+      "zeros_remaining": 0
+    }
+  },
+  "remaining_all_zero_dates": {
+    "count": 0,
+    "examples": []
+  },
+  "demand_outlier_2022_08_02": {
+    "orig_gen": 25404.0,
+    "rep_gen": 25404.0,
+    "demand": 636.0
+  }
+}

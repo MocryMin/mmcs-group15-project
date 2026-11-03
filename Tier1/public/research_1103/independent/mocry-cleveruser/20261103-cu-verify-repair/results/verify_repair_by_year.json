@@ -1,0 +1,150 @@
+{
+  "per_year_TWh": {
+    "2020": {
+      "days": 356,
+      "raw_def": 9.511,
+      "raw_sur": 7.51,
+      "rep_def": 9.511,
+      "rep_sur": 7.51
+    },
+    "2021": {
+      "days": 359,
+      "raw_def": 13.655,
+      "raw_sur": 5.918,
+      "rep_def": 13.655,
+      "rep_sur": 5.918
+    },
+    "2022": {
+      "days": 350,
+      "raw_def": 29.514,
+      "raw_sur": 7.937,
+      "rep_def": 11.887,
+      "rep_sur": 8.188
+    },
+    "2023": {
+      "days": 365,
+      "raw_def": 35.04,
+      "raw_sur": 2.909,
+      "rep_def": 27.375,
+      "rep_sur": 3.058
+    },
+    "2024": {
+      "days": 366,
+      "raw_def": 41.757,
+      "raw_sur": 2.97,
+      "rep_def": 36.967,
+      "rep_sur": 3.144
+    },
+    "2025": {
+      "days": 365,
+      "raw_def": 16.83,
+      "raw_sur": 7.879,
+      "rep_def": 11.902,
+      "rep_sur": 8.189
+    },
+    "2026": {
+      "days": 260,
+      "raw_def": 15.856,
+      "raw_sur": 5.619,
+      "rep_def": 7.524,
+      "rep_sur": 5.996
+    }
+  },
+  "renewable_cells_changed_by_method": {
+    "FUELHH_plus_AGPT_renewable_full_day": {
+      "cells": 3,
+      "dates": 1,
+      "abs_sum_MW": 2933.0,
+      "max_abs_MW": 1404.0,
+      "examples": [
+        [
+          "2023-01-05",
+          "Solar",
+          0.0,
+          199.0
+        ],
+        [
+          "2023-01-05",
+          "Wind Offshore",
+          7470.0,
+          6140.0
+        ],
+        [
+          "2023-01-05",
+          "Wind Onshore",
+          3626.0,
+          5030.0
+        ]
+      ]
+    },
+    "AGPT_48_half_hours": {
+      "cells": 51,
+      "dates": 23,
+      "abs_sum_MW": 12824.0,
+      "max_abs_MW": 2251.0,
+      "examples": [
+        [
+          "2026-06-30",
+          "Solar",
+          3267.0,
+          3233.0
+        ],
+        [
+          "2026-06-30",
+          "Wind Offshore",
+          1521.0,
+          1518.0
+        ],
+        [
+          "2026-06-30",
+          "Wind Onshore",
+          1606.0,
+          1565.0
+        ]
+      ]
+    }
+  },
+  "agpt_2026_differences": {
+    "count": 87,
+    "columns": [
+      "UTC date",
+      "course total MW",
+      "current AGPT total MW",
+      "in this repair"
+    ],
+    "first3": [
+      [
+        "2026-05-31",
+        19967,
+        19954,
+        false
+      ],
+      [
+        "2026-06-01",
+        24519,
+        24674,
+        false
+      ],
+      [
+        "2026-06-02",
+        24122,
+        24030,
+        false
+      ]
+    ],
+    "in_107_set": 26
+  },
+  "repaired_dates_by_month": {
+    "2022-10": 1,
+    "2022-11": 2,
+    "2022-12": 31,
+    "2023-01": 11,
+    "2023-04": 7,
+    "2023-05": 3,
+    "2024-02": 12,
+    "2025-03": 14,
+    "2026-06": 1,
+    "2026-07": 22,
+    "2026-08": 3
+  }
+}

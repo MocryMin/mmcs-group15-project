@@ -1,0 +1,78 @@
+{
+  "2026_days": 260,
+  "repaired_2026": {
+    "surplus_TWh": 5.996,
+    "deficit_TWh": 7.524
+  },
+  "if_all_61_AGPT_totals_adopted": {
+    "surplus_TWh": 6.246,
+    "deficit_TWh": 6.555,
+    "n_dates": 61
+  },
+  "if_only_the_8_over_1GW_adopted": {
+    "surplus_TWh": 6.245,
+    "deficit_TWh": 6.588,
+    "n_dates": 8,
+    "dates": [
+      "2026-07-01",
+      "2026-07-09",
+      "2026-06-29",
+      "2026-08-04",
+      "2026-06-28",
+      "2026-06-27",
+      "2026-08-19",
+      "2026-06-17"
+    ]
+  },
+  "fuelhh_check_2026-07-01": {
+    "intervals": 48,
+    "dispatchable_mean_sum_MW": 17990.0,
+    "course_wind_solar_MW": 7751.0,
+    "implied_total_MW": 25741.0,
+    "course_total_MW": 11561.0,
+    "per_fuel": {
+      "Biomass": 1919.0,
+      "Fossil Gas": 11738.0,
+      "Fossil Hard coal": 0.0,
+      "Fossil Oil": 0.0,
+      "Hydro Pumped Storage": 112.0,
+      "Hydro Run-of-river and poundage": 340.0,
+      "Nuclear": 3003.0,
+      "Other": 878.0
+    }
+  },
+  "fuelhh_check_2026-07-09": {
+    "intervals": 48,
+    "dispatchable_mean_sum_MW": 18827.0,
+    "course_wind_solar_MW": 7805.0,
+    "implied_total_MW": 26632.0,
+    "course_total_MW": 16222.0,
+    "per_fuel": {
+      "Biomass": 1949.0,
+      "Fossil Gas": 12427.0,
+      "Fossil Hard coal": 0.0,
+      "Fossil Oil": 0.0,
+      "Hydro Pumped Storage": 240.0,
+      "Hydro Run-of-river and poundage": 366.0,
+      "Nuclear": 2996.0,
+      "Other": 849.0
+    }
+  },
+  "fuelhh_check_2026-06-29": {
+    "intervals": 48,
+    "dispatchable_mean_sum_MW": 16781.0,
+    "course_wind_solar_MW": 9962.0,
+    "implied_total_MW": 26743.0,
+    "course_total_MW": 16967.0,
+    "per_fuel": {
+      "Biomass": 1226.0,
+      "Fossil Gas": 10972.0,
+      "Fossil Hard coal": 0.0,
+      "Fossil Oil": 0.0,
+      "Hydro Pumped Storage": 398.0,
+      "Hydro Run-of-river and poundage": 275.0,
+      "Nuclear": 3003.0,
+      "Other": 907.0
+    }
+  }
+}

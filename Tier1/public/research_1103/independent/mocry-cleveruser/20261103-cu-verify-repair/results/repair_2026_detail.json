@@ -1,0 +1,738 @@
+{
+  "agpt_48_half_hours_dates": {
+    "2026-06-30": {
+      "total_delta_MW": 20903.0,
+      "sum_of_cell_deltas": 20903.0,
+      "renewable_cells": {
+        "Solar": -34.0,
+        "Wind Offshore": -3.0,
+        "Wind Onshore": -41.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1880.0,
+        "Fossil Gas": 14655.0,
+        "Hydro Pumped Storage": 294.0,
+        "Hydro Run-of-river and poundage": 377.0,
+        "Nuclear": 3007.0,
+        "Other": 768.0,
+        "Solar": -34.0,
+        "Wind Offshore": -3.0,
+        "Wind Onshore": -41.0
+      }
+    },
+    "2026-07-10": {
+      "total_delta_MW": 18767.0,
+      "sum_of_cell_deltas": 18767.0,
+      "renewable_cells": {
+        "Solar": -52.0,
+        "Wind Offshore": 112.0,
+        "Wind Onshore": 24.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2009.0,
+        "Fossil Gas": 12389.0,
+        "Hydro Pumped Storage": 185.0,
+        "Hydro Run-of-river and poundage": 359.0,
+        "Nuclear": 2994.0,
+        "Other": 747.0,
+        "Solar": -52.0,
+        "Wind Offshore": 112.0,
+        "Wind Onshore": 24.0
+      }
+    },
+    "2026-07-11": {
+      "total_delta_MW": 12832.0,
+      "sum_of_cell_deltas": 12832.0,
+      "renewable_cells": {
+        "Solar": -51.0,
+        "Wind Offshore": 174.0,
+        "Wind Onshore": 69.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1623.0,
+        "Fossil Gas": 6897.0,
+        "Hydro Pumped Storage": 88.0,
+        "Hydro Run-of-river and poundage": 397.0,
+        "Nuclear": 2991.0,
+        "Other": 644.0,
+        "Solar": -51.0,
+        "Wind Offshore": 174.0,
+        "Wind Onshore": 69.0
+      }
+    },
+    "2026-07-12": {
+      "total_delta_MW": 9144.0,
+      "sum_of_cell_deltas": 9144.0,
+      "renewable_cells": {
+        "Solar": -52.0,
+        "Wind Offshore": 30.0,
+        "Wind Onshore": 28.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1629.0,
+        "Fossil Gas": 3583.0,
+        "Hydro Pumped Storage": 64.0,
+        "Hydro Run-of-river and poundage": 296.0,
+        "Nuclear": 2990.0,
+        "Other": 576.0,
+        "Solar": -52.0,
+        "Wind Offshore": 30.0,
+        "Wind Onshore": 28.0
+      }
+    },
+    "2026-07-14": {
+      "total_delta_MW": 14025.0,
+      "sum_of_cell_deltas": 14025.0,
+      "renewable_cells": {
+        "Solar": -43.0,
+        "Wind Offshore": -82.0,
+        "Wind Onshore": -23.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2449.0,
+        "Fossil Gas": 7226.0,
+        "Hydro Pumped Storage": 229.0,
+        "Hydro Run-of-river and poundage": 389.0,
+        "Nuclear": 3121.0,
+        "Other": 759.0,
+        "Solar": -43.0,
+        "Wind Offshore": -82.0,
+        "Wind Onshore": -23.0
+      }
+    },
+    "2026-07-15": {
+      "total_delta_MW": 17522.0,
+      "sum_of_cell_deltas": 17522.0,
+      "renewable_cells": {
+        "Solar": 124.0,
+        "Wind Offshore": -50.0,
+        "Wind Onshore": -33.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2599.0,
+        "Fossil Gas": 10230.0,
+        "Hydro Pumped Storage": 154.0,
+        "Hydro Run-of-river and poundage": 285.0,
+        "Nuclear": 3462.0,
+        "Other": 751.0,
+        "Solar": 124.0,
+        "Wind Offshore": -50.0,
+        "Wind Onshore": -33.0
+      }
+    },
+    "2026-07-16": {
+      "total_delta_MW": 19216.0,
+      "sum_of_cell_deltas": 19216.0,
+      "renewable_cells": {
+        "Solar": -50.0,
+        "Wind Onshore": 2.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2627.0,
+        "Fossil Gas": 11537.0,
+        "Hydro Pumped Storage": 262.0,
+        "Hydro Run-of-river and poundage": 349.0,
+        "Nuclear": 3462.0,
+        "Other": 1027.0,
+        "Solar": -50.0,
+        "Wind Onshore": 2.0
+      }
+    },
+    "2026-07-17": {
+      "total_delta_MW": 16868.0,
+      "sum_of_cell_deltas": 16868.0,
+      "renewable_cells": {
+        "Solar": -52.0,
+        "Wind Onshore": 3.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2554.0,
+        "Fossil Gas": 9681.0,
+        "Hydro Pumped Storage": 155.0,
+        "Hydro Run-of-river and poundage": 273.0,
+        "Nuclear": 3462.0,
+        "Other": 792.0,
+        "Solar": -52.0,
+        "Wind Onshore": 3.0
+      }
+    },
+    "2026-07-18": {
+      "total_delta_MW": 9088.0,
+      "sum_of_cell_deltas": 9088.0,
+      "renewable_cells": {
+        "Solar": -33.0,
+        "Wind Onshore": 2.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1688.0,
+        "Fossil Gas": 2868.0,
+        "Hydro Pumped Storage": 146.0,
+        "Hydro Run-of-river and poundage": 201.0,
+        "Nuclear": 3462.0,
+        "Other": 754.0,
+        "Solar": -33.0,
+        "Wind Onshore": 2.0
+      }
+    },
+    "2026-07-20": {
+      "total_delta_MW": 12659.0,
+      "sum_of_cell_deltas": 12658.0,
+      "renewable_cells": {
+        "Solar": -44.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2211.0,
+        "Fossil Gas": 5775.0,
+        "Hydro Pumped Storage": 127.0,
+        "Hydro Run-of-river and poundage": 290.0,
+        "Nuclear": 3457.0,
+        "Other": 842.0,
+        "Solar": -44.0
+      }
+    },
+    "2026-07-21": {
+      "total_delta_MW": 14375.0,
+      "sum_of_cell_deltas": 14375.0,
+      "renewable_cells": {
+        "Solar": -35.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2454.0,
+        "Fossil Gas": 7343.0,
+        "Hydro Pumped Storage": 193.0,
+        "Hydro Run-of-river and poundage": 252.0,
+        "Nuclear": 3457.0,
+        "Other": 711.0,
+        "Solar": -35.0
+      }
+    },
+    "2026-07-22": {
+      "total_delta_MW": 13978.0,
+      "sum_of_cell_deltas": 13978.0,
+      "renewable_cells": {
+        "Solar": -37.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2496.0,
+        "Fossil Gas": 6837.0,
+        "Hydro Pumped Storage": 191.0,
+        "Hydro Run-of-river and poundage": 315.0,
+        "Nuclear": 3462.0,
+        "Other": 714.0,
+        "Solar": -37.0
+      }
+    },
+    "2026-07-23": {
+      "total_delta_MW": 13961.0,
+      "sum_of_cell_deltas": 13961.0,
+      "renewable_cells": {
+        "Solar": -31.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2565.0,
+        "Fossil Gas": 6840.0,
+        "Hydro Pumped Storage": 137.0,
+        "Hydro Run-of-river and poundage": 291.0,
+        "Nuclear": 3461.0,
+        "Other": 698.0,
+        "Solar": -31.0
+      }
+    },
+    "2026-07-24": {
+      "total_delta_MW": 13067.0,
+      "sum_of_cell_deltas": 13067.0,
+      "renewable_cells": {
+        "Solar": -48.0,
+        "Wind Offshore": 78.0,
+        "Wind Onshore": 137.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2249.0,
+        "Fossil Gas": 5868.0,
+        "Hydro Pumped Storage": 224.0,
+        "Hydro Run-of-river and poundage": 241.0,
+        "Nuclear": 3457.0,
+        "Other": 861.0,
+        "Solar": -48.0,
+        "Wind Offshore": 78.0,
+        "Wind Onshore": 137.0
+      }
+    },
+    "2026-07-25": {
+      "total_delta_MW": 9080.0,
+      "sum_of_cell_deltas": 9080.0,
+      "renewable_cells": {
+        "Solar": -47.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1755.0,
+        "Fossil Gas": 3183.0,
+        "Hydro Pumped Storage": 168.0,
+        "Hydro Run-of-river and poundage": 191.0,
+        "Nuclear": 3146.0,
+        "Other": 684.0,
+        "Solar": -47.0
+      }
+    },
+    "2026-07-27": {
+      "total_delta_MW": 12265.0,
+      "sum_of_cell_deltas": 12265.0,
+      "renewable_cells": {
+        "Solar": -34.0,
+        "Wind Offshore": 860.0,
+        "Wind Onshore": 342.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2393.0,
+        "Fossil Gas": 4393.0,
+        "Hydro Pumped Storage": 236.0,
+        "Hydro Run-of-river and poundage": 217.0,
+        "Nuclear": 2986.0,
+        "Other": 872.0,
+        "Solar": -34.0,
+        "Wind Offshore": 860.0,
+        "Wind Onshore": 342.0
+      }
+    },
+    "2026-07-28": {
+      "total_delta_MW": 14297.0,
+      "sum_of_cell_deltas": 14297.0,
+      "renewable_cells": {
+        "Solar": -41.0,
+        "Wind Offshore": 1333.0,
+        "Wind Onshore": 915.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2215.0,
+        "Fossil Gas": 5485.0,
+        "Hydro Pumped Storage": 189.0,
+        "Hydro Run-of-river and poundage": 212.0,
+        "Nuclear": 2983.0,
+        "Other": 1006.0,
+        "Solar": -41.0,
+        "Wind Offshore": 1333.0,
+        "Wind Onshore": 915.0
+      }
+    },
+    "2026-07-29": {
+      "total_delta_MW": 17352.0,
+      "sum_of_cell_deltas": 17352.0,
+      "renewable_cells": {
+        "Solar": -47.0,
+        "Wind Offshore": 971.0,
+        "Wind Onshore": 253.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2598.0,
+        "Fossil Gas": 9371.0,
+        "Hydro Pumped Storage": 222.0,
+        "Hydro Run-of-river and poundage": 233.0,
+        "Nuclear": 2999.0,
+        "Other": 752.0,
+        "Solar": -47.0,
+        "Wind Offshore": 971.0,
+        "Wind Onshore": 253.0
+      }
+    },
+    "2026-07-30": {
+      "total_delta_MW": 19972.0,
+      "sum_of_cell_deltas": 19972.0,
+      "renewable_cells": {
+        "Solar": -30.0,
+        "Wind Offshore": 1936.0,
+        "Wind Onshore": 2251.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2612.0,
+        "Fossil Gas": 8506.0,
+        "Hydro Pumped Storage": 161.0,
+        "Hydro Run-of-river and poundage": 173.0,
+        "Nuclear": 3596.0,
+        "Other": 767.0,
+        "Solar": -30.0,
+        "Wind Offshore": 1936.0,
+        "Wind Onshore": 2251.0
+      }
+    },
+    "2026-07-31": {
+      "total_delta_MW": 17304.0,
+      "sum_of_cell_deltas": 17304.0,
+      "renewable_cells": {
+        "Solar": -40.0,
+        "Wind Offshore": 1381.0,
+        "Wind Onshore": 640.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2327.0,
+        "Fossil Gas": 8404.0,
+        "Hydro Pumped Storage": 126.0,
+        "Hydro Run-of-river and poundage": 197.0,
+        "Nuclear": 3434.0,
+        "Other": 835.0,
+        "Solar": -40.0,
+        "Wind Offshore": 1381.0,
+        "Wind Onshore": 640.0
+      }
+    },
+    "2026-08-01": {
+      "total_delta_MW": 11438.0,
+      "sum_of_cell_deltas": 11438.0,
+      "renewable_cells": {
+        "Solar": -38.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 1783.0,
+        "Fossil Gas": 5351.0,
+        "Hydro Pumped Storage": 113.0,
+        "Hydro Run-of-river and poundage": 167.0,
+        "Nuclear": 3346.0,
+        "Other": 716.0,
+        "Solar": -38.0
+      }
+    },
+    "2026-08-02": {
+      "total_delta_MW": 12297.0,
+      "sum_of_cell_deltas": 12297.0,
+      "renewable_cells": {
+        "Solar": -41.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2536.0,
+        "Fossil Gas": 5414.0,
+        "Hydro Pumped Storage": 121.0,
+        "Hydro Run-of-river and poundage": 277.0,
+        "Nuclear": 3374.0,
+        "Other": 616.0,
+        "Solar": -41.0
+      }
+    },
+    "2026-08-03": {
+      "total_delta_MW": 13466.0,
+      "sum_of_cell_deltas": 13466.0,
+      "renewable_cells": {
+        "Solar": -46.0
+      },
+      "all_cell_deltas": {
+        "Biomass": 2556.0,
+        "Fossil Gas": 6358.0,
+        "Hydro Pumped Storage": 150.0,
+        "Hydro Run-of-river and poundage": 236.0,
+        "Nuclear": 3449.0,
+        "Other": 763.0,
+        "Solar": -46.0
+      }
+    }
+  },
+  "worst_cells": [
+    {
+      "date": "2026-07-30",
+      "fuel": "Wind Onshore",
+      "delta_MW": 2251.0,
+      "total_delta_MW": 19972.0
+    },
+    {
+      "date": "2026-07-30",
+      "fuel": "Wind Offshore",
+      "delta_MW": 1936.0,
+      "total_delta_MW": 19972.0
+    },
+    {
+      "date": "2026-07-31",
+      "fuel": "Wind Offshore",
+      "delta_MW": 1381.0,
+      "total_delta_MW": 17304.0
+    },
+    {
+      "date": "2026-07-28",
+      "fuel": "Wind Offshore",
+      "delta_MW": 1333.0,
+      "total_delta_MW": 14297.0
+    },
+    {
+      "date": "2026-07-29",
+      "fuel": "Wind Offshore",
+      "delta_MW": 971.0,
+      "total_delta_MW": 17352.0
+    },
+    {
+      "date": "2026-07-28",
+      "fuel": "Wind Onshore",
+      "delta_MW": 915.0,
+      "total_delta_MW": 14297.0
+    },
+    {
+      "date": "2026-07-27",
+      "fuel": "Wind Offshore",
+      "delta_MW": 860.0,
+      "total_delta_MW": 12265.0
+    },
+    {
+      "date": "2026-07-31",
+      "fuel": "Wind Onshore",
+      "delta_MW": 640.0,
+      "total_delta_MW": 17304.0
+    },
+    {
+      "date": "2026-07-27",
+      "fuel": "Wind Onshore",
+      "delta_MW": 342.0,
+      "total_delta_MW": 12265.0
+    },
+    {
+      "date": "2026-07-29",
+      "fuel": "Wind Onshore",
+      "delta_MW": 253.0,
+      "total_delta_MW": 17352.0
+    },
+    {
+      "date": "2026-07-11",
+      "fuel": "Wind Offshore",
+      "delta_MW": 174.0,
+      "total_delta_MW": 12832.0
+    },
+    {
+      "date": "2026-07-24",
+      "fuel": "Wind Onshore",
+      "delta_MW": 137.0,
+      "total_delta_MW": 13067.0
+    },
+    {
+      "date": "2026-07-15",
+      "fuel": "Solar",
+      "delta_MW": 124.0,
+      "total_delta_MW": 17522.0
+    },
+    {
+      "date": "2026-07-10",
+      "fuel": "Wind Offshore",
+      "delta_MW": 112.0,
+      "total_delta_MW": 18767.0
+    },
+    {
+      "date": "2026-07-14",
+      "fuel": "Wind Offshore",
+      "delta_MW": -82.0,
+      "total_delta_MW": 14025.0
+    },
+    {
+      "date": "2026-07-24",
+      "fuel": "Wind Offshore",
+      "delta_MW": 78.0,
+      "total_delta_MW": 13067.0
+    },
+    {
+      "date": "2026-07-11",
+      "fuel": "Wind Onshore",
+      "delta_MW": 69.0,
+      "total_delta_MW": 12832.0
+    },
+    {
+      "date": "2026-07-10",
+      "fuel": "Solar",
+      "delta_MW": -52.0,
+      "total_delta_MW": 18767.0
+    },
+    {
+      "date": "2026-07-12",
+      "fuel": "Solar",
+      "delta_MW": -52.0,
+      "total_delta_MW": 9144.0
+    },
+    {
+      "date": "2026-07-17",
+      "fuel": "Solar",
+      "delta_MW": -52.0,
+      "total_delta_MW": 16868.0
+    },
+    {
+      "date": "2026-07-11",
+      "fuel": "Solar",
+      "delta_MW": -51.0,
+      "total_delta_MW": 12832.0
+    },
+    {
+      "date": "2026-07-15",
+      "fuel": "Wind Offshore",
+      "delta_MW": -50.0,
+      "total_delta_MW": 17522.0
+    },
+    {
+      "date": "2026-07-16",
+      "fuel": "Solar",
+      "delta_MW": -50.0,
+      "total_delta_MW": 19216.0
+    },
+    {
+      "date": "2026-07-24",
+      "fuel": "Solar",
+      "delta_MW": -48.0,
+      "total_delta_MW": 13067.0
+    },
+    {
+      "date": "2026-07-25",
+      "fuel": "Solar",
+      "delta_MW": -47.0,
+      "total_delta_MW": 9080.0
+    },
+    {
+      "date": "2026-07-29",
+      "fuel": "Solar",
+      "delta_MW": -47.0,
+      "total_delta_MW": 17352.0
+    },
+    {
+      "date": "2026-08-03",
+      "fuel": "Solar",
+      "delta_MW": -46.0,
+      "total_delta_MW": 13466.0
+    },
+    {
+      "date": "2026-07-20",
+      "fuel": "Solar",
+      "delta_MW": -44.0,
+      "total_delta_MW": 12659.0
+    },
+    {
+      "date": "2026-07-14",
+      "fuel": "Solar",
+      "delta_MW": -43.0,
+      "total_delta_MW": 14025.0
+    },
+    {
+      "date": "2026-06-30",
+      "fuel": "Wind Onshore",
+      "delta_MW": -41.0,
+      "total_delta_MW": 20903.0
+    },
+    {
+      "date": "2026-07-28",
+      "fuel": "Solar",
+      "delta_MW": -41.0,
+      "total_delta_MW": 14297.0
+    },
+    {
+      "date": "2026-08-02",
+      "fuel": "Solar",
+      "delta_MW": -41.0,
+      "total_delta_MW": 12297.0
+    },
+    {
+      "date": "2026-07-31",
+      "fuel": "Solar",
+      "delta_MW": -40.0,
+      "total_delta_MW": 17304.0
+    },
+    {
+      "date": "2026-08-01",
+      "fuel": "Solar",
+      "delta_MW": -38.0,
+      "total_delta_MW": 11438.0
+    },
+    {
+      "date": "2026-07-22",
+      "fuel": "Solar",
+      "delta_MW": -37.0,
+      "total_delta_MW": 13978.0
+    },
+    {
+      "date": "2026-07-21",
+      "fuel": "Solar",
+      "delta_MW": -35.0,
+      "total_delta_MW": 14375.0
+    },
+    {
+      "date": "2026-06-30",
+      "fuel": "Solar",
+      "delta_MW": -34.0,
+      "total_delta_MW": 20903.0
+    },
+    {
+      "date": "2026-07-27",
+      "fuel": "Solar",
+      "delta_MW": -34.0,
+      "total_delta_MW": 12265.0
+    },
+    {
+      "date": "2026-07-15",
+      "fuel": "Wind Onshore",
+      "delta_MW": -33.0,
+      "total_delta_MW": 17522.0
+    },
+    {
+      "date": "2026-07-18",
+      "fuel": "Solar",
+      "delta_MW": -33.0,
+      "total_delta_MW": 9088.0
+    },
+    {
+      "date": "2026-07-23",
+      "fuel": "Solar",
+      "delta_MW": -31.0,
+      "total_delta_MW": 13961.0
+    },
+    {
+      "date": "2026-07-12",
+      "fuel": "Wind Offshore",
+      "delta_MW": 30.0,
+      "total_delta_MW": 9144.0
+    },
+    {
+      "date": "2026-07-30",
+      "fuel": "Solar",
+      "delta_MW": -30.0,
+      "total_delta_MW": 19972.0
+    },
+    {
+      "date": "2026-07-12",
+      "fuel": "Wind Onshore",
+      "delta_MW": 28.0,
+      "total_delta_MW": 9144.0
+    },
+    {
+      "date": "2026-07-10",
+      "fuel": "Wind Onshore",
+      "delta_MW": 24.0,
+      "total_delta_MW": 18767.0
+    },
+    {
+      "date": "2026-07-14",
+      "fuel": "Wind Onshore",
+      "delta_MW": -23.0,
+      "total_delta_MW": 14025.0
+    },
+    {
+      "date": "2026-06-30",
+      "fuel": "Wind Offshore",
+      "delta_MW": -3.0,
+      "total_delta_MW": 20903.0
+    },
+    {
+      "date": "2026-07-17",
+      "fuel": "Wind Onshore",
+      "delta_MW": 3.0,
+      "total_delta_MW": 16868.0
+    },
+    {
+      "date": "2026-07-16",
+      "fuel": "Wind Onshore",
+      "delta_MW": 2.0,
+      "total_delta_MW": 19216.0
+    },
+    {
+      "date": "2026-07-18",
+      "fuel": "Wind Onshore",
+      "delta_MW": 2.0,
+      "total_delta_MW": 9088.0
+    }
+  ],
+  "non_repaired_2026_differences": {
+    "count": 61,
+    "abs_gap_MW_min": 5.0,
+    "abs_gap_MW_median": 117.0,
+    "abs_gap_MW_max": 14930.0,
+    "dates_first_last": [
+      "2026-05-31",
+      "2026-08-25"
+    ]
+  }
+}

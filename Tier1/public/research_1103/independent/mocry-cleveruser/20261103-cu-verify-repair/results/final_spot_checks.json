@@ -1,0 +1,109 @@
+{
+  "fuelhh_2025_03_11_window": [
+    {
+      "utc": "09:30",
+      "CCGT": 14453,
+      "OCGT": 0,
+      "NUCLEAR": 3633,
+      "BIOMASS": 1141,
+      "NPSHYD": 429,
+      "PS": -22,
+      "OTHER": 412,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "10:00",
+      "CCGT": 13648,
+      "OCGT": 0,
+      "NUCLEAR": 3633,
+      "BIOMASS": 1143,
+      "NPSHYD": 387,
+      "PS": -24,
+      "OTHER": 328,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "10:30",
+      "CCGT": 0,
+      "OCGT": 0,
+      "NUCLEAR": 0,
+      "BIOMASS": 0,
+      "NPSHYD": 0,
+      "PS": 0,
+      "OTHER": 0,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "11:00",
+      "CCGT": 0,
+      "OCGT": 0,
+      "NUCLEAR": 0,
+      "BIOMASS": 0,
+      "NPSHYD": 0,
+      "PS": 0,
+      "OTHER": 0,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "11:30",
+      "CCGT": 2223,
+      "OCGT": 0,
+      "NUCLEAR": 606,
+      "BIOMASS": 191,
+      "NPSHYD": 64,
+      "PS": -4,
+      "OTHER": 64,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "12:00",
+      "CCGT": 13412,
+      "OCGT": 0,
+      "NUCLEAR": 3638,
+      "BIOMASS": 1145,
+      "NPSHYD": 384,
+      "PS": -26,
+      "OTHER": 337,
+      "COAL": 0,
+      "OIL": 0
+    },
+    {
+      "utc": "12:30",
+      "CCGT": 13790,
+      "OCGT": 0,
+      "NUCLEAR": 3642,
+      "BIOMASS": 1144,
+      "NPSHYD": 381,
+      "PS": -26,
+      "OTHER": 345,
+      "COAL": 0,
+      "OIL": 0
+    }
+  ],
+  "agpt_2022_12_13": {
+    "periods": 49,
+    "periods_all_nonwind_zero": 33,
+    "max_nonzero_nonwind_by_fuel": {
+      "Solar": 1178.0
+    },
+    "sample_period": "2022-12-13T00:00:00Z",
+    "sample_vals": {
+      "Biomass": 0.0,
+      "Fossil Gas": 0.0,
+      "Fossil Hard coal": 0.0,
+      "Fossil Oil": 0.0,
+      "Hydro Pumped Storage": 0.0,
+      "Hydro Run-of-river and poundage": 0.0,
+      "Nuclear": 0.0,
+      "Other": 0.0,
+      "Solar": 0.0,
+      "Wind Offshore": 1184.553,
+      "Wind Onshore": 711.744
+    }
+  }
+}

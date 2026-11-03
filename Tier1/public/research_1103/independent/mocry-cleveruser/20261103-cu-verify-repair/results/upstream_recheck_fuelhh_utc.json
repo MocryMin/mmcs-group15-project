@@ -1,0 +1,516 @@
+{
+  "fuelhh_fields": [
+    "dataset",
+    "fuelType",
+    "generation",
+    "publishTime",
+    "settlementDate",
+    "settlementPeriod",
+    "startTime"
+  ],
+  "sample": [
+    "2022-10-17",
+    "2022-12-13",
+    "2022-12-28",
+    "2023-04-24",
+    "2024-02-13",
+    "2025-03-26",
+    "2023-01-01",
+    "2025-03-11",
+    "2026-07-13"
+  ],
+  "dates": {
+    "2022-10-17": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 1622.0,
+          "them": 1622.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 10401.0,
+          "them": 10401.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 122.0,
+          "them": 122.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 567.0,
+          "them": 567.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 4430.0,
+          "them": 4430.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 251.0,
+          "them": 251.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2022-12-13": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 2418.0,
+          "them": 2418.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 22794.0,
+          "them": 22794.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 1288.0,
+          "them": 1288.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 504.0,
+          "them": 504.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 383.0,
+          "them": 383.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 5841.0,
+          "them": 5841.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 615.0,
+          "them": 615.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2022-12-28": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 1534.0,
+          "them": 1534.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 3233.0,
+          "them": 3233.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 309.0,
+          "them": 309.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 447.0,
+          "them": 447.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 448.0,
+          "them": 448.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 5684.0,
+          "them": 5684.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 281.0,
+          "them": 281.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2023-04-24": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 1377.0,
+          "them": 1377.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 10124.0,
+          "them": 10124.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 144.0,
+          "them": 144.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 227.0,
+          "them": 227.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 4150.0,
+          "them": 4150.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 334.0,
+          "them": 334.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2024-02-13": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 2012.0,
+          "them": 2012.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 11530.0,
+          "them": 11530.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 247.0,
+          "them": 247.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 2.0,
+          "them": 2.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 198.0,
+          "them": 198.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 552.0,
+          "them": 552.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 3784.0,
+          "them": 3784.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 323.0,
+          "them": 323.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2025-03-26": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 1051.0,
+          "them": 1051.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 12722.0,
+          "them": 12722.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 217.0,
+          "them": 217.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 202.0,
+          "them": 202.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 3655.0,
+          "them": 3655.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 492.0,
+          "them": 492.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    },
+    "2023-01-01": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 928.0,
+          "them": 928.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 4655.0,
+          "them": 4655.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 678.0,
+          "them": 678.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 264.0,
+          "them": 264.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 563.0,
+          "them": 563.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 5719.0,
+          "them": 5719.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 234.0,
+          "them": 235.0,
+          "d": -1.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 1.0
+    },
+    "2025-03-11": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 1077.0,
+          "them": 1145.0,
+          "d": -68.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 12460.0,
+          "them": 13259.0,
+          "d": -799.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 193.0,
+          "them": 193.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 386.0,
+          "them": 409.0,
+          "d": -23.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 3423.0,
+          "them": 3638.0,
+          "d": -215.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 438.0,
+          "them": 458.0,
+          "d": -20.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 799.0,
+      "zero_intervals": {
+        "CCGT": 2,
+        "NUCLEAR": 2,
+        "OCGT": 33
+      }
+    },
+    "2026-07-13": {
+      "utc_intervals": 48,
+      "cmp": {
+        "Biomass": {
+          "me": 2353.0,
+          "them": 2353.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Gas": {
+          "me": 5713.0,
+          "them": 5713.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Hard coal": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Fossil Oil": {
+          "me": 0.0,
+          "them": 0.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Pumped Storage": {
+          "me": 162.0,
+          "them": 162.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Hydro Run-of-river and poundage": {
+          "me": 385.0,
+          "them": 385.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Nuclear": {
+          "me": 2990.0,
+          "them": 2990.0,
+          "d": 0.0,
+          "n": 48
+        },
+        "Other": {
+          "me": 732.0,
+          "them": 732.0,
+          "d": 0.0,
+          "n": 48
+        }
+      },
+      "max_abs_delta_MW": 0.0
+    }
+  },
+  "max_abs_delta_overall_MW": 799.0
+}

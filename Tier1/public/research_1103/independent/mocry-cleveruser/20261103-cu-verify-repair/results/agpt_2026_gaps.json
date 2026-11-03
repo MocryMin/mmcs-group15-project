@@ -1,0 +1,611 @@
+[
+ {
+  "date": "2026-06-30",
+  "course_total_MW": 6394.0,
+  "current_agpt_total_MW": 27297.0,
+  "delta_MW": 20903.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-30",
+  "course_total_MW": 4540.0,
+  "current_agpt_total_MW": 24512.0,
+  "delta_MW": 19972.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-16",
+  "course_total_MW": 8280.0,
+  "current_agpt_total_MW": 27496.0,
+  "delta_MW": 19216.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-10",
+  "course_total_MW": 7804.0,
+  "current_agpt_total_MW": 26571.0,
+  "delta_MW": 18767.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-15",
+  "course_total_MW": 9879.0,
+  "current_agpt_total_MW": 27401.0,
+  "delta_MW": 17522.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-29",
+  "course_total_MW": 7798.0,
+  "current_agpt_total_MW": 25150.0,
+  "delta_MW": 17352.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-31",
+  "course_total_MW": 6853.0,
+  "current_agpt_total_MW": 24157.0,
+  "delta_MW": 17304.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-17",
+  "course_total_MW": 8962.0,
+  "current_agpt_total_MW": 25830.0,
+  "delta_MW": 16868.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-01",
+  "course_total_MW": 11561.0,
+  "current_agpt_total_MW": 26491.0,
+  "delta_MW": 14930.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-21",
+  "course_total_MW": 8627.0,
+  "current_agpt_total_MW": 23002.0,
+  "delta_MW": 14375.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-28",
+  "course_total_MW": 9948.0,
+  "current_agpt_total_MW": 24245.0,
+  "delta_MW": 14297.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-14",
+  "course_total_MW": 12416.0,
+  "current_agpt_total_MW": 26441.0,
+  "delta_MW": 14025.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-22",
+  "course_total_MW": 8867.0,
+  "current_agpt_total_MW": 22845.0,
+  "delta_MW": 13978.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-23",
+  "course_total_MW": 8494.0,
+  "current_agpt_total_MW": 22455.0,
+  "delta_MW": 13961.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-08-03",
+  "course_total_MW": 11005.0,
+  "current_agpt_total_MW": 24471.0,
+  "delta_MW": 13466.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-24",
+  "course_total_MW": 11248.0,
+  "current_agpt_total_MW": 24315.0,
+  "delta_MW": 13067.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-11",
+  "course_total_MW": 9823.0,
+  "current_agpt_total_MW": 22655.0,
+  "delta_MW": 12832.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-13",
+  "course_total_MW": 12881.0,
+  "current_agpt_total_MW": 25577.0,
+  "delta_MW": 12696.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-20",
+  "course_total_MW": 8331.0,
+  "current_agpt_total_MW": 20990.0,
+  "delta_MW": 12659.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-08-02",
+  "course_total_MW": 7264.0,
+  "current_agpt_total_MW": 19561.0,
+  "delta_MW": 12297.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-27",
+  "course_total_MW": 9070.0,
+  "current_agpt_total_MW": 21335.0,
+  "delta_MW": 12265.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-08-01",
+  "course_total_MW": 9520.0,
+  "current_agpt_total_MW": 20958.0,
+  "delta_MW": 11438.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-09",
+  "course_total_MW": 16222.0,
+  "current_agpt_total_MW": 26570.0,
+  "delta_MW": 10348.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-29",
+  "course_total_MW": 16967.0,
+  "current_agpt_total_MW": 26400.0,
+  "delta_MW": 9433.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-12",
+  "course_total_MW": 13379.0,
+  "current_agpt_total_MW": 22523.0,
+  "delta_MW": 9144.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-18",
+  "course_total_MW": 11518.0,
+  "current_agpt_total_MW": 20606.0,
+  "delta_MW": 9088.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-25",
+  "course_total_MW": 14875.0,
+  "current_agpt_total_MW": 23955.0,
+  "delta_MW": 9080.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-19",
+  "course_total_MW": 11606.0,
+  "current_agpt_total_MW": 20575.0,
+  "delta_MW": 8969.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-07-26",
+  "course_total_MW": 14661.0,
+  "current_agpt_total_MW": 22578.0,
+  "delta_MW": 7917.0,
+  "in_repair": true
+ },
+ {
+  "date": "2026-08-04",
+  "course_total_MW": 21181.0,
+  "current_agpt_total_MW": 26678.0,
+  "delta_MW": 5497.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-28",
+  "course_total_MW": 20972.0,
+  "current_agpt_total_MW": 25228.0,
+  "delta_MW": 4256.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-27",
+  "course_total_MW": 24613.0,
+  "current_agpt_total_MW": 27143.0,
+  "delta_MW": 2530.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-19",
+  "course_total_MW": 24231.0,
+  "current_agpt_total_MW": 25466.0,
+  "delta_MW": 1235.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-17",
+  "course_total_MW": 24240.0,
+  "current_agpt_total_MW": 25381.0,
+  "delta_MW": 1141.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-04",
+  "course_total_MW": 22999.0,
+  "current_agpt_total_MW": 23830.0,
+  "delta_MW": 831.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-18",
+  "course_total_MW": 29217.0,
+  "current_agpt_total_MW": 29994.0,
+  "delta_MW": 777.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-07",
+  "course_total_MW": 23425.0,
+  "current_agpt_total_MW": 23887.0,
+  "delta_MW": 462.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-24",
+  "course_total_MW": 22679.0,
+  "current_agpt_total_MW": 23136.0,
+  "delta_MW": 457.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-25",
+  "course_total_MW": 30771.0,
+  "current_agpt_total_MW": 31177.0,
+  "delta_MW": 406.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-11",
+  "course_total_MW": 24813.0,
+  "current_agpt_total_MW": 25218.0,
+  "delta_MW": 405.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-14",
+  "course_total_MW": 19876.0,
+  "current_agpt_total_MW": 19471.0,
+  "delta_MW": -405.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-05",
+  "course_total_MW": 24357.0,
+  "current_agpt_total_MW": 23982.0,
+  "delta_MW": -375.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-02",
+  "course_total_MW": 29685.0,
+  "current_agpt_total_MW": 29319.0,
+  "delta_MW": -366.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-03",
+  "course_total_MW": 23207.0,
+  "current_agpt_total_MW": 23558.0,
+  "delta_MW": 351.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-04",
+  "course_total_MW": 23667.0,
+  "current_agpt_total_MW": 23943.0,
+  "delta_MW": 276.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-26",
+  "course_total_MW": 31113.0,
+  "current_agpt_total_MW": 30848.0,
+  "delta_MW": -265.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-08",
+  "course_total_MW": 24770.0,
+  "current_agpt_total_MW": 24526.0,
+  "delta_MW": -244.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-16",
+  "course_total_MW": 25337.0,
+  "current_agpt_total_MW": 25577.0,
+  "delta_MW": 240.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-19",
+  "course_total_MW": 26159.0,
+  "current_agpt_total_MW": 25924.0,
+  "delta_MW": -235.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-13",
+  "course_total_MW": 26175.0,
+  "current_agpt_total_MW": 25942.0,
+  "delta_MW": -233.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-24",
+  "course_total_MW": 30340.0,
+  "current_agpt_total_MW": 30149.0,
+  "delta_MW": -191.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-03",
+  "course_total_MW": 21788.0,
+  "current_agpt_total_MW": 21608.0,
+  "delta_MW": -180.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-01",
+  "course_total_MW": 24519.0,
+  "current_agpt_total_MW": 24674.0,
+  "delta_MW": 155.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-09",
+  "course_total_MW": 21644.0,
+  "current_agpt_total_MW": 21791.0,
+  "delta_MW": 147.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-20",
+  "course_total_MW": 21948.0,
+  "current_agpt_total_MW": 21818.0,
+  "delta_MW": -130.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-10",
+  "course_total_MW": 24617.0,
+  "current_agpt_total_MW": 24494.0,
+  "delta_MW": -123.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-22",
+  "course_total_MW": 27803.0,
+  "current_agpt_total_MW": 27920.0,
+  "delta_MW": 117.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-06",
+  "course_total_MW": 24357.0,
+  "current_agpt_total_MW": 24452.0,
+  "delta_MW": 95.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-08",
+  "course_total_MW": 25884.0,
+  "current_agpt_total_MW": 25790.0,
+  "delta_MW": -94.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-02",
+  "course_total_MW": 24122.0,
+  "current_agpt_total_MW": 24030.0,
+  "delta_MW": -92.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-05",
+  "course_total_MW": 20768.0,
+  "current_agpt_total_MW": 20676.0,
+  "delta_MW": -92.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-21",
+  "course_total_MW": 21588.0,
+  "current_agpt_total_MW": 21679.0,
+  "delta_MW": 91.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-18",
+  "course_total_MW": 25809.0,
+  "current_agpt_total_MW": 25890.0,
+  "delta_MW": 81.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-12",
+  "course_total_MW": 26506.0,
+  "current_agpt_total_MW": 26577.0,
+  "delta_MW": 71.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-06",
+  "course_total_MW": 21512.0,
+  "current_agpt_total_MW": 21567.0,
+  "delta_MW": 55.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-08",
+  "course_total_MW": 24103.0,
+  "current_agpt_total_MW": 24055.0,
+  "delta_MW": -48.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-11",
+  "course_total_MW": 23759.0,
+  "current_agpt_total_MW": 23713.0,
+  "delta_MW": -46.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-13",
+  "course_total_MW": 25582.0,
+  "current_agpt_total_MW": 25536.0,
+  "delta_MW": -46.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-07",
+  "course_total_MW": 24668.0,
+  "current_agpt_total_MW": 24624.0,
+  "delta_MW": -44.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-12",
+  "course_total_MW": 26609.0,
+  "current_agpt_total_MW": 26565.0,
+  "delta_MW": -44.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-09",
+  "course_total_MW": 22156.0,
+  "current_agpt_total_MW": 22114.0,
+  "delta_MW": -42.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-10",
+  "course_total_MW": 23778.0,
+  "current_agpt_total_MW": 23736.0,
+  "delta_MW": -42.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-14",
+  "course_total_MW": 25699.0,
+  "current_agpt_total_MW": 25657.0,
+  "delta_MW": -42.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-23",
+  "course_total_MW": 17769.0,
+  "current_agpt_total_MW": 17730.0,
+  "delta_MW": -39.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-15",
+  "course_total_MW": 22119.0,
+  "current_agpt_total_MW": 22156.0,
+  "delta_MW": 37.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-16",
+  "course_total_MW": 21031.0,
+  "current_agpt_total_MW": 20995.0,
+  "delta_MW": -36.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-15",
+  "course_total_MW": 22150.0,
+  "current_agpt_total_MW": 22115.0,
+  "delta_MW": -35.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-05",
+  "course_total_MW": 27912.0,
+  "current_agpt_total_MW": 27879.0,
+  "delta_MW": -33.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-23",
+  "course_total_MW": 30538.0,
+  "current_agpt_total_MW": 30510.0,
+  "delta_MW": -28.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-21",
+  "course_total_MW": 24091.0,
+  "current_agpt_total_MW": 24063.0,
+  "delta_MW": -28.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-17",
+  "course_total_MW": 25754.0,
+  "current_agpt_total_MW": 25729.0,
+  "delta_MW": -25.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-20",
+  "course_total_MW": 25350.0,
+  "current_agpt_total_MW": 25325.0,
+  "delta_MW": -25.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-22",
+  "course_total_MW": 19075.0,
+  "current_agpt_total_MW": 19051.0,
+  "delta_MW": -24.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-06-07",
+  "course_total_MW": 24173.0,
+  "current_agpt_total_MW": 24191.0,
+  "delta_MW": 18.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-05-31",
+  "course_total_MW": 19967.0,
+  "current_agpt_total_MW": 19954.0,
+  "delta_MW": -13.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-07-06",
+  "course_total_MW": 26156.0,
+  "current_agpt_total_MW": 26162.0,
+  "delta_MW": 6.0,
+  "in_repair": false
+ },
+ {
+  "date": "2026-08-25",
+  "course_total_MW": 26034.0,
+  "current_agpt_total_MW": 26029.0,
+  "delta_MW": -5.0,
+  "in_repair": false
+ }
+]
