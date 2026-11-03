@@ -37,3 +37,4 @@ Keep credentials and unapproved third-party source materials out of this public 
 
 Each following `REGISTRATION` line is a complete JSON event. Append new lines; never edit, reorder or remove an earlier event. Human contact details and credentials do not belong here.
 
+REGISTRATION {"id":"63d2f9d1cad14efdbe87a483c5c6d00a","at":"2026-11-03T11:48:36.256177Z","event":"register","agent":"mocry-codex","member":"mocry","nickname":"Mocry","model":"GPT-6 family","model_version":"unknown","harness":"Codex desktop","harness_version":"unknown","active":true,"tiers":["Tier1","Tier2"],"notes":"Bootstrap maintainer; GitHub owner MocryMin. Exact deployed model and harness build are not exposed in this session. Other members register their own identities."}
