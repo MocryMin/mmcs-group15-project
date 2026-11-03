@@ -1,0 +1,1755 @@
+{
+  "checked_on_london": "2026-11-03",
+  "version": "v1-candidate",
+  "units": "Daily mean MW rounded to the integer, UTC day.",
+  "scope": "Patch the 107 course dates on which all eight non-wind/non-solar generation categories were recorded as zero. Original course date keys, column names, fuel order and values on other dates are preserved. Recompute total as the exact sum of the 11 daily integer values. Demand, independent wind farm and market price are outside this repair.",
+  "original": {
+    "repository_head": "6fa93167c33493e80a60a0296e1aa16fb9ab2ba8",
+    "directory": ".",
+    "sha256": {
+      "daily_generation_by_fuel.csv": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4",
+      "daily_generation_total.csv": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318"
+    },
+    "fuel_columns_in_audit_order": [
+      "Biomass",
+      "Fossil Gas",
+      "Fossil Hard coal",
+      "Fossil Oil",
+      "Hydro Pumped Storage",
+      "Hydro Run-of-river and poundage",
+      "Nuclear",
+      "Other",
+      "Solar",
+      "Wind Offshore",
+      "Wind Onshore"
+    ]
+  },
+  "provenance_test": {
+    "agpt_documentation": "https://bmrs.elexon.co.uk/api-documentation/endpoint/generation/actual/per-type",
+    "replay_rule": "From 2020-01-01 UTC, query the AGPT convenience endpoint with inclusive UTC midnight start/end, an end 366 days after start, then advance the next start by 367 days; cap the final query at 2026-09-17 00:00Z. Compare the returned one-row-per-date vectors directly with course CSV. Each of the 7 query endpoints is a midnight snapshot. Replay identifies likely endpoint and windows, but original extraction timestamp and underlying revision snapshot were not obtained.",
+    "replay_queries": [
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2020-01-01T00%3A00Z&to=2021-01-01T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2021-01-02T00%3A00Z&to=2022-01-03T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2022-01-04T00%3A00Z&to=2023-01-05T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2023-01-06T00%3A00Z&to=2024-01-07T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2024-01-08T00%3A00Z&to=2025-01-08T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2025-01-09T00%3A00Z&to=2026-01-10T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2026-01-11T00%3A00Z&to=2026-09-17T00%3A00Z&format=json"
+    ],
+    "identical_date_set": true,
+    "csv_dates": 2422,
+    "missing_calendar_dates": 31,
+    "exact_daily_vectors": 2335,
+    "exact_through_2025": 2162,
+    "exact_individual_cells": 26068,
+    "fuel_cells": 26642,
+    "yearly_course_matched_date_exact": {
+      "2020": [
+        357,
+        357,
+        357
+      ],
+      "2021": [
+        359,
+        359,
+        359
+      ],
+      "2022": [
+        350,
+        350,
+        350
+      ],
+      "2023": [
+        365,
+        365,
+        365
+      ],
+      "2024": [
+        366,
+        366,
+        366
+      ],
+      "2025": [
+        365,
+        365,
+        365
+      ],
+      "2026": [
+        260,
+        260,
+        173
+      ]
+    },
+    "midnight_snapshot_dates": [
+      "2021-01-01",
+      "2022-01-03",
+      "2023-01-05",
+      "2024-01-07",
+      "2025-01-08",
+      "2026-01-10",
+      "2026-09-17"
+    ],
+    "current_agpt_differences_2026": [
+      [
+        "2026-05-31",
+        19967,
+        19954,
+        false
+      ],
+      [
+        "2026-06-01",
+        24519,
+        24674,
+        false
+      ],
+      [
+        "2026-06-02",
+        24122,
+        24030,
+        false
+      ],
+      [
+        "2026-06-03",
+        23207,
+        23558,
+        false
+      ],
+      [
+        "2026-06-04",
+        22999,
+        23830,
+        false
+      ],
+      [
+        "2026-06-05",
+        24357,
+        23982,
+        false
+      ],
+      [
+        "2026-06-06",
+        21512,
+        21567,
+        false
+      ],
+      [
+        "2026-06-07",
+        24173,
+        24191,
+        false
+      ],
+      [
+        "2026-06-08",
+        24770,
+        24526,
+        false
+      ],
+      [
+        "2026-06-09",
+        21644,
+        21791,
+        false
+      ],
+      [
+        "2026-06-10",
+        24617,
+        24494,
+        false
+      ],
+      [
+        "2026-06-11",
+        24813,
+        25218,
+        false
+      ],
+      [
+        "2026-06-12",
+        26506,
+        26577,
+        false
+      ],
+      [
+        "2026-06-13",
+        26175,
+        25942,
+        false
+      ],
+      [
+        "2026-06-14",
+        19876,
+        19471,
+        false
+      ],
+      [
+        "2026-06-15",
+        22119,
+        22156,
+        false
+      ],
+      [
+        "2026-06-16",
+        25337,
+        25577,
+        false
+      ],
+      [
+        "2026-06-17",
+        24240,
+        25381,
+        false
+      ],
+      [
+        "2026-06-18",
+        25809,
+        25890,
+        false
+      ],
+      [
+        "2026-06-19",
+        26159,
+        25924,
+        false
+      ],
+      [
+        "2026-06-20",
+        21948,
+        21818,
+        false
+      ],
+      [
+        "2026-06-21",
+        21588,
+        21679,
+        false
+      ],
+      [
+        "2026-06-22",
+        27803,
+        27920,
+        false
+      ],
+      [
+        "2026-06-23",
+        30538,
+        30510,
+        false
+      ],
+      [
+        "2026-06-24",
+        30340,
+        30149,
+        false
+      ],
+      [
+        "2026-06-25",
+        30771,
+        31177,
+        false
+      ],
+      [
+        "2026-06-26",
+        31113,
+        30848,
+        false
+      ],
+      [
+        "2026-06-27",
+        24613,
+        27143,
+        false
+      ],
+      [
+        "2026-06-28",
+        20972,
+        25228,
+        false
+      ],
+      [
+        "2026-06-29",
+        16967,
+        26400,
+        false
+      ],
+      [
+        "2026-06-30",
+        6394,
+        27297,
+        true
+      ],
+      [
+        "2026-07-01",
+        11561,
+        26491,
+        false
+      ],
+      [
+        "2026-07-02",
+        29685,
+        29319,
+        false
+      ],
+      [
+        "2026-07-03",
+        21788,
+        21608,
+        false
+      ],
+      [
+        "2026-07-04",
+        23667,
+        23943,
+        false
+      ],
+      [
+        "2026-07-05",
+        20768,
+        20676,
+        false
+      ],
+      [
+        "2026-07-06",
+        26156,
+        26162,
+        false
+      ],
+      [
+        "2026-07-07",
+        23425,
+        23887,
+        false
+      ],
+      [
+        "2026-07-08",
+        25884,
+        25790,
+        false
+      ],
+      [
+        "2026-07-09",
+        16222,
+        26570,
+        false
+      ],
+      [
+        "2026-07-10",
+        7804,
+        26571,
+        true
+      ],
+      [
+        "2026-07-11",
+        9823,
+        22655,
+        true
+      ],
+      [
+        "2026-07-12",
+        13379,
+        22523,
+        true
+      ],
+      [
+        "2026-07-13",
+        12881,
+        25577,
+        true
+      ],
+      [
+        "2026-07-14",
+        12416,
+        26441,
+        true
+      ],
+      [
+        "2026-07-15",
+        9879,
+        27401,
+        true
+      ],
+      [
+        "2026-07-16",
+        8280,
+        27496,
+        true
+      ],
+      [
+        "2026-07-17",
+        8962,
+        25830,
+        true
+      ],
+      [
+        "2026-07-18",
+        11518,
+        20606,
+        true
+      ],
+      [
+        "2026-07-19",
+        11606,
+        20575,
+        true
+      ],
+      [
+        "2026-07-20",
+        8331,
+        20990,
+        true
+      ],
+      [
+        "2026-07-21",
+        8627,
+        23002,
+        true
+      ],
+      [
+        "2026-07-22",
+        8867,
+        22845,
+        true
+      ],
+      [
+        "2026-07-23",
+        8494,
+        22455,
+        true
+      ],
+      [
+        "2026-07-24",
+        11248,
+        24315,
+        true
+      ],
+      [
+        "2026-07-25",
+        14875,
+        23955,
+        true
+      ],
+      [
+        "2026-07-26",
+        14661,
+        22578,
+        true
+      ],
+      [
+        "2026-07-27",
+        9070,
+        21335,
+        true
+      ],
+      [
+        "2026-07-28",
+        9948,
+        24245,
+        true
+      ],
+      [
+        "2026-07-29",
+        7798,
+        25150,
+        true
+      ],
+      [
+        "2026-07-30",
+        4540,
+        24512,
+        true
+      ],
+      [
+        "2026-07-31",
+        6853,
+        24157,
+        true
+      ],
+      [
+        "2026-08-01",
+        9520,
+        20958,
+        true
+      ],
+      [
+        "2026-08-02",
+        7264,
+        19561,
+        true
+      ],
+      [
+        "2026-08-03",
+        11005,
+        24471,
+        true
+      ],
+      [
+        "2026-08-04",
+        21181,
+        26678,
+        false
+      ],
+      [
+        "2026-08-05",
+        27912,
+        27879,
+        false
+      ],
+      [
+        "2026-08-06",
+        24357,
+        24452,
+        false
+      ],
+      [
+        "2026-08-07",
+        24668,
+        24624,
+        false
+      ],
+      [
+        "2026-08-08",
+        24103,
+        24055,
+        false
+      ],
+      [
+        "2026-08-09",
+        22156,
+        22114,
+        false
+      ],
+      [
+        "2026-08-10",
+        23778,
+        23736,
+        false
+      ],
+      [
+        "2026-08-11",
+        23759,
+        23713,
+        false
+      ],
+      [
+        "2026-08-12",
+        26609,
+        26565,
+        false
+      ],
+      [
+        "2026-08-13",
+        25582,
+        25536,
+        false
+      ],
+      [
+        "2026-08-14",
+        25699,
+        25657,
+        false
+      ],
+      [
+        "2026-08-15",
+        22150,
+        22115,
+        false
+      ],
+      [
+        "2026-08-16",
+        21031,
+        20995,
+        false
+      ],
+      [
+        "2026-08-17",
+        25754,
+        25729,
+        false
+      ],
+      [
+        "2026-08-18",
+        29217,
+        29994,
+        false
+      ],
+      [
+        "2026-08-19",
+        24231,
+        25466,
+        false
+      ],
+      [
+        "2026-08-20",
+        25350,
+        25325,
+        false
+      ],
+      [
+        "2026-08-21",
+        24091,
+        24063,
+        false
+      ],
+      [
+        "2026-08-22",
+        19075,
+        19051,
+        false
+      ],
+      [
+        "2026-08-23",
+        17769,
+        17730,
+        false
+      ],
+      [
+        "2026-08-24",
+        22679,
+        23136,
+        false
+      ],
+      [
+        "2026-08-25",
+        26034,
+        26029,
+        false
+      ]
+    ],
+    "current_agpt_difference_columns": [
+      "UTC date",
+      "course total MW",
+      "current AGPT total MW",
+      "in this repair"
+    ]
+  },
+  "repair": {
+    "rule_2022_to_2025": "Use FUELHH half-hour outturn means for the eight non-wind/non-solar categories. Preserve the original three renewable columns except 2023-01-05, where the course value was a midnight snapshot; recover all three renewable means from 48 AGPT observations. On 2025-03-11, replace three simultaneous zero or near-zero FUELHH intervals (10:30, 11:00, 11:30 UTC) with linear interpolation between the intact 10:00 and 12:00 intervals, after verifying contemporaneous gas and nuclear against NESO.",
+    "rule_2026": "Use all eleven current AGPT daily values on 23 dates with 48 subdaily readings and exact agreement between the rounded mean and the official daily output. On 13, 19 and 26 July (45, 38 and 35 AGPT observations respectively), use 48 FUELHH readings for the eight categories and preserve the course values for the three renewables.",
+    "fuelhh_mapping": [
+      "BIOMASS",
+      "CCGT + OCGT",
+      "COAL",
+      "OIL",
+      "max(PS,0) per half-hour",
+      "NPSHYD",
+      "NUCLEAR",
+      "OTHER"
+    ],
+    "note": "Exclude interconnectors and do not combine FUELHH WIND or NESO totals with course renewable columns. For net pumped storage count positive half-hour output only. Gross output versus net metering and other coverage differences can remain. Imports and the independent wind farm are not part of the generation patch.",
+    "fuelhh_documentation": "https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH",
+    "fuelhh_report": "https://bmrs.elexon.co.uk/generation-by-fuel-type",
+    "fuelhh_url_template": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH?settlementDateFrom={from}&settlementDateTo={to}&fuelType=BIOMASS&fuelType=CCGT&fuelType=OCGT&fuelType=COAL&fuelType=OIL&fuelType=PS&fuelType=NPSHYD&fuelType=NUCLEAR&fuelType=OTHER&fuelType=WIND&format=json",
+    "fuelhh_query_windows": [
+      [
+        "2020-01-14",
+        "2020-01-16"
+      ],
+      [
+        "2020-03-14",
+        "2020-03-16"
+      ],
+      [
+        "2020-05-14",
+        "2020-05-16"
+      ],
+      [
+        "2020-07-14",
+        "2020-07-16"
+      ],
+      [
+        "2020-09-14",
+        "2020-09-16"
+      ],
+      [
+        "2020-11-14",
+        "2020-11-16"
+      ],
+      [
+        "2021-01-14",
+        "2021-01-16"
+      ],
+      [
+        "2021-03-14",
+        "2021-03-16"
+      ],
+      [
+        "2021-05-14",
+        "2021-05-16"
+      ],
+      [
+        "2021-07-14",
+        "2021-07-16"
+      ],
+      [
+        "2021-09-14",
+        "2021-09-16"
+      ],
+      [
+        "2021-11-14",
+        "2021-11-16"
+      ],
+      [
+        "2022-01-14",
+        "2022-01-16"
+      ],
+      [
+        "2022-03-14",
+        "2022-03-16"
+      ],
+      [
+        "2022-05-14",
+        "2022-05-16"
+      ],
+      [
+        "2022-07-14",
+        "2022-07-16"
+      ],
+      [
+        "2022-09-14",
+        "2022-09-16"
+      ],
+      [
+        "2022-10-13",
+        "2022-10-19"
+      ],
+      [
+        "2022-10-19",
+        "2022-10-22"
+      ],
+      [
+        "2022-11-14",
+        "2022-11-20"
+      ],
+      [
+        "2022-11-20",
+        "2022-11-26"
+      ],
+      [
+        "2022-11-27",
+        "2022-12-03"
+      ],
+      [
+        "2022-12-03",
+        "2022-12-09"
+      ],
+      [
+        "2022-12-09",
+        "2022-12-15"
+      ],
+      [
+        "2022-12-15",
+        "2022-12-21"
+      ],
+      [
+        "2022-12-21",
+        "2022-12-27"
+      ],
+      [
+        "2022-12-27",
+        "2023-01-02"
+      ],
+      [
+        "2023-01-02",
+        "2023-01-08"
+      ],
+      [
+        "2023-01-08",
+        "2023-01-14"
+      ],
+      [
+        "2023-01-14",
+        "2023-01-16"
+      ],
+      [
+        "2023-03-14",
+        "2023-03-16"
+      ],
+      [
+        "2023-04-20",
+        "2023-04-26"
+      ],
+      [
+        "2023-04-26",
+        "2023-05-02"
+      ],
+      [
+        "2023-05-02",
+        "2023-05-08"
+      ],
+      [
+        "2023-05-14",
+        "2023-05-16"
+      ],
+      [
+        "2023-07-14",
+        "2023-07-16"
+      ],
+      [
+        "2023-09-14",
+        "2023-09-16"
+      ],
+      [
+        "2023-11-14",
+        "2023-11-16"
+      ],
+      [
+        "2024-01-14",
+        "2024-01-16"
+      ],
+      [
+        "2024-02-04",
+        "2024-02-10"
+      ],
+      [
+        "2024-02-10",
+        "2024-02-16"
+      ],
+      [
+        "2024-02-16",
+        "2024-02-22"
+      ],
+      [
+        "2024-02-22",
+        "2024-02-24"
+      ],
+      [
+        "2024-03-14",
+        "2024-03-16"
+      ],
+      [
+        "2024-05-14",
+        "2024-05-16"
+      ],
+      [
+        "2024-07-14",
+        "2024-07-16"
+      ],
+      [
+        "2024-09-14",
+        "2024-09-16"
+      ],
+      [
+        "2024-11-14",
+        "2024-11-16"
+      ],
+      [
+        "2025-01-14",
+        "2025-01-16"
+      ],
+      [
+        "2025-03-05",
+        "2025-03-11"
+      ],
+      [
+        "2025-03-11",
+        "2025-03-17"
+      ],
+      [
+        "2025-03-18",
+        "2025-03-24"
+      ],
+      [
+        "2025-03-24",
+        "2025-03-30"
+      ],
+      [
+        "2025-03-30",
+        "2025-04-05"
+      ],
+      [
+        "2025-05-14",
+        "2025-05-16"
+      ],
+      [
+        "2025-07-14",
+        "2025-07-16"
+      ],
+      [
+        "2025-09-14",
+        "2025-09-16"
+      ],
+      [
+        "2025-11-14",
+        "2025-11-16"
+      ],
+      [
+        "2026-01-14",
+        "2026-01-16"
+      ],
+      [
+        "2026-03-14",
+        "2026-03-16"
+      ],
+      [
+        "2026-05-14",
+        "2026-05-16"
+      ],
+      [
+        "2026-06-26",
+        "2026-07-02"
+      ],
+      [
+        "2026-07-02",
+        "2026-07-08"
+      ],
+      [
+        "2026-07-08",
+        "2026-07-14"
+      ],
+      [
+        "2026-07-14",
+        "2026-07-20"
+      ],
+      [
+        "2026-07-20",
+        "2026-07-26"
+      ],
+      [
+        "2026-07-26",
+        "2026-08-01"
+      ],
+      [
+        "2026-08-01",
+        "2026-08-07"
+      ],
+      [
+        "2026-08-07",
+        "2026-08-08"
+      ],
+      [
+        "2026-09-14",
+        "2026-09-16"
+      ]
+    ],
+    "agpt_full_day_url_template": "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from={date}T00%3A00Z&to={next_date}T00%3A00Z&format=json",
+    "agpt_2026_half_hour_coverage": {
+      "2026-07-10": 48,
+      "2026-07-11": 48,
+      "2026-07-13": 45,
+      "2026-07-14": 48,
+      "2026-07-15": 48,
+      "2026-07-16": 48,
+      "2026-07-17": 48,
+      "2026-07-19": 38,
+      "2026-06-30": 48,
+      "2026-07-12": 48,
+      "2026-07-20": 48,
+      "2026-07-18": 48,
+      "2026-07-21": 48,
+      "2026-07-22": 48,
+      "2026-07-23": 48,
+      "2026-07-24": 48,
+      "2026-07-25": 48,
+      "2026-07-27": 48,
+      "2026-07-26": 35,
+      "2026-07-28": 48,
+      "2026-07-30": 48,
+      "2026-07-29": 48,
+      "2026-08-01": 48,
+      "2026-07-31": 48,
+      "2026-08-02": 48,
+      "2026-08-03": 48
+    },
+    "agpt_raw_query_examples": [
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-07-13T00%3A00Z&publishDateTimeTo=2026-07-16T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-08-03T00%3A00Z&publishDateTimeTo=2026-08-06T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-07-26T00%3A00Z&publishDateTimeTo=2026-07-29T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-07-19T00%3A00Z&publishDateTimeTo=2026-07-22T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-07-15T00%3A00Z&publishDateTimeTo=2026-07-18T00%3A00Z&format=json",
+      "https://data.elexon.co.uk/bmrs/api/v1/datasets/AGPT?publishDateTimeFrom=2026-06-30T00%3A00Z&publishDateTimeTo=2026-07-03T00%3A00Z&format=json"
+    ],
+    "jan5_full_day_query": "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from=2023-01-05T00%3A00Z&to=2023-01-06T00%3A00Z&format=json",
+    "march11_fuelhh": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH?settlementDateFrom=2025-03-11&settlementDateTo=2025-03-11&format=json",
+    "march11_neso": "https://api.neso.energy/api/3/action/datastore_search_sql?sql=SELECT%20*%20FROM%20%22f93d1835-75bc-43e5-84ad-12472b180a98%22%20WHERE%20%22DATETIME%22%20%3E%3D%20%272025-03-11T10%3A00%3A00%27%20AND%20%22DATETIME%22%20%3C%3D%20%272025-03-11T12%3A00%3A00%27",
+    "march11_interval_source": [
+      [
+        "2025-03-11T10:00:00Z",
+        [
+          1143,
+          13648,
+          0,
+          0,
+          0,
+          387,
+          3633,
+          328
+        ]
+      ],
+      [
+        "2025-03-11T10:30:00Z",
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "2025-03-11T11:00:00Z",
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "2025-03-11T11:30:00Z",
+        [
+          191,
+          2223,
+          0,
+          0,
+          0,
+          64,
+          606,
+          64
+        ]
+      ],
+      [
+        "2025-03-11T12:00:00Z",
+        [
+          1145,
+          13412,
+          0,
+          0,
+          0,
+          384,
+          3638,
+          337
+        ]
+      ]
+    ],
+    "march11_neso_checks": [
+      [
+        "2025-03-11T10:00:00",
+        13328,
+        3598
+      ],
+      [
+        "2025-03-11T10:30:00",
+        13180,
+        3602
+      ],
+      [
+        "2025-03-11T11:00:00",
+        13155,
+        3610
+      ],
+      [
+        "2025-03-11T11:30:00",
+        13212,
+        3618
+      ],
+      [
+        "2025-03-11T12:00:00",
+        13473,
+        3625
+      ]
+    ],
+    "three_partial_2026_dates_candidate_vs_agpt_available_mean": [
+      [
+        "2026-07-13",
+        25216,
+        25577
+      ],
+      [
+        "2026-07-19",
+        20400,
+        20575
+      ],
+      [
+        "2026-07-26",
+        22524,
+        22578
+      ]
+    ]
+  },
+  "validation": {
+    "controls_screened": 132,
+    "clean_controls": 92,
+    "clean_target_era": 58,
+    "selection": "Normal candidates in sampled two-day windows every other month and up to four days from flagged dates; exclude the 107, replay end dates, and dates whose current AGPT daily vector differs from course. Require 48 half-hours, complete eight-fuel AGPT and FUELHH records, positive AGPT gas and nuclear throughout, and no identified FUELHH outage slots. All 92 clean controls reproduce the daily eight-fuel course vector from AGPT half-hour averages.",
+    "control_query_windows": [
+      [
+        "2020-01-14",
+        "2020-01-16"
+      ],
+      [
+        "2020-03-14",
+        "2020-03-16"
+      ],
+      [
+        "2020-05-14",
+        "2020-05-16"
+      ],
+      [
+        "2020-07-14",
+        "2020-07-16"
+      ],
+      [
+        "2020-09-14",
+        "2020-09-16"
+      ],
+      [
+        "2020-11-14",
+        "2020-11-16"
+      ],
+      [
+        "2021-01-14",
+        "2021-01-16"
+      ],
+      [
+        "2021-03-14",
+        "2021-03-16"
+      ],
+      [
+        "2021-05-14",
+        "2021-05-16"
+      ],
+      [
+        "2021-07-14",
+        "2021-07-16"
+      ],
+      [
+        "2021-09-14",
+        "2021-09-16"
+      ],
+      [
+        "2021-11-14",
+        "2021-11-16"
+      ],
+      [
+        "2022-01-14",
+        "2022-01-16"
+      ],
+      [
+        "2022-03-14",
+        "2022-03-16"
+      ],
+      [
+        "2022-05-14",
+        "2022-05-16"
+      ],
+      [
+        "2022-07-14",
+        "2022-07-16"
+      ],
+      [
+        "2022-09-14",
+        "2022-09-16"
+      ],
+      [
+        "2022-10-13",
+        "2022-10-19"
+      ],
+      [
+        "2022-10-19",
+        "2022-10-22"
+      ],
+      [
+        "2022-11-14",
+        "2022-11-20"
+      ],
+      [
+        "2022-11-20",
+        "2022-11-26"
+      ],
+      [
+        "2022-11-27",
+        "2022-12-03"
+      ],
+      [
+        "2023-01-08",
+        "2023-01-14"
+      ],
+      [
+        "2023-01-14",
+        "2023-01-16"
+      ],
+      [
+        "2023-03-14",
+        "2023-03-16"
+      ],
+      [
+        "2023-04-20",
+        "2023-04-26"
+      ],
+      [
+        "2023-05-02",
+        "2023-05-08"
+      ],
+      [
+        "2023-05-14",
+        "2023-05-16"
+      ],
+      [
+        "2023-07-14",
+        "2023-07-16"
+      ],
+      [
+        "2023-09-14",
+        "2023-09-16"
+      ],
+      [
+        "2023-11-14",
+        "2023-11-16"
+      ],
+      [
+        "2024-01-14",
+        "2024-01-16"
+      ],
+      [
+        "2024-02-04",
+        "2024-02-10"
+      ],
+      [
+        "2024-02-16",
+        "2024-02-22"
+      ],
+      [
+        "2024-02-22",
+        "2024-02-24"
+      ],
+      [
+        "2024-03-14",
+        "2024-03-16"
+      ],
+      [
+        "2024-05-14",
+        "2024-05-16"
+      ],
+      [
+        "2024-07-14",
+        "2024-07-16"
+      ],
+      [
+        "2024-09-14",
+        "2024-09-16"
+      ],
+      [
+        "2024-11-14",
+        "2024-11-16"
+      ],
+      [
+        "2025-01-14",
+        "2025-01-16"
+      ],
+      [
+        "2025-03-05",
+        "2025-03-11"
+      ],
+      [
+        "2025-03-11",
+        "2025-03-17"
+      ],
+      [
+        "2025-03-18",
+        "2025-03-24"
+      ],
+      [
+        "2025-03-30",
+        "2025-04-05"
+      ],
+      [
+        "2025-05-14",
+        "2025-05-16"
+      ],
+      [
+        "2025-07-14",
+        "2025-07-16"
+      ],
+      [
+        "2025-09-14",
+        "2025-09-16"
+      ],
+      [
+        "2025-11-14",
+        "2025-11-16"
+      ],
+      [
+        "2026-01-14",
+        "2026-01-16"
+      ],
+      [
+        "2026-03-14",
+        "2026-03-16"
+      ],
+      [
+        "2026-05-14",
+        "2026-05-16"
+      ],
+      [
+        "2026-09-14",
+        "2026-09-16"
+      ]
+    ],
+    "all_clean_controls_sum_error_MW": {
+      "n": 92,
+      "bias": 0.07608695652173914,
+      "mae": 55.619565217391305,
+      "p50": 43,
+      "p95": 180,
+      "max": 253
+    },
+    "target_era_clean_controls_sum_error_MW": {
+      "n": 58,
+      "bias": -13.137931034482758,
+      "mae": 50.37931034482759,
+      "p50": 38,
+      "p95": 141,
+      "max": 253
+    },
+    "target_era_clean_controls_sum_relative_error_percent": {
+      "n": 58,
+      "bias": -0.10447156256525866,
+      "mae": 0.2933962374790232,
+      "p50": 0.2359154929577465,
+      "p95": 0.7932990604502748,
+      "max": 1.0921649039499244
+    },
+    "target_era_clean_controls_per_fuel_error_MW": [
+      {
+        "n": 58,
+        "bias": 1.0344827586206897,
+        "mae": 4,
+        "p50": 3,
+        "p95": 14,
+        "max": 17
+      },
+      {
+        "n": 58,
+        "bias": 6.241379310344827,
+        "mae": 38.37931034482759,
+        "p50": 24,
+        "p95": 88,
+        "max": 246
+      },
+      {
+        "n": 58,
+        "bias": 0.6206896551724138,
+        "mae": 0.9655172413793104,
+        "p50": 0,
+        "p95": 4,
+        "max": 7
+      },
+      {
+        "n": 58,
+        "bias": 0,
+        "mae": 0,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      {
+        "n": 58,
+        "bias": -22.086206896551722,
+        "mae": 22.948275862068964,
+        "p50": 15,
+        "p95": 70,
+        "max": 84
+      },
+      {
+        "n": 58,
+        "bias": 0.43103448275862066,
+        "mae": 1.3620689655172413,
+        "p50": 1,
+        "p95": 5,
+        "max": 7
+      },
+      {
+        "n": 58,
+        "bias": -1.0172413793103448,
+        "mae": 1.396551724137931,
+        "p50": 1,
+        "p95": 6,
+        "max": 10
+      },
+      {
+        "n": 58,
+        "bias": 1.6379310344827587,
+        "mae": 5.051724137931035,
+        "p50": 4,
+        "p95": 15,
+        "max": 31
+      }
+    ],
+    "clean_dates": [
+      "2020-01-14",
+      "2020-01-15",
+      "2020-03-14",
+      "2020-03-15",
+      "2020-05-14",
+      "2020-05-15",
+      "2020-07-14",
+      "2020-07-15",
+      "2020-09-14",
+      "2020-09-15",
+      "2021-01-14",
+      "2021-01-15",
+      "2021-03-14",
+      "2021-03-15",
+      "2021-05-14",
+      "2021-05-15",
+      "2021-07-14",
+      "2021-07-15",
+      "2021-09-14",
+      "2021-09-15",
+      "2021-11-14",
+      "2021-11-15",
+      "2022-01-15",
+      "2022-03-14",
+      "2022-03-15",
+      "2022-05-14",
+      "2022-05-15",
+      "2022-07-15",
+      "2022-10-13",
+      "2022-10-14",
+      "2022-10-15",
+      "2022-10-19",
+      "2022-10-20",
+      "2022-10-21",
+      "2022-11-14",
+      "2022-11-15",
+      "2022-11-16",
+      "2022-11-18",
+      "2022-11-23",
+      "2022-11-24",
+      "2023-01-13",
+      "2023-01-14",
+      "2023-01-15",
+      "2023-03-14",
+      "2023-03-15",
+      "2023-04-21",
+      "2023-05-06",
+      "2023-05-07",
+      "2023-07-14",
+      "2023-07-15",
+      "2023-09-14",
+      "2023-09-15",
+      "2024-01-14",
+      "2024-01-15",
+      "2024-02-04",
+      "2024-02-05",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-03-15",
+      "2024-05-14",
+      "2024-07-14",
+      "2024-07-15",
+      "2024-09-14",
+      "2024-09-15",
+      "2024-11-14",
+      "2024-11-15",
+      "2025-01-14",
+      "2025-01-15",
+      "2025-03-05",
+      "2025-03-06",
+      "2025-03-07",
+      "2025-03-14",
+      "2025-03-15",
+      "2025-03-16",
+      "2025-03-19",
+      "2025-03-20",
+      "2025-04-02",
+      "2025-04-04",
+      "2025-05-14",
+      "2025-05-15",
+      "2025-07-14",
+      "2025-09-14",
+      "2025-09-15",
+      "2025-11-14",
+      "2025-11-15",
+      "2026-01-14",
+      "2026-03-14",
+      "2026-03-15",
+      "2026-05-14",
+      "2026-09-14",
+      "2026-09-15"
+    ],
+    "confirmed_extra_partial_zero_dates_columns": [
+      "UTC date",
+      "simultaneous eight-fuel zero bins",
+      "available AGPT bins",
+      "FUELHH-based eight-fuel daily sum minus course eight-fuel daily sum (MW), indicative"
+    ],
+    "confirmed_extra_partial_zero_dates": [
+      [
+        "2022-07-14",
+        6,
+        48,
+        2596
+      ],
+      [
+        "2022-10-16",
+        43,
+        48,
+        13096
+      ],
+      [
+        "2022-10-18",
+        20,
+        48,
+        10522
+      ],
+      [
+        "2022-11-17",
+        5,
+        48,
+        1813
+      ],
+      [
+        "2022-11-19",
+        15,
+        48,
+        8025
+      ],
+      [
+        "2022-11-22",
+        22,
+        48,
+        10979
+      ],
+      [
+        "2022-11-30",
+        27,
+        47,
+        17770
+      ],
+      [
+        "2023-01-12",
+        22,
+        48,
+        5494
+      ],
+      [
+        "2023-04-23",
+        28,
+        48,
+        8851
+      ],
+      [
+        "2023-05-04",
+        20,
+        48,
+        4195
+      ],
+      [
+        "2023-11-14",
+        6,
+        48,
+        2030
+      ],
+      [
+        "2024-02-07",
+        31,
+        48,
+        19518
+      ],
+      [
+        "2024-02-20",
+        23,
+        46,
+        6479
+      ],
+      [
+        "2025-03-08",
+        40,
+        48,
+        9861
+      ],
+      [
+        "2025-03-13",
+        18,
+        48,
+        7797
+      ],
+      [
+        "2025-03-21",
+        45,
+        48,
+        8530
+      ],
+      [
+        "2025-04-01",
+        21,
+        48,
+        6725
+      ],
+      [
+        "2026-01-15",
+        4,
+        48,
+        1851
+      ],
+      [
+        "2026-05-15",
+        2,
+        48,
+        660
+      ]
+    ],
+    "limits": "Control errors are empirical and do not bound the true error on missing dates. Partial-zero list is from sampled controls. Six midnight-boundary dates outside the 107 and 61 2026 AGPT differences outside the 107 remain outside the patch. The 31 missing dates remain absent."
+  },
+  "output_verification": {
+    "fuel_rows": 26642,
+    "total_dates": 2422,
+    "changed_cells": 755,
+    "changed_dates": 107,
+    "unchanged_dates": 2315,
+    "sha256": {
+      "daily_generation_by_fuel.csv": "e77dfdb625cbb073c36fa70d3f0542c0d98dd23b3ee07fe3de01e0f63c74e824",
+      "daily_generation_total.csv": "3e5c250d47c90ab2694d944d83608424997952d86c6aefb0ce3244586de6893e"
+    },
+    "total_added_TWh": 44.602512,
+    "supply_demand_comparison_definition": "Use the intersection of supplied generation, demand, independent wind farm and price. Supply is the given generation plus the separate wind farm. The sum of positive or negative daily differences multiplied by 24 h is an illustrative model quantity.",
+    "full_common_history": {
+      "raw": {
+        "days": 2406,
+        "patched": 107,
+        "generation_TWh": 1477.9580880000012,
+        "surplus_TWh": 40.626136979274364,
+        "deficit_TWh": 160.30085619976043
+      },
+      "repaired": {
+        "days": 2406,
+        "patched": 107,
+        "generation_TWh": 1522.5606000000005,
+        "surplus_TWh": 41.88626402902694,
+        "deficit_TWh": 116.95847124951294
+      }
+    },
+    "year_2023_through_2025": {
+      "raw": {
+        "days": 1096,
+        "patched": 47,
+        "generation_TWh": 640.0663680000001,
+        "surplus_TWh": 13.757557310372349,
+        "deficit_TWh": 93.626469005272
+      },
+      "repaired": {
+        "days": 1096,
+        "patched": 47,
+        "generation_TWh": 658.0819200000001,
+        "surplus_TWh": 14.390435009522275,
+        "deficit_TWh": 76.24379470442193
+      }
+    }
+  },
+  "patches": [
+    {"d":"2022-10-17","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1312,4831,6023],"repair":[1622,10401,0,0,122,567,4430,251,1312,4831,6023],"source_intervals":48},
+    {"d":"2022-11-20","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,611,3592,2936],"repair":[1855,16779,121,0,250,703,4443,290,611,3592,2936],"source_intervals":48},
+    {"d":"2022-11-21","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,143,3203,3935],"repair":[2043,18468,239,0,286,687,4451,430,143,3203,3935],"source_intervals":48},
+    {"d":"2022-12-01","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,438,580,1690],"repair":[1990,20299,1329,0,373,734,4461,543,438,580,1690],"source_intervals":48},
+    {"d":"2022-12-02","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,265,3081,1497],"repair":[1973,17731,1284,0,83,498,4602,312,265,3081,1497],"source_intervals":48},
+    {"d":"2022-12-03","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,256,4463,2097],"repair":[1583,12136,1070,0,110,349,4622,254,256,4463,2097],"source_intervals":48},
+    {"d":"2022-12-04","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,99,4273,3349],"repair":[1995,9854,1298,0,179,346,4841,258,99,4273,3349],"source_intervals":48},
+    {"d":"2022-12-05","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,183,4843,2606],"repair":[2245,17251,1299,0,286,337,4973,280,183,4843,2606],"source_intervals":48},
+    {"d":"2022-12-06","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,463,3786,2622],"repair":[2391,18676,1062,0,346,326,5259,551,463,3786,2622],"source_intervals":48},
+    {"d":"2022-12-07","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,547,4253,2466],"repair":[2364,18719,1261,0,270,316,5257,509,547,4253,2466],"source_intervals":48},
+    {"d":"2022-12-08","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,698,3063,2461],"repair":[2101,20203,1287,0,216,306,5261,417,698,3063,2461],"source_intervals":48},
+    {"d":"2022-12-09","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,600,2229,2116],"repair":[2183,20866,1278,0,376,305,5248,474,600,2229,2116],"source_intervals":48},
+    {"d":"2022-12-10","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,541,1200,1666],"repair":[1445,20264,1285,0,171,251,5352,259,541,1200,1666],"source_intervals":48},
+    {"d":"2022-12-11","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,225,452,773],"repair":[1433,20732,1285,0,200,244,5643,357,225,452,773],"source_intervals":48},
+    {"d":"2022-12-12","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,188,829,647],"repair":[2330,22998,1287,0,531,588,5778,598,188,829,647],"source_intervals":48},
+    {"d":"2022-12-13","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,207,1372,1557],"repair":[2418,22794,1288,0,504,383,5841,615,207,1372,1557],"source_intervals":48},
+    {"d":"2022-12-14","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,534,2943,3503],"repair":[2167,21045,1284,0,208,275,5842,488,534,2943,3503],"source_intervals":48},
+    {"d":"2022-12-15","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,734,3892,1921],"repair":[2010,20937,1251,0,379,318,5799,611,734,3892,1921],"source_intervals":48},
+    {"d":"2022-12-16","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,629,1771,2956],"repair":[1964,20418,1323,0,453,385,5852,474,629,1771,2956],"source_intervals":48},
+    {"d":"2022-12-17","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,334,5437,3406],"repair":[1590,13021,1281,0,126,295,5782,219,334,5437,3406],"source_intervals":48},
+    {"d":"2022-12-18","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,45,6173,5909],"repair":[1791,5551,1112,0,74,287,5861,195,45,6173,5909],"source_intervals":48},
+    {"d":"2022-12-19","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,60,7504,7391],"repair":[1720,5392,504,0,283,344,5857,214,60,7504,7391],"source_intervals":48},
+    {"d":"2022-12-20","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,559,5445,6251],"repair":[1759,5719,732,0,300,424,5853,236,559,5445,6251],"source_intervals":48},
+    {"d":"2022-12-21","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,356,5623,6627],"repair":[1937,6822,481,0,335,430,5833,223,356,5623,6627],"source_intervals":48},
+    {"d":"2022-12-22","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,100,2409,2033],"repair":[2008,13506,444,0,376,590,5705,285,100,2409,2033],"source_intervals":48},
+    {"d":"2022-12-23","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,161,2853,4149],"repair":[1998,9549,388,0,336,470,5682,240,161,2853,4149],"source_intervals":48},
+    {"d":"2022-12-24","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,338,5646,4739],"repair":[1067,3674,297,0,313,417,5684,208,338,5646,4739],"source_intervals":48},
+    {"d":"2022-12-25","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,178,5743,3756],"repair":[645,3688,435,0,550,538,5685,271,178,5743,3756],"source_intervals":48},
+    {"d":"2022-12-26","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,615,6951,5312],"repair":[409,2900,184,0,259,379,5685,197,615,6951,5312],"source_intervals":48},
+    {"d":"2022-12-27","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,182,5825,4531],"repair":[1518,2831,469,0,399,463,5683,236,182,5825,4531],"source_intervals":48},
+    {"d":"2022-12-28","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,73,6498,5146],"repair":[1534,3233,309,0,447,448,5684,281,73,6498,5146],"source_intervals":48},
+    {"d":"2022-12-29","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,425,7375,6338],"repair":[1117,2455,286,0,567,519,5707,280,425,7375,6338],"source_intervals":48},
+    {"d":"2022-12-30","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,137,7458,7511],"repair":[723,2498,479,0,163,452,5722,187,137,7458,7511],"source_intervals":48},
+    {"d":"2022-12-31","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,51,4788,2670],"repair":[1017,5347,769,0,489,555,5720,289,51,4788,2670],"source_intervals":48},
+    {"d":"2023-01-01","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,228,5656,2358],"repair":[928,4655,678,0,264,563,5719,235,228,5656,2358],"source_intervals":48},
+    {"d":"2023-01-02","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,667,2463,2328],"repair":[1767,7771,799,0,314,531,5715,191,667,2463,2328],"source_intervals":48},
+    {"d":"2023-01-03","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,78,5674,5981],"repair":[1764,5578,604,0,418,542,5701,184,78,5674,5981],"source_intervals":48},
+    {"d":"2023-01-04","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,262,6992,6244],"repair":[824,3790,122,0,439,622,5628,205,262,6992,6244],"source_intervals":48},
+    {"d":"2023-01-05","method":"FUELHH_plus_AGPT_renewable_full_day","original":[0,0,0,0,0,0,0,0,0,7470,3626],"repair":[1527,7458,86,0,445,647,5218,221,199,6140,5030],"source_intervals":48},
+    {"d":"2023-01-06","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,368,6500,6695],"repair":[586,5619,262,0,401,706,5215,220,368,6500,6695],"source_intervals":48},
+    {"d":"2023-01-07","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,231,7285,6379],"repair":[267,2897,290,0,382,762,5208,233,231,7285,6379],"source_intervals":48},
+    {"d":"2023-01-08","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,266,6963,6657],"repair":[908,3601,279,0,377,705,5183,231,266,6963,6657],"source_intervals":48},
+    {"d":"2023-01-09","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,505,6281,5674],"repair":[1659,4555,521,0,516,884,5166,227,505,6281,5674],"source_intervals":48},
+    {"d":"2023-01-10","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,61,6993,7226],"repair":[1782,3922,652,0,379,779,5150,245,61,6993,7226],"source_intervals":48},
+    {"d":"2023-01-11","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,348,7297,8029],"repair":[1543,3276,604,0,498,636,5127,260,348,7297,8029],"source_intervals":48},
+    {"d":"2023-04-24","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1451,2204,2354],"repair":[1377,10124,0,0,144,227,4150,334,1451,2204,2354],"source_intervals":48},
+    {"d":"2023-04-25","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2537,1076,994],"repair":[1404,13746,106,0,203,258,4149,233,2537,1076,994],"source_intervals":48},
+    {"d":"2023-04-26","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1611,468,631],"repair":[1447,16819,370,0,245,298,4154,232,1611,468,631],"source_intervals":48},
+    {"d":"2023-04-27","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,943,1867,2139],"repair":[1402,13729,0,0,89,221,4158,312,943,1867,2139],"source_intervals":48},
+    {"d":"2023-04-28","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1420,1732,1127],"repair":[1357,13077,0,0,209,269,4133,444,1420,1732,1127],"source_intervals":48},
+    {"d":"2023-04-29","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2021,327,863],"repair":[962,12505,0,0,93,187,3748,250,2021,327,863],"source_intervals":48},
+    {"d":"2023-04-30","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1396,1864,1583],"repair":[1324,7968,0,0,97,135,3581,195,1396,1864,1583],"source_intervals":48},
+    {"d":"2023-05-01","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1776,1470,2190],"repair":[1355,8474,0,0,155,142,3583,217,1776,1470,2190],"source_intervals":48},
+    {"d":"2023-05-02","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1808,621,842],"repair":[1335,14792,0,0,150,167,3566,333,1808,621,842],"source_intervals":48},
+    {"d":"2023-05-03","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2745,1558,1876],"repair":[1215,10405,0,0,148,143,3554,256,2745,1558,1876],"source_intervals":48},
+    {"d":"2024-02-08","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,170,7293,5204],"repair":[3018,11999,1124,0,279,712,3781,356,170,7293,5204],"source_intervals":48},
+    {"d":"2024-02-09","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,396,8339,8053],"repair":[2560,6790,594,0,238,699,3764,337,396,8339,8053],"source_intervals":48},
+    {"d":"2024-02-10","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,694,3215,3238],"repair":[2310,11052,532,0,239,723,3556,339,694,3215,3238],"source_intervals":48},
+    {"d":"2024-02-11","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,741,3762,2071],"repair":[2160,10615,655,0,219,690,3700,335,741,3762,2071],"source_intervals":48},
+    {"d":"2024-02-12","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1524,6936,5670],"repair":[2082,11424,426,0,235,612,3701,368,1524,6936,5670],"source_intervals":48},
+    {"d":"2024-02-13","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,396,7107,4471],"repair":[2012,11530,247,2,198,552,3784,323,396,7107,4471],"source_intervals":48},
+    {"d":"2024-02-14","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,295,6327,2432],"repair":[2325,11136,353,0,184,578,3791,311,295,6327,2432],"source_intervals":48},
+    {"d":"2024-02-15","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,647,7507,2794],"repair":[2459,9781,134,0,224,644,3769,276,647,7507,2794],"source_intervals":48},
+    {"d":"2024-02-16","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,861,3614,1784],"repair":[2055,10788,288,0,369,822,3789,347,861,3614,1784],"source_intervals":48},
+    {"d":"2024-02-17","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,339,5936,4042],"repair":[2203,7740,136,0,105,724,3790,320,339,5936,4042],"source_intervals":48},
+    {"d":"2024-02-18","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,900,7341,4202],"repair":[1657,5270,198,0,167,682,3789,254,900,7341,4202],"source_intervals":48},
+    {"d":"2024-02-19","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,986,7146,5682],"repair":[2054,7182,125,0,196,705,3787,395,986,7146,5682],"source_intervals":48},
+    {"d":"2025-03-09","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2341,2686,1537],"repair":[1150,9505,0,0,173,554,3611,381,2341,2686,1537],"source_intervals":48},
+    {"d":"2025-03-10","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1165,5197,6050],"repair":[1146,12403,0,0,69,419,3602,538,1165,5197,6050],"source_intervals":48},
+    {"d":"2025-03-11","method":"FUELHH_three_interpolated_intervals_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1683,7446,3836],"repair":[1145,13259,0,0,193,409,3638,458,1683,7446,3836],"source_intervals":45},
+    {"d":"2025-03-12","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1585,5555,4751],"repair":[2317,14710,0,0,181,375,3649,599,1585,5555,4751],"source_intervals":48},
+    {"d":"2025-03-22","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1354,6647,2926],"repair":[959,6490,0,0,216,265,3489,411,1354,6647,2926],"source_intervals":48},
+    {"d":"2025-03-23","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,851,2932,2828],"repair":[1008,9537,0,0,124,215,3524,433,851,2932,2828],"source_intervals":48},
+    {"d":"2025-03-24","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2328,3508,3194],"repair":[976,14250,0,0,171,178,3739,551,2328,3508,3194],"source_intervals":48},
+    {"d":"2025-03-25","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,1731,4077,3604],"repair":[1023,12830,0,0,218,180,3872,430,1731,4077,3604],"source_intervals":48},
+    {"d":"2025-03-26","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2712,3358,3680],"repair":[1051,12722,0,0,217,202,3655,492,2712,3358,3680],"source_intervals":48},
+    {"d":"2025-03-27","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2022,6086,7190],"repair":[456,6576,0,0,85,228,3810,519,2022,6086,7190],"source_intervals":48},
+    {"d":"2025-03-28","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2592,7850,7172],"repair":[432,5569,0,0,348,333,3526,486,2592,7850,7172],"source_intervals":48},
+    {"d":"2025-03-29","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,2345,7112,6594],"repair":[429,4116,0,0,335,360,3556,491,2345,7112,6594],"source_intervals":48},
+    {"d":"2025-03-30","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,3358,8161,5324],"repair":[535,4786,0,0,244,520,3734,381,3358,8161,5324],"source_intervals":48},
+    {"d":"2025-03-31","method":"FUELHH_plus_course_renewables","original":[0,0,0,0,0,0,0,0,3045,2034,1597],"repair":[1080,12163,0,0,319,580,3801,570,3045,2034,1597],"source_intervals":48},
+    {"d":"2026-06-30","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,3267,1521,1606],"repair":[1880,14655,0,0,294,377,3007,768,3233,1518,1565],"source_intervals":48},
+    {"d":"2026-07-10","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5319,1615,870],"repair":[2009,12389,0,0,185,359,2994,747,5267,1727,894],"source_intervals":48},
+    {"d":"2026-07-11","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5275,3194,1354],"repair":[1623,6897,0,0,88,397,2991,644,5224,3368,1423],"source_intervals":48},
+    {"d":"2026-07-12","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5386,5535,2458],"repair":[1629,3583,0,0,64,296,2990,576,5334,5565,2486],"source_intervals":48},
+    {"d":"2026-07-13","method":"FUELHH_plus_course_renewables_AGPT_incomplete","original":[0,0,0,0,0,0,0,0,4479,5936,2466],"repair":[2353,5713,0,0,162,385,2990,732,4479,5936,2466],"source_intervals":48,"AGPT_available_half_hours":45},
+    {"d":"2026-07-14","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4951,5600,1865],"repair":[2449,7226,0,0,229,389,3121,759,4908,5518,1842],"source_intervals":48},
+    {"d":"2026-07-15","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5046,3772,1061],"repair":[2599,10230,0,0,154,285,3462,751,5170,3722,1028],"source_intervals":48},
+    {"d":"2026-07-16","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5233,2443,604],"repair":[2627,11537,0,0,262,349,3462,1027,5183,2443,606],"source_intervals":48},
+    {"d":"2026-07-17","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,5039,2762,1161],"repair":[2554,9681,0,0,155,273,3462,792,4987,2762,1164],"source_intervals":48},
+    {"d":"2026-07-18","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4071,5819,1628],"repair":[1688,2868,0,0,146,201,3462,754,4038,5819,1630],"source_intervals":48},
+    {"d":"2026-07-19","method":"FUELHH_plus_course_renewables_AGPT_incomplete","original":[0,0,0,0,0,0,0,0,5673,4531,1402],"repair":[1421,3014,0,0,50,203,3462,644,5673,4531,1402],"source_intervals":48,"AGPT_available_half_hours":38},
+    {"d":"2026-07-20","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4792,2490,1049],"repair":[2211,5775,0,0,127,290,3457,842,4748,2490,1050],"source_intervals":48},
+    {"d":"2026-07-21","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4239,2626,1762],"repair":[2454,7343,0,0,193,252,3457,711,4204,2626,1762],"source_intervals":48},
+    {"d":"2026-07-22","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4219,2866,1782],"repair":[2496,6837,0,0,191,315,3462,714,4182,2866,1782],"source_intervals":48},
+    {"d":"2026-07-23","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,3785,1965,2744],"repair":[2565,6840,0,0,137,291,3461,698,3754,1965,2744],"source_intervals":48},
+    {"d":"2026-07-24","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4746,1790,4712],"repair":[2249,5868,0,0,224,241,3457,861,4698,1868,4849],"source_intervals":48},
+    {"d":"2026-07-25","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4453,5152,5270],"repair":[1755,3183,0,0,168,191,3146,684,4406,5152,5270],"source_intervals":48},
+    {"d":"2026-07-26","method":"FUELHH_plus_course_renewables_AGPT_incomplete","original":[0,0,0,0,0,0,0,0,4016,5716,4929],"repair":[1488,2379,0,0,145,203,2986,662,4016,5716,4929],"source_intervals":48,"AGPT_available_half_hours":35},
+    {"d":"2026-07-27","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,3552,2838,2680],"repair":[2393,4393,0,0,236,217,2986,872,3518,3698,3022],"source_intervals":48},
+    {"d":"2026-07-28","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4077,2474,3397],"repair":[2215,5485,0,0,189,212,2983,1006,4036,3807,4312],"source_intervals":48},
+    {"d":"2026-07-29","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4379,1494,1925],"repair":[2598,9371,0,0,222,233,2999,752,4332,2465,2178],"source_intervals":48},
+    {"d":"2026-07-30","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,3204,76,1260],"repair":[2612,8506,0,0,161,173,3596,767,3174,2012,3511],"source_intervals":48},
+    {"d":"2026-07-31","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4175,1064,1614],"repair":[2327,8404,0,0,126,197,3434,835,4135,2445,2254],"source_intervals":48},
+    {"d":"2026-08-01","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,3932,2297,3291],"repair":[1783,5351,0,0,113,167,3346,716,3894,2297,3291],"source_intervals":48},
+    {"d":"2026-08-02","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4577,1690,997],"repair":[2536,5414,0,0,121,277,3374,616,4536,1690,997],"source_intervals":48},
+    {"d":"2026-08-03","method":"AGPT_48_half_hours","original":[0,0,0,0,0,0,0,0,4580,3835,2590],"repair":[2556,6358,0,0,150,236,3449,763,4534,3835,2590],"source_intervals":48}
+  ]
+}
