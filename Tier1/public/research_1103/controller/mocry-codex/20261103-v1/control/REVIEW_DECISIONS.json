@@ -1,0 +1,153 @@
+{
+  "run_id": "MMCS-TIER1-CONTROLLED-RESEARCH-20261103",
+  "controller": "/root",
+  "reviewed_at_UTC": "2026-11-03 16:47:14 UTC",
+  "decisions": [
+    {
+      "id": "C01",
+      "topic": "R1",
+      "decision": "accept_core",
+      "item": "Given daily wholesale value; joint demand cap; import/extrasale0; no automatic curtailment compensation",
+      "reason": "Finite explicit interface; no contract evidence for extensions"
+    },
+    {
+      "id": "C02",
+      "topic": "R1",
+      "decision": "reject_inference",
+      "item": "Wholesale/imbalance quote equals full retail import tariff, or unusedgeneration automatically earns NESOcompensation",
+      "reason": "Primary market definitions do not establish project entitlement"
+    },
+    {
+      "id": "C03",
+      "topic": "R1",
+      "decision": "accept_with_label",
+      "item": "Zero salesfees and zero priceimpact",
+      "reason": "Analytical assumptions; no conservative lower-bound claim"
+    },
+    {
+      "id": "C04",
+      "topic": "R2",
+      "decision": "accept",
+      "item": "2h nameplate, SOC20–80%,90%RTE, costpernameplatecapacity",
+      "reason": "Brief references kept; sourcecost decomposition read"
+    },
+    {
+      "id": "C05",
+      "topic": "R2",
+      "decision": "retain_two_cases",
+      "item": "FOM8352 vs16704EUR2020/MWyr",
+      "reason": "Real source label/formula2x conflict, independently confirmed; higher case primary"
+    },
+    {
+      "id": "C06",
+      "topic": "R2",
+      "decision": "reject_double_count",
+      "item": "Extra universal inverter replacement on top of inclusiveDEA FOM",
+      "reason": "FootnoteO already includesmaintenance/replacement atsourceusepattern"
+    },
+    {
+      "id": "C07",
+      "topic": "R2",
+      "decision": "accept_with_label",
+      "item": "Discrete3MWh/1.5MWreferencegrid",
+      "reason": "Analytical grid, not vendor completeSKU; no fabricated discount"
+    },
+    {
+      "id": "C08",
+      "topic": "R2",
+      "decision": "accept_conservative_model",
+      "item": "Daily one-direction oneusablewindow",
+      "reason": "Prevents unsupported intraday throughput fromdailydata; report limited time-resolution scope"
+    },
+    {
+      "id": "C09",
+      "topic": "R3",
+      "decision": "accept",
+      "item": "20MW modules,55.9whole-systemACkWh/kg,20–100%whenon/offallowed",
+      "reason": "ActualITM technicalPDF checked"
+    },
+    {
+      "id": "C10",
+      "topic": "R3",
+      "decision": "commissioned_targeted_followup_then_accept",
+      "item": "IEA2025 actual2024installedcost2000–2600USD/kW replaceslegacyasmodernCAPEXreference",
+      "reason": "Material investmentinput missing fromfirstpass; actualofficialsummary obtained andR3 reviewed"
+    },
+    {
+      "id": "C11",
+      "topic": "R3/R4",
+      "decision": "accept_with_assumptions",
+      "item": "IEA costs treatednominalUSD2024/electricalinput and rebased",
+      "reason": "Observationyear/sourcecontext supportschoice but explicit constantUSD/ACDC labels absent; preserve rawdata"
+    },
+    {
+      "id": "C12",
+      "topic": "R3",
+      "decision": "reject_cross_scope_scaling",
+      "item": "BEIS60%stackshare multiplied by modernIEA wholeinstallation",
+      "reason": "Cost composition/scope differs; retain oldabsoluteproxy separately"
+    },
+    {
+      "id": "C13",
+      "topic": "R3",
+      "decision": "mutually_exclusive_cost_methods",
+      "item": "Stackreplacementevents versusperkg annuitisedreserve",
+      "reason": "Avoidsame replacementdoublecharge"
+    },
+    {
+      "id": "C14",
+      "topic": "R3",
+      "decision": "scenario_only",
+      "item": "HAR1value, H2offtake, eligibility, downstreamnetback",
+      "reason": "No buyercontract or eligibility proof; teacherreference not market guarantee"
+    },
+    {
+      "id": "C15",
+      "topic": "R4",
+      "decision": "accept_calculations",
+      "item": "2406dates,28segments, rawhashes, price24x andfuelsumchecks",
+      "reason": "Reproduced independently fromoriginalCSVs"
+    },
+    {
+      "id": "C16",
+      "topic": "R4",
+      "decision": "reject_automatic_cleaning",
+      "item": "Remove negativeprices or demand636 merely forrarity; stitchmissingdates",
+      "reason": "No sourcecorrection andSOCwouldbechanged"
+    },
+    {
+      "id": "C17",
+      "topic": "R4",
+      "decision": "accept_reporting_convention",
+      "item": "GBP2020, ECBannualFX, ONSmonthlyCPI",
+      "reason": "Observedinputs; FXdirectioncrossreviewed, generaldeflatorlabelkept"
+    },
+    {
+      "id": "C18",
+      "topic": "R4",
+      "decision": "analyst_scenarios",
+      "item": "Private realrate5%with0/3/8/12% stress",
+      "reason": "No privateWACCknown; publicsocialSTPR isnot privatehurdle"
+    },
+    {
+      "id": "C19",
+      "topic": "all",
+      "decision": "close_open_ended_research",
+      "item": "Proceed with parameterised conditional study",
+      "reason": "Evidence or explicitboundedfallback available; missingcontract facts cannot be uniquelyresolvedbygengenericpublicsearch"
+    },
+    {
+      "id": "C20",
+      "topic": "extensions",
+      "decision": "defer",
+      "item": "Imports,marketimpactfit, bulkdiscount, H2storage/reconversion, detailedeligibility, networks",
+      "reason": "Not allrequired forsmallestTier1; reopen onlyif scoped anddecision-relevant"
+    }
+  ],
+  "cross_reviews": [
+    "R1-market/CROSS_REVIEW_R4.md",
+    "R2-battery/CROSS_REVIEW_R3.md",
+    "R3-hydrogen/CROSS_REVIEW_R2.md",
+    "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md"
+  ]
+}

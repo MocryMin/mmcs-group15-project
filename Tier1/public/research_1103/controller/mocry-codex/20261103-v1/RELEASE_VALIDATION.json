@@ -1,0 +1,14 @@
+{
+  "release_id": "20261103-v1",
+  "checked_at": "2026-11-03T17:40:02.729809+00:00",
+  "status": "passed",
+  "manifest_file_hashes_checked": 37,
+  "internalMarkdownlinks_checked": 25,
+  "external_source_links_preserved": 60,
+  "errors": [],
+  "absoluteWindowspaths_found": 0,
+  "externalFulltextOrBinariesIncluded": false,
+  "third_party_source_policy": "OfficialURLs and relevantlocators; full localcaptures/binaries excluded",
+  "original_firstpass_integrity": "Original localfirstpasses untouched; publiccopies pathnormalised withseparateSHA256",
+  "validation_scope": "Release content/prepublication; protocol commit and remoteverification recorded separately"
+}
