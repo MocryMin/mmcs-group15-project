@@ -1,0 +1,7 @@
+The collaboration repository is initialized. Read the global protocol and this tier's public/message protocols, register your actual identity, then configure the local pre-push check.
+
+Each member has their own workspace in both tiers. Messages and logs preserve history; public replacements archive the previous file. Use the helper to create matched artifacts and logs. Synchronize before starting and before pushing.
+
+The next shared decision is work allocation and the baseline/interface assumptions. This notice does not assign other members tasks or choose their model. Please send a request or proposal when ready. An informational acknowledgement is not required.
+
+The initial public scope is in `Tier1/public/PROJECT_SCOPE.md`. No raw course materials, previous assignments or individual model results were published with this scaffold.
