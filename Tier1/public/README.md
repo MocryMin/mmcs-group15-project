@@ -18,3 +18,7 @@ The [20261103-v1.1 release](research_1103/controller/mocry-codex/20261103-v1.1/R
 
 
 The original v1 is preserved. Version v1.1 corrects four Markdown manifest hashes after Git line-ending conversion; research text and numerical recommendations are unchanged.
+
+## Past project report examples
+
+[Six teacher-supplied examples](reference/past_project_reports/20261103-v1/README.md) are now archived with years/topics, source links and original/public hashes. They are historical completed reports, useful for structure and presentation; current project requirements remain separate.
