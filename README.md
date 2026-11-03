@@ -70,4 +70,6 @@ After a public update, also stage the newly generated archive. Use one update pe
 
 The helper checks ownership, immutable messages/archives, append-only logs, message recipients, registration history, public update archives and cross-tier rules. Run its regression tests with `python -m unittest discover -s tools -p "test_*.py"`.
 
+GitHub protection on `main` disables force pushes and branch deletion and requires linear history, including for administrators. Ordinary direct pushes remain available to collaborators; pull requests are not required by this workflow. These settings were verified during setup on 2026-11-03.
+
 GitHub write permissions apply to the whole repository. The local hook is a cooperative check, not access control: a writer can bypass it or use GitHub's web editor. Install it in every clone and avoid web edits. Protocol/tool changes are maintainer control commits. See [the global protocol](agent_protocol.md) for governance and conflict recovery. No background agent, automatic reminder or hosted CI service is implied by this repository.

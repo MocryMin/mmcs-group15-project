@@ -52,6 +52,12 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def clean_bytes(repo, path, data):
+    """Use the representation Git will commit, including text line endings."""
+    blob = git("hash-object", "-w", f"--path={path}", "--stdin", cwd=repo, data=data).stdout.strip().decode()
+    return git("cat-file", "blob", blob, cwd=repo).stdout
+
+
 def now():
     return datetime.now(timezone.utc).isoformat(timespec="microseconds").replace("+00:00", "Z")
 
@@ -329,13 +335,14 @@ def publish(args, repo):
         require(who["agent"] == MAINTAINER and args.tier == "control", "Maintainer control operation required")
     path = f"{args.area}/public/{relative}"
     target = destination(repo, path)
-    old = target.read_bytes() if target.exists() else None
+    old = clean_bytes(repo, path, target.read_bytes()) if target.exists() else None
+    committed = git("show", f"HEAD:{path}", cwd=repo, check=False)
+    expected = committed.stdout if committed.returncode == 0 else None
+    require(old == expected, "Target has unpublished edits; publish once per path per commit from a workspace source")
     require(old is None or args.tier in (args.area, "control"), "Cross-tier updates are forbidden")
     require(args.tier != "control" or who["agent"] == MAINTAINER, "Maintainer required")
     data = Path(args.source).read_bytes()
-    # Match Git's committed representation (not platform-specific CRLF bytes).
-    blob = git("hash-object", "-w", f"--path={path}", "--stdin", cwd=repo, data=data).stdout.strip().decode()
-    data = git("cat-file", "blob", blob, cwd=repo).stdout
+    data = clean_bytes(repo, path, data)
     require(old != data, "No content change to publish")
     event_id = uuid.uuid4().hex
     archive = f"{args.area}/public/archive/{event_id}/{relative}" if old is not None else None

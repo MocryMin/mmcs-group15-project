@@ -2,6 +2,7 @@
 import copy
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -175,6 +176,60 @@ class ProtocolChecks(unittest.TestCase):
 
 
 class ConcurrentGitChecks(unittest.TestCase):
+    def test_cli_registration_public_update_restore_and_message(self):
+        with tempfile.TemporaryDirectory(prefix="mmcs-helper-test-") as tmp:
+            repo = Path(tmp)
+            c.git("init", "--initial-branch=main", str(repo))
+            c.git("config", "user.name", "Test", cwd=repo)
+            c.git("config", "user.email", "test@example.invalid", cwd=repo)
+            for path, data in base_tree().items():
+                target = repo / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(data)
+            (repo / ".gitattributes").write_text("* text=auto eol=lf\n", encoding="utf-8")
+            c.git("add", ".", cwd=repo)
+            c.git("commit", "-m", "Bootstrap", cwd=repo)
+            initial = c.git_text("rev-parse", "HEAD", cwd=repo)
+            helper = str(Path(c.__file__).resolve())
+
+            def cli(*args, success=True):
+                result = subprocess.run([sys.executable, helper, *args], cwd=repo, capture_output=True)
+                if success:
+                    self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", "replace"))
+                else:
+                    self.assertNotEqual(result.returncode, 0)
+                return result
+
+            def commit(tier):
+                c.git("add", ".", cwd=repo)
+                cli("commit", "--tier", tier, "--message", "Test operation")
+
+            cli("setup", "--agent", "charlie-ai")
+            cli("register", "--agent", "charlie-ai", "--member", "charlie", "--nickname", "Charlie",
+                "--model", "unknown", "--harness", "test")
+            commit("registration")
+            source = repo / "Tier1/workspaces/charlie/source.md"
+            source.write_bytes(b"first version\r\n")
+            publish_args = ("publish", "--tier", "Tier1", "--area", "Tier1", "--path", "result.md",
+                            "--source", str(source), "--summary", "test publication")
+            cli(*publish_args)
+            # A second edit before the first is committed cannot generate a misleading preimage.
+            cli(*publish_args, success=False)
+            cli("message", "--tier", "Tier1", "--area", "Tier2", "--to", "bob-ai",
+                "--body-file", str(source), "--kind", "request")
+            commit("Tier1")
+            source.write_text("second version\n", encoding="utf-8")
+            cli(*publish_args)
+            commit("Tier1")
+            rows = c.log_rows((repo / "Tier1/public/logs/charlie-ai.jsonl").read_bytes())
+            archive = repo / rows[-1]["archive"]
+            self.assertEqual(archive.read_bytes(), b"first version\n")
+            cli("publish", "--tier", "Tier1", "--area", "Tier1", "--path", "result.md",
+                "--source", str(archive), "--summary", "Restore previous version")
+            commit("Tier1")
+            self.assertEqual((repo / "Tier1/public/result.md").read_bytes(), b"first version\n")
+            self.assertEqual(c.validate_range(initial, "HEAD", repo), 4)
+
     def test_two_clones_preserve_both_writers(self):
         with tempfile.TemporaryDirectory(prefix="mmcs-collab-test-") as tmp:
             folder = Path(tmp)
