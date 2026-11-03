@@ -1,0 +1,412 @@
+{
+  "release": "20261103-cu-v1",
+  "built_at": "2026-11-03T21:52:32Z",
+  "builder": "mocry-cleveruser",
+  "purpose": "Independent (unleaky) Tier1 research first passes produced by Clever User harness workers, plus a controller data audit.",
+  "copied": [
+    {
+      "release_path": "packages/R1-market/_scratch/analyze_inputs.py",
+      "source": "firstpass/R1-market/_scratch/analyze_inputs.py",
+      "bytes": 4603,
+      "sha256": "8c33b75f74516e9ee728bd16806d6de1693938c8ca95e1495eb943631d75bbe8"
+    },
+    {
+      "release_path": "packages/R1-market/_scratch/fix_refs.py",
+      "source": "firstpass/R1-market/_scratch/fix_refs.py",
+      "bytes": 2848,
+      "sha256": "96a38812f4daa86128ad316174cdf195a407e931dbd46140f74a236e94e2ecb4"
+    },
+    {
+      "release_path": "packages/R1-market/_scratch/validate.py",
+      "source": "firstpass/R1-market/_scratch/validate.py",
+      "bytes": 2678,
+      "sha256": "aa1d5e5214deffd6260b0a936681c8887e4c91d07fa7babec4b69fda7cc4cbba"
+    },
+    {
+      "release_path": "packages/R1-market/FIRST_PASS.md",
+      "source": "firstpass/R1-market/FIRST_PASS.md",
+      "bytes": 4902,
+      "sha256": "1f123e71d3764c8dd5b11ab68636ea152c2a937518c7cc454d24e9606311b1fb"
+    },
+    {
+      "release_path": "packages/R1-market/parameters.json",
+      "source": "firstpass/R1-market/parameters.json",
+      "bytes": 26523,
+      "sha256": "e01905e8e748e3dd0e8f2bb5bb88b4c0f2454407671d170ba2ab346fedbbdf9a"
+    },
+    {
+      "release_path": "packages/R1-market/REPORT.md",
+      "source": "firstpass/R1-market/REPORT.md",
+      "bytes": 34014,
+      "sha256": "5c54ad32b7bdb137d3ae640e21079f6f46ddc318c00bcf68ddd4bb71dfafb6c6"
+    },
+    {
+      "release_path": "packages/R1-market/sources.json",
+      "source": "firstpass/R1-market/sources.json",
+      "bytes": 17278,
+      "sha256": "3e1ee51c7650e74fa1244ad0af53c0c4f923bbaf892698b4a1fb046adaad94a7"
+    },
+    {
+      "release_path": "packages/R2-battery/_scratch/verify.py",
+      "source": "firstpass/R2-battery/_scratch/verify.py",
+      "bytes": 2143,
+      "sha256": "80fb3de4b8e31bc34f7705f5ac766851a758d1be539e6417ef6ec73721f85dae"
+    },
+    {
+      "release_path": "packages/R2-battery/FIRST_PASS.md",
+      "source": "firstpass/R2-battery/FIRST_PASS.md",
+      "bytes": 5328,
+      "sha256": "79f134a18caf892071b223173864792fb98f1fc48c1882e4cba0d2b0eb18a9ca"
+    },
+    {
+      "release_path": "packages/R2-battery/parameters.json",
+      "source": "firstpass/R2-battery/parameters.json",
+      "bytes": 20454,
+      "sha256": "b33ba0710641d43cee87fa88ea62b44a4784e24acafe770bb93c20554fcb1b32"
+    },
+    {
+      "release_path": "packages/R2-battery/REPORT.md",
+      "source": "firstpass/R2-battery/REPORT.md",
+      "bytes": 24994,
+      "sha256": "478c97aa54915c9671901d9a14066b4c889ef4760f26f01079688184c20c063d"
+    },
+    {
+      "release_path": "packages/R2-battery/sources.json",
+      "source": "firstpass/R2-battery/sources.json",
+      "bytes": 14320,
+      "sha256": "1007f904bea6bbb334d5872098385a3ef15cfbae90c13d7e120c798ac8f870f4"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/download.py",
+      "source": "firstpass/R3-hydrogen/_work/download.py",
+      "bytes": 998,
+      "sha256": "86722cfea18b66f91f8aa91617c20564c4a2ee650fdc4684332c284421fd8bfb"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/dump_annex.py",
+      "source": "firstpass/R3-hydrogen/_work/dump_annex.py",
+      "bytes": 717,
+      "sha256": "fbbab1ab6abc55abb01ae5fc9d591dc075d963c2e62cbb10662af05fe4e32b30"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/fetch_govuk.py",
+      "source": "firstpass/R3-hydrogen/_work/fetch_govuk.py",
+      "bytes": 1484,
+      "sha256": "aa818e50cda2956c55538a0ee1ab07275cd40890fd5636b685fb436a54581c88"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/h2_prod_costs_2021.json",
+      "source": "firstpass/R3-hydrogen/_work/h2_prod_costs_2021.json",
+      "bytes": 20302,
+      "sha256": "c937bf1324bf6035912c72fd891ea8d8fc0bf112c2dcf380f840b2343c669122"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/h2_transport_storage.json",
+      "source": "firstpass/R3-hydrogen/_work/h2_transport_storage.json",
+      "bytes": 14062,
+      "sha256": "e2e219cf2d83be90923e1d98942aecac6470d7a26a385bfaa75ee7fad1918875"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/itm.py",
+      "source": "firstpass/R3-hydrogen/_work/itm.py",
+      "bytes": 856,
+      "sha256": "5b454c53f356bdd1c24f2ee7bce45d1fbff1ec5e134fdb57f959671535e664d1"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/itm2.py",
+      "source": "firstpass/R3-hydrogen/_work/itm2.py",
+      "bytes": 739,
+      "sha256": "351310c3ada1761e489045831cadce6830d6d3f8e5eeaf4443e19a2df0aaf482"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/itm3.py",
+      "source": "firstpass/R3-hydrogen/_work/itm3.py",
+      "bytes": 739,
+      "sha256": "d31cd5c1c569fee477bef3f61df0a33c3e6062b14be8abfbe20676e0939f3085"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/itm_specs.py",
+      "source": "firstpass/R3-hydrogen/_work/itm_specs.py",
+      "bytes": 944,
+      "sha256": "a1fab5d206f4e3c477fab7df9eab6f19b1d5a92ebbbf4c7fd47548d43507ed6b"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/probe.py",
+      "source": "firstpass/R3-hydrogen/_work/probe.py",
+      "bytes": 835,
+      "sha256": "80bd60cab92a6f2cce5e9e36a9f8452edc63f58f81bf75c4b47588e005ca83cd"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/_work/validate.py",
+      "source": "firstpass/R3-hydrogen/_work/validate.py",
+      "bytes": 3017,
+      "sha256": "1bb98ef9c096c0c21717803bac3b1d0d0fb1250350f181dc382649c505f7a48b"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/FIRST_PASS.md",
+      "source": "firstpass/R3-hydrogen/FIRST_PASS.md",
+      "bytes": 6264,
+      "sha256": "ec2baefa24cd84db313913ef93496f274bfa2449f3a0adffa9c6c1ec1f0e3f98"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/parameters.json",
+      "source": "firstpass/R3-hydrogen/parameters.json",
+      "bytes": 26446,
+      "sha256": "bdbc4112a7038706b4456535837bdb42559f086cf4e1874fd97da34bc142da82"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/REPORT.md",
+      "source": "firstpass/R3-hydrogen/REPORT.md",
+      "bytes": 28393,
+      "sha256": "9b46581c95ae16e0fcc3adc81464030d984f61e85dddc7dfac31230bc5b6852b"
+    },
+    {
+      "release_path": "packages/R3-hydrogen/sources.json",
+      "source": "firstpass/R3-hydrogen/sources.json",
+      "bytes": 14174,
+      "sha256": "c2c9d9380ef6f0209a57b39c0722ce392f359a77533a51bcfe1b8c2b877b5412"
+    },
+    {
+      "release_path": "packages/R4-finance-data/audit_inputs.py",
+      "source": "firstpass/R4-finance-data/audit_inputs.py",
+      "bytes": 20554,
+      "sha256": "78b0008fd5e42c91cea8756cffa29f7b5df8c2bc48536b58a0e94ab5ae552cc7"
+    },
+    {
+      "release_path": "packages/R4-finance-data/audit_results.json",
+      "source": "firstpass/R4-finance-data/audit_results.json",
+      "bytes": 36249,
+      "sha256": "ebeeb3509b69d69c588146ebb5a17397b1563e4a09f201a64c8407c45f01e0ec"
+    },
+    {
+      "release_path": "packages/R4-finance-data/audit_summary.txt",
+      "source": "firstpass/R4-finance-data/audit_summary.txt",
+      "bytes": 5174,
+      "sha256": "54b814740972c65e67431d1ba79d515916de05f2b18c93082a24f50070bc0fe4"
+    },
+    {
+      "release_path": "packages/R4-finance-data/check_dates.py",
+      "source": "firstpass/R4-finance-data/check_dates.py",
+      "bytes": 1188,
+      "sha256": "8afa0f16e54965b9521dd8ee6cb851fc24b21193ab9f45ee4bc56999385c9e2e"
+    },
+    {
+      "release_path": "packages/R4-finance-data/data_quality.json",
+      "source": "firstpass/R4-finance-data/data_quality.json",
+      "bytes": 5005,
+      "sha256": "8de060ba1a6fb71b78624c3bf42dca2cbabecd4c56b86443e6c5a2233188b3c0"
+    },
+    {
+      "release_path": "packages/R4-finance-data/data_quality.py",
+      "source": "firstpass/R4-finance-data/data_quality.py",
+      "bytes": 4552,
+      "sha256": "0ae2bd14fe22670f421b018043a521e9f04fceefe966ad6618a665720aafd47b"
+    },
+    {
+      "release_path": "packages/R4-finance-data/derived_checks.json",
+      "source": "firstpass/R4-finance-data/derived_checks.json",
+      "bytes": 9450,
+      "sha256": "66826b45395dca5cad24c827ac04f5aa10e382d33e2e91bc67ac51c77adb3021"
+    },
+    {
+      "release_path": "packages/R4-finance-data/derived_checks.py",
+      "source": "firstpass/R4-finance-data/derived_checks.py",
+      "bytes": 4520,
+      "sha256": "9601f6bdd7d1fabebd7ea11d4ea9be731a35a83918dcc307a7ab0f3a80782978"
+    },
+    {
+      "release_path": "packages/R4-finance-data/fetch_finance.py",
+      "source": "firstpass/R4-finance-data/fetch_finance.py",
+      "bytes": 4865,
+      "sha256": "d997838ab4b95de6dc11ecde4cfd800fb460a46eeed5939232948c30cde006db"
+    },
+    {
+      "release_path": "packages/R4-finance-data/finance_evidence.json",
+      "source": "firstpass/R4-finance-data/finance_evidence.json",
+      "bytes": 3150,
+      "sha256": "a97b564345592499f2d02820805de2368a8d0874110f0a421f684aa4f3c2bfa4"
+    },
+    {
+      "release_path": "packages/R4-finance-data/FIRST_PASS.md",
+      "source": "firstpass/R4-finance-data/FIRST_PASS.md",
+      "bytes": 5824,
+      "sha256": "fbdc4f09d128b9486bc70f46321dffd04061a25b31f0bf0669cb9b5c6cb3e882"
+    },
+    {
+      "release_path": "packages/R4-finance-data/inspect_low_days.py",
+      "source": "firstpass/R4-finance-data/inspect_low_days.py",
+      "bytes": 1475,
+      "sha256": "b6cfe8cb1c34a8191e9800c9e945ecc9e95d42c380efa929dbddf6973efee802"
+    },
+    {
+      "release_path": "packages/R4-finance-data/parameters.json",
+      "source": "firstpass/R4-finance-data/parameters.json",
+      "bytes": 23266,
+      "sha256": "47330625b6cdd0440745ccfdcaa7562d6c45ed6cd4abc936b8b87f494c6d6f30"
+    },
+    {
+      "release_path": "packages/R4-finance-data/print_audit_highlights.py",
+      "source": "firstpass/R4-finance-data/print_audit_highlights.py",
+      "bytes": 1493,
+      "sha256": "ca613b7db6f48d778a8d7d3d7223408c30e4190a5468f6c9e753792ddaecfe8c"
+    },
+    {
+      "release_path": "packages/R4-finance-data/probe_sources.py",
+      "source": "firstpass/R4-finance-data/probe_sources.py",
+      "bytes": 1273,
+      "sha256": "9c8715221fbd1ba290f58ea288713234d25410369afcd1bcc497980e7a32f24e"
+    },
+    {
+      "release_path": "packages/R4-finance-data/probe_sources2.py",
+      "source": "firstpass/R4-finance-data/probe_sources2.py",
+      "bytes": 1767,
+      "sha256": "71c3254ca8869998238d5ae220ddf6358fd64333aa6895e6b4ab35325049ee5e"
+    },
+    {
+      "release_path": "packages/R4-finance-data/REPORT.md",
+      "source": "firstpass/R4-finance-data/REPORT.md",
+      "bytes": 24801,
+      "sha256": "d286300a85c789b2a25685e3228fd8980c85839537190b56f37fa252541a4c17"
+    },
+    {
+      "release_path": "packages/R4-finance-data/sources.json",
+      "source": "firstpass/R4-finance-data/sources.json",
+      "bytes": 9227,
+      "sha256": "9adbeec9eda946b266620bc78a7bb30b20eeb7c7028075c6dee5b3ad714dec31"
+    },
+    {
+      "release_path": "controller-data-audit/crosscheck_r4_artefact.json",
+      "source": "audit/crosscheck_r4_artefact.json",
+      "bytes": 1581,
+      "sha256": "3c955f3f2c4487defb36796e45366d987566b134b44610d4e55375fde820a978"
+    },
+    {
+      "release_path": "controller-data-audit/data_audit.json",
+      "source": "audit/data_audit.json",
+      "bytes": 12794,
+      "sha256": "431e531f38ca459b464eccc0625b11737ee55fb2d9ee74db1ed462bd39c3365a"
+    },
+    {
+      "release_path": "controller-data-audit/DATA_AUDIT_NOTE.md",
+      "source": "audit/DATA_AUDIT_NOTE.md",
+      "bytes": 6307,
+      "sha256": "cbaa783455c996fa37c70963b148ee77f07e9c47bc08124e5242657bae6f8ef1"
+    },
+    {
+      "release_path": "controller-data-audit/surplus_concentration.json",
+      "source": "audit/surplus_concentration.json",
+      "bytes": 1061,
+      "sha256": "b0ff66cc481fa3440bfe1b13b566c2340020753aa93a99bf0cac2ab3d47bec15"
+    },
+    {
+      "release_path": "controller-data-audit/tools/audit_data.py",
+      "source": "tools/audit_data.py",
+      "bytes": 14029,
+      "sha256": "72c7acfd0594df4a7ba7b4e4040813f48947847c0343a6d508e4c46a4958e6c0"
+    },
+    {
+      "release_path": "controller-data-audit/tools/build_input_bundle.py",
+      "source": "tools/build_input_bundle.py",
+      "bytes": 2523,
+      "sha256": "fe552e5a39c22d3ae2a91138ee07a665fb215822808630808588e9dc987e10bf"
+    },
+    {
+      "release_path": "controller-data-audit/tools/build_release.py",
+      "source": "tools/build_release.py",
+      "bytes": 3543,
+      "sha256": "813b10101c00ac96f0ed8f63ec227c5177e7b2929e918dccd9dea108a508027b"
+    },
+    {
+      "release_path": "controller-data-audit/tools/crosscheck_r4_artefact.py",
+      "source": "tools/crosscheck_r4_artefact.py",
+      "bytes": 3159,
+      "sha256": "80c975878880102b1746ddfdd5d6a241434ec6ef6997da69e096ec382cb69fef"
+    },
+    {
+      "release_path": "controller-data-audit/tools/extract_brief.py",
+      "source": "tools/extract_brief.py",
+      "bytes": 1725,
+      "sha256": "6431730cf9820ece0595e978fe784703297b9f3994619e9acdba8ec5908143bc"
+    },
+    {
+      "release_path": "controller-data-audit/tools/peek_csv.py",
+      "source": "tools/peek_csv.py",
+      "bytes": 743,
+      "sha256": "e7319e68d8da76cb0f7111044db7d46089d36eb72f5fe3a26e0900bdc7065e62"
+    },
+    {
+      "release_path": "controller-data-audit/tools/repair_audit.py",
+      "source": "tools/repair_audit.py",
+      "bytes": 897,
+      "sha256": "906671bac3a022d031e7bc090a8253450de30de5efd59e4e690968fb1f617b0a"
+    },
+    {
+      "release_path": "controller-data-audit/tools/report_outline.py",
+      "source": "tools/report_outline.py",
+      "bytes": 474,
+      "sha256": "6343aac6d78c9ca144e2ba9bc364f97cfda2613aa664d197b24e7fa4a7d18645"
+    },
+    {
+      "release_path": "controller-data-audit/tools/summarise_audit.py",
+      "source": "tools/summarise_audit.py",
+      "bytes": 1902,
+      "sha256": "406cba942b856b55298604ad384e92840258a6462501e9c5622580c8c50e0fec"
+    },
+    {
+      "release_path": "controller-data-audit/tools/surplus_concentration.py",
+      "source": "tools/surplus_concentration.py",
+      "bytes": 2347,
+      "sha256": "5798b57ee4572924a04cf754bfa70c98e1b2298d8849bef4436a453d6423421a"
+    },
+    {
+      "release_path": "BASELINE_CANDIDATE_CU.json",
+      "source": "synthesis/BASELINE_CANDIDATE_CU.json",
+      "bytes": 14590,
+      "sha256": "a5845e2a7fe96baa232647bddb0d35ef09ae85a6695518cf019bf9061a0c49e5"
+    },
+    {
+      "release_path": "CROSS_REVIEW_NOTES.md",
+      "source": "synthesis/CROSS_REVIEW_NOTES.md",
+      "bytes": 8068,
+      "sha256": "a43bc80aaa1ae2d34d8d7eac96e03232eecdef35119392962e9c3e3ff75977dc"
+    },
+    {
+      "release_path": "README.md",
+      "source": "synthesis/README.md",
+      "bytes": 4986,
+      "sha256": "83f984f32c70e1814723c544ea7e54decbde5231e74959fcaee98d73965d16e1"
+    },
+    {
+      "release_path": "SYNTHESIS.md",
+      "source": "synthesis/SYNTHESIS.md",
+      "bytes": 11573,
+      "sha256": "b1ccb92c2bf55888f6d662e0ad7bfbf498b188e9f0b0ed0b96cda3e563acfb1d"
+    }
+  ],
+  "skipped": [
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\h2_production_costs_2021.pdf",
+      "reason": "binary/unsupported type"
+    },
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\h2_production_costs_2021_annex.xlsx",
+      "reason": "binary/unsupported type"
+    },
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\h2_transport_storage_cost_report.pdf",
+      "reason": "binary/unsupported type"
+    },
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\itm_alpha50_spec.pdf",
+      "reason": "binary/unsupported type"
+    },
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\itm_neptune2_spec.pdf",
+      "reason": "binary/unsupported type"
+    },
+    {
+      "source": "firstpass\\R3-hydrogen\\_work\\itm_poseidon_spec.pdf",
+      "reason": "binary/unsupported type"
+    }
+  ]
+}

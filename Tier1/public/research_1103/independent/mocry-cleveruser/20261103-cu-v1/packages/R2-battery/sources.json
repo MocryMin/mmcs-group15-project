@@ -1,0 +1,231 @@
+{
+  "result_id": "R2-battery-firstpass-20261103",
+  "access_note": "Timestamps are UTC capture times of the immutable document copy I read. Page numbers are one-based physical PDF pages, not printed page labels.",
+  "sources": [
+    {
+      "id": "SRC-TESLA-MP2XL",
+      "publisher": "Tesla, Inc. (datasheet filed as an attachment to a Connecticut Siting Council petition; hosted on portal.ct.gov)",
+      "title": "Megapack 2 XL Datasheet, Rev. 1.5.1, 10 February 2023",
+      "url": "https://portal.ct.gov/-/media/csc/3_petitions-medialibrary/petitions_medialibrary/mediapetitionnos1601-1700/pe1607/petitionersubmissions/supplement-attachment-a---megapack_2_xl_datasheet.pdf",
+      "document_type": "manufacturer datasheet (PDF, 1 page)",
+      "accessed_utc": "2026-11-03T19:49:52Z",
+      "locators": [
+        {
+          "locator": "p.1, POWER AND ENERGY table",
+          "quote": "2-Hour 1927 kW 3854 kWh",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-01-01, B-03-03: a commercial unit at exactly 2.000 h duration (3854/1927)"
+        },
+        {
+          "locator": "p.1, ELECTRICAL, Round-Trip Efficiency footnote 2 (full-depth cycle including all power conversion and thermal system losses, at 25 C)",
+          "quote": "2-Hour: 92.0%",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-03-01: RTE upper end of the observed range"
+        },
+        {
+          "locator": "p.1, WARRANTY",
+          "quote": "Term 15 years standard, extendable to 20 years",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-04-01: baseline life choice and 20-year sensitivity"
+        },
+        {
+          "locator": "p.1, ELECTRICAL, inverter note 1",
+          "quote": "Scalable from 400 kVA minimum in increments of 50 kVA",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-01-02: module grid and partial-unit flexibility"
+        },
+        {
+          "locator": "p.1, Part number / enclosure tables (no SOC window and no standby-loss figure are stated)",
+          "quote": "IP66/NEMA 3R (Main Enclosure)",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-03-04, B-03-05: the 20-80% SOC window and standby loss are NOT datasheet values; they remain team assumptions or gaps"
+        }
+      ],
+      "limitations": "One product only. Tesla does not publish cycle life, calendar life or a usable-SOC window in this datasheet, so it cannot support B-04 cycle-life claims. The URL is a regulatory docket copy of the manufacturer document; the same PDF text is what I read."
+    },
+    {
+      "id": "SRC-LAZARD-LCOE-2025",
+      "publisher": "Lazard (Power, Energy and Infrastructure advisory)",
+      "title": "Levelized Cost of Energy+ (LCOE+), June 2025, v10.0",
+      "url": "https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "document_type": "industry benchmark report (PDF, 48 pages)",
+      "accessed_utc": "2026-11-03T19:36:01Z",
+      "locators": [
+        {
+          "locator": "p.43, 'Levelized Cost of Storage - Key Assumptions', columns (100 MW/200 MWh) and (100 MW/400 MWh)",
+          "quote": "Duration Hours 2.0 4.0 ... Usable Energy MWh 200 400",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-01-03, B-02-03: the reference utility-scale 2-hour system and its scale"
+        },
+        {
+          "locator": "p.43, 'Initial Capital Cost - DC $/kWh' row, 2-hour column",
+          "quote": "$113 - $244",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-04, B-05-01: DC capital cost band for a 2-hour utility system"
+        },
+        {
+          "locator": "p.43, 'Total Initial Installed Cost M $' row, 2-hour column",
+          "quote": "$34 - $88",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-03: installed total, giving USD 170-440/kWh at 200 MWh"
+        },
+        {
+          "locator": "p.43, 'Efficiency of Storage Technology %' row, 2-hour column",
+          "quote": "91% - 87%",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-03-01: independent RTE band narrower and lower than the datasheet"
+        },
+        {
+          "locator": "p.43, 'Storage O&M $/kWh' row, 2-hour column",
+          "quote": "$3.0 - $8.2",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-04-04: all-in O&M, conflicting with PNNL's 0.43% of capex"
+        },
+        {
+          "locator": "p.43, note under the table (90% depth of discharge, 1 cycle/day, 350 operating days/year, 20-year life)",
+          "quote": "All cases were modeled using 90% depth of discharge and 10% overbuild",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-04-03, B-05-03: cycling and operating-day conventions"
+        }
+      ],
+      "limitations": "US real-project data in USD. No FX rate is supplied, so I did not convert it to EUR. The report is a market benchmark, not a UK quote, and it is not a price list."
+    },
+    {
+      "id": "SRC-DEA-STORAGE-2025",
+      "publisher": "Danish Energy Agency (Energistyrelsen)",
+      "title": "Technology Data for Energy Storage (catalogue; Li-ion chapter 180 updated May 2025)",
+      "url": "https://ens.dk/media/6588/download",
+      "document_type": "official technology catalogue (PDF, 225 pages)",
+      "accessed_utc": "2026-11-03T20:09:01Z",
+      "locators": [
+        {
+          "locator": "p.3, revision table",
+          "quote": "May 2025 ... Updated chapters and data for Lithium-ion Batteries for Grid-Scale Storage",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "document currency: the Li-ion chapter I used is the 2025 update"
+        },
+        {
+          "locator": "p.176, CAPEX discussion",
+          "quote": "In 2023, the combined battery cell and pack prices are about 139 $2023/kWh or 109 EUR2020/kWh",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-01 sanity check of the cell+pack element"
+        },
+        {
+          "locator": "p.177, CAPEX discussion",
+          "quote": "falls to about 94 EUR2020/kWh in 2025 and 59 EUR2020/kWh in 2050",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-01: cell+pack element falls to 94 EUR2020/kWh by 2025, consistent with Table 8 (0.077 + 0.023 = 0.100)"
+        },
+        {
+          "locator": "p.180, Table 8 'Assumed demand profile for LIB cells and projected costs'",
+          "quote": "Projected Cell Cost (MEUR 2020/MWh) 0,084 0,077 ... Projected Pack Cost (MEUR 2020/MWh) 0,025 0,023",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-01: cell and pack cost elements for 2023 and 2025"
+        },
+        {
+          "locator": "p.181, Table 10 'Other cost elements of Li-ion battery energy storage systems'",
+          "quote": "Container, TMS and FSS 0,081 MEUR 2020/MWh ... PCS 0,069 MEUR 2020/MW ... EPC ... 10 % of all other costs",
+          "quote_provenance": "direct read of extracted text",
+          "supports": "B-02-01, B-02-05, B-03-06: the elements summed to reconstruct the installed cost"
+        },
+        {
+          "locator": "front matter, cost-definition section (read via the read_with_purpose helper over the same document)",
+          "quote": "2020 price level; excludes VAT; EPC/overnight cost; shallow connection only; no economy-of-scale rule",
+          "quote_provenance": "helper-extracted and paraphrased - NOT an independently verified verbatim quotation",
+          "supports": "B-02-01 scope and price year, B-05-02 (no scale rule)"
+        }
+      ],
+      "limitations": "The Li-ion round-trip efficiency row and Figure 7 (projected capex chart) were not read, so the installed total is my arithmetic reconstruction from component tables rather than a number quoted directly from the catalogue. The front-matter scope statements are helper-mediated and should be spot-checked before publication."
+    },
+    {
+      "id": "SRC-PNNL-ESGC-2022",
+      "publisher": "Pacific Northwest National Laboratory / US Department of Energy",
+      "title": "Energy Storage Grand Challenge Cost and Performance Assessment 2022 (PNNL-33283)",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf",
+      "document_type": "national laboratory technical report (PDF, 174 pages)",
+      "accessed_utc": "2026-11-03T20:02:57Z",
+      "locators": [
+        {
+          "locator": "p.22, Table 4.4 'Li-ion DC-DC and AC-AC RTE Values'",
+          "quote": "DC-DC 89.55% (2021) / 91.63% (2030); AC-AC at transformer level 82.59% / 84.52%",
+          "quote_provenance": "helper-extracted from the PDF; not independently re-read verbatim by me",
+          "supports": "B-03-01: conservative whole-plant AC-AC efficiency end"
+        },
+        {
+          "locator": "p.22, Table 4.3 cycle life",
+          "quote": "LFP 2,400 cycles and NMC 1,520 cycles at 80% average DOD to the halfway state-of-health point",
+          "quote_provenance": "helper-extracted; not independently re-read verbatim by me",
+          "supports": "B-04-02, B-04-03: cycle budget versus daily cycling"
+        },
+        {
+          "locator": "p.22, warranty practice discussion",
+          "quote": "warranties noted as typically limiting users to one full 100% DOD-equivalent cycle per day",
+          "quote_provenance": "helper-extracted; not independently re-read verbatim by me",
+          "supports": "B-04-03: the one-cycle-per-day convention"
+        },
+        {
+          "locator": "p.17-19, fixed O&M and refurbishment assumptions; p.21-22 augmentation and life",
+          "quote": "Fixed O&M = 0.43% of direct capital cost ... approximately $4.59/kW-year for a 10 MW, 4-hour system",
+          "quote_provenance": "helper-extracted; not independently re-read verbatim by me",
+          "supports": "B-04-04, B-04-06: bottom-up O&M and 10-year power-equipment refurbishment"
+        }
+      ],
+      "limitations": "US 2021/2030 modelling assumptions, not UK 2026 market prices. All four values in this entry were obtained through a read_with_purpose helper over my own captured copy of the PDF, so the wording is reported rather than verified character by character; the page and table locators are recorded so a reviewer can check them in one step."
+    },
+    {
+      "id": "SRC-BRIEF-P6",
+      "publisher": "MMCS 2026/27 project materials (supplied brief)",
+      "title": "Project_Brief.pdf, page 3 and Appendix page 6 (text extract supplied in the input bundle)",
+      "url": "Tier1/workspaces/mocry/cleveruser/inputs/brief_extracted_text.md (extract of Project_Brief.pdf, sha256 b9672d12850a3e02bd0c0ed3e248a5c19cb5b10140fbc6ebde8ae35571213631)",
+      "document_type": "course brief",
+      "accessed_utc": "2026-11-03T19:20Z (input bundle already in workspace context)",
+      "locators": [
+        {
+          "locator": "p.3 and p.6, battery parameters",
+          "quote": "Assume 90% roundtrip efficiency and that normally only 20%-80% of the battery's total capacity is used.",
+          "quote_provenance": "supplied text extract in the input bundle",
+          "supports": "B-03-01, B-03-04: the reference efficiency and SOC window"
+        },
+        {
+          "locator": "p.6, Battery investment cost row",
+          "quote": "EUR 0.288m per MWh ... Multiply installed battery energy capacity by this figure to estimate investment cost.",
+          "quote_provenance": "supplied text extract in the input bundle",
+          "supports": "B-02-02: the value whose reproducibility I tested against DEA"
+        }
+      ],
+      "limitations": "The brief is a requirement, not market evidence. It does not state a price year, currency base year or cost-scope boundary for the 0.288 figure, which is precisely why the DEA reconstruction matters."
+    }
+  ],
+  "sources_not_obtained": [
+    {
+      "attempt": "NREL Annual Technology Baseline 2024/2025 utility-scale battery storage page",
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "failure": "DNS resolution failed twice inside the browser sandbox (gaierror 11001); a retryable network condition, not evidence the source lacks the data",
+      "impact": "one fewer independent catalogue; the Lazard and PNNL cross-checks still bracket the DEA reconstruction"
+    },
+    {
+      "attempt": "Danish Energy Agency energy-storage landing page (older URL)",
+      "url": "https://ens.dk/en/our-services/projections-and-models/technology-data/technology-data-energy-storage",
+      "failure": "HTTP 404; the live page moved to /en/analyses-and-statistics/technology-data-energy-storage and the catalogue was then retrieved from that page",
+      "impact": "none, resolved"
+    },
+    {
+      "attempt": "DEA storage datasheet download",
+      "url": "https://ens.dk/media/6589/download",
+      "failure": "The harness reported an unsupported document type for that download, so the datasheet summary table was not read",
+      "impact": "the Li-ion summary table (round-trip efficiency, lifetime) remains unread; I used the chapter text and component tables instead"
+    },
+    {
+      "attempt": "A second and third commercial product datasheet (e.g. CATL, Sungrow, Fluence, Wartsila)",
+      "url": null,
+      "failure": "not attempted within the time box after the first datasheet was secured",
+      "impact": "B-01 module-grid evidence rests on one product; disclosed as a catalogue breadth gap"
+    },
+    {
+      "attempt": "Public bulk-discount / quantity price schedule for grid BESS",
+      "url": null,
+      "failure": "no citable public schedule located; DEA explicitly applies no economy-of-scale rule",
+      "impact": "B-05-02 is an explicit gap with a two-step scale sensitivity as fallback"
+    }
+  ]
+}

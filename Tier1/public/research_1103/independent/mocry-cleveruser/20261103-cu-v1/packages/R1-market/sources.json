@@ -1,0 +1,285 @@
+{
+  "package": "R1",
+  "result_id": "R1-market/firstpass-2026-11-03",
+  "access_note": "Single session on 2026-11-03. The tool environment exposes no clock; the only externally observed timestamp was 2026-11-03T20:09:36Z inside a search-engine block page. Per-page access times are therefore recorded as that date (UTC, evening session), not to the minute.",
+  "sources": [
+    {
+      "id": "ELEXON-MID",
+      "publisher": "Elexon",
+      "title": "Market Index Data (BSC glossary)",
+      "url": "https://www.elexon.co.uk/bsc/glossary/market-index-data/",
+      "requested_url": "https://www.elexon.co.uk/operations-settlement/market-index/",
+      "doc_type": "industry code glossary (primary market documentation)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Glossary Term: Market Index Data, main body paragraphs",
+      "quotes": [
+        "reflects the price of wholesale electricity in Great Britain in the short term markets",
+        "The Market Price (the volume weighed average Market Index Price) is used to derive the Reverse Price (SBP or SSP)"
+      ],
+      "supports": "E-01: the supplied series is a short-term wholesale index used as an imbalance reference price, not a retail or contract price. Also shows the glossary still uses the pre-single-cash-out SBP/SSP wording.",
+      "evidence_strength": "high (definition itself); interpretation of the CSV as this index is an inference, see R1-C01"
+    },
+    {
+      "id": "ELEXON-IMBALANCE",
+      "publisher": "Elexon",
+      "title": "Imbalance Pricing",
+      "url": "https://www.elexon.co.uk/operations-settlement/imbalance-pricing/",
+      "doc_type": "industry code explanatory page (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Introduction; 'How it relates to you'; 'Market Index Data Volume and Price'; 'System Prices parameters'",
+      "quotes": [
+        "The Imbalance Price is used to settle energy imbalance volumes",
+        "However now there is a single price calculation, so SBP will equal SSP in each Settlement Period",
+        "Market Index Data (MID) is used in the calculation of the Market Index Price for each Settlement Period"
+      ],
+      "supports": "E-01 and E-04: settlement happens on contracted volume with a single cash-out price for deviations; the index is a settlement input, so revenue equals price x energy only when the plan is fully contracted (the perfect-foresight Tier1 case).",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "OFGEM-PRICECAP",
+      "publisher": "Ofgem",
+      "title": "Energy price cap and standing charges explained",
+      "url": "https://www.ofgem.gov.uk/energy-price-cap",
+      "doc_type": "regulator guidance (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "'How we calculate the price cap' cost component list; 'Who the price cap protects' exclusion list",
+      "quotes": [
+        "buying energy on the open market (wholesale costs)",
+        "building and improving the pipes and wires that transport energy (network costs)",
+        "have a business energy contract"
+      ],
+      "supports": "E-01 and E-03: a retail tariff is wholesale plus network, policy, operating, EBIT, headroom and VAT components, so the wholesale index cannot be used as a purchase or retail price; business contracts are outside the cap, so no public business ceiling exists.",
+      "evidence_strength": "high for the structure; no numeric business tariff obtained"
+    },
+    {
+      "id": "OFGEM-SEG",
+      "publisher": "Ofgem",
+      "title": "About the Smart Export Guarantee (SEG)",
+      "url": "https://www.ofgem.gov.uk/environmental-and-social-schemes/smart-export-guarantee-seg",
+      "doc_type": "regulator scheme guidance (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "'Who is the scheme for?'; 'How does the scheme work?'",
+      "quotes": [
+        "anyone with an installation of one of the following technology types up to a capacity of 5MW",
+        "SEG tariff rates must always be above zero"
+      ],
+      "supports": "E-07 and E-02: the modelled farm (peak 1125 MW) is far outside the 5 MW SEG threshold, so SEG is not an admissible export route; also confirms small-scale export rates are supplier-set and strictly positive.",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "NESO-CHARGING",
+      "publisher": "National Energy System Operator (NESO)",
+      "title": "Charging - the charges for using Great Britain's electricity system",
+      "url": "https://www.neso.energy/industry-information/charging",
+      "doc_type": "system operator charging overview (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Body text, 'There are four main types of charges' and the four charge descriptions",
+      "quotes": [
+        "TNUoS charges recover the costs of installing and maintaining the transmission system and are charged to all suppliers and generators",
+        "BSUoS charges recover the costs of the day-to-day operation of the transmission system"
+      ],
+      "supports": "E-07: establishes the four charge families (TNUoS, BSUoS, connection, AAHEDC) and that both suppliers and generators pay TNUoS, so a Scottish connection carries a real fixed charge that the brief's simplification omits.",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "NESO-BSUOS",
+      "publisher": "NESO",
+      "title": "Balancing Services Use of System (BSUoS) charges",
+      "url": "https://www.neso.energy/industry-information/charging/balancing-services-use-system-bsuos-charges",
+      "doc_type": "system operator charging page (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "'Who does this charge apply to?' list and the CMP308/CMP361 paragraph",
+      "quotes": [
+        "CMP308 defined that BSUoS charges are recovered solely from final demand, and CMP361 introduced an ex-ante fixed BSUoS tariff"
+      ],
+      "supports": "E-07: generators (including embedded generators) are marked as not charged, so a BSUoS deduction from export revenue would be wrong under the post-April-2023 regime.",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "NESO-TNUOS",
+      "publisher": "NESO",
+      "title": "Transmission Network Use of System (TNUoS) Charges",
+      "url": "https://www.neso.energy/industry-information/charging/transmission-network-use-system-tnuos-charges",
+      "doc_type": "system operator charging page (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "'Who does this charge apply to?' list; 'How am I charged?' paragraph",
+      "quotes": [
+        "Generators are charged according to Transmission Entry Capacity (TEC), while suppliers are charged based on actual demand",
+        "Certain embedded generators (<100MW) receive export payments over triad"
+      ],
+      "supports": "E-07: TNUoS on generation is a capacity-based (GBP/kW/year), zonal charge, not a per-MWh charge, so it belongs to fixed cost rather than to dispatch; also shows smaller embedded generators can receive payments rather than pay.",
+      "evidence_strength": "high for the basis; numeric tariff not obtained"
+    },
+    {
+      "id": "ELEXON-BMU",
+      "publisher": "Elexon",
+      "title": "Balancing Mechanism Unit (BSC glossary)",
+      "url": "https://www.elexon.co.uk/bsc/glossary/balancing-mechanism-unit/",
+      "doc_type": "industry code glossary (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Glossary Term: Balancing Mechanism Unit, first paragraph",
+      "quotes": [
+        "BM Units are used as units of trade within the Balancing Mechanism"
+      ],
+      "supports": "E-06: constraint-related payments arise through Balancing Mechanism participation, so an unregistered constructed farm has no route to them; supports the zero-compensation baseline.",
+      "evidence_strength": "medium (establishes the participation requirement, not the payment rules)"
+    },
+    {
+      "id": "ELEXON-SUPPLIER",
+      "publisher": "Elexon",
+      "title": "Supplier (BSC glossary)",
+      "url": "https://www.elexon.co.uk/bsc/glossary/supplier/",
+      "doc_type": "industry code glossary (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Glossary Term: Supplier, definition line",
+      "quotes": [
+        "means a Party which holds a Supply Licence and is responsible for Exports and/or Imports"
+      ],
+      "supports": "E-03: buying electricity for resale requires supply-licence status and registered metering, so an enabled import route carries an eligibility assumption that must be declared.",
+      "evidence_strength": "medium"
+    },
+    {
+      "id": "NESO-BALANCING-COSTS",
+      "publisher": "NESO",
+      "title": "Balancing costs",
+      "url": "https://www.neso.energy/industry-information/balancing-costs",
+      "doc_type": "system operator explanatory page (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Body text, 'Balancing costs' categories and 'Balancing Costs in Consumer Bills'",
+      "quotes": [
+        "System actions deal with the physical limits of the energy system",
+        "Balancing costs are one of many components making up consumer energy bills"
+      ],
+      "supports": "E-06 and E-07: constraint-driven costs are system actions recovered through charges, not a general payment for not generating; also confirms balancing costs are socialised into bills rather than levied per MWh on generators.",
+      "evidence_strength": "medium"
+    },
+    {
+      "id": "LCCC-BMRP",
+      "publisher": "Low Carbon Contracts Company (LCCC)",
+      "title": "LCCC homepage - news item 'Baseload Market Reference Price Winter 2026'",
+      "url": "https://www.lowcarboncontracts.uk/",
+      "doc_type": "scheme delivery body announcement (primary)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Latest news list, item dated 05.10.2026",
+      "quotes": [
+        "The Baseload Market Reference Price (BMRP) for Winter 2026, which covers October 2026 to March 2027, is GBP 114.50/MWh"
+      ],
+      "supports": "E-01: current published GB baseload reference level (GBP 114.50/MWh) is far above the 2020-2026 supplied daily mean (GBP 48.17/MWh), so the historical mean is not a forecast and price-level sensitivity is mandatory.",
+      "evidence_strength": "medium (announcement snippet; the underlying BMRP methodology was not opened)",
+      "note": "Quote rendered with 'GBP' in place of the pound sign only; wording otherwise as displayed."
+    },
+    {
+      "id": "GOVUK-CFD",
+      "publisher": "GOV.UK (Department for Energy Security and Net Zero collection)",
+      "title": "GOV.UK search results for 'contracts for difference negative pricing' - entry 'Contracts for Difference'",
+      "url": "https://www.gov.uk/search/all?keywords=contracts+for+difference+negative+pricing",
+      "doc_type": "government search listing (secondary presentation of a primary collection)",
+      "access_utc": "2026-11-03 (evening session)",
+      "locator": "Result list, second entry 'Contracts for Difference' summary line",
+      "quotes": [
+        "A Contract for Difference (CfD) is a private law contract between a low carbon electricity generator and the Low Carbon Contracts Company (LCCC), a government-owned company"
+      ],
+      "supports": "E-01 and E-07: a CfD is a bilateral contract, so the supplied merchant index price cannot be read as a CfD strike or reference price, and no CfD payment belongs in the baseline. The negative-pricing provision itself was NOT obtained (see failed retrievals).",
+      "evidence_strength": "low-medium (search snippet, collection page not opened)"
+    },
+    {
+      "id": "SOURCE-MANIFEST",
+      "publisher": "Project repository (owner-supplied)",
+      "title": "SOURCE_MANIFEST.json",
+      "url": null,
+      "local_path": "Tier1/workspaces/mocry/cleveruser/inputs/SOURCE_MANIFEST.json",
+      "doc_type": "supplied input metadata",
+      "access_utc": "2026-11-03",
+      "locator": "entries for daily_generation_by_fuel.csv, daily_generation_total.csv, daily_demand.csv, wind_farm_generation.csv, daily_market_index_price.csv (columns, data_rows, distinct_dates, sha256)",
+      "quotes": [
+        "columns: date, avg_price_gbp_per_mwh, avg_price_gbp_per_mw_day"
+      ],
+      "supports": "E-01: documents the column names and row counts but not the index definition, aggregation rule or weighting, which is why the MIP reading is recorded as an inference (R1-C01, R1-C07).",
+      "evidence_strength": "high as metadata; silent on the points that matter",
+      "note": "Quote paraphrases the JSON field names without the pound-sign characters."
+    },
+    {
+      "id": "BRIEF-APPENDIX",
+      "publisher": "MMCS 2026/27 course materials",
+      "title": "Project_Brief.pdf, page 6 appendix (battery and electrolyser parameters)",
+      "url": null,
+      "local_path": "Tier1/workspaces/mocry/cleveruser/inputs/brief_extracted_text.md",
+      "doc_type": "course brief (authoritative input, read via the page-marked text extract)",
+      "access_utc": "2026-11-03",
+      "locator": "Page 6, rows 'Hydrogen production' and 'Hydrogen value'",
+      "quotes": [
+        "The electrolyser needs about 55.9 kWh of electricity to produce 1 kg of hydrogen",
+        "GBP 9.5/kg as a core scenario"
+      ],
+      "supports": "Used only for the H2 electricity-equivalent conversion (R1-C34) and the 90 percent round-trip efficiency in the cycling threshold (R1-C19).",
+      "evidence_strength": "high (written brief)"
+    },
+    {
+      "id": "BASELINE-1103",
+      "publisher": "Group 15 internal proposal (Ran Min)",
+      "title": "BASELINE_1103.md, BL-02, BL-04, BL-06, BL-07, BL-09, BL-11",
+      "url": null,
+      "local_path": "Tier1/workspaces/mocry/cleveruser/inputs/BASELINE_1103.md",
+      "doc_type": "internal modelling proposal",
+      "access_utc": "2026-11-03",
+      "locator": "Sections BL-02 (demand as absorption limit), BL-04 (no intraday spreads), BL-06 (q_t = min{G_t,D_t}), BL-07 (purchases disabled), BL-09 (single-counted opportunity cost), BL-11 (retain negative prices)",
+      "quotes": [
+        "Demand is the system's sales/absorption limit, not an extra unpaid company internal load"
+      ],
+      "supports": "The baseline choices this pass tests; R1 finds the D_t cap is a convention without a market analogue, and concurs with the closed-market and negative-price provisions.",
+      "evidence_strength": "n/a (proposal, not evidence)"
+    },
+    {
+      "id": "OWN-COMPUTE",
+      "publisher": "This pass (reproducible local computation)",
+      "title": "_scratch/analyze_inputs.py applied to the byte-identical input copies",
+      "url": null,
+      "local_path": "Tier1/workspaces/mocry/cleveruser/firstpass/R1-market/_scratch/analyze_inputs.py",
+      "doc_type": "own computation from supplied inputs",
+      "access_utc": "2026-11-03",
+      "locator": "script output (row counts, coverage, intersection, price statistics, unit identity, scale shares)",
+      "quotes": [],
+      "supports": "All figures in REPORT.md marked 'own computation' and the derived claims R1-C02..C06, C09..C12, C16, C19..C23, C31, C32, C34, C35.",
+      "evidence_strength": "high for arithmetic on the supplied files; it inherits every limitation of those files"
+    },
+    {
+      "id": "OWN-INFERENCE",
+      "publisher": "This pass",
+      "title": "Reasoning step, not a sourced fact",
+      "url": null,
+      "doc_type": "own inference",
+      "access_utc": "2026-11-03",
+      "locator": "n/a",
+      "quotes": [],
+      "supports": "Used where the conclusion follows from market structure plus the source set (e.g. net metering forbidding simultaneous import and export at one connection) rather than from a single quoted sentence. Flagged so the reader can separate evidence from reasoning.",
+      "evidence_strength": "medium"
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "target": "Ofgem wholesale market indicators page",
+      "url": "https://www.ofgem.gov.uk/energy-policy-and-regulation/policy-and-regulatory-programmes/wholesale-market-indicators",
+      "result": "HTTP 404"
+    },
+    {
+      "target": "NESO constraint management page",
+      "url": "https://www.neso.energy/industry-information/constraint-management",
+      "result": "HTTP 404"
+    },
+    {
+      "target": "LCCC CfD negative pricing page",
+      "url": "https://www.lowcarboncontracts.uk/cfd-negative-pricing",
+      "result": "HTTP 404"
+    },
+    {
+      "target": "Search engine retrieval (Bing, Brave, Google, DuckDuckGo)",
+      "url": null,
+      "result": "Bing readiness timeouts and cn.bing redirect, Brave and Google HTTP 429/challenge, DuckDuckGo bot challenge. All searching was therefore done by direct primary-source navigation."
+    },
+    {
+      "target": "CfD negative-pricing provision (statutory/standard-terms text)",
+      "url": "https://www.gov.uk/search/all?keywords=contracts+for+difference+negative+pricing",
+      "result": "Search listing returned 13,491 results but no direct negative-pricing document in the first page; provision not obtained and deliberately not modelled."
+    }
+  ]
+}

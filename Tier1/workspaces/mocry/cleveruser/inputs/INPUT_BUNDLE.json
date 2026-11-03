@@ -1,0 +1,108 @@
+{
+  "bundle": "cleveruser-independent-firstpass-inputs",
+  "built_at": "2026-11-03T19:18:25Z",
+  "built_by": "mocry-cleveruser",
+  "purpose": "Byte-identical copies of the question and supplied inputs, given to first-pass researchers who must not read Tier1/public/research_1103/**.",
+  "excluded_on_purpose": [
+    "Tier1/public/research_1103/** (earlier research round)",
+    "Tier2/** (not yet used)"
+  ],
+  "files": [
+    {
+      "source_path_in_repo": "PROJECT.md",
+      "bundle_file": "PROJECT.md",
+      "bytes": 5388,
+      "sha256": "a5815c0565d7666f8d7bdc941d0a05c6a89da1d29e90473db28fe8d1bb478153"
+    },
+    {
+      "source_path_in_repo": "Project_Brief.pdf",
+      "bundle_file": "Project_Brief.pdf",
+      "bytes": 333134,
+      "sha256": "b9672d12850a3e02bd0c0ed3e248a5c19cb5b10140fbc6ebde8ae35571213631"
+    },
+    {
+      "source_path_in_repo": "Project_Launch_Transcript.txt",
+      "bundle_file": "Project_Launch_Transcript.txt",
+      "bytes": 65130,
+      "sha256": "8e50a2273029841413ec28432b475d23e81bcba8450528641319110950d72746"
+    },
+    {
+      "source_path_in_repo": "Project_Launch_Transcript_Timed.txt",
+      "bundle_file": "Project_Launch_Transcript_Timed.txt",
+      "bytes": 69192,
+      "sha256": "30afa99c66b0115b31c29a41638a8056a425c2f1078e78a2083bd75273aceb48"
+    },
+    {
+      "source_path_in_repo": "SOURCE_MANIFEST.json",
+      "bundle_file": "SOURCE_MANIFEST.json",
+      "bytes": 4376,
+      "sha256": "07519fd5fc1f8f85cad7dc58c2674740f5db80d31be4bf2408a41ce22b939081"
+    },
+    {
+      "source_path_in_repo": "daily_demand.csv",
+      "bundle_file": "daily_demand.csv",
+      "bytes": 76008,
+      "sha256": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b"
+    },
+    {
+      "source_path_in_repo": "daily_generation_by_fuel.csv",
+      "bundle_file": "daily_generation_by_fuel.csv",
+      "bytes": 786436,
+      "sha256": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4"
+    },
+    {
+      "source_path_in_repo": "daily_generation_total.csv",
+      "bundle_file": "daily_generation_total.csv",
+      "bytes": 43549,
+      "sha256": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318"
+    },
+    {
+      "source_path_in_repo": "daily_market_index_price.csv",
+      "bundle_file": "daily_market_index_price.csv",
+      "bytes": 91950,
+      "sha256": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364"
+    },
+    {
+      "source_path_in_repo": "wind_farm_generation.csv",
+      "bundle_file": "wind_farm_generation.csv",
+      "bytes": 73849,
+      "sha256": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/BASELINE_1103.md",
+      "bundle_file": "BASELINE_1103.md",
+      "bytes": 11065,
+      "sha256": "4fb8f5ec212748886575485748c1f0c3f2dc7bbfa5bef160ba84f0c1fa315840"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/GAPS.md",
+      "bundle_file": "GAPS.md",
+      "bytes": 6991,
+      "sha256": "ad45dd6a7cd1edee72b1f04f21d9527389443f670670b84d77edd9b4db3125e3"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/TEACHER_CLARIFICATIONS.md",
+      "bundle_file": "TEACHER_CLARIFICATIONS.md",
+      "bytes": 8847,
+      "sha256": "be1670b618be9cf1b503f99c039f1aa5893a77779eb2774772d01e5d325b25b1"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/TEACHER_ORIGINAL_EXCERPTS.md",
+      "bundle_file": "TEACHER_ORIGINAL_EXCERPTS.md",
+      "bytes": 10034,
+      "sha256": "0b19ce258d12af15a374c73dbaab0b0afd4dd9455365474536fc030f1482feb0"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/RESEARCH_REQUEST.md",
+      "bundle_file": "RESEARCH_REQUEST.md",
+      "bytes": 7282,
+      "sha256": "c6254fe49cbcf169a32c42a0e4e517582c26ee3ca17d4f2637c76b4d96b676fa"
+    },
+    {
+      "source_path_in_repo": "Tier1/public/baseline_1103/RESEARCH_RESULT_TEMPLATE.md",
+      "bundle_file": "RESEARCH_RESULT_TEMPLATE.md",
+      "bytes": 2730,
+      "sha256": "699704ad4856a28bfd94ca732315b02a6488d78a5ade42f4c1444a0880093201"
+    }
+  ]
+}

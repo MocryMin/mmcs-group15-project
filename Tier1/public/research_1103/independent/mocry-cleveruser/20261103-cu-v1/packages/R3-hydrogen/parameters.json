@@ -1,0 +1,373 @@
+{
+  "result_id": "R3-hydrogen/2026-11-03-firstpass",
+  "package": "R3",
+  "gap_ids": ["H-01", "H-02", "H-03", "H-04", "H-05", "H-06", "H-07"],
+  "informs": ["M-05", "M-09", "M-10"],
+  "generated_utc": "2026-11-03T21:40:00Z",
+  "status": "first-pass",
+  "notes": "Values are typed. Installed vs equipment-only, AC vs DC, per-kW_H2 vs per-kW_e and nominal vs real price bases are kept in separate fields deliberately; do not merge them. 'evidence_strength' is one of strong / moderate / weak / none.",
+  "claims": [
+    {
+      "id": "R3-01", "gap_id": "H-02",
+      "meaning": "Specific electricity consumption of the brief's reference electrolyser module",
+      "value": 55.9, "unit": "kWh per kg H2", "currency": null, "price_year": null,
+      "scope": "AC power, full system (water purification + PEM stack + balance of plant), beginning of life, ITM POSEIDON 20 MW module",
+      "source_ref": "S1 p2",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Use 55.9 kWh/kg as the single AC conversion; apply no additional rectifier/transformer loss and no separate water-treatment energy term",
+      "sensitivity_range": {"low": 52.0, "high": 60.0, "basis": "55.9 for 20/50 MW modules; 57.0 measured for the 2 MW NEPTUNE II; higher values represent degradation, which the data sheet does not quantify"}
+    },
+    {
+      "id": "R3-02", "gap_id": "H-02",
+      "meaning": "Boundary of the 55.9 kWh/kg figure",
+      "value": "Full system AC consumption at beginning of life; excludes H2 compression above 31 bar(g) and excludes any degradation allowance",
+      "unit": "rule", "currency": null, "price_year": null,
+      "scope": "ITM POSEIDON data sheet footnote",
+      "source_ref": "S1 p2 footnote *",
+      "evidence_strength": "strong",
+      "recommended_baseline": "State the boundary in the run manifest; treat compression above 31 bar(g) as a separate costed module",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-03", "gap_id": "H-02",
+      "meaning": "Minimum operating load of the reference module when running",
+      "value": 20, "unit": "% of installed capacity", "currency": null, "price_year": null,
+      "scope": "POSEIDON 20 MW; footnoted as arising from 4 pairs turned down to 25% applied load, i.e. a module-configuration property, not a physical PEM limit",
+      "source_ref": "S1 p2",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Keep 20% for the reference module, with a binary on/off variable so that 0 output is distinct from 20% output",
+      "sensitivity_range": {"low": 12.5, "high": 25.0, "basis": "12.5% on ITM ALPHA 50 (S2 p2); 25% on ITM NEPTUNE II 2 MW (S3 p2); alternative module choices move the floor"}
+    },
+    {
+      "id": "R3-04", "gap_id": "H-02",
+      "meaning": "Maximum load / ramp behaviour",
+      "value": 100, "unit": "% of installed capacity (max); 10%/s ramp up, 50%/s ramp down", "currency": null, "price_year": null,
+      "scope": "All three ITM modules",
+      "source_ref": "S1 p2; S2 p2; S3 p2",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Ramping is non-binding at daily resolution; do not model intraday ramping in the Tier1 daily model",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-05", "gap_id": "H-02",
+      "meaning": "Hydrogen production rate per MW of electrolyser at full load",
+      "value": 17.89, "unit": "kg H2 per hour per MW_e", "currency": null, "price_year": null,
+      "scope": "Derived: 1000 kWh/h / 55.9 kWh/kg",
+      "source_ref": "conversion from R3-01",
+      "evidence_strength": "strong",
+      "recommended_baseline": "429 kg/day and 156.7 t/yr per MW_e at 98% availability; use for capacity-to-kg balance checks",
+      "sensitivity_range": {"low": 17.0, "high": 19.2, "basis": "reciprocal of the 55.9 kWh/kg range"}
+    },
+    {
+      "id": "R3-06", "gap_id": "H-01",
+      "meaning": "Hydrogen delivery pressure at the electrolyser outlet",
+      "value": 31, "unit": "bar(g)", "currency": null, "price_year": null,
+      "scope": "POSEIDON 20 MW (ALPHA 50 and NEPTUNE II: 30 bar(g))",
+      "source_ref": "S1 p2; S2 p2; S3 p2",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Value H2 at the plant gate at 30-31 bar(g); any further compression is a separate costed module",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-07", "gap_id": "H-01",
+      "meaning": "Discrete commercial module sizes available for the capacity decision",
+      "value": [2, 20, 50], "unit": "MW per module", "currency": null, "price_year": null,
+      "scope": "ITM NEPTUNE II (2 MW), POSEIDON (20 MW), ALPHA 50 (50 MW); a 5 MW NEPTUNE is advertised but its data sheet was not read",
+      "source_ref": "S1 p1-2; S2 p2; S3 p2; ITM product index",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Capacity = integer count of {2, 20, 50} MW modules, with a finite maximum count; do not use a continuous capacity variable",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-08", "gap_id": "H-01",
+      "meaning": "Electrolyser CAPEX, equipment / full-scope plant list price",
+      "value": 1.0, "unit": "million EUR per MW_e", "currency": "EUR", "price_year": 2026,
+      "scope": "ITM ALPHA 50 list price EUR 50,000,000 for 50 MW; scope includes stacks, PSU incl. MV transformer and rectifier, water purification/polishing, cooling, H2 purification, DCS and ISBL piping; excludes civils, installation, grid-connection reinforcement and compression above 30 bar(g)",
+      "source_ref": "S2 p1-p2",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Lower bound of the CAPEX range; convert at a stated FX rate (0.85 EUR/GBP gives about GBP 0.85 m/MW_e)",
+      "sensitivity_range": {"low": 0.85, "high": 1.15, "basis": "FX 0.80-0.92 EUR/GBP; list price is not a negotiated or audited transaction price"}
+    },
+    {
+      "id": "R3-09", "gap_id": "H-01",
+      "meaning": "Electrolyser CAPEX, installed nth-of-a-kind cost (government cost evidence)",
+      "value": 829, "unit": "GBP per kW_e installed", "currency": "GBP", "price_year": 2020,
+      "scope": "PEM, 10 MW reference plant, 2020 commissioning, medium case; scope covers stack, balance of plant (drier, cooling, de-ox), civil works and electricity grid connection; excludes H2 compression. Converted from GBP 1158.63/kW H2 HHV by dividing by the paired electrical efficiency 1.397",
+      "source_ref": "S10 sheet 'Technical and cost assumptions' rows 3,10-16; S8 p16 for cost scope",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Central engineering anchor; uprate for price year before use",
+      "sensitivity_range": {"low": 774, "high": 1161, "basis": "table low/high CAPEX pairs divided by their paired efficiencies (953.59/1.2319; 1887.51/1.6256), all 2020 real prices"}
+    },
+    {
+      "id": "R3-10", "gap_id": "H-01",
+      "meaning": "Electrolyser CAPEX, 2025 projection in the same government evidence",
+      "value": 553, "unit": "GBP per kW_e installed", "currency": "GBP", "price_year": 2020,
+      "scope": "PEM, 10 MW, 2025 commissioning, medium case (730.29 GBP/kW H2 HHV, efficiency 1.3208); same cost scope as R3-09",
+      "source_ref": "S10 sheet 'Technical and cost assumptions' rows 3,10-16",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Use only if the model adopts the source's own cost-reduction projection; not a market observation",
+      "sensitivity_range": {"low": 498, "high": 973, "basis": "600.38/1.2065 and 1458.33/1.4986, 2020 real prices"}
+    },
+    {
+      "id": "R3-11", "gap_id": "H-01",
+      "meaning": "CAPEX unit trap: government electrolyser CAPEX is quoted per kW of hydrogen output (HHV), not per kW of electricity input",
+      "value": "GBP/kW H2 HHV divided by (kWh_e per kWh H2 HHV) gives GBP/kW_e; the factor is about 1.4",
+      "unit": "rule", "currency": null, "price_year": null,
+      "scope": "BEIS/DESNZ 2021 annex",
+      "source_ref": "S10 rows 7-16",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Always convert to kW_e before putting an electrolyser CAPEX into an optimiser; using the table value directly understates CAPEX by about 28%",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-12", "gap_id": "H-01",
+      "meaning": "Electrolyser CAPEX, committed whole-project capital per MW (first-of-a-kind, UK)",
+      "value": 3.304, "unit": "million GBP per MW", "currency": "GBP", "price_year": "2024-2026",
+      "scope": "HAR1: GBP 413 m private capital across 125 MW of small (5.2-24.5 MW) FOAK projects; includes bespoke civils, connection works, compression/storage and developer margin. Adding the >GBP 90 m Net Zero Hydrogen Fund grant gives about GBP 4.02 m/MW gross",
+      "source_ref": "S4",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Upper bound of the CAPEX range; describes what UK FOAK projects actually committed, not a repeat-build cost",
+      "sensitivity_range": {"low": 2.0, "high": 4.02, "basis": "grant treatment (private-only vs gross) and expected FOAK-to-NOAK cost reduction"}
+    },
+    {
+      "id": "R3-13", "gap_id": "H-01",
+      "meaning": "Recommended bounded electrolyser CAPEX set for the optimiser (installed, per MW_e)",
+      "value": {"low": 0.85, "core": 1.5, "high": 3.3},
+      "unit": "million GBP per MW_e", "currency": "GBP", "price_year": 2026,
+      "scope": "Low = ITM list equipment price; core = BEIS 2020 central GBP 0.83 m/MW_e uprated by an assumed factor 1.25; high = HAR1 committed project capital",
+      "source_ref": "S2, S10, S4",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Core GBP 1.5 m/MW_e, with the full range reported; the 1.25 uprating is an assumption pending R4/F-01 deflator work",
+      "sensitivity_range": {"low": 0.85, "high": 3.3, "basis": "3.9x swing; the single largest driver of the electrolyser investment decision after the H2 value"}
+    },
+    {
+      "id": "R3-14", "gap_id": "H-03",
+      "meaning": "Fixed operating expenditure of the electrolyser",
+      "value": 26.3, "unit": "GBP per kW_e per year", "currency": "GBP", "price_year": 2020,
+      "scope": "PEM medium case, 2020 commissioning, 10 MW; converted from GBP 36.72/kW H2 HHV per year by dividing by 1.397",
+      "source_ref": "S10 row 21-23",
+      "evidence_strength": "strong",
+      "recommended_baseline": "About 1.75%/yr of the core CAPEX; carry as a fixed annual charge, and absorb unevidenced water cost here rather than inventing a GBP/m3 figure",
+      "sensitivity_range": {"low": 23.2, "high": 30.6, "basis": "table low/high rows divided by paired efficiencies (32.38/1.397; 42.73/1.397)"}
+    },
+    {
+      "id": "R3-15", "gap_id": "H-03",
+      "meaning": "Variable operating expenditure of the electrolyser",
+      "value": 0.154, "unit": "GBP per kg H2", "currency": "GBP", "price_year": 2020,
+      "scope": "PEM medium 2020: GBP 0.0039/kWh H2 HHV multiplied by 39.4 kWh/kg",
+      "source_ref": "S10 row 24-26; S5 p10 for the 39.4 conversion",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Apply per kg produced, in addition to the electricity cost",
+      "sensitivity_range": {"low": 0.114, "high": 0.351, "basis": "table low 0.0029 and high 0.0089 GBP/kWh H2 HHV, times 39.4"}
+    },
+    {
+      "id": "R3-16", "gap_id": "H-03",
+      "meaning": "Stack replacement share of plant CAPEX and cycle interval (PEM)",
+      "value": {"share_of_capex": 0.60, "interval_years": 11},
+      "unit": "fraction of plant CAPEX; years", "currency": null, "price_year": null,
+      "scope": "PEM; capitalised into the levelised cost over a 30-year technology life (alkaline 50%/9 yr, SOE 60%/7 yr)",
+      "source_ref": "S8 p19",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Model as a cash outflow of 60% of electrolyser CAPEX at years 11 and 22, not as a silent OPEX uplift",
+      "sensitivity_range": {"low": 0.5, "high": 0.7, "basis": "stack share differs by technology; interval could lengthen with stack life improvements"}
+    },
+    {
+      "id": "R3-17", "gap_id": "H-03",
+      "meaning": "Electrolyser plant economic life and hurdle rate used in the government cost evidence",
+      "value": {"life_years": 30, "hurdle_rate": 0.10, "construction_years": 3},
+      "unit": "years; fraction per year", "currency": null, "price_year": null,
+      "scope": "BEIS/DESNZ 2021 annex, all electrolysis technologies",
+      "source_ref": "S10 rows 13-20, 27",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Use 30 years and 10% for comparability with the CAPEX sources; R4/F-01 owns the final discount convention",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-18", "gap_id": "H-04",
+      "meaning": "HAR1 weighted average hydrogen strike price (nominal as-paid basis)",
+      "value": 241, "unit": "GBP per MWh of hydrogen (HHV)", "currency": "GBP", "price_year": "nominal (2023 award; paid over the contract term)",
+      "scope": "11 successful HAR1 projects, 125 MW, weighted by lifetime hydrogen volumes; Low Carbon Hydrogen Agreement, 15-year support; subsidy varies with the natural gas reference price",
+      "source_ref": "S4 and its footnote 1",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Use only as a policy-supported value scenario, never as a market price or as revenue available without an LCHA",
+      "sensitivity_range": {"low": 175, "high": 241, "basis": "same settlement expressed in 2012 prices (GBP 175/MWh) versus nominal"}
+    },
+    {
+      "id": "R3-19", "gap_id": "H-04",
+      "meaning": "Hydrogen energy content used to convert GBP/MWh to GBP/kg",
+      "value": 39.4, "unit": "kWh per kg H2 (HHV)", "currency": null, "price_year": null,
+      "scope": "Higher Heating Value basis; the same report gives LHV = 33.33 kWh/kg",
+      "source_ref": "S5 p10; S6 Table A1 p36",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Use 39.4 for GBP/MWh(HHV)-to-GBP/kg conversions and 33.33 if an LHV-based price is quoted; never use either as the electrolyser electricity input (that is 55.9)",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-20", "gap_id": "H-04",
+      "meaning": "Verification of the brief's GBP 9.5/kg derivation",
+      "value": 9.4954, "unit": "GBP per kg H2", "currency": "GBP", "price_year": "nominal",
+      "scope": "241 GBP/MWh x 39.4 kWh/kg / 1000 = 9.4954; arithmetic confirmed. It values hydrogen energy content at the HAR1 strike price, not the production cost",
+      "source_ref": "derived from S4 and S5/S6",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Adopt GBP 9.50/kg as the core supported-value scenario, labelled nominal and LCHA-conditional",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-21", "gap_id": "H-04",
+      "meaning": "Same supported value expressed in the real basis used by the source",
+      "value": 6.895, "unit": "GBP per kg H2", "currency": "GBP", "price_year": 2012,
+      "scope": "175 GBP/MWh (2012 prices) x 39.4 kWh/kg / 1000",
+      "source_ref": "derived from S4 and S5",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Report alongside the nominal figure; use this if the model runs in constant 2012 prices",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-22", "gap_id": "H-04",
+      "meaning": "Recommended hydrogen value ladder for sensitivity analysis",
+      "value": {"low": 2.5, "core": 9.5, "high": 12.0},
+      "unit": "GBP per kg H2", "currency": "GBP", "price_year": "nominal",
+      "scope": "Low = lecturer's spoken illustration in the launch transcript, not a market observation; core = HAR1 supported value; high = unsourced stress case",
+      "source_ref": "S11 (transcript TC-05) for the low case; S4 for the core; none for the high",
+      "evidence_strength": "weak",
+      "recommended_baseline": "Core GBP 9.5/kg for the headline case; the high case must be labelled as having no source and must not be presented as evidence",
+      "sensitivity_range": {"low": 2.5, "high": 12.0, "basis": "at GBP 2.50/kg the electrolyser loses about GBP 3/kg on electricity alone, so the investment case exists only at supported values"}
+    },
+    {
+      "id": "R3-23", "gap_id": "H-04",
+      "meaning": "Hydrogen revenue per unit of electricity consumed (break-even price of forgone electricity)",
+      "value": 169.9, "unit": "GBP per MWh of electricity input", "currency": "GBP", "price_year": "nominal",
+      "scope": "9.50 GBP/kg divided by 55.9 kWh/kg, before electrolyser CAPEX and OPEX",
+      "source_ref": "derived from R3-01 and R3-20",
+      "evidence_strength": "strong",
+      "recommended_baseline": "The H2 route beats direct electricity sale only while the forgone electricity is worth less than about GBP 170/MWh; including CAPEX and OPEX the break-even falls to about GBP 140/MWh",
+      "sensitivity_range": {"low": 130, "high": 210, "basis": "55.9-64 kWh/kg specific consumption and GBP 9.5-12/kg hydrogen value"}
+    },
+    {
+      "id": "R3-24", "gap_id": "H-04",
+      "meaning": "Guaranteed commercial offtake price and volume for a producer outside HAR1",
+      "value": "No usable public number obtained",
+      "unit": "GBP per kg; tonnes per day", "currency": null, "price_year": null,
+      "scope": "Searched: DESNZ publications via the gov.uk search API, ITM Power product pages and data sheets. No public firm merchant offtake price or volume for a Scottish producer was obtained",
+      "source_ref": "none",
+      "evidence_strength": "none",
+      "recommended_baseline": "Carry hydrogen price and offtake cap as explicit scenario parameters; the model must not assume unlimited offtake at a fixed price",
+      "sensitivity_range": {"low": 0, "high": null, "basis": "offtake cap scenarios of 0 / 5 / 20 t per day are suggested for illustration only; none is evidence-based"}
+    },
+    {
+      "id": "R3-25", "gap_id": "H-05",
+      "meaning": "Levelised cost of hydrogen storage by technology (total, and conversion/compression share)",
+      "value": {"cgh2_vessel_700bar": {"total": 1.39, "conversion": 0.96, "storage_only": 0.43, "cycles_per_year": 120},
+                "lh2_vessel": {"total": 1.39, "conversion": 1.22, "storage_only": 0.17, "cycles_per_year": 52},
+                "new_salt_cavern": {"total": 0.26, "conversion": 0.13, "storage_only": 0.13, "cycles_per_year": 9},
+                "new_aquifer": {"total": 0.23, "conversion": 0.13, "storage_only": 0.10, "cycles_per_year": 5},
+                "depleted_gas_field": {"total": 0.24, "conversion": 0.13, "storage_only": 0.11, "cycles_per_year": 2}},
+      "unit": "GBP per kg H2", "currency": "GBP", "price_year": 2023,
+      "scope": "Levelised storage cost, cycle rates as listed; underlying source DNV via the DESNZ report footnote",
+      "source_ref": "S6 Table A2 p36; S5 p21",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Optional module only. Salt cavern is the cheapest but needs 9 cycles/yr; a 700 bar vessel costs about GBP 1.39/kg levelised",
+      "sensitivity_range": {"low": 0.23, "high": 1.39, "basis": "technology choice; aquifer and depleted-field estimates are more uncertain at scale"}
+    },
+    {
+      "id": "R3-26", "gap_id": "H-05",
+      "meaning": "Levelised cost of hydrogen transport",
+      "value": {"pipeline_per_100km": {"low": 0.26, "high": 0.31},
+                "cgh2_trailer_1300kg_per_100km": {"low": 2.10, "high": 3.56},
+                "cgh2_trailer_500kg_per_100km": {"low": 2.49, "high": 4.40}},
+      "unit": "GBP per kg H2 per 100 km", "currency": "GBP", "price_year": 2023,
+      "scope": "Levelised transport cost for a stated distance; the report itself warns that distance is often unstated in the literature",
+      "source_ref": "S7 Table A4 p38; S5 p21 and p29",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Optional module only, and only with an explicit distance. Pipeline is 8-10x cheaper per kg than road trailer",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-27", "gap_id": "H-06",
+      "meaning": "Reconversion (hydrogen back to electricity) equipment cost and efficiency",
+      "value": "No equipment cost or efficiency data obtained",
+      "unit": "GBP; fraction", "currency": null, "price_year": null,
+      "scope": "Not researched to conclusion in this pass; the brief treats reconversion as optional and BL-08 keeps it outside the direct-sale baseline",
+      "source_ref": "none",
+      "evidence_strength": "none",
+      "recommended_baseline": "Do not include reconversion in the baseline. If added, enforce a physical ceiling: 39.4 kWh/kg (HHV) x efficiency against 55.9 kWh/kg input, i.e. about 42% round-trip at 60% conversion efficiency",
+      "sensitivity_range": {"low": 0.35, "high": 0.45, "basis": "round-trip at 50-64% reconversion efficiency; any value near 100% implies energy creation"}
+    },
+    {
+      "id": "R3-28", "gap_id": "H-06",
+      "meaning": "Thermal basis conflict when reconverting: LHV vs HHV energy content",
+      "value": {"hhv": 39.4, "lhv": 33.33},
+      "unit": "kWh per kg H2", "currency": null, "price_year": null,
+      "scope": "The DESNZ report uses HHV for its own conversions but tabulates LHV = 33.33 kWh/kg in Table A1",
+      "source_ref": "S5 p10; S6 Table A1 p36",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Fix one thermal basis across value, reconversion and reporting, and state it; mixing them creates a silent 18% discrepancy (39.4/33.33)",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-29", "gap_id": "H-07",
+      "meaning": "Conditions that would make electrolyser capacity unbounded in the optimisation",
+      "value": ["unlimited offtake at a fixed price", "unlimited electricity import at a fixed price below the implied GBP 170/MWh", "unlimited import plus negative prices", "39.4 kWh/kg used as the input consumption", "reconversion efficiency at or above unity", "free H2 storage with no losses or capacity limit", "no minimum-load constraint", "continuous (fractional) module capacity"],
+      "unit": "list", "currency": null, "price_year": null,
+      "scope": "Modelling integrity checks",
+      "source_ref": "analysis in REPORT.md section 2.8",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Assert a finite offtake cap, a finite import cap from R1, a discrete module grid, a binary on/off at 20% load, and an energy balance that uses 55.9 kWh/kg as input and 39.4 kWh/kg only as output energy content",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-30", "gap_id": "H-07",
+      "meaning": "Bounded equipment set recommended to the optimiser",
+      "value": "Integer counts of {2, 20, 50} MW modules up to a stated finite maximum; no bespoke or fractional capacity",
+      "unit": "rule", "currency": null, "price_year": null,
+      "scope": "Justified by the ITM product grid rather than an arbitrary numerical bound (M-05)",
+      "source_ref": "S1, S2, S3",
+      "evidence_strength": "moderate",
+      "recommended_baseline": "Report the optimum as a module count so that it is physically orderable",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-31", "gap_id": "H-01",
+      "meaning": "Water supply requirement and cost",
+      "value": "Potable water (ALPHA 50) or DI water post-polishing (POSEIDON); no unit cost obtained",
+      "unit": "GBP per m3", "currency": null, "price_year": null,
+      "scope": "Data sheets state input water quality only",
+      "source_ref": "S1 p2; S2 p2",
+      "evidence_strength": "none",
+      "recommended_baseline": "Absorb into the BEIS-derived fixed OPEX (which already covers BoP) and declare the assumption; do not invent a water price",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-32", "gap_id": "H-03",
+      "meaning": "Electrolyser degradation rate over life",
+      "value": "Not quantified in the manufacturer data sheet; the 55.9 kWh/kg figure is explicitly beginning of life",
+      "unit": "per cent per year", "currency": null, "price_year": null,
+      "scope": "ITM data sheets give beginning-of-life consumption only",
+      "source_ref": "S1 p2 footnote *",
+      "evidence_strength": "none",
+      "recommended_baseline": "Keep beginning-of-life 55.9 with the BEIS stack-replacement schedule as the degradation proxy; do not invent an annual degradation percentage",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-33", "gap_id": "H-04",
+      "meaning": "HAR1 eligibility and support mechanism, which determines whether the GBP 9.5/kg can be claimed at all",
+      "value": "Competitively allocated Low Carbon Hydrogen Agreement to 11 named projects totalling 125 MW; revenue support with strike adjusted against the natural gas reference price; maximum NZHF capex grant intensity 20% in this round",
+      "unit": "rule", "currency": null, "price_year": 2023,
+      "scope": "Applies to England, Scotland and Wales; does not confer any entitlement on a new or hypothetical project",
+      "source_ref": "S4 and the underlying publication page",
+      "evidence_strength": "strong",
+      "recommended_baseline": "Treat the supported value as a scenario assumption for a scheme that holds, or could credibly hold, an LCHA; otherwise treat it as unavailable",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R3-34", "gap_id": "H-02",
+      "meaning": "Internal consistency check between the manufacturer's specific consumption and the government cost evidence",
+      "value": 55.04, "unit": "kWh per kg H2", "currency": null, "price_year": null,
+      "scope": "BEIS PEM 2020 medium electrical efficiency 1.397 kWh_e/kWh H2 HHV multiplied by 39.4 kWh/kg, compared with ITM's 55.9 kWh/kg",
+      "source_ref": "S10 row 10-12; S5 p10",
+      "evidence_strength": "strong",
+      "recommended_baseline": "The two independent evidence lines agree within 2%, so pairing BEIS CAPEX with the manufacturer's 55.9 kWh/kg is coherent",
+      "sensitivity_range": null
+    }
+  ]
+}

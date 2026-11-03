@@ -1,0 +1,9 @@
+{
+  "pdf": "Project_Brief.pdf",
+  "pdf_sha256": "b9672d12850a3e02bd0c0ed3e248a5c19cb5b10140fbc6ebde8ae35571213631",
+  "pages": 6,
+  "extract": "brief_extracted_text.md",
+  "extract_sha256": "022819fc9bbb56c4684f60288cc72b5c624cb1a48689a544400c21f17296bc86",
+  "extract_chars": 16657,
+  "extractor": "PyMuPDF"
+}

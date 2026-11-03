@@ -1,0 +1,164 @@
+{
+  "battery_capex_eur0.288m_per_MWh_in_gbp": {
+    "eur_per_MWh": 288000.0,
+    "gbp_per_MWh_by_year": {
+      "2019": 252797.8,
+      "2020": 256233.6,
+      "2021": 247564.8,
+      "2022": 245594.9,
+      "2023": 250499.5,
+      "2024": 243826.6,
+      "2025": 246755.5,
+      "2026": 247959.4
+    },
+    "rule": "GBP/MWh = EUR/MWh * (GBP per EUR annual mean)"
+  },
+  "cpi_annual_rate": {
+    "2019": 1.8,
+    "2020": 0.9,
+    "2021": 2.6,
+    "2022": 9.1,
+    "2023": 7.3,
+    "2024": 2.5,
+    "2025": 3.4
+  },
+  "cpi_annual_rate_monthly_2026": [
+    [
+      "2026 JAN",
+      3.0
+    ],
+    [
+      "2026 FEB",
+      3.0
+    ],
+    [
+      "2026 MAR",
+      3.3
+    ],
+    [
+      "2026 APR",
+      2.8
+    ],
+    [
+      "2026 MAY",
+      2.8
+    ],
+    [
+      "2026 JUN",
+      2.6
+    ],
+    [
+      "2026 JUL",
+      2.9
+    ],
+    [
+      "2026 AUG",
+      3.1
+    ],
+    [
+      "2026 SEP",
+      3.5
+    ]
+  ],
+  "cpi_index_annual": {
+    "2019": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2019 DEC",
+      "last_value": 108.5,
+      "mean_index": 107.8,
+      "n_months": 12
+    },
+    "2020": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2020 DEC",
+      "last_value": 109.2,
+      "mean_index": 108.75,
+      "n_months": 12
+    },
+    "2021": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2021 DEC",
+      "last_value": 115.1,
+      "mean_index": 111.5583,
+      "n_months": 12
+    },
+    "2022": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2022 DEC",
+      "last_value": 127.2,
+      "mean_index": 121.6583,
+      "n_months": 12
+    },
+    "2023": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2023 DEC",
+      "last_value": 132.2,
+      "mean_index": 130.5417,
+      "n_months": 12
+    },
+    "2024": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2024 DEC",
+      "last_value": 135.6,
+      "mean_index": 133.8583,
+      "n_months": 12
+    },
+    "2025": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2025 DEC",
+      "last_value": 140.1,
+      "mean_index": 138.3667,
+      "n_months": 12
+    },
+    "2026": {
+      "dec": null,
+      "jan": null,
+      "last_month": "2026 SEP",
+      "last_value": 144.1,
+      "mean_index": 142.0222,
+      "n_months": 9
+    }
+  },
+  "ecb_exr_gbp_eur": {
+    "annual_mean_gbp_per_eur": {
+      "2019": 0.87777,
+      "2020": 0.8897,
+      "2021": 0.8596,
+      "2022": 0.85276,
+      "2023": 0.86979,
+      "2024": 0.84662,
+      "2025": 0.85679,
+      "2026": 0.86097
+    },
+    "first": "2019-01-02",
+    "last": "2026-11-03",
+    "latest_obs": {
+      "date": "2026-11-03",
+      "gbp_per_eur": 0.83358
+    },
+    "n_obs": 2008,
+    "series_key": "EXR.D.GBP.EUR.SP00.A"
+  },
+  "ons_d7bt": {
+    "cdid": "D7BT",
+    "first": "1988 JAN",
+    "last": "2026 SEP",
+    "n_months": 465,
+    "release_date": "2026-10-20T23:00:00.000Z",
+    "title": "CPI INDEX 00: ALL ITEMS 2015=100",
+    "unit": "Index, base year = 100"
+  },
+  "ons_d7g7": {
+    "cdid": "D7G7",
+    "release_date": "2026-10-20T23:00:00.000Z",
+    "title": "CPI ANNUAL RATE 00: ALL ITEMS 2015=100",
+    "unit": "%"
+  }
+}

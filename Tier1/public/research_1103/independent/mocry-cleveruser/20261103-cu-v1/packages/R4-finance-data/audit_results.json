@@ -1,0 +1,1431 @@
+{
+  "checks": {
+    "annual_context": {
+      "2020": {
+        "mean_demand_MW": 27509.2,
+        "mean_generation_MW": 27387.5,
+        "mean_price_gbp_per_MWh": 16.093,
+        "n_common_days": 346
+      },
+      "2021": {
+        "mean_demand_MW": 28809.2,
+        "mean_generation_MW": 27987.5,
+        "mean_price_gbp_per_MWh": 54.767,
+        "n_common_days": 354
+      },
+      "2022": {
+        "mean_demand_MW": 29021.7,
+        "mean_generation_MW": 26453.0,
+        "mean_price_gbp_per_MWh": 95.38,
+        "n_common_days": 350
+      },
+      "2023": {
+        "mean_demand_MW": 27306.7,
+        "mean_generation_MW": 23638.7,
+        "mean_price_gbp_per_MWh": 45.373,
+        "n_common_days": 365
+      },
+      "2024": {
+        "mean_demand_MW": 27702.2,
+        "mean_generation_MW": 23286.6,
+        "mean_price_gbp_per_MWh": 35.034,
+        "n_common_days": 366
+      },
+      "2025": {
+        "mean_demand_MW": 28337.9,
+        "mean_generation_MW": 27316.0,
+        "mean_price_gbp_per_MWh": 39.561,
+        "n_common_days": 365
+      },
+      "2026": {
+        "mean_demand_MW": 27914.0,
+        "mean_generation_MW": 26273.6,
+        "mean_price_gbp_per_MWh": 50.427,
+        "n_common_days": 260
+      }
+    },
+    "common_date_system": {
+      "days_generation_gt_demand": 702,
+      "days_generation_lt_demand": 1704,
+      "demand_MWh_total": 1621947480.0,
+      "generation_MWh_total": 1502272760.8,
+      "max_deficit_day": [
+        "2022-12-12",
+        -908034.5
+      ],
+      "max_surplus_day": [
+        "2022-08-02",
+        616303.5
+      ],
+      "mean_demand_MW": 28088.589,
+      "mean_generation_MW": 26016.084,
+      "n_dates": 2406,
+      "n_negative_price_days_all": 9,
+      "negative_price_dates_first10": [
+        "2020-05-22",
+        "2020-06-28",
+        "2021-05-04",
+        "2023-04-11",
+        "2023-12-26",
+        "2024-01-02",
+        "2025-06-03",
+        "2025-08-05",
+        "2025-09-16"
+      ],
+      "negative_price_days_on_intersection": 9,
+      "note": "energy_MWh = MW * 24 for every calendar day (24 h convention); generation here = total_MW + wind_farm_MW, the Baseline 1103 connection"
+    },
+    "date_intersection": {
+      "first": "2020-01-01",
+      "gaps": [
+        {
+          "after": "2020-07-06",
+          "before": "2020-07-08",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-07-19",
+          "before": "2020-07-21",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-10-31",
+          "before": "2020-11-04",
+          "missing_days": 3
+        },
+        {
+          "after": "2020-11-07",
+          "before": "2020-11-10",
+          "missing_days": 2
+        },
+        {
+          "after": "2020-11-10",
+          "before": "2020-11-13",
+          "missing_days": 2
+        },
+        {
+          "after": "2020-11-13",
+          "before": "2020-11-15",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-11-15",
+          "before": "2020-11-20",
+          "missing_days": 4
+        },
+        {
+          "after": "2020-11-20",
+          "before": "2020-11-22",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-11-23",
+          "before": "2020-11-25",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-11-25",
+          "before": "2020-11-27",
+          "missing_days": 1
+        },
+        {
+          "after": "2020-11-27",
+          "before": "2020-12-01",
+          "missing_days": 3
+        },
+        {
+          "after": "2021-02-15",
+          "before": "2021-02-19",
+          "missing_days": 3
+        },
+        {
+          "after": "2021-02-19",
+          "before": "2021-02-21",
+          "missing_days": 1
+        },
+        {
+          "after": "2021-02-23",
+          "before": "2021-02-28",
+          "missing_days": 4
+        },
+        {
+          "after": "2021-03-09",
+          "before": "2021-03-12",
+          "missing_days": 2
+        },
+        {
+          "after": "2021-06-13",
+          "before": "2021-06-15",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-01-03",
+          "before": "2022-01-05",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-01-08",
+          "before": "2022-01-10",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-01-17",
+          "before": "2022-01-19",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-01-26",
+          "before": "2022-01-30",
+          "missing_days": 3
+        },
+        {
+          "after": "2022-04-02",
+          "before": "2022-04-04",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-04-06",
+          "before": "2022-04-09",
+          "missing_days": 2
+        },
+        {
+          "after": "2022-04-16",
+          "before": "2022-04-18",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-04-27",
+          "before": "2022-04-30",
+          "missing_days": 2
+        },
+        {
+          "after": "2022-06-21",
+          "before": "2022-06-23",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-09-16",
+          "before": "2022-09-18",
+          "missing_days": 1
+        },
+        {
+          "after": "2022-09-22",
+          "before": "2022-09-24",
+          "missing_days": 1
+        }
+      ],
+      "last": "2026-09-17",
+      "n_common_dates": 2406,
+      "n_continuous_segments": 28,
+      "n_gaps": 27,
+      "n_union_dates": 2453,
+      "per_file_date_counts": {
+        "daily_demand.csv": 2451,
+        "daily_generation_by_fuel.csv": 2422,
+        "daily_generation_total.csv": 2422,
+        "daily_market_index_price.csv": 2422,
+        "wind_farm_generation.csv": 2453
+      },
+      "segments": [
+        {
+          "days": 188,
+          "end": "2020-07-06",
+          "start": "2020-01-01"
+        },
+        {
+          "days": 12,
+          "end": "2020-07-19",
+          "start": "2020-07-08"
+        },
+        {
+          "days": 103,
+          "end": "2020-10-31",
+          "start": "2020-07-21"
+        },
+        {
+          "days": 4,
+          "end": "2020-11-07",
+          "start": "2020-11-04"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-10",
+          "start": "2020-11-10"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-13",
+          "start": "2020-11-13"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-15",
+          "start": "2020-11-15"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-20",
+          "start": "2020-11-20"
+        },
+        {
+          "days": 2,
+          "end": "2020-11-23",
+          "start": "2020-11-22"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-25",
+          "start": "2020-11-25"
+        },
+        {
+          "days": 1,
+          "end": "2020-11-27",
+          "start": "2020-11-27"
+        },
+        {
+          "days": 77,
+          "end": "2021-02-15",
+          "start": "2020-12-01"
+        },
+        {
+          "days": 1,
+          "end": "2021-02-19",
+          "start": "2021-02-19"
+        },
+        {
+          "days": 3,
+          "end": "2021-02-23",
+          "start": "2021-02-21"
+        },
+        {
+          "days": 10,
+          "end": "2021-03-09",
+          "start": "2021-02-28"
+        },
+        {
+          "days": 94,
+          "end": "2021-06-13",
+          "start": "2021-03-12"
+        },
+        {
+          "days": 203,
+          "end": "2022-01-03",
+          "start": "2021-06-15"
+        },
+        {
+          "days": 4,
+          "end": "2022-01-08",
+          "start": "2022-01-05"
+        },
+        {
+          "days": 8,
+          "end": "2022-01-17",
+          "start": "2022-01-10"
+        },
+        {
+          "days": 8,
+          "end": "2022-01-26",
+          "start": "2022-01-19"
+        },
+        {
+          "days": 63,
+          "end": "2022-04-02",
+          "start": "2022-01-30"
+        },
+        {
+          "days": 3,
+          "end": "2022-04-06",
+          "start": "2022-04-04"
+        },
+        {
+          "days": 8,
+          "end": "2022-04-16",
+          "start": "2022-04-09"
+        },
+        {
+          "days": 10,
+          "end": "2022-04-27",
+          "start": "2022-04-18"
+        },
+        {
+          "days": 53,
+          "end": "2022-06-21",
+          "start": "2022-04-30"
+        },
+        {
+          "days": 86,
+          "end": "2022-09-16",
+          "start": "2022-06-23"
+        },
+        {
+          "days": 5,
+          "end": "2022-09-22",
+          "start": "2022-09-18"
+        },
+        {
+          "days": 1455,
+          "end": "2026-09-17",
+          "start": "2022-09-24"
+        }
+      ],
+      "series_compared": [
+        "daily_generation_total.csv",
+        "daily_demand.csv",
+        "daily_market_index_price.csv",
+        "wind_farm_generation.csv",
+        "daily_generation_by_fuel.csv"
+      ],
+      "sum_days_in_segments": 2406,
+      "union_first": "2020-01-01",
+      "union_last": "2026-09-18"
+    },
+    "fuel_vs_total": {
+      "common_dates": 2422,
+      "dates_summing_exactly": 2422,
+      "dates_with_nonzero_difference": 0,
+      "duplicate_date_psrType_pairs": 0,
+      "example_nonzero_differences": [],
+      "fuel_distinct_dates": 2422,
+      "fuel_only_dates": [],
+      "fuel_rows_per_date": {
+        "11": 2422
+      },
+      "max_abs_difference_MW": 0.0,
+      "psrType_row_counts": {
+        "Biomass": 2422,
+        "Fossil Gas": 2422,
+        "Fossil Hard coal": 2422,
+        "Fossil Oil": 2422,
+        "Hydro Pumped Storage": 2422,
+        "Hydro Run-of-river and poundage": 2422,
+        "Nuclear": 2422,
+        "Other": 2422,
+        "Solar": 2422,
+        "Wind Offshore": 2422,
+        "Wind Onshore": 2422
+      },
+      "total_distinct_dates": 2422,
+      "total_only_dates": []
+    },
+    "pairwise_date_differences": {
+      "daily_demand.csv|daily_generation_by_fuel.csv": {
+        "dates_first20": [
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-08",
+          "2020-11-11",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-28",
+          "2020-11-29",
+          "2021-02-16",
+          "2021-02-17",
+          "2021-02-24",
+          "2021-02-25",
+          "2021-02-26",
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28"
+        ],
+        "n_dates_in_first_not_second": 30
+      },
+      "daily_demand.csv|daily_generation_total.csv": {
+        "dates_first20": [
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-08",
+          "2020-11-11",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-28",
+          "2020-11-29",
+          "2021-02-16",
+          "2021-02-17",
+          "2021-02-24",
+          "2021-02-25",
+          "2021-02-26",
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28"
+        ],
+        "n_dates_in_first_not_second": 30
+      },
+      "daily_demand.csv|daily_market_index_price.csv": {
+        "dates_first20": [
+          "2020-07-20",
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-03",
+          "2020-11-08",
+          "2020-11-09",
+          "2020-11-11",
+          "2020-11-12",
+          "2020-11-14",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-19",
+          "2020-11-21",
+          "2020-11-24",
+          "2020-11-26",
+          "2020-11-28",
+          "2020-11-29",
+          "2020-11-30",
+          "2021-02-16"
+        ],
+        "n_dates_in_first_not_second": 29
+      },
+      "daily_demand.csv|wind_farm_generation.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_generation_by_fuel.csv|daily_demand.csv": {
+        "dates_first20": [
+          "2020-07-07"
+        ],
+        "n_dates_in_first_not_second": 1
+      },
+      "daily_generation_by_fuel.csv|daily_generation_total.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_generation_by_fuel.csv|daily_market_index_price.csv": {
+        "dates_first20": [
+          "2020-07-07",
+          "2020-07-20",
+          "2020-11-03",
+          "2020-11-09",
+          "2020-11-12",
+          "2020-11-14",
+          "2020-11-19",
+          "2020-11-21",
+          "2020-11-24",
+          "2020-11-26",
+          "2020-11-30",
+          "2021-02-18",
+          "2021-02-20",
+          "2021-02-27",
+          "2021-03-10",
+          "2021-03-11"
+        ],
+        "n_dates_in_first_not_second": 16
+      },
+      "daily_generation_by_fuel.csv|wind_farm_generation.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_generation_total.csv|daily_demand.csv": {
+        "dates_first20": [
+          "2020-07-07"
+        ],
+        "n_dates_in_first_not_second": 1
+      },
+      "daily_generation_total.csv|daily_generation_by_fuel.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_generation_total.csv|daily_market_index_price.csv": {
+        "dates_first20": [
+          "2020-07-07",
+          "2020-07-20",
+          "2020-11-03",
+          "2020-11-09",
+          "2020-11-12",
+          "2020-11-14",
+          "2020-11-19",
+          "2020-11-21",
+          "2020-11-24",
+          "2020-11-26",
+          "2020-11-30",
+          "2021-02-18",
+          "2021-02-20",
+          "2021-02-27",
+          "2021-03-10",
+          "2021-03-11"
+        ],
+        "n_dates_in_first_not_second": 16
+      },
+      "daily_generation_total.csv|wind_farm_generation.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_market_index_price.csv|daily_demand.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "daily_market_index_price.csv|daily_generation_by_fuel.csv": {
+        "dates_first20": [
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28",
+          "2022-01-29",
+          "2022-04-03",
+          "2022-04-07",
+          "2022-04-08",
+          "2022-04-17",
+          "2022-04-28",
+          "2022-04-29",
+          "2022-06-22",
+          "2022-09-17",
+          "2022-09-23"
+        ],
+        "n_dates_in_first_not_second": 16
+      },
+      "daily_market_index_price.csv|daily_generation_total.csv": {
+        "dates_first20": [
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28",
+          "2022-01-29",
+          "2022-04-03",
+          "2022-04-07",
+          "2022-04-08",
+          "2022-04-17",
+          "2022-04-28",
+          "2022-04-29",
+          "2022-06-22",
+          "2022-09-17",
+          "2022-09-23"
+        ],
+        "n_dates_in_first_not_second": 16
+      },
+      "daily_market_index_price.csv|wind_farm_generation.csv": {
+        "dates_first20": [],
+        "n_dates_in_first_not_second": 0
+      },
+      "wind_farm_generation.csv|daily_demand.csv": {
+        "dates_first20": [
+          "2020-07-07",
+          "2026-09-18"
+        ],
+        "n_dates_in_first_not_second": 2
+      },
+      "wind_farm_generation.csv|daily_generation_by_fuel.csv": {
+        "dates_first20": [
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-08",
+          "2020-11-11",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-28",
+          "2020-11-29",
+          "2021-02-16",
+          "2021-02-17",
+          "2021-02-24",
+          "2021-02-25",
+          "2021-02-26",
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28"
+        ],
+        "n_dates_in_first_not_second": 31
+      },
+      "wind_farm_generation.csv|daily_generation_total.csv": {
+        "dates_first20": [
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-08",
+          "2020-11-11",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-28",
+          "2020-11-29",
+          "2021-02-16",
+          "2021-02-17",
+          "2021-02-24",
+          "2021-02-25",
+          "2021-02-26",
+          "2021-06-14",
+          "2022-01-04",
+          "2022-01-09",
+          "2022-01-18",
+          "2022-01-27",
+          "2022-01-28"
+        ],
+        "n_dates_in_first_not_second": 31
+      },
+      "wind_farm_generation.csv|daily_market_index_price.csv": {
+        "dates_first20": [
+          "2020-07-07",
+          "2020-07-20",
+          "2020-11-01",
+          "2020-11-02",
+          "2020-11-03",
+          "2020-11-08",
+          "2020-11-09",
+          "2020-11-11",
+          "2020-11-12",
+          "2020-11-14",
+          "2020-11-16",
+          "2020-11-17",
+          "2020-11-18",
+          "2020-11-19",
+          "2020-11-21",
+          "2020-11-24",
+          "2020-11-26",
+          "2020-11-28",
+          "2020-11-29",
+          "2020-11-30"
+        ],
+        "n_dates_in_first_not_second": 31
+      }
+    },
+    "price_column_identity": {
+      "examples": [],
+      "max_rel_dev_from_24": 1.4802973661668753e-16,
+      "n": 2422,
+      "n_ratio_24": 2422,
+      "n_ratio_other": 0
+    }
+  },
+  "file_sha256": {
+    "daily_demand.csv": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b",
+    "daily_generation_by_fuel.csv": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4",
+    "daily_generation_total.csv": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318",
+    "daily_market_index_price.csv": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364",
+    "wind_farm_generation.csv": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f"
+  },
+  "files": {
+    "daily_demand.csv": {
+      "bytes": 76008,
+      "columns": [
+        "recordType",
+        "startTime",
+        "demand"
+      ],
+      "data_rows": 2451,
+      "date_first": "2020-01-01",
+      "date_last": "2026-09-17",
+      "date_parse_errors": 0,
+      "distinct_dates": 2451,
+      "duplicate_date_rows": 0,
+      "duplicate_dates": [],
+      "empty_value_cells": {
+        "demand": 0
+      },
+      "id_column_counts": {
+        "recordType": {
+          "VD": 2451
+        }
+      },
+      "missing_calendar_days_first30": [
+        "2020-07-07"
+      ],
+      "missing_calendar_days_in_span": 1,
+      "n_duplicate_dates": 0,
+      "non_numeric_value_cells": {
+        "demand": 0
+      },
+      "path": "daily_demand.csv",
+      "sha256": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b",
+      "span_calendar_days": 2452,
+      "value_pairs": 2451,
+      "value_stats": {
+        "demand": {
+          "highest_5": [
+            {
+              "date": "2026-01-05",
+              "value": 42031.0
+            },
+            {
+              "date": "2025-11-20",
+              "value": 40014.0
+            },
+            {
+              "date": "2022-12-14",
+              "value": 39927.0
+            },
+            {
+              "date": "2025-11-26",
+              "value": 39816.0
+            },
+            {
+              "date": "2025-01-09",
+              "value": 39809.0
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2022-08-02",
+              "value": 636.0
+            },
+            {
+              "date": "2020-06-23",
+              "value": 19241.0
+            },
+            {
+              "date": "2020-05-26",
+              "value": 19483.0
+            },
+            {
+              "date": "2020-05-31",
+              "value": 19514.0
+            },
+            {
+              "date": "2023-05-30",
+              "value": 19675.0
+            }
+          ],
+          "mad": 2939.0,
+          "max": 42031.0,
+          "mean": 28112.654835,
+          "median": 27472.0,
+          "min": 636.0,
+          "n": 2451,
+          "n_negative": 0,
+          "n_robust_z_gt6": 1,
+          "n_zero": 0,
+          "p001": 19496.95,
+          "p01": 20783.0,
+          "p99": 38483.5,
+          "p999": 39877.05000000002,
+          "robust_z_gt6_dates": [
+            "2022-08-02"
+          ],
+          "stdev": 4336.970022
+        }
+      }
+    },
+    "daily_generation_by_fuel.csv": {
+      "bytes": 786436,
+      "columns": [
+        "date",
+        "psrType",
+        "MW"
+      ],
+      "data_rows": 26642,
+      "date_first": "2020-01-01",
+      "date_last": "2026-09-17",
+      "date_parse_errors": 0,
+      "distinct_dates": 2422,
+      "duplicate_date_rows": 24220,
+      "duplicate_dates": [
+        "2020-01-01",
+        "2020-01-02",
+        "2020-01-03",
+        "2020-01-04",
+        "2020-01-05",
+        "2020-01-06",
+        "2020-01-07",
+        "2020-01-08",
+        "2020-01-09",
+        "2020-01-10",
+        "2020-01-11",
+        "2020-01-12",
+        "2020-01-13",
+        "2020-01-14",
+        "2020-01-15",
+        "2020-01-16",
+        "2020-01-17",
+        "2020-01-18",
+        "2020-01-19",
+        "2020-01-20"
+      ],
+      "empty_value_cells": {
+        "MW": 0
+      },
+      "id_column_counts": {
+        "psrType": {
+          "Biomass": 2422,
+          "Fossil Gas": 2422,
+          "Fossil Hard coal": 2422,
+          "Fossil Oil": 2422,
+          "Hydro Pumped Storage": 2422,
+          "Hydro Run-of-river and poundage": 2422,
+          "Nuclear": 2422,
+          "Other": 2422,
+          "Solar": 2422,
+          "Wind Offshore": 2422,
+          "Wind Onshore": 2422
+        }
+      },
+      "missing_calendar_days_first30": [
+        "2020-11-01",
+        "2020-11-02",
+        "2020-11-08",
+        "2020-11-11",
+        "2020-11-16",
+        "2020-11-17",
+        "2020-11-18",
+        "2020-11-28",
+        "2020-11-29",
+        "2021-02-16",
+        "2021-02-17",
+        "2021-02-24",
+        "2021-02-25",
+        "2021-02-26",
+        "2021-06-14",
+        "2022-01-04",
+        "2022-01-09",
+        "2022-01-18",
+        "2022-01-27",
+        "2022-01-28",
+        "2022-01-29",
+        "2022-04-03",
+        "2022-04-07",
+        "2022-04-08",
+        "2022-04-17",
+        "2022-04-28",
+        "2022-04-29",
+        "2022-06-22",
+        "2022-09-17",
+        "2022-09-23"
+      ],
+      "missing_calendar_days_in_span": 30,
+      "n_duplicate_dates": 2422,
+      "non_numeric_value_cells": {
+        "MW": 0
+      },
+      "path": "daily_generation_by_fuel.csv",
+      "sha256": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4",
+      "span_calendar_days": 2452,
+      "value_pairs": 26642,
+      "value_stats": {
+        "MW": {
+          "highest_5": [
+            {
+              "date": "2024-12-12",
+              "value": 24925.0
+            },
+            {
+              "date": "2024-12-13",
+              "value": 24071.0
+            },
+            {
+              "date": "2025-01-20",
+              "value": 24024.0
+            },
+            {
+              "date": "2024-12-11",
+              "value": 23941.0
+            },
+            {
+              "date": "2023-12-01",
+              "value": 23674.0
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2020-01-01",
+              "value": 0.0
+            },
+            {
+              "date": "2020-01-02",
+              "value": 0.0
+            },
+            {
+              "date": "2020-01-03",
+              "value": 0.0
+            },
+            {
+              "date": "2020-01-04",
+              "value": 0.0
+            },
+            {
+              "date": "2020-01-05",
+              "value": 0.0
+            }
+          ],
+          "mad": 786.0,
+          "max": 24925.0,
+          "mean": 2325.735155,
+          "median": 786.0,
+          "min": 0.0,
+          "n": 26642,
+          "n_negative": 0,
+          "n_robust_z_gt6": 1787,
+          "n_zero": 4500,
+          "p001": 0.0,
+          "p01": 0.0,
+          "p99": 16101.59,
+          "p999": 20840.359,
+          "robust_z_gt6_dates": [
+            "2020-01-01",
+            "2020-01-06",
+            "2020-01-07",
+            "2020-01-08",
+            "2020-01-09",
+            "2020-01-10",
+            "2020-01-13",
+            "2020-01-14",
+            "2020-01-16",
+            "2020-01-17",
+            "2020-01-18",
+            "2020-01-19",
+            "2020-01-20",
+            "2020-01-21",
+            "2020-01-22",
+            "2020-01-23",
+            "2020-01-24",
+            "2020-01-25",
+            "2020-01-26",
+            "2020-01-27"
+          ],
+          "stdev": 3346.693697
+        }
+      }
+    },
+    "daily_generation_total.csv": {
+      "bytes": 43549,
+      "columns": [
+        "date",
+        "total_MW"
+      ],
+      "data_rows": 2422,
+      "date_first": "2020-01-01",
+      "date_last": "2026-09-17",
+      "date_parse_errors": 0,
+      "distinct_dates": 2422,
+      "duplicate_date_rows": 0,
+      "duplicate_dates": [],
+      "empty_value_cells": {
+        "total_MW": 0
+      },
+      "id_column_counts": {},
+      "missing_calendar_days_first30": [
+        "2020-11-01",
+        "2020-11-02",
+        "2020-11-08",
+        "2020-11-11",
+        "2020-11-16",
+        "2020-11-17",
+        "2020-11-18",
+        "2020-11-28",
+        "2020-11-29",
+        "2021-02-16",
+        "2021-02-17",
+        "2021-02-24",
+        "2021-02-25",
+        "2021-02-26",
+        "2021-06-14",
+        "2022-01-04",
+        "2022-01-09",
+        "2022-01-18",
+        "2022-01-27",
+        "2022-01-28",
+        "2022-01-29",
+        "2022-04-03",
+        "2022-04-07",
+        "2022-04-08",
+        "2022-04-17",
+        "2022-04-28",
+        "2022-04-29",
+        "2022-06-22",
+        "2022-09-17",
+        "2022-09-23"
+      ],
+      "missing_calendar_days_in_span": 30,
+      "n_duplicate_dates": 0,
+      "non_numeric_value_cells": {
+        "total_MW": 0
+      },
+      "path": "daily_generation_total.csv",
+      "sha256": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318",
+      "span_calendar_days": 2452,
+      "value_pairs": 2422,
+      "value_stats": {
+        "total_MW": {
+          "highest_5": [
+            {
+              "date": "2026-01-05",
+              "value": 43520.0
+            },
+            {
+              "date": "2026-01-06",
+              "value": 42868.0
+            },
+            {
+              "date": "2025-11-20",
+              "value": 41211.0
+            },
+            {
+              "date": "2025-11-26",
+              "value": 40357.0
+            },
+            {
+              "date": "2024-01-10",
+              "value": 39996.0
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2022-12-11",
+              "value": 1450.0
+            },
+            {
+              "date": "2022-12-12",
+              "value": 1664.0
+            },
+            {
+              "date": "2022-12-01",
+              "value": 2708.0
+            },
+            {
+              "date": "2023-04-26",
+              "value": 2710.0
+            },
+            {
+              "date": "2022-12-13",
+              "value": 3136.0
+            }
+          ],
+          "mad": 3458.5,
+          "max": 43520.0,
+          "mean": 25583.086705,
+          "median": 26041.5,
+          "min": 1450.0,
+          "n": 2422,
+          "n_negative": 0,
+          "n_robust_z_gt6": 0,
+          "n_zero": 0,
+          "p001": 2708.842,
+          "p01": 6550.57,
+          "p99": 37672.8,
+          "p999": 40851.46600000015,
+          "robust_z_gt6_dates": [],
+          "stdev": 5942.431414
+        }
+      }
+    },
+    "daily_market_index_price.csv": {
+      "bytes": 91950,
+      "columns": [
+        "date",
+        "avg_price_\u00a3_per_MWh",
+        "avg_price_\u00a3_per_MW_day"
+      ],
+      "data_rows": 2422,
+      "date_first": "2020-01-01",
+      "date_last": "2026-09-17",
+      "date_parse_errors": 0,
+      "distinct_dates": 2422,
+      "duplicate_date_rows": 0,
+      "duplicate_dates": [],
+      "empty_value_cells": {
+        "avg_price_\u00a3_per_MW_day": 0,
+        "avg_price_\u00a3_per_MWh": 0
+      },
+      "id_column_counts": {},
+      "missing_calendar_days_first30": [
+        "2020-07-07",
+        "2020-07-20",
+        "2020-11-01",
+        "2020-11-02",
+        "2020-11-03",
+        "2020-11-08",
+        "2020-11-09",
+        "2020-11-11",
+        "2020-11-12",
+        "2020-11-14",
+        "2020-11-16",
+        "2020-11-17",
+        "2020-11-18",
+        "2020-11-19",
+        "2020-11-21",
+        "2020-11-24",
+        "2020-11-26",
+        "2020-11-28",
+        "2020-11-29",
+        "2020-11-30",
+        "2021-02-16",
+        "2021-02-17",
+        "2021-02-18",
+        "2021-02-20",
+        "2021-02-24",
+        "2021-02-25",
+        "2021-02-26",
+        "2021-02-27",
+        "2021-03-10",
+        "2021-03-11"
+      ],
+      "missing_calendar_days_in_span": 30,
+      "n_duplicate_dates": 0,
+      "non_numeric_value_cells": {
+        "avg_price_\u00a3_per_MW_day": 0,
+        "avg_price_\u00a3_per_MWh": 0
+      },
+      "path": "daily_market_index_price.csv",
+      "sha256": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364",
+      "span_calendar_days": 2452,
+      "value_pairs": 2422,
+      "value_stats": {
+        "avg_price_\u00a3_per_MW_day": {
+          "highest_5": [
+            {
+              "date": "2021-09-09",
+              "value": 8011.805
+            },
+            {
+              "date": "2022-08-26",
+              "value": 7191.715
+            },
+            {
+              "date": "2022-08-25",
+              "value": 6170.862500000001
+            },
+            {
+              "date": "2022-08-27",
+              "value": 5927.795
+            },
+            {
+              "date": "2022-08-24",
+              "value": 5774.1675
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2024-01-02",
+              "value": -203.16
+            },
+            {
+              "date": "2023-04-11",
+              "value": -157.68
+            },
+            {
+              "date": "2020-06-28",
+              "value": -150.5375
+            },
+            {
+              "date": "2020-05-22",
+              "value": -121.89250000000001
+            },
+            {
+              "date": "2021-05-04",
+              "value": -109.92
+            }
+          ],
+          "mad": 335.26125,
+          "max": 8011.805,
+          "mean": 1156.086564,
+          "median": 987.20875,
+          "min": -203.16,
+          "n": 2422,
+          "n_negative": 9,
+          "n_robust_z_gt6": 32,
+          "n_zero": 1,
+          "p001": -138.477955,
+          "p01": 77.55035,
+          "p99": 4126.3327249999975,
+          "p999": 6068.531082500044,
+          "robust_z_gt6_dates": [
+            "2021-09-09",
+            "2021-12-22",
+            "2021-12-23",
+            "2022-01-24",
+            "2022-03-04",
+            "2022-03-07",
+            "2022-08-11",
+            "2022-08-12",
+            "2022-08-14",
+            "2022-08-15",
+            "2022-08-17",
+            "2022-08-18",
+            "2022-08-19",
+            "2022-08-21",
+            "2022-08-22",
+            "2022-08-24",
+            "2022-08-25",
+            "2022-08-26",
+            "2022-08-27",
+            "2022-08-28"
+          ],
+          "stdev": 806.071493
+        },
+        "avg_price_\u00a3_per_MWh": {
+          "highest_5": [
+            {
+              "date": "2021-09-09",
+              "value": 333.82520833333336
+            },
+            {
+              "date": "2022-08-26",
+              "value": 299.65479166666665
+            },
+            {
+              "date": "2022-08-25",
+              "value": 257.11927083333336
+            },
+            {
+              "date": "2022-08-27",
+              "value": 246.99145833333333
+            },
+            {
+              "date": "2022-08-24",
+              "value": 240.59031249999998
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2024-01-02",
+              "value": -8.465
+            },
+            {
+              "date": "2023-04-11",
+              "value": -6.57
+            },
+            {
+              "date": "2020-06-28",
+              "value": -6.272395833333333
+            },
+            {
+              "date": "2020-05-22",
+              "value": -5.078854166666667
+            },
+            {
+              "date": "2021-05-04",
+              "value": -4.58
+            }
+          ],
+          "mad": 13.969218750000001,
+          "max": 333.82520833333336,
+          "mean": 48.170273,
+          "median": 41.13369791666666,
+          "min": -8.465,
+          "n": 2422,
+          "n_negative": 9,
+          "n_robust_z_gt6": 32,
+          "n_zero": 1,
+          "p001": -5.769914791666666,
+          "p01": 3.231264583333333,
+          "p99": 171.9305302083332,
+          "p999": 252.85546177083515,
+          "robust_z_gt6_dates": [
+            "2021-09-09",
+            "2021-12-22",
+            "2021-12-23",
+            "2022-01-24",
+            "2022-03-04",
+            "2022-03-07",
+            "2022-08-11",
+            "2022-08-12",
+            "2022-08-14",
+            "2022-08-15",
+            "2022-08-17",
+            "2022-08-18",
+            "2022-08-19",
+            "2022-08-21",
+            "2022-08-22",
+            "2022-08-24",
+            "2022-08-25",
+            "2022-08-26",
+            "2022-08-27",
+            "2022-08-28"
+          ],
+          "stdev": 33.586312
+        }
+      }
+    },
+    "wind_farm_generation.csv": {
+      "bytes": 73849,
+      "columns": [
+        "date",
+        "wind_farm_MW"
+      ],
+      "data_rows": 2453,
+      "date_first": "2020-01-01",
+      "date_last": "2026-09-18",
+      "date_parse_errors": 0,
+      "distinct_dates": 2453,
+      "duplicate_date_rows": 0,
+      "duplicate_dates": [],
+      "empty_value_cells": {
+        "wind_farm_MW": 0
+      },
+      "id_column_counts": {},
+      "missing_calendar_days_first30": [],
+      "missing_calendar_days_in_span": 0,
+      "n_duplicate_dates": 0,
+      "non_numeric_value_cells": {
+        "wind_farm_MW": 0
+      },
+      "path": "wind_farm_generation.csv",
+      "sha256": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f",
+      "span_calendar_days": 2453,
+      "value_pairs": 2453,
+      "value_stats": {
+        "wind_farm_MW": {
+          "highest_5": [
+            {
+              "date": "2026-01-27",
+              "value": 1125.0
+            },
+            {
+              "date": "2026-01-23",
+              "value": 1125.0
+            },
+            {
+              "date": "2026-01-22",
+              "value": 1125.0
+            },
+            {
+              "date": "2025-12-10",
+              "value": 1125.0
+            },
+            {
+              "date": "2025-10-04",
+              "value": 1125.0
+            }
+          ],
+          "lowest_5": [
+            {
+              "date": "2020-06-16",
+              "value": 0.0
+            },
+            {
+              "date": "2020-09-19",
+              "value": 0.0
+            },
+            {
+              "date": "2021-07-30",
+              "value": 0.0
+            },
+            {
+              "date": "2021-09-08",
+              "value": 0.0
+            },
+            {
+              "date": "2022-09-19",
+              "value": 0.0
+            }
+          ],
+          "mad": 259.1616058732379,
+          "max": 1125.0,
+          "mean": 424.622723,
+          "median": 353.10467027531627,
+          "min": 0.0,
+          "n": 2453,
+          "n_negative": 0,
+          "n_robust_z_gt6": 0,
+          "n_zero": 10,
+          "p001": 0.0,
+          "p01": 1.2752042302531337,
+          "p99": 1125.0,
+          "p999": 1125.0,
+          "robust_z_gt6_dates": [],
+          "stdev": 335.613819
+        }
+      }
+    }
+  },
+  "inputs_dir": "D:\\projects\\CU projects\\course check\\MMCS Project\\mmcs-group15-project\\Tier1\\workspaces\\mocry\\cleveruser\\inputs"
+}

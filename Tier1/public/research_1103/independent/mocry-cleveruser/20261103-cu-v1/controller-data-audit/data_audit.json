@@ -1,0 +1,515 @@
+{
+  "generated_at": "2026-11-03T19:33:46Z",
+  "generated_by": "mocry-cleveruser (controller-side deterministic audit)",
+  "note": "All values recomputed from the five root CSVs; no inherited figures.",
+  "files": {
+    "daily_demand.csv": {
+      "sha256": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b",
+      "bytes": 76008,
+      "data_rows": 2451,
+      "header": [
+        "recordType",
+        "startTime",
+        "demand"
+      ]
+    },
+    "daily_generation_by_fuel.csv": {
+      "sha256": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4",
+      "bytes": 786436,
+      "data_rows": 26642,
+      "header": [
+        "date",
+        "psrType",
+        "MW"
+      ]
+    },
+    "daily_generation_total.csv": {
+      "sha256": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318",
+      "bytes": 43549,
+      "data_rows": 2422,
+      "header": [
+        "date",
+        "total_MW"
+      ]
+    },
+    "daily_market_index_price.csv": {
+      "sha256": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364",
+      "bytes": 91950,
+      "data_rows": 2422,
+      "header": [
+        "date",
+        "avg_price_\u00a3_per_MWh",
+        "avg_price_\u00a3_per_MW_day"
+      ]
+    },
+    "wind_farm_generation.csv": {
+      "sha256": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f",
+      "bytes": 73849,
+      "data_rows": 2453,
+      "header": [
+        "date",
+        "wind_farm_MW"
+      ]
+    }
+  },
+  "demand": {
+    "date_column": "startTime",
+    "value_column": "demand",
+    "record_type_values": [
+      "VD"
+    ],
+    "rows": 2451,
+    "unique_dates": 2451,
+    "duplicate_dates": [],
+    "date_min": "2020-01-01",
+    "date_max": "2026-09-17",
+    "value_stats": {
+      "n": 2451,
+      "min": 636.0,
+      "max": 42031.0,
+      "mean": 28112.6548,
+      "median": 27472.0,
+      "p01": 20779.0,
+      "p99": 38489.0,
+      "sum": 68904117.0
+    }
+  },
+  "generation_total": {
+    "date_column": "date",
+    "value_column": "total_MW",
+    "rows": 2422,
+    "unique_dates": 2422,
+    "date_min": "2020-01-01",
+    "date_max": "2026-09-17",
+    "value_stats": {
+      "n": 2422,
+      "min": 1450.0,
+      "max": 43520.0,
+      "mean": 25583.0867,
+      "median": 26041.5,
+      "p01": 6547.0,
+      "p99": 37677.0,
+      "sum": 61962236.0
+    },
+    "negative_or_zero_days": 0
+  },
+  "generation_by_fuel": {
+    "columns": [
+      "date",
+      "psrType",
+      "MW"
+    ],
+    "rows": 26642,
+    "unique_dates": 2422,
+    "date_min": "2020-01-01",
+    "date_max": "2026-09-17",
+    "technologies": [
+      "Biomass",
+      "Fossil Gas",
+      "Fossil Hard coal",
+      "Fossil Oil",
+      "Hydro Pumped Storage",
+      "Hydro Run-of-river and poundage",
+      "Nuclear",
+      "Other",
+      "Solar",
+      "Wind Offshore",
+      "Wind Onshore"
+    ],
+    "technology_count": 11,
+    "technology_totals_MW_summed_over_days": {
+      "Biomass": 4640045.0,
+      "Fossil Gas": 23313926.0,
+      "Fossil Hard coal": 682978.0,
+      "Fossil Oil": 0.0,
+      "Hydro Pumped Storage": 457699.0,
+      "Hydro Run-of-river and poundage": 906149.0,
+      "Nuclear": 10565602.0,
+      "Other": 809528.0,
+      "Solar": 3742763.0,
+      "Wind Offshore": 8914175.0,
+      "Wind Onshore": 7929371.0
+    }
+  },
+  "fuel_vs_total_reconciliation": {
+    "common_dates": 2422,
+    "dates_only_in_total": 0,
+    "dates_only_in_fuel": 0,
+    "max_abs_diff_MW": 0.0,
+    "mean_abs_diff_MW": 0.0,
+    "max_relative_diff": 0.0,
+    "dates_with_rel_diff_gt_1e-6": 0
+  },
+  "prices": {
+    "date_column": "date",
+    "value_columns": [
+      "avg_price_\u00a3_per_MWh",
+      "avg_price_\u00a3_per_MW_day"
+    ],
+    "rows": 2422,
+    "unique_dates": 2422,
+    "date_min": "2020-01-01",
+    "date_max": "2026-09-17",
+    "cols": {
+      "avg_price_\u00a3_per_MWh": {
+        "n": 2422,
+        "min": -8.465,
+        "max": 333.82520833333336,
+        "mean": 48.1703,
+        "median": 41.13369791666666,
+        "p01": 3.2305208333333333,
+        "p99": 172.62989583333334,
+        "sum": 116668.4024
+      },
+      "avg_price_\u00a3_per_MW_day": {
+        "n": 2422,
+        "min": -203.16,
+        "max": 8011.805,
+        "mean": 1156.0866,
+        "median": 987.20875,
+        "p01": 77.5325,
+        "p99": 4143.1175,
+        "sum": 2800041.6573
+      },
+      "consistency_24x": {
+        "n": 2422,
+        "max_abs_diff": 0.0,
+        "n_days_rel_diff_gt_1e-9": 0,
+        "note": "GBP per MW-day should equal 24 x GBP per MWh if the two columns are consistent."
+      },
+      "negative_price_days": {
+        "avg_price_\u00a3_per_MWh": 9,
+        "avg_price_\u00a3_per_MW_day": 9
+      },
+      "zero_price_days": {
+        "avg_price_\u00a3_per_MWh": 1,
+        "avg_price_\u00a3_per_MW_day": 1
+      }
+    }
+  },
+  "wind_farm": {
+    "date_column": "date",
+    "value_column": "wind_farm_MW",
+    "rows": 2453,
+    "unique_dates": 2453,
+    "date_min": "2020-01-01",
+    "date_max": "2026-09-18",
+    "value_stats": {
+      "n": 2453,
+      "min": 0.0,
+      "max": 1125.0,
+      "mean": 424.6227,
+      "median": 353.10467027531627,
+      "p01": 1.3852047726504961,
+      "p99": 1125.0,
+      "sum": 1041599.539
+    },
+    "negative_days": 0
+  },
+  "coverage": {
+    "per_file_dates": {
+      "demand": 2451,
+      "generation_total": 2422,
+      "generation_by_fuel": 2422,
+      "price": 2422,
+      "wind_farm": 2453
+    },
+    "common_dates": 2406,
+    "common_date_min": "2020-01-01",
+    "common_date_max": "2026-09-17",
+    "segments": [
+      {
+        "start": "2020-01-01",
+        "end": "2020-07-06",
+        "days": 188,
+        "calendar_span_days": 188
+      },
+      {
+        "start": "2020-07-08",
+        "end": "2020-07-19",
+        "days": 12,
+        "calendar_span_days": 12
+      },
+      {
+        "start": "2020-07-21",
+        "end": "2020-10-31",
+        "days": 103,
+        "calendar_span_days": 103
+      },
+      {
+        "start": "2020-11-04",
+        "end": "2020-11-07",
+        "days": 4,
+        "calendar_span_days": 4
+      },
+      {
+        "start": "2020-11-10",
+        "end": "2020-11-10",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-11-13",
+        "end": "2020-11-13",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-11-15",
+        "end": "2020-11-15",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-11-20",
+        "end": "2020-11-20",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-11-22",
+        "end": "2020-11-23",
+        "days": 2,
+        "calendar_span_days": 2
+      },
+      {
+        "start": "2020-11-25",
+        "end": "2020-11-25",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-11-27",
+        "end": "2020-11-27",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2020-12-01",
+        "end": "2021-02-15",
+        "days": 77,
+        "calendar_span_days": 77
+      },
+      {
+        "start": "2021-02-19",
+        "end": "2021-02-19",
+        "days": 1,
+        "calendar_span_days": 1
+      },
+      {
+        "start": "2021-02-21",
+        "end": "2021-02-23",
+        "days": 3,
+        "calendar_span_days": 3
+      },
+      {
+        "start": "2021-02-28",
+        "end": "2021-03-09",
+        "days": 10,
+        "calendar_span_days": 10
+      },
+      {
+        "start": "2021-03-12",
+        "end": "2021-06-13",
+        "days": 94,
+        "calendar_span_days": 94
+      },
+      {
+        "start": "2021-06-15",
+        "end": "2022-01-03",
+        "days": 203,
+        "calendar_span_days": 203
+      },
+      {
+        "start": "2022-01-05",
+        "end": "2022-01-08",
+        "days": 4,
+        "calendar_span_days": 4
+      },
+      {
+        "start": "2022-01-10",
+        "end": "2022-01-17",
+        "days": 8,
+        "calendar_span_days": 8
+      },
+      {
+        "start": "2022-01-19",
+        "end": "2022-01-26",
+        "days": 8,
+        "calendar_span_days": 8
+      },
+      {
+        "start": "2022-01-30",
+        "end": "2022-04-02",
+        "days": 63,
+        "calendar_span_days": 63
+      },
+      {
+        "start": "2022-04-04",
+        "end": "2022-04-06",
+        "days": 3,
+        "calendar_span_days": 3
+      },
+      {
+        "start": "2022-04-09",
+        "end": "2022-04-16",
+        "days": 8,
+        "calendar_span_days": 8
+      },
+      {
+        "start": "2022-04-18",
+        "end": "2022-04-27",
+        "days": 10,
+        "calendar_span_days": 10
+      },
+      {
+        "start": "2022-04-30",
+        "end": "2022-06-21",
+        "days": 53,
+        "calendar_span_days": 53
+      },
+      {
+        "start": "2022-06-23",
+        "end": "2022-09-16",
+        "days": 86,
+        "calendar_span_days": 86
+      },
+      {
+        "start": "2022-09-18",
+        "end": "2022-09-22",
+        "days": 5,
+        "calendar_span_days": 5
+      },
+      {
+        "start": "2022-09-24",
+        "end": "2026-09-17",
+        "days": 1455,
+        "calendar_span_days": 1455
+      }
+    ],
+    "segment_count": 28,
+    "missing_dates_between_min_and_max": 46
+  },
+  "combined_system": {
+    "definition": "G = total_MW + wind_farm_MW; D = demand; both treated as average MW over the day; MWh = 24 x MW assuming a constant daily mean.",
+    "G_stats": {
+      "n": 2406,
+      "min": 1666.2288673301944,
+      "max": 43899.20387875873,
+      "mean": 26016.0841,
+      "median": 26463.829365131427,
+      "p01": 6684.354012060773,
+      "p99": 38423.5614837356,
+      "sum": 62594698.3658
+    },
+    "D_stats": {
+      "n": 2406,
+      "min": 636.0,
+      "max": 42031.0,
+      "mean": 28088.5889,
+      "median": 27416.0,
+      "p01": 20779.0,
+      "p99": 38489.0,
+      "sum": 67581145.0
+    },
+    "days_G_gt_D": 702,
+    "share_days_G_gt_D": 0.2918,
+    "total_surplus_MWh_over_window": 40626137.0,
+    "total_shortfall_MWh_over_window": 160300856.2,
+    "mean_annual_surplus_MWh": 6163150.5,
+    "surplus_MWh_stats": {
+      "n": 2406,
+      "min": 0.0,
+      "max": 616303.5144557069,
+      "mean": 16885.3437,
+      "median": 0.0,
+      "p01": 0.0,
+      "p99": 169640.2282151353,
+      "sum": 40626136.9793
+    },
+    "total_G_MWh": 1502272760.8,
+    "total_D_MWh": 1621947480.0,
+    "surplus_as_share_of_G": 0.027,
+    "surplus_as_share_of_D": 0.025,
+    "price_stats_on_common": {
+      "n": 2406,
+      "min": -8.465,
+      "max": 333.82520833333336,
+      "mean": 47.9106,
+      "median": 41.05942708333333,
+      "p01": 3.2305208333333333,
+      "p99": 172.62989583333334,
+      "sum": 115272.9093
+    },
+    "price_negative_days_common": 9,
+    "value_of_surplus_if_sold_at_price_GBP": 1687032725.5,
+    "top5_surplus_days": [
+      {
+        "date": "2022-08-02",
+        "G_MW": 26315.31,
+        "D_MW": 636.0,
+        "surplus_MWh": 616303.5,
+        "price_GBP_per_MWh": 108.465
+      },
+      {
+        "date": "2025-02-04",
+        "G_MW": 37568.19,
+        "D_MW": 27288.0,
+        "surplus_MWh": 246724.5,
+        "price_GBP_per_MWh": 47.09
+      },
+      {
+        "date": "2023-11-21",
+        "G_MW": 33290.99,
+        "D_MW": 23594.0,
+        "surplus_MWh": 232727.9,
+        "price_GBP_per_MWh": 40.075
+      },
+      {
+        "date": "2026-01-20",
+        "G_MW": 38899.97,
+        "D_MW": 29723.0,
+        "surplus_MWh": 220247.3,
+        "price_GBP_per_MWh": 41.285
+      },
+      {
+        "date": "2021-04-27",
+        "G_MW": 32942.58,
+        "D_MW": 24508.0,
+        "surplus_MWh": 202430.0,
+        "price_GBP_per_MWh": 0.0
+      }
+    ],
+    "three_lowest_demand_days": [
+      {
+        "date": "2022-08-02",
+        "D_MW": 636.0,
+        "rank_median_D": null
+      },
+      {
+        "date": "2020-06-23",
+        "D_MW": 19241.0,
+        "rank_median_D": null
+      },
+      {
+        "date": "2020-05-26",
+        "D_MW": 19483.0,
+        "rank_median_D": null
+      }
+    ],
+    "three_highest_price_days": [
+      {
+        "date": "2021-09-09",
+        "price": 333.82520833333336
+      },
+      {
+        "date": "2022-08-26",
+        "price": 299.65479166666665
+      },
+      {
+        "date": "2022-08-25",
+        "price": 257.11927083333336
+      }
+    ]
+  }
+}

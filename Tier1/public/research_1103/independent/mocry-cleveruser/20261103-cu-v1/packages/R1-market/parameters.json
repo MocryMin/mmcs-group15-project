@@ -1,0 +1,635 @@
+{
+  "package": "R1",
+  "result_id": "R1-market/firstpass-2026-11-03",
+  "generated_utc": "2026-11-03",
+  "units_convention": "powers in MW (daily average), energies in MWh/day unless stated, prices in GBP per MWh (nominal, no deflator applied), costs in GBP",
+  "claims": [
+    {
+      "id": "R1-C01",
+      "gap_id": "E-01",
+      "meaning": "Identity of the supplied daily price series: closest real-world analogue is the BSC Market Index Price (half-hourly volume-weighted short-term wholesale trade index), not a retail tariff, PPA price, CfD strike/reference price or Smart Export Guarantee rate.",
+      "value_type": "rule",
+      "value": "treat avg_price_GBP_per_MWh as a daily average of the GB half-hourly wholesale index; use as unit revenue for sold MWh under perfect foresight and full contracting",
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "as supplied, nominal 2020-2026",
+      "scope": "supplied daily_market_index_price.csv; Great Britain wholesale electricity",
+      "source_ref": [
+        "ELEXON-MID",
+        "ELEXON-IMBALANCE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "adopt as p_t; label as index-based merchant revenue",
+      "sensitivity_range": null,
+      "notes": "Inference from the file name plus the BSC definition; SOURCE_MANIFEST.json lists only column names and does not state which index, aggregation method, or weighting."
+    },
+    {
+      "id": "R1-C02",
+      "gap_id": "E-01",
+      "meaning": "Exact unit identity between the two supplied price columns: GBP per MW-day equals 24 times GBP per MWh, because 1 MW held for 24 h is 24 MWh.",
+      "value_type": "number",
+      "value": 24.0,
+      "unit": "hours per day (dimensionless factor)",
+      "currency": null,
+      "price_year": null,
+      "scope": "all 2422 price rows",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "use avg_price_GBP_per_MWh only; cross-check against avg_price_GBP_per_MW_day / 24",
+      "sensitivity_range": null,
+      "notes": "Max absolute deviation 0.000000 over 2422 rows; 0 rows exceed tolerance 0.05. Multiplying the MW-day column by 24 again is a 24x revenue error."
+    },
+    {
+      "id": "R1-C03",
+      "gap_id": "E-01",
+      "meaning": "Mean of the supplied daily price series over its full coverage.",
+      "value_type": "number",
+      "value": 48.17,
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "nominal, 2020-01-01 to 2026-09-17",
+      "scope": "2422 daily observations",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "descriptive only; not a forecast",
+      "sensitivity_range": "price multiplier 0.75 to 1.25 (scenario S1)"
+    },
+    {
+      "id": "R1-C04",
+      "gap_id": "E-04",
+      "meaning": "Minimum (most negative) daily average price in the supplied series.",
+      "value_type": "number",
+      "value": -8.46,
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "nominal, 2020-2026",
+      "scope": "9 negative-price days",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "retain; do not clip",
+      "sensitivity_range": "clamp to 0 as labelled tail treatment (scenario S2)"
+    },
+    {
+      "id": "R1-C05",
+      "gap_id": "E-01",
+      "meaning": "Maximum daily average price in the supplied series.",
+      "value_type": "number",
+      "value": 333.83,
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "nominal, 2020-2026",
+      "scope": "2422 daily observations",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "retain as genuine extreme (BL-11)",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C06",
+      "gap_id": "E-01",
+      "meaning": "Median of the supplied daily price series; far below the mean, indicating a right-skewed distribution driven by crisis-period peaks.",
+      "value_type": "number",
+      "value": 41.13,
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "nominal, 2020-2026",
+      "scope": "2422 daily observations",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "report both mean and median; battery value depends on dispersion, not the mean",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C07",
+      "gap_id": "E-01",
+      "meaning": "The rule used to aggregate half-hourly settlement-period prices into the supplied daily figure is not documented in any supplied file, nor is whether the aggregation is volume-weighted.",
+      "value_type": "string",
+      "value": "undocumented",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "daily_market_index_price.csv provenance",
+      "source_ref": [
+        "SOURCE-MANIFEST"
+      ],
+      "evidence_strength": "unknown",
+      "recommended_baseline": "assume an equal-weighted daily mean of settlement-period prices and declare the assumption in the run manifest",
+      "sensitivity_range": null,
+      "notes": "Crossing issue for R4/D-01; affects level in spiky periods because Elexon MIP is volume-weighted within each settlement period while a daily mean may not be."
+    },
+    {
+      "id": "R1-C08",
+      "gap_id": "E-02",
+      "meaning": "Whether the supplied demand series D_t acts as a real market absorption quota for a generator. It does not; there is no per-generator rationing against demand in the GB wholesale market.",
+      "value_type": "rule",
+      "value": "D_t is a constructed-system modelling convention (integrated portfolio), not a market rule; the only real limit on a generator is connection/Transmission Entry Capacity",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "BL-02 interpretation; regime A and B",
+      "source_ref": [
+        "ELEXON-MID",
+        "NESO-TNUOS",
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "keep the D_t cap as specified in BL-02 but label it explicitly as modelled; run the merchant variant (no cap) as sensitivity S3",
+      "sensitivity_range": "cap on (baseline) vs cap off (S3)",
+      "notes": "Policy B (q_t = min{G_t, D_t}) remains well defined either way; only its economic interpretation changes."
+    },
+    {
+      "id": "R1-C09",
+      "gap_id": "E-02",
+      "meaning": "Default daily export cap for the baseline interface, taken from the observed maximum output of the specified wind farm.",
+      "value_type": "number",
+      "value": 1125.0,
+      "unit": "MW",
+      "currency": null,
+      "price_year": null,
+      "scope": "wind_farm_generation.csv, 2453 rows, 2020-01-01 to 2026-09-18",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "E_cap = 1125 MW (x 24 h for the daily energy cap) unless the team documents a connection size",
+      "sensitivity_range": "any documented TEC/connection capacity",
+      "notes": "A real connection limit is a MW cap; it is not a demand-linked energy cap."
+    },
+    {
+      "id": "R1-C10",
+      "gap_id": "E-02",
+      "meaning": "Mean of the supplied daily demand series.",
+      "value_type": "number",
+      "value": 28113.0,
+      "unit": "MW",
+      "currency": null,
+      "price_year": null,
+      "scope": "daily_demand.csv, 2451 rows, all recordType VD",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "use as supplied",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C11",
+      "gap_id": "E-02",
+      "meaning": "Demand converted to daily energy at the mean, using average MW x 24 h.",
+      "value_type": "number",
+      "value": 674712.0,
+      "unit": "MWh/day",
+      "currency": null,
+      "price_year": null,
+      "scope": "derived from R1-C10",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "MWh/day = MW x 24 consistently for all series",
+      "sensitivity_range": null,
+      "notes": "28113 MW x 24 h = 674712 MWh/day = 674.7 GWh/day."
+    },
+    {
+      "id": "R1-C12",
+      "gap_id": "E-02",
+      "meaning": "Mean total generation converted to daily energy; the gap to demand is the constructed system's average shortfall.",
+      "value_type": "number",
+      "value": 613992.0,
+      "unit": "MWh/day",
+      "currency": null,
+      "price_year": null,
+      "scope": "daily_generation_total.csv, 2422 rows, mean 25583 MW",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "use as supplied; do not add fuel rows to the total",
+      "sensitivity_range": null,
+      "notes": "25583 MW x 24 h = 613992 MWh/day; shortfall vs demand 60720 MWh/day."
+    },
+    {
+      "id": "R1-C13",
+      "gap_id": "E-03",
+      "meaning": "Whether grid purchases are enabled in the baseline trading interface.",
+      "value_type": "rule",
+      "value": "disabled",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "baseline run; regime A and B",
+      "source_ref": [
+        "BASELINE-1103",
+        "OFGEM-PRICECAP"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "purchases off (concurs with BL-07); enable only via scenario S4",
+      "sensitivity_range": "on with adder a in {0, 10, 20, 30} GBP/MWh",
+      "notes": "With no adder and no connection cap, imports at negative or cheap prices manufacture unbounded profit, which BL-07 prohibits."
+    },
+    {
+      "id": "R1-C14",
+      "gap_id": "E-03",
+      "meaning": "Per-MWh non-commodity adder that must sit between the wholesale index and any purchase price. No defensible numeric value obtained in this pass.",
+      "value_type": "rule",
+      "value": "a > 0, value unknown; bounded 0 to 30 for scenario use only",
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "would need to match the adopted price base year",
+      "scope": "business import of electricity",
+      "source_ref": [
+        "OFGEM-PRICECAP"
+      ],
+      "evidence_strength": "low",
+      "recommended_baseline": "p_buy,t = p_t + a with a left as an open parameter; report break-even a rather than asserting a tariff",
+      "sensitivity_range": "0 to 30 GBP/MWh",
+      "notes": "Ofgem's price cap decomposition shows network, policy, operating, EBIT, headroom and VAT components beyond wholesale, so a = 0 is known to be wrong; the numeric level belongs to R4 (F-01/F-03)."
+    },
+    {
+      "id": "R1-C15",
+      "gap_id": "E-03",
+      "meaning": "Eligibility condition for buying electricity for resale in GB: a supply licence (or supply through a licensed third party).",
+      "value_type": "rule",
+      "value": "supplier licence required; a generator without one cannot contract imports for resale directly",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "GB electricity supply and BSC settlement",
+      "source_ref": [
+        "ELEXON-SUPPLIER"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "declare the licence/third-party supply assumption if imports are enabled",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C16",
+      "gap_id": "E-04",
+      "meaning": "Count and share of days with a negative daily average price in the supplied series.",
+      "value_type": "number",
+      "value": 9,
+      "unit": "days (0.37 percent of 2422)",
+      "currency": null,
+      "price_year": null,
+      "scope": "daily_market_index_price.csv",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "retain all 9 days",
+      "sensitivity_range": null,
+      "notes": "By year: 2020:2, 2021:1, 2023:2, 2024:1, 2025:3."
+    },
+    {
+      "id": "R1-C17",
+      "gap_id": "E-04",
+      "meaning": "Treatment of negative prices in the model.",
+      "value_type": "rule",
+      "value": "retain negative values unchanged; a negative sale price means the optimal plan curtails or stores, and regime B pays for its priority rule on these days",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "all runs",
+      "source_ref": [
+        "BASELINE-1103",
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "retain (BL-11); clamp-to-zero only as labelled tail treatment S2",
+      "sensitivity_range": "retain vs clamp (S2)"
+    },
+    {
+      "id": "R1-C18",
+      "gap_id": "E-04",
+      "meaning": "Simultaneous import and export at one connection is a metering impossibility; the model must restrict the metered net position, not internal charge/discharge.",
+      "value_type": "rule",
+      "value": "apply one price to net_t = sales - purchases - charge - h2_use + discharge; forbid sales_t > 0 and purchases_t > 0 on the same day via the net formulation or a binary switch",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "trading interface",
+      "source_ref": [
+        "ELEXON-IMBALANCE",
+        "OWN-INFERENCE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "net formulation (no binary variable needed)",
+      "sensitivity_range": null,
+      "notes": "Battery charging from current generation and discharging to the grid on the same day is internal conversion and must not be forbidden."
+    },
+    {
+      "id": "R1-C19",
+      "gap_id": "E-04",
+      "meaning": "Minimum sell/buy price ratio for a 2-hour battery to be worth cycling, given 90 percent round-trip efficiency and no adders.",
+      "value_type": "number",
+      "value": 1.1111,
+      "unit": "ratio (dimensionless)",
+      "currency": null,
+      "price_year": null,
+      "scope": "derived from the brief's 90 percent round-trip assumption",
+      "source_ref": [
+        "OWN-COMPUTE",
+        "BRIEF-APPENDIX"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "use as a screening check before believing any positive battery value",
+      "sensitivity_range": "with adder a: p_sell > (p_buy + a) / 0.90",
+      "notes": "1 / 0.90 = 1.1111."
+    },
+    {
+      "id": "R1-C20",
+      "gap_id": "E-04",
+      "meaning": "Loss per MWh cycled through a battery when buy and sell prices are equal to the sample mean.",
+      "value_type": "number",
+      "value": -4.82,
+      "unit": "GBP per MWh purchased",
+      "currency": "GBP",
+      "price_year": "nominal, 2020-2026 mean",
+      "scope": "48.17 - 0.90 x 48.17",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "state that storage cannot be justified by average prices, only by dispersion",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C21",
+      "gap_id": "E-05",
+      "meaning": "Mean output of the specified wind farm as a share of mean system demand; primary evidence for the price-taking assumption.",
+      "value_type": "number",
+      "value": 1.51,
+      "unit": "percent",
+      "currency": null,
+      "price_year": null,
+      "scope": "424.6 MW mean / 28113 MW mean demand",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "price-taking for the farm's own output",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C22",
+      "gap_id": "E-05",
+      "meaning": "Maximum farm output as a share of mean system demand.",
+      "value_type": "number",
+      "value": 4.0,
+      "unit": "percent",
+      "currency": null,
+      "price_year": null,
+      "scope": "1125.0 MW / 28113 MW",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "price-taking remains defensible",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C23",
+      "gap_id": "E-05",
+      "meaning": "Maximum farm output as a share of 1st-percentile (low) demand, the tightest plausible instant.",
+      "value_type": "number",
+      "value": 5.41,
+      "unit": "percent",
+      "currency": null,
+      "price_year": null,
+      "scope": "1125.0 MW / 20779 MW",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "price-taking; report as the upper bound of the assumption's plausibility",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C24",
+      "gap_id": "E-05",
+      "meaning": "Any market-impact coefficient (GBP/MWh per GW offered) for a non-price-taking scenario. Not derivable from the supplied daily average series.",
+      "value_type": "string",
+      "value": "unknown; requires half-hourly bid/offer and acceptance data",
+      "unit": "GBP/MWh per GW",
+      "currency": "GBP",
+      "price_year": null,
+      "scope": "market impact scenario",
+      "source_ref": [
+        "ELEXON-IMBALANCE",
+        "NESO-BALANCING-COSTS"
+      ],
+      "evidence_strength": "unknown",
+      "recommended_baseline": "maintain price-taking and report the output level that would move price by 1 percent rather than inventing a slope",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C25",
+      "gap_id": "E-06",
+      "meaning": "Baseline economic treatment of unused generation.",
+      "value_type": "rule",
+      "value": "zero revenue, zero cost, zero compensation; the lost sale is already the opportunity cost, so no separate curtailment penalty",
+      "unit": "GBP/MWh of unused generation",
+      "currency": "GBP",
+      "price_year": null,
+      "scope": "baseline run, regime A and B",
+      "source_ref": [
+        "ELEXON-BMU",
+        "NESO-BALANCING-COSTS",
+        "BASELINE-1103"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "adopt; avoids double counting with BL-09",
+      "sensitivity_range": "c_cur 0 to 20 GBP/MWh as labelled alternative-market scenario S6",
+      "notes": "Constraint payments arise through the Balancing Mechanism, which requires BM Unit registration; the constructed system has none, so eligibility is not claimed."
+    },
+    {
+      "id": "R1-C26",
+      "gap_id": "E-07",
+      "meaning": "BSUoS charge borne by a generator after the April 2023 charging reform.",
+      "value_type": "number",
+      "value": 0.0,
+      "unit": "GBP/MWh of export",
+      "currency": "GBP",
+      "price_year": "post April 2023 regime",
+      "scope": "generators, including embedded generators",
+      "source_ref": [
+        "NESO-BSUOS"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "0; do not deduct BSUoS from export revenue",
+      "sensitivity_range": null,
+      "notes": "CMP308 recovered BSUoS solely from final demand; CMP361 introduced an ex-ante fixed tariff; NESO marks generators as not charged."
+    },
+    {
+      "id": "R1-C27",
+      "gap_id": "E-07",
+      "meaning": "Basis of the TNUoS generation charge: levied on Transmission Entry Capacity per kW per year and zonal, not per MWh exported.",
+      "value_type": "rule",
+      "value": "GBP per kW of TEC per year, zonal; numeric tariff not obtained",
+      "unit": "GBP/kW/year",
+      "currency": "GBP",
+      "price_year": "annual tariff set by 31 January, effective 1 April",
+      "scope": "GB generators and suppliers",
+      "source_ref": [
+        "NESO-TNUOS"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "excluded from baseline dispatch (0); placeholder fixed-cost parameter for sensitivity S5",
+      "sensitivity_range": "to be filled from NESO published TNUoS tariff tables",
+      "notes": "Treating TNUoS as a per-MWh charge would distort dispatch; omitting it understates fixed cost, and a Scottish zone is likely above the national average."
+    },
+    {
+      "id": "R1-C28",
+      "gap_id": "E-07",
+      "meaning": "Other network-related costs omitted with the brief's grid simplification: connection charges, AAHEDC, and locational/transmission constraints.",
+      "value_type": "rule",
+      "value": "omitted; connection charges are capex, AAHEDC is a north-of-Scotland support charge, transmission limits are unmodelled",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "baseline run",
+      "source_ref": [
+        "NESO-CHARGING"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "state the omission and its direction of bias (fixed costs understated)",
+      "sensitivity_range": "optional locational extension",
+      "notes": "Consistent with TC-07; the model cannot establish actual Scottish curtailment or site deliverability."
+    },
+    {
+      "id": "R1-C29",
+      "gap_id": "E-07",
+      "meaning": "Eligibility of the modelled farm for the Smart Export Guarantee.",
+      "value_type": "rule",
+      "value": "ineligible: SEG applies to installations up to 5 MW",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "supplied farm, peak 1125 MW",
+      "source_ref": [
+        "OFGEM-SEG"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "exclude SEG from the interface; export route is wholesale/PPA only",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C30",
+      "gap_id": "E-07",
+      "meaning": "Presence of a CfD contract for the constructed system.",
+      "value_type": "rule",
+      "value": "none documented; CfD route not applicable and no CfD payment modelled",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "constructed system",
+      "source_ref": [
+        "GOVUK-CFD",
+        "LCCC-BMRP"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "exclude; a CfD-supported scenario would need the contract and the negative-pricing rule, which this pass did not obtain",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C31",
+      "gap_id": "E-02",
+      "meaning": "Size of the four-way date intersection available to a common A/B comparison window.",
+      "value_type": "number",
+      "value": 2406,
+      "unit": "days",
+      "currency": null,
+      "price_year": null,
+      "scope": "price, demand, generation total and wind farm; 2020-01-01 to 2026-09-17",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "run all A/B comparisons on the intersection unless R4 defines a documented gap treatment",
+      "sensitivity_range": null,
+      "notes": "Relative to the intersection: 16 price/gen dates, 45 demand dates and 47 wind dates excluded. R4 owns D-02."
+    },
+    {
+      "id": "R1-C32",
+      "gap_id": "E-02",
+      "meaning": "Census of the demand file's recordType field, confirming a single record type and no duplicated mix of measurement classes.",
+      "value_type": "string",
+      "value": "2451 rows, all recordType VD",
+      "unit": null,
+      "currency": null,
+      "price_year": null,
+      "scope": "daily_demand.csv",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "high",
+      "recommended_baseline": "treat as a single homogeneous daily series; R4 to confirm the meaning of VD",
+      "sensitivity_range": null
+    },
+    {
+      "id": "R1-C33",
+      "gap_id": "E-01",
+      "meaning": "Current published GB baseload reference price level, used only to show that the 2020-2026 historical mean is not a forecast.",
+      "value_type": "number",
+      "value": 114.5,
+      "unit": "GBP/MWh",
+      "currency": "GBP",
+      "price_year": "Winter 2026 (October 2026 to March 2027)",
+      "scope": "Baseload Market Reference Price, CfD settlement reference",
+      "source_ref": [
+        "LCCC-BMRP"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "not used in the run; supports mandatory price-level sensitivity",
+      "sensitivity_range": "S1 multiplier band",
+      "notes": "More than twice the 2020-2026 supplied daily mean of 48.17 GBP/MWh."
+    },
+    {
+      "id": "R1-C34",
+      "gap_id": "E-01",
+      "meaning": "Revenue per MWh of electricity consumed by the electrolyser if all hydrogen sells at the written GBP 9.5/kg benchmark, using the written 55.9 kWh/kg conversion.",
+      "value_type": "number",
+      "value": 169.95,
+      "unit": "GBP per MWh of input electricity",
+      "currency": "GBP",
+      "price_year": "benchmark, brief page 6",
+      "scope": "electrolyser outlet, before capex and operating cost",
+      "source_ref": [
+        "BRIEF-APPENDIX",
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "use as the H2 electricity-equivalent revenue for route comparison",
+      "sensitivity_range": "scaled by any alternative H2 price; R3 owns the price",
+      "notes": "9.5 GBP/kg divided by 55.9 kWh/kg = 0.16995 GBP/kWh = 169.95 GBP/MWh."
+    },
+    {
+      "id": "R1-C35",
+      "gap_id": "E-01",
+      "meaning": "Annual gross electricity revenue of the specified farm at the sample mean price, before any cost; scale anchor for judging flexibility capex.",
+      "value_type": "number",
+      "value": 179168122.0,
+      "unit": "GBP per year",
+      "currency": "GBP",
+      "price_year": "nominal, at the 2020-2026 mean price",
+      "scope": "424.6 MW mean output, 365 days, 48.17 GBP/MWh",
+      "source_ref": [
+        "OWN-COMPUTE"
+      ],
+      "evidence_strength": "medium",
+      "recommended_baseline": "report as an order-of-magnitude anchor, not a forecast",
+      "sensitivity_range": "scales linearly with price level (S1)",
+      "notes": "424.6 MW x 24 h = 10190.4 MWh/day x 48.17 = 490872 GBP/day x 365."
+    }
+  ]
+}

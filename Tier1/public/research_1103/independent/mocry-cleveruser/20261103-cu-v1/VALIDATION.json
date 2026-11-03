@@ -1,0 +1,140 @@
+{
+  "checked_at": "2026-11-03T21:53:47Z",
+  "release_root": "release/20261103-cu-v1",
+  "packages": {
+    "R1-market": {
+      "present": [
+        "FIRST_PASS.md",
+        "REPORT.md",
+        "parameters.json",
+        "sources.json"
+      ],
+      "missing_required": []
+    },
+    "R2-battery": {
+      "present": [
+        "FIRST_PASS.md",
+        "REPORT.md",
+        "parameters.json",
+        "sources.json"
+      ],
+      "missing_required": []
+    },
+    "R3-hydrogen": {
+      "present": [
+        "FIRST_PASS.md",
+        "REPORT.md",
+        "parameters.json",
+        "sources.json"
+      ],
+      "missing_required": []
+    },
+    "R4-finance-data": {
+      "present": [
+        "FIRST_PASS.md",
+        "REPORT.md",
+        "audit_inputs.py",
+        "audit_results.json",
+        "audit_summary.txt",
+        "check_dates.py",
+        "data_quality.json",
+        "data_quality.py",
+        "derived_checks.json",
+        "derived_checks.py",
+        "fetch_finance.py",
+        "finance_evidence.json",
+        "inspect_low_days.py",
+        "parameters.json",
+        "print_audit_highlights.py",
+        "probe_sources.py",
+        "probe_sources2.py",
+        "sources.json"
+      ],
+      "missing_required": []
+    }
+  },
+  "leak_control": {
+    "packages/R1-market/FIRST_PASS.md": {
+      "suspicious": [
+        {
+          "line": 32,
+          "marker": "research_1103",
+          "text": "- anything under `Tier1/public/research_1103/` (the earlier research round, its syntheses, parameter"
+        },
+        {
+          "line": 37,
+          "marker": "mocry-codex",
+          "text": "- any `mocry-codex` working file under `Tier1/workspaces/mocry/` other than the byte-identical input"
+        }
+      ],
+      "declarations": 0,
+      "reviewed_by_controller": "declaration text only, no earlier-round content cited"
+    },
+    "packages/R1-market/REPORT.md": {
+      "suspicious": [],
+      "declarations": 2
+    },
+    "packages/R2-battery/FIRST_PASS.md": {
+      "suspicious": [],
+      "declarations": 1
+    },
+    "packages/R2-battery/REPORT.md": {
+      "suspicious": [],
+      "declarations": 1
+    },
+    "packages/R3-hydrogen/FIRST_PASS.md": {
+      "suspicious": [
+        {
+          "line": 27,
+          "marker": "research_1103",
+          "text": "- anything under `Tier1/public/research_1103/**` (the earlier research round, its syntheses, parameter candidates, review decisions or cross-reviews);"
+        },
+        {
+          "line": 29,
+          "marker": "mocry-codex",
+          "text": "- any `Tier1/workspaces/mocry/` file created by `mocry-codex` other than the byte-identical input copies."
+        }
+      ],
+      "declarations": 0,
+      "reviewed_by_controller": "declaration text only, no earlier-round content cited"
+    },
+    "packages/R3-hydrogen/REPORT.md": {
+      "suspicious": [],
+      "declarations": 2
+    },
+    "packages/R4-finance-data/FIRST_PASS.md": {
+      "suspicious": [],
+      "declarations": 2
+    },
+    "packages/R4-finance-data/REPORT.md": {
+      "suspicious": [],
+      "declarations": 2
+    }
+  },
+  "json": {
+    "BASELINE_CANDIDATE_CU.json": "ok",
+    "controller-data-audit/crosscheck_r4_artefact.json": "ok",
+    "controller-data-audit/data_audit.json": "ok",
+    "controller-data-audit/surplus_concentration.json": "ok",
+    "packages/R1-market/parameters.json": "ok",
+    "packages/R1-market/sources.json": "ok",
+    "packages/R2-battery/parameters.json": "ok",
+    "packages/R2-battery/sources.json": "ok",
+    "packages/R3-hydrogen/_work/h2_prod_costs_2021.json": "ok",
+    "packages/R3-hydrogen/_work/h2_transport_storage.json": "ok",
+    "packages/R3-hydrogen/parameters.json": "ok",
+    "packages/R3-hydrogen/sources.json": "ok",
+    "packages/R4-finance-data/audit_results.json": "ok",
+    "packages/R4-finance-data/data_quality.json": "ok",
+    "packages/R4-finance-data/derived_checks.json": "ok",
+    "packages/R4-finance-data/finance_evidence.json": "ok",
+    "packages/R4-finance-data/parameters.json": "ok",
+    "packages/R4-finance-data/sources.json": "ok",
+    "RELEASE_MANIFEST.json": "ok",
+    "VALIDATION.json": "ok"
+  },
+  "pass": true,
+  "file_count": 65,
+  "total_bytes": 556859,
+  "sha256_tree_file": "4e5a9d0c8608456ebf13f3ba208e948e72b9da3d59cb409ad26c44176e20170e"
+}

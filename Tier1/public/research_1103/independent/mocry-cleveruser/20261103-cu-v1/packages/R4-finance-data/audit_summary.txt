@@ -1,0 +1,80 @@
+AUDIT SUMMARY - five supplied MMCS CSVs (package R4, D-01..D-03)
+inputs dir: D:\projects\CU projects\course check\MMCS Project\mmcs-group15-project\Tier1\workspaces\mocry\cleveruser\inputs
+
+daily_demand.csv                 rows=2451   dates=2451  2020-01-01..2026-09-17  dup_date_rows=0  missing_in_span=1  bytes=76008
+    demand                       n=2451 min=636 max=42031 mean=28112.7 median=27472 neg=0 zero=0
+    sha256=3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b
+daily_generation_total.csv       rows=2422   dates=2422  2020-01-01..2026-09-17  dup_date_rows=0  missing_in_span=30  bytes=43549
+    total_MW                     n=2422 min=1450 max=43520 mean=25583.1 median=26041.5 neg=0 zero=0
+    sha256=f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318
+daily_generation_by_fuel.csv     rows=26642  dates=2422  2020-01-01..2026-09-17  dup_date_rows=24220  missing_in_span=30  bytes=786436
+    MW                           n=26642 min=0 max=24925 mean=2325.74 median=786 neg=0 zero=4500
+    sha256=63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4
+wind_farm_generation.csv         rows=2453   dates=2453  2020-01-01..2026-09-18  dup_date_rows=0  missing_in_span=0  bytes=73849
+    wind_farm_MW                 n=2453 min=0 max=1125 mean=424.623 median=353.105 neg=0 zero=10
+    sha256=52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f
+daily_market_index_price.csv     rows=2422   dates=2422  2020-01-01..2026-09-17  dup_date_rows=0  missing_in_span=30  bytes=91950
+    avg_price_£_per_MWh          n=2422 min=-8.465 max=333.825 mean=48.1703 median=41.1337 neg=9 zero=1
+    avg_price_£_per_MW_day       n=2422 min=-203.16 max=8011.81 mean=1156.09 median=987.209 neg=9 zero=1
+    sha256=77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364
+
+FUEL vs TOTAL: common=2422 equal=2422 differ=0 max|diff|=0 MW; rows/date={11: 2422}; psrTypes=11
+PRICE IDENTITY b/a=24: n=2422 ok=2422 deviating=0 max_rel_dev=1.48e-16
+INTERSECTION: n=2406 (2020-01-01..2026-09-17) segments=28 gaps=27
+    segment 2020-01-01..2020-07-06  days=188
+    segment 2020-07-08..2020-07-19  days=12
+    segment 2020-07-21..2020-10-31  days=103
+    segment 2020-11-04..2020-11-07  days=4
+    segment 2020-11-10..2020-11-10  days=1
+    segment 2020-11-13..2020-11-13  days=1
+    segment 2020-11-15..2020-11-15  days=1
+    segment 2020-11-20..2020-11-20  days=1
+    segment 2020-11-22..2020-11-23  days=2
+    segment 2020-11-25..2020-11-25  days=1
+    segment 2020-11-27..2020-11-27  days=1
+    segment 2020-12-01..2021-02-15  days=77
+    segment 2021-02-19..2021-02-19  days=1
+    segment 2021-02-21..2021-02-23  days=3
+    segment 2021-02-28..2021-03-09  days=10
+    segment 2021-03-12..2021-06-13  days=94
+    segment 2021-06-15..2022-01-03  days=203
+    segment 2022-01-05..2022-01-08  days=4
+    segment 2022-01-10..2022-01-17  days=8
+    segment 2022-01-19..2022-01-26  days=8
+    segment 2022-01-30..2022-04-02  days=63
+    segment 2022-04-04..2022-04-06  days=3
+    segment 2022-04-09..2022-04-16  days=8
+    segment 2022-04-18..2022-04-27  days=10
+    segment 2022-04-30..2022-06-21  days=53
+    segment 2022-06-23..2022-09-16  days=86
+    segment 2022-09-18..2022-09-22  days=5
+    segment 2022-09-24..2026-09-17  days=1455
+    gap after 2020-07-06 before 2020-07-08  missing=1
+    gap after 2020-07-19 before 2020-07-21  missing=1
+    gap after 2020-10-31 before 2020-11-04  missing=3
+    gap after 2020-11-07 before 2020-11-10  missing=2
+    gap after 2020-11-10 before 2020-11-13  missing=2
+    gap after 2020-11-13 before 2020-11-15  missing=1
+    gap after 2020-11-15 before 2020-11-20  missing=4
+    gap after 2020-11-20 before 2020-11-22  missing=1
+    gap after 2020-11-23 before 2020-11-25  missing=1
+    gap after 2020-11-25 before 2020-11-27  missing=1
+    gap after 2020-11-27 before 2020-12-01  missing=3
+    gap after 2021-02-15 before 2021-02-19  missing=3
+    gap after 2021-02-19 before 2021-02-21  missing=1
+    gap after 2021-02-23 before 2021-02-28  missing=4
+    gap after 2021-03-09 before 2021-03-12  missing=2
+    gap after 2021-06-13 before 2021-06-15  missing=1
+    gap after 2022-01-03 before 2022-01-05  missing=1
+    gap after 2022-01-08 before 2022-01-10  missing=1
+    gap after 2022-01-17 before 2022-01-19  missing=1
+    gap after 2022-01-26 before 2022-01-30  missing=3
+    gap after 2022-04-02 before 2022-04-04  missing=1
+    gap after 2022-04-06 before 2022-04-09  missing=2
+    gap after 2022-04-16 before 2022-04-18  missing=1
+    gap after 2022-04-27 before 2022-04-30  missing=2
+    gap after 2022-06-21 before 2022-06-23  missing=1
+    gap after 2022-09-16 before 2022-09-18  missing=1
+    gap after 2022-09-22 before 2022-09-24  missing=1
+SYSTEM on intersection: gen=1502272761 MWh dem=1621947480 MWh meanG=26016.1 MW meanD=28088.6 MW surplus_days=702 deficit_days=1704 neg_price_days=9
+ANNUAL: 2020 n=346 price=16.09 G=27388 D=27509; 2021 n=354 price=54.77 G=27988 D=28809; 2022 n=350 price=95.38 G=26453 D=29022; 2023 n=365 price=45.37 G=23639 D=27307; 2024 n=366 price=35.03 G=23287 D=27702; 2025 n=365 price=39.56 G=27316 D=28338; 2026 n=260 price=50.43 G=26274 D=27914

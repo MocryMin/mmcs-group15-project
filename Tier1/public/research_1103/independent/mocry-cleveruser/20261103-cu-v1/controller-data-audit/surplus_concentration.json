@@ -1,0 +1,53 @@
+{
+  "n_days": 2406,
+  "total_surplus_MWh": 40626137.0,
+  "top1_share": 0.0152,
+  "top10_share": 0.0609,
+  "top50_share": 0.2233,
+  "days_with_surplus": 702,
+  "surplus_excluding_2022-08-02_MWh": 40009833.5,
+  "top10_days": [
+    {
+      "date": "2022-08-02",
+      "surplus_MWh": 616303.5
+    },
+    {
+      "date": "2025-02-04",
+      "surplus_MWh": 246724.5
+    },
+    {
+      "date": "2023-11-21",
+      "surplus_MWh": 232727.9
+    },
+    {
+      "date": "2026-01-20",
+      "surplus_MWh": 220247.3
+    },
+    {
+      "date": "2021-04-27",
+      "surplus_MWh": 202430.0
+    },
+    {
+      "date": "2020-01-21",
+      "surplus_MWh": 199845.3
+    },
+    {
+      "date": "2023-12-12",
+      "surplus_MWh": 190808.8
+    },
+    {
+      "date": "2020-09-22",
+      "surplus_MWh": 189198.7
+    },
+    {
+      "date": "2025-05-25",
+      "surplus_MWh": 188008.5
+    },
+    {
+      "date": "2026-02-03",
+      "surplus_MWh": 187757.9
+    }
+  ],
+  "second_largest_MWh": 246724.5,
+  "ratio_largest_to_second": 2.5
+}

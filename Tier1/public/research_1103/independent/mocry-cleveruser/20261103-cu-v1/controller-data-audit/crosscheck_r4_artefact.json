@@ -1,0 +1,81 @@
+{
+  "dispatchable_set": [
+    "Biomass",
+    "Fossil Gas",
+    "Fossil Hard coal",
+    "Fossil Oil",
+    "Hydro Pumped Storage",
+    "Hydro Run-of-river and poundage",
+    "Nuclear",
+    "Other"
+  ],
+  "dates_all_dispatchable_zero": 107,
+  "dates_all_dispatchable_zero_in_common": 107,
+  "blocks": [
+    {
+      "start": "2022-10-17",
+      "end": "2022-10-17",
+      "days": 1
+    },
+    {
+      "start": "2022-11-20",
+      "end": "2022-11-21",
+      "days": 2
+    },
+    {
+      "start": "2022-12-01",
+      "end": "2023-01-11",
+      "days": 42
+    },
+    {
+      "start": "2023-04-24",
+      "end": "2023-05-03",
+      "days": 10
+    },
+    {
+      "start": "2024-02-08",
+      "end": "2024-02-19",
+      "days": 12
+    },
+    {
+      "start": "2025-03-09",
+      "end": "2025-03-12",
+      "days": 4
+    },
+    {
+      "start": "2025-03-22",
+      "end": "2025-03-31",
+      "days": 10
+    },
+    {
+      "start": "2026-06-30",
+      "end": "2026-06-30",
+      "days": 1
+    },
+    {
+      "start": "2026-07-10",
+      "end": "2026-08-03",
+      "days": 25
+    }
+  ],
+  "example_dates": [
+    "2022-10-17",
+    "2022-11-20",
+    "2022-11-21",
+    "2022-12-01",
+    "2022-12-02"
+  ],
+  "total_MW_on_zero_dates_stats": {
+    "min": 1450.0,
+    "max": 17614.0
+  },
+  "surplus_deficit_all_days_MWh": {
+    "surplus": 40626137.0,
+    "deficit": 160300856.2
+  },
+  "surplus_deficit_excluding_zero_dates_and_2022_08_02": {
+    "surplus": 40009833.5,
+    "deficit": 111405252.3,
+    "days": 2298
+  }
+}
