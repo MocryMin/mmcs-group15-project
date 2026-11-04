@@ -91,3 +91,45 @@ This subfolder is this agent's own writing area inside member `mocry`'s workspac
 **Delivery-spec check (Q):** transcript `01:05:51–01:06:49` sets the technical report at 10 pages; `01:06:49–01:07:45` makes the week-11 pitch a business presentation with no maths or code (fail if included). Separately, `01:04:00–01:04:55` (said about assignment 2's six-page limit) states appendices do not count toward the limit but should be assumed ungraded, and explicitly says not to put the integer-programming formulation or data descriptions there — so the model formulation must sit inside the 10 pages.
 
 **Still open:** RV-04's £1.50 → £1.04 m/MW correction is still live in the R3 derived tables (a note is not enough); Tier2 route (2A vs 2B) remains the human's decision and I have not chosen.
+
+## Addendum 5 — full audit of all disclosed data (2026-11-04)
+
+**Delivered:** `Tier1/public/research_1103/independent/mocry-cleveruser/20261104-cu-full-data-audit/`
+(README + 16 results + 9 scripts; commits `58f489f` content, `94ee1cd` message). Note to
+`mocry-codex` sent as kind=notice/priority=info. No RV items reopened.
+
+**Verified sound:** every declared value in `SOURCE_MANIFEST.json` (bytes, SHA-256, rows,
+columns, dates) matches all seven files; UTF-8/CRLF/no BOM; 0 duplicates, 0 empty cells,
+0 negatives; Σ(11 fuels) = total exactly on 2,422/2,422 dates;
+`avg_price_£_per_MW_day` = 24 × `avg_price_£_per_MWh` exactly on 2,421/2,421 non-zero dates;
+coal last non-zero 2024-09-30 (phase-out consistent).
+
+**New findings (severity):**
+1. (high) 42 dates with Solar = 0 daily mean, 41 outside the 107 repair set; 9 also have
+   Pumped Storage = 0. Of 9 dates where AGPT returns rows, 6 are 0.4–7.2 GW below live AGPT
+   (2024-01-07 also has gas 7,938 vs 13,434 MW). Not repaired by 20261103-v1.
+2. (high) `generation − demand` is not a physical surplus. 60-date random clean sample: gap
+   mean −2,237 MW (s.d. 3,565), FUELHH net imports +2,854 MW, corr −0.374, slope −0.665,
+   R² 0.14; residual s.d. 3,373 MW and correlates +0.335 solar / +0.294 wind ⇒ boundary
+   mismatch, not energy balance. The +farm convention is worth exactly 24.3 TWh
+   (0.42 GW × 57,744 h = 16.5 deficit + 7.8 surplus shift).
+3. (medium) demand 2022-08-02 = 636 MW (corrupt); it manufactures the largest apparent
+   surplus day (+24,768 MW) and 1.8 % of cumulative surplus.
+4. (medium) price and generation date sets differ by 16 dates each way ⇒ five-way panel is
+   2,406 of 2,452 days; generation∩demand = 2,421.
+5. (medium) sample contains a structural break: 2026 mean solar 2,778 vs 1,322 MW (2023),
+   offshore wind +84 %, nuclear −36 %; `Fossil Oil` is 0 on all 2,422 dates.
+6. (medium) wind farm is one simulated ~0.42 GW asset (mean 422, max 1,125, 12 decimals,
+   corr 0.69 with national wind, 10 implausible full-day zeros) — not national wind.
+7. (low) fidelity to live AGPT on 50 random 2022+ dates: mean −1.20 %, mean abs 1.31 %,
+   range −9.21 %…+1.73 %; 30 absent dates are recoverable from FUELHH (2 verified).
+
+**Balance table (2,406 dates, gen-only / +farm):** 176.81→133.21 / 32.82→33.82 TWh deficit
+and surplus; with farm 160.30→116.96 / 40.63→41.89 TWh (reproduces codex's numbers exactly).
+On the fuller 2,421-date panel: 178.88→135.28 / 32.92→33.92; with farm 162.16→118.82 /
+40.74→42.00.
+
+**Still open (unchanged):** RV-04 `£1.50 → £1.04 m/MW` still live in R3 derived tables;
+Tier2 route (2A vs 2B) is the human's decision; no regression test added to `tools/`.
+**Next useful step if asked:** extend the repair to the 41 solar-zero dates and the 30 absent
+dates using the same FUELHH/AGPT method (scripts already in the release).
