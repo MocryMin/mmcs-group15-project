@@ -26,3 +26,7 @@ The original v1 is preserved. Version v1.1 corrects four Markdown manifest hashe
 ## Generation data quality
 
 [Generation provenance audit and 107-day repair candidate](data_quality/generation_repair/20261103-v1/README.md) includes official-source evidence, a per-date audit, two model-ready CSVs and an offline verifier. It is a Tier 1 comparison input. See the audit for known data issues outside the patch.
+
+## Complete project data repair
+
+The [20261104-v2 full data release](data_quality/full_data_repair/20261104-v2/README.md) rebuilds all five series on 2,452 UTC dates. Read the [Chinese repair report](data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md), cell-level source/method audit, quality masks and validation before using the data. It includes both demand and price midnight-window corrections, inactive price-provider filtering and documented estimates for unresolved source gaps. Earlier 107-date materials remain available as the initial investigation.
