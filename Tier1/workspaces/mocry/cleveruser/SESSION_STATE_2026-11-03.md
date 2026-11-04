@@ -133,3 +133,65 @@ On the fuller 2,421-date panel: 178.88→135.28 / 32.92→33.92; with farm 162.1
 Tier2 route (2A vs 2B) is the human's decision; no regression test added to `tools/`.
 **Next useful step if asked:** extend the repair to the 41 solar-zero dates and the 30 absent
 dates using the same FUELHH/AGPT method (scripts already in the release).
+
+## Addendum 6 — remote sync and independent verification of the full data repair (2026-11-04 evening)
+
+**Sync:** `012ec50 → 61004e8`, four commits by `mocry-codex` (all `Acting-Tier: Tier1`), 223 files:
+`0a821ea` + `007f351` publish `data_quality/full_data_repair/20261104-v2` (28 files, incl. five
+rebuilt CSVs and five gzipped upstream evidence snapshots); `68d1041` + `61004e8` add the personal
+workspace package `workspaces/mocry/codex/baseline-1104/20261104-v1` and one broadcast `notice`
+(`3418b09a254d45d08ebc24a6766bcf14`, info). `Tier1/public/README.md` gained one section; the previous
+version is in `public/archive/711841096a37417cb8bb261af1b7b22d`. Local `main` fast-forwarded, tree clean.
+
+**What v2 claims and what I confirmed independently** (published as
+`research_1103/independent/mocry-cleveruser/20261104-cu-verify-full-repair/`, commit `4c6cab1`;
+scripts do not import the repair module):
+
+1. Byte-exact reproduction: `repair_data.py --verify` rebuilds all eight data/audit files; on Windows
+   it needs `tzdata` (installed to `.clever-user/pydeps`, `PYTHONPATH`-injected). `validate_release.py`
+   passes all 15 assertions.
+2. Structure: 5 series × 2,452 days, no gaps/dupes; Σ11 fuels − total = 0.0 on all days; no negative
+   cells; 24× price identity exact; five-way join now 2,452 days (course files gave 2,406/2,421).
+3. Generation: 2,063 of 2,188 complete-AGPT days equal the AGPT same-day mean within 1 MW; the 125
+   exceptions are AGPT collapse/incomplete days (2022-12-09…15 gas +21–23 GW vs AGPT) where FUELHH is
+   the documented fallback. 2022-12-12 repaired total 35,774 MW vs FUELHH 35,123 domestic / 37,849
+   incl. interconnectors (course 1,664). All 42 solar-zero dates now 97–2,709 MW; 30 dates restored.
+4. Demand: 471 changed days, **340 of the 351 largest changes are Tuesdays**; repaired values equal the
+   archived VD full-day mean to the published integer. 2022-08-02 636 → 28,744 (VD day mean 27,309.6 with
+   17 slots stuck at 636). 153 reconstructed days sit inside 3σ of the clean TSD−VD offset (median −166,
+   σ 240, worst −958 on 2026-08-06). Largest day-to-day jumps all fall on strict-no-imputation days.
+5. Price: 2,372 of 2,422 evidence days reproduce active-provider volume weighting; the course value
+   equals the flat mean over all provider records on 1,954 days, because one of two providers carries
+   volume 0 and price 0. Median daily ratio repaired/course = **2.000** (annual 2.014–2.096);
+   2020-01-01 18.5934 → 37.1869. **Live Elexon MID re-query** (independent of the archive) gives
+   37.1869 / 18.5934 for 2020-01-01 and 101.3623 / 50.6811 for 2023-05-09. Negative daily means: 9
+   course (+1 zero day) → **2** repaired (2020-05-22, 2020-06-28); max 667.65 (2021-09-09).
+6. Balance on the repaired panel: 144.27 TWh deficit / 11.41 TWh surplus (course inputs 178.88 /
+   32.92); mean residual −2,258 MW; every weekday −2,125 … −2,417 MW, i.e. the course series' Tuesday
+   +1,741 MW artifact is gone. 2023 gives 29 surplus days / 549.9 GWh, matching Baseline 1104's
+   549.944 GWh.
+
+**Two blind spots in my own 20261104 audit, now recorded publicly in §6 of the new README:**
+(a) provider aggregation inside the price column — the "9 negative price days" are 7 midnight artifacts
+plus 2 real; (b) weekday structure in demand. My balance table stays correct arithmetic on the course
+inputs but no longer describes the series to model with. Unchanged: the residual is a boundary
+convention not a physical balance; the farm is one simulated asset (24.3 TWh / 2,406 dates, 24.85 TWh /
+2,452); 2026 is a partial year with a structural break (solar 2,782, offshore 5,472, onshore 4,031, gas
+7,903 MW mean); wind-farm zeros remain an interpretation difference (~0.10 TWh of 24.85).
+
+**New downstream risk raised (message `ceb9095432fb43048540c0688b466c8c`, kind=request,
+priority=action, due 2026-11-06T12:00Z):** `20261103-v1.1/R4-finance-data/prices_gbp2020.csv`
+(mean £48.17/MWh 2020 money) and `BASELINE_CANDIDATE.json` → `market.prices` are built on the course
+price column and are therefore ~0.5× the corrected level; asked the owner to publish a correction
+rather than editing another agent's reviewed release. This is the largest single sensitivity in
+codex's own ablation (A increment £15.188 → £8.572 m/yr, −43.6 %).
+
+**Baseline 1104 (workspace, explicitly not group-adopted):** reference case 2023-design, A = 20 MW
+electrolyser, B = no investment, no battery in any real case; 82 cases; £7.799/kg and 10 t/day is
+flagged as a high-value scenario, not a contract. I checked only the arithmetic path from the repaired
+data to its headline numbers (electricity revenue 17,126.9 m / 214,944 GWh ≈ £79.7/MWh2020, consistent
+with the repaired deflated series) and did not re-solve it.
+
+**Still open:** Tier 2 route 2A/2B (human); RV-04 £1.50 → £1.04 m/MW in R3 derived tables; codex reply
+on the R4 price correction. Next useful step if asked: a v1.1 → v1.2 price addendum, or a one-page
+"which price series to use" note for Tier 2.
