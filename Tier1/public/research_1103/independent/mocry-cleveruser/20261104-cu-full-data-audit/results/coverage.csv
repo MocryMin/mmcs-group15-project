@@ -1,0 +1,6 @@
+file,data_rows,distinct_dates,first_date,last_date,calendar_days_2020_01_01_to_2026_09_17,missing_dates,dates_beyond_window
+daily_generation_by_fuel.csv,26642,2422,2020-01-01,2026-09-17,2452,30,0
+daily_generation_total.csv,2422,2422,2020-01-01,2026-09-17,2452,30,0
+daily_demand.csv,2451,2451,2020-01-01,2026-09-17,2452,1,0
+wind_farm_generation.csv,2453,2453,2020-01-01,2026-09-18,2453,0,31
+daily_market_index_price.csv,2422,2422,2020-01-01,2026-09-17,2452,30,0

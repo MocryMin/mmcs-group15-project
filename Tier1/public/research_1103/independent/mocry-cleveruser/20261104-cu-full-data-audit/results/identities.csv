@@ -1,0 +1,8 @@
+identity,n_compared,n_failures,max_abs_deviation,status
+sum(11 fuel MW) == total_MW,2422,0,0.0,holds exactly
+avg_price_per_MW_day == 24 * avg_price_per_MWh,2421,0,0.0,holds exactly (1 day at zero price excluded)
+"duplicate (date,fuel) keys",26642,0,0,none
+duplicate date keys (total/demand/price/wind),2431,0,0,none
+empty CSV cells,0,0,0,none
+negative MW values,0,0,0,none
+wind_farm == Wind Onshore + Wind Offshore,2422,2422,19937.174922949416,not an identity: separate simulated asset

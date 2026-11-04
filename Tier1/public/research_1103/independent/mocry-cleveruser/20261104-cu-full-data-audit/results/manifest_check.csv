@@ -1,0 +1,9 @@
+path,bytes_ok,sha256_ok,data_rows_ok,columns_ok,distinct_dates_ok,first_date_ok,last_date_ok
+Project_Brief.pdf,True,True,,,,,
+daily_generation_by_fuel.csv,True,True,True,True,True,True,True
+daily_generation_total.csv,True,True,True,True,True,True,True
+daily_demand.csv,True,True,True,True,True,True,True
+wind_farm_generation.csv,True,True,True,True,True,True,True
+daily_market_index_price.csv,True,True,True,True,True,True,True
+Project_Launch_Transcript.txt,True,True,,,,,
+Project_Launch_Transcript_Timed.txt,True,True,,,,,

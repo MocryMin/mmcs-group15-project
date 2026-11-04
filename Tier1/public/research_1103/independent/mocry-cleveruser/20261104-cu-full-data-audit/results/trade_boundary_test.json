@@ -1,0 +1,280 @@
+{
+ "trade_test": [
+  {
+   "date": "2020-06-23",
+   "course_total": 26376.0,
+   "course_demand": 19241.0,
+   "course_gap_MW": 7135.0,
+   "upstream_net_import_MW": -336.2,
+   "upstream_import_links": {
+    "INTEW": 85.1,
+    "INTFR": -448.0,
+    "INTIFA2": 0.0,
+    "INTIRL": -175.9,
+    "INTNED": 107.8,
+    "INTNEM": 94.8
+   },
+   "upstream_domestic_sum_MW": 23552.7,
+   "upstream_total_incl_trade_MW": 23216.4,
+   "course_gen_minus_upstream_domestic": 2823.3
+  },
+  {
+   "date": "2021-04-27",
+   "course_total": 32335.0,
+   "course_demand": 24508.0,
+   "course_gap_MW": 7827.0,
+   "upstream_net_import_MW": 1998.8,
+   "upstream_import_links": {
+    "INTEW": -53.4,
+    "INTFR": 1329.5,
+    "INTIFA2": -2.0,
+    "INTIRL": -208.5,
+    "INTNED": 0.1,
+    "INTNEM": 931.0,
+    "INTNSL": 2.0
+   },
+   "upstream_domestic_sum_MW": 27700.1,
+   "upstream_total_incl_trade_MW": 29698.9,
+   "course_gen_minus_upstream_domestic": 4634.9
+  },
+  {
+   "date": "2022-03-15",
+   "course_total": 31730.0,
+   "course_demand": 25598.0,
+   "course_gap_MW": 6132.0,
+   "upstream_net_import_MW": 569.5,
+   "upstream_import_links": {
+    "INTELEC": 0.0,
+    "INTEW": 0.0,
+    "INTFR": -2.0,
+    "INTIFA2": -765.1,
+    "INTIRL": 22.5,
+    "INTNED": 188.1,
+    "INTNEM": -106.4,
+    "INTNSL": 1232.4
+   },
+   "upstream_domestic_sum_MW": 30561.4,
+   "upstream_total_incl_trade_MW": 31130.9,
+   "course_gen_minus_upstream_domestic": 1168.6
+  },
+  {
+   "date": "2022-12-12",
+   "course_total": 1664.0,
+   "course_demand": 39501.0,
+   "course_gap_MW": -37837.0,
+   "upstream_net_import_MW": 2726.0,
+   "upstream_import_links": {
+    "INTELEC": -8.8,
+    "INTEW": -11.5,
+    "INTFR": 155.2,
+    "INTIFA2": 122.0,
+    "INTIRL": -27.4,
+    "INTNED": 902.0,
+    "INTNEM": 529.6,
+    "INTNSL": 1064.9
+   },
+   "upstream_domestic_sum_MW": 35123.2,
+   "upstream_total_incl_trade_MW": 37849.2,
+   "course_gen_minus_upstream_domestic": -33459.2
+  },
+  {
+   "date": "2023-11-21",
+   "course_total": 32932.0,
+   "course_demand": 23594.0,
+   "course_gap_MW": 9338.0,
+   "upstream_net_import_MW": -257.8,
+   "upstream_import_links": {
+    "INTELEC": 534.4,
+    "INTEW": -331.2,
+    "INTFR": 624.8,
+    "INTIFA2": -4.0,
+    "INTIRL": -392.7,
+    "INTNED": -499.9,
+    "INTNEM": -32.6,
+    "INTNSL": -156.6
+   },
+   "upstream_domestic_sum_MW": 31670.0,
+   "upstream_total_incl_trade_MW": 31412.2,
+   "course_gen_minus_upstream_domestic": 1262.0
+  },
+  {
+   "date": "2024-01-09",
+   "course_total": 39988.0,
+   "course_demand": 32380.0,
+   "course_gap_MW": 7608.0,
+   "upstream_net_import_MW": -3190.2,
+   "upstream_import_links": {
+    "INTELEC": -545.8,
+    "INTEW": -66.4,
+    "INTFR": -1548.5,
+    "INTIFA2": -4.0,
+    "INTIRL": -280.9,
+    "INTNED": 354.5,
+    "INTNEM": -231.0,
+    "INTNSL": -294.8,
+    "INTVKL": -573.2
+   },
+   "upstream_domestic_sum_MW": 38457.6,
+   "upstream_total_incl_trade_MW": 35267.4,
+   "course_gen_minus_upstream_domestic": 1530.4
+  },
+  {
+   "date": "2024-06-01",
+   "course_total": 13911.0,
+   "course_demand": 22851.0,
+   "course_gap_MW": -8940.0,
+   "upstream_net_import_MW": 4781.1,
+   "upstream_import_links": {
+    "INTELEC": 982.9,
+    "INTEW": -527.7,
+    "INTFR": 1349.3,
+    "INTIFA2": 992.0,
+    "INTIRL": -427.3,
+    "INTNED": 804.7,
+    "INTNEM": -178.2,
+    "INTNSL": 1393.8,
+    "INTVKL": 391.9
+   },
+   "upstream_domestic_sum_MW": 16456.9,
+   "upstream_total_incl_trade_MW": 21238.0,
+   "course_gen_minus_upstream_domestic": -2545.9
+  },
+  {
+   "date": "2025-02-04",
+   "course_total": 36554.0,
+   "course_demand": 27288.0,
+   "course_gap_MW": 9266.0,
+   "upstream_net_import_MW": 184.2,
+   "upstream_import_links": {
+    "INTELEC": -67.2,
+    "INTEW": -118.2,
+    "INTFR": -300.0,
+    "INTGRNL": -342.9,
+    "INTIFA2": -424.8,
+    "INTIRL": -236.6,
+    "INTNED": 70.0,
+    "INTNEM": -450.2,
+    "INTNSL": 1396.4,
+    "INTVKL": 657.8
+   },
+   "upstream_domestic_sum_MW": 31966.4,
+   "upstream_total_incl_trade_MW": 32150.6,
+   "course_gen_minus_upstream_domestic": 4587.6
+  },
+  {
+   "date": "2026-01-20",
+   "course_total": 38151.0,
+   "course_demand": 29723.0,
+   "course_gap_MW": 8428.0,
+   "upstream_net_import_MW": -1573.8,
+   "upstream_import_links": {
+    "INTELEC": 443.1,
+    "INTEW": -0.8,
+    "INTFR": 887.5,
+    "INTGRNL": -33.5,
+    "INTIFA2": 494.6,
+    "INTIRL": -21.3,
+    "INTNED": -740.8,
+    "INTNEM": -695.1,
+    "INTNSL": -1122.3,
+    "INTVKL": -785.1
+   },
+   "upstream_domestic_sum_MW": 34357.3,
+   "upstream_total_incl_trade_MW": 32783.6,
+   "course_gen_minus_upstream_domestic": 3793.7
+  },
+  {
+   "date": "2026-08-11",
+   "course_total": 23759.0,
+   "course_demand": 23235.0,
+   "course_gap_MW": 524.0,
+   "upstream_net_import_MW": 4978.9,
+   "upstream_import_links": {
+    "INTELEC": 582.7,
+    "INTEW": -105.7,
+    "INTFR": 1360.6,
+    "INTGRNL": -453.9,
+    "INTIFA2": 592.4,
+    "INTIRL": -333.7,
+    "INTNED": 492.5,
+    "INTNEM": 539.7,
+    "INTNSL": 1397.8,
+    "INTVKL": 906.4
+   },
+   "upstream_domestic_sum_MW": 17716.1,
+   "upstream_total_incl_trade_MW": 22695.0,
+   "course_gen_minus_upstream_domestic": 6042.9
+  }
+ ],
+ "control": [
+  {
+   "date": "2022-03-15",
+   "course_total": 31730.0,
+   "agpt_total": 32069.3,
+   "pct_diff": -1.06,
+   "n_types": 11
+  },
+  {
+   "date": "2022-11-08",
+   "course_total": 25732.0,
+   "agpt_total": 26010.6,
+   "pct_diff": -1.07,
+   "n_types": 11
+  },
+  {
+   "date": "2023-06-12",
+   "course_total": 21557.0,
+   "agpt_total": 21778.1,
+   "pct_diff": -1.02,
+   "n_types": 11
+  },
+  {
+   "date": "2023-10-03",
+   "course_total": 23929.0,
+   "agpt_total": 24212.2,
+   "pct_diff": -1.17,
+   "n_types": 11
+  },
+  {
+   "date": "2024-05-20",
+   "course_total": 20036.0,
+   "agpt_total": 20521.1,
+   "pct_diff": -2.36,
+   "n_types": 11
+  },
+  {
+   "date": "2025-07-15",
+   "course_total": 23911.0,
+   "agpt_total": 23883.1,
+   "pct_diff": 0.12,
+   "n_types": 11
+  },
+  {
+   "date": "2026-03-10",
+   "course_total": 30947.0,
+   "agpt_total": 30904.1,
+   "pct_diff": 0.14,
+   "n_types": 11
+  },
+  {
+   "date": "2021-09-15",
+   "course_total": 27549.0,
+   "agpt_total": 27999.8,
+   "pct_diff": -1.61,
+   "n_types": 11
+  }
+ ],
+ "trade_test_summary": {
+  "n": 10,
+  "corr_gap_vs_minus_net_import": 0.4982,
+  "mean_abs_residual_MW": 9790.1,
+  "slope_ls": 2.28
+ },
+ "control_summary": {
+  "n": 8,
+  "min_pct": -2.36,
+  "max_pct": 0.14,
+  "mean_pct": -1.0,
+  "mean_abs_pct": 1.07
+ }
+}

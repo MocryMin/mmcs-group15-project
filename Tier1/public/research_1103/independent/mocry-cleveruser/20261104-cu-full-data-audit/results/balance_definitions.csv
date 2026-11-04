@@ -1,0 +1,9 @@
+panel,supply_definition,data_version,n_days,deficit_TWh,surplus_TWh,net_TWh,mean_gap_MW
+"generation x demand x price (2,406 dates)",national generation,course original,2406,176.805,32.816,-143.989,-2493.6
+"generation x demand x price (2,406 dates)",national generation,20261103 repair,2406,133.209,33.822,-99.387,-1721.2
+"generation x demand x price (2,406 dates)",national generation + simulated wind farm,course original,2406,160.301,40.626,-119.675,-2072.5
+"generation x demand x price (2,406 dates)",national generation + simulated wind farm,20261103 repair,2406,116.958,41.886,-75.072,-1300.1
+"generation x demand (2,421 dates)",national generation,course original,2421,178.88,32.915,-145.965,-2512.1
+"generation x demand (2,421 dates)",national generation,20261103 repair,2421,135.284,33.921,-101.363,-1744.5
+"generation x demand (2,421 dates)",national generation + simulated wind farm,course original,2421,162.163,40.742,-121.421,-2089.7
+"generation x demand (2,421 dates)",national generation + simulated wind farm,20261103 repair,2421,118.821,42.002,-76.818,-1322.1

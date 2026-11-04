@@ -1,0 +1,163 @@
+{
+ "n_gen_intersect_demand": 2421,
+ "n_gen_demand_price": 2406,
+ "gen_intersect_demand": {
+  "orig_gen_only": {
+   "days": 2421,
+   "deficit_TWh": 178.88,
+   "surplus_TWh": 32.915,
+   "net_TWh": -145.965,
+   "mean_gap_MW": -2512.1
+  },
+  "rep_gen_only": {
+   "days": 2421,
+   "deficit_TWh": 135.284,
+   "surplus_TWh": 33.921,
+   "net_TWh": -101.363,
+   "mean_gap_MW": -1744.5
+  },
+  "orig_gen_plus_windfarm": {
+   "days": 2421,
+   "deficit_TWh": 162.163,
+   "surplus_TWh": 40.742,
+   "net_TWh": -121.421,
+   "mean_gap_MW": -2089.7
+  },
+  "rep_gen_plus_windfarm": {
+   "days": 2421,
+   "deficit_TWh": 118.821,
+   "surplus_TWh": 42.002,
+   "net_TWh": -76.818,
+   "mean_gap_MW": -1322.1
+  },
+  "orig_with_price_subset": {
+   "days": 2406,
+   "deficit_TWh": 176.805,
+   "surplus_TWh": 32.816,
+   "net_TWh": -143.989,
+   "mean_gap_MW": -2493.6
+  },
+  "rep_with_price_subset": {
+   "days": 2406,
+   "deficit_TWh": 133.209,
+   "surplus_TWh": 33.822,
+   "net_TWh": -99.387,
+   "mean_gap_MW": -1721.2
+  }
+ },
+ "by_year": {
+  "2020": {
+   "days": 356,
+   "net_orig": -5.99,
+   "net_rep": -5.99,
+   "deficit_orig": 12.333,
+   "deficit_rep": 12.333,
+   "surplus_orig": 6.343,
+   "surplus_rep": 6.343
+  },
+  "2021": {
+   "days": 359,
+   "net_orig": -10.868,
+   "net_rep": -10.868,
+   "deficit_orig": 16.046,
+   "deficit_rep": 16.046,
+   "surplus_orig": 5.178,
+   "surplus_rep": 5.178
+  },
+  "2022": {
+   "days": 350,
+   "net_orig": -25.409,
+   "net_rep": -7.531,
+   "deficit_orig": 32.061,
+   "deficit_rep": 14.396,
+   "surplus_orig": 6.652,
+   "surplus_rep": 6.865
+  },
+  "2023": {
+   "days": 365,
+   "net_orig": -35.476,
+   "net_rep": -27.662,
+   "deficit_orig": 37.737,
+   "deficit_rep": 30.039,
+   "surplus_orig": 2.261,
+   "surplus_rep": 2.377
+  },
+  "2024": {
+   "days": 366,
+   "net_orig": -42.733,
+   "net_rep": -37.77,
+   "deficit_orig": 44.989,
+   "deficit_rep": 40.164,
+   "surplus_orig": 2.256,
+   "surplus_rep": 2.394
+  },
+  "2025": {
+   "days": 365,
+   "net_orig": -12.507,
+   "net_rep": -7.268,
+   "deficit_orig": 18.512,
+   "deficit_rep": 13.501,
+   "surplus_orig": 6.005,
+   "surplus_rep": 6.232
+  },
+  "2026": {
+   "days": 260,
+   "net_orig": -12.983,
+   "net_rep": -4.274,
+   "deficit_orig": 17.201,
+   "deficit_rep": 8.806,
+   "surplus_orig": 4.219,
+   "surplus_rep": 4.532
+  }
+ },
+ "price_coverage": {
+  "price_dates": 2422,
+  "gen_dates": 2422,
+  "price_only_n": 16,
+  "gen_only_n": 16,
+  "intersection": 2406,
+  "price_only_dates": [
+   "2021-06-14",
+   "2022-01-04",
+   "2022-01-09",
+   "2022-01-18",
+   "2022-01-27",
+   "2022-01-28",
+   "2022-01-29",
+   "2022-04-03",
+   "2022-04-07",
+   "2022-04-08",
+   "2022-04-17",
+   "2022-04-28",
+   "2022-04-29",
+   "2022-06-22",
+   "2022-09-17",
+   "2022-09-23"
+  ],
+  "gen_without_price_dates": [
+   "2020-07-07",
+   "2020-07-20",
+   "2020-11-03",
+   "2020-11-09",
+   "2020-11-12",
+   "2020-11-14",
+   "2020-11-19",
+   "2020-11-21",
+   "2020-11-24",
+   "2020-11-26",
+   "2020-11-30",
+   "2021-02-18",
+   "2021-02-20",
+   "2021-02-27",
+   "2021-03-10",
+   "2021-03-11"
+  ]
+ },
+ "demand_outlier_effect": {
+  "neighbour_mean_MW": 27331.0,
+  "surplus_with_636_TWh": 32.915,
+  "surplus_with_neighbours_TWh": 32.321,
+  "gap_with_636_MW": 24768.0,
+  "gap_with_neighbours_MW": -1927.0
+ }
+}
