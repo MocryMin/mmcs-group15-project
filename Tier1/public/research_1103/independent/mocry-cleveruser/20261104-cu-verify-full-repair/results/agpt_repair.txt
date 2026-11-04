@@ -1,0 +1,29 @@
+# verify_agpt_repair.py  (exit 0)
+agpt days: 2422 with 48 half-hours: 2188
+repaired == AGPT daily mean (<=1 MW all 11 fields): 2063
+differing days: 125
+  maxdev 22998.0 2022-12-12 {'Biomass': 2330.0, 'Fossil Gas': 22998.0, 'Fossil Hard coal': 1287.0, 'Hydro Pumped Storage': 531.0, 'Hydro Run-of-river and poundage': 588.0, 'Nuclear': 5778.0, 'Other': 598.0}
+  maxdev 22794.0 2022-12-13 {'Biomass': 2418.0, 'Fossil Gas': 22794.0, 'Fossil Hard coal': 1288.0, 'Hydro Pumped Storage': 504.0, 'Hydro Run-of-river and poundage': 383.0, 'Nuclear': 5841.0, 'Other': 615.0}
+  maxdev 21045.0 2022-12-14 {'Biomass': 2167.0, 'Fossil Gas': 21045.0, 'Fossil Hard coal': 1284.0, 'Hydro Pumped Storage': 208.0, 'Hydro Run-of-river and poundage': 275.0, 'Nuclear': 5842.0, 'Other': 488.0}
+  maxdev 20937.0 2022-12-15 {'Biomass': 2010.0, 'Fossil Gas': 20937.0, 'Fossil Hard coal': 1251.0, 'Hydro Pumped Storage': 379.0, 'Hydro Run-of-river and poundage': 318.0, 'Nuclear': 5799.0, 'Other': 611.0}
+  maxdev 20866.0 2022-12-09 {'Biomass': 2183.0, 'Fossil Gas': 20866.0, 'Fossil Hard coal': 1278.0, 'Hydro Pumped Storage': 376.0, 'Hydro Run-of-river and poundage': 305.0, 'Nuclear': 5248.0, 'Other': 474.0}
+
+quality.csv header: ['date', 'series', 'field', 'method', 'source_ids', 'issue_types', 'changed']
+solar-zero dates: 42
+   2020-07-07 old solar 0.0 new solar 1331.0
+   2020-11-09 old solar 0.0 new solar 328.0
+   2020-11-12 old solar 0.0 new solar 864.0
+   2020-11-14 old solar 0.0 new solar 106.0
+   2020-11-19 old solar 0.0 new solar 620.0
+   2020-11-21 old solar 0.0 new solar 264.0
+   2020-11-24 old solar 0.0 new solar 343.0
+   2020-11-26 old solar 0.0 new solar 557.0
+   2020-11-30 old solar 0.0 new solar 106.0
+   2021-01-01 old solar 0.0 new solar 176.0
+   2021-02-18 old solar 0.0 new solar 827.0
+   2021-02-20 old solar 0.0 new solar 514.0
+  ... all new solar > 0: True
+  new solar range on those dates: 97.0 2709.0
+
+restored generation dates: 30 ['2020-11-01', '2020-11-02', '2020-11-08', '2020-11-11', '2020-11-16', '2020-11-17', '2020-11-18', '2020-11-28', '2020-11-29', '2021-02-16', '2021-02-17', '2021-02-24', '2021-02-25', '2021-02-26', '2021-06-14', '2022-01-04', '2022-01-09', '2022-01-18', '2022-01-27', '2022-01-28', '2022-01-29', '2022-04-03', '2022-04-07', '2022-04-08', '2022-04-17', '2022-04-28', '2022-04-29', '2022-06-22', '2022-09-17', '2022-09-23']
+their totals: [25352.0, 27365.0, 25486.0, 27814.0, 27804.0, 27329.0, 27349.0, 28266.0, 28640.0, 30974.0]

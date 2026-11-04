@@ -1,0 +1,51 @@
+# annual_category_compare.py  (exit 0)
+category               year     old_mean   new_mean    delta
+Solar                  2020       1286.4     1279.3     -7.1
+Solar                  2021       1188.1     1198.6     10.6
+Solar                  2022       1177.6     1294.2    116.6
+Solar                  2023       1322.3     1320.2     -2.1
+Solar                  2024       1431.3     1434.5      3.2
+Solar                  2025       1962.0     1966.7      4.7
+Solar                  2026       2777.8     2782.2      4.4
+Wind Offshore          2020       3080.0     3090.8     10.8
+Wind Offshore          2021       2888.2     2908.3     20.1
+Wind Offshore          2022       3029.5     3018.2    -11.3
+Wind Offshore          2023       2971.0     2968.9     -2.1
+Wind Offshore          2024       3001.9     2995.5     -6.4
+Wind Offshore          2025       5791.4     5775.5    -15.9
+Wind Offshore          2026       5463.3     5472.5      9.2
+Wind Onshore           2020       2975.5     3013.9     38.5
+Wind Onshore           2021       2792.9     2856.1     63.1
+Wind Onshore           2022       3476.1     3545.5     69.3
+Wind Onshore           2023       2953.1     2956.0      2.9
+Wind Onshore           2024       3104.7     3097.4     -7.3
+Wind Onshore           2025       3813.0     3804.3     -8.7
+Wind Onshore           2026       4007.3     4030.9     23.6
+Nuclear                2020       5380.6     5397.3     16.8
+Nuclear                2021       4952.3     4955.5      3.3
+Nuclear                2022       4524.8     5105.8    581.1
+Nuclear                2023       4076.2     4371.4    295.2
+Nuclear                2024       4225.2     4367.8    142.6
+Nuclear                2025       3725.6     3898.6    173.0
+Nuclear                2026       3419.7     3803.4    383.8
+Fossil Gas             2020      10752.5    10824.6     72.1
+Fossil Gas             2021      12232.0    12254.0     22.0
+Fossil Gas             2022      11140.0    12707.2   1567.1
+Fossil Gas             2023       9381.8     9908.6    526.8
+Fossil Gas             2024       7882.0     8282.7    400.8
+Fossil Gas             2025       8352.4     8821.3    468.8
+Fossil Gas             2026       7027.7     7903.4    875.8
+Biomass                2020       2043.7     2048.5      4.8
+Biomass                2021       2155.1     2170.4     15.4
+Biomass                2022       1506.5     1709.8    203.3
+Biomass                2023       1444.2     1526.3     82.1
+Biomass                2024       2056.9     2142.2     85.3
+Biomass                2025       2223.0     2274.5     51.5
+Biomass                2026       1992.9     2244.8    251.9
+Hydro Pumped Storage   2020        173.9      181.0      7.1
+Hydro Pumped Storage   2021        211.7      215.2      3.5
+Hydro Pumped Storage   2022        183.3      229.4     46.1
+Hydro Pumped Storage   2023        188.7      205.7     17.0
+Hydro Pumped Storage   2024        226.4      235.1      8.7
+Hydro Pumped Storage   2025        156.4      167.0     10.6
+Hydro Pumped Storage   2026        179.4      199.1     19.8

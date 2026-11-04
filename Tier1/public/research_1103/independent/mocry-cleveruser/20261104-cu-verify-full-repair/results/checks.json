@@ -1,0 +1,472 @@
+{
+ "generated_by": "mocry-cleveruser",
+ "note": "independent checks; no import of the repair module",
+ "repair_checks": {
+  "gen_categories": [
+   "Biomass",
+   "Fossil Gas",
+   "Fossil Hard coal",
+   "Fossil Oil",
+   "Hydro Pumped Storage",
+   "Hydro Run-of-river and poundage",
+   "Nuclear",
+   "Other",
+   "Solar",
+   "Wind Offshore",
+   "Wind Onshore"
+  ],
+  "gen_category_count": 11,
+  "gen_dates": 2452,
+  "total_dates": 2452,
+  "gen_missing_from_calendar": [],
+  "gen_extra_outside_calendar": [],
+  "negative_cells": [],
+  "negative_cell_count": 0,
+  "fuel_sum_max_dev": 0.0,
+  "fuel_sum_worst": [
+   "2026-09-17",
+   24616.0,
+   24616.0
+  ],
+  "fuel_sum_days_mismatch_gt_1e-6": 0,
+  "price_dates": 2452,
+  "price_identity_max_dev": 0.0,
+  "price_negative_days": [
+   "2020-05-22",
+   "2020-06-28"
+  ],
+  "price_zero_days": [],
+  "price_min": [
+   "2020-06-28",
+   -12.544791666666667
+  ],
+  "price_max": [
+   "2021-09-09",
+   667.6504166666666
+  ],
+  "demand_header": [
+   "recordType",
+   "startTime",
+   "demand"
+  ],
+  "demand_dates": 2452,
+  "demand_min": [
+   "2020-05-31",
+   19514.0
+  ],
+  "demand_2022_08_02": 28744.0,
+  "wind_dates": 2452,
+  "wind_zero_days": [
+   "2020-06-16",
+   "2020-09-19",
+   "2021-07-30",
+   "2021-09-08",
+   "2022-09-19",
+   "2023-09-08",
+   "2023-11-16",
+   "2024-09-23",
+   "2025-10-13",
+   "2025-10-14"
+  ],
+  "orig_rows": {
+   "fuel": 26642,
+   "total": 2422,
+   "price": 2422,
+   "demand": 2451,
+   "wind": 2453
+  },
+  "price_common_days": 2422,
+  "price_changed_days": 2421,
+  "price_ratio_new_over_old": {
+   "mean": 2.152454193341043,
+   "median": 2.0,
+   "min": 0.9657727863091146,
+   "max": 56.45573335477646
+  },
+  "price_annual_mean_old_vs_new": {
+   "2020": {
+    "old": 16.093,
+    "new": 33.588,
+    "ratio": 2.087
+   },
+   "2021": {
+    "old": 54.721,
+    "new": 114.675,
+    "ratio": 2.0956
+   },
+   "2022": {
+    "old": 95.178,
+    "new": 198.148,
+    "ratio": 2.0819
+   },
+   "2023": {
+    "old": 45.373,
+    "new": 93.544,
+    "ratio": 2.0617
+   },
+   "2024": {
+    "old": 35.034,
+    "new": 71.379,
+    "ratio": 2.0374
+   },
+   "2025": {
+    "old": 39.561,
+    "new": 79.867,
+    "ratio": 2.0188
+   },
+   "2026": {
+    "old": 50.427,
+    "new": 101.542,
+    "ratio": 2.0137
+   }
+  },
+  "price_2020_01_01": {
+   "old": 18.5934375,
+   "new": 37.186875
+  },
+  "demand_common_days": 2451,
+  "demand_changed_days": 471,
+  "demand_delta_stats": {
+   "mean": 733.8743370053039,
+   "median": 0.0,
+   "min": -2020.0,
+   "max": 28108.0,
+   "abs_mean": 738.1452468380253
+  },
+  "demand_delta_max_day": "2020-01-10",
+  "gen_common_days": 2422,
+  "gen_changed_days": 440,
+  "gen_delta_stats": {
+   "mean": 980.5483071841453,
+   "median": 0.0,
+   "min": -2907.0,
+   "max": 34110.0,
+   "abs_mean": 1001.6853839801817
+  },
+  "gen_annual_mean_old_vs_new": {
+   "2020": {
+    "old": 26843.7,
+    "new": 26987.1
+   },
+   "2021": {
+    "old": 27559.9,
+    "new": 27694.9
+   },
+   "2022": {
+    "old": 25996.8,
+    "new": 28745.1
+   },
+   "2023": {
+    "old": 23256.9,
+    "new": 24236.0
+   },
+   "2024": {
+    "old": 22837.4,
+    "new": 23520.8
+   },
+   "2025": {
+    "old": 26910.1,
+    "new": 27636.4
+   },
+   "2026": {
+    "old": 25833.5,
+    "new": 27528.7
+   }
+  },
+  "old_solar_zero_count": 42,
+  "new_solar_zero_dates": [],
+  "new_solar_zero_count": 0,
+  "solar_zero_repaired_values": {
+   "2020-07-07": {
+    "old": 0.0,
+    "new": 1331.0
+   },
+   "2020-11-09": {
+    "old": 0.0,
+    "new": 328.0
+   },
+   "2020-11-12": {
+    "old": 0.0,
+    "new": 864.0
+   },
+   "2020-11-14": {
+    "old": 0.0,
+    "new": 106.0
+   },
+   "2020-11-19": {
+    "old": 0.0,
+    "new": 620.0
+   },
+   "2020-11-21": {
+    "old": 0.0,
+    "new": 264.0
+   },
+   "2020-11-24": {
+    "old": 0.0,
+    "new": 343.0
+   },
+   "2020-11-26": {
+    "old": 0.0,
+    "new": 557.0
+   },
+   "2020-11-30": {
+    "old": 0.0,
+    "new": 106.0
+   },
+   "2021-01-01": {
+    "old": 0.0,
+    "new": 176.0
+   },
+   "2021-02-18": {
+    "old": 0.0,
+    "new": 827.0
+   },
+   "2021-02-20": {
+    "old": 0.0,
+    "new": 514.0
+   },
+   "2021-02-27": {
+    "old": 0.0,
+    "new": 1645.0
+   },
+   "2021-03-10": {
+    "old": 0.0,
+    "new": 222.0
+   },
+   "2021-04-28": {
+    "old": 0.0,
+    "new": 1260.0
+   },
+   "2022-01-03": {
+    "old": 0.0,
+    "new": 234.0
+   },
+   "2022-01-05": {
+    "old": 0.0,
+    "new": 731.0
+   },
+   "2022-01-10": {
+    "old": 0.0,
+    "new": 102.0
+   },
+   "2022-01-14": {
+    "old": 0.0,
+    "new": 813.0
+   },
+   "2022-01-19": {
+    "old": 0.0,
+    "new": 583.0
+   },
+   "2022-01-23": {
+    "old": 0.0,
+    "new": 97.0
+   },
+   "2022-01-30": {
+    "old": 0.0,
+    "new": 946.0
+   },
+   "2022-04-04": {
+    "old": 0.0,
+    "new": 650.0
+   },
+   "2022-04-09": {
+    "old": 0.0,
+    "new": 2226.0
+   },
+   "2022-04-13": {
+    "old": 0.0,
+    "new": 1365.0
+   },
+   "2022-04-18": {
+    "old": 0.0,
+    "new": 2022.0
+   },
+   "2022-04-20": {
+    "old": 0.0,
+    "new": 2471.0
+   },
+   "2022-04-30": {
+    "old": 0.0,
+    "new": 2431.0
+   },
+   "2022-05-05": {
+    "old": 0.0,
+    "new": 2205.0
+   },
+   "2022-06-15": {
+    "old": 0.0,
+    "new": 2709.0
+   },
+   "2022-06-23": {
+    "old": 0.0,
+    "new": 1838.0
+   },
+   "2022-09-01": {
+    "old": 0.0,
+    "new": 1683.0
+   },
+   "2022-09-15": {
+    "old": 0.0,
+    "new": 1303.0
+   },
+   "2022-09-18": {
+    "old": 0.0,
+    "new": 1416.0
+   },
+   "2022-09-20": {
+    "old": 0.0,
+    "new": 1284.0
+   },
+   "2022-09-24": {
+    "old": 0.0,
+    "new": 1493.0
+   },
+   "2022-09-26": {
+    "old": 0.0,
+    "new": 1229.0
+   },
+   "2023-01-05": {
+    "old": 0.0,
+    "new": 199.0
+   },
+   "2024-01-07": {
+    "old": 0.0,
+    "new": 509.0
+   },
+   "2025-01-08": {
+    "old": 0.0,
+    "new": 249.0
+   },
+   "2026-01-10": {
+    "old": 0.0,
+    "new": 1020.0
+   },
+   "2026-09-17": {
+    "old": 0.0,
+    "new": 2219.0
+   }
+  },
+  "repaired_107_count": 0,
+  "repaired_107_still_all_zero": [],
+  "panel_days": 2452,
+  "balance_new_domestic": {
+   "days": 2452,
+   "gap_mean": -2257.76264274062,
+   "net_mean": -1833.357772145485,
+   "deficit_TWh": -144.270624,
+   "surplus_TWh": 17.72881769897202
+  },
+  "balance_new_plus_wind": {
+   "days": 2452,
+   "gap_mean": -2257.76264274062,
+   "net_mean": -1833.357772145485,
+   "deficit_TWh": -144.270624,
+   "surplus_TWh": 17.72881769897202
+  },
+  "balance_yearly_plus_wind": {
+   "2020": {
+    "days": 366,
+    "gap_mean": -1439.8,
+    "net_mean": -969.5,
+    "deficit_TWh": -14.0,
+    "surplus_TWh": 2.1
+   },
+   "2021": {
+    "days": 365,
+    "gap_mean": -1979.2,
+    "net_mean": -1608.1,
+    "deficit_TWh": -17.8,
+    "surplus_TWh": 0.9
+   },
+   "2022": {
+    "days": 365,
+    "gap_mean": -1044.6,
+    "net_mean": -587.9,
+    "deficit_TWh": -12.3,
+    "surplus_TWh": 4.2
+   },
+   "2023": {
+    "days": 365,
+    "gap_mean": -3823.0,
+    "net_mean": -3441.1,
+    "deficit_TWh": -33.7,
+    "surplus_TWh": 0.5
+   },
+   "2024": {
+    "days": 366,
+    "gap_mean": -4950.0,
+    "net_mean": -4500.8,
+    "deficit_TWh": -44.2,
+    "surplus_TWh": 1.2
+   },
+   "2025": {
+    "days": 365,
+    "gap_mean": -1312.1,
+    "net_mean": -906.2,
+    "deficit_TWh": -14.4,
+    "surplus_TWh": 4.7
+   },
+   "2026": {
+    "days": 260,
+    "gap_mean": -843.7,
+    "net_mean": -403.6,
+    "deficit_TWh": -8.0,
+    "surplus_TWh": 4.1
+   }
+  }
+ },
+ "price_evidence_checks": {
+  "days": 2422,
+  "active_vw_match_new": 2372,
+  "all_provider_mean_match_old": 1954,
+  "midnight_value_match_old": 1,
+  "inactive_records": 115571,
+  "active_records": 116137,
+  "mismatch_examples": [
+   {
+    "date": "2020-01-22",
+    "evidence_active_vw": 52.35634146341464,
+    "new": 55.59729166666666,
+    "old": 24.11921348314607,
+    "evidence_all_provider": 22.360520833333332,
+    "halfhours": 48
+   },
+   {
+    "date": "2020-01-04",
+    "evidence_active_vw": 33.25382978723404,
+    "new": 33.03604166666667,
+    "old": 16.451894736842107,
+    "evidence_all_provider": 16.280520833333334,
+    "halfhours": 48
+   },
+   {
+    "date": "2020-01-13",
+    "evidence_active_vw": 33.38878048780488,
+    "new": 34.510416666666664,
+    "old": 15.381348314606742,
+    "evidence_all_provider": 14.259791666666667,
+    "halfhours": 48
+   },
+   {
+    "date": "2020-01-10",
+    "evidence_active_vw": 39.06118280231271,
+    "new": 33.053125,
+    "old": 20.44068181818182,
+    "evidence_all_provider": 20.44068181818182,
+    "halfhours": 22
+   },
+   {
+    "date": "2020-02-25",
+    "evidence_active_vw": 38.014658823407125,
+    "new": 37.92997843125281,
+    "old": 14.37,
+    "evidence_all_provider": 19.579166666666666,
+    "halfhours": 48
+   }
+  ],
+  "old_full_day_vs_midnight_dates": [
+   "2021-04-27"
+  ],
+  "old_full_day_vs_midnight_dates_count": 1
+ }
+}

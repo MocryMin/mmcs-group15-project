@@ -1,0 +1,3 @@
+# live_mid_check.py  (exit 0)
+2020-01-01 records 96 half-hours 48 live active-vw day mean=37.1869 live flat mean over all records=18.5934
+2023-05-09 records 96 half-hours 48 live active-vw day mean=101.3623 live flat mean over all records=50.6811

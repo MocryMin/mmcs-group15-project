@@ -1,0 +1,11 @@
+# verify_demand_recon.py  (exit 0)
+clean days: 2299 TSD-VD offset mean=-224.5 median=-166.3 sd=240.3
+reconstructed days: 153
+  within 3 sd of clean offset: 152/153
+  worst deviations:
+   2026-08-06 TSD=24891 new=25849 offset=-958 n_rec=280 min=22917 flags=('1', '1')
+   2026-07-07 TSD=24624 new=25382 offset=-758 n_rec=288 min=7424 flags=('1', '1')
+   2026-02-24 TSD=32867 new=33401 offset=-534 n_rec=288 min=3613 flags=('1', '1')
+   2026-01-15 TSD=36687 new=37162 offset=-475 n_rec=288 min=7917 flags=('1', '1')
+   2024-06-04 TSD=25438 new=25840 offset=-402 n_rec=281 min=21731 flags=('1', '1')
+   2025-07-10 TSD=26247 new=26613 offset=-366 n_rec=288 min=7439 flags=('1', '1')

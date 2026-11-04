@@ -1,0 +1,35 @@
+# probe_balance_weekday.py  (exit 0)
+OLD gap (gen-demand) by weekday [n, mean MW, TWh]:
+   Fri (345, -3053.4, -25.28)
+   Mon (347, -3328.0, -27.72)
+   Sat (347, -3190.8, -26.57)
+   Sun (344, -3259.4, -26.91)
+   Thu (347, -3272.0, -27.25)
+   Tue (345, 1741.3, 14.42)
+   Wed (346, -3209.7, -26.65)
+NEW gap by weekday:
+   Fri (350, -2219.0, -18.64)
+   Mon (350, -2211.9, -18.58)
+   Sat (350, -2371.2, -19.92)
+   Sun (350, -2417.0, -20.3)
+   Thu (351, -2239.9, -18.87)
+   Tue (350, -2220.5, -18.65)
+   Wed (351, -2125.1, -17.9)
+OLD overall: {'n': 2421, 'mean': -2512.1, 'deficit_TWh': -178.88, 'surplus_TWh': 32.915, 'surplus_share': 0.2454}
+NEW overall: {'n': 2452, 'mean': -2257.8, 'deficit_TWh': -144.271, 'surplus_TWh': 11.406, 'surplus_share': 0.1766}
+
+OLD gen mean by weekday: {'Mon': 26104.1, 'Tue': 26692.8, 'Wed': 26938.5, 'Thu': 26689.6, 'Fri': 26251.0, 'Sat': 23419.8, 'Sun': 22974.3}
+NEW gen mean by weekday: {'Mon': 27228.7, 'Tue': 27823.9, 'Wed': 28028.9, 'Thu': 27803.9, 'Fri': 27109.0, 'Sat': 24254.3, 'Sun': 23859.4}
+
+neso top keys: ['kind', 'retrieved', 'metadata_notes', 'resources']
+neso metadata_notes: "This section contains historic electricity demand, interconnector, hydro storage pumping, Non-BM Short Term Operating Reserve (STOR), wind and solar outturn data.\r\n\r\nThis dataset is populated 21 days in arrears.  It also undergoes retrospective corrections to Solar Capacity and Outturn, once new data becomes available.  These corrections may occur several months after the first publication.  Retrospective edits to Demand may occur, which make adjustments for Balancing Services undertaken by
+ resource Historic Demand Data 2022 dict 3
+   first key status -> 200
+ resource Historic Demand Data 2021 dict 3
+   first key status -> 200
+ resource Historic Demand Data 2020 dict 3
+   first key status -> 200
+ resource Historic Demand Data 2023 dict 3
+   first key status -> 200
+ resource Historic Demand Data 2025 dict 3
+   first key status -> 200
