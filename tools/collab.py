@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import io
 import json
 import re
 import subprocess
@@ -29,8 +30,15 @@ def require(condition, message):
         raise ProtocolError(message)
 
 
+def run_child(args, **kwargs):
+    """Keep background commands from allocating a console on Windows."""
+    if sys.platform == "win32":
+        kwargs["creationflags"] = subprocess.CREATE_NO_WINDOW
+    return subprocess.run(args, **kwargs)
+
+
 def git(*args, cwd=None, check=True, data=None):
-    result = subprocess.run(["git", *args], cwd=cwd, input=data, capture_output=True)
+    result = run_child(["git", *args], cwd=cwd, input=data, capture_output=True)
     if check and result.returncode:
         raise ProtocolError(result.stderr.decode("utf-8", "replace").strip())
     return result
@@ -130,15 +138,30 @@ def identity(repo):
 
 def tree(ref, cwd=None):
     """Read committed or staged trees without checking them out."""
-    result = {}
+    paths = {}
     for entry in git("ls-tree", "-rz", ref, cwd=cwd).stdout.split(b"\0"):
         if not entry:
             continue
         metadata, path = entry.split(b"\t", 1)
         mode, kind, blob = metadata.split()
         require(mode in (b"100644", b"100755") and kind == b"blob", "Symlinks/submodules are not allowed")
-        result[path.decode("utf-8")] = git("cat-file", "blob", blob.decode(), cwd=cwd).stdout
-    return result
+        paths[path.decode("utf-8")] = blob
+    if not paths:
+        return {}
+
+    blobs = dict.fromkeys(paths.values())
+    request = b"\n".join(blobs) + b"\n"
+    with io.BytesIO(git("cat-file", "--batch", cwd=cwd, data=request).stdout) as response:
+        for blob in blobs:
+            header = response.readline().split()
+            require(len(header) == 3 and header[:2] == [blob, b"blob"] and header[2].isdigit(),
+                    f"Unexpected Git blob response: {blob.decode()}")
+            size = int(header[2])
+            data = response.read(size)
+            require(len(data) == size and response.read(1) == b"\n", "Truncated Git blob response")
+            blobs[blob] = data
+        require(not response.read(1), "Unexpected trailing Git blob data")
+    return {path: blobs[blob] for path, blob in paths.items()}
 
 
 def log_rows(data):

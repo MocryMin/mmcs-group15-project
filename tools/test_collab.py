@@ -1,11 +1,11 @@
 """Behavioural regression checks; every Git integration test uses a temporary repo."""
 import copy
 import json
-import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import collab as c
 
@@ -176,6 +176,28 @@ class ProtocolChecks(unittest.TestCase):
 
 
 class ConcurrentGitChecks(unittest.TestCase):
+    def test_tree_batches_duplicate_and_binary_blobs(self):
+        with tempfile.TemporaryDirectory(prefix="mmcs-tree-test-") as tmp:
+            repo = Path(tmp)
+            c.git("init", str(repo))
+            data = {"raw.bin": b"\x00\n\r\n\xff", "duplicate.bin": b"\x00\n\r\n\xff",
+                    "empty.bin": b"", "space in name.bin": b"without final newline"}
+            for name, content in data.items():
+                (repo / name).write_bytes(content)
+            c.git("add", ".", cwd=repo)
+            ref = c.git_text("write-tree", cwd=repo)
+            with patch.object(c, "git", wraps=c.git) as git:
+                self.assertEqual(c.tree(ref, repo), data)
+            self.assertEqual([call.args[0] for call in git.call_args_list], ["ls-tree", "cat-file"])
+            self.assertEqual(len(git.call_args_list[-1].kwargs["data"].splitlines()), 3)
+
+    @unittest.skipUnless(sys.platform == "win32", "Windows console behavior")
+    def test_background_child_has_no_console(self):
+        result = c.run_child([sys.executable, "-c",
+                              "import ctypes; print(ctypes.windll.kernel32.GetConsoleWindow())"],
+                             capture_output=True, check=True)
+        self.assertEqual(result.stdout.strip(), b"0")
+
     def test_cli_registration_public_update_restore_and_message(self):
         with tempfile.TemporaryDirectory(prefix="mmcs-helper-test-") as tmp:
             repo = Path(tmp)
@@ -193,7 +215,7 @@ class ConcurrentGitChecks(unittest.TestCase):
             helper = str(Path(c.__file__).resolve())
 
             def cli(*args, success=True):
-                result = subprocess.run([sys.executable, helper, *args], cwd=repo, capture_output=True)
+                result = c.run_child([sys.executable, helper, *args], cwd=repo, capture_output=True)
                 if success:
                     self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", "replace"))
                 else:
