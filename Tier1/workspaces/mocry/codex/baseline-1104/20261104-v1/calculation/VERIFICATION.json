@@ -1,0 +1,20 @@
+{
+  "cases_checked": 82,
+  "all_assertions_passed": true,
+  "max_scaled_error": 7.62939453125e-12,
+  "independent_no_battery_enumerations": 82,
+  "fixture_pooled_battery_units": 528,
+  "fixture_chronological_units": 0,
+  "fixture_feasible_forward_units": 528,
+  "second_solver_agrees": true,
+  "break_even_H2_netback_GBP2020_kg_design2023": {
+    "A": {
+      "20MW": 4.614536096595856,
+      "40MW": 5.54878750353609
+    },
+    "B": {
+      "20MW": 12.07754096016842,
+      "40MW": 20.74139413552487
+    }
+  }
+}

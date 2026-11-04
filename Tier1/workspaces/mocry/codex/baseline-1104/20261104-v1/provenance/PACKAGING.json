@@ -1,0 +1,25 @@
+{
+  "version": "20261104-v1",
+  "prepared_at_UTC": "2026-11-04T14:14:16.602192+00:00",
+  "owner": "Ran Min",
+  "agent": "mocry-codex",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "library_versions": {
+    "xpress": "9.9.0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "numerical_model_changed": false,
+  "adjustments": [
+    "Source locations use snapshots under inputs/.",
+    "Source-manifest keys use portable relative paths.",
+    "License lookup accepts an environment override and default discovery.",
+    "Reproduction uses a new output directory and preserves archived results.",
+    "Text newlines are normalized to Git LF; original byte hashes are recorded.",
+    "Build helper accepts the new output directory; local navigation points to snapshots."
+  ],
+  "original_local_directory": "baseline-1104",
+  "publication": "personal workspace only, one pointer notice"
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "title": "Controller research candidate for Tier1 Baseline1103",
+  "owner": "Ran Min",
+  "recorded_at_UTC": "2026-11-03 16:47:14 UTC",
+  "status": "controller_reviewed_research_proposal_not_group_adopted",
+  "project_solver_run": false,
+  "publication": "Tier1 public research release 20261103-v1.1",
+  "policy": {
+    "A": "Economic allocation among direct sale, battery and H2; no hard demand guarantee",
+    "B": "q_current=min(G,D); battery optional for remaining absorption; no forced imports or depletion",
+    "comparisons": [
+      "A0",
+      "A1",
+      "B0",
+      "B1"
+    ],
+    "objective": "annual_equivalent_absolute_net_profit",
+    "incremental_reports": [
+      "Pi_A1-Pi_A0",
+      "Pi_B1-Pi_B0"
+    ],
+    "existing_assets": "Fixed given generation plus independent simulated farm per shared convention; unchanged sunk capital excluded"
+  },
+  "data": {
+    "intersection_dates": 2406,
+    "continuous_segments": 28,
+    "longest_segment": [
+      "2022-09-24",
+      "2026-09-17"
+    ],
+    "recommended_design": 2023,
+    "recommended_validation": 2024,
+    "recommended_final_test": 2025,
+    "other_years": "Earlier crisis-period contiguous segments as labelled stress tests;2026partial",
+    "daily_MW_interpretation": "Assume daily average power where converting toMWh by24; original producer aggregation not independently established",
+    "negative_prices": "retain",
+    "candidate_anomaly": "2022-08-02 demand636 flagged not deleted",
+    "state_gaps": "Never silently join; use complete chronological segments",
+    "information": "Daily Tier1 perfect foresight; fitted capacity fixed for later evaluation; operational oracle distinguished from causal policy"
+  },
+  "market": {
+    "prices": "Course wholesale daily price proxy deflated toGBP2020",
+    "sale_limit": "direct_current_sale+battery_sale<=D",
+    "imports_MWh_day": 0,
+    "additional_export_MWh_day": 0,
+    "sales_fee_GBP_MWh": 0,
+    "unused_energy_cash_coefficient": 0,
+    "price_impact": 0,
+    "status": "Explicit classroom assumptions, not actual retail/PPA/compensation entitlements",
+    "fee_sensitivity": "additive p-f_sell; no negative-price multiplicative haircut"
+  },
+  "battery": {
+    "reference_energy_MWh": 3,
+    "reference_power_MW": 1.5,
+    "integer_reference_units": true,
+    "grid_status": "DEAanalytical reference modules, not commercialSKU",
+    "nameplate_hours": 2,
+    "SOC_min": 0.2,
+    "SOC_max": 0.8,
+    "RTE_AC": 0.9,
+    "eta_charge": 0.9486832980505138,
+    "eta_discharge": 0.9486832980505138,
+    "self_discharge_per_day": 0.001,
+    "self_discharge_status": "DEAtechnical scenario; separable from brief references",
+    "CAPEX_GBP2020_MWh": 256234.7766536928,
+    "FOM_primary_GBP2020_MWyr": 14861.617045914183,
+    "FOM_sensitivity_GBP2020_MWyr": 7430.80852295709,
+    "FOM_status": "Source formula/label2x conflict retained; higher noteN interpretation primary, not officialerratum",
+    "life_reference_years": 15,
+    "lifetime_scope": "Reference calendar/cycle conditions, no unconditional manufacturer guarantee",
+    "daily_simplification": "At most one direction and one usable-energy window per day plus power/state equations; conservative interday analysis",
+    "state_boundary": "No usable energy gift above minimumSOC; equal terminal usableSOC; commissioning energy accounted if modelled",
+    "replacement": "Do not charge same inverter/maintenance twice beyond DEAinclusiveFOM",
+    "capacity_bound": "Derive finite bound from finite source energy and nonnegative effective asset costs; record bound and ensure not binding economically"
+  },
+  "hydrogen": {
+    "technology": "PEM ITM POSEIDON reference",
+    "module_input_MW": 20,
+    "count_domain": "nonnegative integer",
+    "on_fraction_min": 0.2,
+    "on_fraction_max": 1,
+    "off_allowed": true,
+    "specific_AC_kWh_kg": 55.9,
+    "performance_scope": "BOL whole-system; waterpurification andBOP energy included; throughput from energy identity",
+    "daily_on_rule": "Full-day steady-mode simplification if using20–100% of24h; not exact intraday minimum-load equivalence",
+    "modern_CAPEX": {
+      "source": "IEA Global Hydrogen Review2025 executive summary; manufacture and install outside China in2024",
+      "raw_USD_per_kW": {
+        "low": 2000,
+        "analyst_midpoint": 2300,
+        "high": 2600
+      },
+      "GBP_per_EUR_2024": 0.8466166015625,
+      "USD_per_EUR_2024": 1.08238046875,
+      "GBP_per_USD_cross_of_annual_reference_rates_2024": 0.7821802277532088,
+      "CPI_2024_annual": 133.9,
+      "GBP2020_per_assumed_USD2024": 0.6349737920595504,
+      "CAPEX_GBP2020_per_kW_assumed_electrical": {
+        "low": 1269.9475841191008,
+        "analyst_midpoint": 1460.439721736966,
+        "high": 1650.931859354831
+      },
+      "price_base_assumption": "Treat the2024 observed USD costs as nominalUSD2024 for this reporting scenario; constant-dollar base not explicitly given in IEA summary",
+      "denominator_assumption": "Electrical capacity inferred from electrolyser context; summary does not label kWe or AC/DC",
+      "FX_scope": "Ratio of annual EUR-base reference rates; not independently computed annual average of dailyGBP/USD nor executable quotation",
+      "cost_scope": "Modern generic non-China installed reference, not ITM/UK site quotation; EPC+contingency already included",
+      "replacement_rule": "Do not multiply this installed cost by old BEIS60% stack share; use separately labelled absolute old-cost proxy or separate reserve scenario"
+    },
+    "legacy_CAPEX": {
+      "low": 671.6071252236136,
+      "central": 816.0154400715563,
+      "high": 1329.3607996422181
+    },
+    "FOM_absolute_proxy_GBP2020_kWe_yr": 25.861652951699458,
+    "replacement_absolute_proxy_GBP2020_kWe": 489.6092640429338,
+    "replacement_times_years": [
+      11,
+      22
+    ],
+    "replacement_status": "Old absolute cost/schedule proxy, independently uncertain; never60% of modernIEAtotal",
+    "alternative_stack_reserve_GBP2020_kg": 0.153543,
+    "stack_reserve_and_explicit_replacement_mutually_exclusive": true,
+    "plant_life_reference_years": 30,
+    "brief_H2_price_raw": {
+      "GBP_kg": 9.5,
+      "price_basis": "brief benchmark; do not silently callGBP2020 or a merchantcontract"
+    },
+    "supported_H2_reporting_case": {
+      "GBP2012_per_MWh_HHV": 175,
+      "brief_HHV_kWh_per_kg": 39.4,
+      "GBP2012_per_kg": 6.895,
+      "GBP2020_per_kg": 7.7990270551508845,
+      "scope": "Supported strike-value reference only; not a commercial sale or eligibility guarantee"
+    },
+    "buyer_limit_scenarios_kg_day": [
+      0,
+      2000,
+      10000,
+      50000
+    ],
+    "buyer_status": "Analyst stress scenarios, no realofftaker identified",
+    "storage": "No H2inventory baseline; same-day offtake within declared site boundary",
+    "downstream": "Any compression/drying/delivery responsibilities must align with sale netback; do not assert free full-chain delivery",
+    "eligibility": "No default subsidy/low-carbon eligibility for mixed pooled generation",
+    "capacity_bound": "R3 finite bound only under noimports/noH2storage, monotonic positivecost, and independent20MWmodule assumptions"
+  },
+  "finance": {
+    "reporting_basis": "constant2020GBP",
+    "price_deflation": "p_real2020(day)=p_nominal(day)*CPI_annual2020/CPI_month(day)",
+    "GBP_per_EUR2020": 0.8897040856031,
+    "real_discount_primary": 0.05,
+    "real_discount_sensitivities": [
+      0,
+      0.03,
+      0.05,
+      0.08,
+      0.12
+    ],
+    "discount_status": "Analyst modelling choice, not verified riskfree/privateWACC",
+    "capital_accounting": "CRF by declared asset life; explicitreplacementPV annualised or reserve, notboth; representative annual operation assumption",
+    "decommissioning_and_residual": "Do not invent a guaranteedsalvage; any terminal treatment declared consistently with lifetimehorizon"
+  },
+  "topic_parameters": [
+    "R1-market/parameters.json",
+    "R2-battery/parameters.json",
+    "R3-hydrogen/parameters.json",
+    "R4-finance-data/parameters.json"
+  ],
+  "remaining_conditions": [
+    "Modern USD pricebase and electrical denominator are declared interpretations",
+    "No actual merchantH2buyer/quote/contract or automatic support eligibility",
+    "Current equipment install and maintenance quotes are not observed",
+    "Calendar/cycle and daily granularity assumptions require sensitivity if decision-controlling"
+  ],
+  "reopen_triggers": [
+    "Specific buyer netback/offtake or installation quote",
+    "Source producer correction of units/observations",
+    "Manufacturer boundary/warranty data",
+    "Model shows an unresolved assumption controls investment conclusions"
+  ]
+}

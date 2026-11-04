@@ -1,0 +1,56 @@
+{
+  "source_id": "SOURCE-20261104-FULL-DATA-REPAIR",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "recorded_at_utc": "2026-11-04 12:27:30 UTC",
+  "status": "verified_local_and_remote",
+  "user_authorization": "Repair all exposed outstanding project-data defects, document issue types, sources and repair methods, and upload to the group GitHub repository.",
+  "repository": "https://github.com/MocryMin/mmcs-group15-project",
+  "release_path": "Tier1/public/data_quality/full_data_repair/20261104-v2",
+  "release_commit": "0a821eaf61a2b552682e185c137d98c5a9bffc93",
+  "remote_verified_head": "007f35175971eff0f558abcf067f6dee4d6f8e88",
+  "remote_divergence": {
+    "ahead": 0,
+    "behind": 0
+  },
+  "public_files": 28,
+  "coverage": {
+    "start": "2020-01-01",
+    "end": "2026-09-17",
+    "timezone": "UTC",
+    "dates_per_series": 2452,
+    "series": 5
+  },
+  "validation": {
+    "reproduced_output_csvs": 8,
+    "independent_checks_passed": true,
+    "original_demand_midnight_values_reproduced": 350,
+    "original_price_values_reproduced": 2422,
+    "complete_price_days_recomputed": 2372
+  },
+  "quality": {
+    "dates_estimated_or_interpolated": 436,
+    "dates_cross_source": 323,
+    "dates_strict_no_imputation": 1929,
+    "counts_overlap": true
+  },
+  "evidence_files": [
+    "evidence/agpt.json.gz",
+    "evidence/fuelhh.json.gz",
+    "evidence/demand.json.gz",
+    "evidence/mid.json.gz",
+    "evidence/neso.json.gz"
+  ],
+  "source_access": "Public official data collected through isolated unauthenticated Playwright MCP; snapshots and request URLs archived in the release.",
+  "original_inputs_preserved": true,
+  "caveats": [
+    "Cross-source aggregates and calibrated replacements are reconstructions, not recovered original cell truth.",
+    "Wind and full-day price estimation have material empirical errors recorded in the release.",
+    "No investment model rerun was performed for this repair release.",
+    "No WeChat message was sent."
+  ],
+  "output_links": {
+    "summary": "https://github.com/MocryMin/mmcs-group15-project/blob/0a821eaf61a2b552682e185c137d98c5a9bffc93/Tier1/public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md",
+    "data": "https://github.com/MocryMin/mmcs-group15-project/tree/0a821eaf61a2b552682e185c137d98c5a9bffc93/Tier1/public/data_quality/full_data_repair/20261104-v2/data"
+  }
+}

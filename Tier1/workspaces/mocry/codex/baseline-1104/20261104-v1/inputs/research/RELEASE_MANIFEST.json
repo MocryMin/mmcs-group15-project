@@ -1,0 +1,292 @@
+{
+  "release_id": "20261103-v1.1",
+  "owner": "Ran Min",
+  "publisher_agent": "mocry-codex",
+  "created_at": "2026-11-03T17:43:59.387739+00:00",
+  "public_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+  "research_run_id": "MMCS-TIER1-CONTROLLED-RESEARCH-20261103",
+  "baseline_input_commit": "64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4",
+  "group_adoption": "not_established_by_publication",
+  "transformation_policy": [
+    "Normalise controller-local absolute paths into public sourceURLs/evidenceIDs",
+    "Resolve omitted capturelinks to actualpublisherURLs",
+    "Clarify release status while preserving research-stage facts",
+    "Keep original and publiccopy hashes distinct",
+    "Compute released file hashes from exact Git-clean bytes including line-ending rules"
+  ],
+  "excluded": [
+    "External complete webpages and response/base64 files",
+    "Third-party sourcePDF/XLSX binaries",
+    "Localbrowsertools and temporarydrafts",
+    "Unrelatedcourses/privateglobalrecords",
+    "Chat handoff files are distributed separately"
+  ],
+  "files": [
+    {
+      "path": "RESEARCH_SYNTHESIS.md",
+      "source_research_relative_path": "RESEARCH_SYNTHESIS.md",
+      "source_sha256": "6300e5d8bed0e08f8bec4dd929ce2c69008373f138a217ba10921a39fcdc586c",
+      "published_sha256": "ed673c2021f2bbca5956e9d8a3783f3bb128417250ed96f485286cd8eda3e9c6",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "BASELINE_CANDIDATE.json",
+      "source_research_relative_path": "BASELINE_CANDIDATE.json",
+      "source_sha256": "7002d478b68be43170905d46dd202a80d16777a5860d44a876f05eef724525db",
+      "published_sha256": "e6a8086937eeca1fcc9892e077a376f7afe7a5ba9aaf190b00d1c765c2c96c80",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "control/REVIEW_DECISIONS.json",
+      "source_research_relative_path": "control/REVIEW_DECISIONS.json",
+      "source_sha256": "4c716f6b6af538472edeba8ab77516537f0e840f0fdfa7ec506d47c101aa1736",
+      "published_sha256": "4c716f6b6af538472edeba8ab77516537f0e840f0fdfa7ec506d47c101aa1736",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "control/RUN.json",
+      "source_research_relative_path": "control/RUN.json",
+      "source_sha256": "c8d2dfb8036cae13a8052aef1804720915b3dbee8e8b53a3af79505bf36858df",
+      "published_sha256": "a5e80b56592afa74d8d2e611459f68c00c4478dce49ee36faae9aad211a567b1",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "control/VALIDATION.json",
+      "source_research_relative_path": "control/VALIDATION.json",
+      "source_sha256": "3202c7159b4522c3814f3af50890b5a50df915ef58da931c85f575e81ad9ddb2",
+      "published_sha256": "b46ca7362636fa268505fc70c364fe2ad9d9f8d037aefcb7b7b983c93d9e0df8",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R1-market/REPORT.md",
+      "source_research_relative_path": "R1-market/REPORT.md",
+      "source_sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc",
+      "published_sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R1-market/parameters.json",
+      "source_research_relative_path": "R1-market/parameters.json",
+      "source_sha256": "3bf0097355cd3249aaa5e045e1da36c1e8facd896c74ad5d810159b46e8b90a9",
+      "published_sha256": "e205a0afaec2c6ba5742a4b09982a41d6b56048f4404dd2038e979b429f4dc5d",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R1-market/sources.json",
+      "source_research_relative_path": "R1-market/sources.json",
+      "source_sha256": "902d1364e8c0852a2f969d04bdc84f59055f6b4ce7c2511ccbef898894abe6f7",
+      "published_sha256": "138914c4feac9b5f9d6f793c4b82bfce6887a76ee06c26c0b798c1f813e485f6",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/REPORT.md",
+      "source_research_relative_path": "R2-battery/REPORT.md",
+      "source_sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b",
+      "published_sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R2-battery/parameters.json",
+      "source_research_relative_path": "R2-battery/parameters.json",
+      "source_sha256": "b298865cf868a93056cc050f724dfcff7a589382499f0f1e51390dc999b8d638",
+      "published_sha256": "be6ac96e59c0f7da6a9b1bba8ea0489795a6078ca3319949aedd7f91a18a85c2",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/sources.json",
+      "source_research_relative_path": "R2-battery/sources.json",
+      "source_sha256": "dd4648fcb76bf839255123c638f320061c7456d209e3281d11bc91ce50038ffe",
+      "published_sha256": "94b551f0fb2ae60bab7a41e30a24195228beda1866871eaf7e803dfeab7c08e4",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/REPORT.md",
+      "source_research_relative_path": "R3-hydrogen/REPORT.md",
+      "source_sha256": "557be3875102dc64d8dc43165b01c87def08081b334adbb5a064067b32c02671",
+      "published_sha256": "39fd00fa6e4864fdbd225042bb960c451cd563d4ef057dec4653174dc64d2b57",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/parameters.json",
+      "source_research_relative_path": "R3-hydrogen/parameters.json",
+      "source_sha256": "809d0c92d4b7e15c4f9578f6f90a0d82db2dcf686c356fa9e69415461ab3d915",
+      "published_sha256": "2f6cf6a06f66f7777bac5118ad73ba6c346f06ac9ef8e7811152554622e46a6a",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/sources.json",
+      "source_research_relative_path": "R3-hydrogen/sources.json",
+      "source_sha256": "4efd634e8c26d5ad97b4a2f9234431825b026378cf8fadc70d80a569441229d2",
+      "published_sha256": "70210c3ff40511948d9b90c9d177af7c480e44ac7de89b7ce46d9a4ec61f856e",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R4-finance-data/REPORT.md",
+      "source_research_relative_path": "R4-finance-data/REPORT.md",
+      "source_sha256": "340fcb76ec4883b73ad464fda4ad003ce14ef5492136ee756938bb5919a994b5",
+      "published_sha256": "340fcb76ec4883b73ad464fda4ad003ce14ef5492136ee756938bb5919a994b5",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R4-finance-data/parameters.json",
+      "source_research_relative_path": "R4-finance-data/parameters.json",
+      "source_sha256": "801f7c57a1e8c9108cb0559073fe8a6551647ae499a23c21d5a6d8ee88ddcfeb",
+      "published_sha256": "801f7c57a1e8c9108cb0559073fe8a6551647ae499a23c21d5a6d8ee88ddcfeb",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R4-finance-data/sources.json",
+      "source_research_relative_path": "R4-finance-data/sources.json",
+      "source_sha256": "5041332292823e5c111fbabda0597c05e506e0fc6f3891b22e196421885925d2",
+      "published_sha256": "42629da95a459c4ffc775cf08a47a61b74e1cea1ef4b44aef1042b73913f9650",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R1-market/CROSS_REVIEW_R4.md",
+      "source_research_relative_path": "R1-market/CROSS_REVIEW_R4.md",
+      "source_sha256": "574e8d2a6997b7c0aa0aad3cd78601e6df533d7c31bf9c16ee4ae40fb437ed74",
+      "published_sha256": "12b86b3ceef17e835bb19a4d93254c3401ac2133e9a45ab0fb7832db9ac65cdd",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/CROSS_REVIEW_R3.md",
+      "source_research_relative_path": "R2-battery/CROSS_REVIEW_R3.md",
+      "source_sha256": "280033ffc3842ec69698334a2ca101e62b3266952a70b917ae10b978bc73c0e4",
+      "published_sha256": "d26c90817eeab9961b3be41b87265ceb43dc7c4ea906608cef07620842b479f2",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/CROSS_REVIEW_R2.md",
+      "source_research_relative_path": "R3-hydrogen/CROSS_REVIEW_R2.md",
+      "source_sha256": "eb410b4a585aa404407aa7671cb8a45884a392192ae604b57e7cafdd0581d610",
+      "published_sha256": "64555ff567a372082ff4f57417c61fc7924dd627b154e788cc6005c40972df10",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "source_research_relative_path": "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "source_sha256": "0c877bc3119cdd3d3d9f66a06837498e330379bd352895e8f85d0192ee703c6a",
+      "published_sha256": "aa09041627eacb97892131b39d8738f539c267c8e15e6863ef317fad16517097",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/calculations.json",
+      "source_research_relative_path": "R2-battery/calculations.json",
+      "source_sha256": "e7fb0767d587ced5a416b81923797d92d382b566b39db170d255407a02a146b2",
+      "published_sha256": "cee130cdc85db0b21c05df534925592f21d28a7a8781508bb36045f3ff5241ea",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R4-finance-data/data_audit.json",
+      "source_research_relative_path": "R4-finance-data/data_audit.json",
+      "source_sha256": "0480ce3768d4099f47aa6de4b09026b9bb986cc5656c404097d9a4df5a0e203d",
+      "published_sha256": "17a9eb1924debff907f22fe72a68fd5b56fe872d8443bf6a9956118c7358f458",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R4-finance-data/financial_audit.json",
+      "source_research_relative_path": "R4-finance-data/financial_audit.json",
+      "source_sha256": "a6d9e85d4d3e7795a9b7ae82c6ffb850e9b127b72db751efb7d44a6f9d20e607",
+      "published_sha256": "e708ae3504b9a03b57d711dc4bfd69d19d6db91334c293c7a7b8c8ca959b0db0",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R4-finance-data/prices_gbp2020.csv",
+      "source_research_relative_path": "R4-finance-data/prices_gbp2020.csv",
+      "source_sha256": "1d2280f4a2d1accd0685162e1acaabb4ed85f5f4b3b2c9853fda6b674c162f76",
+      "published_sha256": "1d2280f4a2d1accd0685162e1acaabb4ed85f5f4b3b2c9853fda6b674c162f76",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R1-market/FIRST_PASS/parameters.json",
+      "source_research_relative_path": "R1-market/FIRST_PASS/parameters.json",
+      "source_sha256": "3bf0097355cd3249aaa5e045e1da36c1e8facd896c74ad5d810159b46e8b90a9",
+      "published_sha256": "e205a0afaec2c6ba5742a4b09982a41d6b56048f4404dd2038e979b429f4dc5d",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R1-market/FIRST_PASS/REPORT.md",
+      "source_research_relative_path": "R1-market/FIRST_PASS/REPORT.md",
+      "source_sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc",
+      "published_sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R1-market/FIRST_PASS/sources.json",
+      "source_research_relative_path": "R1-market/FIRST_PASS/sources.json",
+      "source_sha256": "902d1364e8c0852a2f969d04bdc84f59055f6b4ce7c2511ccbef898894abe6f7",
+      "published_sha256": "138914c4feac9b5f9d6f793c4b82bfce6887a76ee06c26c0b798c1f813e485f6",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/FIRST_PASS/calculations.json",
+      "source_research_relative_path": "R2-battery/FIRST_PASS/calculations.json",
+      "source_sha256": "e7fb0767d587ced5a416b81923797d92d382b566b39db170d255407a02a146b2",
+      "published_sha256": "cee130cdc85db0b21c05df534925592f21d28a7a8781508bb36045f3ff5241ea",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/FIRST_PASS/parameters.json",
+      "source_research_relative_path": "R2-battery/FIRST_PASS/parameters.json",
+      "source_sha256": "b298865cf868a93056cc050f724dfcff7a589382499f0f1e51390dc999b8d638",
+      "published_sha256": "be6ac96e59c0f7da6a9b1bba8ea0489795a6078ca3319949aedd7f91a18a85c2",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R2-battery/FIRST_PASS/REPORT.md",
+      "source_research_relative_path": "R2-battery/FIRST_PASS/REPORT.md",
+      "source_sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b",
+      "published_sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b",
+      "path_or_publication_metadata_normalised": false
+    },
+    {
+      "path": "R2-battery/FIRST_PASS/sources.json",
+      "source_research_relative_path": "R2-battery/FIRST_PASS/sources.json",
+      "source_sha256": "dd4648fcb76bf839255123c638f320061c7456d209e3281d11bc91ce50038ffe",
+      "published_sha256": "94b551f0fb2ae60bab7a41e30a24195228beda1866871eaf7e803dfeab7c08e4",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/FIRST_PASS/parameters.json",
+      "source_research_relative_path": "R3-hydrogen/FIRST_PASS/parameters.json",
+      "source_sha256": "346e4bb6ea2d5383956c71259543d964bedc6b32b86a72045991eaa49eec459c",
+      "published_sha256": "348fafa71f185ee413ca5246b1a4263f0db61e1cbc41e1e59798c2ba6daa50cd",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/FIRST_PASS/REPORT.md",
+      "source_research_relative_path": "R3-hydrogen/FIRST_PASS/REPORT.md",
+      "source_sha256": "beb20f6edab29deba89dc24b8320773df86f86b9232bce13e43df318b07bedec",
+      "published_sha256": "e0ddd4b7d1f5b8bfca13270e531dc5f6b67a15669facde3a42a838bdff57f783",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "R3-hydrogen/FIRST_PASS/sources.json",
+      "source_research_relative_path": "R3-hydrogen/FIRST_PASS/sources.json",
+      "source_sha256": "f1d20a0ce2966682c7a88550ab06b6234a4fc1829f205321bedfaa99d928e612",
+      "published_sha256": "f4d0856a4ec2cd31c66656188a313ae516c8b40e47a44d9bb54fdeb4c60411c5",
+      "path_or_publication_metadata_normalised": true
+    },
+    {
+      "path": "EXECUTIVE_SUMMARY_EN.md",
+      "source_research_relative_path": null,
+      "published_sha256": "33909f0ba311963d2bdbbaf86a6d7bf598ff2025717fca9a17dcf2c4c393d6c6",
+      "role": "English editorial synopsis, consistent with controller recommendation"
+    },
+    {
+      "path": "README.md",
+      "published_sha256": "82ba0d20d8be04b50c51a5b11d3d0c66b10dbb2bb0f8b75f4cb6e775485c072c",
+      "role": "Release navigation and status"
+    }
+  ],
+  "manifest_self_hash": "Excluded to avoid self-reference; Git commit pins all release files",
+  "release_validation_hash": "Excluded; validation is produced after staging and is pinned by Git",
+  "supersedes_release": "20261103-v1",
+  "correction": "Four Markdown hashes in v1 were based on pre-GitCRLF bytes; v1.1 uses exactGitcleanbytes, with no research/numerical change.",
+  "editorial_clarifications": [
+    {
+      "path": "R3-hydrogen/REPORT.md",
+      "change": "10MW reference labelsH2HHVoutput consistent with review; no numeric change"
+    }
+  ]
+}

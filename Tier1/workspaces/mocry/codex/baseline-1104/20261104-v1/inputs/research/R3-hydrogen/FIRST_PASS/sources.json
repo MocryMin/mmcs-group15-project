@@ -1,0 +1,187 @@
+{
+  "owner": "R3",
+  "created_at": "2026-11-03T16:29:21.320927+00:00",
+  "research_scope": "H-01..H-07 independent first pass",
+  "browser_method": "Anonymous fresh contexts through sole permitted Playwright broker; R3 direct attempts failed before code execution and read no pages",
+  "sources": [
+    {
+      "id": "R3-S01",
+      "title": "ITM POSEIDON product page",
+      "url": "https://itm-power.com/products/poseidon",
+      "locator": "Product description and linked product candidates",
+      "retrieved_type": "HTML",
+      "read_depth": "Actual rendered body and links read",
+      "limitations": "Manufacturer advertising; no price; linked alternatives technical sheets not read",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:18:03.199Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "W01.json",
+      "short_excerpt": "20 MW module"
+    },
+    {
+      "id": "R3-S02",
+      "title": "ITM POSEIDON data sheet 2.7",
+      "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+      "locator": "pp2-3, full specification table, energy footnotes, diagram key and core supply",
+      "retrieved_type": "PDF",
+      "read_depth": "Actual four-page PDF text read; p2 rendered and visually checked",
+      "limitations": "Manufacturer specification, not independent guarantee; no quote, startup curve, maintenance cost or water-flow figure",
+      "access_date": "2026-11-03",
+      "published_at": "PDF date unstated; server last-modified 2025-05-22",
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:20:34.487Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "POSEIDON.json",
+      "short_excerpt": "AC POWER CONSUMPTION; beginning of life"
+    },
+    {
+      "id": "R3-S03",
+      "title": "DOE Technical Targets for Proton Exchange Membrane Electrolysis",
+      "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis",
+      "locator": "Technical targets table, 2022 Status, footnotes c/f/g/h/i",
+      "retrieved_type": "HTML",
+      "read_depth": "Actual full rendered table and footnotes read",
+      "limitations": "2026/ultimate are targets; uninstalled costs exclude EPC/permitting; USD price base year not separately specified",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:18:04.304Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "W04.json",
+      "short_excerpt": "Uninstalled Capital Cost"
+    },
+    {
+      "id": "R3-S04",
+      "title": "BEIS Hydrogen Production Costs 2021",
+      "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+      "locator": "pp6-10,14,16-20; especially p16 CAPEX and p19 OPEX/compression",
+      "retrieved_type": "PDF",
+      "read_depth": "Actual 36-page PDF extracted; relevant complete pages read; p18 rendered for cost-axis checking",
+      "limitations": "Predominantly 2018 evidence, GBP2020 real values; generic plants, not current quote; excludes H2 compression/storage/transport; private cost accuracy not established",
+      "access_date": "2026-11-03",
+      "published_at": "2021-08-17",
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:20:34.705Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "H2-COSTS-2021.json",
+      "short_excerpt": "For electrolysis, variable OPEX refers to annuitised stack replacement costs."
+    },
+    {
+      "id": "R3-S05",
+      "title": "BEIS Hydrogen Production Costs 2021 Annex",
+      "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+      "locator": "Technical and cost assumptions!A1:Q28; PEM2020 K column; 2025 L column; Home notes",
+      "retrieved_type": "XLSX",
+      "read_depth": "Actual binary retrieved; source workbook read-only; exact cached input values/headers extracted",
+      "limitations": "Units are kW_H2_HHV, not input kWe; old forecast commission years are not measured costs; source table notes pair high costs with low efficiency",
+      "access_date": "2026-11-03",
+      "published_at": "2021-08-16 server file date",
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:22:45.306Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "H2-ANNEX.json",
+      "short_excerpt": "All costs are in real 2020 GBP"
+    },
+    {
+      "id": "R3-S06",
+      "title": "HAR1 successful projects (published December2023)",
+      "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model-net-zero-hydrogen-fund-shortlisted-projects/hydrogen-production-business-model-net-zero-hydrogen-fund-har1-successful-projects",
+      "locator": "Main award/strike-price text; footnote1; successful projects table",
+      "retrieved_type": "HTML",
+      "read_depth": "Actual complete article read, not search snippets",
+      "limitations": "Weighted policy strike price, not commercial quote; page gives explicit 2012 basis for175 but not an explicit base year for241; not an eligibility/offtake award for this project",
+      "access_date": "2026-11-03",
+      "published_at": "2023-12-14",
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:21:11.305Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "HAR1-success.json",
+      "short_excerpt": "strike price of £241/MWh (£175/MWh in 2012 prices)"
+    },
+    {
+      "id": "R3-S07",
+      "title": "UK Low Carbon Hydrogen Standard",
+      "url": "https://www.gov.uk/government/publications/uk-low-carbon-hydrogen-standard-emissions-reporting-and-sustainability-criteria",
+      "locator": "Details, January2026 update and requirements; Previous versions",
+      "retrieved_type": "HTML",
+      "read_depth": "Actual official overview and current document links read",
+      "limitations": "186-page v4 PDF and detailed electricity matching rules not retrieved/read; specific support contract may apply older version",
+      "access_date": "2026-11-03",
+      "published_at": "last updated2026-02-05",
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:23:12.480Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "W05.json",
+      "short_excerpt": "20g CO2e/MJLHV or less"
+    },
+    {
+      "id": "R3-S08",
+      "title": "IEA Global Hydrogen Review2024 hydrogen production highlights",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production",
+      "locator": "Highlights; full-report download link",
+      "retrieved_type": "HTML",
+      "read_depth": "Actual public Highlights read",
+      "limitations": "No installed electrolyser CAPEX figures in obtained body; linked full PDF not retrieved/read; cannot cite remembered cost ranges",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified",
+      "reader": "R3 independent analysis; root-designated anonymous Playwright broker retrieval",
+      "accessed_at": "2026-11-03T16:24:25.169Z",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "IEA2024-PRODUCTION.json"
+    },
+    {
+      "id": "R3-S00",
+      "title": "MMCS project brief2026/27",
+      "url": null,
+      "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+      "locator": "pp3 and6",
+      "retrieved_type": "locally supplied PDF text extract",
+      "read_depth": "Relevant full project brief text read",
+      "access_date": "2026-11-03",
+      "evidence_status": "official_supplied_local",
+      "limitations": "Project reference assumptions are not real offtake/quote evidence"
+    }
+  ],
+  "failed_or_unread": [
+    {
+      "url": "https://www.gov.uk/government/publications/net-zero-hydrogen-fund-har1-successful-projects",
+      "status": 404,
+      "action": "replaced by actual discovered and read S06"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model-net-zero-hydrogen-fund-har1-successful-projects",
+      "status": 404,
+      "action": "replaced by S06"
+    },
+    {
+      "url": "https://www.iea.org/files/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf",
+      "status": "linked_not_retrieved",
+      "effect": "Modern installed CAPEX range not established; root closed further source expansion"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/hydrogen-transport-and-storage-cost",
+      "status": "requested_not_retrieved",
+      "effect": "No route-specific storage/transport cost claimed"
+    },
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/fuel-cells",
+      "status": "requested_not_retrieved",
+      "effect": "Reconversion technology/cost/efficiency deferred"
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/69678bc53d6914d0c58d0d94/uk-low-carbon-hydrogen-standard-v4-january-2026.pdf",
+      "status": "linked_not_retrieved",
+      "effect": "No detailed temporal/additionality/REGO compliance conclusion"
+    }
+  ]
+}
