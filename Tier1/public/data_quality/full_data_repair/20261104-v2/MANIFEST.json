@@ -1,0 +1,148 @@
+{
+  "version": "20261104-v2",
+  "published_by": "mocry-codex",
+  "member_name": "Ran Min",
+  "authorization": "User requested repair of all exposed dataset problems with sources, methods and GitHub publication.",
+  "created_utc": "2026-11-04T12:21:38.788645+00:00",
+  "base_commit": "012ec50685495b466a79190dec2935fbc7245f46",
+  "course_inputs_at_repository_root": true,
+  "public_path": "Tier1/public/data_quality/full_data_repair/20261104-v2",
+  "content_hash_convention": "SHA-256 of exact Git-clean published bytes; manifest excludes itself.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9644,
+      "sha256": "ab7681f906780bdf89c8884b51c9a46b52600f77ba4a66816b29681aceaa8916"
+    },
+    {
+      "path": "REPAIR_SUMMARY_ZH.md",
+      "bytes": 4663,
+      "sha256": "1ca2c5f56ac918f0d2a941811773a4143349724c9cdb8e7d85f08e773f213666"
+    },
+    {
+      "path": "REPAIR_AUDIT.json",
+      "bytes": 528142,
+      "sha256": "fa9584f3c2f3b3a5a36937c19d240af3814353888ef7aa703745c5837ca48201"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 645,
+      "sha256": "060fc6ea7fc712b8ea3342d647c6ca9af7b3fc760f61d29755387d702b31aea9"
+    },
+    {
+      "path": "IMPUTATION_VALIDATION.json",
+      "bytes": 587,
+      "sha256": "b01ce784d1a472ab57d890adb87acbcd104ddc35afadd1c6b40b6444aca972e4"
+    },
+    {
+      "path": "repair_data.py",
+      "bytes": 24447,
+      "sha256": "46e930aaefc8126ab87c79c679b5db5663d841986ab3e691dff01f029221d4e6"
+    },
+    {
+      "path": "validate_release.py",
+      "bytes": 5957,
+      "sha256": "22372e4b9c0a58c8f66b2e49e8db4bbb985e74d4d70803a2fe6cb1e228650705"
+    },
+    {
+      "path": "evaluate_imputation.py",
+      "bytes": 2734,
+      "sha256": "1df67fb864d1090086ce7c838af56847f191bc43f74fbbe4ded9243a184378af"
+    },
+    {
+      "path": "collect_public.py",
+      "bytes": 3006,
+      "sha256": "019bfe4544e92e14767290736899035094e77bb004f19eb836ea9c4a2421c6ec"
+    },
+    {
+      "path": "collect_agpt.js",
+      "bytes": 1544,
+      "sha256": "98bb43c25ed751d3a7da8c3cf80bc4a1daf63b40d7f398d868de13fc9d13cb13"
+    },
+    {
+      "path": "collect_fuelhh.js",
+      "bytes": 1468,
+      "sha256": "6528187c4828a986c8a8812f1f0d5429fc6d82a1f3e1c8fa50aad32f493698d4"
+    },
+    {
+      "path": "collect_demand.js",
+      "bytes": 1315,
+      "sha256": "f5c07714cbda10dfdab98b28556d60e8c86a0887bf2f6bdb555a82a94607a361"
+    },
+    {
+      "path": "collect_mid.js",
+      "bytes": 1318,
+      "sha256": "821d79f4602f6fa0b53daad3076bf9d428fd9173b136ad1284d85ece2fb5e392"
+    },
+    {
+      "path": "collect_neso.js",
+      "bytes": 730,
+      "sha256": "14b2a3102ef96660f17dfea868eff8c2a3ea1588c9f5957417e73e386a94adf5"
+    },
+    {
+      "path": "evidence/agpt.json.gz",
+      "bytes": 2904321,
+      "sha256": "a4c79a6682cc19f945fe7c24f114d3e1c87e29c246e871cf9a64974a008febd5"
+    },
+    {
+      "path": "evidence/fuelhh.json.gz",
+      "bytes": 2730100,
+      "sha256": "d2a1bdbca2f7f3009133d83fcfcf2ec87c3b52753a35beb7008d7a8e6c465fef"
+    },
+    {
+      "path": "evidence/demand.json.gz",
+      "bytes": 3669811,
+      "sha256": "75c03ca8d193a630c5e718894a260a303a7d1921e282095c9b830a5a736011fb"
+    },
+    {
+      "path": "evidence/mid.json.gz",
+      "bytes": 1116840,
+      "sha256": "8759bda7c9a60725fc7396f454cd7f21488155c57cab275f239d0c43912ce698"
+    },
+    {
+      "path": "evidence/neso.json.gz",
+      "bytes": 3658925,
+      "sha256": "9e050d011fe4d03b3561ae05d2f7ef78337a55d433fe3c3df42fc981359873d5"
+    },
+    {
+      "path": "data/daily_generation_by_fuel.csv",
+      "bytes": 798302,
+      "sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec"
+    },
+    {
+      "path": "data/daily_generation_total.csv",
+      "bytes": 44151,
+      "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964"
+    },
+    {
+      "path": "data/daily_demand.csv",
+      "bytes": 76041,
+      "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e"
+    },
+    {
+      "path": "data/daily_market_index_price.csv",
+      "bytes": 96709,
+      "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7"
+    },
+    {
+      "path": "data/wind_farm_generation.csv",
+      "bytes": 73819,
+      "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a"
+    },
+    {
+      "path": "data/cell_audit.csv",
+      "bytes": 1396328,
+      "sha256": "ae714976f41795772628e7871d2b3af38e1ec9d2e47a749f3eb83a4e0de2cbc6"
+    },
+    {
+      "path": "data/quality.csv",
+      "bytes": 3173823,
+      "sha256": "4c767cb90dedeaafb9e67098dda483554879d79987232ed86831e90029ca3145"
+    },
+    {
+      "path": "data/date_quality.csv",
+      "bytes": 44229,
+      "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a"
+    }
+  ]
+}
