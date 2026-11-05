@@ -1,7 +1,7 @@
 {
  "meta": {
   "package": "Tier1 workspace CU build 20261105-v1",
-  "built_utc": "2026-11-05T18:37:52+00:00",
+  "built_utc": "2026-11-05T18:41:01+00:00",
   "design_year": 2023,
   "currency": "GBP2020",
   "model": "daily energy-pool MILP, A economic allocation / B current-generation priority",
