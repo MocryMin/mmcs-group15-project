@@ -5,9 +5,15 @@
 %% =====================================================================
 \documentclass[11pt,a4paper]{article}
 \usepackage{mmcsreport}
+% A four-page cut is denser than the 10-page house style: same type, tighter leading and
+% paragraph spacing, and the reference list set in two columns.
+\linespread{1.0}
+\setlength{\parindent}{1.6em}
+\setlength{\parskip}{2.0pt plus 0.5pt minus 0.3pt}
+\usepackage{multicol}
 
 \renewcommand{\reportfootertext}{Group 15 --- Tier 1 technical report, first four pages}
-\setlength{\sectionkeep}{3.2\baselineskip}
+\setlength{\sectionkeep}{0.2\baselineskip}
 \hypersetup{pdftitle={Recovering the value of surplus renewable generation},
             pdfauthor={Group 15}}
 
@@ -55,10 +61,8 @@ rather than by the stranded energy. Of the 171.8\,GWh the electrolyser consumes,
 from direct sale: the honest headline is that eight per cent is avoided waste and ninety-two
 per cent is an alternative use of saleable electricity.
 
-What the reader has to accept: daily averages with perfect foresight and constant 2020 money.
-The number that would move most if it failed is the offtake contract, not the capital cost ---
-moving CAPEX across the whole £0.82m--£1.65m/MW range changes the answer by at most £1.1m a
-year, while losing the operating mandate takes +£8.57m to £0.
+What the reader has to accept: daily averages, perfect foresight, constant 2020 money. The
+offtake contract, not the capital cost, is what would move the answer.
 
 \begin{caveatbox}[The assumption that carries the answer]
 The recommendation holds while the client may divert about \key{0.07\% of current sales}
@@ -68,16 +72,11 @@ The recommendation holds while the client may divert about \key{0.07\% of curren
 
 \section{Problem, boundary and data}
 
-\subsection{The question and the arithmetic}
-
-The decision is how much battery and electrolyser capacity is worth adding, and how much
-otherwise unused electricity it captures. Three numbers frame it: 215.7\,TWh generated,
-245.8\,TWh demanded, 549.9\,GWh stranded on 29 days. The first two say the portfolio is
-already short of its own demand, so any new load is an alternative use of saleable
-electricity; the third says how much genuinely wasted energy is available to compete for.
-That ratio --- 0.26\% of one year's generation --- is the ceiling on the physical prize.
-
-\subsection{Boundary and conventions}
+The decision is how much battery and electrolyser capacity to add, and how much unused
+electricity it can capture. Three numbers frame it: 215.7\,TWh generated, 245.8\,TWh demanded,
+549.9\,GWh stranded on 29 days. The first two say any new load is an alternative use of
+saleable electricity; the third --- 0.26\% of a year's generation --- is the ceiling on the
+physical prize.
 
 We use the five supplied tables in the independently repaired release (2,452 days, 1 January
 2020 to 17 September 2026), keeping the course originals as a sensitivity: the original price
@@ -87,7 +86,15 @@ not observed curtailment, and demand is the absorption cap --- no purchases, no 
 export route, no curtailment payment. The analysis is daily and perfect-foresight, without
 network, intraday, ancillary or hydrogen storage; money is constant 2020 GBP at 5\% real; the
 battery is the brief's 1.5\,MW/3\,MWh module (90\% round-trip, 20--80\% window); the
-electrolyser is 20\,MW PEM at 55.9\,kWh/kg; hydrogen is valued at £7.80/kg in 2020 money, close to the brief's £9.5/kg in 2023 money (£7.91).
+electrolyser is 20\,MW PEM at 55.9\,kWh/kg; hydrogen is valued at £7.80/kg in 2020 money, 1.4\% below the brief's £9.5/kg benchmark once that is deflated to the same year (£7.91). Every £/kg figure below is 2020 money unless the year is named.
+
+\vspace{7pt}
+\textbf{Data repair.} The repaired release aligns five series to 2{,}452 whole UTC days
+(1 January 2020 to 17 September 2026, 2026 partial), rebuilds the partial demand windows stored
+on weekly query-end dates (340 of the 351 largest demand changes fall on a Tuesday), removes
+zero-volume price records and keeps the two non-positive price days as observed, rebases every
+flow to 2020 GBP with monthly CPI, and flags 523 days as non-strict (85 in 2023); the strict
+2023 subset is re-run as a sensitivity. Source: the release's repair log [1].
 
 \section{Model}
 
@@ -108,12 +115,22 @@ q_t+c_t+h_t+u_t &= G_t, \qquad q_t+d_t \le D_t, \label{eq:bal}\\
 \textstyle\sum_t d_t &= 0.9\sum_t c_t , \label{eq:batt}
 \end{align}
 
-\noindent where $p_t$ is £/MWh, $v$ is the hydrogen value in £/kg, $\eta=55.9$\,kWh/kg, $L$ is
-the offtake cap in tonnes per day, $a_B,a_H$ are annualised capital charges (15-year battery,
-30-year electrolyser, fixed O\&M and stack replacement at years 11 and 22) and $Y$ is the
-number of days in the year. Policy~A lets the model allocate each day's generation
-economically; policy~B adds $q_t=\min(G_t,D_t)$, so current generation serves current demand
-first. Policy~B is the operating reality we test against, not a modelling preference.
+\noindent where $p_t$ is £/MWh, $v$ the hydrogen value in £/kg, 55.9\,kWh/kg the electrolyser's
+specific consumption, $L$ the offtake cap in tonnes per day, $a_B,a_H$ the annualised charges
+from \eqref{eq:ann} and $Y$ the days in the year.
+Policy~A allocates each day's generation economically; policy~B adds $q_t=\min(G_t,D_t)$, so
+current generation serves current demand first. B is the operating reality, not a preference.
+
+Annualised charges use one convention for both assets,
+\begin{equation}
+a_j=F_j+\frac{i}{1-(1+i)^{-N_j}}\Bigl(K_j+\sum_{k\in R_j}\frac{C_{jk}}{(1+i)^{k}}\Bigr),
+\qquad j\in\{B,H\},
+\label{eq:ann}
+\end{equation}
+with $i=5\%$, $N_B=15$, $N_H=30$, $R_B=\varnothing$ and $R_H=\{11,22\}$: the electrolyser
+recovers £0.52m of fixed cost, £1.90m of capital and £0.59m of stack renewals, £3.01m a year;
+the battery £22.3k of fixed cost and £74.1k of capital, £96.4k a year. The £3.01m is the
+third line of Table~\ref{tab:bridge}.
 
 The annual battery balance \eqref{eq:batt} is the Tier 1 time simplification and is an upper
 bound on battery value; no selected configuration uses a battery, so it cannot change the
@@ -124,24 +141,25 @@ comparators were run; twenty independent checks pass.
 \section{Results}
 
 \begin{table}[H]
-\caption{Configuration comparison, 2023, annual increment versus the matching
+\caption{Configuration comparison, 2023, annual increment against the matching
 no-investment case, £m/yr.}
 \small
-\begin{tabularx}{\linewidth}{@{}L{5.4cm}R{2.1cm}R{2.1cm}R{2.1cm}R{2.4cm}@{}}
+\begin{tabularx}{\linewidth}{@{}L{5.6cm}R{2.1cm}R{2.1cm}R{2.1cm}R{2.3cm}@{}}
 \toprule
 \sffamily\bfseries Policy & {\sffamily\bfseries No invest.} & {\sffamily\bfseries Battery}
- & {\sffamily\bfseries H$_2$ only} & {\sffamily\bfseries Rule-based} \\
+ & {\sffamily\bfseries H$_2$ only} & {\sffamily\bfseries Sell-first} \\
 \midrule
 A: economic allocation & 0 & 0 & \bfseries +8.57 & $-$1.07 \\
 B: current generation first & 0 & 0 & 0 & $-$1.07 \\
 \bottomrule
 \end{tabularx}
-\srcnote{``Both'' equals the electrolyser case because the battery is never selected; zero
-under B means the asset is not run.}
+\srcnote{The battery is never selected, so joint choice equals the electrolyser case; zero under
+B means the asset is not run, and the last column is a fixed 20\,MW module on a sell-first rule.}
 \end{table}
 
 \begin{table}[H]
 \caption{Where the £8.57m comes from, 2023, £m/yr.}
+\label{tab:bridge}
 \small
 \begin{tabularx}{\linewidth}{@{}L{7.0cm}R{2.4cm}Y@{}}
 \toprule
@@ -161,25 +179,25 @@ terminal value.}
 The battery is never selected. At zero capital cost and zero fixed O\&M a 1.5\,MW unit is
 worth £13.25k a year, while the primary-scheme fixed O\&M alone is £22.3k per unit, so no unit
 is economic at any non-negative capital cost; on the lower table-based O\&M the break-even
-capital cost is £7.0k/MWh, about 37 times below the brief's €288k/MWh (£256k/MWh). Because the
+capital cost is £7.0k/MWh, about 37 times below the £256k/MWh equivalent of the brief's €288k/MWh. Because the
 annual-pool model overstates battery value, the conclusion is robust to the relaxation.
 
 \begin{figure}[H]
 \centering
-\begin{minipage}[b]{0.485\linewidth}\centering
+\begin{minipage}[b]{0.47\linewidth}\centering
   \includegraphics[width=\linewidth]{figures/fig2_attribution_redrawn.png}\\[2pt]
   {\footnotesize\color{muted}(a) attribution of electrolyser input}
 \end{minipage}\hfill
-\begin{minipage}[b]{0.485\linewidth}\centering
-  \includegraphics[width=\linewidth]{figures/fig4_offtake_ladder.png}\\[2pt]
-  {\footnotesize\color{muted}(b) capacity selected against the offtake cap}
+\begin{minipage}[b]{0.47\linewidth}\centering
+  \includegraphics[width=\linewidth]{figures/fig4_ladder_redrawn.png}\\[2pt]
+  {\footnotesize\color{muted}(b) capacity and value against the offtake cap}
 \end{minipage}
-\caption{Left: the 171.8\,GWh electrolyser input splits into 13.9\,GWh of avoided waste and
-157.9\,GWh diverted from sale. Right: the capacity ladder is driven by the contract, not by
-the surplus.}
+\caption{Left: the 171.8\,GWh electrolyser input splits into 13.9\,GWh of otherwise-unused
+generation and 157.9\,GWh diverted from sale. Right: the capacity ladder is driven by the
+contract, not by the surplus.}
 \label{fig:results}
-\figsrc{Source: \texttt{results/results.json}, package \texttt{tier1/20261105-v1}; panel (a)
-redrawn from the package figure for legibility, same data.}
+\figsrc{Source: \texttt{results/results.json}, package \texttt{tier1/20261105-v1}. Both panels are
+redrawn from the package figures at printed size for legibility; the data are unchanged.}
 \end{figure}
 
 On the 29 surplus days the renewable share of generation is 52.7\%, so a pro-rata attribution
@@ -187,21 +205,21 @@ of the captured energy is about 7.3\,GWh; at daily resolution the strict renewab
 0 to 13.9\,GWh. The capacity ladder follows the contract: 0\,MW at 2\,t/day or less, 20\,MW
 at 5--10\,t/day, 40\,MW at 15, 60\,MW at 20, 80\,MW at 30 and 120\,MW at 50\,t/day
 (+£49.1m a year on £175m of capital). At a 10\,t/day cap the investment switches on at a
-netback of £4.62/kg; at £7.80/kg it needs 2{,}230\,kg/day, and at £9.5/kg, 1{,}717\,kg/day.
+netback of £4.62/kg; at £7.80/kg it needs 2{,}230\,kg/day, and at £9.5/kg (2020 money,
+£11.4 at 2023 prices), 1{,}717\,kg/day. Capacity stays at 20\,MW anywhere between £7.80 and
+£9.50, so the 1.4\% gap to the deflated brief benchmark does not move the decision.
 Fixing 20\,MW and replaying each year keeps policy~A positive throughout, from +£6.29m (2021)
 to +£16.78m (2020), while policy~B loses money in 2023 and 2024 ($-$1.07m and $-$1.00m). The
 spread is business risk, and it is the freedom to allocate generation that the asset depends
 on.
 
-\section{What changes the recommendation}
+\needspace{7\baselineskip}
+\section{What changes it, and what to do}
 
-Electrolyser CAPEX between £0.82m and £1.65m/MW gives +£9.41m to +£8.33m with capacity
-unchanged, and a real discount rate of 0\% to 12\% gives +£9.44m to +£6.99m. The strict 2023
-sample gives +£8.69m and removing the wind farm +£8.13m; the unrepaired price would give
-+£15.19m, which is why it is not used. None of these moves the decision --- the supply
-obligation in the caveat above does.
-
-\section{Recommendation}
+Electrolyser CAPEX of £0.82m--£1.65m/MW gives +£9.41m to +£8.33m with capacity unchanged; a
+0--12\% real discount rate gives +£9.44m to +£6.99m; the strict 2023 days give +£8.69m; dropping
+the wind farm +£8.13m; the unrepaired price +£15.19m, which is why it is not used. None of these
+moves the decision --- the supply obligation does.
 
 \begin{enumerate}
   \item No battery in Tier 1 at the brief's cost. Re-open it only with intraday or ancillary
@@ -211,43 +229,50 @@ obligation in the caveat above does.
   \item Build 20\,MW only with the contract \emph{and} the operating mandate to divert about
         0.07\% of sales.
   \item Stage the expansion: 20\,MW for a 10\,t/day contract, 120\,MW for 50\,t/day. Do not
-        pre-build.
-  \item Report the capture honestly: 13.9\,GWh of avoided waste (8\% of input) and
-        157.9\,GWh diverted from sale (92\%).
+        pre-build, and report the capture honestly: 13.9\,GWh of avoided waste and 157.9\,GWh
+        diverted from sale.
 \end{enumerate}
 
 \section{Validation and limitations}
 
-Every stored plan closes its daily energy balance, respects the demand, charge and discharge,
-module and offtake caps, uses integer units and satisfies the annual battery balance; revenues
-and costs are recomputed from the plans. The reference cases reproduce the independently built
-Baseline 1104 package (A0 17{,}139.332; 20\,MW +8.572; B fixed 20\,MW $-$1.065; simple rule
-$-$1.065; 2024 +11.951; old price +15.188) --- arithmetic agreement between two implementations,
-not an endorsement of shared assumptions.
+Every stored plan closes its daily energy balance and its demand, charge, discharge, module and
+offtake caps; integer units and the annual battery balance hold, and revenues and costs are
+recomputed from the plans. The reference cases reproduce the independently built Baseline 1104
+package (A0 17{,}139.332; 20\,MW +8.572; fixed module $-$1.065; 2024 +11.951) --- arithmetic
+agreement, not an endorsement of shared assumptions. A third, separately written Xpress
+implementation of the same boundary [7] matches all 2{,}452 input days and the 18 matched
+2023--2025 cases (largest annual difference £49.54, 0.005\%) and solves the 40\,MW
+counterfactual at +£7.47m, below 20\,MW.
 
-Limitations, each measured rather than conceded: daily averages remove intraday value, so the
-battery figure is an upper bound; the annual battery balance is a relaxation; the model is
-perfect-foresight; the hydrogen value is a policy-supported reference, not a contract; CAPEX is
-a modern installed midpoint while O\&M and stack replacement use older UK proxies; there is no
-degradation, hydrogen storage, network constraint or ancillary market; 125 days carry imputed
-fuel composition (85 in 2023), so the renewable attribution is conditional on the repair; and
-2026 is partial.
+\vspace{7pt}
+Limitations, measured rather than conceded: daily averages remove intraday value, so the battery
+figure is an upper bound; the annual battery balance is a relaxation; dispatch is
+perfect-foresight; the hydrogen value is a reference, not a contract; CAPEX is a modern
+midpoint while O\&M and stack renewals use older UK proxies; no degradation, hydrogen storage,
+network constraint or ancillary market; 523 of the 2{,}452 days carry a non-strict flag, so the
+renewable attribution is conditional on the repair; 2026 is partial.
 
 \needspace{4\baselineskip}
 \section*{Reproducibility and references}
-{\small
-\begin{enumerate}[label={[\arabic*]},leftmargin=2.1em,itemsep=1pt]
-  \item Data: Group 15 release \texttt{full\_data\_repair/20261104-v2}, 2,452 days, accessed
-        4 November 2026; repair log in the same release.
+{\small\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{enumerate}[label={[\arabic*]},leftmargin=1.8em,itemsep=1pt,topsep=2pt,parsep=0pt]
+  \item Data: Group 15 data-repair release \texttt{20261104-v2}, 2,452 days, with repair log;
+        accessed 4 November 2026.
   \item Brief and teacher clarifications, 2026: asset specifications, 10\,t/day offtake cap,
         discount convention.
-  \item Hydrogen reference: policy-supported strike value, £9.5/kg (2023 money), deflated with
-        ONS CPI series D7BT; cost and O\&M tables with vintage in \texttt{parameters.json}.
+  \item Office for National Statistics, Consumer Prices Index including owner occupiers'
+        housing costs, series D7BT, monthly; all money rebased to 2020 GBP.
+  \item BEIS, \emph{Hydrogen Production Costs 2021} (real 2020 GBP); IEA, \emph{Global
+        Hydrogen Review 2025}; \mbox{ITM POSEIDON} data sheet: electrolyser capital, fixed O\&M,
+        stack renewal, 55.9\,kWh/kg.
+  \item Danish Energy Agency, \emph{Technology Data for Energy Storage} (2020 prices, 2025
+        technology): installed cost, component lifetime, O\&M. Its 0.288m EUR/MWh is the value
+        the brief adopts, so the brief and the source coincide here.
+  \item DESNZ, \emph{HAR1 successful projects}, December 2023: weighted strike price
+        £241/MWh (£175/MWh in 2012 prices). Hydrogen netback after non-power variable
+        costs, rebased to 2020 money.
+  \item Codex Tier 1 v2, an independently written Xpress build in the Tier~1 workspace, commit
+        \texttt{71ce76e}; the cross-implementation result is reported in Section~7.
 \end{enumerate}}
-
-{\footnotesize\color{muted}
-Reproduction: in package \texttt{tier1/20261105-v1}, \texttt{reproduce.py} reruns all stages,
-\texttt{src/verify.py} asserts 20 checks, \texttt{MANIFEST.json} digests 45 files; solver
-Xpress 9.9.1.\par}
 
 \end{document}

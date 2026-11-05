@@ -19,6 +19,7 @@
 %% =====================================================================
 \documentclass[11pt,a4paper]{article}
 \usepackage{mmcsreport}
+\usepackage{multicol}
 
 \renewcommand{\reportfootertext}{Confidential --- prepared for course assessment}
 \hypersetup{pdftitle={MMCS Group Project -- Tier 1 Technical Report (template)},
@@ -123,7 +124,7 @@ limitation.}
 \toprule
 \sffamily\bfseries Series & \sffamily\bfseries Period & \sffamily\bfseries Treatment & \sffamily\bfseries Where used \\
 \midrule
-\ph{Generation by fuel} & \ph{2020--2026} & \ph{repaired release v2; 125 imputed days flagged} & \ph{all cases} \\
+\ph{Generation by fuel} & \ph{2020--2026} & \ph{repaired release v2; 523 of 2,452 days carry a non-strict flag} & \ph{all cases} \\
 \ph{Demand} & \ph{2020--2026} & \ph{truncated last day of each query restored} & \ph{absorption cap} \\
 \ph{Market index price} & \ph{2020--2026} & \ph{half-scale placeholder providers removed} & \ph{revenue} \\
 \bottomrule
@@ -175,6 +176,20 @@ which term carries the money. Refer back to it as \eqref{eq:objective} --- a
 number that is never cited in the text is a number nobody reads. A useful
 test: give the magnitude of each term for the base case, so a reader can see
 which one dominates and which one is a rounding error.}
+
+% A report that quotes an equivalent annual value must show how the annual
+% charge is built, otherwise the reader cannot reproduce a single row of the
+% cash bridge.
+\ph{If the report quotes equivalent annual values, show the annualisation
+rather than describing it:}
+\begin{equation}
+a_j=F_j+\frac{i}{1-(1+i)^{-N_j}}\Bigl(K_j+\sum_{k\in R_j}\frac{C_{jk}}{(1+i)^{k}}\Bigr),
+\qquad j\in\{B,H\}
+\label{eq:annual}
+\end{equation}
+\ph{with the life, discount rate and renewal years named in the text, and at
+least one worked value --- fixed cost plus capital plus renewals for the
+asset that carries the decision.}
 
 \subsection{Constraints}
 
@@ -414,14 +429,22 @@ plain commands is worth more than a page of prose about methodology.}
 \section*{References}
 {\small
 \begin{enumerate}[label={[\arabic*]},leftmargin=2.1em]
-  \item \ph{Data source with release tag and access date.}
-  \item \ph{Policy or market document for the hydrogen reference price.}
-  \item \ph{Cost source with vintage, currency, and whether it is installed
-        or overnight capital cost.}
+  \item Group 15 data-repair release \ph{20261104-v2}, \ph{2,452 days}, accessed
+        \ph{access date}; the repair log travels with the release.
+  \item MMCS 2026/27 project brief, \ph{pp. 2--6}, and the teacher clarifications: asset
+        modules, 10\,t/day offtake cap, 5\% real discount rate, £9.5/kg benchmark (2023 money).
+  \item Office for National Statistics, Consumer Prices Index including owner occupiers'
+        housing costs, series D7BT, monthly: the deflator to 2020 GBP.
+  \item Cost sources with vintage: BEIS, \emph{Hydrogen Production Costs 2021} (2020 GBP);
+        IEA, \emph{Global Hydrogen Review 2025}; Danish Energy Agency, \emph{Technology Data
+        for Energy Storage}; \mbox{ITM POSEIDON} data sheet.
+  \item DESNZ, \emph{HAR1 successful projects}, December 2023: weighted strike price
+        £241/MWh (£175/MWh in 2012 prices). \ph{Name the independent implementation used for
+        the cross-check: repository path, commit, date.}
 \end{enumerate}}
 
 % ============================================================== guide =====
-\clearpage
+\vspace{8pt}
 \thispagestyle{plain}
 \section*{Template guide --- delete before submission}
 

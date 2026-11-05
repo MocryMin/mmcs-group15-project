@@ -336,3 +336,54 @@ two packages agree on this case.
 
 Open: nothing blocking. Tier 2 allocation still not mine to decide. The published template is offered, not
 adopted: whether the group uses this style, and how the other six pages are allocated, remains a group call.
+
+**Addendum 10 (2026-11-05T21:30Z): revised template and four-page cut for the neutral comparison.**
+
+The user's fourth instruction: a neutral Opus reviewer will compare my LaTeX template and completed Tier 1
+report against the Codex pair and decide which is the better upload candidate; I may revise and enhance my
+own artefacts this round, then sync to the remote workspace. No changes were made to Codex's files.
+
+**Substantive additions** (all numbers recomputed here, not copied):
+- A data-repair paragraph in section 2: 2,452 whole UTC days (2020-01-01 to 2026-09-17, 2026 partial), the
+  weekly-query demand rebuild (340 of the 351 largest demand changes fall on a Tuesday), zero-volume price
+  records removed with two non-positive price days kept, 523 of 2,452 days carrying the release's non-strict
+  flag (85 in 2023), CPI rebasing to 2020 GBP. The brief asks for this record first and it was one sentence.
+- An annualisation equation for a_B, a_H with one worked value: electrolyser 0.52 fixed + 1.90 capital +
+  0.59 stack = 3.01 m GBP/year; battery 22.3k + 74.1k = 96.4k. The 5% CRF over 30 years is 0.06505 and the
+  stack PV uses 1.05^-11 + 1.05^-22.
+- Cross-implementation validation: the independent Codex Xpress build (commit 71ce76e) matches all 2,452 input
+  days and the 18 matched 2023-2025 cases, largest annual difference 49.54 GBP (0.005%), and solves the 40 MW
+  counterfactual at +7.47m, below 20 MW. This replaces "reproduces Baseline 1104" as the strongest check,
+  because 1104 is my own earlier build.
+- Money basis stated once: reference netback 7.80 in 2020 money is 1.4% below the brief's 9.5/kg deflated
+  (7.91); the 9.5/kg sensitivity rows are 2020 money, i.e. 11.4 at 2023 prices. Verified from trigger_grid that
+  capacity stays at 20 MW between 7.80 and 9.50, so the 1.4% gap does not move the decision.
+- Seven sourced references replacing three placeholders (data release, brief and clarifications, ONS D7BT,
+  BEIS 2021 with IEA 2025 and the ITM POSEIDON sheet, Danish Energy Agency storage, DESNZ HAR1, Codex v2).
+  Titles were checked against baseline-1104 research sources.json, not invented.
+
+**Two factual corrections found while re-checking:**
+- "125 days carry imputed fuel composition" was wrong: 523 of 2,452 days carry the non-strict flag (85 in 2023).
+  The 125 came from my own 2026-11-04 verification ("differing days: 125" between two candidate repairs) and had
+  nothing to do with imputation counts. Corrected in both the report and the template provenance table.
+- "37 times below the brief's 288k EUR/MWh" compared a sterling break-even with a euro value; 37 is the ratio to
+  the 256k GBP equivalent. Reworded.
+
+**Typography and layout:**
+- Figure 1 redrawn at printed size (7.5 cm, 6.5-7 pt) by make_fig_attribution.py and make_fig_ladder.py, so the
+  panels are no longer scaled to 48% of the package figures. Panel (a) is now two bars on a shared axis instead
+  of one thin stacked strip; panel (b) loses its in-plot title and the "no build" note, which the caption carries.
+- Paragraph separation switched from space-only (2.8 pt, blocks merged) to a 1.6 em first-line indent with 2 pt
+  of space; the four-page cut uses linespread 1.0 and sectionkeep 0.2 with one targeted \needspace before
+  section 5, since the needspace mechanism was what held section 2 off page 1.
+- The configuration table is back (it had been prose while trimming); the reference list is ragged-right with
+  hyphenation disabled so no publisher name breaks across lines.
+
+**State:** Tier1_4pp.pdf is 4 pages (source sha256 9bf09135..., text 12,387 code points). Visual review of this
+revision: pages 1-2 pass, page 3 has cosmetic notes (panel (a) is sparser than panel (b); page is nearly full),
+page 4 has about seven blank lines at the foot and a weak block boundary before "Limitations". Both are
+disclosed in the README rather than papered over. check_quoted.py: 11/11. The template is 7 pages with no
+overfull or underfull boxes; the guide section no longer starts on a blank page.
+
+Open: the Opus comparison; Tier 2 allocation still not mine to decide; whether the group adopts this style at all
+remains a group decision.
