@@ -1,0 +1,53 @@
+# Request: eight checkable items in the two four-page demos
+
+I reviewed both four-page demos at `71ce76e` (`tier1-independent/20261105-v2/report/Tier1_Report.pdf`) and
+`ce30692` (`technical-report-latex/20261105-v1/output/pdf/tier1-example.pdf`): full text of both, all eight
+pages as renders. Write-up with evidence is at
+`Tier1/workspaces/mocry/cleveruser/review/20261105-codex-4pp/REVIEW.md`. I am not asking you to change any
+strategic or group decision, and I have not touched your published files.
+
+First, the useful part: your cross-check caught a real defect in my package. My 2020 A replay was quoted as
+£16.72m in four files where `results/cases.csv` holds 16.7781. Checking the same row found a second slip
+(2020 B quoted 3.11 against 3.124). Both are corrected and now guarded by `src/check_quoted.py`, which
+recomputes the cross-year rows from the CSV. Thank you - that was a genuine catch, not a rounding remark.
+
+I also reproduced your numbers independently from my own copy of `daily_model_inputs.csv`: 29 surplus days,
+549.944 GWh, median 15.090 GWh, sales base 215,102.164 GWh, 2,452 days, 280 strict days, the £48.7k battery
+ceiling (1.7076 MWh x 28,516 £/MWh), the £96.4k annual cost, 1.9001 + 0.5900 = 2.4901, 2.641 / 2.903 /
+131.7, and 7.29 at 8% with 25% capital. No arithmetic error found anywhere.
+
+Eight items, all checkable:
+
+1. Section 2.5 says the module is "evaluated on each historical year" and Table 4 shows 2022-2025. The sample
+   covers 2020-2026 and your objective already normalises by Y, so either add the missing rows or change the
+   claim. As written the table does not support the sentence.
+2. "A separate implementation agrees on 18 matched cases" has no citation. My package is the referent; name
+   it with path and commit, or drop the sentence. An unattributable cross-check reads weaker than none.
+3. Break-even netback: you print £4.61/kg, my `results/results.json` gives 4.6229 for the same 10 t/day case.
+   The gap is 0.28% and is exactly what your own £49.0/yr implementation difference implies (£0.016/kg at
+   3,074 t/yr), so neither of us is wrong - but two published demos should not differ in the second decimal
+   without a stated tolerance. Quote £4.62 with a +/- band, or state the tolerance that yields 4.61.
+4. "£7.29m at 25% higher installed cost and an 8% real discount rate" is reproducible only if the stack
+   renewals stay at base cost; scaling them too gives 7.15. Say which is stressed.
+5. Table 3's "Sales given up" at 99.99% is the floor complement (21.51 GWh), not necessarily the realised
+   reduction. My run of the same constraint realises 21.3 GWh, so we agree on the case; label the column as
+   the allowed sacrifice if that is what it is. (My 35.43 GWh is electrolyser input, not a sales number.)
+6. Policy B is stated to fix sales at min(G, D) "including on negative-price days", which means negative
+   revenue, but the consequence is never drawn. One clause would turn a footnote into a finding.
+7. "The 2025 contract downside reverses both investment cases" sits above the row it refers to, next to
+   +13.17/+4.48, so it reads as though 2025 were already negative. Move it after the "2025, £4/kg and
+   5 t/day" row or name that row.
+8. Layout, Markdown-built PDF: about 20 blank lines at the foot of page 3 and 12 at the foot of page 4;
+   Table 1 has its title above while Tables 2, 3 and 5 have captions below; negative cells use hyphen-minus
+   beside "+8.57"; Table 1's row labels are top-aligned against multi-line descriptions (the p{}-vs-c{}
+   baseline defect - m{} fixes it). In the LaTeX version the same three defects appear, plus squat trigger-map
+   panels. None of these needs a new solve.
+
+Two requirement points for the eventual 10-page report, since the four-page cut cannot carry everything: the
+brief's first ask is a checked and recorded data repair, and it is currently four lines; and TC-08/TC-09 allow
+researched replacement of the reference parameters but require the departure to be explained, so the brief's
+EUR288k/MWh battery and GBP9.5/kg hydrogen benchmark should be named once each next to the values you adopt.
+The £9.5/kg benchmark is also invisible on Figure 2, where it would cost one extra marker.
+
+Reply by message or just fix and reference this request; I will re-check any revised PDF against the same
+reproduction list.
