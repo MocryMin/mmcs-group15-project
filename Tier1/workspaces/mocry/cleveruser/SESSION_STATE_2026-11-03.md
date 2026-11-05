@@ -289,3 +289,50 @@ case results reproduce exactly. Manifest was then regenerated so its 45 sha256 v
 bytes (verified: 45/45 present, sizes match, no unlisted files). Commits: 7d57bed (package), 7702471 (status
 message to codex), c99fd97 (this addendum), d3a3d0e (reproduce re-run + manifest refresh). Remote HEAD
 d3a3d0e, tree clean.
+
+**Addendum 9 (2026-11-05T20:30Z): published the LaTeX template and the four-page cut; reviewed the Codex demos.**
+
+The user's third instruction was: compress, upload this round's work to my remote workspace, retrieve the
+four-page Tier 1 demo that Codex completed independently, and review it only on three axes — course/project
+requirement compliance, mathematical and verbal correctness, and whether register and layout are in a
+reasonable range. No strategic or group-decision questions.
+
+Published: `report/20261105-v1/` (12 files, `MMCS_TechnicalReport_template.{tex,pdf}`, `Tier1_4pp.{tex,pdf}`,
+`mmcsreport.sty`, README, `make_fig_attribution.py`, `figures/`) as commit `ce30692`..`14d93e1` after rebasing
+onto Codex's three new commits (`6fa0acb` archive v1, `71ce76e` report v2 + CU cross-check, `ce30692` LaTeX
+template + example). `release/` stays git-excluded; the published copy differs only in one README line about
+git-exclusion plus a "Status and intent" section, and the build log is not published. Remote HEAD `14d93e1`,
+PDF bytes identical to the local release copy (sha256 checked).
+
+**A defect in my own package, found by Codex and confirmed by me.** Codex's `COMPARISON.md` noted that my 2020 A
+replay reads £16.72m in prose against 16.7781 in `results/cases.csv`. Confirmed: 16.72 was a transcription slip
+in four files (`TIER1_REPORT.md`, `SUBMISSION_SECTION_4PP.md`, `ONE_PAGE_DECISION.md`, and the new
+`Tier1_4pp.tex`). Checking the same table found a second one: 2020 B was quoted as 3.11 against 3.124
+(now 3.12). All corrected, `Tier1_4pp.pdf` rebuilt with Tectonic (still 4 pages), and `src/check_quoted.py`
+added: it recomputes the cross-year A/B rows from `cases.csv`, asserts the quoted 2020 figures and the absence
+of the retired one, 11/11 pass. `src/refresh_manifest.py` refreshes the 47 manifest entries (0 mismatches).
+Visual review of the rebuilt PDF: all four pages pass on the new revision
+(`doc-10ea7bf5b0a943638534e9425b94efd0`, source_sha256 6ef75096...).
+
+**Review of the Codex demos** (`tier1-independent/20261105-v2/report/Tier1_Report.pdf` at `71ce76e` and
+`technical-report-latex/20261105-v1/output/pdf/tier1-example.pdf` at `ce30692`, both 4 pages, both read in full
+as text and all 8 pages inspected as renders): written up in `review/20261105-codex-4pp/REVIEW.md`. Summary —
+no arithmetic error found; 14 checkable claims reproduced from my own copy of `daily_model_inputs.csv`
+(29 surplus days / 549.944 GWh / median 15.090; 215,102.164 GWh sales base; 2,452 days; 280 strict days;
+£48.7k battery ceiling = 1.7076 MWh x 28,516 £/MWh; £96.4k annual cost; 1.9001 + 0.5900 = 2.4901 capital and
+stack; 2.641/2.903/131.7 payback and NPV; 7.29 at 8% and 25% capex with stack held at base). Requirement gaps
+that matter: the data-repair record is one sentence against the brief's first ask; the brief's own €288k/MWh
+and £9.5/kg references are never anchored, so TC-08's "explain the departure" is unmet in text; "each
+historical year" is claimed while 2022-2025 are shown; "a separate implementation agrees on 18 matched cases"
+is uncited. Layout: blank blocks of about 20 lines (p3) and 12 lines (p4) in the Markdown-built PDF,
+inconsistent caption placement (Table 1 above, Tables 2/3/5 below), hyphen-minus in negative cells, top-aligned
+row labels in Table 1 (the same p{}-vs-c{} defect my template hit), squat trigger-map panels. Every one of
+these is fixable within the existing page budget; none needs a model run.
+
+Also recorded for the group: the £4.61/kg break-even in the demos versus my 4.6229 is explained by the two
+implementations' known £49.0/yr difference (£0.016/kg at 3,074 t/yr), not by an error; and my 35.43 GWh figure
+is electrolyser input at the 99.99% floor (my realised sales sacrifice is 21.3 GWh), not a sales number — the
+two packages agree on this case.
+
+Open: nothing blocking. Tier 2 allocation still not mine to decide. The published template is offered, not
+adopted: whether the group uses this style, and how the other six pages are allocated, remains a group call.

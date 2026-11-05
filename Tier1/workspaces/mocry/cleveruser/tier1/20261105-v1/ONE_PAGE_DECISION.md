@@ -25,7 +25,7 @@
 
 **Do not buy batteries for this project in Tier 1.** At the brief's €288k/MWh the annual cost of a 1.5 MW unit is about seven times its modelled value. The daily Tier 1 model cannot see intraday arbitrage, frequency response or firming value; if the client wants a storage case, it needs an intraday Tier 2B analysis and an explicit ancillary-revenue assumption.
 
-**Year risk.** With the size fixed at 20 MW, the annual value under economic allocation ranges from +£6.29m (2021) to +£16.72m (2020) across 2020–2026 and is positive every year. Under the supply-first rule it is negative in 2023–24. Headline figures use 2023, the design year.
+**Year risk.** With the size fixed at 20 MW, the annual value under economic allocation ranges from +£6.29m (2021) to +£16.78m (2020) across 2020–2026 and is positive every year. Under the supply-first rule it is negative in 2023–24. Headline figures use 2023, the design year.
 
 **Next steps.** (1) Secure a term sheet for ≥2.2 t/day at ≥£7.80/kg netback. (2) Confirm the operating mandate and metering boundary. (3) Order 20 MW; hold expansion until the contract expands. (4) Re-run the trigger map when the term sheet arrives; the model is parameterised, not hard-coded.
 
