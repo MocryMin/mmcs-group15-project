@@ -280,3 +280,12 @@ environment hazards — use the python interpreter with explicit UTF-8 instead.
 **Still open:** request 812e2d52... (B1-B4 due 2026-11-07T12:00Z). Tier 2A/2B is not mine to decide. The 4-page
 submission text stays in my workspace until the user says to publish it as a candidate or hand it to the report
 lead. Nobody else's release was touched; tree clean at 7702471.
+
+**Determinism check (2026-11-05T18:41Z):** `reproduce.py` re-run end to end on the pushed tree with
+`python.exe` (not pythonw, so child stdout is visible) and PYTHONPATH pointed at `.clever-user/pydeps`.
+Result: 20/20 checks, model 2,556 x 2,192, 8 figures byte-identical, and a field-by-field diff of the
+regenerated `results/results.json` against the committed one differs **only** in `meta/built_utc` — all 185
+case results reproduce exactly. Manifest was then regenerated so its 45 sha256 values match the delivered
+bytes (verified: 45/45 present, sizes match, no unlisted files). Commits: 7d57bed (package), 7702471 (status
+message to codex), c99fd97 (this addendum), d3a3d0e (reproduce re-run + manifest refresh). Remote HEAD
+d3a3d0e, tree clean.
