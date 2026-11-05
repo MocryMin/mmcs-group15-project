@@ -1,0 +1,123 @@
+{
+ "package": "20261105-v1",
+ "checked_utc": "2026-11-05T18:37:52+00:00",
+ "checks": [
+  {
+   "check": "days_2452",
+   "pass": true,
+   "detail": 2452
+  },
+  {
+   "check": "days_2023_365",
+   "pass": true,
+   "detail": 365
+  },
+  {
+   "check": "surplus_2023_549.944",
+   "pass": true,
+   "detail": 549.9443347239996
+  },
+  {
+   "check": "nonpositive_price_days_2",
+   "pass": true,
+   "detail": [
+    "2020-05-22",
+    "2020-06-28"
+   ]
+  },
+  {
+   "check": "no_nonpositive_price_2023",
+   "pass": true,
+   "detail": true
+  },
+  {
+   "check": "fuel_sum_equals_total",
+   "pass": true,
+   "detail": 0.0
+  },
+  {
+   "check": "h2_annual_cost_3.0075",
+   "pass": true,
+   "detail": 3.0075021496511445
+  },
+  {
+   "check": "h2_capex_29.209",
+   "pass": true,
+   "detail": 29.208794434739318
+  },
+  {
+   "check": "h2_fom_0.5172",
+   "pass": true,
+   "detail": 0.5172330590339892
+  },
+  {
+   "check": "h2_stack_annual_0.5902",
+   "pass": true,
+   "detail": 0.5901950956725676
+  },
+  {
+   "check": "A0_profit_17139.332",
+   "pass": true,
+   "detail": 17139.3324
+  },
+  {
+   "check": "A_h2_increment_8.572",
+   "pass": true,
+   "detail": 8.5724
+  },
+  {
+   "check": "A_simple20_-1.065",
+   "pass": true,
+   "detail": -1.0654
+  },
+  {
+   "check": "B_fixed20_2023_-1.065",
+   "pass": true,
+   "detail": -1.0654
+  },
+  {
+   "check": "A_fixed20_2024_11.951",
+   "pass": true,
+   "detail": 11.9515
+  },
+  {
+   "check": "old_price_15.188",
+   "pass": true,
+   "detail": 15.1878
+  },
+  {
+   "check": "h2_threshold_4.62",
+   "pass": true,
+   "detail": 4.62285304069519
+  },
+  {
+   "check": "all_optimisation_cases_optimal",
+   "pass": true,
+   "detail": true
+  },
+  {
+   "check": "all_grid_optimal",
+   "pass": true,
+   "detail": "grid stores only solved results"
+  },
+  {
+   "check": "model_size_within_community_limit",
+   "pass": true,
+   "detail": {
+    "rows": 2556,
+    "cols": 2192
+   }
+  }
+ ],
+ "passed": 20,
+ "failed": 0,
+ "model_size": {
+  "rows": 2556,
+  "cols": 2192
+ },
+ "notes": [
+  "Plan-level checks cover stored plans (reference cases); grid and sweep cases are aggregate only.",
+  "The annual battery balance is the Tier 1 simplified-time relaxation; a chronological check is documented in the report.",
+  "Reference values are compared with the independently built Baseline 1104 package; agreement is arithmetic reproduction, not an endorsement of every assumption."
+ ]
+}

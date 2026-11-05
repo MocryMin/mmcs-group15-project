@@ -1,0 +1,65 @@
+{
+ "package": "Tier1 workspace CU build 20261105-v1",
+ "files": [
+  {
+   "path": "copy_inputs.py",
+   "sha256": "95987c9dd135560b1c1ea444ad310b1a1e380ac5ba692bcb9168211c6002dc48",
+   "bytes": 1542,
+   "role": "code"
+  },
+  {
+   "path": "make_figures.py",
+   "sha256": "bcd03746d10220e7b08b6edcc8c6cff2e8b91377fa7a71f15113eb5727b58e91",
+   "bytes": 10380,
+   "role": "code"
+  },
+  {
+   "path": "make_manifest.py",
+   "sha256": "3f295c0eceb31ffce548244769d65875c7c6f8705a0f1f0846da528fc60cc5e3",
+   "bytes": 1008,
+   "role": "code"
+  },
+  {
+   "path": "model.py",
+   "sha256": "cbab4b14595cde9c46d390f421be13c55215f7ef0246fb1e2e7326a557de005b",
+   "bytes": 14165,
+   "role": "code"
+  },
+  {
+   "path": "prepare_data.py",
+   "sha256": "eb20b298d52b1b2c43c43d15be18e2af4bfced13126fb50b6b2a8753a0fbc0c2",
+   "bytes": 4342,
+   "role": "code"
+  },
+  {
+   "path": "run_cases.py",
+   "sha256": "df1b204d922557371431645db5654d021f26ac7c1f5cf7cc6406942dd6e8fb4d",
+   "bytes": 18251,
+   "role": "code"
+  },
+  {
+   "path": "stats.py",
+   "sha256": "307b91d4ff1ee2fd9745c83cb3c6ef3e82a2f96ffb6492e8473d4821d0b38079",
+   "bytes": 1934,
+   "role": "code"
+  },
+  {
+   "path": "summary.py",
+   "sha256": "11978a3a8c494804be3070757c9402514ed84bfd3acc0fc4a241b2dd942ea4f4",
+   "bytes": 1611,
+   "role": "code"
+  },
+  {
+   "path": "summary2.py",
+   "sha256": "7b1d17941732c3f4217ee1c3497ec75f5a054d571cfbddf420d13e6f9d7c09bd",
+   "bytes": 708,
+   "role": "code"
+  },
+  {
+   "path": "verify.py",
+   "sha256": "ccd264b48dc89f19ceee492ee392d514ca71fbbb9dd2c97f6cb9ea72ffbf6be2",
+   "bytes": 6571,
+   "role": "code"
+  }
+ ]
+}
