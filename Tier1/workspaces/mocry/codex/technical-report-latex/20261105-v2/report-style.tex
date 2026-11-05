@@ -1,0 +1,53 @@
+% Shared preamble for the template and the worked example.
+\usepackage[a4paper,margin=22mm,top=19mm,bottom=22mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{array,booktabs,tabularx}
+\usepackage{graphicx,float,caption}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\definecolor{ReportInk}{HTML}{193548}
+\definecolor{ReportMuted}{HTML}{496071}
+\hypersetup{colorlinks=true,linkcolor=ReportInk,citecolor=ReportInk,urlcolor=ReportInk}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=5pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt plus 1pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 3pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\arraystretch}{1.12}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+  {-11pt plus -2pt minus -1pt}{5pt plus 1pt}{\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+  {-8pt plus -2pt minus -1pt}{4pt plus 1pt}{\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+  {6pt plus 1pt}{-0.65em}{\normalfont\normalsize\bfseries}}
+\makeatother
+\AtBeginDocument{%
+  \setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}%
+  \setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}}
+
+\newcommand{\reporttitle}[2]{%
+  {\small\bfseries\color{ReportMuted} MATH11007\enspace\textbar\enspace
+  Methodology, Modelling and Consulting Skills\par}
+  \vspace{5pt}
+  {\LARGE\bfseries\color{ReportInk}#1\par}
+  \vspace{4pt}
+  {\small #2\par}
+  \vspace{6pt}
+  {\color{ReportInk}\hrule height 0.5pt}
+  \vspace{5pt}}
+\newcommand{\guidance}[1]{\textit{\color{ReportMuted}[#1]}}
+\newcommand{\gbp}{\pounds}
+\newcommand{\hydrogen}{\ensuremath{\mathrm{H}_2}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{M}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcommand{\negval}[1]{\ensuremath{-\mathrm{#1}}}
+% The worked example may break at topic boundaries. The group report reflows.
+\newcommand{\samplebreak}{}

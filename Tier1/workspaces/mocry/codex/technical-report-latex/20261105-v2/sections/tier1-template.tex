@@ -1,0 +1,40 @@
+\section{Decision context and data}
+\guidance{State the inherited assets, sale boundary, time units and money basis.
+Record material input issues, repairs and quality flags. Separate data from assumptions.}
+
+\section{Tier 1. Flexibility investment}
+\paragraph{Assumptions and formulation.}
+\guidance{Define variables and units. Link each assumption to the brief or a source,
+and explain the time simplification, objective and constraints.}
+
+% Illustrative syntax. Replace with your objective, constraints and domains.
+\begin{subequations}\label{eq:template-model}
+\begin{align}
+  \max_{x\in\mathcal X}\quad & c^\top x, \label{eq:template-objective}\\
+  \text{subject to}\quad & Ax\le b. \label{eq:template-constraint}
+\end{align}
+\end{subequations}
+
+\paragraph{Results and validation.}
+\guidance{Compare the four portfolios and a simple strategy with matched capacity.
+Separate captured surplus from displaced sales, and show independent checks.}
+
+\begin{table}[H]
+  \centering\small
+  \caption{\guidance{Decision, time period and comparison basis.}}
+  \label{tab:template-results}
+  \begin{tabularx}{\linewidth}{@{}Y r r r@{}}
+    \toprule
+    Scenario & Battery (MW) & Electrolyser (MW) & Gain (\gbp m/yr) \\
+    \midrule
+    No new capacity   & 0 & 0 & 0.00 \\
+    Battery only      & --- & 0 & --- \\
+    Electrolyser only & 0 & --- & --- \\
+    Joint choice     & --- & --- & --- \\
+    Simple rule, matched size & --- & --- & --- \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\paragraph{Sensitivity.}
+\guidance{Quantify what reverses the decision, including offtake, netback and sales priority.}
