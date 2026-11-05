@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{article}
+\input{report-style}
+\hypersetup{pdftitle={MMCS technical report template}}
+
+% Replace the bracketed text before submission.
+% Budget the complete PDF, including the title, references and any appendix, within ten pages.
+% Keep the decision-relevant data description, formulation and evidence in the main text.
+\begin{document}
+\reporttitle{[Client-facing report title]}{Group \guidance{number}
+  \quad \textbar\quad \guidance{team members}\quad \textbar\quad 2026/27}
+
+\section*{Executive summary}
+\guidance{State what to build, how much, and how to operate it. Give the improvement
+over the matched comparator and identify the condition most likely to change the decision.}
+
+\section{Decision context and data}
+\guidance{Define the client's starting assets, decision scope, dates and units.
+Describe the most material data checks and adjustments, the remaining uncertainty,
+and the distinction between observed inputs and assumptions.}
+
+\section{Tier 1. Flexibility investment}
+\paragraph{Assumptions and formulation.}
+\guidance{Define inputs, decisions and units. Explain the time simplification,
+technology parameters, objective and constraints.}
+
+% Replace this example with your model. Define every symbol in the surrounding text.
+\begin{equation}\label{eq:template-model}
+  \max_{x\in\mathcal X}\ c^\top x \qquad \text{subject to } Ax\le b.
+\end{equation}
+
+\paragraph{Results and validation.}
+\guidance{Compare the four portfolios and a simple strategy on matched terms.
+Separate captured surplus from displaced sales and show the checks.}
+
+\begin{table}[H]
+  \centering
+  \caption{\guidance{Decision, comparison basis and units.}}
+  \label{tab:template-results}
+  \begin{tabularx}{\linewidth}{@{}Y
+      r r r@{}}
+    \toprule
+    Scenario & {Battery (MW)} & {Electrolyser (MW)} & {Gain (\gbp m/yr)} \\
+    \midrule
+    No new capacity & 0 & 0 & 0.00 \\
+    Battery only & {---} & 0 & {---} \\
+    Electrolyser only & 0 & {---} & {---} \\
+    Joint choice & {---} & {---} & {---} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\paragraph{Sensitivity.}
+\guidance{Test influential assumptions, including hydrogen value and electricity
+sales priority. Quantify where the investment decision changes.}
+
+\section{Tier 2. [Selected extension, 2A or 2B]}
+\guidance{Define the chosen extension and what it carries over from Tier 1.
+For 2A, specify generation options. For 2B, specify chronology and information.
+Compare against a matched reference, validate and stress-test the decision.}
+
+\section{Recommendation}
+\guidance{Integrate the Tier 1 and selected Tier 2 results. State the action now,
+the sequence of any further investment and what the client should verify first.}
+
+\begin{thebibliography}{9}
+  \bibitem{template:source}
+    \guidance{Organisation or author. Title, date and source link.}
+\end{thebibliography}
+
+% Add a supplementary appendix only if useful and within the PDF page budget.
+\end{document}
