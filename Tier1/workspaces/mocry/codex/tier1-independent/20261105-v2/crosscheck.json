@@ -1,0 +1,279 @@
+{
+  "days": 2452,
+  "max_input_errors": {
+    "g": 4.993125912733376e-10,
+    "d": 1.1368683772161603e-13,
+    "price": 4.999947122996673e-10,
+    "wind": 4.991842494916909e-10,
+    "strict": 0.0
+  },
+  "comparable_cases": {
+    "A_zero": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "A_battery": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "A_hydrogen": {
+      "gain": 8.572351000892965,
+      "cu_rounded_gain": 8.5724,
+      "gain_abs_diff_GBP": 48.99910703493049,
+      "capacity_MW": 20
+    },
+    "A_joint": {
+      "gain": 8.572351000892965,
+      "cu_rounded_gain": 8.5724,
+      "gain_abs_diff_GBP": 48.99910703493049,
+      "capacity_MW": 20
+    },
+    "A_simple20_2023": {
+      "gain": -1.0654188471878114,
+      "cu_rounded_gain": -1.0654,
+      "gain_abs_diff_GBP": 18.847187811532606,
+      "capacity_MW": 20
+    },
+    "A_fixed20_2022": {
+      "gain": 8.906739485397853,
+      "cu_rounded_gain": 8.9067,
+      "gain_abs_diff_GBP": 39.485397852701,
+      "capacity_MW": 20
+    },
+    "A_fixed20_2023": {
+      "gain": 8.572351000892965,
+      "cu_rounded_gain": 8.5724,
+      "gain_abs_diff_GBP": 48.99910703493049,
+      "capacity_MW": 20
+    },
+    "A_fixed20_2024": {
+      "gain": 11.951487874136506,
+      "cu_rounded_gain": 11.9515,
+      "gain_abs_diff_GBP": 12.125863493750444,
+      "capacity_MW": 20
+    },
+    "A_fixed20_2025": {
+      "gain": 13.168703966518333,
+      "cu_rounded_gain": 13.1687,
+      "gain_abs_diff_GBP": 3.9665183333426057,
+      "capacity_MW": 20
+    },
+    "B_zero": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "B_battery": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "B_hydrogen": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "B_joint": {
+      "gain": 0.0,
+      "cu_rounded_gain": 0.0,
+      "gain_abs_diff_GBP": 0.0,
+      "capacity_MW": 0
+    },
+    "B_simple20_2023": {
+      "gain": -1.0654188471878114,
+      "cu_rounded_gain": -1.0654,
+      "gain_abs_diff_GBP": 18.847187811532606,
+      "capacity_MW": 20
+    },
+    "B_fixed20_2022": {
+      "gain": 7.305629870326557,
+      "cu_rounded_gain": 7.3056,
+      "gain_abs_diff_GBP": 29.87032655710209,
+      "capacity_MW": 20
+    },
+    "B_fixed20_2023": {
+      "gain": -1.0654188471878114,
+      "cu_rounded_gain": -1.0654,
+      "gain_abs_diff_GBP": 18.847187811532606,
+      "capacity_MW": 20
+    },
+    "B_fixed20_2024": {
+      "gain": -0.9984504574476971,
+      "cu_rounded_gain": -0.9985,
+      "gain_abs_diff_GBP": 49.542552302939136,
+      "capacity_MW": 20
+    },
+    "B_fixed20_2025": {
+      "gain": 4.478374994992821,
+      "cu_rounded_gain": 4.4784,
+      "gain_abs_diff_GBP": 25.005007178613425,
+      "capacity_MW": 20
+    }
+  },
+  "size_cases": {
+    "A_10000": [
+      {
+        "MW": 0,
+        "gain": 0.0,
+        "h2_input_GWh": 0.0,
+        "capital": 0.0
+      },
+      {
+        "MW": 20,
+        "gain": 8.57235100089297,
+        "h2_input_GWh": 171.84000000000003,
+        "capital": 29.208794434739318
+      },
+      {
+        "MW": 40,
+        "gain": 7.470699682269822,
+        "h2_input_GWh": 200.122,
+        "capital": 58.417588869478635
+      }
+    ],
+    "A_50000": [
+      {
+        "MW": 0,
+        "gain": 0.0,
+        "h2_input_GWh": 0.0,
+        "capital": 0.0
+      },
+      {
+        "MW": 20,
+        "gain": 8.57235100089297,
+        "h2_input_GWh": 171.84000000000003,
+        "capital": 29.208794434739318
+      },
+      {
+        "MW": 40,
+        "gain": 17.11517771200654,
+        "h2_input_GWh": 343.68000000000006,
+        "capital": 58.417588869478635
+      },
+      {
+        "MW": 60,
+        "gain": 25.61936154852129,
+        "h2_input_GWh": 515.52,
+        "capital": 87.62638330421795
+      },
+      {
+        "MW": 80,
+        "gain": 34.123545385038234,
+        "h2_input_GWh": 687.3600000000001,
+        "capital": 116.83517773895727
+      },
+      {
+        "MW": 100,
+        "gain": 42.62772922155341,
+        "h2_input_GWh": 859.1999999999998,
+        "capital": 146.0439721736966
+      },
+      {
+        "MW": 120,
+        "gain": 49.09338533135171,
+        "h2_input_GWh": 1000.6100000000001,
+        "capital": 175.2527666084359
+      }
+    ],
+    "B_10000": [
+      {
+        "MW": 0,
+        "gain": 0.0,
+        "h2_input_GWh": 0.0,
+        "capital": 0.0
+      },
+      {
+        "MW": 20,
+        "gain": -1.065418847187811,
+        "h2_input_GWh": 13.92,
+        "capital": 29.208794434739318
+      },
+      {
+        "MW": 40,
+        "gain": -3.753286453308533,
+        "h2_input_GWh": 16.211,
+        "capital": 58.417588869478635
+      }
+    ],
+    "B_50000": [
+      {
+        "MW": 0,
+        "gain": 0.0,
+        "h2_input_GWh": 0.0,
+        "capital": 0.0
+      },
+      {
+        "MW": 20,
+        "gain": -1.065418847187811,
+        "h2_input_GWh": 13.92,
+        "capital": 29.208794434739318
+      },
+      {
+        "MW": 40,
+        "gain": -2.189160686078094,
+        "h2_input_GWh": 27.421966415411404,
+        "capital": 58.417588869478635
+      },
+      {
+        "MW": 60,
+        "gain": -3.3885163127461366,
+        "h2_input_GWh": 40.381966415411405,
+        "capital": 87.62638330421795
+      },
+      {
+        "MW": 80,
+        "gain": -4.5878719394141765,
+        "h2_input_GWh": 53.341966415411406,
+        "capital": 116.83517773895727
+      },
+      {
+        "MW": 100,
+        "gain": -5.787227566082217,
+        "h2_input_GWh": 66.3019664154114,
+        "capital": 146.0439721736966
+      },
+      {
+        "MW": 120,
+        "gain": -7.306775806195185,
+        "h2_input_GWh": 76.9669664154114,
+        "capital": 175.2527666084359
+      }
+    ]
+  },
+  "sales_base_GWh": 215102.16408163792,
+  "floors": [
+    {
+      "floor_pct": 99.99,
+      "gain": 1.0392553696793798,
+      "h2_MW": 20,
+      "sales_given_up": 21.51021640805698
+    },
+    {
+      "floor_pct": 100.0,
+      "gain": 0.0,
+      "h2_MW": 0,
+      "sales_given_up": 3.437889972701669e-10
+    }
+  ],
+  "renewable": {
+    "broad_lower": 0.0,
+    "broad_upper": 13.92,
+    "narrow_lower": 0.0,
+    "narrow_upper": 13.920000000000003
+  },
+  "fixed_40MW_Xpress_gain": 7.470699682269825,
+  "battery": {
+    "gross_pool_GBP": 13299.119613548215,
+    "gross_stock_GBP": 4313.0371786024525,
+    "cu_annual_commission_GBP": 46.87568583480408,
+    "cu_pool_after_commission_GBP": 13252.24392771341,
+    "codex_annual_commission_GBP": 4.760398771494773
+  }
+}
