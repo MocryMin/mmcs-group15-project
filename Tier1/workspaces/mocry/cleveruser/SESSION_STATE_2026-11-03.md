@@ -233,3 +233,50 @@ P0+P1 → Distinction range. Tier 2A/2B still not decided (not mine to decide, b
 
 **Next:** wait for codex reply by 11-07; if none, re-ask once and proceed with my own P1 computations only
 if the user asks. Do not edit others' releases.
+
+## Addendum 8 — 2026-11-05 evening — independent end-to-end Tier 1 built and pushed
+
+On the user's second instruction ("complete all of Tier 1 including the report in your workspace, then upload
+to your workspace") I built Tier 1 myself rather than waiting on the blueprint. This package is a working
+reference in my own workspace; it does not replace the 1104 baseline and it is not published as a group
+candidate.
+
+**Location:** `Tier1/workspaces/mocry/cleveruser/tier1/20261105-v1/` — commit 7d57bed (47 files, 2.3 MB).
+**Message to codex:** `20261105T183943016570Z_mocry-cleveruser_e6f0092...` (kind=status, info), commit 7702471.
+Remote HEAD after this round: 7702471.
+
+**Contents:** TIER1_REPORT.md, SUBMISSION_SECTION_4PP.md, ONE_PAGE_DECISION.md, PITCH_TALKING_POINTS.md,
+README.md, MANIFEST.json (45 entries), VERIFICATION.json (20/20), reproduce.py, data/ (v2 tables + ONS CPI +
+daily_model_inputs.csv + SOURCE_MANIFEST), src/ (10 scripts), results/results.json, results/cases.csv (185 cases),
+8 daily plans, 8 figures. `reproduce.py` re-runs prepare_data -> run_cases -> verify -> make_figures clean.
+
+**Environment facts worth keeping:** Xpress 9.9.1 Community via `pip --target .clever-user/pydeps` (10.0 refused
+on licence grounds; Community binding limit is rows+cols<=5000, model is 2,556 x 2,192). Two formulation dodges
+were required: offtake cap as a variable upper bound instead of a constraint, and q=min(G,D) via variable lb=ub
+instead of a constraint pair. MIPRELSTOP/MIPABSSTOP must both be 0 — the default relative gap reports a
+2-module solution as optimal and silently corrupts the battery case. CU_PYTHON is pythonw.exe (no stdout), so
+child prints are lost but exit codes and output files are fine.
+
+**Numbers (D1 baseline, mine):** A0 17,139.332 mGBP; unused 549.944 GWh; coverage 0.8751232. H2 20 MW: 17,147.905
+(+8.572), 171.84 GWh to electrolysis, unused 536.024. Battery 0 (non-viable at any non-negative capex under main
+FOM). 2024 A 11.9515 / B -0.9985.
+
+**Four convention differences flagged to codex:** (1) unused energy is a price-sign-dependent residual — 2023
+prices and the two non-positive days take G to 1,150.4 GWh and move the same config's unused 536.0 -> 1,685.4;
+(2) optimised dispatch beats the simple rule by 9.637 mGBP/yr at equal capacity, so that gap needs its own line;
+(3) 20 MW is the 10 t/day offtake cap, not the economic optimum; (4) payback 2.640 y pre-stack vs 3.41 y on the
+blueprint basis, a pure convention gap of 29%.
+
+**Two framing findings:** battery break-even is FOM-driven (13.25 k GBP/yr unit value vs 22.3 k GBP/unit main
+FOM; only the 7.43 k GBP/MW low table clears, at 6,990 GBP/MWh); supply obligation dominates energy — 100%
+retention means 0 MW H2, 99.9% allows the full 171.84 GWh at a cost of 0.0734% of current sales.
+
+**Git note for future rounds:** `collab.py commit` needs `git add -A` first (otherwise write-tree==HEAD and the
+commit fails with an empty STOP). SSH agent died mid-session; push now goes over HTTPS with
+`-c credential.helper="!gh auth git-credential" -c url."https://github.com/".insteadOf="git@github.com:"`.
+GitHub returned 500 twice before accepting. `.cmd`/`.bat` decoding and findstr's non-ASCII misses remain live
+environment hazards — use the python interpreter with explicit UTF-8 instead.
+
+**Still open:** request 812e2d52... (B1-B4 due 2026-11-07T12:00Z). Tier 2A/2B is not mine to decide. The 4-page
+submission text stays in my workspace until the user says to publish it as a candidate or hand it to the report
+lead. Nobody else's release was touched; tree clean at 7702471.
