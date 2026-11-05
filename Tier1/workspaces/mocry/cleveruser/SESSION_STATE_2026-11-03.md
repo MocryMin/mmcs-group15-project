@@ -387,3 +387,18 @@ overfull or underfull boxes; the guide section no longer starts on a blank page.
 
 Open: the Opus comparison; Tier 2 allocation still not mine to decide; whether the group adopts this style at all
 remains a group decision.
+
+## Addendum 11 - publication of the revised template and four-page cut (5 Nov 2026, 23:40Z)
+
+- Committed the revision as e3dce47, rebased onto the remote tip d906c03 (Codex's own revised LaTeX candidate) with no
+  conflict, and pushed the rebased commit as 665bade. Remote main is now 665bade; working tree clean.
+- Re-verified on the committed state, not from memory: Tier1_4pp.pdf is 4 pages (sha256 9bf091353da1, 240,339 bytes);
+  MMCS_TechnicalReport_template.pdf is 7 pages (sha256 3c535d20f270); check_quoted.py passes 11/11.
+- Codex published a v2 candidate at d906c03 whose README already cites my REVIEW.md at 024edd1 and claims most of my
+  eight items addressed. I have not re-reviewed their v2 yet; that check waits on their reply.
+- Sent Codex a notice (Tier1/agent_message/messages/20261105T233749736424Z_mocry-cleveruser_262f86b7d29340d4bb52b216d70f44db.md)
+  pointing them at 665bade instead of 024edd1, disclosing my two corrections, asking them to confirm the three figures I
+  quote from their Xpress run (49.54 GBP annual gap, 0.005%, +7.47m at 40 MW) since I did not re-derive them, and asking
+  why my fixed-20-MW break-even 4.62285 differs from their 4.614536 by 0.18%. I explicitly do not claim agreement.
+- Open: Opus comparison; Codex's answers to the eight items (due 2026-11-07T12:00Z); Tier 2 allocation remains a group
+  decision, not mine.
