@@ -1,0 +1,476 @@
+%% =====================================================================
+%%  MMCS Group Project --- Tier 1 Technical Report --- TEMPLATE
+%%  Compile:  tectonic -X compile MMCS_TechnicalReport_template.tex
+%%
+%%  This file is the authoring skeleton. Grey italic text in square
+%%  brackets is guidance: delete it as you write. Numbers shown in the
+%%  example tables are illustrative, not the group's results -- replace
+%%  them, keep the column structure.
+%%
+%%  Page budget (body): 1 title+summary | 1 boundary/data | 2 model |
+%%  3 results | 2 sensitivity | 1 recommendation | 1 validation/appendix.
+%%  Hard ceiling: 15 pages including appendix. Longer is not better.
+%%
+%%  Two rules this file encodes, learned from past reports:
+%%   1. every table has exactly one flexible column, so nothing is
+%%      stretched to fill the page;
+%%   2. numeric columns use siunitx S specs and contain numbers only --
+%%      a dash or N/A goes in braces {N/A}.
+%% =====================================================================
+\documentclass[11pt,a4paper]{article}
+\usepackage{mmcsreport}
+
+\renewcommand{\reportfootertext}{Confidential --- prepared for course assessment}
+\hypersetup{pdftitle={MMCS Group Project -- Tier 1 Technical Report (template)},
+            pdfauthor={Group 15}}
+
+% units row under a table header: \unitcell is a font switch, not a command
+\newcommand{\unitcell}{\footnotesize\sffamily\color{muted}}
+
+% placeholder for a figure slot of a given height
+\newcommand{\figslot}[2]{%
+  \begin{tcolorbox}[enhanced,boxrule=0.4pt,colframe=rule,colback=white,arc=0pt,
+    height=#1,valign=center,halign=center,fontupper=\footnotesize\color{muted}]
+    #2\end{tcolorbox}}
+
+\begin{document}
+\thispagestyle{firststyle}
+
+% ---------------------------------------------------------------- title ----
+\eyebrow{MMCS Group Project \textperiodcentered{} 2026 \textperiodcentered{} Tier 1}
+\reporttitle{Recovering the value of surplus\\renewable generation}
+\reportsubtitle{Battery or electrolyser, at what scale, and under which contract}
+
+\begin{reportmeta}
+  \reportmetaitem{Prepared by}{Group 15}
+  \reportmetaitem{Version}{1.0 --- 5 November 2026}
+  \reportmetaitem{Data window}{1 Jan 2020 -- 17 Sep 2026}
+  \reportmetaitem{Decision owner}{Portfolio board}
+\end{reportmeta}
+
+% ------------------------------------------------------------ key figures --
+% Four numbers an examiner may read and stop. Choose the four that carry the
+% recommendation: value created, the configuration, the binding constraint,
+% and the payback. Do not put model statistics here.
+\begin{keyfigures}[Headline results]
+  \kpi{+£8.57m}{annual value of the recommended 20 MW module}
+  \kpi{20 MW}{electrolyser; no battery is economic}
+  \kpi{2.6 yr}{payback before stack replacement}
+  \kpi{0.07\%}{of current sales diverted to make hydrogen}
+\end{keyfigures}
+
+% --------------------------------------------------------------- decision --
+% One box, at most five lines. Cost ceiling -> revenue -> payback -> the
+% condition under which the answer changes. This is the paragraph a busy
+% reader quotes.
+\begin{decisionbox}[Decision]
+\ph{Build / do not build — one sentence. Then: what it costs, what it earns,
+what it pays back, and the single condition that would reverse the answer.}
+\end{decisionbox}
+
+% ============================================================ section 1 ====
+\section{Executive summary}
+
+\ph{First paragraph contains numbers, not framing. Capacity, annual value,
+payback, and the assumption that carries the answer. Two sentences of context
+at most.}
+
+\ph{Second paragraph: the mechanism. Why this configuration and not the
+alternative, in one or two sentences, naming the constraint that actually
+binds (a contract cap, a cost threshold, an operating rule) rather than the
+one a reader would guess.}
+
+\ph{Third paragraph: what the reader must accept. Data vintage, time
+resolution, foresight, and the one number that would move most if that
+assumption failed.}
+
+\begin{caveatbox}[The assumption that carries the answer]
+\ph{Name it and quantify it. ``The result holds while the offtake contract is
+at least X; at Y the investment is zero.'' A caveat box that cannot be
+falsified by a number is decoration.}
+\end{caveatbox}
+
+% ============================================================ section 2 ====
+\section{Problem, boundary and data}
+
+\subsection{The question}
+
+\ph{State the decision in one sentence, then the arithmetic that frames it:
+how much energy the system produces, how much demand it serves, how much is
+stranded, and on how many days. These four numbers justify the whole report.}
+
+\needspace{7\baselineskip}
+\subsection{System boundary}
+
+\ph{What is inside the model and what is not. Be explicit that constructed
+supply is not observed curtailment, and that the demand series is the
+absorption cap. One sentence per excluded mechanism (network, intraday,
+ancillary, storage of hydrogen), because each exclusion is later a
+limitation.}
+
+\figslot{4.6cm}{Figure slot 1 --- system boundary diagram, 16.4\,cm $\times$ 4.6\,cm\\
+\footnotesize generation $\rightarrow$ \{sale, battery, electrolyser, unused\} $\rightarrow$ demand}
+
+\subsection{Data and provenance}
+
+% Provenance table: every series, its period, its repair status, its use.
+% This table is what separates a report that can be audited from one that
+% cannot. Add a release tag or a hash in the source note.
+\begin{table}[H]
+\caption{Data series, provenance and use.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{3.9cm}L{2.2cm}YL{3.0cm}@{}}
+\toprule
+\sffamily\bfseries Series & \sffamily\bfseries Period & \sffamily\bfseries Treatment & \sffamily\bfseries Where used \\
+\midrule
+\ph{Generation by fuel} & \ph{2020--2026} & \ph{repaired release v2; 125 imputed days flagged} & \ph{all cases} \\
+\ph{Demand} & \ph{2020--2026} & \ph{truncated last day of each query restored} & \ph{absorption cap} \\
+\ph{Market index price} & \ph{2020--2026} & \ph{half-scale placeholder providers removed} & \ph{revenue} \\
+\bottomrule
+\end{tabularx}
+\srcnote{Source: \ph{repository path and release tag}. Repair log: \ph{file}.}
+\end{table}
+
+\subsection{Conventions and assumptions}
+
+% The assumption register. Four columns force the author to say where each
+% number came from and which section tests it. If a row has no source, the
+% number is a guess and should be labelled as one.
+\begin{table}[H]
+\caption{Assumption register. ``Tested in'' points at the sensitivity that
+would expose the assumption.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{4.4cm}L{3.0cm}YL{1.9cm}@{}}
+\toprule
+\sffamily\bfseries Assumption & \sffamily\bfseries Value used & \sffamily\bfseries Source & \sffamily\bfseries Tested in \\
+\midrule
+\ph{Discount rate} & \ph{5\% real} & \ph{course brief, \S2.3} & \ph{\S5.1} \\
+\ph{Hydrogen reference price} & \ph{£7.80/kg} & \ph{policy strike, deflated to 2020 money} & \ph{\S5.1} \\
+\ph{Battery round-trip efficiency} & \ph{90\%} & \ph{brief; 20--80\% usable window} & \ph{\S5.2} \\
+\bottomrule
+\end{tabularx}
+\srcnote{Money is constant \ph{2020} GBP unless stated. Energy figures are
+daily averages of metered half-hourly data.}
+\end{table}
+
+% ============================================================ section 3 ====
+\section{Model}
+
+\subsection{Decision variables}
+
+\ph{One sentence per variable group, or a compact list. A reader must be able
+to reconstruct the model from \S3.1--\S3.3 without the code.}
+
+\subsection{Objective}
+
+\begin{equation}
+\max\ \Pi=\frac{1}{Y}\sum_{t}\left[\frac{p_t\,(q_t+d_t)}{1000}+\frac{v\,h_t}{\eta}\right]
+-a_B\,n_B-a_H\,n_H
+\label{eq:objective}
+\end{equation}
+
+\ph{Define every symbol immediately below the equation, in running text, not
+in a symbol table the examiner has to hunt for. Say what the units are and
+which term carries the money. Refer back to it as \eqref{eq:objective} --- a
+number that is never cited in the text is a number nobody reads. A useful
+test: give the magnitude of each term for the base case, so a reader can see
+which one dominates and which one is a rounding error.}
+
+\subsection{Constraints}
+
+\begin{align}
+q_t+c_t+h_t+u_t &= G_t && \text{(daily energy balance)} \\
+q_t+d_t &\le D_t && \text{(demand cap)} \\
+0.096\,z_t \le h_t &\le 0.48\,z_t \le 0.48\,n_H && \text{(module limits)} \\
+h_t &\le \eta\,L/10^{6} && \text{(offtake cap)} \\
+\textstyle\sum_t d_t &= 0.9\sum_t c_t && \text{(annual battery balance)}
+\end{align}
+
+\ph{After the block, one sentence per constraint that needs justification,
+and one sentence naming the relaxation. If a constraint is an upper bound on
+value rather than a representation of physics, say so here, not in the
+limitations.}
+
+\subsection{Dispatch policies}
+
+\ph{If the report compares an optimised allocation with a rule, define both
+as maths, not as prose. Policy A: economic allocation. Policy B: current
+generation serves current demand first, i.e.\ $q_t=\min(G_t,D_t)$. State which
+one the client is permitted to run --- that is a commercial fact, not a
+modelling choice.}
+
+\subsection{Instance size and solver evidence}
+
+% Solver evidence belongs in the body. Every cell must be a measurement or a
+% literal N/A. A table with no failed cells is a table that was not tested.
+\begin{table}[H]
+\caption{Solver evidence for one design year. Times are wall-clock on
+\ph{hardware}, default solver parameters except where noted.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{4.4cm}R{1.4cm}R{1.4cm}R{2.1cm}R{1.3cm}Y@{}}
+\toprule
+\sffamily\bfseries Case & {\sffamily\bfseries Rows} & {\sffamily\bfseries Cols}
+  & {\sffamily\bfseries Objective} & {\sffamily\bfseries Time} & \sffamily\bfseries Status \\
+{\unitcell} & {\unitcell} & {\unitcell} & {\unitcell £m/yr} & {\unitcell s} & \\
+\midrule
+\ph{Baseline, policy A} & \num{2556} & \num{2192} & \num{17139.3} & 0.05 & optimal \\
+\ph{20 MW electrolyser} & \num{2556} & \num{2192} & \num{17147.9} & 0.06 & optimal \\
+\ph{50 t/day contract} & N/A & N/A & N/A & N/A & not run (licence limit) \\
+\bottomrule
+\end{tabularx}
+\srcnote{\ph{Solver and version, licence class, gap settings, hardware, and the
+one setting that changed the answer. Write N/A, never leave a cell blank.}}
+\end{table}
+
+% ============================================================ section 4 ====
+\section{Results}
+
+\subsection{Validation ladder}
+
+% Same KPIs down four rows: baseline, naive rule, optimised, perfect
+% foresight. The ladder is what proves the optimiser earns its keep.
+\begin{table}[H]
+\caption{Validation ladder: identical KPIs across four solution methods.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{4.6cm}R{1.9cm}R{1.7cm}R{1.6cm}Y@{}}
+\toprule
+\sffamily\bfseries Method & {\sffamily\bfseries Value}
+  & {\sffamily\bfseries Unused} & {\sffamily\bfseries Coverage} & \sffamily\bfseries What it shows \\
+{\unitcell} & {\unitcell £m/yr} & {\unitcell GWh} & {\unitcell ratio} & \\
+\midrule
+\ph{No investment} & 0 & \num{549.9} & 0.875 & \ph{reference case} \\
+\ph{Naive rule, same asset} & \num{-1.065} & \num{549.9} & 0.875 & \ph{a fixed rule destroys value} \\
+\ph{Optimised, same asset} & 8.572 & \num{536.0} & 0.874 & \ph{value of dispatch} \\
+\ph{Imperfect foresight} & N/A & N/A & N/A & \ph{outside Tier 1} \\
+\bottomrule
+\end{tabularx}
+\srcnote{Increments are measured against the matching no-investment case, not
+against each other.}
+\end{table}
+
+\subsection{Configuration comparison}
+
+\begin{table}[H]
+\caption{Annual increment by configuration, £m/yr, for the reference year.}
+\small
+\begin{tabular}{@{}L{5.6cm}R{2.2cm}R{2.2cm}R{2.2cm}R{2.2cm}@{}}
+\toprule
+\sffamily\bfseries Policy & {\sffamily\bfseries None} & {\sffamily\bfseries Battery}
+ & {\sffamily\bfseries Electrolyser} & {\sffamily\bfseries Both} \\
+\midrule
+\ph{Policy A: economic} & 0 & 0 & \bfseries 8.57 & 8.57 \\
+\ph{Policy B: supply first} & 0 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\srcnote{Zero means the asset is not selected, not that the asset earns
+nothing. Bold marks the recommended configuration.}
+\end{table}
+
+\subsection{Where the energy comes from}
+
+% This subsection is the honesty test. Split the input into avoided waste and
+% diverted sale, and give the attribution interval, not a single number.
+\begin{figure}[H]
+\centering
+\figslot{3.9cm}{Figure slot 2 --- energy attribution, 11\,cm $\times$ 3.9\,cm\\
+\footnotesize two-panel: input split by source; renewable share on surplus days}
+\caption{\ph{Attribution of electrolyser input to avoided waste and diverted
+sale, with the daily lower and upper bound on the renewable share.}}
+\label{fig:attribution}
+\figsrc{Source: \ph{results file, case id}.}
+\end{figure}
+
+\subsection{Selection}
+
+\ph{Three short paragraphs, one per rejected alternative. For each: the
+quantity that decides it, the threshold at which it would be selected, and
+whether the threshold is inside the plausible range. If an alternative fails
+for a reason the model cannot see, say which model in Tier 2 will see it.}
+
+% ============================================================ section 5 ====
+\section{Sensitivity, break-even and switching points}
+
+% This section is not optional and is not an appendix. It is where a report
+% stops describing a scenario and starts supporting a decision.
+
+\subsection{One-at-a-time sensitivity}
+
+\begin{table}[H]
+\caption{Effect of single-parameter changes on the annual increment (£m/yr), capacity
+held at the base case unless stated.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{4.0cm}L{3.4cm}R{2.0cm}Y@{}}
+\toprule
+\sffamily\bfseries Parameter & \sffamily\bfseries Setting tested
+  & {\sffamily\bfseries Increment} & \sffamily\bfseries Capacity changes? \\
+\midrule
+\ph{Electrolyser CAPEX} & \ph{£0.82m/MW, legacy} & 9.41 & no \\
+\ph{Electrolyser CAPEX} & \ph{£1.65m/MW, high} & 8.33 & no \\
+\ph{Discount rate} & \ph{0\% real} & 9.44 & no \\
+\ph{Discount rate} & \ph{12\% real} & 6.99 & no \\
+\ph{Hydrogen price} & \ph{£6.00/kg} & 3.33 & \ph{20 MW} \\
+\ph{Hydrogen price} & \ph{£9.50/kg} & 13.88 & \ph{60 MW} \\
+\bottomrule
+\end{tabularx}
+\srcnote{State the number of cases and how they were generated; a sensitivity
+table with six rows and no description of the sweep is still a guess.}
+\end{table}
+
+\subsection{Break-even and switching points}
+
+\begin{table}[H]
+\caption{Thresholds at which the recommendation changes.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{7.4cm}R{2.0cm}Y@{}}
+\toprule
+\sffamily\bfseries Threshold & {\sffamily\bfseries Value} & \sffamily\bfseries Comment \\
+\midrule
+\ph{Netback needed at 10 t/day} & 4.623 & \ph{£/kg; below this, do not build} \\
+\ph{Offtake needed at £7.80/kg} & \num{2230} & \ph{kg/day} \\
+\ph{Battery break-even capital cost} & \num{6990} & \ph{£/MWh on the low-FOM table} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Critical map}
+
+\ph{Two decision parameters on the axes, the decision boundary drawn, and the
+base case marked. One figure replaces a page of two-way sensitivity prose.}
+
+\subsection{What would falsify this}
+
+\ph{Three to five bullets, each a measurable event: a contract term, a price,
+a cost, or an obligation. ``If the buyer requires X, the investment is zero''
+is falsifiable; ``results may vary'' is not.}
+
+% ============================================================ section 6 ====
+\section{Recommendation and implementation}
+
+\begin{enumerate}
+  \item \ph{Do this now --- with the number that justifies it.}
+  \item \ph{Negotiate this first --- the term that gates the investment.}
+  \item \ph{Stage the expansion --- what to build at which contract size.}
+  \item \ph{Keep this alternative visible --- the obligation under which the
+        answer reverses.}
+\end{enumerate}
+
+% ============================================================ section 7 ====
+\section{Validation and limitations}
+
+\subsection{Checks performed}
+
+\ph{What was independently checked, how many checks, and what a check means
+here (energy balance closure, cap compliance, recomputation of revenue from
+the printed plan). Then the reproduction statement: which reference values
+were reproduced, and the sentence that distinguishes arithmetic agreement
+from endorsement of shared assumptions.}
+
+\subsection{Quantified concessions}
+
+% Every simplification gets a measured cost. An unquantified limitation is an
+% admission; a quantified one is a design decision.
+\begin{table}[H]
+\caption{Approximations and their measured cost.}
+\small
+\begin{tabularx}{\linewidth}{@{}L{4.6cm}YL{3.4cm}@{}}
+\toprule
+\sffamily\bfseries Simplification & \sffamily\bfseries Cost, measured & \sffamily\bfseries Where it bites \\
+\midrule
+\ph{Daily time step} & \ph{no intraday arbitrage; battery value overstated} & \ph{\S4.5} \\
+\ph{Annual battery balance} & \ph{relaxation, so an upper bound on value} & \ph{battery cases only} \\
+\ph{Perfect foresight} & \ph{not quantified in Tier 1} & \ph{all cases} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Possible objections}
+
+\begin{caveatbox}[Weakest link, volunteered]
+\ph{Name the parameter you trust least, say why it is still the right choice,
+and give the number that would change your mind.}
+\end{caveatbox}
+
+% ============================================================ appendix =====
+\section*{Reproducibility appendix}
+
+\ph{Everything a second team needs to regenerate every number: data release
+tag, package version, solver version and licence class, entry-point commands
+in order, runtime, and the digest of the results file. A one-page appendix of
+plain commands is worth more than a page of prose about methodology.}
+
+{\small
+\begin{tabularx}{\linewidth}{@{}L{6.2cm}Y@{}}
+\toprule
+\sffamily\bfseries Artefact & \sffamily\bfseries Command or digest \\
+\midrule
+\ph{Prepare inputs} & \texttt{\ph{python src/prepare\_data.py}} \\
+\ph{Run all cases} & \texttt{\ph{python src/run\_cases.py}} \\
+\ph{Verify} & \texttt{\ph{python src/verify.py}} \\
+\ph{Results digest} & \texttt{\ph{sha256: 0000...}} \\
+\bottomrule
+\end{tabularx}}
+
+% ------------------------------------------------------------ references ---
+\section*{References}
+{\small
+\begin{enumerate}[label={[\arabic*]},leftmargin=2.1em]
+  \item \ph{Data source with release tag and access date.}
+  \item \ph{Policy or market document for the hydrogen reference price.}
+  \item \ph{Cost source with vintage, currency, and whether it is installed
+        or overnight capital cost.}
+\end{enumerate}}
+
+% ============================================================== guide =====
+\clearpage
+\thispagestyle{plain}
+\section*{Template guide --- delete before submission}
+
+\subsection*{Page budget}
+
+{\small
+\begin{tabularx}{\linewidth}{@{}L{5.0cm}C{1.8cm}Y@{}}
+\toprule
+\sffamily\bfseries Section & \sffamily\bfseries Pages & \sffamily\bfseries What it must contain \\
+\midrule
+Title block, key figures, decision & 1 & four numbers and a reversible claim \\
+Executive summary & 1 & numbers first, mechanism, the carrying assumption \\
+Boundary and data & 1 & provenance table and assumption register \\
+Model & 2 & objective, constraints, solver evidence with N/A cells \\
+Results & 3 & validation ladder, configuration matrix, attribution figure \\
+Sensitivity & 2 & one-at-a-time, break-even, critical map, falsifiers \\
+Recommendation & 1 & numbered actions with numbers attached \\
+Validation and limitations & 1 & checks, quantified concessions, weakest link \\
+Appendix and references & 1--2 & commands, digests, sourced references \\
+\bottomrule
+\end{tabularx}}
+
+\subsection*{Conventions this style enforces}
+
+\begin{itemize}
+  \item Figures and tables are numbered and referenced in text; captions sit
+        above tables and below figures, and carry a source note.
+  \item Units live in the column header, not in every cell. Numbers use a
+        thousands separator and a fixed number of decimals per column.
+  \item No vertical rules. Three horizontal rules per table, no more.
+  \item A cell that was not measured reads \texttt{N/A}; a blank cell is a
+        defect. In a numeric column write \texttt{\{N/A\}} so the alignment
+        survives.
+  \item Sensitivity, break-even and switching points have a fixed section of
+        their own because they are the most common omission in past reports.
+  \item Figure-to-table ratio of at least 1:1 in the results section; a
+        report with sixteen tables and two figures reads as a spreadsheet.
+\end{itemize}
+
+\subsection*{Common defects this skeleton is designed to prevent}
+
+\begin{enumerate}
+  \item Opening with background instead of numbers.
+  \item A recommendation with no threshold at which it reverses.
+  \item Assumptions in prose, untraceable to a source.
+  \item Solver claims with no instance size and no failed cells.
+  \item A limitation section that is a list of apologies rather than measured
+        costs.
+  \item Money and physical quantities added inside one expression.
+\end{enumerate}
+
+\end{document}
