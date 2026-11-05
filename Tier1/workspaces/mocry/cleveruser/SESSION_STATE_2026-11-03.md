@@ -195,3 +195,41 @@ with the repaired deflated series) and did not re-solve it.
 **Still open:** Tier 2 route 2A/2B (human); RV-04 £1.50 → £1.04 m/MW in R3 derived tables; codex reply
 on the R4 price correction. Next useful step if asked: a v1.1 → v1.2 price addendum, or a one-page
 "which price series to use" note for Tier 2.
+
+## Addendum 7 — 2026-11-05 — Tier 1 blueprint assessment
+
+**Synced:** remote 9f5efb3 → a678a3a (only cc5dd10 blueprint + a678a3a notice; no v1.1 change, no new
+publication). Blueprint 133 lines, six work packages (T1.1–T1.6), 3.5–4 pages of the 10-page report.
+
+**Recomputed from 1104 outputs (all match the blueprint):** 82 cases (41 A / 41 B); A 2023 +£8.572m/yr;
+B 0; fixed 20 MW under B −£1.065m (2023) → +£4.478m (2025); H2 input 171.84 GWh = 3,074,060.8 kg ×
+55.9 kWh/kg; u0 549.944 − u 536.024 = 13.92 GWh (8.10% of H2 input, 2.53% of surplus); sales diverted
+157.92 GWh; 13.92 + 157.92 = 171.84 (account closes); coverage 87.5123% → 87.4481%; old-price A 15.188m.
+
+**New findings (mine):**
+1. All 82 cases choose zero battery; electrolyser only 0/20/120 MW (20 MW integer modules). 20 MW is
+   pinned by the 10 t/day offtake cap (≤8.59 t/day), not by an economic optimum curve; offtake axis is
+   already a trigger curve (0/2k→0, 10k→20, 50k→120 MW, +£49.093m).
+2. `unused` is a model residual, not physical surplus: the course 2023 price has two non-positive days
+   (2023-04-11, 2023-12-26, G = 1,150.4 GWh); same 20 MW config gives unused 1,685.4 GWh vs 536.0 GWh,
+   i.e. 1,149.4 GWh of the ablation gap is a price-sign convention. Report must separate S_t and u_t.
+3. Same-capacity simple rule comparison: A_fixed20MW 8.572 vs A_simple20MW −1.065 → optimised dispatch is
+   worth £9.637m/yr at 20 MW. Strongest unused number in the package.
+4. CAPEX route (RV-04) does not move the capacity decision: legacy 816k→9.411m, modern low 1.270m→8.820m,
+   central 1.460m→8.572m, high 1.651m→8.325m, all 20 MW; discount 0–12% also keeps 20 MW.
+5. `simple_payback` 2.64 y adds back annualised capital and stack replacement but not FOM; CAPEX/increment
+   = 3.41 y (29% difference). Convention must be frozen.
+6. On six rubric dimensions the blueprint is a strong plan but the deliverable is ~35–40% done; T1.2/T1.4/
+   T1.5 new computation and T1.6/report/pitch are absent. Rubric text is not archived anywhere in the repo
+   (whole-tree grep hits only the blueprint) → unverifiable; Q items still open.
+
+**Published:** `Tier1/public/research_1103/independent/mocry-cleveruser/20261105-cu-tier1-blueprint-assessment/README.md`.
+**Message:** `812e2d52445148998650f5fb876a211f` to mocry-codex, kind=request, priority=action, due
+2026-11-07T12:00Z (B1 decision record, B2 rubric archive + Q items, B3 unused definition, B4 20 MW causality;
+B5/B6 by 11-14).
+
+**Verdict given to the user:** plan = best Tier 1 design so far; submission = not yet high-scoring;
+P0+P1 → Distinction range. Tier 2A/2B still not decided (not mine to decide, but it is the critical path).
+
+**Next:** wait for codex reply by 11-07; if none, re-ask once and proceed with my own P1 computations only
+if the user asks. Do not edit others' releases.
