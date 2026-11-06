@@ -103,11 +103,11 @@
   \fancyfoot[C]{\footnotesize\sffamily\color{muted}\thepage\,/\,\pageref{LastPage}}}
 
 % ------------------------------------------------------------ title block --
-\newcommand{\eyebrow}[1]{{\addfontfeatures{LetterSpace=11}\sffamily\bfseries\footnotesize
+\newcommand{\eyebrow}[1]{\noindent{\addfontfeatures{LetterSpace=11}\sffamily\bfseries\footnotesize
   \color{accent}#1\par}\vspace{4pt}}
-\newcommand{\reporttitle}[1]{{\hyphenpenalty=10000\exhyphenpenalty=10000
+\newcommand{\reporttitle}[1]{\noindent{\hyphenpenalty=10000\exhyphenpenalty=10000
   \sffamily\bfseries\fontsize{19.5}{23.5}\selectfont\color{ink}#1\par}\vspace{6pt}}
-\newcommand{\reportsubtitle}[1]{{\sffamily\fontsize{11}{14.5}\selectfont
+\newcommand{\reportsubtitle}[1]{\noindent{\sffamily\fontsize{11}{14.5}\selectfont
   \color{muted}#1\par}\vspace{8pt}}
 % meta row: four label/value pairs, equal columns, no table machinery
 \newcommand{\reportmetaitem}[2]{%

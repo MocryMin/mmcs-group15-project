@@ -9,7 +9,7 @@ is not published). Three deliverables:
 | `MMCS_TechnicalReport_template.pdf` | the template rendered, 7 pages, placeholders filled with guidance |
 | `Tier1_4pp.pdf` | the Tier 1 report written into the first four pages, real numbers |
 | `mmcsreport.sty` | the house style both documents share |
-| `MMCS_TechnicalReport_template.tex` | authoring skeleton (12–15 page report) |
+| `MMCS_TechnicalReport_template.tex` | authoring skeleton for the ten-page report (only the Tier 1 rows are filled here) |
 | `Tier1_4pp.tex` | the filled four pages |
 | `make_fig_attribution.py`, `make_fig_ladder.py` | redraw the two panels of Figure 1 at printed size |
 | `figures/` | figure inputs for the 4-page cut |
@@ -36,6 +36,57 @@ submission. It shows that the numbers in `tier1/20261105-v1` can be laid out as 
 a ten-page report with the data-repair record, the validation ladder, solver evidence and the
 sensitivity section in the body. Whether the group adopts this style, and how the remaining six
 pages are allocated, is a group decision.
+
+## Revision of 6 November 2026 — response to the independent review
+
+mocry-claude reviewed both candidates at `665bade` and `d906c03`
+(`Tier1/workspaces/mocry/claude/review/20261106-tier1-candidates/REVIEW.md`). I re-checked every
+finding against the files before changing anything; the eight defects it lists for this report
+are all real and all fixed here.
+
+The distinction that matters: three of them are defects of the **printed formulation only**.
+`tier1/20261105-v1/src/model.py` does contain the constraints — `c_i <= c_unit * n_b` (line 190),
+`d_i <= d_unit * n_b` (191), `h_cap_kg = h2_limit_kg_day * 55.9 / 1e6 = 0.559 GWh` (161) and
+`yt = sample_years(frame)`, i.e. years (155). So no number in this report changes; what was wrong
+was the write-up, which is still a defect, because a reader has to be able to re-derive the
+results from the equations.
+
+Fixed in `Tier1_4pp.tex`:
+
+- printed battery charge and discharge limits per unit, the offtake cap on hydrogen mass
+  `m_t = 10^3 h_t / 55.9` tonnes/day (the old `55.9L/10^6` was low by a factor of 10^3), `Y`
+  documented as years rather than days, and the domains and integrality stated;
+- reference [2] no longer attributes the 10 t/day cap to the brief and clarifications — it is our
+  analyst scenario, as `tier1/20261105-v1/TIER1_REPORT.md` already said; the four-page cut had
+  contradicted our own report. The 1.5 MW/3 MWh unit is now attributed to the Danish Energy
+  Agency data it comes from, not to the brief, which specifies a two-hour duration only;
+- "reported in Section 7" → Section 6; "Codex Tier 1 v2" → "Group 15's independently written
+  Xpress implementation B", because agent names do not belong in a submitted reference list;
+- the decision box and §1 no longer name two different binding conditions: the contract sets the
+  scale, the mandate decides the sign;
+- "B is the operating reality" removed — policy B is a contractual case, not an observation;
+- the title block no longer starts with a paragraph indent (`\noindent` in the three title
+  macros of `mmcsreport.sty`);
+- Figure 1(b) redrawn as a step function on a true t/day axis. The earlier version drew the nine
+  grid points at equal spacing, so 1, 2 and 5 t/day sat as far apart as 30 and 50; the capacity
+  steps now sit where the cap actually is (`make_fig_ladder.py` rebuilt).
+
+Fixed in `MMCS_TechnicalReport_template.tex`:
+
+- the header and the guide's page-budget table now carry the course limit of ten pages for the
+  whole technical report (teacher, launch-session transcript line 236), with Tier 1 ≈ 3.5 pages,
+  a Tier 2 placeholder, the joint recommendation and the references inside those ten pages. The
+  old "hard ceiling: 15 pages including appendix" was wrong and is gone;
+- the siunitx `S`-column rule is replaced by the `R{}`/`Y` column rule the style actually
+  implements (this README already recorded that `S` columns were dropped).
+
+Not changed: the body is still a Tier-1 skeleton. The review's plan — adopt the Codex skeleton and
+port this presentation layer into it — requires putting a Tier 2 slot into the group report, which
+is a group decision rather than mine.
+
+Re-verified after the edits: `Tier1_4pp.pdf` is 4 pages (sha256 `faeb15afcca4`, 251,777 bytes),
+`MMCS_TechnicalReport_template.pdf` is 7 pages (sha256 `b59d1c523534`), no overfull boxes,
+`check_quoted.py` 11/11, and pages 1–4 read at 130 dpi.
 
 ## Design decisions, and why
 

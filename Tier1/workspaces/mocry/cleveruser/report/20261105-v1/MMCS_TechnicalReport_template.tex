@@ -7,15 +7,24 @@
 %%  example tables are illustrative, not the group's results -- replace
 %%  them, keep the column structure.
 %%
-%%  Page budget (body): 1 title+summary | 1 boundary/data | 2 model |
-%%  3 results | 2 sensitivity | 1 recommendation | 1 validation/appendix.
-%%  Hard ceiling: 15 pages including appendix. Longer is not better.
+%%  Page budget.  The submission is capped at 10 pages: the teacher said of
+%%  the final technical report "this has a 10-page limit" (launch session,
+%%  transcript line 236). The same ten pages have to carry Tier 1, the
+%%  chosen Tier 2 extension, the joint recommendation and the references,
+%%  so the split below is a working plan, not a decision:
+%%      1.5 title + summary | 1.5 boundary/data+Tier 1 model | 2.5 Tier 1
+%%      results and recommendation | 4 Tier 2 | 0.5 joint recommendation.
+%%  Tier 2 pages are the group's call. An appendix does not count towards a
+%%  page limit and is not marked (same session), so it cannot rescue a
+%%  section that does not fit; the integer-programming formulation in
+%%  particular must stay in the body.
 %%
 %%  Two rules this file encodes, learned from past reports:
-%%   1. every table has exactly one flexible column, so nothing is
+%%   1. every table has exactly one flexible Y column, so nothing is
 %%      stretched to fill the page;
-%%   2. numeric columns use siunitx S specs and contain numbers only --
-%%      a dash or N/A goes in braces {N/A}.
+%%   2. a numeric column is R{width}: right-aligned, numbers only, a dash or
+%%      N/A goes in braces {N/A}.  siunitx S specs were tried and dropped --
+%%      inside tabularx they are not compressible, so the column runs wide.
 %% =====================================================================
 \documentclass[11pt,a4paper]{article}
 \usepackage{mmcsreport}
@@ -448,44 +457,52 @@ plain commands is worth more than a page of prose about methodology.}
 \thispagestyle{plain}
 \section*{Template guide --- delete before submission}
 
+{\small
+
 \subsection*{Page budget}
 
 {\small
-\begin{tabularx}{\linewidth}{@{}L{5.0cm}C{1.8cm}Y@{}}
+\begin{tabularx}{\linewidth}{@{}L{5.4cm}C{1.6cm}Y@{}}
 \toprule
 \sffamily\bfseries Section & \sffamily\bfseries Pages & \sffamily\bfseries What it must contain \\
 \midrule
-Title block, key figures, decision & 1 & four numbers and a reversible claim \\
-Executive summary & 1 & numbers first, mechanism, the carrying assumption \\
-Boundary and data & 1 & provenance table and assumption register \\
-Model & 2 & objective, constraints, solver evidence with N/A cells \\
-Results & 3 & validation ladder, configuration matrix, attribution figure \\
-Sensitivity & 2 & one-at-a-time, break-even, critical map, falsifiers \\
-Recommendation & 1 & numbered actions with numbers attached \\
-Validation and limitations & 1 & checks, quantified concessions, weakest link \\
-Appendix and references & 1--2 & commands, digests, sourced references \\
+Title block, key figures, decision & 1 & four numbers and a reversible claim, for the whole submission \\
+Tier 1: summary, boundary, data & 1 & numbers first, provenance table, assumption register \\
+Tier 1: model & 1 & objective, constraints, domains and integrality, solver evidence \\
+Tier 1: results & 1 & validation ladder, configuration matrix, attribution figure \\
+Tier 1: sensitivity and recommendation & 0.5 & one-at-a-time, break-even, numbered actions with numbers attached \\
+Tier 2: model and results & 3 & the chosen extension, in the same structure \\
+Tier 2: sensitivity and recommendation & 1 & break-even, falsifiers, numbered actions \\
+Joint recommendation & 1 & the two layers resolved into one decision \\
+References & 0.5 & sourced, no agent names, no placeholders \\
+\midrule
+Total & 10 & the whole technical report, illustrations and references included \\
 \bottomrule
 \end{tabularx}}
+
+\noindent{\footnotesize\color{muted}The ten-page figure is the course limit for the final
+technical report (teacher, launch session). The Tier~1 rows come from the blueprint's 3.5-page
+target; the Tier~2 rows are a placeholder --- how Tier~2 splits internally is the group's
+decision, not this template's. An appendix neither counts towards the limit nor gets marked,
+so nothing the reader has to see belongs there.}
 
 \subsection*{Conventions this style enforces}
 
 \begin{itemize}
   \item Figures and tables are numbered and referenced in text; captions sit
-        above tables and below figures, and carry a source note.
-  \item Units live in the column header, not in every cell. Numbers use a
-        thousands separator and a fixed number of decimals per column.
-  \item No vertical rules. Three horizontal rules per table, no more.
+        above tables and below figures and carry a source note.
+  \item Units live in the column header, not in every cell; thousands separators
+        and a fixed number of decimals per column; no vertical rules, three
+        horizontal rules per table.
   \item A cell that was not measured reads \texttt{N/A}; a blank cell is a
-        defect. In a numeric column write \texttt{\{N/A\}} so the alignment
-        survives.
-  \item Sensitivity, break-even and switching points have a fixed section of
-        their own because they are the most common omission in past reports.
-  \item Figure-to-table ratio of at least 1:1 in the results section; a
-        report with sixteen tables and two figures reads as a spreadsheet.
+        defect, and in a numeric column write \texttt{\{N/A\}}.
+  \item Sensitivity, break-even and switching points get a section of their own,
+        and at least one figure per table in the results section.
 \end{itemize}
 
 \subsection*{Common defects this skeleton is designed to prevent}
 
+{\small
 \begin{enumerate}
   \item Opening with background instead of numbers.
   \item A recommendation with no threshold at which it reverses.
@@ -494,6 +511,7 @@ Appendix and references & 1--2 & commands, digests, sourced references \\
   \item A limitation section that is a list of apologies rather than measured
         costs.
   \item Money and physical quantities added inside one expression.
-\end{enumerate}
+\end{enumerate}}
+}
 
 \end{document}
