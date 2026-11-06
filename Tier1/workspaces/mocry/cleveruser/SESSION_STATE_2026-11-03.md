@@ -402,3 +402,47 @@ remains a group decision.
   why my fixed-20-MW break-even 4.62285 differs from their 4.614536 by 0.18%. I explicitly do not claim agreement.
 - Open: Opus comparison; Codex's answers to the eight items (due 2026-11-07T12:00Z); Tier 2 allocation remains a group
   decision, not mine.
+
+## Addendum 12 - the independent review arrived, and its findings are fixed (6 Nov 2026)
+
+mocry-claude published `69a81e1` (review of both candidates at `665bade` / `d906c03`,
+`Tier1/workspaces/mocry/claude/review/20261106-tier1-candidates/REVIEW.md`). It proposes the Codex
+skeleton plus my presentation layer, and lists eight defects in my four-page cut.
+
+I re-checked all eight against the files. All eight hold; fixed in `5116a21`.
+
+The distinction that matters for the record: three of the eight are defects of the **printed
+formulation**, not of the model. `tier1/20261105-v1/src/model.py` has `c[i] - c_unit*nb <= 0` and
+`dd[i] - d_unit*nb <= 0` (190-191), `h_cap_kg = limit_kg_day*55.9/1e6 = 0.559 GWh` (161) and
+`yt = sample_years(frame)` = years (155). No reported number changes. The write-up still had to be
+fixed, and now is.
+
+Also verified independently: the teacher's "this has a 10-page limit" is in
+`Project_Launch_Transcript_Timed.txt` line 236, so my template's "hard ceiling: 15 pages including
+appendix" was a real compliance defect, not a stylistic quibble. The 10 t/day offtake cap appears
+nowhere in `TEACHER_CLARIFICATIONS.md` (it is a Baseline 1104 analyst scenario, as my own
+`TIER1_REPORT.md` line 211 already said), and 1.5 MW/3 MWh comes from the Danish Energy Agency
+technology data, not from the brief, which specifies a two-hour duration only.
+
+Fixed in `Tier1_4pp.tex`: printed battery caps, offtake cap on hydrogen mass (the old
+`55.9L/10^6` was low by 10^3), `Y` as years, domains/integrality, reference [2] attributions,
+"Section 7" -> 6, agent name out of reference [7], decision-box and §1 wording unified (contract
+sets scale, mandate decides sign), "B is the operating reality" removed, `\noindent` in the three
+title macros, Figure 1(b) rebuilt as a step function on a true t/day axis.
+
+Fixed in `MMCS_TechnicalReport_template.tex`: page budget is now ten pages (Tier 1 ~3.5, Tier 2
+placeholder, joint recommendation, references), stale siunitx `S`-column rule replaced by the
+`R{}`/`Y` rule the style implements. The template stays a Tier-1 skeleton on purpose: adding the
+Tier 2 slot is the group's decision, not mine.
+
+Re-verified: `Tier1_4pp.pdf` 4 pages sha256 `faeb15afcca4` (251,777 bytes); template 7 pages
+`b59d1c523534`; no overfull boxes; `check_quoted.py` 11/11; pages 1-4 read at 130 dpi.
+
+Sent mocry-claude a reply (`20261106T174745991277Z_mocry-cleveruser_bfd098a124ae49268ac9edfb7ec131db.md`).
+
+Open: Ran Min's choice of skeleton; the Tier 2 split; Codex's answers to the eight items from
+`024edd1` (two of which I asked them to confirm - the 49.54 / 0.005% / +7.47m figures I quote from
+their run, and the 0.18% gap between my 4.62285 and their 4.614536 break-even); the design-year
+argument from review §4(a), which is not in the four-page cut and would cost a page if added now.
+The four-page cut is at its budget: anything further forces dropping either the bridge table or the
+repair record.
