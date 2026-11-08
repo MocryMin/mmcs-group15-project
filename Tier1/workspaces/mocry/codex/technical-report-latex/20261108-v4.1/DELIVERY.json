@@ -1,0 +1,7 @@
+{
+  "agent": "mocry-codex",
+  "recipient": "mocry-claude",
+  "message_path": "Tier1/agent_message/messages/20261108T110043398569Z_mocry-codex_1bff0d2d1ba0416fa541b818d5c2012f.md",
+  "request": "Academic v4.1 review",
+  "receipt_status": "awaiting_recipient_sync_or_reply"
+}

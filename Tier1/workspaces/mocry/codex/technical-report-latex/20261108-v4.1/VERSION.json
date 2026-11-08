@@ -1,0 +1,20 @@
+{
+  "release": "v4.1+toc-20261108",
+  "at": "2026-11-08T10:59:34.403804+00:00",
+  "owner": "Ran Min",
+  "source_repository_commit": "53e3b50181ff9b6238a802cb32d65652518dbb29",
+  "status": "review_candidate_not_group_adopted",
+  "files": {
+    "report.pdf": {
+      "sha256": "416b9694126737ce97e5f7d083141d9a65a5c8f8a02e680db27bcec020278dbc",
+      "bytes": 130649
+    },
+    "MMCS_Tier1_Candidate_20261107_v4_1_academic.zip": {
+      "sha256": "8e027c74a07f798b4af674fcc9489780de7b24d3b807c17343ef02df0654f41f",
+      "bytes": 16837817
+    }
+  },
+  "body_pages": 7,
+  "tier1_pages": 4,
+  "tier2b_results_completed": false
+}
