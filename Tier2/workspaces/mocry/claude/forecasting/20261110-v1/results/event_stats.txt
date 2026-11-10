@@ -1,0 +1,33 @@
+netback-equivalent price £/MWh 139.5
+      S_mean   S_sd  sur_days  p_gt_thr  p_mean   p_sd  p_cv
+date                                                        
+2020  -23.27  34.63        92         0   34.16  12.81  0.38
+2021  -38.60  31.52        43       100  109.45  65.76  0.60
+2022  -14.11  43.86       154       234  177.05  81.72  0.46
+2023  -82.59  63.73        29         7   78.13  26.44  0.34
+2024 -108.02  71.54        30         1   57.92  18.08  0.31
+2025  -21.75  54.50       112         1   62.85  21.88  0.35
+2026   -9.69  51.16       107         1   77.69  21.64  0.28
+P(sur|sur)=0.642 P(sur|not)=0.108 base=0.231
+surplus spells n=203 mean=2.79 median=2 max=32 share of days in spells>=3: 0.69
+we     False    True  ratio
+date                       
+2020   35.93   29.71   1.21
+2021  114.22   97.48   1.17
+2022  184.92  157.58   1.17
+2023   80.80   71.51   1.13
+2024   60.29   51.93   1.16
+2025   65.84   55.34   1.19
+2026   81.19   68.89   1.18
+7-day max/min price ratio: median 1.59, share>1.111: 0.99, share>1.5: 0.56
+h 1 sd of k-day change in asinh price 0.189
+h 7 sd of k-day change in asinh price 0.264
+h 28 sd of k-day change in asinh price 0.328
+h 91 sd of k-day change in asinh price 0.389
+D_GWh R2 calendar(dow+annual) 0.78 | +year effects 0.80 | year only 0.02
+G_GWh R2 calendar(dow+annual) 0.51 | +year effects 0.67 | year only 0.15
+renewable_GWh R2 calendar(dow+annual) 0.13 | +year effects 0.37 | year only 0.22
+other_GWh R2 calendar(dow+annual) 0.17 | +year effects 0.37 | year only 0.20
+p R2 calendar(dow+annual) 0.05 | +year effects 0.55 | year only 0.50
+S R2 calendar(dow+annual) 0.04 | +year effects 0.34 | year only 0.31
+wind_farm_GWh R2 calendar(dow+annual) 0.16 | +year effects 0.17 | year only 0.01

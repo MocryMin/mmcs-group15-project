@@ -1,0 +1,8 @@
+full-period perfect foresight value per MWh usable over 2 years: £3046 (1523 per year)
+perfect   realised £    3046  share of full-PF  1.00  mean Kendall tau (next 7d)   nan  full cycles/yr  65.5
+ridge     realised £     976  share of full-PF  0.32  mean Kendall tau (next 7d)  0.20  full cycles/yr  26.5
+hgb       realised £    1082  share of full-PF  0.36  mean Kendall tau (next 7d)  0.13  full cycles/yr  35.5
+lvlwd     realised £    1221  share of full-PF  0.40  mean Kendall tau (next 7d)  0.19  full cycles/yr  48.5
+lvlwd05   realised £    1287  share of full-PF  0.42  mean Kendall tau (next 7d)  0.19  full cycles/yr  39.5
+sn7       realised £     684  share of full-PF  0.22  mean Kendall tau (next 7d)  0.02  full cycles/yr  42.5
+pers      realised £       0  share of full-PF  0.00  mean Kendall tau (next 7d)   nan  full cycles/yr   0.0
