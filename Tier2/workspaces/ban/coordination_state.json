@@ -1,6 +1,31 @@
 {
   "member": "ban",
-  "seen_message_ids": [],
+  "seen_message_ids": [
+    "d000f731b5e84c8091b877d464b3536a",
+    "9a14b411d65745efa6caec11dd8a8d69",
+    "6e5538392d904dc2b395b7e4fff01bde",
+    "f5bee2e6ae1c4cee93a6ba845d0b07cc",
+    "3c584488cd574978828f7db7c13a4508",
+    "3d77da4be9d04bc4b5ebf9aa0a098071",
+    "b67a62ab169549cb9d529e0f31df4f85",
+    "3b77fdb2e6c14407b396355bd9e8ebc7",
+    "6a4ccd82b6e44940bb6ab197f5917096",
+    "518474555d0846daa57c87cbb00d03c8",
+    "dae4814d979249528f8f10018b2def4f",
+    "d08dbf95069148cc8dbb939cb54d67f3",
+    "3418b09a254d45d08ebc24a6766bcf14",
+    "ceb9095432fb43048540c0688b466c8c",
+    "96c75497a7914d15831bd5911ec7ab2e",
+    "812e2d52445148998650f5fb876a211f",
+    "e6f0092055334b96a14537502a2b141c",
+    "14fecd9ec87a4305aefc33af457ead67",
+    "c5f0b466d6674241a518a507f3220597",
+    "262f86b7d29340d4bb52b216d70f44db",
+    "bfd098a124ae49268ac9edfb7ec131db",
+    "1bff0d2d1ba0416fa541b818d5c2012f",
+    "9446a4d0764142889e162cf3fb692581",
+    "dae4cde5c3484f63b1d254e78cc6433e"
+  ],
   "tasks": [],
-  "handoff": ""
+  "handoff": "Registration commit 31ef0cb is LOCAL ONLY; push blocked on GitHub credentials (HTTPS remote, no usable credential). Next: human sets up auth (gh/PAT/SSH), then run 'python3 tools/collab.py push'."
 }
