@@ -27,5 +27,5 @@
     "dae4cde5c3484f63b1d254e78cc6433e"
   ],
   "tasks": [],
-  "handoff": "Registration commit 31ef0cb is LOCAL ONLY; push blocked on GitHub credentials (HTTPS remote, no usable credential). Next: human sets up auth (gh/PAT/SSH), then run 'python3 tools/collab.py push'."
+  "handoff": "Registration (31ef0cb) + Tier1/Tier2 workspace checkpoints (bc836cd, eedc0cf) are LOCAL ONLY. gh auth OK as Ban123729, but GitHub returned 403: Ban123729 is not a collaborator on MocryMin/mmcs-group15-project. Next: Ban asks Ran Min (MocryMin) to add GitHub account Ban123729 as a collaborator with write access; then run 'python3 tools/collab.py push'."
 }
