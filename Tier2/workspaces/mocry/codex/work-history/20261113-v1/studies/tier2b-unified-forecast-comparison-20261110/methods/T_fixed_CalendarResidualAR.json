@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_CalendarResidualAR",
+  "label": "日历回归+残差AR",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "CalendarResidualAR",
+      "validation_loss": 0.15141412200277404
+    },
+    "demand_MW": {
+      "candidate": "CalendarResidualAR",
+      "validation_loss": 0.07905169341755679
+    },
+    "price_GBP_MWh": {
+      "candidate": "CalendarResidualAR",
+      "validation_loss": 0.10956441240815948
+    }
+  },
+  "parameters_total": 48,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_CalendarResidualAR.npz",
+  "prediction_sha256": "f6b39881a22466da5c5321c13257b6c7400ba9908b89a1e86ed96fee0410c415",
+  "seeds": [
+    "det"
+  ]
+}

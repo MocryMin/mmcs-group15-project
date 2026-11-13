@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "66_unique_fits": true,
+    "198_complete_case_split_metrics": true,
+    "42_single_seed_screen": true,
+    "frozen_sources": true,
+    "frozen_reference_files": true,
+    "frozen_input": true,
+    "same_train_only_scalers": true,
+    "split_dates_disjoint": true,
+    "next_day_only": true,
+    "sample_counts": true,
+    "pre2022_history_not_labels": true,
+    "no_post_august2026_targets": true,
+    "validation_only_screen_selection": true,
+    "metadata_recovery_numeric_training_unchanged": true,
+    "cuda_and_parameter_preflight": true,
+    "all_steps_full_three_sets": true,
+    "correct_batches_and_samples_seen": true,
+    "validation_only_checkpoints": true,
+    "full_epoch_early_stopping": true,
+    "correct_parameter_counts_and_metadata": true,
+    "all_predictions_cover_complete_splits": true,
+    "initial_persistence": true,
+    "case_signatures_unchanged": true,
+    "checkpoint_replay": true,
+    "independent_metric_calculation": true,
+    "full_log_loss_recalculation": true,
+    "selected_transformer_cpu_cuda_match": true,
+    "recovered_checkpoints_numeric_weights_unchanged": true
+  },
+  "all_passed": true,
+  "optimizer_steps": 53010,
+  "evaluation_rows": 53076,
+  "full_split_losses": 159228,
+  "max_normalised_checkpoint_prediction_difference": 0.0,
+  "max_independent_loss_difference": 9.71445146547012e-17,
+  "max_raw_prediction_loss_vs_log_difference": 4.819998122851388e-09,
+  "selected_cpu_cuda_replay": [
+    {
+      "run": "generation_MW_Transformer_L7_lr0.001_s17",
+      "max_normalised_prediction_difference": 2.384185791015625e-07
+    },
+    {
+      "run": "demand_MW_Transformer_L7_lr0.001_s17",
+      "max_normalised_prediction_difference": 2.384185791015625e-07
+    },
+    {
+      "run": "price_GBP_MWh_Transformer_L182_lr0.001_s17",
+      "max_normalised_prediction_difference": 2.980232238769531e-07
+    }
+  ],
+  "cross_backend_check_performed": true,
+  "test_is_monitored_not_blind": true,
+  "data_vintage_audited": false
+}

@@ -1,0 +1,16 @@
+{
+  "all_passed": true,
+  "candidates": 61,
+  "input_hash": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "same_target_dates_scalers_and_base_history_features": true,
+  "causal_history_features": true,
+  "fit_coefficients_only_train": true,
+  "val_only_model_selection": true,
+  "test_is_monitored_not_blind": true,
+  "linear_models_are_deterministic": true,
+  "neural_context_not_random_repetitions": false,
+  "max_normalisation_roundtrip_error": 1.3322676295501878e-15,
+  "calendar_extra_representation_explicit": true,
+  "bank_holidays_added": false,
+  "rolling_refit": false
+}

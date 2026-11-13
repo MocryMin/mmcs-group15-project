@@ -1,0 +1,78 @@
+{
+  "row": {
+    "run": "generation_MW_RNN_L14_lr0.003_s17",
+    "target": "generation_MW",
+    "family": "RNN",
+    "lookback": 14,
+    "lr": 0.003,
+    "seed": 17,
+    "stage": "baseline_confirmation",
+    "device": "cpu",
+    "eval_batch": 2048,
+    "parameters": 5373,
+    "best_epoch": 11,
+    "best_step": 196,
+    "epochs": 26,
+    "steps": 468,
+    "best_train_loss": 0.1190357400404332,
+    "best_validation_loss": 0.143322908249838,
+    "test_loss_at_val_checkpoint": 0.19223475825629,
+    "last_train_loss": 0.1153183677305829,
+    "last_validation_loss": 0.1674513482654335,
+    "last_test_loss": 0.1946607550083464,
+    "seconds": 4.25,
+    "checkpoint": "checkpoints/generation_MW_RNN_L14_lr0.003_s17.pt",
+    "step_log": "step_logs/generation_MW_RNN_L14_lr0.003_s17.csv",
+    "metadata_recovered": true
+  },
+  "metrics": [
+    {
+      "target": "generation_MW",
+      "family": "RNN",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "train",
+      "loss": 0.11903574088663853,
+      "MSE": 3266064.6099023917,
+      "RMSE": 1807.2256665680663,
+      "MAE": 1374.6854271362358
+    },
+    {
+      "target": "generation_MW",
+      "family": "RNN",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "validation",
+      "loss": 0.143322907249374,
+      "MSE": 3932448.117421231,
+      "RMSE": 1983.0401199726725,
+      "MAE": 1458.4587172167332
+    },
+    {
+      "target": "generation_MW",
+      "family": "RNN",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "test",
+      "loss": 0.19223475850394836,
+      "MSE": 5274475.857976142,
+      "RMSE": 2296.6227069277493,
+      "MAE": 1792.4249833909278
+    }
+  ],
+  "signature": {
+    "model.py": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+    "fit_core.py": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  },
+  "original_training_fit_core_sha256": "b1453e01e630c51df0a7e9cf320e2dc4cee4d759ffb4e308872783a7906f2cad",
+  "numeric_state_sha256": "fdaea8f6b71ae77d74112138ede86e034c437af9a122332213d79d0a8f3a84c2"
+}

@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "generation_MW_RNN_2000_price_robust_s17",
+    "target": "generation_MW",
+    "family": "RNN",
+    "budget": 2000,
+    "parameters": 1999,
+    "features": 14,
+    "groups": "price_robust",
+    "seed": 17,
+    "epoch": 26,
+    "step": 461,
+    "batch_loss": 0.06618838012218475,
+    "train_loss": 0.09515974675627192,
+    "validation_loss": 0.145768158111193,
+    "test_loss": 0.19720183186561133,
+    "best_validation": 0.145768158111193,
+    "improved": true,
+    "seconds": 1.4839999999967404,
+    "epochs_ran": 41,
+    "updates": 738,
+    "wall_seconds": 2.3589999999967404,
+    "device": "cuda",
+    "lookback": 14,
+    "lr": 0.003,
+    "checkpoint": "models/generation_MW_RNN_2000_price_robust_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.09515974758356342,
+      "MSE": 2610962.737367289,
+      "MAE": 1224.0130970349653,
+      "RMSE": 1615.8473744036871
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.1457681577372607,
+      "MSE": 3999540.118708803,
+      "MAE": 1478.231631048473,
+      "RMSE": 1999.8850263724669
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.19720183058573798,
+      "MSE": 5410760.794082995,
+      "MAE": 1780.3370791833252,
+      "RMSE": 2326.1042096352853
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

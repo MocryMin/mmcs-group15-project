@@ -1,0 +1,42 @@
+{
+  "all_passed": true,
+  "unique_fits": 12,
+  "joint_outputs": 3,
+  "new_small_controls": true,
+  "same_current_data_splits_scalers_features": true,
+  "frozen_previous_joint_windows_lr": true,
+  "parameter_counts_and_formulas_verified": true,
+  "one_joint_val_checkpoint_for_all_targets": true,
+  "validation_only_selection_and_stopping": true,
+  "every_step_full_three_sets_and_components": true,
+  "optimizer_updates": 10548,
+  "evaluation_rows": 10560,
+  "max_normalised_replay_prediction_difference": 0.0,
+  "max_relative_metric_difference": 2.5375295626363215e-16,
+  "max_prediction_vs_log_loss_difference": 3.2667148708309668e-09,
+  "max_joint_vs_mean_components_difference": 1.1102230246251565e-16,
+  "cpu_cuda_replay": [
+    {
+      "family": "RNN",
+      "budget": "small",
+      "max_normalised_prediction_difference": 2.6226043701171875e-06
+    },
+    {
+      "family": "RNN",
+      "budget": "large",
+      "max_normalised_prediction_difference": 2.682209014892578e-06
+    },
+    {
+      "family": "LSTM",
+      "budget": "small",
+      "max_normalised_prediction_difference": 2.5033950805664062e-06
+    },
+    {
+      "family": "LSTM",
+      "budget": "large",
+      "max_normalised_prediction_difference": 2.086162567138672e-06
+    }
+  ],
+  "test_is_monitored_not_blind": true,
+  "MPC_evaluated": false
+}

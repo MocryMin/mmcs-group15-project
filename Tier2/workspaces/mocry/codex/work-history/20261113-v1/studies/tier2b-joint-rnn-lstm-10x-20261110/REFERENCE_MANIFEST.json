@@ -1,0 +1,7 @@
+{
+  "reference/PROTOCOL.json": "3c884c7dcf27e59ebac9dcfded8913e4aad3b455c4500bbbe57da9bc18af7520",
+  "reference/run_nextday.py": "c967300919f501f97730ebf0860e46ff5e57685868de7082748384e5e7845014",
+  "reference/scalers.json": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+  "reference/splits.csv": "996e638da27bb6c0a683fd01d6974f092c2739fbce63fd048842ce73ab841e06",
+  "reference/results/SELECTION_FROZEN.json": "7885a0f661a7bc2d3fcb83348427248a8a975a643b3d9869aa78bff1e7941444"
+}

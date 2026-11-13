@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_RidgeLevel",
+  "label": "岭回归 水平",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "RidgeLevel_L14_a100",
+      "validation_loss": 0.1457030715858704
+    },
+    "demand_MW": {
+      "candidate": "RidgeLevel_L7_a10",
+      "validation_loss": 0.08764614623549725
+    },
+    "price_GBP_MWh": {
+      "candidate": "RidgeLevel_L28_a100",
+      "validation_loss": 0.09743390473903173
+    }
+  },
+  "parameters_total": 395,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_RidgeLevel.npz",
+  "prediction_sha256": "5f8b5d35dac74419ffbe8d7715d5651909e13e90392f0db4ee79f54c366e68f0",
+  "seeds": [
+    "det"
+  ]
+}

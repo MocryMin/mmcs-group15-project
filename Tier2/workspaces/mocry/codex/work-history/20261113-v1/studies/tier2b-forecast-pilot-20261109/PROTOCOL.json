@@ -1,0 +1,102 @@
+{
+  "horizon_days": 7,
+  "lookbacks": [
+    28,
+    56
+  ],
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "train_cutoff": "2022-12-31",
+  "splits": {
+    "train": {
+      "start": "2020-01-01",
+      "end": "2022-12-31",
+      "samples": 1034,
+      "first_origin": "2020-02-25",
+      "last_origin": "2022-12-24"
+    },
+    "validation": {
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "samples": 359,
+      "first_origin": "2022-12-31",
+      "last_origin": "2023-12-24"
+    },
+    "test": {
+      "start": "2024-01-01",
+      "end": "2025-12-31",
+      "samples": 725,
+      "first_origin": "2023-12-31",
+      "last_origin": "2025-12-24"
+    }
+  },
+  "inputs": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh",
+    "weekday_sin",
+    "weekday_cos",
+    "year_sin",
+    "year_cos",
+    "weekend"
+  ],
+  "price_units": "nominal GBP/MWh; no full-month CPI adjustment in forecast inputs",
+  "supply": "daily_generation_total + independent wind_farm_generation; daily mean MW",
+  "validation_criterion": "mean validation squared error after train-only target standardisation; equal target/horizon weights; average across three seeds",
+  "models": "one-layer tanh RNN(64) vs one-layer LSTM(32), matched linear residual readout; 0.1 final-state dropout",
+  "training": {
+    "optimizer": "AdamW",
+    "batch_size": 64,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "max_epochs": 120,
+    "early_stopping": 15
+  },
+  "evaluation": "Fixed weights after training; forecast origins roll daily with newly observed history. All forecast targets stay inside their split; no refit after validation.",
+  "limitations": [
+    "Frozen retrospectively repaired dataset. Source reconstruction/publication vintages were not re-created, so this is not an audited real-time data-vintage backtest.",
+    "Strict-target metrics exclude estimated/reconstructed target dates but retain the same calendar and input windows; they do not remove all reconstruction influence in inputs.",
+    "2026 partial year unused. No external data, fuel-disaggregated covariates or MPC profit experiment in this pilot."
+  ],
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "CPU",
+    "threads": 2
+  },
+  "input_hashes": {
+    "daily_generation_total.csv": {
+      "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_generation_total.csv"
+    },
+    "daily_demand.csv": {
+      "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_demand.csv"
+    },
+    "wind_farm_generation.csv": {
+      "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\wind_farm_generation.csv"
+    },
+    "daily_market_index_price.csv": {
+      "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_market_index_price.csv"
+    },
+    "date_quality.csv": {
+      "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\date_quality.csv"
+    }
+  },
+  "script_sha256": "7397ead87efc116cbc003de858b87e0d9d6542d7d7fd597e08c13aa182973b14",
+  "training_script_sha256": "3788627ece407f74d21251c541c31d3723ca724b636d58430d5a76b180485416",
+  "evaluation_note": "Only quality-label parsing changed after training; numeric input features, targets, models, validation selection and saved weights unchanged."
+}

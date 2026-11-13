@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "42_complete_cases": true,
+    "126_case_split_metrics": true,
+    "source_code_config_unchanged": true,
+    "frozen_baseline_files": true,
+    "frozen_input": true,
+    "same_train_only_scalers_as_plain": true,
+    "preflight_attention_math_and_gradients": true,
+    "fixed_seed_and_parameters": true,
+    "fixed_samples": true,
+    "validation_only_grid_selection": true,
+    "every_step_full_three_sets": true,
+    "all_batch_counts": true,
+    "validation_only_checkpoints": true,
+    "early_stop_15_full_epochs": true,
+    "single_target_heads_and_real_window_shapes": true,
+    "epoch_zero_persistence": true,
+    "attention_weights_normalised": true,
+    "checkpoint_replay": true,
+    "independent_losses": true,
+    "attention_profiles_replay": true
+  },
+  "all_passed": true,
+  "optimizer_steps": 35064,
+  "evaluation_rows": 35106,
+  "full_split_losses": 105318,
+  "max_prediction_difference": 0.0,
+  "max_normalised_loss_difference": 1.7574465549508034e-08,
+  "max_profile_difference": 0.0,
+  "test_is_monitored_not_blind": true,
+  "data_vintage_audited": false
+}

@@ -1,0 +1,553 @@
+{
+  "protocol": {
+    "forecast_horizon": 1,
+    "targets": [
+      "generation_MW",
+      "demand_MW",
+      "price_GBP_MWh"
+    ],
+    "loss": "Mean next-day squared error over three variables standardised with training mean/std; no other horizon in loss",
+    "reported_train_validation_loss": "Both evaluated on the complete respective sample set in model.eval(), without dropout, and without adding a weight penalty. AdamW decay affects fitting only.",
+    "periods": {
+      "train": [
+        "2020-01-01",
+        "2022-12-31"
+      ],
+      "validation": [
+        "2023-01-01",
+        "2023-12-31"
+      ]
+    },
+    "sample_counts": {
+      "train": 1040,
+      "validation": 365
+    },
+    "lookbacks": [
+      28,
+      56
+    ],
+    "learning_rates": [
+      0.001,
+      0.003
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "validation_selection": "Mean next-day validation loss across three seeds; best-validation checkpoint per seed; initial persistence checkpoint eligible",
+    "training": {
+      "max_epochs": 120,
+      "early_stopping_patience": 15,
+      "optimizer": "AdamW",
+      "batch_size": 64,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "dropout": 0.1
+    },
+    "architectures": {
+      "RNN": "one-layer tanh RNN, hidden 68, residual linear next-day output, 5511 parameters",
+      "LSTM": "one-layer LSTM, hidden 32, identical residual readout, 5475 parameters"
+    },
+    "inputs": "three target-series histories and weekday sin/cos, annual sin/cos, weekend; total generation includes independent farm",
+    "price_units": "nominal GBP/MWh; no monthly CPI feature",
+    "test_evaluated_this_experiment": false,
+    "Ridge_fitted": false,
+    "source_data": "Frozen reconstructed dataset; data-vintage causal audit not performed",
+    "script_sha256": "c967300919f501f97730ebf0860e46ff5e57685868de7082748384e5e7845014",
+    "torch": "2.15.0+cpu",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "device": "CPU, two threads"
+  },
+  "selected": {
+    "RNN": {
+      "family": "RNN",
+      "lookback": 28,
+      "lr": 0.003,
+      "mean": 0.1243976789227662,
+      "std": 0.001901903390759823
+    },
+    "LSTM": {
+      "family": "LSTM",
+      "lookback": 56,
+      "lr": 0.003,
+      "mean": 0.1307924816522649,
+      "std": 0.0013579766079259824
+    }
+  },
+  "metrics": {
+    "train": {
+      "Persistence": {
+        "loss": 0.26213194521109145,
+        "targets": {
+          "generation_MW": {
+            "MSE": 5021041.6412086645,
+            "RMSE": 2240.7680917954594,
+            "MAE": 1651.3332307824328,
+            "standardised_MSE": 0.3631132222960288,
+            "strict_target_MSE": 4751712.6099446295
+          },
+          "demand_MW": {
+            "MSE": 4192096.358653846,
+            "RMSE": 2047.4609541219208,
+            "MAE": 1520.8701923076924,
+            "standardised_MSE": 0.2509529063406389,
+            "strict_target_MSE": 4030368.749333333
+          },
+          "price_GBP_MWh": {
+            "MSE": 1551.4370293221364,
+            "RMSE": 39.388285432627505,
+            "MAE": 20.98726933375092,
+            "standardised_MSE": 0.1723297069966065,
+            "strict_target_MSE": 1312.1528099880493
+          }
+        }
+      },
+      "RNN_seed17": {
+        "loss": 0.11706738490312334,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1708449.8729998318,
+            "RMSE": 1307.07684280605,
+            "MAE": 1010.5443003457818,
+            "standardised_MSE": 0.1235521994927883,
+            "strict_target_MSE": 1553602.6955893382
+          },
+          "demand_MW": {
+            "MSE": 1307336.8913588778,
+            "RMSE": 1143.3883379494814,
+            "MAE": 899.8329306302074,
+            "standardised_MSE": 0.07826155803303113,
+            "strict_target_MSE": 1226327.933027688
+          },
+          "price_GBP_MWh": {
+            "MSE": 1344.9027168960893,
+            "RMSE": 36.67291530402361,
+            "MAE": 20.651604243274093,
+            "standardised_MSE": 0.14938839718355057,
+            "strict_target_MSE": 1120.0174189344343
+          }
+        }
+      },
+      "RNN_seed29": {
+        "loss": 0.10452111017264376,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1520581.464055853,
+            "RMSE": 1233.1185928595241,
+            "MAE": 953.7300378104031,
+            "standardised_MSE": 0.10996587453993352,
+            "strict_target_MSE": 1400086.6092126206
+          },
+          "demand_MW": {
+            "MSE": 1136479.7022561817,
+            "RMSE": 1066.0580201171895,
+            "MAE": 842.688621247344,
+            "standardised_MSE": 0.0680334753492919,
+            "strict_target_MSE": 1110639.6119200168
+          },
+          "price_GBP_MWh": {
+            "MSE": 1220.4452909202973,
+            "RMSE": 34.93487213258834,
+            "MAE": 20.36157676581868,
+            "standardised_MSE": 0.13556398062870584,
+            "strict_target_MSE": 965.4099831001921
+          }
+        }
+      },
+      "RNN_seed43": {
+        "loss": 0.11594341783065693,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1692541.9279851245,
+            "RMSE": 1300.9772972596888,
+            "MAE": 1004.0751237811252,
+            "standardised_MSE": 0.12240176386863603,
+            "strict_target_MSE": 1547213.389992888
+          },
+          "demand_MW": {
+            "MSE": 1251199.6644330241,
+            "RMSE": 1118.570366330623,
+            "MAE": 878.9349685834724,
+            "standardised_MSE": 0.07490099590714747,
+            "strict_target_MSE": 1170987.685272221
+          },
+          "price_GBP_MWh": {
+            "MSE": 1355.1576901766964,
+            "RMSE": 36.8124665049314,
+            "MAE": 20.43639521493096,
+            "standardised_MSE": 0.1505274937161873,
+            "strict_target_MSE": 1118.6423314537835
+          }
+        }
+      },
+      "RNN_ensemble": {
+        "loss": 0.10976978003294731,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1599136.4955106853,
+            "RMSE": 1264.5696878822794,
+            "MAE": 976.7748027658492,
+            "standardised_MSE": 0.11564684128695768,
+            "strict_target_MSE": 1462523.135930658
+          },
+          "demand_MW": {
+            "MSE": 1191530.1918718182,
+            "RMSE": 1091.5723484367943,
+            "MAE": 859.5997856816698,
+            "standardised_MSE": 0.07132898174575159,
+            "strict_target_MSE": 1134463.8926998873
+          },
+          "price_GBP_MWh": {
+            "MSE": 1281.3895685112545,
+            "RMSE": 35.79650218263308,
+            "MAE": 19.953029750402326,
+            "standardised_MSE": 0.1423335170661327,
+            "strict_target_MSE": 1044.5662575464314
+          }
+        }
+      },
+      "LSTM_seed17": {
+        "loss": 0.11561179537847599,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1635678.654033944,
+            "RMSE": 1278.9365324494972,
+            "MAE": 1000.5342911206665,
+            "standardised_MSE": 0.11828950826309506,
+            "strict_target_MSE": 1489598.6046444024
+          },
+          "demand_MW": {
+            "MSE": 1256445.5438513325,
+            "RMSE": 1120.9128172392948,
+            "MAE": 869.0754423085175,
+            "standardised_MSE": 0.07521503179127484,
+            "strict_target_MSE": 1167548.778355468
+          },
+          "price_GBP_MWh": {
+            "MSE": 1380.395501700301,
+            "RMSE": 37.15367413460345,
+            "MAE": 20.219299758686297,
+            "standardised_MSE": 0.1533308460810581,
+            "strict_target_MSE": 1157.4216460930884
+          }
+        }
+      },
+      "LSTM_seed29": {
+        "loss": 0.11439712806927617,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1603924.1395321854,
+            "RMSE": 1266.461266495026,
+            "MAE": 994.4532483906038,
+            "standardised_MSE": 0.11599307558893705,
+            "strict_target_MSE": 1459079.705540837
+          },
+          "demand_MW": {
+            "MSE": 1236698.7894627291,
+            "RMSE": 1112.0695974005985,
+            "MAE": 868.039314018842,
+            "standardised_MSE": 0.07403292504070241,
+            "strict_target_MSE": 1144143.234282106
+          },
+          "price_GBP_MWh": {
+            "MSE": 1378.905888223964,
+            "RMSE": 37.13362207250949,
+            "MAE": 20.403984116021,
+            "standardised_MSE": 0.15316538357818904,
+            "strict_target_MSE": 1155.3174249853075
+          }
+        }
+      },
+      "LSTM_seed43": {
+        "loss": 0.09663223759857664,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1383639.6255361973,
+            "RMSE": 1176.2821198743936,
+            "MAE": 912.0776687773856,
+            "standardised_MSE": 0.1000624728545325,
+            "strict_target_MSE": 1268644.4111685816
+          },
+          "demand_MW": {
+            "MSE": 1069912.2813953112,
+            "RMSE": 1034.365642021868,
+            "MAE": 814.7334646812832,
+            "standardised_MSE": 0.06404852693603541,
+            "strict_target_MSE": 1035883.3659614538
+          },
+          "price_GBP_MWh": {
+            "MSE": 1132.4142326763094,
+            "RMSE": 33.651363013647895,
+            "MAE": 18.904659403565073,
+            "standardised_MSE": 0.12578571300516203,
+            "strict_target_MSE": 891.3617808346911
+          }
+        }
+      },
+      "LSTM_ensemble": {
+        "loss": 0.10631598566648354,
+        "targets": {
+          "generation_MW": {
+            "MSE": 1508021.8054614915,
+            "RMSE": 1228.0153930067372,
+            "MAE": 959.3729275518374,
+            "standardised_MSE": 0.10905758131533504,
+            "strict_target_MSE": 1374865.2244579229
+          },
+          "demand_MW": {
+            "MSE": 1154899.3431281373,
+            "RMSE": 1074.6624321749307,
+            "MAE": 839.5316187624024,
+            "standardised_MSE": 0.06913613664690872,
+            "strict_target_MSE": 1086010.438779714
+          },
+          "price_GBP_MWh": {
+            "MSE": 1267.171762096028,
+            "RMSE": 35.59735611103763,
+            "MAE": 19.288037952473015,
+            "standardised_MSE": 0.14075423903720685,
+            "strict_target_MSE": 1038.107962929219
+          }
+        }
+      }
+    },
+    "validation": {
+      "Persistence": {
+        "loss": 0.24375743574493303,
+        "targets": {
+          "generation_MW": {
+            "MSE": 6330208.255822296,
+            "RMSE": 2515.9905118704833,
+            "MAE": 1995.527842041737,
+            "standardised_MSE": 0.45778993321060046,
+            "strict_target_MSE": 7093611.733193495
+          },
+          "demand_MW": {
+            "MSE": 3824052.8520547943,
+            "RMSE": 1955.5185634646361,
+            "MAE": 1513.4,
+            "standardised_MSE": 0.22892059130327866,
+            "strict_target_MSE": 4091221.2321428573
+          },
+          "price_GBP_MWh": {
+            "MSE": 401.177492904366,
+            "RMSE": 20.029415690537903,
+            "MAE": 14.28755833007779,
+            "standardised_MSE": 0.044561782720919964,
+            "strict_target_MSE": 398.9046312575873
+          }
+        }
+      },
+      "RNN_seed17": {
+        "loss": 0.12619571756353395,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3415776.4841310172,
+            "RMSE": 1848.1819402134133,
+            "MAE": 1427.6133287191792,
+            "standardised_MSE": 0.24702316659083626,
+            "strict_target_MSE": 3563502.531251341
+          },
+          "demand_MW": {
+            "MSE": 1501251.2571954587,
+            "RMSE": 1225.2555885183542,
+            "MAE": 964.9148643379334,
+            "standardised_MSE": 0.08986992041893738,
+            "strict_target_MSE": 1521375.1981948698
+          },
+          "price_GBP_MWh": {
+            "MSE": 375.3602238846721,
+            "RMSE": 19.37421543920352,
+            "MAE": 14.025066865285064,
+            "standardised_MSE": 0.041694065680828216,
+            "strict_target_MSE": 383.1614274688548
+          }
+        }
+      },
+      "RNN_seed29": {
+        "loss": 0.12459068949781245,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3301840.300708662,
+            "RMSE": 1817.0966679592646,
+            "MAE": 1402.7498482733354,
+            "standardised_MSE": 0.23878349489421916,
+            "strict_target_MSE": 3416414.423600999
+          },
+          "demand_MW": {
+            "MSE": 1511500.6645753945,
+            "RMSE": 1229.4310328665836,
+            "MAE": 959.408237877975,
+            "standardised_MSE": 0.09048348421857533,
+            "strict_target_MSE": 1532109.0268118815
+          },
+          "price_GBP_MWh": {
+            "MSE": 400.66709833018183,
+            "RMSE": 20.01667051060645,
+            "MAE": 15.255555418153737,
+            "standardised_MSE": 0.04450508938064289,
+            "strict_target_MSE": 405.0286354576156
+          }
+        }
+      },
+      "RNN_seed43": {
+        "loss": 0.12240662970695215,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3331206.8027822627,
+            "RMSE": 1825.1593910621239,
+            "MAE": 1407.245294852088,
+            "standardised_MSE": 0.24090723055655502,
+            "strict_target_MSE": 3393786.721725977
+          },
+          "demand_MW": {
+            "MSE": 1404275.1206893579,
+            "RMSE": 1185.0211477814892,
+            "MAE": 930.9874804651939,
+            "standardised_MSE": 0.0840646046008374,
+            "strict_target_MSE": 1449212.1753454464
+          },
+          "price_GBP_MWh": {
+            "MSE": 380.3476282647462,
+            "RMSE": 19.502503128181935,
+            "MAE": 14.37862471141381,
+            "standardised_MSE": 0.04224805396346402,
+            "strict_target_MSE": 381.5816099396254
+          }
+        }
+      },
+      "RNN_ensemble": {
+        "loss": 0.1221235658883728,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3316442.9653503485,
+            "RMSE": 1821.1103660542785,
+            "MAE": 1402.071307969,
+            "standardised_MSE": 0.2398395348538628,
+            "strict_target_MSE": 3423993.930656315
+          },
+          "demand_MW": {
+            "MSE": 1428327.4266914132,
+            "RMSE": 1195.1265316657534,
+            "MAE": 933.2953263473856,
+            "standardised_MSE": 0.08550445606869544,
+            "strict_target_MSE": 1458224.641149109
+          },
+          "price_GBP_MWh": {
+            "MSE": 369.3521746242004,
+            "RMSE": 19.218537265468473,
+            "MAE": 14.174035413538727,
+            "standardised_MSE": 0.04102670674256009,
+            "strict_target_MSE": 373.3059805369021
+          }
+        }
+      },
+      "LSTM_seed17": {
+        "loss": 0.13124952395060374,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3507490.3377060746,
+            "RMSE": 1872.8295004367255,
+            "MAE": 1433.5414327616675,
+            "standardised_MSE": 0.2536557570532425,
+            "strict_target_MSE": 3628843.2092252355
+          },
+          "demand_MW": {
+            "MSE": 1624357.7792204714,
+            "RMSE": 1274.5029537904065,
+            "MAE": 999.6190590833282,
+            "standardised_MSE": 0.09723948849384331,
+            "strict_target_MSE": 1666856.9587332772
+          },
+          "price_GBP_MWh": {
+            "MSE": 385.79672894171705,
+            "RMSE": 19.641708910930255,
+            "MAE": 14.143794862740604,
+            "standardised_MSE": 0.04285332630472539,
+            "strict_target_MSE": 391.3199506051082
+          }
+        }
+      },
+      "LSTM_seed29": {
+        "loss": 0.13186297348256143,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3509269.617892306,
+            "RMSE": 1873.3044648140637,
+            "MAE": 1440.2147736335,
+            "standardised_MSE": 0.25378443158095154,
+            "strict_target_MSE": 3635314.0346611873
+          },
+          "demand_MW": {
+            "MSE": 1632012.7074444944,
+            "RMSE": 1277.502527373036,
+            "MAE": 1003.2404019830464,
+            "standardised_MSE": 0.0976977380953063,
+            "strict_target_MSE": 1666631.5603845285
+          },
+          "price_GBP_MWh": {
+            "MSE": 397.08096521757096,
+            "RMSE": 19.926890505484568,
+            "MAE": 14.395345542220536,
+            "standardised_MSE": 0.04410675077142645,
+            "strict_target_MSE": 404.40353001802964
+          }
+        }
+      },
+      "LSTM_seed43": {
+        "loss": 0.12926494752362952,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3450412.671700861,
+            "RMSE": 1857.5286462665551,
+            "MAE": 1430.257441655784,
+            "standardised_MSE": 0.24952799697768563,
+            "strict_target_MSE": 3538966.111935543
+          },
+          "demand_MW": {
+            "MSE": 1489843.8603710758,
+            "RMSE": 1220.5916026136981,
+            "MAE": 957.1725746888023,
+            "standardised_MSE": 0.0891870354988543,
+            "strict_target_MSE": 1531817.3873868056
+          },
+          "price_GBP_MWh": {
+            "MSE": 441.85205267000373,
+            "RMSE": 21.02027717871493,
+            "MAE": 15.714185090578274,
+            "standardised_MSE": 0.04907981009434866,
+            "strict_target_MSE": 450.23811901429235
+          }
+        }
+      },
+      "LSTM_ensemble": {
+        "loss": 0.12861939305336398,
+        "targets": {
+          "generation_MW": {
+            "MSE": 3457924.397916411,
+            "RMSE": 1859.5495147794293,
+            "MAE": 1426.147818238337,
+            "standardised_MSE": 0.25007123228741657,
+            "strict_target_MSE": 3570947.1948335636
+          },
+          "demand_MW": {
+            "MSE": 1557918.1144460677,
+            "RMSE": 1248.1659002096108,
+            "MAE": 980.5528781770358,
+            "standardised_MSE": 0.0932621879871373,
+            "strict_target_MSE": 1598042.7067995407
+          },
+          "price_GBP_MWh": {
+            "MSE": 382.83872669335227,
+            "RMSE": 19.566265016434595,
+            "MAE": 14.285635159815447,
+            "standardised_MSE": 0.042524758885538076,
+            "strict_target_MSE": 390.3790395744245
+          }
+        }
+      }
+    }
+  },
+  "training_seconds": 70.85700000001816
+}

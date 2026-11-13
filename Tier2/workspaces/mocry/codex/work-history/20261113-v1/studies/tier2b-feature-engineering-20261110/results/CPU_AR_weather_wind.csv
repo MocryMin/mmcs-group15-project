@@ -1,0 +1,10 @@
+target,family,groups,features,parameter,transform,split,loss,MAE,RMSE
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.13495933633508203,1471.0727823231753,1924.3105601757616
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1899112665529772,1710.8087594613414,2282.7011693398676
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2124057541769605,1892.8278957240736,2414.10877754127
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.08901516910456853,921.5859301961628,1194.401763764363
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.08851488172564122,965.5865261734822,1191.040617073871
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.11185457124461656,1048.6938929271814,1338.8912216417948
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.15047726854761934,22.90429012848621,30.992487527037
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.11008756272329177,17.65814223285185,26.508802764065308
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.07430357278243119,16.97033171935834,21.778393161219295

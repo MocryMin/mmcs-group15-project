@@ -1,0 +1,11 @@
+{
+  "name": "mmcs-energy-data-explorer",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Maintained static MMCS energy data and official NESO demand comparison app",
+  "scripts": {
+    "build": "python rebuild.py",
+    "check": "python check.py",
+    "preview": "python preview_server.py"
+  }
+}

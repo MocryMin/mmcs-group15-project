@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_CalendarOLS",
+  "label": "日历回归",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "CalendarOLS",
+      "validation_loss": 0.41129704603213363
+    },
+    "demand_MW": {
+      "candidate": "CalendarOLS",
+      "validation_loss": 0.24071107052314178
+    },
+    "price_GBP_MWh": {
+      "candidate": "CalendarOLS",
+      "validation_loss": 0.3988406798503818
+    }
+  },
+  "parameters_total": 42,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_CalendarOLS.npz",
+  "prediction_sha256": "f95773edf0dfff870a6dc76520d081a2f1877c67819f18c15296aa8193922ac9",
+  "seeds": [
+    "det"
+  ]
+}

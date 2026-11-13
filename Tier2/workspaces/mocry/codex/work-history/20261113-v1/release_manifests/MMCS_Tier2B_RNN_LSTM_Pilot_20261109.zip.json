@@ -1,0 +1,398 @@
+{
+  "original_zip": "MMCS_Tier2B_RNN_LSTM_Pilot_20261109.zip",
+  "original_zip_sha256": "dfc0a2e283ac57d90e11e6acabc9e1a8bebf0ae5728e0eaedb3fc2cc9f37fe39",
+  "bytes": 3339299,
+  "representation": "All file payloads preserved; original ZIP container is not duplicated. Paths may deduplicate identical bytes.",
+  "entries": [
+    {
+      "entry": ".gitignore",
+      "bytes": 20,
+      "sha256": "57a8ad0e62346f7b0f2e261d59a7b90f1310043424bcb9d229208f183f1940d9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/.gitignore"
+    },
+    {
+      "entry": "analyse_results.py",
+      "bytes": 16421,
+      "sha256": "5b0c866cd97462e7e0a997001be34df68bbefce789e1254ee187ca126a71c0bd",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/analyse_results.py"
+    },
+    {
+      "entry": "analysis.log",
+      "bytes": 2285,
+      "sha256": "cb6c30a84f85d72031676c3e8c486685a483ca15dfee3830dfa921981ce06158",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/analysis.log"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.001_s17.pt",
+      "bytes": 27285,
+      "sha256": "0349957fa94d7ff47399557f32586c35e47d6f16d5368238ef6e268c9d2400c2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.001_s29.pt",
+      "bytes": 27285,
+      "sha256": "fbb9a0cfb103123bd015a7f9bf2ae0a03b65daf21abf4794c4bab6e064598529",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.001_s43.pt",
+      "bytes": 27285,
+      "sha256": "9313d58749b96cc07184983ef0891909e8811d96dd03b163d9f1e581b876c5f0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.003_s17.pt",
+      "bytes": 27285,
+      "sha256": "c88939d3f78d8a1006939717a5a07f4109ee5c69286e9511b7fe90665901028b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.003_s29.pt",
+      "bytes": 27285,
+      "sha256": "5da5db6dfca480898b0a3d30bfbe22fb0c9917fa73abf9a3665a3577327dcf6d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L28_lr0.003_s43.pt",
+      "bytes": 27285,
+      "sha256": "28cdf8ab45b1c2f0dfeb5e9345c5308ee383ef5829339b06516b76c9f36f1eeb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L28_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.001_s17.pt",
+      "bytes": 27285,
+      "sha256": "914b8bb28b4d05518ff9f9deba03b30c022d8d4688d5d04e65a47bd6b9512fa1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.001_s29.pt",
+      "bytes": 27285,
+      "sha256": "498fb3210413668ce4158e780ec2a54ab0c15472d6f7f419ecc3b4695e4a45c0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.001_s43.pt",
+      "bytes": 27285,
+      "sha256": "ac0305c0bd5eb9ea8e3e43877901df5d8ed6e871146a5321997370a7e86af5fd",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.003_s17.pt",
+      "bytes": 27285,
+      "sha256": "00881ca93fd62604cc834c0a2ff723bb4a1ef05651437fcaa16d8980426d8ab4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.003_s29.pt",
+      "bytes": 27285,
+      "sha256": "979f7cf2d555eb9cd35ec41a525eb2868a7fb37f6387064cd79c2ddb32d2a445",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/LSTM_L56_lr0.003_s43.pt",
+      "bytes": 27285,
+      "sha256": "62b0ba44e97fa53006901c85abd268367aba827f93ffad8848e36857b8265959",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/LSTM_L56_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/Ridge.npz",
+      "bytes": 61602,
+      "sha256": "4a676196a41ae9c5c459604f15b74f2fb144bbb3b0ba57a213d36383f9229caa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/Ridge.npz"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.001_s17.pt",
+      "bytes": 27413,
+      "sha256": "33e2d181a8fe1ceaccbda3a84deb3bc5ce5c240dec513f7119d43882b5571816",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.001_s29.pt",
+      "bytes": 27413,
+      "sha256": "b6795e4ae8d9a063436fd3de11bfa92c3640a8f1134222e0399e8c3a6dc79efd",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.001_s43.pt",
+      "bytes": 27413,
+      "sha256": "c816b2aeb19f4249985bf0294686af10de314554358bfc7ada326a1b5c10a256",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.003_s17.pt",
+      "bytes": 27413,
+      "sha256": "7bdf4635975d1909a0212a04977fca3505fa2d31228eb6d36e46ed62a7b4d74c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.003_s29.pt",
+      "bytes": 27413,
+      "sha256": "bd9f10a778da9fa50d1b52798caa5ec519e3580283ad21fb2c528d8847a6570b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L28_lr0.003_s43.pt",
+      "bytes": 27413,
+      "sha256": "0f31701034df92f66a8cf65bcc66ed52ef6d2257f5ba68bc5f4aee2eb0ee6331",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L28_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.001_s17.pt",
+      "bytes": 27413,
+      "sha256": "88ed69d2d0ae02f189cb95785e62e986f43144dbe1b941e5d6129df08c5c4afb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.001_s29.pt",
+      "bytes": 27413,
+      "sha256": "3c7c239c5677692fcd9d42fa1585634109cdfdfa2037cd50282e90096ef55aa1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.001_s43.pt",
+      "bytes": 27413,
+      "sha256": "679f169c7df582234a38a77f712006912fa8557afd9ec4d44befd96082a14567",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.003_s17.pt",
+      "bytes": 27413,
+      "sha256": "ff5676a684b54f248f05e64fcaa4fd4da99b4f2b80831cca7896759dfb525a26",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.003_s29.pt",
+      "bytes": 27413,
+      "sha256": "dfa6a55230d1845367917a829c2a50df598c8ecb4acb38bdcb86e82c4e2a339c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/RNN_L56_lr0.003_s43.pt",
+      "bytes": 27413,
+      "sha256": "0a06f43d29be8286c850627d6bfb36a55792e89decb81098783fc45ac323e1a6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/checkpoints/RNN_L56_lr0.003_s43.pt"
+    },
+    {
+      "entry": "DELIVERY_MANIFEST.json",
+      "bytes": 9343,
+      "sha256": "4e0942bf64dc9d5f4cbe7a528f6da812760bb8cddf511595f208710a0186a6e5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/DELIVERY_MANIFEST.json"
+    },
+    {
+      "entry": "evaluation.log",
+      "bytes": 2256,
+      "sha256": "2ff6b31c485a4ff767871cb62fb47ca8a31854bb7b2ab68caf5d37f9bb4a6840",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/evaluation.log"
+    },
+    {
+      "entry": "EXECUTION_NOTES.json",
+      "bytes": 454,
+      "sha256": "e5bda740bca44e7ee15a930576fdec38debd5d67b7ab11dcb6d7e37fcf8396b7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/EXECUTION_NOTES.json"
+    },
+    {
+      "entry": "figures/price_prediction_examples.png",
+      "bytes": 467291,
+      "sha256": "73f6abd198bfe46dfdcb2a50fc9db565a57df594809572e918af7659026aada1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/figures/price_prediction_examples.png"
+    },
+    {
+      "entry": "figures/price_prediction_examples.svg",
+      "bytes": 102032,
+      "sha256": "67c9dcff5d65e551f70ebd5aab3f3afb0c21b8ef994f56b4cfb314b3e4b84f60",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/figures/price_prediction_examples.svg"
+    },
+    {
+      "entry": "figures/test_mae_by_horizon.png",
+      "bytes": 224508,
+      "sha256": "3e4f88ffcc6cae0fc81b63ce744728f48bb524574c8bc0f90588e234a8042acf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/figures/test_mae_by_horizon.png"
+    },
+    {
+      "entry": "figures/test_mae_by_horizon.svg",
+      "bytes": 101946,
+      "sha256": "0e21deee4fc510f9c006b350f3cfa1ee80878ba7fffb9a8b4f55c668a25e882b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/figures/test_mae_by_horizon.svg"
+    },
+    {
+      "entry": "inputs/daily_demand.csv",
+      "bytes": 76041,
+      "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/daily_demand.csv"
+    },
+    {
+      "entry": "inputs/daily_generation_total.csv",
+      "bytes": 44151,
+      "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/daily_generation_total.csv"
+    },
+    {
+      "entry": "inputs/daily_market_index_price.csv",
+      "bytes": 96709,
+      "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/daily_market_index_price.csv"
+    },
+    {
+      "entry": "inputs/date_quality.csv",
+      "bytes": 44229,
+      "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/date_quality.csv"
+    },
+    {
+      "entry": "inputs/MANIFEST.json",
+      "bytes": 1330,
+      "sha256": "fa725abb4117b299d9342eaf8b09309465fba61ed55f62238a9c3cfee4a90acc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/MANIFEST.json"
+    },
+    {
+      "entry": "inputs/model_daily.csv",
+      "bytes": 140229,
+      "sha256": "b36857dad32c04a9c425f2d712601b6798198e04cc51b90256325b78ec0c7c7b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/model_daily.csv"
+    },
+    {
+      "entry": "inputs/wind_farm_generation.csv",
+      "bytes": 73819,
+      "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/inputs/wind_farm_generation.csv"
+    },
+    {
+      "entry": "PROTOCOL.json",
+      "bytes": 4250,
+      "sha256": "3166062862b2255745f63e31c768619967bcd8a1981e9fafeb0a6e67b81f35a1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/PROTOCOL.json"
+    },
+    {
+      "entry": "PROTOCOL_TRAINING.json",
+      "bytes": 3986,
+      "sha256": "4d0774539ceb8d2b3a515745357175138f9d309750a41eab781727c1a3b5961f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/PROTOCOL_TRAINING.json"
+    },
+    {
+      "entry": "REPORT_ZH.md",
+      "bytes": 5169,
+      "sha256": "e20db86ebbfc9cafb73726ef6c62b140f53ceca0ab13d3a5e1f210ba932a2176",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/REPORT_ZH.md"
+    },
+    {
+      "entry": "requirements.txt",
+      "bytes": 139,
+      "sha256": "25acff53f82b680cd07cb8d33a42766e80833a1121091e38175a94ef6db86b94",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/requirements.txt"
+    },
+    {
+      "entry": "results/AUDIT.json",
+      "bytes": 900,
+      "sha256": "066b55aa788f8890dddcea90118fd19d461d0d827f7abc75a862fff3a4a2b3ed",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/AUDIT.json"
+    },
+    {
+      "entry": "results/MODEL_COMPARISON.csv",
+      "bytes": 8059,
+      "sha256": "1ad1a37611b9c95e68a534b8e104de8c7a13f57fa5e8ae48c63f20f9aa280a12",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/MODEL_COMPARISON.csv"
+    },
+    {
+      "entry": "results/RESULTS.json",
+      "bytes": 87698,
+      "sha256": "27c6929c6d104ec9b5b70c6693de1f1810cca48e8683764d891c840a7940a176",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/RESULTS.json"
+    },
+    {
+      "entry": "results/SELECTION_FROZEN.json",
+      "bytes": 531,
+      "sha256": "7e9b00ed2cbe7bf9fc1b404530406d36f2b36699c6f5ce0ca67e6a9dbfa94743",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/SELECTION_FROZEN.json"
+    },
+    {
+      "entry": "results/test_metrics.csv",
+      "bytes": 16072,
+      "sha256": "142acb548f16bf575f70ff2335e4e87f1afb63e582446ceaf772d868873151ed",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/test_metrics.csv"
+    },
+    {
+      "entry": "results/test_one_day_predictions.csv",
+      "bytes": 231158,
+      "sha256": "f7fdc0a8d7f156d51de81c1533604ddf5718fd3dd367d8eff2a9a9a7934e2fb0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/test_one_day_predictions.csv"
+    },
+    {
+      "entry": "results/test_predictions.npz",
+      "bytes": 1069844,
+      "sha256": "5288e3bda42d70ca06ffb4f8195f2d15507ba521442fe707ab203a96a755eedf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/test_predictions.npz"
+    },
+    {
+      "entry": "results/test_price_by_target_year.csv",
+      "bytes": 1356,
+      "sha256": "07bf446719214c1126645e1cc614f57ac6258427331f98b3d9b2e805bf074f4f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/test_price_by_target_year.csv"
+    },
+    {
+      "entry": "results/training_history.csv",
+      "bytes": 54064,
+      "sha256": "546f236438897f332a5b09c06b2ad39ca553663e49442ab842003c15b5e2b655",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/training_history.csv"
+    },
+    {
+      "entry": "results/training_runs.csv",
+      "bytes": 2975,
+      "sha256": "e2f3e044903bdf3e4a1a36f4739e0e1e5d7596723733386ac78138f9fa345f8f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/training_runs.csv"
+    },
+    {
+      "entry": "results/training_selected_metrics.json",
+      "bytes": 19589,
+      "sha256": "e9236cf138f3c3b99962a9fd8ad52268ae6dd12b02bfe0f0c7b582fe551acfa5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/training_selected_metrics.json"
+    },
+    {
+      "entry": "results/validation_grid.csv",
+      "bytes": 474,
+      "sha256": "557da3ceda7463e0d5e195bd9764566aa000bc8530c2c3ec11966ab7487c5f34",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/validation_grid.csv"
+    },
+    {
+      "entry": "results/validation_metrics.csv",
+      "bytes": 17508,
+      "sha256": "a65e18e73e8b078aa2de9e0f162efb8876d9f2016eb5642dde70dbca1287b3c6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/validation_metrics.csv"
+    },
+    {
+      "entry": "results/validation_one_day_predictions.csv",
+      "bytes": 115300,
+      "sha256": "4d6c9faa0e12ec4abcd576c648e99138951575b36d541dbdc0d1f1df609ce970",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/validation_one_day_predictions.csv"
+    },
+    {
+      "entry": "results/validation_predictions.npz",
+      "bytes": 532207,
+      "sha256": "5285ce284a8cb5ee1489a14a0a5fcf07dd3b6eecc3963c46ed8eaeca71ca5141",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/results/validation_predictions.npz"
+    },
+    {
+      "entry": "run.log",
+      "bytes": 12260,
+      "sha256": "ac1115002f9683a3fa876cf88825b1c87f137c74c9258adf22cdf30fcdad92ba",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/run.log"
+    },
+    {
+      "entry": "run_experiment.py",
+      "bytes": 18829,
+      "sha256": "7397ead87efc116cbc003de858b87e0d9d6542d7d7fd597e08c13aa182973b14",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/run_experiment.py"
+    },
+    {
+      "entry": "scalers.json",
+      "bytes": 353,
+      "sha256": "f0cf65b57f401ff60e3cb6dca2c204825f76d118d9eff011d976cd0c67a089a5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/scalers.json"
+    },
+    {
+      "entry": "splits.csv",
+      "bytes": 109142,
+      "sha256": "1df6d713425ef5d860558d6f1e4f1d9ba6669dfee35aec193566019aa819e75f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-forecast-pilot-20261109/splits.csv"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+AUDIT {"checks": {"next_day_target": true, "no_post_2023_data": true, "target_split_disjoint": true, "train_scaler": true, "24_runs": true, "near_parameter_match": true, "selection_from_validation": true, "frozen_derived_input_hash": true, "train_persistence_is_today": true, "train_initial_network_equals_baseline": true, "validation_persistence_is_today": true, "validation_initial_network_equals_baseline": true, "losses_independently_recomputed": true, "checkpoint_replay": true}, "all_passed": true, "metric_max_difference": 4.6566128730773926e-09, "checkpoint_max_difference": 0.0, "data_vintage_audited": false, "test_used_in_this_round": false}
+     split       model  loss_mean  loss_seed_sd  skill_vs_persistence
+     train Persistence   0.262132      0.000000              0.000000
+     train         RNN   0.112511      0.006942              0.570786
+     train        LSTM   0.108880      0.010625              0.584635
+validation Persistence   0.243757      0.000000              0.000000
+validation         RNN   0.124398      0.001902              0.489666
+validation        LSTM   0.130792      0.001358              0.463432
+     split       model        target metric        mean    seed_sd
+     train Persistence price_GBP_MWh    MSE 1551.437029   0.000000
+     train         RNN price_GBP_MWh    MSE 1306.835233  74.991384
+     train        LSTM price_GBP_MWh    MSE 1297.238541 142.743981
+validation Persistence price_GBP_MWh    MSE  401.177493   0.000000
+validation         RNN price_GBP_MWh    MSE  385.458317  13.405179
+validation        LSTM price_GBP_MWh    MSE  408.243249  29.647888

@@ -1,0 +1,60 @@
+{
+  "forecast_horizon": 1,
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "loss": "Mean next-day squared error over three variables standardised with training mean/std; no other horizon in loss",
+  "reported_train_validation_loss": "Both evaluated on the complete respective sample set in model.eval(), without dropout, and without adding a weight penalty. AdamW decay affects fitting only.",
+  "periods": {
+    "train": [
+      "2020-01-01",
+      "2022-12-31"
+    ],
+    "validation": [
+      "2023-01-01",
+      "2023-12-31"
+    ]
+  },
+  "sample_counts": {
+    "train": 1040,
+    "validation": 365
+  },
+  "lookbacks": [
+    28,
+    56
+  ],
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "validation_selection": "Mean next-day validation loss across three seeds; best-validation checkpoint per seed; initial persistence checkpoint eligible",
+  "training": {
+    "max_epochs": 120,
+    "early_stopping_patience": 15,
+    "optimizer": "AdamW",
+    "batch_size": 64,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "dropout": 0.1
+  },
+  "architectures": {
+    "RNN": "one-layer tanh RNN, hidden 68, residual linear next-day output, 5511 parameters",
+    "LSTM": "one-layer LSTM, hidden 32, identical residual readout, 5475 parameters"
+  },
+  "inputs": "three target-series histories and weekday sin/cos, annual sin/cos, weekend; total generation includes independent farm",
+  "price_units": "nominal GBP/MWh; no monthly CPI feature",
+  "test_evaluated_this_experiment": false,
+  "Ridge_fitted": false,
+  "source_data": "Frozen reconstructed dataset; data-vintage causal audit not performed",
+  "script_sha256": "c967300919f501f97730ebf0860e46ff5e57685868de7082748384e5e7845014",
+  "torch": "2.15.0+cpu",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "device": "CPU, two threads"
+}

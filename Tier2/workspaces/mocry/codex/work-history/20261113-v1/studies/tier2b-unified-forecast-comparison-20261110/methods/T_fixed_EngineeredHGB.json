@@ -1,0 +1,82 @@
+{
+  "id": "T_fixed_EngineeredHGB",
+  "label": "梯度提升树",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "per-target validation MSE",
+  "selected": [
+    {
+      "family": "HGB",
+      "parameter": 2,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.1608987415855322
+    },
+    {
+      "family": "HGB",
+      "parameter": 2,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.09296167348693894
+    },
+    {
+      "family": "HGB",
+      "parameter": 2,
+      "transform": "asinh",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.08868293638150747
+    }
+  ],
+  "features": [
+    "generation_MW_lag0",
+    "generation_MW_lag1",
+    "generation_MW_lag2",
+    "generation_MW_lag3",
+    "generation_MW_lag4",
+    "generation_MW_lag5",
+    "generation_MW_lag6",
+    "generation_MW_lag13",
+    "generation_MW_mean7",
+    "generation_MW_mean28",
+    "demand_MW_lag0",
+    "demand_MW_lag1",
+    "demand_MW_lag2",
+    "demand_MW_lag3",
+    "demand_MW_lag4",
+    "demand_MW_lag5",
+    "demand_MW_lag6",
+    "demand_MW_lag13",
+    "demand_MW_mean7",
+    "demand_MW_mean28",
+    "price_GBP_MWh_lag0",
+    "price_GBP_MWh_lag1",
+    "price_GBP_MWh_lag2",
+    "price_GBP_MWh_lag3",
+    "price_GBP_MWh_lag4",
+    "price_GBP_MWh_lag5",
+    "price_GBP_MWh_lag6",
+    "price_GBP_MWh_lag13",
+    "price_GBP_MWh_mean7",
+    "price_GBP_MWh_mean28",
+    "target_calendar_0",
+    "target_calendar_1",
+    "target_calendar_2",
+    "target_calendar_3",
+    "target_calendar_4",
+    "target_calendar_5",
+    "target_calendar_6",
+    "target_calendar_7",
+    "target_calendar_8",
+    "target_calendar_9",
+    "target_calendar_10",
+    "target_calendar_11",
+    "target_calendar_12",
+    "target_calendar_13"
+  ],
+  "transform_fit": "training labels only",
+  "prediction_file": "predictions/T_fixed_EngineeredHGB.npz",
+  "prediction_sha256": "f555cf8bee31b0e7fc3c02a5566918fc8a1c71f0b484e431024d734f61ef71fd",
+  "seeds": [
+    "det"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "T_expanding_CalendarAR",
+  "label": "日历＋残差 AR（扩展）",
+  "category": "traditional",
+  "regime": "expanding",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.15076770916175267
+    },
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.07877089718366385
+    },
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "asinh",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.10827002129281064
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_expanding_CalendarAR.npz",
+  "prediction_sha256": "9c54fd3876397b22a79057db80b826d97ae1b2150103022353118df032ab39cf",
+  "seeds": [
+    "det"
+  ]
+}

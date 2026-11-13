@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_Seasonal7",
+  "label": "七日季节朴素",
+  "category": "traditional",
+  "regime": "past_only_rule",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "Seasonal7",
+      "validation_loss": 0.34043218190590974
+    },
+    "demand_MW": {
+      "candidate": "Seasonal7",
+      "validation_loss": 0.3521561149142226
+    },
+    "price_GBP_MWh": {
+      "candidate": "Seasonal7",
+      "validation_loss": 0.2023406613497303
+    }
+  },
+  "parameters_total": 0,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_Seasonal7.npz",
+  "prediction_sha256": "a4bfd75a5b063237de5fb064e47a98472c8dc7350f5eb650212ff0b0b30deada",
+  "seeds": [
+    "det"
+  ]
+}

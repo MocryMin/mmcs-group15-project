@@ -1,0 +1,11 @@
+{
+  "archive": "MMCS_Tier2B_Transformer_Grid_20261109.zip",
+  "sha256": "ee0fbe39e22cf8f7847227930c83564f4181ac97f815b11aca7d1e47465e39a2",
+  "verified_files": 333,
+  "base_parameters": 5407,
+  "expanded_parameters": 54005,
+  "scale_factor": 9.987978546328833,
+  "data_and_split_unchanged": true,
+  "only_training_code_change": "COUNTS Transformer 5407 -> 54005; training arithmetic unchanged",
+  "architecture_change": "d_model 24 -> 72, FFN 54 -> 220; depth1/heads3/dropout0.1/relative sinusoidal position/last-token residual readout unchanged"
+}

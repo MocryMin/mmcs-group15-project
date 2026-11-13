@@ -1,0 +1,46 @@
+{
+  "target": "generation_MW",
+  "family": "Transformer",
+  "budget": 10000,
+  "groups": "balance",
+  "pool": "self_features",
+  "target_mean": [
+    25936.862947728696,
+    28781.64872262774,
+    120.97857969411676
+  ],
+  "target_std": [
+    5238.09892616852,
+    4003.302662756515,
+    79.89525467079051
+  ],
+  "extra_feature_names": [
+    "generation_minus_demand",
+    "demand_generation_ratio",
+    "surplus",
+    "deficit",
+    "balance_mean7",
+    "balance_mean28"
+  ],
+  "extra_mean": [
+    -0.5441439301894292,
+    1.1323793194344054,
+    0.04317117093664136,
+    0.5873151011260705,
+    -0.5452871000189053,
+    -0.5486625820046365
+  ],
+  "extra_std": [
+    0.576405464658687,
+    0.15066439740876061,
+    0.11670461355748693,
+    0.5176032569584794,
+    0.5110293142119323,
+    0.4704600475318771
+  ],
+  "input_scaler_origin_fit_start": "2022-01-01",
+  "input_scaler_origin_fit_end": "2024-12-30",
+  "target_scaler_label_fit_end": "2024-12-31",
+  "base_encoding": "First3: standardized observed generation,demand,price; then observed-day weekday sine/cosine, yearly sine/cosine, weekend.",
+  "groups_csv": {}
+}

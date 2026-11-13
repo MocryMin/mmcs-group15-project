@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "price_GBP_MWh_LSTM_5000_neso_demand_s17",
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "budget": 5000,
+    "parameters": 4957,
+    "features": 14,
+    "groups": "neso_demand",
+    "seed": 17,
+    "epoch": 53,
+    "step": 943,
+    "batch_loss": 0.06499526649713516,
+    "train_loss": 0.04802440535563838,
+    "validation_loss": 0.07874173632011293,
+    "test_loss": 0.05204824059329799,
+    "best_validation": 0.07874173632011293,
+    "improved": true,
+    "seconds": 11.062999999994645,
+    "epochs_ran": 68,
+    "updates": 1224,
+    "wall_seconds": 14.25,
+    "device": "cuda",
+    "lookback": 14,
+    "lr": 0.003,
+    "checkpoint": "models/price_GBP_MWh_LSTM_5000_neso_demand_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.04802440616040164,
+      "MSE": 306.5518731730385,
+      "MAE": 12.41455169399718,
+      "RMSE": 17.508622823427274
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.07874173340680989,
+      "MSE": 502.62830511900944,
+      "MAE": 12.186231851437158,
+      "RMSE": 22.41937343279266
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.052048240694675015,
+      "MSE": 332.2370218805503,
+      "MAE": 13.471225467140314,
+      "RMSE": 18.227370130673002
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

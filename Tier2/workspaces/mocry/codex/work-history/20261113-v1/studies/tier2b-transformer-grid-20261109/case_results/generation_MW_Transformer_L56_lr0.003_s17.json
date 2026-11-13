@@ -1,0 +1,75 @@
+{
+  "row": {
+    "run": "generation_MW_Transformer_L56_lr0.003_s17",
+    "target": "generation_MW",
+    "family": "Transformer",
+    "lookback": 56,
+    "lr": 0.003,
+    "seed": 17,
+    "stage": "screen",
+    "device": "cuda",
+    "eval_batch": 2048,
+    "parameters": 5407,
+    "best_epoch": 18,
+    "best_step": 307,
+    "epochs": 33,
+    "steps": 594,
+    "best_train_loss": 0.10388816585061153,
+    "best_validation_loss": 0.14322966645430607,
+    "test_loss_at_val_checkpoint": 0.17509760285656625,
+    "last_train_loss": 0.09062698472703205,
+    "last_validation_loss": 0.15275584772495115,
+    "last_test_loss": 0.18220220446861776,
+    "seconds": 10.453000000008615,
+    "checkpoint": "checkpoints\\generation_MW_Transformer_L56_lr0.003_s17.pt",
+    "step_log": "step_logs\\generation_MW_Transformer_L56_lr0.003_s17.csv"
+  },
+  "metrics": [
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "train",
+      "loss": 0.10388816622096433,
+      "MSE": 2850450.297991423,
+      "RMSE": 1688.3276631008043,
+      "MAE": 1301.4025055229388
+    },
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "validation",
+      "loss": 0.14322966599712647,
+      "MSE": 3929889.7937456677,
+      "RMSE": 1982.3949641142826,
+      "MAE": 1477.9563482618885
+    },
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "test",
+      "loss": 0.17509760348673012,
+      "MSE": 4804272.0763283195,
+      "RMSE": 2191.864976755712,
+      "MAE": 1717.850311830421
+    }
+  ],
+  "signature": {
+    "model.py": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+    "fit_core.py": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  }
+}

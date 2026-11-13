@@ -1,0 +1,10 @@
+fixed Ridge done 0.8s
+fixed Lasso done 0.9s
+fixed HGB done 1.9s
+T_expanding_Ridge done 3.0s
+T_rolling730_Ridge done 3.9s
+T_rolling730_Lasso done 4.9s
+T_expanding_HGB done 21.1s
+T_expanding_CalendarAR done 21.3s
+T_rolling730_CalendarAR done 21.5s
+finished all 1146 21.47429323196411

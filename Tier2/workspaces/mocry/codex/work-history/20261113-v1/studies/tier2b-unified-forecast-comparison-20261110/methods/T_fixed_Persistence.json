@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_Persistence",
+  "label": "持续值",
+  "category": "traditional",
+  "regime": "past_only_rule",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "Persistence",
+      "validation_loss": 0.3035537815483987
+    },
+    "demand_MW": {
+      "candidate": "Persistence",
+      "validation_loss": 0.24300274429698135
+    },
+    "price_GBP_MWh": {
+      "candidate": "Persistence",
+      "validation_loss": 0.1349697092483554
+    }
+  },
+  "parameters_total": 0,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_Persistence.npz",
+  "prediction_sha256": "cd68ea62f9a821045086703712c055c1d7abf13a2dc84adfcf3752c732370394",
+  "seeds": [
+    "det"
+  ]
+}

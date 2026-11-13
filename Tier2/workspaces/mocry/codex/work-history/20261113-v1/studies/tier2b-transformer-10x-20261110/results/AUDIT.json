@@ -1,0 +1,31 @@
+{
+  "all_passed": true,
+  "new_fits": 9,
+  "reference_release_verified_files": 333,
+  "reference_archive_sha256": "ee0fbe39e22cf8f7847227930c83564f4181ac97f815b11aca7d1e47465e39a2",
+  "only_model_width_and_count_changed": true,
+  "identical_input_features_splits_scalers_training_code": true,
+  "all_steps_full_three_sets": true,
+  "validation_only_checkpoints_and_stopping": true,
+  "max_normalised_replay_prediction_difference": 0.0,
+  "max_relative_metric_difference": 2.1033273830520946e-16,
+  "max_prediction_loss_vs_log_difference": 3.597131786881036e-09,
+  "selected_cpu_cuda_checks": [
+    {
+      "run": "generation_MW_Transformer_L7_lr0.001_s17",
+      "max_normalised_difference": 1.1920928955078125e-07
+    },
+    {
+      "run": "demand_MW_Transformer_L7_lr0.001_s17",
+      "max_normalised_difference": 1.1920928955078125e-07
+    },
+    {
+      "run": "price_GBP_MWh_Transformer_L182_lr0.001_s17",
+      "max_normalised_difference": 1.1920928955078125e-07
+    }
+  ],
+  "optimizer_steps": 6138,
+  "evaluation_rows": 6147,
+  "monitored_test_not_blind": true,
+  "MPC_evaluated": false
+}

@@ -1,0 +1,44 @@
+{
+  "generation_MW|RNN": {
+    "target": "generation_MW",
+    "family": "RNN",
+    "lookback": 14,
+    "lr": 0.003,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  },
+  "generation_MW|LSTM": {
+    "target": "generation_MW",
+    "family": "LSTM",
+    "lookback": 30,
+    "lr": 0.003,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  },
+  "demand_MW|RNN": {
+    "target": "demand_MW",
+    "family": "RNN",
+    "lookback": 7,
+    "lr": 0.001,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  },
+  "demand_MW|LSTM": {
+    "target": "demand_MW",
+    "family": "LSTM",
+    "lookback": 14,
+    "lr": 0.003,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  },
+  "price_GBP_MWh|RNN": {
+    "target": "price_GBP_MWh",
+    "family": "RNN",
+    "lookback": 30,
+    "lr": 0.001,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  },
+  "price_GBP_MWh|LSTM": {
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "lookback": 14,
+    "lr": 0.003,
+    "selected_from": "Previous seed17 seven-window grid; frozen before current training"
+  }
+}

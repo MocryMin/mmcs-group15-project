@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "next_day_target": true,
+    "no_post_2023_data": true,
+    "target_split_disjoint": true,
+    "train_scaler": true,
+    "24_runs": true,
+    "near_parameter_match": true,
+    "selection_from_validation": true,
+    "frozen_derived_input_hash": true,
+    "train_persistence_is_today": true,
+    "train_initial_network_equals_baseline": true,
+    "validation_persistence_is_today": true,
+    "validation_initial_network_equals_baseline": true,
+    "losses_independently_recomputed": true,
+    "checkpoint_replay": true
+  },
+  "all_passed": true,
+  "metric_max_difference": 4.6566128730773926e-09,
+  "checkpoint_max_difference": 0.0,
+  "data_vintage_audited": false,
+  "test_used_in_this_round": false
+}

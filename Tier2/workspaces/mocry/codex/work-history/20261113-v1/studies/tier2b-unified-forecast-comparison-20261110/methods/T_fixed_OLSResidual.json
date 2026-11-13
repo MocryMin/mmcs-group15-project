@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_OLSResidual",
+  "label": "OLS 变化",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "OLSResidual_L7_a0",
+      "validation_loss": 0.15340293462283228
+    },
+    "demand_MW": {
+      "candidate": "OLSResidual_L7_a0",
+      "validation_loss": 0.09130285622124105
+    },
+    "price_GBP_MWh": {
+      "candidate": "OLSResidual_L7_a0",
+      "validation_loss": 0.11622402139386458
+    }
+  },
+  "parameters_total": 171,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_OLSResidual.npz",
+  "prediction_sha256": "9a22807f13cae2914f67dc006266148e0204d4693aef087aa8db64c045d1120f",
+  "seeds": [
+    "det"
+  ]
+}

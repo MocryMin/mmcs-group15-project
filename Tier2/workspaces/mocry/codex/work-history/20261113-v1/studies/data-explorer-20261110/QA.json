@@ -1,0 +1,137 @@
+{
+  "results": [
+    {
+      "name": "hover_readout",
+      "pass": true,
+      "detail": {
+        "date": "2026-03-02"
+      }
+    },
+    {
+      "name": "actual_wheel_zoom",
+      "pass": true,
+      "detail": {
+        "before": 365,
+        "after": 331
+      }
+    },
+    {
+      "name": "actual_drag_pan",
+      "pass": true,
+      "detail": {
+        "before": "2025-09-18",
+        "after": "2025-08-16"
+      }
+    },
+    {
+      "name": "actual_slider_resize",
+      "pass": true,
+      "detail": {
+        "before": 365,
+        "after": 501
+      }
+    },
+    {
+      "name": "actual_box_zoom",
+      "pass": true,
+      "detail": {
+        "before": 365,
+        "after": 164
+      }
+    },
+    {
+      "name": "manual_y_range_preserved",
+      "pass": true,
+      "detail": {
+        "before": [
+          -12.896300201819752,
+          195.92761820016543
+        ],
+        "after": [
+          -12.896300201819752,
+          195.92761820016543
+        ]
+      }
+    },
+    {
+      "name": "moving_average_in_visible_y_range",
+      "pass": true,
+      "detail": {
+        "range": [
+          229.771875,
+          384.43187499999993
+        ],
+        "values": [
+          362.02299305555545,
+          364.1566944444443,
+          362.86234027777766
+        ],
+        "visible": true,
+        "covered": true
+      }
+    },
+    {
+      "name": "png_export",
+      "pass": true,
+      "detail": {
+        "valid": true,
+        "bytes": 422902
+      }
+    },
+    {
+      "name": "laptop_no_horizontal_overflow",
+      "pass": true,
+      "detail": {
+        "width": 1100,
+        "scroll": 1100
+      }
+    },
+    {
+      "name": "no_javascript_errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no_external_network_dependencies",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "final": {
+    "lo": 1756641600000,
+    "hi": 1788177600000,
+    "first": 1704,
+    "last": 2068,
+    "autoY": true,
+    "ma": 0,
+    "mode": "lines+markers",
+    "bands": false,
+    "quality": false,
+    "dragmode": "pan",
+    "firstDate": "2025-09-01",
+    "lastDate": "2026-08-31",
+    "count": 365
+  },
+  "requests": [
+    "http://127.0.0.1:59977/",
+    "blob:http://127.0.0.1:59977/9e84288f-6e44-4408-882f-21f54c1ac3c9"
+  ],
+  "additional_functional_checks": {
+    "default_test_365": true,
+    "leap_year_366": true,
+    "scatter_mode": true,
+    "exact_trailing_7_day_mean": true,
+    "three_split_bands": true,
+    "quality_markers": true,
+    "calendar_year_jump": true,
+    "train_1096": true,
+    "val_243": true,
+    "all_2086": true,
+    "trailing_30_days": true,
+    "invalid_date_rejected": true,
+    "single_leap_day": true,
+    "date_fields_follow_chart": true,
+    "csv_export_29_rows_for_29_day_selection": true
+  },
+  "method": "Playwright MCP against loopback-only preview of the identical standalone HTML; actual wheel, pan, box zoom, slider and hover input; zero external HTTP dependencies. A resize assertion was changed to wait for the chart's responsive redraw."
+}

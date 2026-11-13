@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "name": "real_mouse_wheel_zoom",
+      "pass": true,
+      "before": 365,
+      "after": 330
+    },
+    {
+      "name": "real_mouse_pan",
+      "pass": true,
+      "before": "2025-09-20",
+      "after": "2025-08-25"
+    },
+    {
+      "name": "selected_csv",
+      "pass": true,
+      "filename": "MMCS_2025-07-01_2025-07-07.csv",
+      "header": "﻿date,generation_MW,demand_MW,price_GBP_MWh,source_total_MW,wind_farm_MW,strict_no_imputation,NESO_ND_actual_MW,NESO_TSD_actual_MW,NESO_ND_forecast_MW,NESO_TSD_forecast_MW,NESO_ND_cardinal_mean_MW,ND_forecast_halfhours,TSD_forecast_halfhours,forecast_latest_issue_UTC"
+    },
+    {
+      "name": "all_curves_off_valid_axis",
+      "pass": true
+    },
+    {
+      "name": "browser_curve_memory",
+      "pass": true
+    },
+    {
+      "name": "no_hidden_subplot_mask",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

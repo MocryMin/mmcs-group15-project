@@ -1,0 +1,339 @@
+[
+  {
+    "url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=9847e7bb-986e-49be-8138-717b25933fbb&limit=1",
+    "status": 200,
+    "success": true,
+    "total": 58940,
+    "fields": [
+      {
+        "type": "int",
+        "id": "_id"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Number of days in advance the forecast was produced",
+          "title": "Days Ahead",
+          "type": "integer",
+          "example": "1",
+          "unit": "Days"
+        },
+        "type": "int4",
+        "id": "DAYSAHEAD"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "The date the demand forecast is for",
+          "title": "Target Date",
+          "type": "date",
+          "example": "2021-04-24T00:00:00Z",
+          "unit": ""
+        },
+        "type": "date",
+        "id": "TARGETDATE"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "National day ahead demand forecast values. ",
+          "title": "Forecast Demand",
+          "type": "integer",
+          "example": "25269",
+          "unit": "MW"
+        },
+        "type": "int4",
+        "id": "FORECASTDEMAND"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Electricity demand fluctuates during a day depending on how much energy people, businesses and industries are using at that moment in time. As this electricity demand goes up and down we get characteristic peaks and troughs, with some of these peaks and troughs appearing every single day at similar times. These we call cardinal points and are the points during the day that we forecast demand for.",
+          "title": "Cardinal Point",
+          "type": "string",
+          "example": "2A",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "CARDINALPOINT"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Fixed, Trough or Peak. Cardinal points (CPs) can either be fixed (occur at a fixed time), trough (minimum demands during a set period of the day) or peak(maximum demands during a set period of the day). These are represented throught the first letter of the point type (F,T or P)",
+          "title": "Cardinal Point Type",
+          "type": "string",
+          "example": "P",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "CP_TYPE"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "The time when a particular cardinal point (CP) starts during the day. This is given relative to the timezone in effect in the UK at the forecast time and date.",
+          "title": "Cardinal Point Start Time",
+          "type": "number",
+          "example": "930",
+          "unit": ""
+        },
+        "type": "numeric",
+        "id": "CP_ST_TIME"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "The time when a particular cardinal point (CP) ends during the day. This is given relative to the timezone in effect in the UK at the forecast time and date.",
+          "title": "Cardinal Point End Time",
+          "type": "number",
+          "example": "1030",
+          "unit": ""
+        },
+        "type": "numeric",
+        "id": "CP_END_TIME"
+      },
+      {
+        "info": {
+          "comment": "Forecasting point 1: Overnight minimum (OM): minimum national demand between half hour ending 00:30 and 07:30. Forecasting point 2: Daytime peak (DM): maximum national demand between half hour ending 08:00 and 13:00.\r\nForecasting point 3: Daytime minimum (Dm): minimum national demand between half hour ending 13:30 and 16:30. Forecasting point 4: Evening peak (EM): maximum national demand between half hour ending 17:00 and 24:00. ",
+          "description": "Forecasts of forecasting points , Publishing forecasts of forecasting points: overnight demand minimum, daytime demand maximum, daytime demand minimum and evening demand maximum.",
+          "title": "Forecasting Point",
+          "type": "string",
+          "example": "Om",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "F_Point"
+      },
+      {
+        "info": {
+          "comment": "Rarely, some forecasts had to be recovered from emails due to some overwriting of data. This means that some of our timestamps occur after the forecast was made as this is the time at which the forecasts were recovered.",
+          "description": "The date and time at which the forecast was made.",
+          "title": "Forecast Timestamp",
+          "type": "datetime",
+          "example": "2018-03-28T14:57:45Z",
+          "unit": ""
+        },
+        "type": "timestamp",
+        "id": "FORECAST_TIMESTAMP"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "DAYSAHEAD": 1,
+        "TARGETDATE": "2018-01-02",
+        "FORECASTDEMAND": 24920,
+        "CARDINALPOINT": "1F",
+        "CP_TYPE": "F",
+        "CP_ST_TIME": 30,
+        "CP_END_TIME": 30,
+        "F_Point": "NA",
+        "FORECAST_TIMESTAMP": "2018-01-01T08:46:43"
+      }
+    ]
+  },
+  {
+    "url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=4dd712a2-ee2c-455d-a9c0-9d3564c80fa0&limit=1",
+    "status": 200,
+    "success": true,
+    "total": 375668,
+    "fields": [
+      {
+        "type": "int",
+        "id": "_id"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": " Unique number describing what day the demand forecast is for i .e. \"4\" for 4 Day Ahead forecast.   ",
+          "title": "2-14 Day Ahead Demand Forecast",
+          "type": "integer",
+          "example": "4",
+          "unit": ""
+        },
+        "type": "int4",
+        "id": "DAYSAHEAD"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": " The date the demand forecast is for i.e. D+4 for 4 Day Ahead.   ",
+          "title": "Forecast Date",
+          "type": "date",
+          "example": "20200930",
+          "unit": ""
+        },
+        "type": "date",
+        "id": "TARGETDATE"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "National 2-14 day ahead demand forecast values.  ",
+          "title": "Demand Forecast",
+          "type": "integer",
+          "example": "32610",
+          "unit": "MW"
+        },
+        "type": "int4",
+        "id": "FORECASTDEMAND"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Electricity demand fluctuates during a day depending on how much energy people, businesses and industries are using at that moment in time. As this electricity demand goes up and down we get characteristic peaks and troughs, with some of these peaks and troughs appearing every single day at similar times. These we call cardinal points and are the points during the day that we forecast demand for.   ",
+          "title": "Cardinal Point (CP)",
+          "type": "string",
+          "example": "DP",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "CARDINALPOINT"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Fixed, Trough, Peak  , Cardinal point (CP) can either be Fixed i.e occur at a fix time during the day, Trough i.e. minimum demands during the day or Peak i.e maximum demands during the day.  ",
+          "title": "Cardinal Point (CP) Type",
+          "type": "string",
+          "example": "P",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "CP_TYPE"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Time UTC  , The time when a particular cardinal point (CP) starts during the day.   ",
+          "title": "Cardinal Point (CP) Start Time",
+          "type": "integer",
+          "example": "1700",
+          "unit": ""
+        },
+        "type": "int4",
+        "id": "CP_ST_TIME"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Time UTC  , The time when a particular cardinal point (CP) ends during the day.   ",
+          "title": "Cardinal Point (CP) End Time",
+          "type": "integer",
+          "example": "1930",
+          "unit": ""
+        },
+        "type": "int4",
+        "id": "CP_END_TIME"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Forecasts of forecasting points  , Publishing forecasts of forecasting points: overnight demand minimum, daytime demand maximum, daytime demand minimum and evening demand maximum.",
+          "title": "Forecasting Point",
+          "type": "string",
+          "example": "DM",
+          "unit": ""
+        },
+        "type": "text",
+        "id": "F_Point"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "The datetime at which the forecast was uploaded.",
+          "title": "Forecast Timestamp",
+          "type": "datetime",
+          "example": "2020-09-22T16:39:33Z",
+          "unit": ""
+        },
+        "type": "timestamp",
+        "id": "FORECAST_TIMESTAMP"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "DAYSAHEAD": 2,
+        "TARGETDATE": "2020-09-24",
+        "FORECASTDEMAND": 21110,
+        "CARDINALPOINT": "1F",
+        "CP_TYPE": "F",
+        "CP_ST_TIME": 30,
+        "CP_END_TIME": 30,
+        "F_Point": null,
+        "FORECAST_TIMESTAMP": "2020-09-22T16:39:33"
+      }
+    ]
+  },
+  {
+    "url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=7c0411cd-2714-4bb5-a408-adb065edf34d&limit=1",
+    "status": 200,
+    "success": true,
+    "total": 624,
+    "fields": [
+      {
+        "type": "int",
+        "id": "_id"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Date on which the forecast demand is occurring. This date is aligned with the GB timezone (BST/GMT).",
+          "title": "Date",
+          "type": "date",
+          "example": "2021-11-16",
+          "unit": ""
+        },
+        "type": "date",
+        "id": "DATE"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Time at which the forecast demand is occurring. This time uses the GB timezone (BST/GMT).",
+          "title": "Clock Time",
+          "type": "integer",
+          "example": "130",
+          "unit": ""
+        },
+        "type": "int4",
+        "id": "CTIME"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "Datetime at which the demand is occurring. This is in GMT/UTC regardless of forecast date's GB timezone.",
+          "title": "Datetime",
+          "type": "datetime",
+          "example": "2021-11-16T13:30:00",
+          "unit": ""
+        },
+        "type": "timestamp",
+        "id": "GDATETIME"
+      },
+      {
+        "info": {
+          "comment": "",
+          "description": "The demand forecast for the specified datetime.",
+          "title": "National Demand Forecast",
+          "type": "integer",
+          "example": "42000",
+          "unit": "MW"
+        },
+        "type": "int4",
+        "id": "NATIONALDEMAND"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "DATE": "2026-11-12",
+        "CTIME": 30,
+        "GDATETIME": "2026-11-12T00:30:00",
+        "NATIONALDEMAND": 27556
+      }
+    ]
+  }
+]

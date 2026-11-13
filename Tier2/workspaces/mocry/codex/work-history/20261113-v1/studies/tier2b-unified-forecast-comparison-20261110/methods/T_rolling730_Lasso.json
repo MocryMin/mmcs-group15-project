@@ -1,0 +1,38 @@
+{
+  "id": "T_rolling730_Lasso",
+  "label": "LASSO（滚动730）",
+  "category": "traditional",
+  "regime": "rolling730",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "Lasso",
+      "parameter": 0.01,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.1562265682365961
+    },
+    {
+      "family": "Lasso",
+      "parameter": 0.01,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.08367059987264035
+    },
+    {
+      "family": "Lasso",
+      "parameter": 0.01,
+      "transform": "raw",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.09308937366075232
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_rolling730_Lasso.npz",
+  "prediction_sha256": "fdc3b22e4aa3262050138d0327738ac1d9f5e8694fe1847eecb1ac286398efee",
+  "seeds": [
+    "det"
+  ]
+}

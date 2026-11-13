@@ -1,0 +1,22 @@
+{
+  "source_id": "LOCAL-MMCS-DATA-EXPLORER-PERFORMANCE-20261110",
+  "course_id": "MMCS",
+  "recorded_on": "2026-11-10",
+  "status": "deployed_public_verified",
+  "version": "2.1.0",
+  "url": "https://mmcs-energy-data-explorer-ran.mocrymin.chatgpt.site",
+  "source_commit": "1e1e6cf1474f8a6000315af59b5871917cb7f1f8",
+  "saved_version_id": "appgprj_6af3053707b88191ae7fc82b252396ed~appgver_c4c5766b3a48819188353ff05b86f1a2",
+  "deployment_id": "appgdep_6af31b4a645081919ba998a08d6dd6fe",
+  "archive_sha256": "e1368e17c0def125e71f26e929fc7854d7013c66d3967390c827a3a6504407f5",
+  "performance_evidence": "apps/energy-data-explorer/PERFORMANCE.json",
+  "functional_evidence": "apps/energy-data-explorer/UI_QA.json",
+  "data_regression": "apps/energy-data-explorer/DATA_REGRESSION.json",
+  "measurement_scope": "One same-browser4xCPUthrottle diagnostic,12realwheel events. Listenerhandlingdelay not end-to-end paint latency. Same markers modeP95 6499.1ms->73.5ms;new defaultlines11.7ms.",
+  "primary_dependency": "https://cdn.jsdelivr.net/npm/echarts@6.0.0/dist/echarts.min.js",
+  "primary_documentation": "https://echarts.apache.org/handbook/en/best-practices/canvas-vs-svg/",
+  "web_access": "Anonymous Playwright MCP only",
+  "public_check": {"HTTP":200,"version":"2.1.0","renderer":"canvas","javascript_errors":[]},
+  "numerical_data_or_model_results_changed": false,
+  "automatic_jobs_created": false
+}

@@ -1,0 +1,16 @@
+{
+  "group": "bank_holidays",
+  "rows": 2086,
+  "features": [
+    "england-and-wales_target_offset-1",
+    "england-and-wales_target_offset0",
+    "england-and-wales_target_offset1",
+    "scotland_target_offset-1",
+    "scotland_target_offset0",
+    "scotland_target_offset1"
+  ],
+  "sha256": "44f16a85a56b394d1b934551f36e31c6ce388cbcc1c579477ec0949c5162c992",
+  "source": "https://www.gov.uk/bank-holidays.json",
+  "availability": "Published holiday calendar; target date known before end-of-origin. Special-announcement vintage not reconstructed, but only +/-1 day flags used.",
+  "mechanism": "Working activity and demand differ on public holidays and adjacent days; GB uses England/Wales and Scotland flags, excluding Northern Ireland."
+}

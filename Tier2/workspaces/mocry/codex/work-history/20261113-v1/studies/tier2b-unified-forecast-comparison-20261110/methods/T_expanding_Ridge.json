@@ -1,0 +1,38 @@
+{
+  "id": "T_expanding_Ridge",
+  "label": "特征岭回归（扩展）",
+  "category": "traditional",
+  "regime": "expanding",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "Ridge",
+      "parameter": 100.0,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.1432721091645391
+    },
+    {
+      "family": "Ridge",
+      "parameter": 10.0,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.08702424922030075
+    },
+    {
+      "family": "Ridge",
+      "parameter": 100.0,
+      "transform": "raw",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.09543829464775272
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_expanding_Ridge.npz",
+  "prediction_sha256": "84c6b936a4082e82052305188f6d5f72bcc268cae814646a0d0e96be58abfece",
+  "seeds": [
+    "det"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T_rule_Weekday52",
+  "label": "52周同星期均值",
+  "category": "traditional",
+  "regime": "past_only_rule",
+  "window_days": 364,
+  "prediction_file": "predictions/T_rule_Weekday52.npz",
+  "prediction_sha256": "1612851cdf25a8650ebaabccf9bb732a0faa9a8ac0b049f0d9483dac20adf080",
+  "seeds": [
+    "det"
+  ]
+}

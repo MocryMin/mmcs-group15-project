@@ -1,0 +1,33 @@
+{
+  "id": "N_sep_LSTM",
+  "label": "独立 LSTM",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "Previously frozen independent target validation selection; per-seed target val checkpoints",
+  "target_configs": {
+    "generation_MW": {
+      "lookback": 30,
+      "lr": 0.003,
+      "parameters_per_target": 5409
+    },
+    "demand_MW": {
+      "lookback": 14,
+      "lr": 0.003,
+      "parameters_per_target": 5409
+    },
+    "price_GBP_MWh": {
+      "lookback": 14,
+      "lr": 0.003,
+      "parameters_per_target": 5409
+    }
+  },
+  "parameters_total": 16227,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_sep_LSTM.npz",
+  "prediction_sha256": "2d536e1a32cbed24f8eb51dffb5d6dc0bde510078aaac3ae95fd5d93732138fa",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

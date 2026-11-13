@@ -1,0 +1,48 @@
+SUMMARY        target  model      split  loss_mean  loss_sd
+generation_MW  TF-5k      train   0.106402 0.005298
+generation_MW  TF-5k validation   0.138962 0.001801
+generation_MW  TF-5k       test   0.181218 0.001794
+    demand_MW  TF-5k      train   0.073135 0.002362
+    demand_MW  TF-5k validation   0.079767 0.001955
+    demand_MW  TF-5k       test   0.106773 0.002000
+price_GBP_MWh  TF-5k      train   0.086620 0.029912
+price_GBP_MWh  TF-5k validation   0.101141 0.004026
+price_GBP_MWh  TF-5k       test   0.068800 0.003749
+generation_MW    RNN      train   0.114900 0.006543
+generation_MW    RNN validation   0.144766 0.001267
+generation_MW    RNN       test   0.190618 0.002268
+generation_MW   LSTM      train   0.099921 0.006900
+generation_MW   LSTM validation   0.139543 0.002554
+generation_MW   LSTM       test   0.184371 0.003621
+    demand_MW    RNN      train   0.077758 0.002810
+    demand_MW    RNN validation   0.083427 0.000370
+    demand_MW    RNN       test   0.108635 0.000365
+    demand_MW   LSTM      train   0.072137 0.004063
+    demand_MW   LSTM validation   0.081941 0.001499
+    demand_MW   LSTM       test   0.109138 0.001822
+price_GBP_MWh    RNN      train   0.098176 0.008161
+price_GBP_MWh    RNN validation   0.110324 0.003498
+price_GBP_MWh    RNN       test   0.065712 0.001095
+price_GBP_MWh   LSTM      train   0.061602 0.009108
+price_GBP_MWh   LSTM validation   0.106860 0.002779
+price_GBP_MWh   LSTM       test   0.075593 0.004115
+generation_MW TF-54k      train   0.105482 0.005494
+generation_MW TF-54k validation   0.137575 0.002071
+generation_MW TF-54k       test   0.181491 0.003025
+    demand_MW TF-54k      train   0.073592 0.001361
+    demand_MW TF-54k validation   0.078863 0.000209
+    demand_MW TF-54k       test   0.105558 0.001098
+price_GBP_MWh TF-54k      train   0.064251 0.008022
+price_GBP_MWh TF-54k validation   0.094628 0.002486
+price_GBP_MWh TF-54k       test   0.069483 0.002991
+CHANGE        target      split  small_mean  large_mean  mean_loss_change_pct  seed17_change_pct  seed29_change_pct  seed43_change_pct  large_better_seeds  small_seed_sd  large_seed_sd  small_min  small_max  large_min  large_max
+generation_MW      train    0.106402    0.105482             -0.865212          -4.621409          -1.291248           3.455279                   2       0.005298       0.005494   0.102136   0.112332   0.099899   0.110882
+generation_MW validation    0.138962    0.137575             -0.997698          -0.621618          -0.702449          -1.671309                   3       0.001801       0.002071   0.137432   0.140946   0.136192   0.139956
+generation_MW       test    0.181218    0.181491              0.150658           2.076103           1.271054          -2.843211                   1       0.001794       0.003025   0.180093   0.183287   0.178076   0.183831
+    demand_MW      train    0.073135    0.073592              0.624657           2.287727           0.520235          -0.839839                   1       0.002362       0.001361   0.071286   0.075795   0.072700   0.075159
+    demand_MW validation    0.079767    0.078863             -1.133981          -1.723514          -3.306309           1.754154                   2       0.001955       0.000209   0.077697   0.081582   0.078644   0.079060
+    demand_MW       test    0.106773    0.105558             -1.138571          -1.307773          -3.879624           1.879746                   2       0.002000       0.001098   0.104697   0.108686   0.104469   0.106665
+price_GBP_MWh      train    0.086620    0.064251            -25.824091          37.080453         -35.384013         -47.861508                   2       0.029912       0.008022   0.053517   0.111709   0.058244   0.073362
+price_GBP_MWh validation    0.101141    0.094628             -6.439561          -2.251866          -4.863773         -11.850955                   3       0.004026       0.002486   0.096714   0.104583   0.092189   0.097159
+price_GBP_MWh       test    0.068800    0.069483              0.992690           2.692198          -5.021924           5.738729                   1       0.003749       0.002991   0.064471   0.070995   0.067371   0.072906
+AUDIT {"all_passed": true, "new_fits": 9, "reference_release_verified_files": 333, "reference_archive_sha256": "ee0fbe39e22cf8f7847227930c83564f4181ac97f815b11aca7d1e47465e39a2", "only_model_width_and_count_changed": true, "identical_input_features_splits_scalers_training_code": true, "all_steps_full_three_sets": true, "validation_only_checkpoints_and_stopping": true, "max_normalised_replay_prediction_difference": 0.0, "max_relative_metric_difference": 2.1033273830520946e-16, "max_prediction_loss_vs_log_difference": 3.597131786881036e-09, "selected_cpu_cuda_checks": [{"run": "generation_MW_Transformer_L7_lr0.001_s17", "max_normalised_difference": 1.1920928955078125e-07}, {"run": "demand_MW_Transformer_L7_lr0.001_s17", "max_normalised_difference": 1.1920928955078125e-07}, {"run": "price_GBP_MWh_Transformer_L182_lr0.001_s17", "max_normalised_difference": 1.1920928955078125e-07}], "optimizer_steps": 6138, "evaluation_rows": 6147, "monitored_test_not_blind": true, "MPC_evaluated": false}

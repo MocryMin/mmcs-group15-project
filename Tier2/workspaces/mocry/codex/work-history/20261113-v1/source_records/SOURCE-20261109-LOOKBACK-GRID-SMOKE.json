@@ -1,0 +1,147 @@
+{
+  "source_id": "LOCAL-MMCS-LOOKBACK-GRID-SMOKE-20261109",
+  "recorded_at": "2026-11-09T22:33:02.342955+00:00",
+  "course": "MMCS",
+  "academic_year": "2026/27",
+  "evidence_status": "local_experiment_verified",
+  "folder": "assignments\\FinalProject\\tier2b-lookback-grid-smoke-20261109",
+  "archive": "assignments\\FinalProject\\MMCS_Tier2B_Lookback_Grid_Smoke_20261109.zip",
+  "archive_sha256": "cc16cea2618b901950062a319e16c6c0ddacbad38267172b2cbc4372e5792c2b",
+  "lookbacks_days": [
+    365,
+    182,
+    91,
+    56,
+    30,
+    14,
+    7
+  ],
+  "seed": 17,
+  "cases": 42,
+  "fresh_completed_fits": 39,
+  "strictly_equivalent_reused_fits": 3,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "selected_by_validation": {
+    "generation_MW|RNN": {
+      "target": "generation_MW",
+      "family": "RNN",
+      "lookback": 14,
+      "seed": 17,
+      "best_validation_loss": 0.1433229148387909,
+      "best_step": 196,
+      "run": "generation_MW_RNN_L14_lr0.003_s17"
+    },
+    "generation_MW|LSTM": {
+      "target": "generation_MW",
+      "family": "LSTM",
+      "lookback": 30,
+      "seed": 17,
+      "best_validation_loss": 0.1417944133281707,
+      "best_step": 604,
+      "run": "generation_MW_LSTM_L30_lr0.003_s17"
+    },
+    "demand_MW|RNN": {
+      "target": "demand_MW",
+      "family": "RNN",
+      "lookback": 7,
+      "seed": 17,
+      "best_validation_loss": 0.08307520300149918,
+      "best_step": 621,
+      "run": "demand_MW_RNN_L7_lr0.001_s17"
+    },
+    "demand_MW|LSTM": {
+      "target": "demand_MW",
+      "family": "LSTM",
+      "lookback": 14,
+      "seed": 17,
+      "best_validation_loss": 0.08021095395088196,
+      "best_step": 619,
+      "run": "demand_MW_LSTM_L14_lr0.003_s17"
+    },
+    "price_GBP_MWh|RNN": {
+      "target": "price_GBP_MWh",
+      "family": "RNN",
+      "lookback": 30,
+      "seed": 17,
+      "best_validation_loss": 0.11234734207391739,
+      "best_step": 1103,
+      "run": "price_GBP_MWh_RNN_L30_lr0.001_s17"
+    },
+    "price_GBP_MWh|LSTM": {
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "lookback": 14,
+      "seed": 17,
+      "best_validation_loss": 0.10944726318120956,
+      "best_step": 845,
+      "run": "price_GBP_MWh_LSTM_L14_lr0.003_s17"
+    }
+  },
+  "checkpoint_and_early_stopping": "validation only",
+  "complete_three_split_eval": "every optimizer step",
+  "audit": {
+    "checks": {
+      "complete_42_case_grid": true,
+      "complete_126_case_split_metrics": true,
+      "fixed_seed": true,
+      "fixed_training_dates": true,
+      "three_identical_previous_cases_reused": true,
+      "frozen_code_and_config_hashes": true,
+      "frozen_input_hash": true,
+      "train_only_scaling": true,
+      "2021_used_as_history_only": true,
+      "365_day_context_available": true,
+      "test_excluded_from_grid_selection": true,
+      "parallel_execution_code_hash": true,
+      "parallel_targets_completed": true,
+      "every_step_full_three_sets": true,
+      "batch_layout_and_counts": true,
+      "validation_only_checkpoint_reconstructed": true,
+      "early_stopping_15_full_epochs": true,
+      "reused_weights_and_logs_identical": true,
+      "initial_persistence": true,
+      "independent_scalar_heads_and_constant_parameter_counts": true,
+      "all_checkpoint_predictions_replay": true,
+      "all_three_losses_independently_recalculate": true
+    },
+    "all_passed": true,
+    "cases": 42,
+    "fresh_fits": 39,
+    "reused_fits": 3,
+    "optimizer_steps_including_reused": 33966,
+    "fresh_optimizer_steps": 32130,
+    "evaluation_rows": 34008,
+    "full_split_losses": 102024,
+    "max_prediction_difference": 0.0,
+    "max_loss_difference": 2.2024523510522087e-08,
+    "single_seed_smoke_not_stability_estimate": true,
+    "test_is_monitored_not_blind": true,
+    "data_vintage_audited": false
+  },
+  "test_improved_vs_previous_same_seed_cases": 2,
+  "selected_windows_are_single_seed_candidates": true,
+  "parallel_execution": "Independent target processes, two threads each; generation runner switched after its 14 completed cases; incomplete next-target attempt not used",
+  "test_status": "monitored held-out, previously inspected; not blind",
+  "data_vintage_audited": false,
+  "MPC_evaluated": false,
+  "remote_published": false,
+  "formal_submission": false
+}

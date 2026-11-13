@@ -1,0 +1,20 @@
+{
+  "reason": "Parallelise independent target grids, preserving all training/evaluation settings",
+  "original_generation_processes": [
+    24176,
+    53040
+  ],
+  "targets": {
+    "generation_MW": "initial sequential runner",
+    "demand_MW": "isolated process",
+    "price_GBP_MWh": "isolated process"
+  },
+  "threads_per_process": 2,
+  "worker_source_sha256": "8241595fcfe1669c6d60397c0980f5592870aa099eebd73d960f5cd883d65525",
+  "interrupted_partial_cases_used": false,
+  "generation_complete_cases": 14,
+  "initial_runner_stopped_after_generation": true,
+  "discarded_partial_case_note": "Initial runner may have started the next target; its incomplete output is replaced by the isolated complete case.",
+  "all_targets_complete": true,
+  "coordinator_wall_seconds": 902.8899999999994
+}

@@ -1,0 +1,65 @@
+{
+  "lookbacks_days": [
+    365,
+    182,
+    91,
+    56,
+    30,
+    14,
+    7
+  ],
+  "labels": {
+    "365": "one year",
+    "182": "half year",
+    "91": "three months",
+    "56": "56 days",
+    "30": "30 days",
+    "14": "14 days",
+    "7": "7 days"
+  },
+  "month_interpretation": "Fixed day counts; not variable calendar-month windows",
+  "seed": 17,
+  "purpose": "Single-seed controlled lookback smoke grid",
+  "expected_cases": 42,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "context_only": "2021-01-01 through 2021-12-31; no 2021 training labels",
+  "identical_target_dates_for_every_window": true,
+  "batch_size": 64,
+  "steps_per_epoch": 18,
+  "max_epochs": 120,
+  "patience_epochs": 15,
+  "checkpoint_min_delta": 1e-05,
+  "learning_rates": "Fixed previous target/family learning rate; only input lookback changes",
+  "architecture": "Independent scalar targets; RNN hidden68/5373 parameters, LSTM hidden32/5409; 8 shared-observation input features; no weight sharing",
+  "evaluation": "Full train, val and test eval after every optimiser step; checkpoint/early stop and grid selection use validation only",
+  "previous_reuse": "Only three identical L56 seed17 cases after exact input/label/scaler checks; original complete logs and weights retained",
+  "test_status": "Monitored held-out test, previously inspected; not blind; no test-driven selection",
+  "source_hashes": {
+    "run_grid.py": "b42dee53e73c0c06f883e19dbc1711549234dc005a10e3eda6f5f8a6c31918e4",
+    "fit_core.py": "f64830e4e5bb2fce11cd8274b532b30beccb44bddc2b93570e45ec054bd4bd34",
+    "model.py": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+    "REFERENCE_CONFIGS.json": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2"
+  },
+  "data_vintage_audited": false,
+  "MPC_evaluated": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.15.0+cpu"
+}

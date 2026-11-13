@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_OLSLevel",
+  "label": "OLS 水平",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "OLSLevel_L7_a0",
+      "validation_loss": 0.15340293594401808
+    },
+    "demand_MW": {
+      "candidate": "OLSLevel_L7_a0",
+      "validation_loss": 0.09130285439768145
+    },
+    "price_GBP_MWh": {
+      "candidate": "OLSLevel_L7_a0",
+      "validation_loss": 0.11622402302710699
+    }
+  },
+  "parameters_total": 171,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_OLSLevel.npz",
+  "prediction_sha256": "474ad6d74990e5b94b311080082dc49d099a83c80a9b71896400a304cc418445",
+  "seeds": [
+    "det"
+  ]
+}

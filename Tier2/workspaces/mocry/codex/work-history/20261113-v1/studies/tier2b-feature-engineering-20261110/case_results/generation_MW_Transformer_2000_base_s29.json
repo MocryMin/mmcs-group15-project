@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "generation_MW_Transformer_2000_base_s29",
+    "target": "generation_MW",
+    "family": "Transformer",
+    "budget": 2000,
+    "parameters": 1989,
+    "features": 8,
+    "groups": "",
+    "seed": 29,
+    "epoch": 42,
+    "step": 748,
+    "batch_loss": 0.2074241042137146,
+    "train_loss": 0.11198277271501521,
+    "validation_loss": 0.14396800551642105,
+    "test_loss": 0.18422677771451534,
+    "best_validation": 0.14396800551642105,
+    "improved": true,
+    "seconds": 5.014999999984866,
+    "epochs_ran": 57,
+    "updates": 1026,
+    "wall_seconds": 6.780999999988126,
+    "device": "cuda",
+    "lookback": 7,
+    "lr": 0.001,
+    "checkpoint": "models/generation_MW_Transformer_2000_base_s29.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.1119827738472125,
+      "MSE": 3072547.5546826925,
+      "MAE": 1338.1323597352005,
+      "RMSE": 1752.8683791667565
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.14396800314649222,
+      "MSE": 3950148.0524481204,
+      "MAE": 1472.4257544856648,
+      "RMSE": 1987.4979377217276
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.18422677780913074,
+      "MSE": 5054755.443340059,
+      "MAE": 1758.4766831085399,
+      "RMSE": 2248.2783287084494
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

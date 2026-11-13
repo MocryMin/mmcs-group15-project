@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.5.0",
+    "matplotlib": "3.11.2"
+  },
+  "device_for_new_classical_fits": "CPU; two BLAS/OpenMP threads",
+  "neural_predictions": "frozen prior forecasts; no neural refits this experiment"
+}

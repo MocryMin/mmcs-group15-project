@@ -1,0 +1,244 @@
+{
+  "row": {
+    "run": "LSTM_combined_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "combined",
+    "parameters": 54995,
+    "lookback": 56,
+    "seed": 43,
+    "best_epoch": 25,
+    "best_step": 445,
+    "best_stage": 0,
+    "best_lr": 0.003,
+    "best_weight_decay": 0.0001,
+    "best_dropout": 0.1,
+    "epochs": 55,
+    "steps": 990,
+    "events_count": 3,
+    "best_train_loss": 0.0933631469077286,
+    "best_validation_loss": 0.11638154598721936,
+    "test_loss_at_val_checkpoint": 0.12268288355302082,
+    "last_train_loss": 0.06936352306671245,
+    "last_validation_loss": 0.1243465080548257,
+    "last_test_loss": 0.131311299234751,
+    "device": "cuda",
+    "eval_batch": 2048,
+    "seconds": 8.203000000008615,
+    "checkpoint": "checkpoints\\LSTM_combined_joint_L56_s43.pt",
+    "step_log": "step_logs\\LSTM_combined_joint_L56_s43.csv"
+  },
+  "metrics": [
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "train",
+      "target": "JOINT",
+      "loss": 0.09336314748786942
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "train",
+      "target": "generation_MW",
+      "loss": 0.10447995654144425,
+      "MSE": 2866687.651645087,
+      "RMSE": 1693.129543669086,
+      "MAE": 1289.5664067591908
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "train",
+      "target": "demand_MW",
+      "loss": 0.07034581704080473,
+      "MSE": 1127392.468035731,
+      "RMSE": 1061.7873930480296,
+      "MAE": 839.990219729379
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "train",
+      "target": "price_GBP_MWh",
+      "loss": 0.10526366888135927,
+      "MSE": 671.9244953257594,
+      "RMSE": 25.921506424699924,
+      "MAE": 17.36413249648695
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "validation",
+      "target": "JOINT",
+      "loss": 0.11638154513144014
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "validation",
+      "target": "generation_MW",
+      "loss": 0.14647378610760686,
+      "MSE": 4018900.9243875397,
+      "RMSE": 2004.719662293843,
+      "MAE": 1453.4057607186285
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "validation",
+      "target": "demand_MW",
+      "loss": 0.08314152712825708,
+      "MSE": 1332462.0483264087,
+      "RMSE": 1154.32319924985,
+      "MAE": 887.1452151012043
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "validation",
+      "target": "price_GBP_MWh",
+      "loss": 0.11952932215845646,
+      "MSE": 762.9857511281708,
+      "RMSE": 27.62219671076453,
+      "MAE": 15.302078394056482
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "test",
+      "target": "JOINT",
+      "loss": 0.12268288388868313
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "test",
+      "target": "generation_MW",
+      "loss": 0.18590050841340905,
+      "MSE": 5100678.728669546,
+      "RMSE": 2258.468226181087,
+      "MAE": 1747.3832555857762
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "test",
+      "target": "demand_MW",
+      "loss": 0.11489069243539038,
+      "MSE": 1841287.893833625,
+      "RMSE": 1356.9406375496405,
+      "MAE": 1017.886009106697
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "parameters": 54995,
+      "lookback": 56,
+      "seed": 43,
+      "split": "test",
+      "target": "price_GBP_MWh",
+      "loss": 0.06725745081724994,
+      "MSE": 429.32123853874725,
+      "RMSE": 20.72006849744342,
+      "MAE": 15.100406831009904
+    }
+  ],
+  "signature": {
+    "model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+    "fit_core.py": "0698788f1978be26d7bec94f00bfde0a0cb1caf4af8d15bb8a7df9b026c25290",
+    "policy.py": "00a67e185eb83b033a6d12b09a2d559bd422a8b59099a9dba92a25ae7af0e7d7",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "CONFIGS_FROZEN.json": "bf8b8f68e7aa978359dc2f34ce9e58039a3d02f3c498da12a8b6a3e98fb826aa",
+    "torch": "2.14.1+cu130"
+  },
+  "events": [
+    {
+      "epoch": 30,
+      "global_step": 540,
+      "from_stage": 0,
+      "to_stage": 1,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.11638154598721936,
+      "before": {
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "dropout": 0.1
+      },
+      "after": {
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "dropout": 0.2
+      }
+    },
+    {
+      "epoch": 35,
+      "global_step": 630,
+      "from_stage": 1,
+      "to_stage": 2,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.11638154598721936,
+      "before": {
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "dropout": 0.2
+      },
+      "after": {
+        "lr": 0.0003,
+        "weight_decay": 0.003,
+        "dropout": 0.3
+      }
+    },
+    {
+      "epoch": 40,
+      "global_step": 720,
+      "from_stage": 2,
+      "to_stage": 3,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.11638154598721936,
+      "before": {
+        "lr": 0.0003,
+        "weight_decay": 0.003,
+        "dropout": 0.3
+      },
+      "after": {
+        "lr": 0.0001,
+        "weight_decay": 0.01,
+        "dropout": 0.4
+      }
+    }
+  ]
+}

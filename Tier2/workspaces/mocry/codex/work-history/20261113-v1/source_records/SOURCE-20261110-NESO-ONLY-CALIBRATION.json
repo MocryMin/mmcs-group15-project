@@ -1,0 +1,20 @@
+{
+  "source_id": "LOCAL-MMCS-NESO-ONLY-CALIBRATION-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "retrieved_on": "2026-11-10",
+  "status": "local_computation_with_official_product_metadata",
+  "folder": "assignments/FinalProject/neso-only-regression-20261110",
+  "report": "assignments/FinalProject/neso-only-regression-20261110/REPORT_ZH.md",
+  "inputs": "Existing frozen model_daily.csv and strict issue-filtered NESO forecast summary features; original forecast targetND versus repaired course targetVD are distinct definitions",
+  "official_access": "Playwright anonymous browser contexts, public NESO JSON metadata; no authenticated school/email/GitHub access",
+  "official_sources": [
+    "https://api.neso.energy/api/3/action/package_show?id=1-day-ahead-demand-forecast",
+    "https://api.neso.energy/api/3/action/package_show?id=2-day-ahead-demand-forecast",
+    "https://api.neso.energy/api/3/action/package_show?id=7-day-ahead-national-forecast",
+    "https://api.neso.energy/api/3/action/package_show?id=2-14-days-ahead-national-demand-forecast"
+  ],
+  "verification": "105 fits; replay27saved predictors;84metric rows; validation-only parameter selection; training feature scaler last origin2024-12-30; no new neural training",
+  "coverage_gap": "No multi-horizon archive alignment or backtest; no historic halfhour archive availability established; no MPC decision-value comparison",
+  "published": false
+}

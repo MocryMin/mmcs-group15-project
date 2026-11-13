@@ -1,0 +1,36 @@
+AUDIT {"checks": {"18_fresh_fits": true, "all_source_code_hashes_match": true, "all_target_dates_disjoint": true, "next_day_labels_only": true, "exact_requested_boundaries": true, "train_only_scaler": true, "exact_sample_counts": true, "pre2022_history_context_only": true, "no_september2026_targets": true, "full_three_set_eval_at_every_step": true, "all_batches_and_sample_counts_correct": true, "checkpoint_replayed_from_validation_only": true, "early_stop_15_complete_epochs": true, "epoch_zero_persistence": true, "independent_scalar_heads": true, "persistence_uses_today": true, "checkpoint_log_matches": true, "checkpoint_prediction_replay": true, "independent_loss_recalculation": true}, "all_passed": true, "evaluation_rows": 15354, "optimizer_steps": 15336, "full_set_metric_values": 46062, "max_prediction_difference": 0.0, "max_normalised_loss_difference": 2.120703637698007e-08, "max_checkpoint_log_difference": 0.0, "test_is_monitored_not_blind": true, "data_vintage_audited": false}
+       target      split       model  loss_mean  loss_seed_sd  skill_vs_persistence
+generation_MW      train Persistence   0.246449      0.000000              0.000000
+generation_MW      train         RNN   0.117461      0.002835              0.523385
+generation_MW      train        LSTM   0.099900      0.006965              0.594642
+    demand_MW      train Persistence   0.263293      0.000000              0.000000
+    demand_MW      train         RNN   0.075129      0.002581              0.714656
+    demand_MW      train        LSTM   0.070286      0.006589              0.733050
+price_GBP_MWh      train Persistence   0.147014      0.000000              0.000000
+price_GBP_MWh      train         RNN   0.099537      0.008682              0.322945
+price_GBP_MWh      train        LSTM   0.083977      0.017963              0.428781
+generation_MW validation Persistence   0.303554      0.000000              0.000000
+generation_MW validation         RNN   0.143444      0.001312              0.527450
+generation_MW validation        LSTM   0.139597      0.002579              0.540126
+    demand_MW validation Persistence   0.243003      0.000000              0.000000
+    demand_MW validation         RNN   0.085176      0.000618              0.649486
+    demand_MW validation        LSTM   0.081300      0.001233              0.665435
+price_GBP_MWh validation Persistence   0.134970      0.000000              0.000000
+price_GBP_MWh validation         RNN   0.110343      0.003653              0.182460
+price_GBP_MWh validation        LSTM   0.110058      0.005237              0.184576
+generation_MW       test Persistence   0.322207      0.000000              0.000000
+generation_MW       test         RNN   0.193111      0.003245              0.400661
+generation_MW       test        LSTM   0.184417      0.003666              0.427644
+    demand_MW       test Persistence   0.266117      0.000000              0.000000
+    demand_MW       test         RNN   0.107700      0.001098              0.595289
+    demand_MW       test        LSTM   0.108801      0.002856              0.591153
+price_GBP_MWh       test Persistence   0.087454      0.000000              0.000000
+price_GBP_MWh       test         RNN   0.065081      0.000277              0.255828
+price_GBP_MWh       test        LSTM   0.071708      0.005393              0.180053
+       target family  lookback    lr  best_epoch_min  best_epoch_max  best_step_min  best_step_max  stopped_epoch_min  stopped_epoch_max  selected_train  final_train  train_change_after_selected_pct  selected_validation  final_validation  validation_change_after_selected_pct  selected_test  final_test  test_change_after_selected_pct  train_falls_val_rises
+generation_MW    RNN        56 0.003              12              17            211            289                 27                 32        0.117461     0.106183                        -9.601767             0.143444          0.154979                              8.041172       0.193111    0.198080                        2.573087                   True
+generation_MW   LSTM        28 0.003              26              34            454            604                 41                 49        0.099900     0.082131                       -17.786781             0.139597          0.163510                             17.130657       0.184417    0.199719                        8.297373                   True
+    demand_MW    RNN        56 0.001              17              46            295            825                 32                 61        0.075129     0.073008                        -2.822812             0.085176          0.087847                              3.135437       0.107700    0.110014                        2.148500                   True
+    demand_MW   LSTM        28 0.003              16              45            281            797                 31                 60        0.070286     0.061348                       -12.716089             0.081300          0.092418                             13.674677       0.108801    0.119361                        9.705811                   True
+price_GBP_MWh    RNN        28 0.001              38              56            667           1004                 53                 71        0.099537     0.081591                       -18.029709             0.110343          0.120410                              9.123094       0.065081    0.071909                       10.491754                   True
+price_GBP_MWh   LSTM        56 0.003              28              58            492           1034                 43                 73        0.083977     0.066647                       -20.637496             0.110058          0.118713                              7.864378       0.071708    0.077288                        7.781599                   True

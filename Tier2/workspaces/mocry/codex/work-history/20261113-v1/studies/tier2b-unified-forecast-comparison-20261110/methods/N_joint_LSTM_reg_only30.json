@@ -1,0 +1,17 @@
+{
+  "id": "N_joint_LSTM_reg_only30",
+  "label": "联合 LSTM 55k 增强正则 P30",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "One joint-val checkpoint per seed; prior predeclared plateau policy; patience30",
+  "parameters_total": 54995,
+  "lookback": 56,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_joint_LSTM_reg_only30.npz",
+  "prediction_sha256": "8e1502e742e4b80be1d90cc79a931bc833766f14162da06780432d67db1e004e",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "group": "fuel_mix",
+  "rows": 2086,
+  "features": [
+    "Fossil Gas_origin_MW",
+    "Fossil Gas_mean7_MW",
+    "Nuclear_origin_MW",
+    "Nuclear_mean7_MW",
+    "Solar_origin_MW",
+    "Solar_mean7_MW",
+    "Wind Offshore_origin_MW",
+    "Wind Offshore_mean7_MW",
+    "Wind Onshore_origin_MW",
+    "Wind Onshore_mean7_MW",
+    "nonwind_nonsolar_origin_MW",
+    "wind_share_origin",
+    "solar_share_origin"
+  ],
+  "sha256": "b5b04c8f3ca3dc23c9574476308eef605261a39ee5a7877b5c71b3eb101ca3ec",
+  "source": "data-repair-20261104-v2\\data\\daily_generation_by_fuel.csv",
+  "source_sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec",
+  "availability": "Origin day measured/repaired values; same end-of-day availability assumption as base generation. No target-day fuel outputs used. Source vintage not independently audited.",
+  "mechanism": "Separate weather-driven wind/solar from persistent nuclear and dispatchable gas output; supply persistence differs across technologies."
+}

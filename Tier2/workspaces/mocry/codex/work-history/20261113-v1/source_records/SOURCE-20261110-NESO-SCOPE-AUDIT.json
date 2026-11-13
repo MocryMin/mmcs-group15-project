@@ -1,0 +1,47 @@
+{
+  "source_id": "LOCAL-MMCS-NESO-SCOPE-AUDIT-20261110",
+  "recorded_at": "2026-11-10T11:03:47.662333+00:00",
+  "question": "Is NESO national day-ahead demand the same target scope as the course daily demand?",
+  "course_target": "Repaired Elexon demand/outturn/summary recordTypeVD; equal-duration UTC-day mean. Missing/bad slots reconstructed from calibrated NESO TSD, not ND.",
+  "neso_forecast_target": "National Demand: operational GB generation requirement, excluding station load, pumped-storage pumping and interconnector exports. Forecasts at cardinal points, not daily time-weighted mean.",
+  "project_boundary": "Official brief calls datasets a constructed client energy system; actual client is hypothetical, not literally allGB demand. Teacher uses aggregate UK generation/demand and ignores grid routing.",
+  "geographical_relation": "Broad GB-system scale in underlying public data; not a verified customer-specific forecast.",
+  "exact_equivalence": "Not established; do not label NESO ND forecast an official same-definition forecast of courseVD.",
+  "diagnostic": {
+    "year": 2024,
+    "days": 353,
+    "filter": "288VD API output records, all>=10000MW; no imputedVD values used in comparison",
+    "mean_VD_minus_ND_MW": 2181.8784427132514,
+    "mean_VD_minus_TSD_MW": 241.3642784073025,
+    "correlation_VD_ND": 0.9882705539092187,
+    "correlation_VD_TSD": 0.9995201468610627
+  },
+  "inference": "Observed course-sourceVD is much closer to NESOTSD than ND. This supports a broader system-demand interpretation but does not by itself proveVD=TSD or uniquely explain the remaining241MW average difference.",
+  "modelling_implication": "Valid as an as-of external predictor of courseVD if publication cutoff holds; empirical improvement is transferable information gain, not evidence our model beats NESO on its own exact target.",
+  "missing_control": "NESO-only calibrated mapping to courseVD has not been isolated as a baseline.",
+  "sources": [
+    {
+      "url": "https://bmrs.elexon.co.uk/api-documentation/endpoint/demand/outturn/summary",
+      "verified": "System demand summary(FUELINST), a downsampled visualisation summary."
+    },
+    {
+      "url": "https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELINST",
+      "verified": "Underlying operational generation data concerns GreatBritain."
+    },
+    {
+      "url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=f6d02c0f-957b-48cb-82ee-09003f2ba759&limit=1",
+      "verified": "Official ND/TSD definitions and exclusions; ND maps toINDO and national forecast, TSD toITSDO and transmission forecast."
+    },
+    {
+      "local": "materials/sync-20261023/Project-brief-extracted.txt",
+      "verified": "Page2 constructed client system; not detailed Scottish transmission picture."
+    },
+    {
+      "local": "materials/project-launch-transcripts-20261028/transcript-timed.txt",
+      "verified": "Around01:09-01:17 UKaggregate simplifying assumption; provided transcript, not independently audio-verified."
+    }
+  ],
+  "published": false,
+  "models_retrained": false,
+  "frozen_research_package_modified": false
+}

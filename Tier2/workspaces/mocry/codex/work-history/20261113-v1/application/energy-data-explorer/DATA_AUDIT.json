@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "rows": 2086,
+  "coverage": {
+    "ND_actual": 2086,
+    "TSD_actual": 2086,
+    "ND_forecast": 1863,
+    "TSD_forecast": 1899,
+    "ND_cardinal_mean": 2084
+  },
+  "missing_forecast_days": 223,
+  "forecast_requests_failed": 0,
+  "all_forecast_issues_before_target_start": true,
+  "exact_48_UTC_halfhours_required": true,
+  "zero_imputation": true,
+  "raw_snapshot_sha256": "a2a195eb6f34d295f265ffa35895e0bfa7acc038db72464cadcec899afac80e6",
+  "existing_training_data_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+}

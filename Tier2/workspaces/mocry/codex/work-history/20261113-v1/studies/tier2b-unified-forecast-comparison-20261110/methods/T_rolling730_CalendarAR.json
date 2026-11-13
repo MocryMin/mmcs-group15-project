@@ -1,0 +1,38 @@
+{
+  "id": "T_rolling730_CalendarAR",
+  "label": "日历＋残差 AR（滚动730）",
+  "category": "traditional",
+  "regime": "rolling730",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.16391412804520714
+    },
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.08017185995761561
+    },
+    {
+      "family": "CalendarAR",
+      "parameter": 0,
+      "transform": "asinh",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.09340265185792596
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_rolling730_CalendarAR.npz",
+  "prediction_sha256": "8405cc60acd3a58faee3a6fc0f8bfb4ccde613602ecb7b96a88366cb0489ff03",
+  "seeds": [
+    "det"
+  ]
+}

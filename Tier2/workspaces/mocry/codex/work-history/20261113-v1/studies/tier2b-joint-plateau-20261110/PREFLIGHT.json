@@ -1,0 +1,46 @@
+{
+  "checks": {
+    "unchanged_model.py": true,
+    "unchanged_data.py": true,
+    "unchanged_scalers.json": true,
+    "unchanged_splits.csv": true,
+    "frozen_input": true,
+    "fixed_trigger_boundary": true,
+    "fixed_last_stage": true,
+    "fixed_improvement_resets_counter": true,
+    "lr_only_trigger_boundary": true,
+    "lr_only_last_stage": true,
+    "lr_only_improvement_resets_counter": true,
+    "reg_only_trigger_boundary": true,
+    "reg_only_last_stage": true,
+    "reg_only_improvement_resets_counter": true,
+    "combined_trigger_boundary": true,
+    "combined_last_stage": true,
+    "combined_improvement_resets_counter": true,
+    "controller_has_no_test_argument": true,
+    "combined_effective_decay_increases": true,
+    "RNN_count": true,
+    "RNN_initial_persistence": true,
+    "RNN_cpu_cuda": true,
+    "RNN_finite_nonzero_gradient": true,
+    "RNN_eval_loss_unaffected_by_dropout_setting": true,
+    "LSTM_count": true,
+    "LSTM_initial_persistence": true,
+    "LSTM_cpu_cuda": true,
+    "LSTM_finite_nonzero_gradient": true,
+    "LSTM_eval_loss_unaffected_by_dropout_setting": true
+  },
+  "all_passed": true,
+  "cpu_cuda": [
+    {
+      "family": "RNN",
+      "cpu_cuda_max_difference": 2.980232238769531e-07
+    },
+    {
+      "family": "LSTM",
+      "cpu_cuda_max_difference": 1.1920928955078125e-07
+    }
+  ],
+  "torch": "2.14.1+cu130",
+  "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU"
+}

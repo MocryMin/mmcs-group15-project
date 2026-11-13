@@ -1,0 +1,84 @@
+START RNN_small_joint_L28_lr0.003_s17 5511 initial 0.22717541175761094
+STEP RNN_small_joint_L28_lr0.003_s17 200 train 0.11698961467912972 val 0.13292739110637522 best 0.12319977616265299
+STEP RNN_small_joint_L28_lr0.003_s17 400 train 0.10550694644007337 val 0.12223041989120065 best 0.1181242759154042
+STEP RNN_small_joint_L28_lr0.003_s17 600 train 0.0984985165245153 val 0.12258191831943073 best 0.11700269315825032
+DONE {"run": "RNN_small_joint_L28_lr0.003_s17", "family": "RNN", "budget": "small", "parameters": 5511, "lookback": 28, "lr": 0.003, "seed": 17, "best_epoch": 29, "best_step": 510, "epochs": 44, "steps": 792, "best_train_loss": 0.10099800069391757, "best_validation_loss": 0.11700269315825032, "test_loss_at_val_checkpoint": 0.12508241036910397, "last_train_loss": 0.09266616572296715, "last_validation_loss": 0.12559479487817532, "last_test_loss": 0.13354179871058508, "device": "cuda", "eval_batch": 2048, "seconds": 3.0, "checkpoint": "checkpoints\\RNN_small_joint_L28_lr0.003_s17.pt", "step_log": "step_logs\\RNN_small_joint_L28_lr0.003_s17.csv"}
+PROGRESS 1 /12
+START RNN_small_joint_L28_lr0.003_s29 5511 initial 0.22717541175761094
+STEP RNN_small_joint_L28_lr0.003_s29 200 train 0.10980263362987833 val 0.12092511808041698 best 0.11929002964133152
+STEP RNN_small_joint_L28_lr0.003_s29 400 train 0.10639312896660202 val 0.12550033754859644 best 0.11831833934576025
+STEP RNN_small_joint_L28_lr0.003_s29 600 train 0.10474729168801122 val 0.12396493954835987 best 0.11722143604953145
+STEP RNN_small_joint_L28_lr0.003_s29 800 train 0.09505882671153473 val 0.12900909544223238 best 0.11478193101329293
+STEP RNN_small_joint_L28_lr0.003_s29 1000 train 0.08726350977995363 val 0.1246401027045861 best 0.11478193101329293
+DONE {"run": "RNN_small_joint_L28_lr0.003_s29", "family": "RNN", "budget": "small", "parameters": 5511, "lookback": 28, "lr": 0.003, "seed": 29, "best_epoch": 43, "best_step": 772, "epochs": 58, "steps": 1044, "best_train_loss": 0.09366876113008012, "best_validation_loss": 0.11478193101329293, "test_loss_at_val_checkpoint": 0.12241113516440394, "last_train_loss": 0.08832124251986323, "last_validation_loss": 0.1295874436638448, "last_test_loss": 0.13504825912140825, "device": "cuda", "eval_batch": 2048, "seconds": 3.5320000000065193, "checkpoint": "checkpoints\\RNN_small_joint_L28_lr0.003_s29.pt", "step_log": "step_logs\\RNN_small_joint_L28_lr0.003_s29.csv"}
+PROGRESS 2 /12
+START RNN_small_joint_L28_lr0.003_s43 5511 initial 0.22717541175761094
+STEP RNN_small_joint_L28_lr0.003_s43 200 train 0.10891112959020595 val 0.12132847666686193 best 0.11984632701582072
+STEP RNN_small_joint_L28_lr0.003_s43 400 train 0.10550593730505238 val 0.12097272979270038 best 0.11689598610857412
+STEP RNN_small_joint_L28_lr0.003_s43 600 train 0.09625045677769879 val 0.12194051320982977 best 0.1159030112279116
+STEP RNN_small_joint_L28_lr0.003_s43 800 train 0.09347702237484129 val 0.12844925295689769 best 0.1159030112279116
+DONE {"run": "RNN_small_joint_L28_lr0.003_s43", "family": "RNN", "budget": "small", "parameters": 5511, "lookback": 28, "lr": 0.003, "seed": 43, "best_epoch": 30, "best_step": 533, "epochs": 45, "steps": 810, "best_train_loss": 0.09915395785377175, "best_validation_loss": 0.1159030112279116, "test_loss_at_val_checkpoint": 0.12547117966661295, "last_train_loss": 0.09369705443463638, "last_validation_loss": 0.1253614681780197, "last_test_loss": 0.13269878303850788, "device": "cuda", "eval_batch": 2048, "seconds": 2.7809999999881256, "checkpoint": "checkpoints\\RNN_small_joint_L28_lr0.003_s43.pt", "step_log": "step_logs\\RNN_small_joint_L28_lr0.003_s43.csv"}
+PROGRESS 3 /12
+START RNN_large_joint_L28_lr0.003_s17 54951 initial 0.22717541175761094
+STEP RNN_large_joint_L28_lr0.003_s17 200 train 0.12118384167385617 val 0.1353648420673379 best 0.12117865066272322
+STEP RNN_large_joint_L28_lr0.003_s17 400 train 0.11521563433908617 val 0.12567509921863898 best 0.1210563461327773
+STEP RNN_large_joint_L28_lr0.003_s17 600 train 0.10910921549510877 val 0.1210004594616307 best 0.11867549123511185
+STEP RNN_large_joint_L28_lr0.003_s17 800 train 0.10671716867043397 val 0.12068551751145157 best 0.11725539510333527
+STEP RNN_large_joint_L28_lr0.003_s17 1000 train 0.10256103655382592 val 0.11792630066875906 best 0.11646514783673384
+STEP RNN_large_joint_L28_lr0.003_s17 1200 train 0.10215942789818516 val 0.1223758954464398 best 0.11594133709998047
+DONE {"run": "RNN_large_joint_L28_lr0.003_s17", "family": "RNN", "budget": "large", "parameters": 54951, "lookback": 28, "lr": 0.003, "seed": 17, "best_epoch": 61, "best_step": 1098, "epochs": 76, "steps": 1368, "best_train_loss": 0.09970977262732184, "best_validation_loss": 0.11594133709998047, "test_loss_at_val_checkpoint": 0.12482173771697647, "last_train_loss": 0.10284074888588648, "last_validation_loss": 0.12308587113778605, "last_test_loss": 0.1318673476375785, "device": "cuda", "eval_batch": 2048, "seconds": 6.5, "checkpoint": "checkpoints\\RNN_large_joint_L28_lr0.003_s17.pt", "step_log": "step_logs\\RNN_large_joint_L28_lr0.003_s17.csv"}
+PROGRESS 4 /12
+START RNN_large_joint_L28_lr0.003_s29 54951 initial 0.22717541175761094
+STEP RNN_large_joint_L28_lr0.003_s29 200 train 0.12101467951119951 val 0.12442943547428265 best 0.12202144309102919
+STEP RNN_large_joint_L28_lr0.003_s29 400 train 0.11285140611283842 val 0.1299540891778347 best 0.12142299586073407
+STEP RNN_large_joint_L28_lr0.003_s29 600 train 0.11117748491925727 val 0.12322795930722098 best 0.1184639207150966
+STEP RNN_large_joint_L28_lr0.003_s29 800 train 0.10563755891845092 val 0.12204567437386554 best 0.11650813374417053
+STEP RNN_large_joint_L28_lr0.003_s29 1000 train 0.10089167889990648 val 0.11887517688125193 best 0.11403018362234402
+DONE {"run": "RNN_large_joint_L28_lr0.003_s29", "family": "RNN", "budget": "large", "parameters": 54951, "lookback": 28, "lr": 0.003, "seed": 29, "best_epoch": 47, "best_step": 844, "epochs": 62, "steps": 1116, "best_train_loss": 0.10187779973917523, "best_validation_loss": 0.11403018362234402, "test_loss_at_val_checkpoint": 0.12459574849184447, "last_train_loss": 0.10270192915282723, "last_validation_loss": 0.12348095268787165, "last_test_loss": 0.136044675210426, "device": "cuda", "eval_batch": 2048, "seconds": 5.437000000005355, "checkpoint": "checkpoints\\RNN_large_joint_L28_lr0.003_s29.pt", "step_log": "step_logs\\RNN_large_joint_L28_lr0.003_s29.csv"}
+PROGRESS 5 /12
+START RNN_large_joint_L28_lr0.003_s43 54951 initial 0.22717541175761094
+STEP RNN_large_joint_L28_lr0.003_s43 200 train 0.11294763028875711 val 0.12197868961735925 best 0.11881203080382235
+STEP RNN_large_joint_L28_lr0.003_s43 400 train 0.11282376047641995 val 0.12587202590136198 best 0.11854118087758561
+DONE {"run": "RNN_large_joint_L28_lr0.003_s43", "family": "RNN", "budget": "large", "parameters": 54951, "lookback": 28, "lr": 0.003, "seed": 43, "best_epoch": 12, "best_step": 206, "epochs": 27, "steps": 486, "best_train_loss": 0.1098451661801794, "best_validation_loss": 0.11854118087758561, "test_loss_at_val_checkpoint": 0.12438178010037589, "last_train_loss": 0.10965141731336678, "last_validation_loss": 0.13066799203499047, "last_test_loss": 0.1353855747371583, "device": "cuda", "eval_batch": 2048, "seconds": 2.5780000000086147, "checkpoint": "checkpoints\\RNN_large_joint_L28_lr0.003_s43.pt", "step_log": "step_logs\\RNN_large_joint_L28_lr0.003_s43.csv"}
+PROGRESS 6 /12
+START LSTM_small_joint_L56_lr0.003_s17 5475 initial 0.22717541175761094
+STEP LSTM_small_joint_L56_lr0.003_s17 200 train 0.11186678975331513 val 0.12969419640388583 best 0.1271810369168301
+STEP LSTM_small_joint_L56_lr0.003_s17 400 train 0.1051017852846674 val 0.12517234644576267 best 0.12144462189111854
+STEP LSTM_small_joint_L56_lr0.003_s17 600 train 0.09738579282928457 val 0.1193108749888199 best 0.1179119033034916
+STEP LSTM_small_joint_L56_lr0.003_s17 800 train 0.0904180601715506 val 0.12353315153741669 best 0.11687587352926312
+DONE {"run": "LSTM_small_joint_L56_lr0.003_s17", "family": "LSTM", "budget": "small", "parameters": 5475, "lookback": 56, "lr": 0.003, "seed": 17, "best_epoch": 38, "best_step": 671, "epochs": 53, "steps": 954, "best_train_loss": 0.09489826654230282, "best_validation_loss": 0.11687587352926312, "test_loss_at_val_checkpoint": 0.12432342412829533, "last_train_loss": 0.08463590928307937, "last_validation_loss": 0.12981061029467067, "last_test_loss": 0.1353034365909246, "device": "cuda", "eval_batch": 2048, "seconds": 4.984000000025844, "checkpoint": "checkpoints\\LSTM_small_joint_L56_lr0.003_s17.pt", "step_log": "step_logs\\LSTM_small_joint_L56_lr0.003_s17.csv"}
+PROGRESS 7 /12
+START LSTM_small_joint_L56_lr0.003_s29 5475 initial 0.22717541175761094
+STEP LSTM_small_joint_L56_lr0.003_s29 200 train 0.1108206752333984 val 0.1274032398390721 best 0.1264955974829428
+STEP LSTM_small_joint_L56_lr0.003_s29 400 train 0.10415602274160995 val 0.12452012237348589 best 0.12267885461224204
+STEP LSTM_small_joint_L56_lr0.003_s29 600 train 0.10132936315654772 val 0.1241592965744667 best 0.11934110349578399
+STEP LSTM_small_joint_L56_lr0.003_s29 800 train 0.0918814801904285 val 0.12401450463781122 best 0.11882641312614048
+DONE {"run": "LSTM_small_joint_L56_lr0.003_s29", "family": "LSTM", "budget": "small", "parameters": 5475, "lookback": 56, "lr": 0.003, "seed": 29, "best_epoch": 38, "best_step": 668, "epochs": 53, "steps": 954, "best_train_loss": 0.09578283682574003, "best_validation_loss": 0.11882641312614048, "test_loss_at_val_checkpoint": 0.12461121323018279, "last_train_loss": 0.08573170697705236, "last_validation_loss": 0.12293782789044122, "last_test_loss": 0.12721195745336408, "device": "cuda", "eval_batch": 2048, "seconds": 4.89000000001397, "checkpoint": "checkpoints\\LSTM_small_joint_L56_lr0.003_s29.pt", "step_log": "step_logs\\LSTM_small_joint_L56_lr0.003_s29.csv"}
+PROGRESS 8 /12
+START LSTM_small_joint_L56_lr0.003_s43 5475 initial 0.22717541175761094
+STEP LSTM_small_joint_L56_lr0.003_s43 200 train 0.10918440626349613 val 0.12668038868608414 best 0.12654114203666994
+STEP LSTM_small_joint_L56_lr0.003_s43 400 train 0.10224902129875119 val 0.12228084540347375 best 0.12190798453883128
+STEP LSTM_small_joint_L56_lr0.003_s43 600 train 0.09562807752386421 val 0.12197769605093531 best 0.1196961754837223
+STEP LSTM_small_joint_L56_lr0.003_s43 800 train 0.0901271253884213 val 0.12638911471411854 best 0.11949519130609737
+STEP LSTM_small_joint_L56_lr0.003_s43 1000 train 0.08249794059143006 val 0.12654720673652325 best 0.11949519130609737
+DONE {"run": "LSTM_small_joint_L56_lr0.003_s43", "family": "LSTM", "budget": "small", "parameters": 5475, "lookback": 56, "lr": 0.003, "seed": 43, "best_epoch": 41, "best_step": 732, "epochs": 56, "steps": 1008, "best_train_loss": 0.09176747320153784, "best_validation_loss": 0.11949519130609737, "test_loss_at_val_checkpoint": 0.12289260623781098, "last_train_loss": 0.08265959167714723, "last_validation_loss": 0.13187774507063105, "last_test_loss": 0.13576078881750367, "device": "cuda", "eval_batch": 2048, "seconds": 5.125, "checkpoint": "checkpoints\\LSTM_small_joint_L56_lr0.003_s43.pt", "step_log": "step_logs\\LSTM_small_joint_L56_lr0.003_s43.csv"}
+PROGRESS 9 /12
+START LSTM_large_joint_L56_lr0.003_s17 54995 initial 0.22717541175761094
+STEP LSTM_large_joint_L56_lr0.003_s17 200 train 0.11006020744578639 val 0.1309080149807104 best 0.12441507481750454
+STEP LSTM_large_joint_L56_lr0.003_s17 400 train 0.1007911554043623 val 0.12540868168106378 best 0.1169982606931586
+STEP LSTM_large_joint_L56_lr0.003_s17 600 train 0.08185547357490082 val 0.11920129191338472 best 0.1169982606931586
+DONE {"run": "LSTM_large_joint_L56_lr0.003_s17", "family": "LSTM", "budget": "large", "parameters": 54995, "lookback": 56, "lr": 0.003, "seed": 17, "best_epoch": 22, "best_step": 383, "epochs": 37, "steps": 666, "best_train_loss": 0.10192766352682348, "best_validation_loss": 0.1169982606931586, "test_loss_at_val_checkpoint": 0.12512125520032708, "last_train_loss": 0.07495100658050895, "last_validation_loss": 0.12431431861221355, "last_test_loss": 0.1337184749480217, "device": "cuda", "eval_batch": 2048, "seconds": 5.89100000000326, "checkpoint": "checkpoints\\LSTM_large_joint_L56_lr0.003_s17.pt", "step_log": "step_logs\\LSTM_large_joint_L56_lr0.003_s17.csv"}
+PROGRESS 10 /12
+START LSTM_large_joint_L56_lr0.003_s29 54995 initial 0.22717541175761094
+STEP LSTM_large_joint_L56_lr0.003_s29 200 train 0.10763413081543534 val 0.12476950369244202 best 0.12272818131085916
+STEP LSTM_large_joint_L56_lr0.003_s29 400 train 0.09711555598063461 val 0.1260007212026606 best 0.11759368091324315
+STEP LSTM_large_joint_L56_lr0.003_s29 600 train 0.08433734707416203 val 0.12428134008464882 best 0.11759368091324315
+DONE {"run": "LSTM_large_joint_L56_lr0.003_s29", "family": "LSTM", "budget": "large", "parameters": 54995, "lookback": 56, "lr": 0.003, "seed": 29, "best_epoch": 20, "best_step": 349, "epochs": 35, "steps": 630, "best_train_loss": 0.09978781957614605, "best_validation_loss": 0.11759368091324315, "test_loss_at_val_checkpoint": 0.1196480749272554, "last_train_loss": 0.08016972894544817, "last_validation_loss": 0.12426613146217791, "last_test_loss": 0.12991506294350247, "device": "cuda", "eval_batch": 2048, "seconds": 5.39100000000326, "checkpoint": "checkpoints\\LSTM_large_joint_L56_lr0.003_s29.pt", "step_log": "step_logs\\LSTM_large_joint_L56_lr0.003_s29.csv"}
+PROGRESS 11 /12
+START LSTM_large_joint_L56_lr0.003_s43 54995 initial 0.22717541175761094
+STEP LSTM_large_joint_L56_lr0.003_s43 200 train 0.10909096784543768 val 0.1275159110801853 best 0.12442451090421647
+STEP LSTM_large_joint_L56_lr0.003_s43 400 train 0.09512338686307194 val 0.11835908842166377 best 0.11801594279152346
+STEP LSTM_large_joint_L56_lr0.003_s43 600 train 0.07546710087578834 val 0.11933501085795722 best 0.11638154598721936
+DONE {"run": "LSTM_large_joint_L56_lr0.003_s43", "family": "LSTM", "budget": "large", "parameters": 54995, "lookback": 56, "lr": 0.003, "seed": 43, "best_epoch": 25, "best_step": 445, "epochs": 40, "steps": 720, "best_train_loss": 0.0933631469077286, "best_validation_loss": 0.11638154598721936, "test_loss_at_val_checkpoint": 0.12268288355302082, "last_train_loss": 0.06433248815994311, "last_validation_loss": 0.13108572512762176, "last_test_loss": 0.13763747006289168, "device": "cuda", "eval_batch": 2048, "seconds": 6.14000000001397, "checkpoint": "checkpoints\\LSTM_large_joint_L56_lr0.003_s43.pt", "step_log": "step_logs\\LSTM_large_joint_L56_lr0.003_s43.csv"}
+PROGRESS 12 /12
+COMPLETE 12 fits 56.45299999997951

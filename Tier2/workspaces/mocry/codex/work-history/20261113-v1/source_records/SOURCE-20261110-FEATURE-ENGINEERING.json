@@ -1,0 +1,343 @@
+{
+  "source_id": "LOCAL-MMCS-FEATURE-ENGINEERING-20261110",
+  "recorded_at": "2026-11-10T03:30:11.180000+00:00",
+  "evidence_status": "local_experiment_verified_with_public_primary_data",
+  "entry": {
+    "status": "completed_local_research_target_met_not_published",
+    "source_id": "LOCAL-MMCS-FEATURE-ENGINEERING-20261110",
+    "folder": "assignments\\FinalProject\\tier2b-feature-engineering-20261110",
+    "baseline_role": "Temporary fixed control for feature research; not a final permanent forecasting choice",
+    "independent_targets": true,
+    "neural_families": [
+      "RNN",
+      "LSTM",
+      "Transformer"
+    ],
+    "parameter_grid": [
+      2000,
+      5000,
+      10000
+    ],
+    "baseline_fits": 81,
+    "main_neural_fits": 477,
+    "strict_confirmation_fits": 18,
+    "neural_fits_total": 495,
+    "classical_feature_configurations": 25,
+    "new_classical_model_target_cases_replayed": 297,
+    "complete_full_split_evaluation_rows": 419571,
+    "training_updates": 419076,
+    "stop_reason": "Confirmed >=5% validation improvement on all3targets, >=2/3matchedseeds improve, test not worse; actual all3seeds improve",
+    "quota_last_observed_remaining_percent": 71,
+    "quota_threshold_reached": false,
+    "all_background_training_finished": true,
+    "MPC_evaluated": false,
+    "formal_report_modified": false,
+    "published": false,
+    "strict_extra_input_scaler_last_origin": "2024-12-30",
+    "target_scaler_last_label": "2024-12-31",
+    "professional_forecast_context_separate": true,
+    "neso_wind_excluded_from_final_pool": "341missing origin dates,148-day continuous gap after strict issue cutoff",
+    "archive": {
+      "path": "assignments/FinalProject/MMCS_Tier2B_Feature_Engineering_20261110_v1.2.zip",
+      "sha256": "db78a119da58bdd96cd34098a1e78f249a7550259e519e96a9a2ad42a44052c3",
+      "bytes": 45876292,
+      "manifest_files": 2553,
+      "verified": true
+    },
+    "updated_at": "2026-11-10T03:30:11.180000+00:00"
+  },
+  "improvements_strict": [
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "budget": 10000,
+      "groups": "balance",
+      "pool": "self_features",
+      "baseline_family": "LSTM",
+      "baseline_budget": 10000,
+      "baseline_validation": 0.1365207046,
+      "candidate_validation": 0.1320221401,
+      "validation_improvement_pct": 3.2951518311,
+      "baseline_test": 0.1856413434,
+      "candidate_test": 0.1742742037,
+      "test_improvement_pct": 6.1231725386,
+      "matched_baseline_validation": 0.1389170031,
+      "matched_validation_improvement_pct": 4.9632966953,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": -2.1176341954,
+      "test_gain_block14_high_pct": 13.9872122973
+    },
+    {
+      "target": "generation_MW",
+      "family": "LSTM",
+      "budget": 10000,
+      "groups": "neso_demand+weather_wind",
+      "pool": "external_forecasts",
+      "baseline_family": "LSTM",
+      "baseline_budget": 10000,
+      "baseline_validation": 0.1365207046,
+      "candidate_validation": 0.1228412498,
+      "validation_improvement_pct": 10.0200587717,
+      "baseline_test": 0.1856413434,
+      "candidate_test": 0.1571786681,
+      "test_improvement_pct": 15.3320778541,
+      "matched_baseline_validation": 0.1365207046,
+      "matched_validation_improvement_pct": 10.0200587717,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": 3.4685243817,
+      "test_gain_block14_high_pct": 25.6407422514
+    },
+    {
+      "target": "demand_MW",
+      "family": "Transformer",
+      "budget": 5000,
+      "groups": "bank_holidays+weather_temp",
+      "pool": "self_features",
+      "baseline_family": "Transformer",
+      "baseline_budget": 5000,
+      "baseline_validation": 0.0801445729,
+      "candidate_validation": 0.0572876496,
+      "validation_improvement_pct": 28.5196145319,
+      "baseline_test": 0.1065485757,
+      "candidate_test": 0.088624565,
+      "test_improvement_pct": 16.8223841893,
+      "matched_baseline_validation": 0.0801445729,
+      "matched_validation_improvement_pct": 28.5196145319,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": 3.0311839759,
+      "test_gain_block14_high_pct": 28.015130937
+    },
+    {
+      "target": "demand_MW",
+      "family": "Transformer",
+      "budget": 10000,
+      "groups": "neso_demand",
+      "pool": "external_forecasts",
+      "baseline_family": "Transformer",
+      "baseline_budget": 5000,
+      "baseline_validation": 0.0801445729,
+      "candidate_validation": 0.0384949464,
+      "validation_improvement_pct": 51.9681183082,
+      "baseline_test": 0.1065485757,
+      "candidate_test": 0.0662448939,
+      "test_improvement_pct": 37.8265795858,
+      "matched_baseline_validation": 0.0807183183,
+      "matched_validation_improvement_pct": 52.309528692,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": 22.7688964136,
+      "test_gain_block14_high_pct": 49.2175415654
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "budget": 5000,
+      "groups": "weather_wind",
+      "pool": "self_features",
+      "baseline_family": "Transformer",
+      "baseline_budget": 10000,
+      "baseline_validation": 0.1015510715,
+      "candidate_validation": 0.0859122807,
+      "validation_improvement_pct": 15.3999268436,
+      "baseline_test": 0.0664274838,
+      "candidate_test": 0.05192097,
+      "test_improvement_pct": 21.8381202501,
+      "matched_baseline_validation": 0.1040411156,
+      "matched_validation_improvement_pct": 17.4246832603,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": 13.5135554774,
+      "test_gain_block14_high_pct": 29.6289992963
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "budget": 10000,
+      "groups": "neso_demand+weather_wind",
+      "pool": "external_forecasts",
+      "baseline_family": "Transformer",
+      "baseline_budget": 10000,
+      "baseline_validation": 0.1015510715,
+      "candidate_validation": 0.0816303396,
+      "validation_improvement_pct": 19.6164664007,
+      "baseline_test": 0.0664274838,
+      "candidate_test": 0.0462013291,
+      "test_improvement_pct": 30.4484732974,
+      "matched_baseline_validation": 0.1068857051,
+      "matched_validation_improvement_pct": 23.628384602,
+      "matched_seeds_validation_improved": 3,
+      "test_gain_block14_low_pct": 18.9085022977,
+      "test_gain_block14_high_pct": 39.9953902585
+    }
+  ],
+  "audits": {
+    "main_neural": {
+      "passed": true,
+      "cases_replayed": 477,
+      "all_full_split_metrics_recomputed": true,
+      "complete_evaluation_rows_checked": 402633,
+      "training_updates_checked": 402156,
+      "each_update_has_all3_full_splits": true,
+      "val_only_checkpoint_selection_verified": true,
+      "max_normalized_checkpoint_prediction_difference": 0.0,
+      "max_relative_metric_difference": 0.0,
+      "max_fractional_parameter_budget_difference": 0.0435,
+      "source_timing": [
+        {
+          "source": "gfs_temperature_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 4
+        },
+        {
+          "source": "jma_wind_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 3
+        },
+        {
+          "source": "jma_solar_proxy_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 3
+        },
+        {
+          "source": "neso_demand_day_ahead.json",
+          "retained_days": 2086,
+          "all_retained_issues_before_target_day00UTC": true,
+          "future_issues_rejected": 0
+        },
+        {
+          "source": "neso_wind_day_ahead.json",
+          "retained_days": 1746,
+          "all_retained_issues_before_target_day00UTC": true,
+          "future_issues_rejected": 18457
+        }
+      ],
+      "future_observation_and_future_feature_perturbation_groups": [
+        "bank_holidays+weather_temp",
+        "bank_holidays",
+        "base",
+        "calendar_target",
+        "neso_demand",
+        "weather_temp",
+        "balance+weather_wind+weather_solar",
+        "balance+weather_wind",
+        "balance",
+        "fuel_mix",
+        "neso_demand+weather_wind",
+        "price_robust",
+        "regime",
+        "weather_solar",
+        "weather_wind+weather_solar",
+        "weather_wind",
+        "weekly_context"
+      ],
+      "strict_confirmation": false,
+      "strict_baseline_inputs_bit_identical_to_original": null,
+      "external_calendar_special_announcement_vintage": "not reconstructed; known-by-day-before assumption",
+      "scope": "Local computational replay and timing audit, not an independent agent review."
+    },
+    "strict_neural": {
+      "passed": true,
+      "cases_replayed": 18,
+      "all_full_split_metrics_recomputed": true,
+      "complete_evaluation_rows_checked": 16938,
+      "training_updates_checked": 16920,
+      "each_update_has_all3_full_splits": true,
+      "val_only_checkpoint_selection_verified": true,
+      "max_normalized_checkpoint_prediction_difference": 0.0,
+      "max_relative_metric_difference": 0.0,
+      "max_fractional_parameter_budget_difference": 0.0039,
+      "source_timing": [
+        {
+          "source": "gfs_temperature_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 4
+        },
+        {
+          "source": "jma_wind_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 3
+        },
+        {
+          "source": "jma_solar_proxy_day2.json",
+          "lead_hours": 48,
+          "latest_possible_issue_hours_before_end_of_origin": 24,
+          "locations": 3
+        },
+        {
+          "source": "neso_demand_day_ahead.json",
+          "retained_days": 2086,
+          "all_retained_issues_before_target_day00UTC": true,
+          "future_issues_rejected": 0
+        },
+        {
+          "source": "neso_wind_day_ahead.json",
+          "retained_days": 1746,
+          "all_retained_issues_before_target_day00UTC": true,
+          "future_issues_rejected": 18457
+        }
+      ],
+      "future_observation_and_future_feature_perturbation_groups": [],
+      "strict_confirmation": true,
+      "strict_baseline_inputs_bit_identical_to_original": true,
+      "external_calendar_special_announcement_vintage": "not reconstructed; known-by-day-before assumption",
+      "scope": "Local computational replay and timing audit, not an independent agent review."
+    },
+    "classical": {
+      "passed": true,
+      "model_target_cases_replayed_or_refitted": 297,
+      "chosen_configurations_refitted": 225,
+      "max_normalized_prediction_difference": 0.0,
+      "max_relative_metric_difference": 2.508015767173367e-16,
+      "frozen_reference_sources_verified": 7,
+      "selected_model_states_saved": [
+        "CPU_SELECTED_price_GBP_MWh_HGB_base.joblib",
+        "CPU_SELECTED_price_GBP_MWh_HGB_neso_demand+weather_wind.joblib",
+        "CPU_SELECTED_price_GBP_MWh_HGB_weather_wind+price_robust+bank_holidays.joblib"
+      ],
+      "val_only_parameter_selection": "parameters from existing val-selected rows; no test-based refitting choice",
+      "portable_original_reference_files_verified": 7
+    }
+  },
+  "research_sources": [
+    {
+      "source": "GOV.UK bank holidays",
+      "url": "https://www.gov.uk/bank-holidays.json",
+      "used": "England/Wales and Scotland target-day and adjacent-day flags. Official calendar fetched; special-announcement vintage assumed known by previous day."
+    },
+    {
+      "source": "Open-Meteo Historical Forecast API",
+      "url": "https://open-meteo.com/en/docs/historical-forecast-api",
+      "used": "Archive coverage and distinction between stitched short-lead histories and fixed-lead forecast products."
+    },
+    {
+      "source": "Open-Meteo Previous Runs API",
+      "url": "https://open-meteo.com/en/docs/previous-runs-api",
+      "used": "48h fixed-lead GFS temperature and JMA wind/cloud forecasts. Original run files and exact publication latency not independently reconstructed;48h offset leaves at least24h margin before end of origin."
+    },
+    {
+      "source": "NESO Day Ahead Demand Forecast",
+      "url": "https://www.neso.energy/data-portal/1-day-ahead-demand-forecast",
+      "used": "Archived cardinal point predictions, issue timestamps and field definitions inspected through official CKAN API. Not a daily actual-demand column."
+    },
+    {
+      "source": "NESO Day Ahead Wind Forecast",
+      "url": "https://www.neso.energy/data-portal/day-ahead-wind-forecast",
+      "used": "Inspected and rejected from final pool because strict issue filtering leaves341missing origin dates, including148consecutive days. Kept as a labeled exploratory classical experiment."
+    },
+    {
+      "source": "Lago etal2021, Applied Energy293,116983",
+      "url": "https://arxiv.org/abs/2008.08004",
+      "used": "Read abstract and bibliographic record. Supports comparison against strong simpler methods and multi-year common evaluation; no claim to have reproduced its benchmark or read every paper it cites."
+    },
+    {
+      "source": "Hyndman and Athanasopoulos, Forecasting: Principles and Practice, regression forecasting",
+      "url": "https://otexts.com/fpp3/regression.html#sec-forecasting-regression",
+      "used": "Read ex-ante/ex-post and predictor availability discussion. Motivation to use calendar, lagged observations and forecasts already issued before origin, rather than realised future weather."
+    }
+  ],
+  "coverage": "Local frozen course data and prediction archives; anonymous Playwright reads of public weather,GOVUK,NESO,paper/book sources. No school platform,mail,GitHub or group-message access.",
+  "limits": "Test repeatedly monitored; not a new blind holdout. Special holiday announcement vintages and each original weather run file not reconstructed. No MPC profit evaluation, no user independent mastery test."
+}

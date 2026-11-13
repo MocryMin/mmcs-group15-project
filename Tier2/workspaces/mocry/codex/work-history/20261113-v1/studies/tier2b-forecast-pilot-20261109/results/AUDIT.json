@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "source_hashes": true,
+    "train_only_mean_std": true,
+    "origins_before_all_targets": true,
+    "input_history_ends_at_origin": true,
+    "targets_within_designated_split": true,
+    "partial_2026_not_evaluated": true,
+    "same_parameter_budget": true,
+    "grid_all_24_runs": true,
+    "selection_uses_validation_only": true,
+    "validation_seasonal_naive_uses_only_past": true,
+    "validation_physical_prediction_bounds": true,
+    "test_seasonal_naive_uses_only_past": true,
+    "test_physical_prediction_bounds": true,
+    "independent_metric_recalculation": true
+  },
+  "all_passed": true,
+  "worst_metric_difference": 0.0,
+  "data_vintage_audit": false,
+  "data_vintage_note": "Frozen retrospectively repaired dataset. Source reconstruction/publication vintages were not re-created, so this is not an audited real-time data-vintage backtest."
+}

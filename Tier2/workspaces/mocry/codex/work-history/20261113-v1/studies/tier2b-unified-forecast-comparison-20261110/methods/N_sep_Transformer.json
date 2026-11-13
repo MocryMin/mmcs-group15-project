@@ -1,0 +1,33 @@
+{
+  "id": "N_sep_Transformer",
+  "label": "独立 Transformer 5k",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "Previously frozen independent target validation selection; per-seed target val checkpoints",
+  "target_configs": {
+    "generation_MW": {
+      "lookback": 7,
+      "lr": 0.001,
+      "parameters_per_target": 5407
+    },
+    "demand_MW": {
+      "lookback": 7,
+      "lr": 0.001,
+      "parameters_per_target": 5407
+    },
+    "price_GBP_MWh": {
+      "lookback": 182,
+      "lr": 0.001,
+      "parameters_per_target": 5407
+    }
+  },
+  "parameters_total": 16221,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_sep_Transformer.npz",
+  "prediction_sha256": "edb13ea89ac4e5a3d51b5530ac6e1035d9f4a940103fc7a6c40ea9863147a8e7",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.local/
+releases/
+PREVIEW_SERVER.json
+evidence/*.b64
+evidence/*.gz
+QA-*.png

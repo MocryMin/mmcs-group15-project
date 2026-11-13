@@ -1,0 +1,423 @@
+{
+  "protocol": {
+    "mode": "independent target models, no shared weights or multi-task loss",
+    "horizon": 1,
+    "targets": [
+      "generation_MW",
+      "demand_MW",
+      "price_GBP_MWh"
+    ],
+    "features": "All models retain the same three observed histories and five calendar features, but output one target only",
+    "loss": "Single target next-day MSE standardised by that target's training std; train and val use identical eval-mode criterion",
+    "periods": {
+      "train": "2020-2022",
+      "validation": "2023"
+    },
+    "sample_counts": {
+      "train": 1040,
+      "validation": 365
+    },
+    "lookbacks": [
+      28,
+      56
+    ],
+    "learning_rates": [
+      0.001,
+      0.003
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "expected_fits": 72,
+    "selection": "Per-target, per-family lowest three-seed mean validation loss; per-seed best validation checkpoint; epoch-zero persistence eligible",
+    "architecture": {
+      "RNN": "single tanh layer, hidden 68, 5373 parameters",
+      "LSTM": "single LSTM layer, hidden 32, 5409 parameters"
+    },
+    "training": {
+      "optimizer": "AdamW",
+      "weight_decay": 0.0001,
+      "dropout": 0.1,
+      "batch_size": 64,
+      "max_epochs": 120,
+      "patience": 15,
+      "clip_grad_norm": 1.0
+    },
+    "baseline": "target tomorrow equals target today, scored on identical origins",
+    "test_evaluated": false,
+    "external_features": false,
+    "Ridge_fitted": false,
+    "MPC_evaluated": false,
+    "joint_comparison_caveat": "Three independent models use about three times the total parameters of one joint model; differences are not a capacity-controlled causal estimate of negative transfer.",
+    "data_vintage": "Frozen repaired historical data, source publication/reconstruction vintages not audited",
+    "source_script_sha256": "d7c037e5c282c88d6df4bc574f6063c121256c06241a18e99302d142bf1a115e",
+    "torch": "2.15.0+cpu",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "device": "CPU, two threads"
+  },
+  "selected": {
+    "generation_MW|RNN": {
+      "target": "generation_MW",
+      "family": "RNN",
+      "lookback": 56,
+      "lr": 0.003,
+      "mean": 0.24441752831141153,
+      "std": 0.002510719358456343
+    },
+    "generation_MW|LSTM": {
+      "target": "generation_MW",
+      "family": "LSTM",
+      "lookback": 28,
+      "lr": 0.003,
+      "mean": 0.2539472778638204,
+      "std": 0.006056904581136686
+    },
+    "demand_MW|RNN": {
+      "target": "demand_MW",
+      "family": "RNN",
+      "lookback": 56,
+      "lr": 0.001,
+      "mean": 0.08184204498926799,
+      "std": 0.000689763568552598
+    },
+    "demand_MW|LSTM": {
+      "target": "demand_MW",
+      "family": "LSTM",
+      "lookback": 28,
+      "lr": 0.003,
+      "mean": 0.0865266943971316,
+      "std": 0.00024775191279389775
+    },
+    "price_GBP_MWh|RNN": {
+      "target": "price_GBP_MWh",
+      "family": "RNN",
+      "lookback": 28,
+      "lr": 0.001,
+      "mean": 0.038268805791934334,
+      "std": 0.0005117440030700939
+    },
+    "price_GBP_MWh|LSTM": {
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "lookback": 56,
+      "lr": 0.003,
+      "mean": 0.03974222640196482,
+      "std": 0.0005676605429841915
+    }
+  },
+  "metrics": {
+    "train": {
+      "generation_MW": {
+        "Persistence": {
+          "loss": 0.3631132222960285,
+          "MSE": 5021041.64120866,
+          "RMSE": 2240.7680917954585,
+          "MAE": 1651.3332307824328,
+          "strict_target_loss": 0.3436358031889029
+        },
+        "RNN_seed17": {
+          "loss": 0.10328268349505473,
+          "MSE": 1428167.9178888889,
+          "RMSE": 1195.0597967837798,
+          "MAE": 928.7946774815643,
+          "strict_target_loss": 0.09234218040110308
+        },
+        "RNN_seed29": {
+          "loss": 0.11012549235946922,
+          "MSE": 1522788.6205826798,
+          "RMSE": 1234.0132173452114,
+          "MAE": 950.9346744828289,
+          "strict_target_loss": 0.09968998688843575
+        },
+        "RNN_seed43": {
+          "loss": 0.12309731740702315,
+          "MSE": 1702159.873753799,
+          "RMSE": 1304.6684918989188,
+          "MAE": 1016.1267435360203,
+          "strict_target_loss": 0.11182427086587991
+        },
+        "LSTM_seed17": {
+          "loss": 0.118779842285374,
+          "MSE": 1642458.874066683,
+          "RMSE": 1281.5845169424774,
+          "MAE": 995.9914800159514,
+          "strict_target_loss": 0.10660653946167667
+        },
+        "LSTM_seed29": {
+          "loss": 0.11363419284703127,
+          "MSE": 1571306.080627733,
+          "RMSE": 1253.517483175936,
+          "MAE": 981.8952507332913,
+          "strict_target_loss": 0.10221496650795958
+        },
+        "LSTM_seed43": {
+          "loss": 0.09321959260390544,
+          "MSE": 1289017.9357311588,
+          "RMSE": 1135.3492571588529,
+          "MAE": 885.3195523878159,
+          "strict_target_loss": 0.08558390003282326
+        }
+      },
+      "demand_MW": {
+        "Persistence": {
+          "loss": 0.2509529063406389,
+          "MSE": 4192096.358653846,
+          "RMSE": 2047.4609541219208,
+          "MAE": 1520.8701923076924,
+          "strict_target_loss": 0.2412713508318483
+        },
+        "RNN_seed17": {
+          "loss": 0.073366535435114,
+          "MSE": 1225566.9421381955,
+          "RMSE": 1107.0532697834353,
+          "MAE": 863.5100461907314,
+          "strict_target_loss": 0.0684287544624847
+        },
+        "RNN_seed29": {
+          "loss": 0.07395064769731872,
+          "MSE": 1235324.37002831,
+          "RMSE": 1111.451469938436,
+          "MAE": 865.3255666097281,
+          "strict_target_loss": 0.06912056223018788
+        },
+        "RNN_seed43": {
+          "loss": 0.07607889105109328,
+          "MSE": 1270876.0651402895,
+          "RMSE": 1127.3313910027919,
+          "MAE": 876.003662462942,
+          "strict_target_loss": 0.07044599378016067
+        },
+        "LSTM_seed17": {
+          "loss": 0.0703492901738698,
+          "MSE": 1175164.725015998,
+          "RMSE": 1084.05014875512,
+          "MAE": 848.4403485518608,
+          "strict_target_loss": 0.0666644371258989
+        },
+        "LSTM_seed29": {
+          "loss": 0.06860936573444536,
+          "MSE": 1146099.7860471567,
+          "RMSE": 1070.5605008812704,
+          "MAE": 839.6822791817352,
+          "strict_target_loss": 0.06442894905963563
+        },
+        "LSTM_seed43": {
+          "loss": 0.06281274144506936,
+          "MSE": 1049268.8390367515,
+          "RMSE": 1024.3382444469948,
+          "MAE": 804.3451393686842,
+          "strict_target_loss": 0.06114816095166249
+        }
+      },
+      "price_GBP_MWh": {
+        "Persistence": {
+          "loss": 0.1723297069966066,
+          "MSE": 1551.437029322137,
+          "RMSE": 39.38828543262752,
+          "MAE": 20.98726933375092,
+          "strict_target_loss": 0.1457506202354945
+        },
+        "RNN_seed17": {
+          "loss": 0.13961545010897283,
+          "MSE": 1256.9195580933883,
+          "RMSE": 35.45306133598886,
+          "MAE": 19.894911924852707,
+          "strict_target_loss": 0.11145799652579515
+        },
+        "RNN_seed29": {
+          "loss": 0.14091777579800535,
+          "MSE": 1268.6440386453241,
+          "RMSE": 35.6180296850531,
+          "MAE": 19.8900239169064,
+          "strict_target_loss": 0.11283424568656411
+        },
+        "RNN_seed43": {
+          "loss": 0.14771050881244593,
+          "MSE": 1329.7971486492172,
+          "RMSE": 36.46638381645783,
+          "MAE": 20.015727761038846,
+          "strict_target_loss": 0.12146314193397852
+        },
+        "LSTM_seed17": {
+          "loss": 0.13564150144753165,
+          "MSE": 1221.1431895645057,
+          "RMSE": 34.94485927235229,
+          "MAE": 18.980908271466532,
+          "strict_target_loss": 0.10895817667659832
+        },
+        "LSTM_seed29": {
+          "loss": 0.129916279971551,
+          "MSE": 1169.600592796314,
+          "RMSE": 34.199423866438366,
+          "MAE": 18.780975069040895,
+          "strict_target_loss": 0.0990832292496594
+        },
+        "LSTM_seed43": {
+          "loss": 0.13580962026935256,
+          "MSE": 1222.656717150925,
+          "RMSE": 34.96650850672576,
+          "MAE": 18.947748428933515,
+          "strict_target_loss": 0.10838179229026165
+        }
+      }
+    },
+    "validation": {
+      "generation_MW": {
+        "Persistence": {
+          "loss": 0.4577899332106005,
+          "MSE": 6330208.255822296,
+          "RMSE": 2515.9905118704833,
+          "MAE": 1995.527842041737,
+          "strict_target_loss": 0.5129979789486002
+        },
+        "RNN_seed17": {
+          "loss": 0.24454483689858017,
+          "MSE": 3381506.7417438435,
+          "RMSE": 1838.8873651596618,
+          "MAE": 1419.9316614101656,
+          "strict_target_loss": 0.2557751676432406
+        },
+        "RNN_seed29": {
+          "loss": 0.24184557283819824,
+          "MSE": 3344181.972455364,
+          "RMSE": 1828.7104670929634,
+          "MAE": 1417.0676929768601,
+          "strict_target_loss": 0.2509708856562298
+        },
+        "RNN_seed43": {
+          "loss": 0.24686216893144108,
+          "MSE": 3413550.2475130036,
+          "RMSE": 1847.57956459607,
+          "MAE": 1425.622844726901,
+          "strict_target_loss": 0.25378717525344224
+        },
+        "LSTM_seed17": {
+          "loss": 0.25770318171484374,
+          "MSE": 3563457.1450755596,
+          "RMSE": 1887.7121457138426,
+          "MAE": 1453.4841886265956,
+          "strict_target_loss": 0.26798871880600206
+        },
+        "LSTM_seed29": {
+          "loss": 0.2571787311673176,
+          "MSE": 3556205.169999486,
+          "RMSE": 1885.790330338844,
+          "MAE": 1448.4035062006178,
+          "strict_target_loss": 0.26683925492125055
+        },
+        "LSTM_seed43": {
+          "loss": 0.24695993207253988,
+          "MSE": 3414902.0925362413,
+          "RMSE": 1847.945370549747,
+          "MAE": 1418.2789291248423,
+          "strict_target_loss": 0.26074297227833704
+        }
+      },
+      "demand_MW": {
+        "Persistence": {
+          "loss": 0.22892059130327863,
+          "MSE": 3824052.8520547943,
+          "RMSE": 1955.5185634646361,
+          "MAE": 1513.4,
+          "strict_target_loss": 0.24491418394267822
+        },
+        "RNN_seed17": {
+          "loss": 0.08222273613870275,
+          "MSE": 1373507.2360458814,
+          "RMSE": 1171.96725041525,
+          "MAE": 911.0301385208639,
+          "strict_target_loss": 0.085036045942044
+        },
+        "RNN_seed29": {
+          "loss": 0.08104583165934828,
+          "MSE": 1353847.3841066158,
+          "RMSE": 1163.5494764326165,
+          "MAE": 903.0198884243486,
+          "strict_target_loss": 0.08375060906701014
+        },
+        "RNN_seed43": {
+          "loss": 0.08225757639306215,
+          "MSE": 1374089.2325071471,
+          "RMSE": 1172.2155230618416,
+          "MAE": 915.7098897577397,
+          "strict_target_loss": 0.08534175250663582
+        },
+        "LSTM_seed17": {
+          "loss": 0.08674966422977615,
+          "MSE": 1449128.272053,
+          "RMSE": 1203.797438131931,
+          "MAE": 946.8938838535735,
+          "strict_target_loss": 0.0900076839423753
+        },
+        "LSTM_seed29": {
+          "loss": 0.08657041904650664,
+          "MSE": 1446134.0326514833,
+          "RMSE": 1202.5531309058588,
+          "MAE": 942.9844211466788,
+          "strict_target_loss": 0.08922824831140166
+        },
+        "LSTM_seed43": {
+          "loss": 0.0862599943258005,
+          "MSE": 1440948.4766828984,
+          "RMSE": 1200.3951335634856,
+          "MAE": 943.7937445621421,
+          "strict_target_loss": 0.08864699503751372
+        }
+      },
+      "price_GBP_MWh": {
+        "Persistence": {
+          "loss": 0.04456178272091998,
+          "MSE": 401.17749290436615,
+          "RMSE": 20.02941569053791,
+          "MAE": 14.28755833007779,
+          "strict_target_loss": 0.044309318989404975
+        },
+        "RNN_seed17": {
+          "loss": 0.03780971381182949,
+          "MSE": 340.3904706743336,
+          "RMSE": 18.449673999134337,
+          "MAE": 13.795528432343485,
+          "strict_target_loss": 0.038552809681810074
+        },
+        "RNN_seed29": {
+          "loss": 0.0381761666679715,
+          "MSE": 343.68954510803394,
+          "RMSE": 18.538865798857113,
+          "MAE": 13.63514490198842,
+          "strict_target_loss": 0.03901125862954936
+        },
+        "RNN_seed43": {
+          "loss": 0.03882054509569081,
+          "MSE": 349.49070714262035,
+          "RMSE": 18.6946705545356,
+          "MAE": 13.590570242489008,
+          "strict_target_loss": 0.03907245748847568
+        },
+        "LSTM_seed17": {
+          "loss": 0.040355229367027526,
+          "MSE": 363.3070482039844,
+          "RMSE": 19.060615105604132,
+          "MAE": 13.762808812737116,
+          "strict_target_loss": 0.04086836137589416
+        },
+        "LSTM_seed29": {
+          "loss": 0.03923471182491061,
+          "MSE": 353.21933647312517,
+          "RMSE": 18.79413037288837,
+          "MAE": 13.627365458246844,
+          "strict_target_loss": 0.039458897206781196
+        },
+        "LSTM_seed43": {
+          "loss": 0.0396367376687122,
+          "MSE": 356.8386647461695,
+          "RMSE": 18.89017376167222,
+          "MAE": 13.767702104534722,
+          "strict_target_loss": 0.04017412733779553
+        }
+      }
+    }
+  },
+  "training_seconds": 149.33100000002014
+}

@@ -1,0 +1,9 @@
+{
+  "path": "MMCS_Tier2B_Unified_Forecast_Comparison_20261110.zip",
+  "sha256": "fe22ac4721913696ab3c18c7f9a29286baab79485151d8379a207c1af77c119c",
+  "bytes": 13459738,
+  "manifest_files": 537,
+  "verified": true,
+  "published": false,
+  "scope": "Prediction comparison, fresh classical estimators and data; previous neural training archives remain separate."
+}

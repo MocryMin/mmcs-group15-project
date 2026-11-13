@@ -1,0 +1,11 @@
+{
+  "training_fits": 24,
+  "training_seconds": 66.06100000004517,
+  "post_training_correction": "Read 0/1 data-quality encoding as boolean for evaluation subsets; no changes to numeric training inputs, models, weights, or selection",
+  "forecast_max_difference_after_correction": {
+    "validation": 0.0,
+    "test": 0.0
+  },
+  "test_metrics_used_for_tuning": false,
+  "outputs": "Forecast metrics only; no MPC revenue or external features"
+}

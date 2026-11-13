@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "methods": 39,
+  "saved_estimator_states_replayed": 423,
+  "rolling_blocks_verified": 414,
+  "all_refit_labels_no_later_than_forecast_origin": true,
+  "max_normalized_prediction_replay_difference": 1.8174887654318624e-15,
+  "max_relative_metric_difference": 4.3612990549479423e-16,
+  "source_prediction_hashes_verified": 133,
+  "source_prediction_hashes_recorded": 133,
+  "per_target_validation_selection_verified": true,
+  "ensembles_replayed": true,
+  "neural_scores_are_mean_of_seed_scores_not_ensemble": true,
+  "scope": "Replay saved estimators, independently rebuild causal features, cutoff and metrics checks; not an external agent review."
+}

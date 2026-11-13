@@ -1,0 +1,38 @@
+{
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "source_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "lookbacks": [
+    7,
+    14,
+    28,
+    56
+  ],
+  "alpha_grid": [
+    0,
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "OLS_relative_rank_cutoff": 1e-06,
+  "OLS_precision_reason": "Near-dependent calendar lag columns inherited from float32 features; cutoff chosen from precision audit, not test loss",
+  "seeds": "not applicable: deterministic closed-form fit",
+  "refit": "train2022–24 once; actual past observations remain available as history",
+  "external_data": false,
+  "source_code_sha256": "541a4be6ca1b658adf23f633cedbd2e835aab400f5b0c2641b7b32405b3d8b83"
+}

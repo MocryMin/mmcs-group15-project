@@ -1,0 +1,93 @@
+START price_GBP_MWh_RNN_L365_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L365_lr0.001_s17 200 E12 train=0.11924 val=0.11999 test=0.06758 bestVal=0.11912
+STEP price_GBP_MWh_RNN_L365_lr0.001_s17 400 E23 train=0.11667 val=0.11940 test=0.06921 bestVal=0.11672
+STEP price_GBP_MWh_RNN_L365_lr0.001_s17 600 E34 train=0.10924 val=0.11611 test=0.06661 bestVal=0.11573
+STEP price_GBP_MWh_RNN_L365_lr0.001_s17 800 E45 train=0.10421 val=0.12208 test=0.06697 bestVal=0.11420
+STEP price_GBP_MWh_RNN_L365_lr0.001_s17 1000 E56 train=0.09238 val=0.12214 test=0.06762 bestVal=0.11257
+DONE {"run": "price_GBP_MWh_RNN_L365_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 365, "lr": 0.001, "parameters": 5373, "best_epoch": 51, "best_step": 915, "epochs": 66, "steps": 1188, "best_train_loss": 0.10024017840623856, "best_validation_loss": 0.11257345974445343, "test_loss_at_val_checkpoint": 0.06598086655139923, "last_train_loss": 0.08022399991750717, "last_validation_loss": 0.12538012862205505, "last_test_loss": 0.06802912801504135, "seconds": 305.625, "step_log": "step_logs\\price_GBP_MWh_RNN_L365_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L365_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 1 /14
+START price_GBP_MWh_RNN_L182_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L182_lr0.001_s17 200 E12 train=0.11924 val=0.11999 test=0.06758 bestVal=0.11912
+STEP price_GBP_MWh_RNN_L182_lr0.001_s17 400 E23 train=0.11667 val=0.11940 test=0.06921 bestVal=0.11672
+STEP price_GBP_MWh_RNN_L182_lr0.001_s17 600 E34 train=0.10924 val=0.11611 test=0.06661 bestVal=0.11573
+STEP price_GBP_MWh_RNN_L182_lr0.001_s17 800 E45 train=0.10420 val=0.12211 test=0.06699 bestVal=0.11420
+STEP price_GBP_MWh_RNN_L182_lr0.001_s17 1000 E56 train=0.09239 val=0.12218 test=0.06760 bestVal=0.11257
+DONE {"run": "price_GBP_MWh_RNN_L182_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 182, "lr": 0.001, "parameters": 5373, "best_epoch": 51, "best_step": 915, "epochs": 66, "steps": 1188, "best_train_loss": 0.1002294272184372, "best_validation_loss": 0.1125727966427803, "test_loss_at_val_checkpoint": 0.06600280851125717, "last_train_loss": 0.08015642315149307, "last_validation_loss": 0.12528172135353088, "last_test_loss": 0.06796664744615555, "seconds": 138.81200000000536, "step_log": "step_logs\\price_GBP_MWh_RNN_L182_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L182_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 2 /14
+START price_GBP_MWh_RNN_L91_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L91_lr0.001_s17 200 E12 train=0.11924 val=0.11999 test=0.06758 bestVal=0.11912
+STEP price_GBP_MWh_RNN_L91_lr0.001_s17 400 E23 train=0.11667 val=0.11940 test=0.06921 bestVal=0.11672
+STEP price_GBP_MWh_RNN_L91_lr0.001_s17 600 E34 train=0.10925 val=0.11610 test=0.06661 bestVal=0.11573
+STEP price_GBP_MWh_RNN_L91_lr0.001_s17 800 E45 train=0.10427 val=0.12185 test=0.06679 bestVal=0.11390
+STEP price_GBP_MWh_RNN_L91_lr0.001_s17 1000 E56 train=0.09259 val=0.12315 test=0.06776 bestVal=0.11285
+DONE {"run": "price_GBP_MWh_RNN_L91_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 91, "lr": 0.001, "parameters": 5373, "best_epoch": 51, "best_step": 915, "epochs": 66, "steps": 1188, "best_train_loss": 0.10028613358736038, "best_validation_loss": 0.11285201460123062, "test_loss_at_val_checkpoint": 0.06621377170085907, "last_train_loss": 0.08004327118396759, "last_validation_loss": 0.12420037388801575, "last_test_loss": 0.06782801449298859, "seconds": 62.655999999988126, "step_log": "step_logs\\price_GBP_MWh_RNN_L91_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L91_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 3 /14
+START price_GBP_MWh_RNN_L56_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L56_lr0.001_s17 200 E12 train=0.11924 val=0.11999 test=0.06758 bestVal=0.11912
+STEP price_GBP_MWh_RNN_L56_lr0.001_s17 400 E23 train=0.11667 val=0.11940 test=0.06920 bestVal=0.11672
+STEP price_GBP_MWh_RNN_L56_lr0.001_s17 600 E34 train=0.10937 val=0.11596 test=0.06664 bestVal=0.11573
+STEP price_GBP_MWh_RNN_L56_lr0.001_s17 800 E45 train=0.10431 val=0.12183 test=0.06689 bestVal=0.11421
+STEP price_GBP_MWh_RNN_L56_lr0.001_s17 1000 E56 train=0.09264 val=0.12240 test=0.06738 bestVal=0.11285
+DONE {"run": "price_GBP_MWh_RNN_L56_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 56, "lr": 0.001, "parameters": 5373, "best_epoch": 51, "best_step": 915, "epochs": 66, "steps": 1188, "best_train_loss": 0.09971685707569122, "best_validation_loss": 0.11285003274679184, "test_loss_at_val_checkpoint": 0.06587742269039154, "last_train_loss": 0.08180450648069382, "last_validation_loss": 0.11893356591463089, "last_test_loss": 0.06741265952587128, "seconds": 34.328999999997905, "step_log": "step_logs\\price_GBP_MWh_RNN_L56_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L56_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 4 /14
+START price_GBP_MWh_RNN_L30_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 200 E12 train=0.11923 val=0.11996 test=0.06757 bestVal=0.11907
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 400 E23 train=0.11662 val=0.11935 test=0.06918 bestVal=0.11666
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 600 E34 train=0.10926 val=0.11602 test=0.06644 bestVal=0.11571
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 800 E45 train=0.10296 val=0.12152 test=0.06724 bestVal=0.11376
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 1000 E56 train=0.09359 val=0.12105 test=0.06668 bestVal=0.11342
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 1200 E67 train=0.07973 val=0.12132 test=0.06873 bestVal=0.11235
+DONE {"run": "price_GBP_MWh_RNN_L30_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 30, "lr": 0.001, "parameters": 5373, "best_epoch": 62, "best_step": 1103, "epochs": 77, "steps": 1386, "best_train_loss": 0.09234582632780075, "best_validation_loss": 0.11234734207391739, "test_loss_at_val_checkpoint": 0.06694692373275757, "last_train_loss": 0.06721235811710358, "last_validation_loss": 0.12775781750679016, "last_test_loss": 0.07121744751930237, "seconds": 20.968999999997322, "step_log": "step_logs\\price_GBP_MWh_RNN_L30_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L30_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 5 /14
+START price_GBP_MWh_RNN_L14_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L14_lr0.001_s17 200 E12 train=0.11956 val=0.11918 test=0.06710 bestVal=0.11789
+STEP price_GBP_MWh_RNN_L14_lr0.001_s17 400 E23 train=0.11638 val=0.11808 test=0.06872 bestVal=0.11576
+STEP price_GBP_MWh_RNN_L14_lr0.001_s17 600 E34 train=0.10895 val=0.11693 test=0.06739 bestVal=0.11461
+STEP price_GBP_MWh_RNN_L14_lr0.001_s17 800 E45 train=0.09649 val=0.11672 test=0.06520 bestVal=0.11296
+STEP price_GBP_MWh_RNN_L14_lr0.001_s17 1000 E56 train=0.08465 val=0.11727 test=0.06895 bestVal=0.11296
+DONE {"run": "price_GBP_MWh_RNN_L14_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 14, "lr": 0.001, "parameters": 5373, "best_epoch": 42, "best_step": 751, "epochs": 57, "steps": 1026, "best_train_loss": 0.10203270614147186, "best_validation_loss": 0.11295659840106964, "test_loss_at_val_checkpoint": 0.06601348519325256, "last_train_loss": 0.08038415014743805, "last_validation_loss": 0.11972237378358841, "last_test_loss": 0.06671740859746933, "seconds": 7.327999999994063, "step_log": "step_logs\\price_GBP_MWh_RNN_L14_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L14_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 6 /14
+START price_GBP_MWh_RNN_L7_lr0.001_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_RNN_L7_lr0.001_s17 200 E12 train=0.11914 val=0.11949 test=0.06790 bestVal=0.11880
+STEP price_GBP_MWh_RNN_L7_lr0.001_s17 400 E23 train=0.11604 val=0.12029 test=0.06910 bestVal=0.11574
+DONE {"run": "price_GBP_MWh_RNN_L7_lr0.001_s17", "target": "price_GBP_MWh", "family": "RNN", "seed": 17, "lookback": 7, "lr": 0.001, "parameters": 5373, "best_epoch": 13, "best_step": 234, "epochs": 28, "steps": 504, "best_train_loss": 0.11940537393093109, "best_validation_loss": 0.11574182659387589, "test_loss_at_val_checkpoint": 0.06745631992816925, "last_train_loss": 0.11406651884317398, "last_validation_loss": 0.12220539897680283, "last_test_loss": 0.06995396316051483, "seconds": 2.2339999999967404, "step_log": "step_logs\\price_GBP_MWh_RNN_L7_lr0.001_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L7_lr0.001_s17.pt"}
+PROGRESS price_GBP_MWh 7 /14
+START price_GBP_MWh_LSTM_L365_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L365_lr0.003_s17 200 E12 train=0.11729 val=0.11866 test=0.06964 bestVal=0.11800
+STEP price_GBP_MWh_LSTM_L365_lr0.003_s17 400 E23 train=0.10949 val=0.11469 test=0.06827 bestVal=0.11454
+STEP price_GBP_MWh_LSTM_L365_lr0.003_s17 600 E34 train=0.09383 val=0.11759 test=0.07262 bestVal=0.11171
+DONE {"run": "price_GBP_MWh_LSTM_L365_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 365, "lr": 0.003, "parameters": 5409, "best_epoch": 28, "best_step": 492, "epochs": 43, "steps": 774, "best_train_loss": 0.10182329267263412, "best_validation_loss": 0.11171194911003113, "test_loss_at_val_checkpoint": 0.06844158470630646, "last_train_loss": 0.0796436220407486, "last_validation_loss": 0.12021059542894363, "last_test_loss": 0.07629534602165222, "seconds": 179.92199999999139, "step_log": "step_logs\\price_GBP_MWh_LSTM_L365_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L365_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 8 /14
+START price_GBP_MWh_LSTM_L182_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L182_lr0.003_s17 200 E12 train=0.11729 val=0.11866 test=0.06964 bestVal=0.11800
+STEP price_GBP_MWh_LSTM_L182_lr0.003_s17 400 E23 train=0.10950 val=0.11469 test=0.06827 bestVal=0.11454
+STEP price_GBP_MWh_LSTM_L182_lr0.003_s17 600 E34 train=0.09383 val=0.11759 test=0.07262 bestVal=0.11171
+DONE {"run": "price_GBP_MWh_LSTM_L182_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 182, "lr": 0.003, "parameters": 5409, "best_epoch": 28, "best_step": 492, "epochs": 43, "steps": 774, "best_train_loss": 0.1018238440155983, "best_validation_loss": 0.11171193420886993, "test_loss_at_val_checkpoint": 0.06844154000282288, "last_train_loss": 0.07964859902858734, "last_validation_loss": 0.12021024525165558, "last_test_loss": 0.07629601657390594, "seconds": 78.67200000000594, "step_log": "step_logs\\price_GBP_MWh_LSTM_L182_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L182_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 9 /14
+START price_GBP_MWh_LSTM_L91_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L91_lr0.003_s17 200 E12 train=0.11729 val=0.11866 test=0.06964 bestVal=0.11800
+STEP price_GBP_MWh_LSTM_L91_lr0.003_s17 400 E23 train=0.10938 val=0.11459 test=0.06839 bestVal=0.11454
+STEP price_GBP_MWh_LSTM_L91_lr0.003_s17 600 E34 train=0.09436 val=0.11738 test=0.07203 bestVal=0.11183
+DONE {"run": "price_GBP_MWh_LSTM_L91_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 91, "lr": 0.003, "parameters": 5409, "best_epoch": 28, "best_step": 492, "epochs": 43, "steps": 774, "best_train_loss": 0.10166116058826447, "best_validation_loss": 0.11183103919029236, "test_loss_at_val_checkpoint": 0.06842231005430222, "last_train_loss": 0.0826680138707161, "last_validation_loss": 0.12087620049715042, "last_test_loss": 0.07583525031805038, "seconds": 38.03100000000268, "step_log": "step_logs\\price_GBP_MWh_LSTM_L91_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L91_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 10 /14
+REUSE price_GBP_MWh_LSTM_L56_lr0.003_s17
+PROGRESS price_GBP_MWh 11 /14
+START price_GBP_MWh_LSTM_L30_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L30_lr0.003_s17 200 E12 train=0.11730 val=0.11867 test=0.06964 bestVal=0.11800
+STEP price_GBP_MWh_LSTM_L30_lr0.003_s17 400 E23 train=0.10669 val=0.11438 test=0.06925 bestVal=0.11435
+STEP price_GBP_MWh_LSTM_L30_lr0.003_s17 600 E34 train=0.09484 val=0.11630 test=0.07132 bestVal=0.11189
+DONE {"run": "price_GBP_MWh_LSTM_L30_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 30, "lr": 0.003, "parameters": 5409, "best_epoch": 28, "best_step": 492, "epochs": 43, "steps": 774, "best_train_loss": 0.10001600533723831, "best_validation_loss": 0.1118868738412857, "test_loss_at_val_checkpoint": 0.06872417777776718, "last_train_loss": 0.07812581956386566, "last_validation_loss": 0.1214495524764061, "last_test_loss": 0.07475041598081589, "seconds": 14.843999999997322, "step_log": "step_logs\\price_GBP_MWh_LSTM_L30_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L30_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 12 /14
+START price_GBP_MWh_LSTM_L14_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 200 E12 train=0.11740 val=0.11847 test=0.06958 bestVal=0.11801
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 400 E23 train=0.11103 val=0.11507 test=0.07127 bestVal=0.11463
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 600 E34 train=0.09318 val=0.11509 test=0.07130 bestVal=0.11253
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 800 E45 train=0.07885 val=0.12167 test=0.07013 bestVal=0.11230
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 1000 E56 train=0.05961 val=0.11369 test=0.07637 bestVal=0.10945
+DONE {"run": "price_GBP_MWh_LSTM_L14_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 14, "lr": 0.003, "parameters": 5409, "best_epoch": 47, "best_step": 845, "epochs": 62, "steps": 1116, "best_train_loss": 0.0712374746799469, "best_validation_loss": 0.10944726318120956, "test_loss_at_val_checkpoint": 0.07085435092449188, "last_train_loss": 0.05175221338868141, "last_validation_loss": 0.1138615682721138, "last_test_loss": 0.07879093289375305, "seconds": 10.671999999991385, "step_log": "step_logs\\price_GBP_MWh_LSTM_L14_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L14_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 13 /14
+START price_GBP_MWh_LSTM_L7_lr0.003_s17 initial 0.14701446890830994 0.13496972620487213 0.08745425939559937
+STEP price_GBP_MWh_LSTM_L7_lr0.003_s17 200 E12 train=0.11797 val=0.11871 test=0.07014 bestVal=0.11819
+STEP price_GBP_MWh_LSTM_L7_lr0.003_s17 400 E23 train=0.11200 val=0.11606 test=0.06848 bestVal=0.11491
+DONE {"run": "price_GBP_MWh_LSTM_L7_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "seed": 17, "lookback": 7, "lr": 0.003, "parameters": 5409, "best_epoch": 18, "best_step": 311, "epochs": 33, "steps": 594, "best_train_loss": 0.11511945724487305, "best_validation_loss": 0.11491262167692184, "test_loss_at_val_checkpoint": 0.06948158890008926, "last_train_loss": 0.1002112478017807, "last_validation_loss": 0.1185118556022644, "last_test_loss": 0.07019460201263428, "seconds": 3.2810000000026776, "step_log": "step_logs\\price_GBP_MWh_LSTM_L7_lr0.003_s17.csv", "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L7_lr0.003_s17.pt"}
+PROGRESS price_GBP_MWh 14 /14

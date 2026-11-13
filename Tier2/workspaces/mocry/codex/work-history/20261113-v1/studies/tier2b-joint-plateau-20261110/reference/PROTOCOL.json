@@ -1,0 +1,102 @@
+{
+  "joint_three_target_next_day": true,
+  "horizon": 1,
+  "features": 8,
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "separate_target_models": false,
+  "parameters": {
+    "RNN": {
+      "small": 5511,
+      "large": 54951
+    },
+    "LSTM": {
+      "small": 5475,
+      "large": 54995
+    }
+  },
+  "hidden_widths": {
+    "RNN": {
+      "small": 68,
+      "large": 228
+    },
+    "LSTM": {
+      "small": 32,
+      "large": 112
+    }
+  },
+  "configs": {
+    "RNN": {
+      "lookback": 28,
+      "lr": 0.003,
+      "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+    },
+    "LSTM": {
+      "lookback": 56,
+      "lr": 0.003,
+      "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+    }
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "expected_fits": 12,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "source_input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "architecture": "One shared recurrent layer + dropout0.1 + linear3 output, residual-to-last-day three-series readout; zero-initialised output head",
+  "loss": "Equal mean over samples and the three train-standardised next-day variables; same joint validation loss selects the sole checkpoint for all targets",
+  "selection": "Previous joint next-day val-selected RNN28/LSTM56 lr0.003 frozen; no new window/lr search; each seed checkpoint/early-stop uses only joint val",
+  "training": {
+    "batch": 64,
+    "steps_per_epoch": 18,
+    "epochs_max": 120,
+    "patience_full_epochs": 15,
+    "min_delta": 1e-05,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "dropout": 0.1
+  },
+  "logging": "Full train/val/test joint and all three component losses after every optimiser step; eval dropout disabled; immediate flush",
+  "precision": "float32; AMP/TF32 off; deterministic CUDA/cuDNN; CUBLAS_WORKSPACE_CONFIG=:4096:8",
+  "device": "cuda",
+  "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "new_small_controls": true,
+  "old_joint_periods_differ": true,
+  "test_is_monitored_not_blind": true,
+  "data_vintage_audited": false,
+  "external_features_added": false,
+  "MPC_evaluated": false,
+  "source_hashes": {
+    "model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+    "fit_core.py": "722c4341e17dcd7800553c92455970b734ee0b3cfa40f2dea62d6c5b31175bd8",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "run.py": "be16641421a754b0d8396dde61e943ff28fe4178d58fd30626b2a02c26bc2fb7",
+    "CONFIGS_FROZEN.json": "bf8b8f68e7aa978359dc2f34ce9e58039a3d02f3c498da12a8b6a3e98fb826aa"
+  }
+}

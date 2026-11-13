@@ -1,0 +1,22 @@
+{
+  "id": "T_fixed_EqualEnsemble",
+  "label": "等权集成",
+  "category": "traditional",
+  "regime": "fixed",
+  "members": [
+    "T_fixed_EngineeredRidge",
+    "T_fixed_EngineeredLasso",
+    "T_fixed_EngineeredHGB"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "selection": "members target-specific validation selected; equal weights fixed",
+  "prediction_file": "predictions/T_fixed_EqualEnsemble.npz",
+  "prediction_sha256": "9d80e130e7f481897e0167bdea219889ad5ba0085ad0d946022633ed11999c41",
+  "seeds": [
+    "det"
+  ]
+}

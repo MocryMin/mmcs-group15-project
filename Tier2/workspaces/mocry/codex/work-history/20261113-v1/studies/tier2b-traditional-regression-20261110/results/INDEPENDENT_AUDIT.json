@@ -1,0 +1,14 @@
+{
+  "all_passed": true,
+  "candidates_replayed": 61,
+  "all_predictions_replayed_from_coefficients_or_past_only_rules": true,
+  "ridge_full_and_truncated_OLS_projected_train_normal_equations_verified": true,
+  "calendar_and_AR_train_normal_equations_verified": true,
+  "val_only_selection_verified": true,
+  "max_normalised_prediction_difference": 0.0,
+  "max_metric_difference": 9.71445146547012e-17,
+  "max_relative_ridge_normal_equation_residual": 1.0320514549170736e-11,
+  "future_observations_used_as_features": false,
+  "known_calendar_representation_explicit": true,
+  "deterministic_no_seed_variation": true
+}

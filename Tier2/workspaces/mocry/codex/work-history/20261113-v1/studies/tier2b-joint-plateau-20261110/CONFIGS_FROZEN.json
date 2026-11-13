@@ -1,0 +1,12 @@
+{
+  "RNN": {
+    "lookback": 28,
+    "lr": 0.003,
+    "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+  },
+  "LSTM": {
+    "lookback": 56,
+    "lr": 0.003,
+    "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+  }
+}

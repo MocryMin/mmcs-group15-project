@@ -1,0 +1,36 @@
+{
+  "only_code_change": "Convert torch version metadata to ordinary str before saving; numeric training code unchanged",
+  "original_fit_source_sha256": "b1453e01e630c51df0a7e9cf320e2dc4cee4d759ffb4e308872783a7906f2cad",
+  "fixed_fit_source_sha256": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+  "fits": [
+    {
+      "run": "demand_MW_RNN_L7_lr0.001_s17",
+      "state_sha256_before_after": "6a4fb5a82e80336ec55f1aeca225e4ae232de468b9965dd95ceffb7cd1b26c3d",
+      "all_numeric_weights_unchanged": true,
+      "max_normalised_loss_vs_log": 1.9877501311604817e-09,
+      "completed_epochs": 50
+    },
+    {
+      "run": "generation_MW_RNN_L14_lr0.003_s17",
+      "state_sha256_before_after": "fdaea8f6b71ae77d74112138ede86e034c437af9a122332213d79d0a8f3a84c2",
+      "all_numeric_weights_unchanged": true,
+      "max_normalised_loss_vs_log": 1.0004640171867862e-09,
+      "completed_epochs": 26
+    },
+    {
+      "run": "generation_MW_Transformer_L365_lr0.001_s17",
+      "state_sha256_before_after": "8fd21c5289e9ee8cc93eced0f3f049ef6c25bb3e8d4db9442644624ef5dcbdd5",
+      "all_numeric_weights_unchanged": true,
+      "max_normalised_loss_vs_log": 2.9371009235834578e-09,
+      "completed_epochs": 43
+    },
+    {
+      "run": "price_GBP_MWh_RNN_L30_lr0.001_s17",
+      "state_sha256_before_after": "6f1493c2971ddf6a9398639e39cffba6cb3a5c2ca7b1a49b364589769e568915",
+      "all_numeric_weights_unchanged": true,
+      "max_normalised_loss_vs_log": 1.862734272384259e-09,
+      "completed_epochs": 77
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,38 @@
+REUSE_COMPLETE price_GBP_MWh_RNN_L30_lr0.001_s17
+START price_GBP_MWh_RNN_L30_lr0.001_s29 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 200 E 12 train 0.11962022133985363 val 0.12236654044988168 best 0.11846262534817788
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 400 E 23 train 0.11465453865523352 val 0.11487633956686455 best 0.11483924117962166
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 600 E 34 train 0.11019217057909729 val 0.11291357393504332 best 0.11273956917958645
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 800 E 45 train 0.1044406734104721 val 0.11239962657106392 best 0.11103517318811619
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 1000 E 56 train 0.0942754568787023 val 0.10845212976857628 best 0.10663610054492213
+STEP price_GBP_MWh_RNN_L30_lr0.001_s29 1200 E 67 train 0.0801342765377879 val 0.11192219013766849 best 0.10628578167581983
+DONE {"run": "price_GBP_MWh_RNN_L30_lr0.001_s29", "target": "price_GBP_MWh", "family": "RNN", "lookback": 30, "lr": 0.001, "seed": 29, "stage": "baseline_confirmation", "device": "cpu", "eval_batch": 2048, "parameters": 5373, "best_epoch": 56, "best_step": 1004, "epochs": 71, "steps": 1278, "best_train_loss": 0.09468004910352776, "best_validation_loss": 0.10628578167581983, "test_loss_at_val_checkpoint": 0.06486209546853541, "last_train_loss": 0.08415418383326062, "last_validation_loss": 0.11667858471560637, "last_test_loss": 0.07399889321372835, "seconds": 24.76600000000326, "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L30_lr0.001_s29.pt", "step_log": "step_logs\\price_GBP_MWh_RNN_L30_lr0.001_s29.csv"}
+START price_GBP_MWh_RNN_L30_lr0.001_s43 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_RNN_L30_lr0.001_s43 200 E 12 train 0.11946130098738109 val 0.1185418943925425 best 0.11733526320448595
+STEP price_GBP_MWh_RNN_L30_lr0.001_s43 400 E 23 train 0.1155849111345889 val 0.12090695817533997 best 0.11507656853901053
+STEP price_GBP_MWh_RNN_L30_lr0.001_s43 600 E 34 train 0.10839283406400811 val 0.11997631924635734 best 0.1123401526817569
+STEP price_GBP_MWh_RNN_L30_lr0.001_s43 800 E 45 train 0.10159405006742432 val 0.12158809995873439 best 0.1123401526817569
+DONE {"run": "price_GBP_MWh_RNN_L30_lr0.001_s43", "target": "price_GBP_MWh", "family": "RNN", "lookback": 30, "lr": 0.001, "seed": 43, "stage": "baseline_confirmation", "device": "cpu", "eval_batch": 2048, "parameters": 5373, "best_epoch": 33, "best_step": 590, "epochs": 48, "steps": 864, "best_train_loss": 0.10750233267637847, "best_validation_loss": 0.1123401526817569, "test_loss_at_val_checkpoint": 0.06532555815708647, "last_train_loss": 0.09325199280692842, "last_validation_loss": 0.1165018021444186, "last_test_loss": 0.06433472517698971, "seconds": 16.140999999974156, "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L30_lr0.001_s43.pt", "step_log": "step_logs\\price_GBP_MWh_RNN_L30_lr0.001_s43.csv"}
+START price_GBP_MWh_LSTM_L14_lr0.003_s17 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 200 E 12 train 0.11740266188298859 val 0.11846651085516083 best 0.1180127471535766
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 400 E 23 train 0.11102967551709546 val 0.11507236960933709 best 0.11463350272708578
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 600 E 34 train 0.09317636582929936 val 0.11508653474584754 best 0.11252562183920714
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 800 E 45 train 0.07884847754905296 val 0.12167262206218862 best 0.11229993802403578
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s17 1000 E 56 train 0.05960571403664848 val 0.11368871787022349 best 0.10944725883790454
+DONE {"run": "price_GBP_MWh_LSTM_L14_lr0.003_s17", "target": "price_GBP_MWh", "family": "LSTM", "lookback": 14, "lr": 0.003, "seed": 17, "stage": "baseline_confirmation", "device": "cpu", "eval_batch": 2048, "parameters": 5409, "best_epoch": 47, "best_step": 845, "epochs": 62, "steps": 1116, "best_train_loss": 0.07123747712911255, "best_validation_loss": 0.10944725883790454, "test_loss_at_val_checkpoint": 0.07085435995307787, "last_train_loss": 0.05175221404774902, "last_validation_loss": 0.11386157660583925, "last_test_loss": 0.07879093153380268, "seconds": 12.01600000000326, "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L14_lr0.003_s17.pt", "step_log": "step_logs\\price_GBP_MWh_LSTM_L14_lr0.003_s17.csv"}
+START price_GBP_MWh_LSTM_L14_lr0.003_s29 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 200 E 12 train 0.11818434108035086 val 0.12044199446849367 best 0.12040224745251867
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 400 E 23 train 0.10905531939960804 val 0.11628316342427494 best 0.1148269688073536
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 600 E 34 train 0.09451598822334277 val 0.11063336184261036 best 0.10761069420012787
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 800 E 45 train 0.08071955855363329 val 0.11036157405327107 best 0.10747515349953239
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 1000 E 56 train 0.0643936844298363 val 0.11464001969384861 best 0.10747515349953239
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s29 1200 E 67 train 0.04876213822146433 val 0.11725039183871747 best 0.10720997945598046
+DONE {"run": "price_GBP_MWh_LSTM_L14_lr0.003_s29", "target": "price_GBP_MWh", "family": "LSTM", "lookback": 14, "lr": 0.003, "seed": 29, "stage": "baseline_confirmation", "device": "cpu", "eval_batch": 2048, "parameters": 5409, "best_epoch": 58, "best_step": 1032, "epochs": 73, "steps": 1314, "best_train_loss": 0.06043509404272898, "best_validation_loss": 0.10720997945598046, "test_loss_at_val_checkpoint": 0.07765244722629441, "last_train_loss": 0.04597466094395876, "last_validation_loss": 0.12457686500558535, "last_test_loss": 0.08427960453339446, "seconds": 14.546999999991385, "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L14_lr0.003_s29.pt", "step_log": "step_logs\\price_GBP_MWh_LSTM_L14_lr0.003_s29.csv"}
+START price_GBP_MWh_LSTM_L14_lr0.003_s43 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 200 E 12 train 0.11808959383320505 val 0.11619235376195738 best 0.11619235376195738
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 400 E 23 train 0.10095839240965906 val 0.11799044593495012 best 0.1147623813925485
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 600 E 34 train 0.08194938151060202 val 0.11777591488916331 best 0.11360406708867292
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 800 E 45 train 0.07329893858747037 val 0.11467776348617234 best 0.11291723824827062
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 1000 E 56 train 0.05326820850951499 val 0.10488581648050724 best 0.10488581648050724
+STEP price_GBP_MWh_LSTM_L14_lr0.003_s43 1200 E 67 train 0.047666607174814496 val 0.11937630184504215 best 0.10392288339880139
+DONE {"run": "price_GBP_MWh_LSTM_L14_lr0.003_s43", "target": "price_GBP_MWh", "family": "LSTM", "lookback": 14, "lr": 0.003, "seed": 43, "stage": "baseline_confirmation", "device": "cpu", "eval_batch": 2048, "parameters": 5409, "best_epoch": 56, "best_step": 1003, "epochs": 71, "steps": 1278, "best_train_loss": 0.05313412003493791, "best_validation_loss": 0.10392288339880139, "test_loss_at_val_checkpoint": 0.07827113854391983, "last_train_loss": 0.04595529933385236, "last_validation_loss": 0.11616666108076283, "last_test_loss": 0.08218258026413465, "seconds": 13.59399999998277, "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L14_lr0.003_s43.pt", "step_log": "step_logs\\price_GBP_MWh_LSTM_L14_lr0.003_s43.csv"}

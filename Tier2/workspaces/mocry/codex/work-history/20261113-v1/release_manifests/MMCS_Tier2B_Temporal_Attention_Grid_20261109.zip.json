@@ -1,0 +1,1358 @@
+{
+  "original_zip": "MMCS_Tier2B_Temporal_Attention_Grid_20261109.zip",
+  "original_zip_sha256": "26aebed7adbf379ff1f2a3f9608b24be17ae0eaeb0ddb22c1c65d26899e99626",
+  "bytes": 8371131,
+  "representation": "All file payloads preserved; original ZIP container is not duplicated. Paths may deduplicate identical bytes.",
+  "entries": [
+    {
+      "entry": "analyse.py",
+      "bytes": 28740,
+      "sha256": "955c9c614286430ef3d54e409c0d7b28409d4539af8175023c368cc4fc5a892d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/analyse.py"
+    },
+    {
+      "entry": "analysis.log",
+      "bytes": 5721,
+      "sha256": "8c6a548ed87f86582eec2c1fbecfbb31c654a6f65c0ed15c63354c0c20a28dd0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/analysis.log"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L14_lr0.003_s17.json",
+      "bytes": 2597,
+      "sha256": "6c90562301882e6dc030e0d942ee0a1cd8b1a8c115f36968af623f14523b51c6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L182_lr0.003_s17.json",
+      "bytes": 17310,
+      "sha256": "06f9fccbf59491cf8a6d9a4ba001b94594d181967b1ab72e554fcc8004a8ff3e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L30_lr0.003_s17.json",
+      "bytes": 3996,
+      "sha256": "e2824959cab1e3900e09efa72d2aa64f76dc0a0d4f16e4e219e5e4b59fd41417",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L365_lr0.003_s17.json",
+      "bytes": 33772,
+      "sha256": "6f8b4c9495b414f0b43df1a25af100a4670ff2f2ad5b0603aa0b20f533d70d1d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L56_lr0.003_s17.json",
+      "bytes": 6234,
+      "sha256": "4330644c874a8c1173273bcd887e549cbdc1993e839bae75d52d7bde2d4505b3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L7_lr0.003_s17.json",
+      "bytes": 2013,
+      "sha256": "4c44bb6a1ca8e3557dd219fe36e806d4ecea38372a131f47763bf35dcb318213",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_LSTM_L91_lr0.003_s17.json",
+      "bytes": 9294,
+      "sha256": "fa5c27da69197f31669eeced79000306a869f9b323b3aadee5dd7648848b6fbf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_LSTM_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L14_lr0.001_s17.json",
+      "bytes": 2601,
+      "sha256": "ac6a4c19cea52f1e36c2a9c5bc5bae22a438faadf17e90ea1d8d760c9a8e53b7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L14_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L182_lr0.001_s17.json",
+      "bytes": 17419,
+      "sha256": "fb16ff05659c1399f1bcd6f42f60f55cc0ceaabc11f4b32f08c06e3d6224b3ce",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L182_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L30_lr0.001_s17.json",
+      "bytes": 3974,
+      "sha256": "b722d5d054e0a6eb0a25f69a6efff44c4d5cda14a5543eadf2c50818a78c027a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L365_lr0.001_s17.json",
+      "bytes": 33814,
+      "sha256": "c4484f29ad84c073d8e3c83a0a147802ab42852948ea27b904f5b91550ae3a86",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L365_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L56_lr0.001_s17.json",
+      "bytes": 6253,
+      "sha256": "46deb6ec858c4e3e16ec46b6a28311f6cf2a60e39f71857802c1099786114e94",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L56_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L7_lr0.001_s17.json",
+      "bytes": 2016,
+      "sha256": "bbfc85a71fb121eaebcf3457b04c79c49ba5832bffe39c779cae3b41d4cc9c29",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/demand_MW_RNN_L91_lr0.001_s17.json",
+      "bytes": 9333,
+      "sha256": "7824f4372dd78cbddc0b22fe7eb1d1e226ebfea8adc63d3ca0980bf0eb3a0675",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/demand_MW_RNN_L91_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L14_lr0.003_s17.json",
+      "bytes": 2582,
+      "sha256": "eda0e6b9d464b6ccdf231f7f24705560122fc383c22de78fd29ebf204afacf1e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L182_lr0.003_s17.json",
+      "bytes": 17277,
+      "sha256": "a4c645ac0f8ab8d709ca2ee227fe664cfcb18f6c53e14c329ac4c84f62ec8b06",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L30_lr0.003_s17.json",
+      "bytes": 3984,
+      "sha256": "ca80959086eb22b8346cc497bd66772cacbe7e4f4b55e2542ce12f829c5190a4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L365_lr0.003_s17.json",
+      "bytes": 33798,
+      "sha256": "1d0873e1e5a5e7a704a361a7459c3ed00b78e648e7bf39384cedf0f52baca0a3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L56_lr0.003_s17.json",
+      "bytes": 6241,
+      "sha256": "967abf8702c31b45578026660209dce76ad84d11a2e8f924aade191c9f0d6317",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L7_lr0.003_s17.json",
+      "bytes": 2005,
+      "sha256": "11e27f9833bf7bc644e7c843fb8893d7e239d3a11dfe6aa685e0f8a4c68a2652",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_LSTM_L91_lr0.003_s17.json",
+      "bytes": 9302,
+      "sha256": "d4d667c59005f3bc0a4e8842da4bd49cf6e80c8de83d116519ca72adb24d28b7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_LSTM_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L14_lr0.003_s17.json",
+      "bytes": 2600,
+      "sha256": "d253cdd5acab461be24a7a0104ce095cf28e11d9f379c2369ac9f2f2387ecbd2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L182_lr0.003_s17.json",
+      "bytes": 17283,
+      "sha256": "4e001e4bcbb9590b1bddb1621839c947bb30f0c59256934006aa44d976f19d81",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L30_lr0.003_s17.json",
+      "bytes": 3996,
+      "sha256": "896bbc53775ffbe021f063cafe28fca1fb41c73bd8725c7438c895c147295913",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L365_lr0.003_s17.json",
+      "bytes": 33697,
+      "sha256": "4b4398b24f28a284a80845ee243797d447af4d88c68a0f4622bab2d035d47197",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L56_lr0.003_s17.json",
+      "bytes": 6255,
+      "sha256": "8bc72f51ca5737e4839c1a9d9402b4eab97beb68f16a0ee20d06ee1ac7211562",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L7_lr0.003_s17.json",
+      "bytes": 2008,
+      "sha256": "29c51d886a7820bee921f28a112489800a46a2634029265e0ff682274bd157c1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/generation_MW_RNN_L91_lr0.003_s17.json",
+      "bytes": 9313,
+      "sha256": "1a4a0ddabc23e0d4cf5582a09c4d209d8a352602f35dc15322f9c409a6040b84",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/generation_MW_RNN_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L14_lr0.003_s17.json",
+      "bytes": 2595,
+      "sha256": "27c3c1ff68a0fecc33685d7ec3c6a03e2576e0e09f0ac9d9b636778ab5dbd132",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L182_lr0.003_s17.json",
+      "bytes": 17292,
+      "sha256": "718d46427f0f7a28966fcd7358b47e34da62c283b8b6abd2e4de637ff69063d5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L30_lr0.003_s17.json",
+      "bytes": 3973,
+      "sha256": "7506d6ac871643f66c63219fcdb611e5500128d647cdbc9ea0accf3354b705c5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L365_lr0.003_s17.json",
+      "bytes": 33750,
+      "sha256": "040c8464f1a781fd4c6530fff06e5433c14726cfddf5416dc1cd5f762ab13caa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L56_lr0.003_s17.json",
+      "bytes": 6253,
+      "sha256": "0ef281f373a7c5bba185dfd08f42152a645d048d5901508c83c01cdcc206e36c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L7_lr0.003_s17.json",
+      "bytes": 2010,
+      "sha256": "e8bc07459c3d474cb868a9974b5e07f959329446a4f2e14419da505e9088e754",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_LSTM_L91_lr0.003_s17.json",
+      "bytes": 9295,
+      "sha256": "c8dd93f42ba176e678172ee4d092734a31564419b241c6d2f718bff3481a61b1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_LSTM_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L14_lr0.001_s17.json",
+      "bytes": 2602,
+      "sha256": "7515a55f69a066eff54f0652818f76367c4b9ecc7748070e276ceeadf2cc2b31",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L14_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L182_lr0.001_s17.json",
+      "bytes": 17334,
+      "sha256": "634fa407d7f5187c5fda3ebc9bc4f9d0f6faed948c03b6857b37a37e4d4699b9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L182_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L30_lr0.001_s17.json",
+      "bytes": 3974,
+      "sha256": "6d08831c594f3e044c8362113215025a1570eb5825e5c77c58247c9fe98f07bf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L365_lr0.001_s17.json",
+      "bytes": 33751,
+      "sha256": "a5333027be83bebdd11fc3e41afee4998e2b434b07c1a81d00275b548e577384",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L365_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L56_lr0.001_s17.json",
+      "bytes": 6232,
+      "sha256": "03d2e63af02c153878d2a9a33b48fac984d385f7fa09e609ba302e19f291356e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L56_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L7_lr0.001_s17.json",
+      "bytes": 2011,
+      "sha256": "5c73332765081863da278e17dd4a8e82d75081eb959f0eea30b31f95aa3b5d39",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "attention_profiles/price_GBP_MWh_RNN_L91_lr0.001_s17.json",
+      "bytes": 9292,
+      "sha256": "949a30cebeed2ffb8684201145d53e9c2fad83e8a0c611e77b776019f9392755",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/attention_profiles/price_GBP_MWh_RNN_L91_lr0.001_s17.json"
+    },
+    {
+      "entry": "baseline/model.py",
+      "bytes": 899,
+      "sha256": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-independent-newsplit-20261109/model.py"
+    },
+    {
+      "entry": "baseline/results/GRID_METRICS.csv",
+      "bytes": 14389,
+      "sha256": "c4609b980f6c2571378a84bccbcf26a02e50279f1cc20603b901b9e05a146da4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/GRID_METRICS.csv"
+    },
+    {
+      "entry": "baseline/results/PERSISTENCE.csv",
+      "bytes": 895,
+      "sha256": "ef9062320b06a0aae7accd411551ad3c815670f86099f43e1a19648803857d7e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/PERSISTENCE.csv"
+    },
+    {
+      "entry": "baseline/results/SELECTED_SUMMARY.csv",
+      "bytes": 2897,
+      "sha256": "8c8b788e2b0f5c0ec60a69969b0f7ae2938650544e6a665f869f9f9c91637583",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/SELECTED_SUMMARY.csv"
+    },
+    {
+      "entry": "baseline/results/SELECTION_FROZEN.json",
+      "bytes": 1457,
+      "sha256": "88c3f0c153ae4db8ab104ac2fec5aad6cafee30a0245cb155d70f37895fcb7c6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/SELECTION_FROZEN.json"
+    },
+    {
+      "entry": "baseline/results/training_runs.csv",
+      "bytes": 13720,
+      "sha256": "b908b4e841468bf1d0a701aed51efb4390a4f2203c06bf3b3f8f6c2bf3fe15f0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/training_runs.csv"
+    },
+    {
+      "entry": "baseline/scalers.json",
+      "bytes": 340,
+      "sha256": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/scalers.json"
+    },
+    {
+      "entry": "BASELINE_MANIFEST.json",
+      "bytes": 742,
+      "sha256": "9ffd3b71e3160266e978039100530a24315560f00e86f08f99da92c1b6a74be2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/BASELINE_MANIFEST.json"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L14_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "b7e0e38f78c65732804e45c45ebd79a5c5fe1ea7c39f7666fdf4077cc678dfe6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L182_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "69cbcc1658337941d54f2c8e2a524a23dd810d6067f8303e81f22aaa70d2ce03",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L30_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "6a3d9b1aad56b4ae7500a4141ccf9027017456face96be6ba1d4ab53cf9f3936",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L365_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "08ae3fc487a08b18a083e0cfc26cbab19ba6c74baad9e328880bf1a6dc643991",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L56_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "7a071dac529679f346299b14526c3a6b131a80d6f23ba502b62c4581772d30e8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L7_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "fee53928599f34af0165288ca398ebdccb796236638a4fa17f51946dc156657c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L91_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "b66bbad4341ed7029283aa00641df8a9bf196721a484233a79cda70ac69f53b4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_LSTM_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L14_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "846d185c139d73925a42c42334eed15575db16fa684092715c9bd0234256d036",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L14_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L182_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "a6fb516fb6139448dec7a856bfc7250089beebadc9099577082f6d1b8a86f61f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L182_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L30_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "a654730193fa7601792b635315669bd637cf00ae5275db62c7e7d89a2a05dac2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L365_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "ae4ae909ffba15b77281323fe972c6133aaca644d8ec99668328d864a90dd3f3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L365_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L56_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "82f356f717679776673c75ba0a69f5bc1906bf16c2e7af1fe4315fe59a7ff99f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L7_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "40c6647f76e83fee9898fb397d160c5c362fcb4d7373836d82fea4c695c3e89d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L91_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "9f2c409dda68b93706a2f8720e9270c391f001b29734b0021dea9d5c7da25af3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/demand_MW_RNN_L91_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L14_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "d10a3794695dbc5dee7391cc571653006eb62c32b50a676d57b44e7d483b69b9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L182_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "fd3da5e0ba7492897ad6b69745f478c4dd5a7af3a58657581bdc170e35bc31ec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L30_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "738b869e362306e63ee6d158873ae4da0fd69acb8cd44075856c8c594711d935",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L365_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "f5c295c0b0863bcbbeb1ef5ccfd12427baf095457f14a6b49af6f46e151d86a6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L56_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "486aef8e0affa45db344c73092c01ea456f3c1b9fd3669529a71f5aa58260200",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L7_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "90e1eb755efb29be81e9afbf6ccacc0a395b8dc4ecab03b4245b72a8ee7b9510",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L91_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "455cbe62fbd339b9109f62d1c64d0f523ff56c4c4249058300dae2b2022120c8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_LSTM_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L14_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "101e38bf82a751cf0dd7b20dec00e8dd1acdeb6a85805b471c76a55261899e00",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L182_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "c76bb991193efbc64e894277d7514cbd81945f569c8725cd606991fdae455208",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L30_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "0296e6c9d7fdce685a01bfdf1725b58b72859c62d0b92da73d2ae6ab50040994",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L365_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "5db3773961b21c8d9f3b49130fe384ba4ccb367bb0f38351381b7a7e981d6a07",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L56_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "749e54b1771c8d50485e34b6acc3e5d715c2a21fe81ab75c8a6be72648e09089",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L7_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "a4a7e51a2ec27797f6a676b12565036e530b37ef6f81ae858f2b0e9fd3e97ede",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L91_lr0.003_s17.pt",
+      "bytes": 24981,
+      "sha256": "06f7bdb230ba176d9865535ed421002892d91620563ba2d70dd7542d890e369b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/generation_MW_RNN_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "95adeb8afc1bab67bd836b495636d3c2ad86ff57436cb6e729325cad2b22c0c8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L182_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "c357ac7708600ff6c0186bf53a08585fe456c7ccc11f8f563fddc519a38a0653",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L30_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "c8afd79095333f505530c9658dafdd9c73d35e6de72ed195a965828379f21529",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L365_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "df43f9c4e2eff067092e3fcf97ecb9643174e499604a03a73df31f91dfc05a0e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L56_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "0c0c2c252b8842ee07b4210a1f69af5385b5e755e400dd57b60e4469abef95c9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L7_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "dd0115498f376662dabfa606ab84515659d2bee3460e43fede8082a669b4df84",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L91_lr0.003_s17.pt",
+      "bytes": 24853,
+      "sha256": "c0e70705ab1622a73b0f5bf94f433ef174e12cca298a3b0e7a59e9d9e050f1f3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L14_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "ff8dbd3d15b61afa84964b482e5d6e4054468d0b6215ae0efbd2e25d8e6ff43a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L14_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L182_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "433d91a8c551468833882284abff893cce90c559e6572cc96840aaa9e1822611",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L182_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "defb1b796431de1c12ec085f425f65574386a7ec7be7280e776e5cca49383fb3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L365_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "8af14938000b1c362eea3a0d5dae684901187c77001a177b6d9d65e564ba5302",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L365_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L56_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "30f114595868c727c1841dce818980440438693b1526471e43f81f73f15a1a3d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L7_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "f86400663b4365650d900f32ea3b5b53f721a5f1ff2bd8705a323f77c5d39476",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L91_lr0.001_s17.pt",
+      "bytes": 24981,
+      "sha256": "cf32d60c82e8a46124c1cd8897763b00a532997ebc825b153267f222492f6658",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/checkpoints/price_GBP_MWh_RNN_L91_lr0.001_s17.pt"
+    },
+    {
+      "entry": "data.py",
+      "bytes": 1944,
+      "sha256": "8ee37d46dbdb12947b4e0ef33d4ce67f48aafe31b69f4678c38953998e2a93d9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/data.py"
+    },
+    {
+      "entry": "execution_logs/demand_MW_COMPLETE.json",
+      "bytes": 24719,
+      "sha256": "67da4eb66b9a2d022d209de9d07f294b5f502985e998ca7820b9777df234ad50",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/demand_MW_COMPLETE.json"
+    },
+    {
+      "entry": "execution_logs/demand_MW_worker.log",
+      "bytes": 14765,
+      "sha256": "deb70d8cec628ca061bfdd57bed065144394965125916c072f20e1103a3f27a9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/demand_MW_worker.log"
+    },
+    {
+      "entry": "execution_logs/generation_MW_COMPLETE.json",
+      "bytes": 25111,
+      "sha256": "8ebb0c88ff0eee33fcc080e81159700eb0073fa3fa313414e3c6245b977b0481",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/generation_MW_COMPLETE.json"
+    },
+    {
+      "entry": "execution_logs/generation_MW_worker.log",
+      "bytes": 15786,
+      "sha256": "2aab726188c16a9b786e35fac9050d4c27da0859a168df6bb4b469f8eba205a0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/generation_MW_worker.log"
+    },
+    {
+      "entry": "execution_logs/price_GBP_MWh_COMPLETE.json",
+      "bytes": 25111,
+      "sha256": "716851b659924ca5b8d56d40337bfb82e06aa2b8f19242acc38aefce9caae40c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/price_GBP_MWh_COMPLETE.json"
+    },
+    {
+      "entry": "execution_logs/price_GBP_MWh_worker.log",
+      "bytes": 17506,
+      "sha256": "b9b6a240094e2aad600c1066aca55c9c3a70ee71f5c698056dccbb1dfe6134de",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/execution_logs/price_GBP_MWh_worker.log"
+    },
+    {
+      "entry": "figures/matched_window_effect.png",
+      "bytes": 308646,
+      "sha256": "8de9206f9a9a72303a8174c0d2ecef3612d8ff1110b18ee95f4a8d81b45a9dc7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/matched_window_effect.png"
+    },
+    {
+      "entry": "figures/matched_window_effect.svg",
+      "bytes": 138941,
+      "sha256": "aeb9b8257b4bf2528da91ce60da7aa6c9fa3d95b9b3d9f57d5247de4fc5c8595",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/matched_window_effect.svg"
+    },
+    {
+      "entry": "figures/selected_attention_profiles.png",
+      "bytes": 515175,
+      "sha256": "5cfe8842b095191df3abb2b133e8a5108e56934c44e67ee43ce16d3d051f924f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/selected_attention_profiles.png"
+    },
+    {
+      "entry": "figures/selected_attention_profiles.svg",
+      "bytes": 165519,
+      "sha256": "7a5a298c555980e91ab3f4b8bf8e2a187dde5a4c4db5985c014ecff3f6a240d0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/selected_attention_profiles.svg"
+    },
+    {
+      "entry": "figures/selected_step_losses.png",
+      "bytes": 730341,
+      "sha256": "695e9424f2206c55e54e48e478af2762364abfbe6ac96bcf0233639e4da33b42",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/selected_step_losses.png"
+    },
+    {
+      "entry": "figures/selected_step_losses.svg",
+      "bytes": 454360,
+      "sha256": "ece5b12a998efceac81f259532ba7dc6585396f3d66d8960f81bb641068f16ac",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/figures/selected_step_losses.svg"
+    },
+    {
+      "entry": "finalize_release.py",
+      "bytes": 5540,
+      "sha256": "fabbeb09bc703145bb67b3e2673697bd67bdd2781f8c3b3cafcf2d564da6c64c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/finalize_release.py"
+    },
+    {
+      "entry": "fit_core.py",
+      "bytes": 5755,
+      "sha256": "9549171764da1855267b4306ae46f3e3c3a87acddc4736ca308cf4fb3ac26ea9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/fit_core.py"
+    },
+    {
+      "entry": "inputs/model_daily.csv",
+      "bytes": 169577,
+      "sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/model_daily.csv"
+    },
+    {
+      "entry": "inputs/SOURCE_MANIFEST.json",
+      "bytes": 1480,
+      "sha256": "7ff14bc7cf9949d274e0db80c9f07283360e6e121b28fb27ba7fc9a204ea492e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-joint-plateau-20261110/inputs/SOURCE_MANIFEST.json"
+    },
+    {
+      "entry": "model.py",
+      "bytes": 1737,
+      "sha256": "99e5589978e2237e99547f9f6172de833dae5225d68547050394a8bdceddbefa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/model.py"
+    },
+    {
+      "entry": "package_artifacts.py",
+      "bytes": 1606,
+      "sha256": "04afcc6690e1abc030754ca41e3de4c586244615a6f426da985995d86238d3ec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/package_artifacts.py"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L14_lr0.003_s17.npz",
+      "bytes": 13423,
+      "sha256": "cf183b538a2b3f5c6fe13c2543bbccf72e335680d3c63228908326d5c602fbb9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L182_lr0.003_s17.npz",
+      "bytes": 13427,
+      "sha256": "819b2623ba6205738b1b555e7e18447fb6fb7e582f89df334aea989e9770b6d0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L30_lr0.003_s17.npz",
+      "bytes": 13416,
+      "sha256": "8ea31f8f6d57605503a27ba1332c2db8764ba22909859a9b77e72a7a24cd236f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L365_lr0.003_s17.npz",
+      "bytes": 13415,
+      "sha256": "1df3b5b018682ec686352429124a586c398693eaae42ec3bb3063f512422a53c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L56_lr0.003_s17.npz",
+      "bytes": 13439,
+      "sha256": "e2f55955cd15ca983d150d1fa432710c9d8c31ad68bf6b594aa959682c0b72fc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L7_lr0.003_s17.npz",
+      "bytes": 13427,
+      "sha256": "e0d1e32148652f22a2fbbcd14bd7419c2f39652feef4353f6e8947037f2e1b42",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L91_lr0.003_s17.npz",
+      "bytes": 13423,
+      "sha256": "5ae9f54d7375193f3735772b2e1bc1b03375fe1cd27a4fcc5bac9af2a46c2fbf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_LSTM_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L14_lr0.001_s17.npz",
+      "bytes": 13428,
+      "sha256": "9271d703ee6eb939affa18314cc04d067de9e5bc0e2ac8742e09aad84f6cff2d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L14_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L182_lr0.001_s17.npz",
+      "bytes": 13414,
+      "sha256": "764f98b1de3cd589103b072667f3296b85bdbecb6bfba020178e4eef21fc7766",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L182_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L30_lr0.001_s17.npz",
+      "bytes": 13431,
+      "sha256": "aa957676f39a974da550478419c93ad9c0353a46fcdb6f51d234ad71f5d47c8d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L365_lr0.001_s17.npz",
+      "bytes": 13430,
+      "sha256": "6ca6944516da4154b520892a8fafa05e92106246d2ef6bedf11bbecd51ec3a45",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L365_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L56_lr0.001_s17.npz",
+      "bytes": 13422,
+      "sha256": "082bc945c1e9e23bb66cd93269d616ba7264c1412e04454f4b3a4b90aca64486",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L56_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L7_lr0.001_s17.npz",
+      "bytes": 13421,
+      "sha256": "beb3781899307fb01d85550af50489a49bbc403432f423eb760381d95a610a76",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L91_lr0.001_s17.npz",
+      "bytes": 13421,
+      "sha256": "cf210cabc091561178c877d74fce61af22918ee98b0573d2f94ca43a3c8c2441",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/predictions/demand_MW_RNN_L91_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L14_lr0.003_s17.npz",
+      "bytes": 13439,
+      "sha256": "b0edfbe57974eacbf42c133903df99e4d0eaadf5caa5c141406378184c884d41",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L182_lr0.003_s17.npz",
+      "bytes": 13452,
+      "sha256": "c8525ae9e4a7689c12f33821f1ae0bb064351dc56c6b977aded6f493d8edd7c9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L30_lr0.003_s17.npz",
+      "bytes": 13432,
+      "sha256": "771876cc6c659950989bad6152e7296ddd2056cad10091060668c1f6be6c1181",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L365_lr0.003_s17.npz",
+      "bytes": 13441,
+      "sha256": "4e772021b9749ee88c80791d674b52d9e7bd4d9a73d7a3f3c11f23021336c099",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L56_lr0.003_s17.npz",
+      "bytes": 13445,
+      "sha256": "ac66c9fcef6e9331e7bbec1f902560e2e9a9ef2eda3eaca3041490f3fb56866c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L7_lr0.003_s17.npz",
+      "bytes": 13443,
+      "sha256": "8e6167fd49c095163d8f65c1284cd4d746ca55afdbc5b29d096d717757f8fccf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L91_lr0.003_s17.npz",
+      "bytes": 13448,
+      "sha256": "489f8754fc74832a27a07f1635ae9a819db94ecc9a03dad633babe36b242a736",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_LSTM_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L14_lr0.003_s17.npz",
+      "bytes": 13453,
+      "sha256": "b1bda42a62b592f5723d9d5bebb80d06939c42d879d01bb817940d5c2f83d4d1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L182_lr0.003_s17.npz",
+      "bytes": 13453,
+      "sha256": "1b253d0e66291aef759c76be5e358faf89d78ce77a34e0007e63dc7f1ebd6482",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L30_lr0.003_s17.npz",
+      "bytes": 13450,
+      "sha256": "0be3e688f7d5f06bcb8523d59640423603d06e1413b84f8930dd806546f61bc0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L365_lr0.003_s17.npz",
+      "bytes": 13440,
+      "sha256": "9b1933536b4152912b22c0ec14ff8088c97b3b1449671b04b4aa8ea0a93e8014",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L56_lr0.003_s17.npz",
+      "bytes": 13444,
+      "sha256": "85b3b9d3e48692715690619a473da5ce66d00d2839826f16c92295c6fff86f0d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L7_lr0.003_s17.npz",
+      "bytes": 13439,
+      "sha256": "9bf2cb07e0958b4dc5eabca94ba955b831e68294d0404aaa9b9baa6d0ec3573c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L91_lr0.003_s17.npz",
+      "bytes": 13452,
+      "sha256": "444578c50050d8f725d455cfc42d944a0807abbc594f26a78eb5466d6edd37da",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/predictions/generation_MW_RNN_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s17.npz",
+      "bytes": 13513,
+      "sha256": "4b0dd61216d7689d3b78e19a81174cf802d33b6090e8ba936b25ae9ff54e3418",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L182_lr0.003_s17.npz",
+      "bytes": 13510,
+      "sha256": "02aee87431b900c2f1baa548db2c6e072f76d2daa4be77ab8fc531d83a3d49ea",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L30_lr0.003_s17.npz",
+      "bytes": 13498,
+      "sha256": "b37fcdd9dff06e719ee77698828dad70cf86a5a09718677f5851906461e1c6c0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L365_lr0.003_s17.npz",
+      "bytes": 13509,
+      "sha256": "e5140a9ff4b21bf70cc3cb276be0dedce78898f65dc26ae1c640ee742ea85774",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L56_lr0.003_s17.npz",
+      "bytes": 13506,
+      "sha256": "b6bffe37c3e8255458973578ccb70d7e197b111055c17be3270aab9bf222e0d2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L7_lr0.003_s17.npz",
+      "bytes": 13508,
+      "sha256": "d02ee70df3463d67cfff7ccd0c73ddd437c4b484d8078a290e9e08feb0dcccf8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L91_lr0.003_s17.npz",
+      "bytes": 13496,
+      "sha256": "5163fe1e5650d1038eb8a3d783a193760a7508beb00e225f8370a16c4f19eb27",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L14_lr0.001_s17.npz",
+      "bytes": 13509,
+      "sha256": "0993cb86f024f98995753a343122ec160c2b4b14fc703adc261eb561a70c38c1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L14_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L182_lr0.001_s17.npz",
+      "bytes": 13516,
+      "sha256": "fbf5e57f4a3f1f23d578eaec4bb2353422ed14da6313bf8034b133b0c80aee00",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L182_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s17.npz",
+      "bytes": 13520,
+      "sha256": "9452fb3649c9026bcab00b888866dcd38ccb344e2a770e2e8f278dcab33535f9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L365_lr0.001_s17.npz",
+      "bytes": 13518,
+      "sha256": "bded42a885d79c217c7fd791348451485a780a6f61632b0d1d86f51ad4d6c368",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L365_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L56_lr0.001_s17.npz",
+      "bytes": 13504,
+      "sha256": "4520189fb6a5feb42c2f27636e93463515d413459ab455f59914f847c3beb1c3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L56_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L7_lr0.001_s17.npz",
+      "bytes": 13497,
+      "sha256": "aee4ebccfd03009bd4a444d3340c3a270c8f97856be8fb306f9c2c003f940230",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L91_lr0.001_s17.npz",
+      "bytes": 13511,
+      "sha256": "8a1cafaa71535ba200d4f697c6c72099e268e0f9137d45e1fa783522700c03d5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L91_lr0.001_s17.npz"
+    },
+    {
+      "entry": "PREFLIGHT.json",
+      "bytes": 847,
+      "sha256": "1d2c5db800d3c44f823eab71eebd00fbc9889fed2931376ef7b4976262e2ec8e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/PREFLIGHT.json"
+    },
+    {
+      "entry": "preflight.py",
+      "bytes": 2941,
+      "sha256": "b0f15f475cd5528e2be4cbaff46422b3b56cb5cee369a5fd38d04bba74df6749",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/preflight.py"
+    },
+    {
+      "entry": "PROTOCOL.json",
+      "bytes": 2665,
+      "sha256": "a212138b563566a3faaafb3390c7de7a99e524fd2f90c09e954ccd9d1bd5f6ec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/PROTOCOL.json"
+    },
+    {
+      "entry": "REFERENCE_CONFIGS.json",
+      "bytes": 1150,
+      "sha256": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-independent-newsplit-20261109/REFERENCE_CONFIGS.json"
+    },
+    {
+      "entry": "REPORT_ZH.md",
+      "bytes": 13543,
+      "sha256": "7cb273df4c97614bf0cc77cc5bc063a715b214c76e805ab59261ed76b8e02bb8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/REPORT_ZH.md"
+    },
+    {
+      "entry": "requirements.txt",
+      "bytes": 124,
+      "sha256": "ae637973358f701ea71561a3be4f4ead5b4321891c00955c6f9dd3e1b5ae8fd3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-independent-newsplit-20261109/requirements.txt"
+    },
+    {
+      "entry": "results/ALL_ATTENTION_SUMMARY.csv",
+      "bytes": 27699,
+      "sha256": "56e85015621567bfba70919d82d6c8f55b7b4b5ac991b5cfdc20d1ca51066298",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/ALL_ATTENTION_SUMMARY.csv"
+    },
+    {
+      "entry": "results/ALL_STEP_LOSSES.csv",
+      "bytes": 6667008,
+      "sha256": "9f5aab6d55fdee09ca309d8c571b674525b67d621eb1e8503b322f22dfe73126",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/ALL_STEP_LOSSES.csv"
+    },
+    {
+      "entry": "results/ATTENTION_SUMMARY.csv",
+      "bytes": 4133,
+      "sha256": "c3ae27b4d1227d5bbcf09911881c3d95d2c6894b0cf833c6a1d37d6f8e67c510",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/ATTENTION_SUMMARY.csv"
+    },
+    {
+      "entry": "results/AUDIT.json",
+      "bytes": 1128,
+      "sha256": "d9e76350b11223119026b34e0f100d188873112ac05d3145f8ae8915ad471d35",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/AUDIT.json"
+    },
+    {
+      "entry": "results/GRID_METRICS.csv",
+      "bytes": 14438,
+      "sha256": "1f2f8c20127343e125110fbe0bbfb1a24497d961235b4175b7e1a003f52a330a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/GRID_METRICS.csv"
+    },
+    {
+      "entry": "results/MATCHED_WINDOW_COMPARISON.csv",
+      "bytes": 27096,
+      "sha256": "4c04318fd2c0dd01d602ed0176e0249428a01f9860e538192005d9ee93b7d249",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/MATCHED_WINDOW_COMPARISON.csv"
+    },
+    {
+      "entry": "results/READOUT_DIAGNOSTICS.csv",
+      "bytes": 7232,
+      "sha256": "02827df894434794e036f59724bf0cb10904756213922b808d3b1180cd5fe39c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/READOUT_DIAGNOSTICS.csv"
+    },
+    {
+      "entry": "results/RESULTS.json",
+      "bytes": 78088,
+      "sha256": "3bc771da81b690335dd41d466171fc02e9c7f2860f657269e3d7a1e1f883140b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/RESULTS.json"
+    },
+    {
+      "entry": "results/SELECTED_COMPARISON.csv",
+      "bytes": 4524,
+      "sha256": "9f947ae0b41dd9d7e0b3e94d45643f84e3dbc66c6f26916b6a6a990b5b2d97e5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/SELECTED_COMPARISON.csv"
+    },
+    {
+      "entry": "results/SELECTION_FROZEN.json",
+      "bytes": 1458,
+      "sha256": "a02f8644d9a18a59e3549fd3ea9b69758fe6b680340e4fe1c2e79d777ec211ec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/SELECTION_FROZEN.json"
+    },
+    {
+      "entry": "results/training_runs.csv",
+      "bytes": 13442,
+      "sha256": "b3c6041908ce41165b370813d0c00e039bf007a113b7da082fa658f0ea27cd0b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/training_runs.csv"
+    },
+    {
+      "entry": "run.log",
+      "bytes": 3781,
+      "sha256": "033b5137debc99f00099c1ee5ad0e5260b054af88cbaf3fe5608c58595667e71",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/run.log"
+    },
+    {
+      "entry": "run.py",
+      "bytes": 8709,
+      "sha256": "c1e42b29a40e917da56720b655c8ffc1c4156bc6d9c8bde86f73bdd84827f694",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/run.py"
+    },
+    {
+      "entry": "scalers.json",
+      "bytes": 340,
+      "sha256": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/scalers.json"
+    },
+    {
+      "entry": "selected_attention/demand_MW_LSTM_L365_lr0.003_s17.npz",
+      "bytes": 747713,
+      "sha256": "0fce2bc12b6459583b3b46e6d4d1d70d87b3aeab7e873c3c3f47377e3921d43c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/demand_MW_LSTM_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "selected_attention/demand_MW_RNN_L7_lr0.001_s17.npz",
+      "bytes": 17537,
+      "sha256": "7238483214de0c982403ec48301e7b60d0499b8da7b8da66fe83bc4cab91729a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/demand_MW_RNN_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "selected_attention/generation_MW_LSTM_L182_lr0.003_s17.npz",
+      "bytes": 376696,
+      "sha256": "6d29be10dd0ce262f1414aa180aee8c7fabb761a455ba04c944add79d63239b2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/generation_MW_LSTM_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "selected_attention/generation_MW_RNN_L30_lr0.003_s17.npz",
+      "bytes": 66467,
+      "sha256": "0c2e2650acf1fbe7ed813e063fb5d341ed94cc3abf7dca6d9814574099f2eb03",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/generation_MW_RNN_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "selected_attention/price_GBP_MWh_LSTM_L56_lr0.003_s17.npz",
+      "bytes": 113635,
+      "sha256": "5abeb43993e25dad4244ca8562d0ebb5964d698f1ca2e85c83efb5945d1e0149",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/price_GBP_MWh_LSTM_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "selected_attention/price_GBP_MWh_RNN_L7_lr0.001_s17.npz",
+      "bytes": 17178,
+      "sha256": "1f843ae84244318ea42309256e012f710f70828d6986b58fa80f095765aafd66",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/selected_attention/price_GBP_MWh_RNN_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "splits.csv",
+      "bytes": 69054,
+      "sha256": "996e638da27bb6c0a683fd01d6974f092c2739fbce63fd048842ce73ab841e06",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/splits.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L14_lr0.003_s17.csv",
+      "bytes": 171259,
+      "sha256": "0ff877c0165af0df5def783d7abe3d2bad42e74bd00e9cc67df86491f00ac99f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L182_lr0.003_s17.csv",
+      "bytes": 172320,
+      "sha256": "6c020a2d41cd03ce0553c2b615a55dad1d48a8961f8122be3138851241240198",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L30_lr0.003_s17.csv",
+      "bytes": 150660,
+      "sha256": "460ba117c9fc88e3453d7cb40f373b4d11be56a7487f4dc93045d42889c3f28d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L365_lr0.003_s17.csv",
+      "bytes": 172698,
+      "sha256": "d234fb18c74dd58185757cd89f7e225f5f67e40b3d0591f60b5c2179c2fe112f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L56_lr0.003_s17.csv",
+      "bytes": 171287,
+      "sha256": "7722ed3cedafc2877e265ce253563adb8c9db76d214a010147e5f7e5767960e4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L7_lr0.003_s17.csv",
+      "bytes": 170362,
+      "sha256": "76a87c0820906c9f254f4e1a219c214e780492e98085935beaddee69c8604afa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L91_lr0.003_s17.csv",
+      "bytes": 171388,
+      "sha256": "160d0f0b878f49a28969f42d190dace895a78151861a288675cfe6ece1ed0f52",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_LSTM_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L14_lr0.001_s17.csv",
+      "bytes": 87965,
+      "sha256": "0d8d5b7834c4baecacf5711845df6c50aa2791877d0799de224ad09872b29a05",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L14_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L182_lr0.001_s17.csv",
+      "bytes": 108995,
+      "sha256": "7da95d35ce42ab2d359baf9b6c9c388bb13403971e34595009dbec6325534a23",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L182_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L30_lr0.001_s17.csv",
+      "bytes": 104904,
+      "sha256": "5de0f5037dda146d1842138d766d11f15141ccb7e961deeebb7ed6275f4ab5e5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L365_lr0.001_s17.csv",
+      "bytes": 109359,
+      "sha256": "32132305d2427c55c5f41463b15851bf17ac3d75120550961df57edac76d8eba",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L365_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L56_lr0.001_s17.csv",
+      "bytes": 138786,
+      "sha256": "3e323b61c423fa14d1eb6e74cc51bea5d4bda832613d274b5d0b90f7580dc8b5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L56_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L7_lr0.001_s17.csv",
+      "bytes": 107866,
+      "sha256": "d69c5fc0fc1933c429f10705b53ef4dccaaf337ba83cc9349c74b523f8b7e3c4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L91_lr0.001_s17.csv",
+      "bytes": 108448,
+      "sha256": "712ee5e39f8bc21bb197c3e7f9c72c46b187db09d6937f039329c2fe94cbd94d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/demand_MW/step_logs/demand_MW_RNN_L91_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L14_lr0.003_s17.csv",
+      "bytes": 163473,
+      "sha256": "bcaf93161d250148fa6b07cedf3ef264b0d1a914c26f26957df2fb366621bbd4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L182_lr0.003_s17.csv",
+      "bytes": 211195,
+      "sha256": "50cca16435560599a5d23611f3f61b20d9b5a0805ceeae93623d9870fbe8f319",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L30_lr0.003_s17.csv",
+      "bytes": 148919,
+      "sha256": "41321f3952c33b577735a446e8411ff9741ea2ab12f6c78ce94c8a67c73f453b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L365_lr0.003_s17.csv",
+      "bytes": 168396,
+      "sha256": "2047ff7962c9a569ceebbd3d116d5539b4380c01fc8220c3769489749eaa1ae1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L56_lr0.003_s17.csv",
+      "bytes": 149595,
+      "sha256": "4e1d06ea31ec036c24bfe83d1c2f1a13305c9e081ead282fd262264fdd10237b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L7_lr0.003_s17.csv",
+      "bytes": 162758,
+      "sha256": "0664c721dd070cd711539da6af96307134a95e360dfe0f1387db0d2957e69f4b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L91_lr0.003_s17.csv",
+      "bytes": 149442,
+      "sha256": "105bb066ca7498c6455e4c4fb3e2c40cda6446941bcc00657fc82440c3069f6f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_LSTM_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L14_lr0.003_s17.csv",
+      "bytes": 84339,
+      "sha256": "b87b4e87a93d041883cc84a8cc6bb018978372f4c9ac08c892310d297d0e76ae",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L182_lr0.003_s17.csv",
+      "bytes": 138262,
+      "sha256": "272202cc64f84514a654ff1ccec4214106c70830325551d7d6fd5bfa2685190d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L30_lr0.003_s17.csv",
+      "bytes": 162191,
+      "sha256": "0b3751f72326982fc8b83bc64a7b9bd6750039a5b14c4dd2252b06d91e4f1aa3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L365_lr0.003_s17.csv",
+      "bytes": 138006,
+      "sha256": "ee03f2507f97113d4a844b751cd6039dd3a992d257a73f3b07fde5d16738ecc6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L56_lr0.003_s17.csv",
+      "bytes": 137448,
+      "sha256": "aecaf03931add96c33626a74cfb45ccc020961b98634838afa6f4642da6b6484",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L7_lr0.003_s17.csv",
+      "bytes": 122682,
+      "sha256": "56ba4ba8bee77544009f71911d6da20ac1fbea42edaa6f36da9155aa9165d2d7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L91_lr0.003_s17.csv",
+      "bytes": 137613,
+      "sha256": "843346058bf607747c149e646300076affca6eddbdea2d0236677b9451ea225d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/generation_MW/step_logs/generation_MW_RNN_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s17.csv",
+      "bytes": 153318,
+      "sha256": "5ccd41b57573ab0fbd96d6841b1bbf617e3e55608afdb80dc3b46165bda9fa2a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L182_lr0.003_s17.csv",
+      "bytes": 197258,
+      "sha256": "56de4f38c2164b0cb139db646ef85a8e5865c8c012c353c23b0ca37520955ae8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L30_lr0.003_s17.csv",
+      "bytes": 153388,
+      "sha256": "c972adf0c63c14b955aa35dcc70a22dd525ffc3d581b15ca9fb43c344f7dea8a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L365_lr0.003_s17.csv",
+      "bytes": 182973,
+      "sha256": "7ab1789a8bbf6780854109e31df9be349c3d6167a3de52210eb07c4880c04234",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L56_lr0.003_s17.csv",
+      "bytes": 225103,
+      "sha256": "b9ba9bd731d0fa1373ec95d97dd71ff0bbb6b93ea85489dc5d3c425ad1e9d305",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L7_lr0.003_s17.csv",
+      "bytes": 152876,
+      "sha256": "27cd9196fd627b0effe91bd48f6b76f3adaba109f1dcf474931c5ce026173d54",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L91_lr0.003_s17.csv",
+      "bytes": 243269,
+      "sha256": "4c28bd17561095354529b4f2ba590537cbca89ada0a8856d48916bb56c1ec10f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_LSTM_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L14_lr0.001_s17.csv",
+      "bytes": 254741,
+      "sha256": "7ab356064a7ca3493753942cd823287eb870a89062f87d80c3834b2a19268d9f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L14_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L182_lr0.001_s17.csv",
+      "bytes": 256152,
+      "sha256": "209b8888dbe57eb3a819b2190d9b355ddb8ad224a4b34657de05dfbbfd4fd058",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L182_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L30_lr0.001_s17.csv",
+      "bytes": 180138,
+      "sha256": "518f4f145dda5bb9ccc239eac20ed2a3cd87ce574d56c68488c7b724ab73bd5c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L365_lr0.001_s17.csv",
+      "bytes": 202932,
+      "sha256": "13fc5b020b48ab2c43f6291b4022a2d08b417b9a311c11974c1c40dcdecf9aca",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L365_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L56_lr0.001_s17.csv",
+      "bytes": 184030,
+      "sha256": "85d875f5f57f926684039800ff4a7604f9eb73d4684fb7ac3978720e33bde800",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L56_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L7_lr0.001_s17.csv",
+      "bytes": 231987,
+      "sha256": "40aba75ed57f4415fa43230a031b2712885d4d0bc19785c7589cc197a3b26cf6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L91_lr0.001_s17.csv",
+      "bytes": 201409,
+      "sha256": "e3b432d551a5721288fd5e0117f65f7ae340d7ab9024e607aaa79b1d3b184d7d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/jobs/price_GBP_MWh/step_logs/price_GBP_MWh_RNN_L91_lr0.001_s17.csv"
+    },
+    {
+      "entry": "MANIFEST.json",
+      "bytes": 36324,
+      "sha256": "e865e3728aebc825784f9a7c114e797642692429c59eb5adffd57ca4f7342548",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/MANIFEST.json"
+    }
+  ]
+}

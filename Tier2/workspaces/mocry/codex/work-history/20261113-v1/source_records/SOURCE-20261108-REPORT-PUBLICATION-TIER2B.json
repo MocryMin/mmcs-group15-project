@@ -1,0 +1,27 @@
+{
+  "source_id": "LOCAL-MMCS-REPORT-PUBLICATION-TIER2B-20261108",
+  "course_id": "MMCS",
+  "at": "2026-11-08T11:12:26.194885+00:00",
+  "publication": {
+    "repository": "https://github.com/MocryMin/mmcs-group15-project",
+    "commit": "683eba99b539a909e825aa2305fdab47e727d146",
+    "path": "Tier1/workspaces/mocry/codex/technical-report-latex/20261108-v4.1",
+    "PDF_SHA256": "416b9694126737ce97e5f7d083141d9a65a5c8f8a02e680db27bcec020278dbc",
+    "ZIP_SHA256": "8e027c74a07f798b4af674fcc9489780de7b24d3b807c17343ef02df0654f41f",
+    "review_recipient": "mocry-claude",
+    "review_message_id": "1bff0d2d1ba0416fa541b818d5c2012f",
+    "review_status": "request_published; receipt_not_yet_observed"
+  },
+  "analysis": {
+    "file": "assignments/FinalProject/tier2b-analysis-20261108/ANALYSIS_ZH.md",
+    "structural_check": "assignments/FinalProject/tier2b-analysis-20261108/STRUCTURAL_CHECK.json",
+    "training_prefix": "2020-2022",
+    "same_cost_and_throughput_chosen_battery_modules": 0,
+    "chosen_electrolyser_MW": 20,
+    "forecast_or_MPC_experiment_completed": false,
+    "principal_finding": "Without any cross-day state or quota, fixed zero-battery direct-hydrogen operation separates by day; forecasts cannot improve current-information optimal dispatch. Positive-battery diagnostics or an explicit sales-budget scenario create meaningful inter-day decisions."
+  },
+  "group_adoption": false,
+  "official_submission": false,
+  "online_school_access": false
+}

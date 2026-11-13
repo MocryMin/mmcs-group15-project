@@ -1,0 +1,99 @@
+{
+  "version": "2026-11-10 aligned next-day comparison v1",
+  "input_file": "inputs/model_daily.csv",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "units": [
+    "daily average MW",
+    "daily average MW",
+    "nominal GBP/MWh"
+  ],
+  "forecast_horizon_days": 1,
+  "periods": {
+    "train": {
+      "target_start": "2022-01-01",
+      "target_end": "2024-12-31",
+      "n": 1096
+    },
+    "validation": {
+      "target_start": "2025-01-01",
+      "target_end": "2025-08-31",
+      "n": 243
+    },
+    "test": {
+      "target_start": "2025-09-01",
+      "target_end": "2026-08-31",
+      "n": 365
+    }
+  },
+  "context_only": "2021; never training labels",
+  "unused_targets": "2026-09-01 through 2026-09-17",
+  "normalisation": {
+    "fit": "2022-2024 labels, ddof=0",
+    "mean": [
+      25936.862947728696,
+      28781.64872262774,
+      120.97857969411676
+    ],
+    "std": [
+      5238.09892616852,
+      4003.302662756515,
+      79.89525467079051
+    ]
+  },
+  "loss": "mean over target dates of ((prediction-truth)/training_std)^2; joint is equal mean of three target losses",
+  "selection": "each classical target selects config by its validation MSE; model family selection also validation only; neural checkpoints already frozen, not reselected on test",
+  "information": "three observed historical series and known calendar only; no external features, no extra generation components",
+  "feature_equivalence": "same source information, not identical encodings or history windows; engineered models use 44 columns; lagged OLS/Ridge retain old eight-feature histories",
+  "fixed": "parameters and fit normalizers frozen after 2024; sequential features and ES states may use latest observations",
+  "rolling": "refit every 28 forecast-origin days; every fit label date <= first forecast origin; expanding starts 2022 or latest730 labels; original evaluation scaler never changes",
+  "uncertainty": "neural mean of three seed scores +/- sample SD, not prediction ensemble; classical deterministic, no seed SD",
+  "scope": "one-step prediction comparison; no MPC decision-value claim; reused repeatedly monitored test period is not a new blind holdout",
+  "OLS_precision": "inherited truncated OLS uses relative SVD cutoff 1e-6; level/residual OLS equivalent up to roundoff",
+  "new_classical_grids": {
+    "Ridge_alpha": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "Lasso_alpha": [
+      0.0001,
+      0.001,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "HGB_max_depth": [
+      2,
+      4
+    ],
+    "ES_alpha": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.8
+    ],
+    "price_transform": [
+      "raw",
+      "asinh; median and scaled MAD fitted on fit labels only"
+    ],
+    "HGB": {
+      "iterations": 300,
+      "learning_rate": 0.05,
+      "leaf_min": 20,
+      "l2": 1,
+      "early_stopping": false,
+      "seed": 17
+    }
+  },
+  "relation_to_fable": "adaptation of method families, not a reprint of incompatible old scores; old sample periods, real price basis, six-series inputs and multi-horizon MAE not carried over",
+  "audit_precision": "feature reconstruction uses the same compensated rolling-mean arithmetic for bit-sensitive histogram splits; also verifies direct window means agree within 1e-12; no forecast changed for this audit"
+}

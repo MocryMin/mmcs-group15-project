@@ -1,0 +1,7 @@
+target,family,joint_validation_loss,independent_validation_loss,independent_change_pct,caveat
+generation_MW,RNN,0.2422379640138701,0.2444175262227398,0.8997607859455581,Independent setup has about 3x total parameter budget for the three tasks
+generation_MW,LSTM,0.2523227285372932,0.253947281651567,0.6438393892184369,Independent setup has about 3x total parameter budget for the three tasks
+demand_MW,RNN,0.0881393364127833,0.0818420480637043,-7.144696800968509,Independent setup has about 3x total parameter budget for the three tasks
+demand_MW,LSTM,0.0947080873626679,0.0865266925340277,-8.638538752568191,Independent setup has about 3x total parameter budget for the three tasks
+price_GBP_MWh,RNN,0.042815736341645,0.0382688085251639,-10.619758539708911,Independent setup has about 3x total parameter budget for the three tasks
+price_GBP_MWh,LSTM,0.0453466290568335,0.0397422262868834,-12.359028414054851,Independent setup has about 3x total parameter budget for the three tasks

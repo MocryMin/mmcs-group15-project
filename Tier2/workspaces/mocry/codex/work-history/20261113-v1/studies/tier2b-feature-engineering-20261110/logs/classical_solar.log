@@ -1,0 +1,3 @@
+CPU_DONE weather_solar
+CPU_DONE weather_wind+weather_solar
+CPU_DONE balance+weather_wind+weather_solar

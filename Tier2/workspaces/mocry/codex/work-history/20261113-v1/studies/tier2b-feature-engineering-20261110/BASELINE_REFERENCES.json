@@ -1,0 +1,37 @@
+[
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_CalendarResidualAR.npz",
+    "sha256": "f6b39881a22466da5c5321c13257b6c7400ba9908b89a1e86ed96fee0410c415",
+    "bundled_path": "inputs/reference_predictions/T_fixed_CalendarResidualAR.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_RidgeLevel.npz",
+    "sha256": "5f8b5d35dac74419ffbe8d7715d5651909e13e90392f0db4ee79f54c366e68f0",
+    "bundled_path": "inputs/reference_predictions/T_fixed_RidgeLevel.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_RidgeResidual.npz",
+    "sha256": "e24dbc32eb6d996f1e7e473572d27187dfba0e951caa09b4ec326016658597d2",
+    "bundled_path": "inputs/reference_predictions/T_fixed_RidgeResidual.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_OLSLevel.npz",
+    "sha256": "474ad6d74990e5b94b311080082dc49d099a83c80a9b71896400a304cc418445",
+    "bundled_path": "inputs/reference_predictions/T_fixed_OLSLevel.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_Persistence.npz",
+    "sha256": "cd68ea62f9a821045086703712c055c1d7abf13a2dc84adfcf3752c732370394",
+    "bundled_path": "inputs/reference_predictions/T_fixed_Persistence.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_Seasonal7.npz",
+    "sha256": "a4bfd75a5b063237de5fb064e47a98472c8dc7350f5eb650212ff0b0b30deada",
+    "bundled_path": "inputs/reference_predictions/T_fixed_Seasonal7.npz"
+  },
+  {
+    "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-unified-forecast-comparison-20261110\\predictions\\T_fixed_Mean28.npz",
+    "sha256": "01464d63e7dcc24f6eccb945641527f27e6c072b3e9390b9510d7666b7ffc7e6",
+    "bundled_path": "inputs/reference_predictions/T_fixed_Mean28.npz"
+  }
+]

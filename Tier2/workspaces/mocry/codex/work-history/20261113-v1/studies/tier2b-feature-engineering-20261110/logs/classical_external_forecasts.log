@@ -1,0 +1,5 @@
+CPU_DONE neso_demand
+CPU_DONE neso_wind
+CPU_DONE neso_demand+weather_wind
+CPU_DONE neso_demand+bank_holidays+weather_temp
+CPU_DONE weather_wind+price_robust+bank_holidays

@@ -1,0 +1,106 @@
+SPLITS {"train": {"start": "2020-01-01", "end": "2022-12-31", "samples": 1034, "first_origin": "2020-02-25", "last_origin": "2022-12-24"}, "validation": {"start": "2023-01-01", "end": "2023-12-31", "samples": 359, "first_origin": "2022-12-31", "last_origin": "2023-12-24"}, "test": {"start": "2024-01-01", "end": "2025-12-31", "samples": 725, "first_origin": "2023-12-31", "last_origin": "2025-12-24"}}
+START RNN_L28_lr0.001_s17
+EPOCH RNN_L28_lr0.001_s17 30 val=0.26429 best=0.25635
+DONE {"run": "RNN_L28_lr0.001_s17", "family": "RNN", "lookback": 28, "lr": 0.001, "seed": 17, "parameters": 6101, "best_epoch": 34, "epochs": 49, "validation_standardised_mse": 0.25354260206222534, "seconds": 2.687000000005355, "checkpoint": "checkpoints\\RNN_L28_lr0.001_s17.pt"}
+START RNN_L28_lr0.001_s29
+EPOCH RNN_L28_lr0.001_s29 30 val=0.26132 best=0.26003
+DONE {"run": "RNN_L28_lr0.001_s29", "family": "RNN", "lookback": 28, "lr": 0.001, "seed": 29, "parameters": 6101, "best_epoch": 40, "epochs": 55, "validation_standardised_mse": 0.2535090446472168, "seconds": 3.202999999994063, "checkpoint": "checkpoints\\RNN_L28_lr0.001_s29.pt"}
+START RNN_L28_lr0.001_s43
+EPOCH RNN_L28_lr0.001_s43 30 val=0.25163 best=0.25163
+DONE {"run": "RNN_L28_lr0.001_s43", "family": "RNN", "lookback": 28, "lr": 0.001, "seed": 43, "parameters": 6101, "best_epoch": 36, "epochs": 51, "validation_standardised_mse": 0.24559956789016724, "seconds": 2.7339999999967404, "checkpoint": "checkpoints\\RNN_L28_lr0.001_s43.pt"}
+START RNN_L28_lr0.003_s17
+EPOCH RNN_L28_lr0.003_s17 30 val=0.29382 best=0.25178
+DONE {"run": "RNN_L28_lr0.003_s17", "family": "RNN", "lookback": 28, "lr": 0.003, "seed": 17, "parameters": 6101, "best_epoch": 15, "epochs": 30, "validation_standardised_mse": 0.25177738070487976, "seconds": 1.5780000000086147, "checkpoint": "checkpoints\\RNN_L28_lr0.003_s17.pt"}
+START RNN_L28_lr0.003_s29
+EPOCH RNN_L28_lr0.003_s29 30 val=0.28088 best=0.25015
+DONE {"run": "RNN_L28_lr0.003_s29", "family": "RNN", "lookback": 28, "lr": 0.003, "seed": 29, "parameters": 6101, "best_epoch": 18, "epochs": 33, "validation_standardised_mse": 0.2501470744609833, "seconds": 1.7810000000026776, "checkpoint": "checkpoints\\RNN_L28_lr0.003_s29.pt"}
+START RNN_L28_lr0.003_s43
+EPOCH RNN_L28_lr0.003_s43 30 val=0.27125 best=0.25256
+DONE {"run": "RNN_L28_lr0.003_s43", "family": "RNN", "lookback": 28, "lr": 0.003, "seed": 43, "parameters": 6101, "best_epoch": 23, "epochs": 38, "validation_standardised_mse": 0.25255706906318665, "seconds": 2.0780000000086147, "checkpoint": "checkpoints\\RNN_L28_lr0.003_s43.pt"}
+START RNN_L56_lr0.001_s17
+EPOCH RNN_L56_lr0.001_s17 30 val=0.26522 best=0.25778
+DONE {"run": "RNN_L56_lr0.001_s17", "family": "RNN", "lookback": 56, "lr": 0.001, "seed": 17, "parameters": 6101, "best_epoch": 35, "epochs": 50, "validation_standardised_mse": 0.2493845820426941, "seconds": 4.75, "checkpoint": "checkpoints\\RNN_L56_lr0.001_s17.pt"}
+START RNN_L56_lr0.001_s29
+EPOCH RNN_L56_lr0.001_s29 30 val=0.26083 best=0.25985
+DONE {"run": "RNN_L56_lr0.001_s29", "family": "RNN", "lookback": 56, "lr": 0.001, "seed": 29, "parameters": 6101, "best_epoch": 40, "epochs": 55, "validation_standardised_mse": 0.2544042766094208, "seconds": 5.407000000006519, "checkpoint": "checkpoints\\RNN_L56_lr0.001_s29.pt"}
+START RNN_L56_lr0.001_s43
+EPOCH RNN_L56_lr0.001_s43 30 val=0.25143 best=0.25143
+DONE {"run": "RNN_L56_lr0.001_s43", "family": "RNN", "lookback": 56, "lr": 0.001, "seed": 43, "parameters": 6101, "best_epoch": 36, "epochs": 51, "validation_standardised_mse": 0.2473500519990921, "seconds": 5.01600000000326, "checkpoint": "checkpoints\\RNN_L56_lr0.001_s43.pt"}
+START RNN_L56_lr0.003_s17
+EPOCH RNN_L56_lr0.003_s17 30 val=0.28153 best=0.25116
+DONE {"run": "RNN_L56_lr0.003_s17", "family": "RNN", "lookback": 56, "lr": 0.003, "seed": 17, "parameters": 6101, "best_epoch": 15, "epochs": 30, "validation_standardised_mse": 0.2511574923992157, "seconds": 2.889999999999418, "checkpoint": "checkpoints\\RNN_L56_lr0.003_s17.pt"}
+START RNN_L56_lr0.003_s29
+EPOCH RNN_L56_lr0.003_s29 30 val=0.27851 best=0.25035
+DONE {"run": "RNN_L56_lr0.003_s29", "family": "RNN", "lookback": 56, "lr": 0.003, "seed": 29, "parameters": 6101, "best_epoch": 18, "epochs": 33, "validation_standardised_mse": 0.25034675002098083, "seconds": 3.25, "checkpoint": "checkpoints\\RNN_L56_lr0.003_s29.pt"}
+START RNN_L56_lr0.003_s43
+EPOCH RNN_L56_lr0.003_s43 30 val=0.27095 best=0.24906
+DONE {"run": "RNN_L56_lr0.003_s43", "family": "RNN", "lookback": 56, "lr": 0.003, "seed": 43, "parameters": 6101, "best_epoch": 23, "epochs": 38, "validation_standardised_mse": 0.24905578792095184, "seconds": 4.0, "checkpoint": "checkpoints\\RNN_L56_lr0.003_s43.pt"}
+START LSTM_L28_lr0.001_s17
+EPOCH LSTM_L28_lr0.001_s17 30 val=0.32805 best=0.29415
+DONE {"run": "LSTM_L28_lr0.001_s17", "family": "LSTM", "lookback": 28, "lr": 0.001, "seed": 17, "parameters": 6069, "best_epoch": 21, "epochs": 36, "validation_standardised_mse": 0.2941465973854065, "seconds": 2.014999999999418, "checkpoint": "checkpoints\\LSTM_L28_lr0.001_s17.pt"}
+START LSTM_L28_lr0.001_s29
+DONE {"run": "LSTM_L28_lr0.001_s29", "family": "LSTM", "lookback": 28, "lr": 0.001, "seed": 29, "parameters": 6069, "best_epoch": 14, "epochs": 29, "validation_standardised_mse": 0.28413718938827515, "seconds": 1.5470000000059372, "checkpoint": "checkpoints\\LSTM_L28_lr0.001_s29.pt"}
+START LSTM_L28_lr0.001_s43
+EPOCH LSTM_L28_lr0.001_s43 30 val=0.28693 best=0.26908
+DONE {"run": "LSTM_L28_lr0.001_s43", "family": "LSTM", "lookback": 28, "lr": 0.001, "seed": 43, "parameters": 6069, "best_epoch": 24, "epochs": 39, "validation_standardised_mse": 0.2690756022930145, "seconds": 2.125, "checkpoint": "checkpoints\\LSTM_L28_lr0.001_s43.pt"}
+START LSTM_L28_lr0.003_s17
+DONE {"run": "LSTM_L28_lr0.003_s17", "family": "LSTM", "lookback": 28, "lr": 0.003, "seed": 17, "parameters": 6069, "best_epoch": 6, "epochs": 21, "validation_standardised_mse": 0.29058125615119934, "seconds": 1.1089999999967404, "checkpoint": "checkpoints\\LSTM_L28_lr0.003_s17.pt"}
+START LSTM_L28_lr0.003_s29
+DONE {"run": "LSTM_L28_lr0.003_s29", "family": "LSTM", "lookback": 28, "lr": 0.003, "seed": 29, "parameters": 6069, "best_epoch": 6, "epochs": 21, "validation_standardised_mse": 0.2899807095527649, "seconds": 1.125, "checkpoint": "checkpoints\\LSTM_L28_lr0.003_s29.pt"}
+START LSTM_L28_lr0.003_s43
+DONE {"run": "LSTM_L28_lr0.003_s43", "family": "LSTM", "lookback": 28, "lr": 0.003, "seed": 43, "parameters": 6069, "best_epoch": 10, "epochs": 25, "validation_standardised_mse": 0.2743496298789978, "seconds": 1.3590000000112923, "checkpoint": "checkpoints\\LSTM_L28_lr0.003_s43.pt"}
+START LSTM_L56_lr0.001_s17
+EPOCH LSTM_L56_lr0.001_s17 30 val=0.31307 best=0.29397
+DONE {"run": "LSTM_L56_lr0.001_s17", "family": "LSTM", "lookback": 56, "lr": 0.001, "seed": 17, "parameters": 6069, "best_epoch": 21, "epochs": 36, "validation_standardised_mse": 0.2939717471599579, "seconds": 3.4840000000112923, "checkpoint": "checkpoints\\LSTM_L56_lr0.001_s17.pt"}
+START LSTM_L56_lr0.001_s29
+DONE {"run": "LSTM_L56_lr0.001_s29", "family": "LSTM", "lookback": 56, "lr": 0.001, "seed": 29, "parameters": 6069, "best_epoch": 14, "epochs": 29, "validation_standardised_mse": 0.28297287225723267, "seconds": 2.9219999999913853, "checkpoint": "checkpoints\\LSTM_L56_lr0.001_s29.pt"}
+START LSTM_L56_lr0.001_s43
+EPOCH LSTM_L56_lr0.001_s43 30 val=0.28419 best=0.27516
+DONE {"run": "LSTM_L56_lr0.001_s43", "family": "LSTM", "lookback": 56, "lr": 0.001, "seed": 43, "parameters": 6069, "best_epoch": 23, "epochs": 38, "validation_standardised_mse": 0.27515894174575806, "seconds": 4.062000000005355, "checkpoint": "checkpoints\\LSTM_L56_lr0.001_s43.pt"}
+START LSTM_L56_lr0.003_s17
+DONE {"run": "LSTM_L56_lr0.003_s17", "family": "LSTM", "lookback": 56, "lr": 0.003, "seed": 17, "parameters": 6069, "best_epoch": 6, "epochs": 21, "validation_standardised_mse": 0.29057610034942627, "seconds": 2.0939999999973224, "checkpoint": "checkpoints\\LSTM_L56_lr0.003_s17.pt"}
+START LSTM_L56_lr0.003_s29
+DONE {"run": "LSTM_L56_lr0.003_s29", "family": "LSTM", "lookback": 56, "lr": 0.003, "seed": 29, "parameters": 6069, "best_epoch": 8, "epochs": 23, "validation_standardised_mse": 0.28976935148239136, "seconds": 2.360000000000582, "checkpoint": "checkpoints\\LSTM_L56_lr0.003_s29.pt"}
+START LSTM_L56_lr0.003_s43
+DONE {"run": "LSTM_L56_lr0.003_s43", "family": "LSTM", "lookback": 56, "lr": 0.003, "seed": 43, "parameters": 6069, "best_epoch": 10, "epochs": 25, "validation_standardised_mse": 0.27483949065208435, "seconds": 2.485000000000582, "checkpoint": "checkpoints\\LSTM_L56_lr0.003_s43.pt"}
+C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-forecast-pilot-20261109\run_experiment.py:210: RuntimeWarning: Mean of empty slice.
+  strict_target_MAE=float(np.abs(e[strict]).mean()),strict_target_RMSE=float(np.sqrt(np.mean(e[strict]**2))),
+C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-forecast-pilot-20261109\run_experiment.py:210: RuntimeWarning: Mean of empty slice.
+  strict_target_MAE=float(np.abs(e[strict]).mean()),strict_target_RMSE=float(np.sqrt(np.mean(e[strict]**2))),
+C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+Traceback (most recent call last):
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-forecast-pilot-20261109\run_experiment.py", line 322, in <module>
+    main()
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-forecast-pilot-20261109\run_experiment.py", line 314, in main
+    dump(ROOT/"results"/"RESULTS.json",result)
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-forecast-pilot-20261109\run_experiment.py", line 42, in dump
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  [Previous line repeated 2 more times]
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 398, in _iterencode_dict
+    yield _floatstr(value)
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\Mocry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 240, in floatstr
+    raise ValueError(
+ValueError: Out of range float values are not JSON compliant: nan

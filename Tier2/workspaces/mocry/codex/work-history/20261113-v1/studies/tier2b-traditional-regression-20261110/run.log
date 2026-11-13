@@ -1,0 +1,39 @@
+             group                model     loss
+CalendarResidualAR   CalendarResidualAR 0.113343
+        RidgeLevel   RidgeLevel_L7_a100 0.114238
+     RidgeResidual RidgeResidual_L7_a10 0.118118
+       OLSResidual    OLSResidual_L7_a0 0.120310
+          OLSLevel       OLSLevel_L7_a0 0.120310
+       Persistence          Persistence 0.227175
+            Mean28               Mean28 0.286723
+         Seasonal7            Seasonal7 0.298310
+       CalendarOLS          CalendarOLS 0.350283
+             group      split     loss
+       Persistence      train 0.218919
+       Persistence validation 0.227175
+       Persistence       test 0.225259
+         Seasonal7      train 0.384898
+         Seasonal7 validation 0.298310
+         Seasonal7       test 0.354893
+            Mean28      train 0.429800
+            Mean28 validation 0.286723
+            Mean28       test 0.322182
+          OLSLevel      train 0.103530
+          OLSLevel validation 0.120310
+          OLSLevel       test 0.124878
+        RidgeLevel      train 0.115333
+        RidgeLevel validation 0.114238
+        RidgeLevel       test 0.126073
+       OLSResidual      train 0.103530
+       OLSResidual validation 0.120310
+       OLSResidual       test 0.124878
+     RidgeResidual      train 0.104130
+     RidgeResidual validation 0.118118
+     RidgeResidual       test 0.123388
+       CalendarOLS      train 0.554396
+       CalendarOLS validation 0.350283
+       CalendarOLS       test 0.365844
+CalendarResidualAR      train 0.112247
+CalendarResidualAR validation 0.113343
+CalendarResidualAR       test 0.120560
+AUDIT {"all_passed": true, "candidates": 61, "input_hash": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475", "same_target_dates_scalers_and_base_history_features": true, "causal_history_features": true, "fit_coefficients_only_train": true, "val_only_model_selection": true, "test_is_monitored_not_blind": true, "linear_models_are_deterministic": true, "neural_context_not_random_repetitions": false, "max_normalisation_roundtrip_error": 1.3322676295501878e-15, "calendar_extra_representation_explicit": true, "bank_holidays_added": false, "rolling_refit": false}

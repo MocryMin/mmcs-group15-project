@@ -1,0 +1,275 @@
+{
+  "measured_on": "2026-11-10",
+  "method": "Same browser viewport1440x1000;DevTools4xCPUthrottle;12realwheel events deltaY-65 with15mswait;800mssettle. Before=live2.0.0,after=local2.1.0. Event delay is listener handling time minus event timestamp, not end-to-end visual latency;single diagnostic trial, not a universal hardware guarantee.",
+  "before": [
+    {
+      "autoY": true,
+      "metrics": {
+        "calls": [
+          {
+            "start": 8239.699999988079,
+            "keys": [
+              "yaxis.range",
+              "yaxis2.range",
+              "yaxis3.range"
+            ],
+            "duration": 2013.6000000238419
+          },
+          {
+            "start": 13154.699999988079,
+            "keys": [
+              "yaxis.range",
+              "yaxis2.range",
+              "yaxis3.range"
+            ],
+            "duration": 3271.100000023842
+          },
+          {
+            "start": 29371.59999999404,
+            "keys": [
+              "yaxis.range",
+              "yaxis2.range",
+              "yaxis3.range"
+            ],
+            "duration": 2103.7000000178814
+          },
+          {
+            "start": 40069.59999999404,
+            "keys": [
+              "yaxis.range",
+              "yaxis2.range",
+              "yaxis3.range"
+            ],
+            "duration": 2001.4000000059605
+          },
+          {
+            "start": 44246.59999999404,
+            "keys": [
+              "yaxis.range",
+              "yaxis2.range",
+              "yaxis3.range"
+            ],
+            "duration": 2011.7000000178814
+          }
+        ],
+        "events": 10,
+        "wheel_delay": {
+          "n": 12,
+          "p50": 129.59999999403954,
+          "p95": 6499.0999999940395,
+          "max": 6499.0999999940395,
+          "total": 17337.300000041723
+        },
+        "long_tasks": {
+          "n": 16,
+          "p50": 286,
+          "p95": 6725,
+          "max": 6725,
+          "total": 30109
+        },
+        "frames": {
+          "n": 32,
+          "p50": 12.5,
+          "p95": 6725.700000000001,
+          "max": 10826,
+          "total": 36434.9
+        },
+        "state": {
+          "lo": 1767976859418,
+          "hi": 1778474281913,
+          "first": 1835,
+          "last": 1956,
+          "autoY": true,
+          "ma": 0,
+          "mode": "lines+markers",
+          "bands": false,
+          "quality": false,
+          "dragmode": "pan",
+          "view": "comparison",
+          "firstDate": "2026-01-10",
+          "lastDate": "2026-05-11",
+          "count": 122
+        }
+      }
+    },
+    {
+      "autoY": false,
+      "metrics": {
+        "calls": [],
+        "events": 5,
+        "wheel_delay": {
+          "n": 12,
+          "p50": 129.7000000178814,
+          "p95": 5480.5999999940395,
+          "max": 5480.5999999940395,
+          "total": 11078.100000053644
+        },
+        "long_tasks": {
+          "n": 18,
+          "p50": 316,
+          "p95": 5413,
+          "max": 5413,
+          "total": 27581
+        },
+        "frames": {
+          "n": 35,
+          "p50": 6.400000000001455,
+          "p95": 5412.799999999996,
+          "max": 10219.600000000006,
+          "total": 27702.40000000001
+        },
+        "state": {
+          "lo": 1767976859418,
+          "hi": 1778474281913,
+          "first": 1835,
+          "last": 1956,
+          "autoY": false,
+          "ma": 0,
+          "mode": "lines+markers",
+          "bands": false,
+          "quality": false,
+          "dragmode": "pan",
+          "view": "comparison",
+          "firstDate": "2026-01-10",
+          "lastDate": "2026-05-11",
+          "count": 122
+        }
+      }
+    }
+  ],
+  "after": [
+    {
+      "autoY": true,
+      "mode": "lines+markers",
+      "metrics": {
+        "wheel_delay": {
+          "n": 12,
+          "p50": 11.699999988079071,
+          "p95": 73.5,
+          "max": 73.5,
+          "total": 204.80000001192093
+        },
+        "long_tasks": {
+          "n": 9,
+          "p50": 58,
+          "p95": 117,
+          "max": 117,
+          "total": 622
+        },
+        "frames": {
+          "n": 169,
+          "p50": 6.299999999999727,
+          "p95": 49.90000000000009,
+          "max": 112.5,
+          "total": 1793.9
+        },
+        "state": {
+          "lo": 1768240943252.7246,
+          "hi": 1778289284720.0383,
+          "first": 1838,
+          "last": 1954,
+          "autoY": true,
+          "ma": 0,
+          "mode": "lines+markers",
+          "bands": false,
+          "quality": false,
+          "dragmode": "pan",
+          "view": "comparison",
+          "firstDate": "2026-01-13",
+          "lastDate": "2026-05-09",
+          "count": 117
+        },
+        "dom_elements": 166
+      }
+    },
+    {
+      "autoY": false,
+      "mode": "lines+markers",
+      "metrics": {
+        "wheel_delay": {
+          "n": 12,
+          "p50": 12.100000023841858,
+          "p95": 45.5,
+          "max": 45.5,
+          "total": 178.89999997615814
+        },
+        "long_tasks": {
+          "n": 13,
+          "p50": 68,
+          "p95": 104,
+          "max": 104,
+          "total": 891
+        },
+        "frames": {
+          "n": 163,
+          "p50": 6.299999999999727,
+          "p95": 56.29999999999973,
+          "max": 100,
+          "total": 1806.3999999999996
+        },
+        "state": {
+          "lo": 1767818922052.648,
+          "hi": 1777867263519.9617,
+          "first": 1833,
+          "last": 1949,
+          "autoY": false,
+          "ma": 0,
+          "mode": "lines+markers",
+          "bands": false,
+          "quality": false,
+          "dragmode": "pan",
+          "view": "comparison",
+          "firstDate": "2026-01-08",
+          "lastDate": "2026-05-04",
+          "count": 117
+        },
+        "dom_elements": 166
+      }
+    },
+    {
+      "autoY": true,
+      "mode": "lines",
+      "metrics": {
+        "wheel_delay": {
+          "n": 12,
+          "p50": 9.899999976158142,
+          "p95": 11.699999988079071,
+          "max": 11.699999988079071,
+          "total": 115.79999995231628
+        },
+        "long_tasks": {
+          "n": 0,
+          "p50": 0,
+          "p95": 0,
+          "max": 0,
+          "total": 0
+        },
+        "frames": {
+          "n": 194,
+          "p50": 6.300000000000182,
+          "p95": 25,
+          "max": 37.399999999999636,
+          "total": 1487.3999999999996
+        },
+        "state": {
+          "lo": 1768240943252.7246,
+          "hi": 1778289284720.0383,
+          "first": 1838,
+          "last": 1954,
+          "autoY": true,
+          "ma": 0,
+          "mode": "lines",
+          "bands": false,
+          "quality": false,
+          "dragmode": "pan",
+          "view": "comparison",
+          "firstDate": "2026-01-13",
+          "lastDate": "2026-05-09",
+          "count": 117
+        },
+        "dom_elements": 166
+      }
+    }
+  ],
+  "numerical_data_unchanged": true
+}

@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "daily_generation_total.csv": {
+      "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_generation_total.csv"
+    },
+    "wind_farm_generation.csv": {
+      "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\wind_farm_generation.csv"
+    },
+    "daily_demand.csv": {
+      "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_demand.csv"
+    },
+    "daily_market_index_price.csv": {
+      "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\daily_market_index_price.csv"
+    },
+    "date_quality.csv": {
+      "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a",
+      "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier1-candidate-20261107-v4.1-academic\\inputs\\date_quality.csv"
+    }
+  },
+  "derived_sha256": "65764468149e9991b1f8cd11c1a13b85554c5594a1093b3773d1968c950cd014"
+}

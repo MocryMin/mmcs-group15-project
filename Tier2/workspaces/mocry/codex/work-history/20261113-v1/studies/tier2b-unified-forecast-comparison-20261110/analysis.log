@@ -1,0 +1,13 @@
+       target        pool                     method  loss_mean  loss_sd    MAE_mean   RMSE_mean  improvement_vs_persistence_pct
+generation_MW traditional    T_fixed_EngineeredRidge   0.188461      NaN 1787.722675 2273.970975                       41.509160
+generation_MW      neural       N_sep_Transformer10x   0.181491 0.003025 1723.180836 2231.470724                       43.672485
+generation_MW     rolling          T_expanding_Ridge   0.186945      NaN 1781.008778 2264.803559                       41.979816
+    demand_MW traditional T_fixed_CalendarResidualAR   0.105875      NaN 1011.284928 1302.612276                       60.214808
+    demand_MW      neural       N_sep_Transformer10x   0.105558 0.001098 1002.640924 1300.647681                       60.334010
+    demand_MW     rolling     T_expanding_CalendarAR   0.105307      NaN 1012.190639 1299.116320                       60.428073
+price_GBP_MWh traditional      T_fixed_EngineeredHGB   0.062267      NaN   14.931648   19.936558                       28.800423
+price_GBP_MWh      neural       N_sep_Transformer10x   0.069483 0.002991   15.690420   21.056830                       20.549660
+price_GBP_MWh     rolling            T_expanding_HGB   0.059635      NaN   14.516805   19.510694                       31.809717
+        JOINT traditional      T_fixed_EqualEnsemble   0.116489      NaN         NaN         NaN                       48.286793
+        JOINT      neural       N_sep_Transformer10x   0.118844 0.001677         NaN         NaN                       47.241292
+        JOINT     rolling     T_online_EqualEnsemble   0.114158      NaN         NaN         NaN                       49.321591

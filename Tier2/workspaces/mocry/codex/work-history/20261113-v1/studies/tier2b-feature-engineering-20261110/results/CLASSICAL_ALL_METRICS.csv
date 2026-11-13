@@ -1,0 +1,955 @@
+target,family,groups,features,parameter,transform,split,loss,MAE,RMSE
+generation_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1353187747445823,1489.7753115069677,1926.8713730275424
+generation_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2365334104836325,1913.6036294445037,2547.5337311580624
+generation_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2653679630175983,2078.0732984072188,2698.3478921644173
+demand_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0834563030713451,891.4573244486932,1156.50628344144
+demand_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0962425214340107,995.825341723026,1241.9437368280269
+demand_MW,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1277641537726444,1128.784277769279,1430.9449847071214
+price_GBP_MWh,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1450026542924996,22.34542672202129,30.423485044602952
+price_GBP_MWh,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1285376371942412,20.241145472286927,28.644163342028875
+price_GBP_MWh,CalendarAR,balance+weather_wind+weather_solar,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0934433766237126,18.99389340090895,24.42278842503682
+generation_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1492289298744156,1542.2617226058203,2023.4860213028376
+generation_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2065081311848578,1757.9791420714407,2380.3579762839818
+generation_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2410221532730379,1947.734424255012,2571.5926585024213
+demand_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0879796468214477,910.7484945407916,1187.4341436944703
+demand_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0948667506521083,1002.9650717484916,1233.0350961242789
+demand_MW,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1201609002102262,1080.9866402342302,1387.714135356311
+price_GBP_MWh,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1326157804553502,20.215011799145408,29.095015183812297
+price_GBP_MWh,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.118978318094235,16.449513087087897,27.558457022992105
+price_GBP_MWh,CalendarAR,balance,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0807413921960851,17.063470462333324,22.70226047165535
+generation_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1273462452639626,1454.0975095761858,1869.2473278409452
+generation_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2042847397038088,1757.0642498033867,2367.5091109615337
+generation_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1988520834236604,1840.769322560896,2335.81675307881
+demand_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0631965927369717,782.3526945962906,1006.387554264702
+demand_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0724737172118595,859.852160347951,1077.7268280394658
+demand_MW,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0878325145878753,933.5624933486664,1186.440829053106
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1452199201418316,22.520515512531947,30.44626914525634
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1304650434302969,19.78991794649654,28.858122127646716
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp+weather_wind,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.09606599515872,19.11722810278282,24.76314658369862
+generation_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1231436405022382,1414.9725012947267,1838.1446750752584
+generation_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1715627809757659,1588.7636846249995,2169.62778976994
+generation_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.176158455013223,1720.3262917394284,2198.4947990436544
+demand_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0630880874347814,788.7207936494109,1005.5232252459164
+demand_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0648902645227878,803.2564742319527,1019.7840092096162
+demand_MW,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.085662785842182,936.0952481763686,1171.694853700431
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1362005953160973,20.42440579010253,29.48563521730723
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1370651657739962,20.026412929592105,29.57907123338409
+price_GBP_MWh,CalendarAR,bank_holidays+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.108040567926999,19.897006056088276,26.26119077521201
+generation_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1177608467572099,1356.925129444906,1797.5217585013734
+generation_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1523232406018407,1471.1956632482752,2044.3572063322524
+generation_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1850484324590261,1768.337879501352,2253.286431191221
+demand_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0717462100489864,835.0123117499081,1072.30395487856
+demand_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0750497311518199,878.6063787478341,1096.7130110725664
+demand_MW,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.099159882329534,990.52478544267,1260.6264839632329
+price_GBP_MWh,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1254362207671069,18.889098619611868,28.296483382662032
+price_GBP_MWh,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1097041888022482,15.483962537764915,26.46260478002175
+price_GBP_MWh,CalendarAR,bank_holidays,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0690342676565088,15.62941591881813,20.9919772218373
+generation_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1231436405722005,1414.9725014011908,1838.144675597417
+generation_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1715627808771661,1588.7636838723058,2169.62778914648
+generation_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1761584548773357,1720.3262903046236,2198.494798195703
+demand_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0630880874376397,788.7207937014309,1005.5232252686944
+demand_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0648902645465947,803.2564741299411,1019.7840093966854
+demand_MW,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0856627859514058,936.095248549812,1171.694854447412
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.136200595242198,20.424405775344933,29.48563520930811
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1370651657852777,20.026412939833104,29.57907123460138
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays+weather_temp,40,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1080405679383814,19.8970060688214,26.26119077659536
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.117760846765871,1356.9251291285573,1797.5217585674766
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1523232406622899,1471.1956637948083,2044.357206737902
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1850484321407705,1768.3378785984048,2253.286429253563
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0717462100578118,835.0123118011178,1072.3039549445111
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0750497312224137,878.6063783795274,1096.7130115883654
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0991598824973222,990.5247870379532,1260.6264850297846
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.125436220762179,18.889098605709844,28.296483382106214
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1097041888369011,15.483962557648905,26.462604784201208
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.069034267811861,15.629415918003572,20.991977245457083
+generation_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.12657406107743,1403.1015168436147,1863.5714715972488
+generation_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1514141220085473,1491.0912447246071,2038.247355379173
+generation_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1865625875033711,1753.7175690809584,2262.4863851774185
+demand_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0843903874451886,886.2580593291817,1162.9603705780407
+demand_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0790516934520444,894.6058643890441,1125.5739008016806
+demand_MW,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1058750146234322,1011.284929996012,1302.612277140202
+price_GBP_MWh,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1257769777456637,18.94101522305097,28.334892083690253
+price_GBP_MWh,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1095644124499998,15.42090424764224,26.44574113355263
+price_GBP_MWh,CalendarAR,calendar_target,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0692434430729296,15.730459938032372,21.02375625378485
+generation_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1098048752969991,1319.0065342901908,1735.7393440274136
+generation_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1619600025138405,1590.617298152019,2108.033865983334
+generation_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.196548955474521,1821.4850280706305,2322.250506613404
+demand_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0819067979184343,893.4570307661288,1145.7197494797451
+demand_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0884584344325879,972.2072370839054,1190.6607841044286
+demand_MW,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1222957466103855,1092.9426558203106,1399.987318720369
+price_GBP_MWh,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1369699417683806,21.50697382727247,29.568794636103835
+price_GBP_MWh,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1562256043443565,20.50599996694744,31.57890684410943
+price_GBP_MWh,CalendarAR,fuel_mix+weather_wind,33,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1029175489482671,20.287351549607195,25.63100897799536
+generation_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1164568891869093,1352.9018193245115,1787.5421397182597
+generation_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1440674390821512,1505.8400298871532,1988.184182581449
+generation_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1863212576842358,1778.813848339133,2261.02258119514
+demand_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.08535006990948,906.6063380904412,1169.5542353784851
+demand_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0912821703813845,961.7367037841508,1209.5154052617377
+demand_MW,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1252896697588205,1105.5109496646255,1417.0202535451265
+price_GBP_MWh,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1670183315980958,24.125128369827788,32.65149387490723
+price_GBP_MWh,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1903338256918682,22.998576990314028,34.856114528363946
+price_GBP_MWh,CalendarAR,fuel_mix,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.15240910631958,24.54051886477154,31.19079495447444
+generation_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1350075021495601,1476.041489141963,1924.6539144027688
+generation_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2475893291270776,1875.2286694175807,2606.391542576969
+generation_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2727250026242515,2096.498286527928,2735.4965633818247
+demand_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0379490804910122,607.8592126525547,779.8643253201992
+demand_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0445448496321494,669.0575139398652,844.923081065937
+demand_MW,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0676169476604626,791.4674518832326,1040.989158398268
+price_GBP_MWh,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1275401781245825,20.382639787288795,28.53280675369826
+price_GBP_MWh,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1172232949577055,18.44474619543708,27.35444751836752
+price_GBP_MWh,CalendarAR,neso_demand+bank_holidays+weather_temp,34,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1227514008611178,19.50531805992864,27.992018336400807
+generation_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.126710934605375,1436.943774602745,1864.578805484144
+generation_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2146427204693179,1742.1859144243438,2426.787661891401
+generation_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2316013603784255,1882.4896921549907,2520.834008236228
+demand_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0382354319197569,613.0694469549175,782.8010971300682
+demand_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.039325985998162,631.7366114623902,793.8861685887567
+demand_MW,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0578698365907465,730.2775187206882,963.0405043943696
+price_GBP_MWh,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1373516183851144,21.48930526912877,29.609963764785608
+price_GBP_MWh,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1085528057166533,17.262931418792437,26.32337143458988
+price_GBP_MWh,CalendarAR,neso_demand+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1237067107005222,18.69463029803852,28.10073083960396
+generation_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1309855257172893,1446.1182549216308,1895.7687059503016
+generation_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2153350893809099,1771.5686563852348,2430.698531861988
+generation_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2566323223130106,2020.6556222526456,2653.5628181283
+demand_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0401843929108416,624.4446690288529,802.5038622155519
+demand_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0429809084626349,658.2877855495719,829.958201227554
+demand_MW,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0668999847498341,785.2467699633993,1035.455489346947
+price_GBP_MWh,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1236599963868444,19.593357953738256,28.09542461855289
+price_GBP_MWh,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1032122785366557,16.090695203251677,25.66768307389224
+price_GBP_MWh,CalendarAR,neso_demand,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1198067914716031,18.09647830681068,27.654238510547696
+generation_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.127920934840922,1388.9234576007634,1873.46036028509
+generation_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1903833799692709,1670.7745008199431,2285.536769670462
+generation_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2526740274007525,2049.207889931272,2633.0190275002865
+demand_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.082160627399067,877.7363237645504,1147.4936711425023
+demand_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0904896181483516,960.795778028411,1204.2531838987056
+demand_MW,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.145955047801436,1197.549680256977,1529.424296669671
+price_GBP_MWh,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1269678215952082,19.12057270333008,28.46871204399544
+price_GBP_MWh,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0884044728015603,15.378601143072428,23.75516792131628
+price_GBP_MWh,CalendarAR,neso_wind,19,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1361091532779282,23.06847297165064,29.47573555690824
+generation_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1191984258680665,1380.6109899974022,1808.4602037153704
+generation_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1629546096386862,1560.4214437529615,2114.4967468663235
+generation_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1941954053622107,1798.277657222434,2308.304888824833
+demand_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0798049294988593,879.969909399015,1130.923645790485
+demand_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0818670629772806,914.5612639315596,1145.4418077786306
+demand_MW,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1121950554809285,1029.5743503984438,1340.9274592315426
+price_GBP_MWh,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1320444420249162,20.44475870538848,29.03227361968264
+price_GBP_MWh,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1279634496656689,17.909358108494388,28.580113891237296
+price_GBP_MWh,CalendarAR,price_robust+weather_wind,26,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0944093592954661,18.40357147039202,24.54870067852921
+generation_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1252819425608379,1396.796818446761,1854.0350306575165
+generation_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1451942811593296,1455.5122233011637,1995.9444572926504
+generation_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1861063242942482,1763.3322676145274,2259.7180883953406
+demand_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0827524693860717,896.0823805922919,1151.6192256104628
+demand_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0862911632794722,929.933195343279,1175.98447208663
+demand_MW,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1180513079864582,1068.0814950033257,1375.4785657012353
+price_GBP_MWh,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1528571614823675,21.872803033471136,31.236608951358622
+price_GBP_MWh,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1487620601198283,19.55884701000011,30.815348058533388
+price_GBP_MWh,CalendarAR,price_robust,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1209350586891123,20.75877688210332,27.78414874085249
+generation_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1298890726364868,1447.8495943864348,1887.817485166224
+generation_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1801160731949605,1650.0134611488677,2223.0535855171674
+generation_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2096815507701258,1863.477246651052,2398.5777801623526
+demand_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0876695877979041,946.6235147674656,1185.339911455619
+demand_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1084472329091339,1052.5757727833088,1318.3407095817677
+demand_MW,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1188885397352221,1080.6323188379188,1380.347464433809
+price_GBP_MWh,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1422934618248841,20.630003482994645,30.137932656096588
+price_GBP_MWh,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1465573593972718,18.57737243336518,30.58614909222172
+price_GBP_MWh,CalendarAR,regime,35,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.088187233874404,17.50311501689265,23.72596283008868
+generation_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1359119482766859,1461.8011801774237,1931.090001518602
+generation_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1741975076044713,1576.2856777472025,2186.2240354586843
+generation_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2103829484793449,1852.7491710928043,2402.5861261648
+demand_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0851539419742314,902.1621485849664,1168.2096894107135
+demand_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0848668515054781,901.3409865334544,1166.238758787226
+demand_MW,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1161899279631283,1060.585856394509,1364.5915154152417
+price_GBP_MWh,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.156804618907153,23.301244497131467,31.637372728660424
+price_GBP_MWh,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1417233835657753,20.753757746521824,30.07750042400538
+price_GBP_MWh,CalendarAR,weather_solar,21,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0984266533396092,19.719473493552652,25.06555613020916
+generation_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1316683821875244,1450.0672485890966,1900.703812807975
+generation_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.17438241113502,1631.930032660754,2187.384021425124
+generation_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1790576481082952,1721.114297997363,2216.51224108225
+demand_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0755283713688099,841.8727486621003,1100.2046735249985
+demand_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0729091016395472,836.9075020480394,1080.9591920565158
+demand_MW,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0947102753051878,957.183226992432,1232.0177785788285
+price_GBP_MWh,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1358251480234759,20.374103914383326,29.44496747480156
+price_GBP_MWh,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1343668191617451,19.86603332032084,29.2864683664443
+price_GBP_MWh,CalendarAR,weather_temp,22,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1067220666451626,19.76139750328729,26.100456228932323
+generation_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.109907288295964,1327.7982082808876,1736.5486015470624
+generation_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1708720205078975,1572.2287259501268,2165.255615676604
+generation_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1976725248922702,1824.495177595225,2328.878604395912
+demand_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0669796949946711,821.5249380685137,1036.0721699061403
+demand_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0791780051701814,917.9625606491442,1126.4727836720765
+demand_MW,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1051569364961722,1015.9189185229096,1298.187395613064
+price_GBP_MWh,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1311495903496485,20.47951252112137,28.93373201012614
+price_GBP_MWh,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1279416929616122,18.04078632084861,28.577684152455877
+price_GBP_MWh,CalendarAR,weather_wind+price_robust+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0931493029176605,18.3083473459802,24.38432791701402
+generation_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.138019672917473,1498.1628527238192,1946.006081425908
+generation_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.208515170897178,1788.4839573603715,2391.897282358901
+generation_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.23219943656193,1980.5748818572667,2524.0867497442414
+demand_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0843045770355115,899.5389824969532,1162.3689555478686
+demand_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0809487663800163,912.83434872927,1138.9995245138532
+demand_MW,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.114017274120958,1059.5916990947649,1351.7729522470563
+price_GBP_MWh,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1650821333247885,24.28211002442081,32.461682200817386
+price_GBP_MWh,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1388000759995009,21.43798829267132,29.76568197956697
+price_GBP_MWh,CalendarAR,weather_wind+weather_solar,27,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1009522119900996,19.7990516527795,25.38510155019313
+generation_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1366429307889627,1491.328865816475,1936.2760801306088
+generation_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.2010957978673168,1765.2837519419925,2348.9576887820963
+generation_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1969348655818767,1820.2773221852813,2324.5291767666963
+demand_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0766108886396574,840.5395527268364,1108.0610151536075
+demand_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0781540084938115,884.8600440098654,1119.164831040175
+demand_MW,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0938209211870525,947.8461759604628,1226.2196513062645
+price_GBP_MWh,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1455836462960458,22.537799137038387,30.48437403760308
+price_GBP_MWh,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1289436855852081,19.652297283182563,28.689370900290424
+price_GBP_MWh,CalendarAR,weather_wind+weather_temp,28,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0952540801501017,19.06329084315481,24.65827996538633
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.134959336335082,1471.0727823231753,1924.3105601757616
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1899112665529772,1710.8087594613414,2282.701169339868
+generation_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.2124057541769605,1892.8278957240736,2414.10877754127
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0890151691045685,921.5859301961628,1194.401763764363
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0885148817256412,965.5865261734822,1191.040617073871
+demand_MW,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1118545712446165,1048.6938929271814,1338.8912216417948
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1504772685476193,22.90429012848621,30.992487527037
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1100875627232917,17.65814223285185,26.508802764065308
+price_GBP_MWh,CalendarAR,weather_wind,20,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0743035727824311,16.97033171935834,21.77839316121929
+generation_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1220742935727105,1402.3884884582508,1830.1462912185048
+generation_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1540799254184171,1546.4932206145315,2056.1118023039694
+generation_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1912693600159628,1777.6991647551474,2290.8486555952254
+demand_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.0806435948691948,883.9716299526264,1136.8505206544485
+demand_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.0891607127944159,974.2425606882928,1195.377814484735
+demand_MW,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.1155128744095883,1034.4877083318388,1360.6098820253967
+price_GBP_MWh,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.1256696706434281,19.01337798421903,28.322802494625705
+price_GBP_MWh,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1070494833418676,15.530027014157833,26.140462860294857
+price_GBP_MWh,CalendarAR,weekly_context,23,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.0663994010542949,15.235286994345456,20.58747412662501
+generation_MW,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,train,0.1096818492575482,1322.066271275667,1734.7667051388398
+generation_MW,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,validation,0.159082944054242,1570.64620336983,2089.226404614924
+generation_MW,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,test,0.199364324989585,1838.2845909015027,2338.823341835964
+generation_MW,Lasso,balance+weather_wind+weather_solar,63,0.03,raw,train,0.1255853921675137,1424.7320181236792,1856.2790329631632
+generation_MW,Lasso,balance+weather_wind+weather_solar,63,0.03,raw,validation,0.15227893709416,1509.8330631075578,2044.059882097398
+generation_MW,Lasso,balance+weather_wind+weather_solar,63,0.03,raw,test,0.1907171636368522,1787.0547921540056,2287.5394149820204
+generation_MW,HGB,balance+weather_wind+weather_solar,63,4.0,raw,train,0.0254423037740081,647.4768946680489,835.510501778163
+generation_MW,HGB,balance+weather_wind+weather_solar,63,4.0,raw,validation,0.1624498981809456,1551.6862900836743,2111.2196429686287
+generation_MW,HGB,balance+weather_wind+weather_solar,63,4.0,raw,test,0.1935242373707577,1813.1758055053317,2304.312515036764
+demand_MW,Ridge,balance+weather_wind+weather_solar,63,10.0,raw,train,0.0634313500344887,787.4092751682759,1008.2550427809726
+demand_MW,Ridge,balance+weather_wind+weather_solar,63,10.0,raw,validation,0.077100931674835,897.5563217199721,1111.5992329910637
+demand_MW,Ridge,balance+weather_wind+weather_solar,63,10.0,raw,test,0.107766231022476,1014.2763786383896,1314.1948850796082
+demand_MW,Lasso,balance+weather_wind+weather_solar,63,0.01,raw,train,0.0691606513131584,823.6751284015922,1052.8050578546947
+demand_MW,Lasso,balance+weather_wind+weather_solar,63,0.01,raw,validation,0.0717142211935863,853.6456925994655,1072.0648788322785
+demand_MW,Lasso,balance+weather_wind+weather_solar,63,0.01,raw,test,0.0995877162666214,988.3069303648672,1263.3430981563222
+demand_MW,HGB,balance+weather_wind+weather_solar,63,2.0,raw,train,0.0492534331892523,693.0954184466364,888.4575443425877
+demand_MW,HGB,balance+weather_wind+weather_solar,63,2.0,raw,validation,0.0856959181878837,939.6620142128882,1171.921423765437
+demand_MW,HGB,balance+weather_wind+weather_solar,63,2.0,raw,test,0.1114474572922398,1047.661774772007,1336.452438072562
+price_GBP_MWh,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,train,0.1138682923248046,18.35218026086031,26.9601552798145
+price_GBP_MWh,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,validation,0.0930100736593685,15.935768020868748,24.36609760634957
+price_GBP_MWh,Ridge,balance+weather_wind+weather_solar,63,100.0,raw,test,0.0464785343292605,13.256448459199468,17.22452275535354
+price_GBP_MWh,Lasso,balance+weather_wind+weather_solar,63,0.03,asinh,train,0.9633317130897056,27.431758709406083,78.4167635997612
+price_GBP_MWh,Lasso,balance+weather_wind+weather_solar,63,0.03,asinh,validation,0.0933240961434845,13.751229901756613,24.40719560137265
+price_GBP_MWh,Lasso,balance+weather_wind+weather_solar,63,0.03,asinh,test,0.0669081475112434,16.097658308764515,20.66619335074218
+price_GBP_MWh,HGB,balance+weather_wind+weather_solar,63,2.0,asinh,train,0.0745585441519824,13.93984168512471,21.815727242464423
+price_GBP_MWh,HGB,balance+weather_wind+weather_solar,63,2.0,asinh,validation,0.0794859026522083,12.407305793701942,22.525064366919345
+price_GBP_MWh,HGB,balance+weather_wind+weather_solar,63,2.0,asinh,test,0.04710452238461,12.737459453311006,17.340127550857837
+generation_MW,Ridge,balance,50,100.0,raw,train,0.1193894582765693,1381.3663390223835,1809.9087807359808
+generation_MW,Ridge,balance,50,100.0,raw,validation,0.140493139088524,1451.652423187879,1963.365947328719
+generation_MW,Ridge,balance,50,100.0,raw,test,0.1857954121189201,1762.4350310481664,2257.8297389604704
+generation_MW,Lasso,balance,50,0.01,raw,train,0.1175996307201142,1367.8414927890517,1796.2909224819573
+generation_MW,Lasso,balance,50,0.01,raw,validation,0.1446243604982234,1479.6646195752423,1992.0233371291288
+generation_MW,Lasso,balance,50,0.01,raw,test,0.1821395930650195,1752.6326683317209,2235.506192225417
+generation_MW,HGB,balance,50,2.0,raw,train,0.083522812214224,1170.8142323783811,1513.827012683273
+generation_MW,HGB,balance,50,2.0,raw,validation,0.1553125737351325,1560.518358680226,2064.3199253227226
+generation_MW,HGB,balance,50,2.0,raw,test,0.2003438498483737,1843.600471509587,2344.5619024238163
+demand_MW,Ridge,balance,50,10.0,raw,train,0.0734254540233207,844.3517525184516,1084.7801903456311
+demand_MW,Ridge,balance,50,10.0,raw,validation,0.0888999769445187,965.2377730532442,1193.628691821415
+demand_MW,Ridge,balance,50,10.0,raw,test,0.1124893056936433,1029.945114536845,1342.6847105735224
+demand_MW,Lasso,balance,50,0.01,raw,train,0.0775642009141106,866.7388613919226,1114.933813212417
+demand_MW,Lasso,balance,50,0.01,raw,validation,0.0837738069804592,917.5119488252328,1158.7041203496444
+demand_MW,Lasso,balance,50,0.01,raw,test,0.1067404954971192,1020.2637643591848,1307.9255770521736
+demand_MW,HGB,balance,50,4.0,raw,train,0.024956135776042,491.1741868129884,632.4221835365557
+demand_MW,HGB,balance,50,4.0,raw,validation,0.0924014531226821,969.259441795955,1216.9082235494525
+demand_MW,HGB,balance,50,4.0,raw,test,0.1259014251084477,1112.9130860235057,1420.4755029907324
+price_GBP_MWh,Ridge,balance,50,100.0,raw,train,0.1287174686050515,19.058410495522605,28.664193739350143
+price_GBP_MWh,Ridge,balance,50,100.0,raw,validation,0.0977217963059659,15.073862387749209,24.975644621212005
+price_GBP_MWh,Ridge,balance,50,100.0,raw,test,0.0622042596177673,14.929141869880974,19.92650112610508
+price_GBP_MWh,Lasso,balance,50,0.03,asinh,train,1.244157503973141,29.85960780869553,89.11661195216028
+price_GBP_MWh,Lasso,balance,50,0.03,asinh,validation,0.1028195445057467,14.092603117678276,25.618802356938925
+price_GBP_MWh,Lasso,balance,50,0.03,asinh,test,0.0798336887058093,17.630989843824818,22.574289150675845
+price_GBP_MWh,HGB,balance,50,2.0,asinh,train,0.0971788873596238,15.591454702255,24.906169913901373
+price_GBP_MWh,HGB,balance,50,2.0,asinh,validation,0.0897868798195504,13.689268410758508,23.94018076255385
+price_GBP_MWh,HGB,balance,50,2.0,asinh,test,0.0631963744731599,14.997768274185878,20.084779460693813
+generation_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,raw,train,0.1061640242028666,1305.964485234207,1706.7204111524418
+generation_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,raw,validation,0.1603636878981484,1546.465279426961,2097.6195102908355
+generation_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,raw,test,0.1914389965783901,1807.286546882506,2291.8643058915504
+generation_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,raw,train,0.1229293607795532,1413.7125991543592,1836.5447198390789
+generation_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,raw,validation,0.1510456101414218,1483.8771629314845,2035.765499975628
+generation_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,raw,test,0.1890942060456574,1775.3333974018365,2277.7854120769834
+generation_MW,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,raw,train,0.0739978794343304,1114.7072344012636,1424.8965447572791
+generation_MW,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,raw,validation,0.1652072770536161,1589.116903913565,2129.061873454418
+generation_MW,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,raw,test,0.1996027169213965,1867.4321964775725,2340.2212600398
+demand_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,10.0,raw,train,0.0500614253646744,717.7092677102899,895.7153788590314
+demand_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,10.0,raw,validation,0.0643447582310074,840.3501301432761,1015.4885060080647
+demand_MW,Ridge,bank_holidays+weather_temp+weather_wind,64,10.0,raw,test,0.088662415483314,942.0998912070646,1192.032797906871
+demand_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.001,raw,train,0.0504806097438151,719.6809312450418,899.4576532334432
+demand_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.001,raw,validation,0.0621036833228598,817.2554523568078,997.6474681681672
+demand_MW,Lasso,bank_holidays+weather_temp+weather_wind,64,0.001,raw,test,0.0879262560246383,940.1922956435776,1187.0737894611848
+demand_MW,HGB,bank_holidays+weather_temp+weather_wind,64,4.0,raw,train,0.0164281967116954,402.4063178855349,513.1134191643304
+demand_MW,HGB,bank_holidays+weather_temp+weather_wind,64,4.0,raw,validation,0.0715992202010093,876.4777596644946,1071.2049518248552
+demand_MW,HGB,bank_holidays+weather_temp+weather_wind,64,4.0,raw,test,0.1021241023380636,1021.8989795414076,1279.3299039304295
+price_GBP_MWh,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,asinh,train,0.5728405033941049,25.60811128267669,60.46970421584647
+price_GBP_MWh,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,asinh,validation,0.0916622063376495,14.853696103576311,24.188901094591465
+price_GBP_MWh,Ridge,bank_holidays+weather_temp+weather_wind,64,100.0,asinh,test,0.0655428305148207,15.830042833992197,20.45425103850021
+price_GBP_MWh,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,asinh,train,0.9574796411660894,27.156821716467118,78.17821669298439
+price_GBP_MWh,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,asinh,validation,0.0908034293617873,13.435265654532389,24.075322356234288
+price_GBP_MWh,Lasso,bank_holidays+weather_temp+weather_wind,64,0.03,asinh,test,0.0660892403337837,15.835054327207754,20.53933438459272
+price_GBP_MWh,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,asinh,train,0.0745860988740569,13.932396092675525,21.81975810692343
+price_GBP_MWh,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,asinh,validation,0.0771666768715719,12.011245819173142,22.19401547226348
+price_GBP_MWh,HGB,bank_holidays+weather_temp+weather_wind,64,2.0,asinh,test,0.0474617796307734,12.844790112144985,17.405760150326227
+generation_MW,Ridge,bank_holidays+weather_temp,58,100.0,raw,train,0.1134508569614217,1356.073416188883,1764.3209316654263
+generation_MW,Ridge,bank_holidays+weather_temp,58,100.0,raw,validation,0.1421809829561205,1437.634408018565,1975.124391947821
+generation_MW,Ridge,bank_holidays+weather_temp,58,100.0,raw,test,0.1806307716621033,1745.0041211439718,2226.22761102816
+generation_MW,Lasso,bank_holidays+weather_temp,58,0.01,raw,train,0.1123171654109919,1345.257594029786,1755.483546925138
+generation_MW,Lasso,bank_holidays+weather_temp,58,0.01,raw,validation,0.1420925947135108,1421.9611804076194,1974.5103685012432
+generation_MW,Lasso,bank_holidays+weather_temp,58,0.01,raw,test,0.1778322947539844,1717.4763699588136,2208.9150416445227
+generation_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,train,0.0797910588686501,1158.7418500945178,1479.622103393336
+generation_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,validation,0.1535336897761111,1519.6499928061749,2052.4639593957954
+generation_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,test,0.1931247012669079,1825.3435202254684,2301.932627824979
+demand_MW,Ridge,bank_holidays+weather_temp,58,10.0,raw,train,0.0535215531301568,738.549301989698,926.1530883146432
+demand_MW,Ridge,bank_holidays+weather_temp,58,10.0,raw,validation,0.0622871177989799,807.7563348941547,999.1197480476512
+demand_MW,Ridge,bank_holidays+weather_temp,58,10.0,raw,test,0.0909404807281904,944.14994128082,1207.2495390356614
+demand_MW,Lasso,bank_holidays+weather_temp,58,0.001,raw,train,0.0536760459936106,739.4493415382855,927.4888206322308
+demand_MW,Lasso,bank_holidays+weather_temp,58,0.001,raw,validation,0.0597091755607038,785.9872796087705,978.2254619548196
+demand_MW,Lasso,bank_holidays+weather_temp,58,0.001,raw,test,0.0895855212301366,939.6370386496552,1198.2221342303185
+demand_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,train,0.044765991920852,667.7679613933017,847.0177889610887
+demand_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,validation,0.0692760360962145,843.092361314661,1053.6829201653125
+demand_MW,HGB,bank_holidays+weather_temp,58,2.0,raw,test,0.1038060514354869,1027.918761658151,1289.8219436342947
+price_GBP_MWh,Ridge,bank_holidays+weather_temp,58,100.0,raw,train,0.1214136822165332,18.57963626080332,27.83907497938708
+price_GBP_MWh,Ridge,bank_holidays+weather_temp,58,100.0,raw,validation,0.0977786931568409,15.531093139907194,24.98291438495966
+price_GBP_MWh,Ridge,bank_holidays+weather_temp,58,100.0,raw,test,0.0677929936841932,15.382159395019814,20.80239754126224
+price_GBP_MWh,Lasso,bank_holidays+weather_temp,58,0.03,asinh,train,1.2342973472841017,29.59379904570997,88.76277746723498
+price_GBP_MWh,Lasso,bank_holidays+weather_temp,58,0.03,asinh,validation,0.1021641216555978,13.940815669580214,25.53701832965379
+price_GBP_MWh,Lasso,bank_holidays+weather_temp,58,0.03,asinh,test,0.0802506836872156,17.620221338760874,22.633168461135966
+price_GBP_MWh,HGB,bank_holidays+weather_temp,58,2.0,asinh,train,0.0917300063573927,15.038806111614928,24.197845374257927
+price_GBP_MWh,HGB,bank_holidays+weather_temp,58,2.0,asinh,validation,0.0871269699890245,13.493856087821856,23.5829044213367
+price_GBP_MWh,HGB,bank_holidays+weather_temp,58,2.0,asinh,test,0.059867303324115,14.271321664268504,19.548607798260004
+generation_MW,Ridge,bank_holidays,50,100.0,raw,train,0.1154859756978702,1361.5247961122666,1780.0750791185042
+generation_MW,Ridge,bank_holidays,50,100.0,raw,validation,0.1422730798226434,1440.4452797207157,1975.7639757959685
+generation_MW,Ridge,bank_holidays,50,100.0,raw,test,0.1854556265286473,1768.484053241329,2255.76421678272
+generation_MW,Lasso,bank_holidays,50,0.01,raw,train,0.1143102797990679,1346.1972690990865,1770.9909426720576
+generation_MW,Lasso,bank_holidays,50,0.01,raw,validation,0.1440288934483516,1447.2845904062196,1987.9181927553216
+generation_MW,Lasso,bank_holidays,50,0.01,raw,test,0.1813256102883207,1743.5010382449632,2230.5053544504917
+generation_MW,HGB,bank_holidays,50,2.0,raw,train,0.0842369138721026,1180.2602815644004,1520.284682999607
+generation_MW,HGB,bank_holidays,50,2.0,raw,validation,0.158352359583784,1542.303304373669,2084.42352379826
+generation_MW,HGB,bank_holidays,50,2.0,raw,test,0.2013938274393085,1842.1919836223813,2350.697654702272
+demand_MW,Ridge,bank_holidays,50,10.0,raw,train,0.0641416710804221,798.3329343245595,1013.8846795286872
+demand_MW,Ridge,bank_holidays,50,10.0,raw,validation,0.0813563085821318,934.8042913997356,1141.8631110240633
+demand_MW,Ridge,bank_holidays,50,10.0,raw,test,0.1021304417361934,999.4726451238693,1279.3696107947142
+demand_MW,Lasso,bank_holidays,50,0.01,raw,train,0.0676237184423934,815.1448325294886,1041.0412765017318
+demand_MW,Lasso,bank_holidays,50,0.01,raw,validation,0.0760553022990315,889.0347204907132,1104.03584474355
+demand_MW,Lasso,bank_holidays,50,0.01,raw,test,0.0978036569965341,989.364607439154,1251.975909795868
+demand_MW,HGB,bank_holidays,50,2.0,raw,train,0.0536108089252966,724.9996596178642,926.9250212098474
+demand_MW,HGB,bank_holidays,50,2.0,raw,validation,0.0862867827633676,939.928129568252,1175.954622655345
+demand_MW,HGB,bank_holidays,50,2.0,raw,test,0.1089923647073289,1062.8086967718143,1321.650008266049
+price_GBP_MWh,Ridge,bank_holidays,50,100.0,raw,train,0.1281406036606547,19.016966013258028,28.599890359564316
+price_GBP_MWh,Ridge,bank_holidays,50,100.0,raw,validation,0.0976462989523911,15.051361310337874,24.96599498584218
+price_GBP_MWh,Ridge,bank_holidays,50,100.0,raw,test,0.0625570162099524,14.94650663920757,19.98292224005512
+price_GBP_MWh,Lasso,bank_holidays,50,0.01,asinh,train,1.0853505352355557,29.21832115997159,83.23500267112846
+price_GBP_MWh,Lasso,bank_holidays,50,0.01,asinh,validation,0.1023380405621149,14.189698677480074,25.558745535101096
+price_GBP_MWh,Lasso,bank_holidays,50,0.01,asinh,test,0.0816086266428609,17.977783384717803,22.823856078585084
+price_GBP_MWh,HGB,bank_holidays,50,2.0,asinh,train,0.0967064678464073,15.612070197850434,24.845557492444005
+price_GBP_MWh,HGB,bank_holidays,50,2.0,asinh,validation,0.0884976323769338,13.70575032463054,23.767681081451137
+price_GBP_MWh,HGB,bank_holidays,50,2.0,asinh,test,0.062686484694148,15.010519461601191,20.00358995721456
+generation_MW,Ridge,base,44,100.0,raw,train,0.1219437804716524,1399.2910250144737,1829.1676988486272
+generation_MW,Ridge,base,44,100.0,raw,validation,0.143094155904352,1468.9551388967457,1981.4569667632263
+generation_MW,Ridge,base,44,100.0,raw,test,0.1884614128774156,1787.7226786077313,2273.970977560245
+generation_MW,Lasso,base,44,0.01,raw,train,0.1208765910219798,1385.2958261937504,1821.146141172408
+generation_MW,Lasso,base,44,0.01,raw,validation,0.1477781562064068,1496.608675396375,2013.626036340905
+generation_MW,Lasso,base,44,0.01,raw,test,0.1848637115083543,1749.9934484058567,2252.161501000778
+generation_MW,HGB,base,44,2.0,raw,train,0.0852032741709797,1186.6902036476677,1528.9801183654142
+generation_MW,HGB,base,44,2.0,raw,validation,0.1608987415067129,1573.3545973455966,2101.1159510698585
+generation_MW,HGB,base,44,2.0,raw,test,0.2034748620991162,1848.086357168631,2362.811509121565
+demand_MW,Ridge,base,44,10.0,raw,train,0.073773909920331,846.89154917859,1087.3511696677326
+demand_MW,Ridge,base,44,10.0,raw,validation,0.0889296429156659,964.6884481945706,1193.8278324845778
+demand_MW,Ridge,base,44,10.0,raw,test,0.1118292020769338,1027.4775377494177,1338.739379469871
+demand_MW,Lasso,base,44,0.01,raw,train,0.0775651189104334,866.7431324346802,1114.9404109862626
+demand_MW,Lasso,base,44,0.01,raw,validation,0.0837751534334155,917.5120463499852,1158.7134319374532
+demand_MW,Lasso,base,44,0.01,raw,test,0.1067422817482998,1020.2636367096724,1307.936520761125
+demand_MW,HGB,base,44,2.0,raw,train,0.0577109240518745,750.1076798511084,961.7173244112169
+demand_MW,HGB,base,44,2.0,raw,validation,0.0929616735340938,972.7312503579752,1220.5916430109733
+demand_MW,HGB,base,44,2.0,raw,test,0.1164811969517452,1080.1241950270178,1366.3008477799106
+price_GBP_MWh,Ridge,base,44,100.0,raw,train,0.1291736156230333,19.08947849303015,28.71493868988071
+price_GBP_MWh,Ridge,base,44,100.0,raw,validation,0.0969562748202307,14.962049745810711,24.87762665338866
+price_GBP_MWh,Ridge,base,44,100.0,raw,test,0.062631461746981,15.00471455225261,19.99480897268819
+price_GBP_MWh,Lasso,base,44,0.03,asinh,train,1.2457673670363512,29.869638744264197,89.1742490128028
+price_GBP_MWh,Lasso,base,44,0.03,asinh,validation,0.1026592167048834,14.084462835791609,25.598820705131125
+price_GBP_MWh,Lasso,base,44,0.03,asinh,test,0.0797802852530948,17.621551210288594,22.566737535075497
+price_GBP_MWh,HGB,base,44,2.0,asinh,train,0.0957456473341061,15.53664348514117,24.72182371759068
+price_GBP_MWh,HGB,base,44,2.0,asinh,validation,0.0886829363316115,13.66377595901585,23.792551476812804
+price_GBP_MWh,HGB,base,44,2.0,asinh,test,0.0622670622373472,14.931647841760643,19.93655767824656
+generation_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,train,0.1126204427783328,1349.725609529056,1757.8520162375685
+generation_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,validation,0.1419397344925224,1435.0839401589226,1973.4480143737323
+generation_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,test,0.1820294124418757,1746.2531343832586,2234.8299341915176
+generation_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.01,raw,train,0.1123170869864252,1345.2575971528863,1755.4829340488243
+generation_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.01,raw,validation,0.1420929175152197,1421.9635575798698,1974.512611316783
+generation_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.01,raw,test,0.1778324836780794,1717.4791662083549,2208.916214989232
+generation_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,train,0.0800517572083366,1160.7149336726577,1482.03728919515
+generation_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,validation,0.15301991133524,1515.61011069205,2049.026943693522
+generation_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,test,0.1930123442998167,1824.0910131137164,2301.2629159867647
+demand_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,10.0,raw,train,0.0535143447485192,738.2939302019099,926.0907182102056
+demand_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,10.0,raw,validation,0.0622597647779324,806.7713554240478,998.9003451802664
+demand_MW,Ridge,calendar_target+bank_holidays+weather_temp,70,10.0,raw,test,0.0910412071513315,944.489592407542,1207.917933757922
+demand_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.001,raw,train,0.0536760760620204,739.449417465018,927.4890804139408
+demand_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.001,raw,validation,0.0597091411201891,785.9866214280655,978.2251798324072
+demand_MW,Lasso,calendar_target+bank_holidays+weather_temp,70,0.001,raw,test,0.0895860166755237,939.6408969570236,1198.2254475604202
+demand_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,train,0.0447588918347127,667.4144625688124,846.9506158964274
+demand_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,validation,0.0696209894252682,845.0558913710081,1056.3030187364163
+demand_MW,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,raw,test,0.1042738147923842,1030.321271437871,1292.724728629423
+price_GBP_MWh,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,train,0.1214262267031186,18.608816956209186,27.84051311171356
+price_GBP_MWh,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,validation,0.0979411222068439,15.582449701113212,25.00365646618224
+price_GBP_MWh,Ridge,calendar_target+bank_holidays+weather_temp,70,100.0,raw,test,0.0678855652906461,15.415106468754166,20.81659557494276
+price_GBP_MWh,Lasso,calendar_target+bank_holidays+weather_temp,70,0.03,asinh,train,1.23429795854962,29.59380063528228,88.76279944638716
+price_GBP_MWh,Lasso,calendar_target+bank_holidays+weather_temp,70,0.03,asinh,validation,0.1021641230381707,13.940815855147353,25.53701850244825
+price_GBP_MWh,Lasso,calendar_target+bank_holidays+weather_temp,70,0.03,asinh,test,0.0802506828716183,17.6202211055214,22.633168346124176
+price_GBP_MWh,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,asinh,train,0.0918372344788132,15.03809661593643,24.2119843227867
+price_GBP_MWh,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,asinh,validation,0.0867874453992784,13.463743560043826,23.53690952578085
+price_GBP_MWh,HGB,calendar_target+bank_holidays+weather_temp,70,2.0,asinh,test,0.0600022656318752,14.28085367008295,19.57063016954718
+generation_MW,Ridge,calendar_target+bank_holidays,62,100.0,raw,train,0.114583921739516,1355.026194129938,1773.1094210797196
+generation_MW,Ridge,calendar_target+bank_holidays,62,100.0,raw,validation,0.1421152037907321,1441.0277160165426,1974.6674494590109
+generation_MW,Ridge,calendar_target+bank_holidays,62,100.0,raw,test,0.1868329385274576,1768.713857208556,2264.12509550536
+generation_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,train,0.114310191995348,1346.1980411109637,1770.9902625074094
+generation_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,validation,0.1440291227873512,1447.2862553631082,1987.9197754481315
+generation_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,test,0.1813256848812768,1743.502202246682,2230.505813238333
+generation_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,train,0.0840002789366052,1178.250050358709,1518.147820088989
+generation_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,validation,0.1573683810193022,1541.431250727734,2077.937279426377
+generation_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,test,0.2000800258123735,1837.0245015764003,2343.0176684621997
+demand_MW,Ridge,calendar_target+bank_holidays,62,10.0,raw,train,0.0641360859230542,798.2918263821366,1013.84053639468
+demand_MW,Ridge,calendar_target+bank_holidays,62,10.0,raw,validation,0.0813162929530882,934.1138842433204,1141.5822600896352
+demand_MW,Ridge,calendar_target+bank_holidays,62,10.0,raw,test,0.1022866987173579,1000.1377307614324,1280.347938234343
+demand_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,train,0.0676237588458673,815.1450766532768,1041.041587499697
+demand_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,validation,0.0760551874418455,889.0301577964398,1104.0350110968852
+demand_MW,Lasso,calendar_target+bank_holidays,62,0.01,raw,test,0.0978037692630355,989.3638893434628,1251.9766283524089
+demand_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,train,0.0534777902025895,724.6083319731198,925.7743674366876
+demand_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,validation,0.0866724640974047,943.1253852346538,1178.5798107463663
+demand_MW,HGB,calendar_target+bank_holidays,62,2.0,raw,test,0.108446599951596,1059.1771680398265,1318.3368622963883
+price_GBP_MWh,Ridge,calendar_target+bank_holidays,62,100.0,raw,train,0.1281118047901689,19.043742548502127,28.596676347778057
+price_GBP_MWh,Ridge,calendar_target+bank_holidays,62,100.0,raw,validation,0.0977547509525659,15.109214339785092,24.97985552499517
+price_GBP_MWh,Ridge,calendar_target+bank_holidays,62,100.0,raw,test,0.062752875364309,14.9861515300614,20.01417996161222
+price_GBP_MWh,Lasso,calendar_target+bank_holidays,62,0.01,asinh,train,1.0853505594019677,29.218320094799044,83.23500359778363
+price_GBP_MWh,Lasso,calendar_target+bank_holidays,62,0.01,asinh,validation,0.1023380457782919,14.189697810222272,25.5587461864666
+price_GBP_MWh,Lasso,calendar_target+bank_holidays,62,0.01,asinh,test,0.0816086314813435,17.977783933205288,22.823856755185304
+price_GBP_MWh,HGB,calendar_target+bank_holidays,62,2.0,asinh,train,0.0969268940867071,15.634637695095677,24.87385702474843
+price_GBP_MWh,HGB,calendar_target+bank_holidays,62,2.0,asinh,validation,0.0877727777311004,13.654784036908628,23.67014436638682
+price_GBP_MWh,HGB,calendar_target+bank_holidays,62,2.0,asinh,test,0.0625961313828153,15.02109413730824,19.989168648208008
+generation_MW,Ridge,calendar_target,56,100.0,raw,train,0.1211804140127375,1394.0514549293655,1823.4334277986904
+generation_MW,Ridge,calendar_target,56,100.0,raw,validation,0.1427881996509838,1467.7442707627445,1979.3375106965373
+generation_MW,Ridge,calendar_target,56,100.0,raw,test,0.189573198186527,1788.5287948725977,2280.668502156112
+generation_MW,Lasso,calendar_target,56,0.01,raw,train,0.1208764876519131,1385.2959683156364,1821.145362477225
+generation_MW,Lasso,calendar_target,56,0.01,raw,validation,0.1477782871130927,1496.6094630258217,2013.626928208348
+generation_MW,Lasso,calendar_target,56,0.01,raw,test,0.1848637532710132,1749.9949252259976,2252.161755394262
+generation_MW,HGB,calendar_target,56,2.0,raw,train,0.0851020167241341,1186.2963382943124,1528.0713114563937
+generation_MW,HGB,calendar_target,56,2.0,raw,validation,0.1610390492034416,1576.1956083542366,2102.031864072268
+generation_MW,HGB,calendar_target,56,2.0,raw,test,0.2036409983465996,1849.8378806096237,2363.7759244251647
+demand_MW,Ridge,calendar_target,56,10.0,raw,train,0.0737735703823361,846.6302610296256,1087.348667445327
+demand_MW,Ridge,calendar_target,56,10.0,raw,validation,0.0888510924331774,963.9270887547952,1193.3004691326444
+demand_MW,Ridge,calendar_target,56,10.0,raw,test,0.1119589181843458,1028.0082251349388,1339.5155887653236
+demand_MW,Lasso,calendar_target,56,0.01,raw,train,0.0775650598643477,866.7427361970077,1114.9399866145827
+demand_MW,Lasso,calendar_target,56,0.01,raw,validation,0.0837749993610202,917.5102891711198,1158.7123664315802
+demand_MW,Lasso,calendar_target,56,0.01,raw,test,0.1067423293421129,1020.263111723606,1307.9368123497925
+demand_MW,HGB,calendar_target,56,2.0,raw,train,0.0577109240518745,750.1076798511084,961.7173244112169
+demand_MW,HGB,calendar_target,56,2.0,raw,validation,0.0929616735340938,972.7312503579752,1220.5916430109733
+demand_MW,HGB,calendar_target,56,2.0,raw,test,0.1164811969517452,1080.1241950270178,1366.3008477799106
+price_GBP_MWh,Ridge,calendar_target,56,100.0,raw,train,0.1291500232054764,19.1230822049238,28.71231630544085
+price_GBP_MWh,Ridge,calendar_target,56,100.0,raw,validation,0.097104803122789,15.024526094688422,24.89667450580512
+price_GBP_MWh,Ridge,calendar_target,56,100.0,raw,test,0.0628724561607094,15.056839017539602,20.03324022368752
+price_GBP_MWh,Lasso,calendar_target,56,0.03,asinh,train,1.245767686578468,29.86963951865327,89.17426044949926
+price_GBP_MWh,Lasso,calendar_target,56,0.03,asinh,validation,0.1026592145464959,14.084463040617887,25.59882043602633
+price_GBP_MWh,Lasso,calendar_target,56,0.03,asinh,test,0.0797802850475686,17.62155115839251,22.56673750600783
+price_GBP_MWh,HGB,calendar_target,56,2.0,asinh,train,0.0964409555036616,15.588202774475793,24.811426702068477
+price_GBP_MWh,HGB,calendar_target,56,2.0,asinh,validation,0.0881478592150843,13.686017876477369,23.720665544056004
+price_GBP_MWh,HGB,calendar_target,56,2.0,asinh,test,0.062325532163613,14.935433614462712,19.945915880585492
+generation_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,train,0.1092146741309768,1315.6053575887263,1731.0682596197944
+generation_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,validation,0.1538361118909842,1541.1570059797891,2054.4843795805427
+generation_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,test,0.1915225867924144,1806.418126741134,2292.3646128383257
+generation_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,train,0.1135477558141457,1340.7963632589815,1765.0742278049056
+generation_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,validation,0.152899968818612,1532.9414091522958,2048.223735715697
+generation_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,test,0.1879657304492165,1779.1409851617948,2270.978562373749
+generation_MW,HGB,fuel_mix+weather_wind,63,4.0,raw,train,0.0251355455289307,636.9705561051875,830.4583456774144
+generation_MW,HGB,fuel_mix+weather_wind,63,4.0,raw,validation,0.1678518355483367,1605.0027464891914,2146.0347181883085
+generation_MW,HGB,fuel_mix+weather_wind,63,4.0,raw,test,0.2102915529485842,1878.887647465085,2402.064198201248
+demand_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,train,0.0802969875191039,890.7056122701383,1134.4047897962605
+demand_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,validation,0.0846390555613479,930.6412436545938,1164.6725231760804
+demand_MW,Ridge,fuel_mix+weather_wind,63,100.0,raw,test,0.1162532123620861,1054.574644301079,1364.963086340832
+demand_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,train,0.072944317176641,844.3308777435639,1081.2202154554063
+demand_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,validation,0.0869643894483494,956.3349105791788,1180.562955604711
+demand_MW,Lasso,fuel_mix+weather_wind,63,0.01,raw,test,0.1084684980747891,1024.8748549692934,1318.4699584277073
+demand_MW,HGB,fuel_mix+weather_wind,63,2.0,raw,train,0.0519049138410111,709.5436920249679,912.0584318012895
+demand_MW,HGB,fuel_mix+weather_wind,63,2.0,raw,validation,0.0905962269897271,962.82794177326,1204.9623605322372
+demand_MW,HGB,fuel_mix+weather_wind,63,2.0,raw,test,0.1192540170368271,1090.52535950453,1382.4675112881232
+price_GBP_MWh,Ridge,fuel_mix+weather_wind,63,100.0,asinh,train,0.5228454349421144,24.70030142177988,57.77070210166003
+price_GBP_MWh,Ridge,fuel_mix+weather_wind,63,100.0,asinh,validation,0.0836432611416386,13.89740093854084,23.106622220862192
+price_GBP_MWh,Ridge,fuel_mix+weather_wind,63,100.0,asinh,test,0.091133520480647,18.98519074332347,24.11904229563133
+price_GBP_MWh,Lasso,fuel_mix+weather_wind,63,0.01,asinh,train,0.67135339677226,25.050594313738497,65.46310200367007
+price_GBP_MWh,Lasso,fuel_mix+weather_wind,63,0.01,asinh,validation,0.0844256008469954,13.37245645948796,23.214432186177486
+price_GBP_MWh,Lasso,fuel_mix+weather_wind,63,0.01,asinh,test,0.0759077710459696,17.33388148632491,22.01223318992983
+price_GBP_MWh,HGB,fuel_mix+weather_wind,63,2.0,asinh,train,0.0747310842574745,13.957945613813402,21.840955154080778
+price_GBP_MWh,HGB,fuel_mix+weather_wind,63,2.0,asinh,validation,0.0796638578186019,12.21826853276006,22.55026512827799
+price_GBP_MWh,HGB,fuel_mix+weather_wind,63,2.0,asinh,test,0.0469387360608681,12.434126689327064,17.309586004408708
+generation_MW,Ridge,fuel_mix,57,100.0,raw,train,0.1154258835332407,1357.4787436497577,1779.611895243872
+generation_MW,Ridge,fuel_mix,57,100.0,raw,validation,0.1411484758519276,1472.3255136319535,1967.9397256452337
+generation_MW,Ridge,fuel_mix,57,100.0,raw,test,0.1868856044216431,1793.0608110549017,2264.444187448149
+generation_MW,Lasso,fuel_mix,57,0.01,raw,train,0.1182495708390817,1369.2081334490135,1801.2478806173967
+generation_MW,Lasso,fuel_mix,57,0.01,raw,validation,0.1423438185138235,1476.2711072047234,1976.2550932637216
+generation_MW,Lasso,fuel_mix,57,0.01,raw,test,0.1820609220278882,1756.8078286935329,2235.023352161619
+generation_MW,HGB,fuel_mix,57,2.0,raw,train,0.080078960550907,1149.3325825643938,1482.2890821911517
+generation_MW,HGB,fuel_mix,57,2.0,raw,validation,0.1624763979305878,1589.5561127493177,2111.391833013686
+generation_MW,HGB,fuel_mix,57,2.0,raw,test,0.2091160260159748,1880.0775429532991,2395.341036271936
+demand_MW,Ridge,fuel_mix,57,100.0,raw,train,0.0829384255893923,907.301063929175,1152.91242307563
+demand_MW,Ridge,fuel_mix,57,100.0,raw,validation,0.0869193566567599,922.2289954114308,1180.2572504181078
+demand_MW,Ridge,fuel_mix,57,100.0,raw,test,0.1153869631945218,1051.7543140451226,1359.8681346044066
+demand_MW,Lasso,fuel_mix,57,0.01,raw,train,0.074976829892881,851.9753009170382,1096.1802231255012
+demand_MW,Lasso,fuel_mix,57,0.01,raw,validation,0.0868709867666256,943.2670690881428,1179.9288031060546
+demand_MW,Lasso,fuel_mix,57,0.01,raw,test,0.1103604144659567,1034.877346094846,1329.9186821252274
+demand_MW,HGB,fuel_mix,57,2.0,raw,train,0.0545918565478711,728.4804691890993,935.3676753889284
+demand_MW,HGB,fuel_mix,57,2.0,raw,validation,0.0911702441316626,968.142764248941,1208.7736500734202
+demand_MW,HGB,fuel_mix,57,2.0,raw,test,0.1180583727224117,1091.3853262889709,1375.5197225832007
+price_GBP_MWh,Ridge,fuel_mix,57,1000.0,asinh,train,0.3610287889958039,27.11498714678184,48.00560006846734
+price_GBP_MWh,Ridge,fuel_mix,57,1000.0,asinh,validation,0.0925805535253789,14.521459273058872,24.309771233571045
+price_GBP_MWh,Ridge,fuel_mix,57,1000.0,asinh,test,0.0923205367851785,19.939948420768317,24.275609675654465
+price_GBP_MWh,Lasso,fuel_mix,57,0.01,asinh,train,0.688586675862991,26.387075074773875,66.29797947389713
+price_GBP_MWh,Lasso,fuel_mix,57,0.01,asinh,validation,0.096015300420495,14.709044240843106,24.75661187341334
+price_GBP_MWh,Lasso,fuel_mix,57,0.01,asinh,test,0.0937514833524783,19.5330780220904,24.46301938150959
+price_GBP_MWh,HGB,fuel_mix,57,2.0,asinh,train,0.0923574381491391,15.281116451441388,24.28046078268821
+price_GBP_MWh,HGB,fuel_mix,57,2.0,asinh,validation,0.0889580235611366,13.46315717266206,23.829424181198828
+price_GBP_MWh,HGB,fuel_mix,57,2.0,asinh,test,0.0616743038459384,14.816270490029428,19.84143659207148
+generation_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,raw,train,0.1087729156096515,1330.6070939936071,1727.5637442243717
+generation_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,raw,validation,0.1676497856054517,1575.1748897860869,2144.742695504491
+generation_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,raw,test,0.1998595227823175,1832.2235258331373,2341.7262229109706
+generation_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.01,raw,train,0.108219640220424,1316.782931197724,1723.164500875546
+generation_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.01,raw,validation,0.1536071430364024,1477.527665778216,2052.9548684021192
+generation_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.01,raw,test,0.1858785257453354,1761.6121290894653,2258.334690706733
+generation_MW,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,raw,train,0.0729375224999741,1099.7128502179903,1414.650638365709
+generation_MW,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,raw,validation,0.1691267241350612,1597.98877273811,2154.169212760953
+generation_MW,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,raw,test,0.2108528707875991,1923.6707160787587,2405.2679001989877
+demand_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,10.0,raw,train,0.0397098608257474,628.5653604939504,797.7514604046917
+demand_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,10.0,raw,validation,0.0441110139362835,679.3868902142339,840.7985338641133
+demand_MW,Ridge,neso_demand+bank_holidays+weather_temp,64,10.0,raw,test,0.07858966756699,864.5366959255077,1122.2798134333484
+demand_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,raw,train,0.0390762278943394,622.1318570057734,791.3611800921352
+demand_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,raw,validation,0.0428409223185297,667.1138754515557,828.6055378381734
+demand_MW,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,raw,test,0.0827251010638057,892.699753412158,1151.428775145973
+demand_MW,HGB,neso_demand+bank_holidays+weather_temp,64,4.0,raw,train,0.0098134085763934,312.91246490800245,396.5777695421218
+demand_MW,HGB,neso_demand+bank_holidays+weather_temp,64,4.0,raw,validation,0.0486566905588772,688.7201726136807,883.0589746936249
+demand_MW,HGB,neso_demand+bank_holidays+weather_temp,64,4.0,raw,test,0.1042644711053786,1003.988607875785,1292.6668085951735
+price_GBP_MWh,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,asinh,train,0.4900413973516005,25.063325496097963,55.92904068533532
+price_GBP_MWh,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,asinh,validation,0.0827791973050665,13.738456636342692,22.98696268513079
+price_GBP_MWh,Ridge,neso_demand+bank_holidays+weather_temp,64,100.0,asinh,test,0.0687698684820421,16.517963913347337,20.951739335846145
+price_GBP_MWh,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,asinh,train,0.4918294398029839,24.15013980394828,56.030983545117
+price_GBP_MWh,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,asinh,validation,0.0845150123557489,13.365193689805068,23.22672163465121
+price_GBP_MWh,Lasso,neso_demand+bank_holidays+weather_temp,64,0.001,asinh,test,0.068784873840886,16.453289155341334,20.954025011435768
+price_GBP_MWh,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,asinh,train,0.0806018230872389,13.858579019440215,22.68263048609962
+price_GBP_MWh,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,asinh,validation,0.0753725288687154,11.980113015537322,21.93448938224588
+price_GBP_MWh,HGB,neso_demand+bank_holidays+weather_temp,64,2.0,asinh,test,0.0539762776422456,13.860087556944904,18.56190095438109
+generation_MW,Ridge,neso_demand+weather_wind,56,100.0,raw,train,0.1081177389413039,1320.4484640408302,1722.3530306975
+generation_MW,Ridge,neso_demand+weather_wind,56,100.0,raw,validation,0.1686102304236261,1590.3633005893532,2150.8774041875736
+generation_MW,Ridge,neso_demand+weather_wind,56,100.0,raw,test,0.1923930862739379,1812.6707150878883,2297.5682807527787
+generation_MW,Lasso,neso_demand+weather_wind,56,0.03,raw,train,0.1245472745012459,1431.8473790330684,1848.59089782331
+generation_MW,Lasso,neso_demand+weather_wind,56,0.03,raw,validation,0.1573844514108382,1524.3707694043017,2078.043375749438
+generation_MW,Lasso,neso_demand+weather_wind,56,0.03,raw,test,0.1920058705846467,1787.7320176315177,2295.2550412553296
+generation_MW,HGB,neso_demand+weather_wind,56,2.0,raw,train,0.0694322014062469,1072.3919413730316,1380.2385840493323
+generation_MW,HGB,neso_demand+weather_wind,56,2.0,raw,validation,0.1796159468664885,1665.9183328825875,2219.965075792936
+generation_MW,HGB,neso_demand+weather_wind,56,2.0,raw,test,0.2041572874272306,1901.4268703273492,2366.770456901117
+demand_MW,Ridge,neso_demand+weather_wind,56,10.0,raw,train,0.0424107176728307,648.9285892034742,824.4346497725111
+demand_MW,Ridge,neso_demand+weather_wind,56,10.0,raw,validation,0.0464633705084706,701.0490106047661,862.9264497540245
+demand_MW,Ridge,neso_demand+weather_wind,56,10.0,raw,test,0.0801167937978584,870.9679812755627,1133.1312212866417
+demand_MW,Lasso,neso_demand+weather_wind,56,0.01,raw,train,0.0479994880804404,687.5087252924432,877.0749921291139
+demand_MW,Lasso,neso_demand+weather_wind,56,0.01,raw,validation,0.0462138673686706,695.6376376736893,860.6064213849377
+demand_MW,Lasso,neso_demand+weather_wind,56,0.01,raw,test,0.0699601575890979,830.7061417115824,1058.8728549627417
+demand_MW,HGB,neso_demand+weather_wind,56,4.0,raw,train,0.0093330931398644,301.54326391128546,386.7508041520166
+demand_MW,HGB,neso_demand+weather_wind,56,4.0,raw,validation,0.0442736249594887,663.7199278245705,842.3468698155056
+demand_MW,HGB,neso_demand+weather_wind,56,4.0,raw,test,0.0959888823544267,960.5306062327736,1240.3061379883986
+price_GBP_MWh,Ridge,neso_demand+weather_wind,56,100.0,asinh,train,0.5559592478038897,25.27257074861162,59.57203894603871
+price_GBP_MWh,Ridge,neso_demand+weather_wind,56,100.0,asinh,validation,0.078552680276558,13.259856230295217,22.39244362280196
+price_GBP_MWh,Ridge,neso_demand+weather_wind,56,100.0,asinh,test,0.0599471111041969,15.193464267085542,19.561633367374565
+price_GBP_MWh,Lasso,neso_demand+weather_wind,56,0.01,asinh,train,0.6619717284878728,25.58424573715766,65.00409351525757
+price_GBP_MWh,Lasso,neso_demand+weather_wind,56,0.01,asinh,validation,0.0801887336410354,12.458976166441522,22.624430862485656
+price_GBP_MWh,Lasso,neso_demand+weather_wind,56,0.01,asinh,test,0.0639551802025608,15.85157293093568,20.204999726830625
+price_GBP_MWh,HGB,neso_demand+weather_wind,56,2.0,asinh,train,0.0694799156508863,13.363480698533476,21.05962466446814
+price_GBP_MWh,HGB,neso_demand+weather_wind,56,2.0,asinh,validation,0.0700711055133159,11.125607397492576,21.14903082209279
+price_GBP_MWh,HGB,neso_demand+weather_wind,56,2.0,asinh,test,0.0436796790795686,12.393564445820932,16.697855747553774
+generation_MW,Ridge,neso_demand,50,100.0,raw,train,0.1133436147780979,1354.9938546060712,1763.4868508626814
+generation_MW,Ridge,neso_demand,50,100.0,raw,validation,0.1665538276743539,1584.5065204111957,2137.720909407503
+generation_MW,Ridge,neso_demand,50,100.0,raw,test,0.200791500248818,1839.005929067061,2347.1797977355186
+generation_MW,Lasso,neso_demand,50,0.03,raw,train,0.1248252101700895,1433.181343152584,1850.6523762062009
+generation_MW,Lasso,neso_demand,50,0.03,raw,validation,0.1564739816376089,1520.5704956133595,2072.02391223666
+generation_MW,Lasso,neso_demand,50,0.03,raw,test,0.1909879807067983,1782.8568568913438,2289.162983996025
+generation_MW,HGB,neso_demand,50,2.0,raw,train,0.0741663639573668,1112.455319667141,1426.5177838884335
+generation_MW,HGB,neso_demand,50,2.0,raw,validation,0.1704699799091542,1620.6843023947572,2162.7068270523578
+generation_MW,HGB,neso_demand,50,2.0,raw,test,0.2148933170253056,1941.8469459856144,2428.203892615059
+demand_MW,Ridge,neso_demand,50,10.0,raw,train,0.0433663644754447,654.8706624082529,833.6714583359377
+demand_MW,Ridge,neso_demand,50,10.0,raw,validation,0.0485728208138006,710.5755614170993,882.297580186553
+demand_MW,Ridge,neso_demand,50,10.0,raw,test,0.0848934974032323,889.9249472152056,1166.4218281443434
+demand_MW,Lasso,neso_demand,50,0.01,raw,train,0.0488828568069395,695.050675009212,885.1089146707501
+demand_MW,Lasso,neso_demand,50,0.01,raw,validation,0.0487216945611318,711.3711077353249,883.6486490808684
+demand_MW,Lasso,neso_demand,50,0.01,raw,test,0.0734622511811346,847.3987720928224,1085.0519750323097
+demand_MW,HGB,neso_demand,50,4.0,raw,train,0.0103108094422396,319.5903775806987,406.5039834398932
+demand_MW,HGB,neso_demand,50,4.0,raw,validation,0.0485592896423921,689.6161289254828,882.1746786219555
+demand_MW,HGB,neso_demand,50,4.0,raw,test,0.1002416825348583,988.1313392020252,1267.484331155419
+price_GBP_MWh,Ridge,neso_demand,50,100.0,asinh,train,0.5767631970860903,25.96182242679058,60.67639301412111
+price_GBP_MWh,Ridge,neso_demand,50,100.0,asinh,validation,0.0813766196385293,13.338933106912782,22.79138975988008
+price_GBP_MWh,Ridge,neso_demand,50,100.0,asinh,test,0.0673310831936007,16.13837025720661,20.73140739389528
+price_GBP_MWh,Lasso,neso_demand,50,0.001,asinh,train,0.5830070988435132,25.047777541342047,61.00394303510113
+price_GBP_MWh,Lasso,neso_demand,50,0.001,asinh,validation,0.0868776266393113,13.405419945954833,23.549135007049543
+price_GBP_MWh,Lasso,neso_demand,50,0.001,asinh,test,0.068450874536619,16.18265081872131,20.903089784689687
+price_GBP_MWh,HGB,neso_demand,50,2.0,asinh,train,0.0814512940624862,14.09551491993375,22.80184450503616
+price_GBP_MWh,HGB,neso_demand,50,2.0,asinh,validation,0.0764811135491224,12.199685614442464,22.09520761447203
+price_GBP_MWh,HGB,neso_demand,50,2.0,asinh,test,0.0551910691360209,14.114147431184325,18.769616057101768
+generation_MW,Ridge,neso_wind,49,100.0,raw,train,0.1187249335649987,1371.880687615746,1804.864753370066
+generation_MW,Ridge,neso_wind,49,100.0,raw,validation,0.1692980754130691,1612.0196217853877,2155.260188191315
+generation_MW,Ridge,neso_wind,49,100.0,raw,test,0.2114564716535802,1897.040017350626,2408.708176461742
+generation_MW,Lasso,neso_wind,49,0.03,raw,train,0.1271494888497205,1430.880225264258,1867.802728619298
+generation_MW,Lasso,neso_wind,49,0.03,raw,validation,0.1591672051463454,1537.7517683838887,2089.779629207861
+generation_MW,Lasso,neso_wind,49,0.03,raw,test,0.1954190039021325,1804.4280679273252,2315.565625371124
+generation_MW,HGB,neso_wind,49,2.0,raw,train,0.0765865835708106,1104.788735537036,1449.606222360209
+generation_MW,HGB,neso_wind,49,2.0,raw,validation,0.1850754689305915,1698.881291041654,2253.451033205592
+generation_MW,HGB,neso_wind,49,2.0,raw,test,0.1992143829542092,1839.8129443195228,2337.9436611427423
+demand_MW,Ridge,neso_wind,49,10.0,raw,train,0.0677785487917818,812.9726071359707,1042.2323721122948
+demand_MW,Ridge,neso_wind,49,10.0,raw,validation,0.0954064179644421,1009.5849155896884,1236.537298212667
+demand_MW,Ridge,neso_wind,49,10.0,raw,test,0.1197176504003906,1078.684640960279,1385.1522690442566
+demand_MW,Lasso,neso_wind,49,0.01,raw,train,0.0714758159029756,834.0345002558795,1070.2814200934615
+demand_MW,Lasso,neso_wind,49,0.01,raw,validation,0.0850464997360941,929.173641506456,1167.4724676355834
+demand_MW,Lasso,neso_wind,49,0.01,raw,test,0.1120623222726013,1047.8273762601104,1340.134027310678
+demand_MW,HGB,neso_wind,49,2.0,raw,train,0.0530329470954103,717.7738067218526,921.915902618926
+demand_MW,HGB,neso_wind,49,2.0,raw,validation,0.090461634546268,946.2338486445632,1204.0669639303271
+demand_MW,HGB,neso_wind,49,2.0,raw,test,0.1270001039298653,1107.5495560967663,1426.659930133451
+price_GBP_MWh,Ridge,neso_wind,49,1000.0,asinh,train,0.316822264008707,25.073876625976887,44.9706155319525
+price_GBP_MWh,Ridge,neso_wind,49,1000.0,asinh,validation,0.0746914679480573,12.19273974223125,21.835165242502363
+price_GBP_MWh,Ridge,neso_wind,49,1000.0,asinh,test,0.0990323340846879,19.968447479441323,25.142559869150176
+price_GBP_MWh,Lasso,neso_wind,49,0.03,asinh,train,0.5176965395924638,23.614354227885787,57.48554014904615
+price_GBP_MWh,Lasso,neso_wind,49,0.03,asinh,validation,0.0777324922405589,12.937670600924507,22.275234335686413
+price_GBP_MWh,Lasso,neso_wind,49,0.03,asinh,test,0.1201937247069267,21.853897178835247,27.69885917935506
+price_GBP_MWh,HGB,neso_wind,49,2.0,asinh,train,0.0737819063648952,13.729989142256198,21.701808234066792
+price_GBP_MWh,HGB,neso_wind,49,2.0,asinh,validation,0.0679580136613803,10.759040402606482,20.82770048559724
+price_GBP_MWh,HGB,neso_wind,49,2.0,asinh,test,0.0516799035586861,13.634494877851818,18.16275951567137
+generation_MW,Ridge,price_robust+weather_wind,56,100.0,raw,train,0.114875638520901,1350.3831283111529,1775.365047229736
+generation_MW,Ridge,price_robust+weather_wind,56,100.0,raw,validation,0.1594066894228201,1557.2440798800087,2091.351188031648
+generation_MW,Ridge,price_robust+weather_wind,56,100.0,raw,test,0.1987154587803306,1847.6138437161997,2335.014184254692
+generation_MW,Lasso,price_robust+weather_wind,56,0.03,raw,train,0.1281500592075877,1439.7249816054348,1875.137425015797
+generation_MW,Lasso,price_robust+weather_wind,56,0.03,raw,validation,0.1543733073990997,1515.9099100098706,2058.068381901613
+generation_MW,Lasso,price_robust+weather_wind,56,0.03,raw,test,0.1924350954847357,1789.2066725794737,2297.819105155874
+generation_MW,HGB,price_robust+weather_wind,56,4.0,raw,train,0.0270100057968271,662.0888047469463,860.8669499893368
+generation_MW,HGB,price_robust+weather_wind,56,4.0,raw,validation,0.1718085143231671,1582.6931723488597,2171.181037864383
+generation_MW,HGB,price_robust+weather_wind,56,4.0,raw,test,0.2014494483414559,1847.773108608776,2351.022239868699
+demand_MW,Ridge,price_robust+weather_wind,56,10.0,raw,train,0.070301798794774,832.7481751376682,1061.4551392309208
+demand_MW,Ridge,price_robust+weather_wind,56,10.0,raw,validation,0.0879158959299351,975.3700579124612,1187.003852677105
+demand_MW,Ridge,price_robust+weather_wind,56,10.0,raw,test,0.1138259495194747,1036.4177851177924,1350.6383171193595
+demand_MW,Lasso,price_robust+weather_wind,56,0.01,raw,train,0.0741879678025974,854.4009646311044,1090.3982927163786
+demand_MW,Lasso,price_robust+weather_wind,56,0.01,raw,validation,0.0831729087540299,928.3908449843046,1154.541027345709
+demand_MW,Lasso,price_robust+weather_wind,56,0.01,raw,test,0.1063199149588021,1011.693452714261,1305.3462795830196
+demand_MW,HGB,price_robust+weather_wind,56,2.0,raw,train,0.0543209878372047,726.1688296484808,933.0442803711312
+demand_MW,HGB,price_robust+weather_wind,56,2.0,raw,validation,0.0942533493420257,980.5498213267704,1229.0422750096395
+demand_MW,HGB,price_robust+weather_wind,56,2.0,raw,test,0.1201244707142558,1080.3699517112148,1387.503760939088
+price_GBP_MWh,Ridge,price_robust+weather_wind,56,100.0,asinh,train,0.14392534544084,18.312731573684975,30.310257482905445
+price_GBP_MWh,Ridge,price_robust+weather_wind,56,100.0,asinh,validation,0.0841519947954399,13.40919378733677,23.17678505375017
+price_GBP_MWh,Ridge,price_robust+weather_wind,56,100.0,asinh,test,0.0498289518763068,13.21326516518599,17.834537917085004
+price_GBP_MWh,Lasso,price_robust+weather_wind,56,0.01,asinh,train,0.1121616265826015,17.38516562739715,26.757352179899744
+price_GBP_MWh,Lasso,price_robust+weather_wind,56,0.01,asinh,validation,0.0829571566640314,13.030047669627876,23.011658194741297
+price_GBP_MWh,Lasso,price_robust+weather_wind,56,0.01,asinh,test,0.0495706512594005,12.92866124789716,17.788253001885256
+price_GBP_MWh,HGB,price_robust+weather_wind,56,2.0,asinh,train,0.0764488293273684,14.098485019816964,22.090543705681352
+price_GBP_MWh,HGB,price_robust+weather_wind,56,2.0,asinh,validation,0.0763366980050922,12.136478843188032,22.074337107984803
+price_GBP_MWh,HGB,price_robust+weather_wind,56,2.0,asinh,test,0.0477801552671834,12.692579220967795,17.46404186432963
+generation_MW,Ridge,price_robust,50,100.0,raw,train,0.1217196170940304,1397.4125426707178,1827.485690069145
+generation_MW,Ridge,price_robust,50,100.0,raw,validation,0.1435786889548197,1467.1324207250875,1984.80885077059
+generation_MW,Ridge,price_robust,50,100.0,raw,test,0.1897158175322509,1796.9594075554296,2281.526234946285
+generation_MW,Lasso,price_robust,50,0.01,raw,train,0.1206921640221605,1383.4614003453892,1819.7563074313807
+generation_MW,Lasso,price_robust,50,0.01,raw,validation,0.1469878877555804,1492.533334854548,2008.234717625745
+generation_MW,Lasso,price_robust,50,0.01,raw,test,0.1846961060880916,1749.3371981951177,2251.1403160714463
+generation_MW,HGB,price_robust,50,2.0,raw,train,0.0843259922972452,1176.2811957846252,1521.0883020782453
+generation_MW,HGB,price_robust,50,2.0,raw,validation,0.160012454332887,1565.45477701602,2095.32111516524
+generation_MW,HGB,price_robust,50,2.0,raw,test,0.207008185984924,1861.0726746704688,2383.2382254037543
+demand_MW,Ridge,price_robust,50,10.0,raw,train,0.0735959237783559,845.7817012185291,1086.0387117129706
+demand_MW,Ridge,price_robust,50,10.0,raw,validation,0.0880918417647661,957.2713447296372,1188.191032732017
+demand_MW,Ridge,price_robust,50,10.0,raw,test,0.114267600807506,1037.799818110955,1353.2560578467574
+demand_MW,Lasso,price_robust,50,0.01,raw,train,0.0772456281034993,867.325219198076,1112.6418212036094
+demand_MW,Lasso,price_robust,50,0.01,raw,validation,0.0832446896849115,913.741055401713,1155.0391231673514
+demand_MW,Lasso,price_robust,50,0.01,raw,test,0.1074341733363903,1018.9681738452998,1312.1686233002467
+demand_MW,HGB,price_robust,50,2.0,raw,train,0.0569379326716972,741.2057237779933,955.2548969356956
+demand_MW,HGB,price_robust,50,2.0,raw,validation,0.0933456604683245,973.4579851922596,1223.1099294663009
+demand_MW,HGB,price_robust,50,2.0,raw,test,0.1194559812249187,1090.2481048405002,1383.637663962788
+price_GBP_MWh,Ridge,price_robust,50,1000.0,asinh,train,0.2413597375264675,23.5583315386841,39.251241501914365
+price_GBP_MWh,Ridge,price_robust,50,1000.0,asinh,validation,0.0947341437768435,14.023424215454744,24.590890307246877
+price_GBP_MWh,Ridge,price_robust,50,1000.0,asinh,test,0.0743918346774216,16.784281457839096,21.791324112535143
+price_GBP_MWh,Lasso,price_robust,50,0.03,asinh,train,0.1343547845537834,18.676793083153523,29.28515681103285
+price_GBP_MWh,Lasso,price_robust,50,0.03,asinh,validation,0.0931875272730571,13.811807146409846,24.389330528875917
+price_GBP_MWh,Lasso,price_robust,50,0.03,asinh,test,0.0634480963921332,14.550182942164817,20.124740255632663
+price_GBP_MWh,HGB,price_robust,50,2.0,asinh,train,0.0933014376360874,15.323212227595974,24.404232464213525
+price_GBP_MWh,HGB,price_robust,50,2.0,asinh,validation,0.0858206729039182,13.555570290400748,23.40544718290999
+price_GBP_MWh,HGB,price_robust,50,2.0,asinh,test,0.0620883862641277,14.948291463466251,19.90793305054221
+generation_MW,CalendarAR,base,reference,frozen prior val choice,raw,train,0.1265740610636729,1403.1015172277196,1863.571471495974
+generation_MW,CalendarAR,base,reference,frozen prior val choice,raw,validation,0.151414122002774,1491.091244425032,2038.247355340316
+generation_MW,CalendarAR,base,reference,frozen prior val choice,raw,test,0.1865625878281693,1753.7175702166066,2262.486387146869
+demand_MW,CalendarAR,base,reference,frozen prior val choice,raw,train,0.0843903874194769,886.2580591812081,1162.9603704008778
+demand_MW,CalendarAR,base,reference,frozen prior val choice,raw,validation,0.0790516934175567,894.6058650221379,1125.573900556155
+demand_MW,CalendarAR,base,reference,frozen prior val choice,raw,test,0.1058750144567827,1011.2849284332124,1302.6122761150325
+price_GBP_MWh,CalendarAR,base,reference,frozen prior val choice,raw,train,0.1257769777498938,18.941015232499065,28.33489208416673
+price_GBP_MWh,CalendarAR,base,reference,frozen prior val choice,raw,validation,0.1095644124081594,15.420904233661007,26.445741128503087
+price_GBP_MWh,CalendarAR,base,reference,frozen prior val choice,raw,test,0.0692434429131292,15.730459931426868,21.023756229525485
+generation_MW,LagRidge,base,reference,frozen prior val choice,raw,train,0.1227382213965861,1407.4308387290316,1835.1163687010903
+generation_MW,LagRidge,base,reference,frozen prior val choice,raw,validation,0.1457030715858704,1484.7175241138757,1999.438497601532
+generation_MW,LagRidge,base,reference,frozen prior val choice,raw,test,0.1911744677120835,1796.9891184542364,2290.2803186815263
+demand_MW,LagRidge,base,reference,frozen prior val choice,raw,train,0.0777583064862826,867.0193766352077,1116.3280107738522
+demand_MW,LagRidge,base,reference,frozen prior val choice,raw,validation,0.0876461462354972,939.3077020304424,1185.1814296042664
+demand_MW,LagRidge,base,reference,frozen prior val choice,raw,test,0.1108944948956211,1019.7541594321096,1333.1328159137822
+price_GBP_MWh,LagRidge,base,reference,frozen prior val choice,raw,train,0.127047204161852,18.92170682698177,28.47761022889582
+price_GBP_MWh,LagRidge,base,reference,frozen prior val choice,raw,validation,0.0974339047390317,15.173744370853983,24.93882795773657
+price_GBP_MWh,LagRidge,base,reference,frozen prior val choice,raw,test,0.0634131824221086,15.554796794300318,20.11920241206168
+generation_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,train,0.1156030942899459,1347.3784764042932,1780.9774703213889
+generation_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,validation,0.1516286519753927,1517.8886794979453,2039.690782047174
+generation_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,test,0.1928787678245652,1786.258650735094,2300.4664700586923
+demand_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,train,0.0774009485166705,865.0369165748717,1113.7598728468115
+demand_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,validation,0.0870408170675181,932.8188415178124,1181.0816035328305
+demand_MW,LagRidgeResidual,base,reference,frozen prior val choice,raw,test,0.1108539522013037,1012.7151274817712,1332.8890989591505
+price_GBP_MWh,LagRidgeResidual,base,reference,frozen prior val choice,raw,train,0.1192365268233497,18.62305896625552,27.58834472747616
+price_GBP_MWh,LagRidgeResidual,base,reference,frozen prior val choice,raw,validation,0.1156459792453564,15.841839504269856,27.169788291464588
+price_GBP_MWh,LagRidgeResidual,base,reference,frozen prior val choice,raw,test,0.0663890568270008,15.440953986781256,20.585870423856225
+generation_MW,OLS,base,reference,frozen prior val choice,raw,train,0.1145912826339577,1342.7567850237645,1773.166372620041
+generation_MW,OLS,base,reference,frozen prior val choice,raw,validation,0.153402935944018,1528.8862511761197,2051.5898037297343
+generation_MW,OLS,base,reference,frozen prior val choice,raw,test,0.1963873046323717,1805.1592570089672,2321.2953477163005
+demand_MW,OLS,base,reference,frozen prior val choice,raw,train,0.0769429769670688,862.7519540045669,1110.4599967446431
+demand_MW,OLS,base,reference,frozen prior val choice,raw,validation,0.0913028543976814,957.7924285542952,1209.652432126878
+demand_MW,OLS,base,reference,frozen prior val choice,raw,test,0.1115609661386679,1017.900698017201,1337.1328509398645
+price_GBP_MWh,OLS,base,reference,frozen prior val choice,raw,train,0.119057102131405,18.621369555055708,27.56757972381309
+price_GBP_MWh,OLS,base,reference,frozen prior val choice,raw,validation,0.1162240230271069,15.994618381027465,27.23760625984727
+price_GBP_MWh,OLS,base,reference,frozen prior val choice,raw,test,0.0666855998763223,15.481154542556023,20.63179512396124
+generation_MW,Persistence,base,reference,frozen prior val choice,raw,train,0.2464493406519601,1996.312989313687,2600.384247341539
+generation_MW,Persistence,base,reference,frozen prior val choice,raw,validation,0.3035537815483987,2119.3910707753057,2885.968057739679
+generation_MW,Persistence,base,reference,frozen prior val choice,raw,test,0.3222067144205333,2314.292339653341,2973.3154626144224
+demand_MW,Persistence,base,reference,frozen prior val choice,raw,train,0.2632925145630667,1542.7436131386862,2054.1761453071413
+demand_MW,Persistence,base,reference,frozen prior val choice,raw,validation,0.2430027442969813,1527.0823045267489,1973.4403989557047
+demand_MW,Persistence,base,reference,frozen prior val choice,raw,test,0.2661166368976547,1603.1890410958904,2065.1634901614666
+price_GBP_MWh,Persistence,base,reference,frozen prior val choice,raw,train,0.1470144675196848,20.14424801140545,30.633810610169544
+price_GBP_MWh,Persistence,base,reference,frozen prior val choice,raw,validation,0.1349697092483554,16.03965194682221,29.352097515516864
+price_GBP_MWh,Persistence,base,reference,frozen prior val choice,raw,test,0.0874542587950199,16.673170782092967,23.62715699739079
+generation_MW,Seasonal7,base,reference,frozen prior val choice,raw,train,0.4055656575798047,2484.226132495356,3335.832861190865
+generation_MW,Seasonal7,base,reference,frozen prior val choice,raw,validation,0.3404321819059097,2380.8532209547707,3056.2508718204604
+generation_MW,Seasonal7,base,reference,frozen prior val choice,raw,test,0.5368237993286539,2969.5288432127227,3837.863965254157
+demand_MW,Seasonal7,base,reference,frozen prior val choice,raw,train,0.3299036907772155,1713.3439781021898,2299.3866869121653
+demand_MW,Seasonal7,base,reference,frozen prior val choice,raw,validation,0.3521561149142226,1736.5884773662551,2375.6696114739225
+demand_MW,Seasonal7,base,reference,frozen prior val choice,raw,test,0.3839771650349255,1874.186301369863,2480.682165348768
+price_GBP_MWh,Seasonal7,base,reference,frozen prior val choice,raw,train,0.4192250453217708,33.06289707431608,51.73025218535585
+price_GBP_MWh,Seasonal7,base,reference,frozen prior val choice,raw,validation,0.2023406613497303,22.215195459242427,35.93871692709894
+price_GBP_MWh,Seasonal7,base,reference,frozen prior val choice,raw,test,0.1438775203511589,22.51634266969511,30.305221152370954
+generation_MW,Mean28,base,reference,frozen prior val choice,raw,train,0.4229465392106534,2670.239170415016,3406.56307036414
+generation_MW,Mean28,base,reference,frozen prior val choice,raw,validation,0.3426155963272092,2348.8046284690595,3066.036075862296
+generation_MW,Mean28,base,reference,frozen prior val choice,raw,test,0.4589909656755976,2773.299678533545,3548.752936523651
+demand_MW,Mean28,base,reference,frozen prior val choice,raw,train,0.4665719214910339,2155.964937434828,2734.49872384217
+demand_MW,Mean28,base,reference,frozen prior val choice,raw,validation,0.4067622586367638,1979.838036449148,2553.223014834284
+demand_MW,Mean28,base,reference,frozen prior val choice,raw,test,0.4207318549445313,2059.929843444227,2596.6960838153245
+price_GBP_MWh,Mean28,base,reference,frozen prior val choice,raw,train,0.39988159901361,30.81361748770621,50.52271671500153
+price_GBP_MWh,Mean28,base,reference,frozen prior val choice,raw,validation,0.1107912073353045,16.68197114959386,26.59338573147934
+price_GBP_MWh,Mean28,base,reference,frozen prior val choice,raw,test,0.08682279486045,18.00670146532532,23.5417024561432
+generation_MW,Ridge,regime,65,100.0,raw,train,0.1144176409396739,1354.2589894745015,1771.822412005653
+generation_MW,Ridge,regime,65,100.0,raw,validation,0.1469817662400888,1484.823971861535,2008.1928993231645
+generation_MW,Ridge,regime,65,100.0,raw,test,0.1823835111824654,1763.3059595221189,2237.00256656508
+generation_MW,Lasso,regime,65,0.01,raw,train,0.1191091502690495,1371.656245574132,1807.7828390247637
+generation_MW,Lasso,regime,65,0.01,raw,validation,0.1484315090882415,1485.4089512510752,2018.0724223288576
+generation_MW,Lasso,regime,65,0.01,raw,test,0.1838487904596862,1751.145768315515,2245.970691542024
+generation_MW,HGB,regime,65,2.0,raw,train,0.0789740635055563,1145.499355957348,1472.027551108227
+generation_MW,HGB,regime,65,2.0,raw,validation,0.1576789618938126,1560.3536977920276,2079.9867682249183
+generation_MW,HGB,regime,65,2.0,raw,test,0.2107350919289919,1885.2592328212904,2404.596035314866
+demand_MW,Ridge,regime,65,0.1,raw,train,0.0712516774366745,837.1582032335529,1068.601973730879
+demand_MW,Ridge,regime,65,0.1,raw,validation,0.0885342521175087,950.5160798254974,1191.1709322309066
+demand_MW,Ridge,regime,65,0.1,raw,test,0.1106587497890544,1028.0342893076088,1331.7150415524582
+demand_MW,Lasso,regime,65,0.01,raw,train,0.0766639292721399,862.4713038820595,1108.4445251811571
+demand_MW,Lasso,regime,65,0.01,raw,validation,0.0842625131887191,924.2414041443436,1162.0789368336164
+demand_MW,Lasso,regime,65,0.01,raw,test,0.1066843457780344,1017.7307958606818,1307.5815215277246
+demand_MW,HGB,regime,65,4.0,raw,train,0.0217056500866509,459.0835881456118,589.8000760255419
+demand_MW,HGB,regime,65,4.0,raw,validation,0.0906998451931303,963.2148684505294,1205.6512432755785
+demand_MW,HGB,regime,65,4.0,raw,test,0.1156945382035302,1081.020701751676,1361.6793578312477
+price_GBP_MWh,Ridge,regime,65,1000.0,asinh,train,0.3742764432622277,26.78121970227902,48.87842826647879
+price_GBP_MWh,Ridge,regime,65,1000.0,asinh,validation,0.1027074616306272,14.760778310091103,25.60483510977238
+price_GBP_MWh,Ridge,regime,65,1000.0,asinh,test,0.0888505257891639,18.98448256781137,23.81502197080196
+price_GBP_MWh,Lasso,regime,65,0.01,asinh,train,0.8294869681768945,26.982152721988605,72.76554208847068
+price_GBP_MWh,Lasso,regime,65,0.01,asinh,validation,0.0986926825053242,14.108565688022432,25.09940706961016
+price_GBP_MWh,Lasso,regime,65,0.01,asinh,test,0.0767748852768451,17.453487248645168,22.137601911963632
+price_GBP_MWh,HGB,regime,65,2.0,asinh,train,0.0949724939987873,15.264610438322238,24.621806098801397
+price_GBP_MWh,HGB,regime,65,2.0,asinh,validation,0.0924633737941461,13.743215491916349,24.294381854818717
+price_GBP_MWh,HGB,regime,65,2.0,asinh,test,0.0650428100559568,15.45427253852328,20.37607982641543
+generation_MW,Ridge,weather_solar,51,100.0,raw,train,0.1183692288649253,1379.6519697316548,1802.159001335429
+generation_MW,Ridge,weather_solar,51,100.0,raw,validation,0.1446824915670164,1470.7668402618206,1992.4236390265048
+generation_MW,Ridge,weather_solar,51,100.0,raw,test,0.1924741759110999,1808.172370021136,2298.052418084989
+generation_MW,Lasso,weather_solar,51,0.01,raw,train,0.118089728871943,1372.825246110811,1800.030064922846
+generation_MW,Lasso,weather_solar,51,0.01,raw,validation,0.1487869335228276,1486.4610311169486,2020.48715011818
+generation_MW,Lasso,weather_solar,51,0.01,raw,test,0.1871367060158982,1761.167125307981,2265.96494309794
+generation_MW,HGB,weather_solar,51,2.0,raw,train,0.082077611845738,1161.3305936965694,1500.6729419038695
+generation_MW,HGB,weather_solar,51,2.0,raw,validation,0.1633928928297643,1572.091025116763,2117.3384157031605
+generation_MW,HGB,weather_solar,51,2.0,raw,test,0.2110900687276216,1872.1675935238427,2406.6204173047545
+demand_MW,Ridge,weather_solar,51,10.0,raw,train,0.067363271206457,809.4198978463767,1039.034599717177
+demand_MW,Ridge,weather_solar,51,10.0,raw,validation,0.0780156091344685,887.0985500924164,1118.1734530415292
+demand_MW,Ridge,weather_solar,51,10.0,raw,test,0.1084059513107771,1024.249348956016,1318.0897654571893
+demand_MW,Lasso,weather_solar,51,0.01,raw,train,0.0723123210418797,840.208082129313,1076.5261311732909
+demand_MW,Lasso,weather_solar,51,0.01,raw,validation,0.0741997856965802,862.8354632301659,1090.485137650014
+demand_MW,Lasso,weather_solar,51,0.01,raw,test,0.1019717465080952,999.1022328812423,1278.3752511332148
+demand_MW,HGB,weather_solar,51,4.0,raw,train,0.0206693691226473,443.8666824125943,575.5486452594585
+demand_MW,HGB,weather_solar,51,4.0,raw,validation,0.0866120022601363,939.1076766847642,1178.1686563318042
+demand_MW,HGB,weather_solar,51,4.0,raw,test,0.1131926457875212,1053.61707317585,1346.8757419831848
+price_GBP_MWh,Ridge,weather_solar,51,100.0,raw,train,0.1258866309449325,18.91071724859711,28.347240665840637
+price_GBP_MWh,Ridge,weather_solar,51,100.0,raw,validation,0.0977021123338905,15.202949597444332,24.97312908901268
+price_GBP_MWh,Ridge,weather_solar,51,100.0,raw,test,0.0595342600861193,14.643061728007524,19.494157279266638
+price_GBP_MWh,Lasso,weather_solar,51,0.03,asinh,train,1.2046149225035148,29.53677617891765,87.68899745518685
+price_GBP_MWh,Lasso,weather_solar,51,0.03,asinh,validation,0.1054769299071417,14.29182269016884,25.947751234647704
+price_GBP_MWh,Lasso,weather_solar,51,0.03,asinh,test,0.0786695440554393,17.391645010006073,22.409094187802108
+price_GBP_MWh,HGB,weather_solar,51,2.0,asinh,train,0.0943339742158958,15.415407924433923,24.53889775571172
+price_GBP_MWh,HGB,weather_solar,51,2.0,asinh,validation,0.0861728796983897,13.619570097042866,23.453425814968096
+price_GBP_MWh,HGB,weather_solar,51,2.0,asinh,test,0.0589848559209777,14.33738878318684,19.40399914830104
+generation_MW,Ridge,weather_temp,52,100.0,raw,train,0.1197642153679617,1392.1489211076184,1812.7471582853443
+generation_MW,Ridge,weather_temp,52,100.0,raw,validation,0.1431947018879672,1459.2403506519702,1982.1529859459567
+generation_MW,Ridge,weather_temp,52,100.0,raw,test,0.1829141861974719,1761.2426797785497,2240.254667276852
+generation_MW,Lasso,weather_temp,52,0.01,raw,train,0.1185852590909476,1382.929230937094,1803.8027703671144
+generation_MW,Lasso,weather_temp,52,0.01,raw,validation,0.1458670808528655,1469.2767868881392,2000.563505499142
+generation_MW,Lasso,weather_temp,52,0.01,raw,test,0.1810036626765511,1725.6749155892328,2228.52431904339
+generation_MW,HGB,weather_temp,52,2.0,raw,train,0.0812505920451513,1163.3015293002932,1493.0933573029708
+generation_MW,HGB,weather_temp,52,2.0,raw,validation,0.1573386119811408,1551.2791432312615,2077.7407306678533
+generation_MW,HGB,weather_temp,52,2.0,raw,test,0.1973205082412104,1843.2439769424957,2326.8040385171585
+demand_MW,Ridge,weather_temp,52,10.0,raw,train,0.0628940580914466,786.6565283161428,1003.9757757990552
+demand_MW,Ridge,weather_temp,52,10.0,raw,validation,0.069242635978382,832.9536024510683,1053.4288829929922
+demand_MW,Ridge,weather_temp,52,10.0,raw,test,0.0997972264634014,971.134590843024,1264.671295090205
+demand_MW,Lasso,weather_temp,52,0.001,raw,train,0.0629499067141407,786.2541152384032,1004.421431749106
+demand_MW,Lasso,weather_temp,52,0.001,raw,validation,0.0668215825394184,811.7273937802081,1034.8485699407483
+demand_MW,Lasso,weather_temp,52,0.001,raw,test,0.0979486137415427,966.4496782112903,1252.9033554733585
+demand_MW,HGB,weather_temp,52,2.0,raw,train,0.0488380235252357,685.1740177518288,884.7029293947609
+demand_MW,HGB,weather_temp,52,2.0,raw,validation,0.0740847680104728,862.0185397525601,1089.63962496151
+demand_MW,HGB,weather_temp,52,2.0,raw,test,0.1102608785713813,1039.9466202506735,1329.318808938948
+price_GBP_MWh,Ridge,weather_temp,52,100.0,raw,train,0.1222600757045498,18.62269737875329,27.935941695156654
+price_GBP_MWh,Ridge,weather_temp,52,100.0,raw,validation,0.0969354934660012,15.436701231687188,24.874960407813465
+price_GBP_MWh,Ridge,weather_temp,52,100.0,raw,test,0.0678086901975931,15.292984872489106,20.80480565304214
+price_GBP_MWh,Lasso,weather_temp,52,0.03,asinh,train,1.242596589735133,29.625362152984295,89.06069176319637
+price_GBP_MWh,Lasso,weather_temp,52,0.03,asinh,validation,0.102317569370744,13.93360254277094,25.55618908524006
+price_GBP_MWh,Lasso,weather_temp,52,0.03,asinh,test,0.0803121160093604,17.62876603357492,22.64182970888367
+price_GBP_MWh,HGB,weather_temp,52,2.0,asinh,train,0.0919158311264839,15.029736306955591,24.22234272388229
+price_GBP_MWh,HGB,weather_temp,52,2.0,asinh,validation,0.0859309102841488,13.36929918674897,23.420474606182395
+price_GBP_MWh,HGB,weather_temp,52,2.0,asinh,test,0.0598906309025041,14.256529901045155,19.55241603114669
+generation_MW,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,raw,train,0.1081138813979793,1307.7464424167472,1722.322304422766
+generation_MW,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,raw,validation,0.1620337130539052,1558.476703377615,2108.513511071277
+generation_MW,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,raw,test,0.1993909508390255,1845.4896916102275,2338.979515913514
+generation_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.03,raw,train,0.1235539978338298,1412.279506979991,1841.2047957262268
+generation_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.03,raw,validation,0.1511839596752449,1487.1707991439298,2036.6976116198643
+generation_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.03,raw,test,0.1898889356198261,1781.0739902921946,2282.566958382525
+generation_MW,HGB,weather_wind+price_robust+bank_holidays,62,4.0,raw,train,0.0276441920271721,670.2042735677745,870.9147516611896
+generation_MW,HGB,weather_wind+price_robust+bank_holidays,62,4.0,raw,validation,0.1721054282227171,1586.619945537994,2173.0563103270592
+generation_MW,HGB,weather_wind+price_robust+bank_holidays,62,4.0,raw,test,0.2032527172934354,1871.154013403096,2361.5213506266155
+demand_MW,Ridge,weather_wind+price_robust+bank_holidays,62,10.0,raw,train,0.0597462065698153,780.7156112861935,978.528757561013
+demand_MW,Ridge,weather_wind+price_robust+bank_holidays,62,10.0,raw,validation,0.0831534028921594,968.6354279196328,1154.4056368761926
+demand_MW,Ridge,weather_wind+price_robust+bank_holidays,62,10.0,raw,test,0.1048385577168864,1015.7206906098584,1296.220674964498
+demand_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,raw,train,0.0637046273318587,800.3802021536105,1010.4246094459464
+demand_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,raw,validation,0.0768153154530864,911.2759358101526,1109.5383931034094
+demand_MW,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,raw,test,0.0977921372202102,986.1278559475686,1251.9021758088236
+demand_MW,HGB,weather_wind+price_robust+bank_holidays,62,2.0,raw,train,0.0498114215412257,703.328621816352,893.4760044880483
+demand_MW,HGB,weather_wind+price_robust+bank_holidays,62,2.0,raw,validation,0.0881245217442215,955.8769965483336,1188.4114076110725
+demand_MW,HGB,weather_wind+price_robust+bank_holidays,62,2.0,raw,test,0.1110674018329577,1061.2487621673415,1334.1717228962734
+price_GBP_MWh,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,asinh,train,0.1352241806647482,18.095534745001363,29.379754656336296
+price_GBP_MWh,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,asinh,validation,0.0844360472648238,13.541506776706033,23.21586836285028
+price_GBP_MWh,Ridge,weather_wind+price_robust+bank_holidays,62,100.0,asinh,test,0.0494469000576852,13.16137647401223,17.766035286129927
+price_GBP_MWh,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,asinh,train,0.1103489525641819,17.255544218891664,26.540255106823764
+price_GBP_MWh,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,asinh,validation,0.0827033143496392,13.03985823390138,22.976424297133967
+price_GBP_MWh,Lasso,weather_wind+price_robust+bank_holidays,62,0.01,asinh,test,0.0491400824026561,12.834829001939587,17.71083045664876
+price_GBP_MWh,HGB,weather_wind+price_robust+bank_holidays,62,2.0,asinh,train,0.0770137418853345,14.017530974461092,22.172011642367703
+price_GBP_MWh,HGB,weather_wind+price_robust+bank_holidays,62,2.0,asinh,validation,0.0763058047147258,12.128041366032772,22.06986993863173
+price_GBP_MWh,HGB,weather_wind+price_robust+bank_holidays,62,2.0,asinh,test,0.047373502600266,12.618230503727537,17.389565604233994
+generation_MW,Ridge,weather_wind+weather_solar,57,100.0,raw,train,0.1117852478183034,1334.0570959957256,1751.3217575987112
+generation_MW,Ridge,weather_wind+weather_solar,57,100.0,raw,validation,0.1605766171678475,1570.290131009442,2099.0116472268865
+generation_MW,Ridge,weather_wind+weather_solar,57,100.0,raw,test,0.1999558146487137,1859.701921072274,2342.290274180457
+generation_MW,Lasso,weather_wind+weather_solar,57,0.03,raw,train,0.1268765956036066,1433.010744292431,1865.7972760668104
+generation_MW,Lasso,weather_wind+weather_solar,57,0.03,raw,validation,0.1539710507301279,1511.6891003082635,2055.385237535063
+generation_MW,Lasso,weather_wind+weather_solar,57,0.03,raw,test,0.19229261020017,1788.3612144845015,2296.9682571436147
+generation_MW,HGB,weather_wind+weather_solar,57,4.0,raw,train,0.0252461766473854,643.7786598947378,832.2839210097319
+generation_MW,HGB,weather_wind+weather_solar,57,4.0,raw,validation,0.1763538755065558,1612.7975783897846,2199.713905591798
+generation_MW,HGB,weather_wind+weather_solar,57,4.0,raw,test,0.2067255737191428,1885.1015489645772,2381.6108443679927
+demand_MW,Ridge,weather_wind+weather_solar,57,10.0,raw,train,0.0639524490862221,791.5987625367875,1012.3880629088684
+demand_MW,Ridge,weather_wind+weather_solar,57,10.0,raw,validation,0.0757035904130339,887.0999915427418,1101.480122281079
+demand_MW,Ridge,weather_wind+weather_solar,57,10.0,raw,test,0.1059849747560412,1009.1439645316292,1303.288537955967
+demand_MW,Lasso,weather_wind+weather_solar,57,0.01,raw,train,0.0691618004905116,823.6880379510376,1052.813804553006
+demand_MW,Lasso,weather_wind+weather_solar,57,0.01,raw,validation,0.0717136095125493,853.6157947487775,1072.0603067742938
+demand_MW,Lasso,weather_wind+weather_solar,57,0.01,raw,test,0.0995900147541813,988.319491626535,1263.3576770710174
+demand_MW,HGB,weather_wind+weather_solar,57,4.0,raw,train,0.017461472469737,403.8787992330419,529.0038797746389
+demand_MW,HGB,weather_wind+weather_solar,57,4.0,raw,validation,0.0851621156999164,932.9330754943168,1168.2657549092446
+demand_MW,HGB,weather_wind+weather_solar,57,4.0,raw,test,0.1154018323194865,1036.796406159118,1359.9557502123855
+price_GBP_MWh,Ridge,weather_wind+weather_solar,57,100.0,asinh,train,0.709915991305078,26.402270018815265,67.31695530681829
+price_GBP_MWh,Ridge,weather_wind+weather_solar,57,100.0,asinh,validation,0.0912212454358806,14.585587281423038,24.130647975753547
+price_GBP_MWh,Ridge,weather_wind+weather_solar,57,100.0,asinh,test,0.0655213912702798,15.831227697299983,20.450905443315197
+price_GBP_MWh,Lasso,weather_wind+weather_solar,57,0.03,asinh,train,0.9633323608077126,27.43176134519897,78.41678996240482
+price_GBP_MWh,Lasso,weather_wind+weather_solar,57,0.03,asinh,validation,0.0933241098601461,13.751229632632135,24.407197395042463
+price_GBP_MWh,Lasso,weather_wind+weather_solar,57,0.03,asinh,test,0.0669081486891716,16.097658336492803,20.666193532657925
+price_GBP_MWh,HGB,weather_wind+weather_solar,57,2.0,asinh,train,0.0749628183808713,14.007250281539472,21.874792325507244
+price_GBP_MWh,HGB,weather_wind+weather_solar,57,2.0,asinh,validation,0.0775436939717943,12.26778644743144,22.248166617411957
+price_GBP_MWh,HGB,weather_wind+weather_solar,57,2.0,asinh,test,0.0461850081451971,12.577370072678455,17.17004754305368
+generation_MW,Ridge,weather_wind+weather_temp,58,100.0,raw,train,0.112813850635274,1345.966707677932,1759.360785611755
+generation_MW,Ridge,weather_wind+weather_temp,58,100.0,raw,validation,0.1580184126140553,1542.2416215249398,2082.224458686153
+generation_MW,Ridge,weather_wind+weather_temp,58,100.0,raw,test,0.1902403292522264,1804.301739258709,2284.6779522869533
+generation_MW,Lasso,weather_wind+weather_temp,58,0.01,raw,train,0.1130960133439238,1347.0026239571084,1761.5596112984515
+generation_MW,Lasso,weather_wind+weather_temp,58,0.01,raw,validation,0.1538077389495667,1507.508430796178,2054.2949102412126
+generation_MW,Lasso,weather_wind+weather_temp,58,0.01,raw,test,0.1848856618183764,1740.1041203805169,2252.2952053805634
+generation_MW,HGB,weather_wind+weather_temp,58,4.0,raw,train,0.0262023600301447,660.7792521107731,847.8985665711089
+generation_MW,HGB,weather_wind+weather_temp,58,4.0,raw,validation,0.1686858109349037,1573.0082604688907,2151.359421796966
+generation_MW,HGB,weather_wind+weather_temp,58,4.0,raw,test,0.19217959711311,1826.1895927873893,2296.2931775725174
+demand_MW,Ridge,weather_wind+weather_temp,58,10.0,raw,train,0.0602999863119844,767.8524133116458,983.05322484128
+demand_MW,Ridge,weather_wind+weather_temp,58,10.0,raw,validation,0.0693110948481789,841.540767152889,1053.9495068359822
+demand_MW,Ridge,weather_wind+weather_temp,58,10.0,raw,test,0.0971170506723716,963.4976648657168,1247.5735765878885
+demand_MW,Lasso,weather_wind+weather_temp,58,0.001,raw,train,0.0604965135454568,768.618733195456,984.6538850049968
+demand_MW,Lasso,weather_wind+weather_temp,58,0.001,raw,validation,0.0678182631655135,825.9986598600238,1042.537671835977
+demand_MW,Lasso,weather_wind+weather_temp,58,0.001,raw,test,0.0960761244925412,963.9828064385904,1240.8696531642684
+demand_MW,HGB,weather_wind+weather_temp,58,2.0,raw,train,0.0470842324821133,673.4902202585191,868.6727001680257
+demand_MW,HGB,weather_wind+weather_temp,58,2.0,raw,validation,0.0771627672071059,883.4154055765771,1112.044899162083
+demand_MW,HGB,weather_wind+weather_temp,58,2.0,raw,test,0.110808719326127,1036.712121969941,1332.6171350078275
+price_GBP_MWh,Ridge,weather_wind+weather_temp,58,100.0,asinh,train,0.6424934233999113,25.990689812080078,64.04059063832997
+price_GBP_MWh,Ridge,weather_wind+weather_temp,58,100.0,asinh,validation,0.090679020330923,14.603393254018089,24.05882400277457
+price_GBP_MWh,Ridge,weather_wind+weather_temp,58,100.0,asinh,test,0.0654998332054322,15.850934431229106,20.447540754255133
+price_GBP_MWh,Lasso,weather_wind+weather_temp,58,0.01,asinh,train,0.8245701238306649,26.35858738595593,72.54956002833038
+price_GBP_MWh,Lasso,weather_wind+weather_temp,58,0.01,asinh,validation,0.0909482862042327,13.550903610051826,24.094518136811324
+price_GBP_MWh,Lasso,weather_wind+weather_temp,58,0.01,asinh,test,0.0642437575232827,15.641831957592016,20.25053272483868
+price_GBP_MWh,HGB,weather_wind+weather_temp,58,2.0,asinh,train,0.0745340527804923,13.916031785462932,21.81214387740099
+price_GBP_MWh,HGB,weather_wind+weather_temp,58,2.0,asinh,validation,0.0774152232476979,11.987417293598725,22.22972912263453
+price_GBP_MWh,HGB,weather_wind+weather_temp,58,2.0,asinh,test,0.0472824758997509,12.825825935230338,17.37285081848769
+generation_MW,Ridge,weather_wind,50,100.0,raw,train,0.114919735749298,1351.0437788689044,1775.705768584023
+generation_MW,Ridge,weather_wind,50,100.0,raw,validation,0.1590904940310212,1556.1500259365987,2089.275980714324
+generation_MW,Ridge,weather_wind,50,100.0,raw,test,0.1973873319742539,1838.2858604907333,2327.197997998342
+generation_MW,Lasso,weather_wind,50,0.03,raw,train,0.1281756427319702,1439.911574778644,1875.3245893069743
+generation_MW,Lasso,weather_wind,50,0.03,raw,validation,0.1543871970561543,1516.038791563152,2058.160966628632
+generation_MW,Lasso,weather_wind,50,0.03,raw,test,0.1923974299997596,1789.0750051916584,2297.5942171066563
+generation_MW,HGB,weather_wind,50,2.0,raw,train,0.0784761677970565,1133.0627431115652,1467.379980754503
+generation_MW,HGB,weather_wind,50,2.0,raw,validation,0.1734206591252445,1636.0565709551709,2181.3437631322176
+generation_MW,HGB,weather_wind,50,2.0,raw,test,0.2069314611772646,1872.0107437064269,2382.796526830893
+demand_MW,Ridge,weather_wind,50,10.0,raw,train,0.0704988763604654,832.4537767589186,1062.9418906254127
+demand_MW,Ridge,weather_wind,50,10.0,raw,validation,0.088823916317526,981.6652896828286,1193.1179629261233
+demand_MW,Ridge,weather_wind,50,10.0,raw,test,0.1107209814921772,1021.879786311394,1332.0894504756252
+demand_MW,Lasso,weather_wind,50,0.01,raw,train,0.074379184105185,853.6988330823317,1091.8026158008554
+demand_MW,Lasso,weather_wind,50,0.01,raw,validation,0.0835446924897787,931.102145050926,1157.118555145542
+demand_MW,Lasso,weather_wind,50,0.01,raw,test,0.1052681740053313,1009.8566316796486,1298.8738408822992
+demand_MW,HGB,weather_wind,50,2.0,raw,train,0.0541705861696883,728.0785298208614,931.751698149574
+demand_MW,HGB,weather_wind,50,2.0,raw,validation,0.0933563482800495,981.0193768331084,1223.1799487602552
+demand_MW,HGB,weather_wind,50,2.0,raw,test,0.1181299802080557,1077.6543412885649,1375.936815311568
+price_GBP_MWh,Ridge,weather_wind,50,100.0,asinh,train,0.710906620194065,26.634894114744625,67.36390654748728
+price_GBP_MWh,Ridge,weather_wind,50,100.0,asinh,validation,0.0893599738493585,14.253562408222365,23.883199255453885
+price_GBP_MWh,Ridge,weather_wind,50,100.0,asinh,test,0.0654929675949112,16.051757863190037,20.446469083359236
+price_GBP_MWh,Lasso,weather_wind,50,0.01,asinh,train,0.8641830076537205,26.92369349236,74.27178245510763
+price_GBP_MWh,Lasso,weather_wind,50,0.01,asinh,validation,0.0910439873256372,13.707849705346062,24.107191636373525
+price_GBP_MWh,Lasso,weather_wind,50,0.01,asinh,test,0.0652947847427738,16.00812748627976,20.4155099604492
+price_GBP_MWh,HGB,weather_wind,50,2.0,asinh,train,0.0770281800946255,14.247495663224614,22.174089902261247
+price_GBP_MWh,HGB,weather_wind,50,2.0,asinh,validation,0.077069618239385,12.156085288155165,22.18005349638112
+price_GBP_MWh,HGB,weather_wind,50,2.0,asinh,test,0.04739644764325,12.769990624845224,17.39377635503648
+generation_MW,Ridge,weekly_context,53,100.0,raw,train,0.1206675332753693,1396.5139732162122,1819.570610852682
+generation_MW,Ridge,weekly_context,53,100.0,raw,validation,0.1435906324941239,1471.1640225979004,1984.8914018432024
+generation_MW,Ridge,weekly_context,53,100.0,raw,test,0.1872995454338835,1789.2871949936066,2266.9506080304423
+generation_MW,Lasso,weekly_context,53,0.01,raw,train,0.1200014102479559,1380.3191066151956,1814.5413572503608
+generation_MW,Lasso,weekly_context,53,0.01,raw,validation,0.1467346735474803,1494.915091464747,2006.504191516383
+generation_MW,Lasso,weekly_context,53,0.01,raw,test,0.1839547494016307,1749.444753805264,2246.61781681846
+generation_MW,HGB,weekly_context,53,2.0,raw,train,0.0837786920891172,1179.1651335015,1516.1441140430954
+generation_MW,HGB,weekly_context,53,2.0,raw,validation,0.1599861750528001,1566.9226392097762,2095.1490479605927
+generation_MW,HGB,weekly_context,53,2.0,raw,test,0.2020928911033721,1840.4503009255227,2354.773906172068
+demand_MW,Ridge,weekly_context,53,10.0,raw,train,0.0732536969321184,843.8580131128532,1083.510686605179
+demand_MW,Ridge,weekly_context,53,10.0,raw,validation,0.0894600027391504,974.1500350669944,1197.3824240286033
+demand_MW,Ridge,weekly_context,53,10.0,raw,test,0.1116220523773104,1026.4082238352587,1337.4988805696676
+demand_MW,Lasso,weekly_context,53,0.01,raw,train,0.0775650044704173,866.7418811408453,1114.9395884912578
+demand_MW,Lasso,weekly_context,53,0.01,raw,validation,0.0837746908821921,917.5061387577668,1158.7102331068138
+demand_MW,Lasso,weekly_context,53,0.01,raw,test,0.1067422983439752,1020.2626775964504,1307.936622436341
+demand_MW,HGB,weekly_context,53,2.0,raw,train,0.0565823723181572,741.812826097111,952.2675854071612
+demand_MW,HGB,weekly_context,53,2.0,raw,validation,0.0946491959701162,978.2636425976302,1231.620445961894
+demand_MW,HGB,weekly_context,53,2.0,raw,test,0.1159580804196482,1071.8598475604806,1363.2293699171505
+price_GBP_MWh,Ridge,weekly_context,53,100.0,raw,train,0.1289536477022859,19.05156607982457,28.690479141265527
+price_GBP_MWh,Ridge,weekly_context,53,100.0,raw,validation,0.0976286846038708,15.025247964240236,24.96374308497479
+price_GBP_MWh,Ridge,weekly_context,53,100.0,raw,test,0.062898232232491,15.058362475763236,20.037346356603173
+price_GBP_MWh,Lasso,weekly_context,53,0.03,asinh,train,1.2457597450291644,29.869620534153817,89.17397621395429
+price_GBP_MWh,Lasso,weekly_context,53,0.03,asinh,validation,0.1026591071050981,14.084460857364384,25.59880704037655
+price_GBP_MWh,Lasso,weekly_context,53,0.03,asinh,test,0.0797803036865161,17.62155566854791,22.56674014212406
+price_GBP_MWh,HGB,weekly_context,53,2.0,asinh,train,0.0970035790029541,15.526179053464524,24.883694709810975
+price_GBP_MWh,HGB,weekly_context,53,2.0,asinh,validation,0.0875945639421306,13.61482940935434,23.64610223378937
+price_GBP_MWh,HGB,weekly_context,53,2.0,asinh,test,0.0620847735899174,14.991929996356738,19.90735386072213

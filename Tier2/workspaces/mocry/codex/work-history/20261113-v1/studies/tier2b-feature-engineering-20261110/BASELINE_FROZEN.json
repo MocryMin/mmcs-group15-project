@@ -1,0 +1,87 @@
+{
+  "version": "temporary feature research baseline 2026-11-10",
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "separate_targets": true,
+  "neural_families": [
+    "RNN",
+    "LSTM",
+    "Transformer"
+  ],
+  "parameter_budgets": [
+    2000,
+    5000,
+    10000
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "windows_days": {
+    "RNN": [
+      14,
+      7,
+      30
+    ],
+    "LSTM": [
+      30,
+      14,
+      14
+    ],
+    "Transformer": [
+      7,
+      7,
+      182
+    ]
+  },
+  "learning_rates": {
+    "RNN": [
+      0.003,
+      0.001,
+      0.001
+    ],
+    "LSTM": [
+      0.003,
+      0.003,
+      0.003
+    ],
+    "Transformer": [
+      0.001,
+      0.001,
+      0.001
+    ]
+  },
+  "max_epochs": 120,
+  "patience_epochs": 15,
+  "checkpoint_min_delta": 1e-05,
+  "batch_size": 64,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "scaler": "fixed 2022-2024 population std; input scalers fit training token dates only",
+  "logging": "full train/val/test evaluation every optimizer step",
+  "selection": "validation MSE only; test monitored, never chooses features or checkpoints",
+  "quota_initial_remaining_pct": 71,
+  "quota_stop_remaining_pct": 30,
+  "stop_improvement_rule": "At least 5% relative validation MSE reduction, three-seed confirmation with at least two seeds improving, and test non-inferiority; report each target separately. Do not stop on a lone smoke result.",
+  "stop_other": "user interruption, clearly exhausted feature potential or sharply diminishing return on openly reachable data",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "published": false
+}

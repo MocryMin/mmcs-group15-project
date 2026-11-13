@@ -1,0 +1,83 @@
+START demand_MW_RNN_L365_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L365_lr0.001_s17 200 E12 train=0.08057 val=0.08859 test=0.11296 bestVal=0.08718
+STEP demand_MW_RNN_L365_lr0.001_s17 400 E23 train=0.07695 val=0.09050 test=0.11576 bestVal=0.08528
+DONE {"run": "demand_MW_RNN_L365_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 365, "lr": 0.001, "parameters": 5373, "best_epoch": 17, "best_step": 295, "epochs": 32, "steps": 576, "best_train_loss": 0.0774785652756691, "best_validation_loss": 0.08527690917253494, "test_loss_at_val_checkpoint": 0.10791617631912231, "last_train_loss": 0.07638777047395706, "last_validation_loss": 0.08792202174663544, "last_test_loss": 0.1113155335187912, "seconds": 160.36000000000058, "step_log": "step_logs\\demand_MW_RNN_L365_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L365_lr0.001_s17.pt"}
+PROGRESS demand_MW 1 /14
+START demand_MW_RNN_L182_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L182_lr0.001_s17 200 E12 train=0.08057 val=0.08859 test=0.11296 bestVal=0.08718
+STEP demand_MW_RNN_L182_lr0.001_s17 400 E23 train=0.07695 val=0.09050 test=0.11576 bestVal=0.08528
+DONE {"run": "demand_MW_RNN_L182_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 182, "lr": 0.001, "parameters": 5373, "best_epoch": 17, "best_step": 295, "epochs": 32, "steps": 576, "best_train_loss": 0.0774785652756691, "best_validation_loss": 0.08527690172195435, "test_loss_at_val_checkpoint": 0.10791618376970291, "last_train_loss": 0.07638777047395706, "last_validation_loss": 0.08792202919721603, "last_test_loss": 0.1113155335187912, "seconds": 69.59299999999348, "step_log": "step_logs\\demand_MW_RNN_L182_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L182_lr0.001_s17.pt"}
+PROGRESS demand_MW 2 /14
+START demand_MW_RNN_L91_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L91_lr0.001_s17 200 E12 train=0.08057 val=0.08859 test=0.11296 bestVal=0.08718
+STEP demand_MW_RNN_L91_lr0.001_s17 400 E23 train=0.07695 val=0.09050 test=0.11576 bestVal=0.08528
+DONE {"run": "demand_MW_RNN_L91_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 91, "lr": 0.001, "parameters": 5373, "best_epoch": 17, "best_step": 295, "epochs": 32, "steps": 576, "best_train_loss": 0.0774785727262497, "best_validation_loss": 0.08527687937021255, "test_loss_at_val_checkpoint": 0.1079161986708641, "last_train_loss": 0.07638777792453766, "last_validation_loss": 0.08792202174663544, "last_test_loss": 0.1113155335187912, "seconds": 32.828000000008615, "step_log": "step_logs\\demand_MW_RNN_L91_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L91_lr0.001_s17.pt"}
+PROGRESS demand_MW 3 /14
+REUSE demand_MW_RNN_L56_lr0.001_s17
+PROGRESS demand_MW 4 /14
+START demand_MW_RNN_L30_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L30_lr0.001_s17 200 E12 train=0.08053 val=0.08851 test=0.11286 bestVal=0.08712
+STEP demand_MW_RNN_L30_lr0.001_s17 400 E23 train=0.07694 val=0.09052 test=0.11578 bestVal=0.08527
+DONE {"run": "demand_MW_RNN_L30_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 30, "lr": 0.001, "parameters": 5373, "best_epoch": 17, "best_step": 295, "epochs": 32, "steps": 576, "best_train_loss": 0.07747401297092438, "best_validation_loss": 0.08526978641748428, "test_loss_at_val_checkpoint": 0.10790055990219116, "last_train_loss": 0.07640163600444794, "last_validation_loss": 0.08798595517873764, "last_test_loss": 0.1113518476486206, "seconds": 10.655999999988126, "step_log": "step_logs\\demand_MW_RNN_L30_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L30_lr0.001_s17.pt"}
+PROGRESS demand_MW 5 /14
+START demand_MW_RNN_L14_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L14_lr0.001_s17 200 E12 train=0.08184 val=0.08876 test=0.11253 bestVal=0.08644
+STEP demand_MW_RNN_L14_lr0.001_s17 400 E23 train=0.07616 val=0.08885 test=0.11359 bestVal=0.08518
+DONE {"run": "demand_MW_RNN_L14_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 14, "lr": 0.001, "parameters": 5373, "best_epoch": 17, "best_step": 295, "epochs": 32, "steps": 576, "best_train_loss": 0.07768994569778442, "best_validation_loss": 0.08517755568027496, "test_loss_at_val_checkpoint": 0.10698775202035904, "last_train_loss": 0.0749727264046669, "last_validation_loss": 0.0872226357460022, "last_test_loss": 0.1090829074382782, "seconds": 5.437999999994645, "step_log": "step_logs\\demand_MW_RNN_L14_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L14_lr0.001_s17.pt"}
+PROGRESS demand_MW 6 /14
+START demand_MW_RNN_L7_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_RNN_L7_lr0.001_s17 200 E12 train=0.08479 val=0.08965 test=0.11461 bestVal=0.08499
+STEP demand_MW_RNN_L7_lr0.001_s17 400 E23 train=0.07842 val=0.09140 test=0.12070 bestVal=0.08378
+STEP demand_MW_RNN_L7_lr0.001_s17 600 E34 train=0.07549 val=0.08692 test=0.11352 bestVal=0.08378
+STEP demand_MW_RNN_L7_lr0.001_s17 800 E45 train=0.07329 val=0.09058 test=0.11451 bestVal=0.08308
+DONE {"run": "demand_MW_RNN_L7_lr0.001_s17", "target": "demand_MW", "family": "RNN", "seed": 17, "lookback": 7, "lr": 0.001, "parameters": 5373, "best_epoch": 35, "best_step": 621, "epochs": 50, "steps": 900, "best_train_loss": 0.07452785223722458, "best_validation_loss": 0.08307520300149918, "test_loss_at_val_checkpoint": 0.10821350663900375, "last_train_loss": 0.07057695835828781, "last_validation_loss": 0.08762786537408829, "last_test_loss": 0.1126365214586258, "seconds": 4.7810000000026776, "step_log": "step_logs\\demand_MW_RNN_L7_lr0.001_s17.csv", "checkpoint": "checkpoints\\demand_MW_RNN_L7_lr0.001_s17.pt"}
+PROGRESS demand_MW 7 /14
+START demand_MW_LSTM_L365_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L365_lr0.003_s17 200 E12 train=0.08027 val=0.08865 test=0.11543 bestVal=0.08563
+STEP demand_MW_LSTM_L365_lr0.003_s17 400 E23 train=0.07552 val=0.09004 test=0.11716 bestVal=0.08420
+STEP demand_MW_LSTM_L365_lr0.003_s17 600 E34 train=0.07037 val=0.08667 test=0.11692 bestVal=0.08276
+STEP demand_MW_LSTM_L365_lr0.003_s17 800 E45 train=0.06195 val=0.09790 test=0.12331 bestVal=0.08032
+DONE {"run": "demand_MW_LSTM_L365_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 365, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 615, "epochs": 50, "steps": 900, "best_train_loss": 0.06893286854028702, "best_validation_loss": 0.08031746000051498, "test_loss_at_val_checkpoint": 0.10924537479877472, "last_train_loss": 0.06045001000165939, "last_validation_loss": 0.09488869458436966, "last_test_loss": 0.12377265095710754, "seconds": 221.4539999999979, "step_log": "step_logs\\demand_MW_LSTM_L365_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L365_lr0.003_s17.pt"}
+PROGRESS demand_MW 8 /14
+START demand_MW_LSTM_L182_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L182_lr0.003_s17 200 E12 train=0.08027 val=0.08865 test=0.11543 bestVal=0.08563
+STEP demand_MW_LSTM_L182_lr0.003_s17 400 E23 train=0.07552 val=0.09004 test=0.11716 bestVal=0.08420
+STEP demand_MW_LSTM_L182_lr0.003_s17 600 E34 train=0.07037 val=0.08667 test=0.11692 bestVal=0.08276
+STEP demand_MW_LSTM_L182_lr0.003_s17 800 E45 train=0.06195 val=0.09790 test=0.12331 bestVal=0.08032
+DONE {"run": "demand_MW_LSTM_L182_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 182, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 615, "epochs": 50, "steps": 900, "best_train_loss": 0.06893286854028702, "best_validation_loss": 0.08031746000051498, "test_loss_at_val_checkpoint": 0.10924535989761353, "last_train_loss": 0.06044658645987511, "last_validation_loss": 0.09489372372627258, "last_test_loss": 0.12377576529979706, "seconds": 81.2960000000021, "step_log": "step_logs\\demand_MW_LSTM_L182_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L182_lr0.003_s17.pt"}
+PROGRESS demand_MW 9 /14
+START demand_MW_LSTM_L91_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L91_lr0.003_s17 200 E12 train=0.08027 val=0.08865 test=0.11543 bestVal=0.08563
+STEP demand_MW_LSTM_L91_lr0.003_s17 400 E23 train=0.07552 val=0.09004 test=0.11716 bestVal=0.08420
+STEP demand_MW_LSTM_L91_lr0.003_s17 600 E34 train=0.07037 val=0.08667 test=0.11692 bestVal=0.08276
+STEP demand_MW_LSTM_L91_lr0.003_s17 800 E45 train=0.06211 val=0.09803 test=0.12329 bestVal=0.08032
+DONE {"run": "demand_MW_LSTM_L91_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 91, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 615, "epochs": 50, "steps": 900, "best_train_loss": 0.06893203407526016, "best_validation_loss": 0.08031748235225677, "test_loss_at_val_checkpoint": 0.1092454269528389, "last_train_loss": 0.06017741188406944, "last_validation_loss": 0.09488121420145035, "last_test_loss": 0.12368465214967728, "seconds": 39.64100000000326, "step_log": "step_logs\\demand_MW_LSTM_L91_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L91_lr0.003_s17.pt"}
+PROGRESS demand_MW 10 /14
+START demand_MW_LSTM_L56_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L56_lr0.003_s17 200 E12 train=0.08027 val=0.08865 test=0.11543 bestVal=0.08563
+STEP demand_MW_LSTM_L56_lr0.003_s17 400 E23 train=0.07552 val=0.09004 test=0.11716 bestVal=0.08420
+STEP demand_MW_LSTM_L56_lr0.003_s17 600 E34 train=0.07042 val=0.08676 test=0.11697 bestVal=0.08276
+STEP demand_MW_LSTM_L56_lr0.003_s17 800 E45 train=0.06180 val=0.09729 test=0.12386 bestVal=0.08031
+DONE {"run": "demand_MW_LSTM_L56_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 56, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 615, "epochs": 50, "steps": 900, "best_train_loss": 0.06888911873102188, "best_validation_loss": 0.08030665665864944, "test_loss_at_val_checkpoint": 0.10921407490968704, "last_train_loss": 0.05987860634922981, "last_validation_loss": 0.09574494510889053, "last_test_loss": 0.12596435844898224, "seconds": 25.23399999999674, "step_log": "step_logs\\demand_MW_LSTM_L56_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L56_lr0.003_s17.pt"}
+PROGRESS demand_MW 11 /14
+START demand_MW_LSTM_L30_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L30_lr0.003_s17 200 E12 train=0.08028 val=0.08865 test=0.11543 bestVal=0.08563
+STEP demand_MW_LSTM_L30_lr0.003_s17 400 E23 train=0.07552 val=0.09002 test=0.11714 bestVal=0.08417
+STEP demand_MW_LSTM_L30_lr0.003_s17 600 E34 train=0.06998 val=0.08672 test=0.11694 bestVal=0.08270
+STEP demand_MW_LSTM_L30_lr0.003_s17 800 E45 train=0.06090 val=0.10095 test=0.12739 bestVal=0.08051
+DONE {"run": "demand_MW_LSTM_L30_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 30, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 615, "epochs": 50, "steps": 900, "best_train_loss": 0.0692007914185524, "best_validation_loss": 0.08050867915153503, "test_loss_at_val_checkpoint": 0.10948299616575241, "last_train_loss": 0.05859305337071419, "last_validation_loss": 0.10237329453229904, "last_test_loss": 0.132553368806839, "seconds": 18.875, "step_log": "step_logs\\demand_MW_LSTM_L30_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L30_lr0.003_s17.pt"}
+PROGRESS demand_MW 12 /14
+START demand_MW_LSTM_L14_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L14_lr0.003_s17 200 E12 train=0.08032 val=0.08879 test=0.11550 bestVal=0.08566
+STEP demand_MW_LSTM_L14_lr0.003_s17 400 E23 train=0.07555 val=0.09047 test=0.11738 bestVal=0.08438
+STEP demand_MW_LSTM_L14_lr0.003_s17 600 E34 train=0.06990 val=0.08502 test=0.11318 bestVal=0.08291
+STEP demand_MW_LSTM_L14_lr0.003_s17 800 E45 train=0.06317 val=0.09043 test=0.11534 bestVal=0.08021
+DONE {"run": "demand_MW_LSTM_L14_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 14, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 619, "epochs": 50, "steps": 900, "best_train_loss": 0.06879037618637085, "best_validation_loss": 0.08021095395088196, "test_loss_at_val_checkpoint": 0.10784328728914261, "last_train_loss": 0.061474960297346115, "last_validation_loss": 0.09026671200990677, "last_test_loss": 0.11951741576194763, "seconds": 9.76600000000326, "step_log": "step_logs\\demand_MW_LSTM_L14_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L14_lr0.003_s17.pt"}
+PROGRESS demand_MW 13 /14
+START demand_MW_LSTM_L7_lr0.003_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298
+STEP demand_MW_LSTM_L7_lr0.003_s17 200 E12 train=0.08076 val=0.08862 test=0.11503 bestVal=0.08464
+STEP demand_MW_LSTM_L7_lr0.003_s17 400 E23 train=0.07690 val=0.08999 test=0.11778 bestVal=0.08420
+STEP demand_MW_LSTM_L7_lr0.003_s17 600 E34 train=0.07240 val=0.08567 test=0.11399 bestVal=0.08382
+STEP demand_MW_LSTM_L7_lr0.003_s17 800 E45 train=0.06848 val=0.09407 test=0.11513 bestVal=0.08172
+DONE {"run": "demand_MW_LSTM_L7_lr0.003_s17", "target": "demand_MW", "family": "LSTM", "seed": 17, "lookback": 7, "lr": 0.003, "parameters": 5409, "best_epoch": 35, "best_step": 621, "epochs": 50, "steps": 900, "best_train_loss": 0.07050498574972153, "best_validation_loss": 0.08172088116407394, "test_loss_at_val_checkpoint": 0.10692387074232101, "last_train_loss": 0.064154714345932, "last_validation_loss": 0.08709660917520523, "last_test_loss": 0.11338367313146591, "seconds": 5.327999999994063, "step_log": "step_logs\\demand_MW_LSTM_L7_lr0.003_s17.csv", "checkpoint": "checkpoints\\demand_MW_LSTM_L7_lr0.003_s17.pt"}
+PROGRESS demand_MW 14 /14

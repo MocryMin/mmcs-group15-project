@@ -1,0 +1,21 @@
+{
+  "group": "weather_wind",
+  "rows": 2086,
+  "features": [
+    "wind_forecast48h_location0",
+    "wind_cubic_forecast48h_location0",
+    "wind_forecast48h_location1",
+    "wind_cubic_forecast48h_location1",
+    "wind_forecast48h_location2",
+    "wind_cubic_forecast48h_location2"
+  ],
+  "sha256": "429c63599b6f3ca89cfd0d2337a12de0b5e2108e4a6b61789c6aef32be751549",
+  "source_url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=57.15,54.8,52.0&longitude=-2.09,1.8,-4.5&start_date=2021-01-01&end_date=2026-09-18&hourly=wind_speed_10m_previous_day2&models=jma_gsm&timezone=UTC",
+  "model": "JMA GSM",
+  "lead_hours_before_valid_time": 48,
+  "origin_date": "valid day minus one day",
+  "availability": "Fixed48h forecasts; every target-day hour predicted at least24h before end of origin. Not realised target-day weather.",
+  "aggregation": "24-hour mean wind speed km/h and mean cube of hourly wind speed m/s; all24 values required and present.",
+  "locations": "Aberdeen proxy, North Sea proxy, west Wales proxy, actual grid coordinates recorded upstream.",
+  "mechanism": "Regional wind predictability; cube of speed is a potential index, without claiming a specific hub-height correction, turbine power curve or farm geography."
+}

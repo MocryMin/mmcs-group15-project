@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "next_day_only": true,
+    "train_validation_disjoint": true,
+    "no_post_2023_evaluation": true,
+    "frozen_input_hash": true,
+    "train_only_scaling": true,
+    "72_fits": true,
+    "six_separate_selections": true,
+    "matched_per_model_parameters": true,
+    "selection_validation_only": true,
+    "single_output_target_heads": true,
+    "epoch_zero_matches_baseline": true,
+    "persistence_correct": true,
+    "checkpoint_replay": true,
+    "independent_loss_recalculation": true
+  },
+  "all_passed": true,
+  "max_loss_difference": 0.0,
+  "max_prediction_difference": 0.0,
+  "data_vintage_audited": false,
+  "test_used": false
+}

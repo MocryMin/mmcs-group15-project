@@ -1,0 +1,17 @@
+AUDIT {"checks": {"source_hashes": true, "train_only_mean_std": true, "origins_before_all_targets": true, "input_history_ends_at_origin": true, "targets_within_designated_split": true, "partial_2026_not_evaluated": true, "same_parameter_budget": true, "grid_all_24_runs": true, "selection_uses_validation_only": true, "validation_seasonal_naive_uses_only_past": true, "validation_physical_prediction_bounds": true, "test_seasonal_naive_uses_only_past": true, "test_physical_prediction_bounds": true, "independent_metric_recalculation": true}, "all_passed": true, "worst_metric_difference": 0.0, "data_vintage_audit": false, "data_vintage_note": "Frozen retrospectively repaired dataset. Source reconstruction/publication vintages were not re-created, so this is not an audited real-time data-vintage backtest."}
+split         model        target  horizon  MAE_mean  MAE_seed_sd  RMSE_mean  RMSE_seed_sd
+ test           RNN price_GBP_MWh        1 14.484137     0.427564  21.673169      0.414350
+ test           RNN price_GBP_MWh        3 19.310476     0.874392  26.240221      0.643186
+ test           RNN price_GBP_MWh        7 19.707833     1.165391  27.311358      0.879099
+ test          LSTM price_GBP_MWh        1 14.085774     0.175433  22.267444      0.079319
+ test          LSTM price_GBP_MWh        3 19.102819     0.404795  27.285676      0.477582
+ test          LSTM price_GBP_MWh        7 20.732713     0.620415  30.319469      0.549461
+ test   Persistence price_GBP_MWh        1 14.027792     0.000000  22.976095      0.000000
+ test   Persistence price_GBP_MWh        3 19.059356     0.000000  29.385687      0.000000
+ test   Persistence price_GBP_MWh        7 20.216380     0.000000  30.605033      0.000000
+ test SeasonalNaive price_GBP_MWh        1 20.330187     0.000000  30.704751      0.000000
+ test SeasonalNaive price_GBP_MWh        3 20.355159     0.000000  30.714446      0.000000
+ test SeasonalNaive price_GBP_MWh        7 20.216380     0.000000  30.605033      0.000000
+ test         Ridge price_GBP_MWh        1 14.754493     0.000000  21.934512      0.000000
+ test         Ridge price_GBP_MWh        3 19.903994     0.000000  27.165773      0.000000
+ test         Ridge price_GBP_MWh        7 22.084216     0.000000  29.995667      0.000000

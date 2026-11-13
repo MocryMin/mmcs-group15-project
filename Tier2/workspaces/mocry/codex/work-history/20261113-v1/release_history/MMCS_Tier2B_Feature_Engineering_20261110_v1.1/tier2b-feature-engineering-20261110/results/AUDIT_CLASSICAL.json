@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "model_target_cases_replayed_or_refitted": 297,
+  "chosen_configurations_refitted": 225,
+  "max_normalized_prediction_difference": 0.0,
+  "max_relative_metric_difference": 2.508015767173367e-16,
+  "frozen_reference_sources_verified": 7,
+  "selected_model_states_saved": [
+    "CPU_SELECTED_price_GBP_MWh_HGB_base.joblib",
+    "CPU_SELECTED_price_GBP_MWh_HGB_neso_demand+weather_wind.joblib",
+    "CPU_SELECTED_price_GBP_MWh_HGB_weather_wind+price_robust+bank_holidays.joblib"
+  ],
+  "val_only_parameter_selection": "parameters from existing val-selected rows; no test-based refitting choice"
+}

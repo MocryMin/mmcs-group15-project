@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "price_GBP_MWh_LSTM_10000_weather_wind+weather_solar_s17",
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "budget": 10000,
+    "parameters": 10121,
+    "features": 21,
+    "groups": "weather_wind+weather_solar",
+    "seed": 17,
+    "epoch": 32,
+    "step": 576,
+    "batch_loss": 0.018340446054935455,
+    "train_loss": 0.01901774172088556,
+    "validation_loss": 0.09618377697541375,
+    "test_loss": 0.05847769169077554,
+    "best_validation": 0.09618377697541375,
+    "improved": true,
+    "seconds": 2.0,
+    "epochs_ran": 47,
+    "updates": 846,
+    "wall_seconds": 2.922000000020489,
+    "device": "cuda",
+    "lookback": 14,
+    "lr": 0.003,
+    "checkpoint": "models/price_GBP_MWh_LSTM_10000_weather_wind+weather_solar_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.019017742183610506,
+      "MSE": 121.39503548332794,
+      "MAE": 8.23645960799166,
+      "RMSE": 11.017941526588709
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.09618377363404831,
+      "MSE": 613.9652383808346,
+      "MAE": 14.477958493269945,
+      "RMSE": 24.77832194441009
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.058477691683545274,
+      "MSE": 373.277825956907,
+      "MAE": 14.852979658118134,
+      "RMSE": 19.32039921836262
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

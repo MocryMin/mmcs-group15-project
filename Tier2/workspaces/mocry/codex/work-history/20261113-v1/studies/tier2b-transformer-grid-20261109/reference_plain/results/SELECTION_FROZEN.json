@@ -1,0 +1,56 @@
+{
+  "generation_MW|RNN": {
+    "target": "generation_MW",
+    "family": "RNN",
+    "lookback": 14,
+    "seed": 17,
+    "best_validation_loss": 0.1433229148387909,
+    "best_step": 196,
+    "run": "generation_MW_RNN_L14_lr0.003_s17"
+  },
+  "generation_MW|LSTM": {
+    "target": "generation_MW",
+    "family": "LSTM",
+    "lookback": 30,
+    "seed": 17,
+    "best_validation_loss": 0.1417944133281707,
+    "best_step": 604,
+    "run": "generation_MW_LSTM_L30_lr0.003_s17"
+  },
+  "demand_MW|RNN": {
+    "target": "demand_MW",
+    "family": "RNN",
+    "lookback": 7,
+    "seed": 17,
+    "best_validation_loss": 0.08307520300149918,
+    "best_step": 621,
+    "run": "demand_MW_RNN_L7_lr0.001_s17"
+  },
+  "demand_MW|LSTM": {
+    "target": "demand_MW",
+    "family": "LSTM",
+    "lookback": 14,
+    "seed": 17,
+    "best_validation_loss": 0.08021095395088196,
+    "best_step": 619,
+    "run": "demand_MW_LSTM_L14_lr0.003_s17"
+  },
+  "price_GBP_MWh|RNN": {
+    "target": "price_GBP_MWh",
+    "family": "RNN",
+    "lookback": 30,
+    "seed": 17,
+    "best_validation_loss": 0.11234734207391739,
+    "best_step": 1103,
+    "run": "price_GBP_MWh_RNN_L30_lr0.001_s17"
+  },
+  "price_GBP_MWh|LSTM": {
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "lookback": 14,
+    "seed": 17,
+    "best_validation_loss": 0.10944726318120956,
+    "best_step": 845,
+    "run": "price_GBP_MWh_LSTM_L14_lr0.003_s17"
+  }
+}

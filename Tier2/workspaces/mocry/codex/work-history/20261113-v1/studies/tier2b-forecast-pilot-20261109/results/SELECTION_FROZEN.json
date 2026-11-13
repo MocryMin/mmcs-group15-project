@@ -1,0 +1,20 @@
+{
+  "selected": {
+    "RNN": {
+      "family": "RNN",
+      "lookback": 56,
+      "lr": 0.003,
+      "mean": 0.2501866767803828,
+      "std": 0.0010599566077228212
+    },
+    "LSTM": {
+      "family": "LSTM",
+      "lookback": 28,
+      "lr": 0.001,
+      "mean": 0.28245312968889874,
+      "std": 0.012620053150996773
+    }
+  },
+  "criterion": "mean validation squared error after train-only target standardisation; equal target/horizon weights; average across three seeds",
+  "test_metrics_accessed": false
+}

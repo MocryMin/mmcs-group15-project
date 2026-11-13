@@ -1,0 +1,7 @@
+{
+  "archive": "MMCS_Tier2B_Joint_RNN_LSTM_10x_20261110_v1.1.zip",
+  "sha256": "011ad3bcd8f6c30222a5c39f3e79729cdf19c6f915897f361c5ff99777e731c7",
+  "files_verified": 94,
+  "purpose": "Immutable prior15-epoch-patience fixed-policy study; all new arms use matched30-epoch patience",
+  "data_model_features_windows_unchanged": true
+}

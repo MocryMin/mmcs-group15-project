@@ -1,0 +1,78 @@
+{
+  "row": {
+    "run": "demand_MW_RNN_L7_lr0.001_s17",
+    "target": "demand_MW",
+    "family": "RNN",
+    "lookback": 7,
+    "lr": 0.001,
+    "seed": 17,
+    "stage": "baseline_confirmation",
+    "device": "cpu",
+    "eval_batch": 2048,
+    "parameters": 5373,
+    "best_epoch": 35,
+    "best_step": 621,
+    "epochs": 50,
+    "steps": 900,
+    "best_train_loss": 0.0745278609199548,
+    "best_validation_loss": 0.0830752059731171,
+    "test_loss_at_val_checkpoint": 0.1082135104448444,
+    "last_train_loss": 0.0705769562546913,
+    "last_validation_loss": 0.0876278683456073,
+    "last_test_loss": 0.1126365362044504,
+    "seconds": 5.10899999999674,
+    "checkpoint": "checkpoints/demand_MW_RNN_L7_lr0.001_s17.pt",
+    "step_log": "step_logs/demand_MW_RNN_L7_lr0.001_s17.csv",
+    "metadata_recovered": true
+  },
+  "metrics": [
+    {
+      "target": "demand_MW",
+      "family": "RNN",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "train",
+      "loss": 0.07452786062119333,
+      "MSE": 1194415.7059745614,
+      "RMSE": 1092.893272911203,
+      "MAE": 852.4419647060218
+    },
+    {
+      "target": "demand_MW",
+      "family": "RNN",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "validation",
+      "loss": 0.08307520568489524,
+      "MSE": 1331399.1522103252,
+      "RMSE": 1153.86270942878,
+      "MAE": 898.5366557857355
+    },
+    {
+      "target": "demand_MW",
+      "family": "RNN",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "test",
+      "loss": 0.10821351243259453,
+      "MSE": 1734276.5211672978,
+      "RMSE": 1316.9193297872494,
+      "MAE": 1007.4648856776141
+    }
+  ],
+  "signature": {
+    "model.py": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+    "fit_core.py": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  },
+  "original_training_fit_core_sha256": "b1453e01e630c51df0a7e9cf320e2dc4cee4d759ffb4e308872783a7906f2cad",
+  "numeric_state_sha256": "6a4fb5a82e80336ec55f1aeca225e4ae232de468b9965dd95ceffb7cd1b26c3d"
+}

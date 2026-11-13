@@ -1,0 +1,152 @@
+[
+  {
+    "target": "generation_MW",
+    "family": "Transformer",
+    "budget": 10000,
+    "groups": "balance",
+    "pool": "self_features",
+    "preprocessing": "strict-confirmation/preprocessing/generation_MW_Transformer_10000_balance.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/generation_MW_Transformer_10000_balance_s17.pt",
+        "sha256": "068a84a1b899adc8500fb89bb2525160798d86889dc4aaf56d9ba2ef152c4a57"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/generation_MW_Transformer_10000_balance_s29.pt",
+        "sha256": "062e854197465e442abc684cca9df8fd5c958e344d8cf13a0eaab6e5b552b315"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/generation_MW_Transformer_10000_balance_s43.pt",
+        "sha256": "3fda2289073bc780092b306052f6297edc6db1ebda0bc4996837b01fb6eeb20b"
+      }
+    ]
+  },
+  {
+    "target": "generation_MW",
+    "family": "LSTM",
+    "budget": 10000,
+    "groups": "neso_demand+weather_wind",
+    "pool": "external_forecasts",
+    "preprocessing": "strict-confirmation/preprocessing/generation_MW_LSTM_10000_neso_demand+weather_wind.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/generation_MW_LSTM_10000_neso_demand+weather_wind_s17.pt",
+        "sha256": "a62061beb42399cc5d796b018ac65f2d745bb3aab135e948af56776546cb0957"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/generation_MW_LSTM_10000_neso_demand+weather_wind_s29.pt",
+        "sha256": "e49b85cf9804a4daad80df25787a49207b99309ab49383799ff3104f279e640d"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/generation_MW_LSTM_10000_neso_demand+weather_wind_s43.pt",
+        "sha256": "ecfec41298f9e67cab797b69625d26c37b49f9363650e5da4515cd69fd1e9a96"
+      }
+    ]
+  },
+  {
+    "target": "demand_MW",
+    "family": "Transformer",
+    "budget": 5000,
+    "groups": "bank_holidays+weather_temp",
+    "pool": "self_features",
+    "preprocessing": "strict-confirmation/preprocessing/demand_MW_Transformer_5000_bank_holidays+weather_temp.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_5000_bank_holidays+weather_temp_s17.pt",
+        "sha256": "eaf12f5b0501ab00603d6ae0b7f7d5c6ea79798c6e5a84f8cb5631a7263eabea"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_5000_bank_holidays+weather_temp_s29.pt",
+        "sha256": "9ea1e7329c921cc694d780305818599efd3d54f59bdacf6a3330dcf51600101f"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_5000_bank_holidays+weather_temp_s43.pt",
+        "sha256": "1b82964d60906994309925e234ea2b7c1078624e6716888848470cecc2e4de76"
+      }
+    ]
+  },
+  {
+    "target": "demand_MW",
+    "family": "Transformer",
+    "budget": 10000,
+    "groups": "neso_demand",
+    "pool": "external_forecasts",
+    "preprocessing": "strict-confirmation/preprocessing/demand_MW_Transformer_10000_neso_demand.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_10000_neso_demand_s17.pt",
+        "sha256": "6b303881e652b46e65c9117262a8f7a41364571dd4b0ed9b1ee851d1400328f9"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_10000_neso_demand_s29.pt",
+        "sha256": "cf80bde77948720244b01814892b567ba1e76d3388e4a2d2fe2d01d3df454dfe"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/demand_MW_Transformer_10000_neso_demand_s43.pt",
+        "sha256": "8dc7b36ff772a2869f8b9cec9414a97c0ad363ed016b46ac020e302bb603c63d"
+      }
+    ]
+  },
+  {
+    "target": "price_GBP_MWh",
+    "family": "Transformer",
+    "budget": 5000,
+    "groups": "weather_wind",
+    "pool": "self_features",
+    "preprocessing": "strict-confirmation/preprocessing/price_GBP_MWh_Transformer_5000_weather_wind.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_Transformer_5000_weather_wind_s17.pt",
+        "sha256": "4699917b743fb161c59b5298634c8135e7a2b06ae401ebd7dae1dd6898e5a2ec"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_Transformer_5000_weather_wind_s29.pt",
+        "sha256": "cc7ba0c1f6438c35608d33d84dba3474e0ec9f6d4910b724dccee9625a32d1b0"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_Transformer_5000_weather_wind_s43.pt",
+        "sha256": "6239a8e0bf45fd8dd115b95a475eb8f5a8d3af3b4c531fe8c0076897e6ed4bdb"
+      }
+    ]
+  },
+  {
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "budget": 10000,
+    "groups": "neso_demand+weather_wind",
+    "pool": "external_forecasts",
+    "preprocessing": "strict-confirmation/preprocessing/price_GBP_MWh_LSTM_10000_neso_demand+weather_wind.json",
+    "checkpoints": [
+      {
+        "seed": 17,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_LSTM_10000_neso_demand+weather_wind_s17.pt",
+        "sha256": "f3378bb739cecdfd9553d1011d96ffbc98cdc6fd7120a698d2f22c87557a1f28"
+      },
+      {
+        "seed": 29,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_LSTM_10000_neso_demand+weather_wind_s29.pt",
+        "sha256": "69db3265fe3f41ad806f1ae4cda7ec216ba09a3ab0c4123061d952a5f5234626"
+      },
+      {
+        "seed": 43,
+        "checkpoint": "strict-confirmation/models/price_GBP_MWh_LSTM_10000_neso_demand+weather_wind_s43.pt",
+        "sha256": "9d7f9c2ff43eb27be5399b341ab1385935ded6ac6b40c76967a3c5dea6598013"
+      }
+    ]
+  }
+]

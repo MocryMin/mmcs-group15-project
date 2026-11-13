@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "torch": "2.14.1+cu130",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.5.0",
+    "matplotlib": "3.11.2"
+  },
+  "training_device": "RTX5090Laptop CUDA; concurrent GPU processes; classical CPU jobs with2BLASthreads"
+}

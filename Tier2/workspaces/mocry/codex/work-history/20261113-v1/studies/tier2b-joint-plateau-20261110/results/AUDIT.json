@@ -1,0 +1,229 @@
+{
+  "all_passed": true,
+  "fits": 24,
+  "policies": 4,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "reference_manifest_files_verified": 94,
+  "all_events_reconstructed_from_val_only": true,
+  "matched_30_epoch_patience": true,
+  "no_schedule_reset_of_early_stop_clock": true,
+  "every_step_full_joint_and_components": true,
+  "checkpoint_parameters_match_log": true,
+  "max_normalised_replay_prediction_difference": 0.0,
+  "max_relative_metric_difference": 2.5146406391273994e-16,
+  "max_metric_vs_logged_loss_difference": 3.1559430346828066e-09,
+  "initial_trajectory_comparisons": [
+    {
+      "family": "RNN",
+      "seed": 17,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 17,
+      "comparison": "lr_only before first intervention",
+      "steps": 324,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 17,
+      "comparison": "reg_only before first intervention",
+      "steps": 324,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 17,
+      "comparison": "combined before first intervention",
+      "steps": 324,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 29,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 29,
+      "comparison": "lr_only before first intervention",
+      "steps": 342,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 29,
+      "comparison": "reg_only before first intervention",
+      "steps": 342,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 29,
+      "comparison": "combined before first intervention",
+      "steps": 342,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 43,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 43,
+      "comparison": "lr_only before first intervention",
+      "steps": 306,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 43,
+      "comparison": "reg_only before first intervention",
+      "steps": 306,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "RNN",
+      "seed": 43,
+      "comparison": "combined before first intervention",
+      "steps": 306,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 17,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 17,
+      "comparison": "lr_only before first intervention",
+      "steps": 486,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 17,
+      "comparison": "reg_only before first intervention",
+      "steps": 486,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 17,
+      "comparison": "combined before first intervention",
+      "steps": 486,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 29,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 29,
+      "comparison": "lr_only before first intervention",
+      "steps": 450,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 29,
+      "comparison": "reg_only before first intervention",
+      "steps": 450,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 29,
+      "comparison": "combined before first intervention",
+      "steps": 450,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 43,
+      "comparison": "old15 vs new30 prefix",
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 43,
+      "comparison": "lr_only before first intervention",
+      "steps": 540,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 43,
+      "comparison": "reg_only before first intervention",
+      "steps": 540,
+      "max_loss_difference": 0.0
+    },
+    {
+      "family": "LSTM",
+      "seed": 43,
+      "comparison": "combined before first intervention",
+      "steps": 540,
+      "max_loss_difference": 0.0
+    }
+  ],
+  "cpu_cuda_replay": [
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "max_normalised_difference": 2.5033950805664062e-06
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "max_normalised_difference": 8.642673492431641e-07
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "max_normalised_difference": 2.4437904357910156e-06
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "max_normalised_difference": 1.3113021850585938e-06
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "max_normalised_difference": 2.086162567138672e-06
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "max_normalised_difference": 2.086162567138672e-06
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "max_normalised_difference": 2.086162567138672e-06
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "max_normalised_difference": 2.086162567138672e-06
+    }
+  ],
+  "optimizer_updates": 27360,
+  "evaluation_rows": 27384,
+  "test_is_monitored_not_blind": true,
+  "MPC_evaluated": false
+}

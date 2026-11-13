@@ -1,0 +1,84 @@
+{
+  "errors": [],
+  "tests": [
+    {
+      "name": "toggle_course",
+      "pass": true
+    },
+    {
+      "name": "toggle_nd",
+      "pass": true
+    },
+    {
+      "name": "toggle_tsd",
+      "pass": true
+    },
+    {
+      "name": "toggle_ndf",
+      "pass": true
+    },
+    {
+      "name": "toggle_tsdf",
+      "pass": true
+    },
+    {
+      "name": "toggle_cardinal",
+      "pass": true
+    },
+    {
+      "name": "all",
+      "pass": true
+    },
+    {
+      "name": "leap_month",
+      "pass": true
+    },
+    {
+      "name": "single_day",
+      "pass": true
+    },
+    {
+      "name": "pan",
+      "pass": true
+    },
+    {
+      "name": "overview_extras",
+      "pass": true
+    },
+    {
+      "name": "csv",
+      "pass": true
+    },
+    {
+      "name": "png",
+      "pass": true
+    },
+    {
+      "name": "mobile",
+      "pass": true
+    },
+    {
+      "name": "box_zoom_fixed_and_retested",
+      "pass": true,
+      "count": 156
+    }
+  ],
+  "renderer": "ApacheECharts6Canvas",
+  "followup": {
+    "errors": [],
+    "box_zoom": {
+      "pass": true,
+      "count": 156
+    },
+    "pan": {
+      "pass": true,
+      "firstDate": "2025-07-24"
+    },
+    "single": {
+      "count": 1,
+      "symbols": true
+    }
+  },
+  "slider_and_color_followup": {"slider":{"pass":true,"count":135},"colors":{"unique":true,"colors":["#f2f4f8","#22d3ee","#34d399","#fb7185","#facc15","#e879f9"],"hidden_irrelevant":true}},
+  "all_passed": true
+}

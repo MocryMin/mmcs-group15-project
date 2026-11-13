@@ -1,0 +1,75 @@
+{
+  "row": {
+    "run": "price_GBP_MWh_Transformer_L56_lr0.003_s17",
+    "target": "price_GBP_MWh",
+    "family": "Transformer",
+    "lookback": 56,
+    "lr": 0.003,
+    "seed": 17,
+    "stage": "screen",
+    "device": "cuda",
+    "eval_batch": 2048,
+    "parameters": 5407,
+    "best_epoch": 13,
+    "best_step": 221,
+    "epochs": 28,
+    "steps": 504,
+    "best_train_loss": 0.10989004765055128,
+    "best_validation_loss": 0.10660612740043386,
+    "test_loss_at_val_checkpoint": 0.06751995722680647,
+    "last_train_loss": 0.08497096401617656,
+    "last_validation_loss": 0.11023373970188757,
+    "last_test_loss": 0.06926810370578938,
+    "seconds": 10.90700000000652,
+    "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L56_lr0.003_s17.pt",
+    "step_log": "step_logs\\price_GBP_MWh_Transformer_L56_lr0.003_s17.csv"
+  },
+  "metrics": [
+    {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "train",
+      "loss": 0.10989004827619932,
+      "MSE": 701.455839550204,
+      "RMSE": 26.485011601851415,
+      "MAE": 17.760697399513386
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "validation",
+      "loss": 0.10660612890937071,
+      "MSE": 680.4937556071319,
+      "RMSE": 26.086275234443338,
+      "MAE": 14.94380695795583
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "lookback": 56,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "screen",
+      "split": "test",
+      "loss": 0.06751995746134735,
+      "MSE": 430.99688452590743,
+      "RMSE": 20.76046445833781,
+      "MAE": 15.611444709169245
+    }
+  ],
+  "signature": {
+    "model.py": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+    "fit_core.py": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  }
+}

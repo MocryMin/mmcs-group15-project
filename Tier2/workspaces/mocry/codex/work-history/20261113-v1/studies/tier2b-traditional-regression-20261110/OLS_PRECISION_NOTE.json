@@ -1,0 +1,9 @@
+{
+  "initial_failed_check": "OLSResidual_L56_a0 normal-equation relative residual 1.5165541948888508e-08 exceeded the predeclared 1e-08 tolerance",
+  "observed_max_absolute_coefficient": 1661789.6273632306,
+  "cause": "Near-duplicate lagged calendar features rounded to float32 produced numerically small singular directions",
+  "correction": "Use a precision-aware relative SVD cutoff 1e-6 for OLS only; verify the projected normal equations of that retained subspace at tolerance1e-8, and full normal equations for Ridge",
+  "chosen_using": "Numerical normal-equation audit, not validation/test predictive performance",
+  "Ridge_or_calendar_fit_changed": false,
+  "neural_experiments_changed": false
+}

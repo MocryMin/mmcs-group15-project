@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "generation_MW_Transformer_5000_neso_demand+weather_wind_s17",
+    "target": "generation_MW",
+    "family": "Transformer",
+    "budget": 5000,
+    "parameters": 5009,
+    "features": 20,
+    "groups": "neso_demand+weather_wind",
+    "seed": 17,
+    "epoch": 38,
+    "step": 671,
+    "batch_loss": 0.07335886359214783,
+    "train_loss": 0.07598010578349942,
+    "validation_loss": 0.13536209381072853,
+    "test_loss": 0.149318074186843,
+    "best_validation": 0.13536209381072853,
+    "improved": true,
+    "seconds": 6.264999999984866,
+    "epochs_ran": 53,
+    "updates": 954,
+    "wall_seconds": 8.85899999999674,
+    "device": "cuda",
+    "lookback": 7,
+    "lr": 0.001,
+    "checkpoint": "models/generation_MW_Transformer_5000_neso_demand+weather_wind_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.07598010607409682,
+      "MSE": 2084717.8642048691,
+      "MAE": 1108.7503274552244,
+      "RMSE": 1443.8552088782549
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.13536209197059826,
+      "MSE": 3714021.812394569,
+      "MAE": 1447.202842839164,
+      "RMSE": 1927.179756118917
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.14931807241082065,
+      "MSE": 4096941.5428283783,
+      "MAE": 1576.1366489679494,
+      "RMSE": 2024.0903000677558
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

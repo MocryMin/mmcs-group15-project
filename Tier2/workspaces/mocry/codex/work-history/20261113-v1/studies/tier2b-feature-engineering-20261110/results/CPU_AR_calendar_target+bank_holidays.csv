@@ -1,0 +1,10 @@
+target,family,groups,features,parameter,transform,split,loss,MAE,RMSE
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.11776084676587106,1356.9251291285573,1797.5217585674766
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.1523232406622899,1471.1956637948085,2044.357206737902
+generation_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.18504843214077055,1768.3378785984048,2253.286429253563
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.07174621005781184,835.0123118011178,1072.3039549445111
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.07504973122241376,878.6063783795274,1096.7130115883654
+demand_MW,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.09915988249732227,990.5247870379533,1260.6264850297846
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,train,0.12543622076217906,18.889098605709844,28.296483382106214
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,validation,0.10970418883690117,15.483962557648903,26.462604784201208
+price_GBP_MWh,CalendarAR,calendar_target+bank_holidays,32,OLS calendar+2 residual terms; same model as frozen baseline,raw,test,0.06903426781186106,15.629415918003572,20.991977245457083

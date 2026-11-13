@@ -1,0 +1,57 @@
+{
+  "scope": "Preliminary Tier2B structural check, not a forecast/controller experiment",
+  "training_years": "2020-2022",
+  "training_days": 1096,
+  "netback_GBP2020_kg": 7.7990270551508845,
+  "hydrogen_equivalent_GBP2020_MWh": 139.51747862523945,
+  "conditions": "Current daily throughput, costs, A/B policies; no cross-day sales budget or hydrogen stock",
+  "model_sha256": "e3cfcc6081de2364fe5aabee77aa12b48834b033c31d287cf691e2e62e134b25",
+  "policies": {
+    "A": {
+      "battery_bound": {
+        "free_charge_revenue_ceiling": 0.06665393655190528,
+        "annual_cost": 0.09635591961122444,
+        "ruled_out": true
+      },
+      "hydrogen_candidates": [
+        {
+          "modules": 0,
+          "gain_mGBP2020_year": 0.0
+        },
+        {
+          "modules": 1,
+          "gain_mGBP2020_year": 10.657033943696025
+        },
+        {
+          "modules": 2,
+          "gain_mGBP2020_year": 9.89596994296377
+        }
+      ],
+      "chosen_battery_modules": 0,
+      "chosen_electrolyser_modules": 1
+    },
+    "B": {
+      "battery_bound": {
+        "free_charge_revenue_ceiling": 0.04733676192460643,
+        "annual_cost": 0.09635591961122444,
+        "ruled_out": true
+      },
+      "hydrogen_candidates": [
+        {
+          "modules": 0,
+          "gain_mGBP2020_year": 0.0
+        },
+        {
+          "modules": 1,
+          "gain_mGBP2020_year": 3.4339139758361372
+        },
+        {
+          "modules": 2,
+          "gain_mGBP2020_year": 1.479646251666952
+        }
+      ],
+      "chosen_battery_modules": 0,
+      "chosen_electrolyser_modules": 1
+    }
+  }
+}

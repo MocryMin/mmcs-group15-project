@@ -1,0 +1,21 @@
+{
+  "group": "neso_wind",
+  "rows": 2086,
+  "features": [
+    "neso_wind_mean",
+    "neso_wind_capacity",
+    "neso_wind_n",
+    "missing_forecast",
+    "forecast_stale_days"
+  ],
+  "sha256": "6d1342e3497b02965f3f23038a2a11946bdd1e9092fbcca3f27e7e57fd1b7d6f",
+  "source_url": "https://api.neso.energy/dataset/fbe3701d-1487-443e-abe9-47a6c01ecce2/resource/7524ec65-f782-4258-aaf8-5b926c17b966/download/7524ec65-f782-4258-aaf8-5b926c17b966-20261109084501.csv",
+  "availability": "Only forecast timestamps strictly before valid UTC day00 survive; origin is prior UTC day. All retained latest_issue timestamps independently asserted before cutoff.",
+  "aggregation": "Latest available issue per cardinal point (demand) or UTC halfhour (wind), then mean/min/max or wind mean. These are forecast covariates, not realised daily targets.",
+  "not_a_scratch_forecast": "This experiment imports NESO professional forecasts; report independently of self-built weather/history predictors.",
+  "missing_days": 341,
+  "max_stale_days": 148,
+  "imputation": "Past forecast carried forward with missingness and age flags. Never interpolation from future.",
+  "future_or_bad_issue_rejected": 18457,
+  "important_limitation": "UTC boundary excludes BST tail halfhours not yet published at origin; n is retained. Current archive has a long unavailable tail after2026-04-23 under this strict timestamp rule."
+}

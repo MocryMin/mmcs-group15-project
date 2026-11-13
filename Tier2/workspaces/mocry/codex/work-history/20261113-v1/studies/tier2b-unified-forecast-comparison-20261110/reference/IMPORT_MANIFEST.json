@@ -1,0 +1,667 @@
+[
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_RNN_L14_lr0.003_s17.npz",
+    "sha256": "f9bf13f6169c7d8ed80d757ad61e58de9a4f3cce0b21557607590c1a09ad1181"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_RNN_L7_lr0.001_s17.npz",
+    "sha256": "71a3a8b0d22df13c3fa49a4d1a4e2a81cc0be17cea5ae580468f00937b53d823"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s17.npz",
+    "sha256": "68d8018520745c2e0f0e1083e23af731734495e3ea5e6a2a33357b510e4ff35f"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_RNN_L14_lr0.003_s29.npz",
+    "sha256": "736e23e7197face13641a057c3043741b56f5232d68222bcefdff8b8951c1edb"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_RNN_L7_lr0.001_s29.npz",
+    "sha256": "a4982676b8130e718fc0be6ec38a2f884b4eb69fd8f5a3e0bf7212519afe94d2"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s29.npz",
+    "sha256": "4d074c2ebb449c328811f96d670570f81cdc94512097cf9f7d46b24e1a8636bf"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_RNN_L14_lr0.003_s43.npz",
+    "sha256": "f93aedcc293831b27a0b3762b4ea79a805d11adb6d69579ae18ef0441cf52cf6"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_RNN_L7_lr0.001_s43.npz",
+    "sha256": "ccd539446e80149c69a308989546290018b2fb3b04ecd273df5a6b1da47a3ab8"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s43.npz",
+    "sha256": "837c10e9b256c9e31caf7e8a694dd6684449fa1df8744f2949e4ced2b4b1c2fc"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_LSTM_L30_lr0.003_s17.npz",
+    "sha256": "17dcde8fd4004d2105ade178825e94dc764f49258667e86c2cb27e2ef0271e4d"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_LSTM_L14_lr0.003_s17.npz",
+    "sha256": "4f79e8d6a4d1b42d1b58c1b56d4dc5215b6ed3ddde8133186a00691b1deaea0a"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s17.npz",
+    "sha256": "ef93342d54ba8b95fc8e901ab70dfb4bbcb66b5dd2c2c418624eeb29719cf957"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_LSTM_L30_lr0.003_s29.npz",
+    "sha256": "9bc5a33e15161655cfb900b6ad87e4fe43b5b43e289896435f91977a2f9cbc76"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_LSTM_L14_lr0.003_s29.npz",
+    "sha256": "9c2b4c4be67e830498c2039ae8a4c57cc752605a043e7c780dca4477a7d1e1ad"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s29.npz",
+    "sha256": "2c85760f2a991cd8c9c90511d8dc6b4eb193aedc6782929addbfd40bf694e94e"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_LSTM_L30_lr0.003_s43.npz",
+    "sha256": "81a25e218fb012fd4111dd7541ef960c3b51a4ece3eb331e3ea7c55adb8a704e"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_LSTM_L14_lr0.003_s43.npz",
+    "sha256": "707726a39a9ff73058c2fed84093b741a6070f9065a092081bc7b57329419ebc"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s43.npz",
+    "sha256": "a002cd530b3b38722e17cb64f4621354431771502c0529a70cd4327d1f3b55b6"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s17.npz",
+    "sha256": "341111c5a686ecd22dba0a5ad1e295650131de40d9fabe412c4092b573349351"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s17.npz",
+    "sha256": "d1e6ec024c609c4e861b256a8353b5fa35bd96859bb1b0dc9fe62e4e90a41578"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s17.npz",
+    "sha256": "9e7832666c68fb9396588c46277b4a985ef18e195f27a53f4746e96e82aefd53"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s29.npz",
+    "sha256": "9f08c52f437081fcc272d5c4111bf0121bd4fe76e441144dda211720b782cd2d"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s29.npz",
+    "sha256": "326a6c8a5100d78df7a4d924627d1983fc87c41f0282001441562297ebe4109c"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s29.npz",
+    "sha256": "17d89a2718fc33b2b5f458e15a0d17666094070f5ed62bd5494f5bf5991119bb"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s43.npz",
+    "sha256": "b35dd0a72a64c1f26be417abd255f307c9b12339fb070ab2e3b5be21e495154c"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s43.npz",
+    "sha256": "c0d9c9d3d1eb347824f1ef879b696953087113b749a931d1b0829586e0e6e196"
+  },
+  {
+    "folder": "tier2b-transformer-grid-20261109",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s43.npz",
+    "sha256": "660add1bc4d86d6d45258f086c5a25c022d363eb473345351b41d4bff88f8cf6"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s17.npz",
+    "sha256": "53685491eef70b1b4ed03064c837def83b8d65c129c15ac14d156908ad3202bd"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s17.npz",
+    "sha256": "201683e06dc605b5abd9ce2251bbed22dcb8980530444b0f92560ad00de9b96c"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s17.npz",
+    "sha256": "d53aeebe44d3e672e39f98e0eecd3f81dc39ac2fa2006fd1f0b75d8cd552ddc0"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s29.npz",
+    "sha256": "0f339db0775f1ab37b35a3b81e7f818e1b22b53aab2a7c51451a3dc42da8486c"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s29.npz",
+    "sha256": "5c75463d6c5267d4e8d205009c525c787a09d648ed86d305c2be284388a38658"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s29.npz",
+    "sha256": "bab7524ce2bdb337941b5bdab5e575c791b6c324eca5fb271745105b98be7b59"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/generation_MW_Transformer_L7_lr0.001_s43.npz",
+    "sha256": "23c89d525daab94acc5e268eadd84b8255cba4d94e572aa0543dfcb24718ca6e"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/demand_MW_Transformer_L7_lr0.001_s43.npz",
+    "sha256": "f49b26c098a8cb129ee709ec84c9f4e5822dd3e18d8f8b29ec00273c9918c664"
+  },
+  {
+    "folder": "tier2b-transformer-10x-20261110",
+    "path": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s43.npz",
+    "sha256": "c839cdca5629065547f057f89ea7b910e82340583708d073e85d58e3705561f3"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_small_joint_L28_lr0.003_s17.npz",
+    "sha256": "98811f246f30d468534cf17e087ab0986c4903ee82c0f9cacd53307b24223b7a"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_small_joint_L28_lr0.003_s29.npz",
+    "sha256": "8e7877eaee9e3ebf836437647cf35c973d70a625523a7d31b543741fe2d780be"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_small_joint_L28_lr0.003_s43.npz",
+    "sha256": "5b5ac4ff2b1f845a616e28953a313e439589683ae4d4deccc15b523c519d0b51"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_large_joint_L28_lr0.003_s17.npz",
+    "sha256": "286760d78de2965be2ea536c8f5bb95fbf48a2e8465dc2ad4c937532bac2080b"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_large_joint_L28_lr0.003_s29.npz",
+    "sha256": "5c2208a8b1e64c469bac937803d2cbbea9733a15c6ee86e49ff2a8be381585a7"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/RNN_large_joint_L28_lr0.003_s43.npz",
+    "sha256": "04f0e473cb81f92a986573cfca8ee23235ef874656dc7220c344022a82ccca0b"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_small_joint_L56_lr0.003_s17.npz",
+    "sha256": "08d1d67f3a1673cbb7bb27be67924de2f5bb7c32d0ad7b55c7cd81ffbecc9e8e"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_small_joint_L56_lr0.003_s29.npz",
+    "sha256": "6a24e12a3bb587dc6e43b1105c1ddbf57dc1e176c63847a1f66e3fddbed485ec"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_small_joint_L56_lr0.003_s43.npz",
+    "sha256": "b547644bbb0d31035afa4e294c74de3cafcc07e4453f19dbcae8bd11d0de79ca"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_large_joint_L56_lr0.003_s17.npz",
+    "sha256": "5c94459c557d7a42c1c280338c2b56e44afdf65ce2e85b775ddecb0ec78c6d99"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_large_joint_L56_lr0.003_s29.npz",
+    "sha256": "b65c687f84d0ca24b5a39072eb8b41f8643762734704b5a9b89c2f74120520d3"
+  },
+  {
+    "folder": "tier2b-joint-rnn-lstm-10x-20261110",
+    "path": "predictions/LSTM_large_joint_L56_lr0.003_s43.npz",
+    "sha256": "5b743721a942968f9701c16ba7fc32c32ad59bb368be9e4cae9806c08d427356"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_fixed_joint_L28_s17.npz",
+    "sha256": "a84c74b65f3fedfbf5f149fdcf320138ec5ebdcbe6b7ca5b55818b6b93be100a"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_fixed_joint_L28_s29.npz",
+    "sha256": "5c2208a8b1e64c469bac937803d2cbbea9733a15c6ee86e49ff2a8be381585a7"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_fixed_joint_L28_s43.npz",
+    "sha256": "7f666167efb3e979ce1811e486931647dc4fae9c9aa9d319a6dee1d71c40b861"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_lr_only_joint_L28_s17.npz",
+    "sha256": "2a07385c9667ca4c6b3a0fc4407973c8ae13a94088ee82fd4e576c4b82f4c520"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_lr_only_joint_L28_s29.npz",
+    "sha256": "e342cb3285c110f7c1b1bfdfb7158bd0aaffd591986b3b46815353b9943d49b1"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_lr_only_joint_L28_s43.npz",
+    "sha256": "04f0e473cb81f92a986573cfca8ee23235ef874656dc7220c344022a82ccca0b"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_reg_only_joint_L28_s17.npz",
+    "sha256": "83ffbeebbc615ef4b9f40a30a3bca15cf044928d442b077fdc064e60efe7414a"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_reg_only_joint_L28_s29.npz",
+    "sha256": "c6eeaf88606822a414e74d688a26c69fb8e49ef5818dcddaee2a7b88a2429279"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_reg_only_joint_L28_s43.npz",
+    "sha256": "04f0e473cb81f92a986573cfca8ee23235ef874656dc7220c344022a82ccca0b"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_combined_joint_L28_s17.npz",
+    "sha256": "a00913334e2d58e63c042f8166c35b1223aabb718448bb3d0863bbbb4b019032"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_combined_joint_L28_s29.npz",
+    "sha256": "8bc3e56e6e17ecc440073f56edd55e9991f16709c142a3c76e3adff59b3549ca"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/RNN_combined_joint_L28_s43.npz",
+    "sha256": "04f0e473cb81f92a986573cfca8ee23235ef874656dc7220c344022a82ccca0b"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_fixed_joint_L56_s17.npz",
+    "sha256": "5c94459c557d7a42c1c280338c2b56e44afdf65ce2e85b775ddecb0ec78c6d99"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_fixed_joint_L56_s29.npz",
+    "sha256": "8b9b15ddb829cec90099662b4890554fdd471c5213e1f03d2e4baada8f30a679"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_fixed_joint_L56_s43.npz",
+    "sha256": "5b743721a942968f9701c16ba7fc32c32ad59bb368be9e4cae9806c08d427356"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_lr_only_joint_L56_s17.npz",
+    "sha256": "5c94459c557d7a42c1c280338c2b56e44afdf65ce2e85b775ddecb0ec78c6d99"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_lr_only_joint_L56_s29.npz",
+    "sha256": "b65c687f84d0ca24b5a39072eb8b41f8643762734704b5a9b89c2f74120520d3"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_lr_only_joint_L56_s43.npz",
+    "sha256": "5b743721a942968f9701c16ba7fc32c32ad59bb368be9e4cae9806c08d427356"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_reg_only_joint_L56_s17.npz",
+    "sha256": "5c94459c557d7a42c1c280338c2b56e44afdf65ce2e85b775ddecb0ec78c6d99"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_reg_only_joint_L56_s29.npz",
+    "sha256": "704708024880b203ceb4947c5993e0a22a184090c0f8938e5ff72b57a06a3b9b"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_reg_only_joint_L56_s43.npz",
+    "sha256": "5b743721a942968f9701c16ba7fc32c32ad59bb368be9e4cae9806c08d427356"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_combined_joint_L56_s17.npz",
+    "sha256": "5c94459c557d7a42c1c280338c2b56e44afdf65ce2e85b775ddecb0ec78c6d99"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_combined_joint_L56_s29.npz",
+    "sha256": "b65c687f84d0ca24b5a39072eb8b41f8643762734704b5a9b89c2f74120520d3"
+  },
+  {
+    "folder": "tier2b-joint-plateau-20261110",
+    "path": "predictions/LSTM_combined_joint_L56_s43.npz",
+    "sha256": "5b743721a942968f9701c16ba7fc32c32ad59bb368be9e4cae9806c08d427356"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/Persistence.npz",
+    "sha256": "562b680b0e77f300a3c85db18c976e62037c3e8fcf663e7c99aa88a95a90fcdb"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/Seasonal7.npz",
+    "sha256": "c9bdc10c38ad15992c9bbb8cbf9f7605b3966e97e077c5bf55b3b7055ca3cf23"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/Mean28.npz",
+    "sha256": "f8871de1ac7437cc5b10830c1eeaef6a0d32903092b38ad08927216261158fcf"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSLevel_L7_a0.npz",
+    "sha256": "cdb6f10fb3d0510eaa9360e2f0a8fd621196665ba3fa72d552debbb6dc24db6f"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSLevel_L14_a0.npz",
+    "sha256": "5cf37b4a94cea5fe9a7ddbd74cc3dc1aab28e1e433b8c0cec7d722b0acfab3c4"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSLevel_L28_a0.npz",
+    "sha256": "a949c260131164ca7c5414cd7852906c3db4ac4b2d63277060bfbc494eab0510"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSLevel_L56_a0.npz",
+    "sha256": "dbc309dad55dfc988efd59d51a42ab3250d7b61a6198621526071b7e2b257c28"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a0.01.npz",
+    "sha256": "ce6d13161105c2fbc2d1b09dc5e4bba697f47fd350335761bc8bfb3f2d9aeedf"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a0.1.npz",
+    "sha256": "52b70e1843ba0d20f9ebb00890168c1353f2bc2b1630211924941c6ae4a3183e"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a1.npz",
+    "sha256": "5ef96c07b5a2062470ef83e181f601f1ba8b136a25b186a580b07cfdcc0875f9"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a10.npz",
+    "sha256": "f42988ead5a5abfc628532bb3b3a6fd70c6b9a08edee601cdbe05f58b5175159"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a100.npz",
+    "sha256": "4bd93b59d91408c26bb34d1dee5f0a52c826a925d4e61c4e80a550b8b6a47907"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L7_a1000.npz",
+    "sha256": "868e6884c540132631229afa8b54e4e3cc3ce14ce48199a57ea8523df509f5a7"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a0.01.npz",
+    "sha256": "958720074899bdb0bc02c20161e4b958fee066b4b2c1be342e9094ec6633b333"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a0.1.npz",
+    "sha256": "77c773573505c0355f9ec510ebb75d0a9ad7b1509a048a822171febc7558dc1b"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a1.npz",
+    "sha256": "28b5a10148fe47a765e2535f88a0420b44acca254c0f93de5fbf740126952e3a"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a10.npz",
+    "sha256": "284d11165e2cbb9fee1af05b05a6c093b5bc31ba725c7f7c729c7c9a11882567"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a100.npz",
+    "sha256": "8769e34778e3245b1cec3e187216b785b7671e514f567f214962a4c3e267bc66"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L14_a1000.npz",
+    "sha256": "bbda3892b400cf7c075e0b37c84e07d51159157e1058d423c2fc08e61cbc0ad8"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a0.01.npz",
+    "sha256": "767a63ddaac31e94f8c53b860ef6138f73ce24812ff2d127802132d86d360efc"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a0.1.npz",
+    "sha256": "7f68708b63dd7dd8cd5d734d675b36b59d2fb559074f7300da4a19316549383a"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a1.npz",
+    "sha256": "2d8ee04592cd43fbe43cb84c53e4ffbf5360bcece0e098b4ae51757b96867ac4"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a10.npz",
+    "sha256": "597c7641404c7acfc1666677b1069cda3a060dfed254e6e3017702aafc688d65"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a100.npz",
+    "sha256": "ee26d6bf128935b342318bfbcb45b7095cb903a63775fdc1815cdf3e4fbd74a7"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L28_a1000.npz",
+    "sha256": "2fbb6b95a8ca3792952772f0dbdcfd06f60f500eced13037a6f9e3705a158d6a"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a0.01.npz",
+    "sha256": "55883483b4ae5aef8812d28e7c87372e2864fb9d9096eab09c8add06e1e6e3d3"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a0.1.npz",
+    "sha256": "6c8048a44f50163e50a0acfdf377b0bd503471fccfa56b32138bce711636c550"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a1.npz",
+    "sha256": "674124785c765f990208afac85420429ff35114807972a2898258563b3414f6a"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a10.npz",
+    "sha256": "b8bfe57ba9fd3237d17ec065b1f371089e6974ab167529c5c59b22378ffa2fa9"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a100.npz",
+    "sha256": "3f9e7f1b30906d4409fb0e1188b84a4d29f7f590d79cdb1bd411e0ac0986c0a6"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeLevel_L56_a1000.npz",
+    "sha256": "066b62f04d8b52ecc219c0b39037178607eca44cc3f03e474083c6e1974fdcf8"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSResidual_L7_a0.npz",
+    "sha256": "e84fa82899b32aae4052c9ff29056ff1b5e3aafa8a8b4bf1dffb3c1e51ae3892"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSResidual_L14_a0.npz",
+    "sha256": "67fc779149be72e5a65cf5081674903e5656649746147139fb7647f8542fa018"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSResidual_L28_a0.npz",
+    "sha256": "90d7f0ef051aae0bb7495b61183c823fa2d3bd84f97ab71b8ba832943406456f"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/OLSResidual_L56_a0.npz",
+    "sha256": "6eabceceadadac54775a83e67f1a134e05cd12f46132e91a7371e3466b2e16d2"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a0.01.npz",
+    "sha256": "ea86e70cab1601a2589bd360b6aafdb9b7ffe77e0b120e3bc6faa0a8d545636c"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a0.1.npz",
+    "sha256": "91a90d608e528a084e54591b48d1c64a906246785c0aae79123268600b55f61b"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a1.npz",
+    "sha256": "f3da0c8dc85ab4c30cdd541ccf0514dfff2a962409ffd75b95ae16f6d933b1e5"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a10.npz",
+    "sha256": "8770b6e6c20101e39dba0f9e5e3e34ece480d10df58a1e99bed33a33042e2e42"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a100.npz",
+    "sha256": "0548e28ce10a3cf873530690ec6446e3114c7ccfc36180220820785c25f15c11"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L7_a1000.npz",
+    "sha256": "651df7b37382e6b0909544a5d1577e8bd38bdeb858d73a3422623ef03be616ac"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a0.01.npz",
+    "sha256": "5fc967f6f85a704868a17a50882d23a5aa3ba03cb9aeb358c2fcacb64a724207"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a0.1.npz",
+    "sha256": "c8b6ae366073ea0e13ec10e21b93b8eb77038a3f9edfacd0fb25716dcadd8366"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a1.npz",
+    "sha256": "1c5a4780d4439ef15e9c30acd0490240e62298b3febbcced59c6da637e994614"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a10.npz",
+    "sha256": "3088840bcc08c6d93b35b373fa2e103a087a569c28b0ae247d5bf716d2af596a"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a100.npz",
+    "sha256": "3c00365b21eb7111f346ee123a1698261fb86ea6469070318fbc65a66215bd35"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L14_a1000.npz",
+    "sha256": "fcbffb9f181a5e765b8dc944fba60353e1fe8b1bf5c08b08a805c40849844c16"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a0.01.npz",
+    "sha256": "777f3b1a16f365fddf1c2c2d910ecf1a38954db180e745b3ad7e0ab0daba136b"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a0.1.npz",
+    "sha256": "54ea94bc16120048fba0300ab0892ac3115fc2f9c94f8d627d27fc19625ac780"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a1.npz",
+    "sha256": "fa94c62bdc235528e8ffe0ec21db9dcc53a9aba83d64b306db1835bb3bb69ffc"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a10.npz",
+    "sha256": "2e62f8c6d8e87323a88faab65357d8b3996040f480bbc5466f8299dbc5f81bc7"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a100.npz",
+    "sha256": "b6ff3b78ef5005ad3a6cba50db9f3d5b48bb30dd952dd5ed56ae2ee268aebce8"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L28_a1000.npz",
+    "sha256": "19f9a4408f652e5de74486c1feeda832242052ddf7eabded4a6ac232c8bd849c"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a0.01.npz",
+    "sha256": "f525130d9f5fe00723ce1ec082740b9819b250a6d2361f21343954663e840ae2"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a0.1.npz",
+    "sha256": "2af09ad75cb4e620094e159e4e1775901052d70e956581db9f2fe591ad89f4ee"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a1.npz",
+    "sha256": "9fc0405b675a8c095104e6496c19c05b1fc7893439e441d51c6be9cc8758141c"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a10.npz",
+    "sha256": "eed66ca880f0bd24f4e847ca833d453bbbc18e7913a133baa30ce44f34fe16cc"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a100.npz",
+    "sha256": "f6ac6027c47c81f8aaf8ed9fafa66d18a432cc25acc355fb65a6acac976cd2d8"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/RidgeResidual_L56_a1000.npz",
+    "sha256": "d6dc88bb87dd5a0be5d2b4991dcd426b89ac33f9893925c96f37aa21df61dd89"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/CalendarOLS.npz",
+    "sha256": "b972258905e544dd39993ecb5ce061302bef6c9271352c1f1a79b84f28162b3e"
+  },
+  {
+    "folder": "tier2b-traditional-regression-20261110",
+    "path": "predictions/CalendarResidualAR.npz",
+    "sha256": "40d11c5536caec1fc6430423c8fe03850447f7ff0fde7ee0ddfbec5283bfef3a"
+  }
+]

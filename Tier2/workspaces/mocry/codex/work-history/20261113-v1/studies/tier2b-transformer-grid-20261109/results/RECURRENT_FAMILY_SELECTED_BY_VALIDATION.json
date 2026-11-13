@@ -1,0 +1,5 @@
+{
+  "generation_MW": "LSTM",
+  "demand_MW": "LSTM",
+  "price_GBP_MWh": "LSTM"
+}

@@ -1,0 +1,67 @@
+{
+  "source_id": "GITHUB-MMCS-FABLE-FORECAST-REVIEW-20261110",
+  "recorded_at": "2026-11-10T01:30:28.192353+00:00",
+  "evidence_status": "remote_material_read_and_code_reviewed",
+  "folder": "assignments\\FinalProject\\fable-forecast-review-20261110",
+  "upstream": {
+    "repository": "MocryMin/mmcs-group15-project",
+    "commit": "1620bdc3bde3184a042931707c0e8d7290895be7",
+    "files": [
+      {
+        "path": "REPORT.md",
+        "git_blob_sha": "cccc86a7b601f51a52ba9a4c83f68945c5242813",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/REPORT.md"
+      },
+      {
+        "path": "code/backtest_ml.py",
+        "git_blob_sha": "5ad457028d69f93a68433ee65b60ac0c8027518a",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/code/backtest_ml.py"
+      },
+      {
+        "path": "code/backtest_structural.py",
+        "git_blob_sha": "5062f096c00a042876d44910d3257a48c9bce5e1",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/code/backtest_structural.py"
+      },
+      {
+        "path": "code/decision_value.py",
+        "git_blob_sha": "2ce76ababf3da8d3c974f8d6ea370a4c1328e404",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/code/decision_value.py"
+      },
+      {
+        "path": "code/post_analysis.py",
+        "git_blob_sha": "6b981b766707d0e25cacdd7c4f28ecb4bce56060",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/code/post_analysis.py"
+      },
+      {
+        "path": "code/event_stats.py",
+        "git_blob_sha": "4d04d86cc7a101a545cae9ea067d0e83177c0e3d",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/code/event_stats.py"
+      },
+      {
+        "path": "results/decision_value.txt",
+        "git_blob_sha": "85d45fd26e18f3c820c7b9d315c61b9ef526c1d8",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/results/decision_value.txt"
+      },
+      {
+        "path": "results/post_analysis.txt",
+        "git_blob_sha": "cd83db89f4316c218cc489b28db29850e6a8c6f0",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/results/post_analysis.txt"
+      },
+      {
+        "path": "results/struct_results.csv",
+        "git_blob_sha": "5486bdae3dd9b6be3192ac5a61dd5aeabe5c385b",
+        "url": "https://github.com/MocryMin/mmcs-group15-project/blob/1620bdc3bde3184a042931707c0e8d7290895be7/Tier2/workspaces/mocry/claude/forecasting/20261110-v1/results/struct_results.csv"
+      }
+    ]
+  },
+  "nine_git_blobs_verified": true,
+  "independent_upstream_experiment_reproduction": false,
+  "findings": [
+    "Traditional models accepted as candidates, not a reason to exclude neural families",
+    "Current nominal price/current split differs from upstream real2020 price/test2024-25/refit/features",
+    "Multi-step target-date refit blocks can train on labels after forecast origin; first k-1 predictions per block need corrected cutoffs",
+    "Decision diagnostic should align oracle and rolling terminal value before claiming a strict bound",
+    "No unsupported contract penalties adopted"
+  ],
+  "remote_changed": false
+}

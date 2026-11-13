@@ -1,0 +1,869 @@
+{
+  "protocol": {
+    "targets": [
+      "generation_MW",
+      "demand_MW",
+      "price_GBP_MWh"
+    ],
+    "horizon": 1,
+    "independent_targets": true,
+    "periods": {
+      "train": [
+        "2022-01-01",
+        "2024-12-31"
+      ],
+      "validation": [
+        "2025-01-01",
+        "2025-08-31"
+      ],
+      "test": [
+        "2025-09-01",
+        "2026-08-31"
+      ]
+    },
+    "samples": {
+      "train": 1096,
+      "validation": 243,
+      "test": 365
+    },
+    "context_only": "2021-11-06 through 2021-12-31; no pre-2022 target fitting",
+    "unused_tail": "2026-09-01 through 2026-09-17",
+    "batch_size": 64,
+    "steps_per_epoch": 18,
+    "batch_layout": "17 batches of 64 and one batch of 8; each epoch shuffles origins only, never sequence order",
+    "max_epochs": 120,
+    "max_steps_per_fit": 2160,
+    "epoch_zero": "Initial evaluation without optimiser update",
+    "logging": "Every optimiser step: full train, validation and test MSE in eval mode; CSV flush after every row; batch training loss separately labelled",
+    "checkpoint": "Minimum validation MSE at any step, min_delta=1e-5; no test comparison in selection",
+    "early_stop": "At epoch end, stop after 15 complete consecutive epochs with no new validation minimum; not 15 steps",
+    "configurations": "Reuse six previously selected lookback/lr configurations; reset all weights; no hyperparameter search in this round",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "expected_fits": 18,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 1.0,
+    "dropout": 0.1,
+    "loss": "Single target next-day MSE standardised by training-2022-24 std; same scaler for all splits; no penalty in displayed MSE",
+    "test_status": "Monitored held-out test, not a blind test; some 2025 dates were inspected in earlier experiments. Test does not influence gradient, checkpoint or early stopping.",
+    "data_vintage": "Frozen post-hoc repaired data; publication/reconstruction vintage not audited",
+    "external_features": false,
+    "MPC_evaluated": false,
+    "price": "nominal GBP/MWh; no future monthly CPI",
+    "torch": "2.15.0+cpu",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "device": "CPU two threads",
+    "source_hashes": {
+      "run_monitored.py": "7a169d13978f734b0c1291ced5ad241853ed6e20c88cb44b8f1d0202ad46d2e2",
+      "model.py": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+      "REFERENCE_CONFIGS.json": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2"
+    }
+  },
+  "runs": [
+    {
+      "run": "generation_MW_RNN_L56_lr0.003_s17",
+      "target": "generation_MW",
+      "family": "RNN",
+      "seed": 17,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5373,
+      "best_epoch": 12,
+      "best_step": 211,
+      "epochs": 27,
+      "steps": 486,
+      "best_train_loss": 0.11963749676942825,
+      "best_validation_loss": 0.1433701366186142,
+      "test_loss_at_val_checkpoint": 0.1906236857175827,
+      "last_train_loss": 0.10849161446094513,
+      "last_validation_loss": 0.14748315513134003,
+      "last_test_loss": 0.19041790068149567,
+      "seconds": 9.827999999994063,
+      "step_log": "step_logs\\generation_MW_RNN_L56_lr0.003_s17.csv",
+      "checkpoint": "checkpoints\\generation_MW_RNN_L56_lr0.003_s17.pt"
+    },
+    {
+      "run": "generation_MW_RNN_L56_lr0.003_s29",
+      "target": "generation_MW",
+      "family": "RNN",
+      "seed": 29,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5373,
+      "best_epoch": 14,
+      "best_step": 242,
+      "epochs": 29,
+      "steps": 522,
+      "best_train_loss": 0.118491530418396,
+      "best_validation_loss": 0.14217126369476318,
+      "test_loss_at_val_checkpoint": 0.19192752242088318,
+      "last_train_loss": 0.10889539122581482,
+      "last_validation_loss": 0.15257392823696136,
+      "last_test_loss": 0.2000959813594818,
+      "seconds": 11.01600000000326,
+      "step_log": "step_logs\\generation_MW_RNN_L56_lr0.003_s29.csv",
+      "checkpoint": "checkpoints\\generation_MW_RNN_L56_lr0.003_s29.pt"
+    },
+    {
+      "run": "generation_MW_RNN_L56_lr0.003_s43",
+      "target": "generation_MW",
+      "family": "RNN",
+      "seed": 43,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5373,
+      "best_epoch": 17,
+      "best_step": 289,
+      "epochs": 32,
+      "steps": 576,
+      "best_train_loss": 0.11425512284040451,
+      "best_validation_loss": 0.14479202032089233,
+      "test_loss_at_val_checkpoint": 0.1967819780111313,
+      "last_train_loss": 0.10116203874349594,
+      "last_validation_loss": 0.1648801863193512,
+      "last_test_loss": 0.20372605323791504,
+      "seconds": 11.75,
+      "step_log": "step_logs\\generation_MW_RNN_L56_lr0.003_s43.csv",
+      "checkpoint": "checkpoints\\generation_MW_RNN_L56_lr0.003_s43.pt"
+    },
+    {
+      "run": "generation_MW_LSTM_L28_lr0.003_s17",
+      "target": "generation_MW",
+      "family": "LSTM",
+      "seed": 17,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 34,
+      "best_step": 604,
+      "epochs": 49,
+      "steps": 882,
+      "best_train_loss": 0.09200397878885269,
+      "best_validation_loss": 0.14182454347610474,
+      "test_loss_at_val_checkpoint": 0.18826377391815186,
+      "last_train_loss": 0.07586038112640381,
+      "last_validation_loss": 0.16171887516975403,
+      "last_test_loss": 0.20508083701133728,
+      "seconds": 11.51600000000326,
+      "step_log": "step_logs\\generation_MW_LSTM_L28_lr0.003_s17.csv",
+      "checkpoint": "checkpoints\\generation_MW_LSTM_L28_lr0.003_s17.pt"
+    },
+    {
+      "run": "generation_MW_LSTM_L28_lr0.003_s29",
+      "target": "generation_MW",
+      "family": "LSTM",
+      "seed": 29,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 26,
+      "best_step": 456,
+      "epochs": 41,
+      "steps": 738,
+      "best_train_loss": 0.10517249256372452,
+      "best_validation_loss": 0.1367713361978531,
+      "test_loss_at_val_checkpoint": 0.1809639036655426,
+      "last_train_loss": 0.08493927866220474,
+      "last_validation_loss": 0.15873649716377258,
+      "last_test_loss": 0.1986319124698639,
+      "seconds": 9.311999999990803,
+      "step_log": "step_logs\\generation_MW_LSTM_L28_lr0.003_s29.csv",
+      "checkpoint": "checkpoints\\generation_MW_LSTM_L28_lr0.003_s29.pt"
+    },
+    {
+      "run": "generation_MW_LSTM_L28_lr0.003_s43",
+      "target": "generation_MW",
+      "family": "LSTM",
+      "seed": 43,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 26,
+      "best_step": 454,
+      "epochs": 41,
+      "steps": 738,
+      "best_train_loss": 0.10252385586500168,
+      "best_validation_loss": 0.14019401371479034,
+      "test_loss_at_val_checkpoint": 0.1840227097272873,
+      "last_train_loss": 0.08559362590312958,
+      "last_validation_loss": 0.17007598280906677,
+      "last_test_loss": 0.19544288516044617,
+      "seconds": 10.53200000000652,
+      "step_log": "step_logs\\generation_MW_LSTM_L28_lr0.003_s43.csv",
+      "checkpoint": "checkpoints\\generation_MW_LSTM_L28_lr0.003_s43.pt"
+    },
+    {
+      "run": "demand_MW_RNN_L56_lr0.001_s17",
+      "target": "demand_MW",
+      "family": "RNN",
+      "seed": 17,
+      "lookback": 56,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 17,
+      "best_step": 295,
+      "epochs": 32,
+      "steps": 576,
+      "best_train_loss": 0.0774785578250885,
+      "best_validation_loss": 0.08527681231498718,
+      "test_loss_at_val_checkpoint": 0.10791614651679993,
+      "last_train_loss": 0.0763881579041481,
+      "last_validation_loss": 0.08792262524366379,
+      "last_test_loss": 0.11131592094898224,
+      "seconds": 13.827999999994063,
+      "step_log": "step_logs\\demand_MW_RNN_L56_lr0.001_s17.csv",
+      "checkpoint": "checkpoints\\demand_MW_RNN_L56_lr0.001_s17.pt"
+    },
+    {
+      "run": "demand_MW_RNN_L56_lr0.001_s29",
+      "target": "demand_MW",
+      "family": "RNN",
+      "seed": 29,
+      "lookback": 56,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 46,
+      "best_step": 825,
+      "epochs": 61,
+      "steps": 1098,
+      "best_train_loss": 0.07236675173044205,
+      "best_validation_loss": 0.0857376828789711,
+      "test_loss_at_val_checkpoint": 0.10867384821176529,
+      "last_train_loss": 0.06922715157270432,
+      "last_validation_loss": 0.08743805438280106,
+      "last_test_loss": 0.11012426763772964,
+      "seconds": 23.812000000005355,
+      "step_log": "step_logs\\demand_MW_RNN_L56_lr0.001_s29.csv",
+      "checkpoint": "checkpoints\\demand_MW_RNN_L56_lr0.001_s29.pt"
+    },
+    {
+      "run": "demand_MW_RNN_L56_lr0.001_s43",
+      "target": "demand_MW",
+      "family": "RNN",
+      "seed": 43,
+      "lookback": 56,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 35,
+      "best_step": 627,
+      "epochs": 50,
+      "steps": 900,
+      "best_train_loss": 0.07554116100072861,
+      "best_validation_loss": 0.08451339602470398,
+      "test_loss_at_val_checkpoint": 0.10651063174009323,
+      "last_train_loss": 0.07340892404317856,
+      "last_validation_loss": 0.08817912638187408,
+      "last_test_loss": 0.10860225558280945,
+      "seconds": 19.718999999997322,
+      "step_log": "step_logs\\demand_MW_RNN_L56_lr0.001_s43.csv",
+      "checkpoint": "checkpoints\\demand_MW_RNN_L56_lr0.001_s43.pt"
+    },
+    {
+      "run": "demand_MW_LSTM_L28_lr0.003_s17",
+      "target": "demand_MW",
+      "family": "LSTM",
+      "seed": 17,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 35,
+      "best_step": 615,
+      "epochs": 50,
+      "steps": 900,
+      "best_train_loss": 0.06943327188491821,
+      "best_validation_loss": 0.0804659053683281,
+      "test_loss_at_val_checkpoint": 0.10961990058422089,
+      "last_train_loss": 0.05997581034898758,
+      "last_validation_loss": 0.09804636985063553,
+      "last_test_loss": 0.12701232731342316,
+      "seconds": 12.485000000000582,
+      "step_log": "step_logs\\demand_MW_LSTM_L28_lr0.003_s17.csv",
+      "checkpoint": "checkpoints\\demand_MW_LSTM_L28_lr0.003_s17.pt"
+    },
+    {
+      "run": "demand_MW_LSTM_L28_lr0.003_s29",
+      "target": "demand_MW",
+      "family": "LSTM",
+      "seed": 29,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 45,
+      "best_step": 797,
+      "epochs": 60,
+      "steps": 1080,
+      "best_train_loss": 0.0641651377081871,
+      "best_validation_loss": 0.08071838319301605,
+      "test_loss_at_val_checkpoint": 0.10562523454427719,
+      "last_train_loss": 0.05442505702376366,
+      "last_validation_loss": 0.0917414054274559,
+      "last_test_loss": 0.11793182790279388,
+      "seconds": 15.281000000002678,
+      "step_log": "step_logs\\demand_MW_LSTM_L28_lr0.003_s29.csv",
+      "checkpoint": "checkpoints\\demand_MW_LSTM_L28_lr0.003_s29.pt"
+    },
+    {
+      "run": "demand_MW_LSTM_L28_lr0.003_s43",
+      "target": "demand_MW",
+      "family": "LSTM",
+      "seed": 43,
+      "lookback": 28,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 16,
+      "best_step": 281,
+      "epochs": 31,
+      "steps": 558,
+      "best_train_loss": 0.07725977897644043,
+      "best_validation_loss": 0.08271654695272446,
+      "test_loss_at_val_checkpoint": 0.11115753650665283,
+      "last_train_loss": 0.06964440643787384,
+      "last_validation_loss": 0.08746571093797684,
+      "last_test_loss": 0.11313854157924652,
+      "seconds": 8.093999999997322,
+      "step_log": "step_logs\\demand_MW_LSTM_L28_lr0.003_s43.csv",
+      "checkpoint": "checkpoints\\demand_MW_LSTM_L28_lr0.003_s43.pt"
+    },
+    {
+      "run": "price_GBP_MWh_RNN_L28_lr0.001_s17",
+      "target": "price_GBP_MWh",
+      "family": "RNN",
+      "seed": 17,
+      "lookback": 28,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 38,
+      "best_step": 667,
+      "epochs": 53,
+      "steps": 954,
+      "best_train_loss": 0.10944703221321106,
+      "best_validation_loss": 0.11293555796146393,
+      "test_loss_at_val_checkpoint": 0.06498023867607117,
+      "last_train_loss": 0.10125669836997986,
+      "last_validation_loss": 0.12117443978786469,
+      "last_test_loss": 0.07268185913562775,
+      "seconds": 11.171000000002095,
+      "step_log": "step_logs\\price_GBP_MWh_RNN_L28_lr0.001_s17.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L28_lr0.001_s17.pt"
+    },
+    {
+      "run": "price_GBP_MWh_RNN_L28_lr0.001_s29",
+      "target": "price_GBP_MWh",
+      "family": "RNN",
+      "seed": 29,
+      "lookback": 28,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 56,
+      "best_step": 1004,
+      "epochs": 71,
+      "steps": 1278,
+      "best_train_loss": 0.09327050298452377,
+      "best_validation_loss": 0.10616510361433029,
+      "test_loss_at_val_checkpoint": 0.06539446860551834,
+      "last_train_loss": 0.07709916681051254,
+      "last_validation_loss": 0.11048134416341782,
+      "last_test_loss": 0.06817617267370224,
+      "seconds": 13.671999999991385,
+      "step_log": "step_logs\\price_GBP_MWh_RNN_L28_lr0.001_s29.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L28_lr0.001_s29.pt"
+    },
+    {
+      "run": "price_GBP_MWh_RNN_L28_lr0.001_s43",
+      "target": "price_GBP_MWh",
+      "family": "RNN",
+      "seed": 43,
+      "lookback": 28,
+      "lr": 0.001,
+      "parameters": 5373,
+      "best_epoch": 48,
+      "best_step": 849,
+      "epochs": 63,
+      "steps": 1134,
+      "best_train_loss": 0.09589307755231857,
+      "best_validation_loss": 0.11192856729030609,
+      "test_loss_at_val_checkpoint": 0.06486824154853821,
+      "last_train_loss": 0.06641612201929092,
+      "last_validation_loss": 0.12957355380058289,
+      "last_test_loss": 0.07486932724714279,
+      "seconds": 12.047000000005937,
+      "step_log": "step_logs\\price_GBP_MWh_RNN_L28_lr0.001_s43.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_RNN_L28_lr0.001_s43.pt"
+    },
+    {
+      "run": "price_GBP_MWh_LSTM_L56_lr0.003_s17",
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "seed": 17,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 28,
+      "best_step": 492,
+      "epochs": 43,
+      "steps": 774,
+      "best_train_loss": 0.09947026520967484,
+      "best_validation_loss": 0.1122637465596199,
+      "test_loss_at_val_checkpoint": 0.06915119290351868,
+      "last_train_loss": 0.08098045736551285,
+      "last_validation_loss": 0.11936788260936737,
+      "last_test_loss": 0.0762140229344368,
+      "seconds": 19.14100000000326,
+      "step_log": "step_logs\\price_GBP_MWh_LSTM_L56_lr0.003_s17.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L56_lr0.003_s17.pt"
+    },
+    {
+      "run": "price_GBP_MWh_LSTM_L56_lr0.003_s29",
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "seed": 29,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 58,
+      "best_step": 1034,
+      "epochs": 73,
+      "steps": 1314,
+      "best_train_loss": 0.06428727507591248,
+      "best_validation_loss": 0.10407847911119461,
+      "test_loss_at_val_checkpoint": 0.07790332287549973,
+      "last_train_loss": 0.05098922923207283,
+      "last_validation_loss": 0.11376658082008362,
+      "last_test_loss": 0.08287644386291504,
+      "seconds": 36.01499999999942,
+      "step_log": "step_logs\\price_GBP_MWh_LSTM_L56_lr0.003_s29.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L56_lr0.003_s29.pt"
+    },
+    {
+      "run": "price_GBP_MWh_LSTM_L56_lr0.003_s43",
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "seed": 43,
+      "lookback": 56,
+      "lr": 0.003,
+      "parameters": 5409,
+      "best_epoch": 31,
+      "best_step": 542,
+      "epochs": 46,
+      "steps": 828,
+      "best_train_loss": 0.08817485719919205,
+      "best_validation_loss": 0.11383053660392761,
+      "test_loss_at_val_checkpoint": 0.06806905567646027,
+      "last_train_loss": 0.0679701715707779,
+      "last_validation_loss": 0.12300433218479156,
+      "last_test_loss": 0.07277315855026245,
+      "seconds": 21.0,
+      "step_log": "step_logs\\price_GBP_MWh_LSTM_L56_lr0.003_s43.csv",
+      "checkpoint": "checkpoints\\price_GBP_MWh_LSTM_L56_lr0.003_s43.pt"
+    }
+  ],
+  "metrics": {
+    "train": {
+      "generation_MW": {
+        "Persistence": {
+          "loss": 0.24644934065196014,
+          "MSE": 6761998.233822022,
+          "RMSE": 2600.384247341539,
+          "MAE": 1996.312989313687
+        },
+        "RNN_seed17": {
+          "loss": 0.1196374804058202,
+          "MSE": 3282574.9464898747,
+          "RMSE": 1811.787776338574,
+          "MAE": 1382.7262645019064
+        },
+        "RNN_seed29": {
+          "loss": 0.11849152151450132,
+          "MSE": 3251132.492723792,
+          "RMSE": 1803.0897073423141,
+          "MAE": 1357.8438594652218
+        },
+        "RNN_seed43": {
+          "loss": 0.11425512725079533,
+          "MSE": 3134895.661035901,
+          "RMSE": 1770.5636563071944,
+          "MAE": 1339.880490988473
+        },
+        "LSTM_seed17": {
+          "loss": 0.09200398015468056,
+          "MSE": 2524375.7993620676,
+          "RMSE": 1588.8284361006595,
+          "MAE": 1221.2890363617933
+        },
+        "LSTM_seed29": {
+          "loss": 0.1051725037837043,
+          "MSE": 2885689.541512645,
+          "RMSE": 1698.7317450123326,
+          "MAE": 1306.7392495384127
+        },
+        "LSTM_seed43": {
+          "loss": 0.10252385950436985,
+          "MSE": 2813016.8863880555,
+          "RMSE": 1677.2050817917454,
+          "MAE": 1277.386691370442
+        }
+      },
+      "demand_MW": {
+        "Persistence": {
+          "loss": 0.26329251456306674,
+          "MSE": 4219639.635948905,
+          "RMSE": 2054.1761453071413,
+          "MAE": 1542.7436131386862
+        },
+        "RNN_seed17": {
+          "loss": 0.07747855913377229,
+          "MSE": 1241704.8756574744,
+          "RMSE": 1114.318121389702,
+          "MAE": 870.403469565822
+        },
+        "RNN_seed29": {
+          "loss": 0.07236674436409476,
+          "MSE": 1159780.7227830347,
+          "RMSE": 1076.931159723329,
+          "MAE": 838.7219384541523
+        },
+        "RNN_seed43": {
+          "loss": 0.07554116109139516,
+          "MSE": 1210655.2972682412,
+          "RMSE": 1100.297822077387,
+          "MAE": 856.9874614799485
+        },
+        "LSTM_seed17": {
+          "loss": 0.06943327641927614,
+          "MSE": 1112767.6976262666,
+          "RMSE": 1054.8780486986477,
+          "MAE": 822.8285665118542
+        },
+        "LSTM_seed29": {
+          "loss": 0.06416513498530352,
+          "MSE": 1028338.1860639435,
+          "RMSE": 1014.0701090476651,
+          "MAE": 798.7559333471532
+        },
+        "LSTM_seed43": {
+          "loss": 0.07725977035339011,
+          "MSE": 1238198.4721004511,
+          "RMSE": 1112.743668640919,
+          "MAE": 870.616593382361
+        }
+      },
+      "price_GBP_MWh": {
+        "Persistence": {
+          "loss": 0.14701446751968486,
+          "MSE": 938.4303524997363,
+          "RMSE": 30.633810610169547,
+          "MAE": 20.144248011405452
+        },
+        "RNN_seed17": {
+          "loss": 0.10944703522734991,
+          "MSE": 698.6279757446363,
+          "RMSE": 26.431571571600436,
+          "MAE": 17.706441334253153
+        },
+        "RNN_seed29": {
+          "loss": 0.09327051190528937,
+          "MSE": 595.3691554430981,
+          "RMSE": 24.40018761081763,
+          "MAE": 16.777463155110862
+        },
+        "RNN_seed43": {
+          "loss": 0.09589307655491941,
+          "MSE": 612.1096457508029,
+          "RMSE": 24.740849737848595,
+          "MAE": 17.123312205203785
+        },
+        "LSTM_seed17": {
+          "loss": 0.09947026834271389,
+          "MSE": 634.9437613791144,
+          "RMSE": 25.1980904312036,
+          "MAE": 17.635822734822437
+        },
+        "LSTM_seed29": {
+          "loss": 0.06428728166975604,
+          "MSE": 410.361901222552,
+          "RMSE": 20.257391273867224,
+          "MAE": 14.353352559542218
+        },
+        "LSTM_seed43": {
+          "loss": 0.08817485988262944,
+          "MSE": 562.8423259104844,
+          "RMSE": 23.724298217449647,
+          "MAE": 16.404131701542678
+        }
+      }
+    },
+    "validation": {
+      "generation_MW": {
+        "Persistence": {
+          "loss": 0.3035537815483987,
+          "MSE": 8328811.630293734,
+          "RMSE": 2885.968057739679,
+          "MAE": 2119.3910707753057
+        },
+        "RNN_seed17": {
+          "loss": 0.14337013511182176,
+          "MSE": 3933743.940415175,
+          "RMSE": 1983.3668194298239,
+          "MAE": 1464.8973204494907
+        },
+        "RNN_seed29": {
+          "loss": 0.14217127791484807,
+          "MSE": 3900850.0798469326,
+          "RMSE": 1975.0569814177343,
+          "MAE": 1462.370170307392
+        },
+        "RNN_seed43": {
+          "loss": 0.14479201590298243,
+          "MSE": 3972757.051073532,
+          "RMSE": 1993.1776265735907,
+          "MAE": 1477.194198189955
+        },
+        "LSTM_seed17": {
+          "loss": 0.14182454777298598,
+          "MSE": 3891336.6090432294,
+          "RMSE": 1972.6471070729376,
+          "MAE": 1476.6281572993792
+        },
+        "LSTM_seed29": {
+          "loss": 0.13677133521387164,
+          "MSE": 3752688.1780534554,
+          "RMSE": 1937.1856333489197,
+          "MAE": 1449.4818891775258
+        },
+        "LSTM_seed43": {
+          "loss": 0.14019402179711246,
+          "MSE": 3846598.758498001,
+          "RMSE": 1961.2747789379237,
+          "MAE": 1438.1782986657254
+        }
+      },
+      "demand_MW": {
+        "Persistence": {
+          "loss": 0.24300274429698135,
+          "MSE": 3894467.008230453,
+          "RMSE": 1973.4403989557052,
+          "MAE": 1527.0823045267489
+        },
+        "RNN_seed17": {
+          "loss": 0.08527681735114552,
+          "MSE": 1366683.1323314232,
+          "RMSE": 1169.0522367847484,
+          "MAE": 904.9201744777121
+        },
+        "RNN_seed29": {
+          "loss": 0.08573767461104588,
+          "MSE": 1374069.0299655336,
+          "RMSE": 1172.206905783076,
+          "MAE": 921.7266265514334
+        },
+        "RNN_seed43": {
+          "loss": 0.08451339182888022,
+          "MSE": 1354448.1449517345,
+          "RMSE": 1163.807606501923,
+          "MAE": 903.7384096585191
+        },
+        "LSTM_seed17": {
+          "loss": 0.0804659125324869,
+          "MSE": 1289581.4923881923,
+          "RMSE": 1135.5974165117639,
+          "MAE": 874.5545344989849
+        },
+        "LSTM_seed29": {
+          "loss": 0.08071838361147843,
+          "MSE": 1293627.7030205426,
+          "RMSE": 1137.3775551770584,
+          "MAE": 880.9394212200133
+        },
+        "LSTM_seed43": {
+          "loss": 0.08271654353599395,
+          "MSE": 1325651.0775947974,
+          "RMSE": 1151.3692186239814,
+          "MAE": 882.8688361505962
+        }
+      },
+      "price_GBP_MWh": {
+        "Persistence": {
+          "loss": 0.1349697092483554,
+          "MSE": 861.5456285604113,
+          "RMSE": 29.352097515516864,
+          "MAE": 16.03965194682221
+        },
+        "RNN_seed17": {
+          "loss": 0.11293554899209148,
+          "MSE": 720.8960372298658,
+          "RMSE": 26.849507206462203,
+          "MAE": 15.136097588539345
+        },
+        "RNN_seed29": {
+          "loss": 0.10616511321492372,
+          "MSE": 677.6786414174868,
+          "RMSE": 26.032261550189734,
+          "MAE": 14.895801910863133
+        },
+        "RNN_seed43": {
+          "loss": 0.1119285655121333,
+          "MSE": 714.4682082005082,
+          "RMSE": 26.729538121720477,
+          "MAE": 15.547784166908757
+        },
+        "LSTM_seed17": {
+          "loss": 0.11226375243138045,
+          "MSE": 716.607790678949,
+          "RMSE": 26.769531013429223,
+          "MAE": 14.83565023652254
+        },
+        "LSTM_seed29": {
+          "loss": 0.10407847812921053,
+          "MSE": 664.3591244198692,
+          "RMSE": 25.77516487667672,
+          "MAE": 14.62628750242121
+        },
+        "LSTM_seed43": {
+          "loss": 0.11383053320539138,
+          "MSE": 726.6089467478101,
+          "RMSE": 26.955684868832588,
+          "MAE": 14.95942992102101
+        }
+      }
+    },
+    "test": {
+      "generation_MW": {
+        "Persistence": {
+          "loss": 0.32220671442053334,
+          "MSE": 8840604.840222016,
+          "RMSE": 2973.3154626144224,
+          "MAE": 2314.292339653341
+        },
+        "RNN_seed17": {
+          "loss": 0.19062370692461908,
+          "MSE": 5230272.339698504,
+          "RMSE": 2286.9788673484727,
+          "MAE": 1765.6260560682867
+        },
+        "RNN_seed29": {
+          "loss": 0.19192752400457078,
+          "MSE": 5266046.055986554,
+          "RMSE": 2294.7867125261455,
+          "MAE": 1764.4596564789597
+        },
+        "RNN_seed43": {
+          "loss": 0.19678199623316708,
+          "MSE": 5399241.513312869,
+          "RMSE": 2323.6268016428257,
+          "MAE": 1800.0497940165162
+        },
+        "LSTM_seed17": {
+          "loss": 0.1882637535390913,
+          "MSE": 5165520.69304112,
+          "RMSE": 2272.7781882623567,
+          "MAE": 1775.0816105282167
+        },
+        "LSTM_seed29": {
+          "loss": 0.18096390504234716,
+          "MSE": 4965229.783308634,
+          "RMSE": 2228.2795568125275,
+          "MAE": 1737.1740919095878
+        },
+        "LSTM_seed43": {
+          "loss": 0.18402270646810562,
+          "MSE": 5049156.19911431,
+          "RMSE": 2247.032754348345,
+          "MAE": 1748.8788496296304
+        }
+      },
+      "demand_MW": {
+        "Persistence": {
+          "loss": 0.2661166368976547,
+          "MSE": 4264900.24109589,
+          "RMSE": 2065.1634901614666,
+          "MAE": 1603.1890410958904
+        },
+        "RNN_seed17": {
+          "loss": 0.10791614802205778,
+          "MSE": 1729510.8306002729,
+          "RMSE": 1315.108676345903,
+          "MAE": 1006.4937775775185
+        },
+        "RNN_seed29": {
+          "loss": 0.108673849140706,
+          "MSE": 1741654.0762134523,
+          "RMSE": 1319.7174228650058,
+          "MAE": 1012.8808516899771
+        },
+        "RNN_seed43": {
+          "loss": 0.10651063582399875,
+          "MSE": 1706985.484638267,
+          "RMSE": 1306.5165458723693,
+          "MAE": 1001.55944799929
+        },
+        "LSTM_seed17": {
+          "loss": 0.10961990725627314,
+          "MSE": 1756816.0124689625,
+          "RMSE": 1325.4493624688052,
+          "MAE": 1023.384827562091
+        },
+        "LSTM_seed29": {
+          "loss": 0.10562524117557495,
+          "MSE": 1692795.767326531,
+          "RMSE": 1301.0748507778217,
+          "MAE": 997.3628318787505
+        },
+        "LSTM_seed43": {
+          "loss": 0.11115754089532448,
+          "MSE": 1781458.793748471,
+          "RMSE": 1334.713000516767,
+          "MAE": 1018.4047340149124
+        }
+      },
+      "price_GBP_MWh": {
+        "Persistence": {
+          "loss": 0.08745425879501997,
+          "MSE": 558.2425477793527,
+          "RMSE": 23.62715699739079,
+          "MAE": 16.673170782092967
+        },
+        "RNN_seed17": {
+          "loss": 0.06498024427205872,
+          "MSE": 414.7852559448412,
+          "RMSE": 20.366277419912585,
+          "MAE": 15.073231029511998
+        },
+        "RNN_seed29": {
+          "loss": 0.06539446994909688,
+          "MSE": 417.4293627098119,
+          "RMSE": 20.431088143067953,
+          "MAE": 15.145154070308994
+        },
+        "RNN_seed43": {
+          "loss": 0.06486824704369093,
+          "MSE": 414.0703494443493,
+          "RMSE": 20.348718619223895,
+          "MAE": 15.200386993448848
+        },
+        "LSTM_seed17": {
+          "loss": 0.06915118945152611,
+          "MSE": 441.4094489311576,
+          "RMSE": 21.009746522296684,
+          "MAE": 15.479609285401882
+        },
+        "LSTM_seed29": {
+          "loss": 0.07790331898455706,
+          "MSE": 497.2764948170047,
+          "RMSE": 22.299697191150482,
+          "MAE": 17.101683181735144
+        },
+        "LSTM_seed43": {
+          "loss": 0.06806905655115635,
+          "MSE": 434.50192223478297,
+          "RMSE": 20.84470969418339,
+          "MAE": 15.26978206871737
+        }
+      }
+    }
+  },
+  "runtime_seconds": 270.2189999999973
+}

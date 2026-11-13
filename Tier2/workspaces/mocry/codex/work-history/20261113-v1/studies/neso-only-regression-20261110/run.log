@@ -1,0 +1,16 @@
+split                     test     train  validation
+method                                              
+Ridge_NESO6_all       0.081440  0.041360    0.043804
+OLS3_residual_AR      0.073093  0.044512    0.045413
+HGB_NESO6             0.143274  0.059649    0.056356
+Ridge_NESO6_history   0.104735  0.051917    0.056589
+Ridge_NESO6_weather   0.116947  0.067973    0.057256
+OLS_mean_min_max      0.149973  0.080503    0.059552
+OLS_mean              0.116117  0.099226    0.065057
+Ridge_NESO6           0.144148  0.074587    0.066517
+Ridge_NESO6_calendar  0.137812  0.065930    0.070489
+Raw_NESO_point_mean   0.991019  0.763220    0.667612
+   target      split  correlation_raw_NESO_mean_forecast_vs_actual_target
+demand_MW      train                                             0.949091
+demand_MW validation                                             0.978612
+demand_MW       test                                             0.968954

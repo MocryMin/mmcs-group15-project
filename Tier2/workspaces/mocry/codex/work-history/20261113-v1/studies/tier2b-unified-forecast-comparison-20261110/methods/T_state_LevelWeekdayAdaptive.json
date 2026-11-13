@@ -1,0 +1,31 @@
+{
+  "id": "T_state_LevelWeekdayAdaptive",
+  "label": "水平＋星期模式（动态）",
+  "category": "traditional",
+  "regime": "online_state",
+  "selected": [
+    {
+      "target": "generation_MW",
+      "alpha": 0.5,
+      "validation_loss": 0.1573114964132992
+    },
+    {
+      "target": "demand_MW",
+      "alpha": 0.8,
+      "validation_loss": 0.09268552632618927
+    },
+    {
+      "target": "price_GBP_MWh",
+      "alpha": 0.3,
+      "validation_loss": 0.09348201662999454
+    }
+  ],
+  "profile": "previous 364 observations, excluding origin",
+  "level_update": "actual observations through origin; no refitting alpha",
+  "price_profile": "multiplicative; other targets additive",
+  "prediction_file": "predictions/T_state_LevelWeekdayAdaptive.npz",
+  "prediction_sha256": "ac3706da0dd6e9ee92e2613556b5d4e580fbeb0320d61afdcaaaadbf6245ba97",
+  "seeds": [
+    "det"
+  ]
+}

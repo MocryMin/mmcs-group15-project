@@ -1,0 +1,29 @@
+{
+  "generation_MW": {
+    "target": "generation_MW",
+    "family": "Transformer",
+    "lookback": 7,
+    "lr": 0.001,
+    "selected_seed": 17,
+    "best_validation_loss": 0.13743225866126743,
+    "screen_run": "generation_MW_Transformer_L7_lr0.001_s17"
+  },
+  "demand_MW": {
+    "target": "demand_MW",
+    "family": "Transformer",
+    "lookback": 7,
+    "lr": 0.001,
+    "selected_seed": 17,
+    "best_validation_loss": 0.0800233698275964,
+    "screen_run": "demand_MW_Transformer_L7_lr0.001_s17"
+  },
+  "price_GBP_MWh": {
+    "target": "price_GBP_MWh",
+    "family": "Transformer",
+    "lookback": 182,
+    "lr": 0.001,
+    "selected_seed": 17,
+    "best_validation_loss": 0.09671390575832985,
+    "screen_run": "price_GBP_MWh_Transformer_L182_lr0.001_s17"
+  }
+}

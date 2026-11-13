@@ -1,0 +1,31 @@
+{
+  "id": "T_state_LevelWeekdayFixed",
+  "label": "水平＋星期模式（固定）",
+  "category": "traditional",
+  "regime": "fixed_state",
+  "selected": [
+    {
+      "target": "generation_MW",
+      "alpha": 0.5,
+      "validation_loss": 0.15270661918871825
+    },
+    {
+      "target": "demand_MW",
+      "alpha": 0.8,
+      "validation_loss": 0.09160505662849516
+    },
+    {
+      "target": "price_GBP_MWh",
+      "alpha": 0.2,
+      "validation_loss": 0.09468765037589981
+    }
+  ],
+  "profile": "2022-2024 training labels",
+  "level_update": "actual observations through origin; no refitting alpha",
+  "price_profile": "multiplicative; other targets additive",
+  "prediction_file": "predictions/T_state_LevelWeekdayFixed.npz",
+  "prediction_sha256": "30b9f1e8360f38c5b51efd92e2a2eb4c3b8b5f3dbe35f8945a114f8aaf48f15a",
+  "seeds": [
+    "det"
+  ]
+}

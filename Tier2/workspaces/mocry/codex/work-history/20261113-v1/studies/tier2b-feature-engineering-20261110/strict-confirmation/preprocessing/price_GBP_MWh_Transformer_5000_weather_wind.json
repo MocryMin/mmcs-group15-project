@@ -1,0 +1,48 @@
+{
+  "target": "price_GBP_MWh",
+  "family": "Transformer",
+  "budget": 5000,
+  "groups": "weather_wind",
+  "pool": "self_features",
+  "target_mean": [
+    25936.862947728696,
+    28781.64872262774,
+    120.97857969411676
+  ],
+  "target_std": [
+    5238.09892616852,
+    4003.302662756515,
+    79.89525467079051
+  ],
+  "extra_feature_names": [
+    "weather_wind__wind_forecast48h_location0",
+    "weather_wind__wind_cubic_forecast48h_location0",
+    "weather_wind__wind_forecast48h_location1",
+    "weather_wind__wind_cubic_forecast48h_location1",
+    "weather_wind__wind_forecast48h_location2",
+    "weather_wind__wind_cubic_forecast48h_location2"
+  ],
+  "extra_mean": [
+    23.93512557077629,
+    529.7410788145911,
+    29.61657153729076,
+    917.1468340309153,
+    20.141777016742765,
+    327.9370167820811
+  ],
+  "extra_std": [
+    9.99026351569235,
+    632.9263331480894,
+    11.396925890314531,
+    1013.3645185209708,
+    8.819782757774846,
+    446.48257154482104
+  ],
+  "input_scaler_origin_fit_start": "2022-01-01",
+  "input_scaler_origin_fit_end": "2024-12-30",
+  "target_scaler_label_fit_end": "2024-12-31",
+  "base_encoding": "First3: standardized observed generation,demand,price; then observed-day weekday sine/cosine, yearly sine/cosine, weekend.",
+  "groups_csv": {
+    "weather_wind": "429c63599b6f3ca89cfd0d2337a12de0b5e2108e4a6b61789c6aef32be751549"
+  }
+}

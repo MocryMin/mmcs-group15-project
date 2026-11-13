@@ -1,0 +1,23 @@
+{
+  "group": "weather_temp",
+  "rows": 2086,
+  "features": [
+    "temp_forecast48h_location0",
+    "temp_forecast48h_location1",
+    "temp_forecast48h_location2",
+    "temp_forecast48h_location3",
+    "cold_index15",
+    "warm_index22",
+    "temperature_change",
+    "any_missing_forecast"
+  ],
+  "sha256": "6144f0ca97a99f1450c8bf78c028bd81bfc2d15df8e8c27c58c829a13e164bfb",
+  "source_url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=51.5,52.48,53.48,55.86&longitude=-0.12,-1.9,-2.24,-4.25&start_date=2021-03-23&end_date=2026-09-18&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=UTC",
+  "model": "GFS seamless",
+  "lead_hours_before_valid_time": 48,
+  "origin_date": "valid day minus one day",
+  "availability": "Every hourly forecast has 48h lead, so even last target-day hour was predicted at least24h before end of origin; not target-day realised weather. API docs describe lead, exact publication files not independently recovered.",
+  "aggregation": "Daily mean only if24 forecasts exist, otherwise previous daily forecast carried forward, with missingness flag. Initial no-forecast context zero, outside histories used by frozen windows.",
+  "locations": "London, Birmingham, Manchester, Glasgow; each separate proxy, not exact national area weights.",
+  "mechanism": "Heating/cooling demand and weather-driven price/supply; cold threshold15C and warm22C are uncalibrated feature basis choices."
+}

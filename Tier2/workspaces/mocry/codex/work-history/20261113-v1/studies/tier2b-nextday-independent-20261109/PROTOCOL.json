@@ -1,0 +1,58 @@
+{
+  "mode": "independent target models, no shared weights or multi-task loss",
+  "horizon": 1,
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "features": "All models retain the same three observed histories and five calendar features, but output one target only",
+  "loss": "Single target next-day MSE standardised by that target's training std; train and val use identical eval-mode criterion",
+  "periods": {
+    "train": "2020-2022",
+    "validation": "2023"
+  },
+  "sample_counts": {
+    "train": 1040,
+    "validation": 365
+  },
+  "lookbacks": [
+    28,
+    56
+  ],
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "expected_fits": 72,
+  "selection": "Per-target, per-family lowest three-seed mean validation loss; per-seed best validation checkpoint; epoch-zero persistence eligible",
+  "architecture": {
+    "RNN": "single tanh layer, hidden 68, 5373 parameters",
+    "LSTM": "single LSTM layer, hidden 32, 5409 parameters"
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "dropout": 0.1,
+    "batch_size": 64,
+    "max_epochs": 120,
+    "patience": 15,
+    "clip_grad_norm": 1.0
+  },
+  "baseline": "target tomorrow equals target today, scored on identical origins",
+  "test_evaluated": false,
+  "external_features": false,
+  "Ridge_fitted": false,
+  "MPC_evaluated": false,
+  "joint_comparison_caveat": "Three independent models use about three times the total parameters of one joint model; differences are not a capacity-controlled causal estimate of negative transfer.",
+  "data_vintage": "Frozen repaired historical data, source publication/reconstruction vintages not audited",
+  "source_script_sha256": "d7c037e5c282c88d6df4bc574f6063c121256c06241a18e99302d142bf1a115e",
+  "torch": "2.15.0+cpu",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "device": "CPU, two threads"
+}

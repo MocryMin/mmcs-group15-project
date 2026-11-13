@@ -1,0 +1,9 @@
+{
+  "baseline/model.py": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+  "baseline/scalers.json": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+  "baseline/results/GRID_METRICS.csv": "c4609b980f6c2571378a84bccbcf26a02e50279f1cc20603b901b9e05a146da4",
+  "baseline/results/PERSISTENCE.csv": "ef9062320b06a0aae7accd411551ad3c815670f86099f43e1a19648803857d7e",
+  "baseline/results/SELECTED_SUMMARY.csv": "8c8b788e2b0f5c0ec60a69969b0f7ae2938650544e6a665f869f9f9c91637583",
+  "baseline/results/SELECTION_FROZEN.json": "88c3f0c153ae4db8ab104ac2fec5aad6cafee30a0245cb155d70f37895fcb7c6",
+  "baseline/results/training_runs.csv": "b908b4e841468bf1d0a701aed51efb4390a4f2203c06bf3b3f8f6c2bf3fe15f0"
+}

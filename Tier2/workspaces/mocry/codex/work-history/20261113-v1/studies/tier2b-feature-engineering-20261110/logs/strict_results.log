@@ -1,0 +1,8 @@
+       target               pool      family  budget  validation_improvement_pct  test_improvement_pct  test_gain_block14_low_pct  matched_seeds_validation_improved
+generation_MW      self_features Transformer   10000                    3.295152              6.123173                  -2.117634                                  3
+generation_MW external_forecasts        LSTM   10000                   10.020059             15.332078                   3.468524                                  3
+    demand_MW      self_features Transformer    5000                   28.519615             16.822384                   3.031184                                  3
+    demand_MW external_forecasts Transformer   10000                   51.968118             37.826580                  22.768896                                  3
+price_GBP_MWh      self_features Transformer    5000                   15.399927             21.838120                  13.513555                                  3
+price_GBP_MWh external_forecasts        LSTM   10000                   19.616466             30.448473                  18.908502                                  3
+STOP_CRITERIA_MET True

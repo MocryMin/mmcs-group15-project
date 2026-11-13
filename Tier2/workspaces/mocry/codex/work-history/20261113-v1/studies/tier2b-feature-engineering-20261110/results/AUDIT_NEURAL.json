@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "cases_replayed": 477,
+  "all_full_split_metrics_recomputed": true,
+  "complete_evaluation_rows_checked": 402633,
+  "training_updates_checked": 402156,
+  "each_update_has_all3_full_splits": true,
+  "val_only_checkpoint_selection_verified": true,
+  "max_normalized_checkpoint_prediction_difference": 0.0,
+  "max_relative_metric_difference": 0.0,
+  "max_fractional_parameter_budget_difference": 0.0435,
+  "source_timing": [
+    {
+      "source": "gfs_temperature_day2.json",
+      "lead_hours": 48,
+      "latest_possible_issue_hours_before_end_of_origin": 24,
+      "locations": 4
+    },
+    {
+      "source": "jma_wind_day2.json",
+      "lead_hours": 48,
+      "latest_possible_issue_hours_before_end_of_origin": 24,
+      "locations": 3
+    },
+    {
+      "source": "jma_solar_proxy_day2.json",
+      "lead_hours": 48,
+      "latest_possible_issue_hours_before_end_of_origin": 24,
+      "locations": 3
+    },
+    {
+      "source": "neso_demand_day_ahead.json",
+      "retained_days": 2086,
+      "all_retained_issues_before_target_day00UTC": true,
+      "future_issues_rejected": 0
+    },
+    {
+      "source": "neso_wind_day_ahead.json",
+      "retained_days": 1746,
+      "all_retained_issues_before_target_day00UTC": true,
+      "future_issues_rejected": 18457
+    }
+  ],
+  "future_observation_and_future_feature_perturbation_groups": [
+    "bank_holidays+weather_temp",
+    "bank_holidays",
+    "base",
+    "calendar_target",
+    "neso_demand",
+    "weather_temp",
+    "balance+weather_wind+weather_solar",
+    "balance+weather_wind",
+    "balance",
+    "fuel_mix",
+    "neso_demand+weather_wind",
+    "price_robust",
+    "regime",
+    "weather_solar",
+    "weather_wind+weather_solar",
+    "weather_wind",
+    "weekly_context"
+  ],
+  "strict_confirmation": false,
+  "strict_baseline_inputs_bit_identical_to_original": null,
+  "external_calendar_special_announcement_vintage": "not reconstructed; known-by-day-before assumption",
+  "scope": "Local computational replay and timing audit, not an independent agent review."
+}

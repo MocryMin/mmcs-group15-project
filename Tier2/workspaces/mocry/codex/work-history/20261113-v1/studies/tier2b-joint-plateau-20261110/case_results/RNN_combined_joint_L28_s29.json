@@ -1,0 +1,244 @@
+{
+  "row": {
+    "run": "RNN_combined_joint_L28_s29",
+    "family": "RNN",
+    "policy": "combined",
+    "parameters": 54951,
+    "lookback": 28,
+    "seed": 29,
+    "best_epoch": 38,
+    "best_step": 668,
+    "best_stage": 2,
+    "best_lr": 0.0003,
+    "best_weight_decay": 0.003,
+    "best_dropout": 0.3,
+    "epochs": 68,
+    "steps": 1224,
+    "events_count": 3,
+    "best_train_loss": 0.10001497219888301,
+    "best_validation_loss": 0.11702501567220686,
+    "test_loss_at_val_checkpoint": 0.12257043843012427,
+    "last_train_loss": 0.09669740604659216,
+    "last_validation_loss": 0.11940356392518917,
+    "last_test_loss": 0.1240547657895736,
+    "device": "cuda",
+    "eval_batch": 2048,
+    "seconds": 6.14000000001397,
+    "checkpoint": "checkpoints\\RNN_combined_joint_L28_s29.pt",
+    "step_log": "step_logs\\RNN_combined_joint_L28_s29.csv"
+  },
+  "metrics": [
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "train",
+      "target": "JOINT",
+      "loss": 0.10001497255940604
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "train",
+      "target": "generation_MW",
+      "loss": 0.11038308836706093,
+      "MSE": 3028655.8958012364,
+      "RMSE": 1740.3033918835063,
+      "MAE": 1320.9856268391459
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "train",
+      "target": "demand_MW",
+      "loss": 0.07343485901871935,
+      "MSE": 1176898.7898874918,
+      "RMSE": 1084.8496623438161,
+      "MAE": 849.1730875643173
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "train",
+      "target": "price_GBP_MWh",
+      "loss": 0.1162269702924378,
+      "MSE": 741.9060079029601,
+      "RMSE": 27.237951609894605,
+      "MAE": 18.317437741968465
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "validation",
+      "target": "JOINT",
+      "loss": 0.11702501402238481
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "validation",
+      "target": "generation_MW",
+      "loss": 0.14782631233315502,
+      "MSE": 4056011.1066430905,
+      "RMSE": 2013.9540974518486,
+      "MAE": 1504.6502231225868
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "validation",
+      "target": "demand_MW",
+      "loss": 0.08717760254526366,
+      "MSE": 1397145.9373900322,
+      "RMSE": 1182.0092797393902,
+      "MAE": 938.1242533970916
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "validation",
+      "target": "price_GBP_MWh",
+      "loss": 0.11607112718873583,
+      "MSE": 740.911222143374,
+      "RMSE": 27.219684460760636,
+      "MAE": 15.802622516133601
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "test",
+      "target": "JOINT",
+      "loss": 0.12257043895510326
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "test",
+      "target": "generation_MW",
+      "loss": 0.1892029416730427,
+      "MSE": 5191289.836858691,
+      "RMSE": 2278.4402201634985,
+      "MAE": 1786.1209441132653
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "test",
+      "target": "demand_MW",
+      "loss": 0.11122041379193248,
+      "MSE": 1782466.4219637825,
+      "RMSE": 1335.090417149259,
+      "MAE": 1013.285039778398
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "parameters": 54951,
+      "lookback": 28,
+      "seed": 29,
+      "split": "test",
+      "target": "price_GBP_MWh",
+      "loss": 0.06728796140033454,
+      "MSE": 429.515995270667,
+      "RMSE": 20.724767677121665,
+      "MAE": 15.342352964122776
+    }
+  ],
+  "signature": {
+    "model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+    "fit_core.py": "0698788f1978be26d7bec94f00bfde0a0cb1caf4af8d15bb8a7df9b026c25290",
+    "policy.py": "00a67e185eb83b033a6d12b09a2d559bd422a8b59099a9dba92a25ae7af0e7d7",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "CONFIGS_FROZEN.json": "bf8b8f68e7aa978359dc2f34ce9e58039a3d02f3c498da12a8b6a3e98fb826aa",
+    "torch": "2.14.1+cu130"
+  },
+  "events": [
+    {
+      "epoch": 19,
+      "global_step": 342,
+      "from_stage": 0,
+      "to_stage": 1,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.12167748780709167,
+      "before": {
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "dropout": 0.1
+      },
+      "after": {
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "dropout": 0.2
+      }
+    },
+    {
+      "epoch": 31,
+      "global_step": 558,
+      "from_stage": 1,
+      "to_stage": 2,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.11834020330503299,
+      "before": {
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "dropout": 0.2
+      },
+      "after": {
+        "lr": 0.0003,
+        "weight_decay": 0.003,
+        "dropout": 0.3
+      }
+    },
+    {
+      "epoch": 43,
+      "global_step": 774,
+      "from_stage": 2,
+      "to_stage": 3,
+      "no_improvement_complete_epochs": 5,
+      "best_joint_validation": 0.11702501567220686,
+      "before": {
+        "lr": 0.0003,
+        "weight_decay": 0.003,
+        "dropout": 0.3
+      },
+      "after": {
+        "lr": 0.0001,
+        "weight_decay": 0.01,
+        "dropout": 0.4
+      }
+    }
+  ]
+}

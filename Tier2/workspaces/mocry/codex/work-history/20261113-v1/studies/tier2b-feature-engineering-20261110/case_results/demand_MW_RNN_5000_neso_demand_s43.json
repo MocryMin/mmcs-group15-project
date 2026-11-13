@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "demand_MW_RNN_5000_neso_demand_s43",
+    "target": "demand_MW",
+    "family": "RNN",
+    "budget": 5000,
+    "parameters": 5041,
+    "features": 14,
+    "groups": "neso_demand",
+    "seed": 43,
+    "epoch": 33,
+    "step": 577,
+    "batch_loss": 0.026125874370336533,
+    "train_loss": 0.0360725334064424,
+    "validation_loss": 0.04124419374190582,
+    "test_loss": 0.061112914085238404,
+    "best_validation": 0.04124419374190582,
+    "improved": true,
+    "seconds": 2.0309999999881256,
+    "epochs_ran": 48,
+    "updates": 864,
+    "wall_seconds": 2.9530000000086147,
+    "device": "cuda",
+    "lookback": 7,
+    "lr": 0.001,
+    "checkpoint": "models/demand_MW_RNN_5000_neso_demand_s43.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.036072533203048825,
+      "MSE": 578114.0080084121,
+      "MAE": 603.0143409920913,
+      "RMSE": 760.3380879637768
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.04124419433730229,
+      "MSE": 660997.284587721,
+      "MAE": 651.5759660632953,
+      "RMSE": 813.0173950093078
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.061112915528283934,
+      "MSE": 979421.9978470952,
+      "MAE": 742.8336196079483,
+      "RMSE": 989.6575154300074
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

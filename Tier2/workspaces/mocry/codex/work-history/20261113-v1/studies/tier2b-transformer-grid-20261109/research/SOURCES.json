@@ -1,0 +1,17 @@
+{
+  "access": "Anonymous isolated Playwright MCP; no authenticated school or mail access",
+  "collected_on": "2026-11-09",
+  "sources": [
+    {
+      "url": "https://download.pytorch.org/whl/cu130/torch/",
+      "purpose": "Verified available Windows Python3.12 CUDA13.0 builds",
+      "selected_wheel": "torch-2.14.1+cu130-cp312-cp312-win_amd64.whl",
+      "upstream_sha256": "0a09031e93632d14ef49553acd6211ece3ae9cdc0969a369b8c24e3cc4d15be9"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.TransformerEncoderLayer.html",
+      "purpose": "Verified encoder structure and constructor options; selected dimensions and parameter count are our local design and measurement"
+    }
+  ],
+  "raw_page_records": "Kept locally in research/torch_gpu_pages.json; distribution package uses source pointers instead of copying full documentation text"
+}

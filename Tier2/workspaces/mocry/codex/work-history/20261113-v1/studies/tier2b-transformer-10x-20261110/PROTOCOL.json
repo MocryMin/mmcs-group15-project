@@ -1,0 +1,106 @@
+{
+  "experiment": "10x Transformer width scaling, frozen previous configuration",
+  "parameters": 54005,
+  "previous_parameters": 5407,
+  "ratio": 9.987978546328833,
+  "architecture": {
+    "layers": 1,
+    "d_model": 72,
+    "heads": 3,
+    "ffn": 220,
+    "activation": "GELU",
+    "pre_LN": true,
+    "dropout": 0.1,
+    "fixed_relative_lag_positions": true,
+    "persistence_residual_output": true
+  },
+  "training": {
+    "batch_size": 64,
+    "steps_per_epoch": 18,
+    "max_epochs": 120,
+    "patience_complete_epochs": 15,
+    "min_delta": 1e-05,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "clip_norm": 1.0,
+    "dropout": 0.1
+  },
+  "precision": "float32, math SDPA, AMP off, TF32 off, deterministic algorithms; CUBLAS_WORKSPACE_CONFIG=:4096:8",
+  "logging": "Full train, validation and test eval after every update; weighted all-sample mean from chunks; CSV flush every row",
+  "evaluation_chunks": "Transformer largest power-of-two <=64*(365/L)^2, bounded64..2048; recurrent2048; no sample subsampling",
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "features": 8,
+  "horizon": 1,
+  "separate_targets": true,
+  "configs": {
+    "generation_MW": {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 7,
+      "lr": 0.001,
+      "selected_seed": 17,
+      "best_validation_loss": 0.13743225866126743,
+      "screen_run": "generation_MW_Transformer_L7_lr0.001_s17"
+    },
+    "demand_MW": {
+      "target": "demand_MW",
+      "family": "Transformer",
+      "lookback": 7,
+      "lr": 0.001,
+      "selected_seed": 17,
+      "best_validation_loss": 0.0800233698275964,
+      "screen_run": "demand_MW_Transformer_L7_lr0.001_s17"
+    },
+    "price_GBP_MWh": {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "lookback": 182,
+      "lr": 0.001,
+      "selected_seed": 17,
+      "best_validation_loss": 0.09671390575832985,
+      "screen_run": "price_GBP_MWh_Transformer_L182_lr0.001_s17"
+    }
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "expected_fits": 9,
+  "selection": "Original small-model val-selected window/lr frozen; each new checkpoint selected only by val",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "source_hashes": {
+    "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+    "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "run.py": "13458fba09ee98bf279d2a447ec0536fbcf0961e0ed99e0a354e285898006c8c",
+    "CONFIGS_FROZEN.json": "2a8b729272f45afffd9407565bc6f4568d999c0e805de21c8c86c0f8bf9c7b66"
+  },
+  "test_is_monitored_not_blind": true,
+  "external_features": false,
+  "MPC_evaluated": false,
+  "data_vintage_audited": false,
+  "new_hyperparameter_search": false
+}

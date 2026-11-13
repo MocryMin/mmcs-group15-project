@@ -1,0 +1,14 @@
+{
+  "models_replayed": 27,
+  "metric_rows_verified": 84,
+  "prediction_max_abs_difference": 7.275957614183426e-12,
+  "scaler_mean_max_abs_difference": 0.0,
+  "metric_max_abs_difference": 1.862645149230957e-09,
+  "training_last_origin": "2024-12-30",
+  "training_last_label": "2024-12-31",
+  "hyperparameter_selection": "validation only; all saved selected parameters independently checked",
+  "residual_AR": "fixed training coefficients; forecast errors available by the origin only",
+  "source_feature_timing": "reuses prior strict issue-time audit; no new forecast retrieval or future interpolation",
+  "run_code_sha256": "658342e9cef2efc869d553c7e6b9d2d42067d6c1239c29de268b30b8c0539745",
+  "passed": true
+}

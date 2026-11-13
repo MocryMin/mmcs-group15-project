@@ -1,0 +1,75 @@
+{
+  "row": {
+    "run": "demand_MW_LSTM_L14_lr0.003_s17",
+    "target": "demand_MW",
+    "family": "LSTM",
+    "lookback": 14,
+    "lr": 0.003,
+    "seed": 17,
+    "stage": "baseline_confirmation",
+    "device": "cpu",
+    "eval_batch": 2048,
+    "parameters": 5409,
+    "best_epoch": 35,
+    "best_step": 619,
+    "epochs": 50,
+    "steps": 900,
+    "best_train_loss": 0.06879037237832604,
+    "best_validation_loss": 0.08021096023606256,
+    "test_loss_at_val_checkpoint": 0.10784329561129632,
+    "last_train_loss": 0.061474961450961624,
+    "last_validation_loss": 0.09026671165604398,
+    "last_test_loss": 0.11951741334016344,
+    "seconds": 10.625,
+    "checkpoint": "checkpoints\\demand_MW_LSTM_L14_lr0.003_s17.pt",
+    "step_log": "step_logs\\demand_MW_LSTM_L14_lr0.003_s17.csv"
+  },
+  "metrics": [
+    {
+      "target": "demand_MW",
+      "family": "LSTM",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "train",
+      "loss": 0.06879037215500254,
+      "MSE": 1102464.2360176016,
+      "RMSE": 1049.9829693940762,
+      "MAE": 821.2266906072666
+    },
+    {
+      "target": "demand_MW",
+      "family": "LSTM",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "validation",
+      "loss": 0.08021096109533829,
+      "MSE": 1285495.5304639814,
+      "RMSE": 1133.7969529258673,
+      "MAE": 872.8277559058779
+    },
+    {
+      "target": "demand_MW",
+      "family": "LSTM",
+      "lookback": 14,
+      "lr": 0.003,
+      "seed": 17,
+      "stage": "baseline_confirmation",
+      "split": "test",
+      "loss": 0.10784329760072615,
+      "MSE": 1728343.2982613584,
+      "RMSE": 1314.6647094454763,
+      "MAE": 1015.9362254645001
+    }
+  ],
+  "signature": {
+    "model.py": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+    "fit_core.py": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  }
+}

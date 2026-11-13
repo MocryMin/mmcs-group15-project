@@ -1,0 +1,64 @@
+{
+  "targets": [
+    "generation_MW",
+    "demand_MW",
+    "price_GBP_MWh"
+  ],
+  "horizon": 1,
+  "independent_targets": true,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "context_only": "2021-11-06 through 2021-12-31; no pre-2022 target fitting",
+  "unused_tail": "2026-09-01 through 2026-09-17",
+  "batch_size": 64,
+  "steps_per_epoch": 18,
+  "batch_layout": "17 batches of 64 and one batch of 8; each epoch shuffles origins only, never sequence order",
+  "max_epochs": 120,
+  "max_steps_per_fit": 2160,
+  "epoch_zero": "Initial evaluation without optimiser update",
+  "logging": "Every optimiser step: full train, validation and test MSE in eval mode; CSV flush after every row; batch training loss separately labelled",
+  "checkpoint": "Minimum validation MSE at any step, min_delta=1e-5; no test comparison in selection",
+  "early_stop": "At epoch end, stop after 15 complete consecutive epochs with no new validation minimum; not 15 steps",
+  "configurations": "Reuse six previously selected lookback/lr configurations; reset all weights; no hyperparameter search in this round",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "expected_fits": 18,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 1.0,
+  "dropout": 0.1,
+  "loss": "Single target next-day MSE standardised by training-2022-24 std; same scaler for all splits; no penalty in displayed MSE",
+  "test_status": "Monitored held-out test, not a blind test; some 2025 dates were inspected in earlier experiments. Test does not influence gradient, checkpoint or early stopping.",
+  "data_vintage": "Frozen post-hoc repaired data; publication/reconstruction vintage not audited",
+  "external_features": false,
+  "MPC_evaluated": false,
+  "price": "nominal GBP/MWh; no future monthly CPI",
+  "torch": "2.15.0+cpu",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "device": "CPU two threads",
+  "source_hashes": {
+    "run_monitored.py": "7a169d13978f734b0c1291ced5ad241853ed6e20c88cb44b8f1d0202ad46d2e2",
+    "model.py": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+    "REFERENCE_CONFIGS.json": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2"
+  }
+}

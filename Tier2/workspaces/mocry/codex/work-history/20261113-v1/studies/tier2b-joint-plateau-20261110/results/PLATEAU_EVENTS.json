@@ -1,0 +1,1190 @@
+[
+  {
+    "run": "RNN_lr_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 18,
+    "global_step": 324,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1210563461327773,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 33,
+    "global_step": 594,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11636442564011713,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 38,
+    "global_step": 684,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11636442564011713,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 19,
+    "global_step": 342,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.12167748780709167,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 43,
+    "global_step": 774,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1155918331258183,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 48,
+    "global_step": 864,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1155918331258183,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 17,
+    "global_step": 306,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 22,
+    "global_step": 396,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_lr_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 18,
+    "global_step": 324,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1210563461327773,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 23,
+    "global_step": 414,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1210563461327773,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s17",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 41,
+    "global_step": 738,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11902577699739626,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 19,
+    "global_step": 342,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.12167748780709167,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1186350863310124,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s29",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1186350863310124,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 17,
+    "global_step": 306,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 22,
+    "global_step": 396,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_reg_only_joint_L28_s43",
+    "family": "RNN",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s17",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 18,
+    "global_step": 324,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1210563461327773,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s17",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 39,
+    "global_step": 702,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11686530379927787,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s17",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 44,
+    "global_step": 792,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11686530379927787,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s29",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 19,
+    "global_step": 342,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.12167748780709167,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s29",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 31,
+    "global_step": 558,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11834020330503299,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s29",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 43,
+    "global_step": 774,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11702501567220686,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s43",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 17,
+    "global_step": 306,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s43",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 22,
+    "global_step": 396,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "RNN_combined_joint_L28_s43",
+    "family": "RNN",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11854118087758561,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 32,
+    "global_step": 576,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 17,
+    "epoch": 37,
+    "global_step": 666,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 25,
+    "global_step": 450,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 29,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_lr_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "lr_only",
+    "seed": 43,
+    "epoch": 40,
+    "global_step": 720,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 32,
+    "global_step": 576,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 17,
+    "epoch": 37,
+    "global_step": 666,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 25,
+    "global_step": 450,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 29,
+    "epoch": 36,
+    "global_step": 648,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11745974681520996,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_reg_only_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "reg_only",
+    "seed": 43,
+    "epoch": 40,
+    "global_step": 720,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 27,
+    "global_step": 486,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 32,
+    "global_step": 576,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s17",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 17,
+    "epoch": 37,
+    "global_step": 666,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.1169982606931586,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 25,
+    "global_step": 450,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s29",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 29,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11759368091324315,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "run": "LSTM_combined_joint_L56_s43",
+    "family": "LSTM",
+    "policy": "combined",
+    "seed": 43,
+    "epoch": 40,
+    "global_step": 720,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.0003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  }
+]

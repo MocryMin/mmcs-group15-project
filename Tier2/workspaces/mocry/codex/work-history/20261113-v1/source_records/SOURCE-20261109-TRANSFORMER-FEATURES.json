@@ -1,0 +1,39 @@
+{
+  "source_id": "LOCAL-MMCS-TRANSFORMER-FEATURES-20261109",
+  "recorded_at": "2026-11-09T18:45:11.927212+00:00",
+  "course": "MMCS",
+  "academic_year": "2026/27",
+  "note": "assignments/FinalProject/tier2b-analysis-20261108/TRANSFORMER_FEATURES_20261109.md",
+  "proposed_transformer": "One small encoder matched to LSTM in full trainable parameter count",
+  "parameter_example": {
+    "input_features": 8,
+    "outputs": 21,
+    "LSTM_hidden": 32,
+    "LSTM_parameters_formula": 6069,
+    "Transformer_d_model": 24,
+    "Transformer_heads": 3,
+    "Transformer_ff": 56,
+    "Transformer_layers": 1,
+    "Transformer_parameters_formula": 6005,
+    "trained_or_instantiated": false
+  },
+  "external_priorities": [
+    "calendar_and_existing_fuel_features",
+    "NESO_as_issued_demand_and_wind_solar_forecasts",
+    "geographically_matched_weather_with_publication_time"
+  ],
+  "verified_metadata": {
+    "NESO_day_ahead_archive_description": "from 2018",
+    "NESO_2_14_day_archive_description": "from 2020",
+    "NESO_embedded_forecasts": "yearly historical archives listed",
+    "OpenMeteo_historical_forecast": "stitched early model hours",
+    "OpenMeteo_single_runs": "ECMWF IFS from March 2024; most others from April 2026; initialisation time precedes availability"
+  },
+  "access": "Anonymous isolated Playwright MCP",
+  "complete_external_archive_downloaded": false,
+  "archive_rows_and_semantics_validated": false,
+  "model_training_run": false,
+  "MPC_experiment_run": false,
+  "published_report_changed": false,
+  "remote_updated": false
+}

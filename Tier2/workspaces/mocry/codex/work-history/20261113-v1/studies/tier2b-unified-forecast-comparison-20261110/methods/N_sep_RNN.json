@@ -1,0 +1,33 @@
+{
+  "id": "N_sep_RNN",
+  "label": "独立 RNN",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "Previously frozen independent target validation selection; per-seed target val checkpoints",
+  "target_configs": {
+    "generation_MW": {
+      "lookback": 14,
+      "lr": 0.003,
+      "parameters_per_target": 5373
+    },
+    "demand_MW": {
+      "lookback": 7,
+      "lr": 0.001,
+      "parameters_per_target": 5373
+    },
+    "price_GBP_MWh": {
+      "lookback": 30,
+      "lr": 0.001,
+      "parameters_per_target": 5373
+    }
+  },
+  "parameters_total": 16119,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_sep_RNN.npz",
+  "prediction_sha256": "f49be202db7eac2479475147dacdecd7708b4da55d9504b3b37e6eb817cb65a1",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

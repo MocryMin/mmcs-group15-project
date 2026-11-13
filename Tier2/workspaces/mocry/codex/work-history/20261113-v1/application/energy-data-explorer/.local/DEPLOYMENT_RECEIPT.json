@@ -1,0 +1,50 @@
+{
+  "project_id": "appgprj_6af3053707b88191ae7fc82b252396ed",
+  "app_version": "2.0.0",
+  "source_commit": "d38c952186f64330dc77066ea62679e57b2bf4ba",
+  "saved_version_id": "appgprj_6af3053707b88191ae7fc82b252396ed~appgver_e21e0cbf6f988191ab33629c24e1933d",
+  "deployment_id": "appgdep_6af3088985bc819197a1d0f322e6888b",
+  "status": "succeeded",
+  "public_url": "https://mmcs-energy-data-explorer-ran.mocrymin.chatgpt.site",
+  "requested_access": "public",
+  "archive_sha256": "2bdcc3b7b473af7e7e9a77cb18ba44607dded8a0f82f89697746d9968ddfb83f",
+  "data_audit_passed": true,
+  "ui_checks": {
+    "before_packaging": true,
+    "after_packaging": {
+      "tests": [
+        {
+          "name": "real_mouse_wheel_zoom",
+          "pass": true,
+          "before": 365,
+          "after": 330
+        },
+        {
+          "name": "real_mouse_pan",
+          "pass": true,
+          "before": "2025-09-20",
+          "after": "2025-08-25"
+        },
+        {
+          "name": "selected_csv",
+          "pass": true,
+          "filename": "MMCS_2025-07-01_2025-07-07.csv",
+          "header": "﻿date,generation_MW,demand_MW,price_GBP_MWh,source_total_MW,wind_farm_MW,strict_no_imputation,NESO_ND_actual_MW,NESO_TSD_actual_MW,NESO_ND_forecast_MW,NESO_TSD_forecast_MW,NESO_ND_cardinal_mean_MW,ND_forecast_halfhours,TSD_forecast_halfhours,forecast_latest_issue_UTC"
+        },
+        {
+          "name": "all_curves_off_valid_axis",
+          "pass": true
+        },
+        {
+          "name": "browser_curve_memory",
+          "pass": true
+        },
+        {
+          "name": "no_hidden_subplot_mask",
+          "pass": true
+        }
+      ],
+      "passed": true
+    }
+  }
+}

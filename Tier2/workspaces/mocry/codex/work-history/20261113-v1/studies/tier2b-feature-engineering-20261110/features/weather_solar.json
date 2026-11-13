@@ -1,0 +1,22 @@
+{
+  "group": "weather_solar",
+  "rows": 2086,
+  "features": [
+    "cloud_forecast48h_location0",
+    "daylight_clear_proxy_location0",
+    "cloud_forecast48h_location1",
+    "daylight_clear_proxy_location1",
+    "cloud_forecast48h_location2",
+    "daylight_clear_proxy_location2",
+    "clear_sky_seasonal_index"
+  ],
+  "sha256": "3072cc16ce476f1513971c9b1392006ad6235980324c77fd762238259a1b9345",
+  "source_url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=51.5,53.48,55.95&longitude=-0.12,-2.24,-3.19&start_date=2021-01-01&end_date=2026-09-18&hourly=cloud_cover_previous_day2&models=jma_gsm&timezone=UTC",
+  "model": "JMA GSM",
+  "lead_hours_before_valid_time": 48,
+  "origin_date": "valid day minus one day",
+  "availability": "48h forecast cloud cover plus deterministic solar geometry, all known before origin cutoff.",
+  "aggregation": "All24 hours required and present; mean cloud and mean positive-cosine-solar-elevation times1-cloud_fraction. This is a heuristic feature, not measured irradiance or calibrated PV production.",
+  "locations": "London, Manchester, Edinburgh proxy grids",
+  "mechanism": "Seasonal daylight modulated by forecast clouds captures weather-driven solar supply beyond day-of-year harmonics."
+}

@@ -1,0 +1,33 @@
+{
+  "purpose": "Direct NESO-only calibration versus retaining own historical/weather predictors. Test never selects parameters.",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "NESO_features_sha256": "e17dcfba9e0838b0f20e852622944116b3b1e295489350067cf8cb955d55f887",
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "evaluation": "sample mean MSE standardized by2022-2024labelstd; also rawMSE/MAE/RMSE",
+  "source_note": "NESO predictions targetNationalDemand, courseY is repairedVDdaily mean; this is cross-definition calibration.",
+  "prior_correlations_note": "0.9883/0.9995 were observedVD vs observedND/TSD, NOT NESOforecast-vs-target correlations.",
+  "fit_count": 105,
+  "designs": {
+    "mean": 1,
+    "three": 3,
+    "six": 6,
+    "history": 36,
+    "calendar": 20,
+    "weather": 20,
+    "all": 64
+  },
+  "published": false
+}

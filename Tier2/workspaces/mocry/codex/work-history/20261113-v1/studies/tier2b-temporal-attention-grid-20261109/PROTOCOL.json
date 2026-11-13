@@ -1,0 +1,61 @@
+{
+  "architecture": "Unidirectional recurrent encoder plus last-query scaled dot-product temporal attention; concatenated last state and attention context; persistence residual",
+  "Q_K_V": "Identity projections; Q is last hidden state, K=V are all observed hidden states; no independent projection matrices",
+  "parameters": {
+    "RNN_attention": 5441,
+    "LSTM_attention": 5441,
+    "plain_RNN": 5373,
+    "plain_LSTM": 5409
+  },
+  "attention_complexity": "Single query over L positions; O(LH) attention, no L by L self-attention matrix",
+  "lookbacks_days": [
+    365,
+    182,
+    91,
+    56,
+    30,
+    14,
+    7
+  ],
+  "seed": 17,
+  "expected_new_fits": 42,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "training": "Same target/family learning rate as plain grid; AdamW; batch64; 18 steps/epoch; max120 epochs; 15 complete epochs patience; val min_delta1e-5",
+  "logging": "Every optimiser update: full train, validation and test eval MSE; flush every row; identical eval mode",
+  "selection": "Checkpoint and seven-window selection use validation only; test never used for selection",
+  "target_weights": "Independent target networks, same historical G/D/p and calendar inputs; no parameter sharing",
+  "context": "2021 only provides historical input; 2022-2024 fits labels and scalers; 2026 September tail excluded",
+  "test_status": "Monitored development holdout, previously viewed; not a blind test",
+  "baseline": "Frozen previous plain seed17 grid; matched input/target dates/scalers/lookbacks/rates; small head parameter increase explicitly counted",
+  "source_hashes": {
+    "run.py": "c1e42b29a40e917da56720b655c8ffc1c4156bc6d9c8bde86f73bdd84827f694",
+    "data.py": "8ee37d46dbdb12947b4e0ef33d4ce67f48aafe31b69f4678c38953998e2a93d9",
+    "fit_core.py": "9549171764da1855267b4306ae46f3e3c3a87acddc4736ca308cf4fb3ac26ea9",
+    "model.py": "99e5589978e2237e99547f9f6172de833dae5225d68547050394a8bdceddbefa",
+    "REFERENCE_CONFIGS.json": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2"
+  },
+  "baseline_manifest_sha256": "9ffd3b71e3160266e978039100530a24315560f00e86f08f99da92c1b6a74be2",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "device": "CPU, independent target processes, two threads each",
+  "torch": "2.15.0+cpu",
+  "data_vintage_audited": false,
+  "MPC_evaluated": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "N_joint_LSTM_small15",
+  "label": "联合 LSTM 5k P15",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "One joint-val checkpoint per seed, patience15",
+  "parameters_total": 5475,
+  "lookback": 56,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_joint_LSTM_small15.npz",
+  "prediction_sha256": "5b6289886d3bc3bccd983af33814e27456fdc62769a2f21b9e6160196fbd14b1",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

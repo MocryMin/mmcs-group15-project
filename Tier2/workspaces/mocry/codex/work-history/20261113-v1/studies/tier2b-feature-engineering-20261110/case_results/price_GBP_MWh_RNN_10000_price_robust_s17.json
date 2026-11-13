@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "price_GBP_MWh_RNN_10000_price_robust_s17",
+    "target": "price_GBP_MWh",
+    "family": "RNN",
+    "budget": 10000,
+    "parameters": 10029,
+    "features": 14,
+    "groups": "price_robust",
+    "seed": 17,
+    "epoch": 2,
+    "step": 36,
+    "batch_loss": 0.08663482964038849,
+    "train_loss": 0.12643356874974454,
+    "validation_loss": 0.1123152970217035,
+    "test_loss": 0.06830269295345597,
+    "best_validation": 0.1123152970217035,
+    "improved": true,
+    "seconds": 0.25,
+    "epochs_ran": 17,
+    "updates": 306,
+    "wall_seconds": 1.25,
+    "device": "cuda",
+    "lookback": 30,
+    "lr": 0.001,
+    "checkpoint": "models/price_GBP_MWh_RNN_10000_price_robust_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.12643356948507137,
+      "MSE": 807.0572997435681,
+      "MAE": 18.64909463205362,
+      "RMSE": 28.408753928033665
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.11231529920102647,
+      "MSE": 716.936826684896,
+      "MAE": 14.904394216306473,
+      "RMSE": 26.7756760266645
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.06830269350510995,
+      "MSE": 435.99328572270826,
+      "MAE": 15.218021093306339,
+      "RMSE": 20.880452239420205
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

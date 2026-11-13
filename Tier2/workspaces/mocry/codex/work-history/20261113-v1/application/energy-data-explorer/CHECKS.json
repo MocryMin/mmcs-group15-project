@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "embedded_rows": 2086,
+  "comparison_series": 6,
+  "base_columns_retained": true,
+  "forecast_coverage": {
+    "ND_actual": 2086,
+    "TSD_actual": 2086,
+    "ND_forecast": 1863,
+    "TSD_forecast": 1899,
+    "ND_cardinal_mean": 2084
+  },
+  "missing_values_are_null": true,
+  "javascript_syntax_valid": true,
+  "index_sha256": "138a991f3ed8b9de6025b581fd3ed320b687dd7894b2dbf4d0e53fb5ada084f0"
+}

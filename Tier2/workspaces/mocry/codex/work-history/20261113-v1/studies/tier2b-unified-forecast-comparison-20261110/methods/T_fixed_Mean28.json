@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_Mean28",
+  "label": "28日均值",
+  "category": "traditional",
+  "regime": "past_only_rule",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "Mean28",
+      "validation_loss": 0.3426155963272092
+    },
+    "demand_MW": {
+      "candidate": "Mean28",
+      "validation_loss": 0.40676225863676385
+    },
+    "price_GBP_MWh": {
+      "candidate": "Mean28",
+      "validation_loss": 0.1107912073353045
+    }
+  },
+  "parameters_total": 0,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_Mean28.npz",
+  "prediction_sha256": "01464d63e7dcc24f6eccb945641527f27e6c072b3e9390b9510d7666b7ffc7e6",
+  "seeds": [
+    "det"
+  ]
+}

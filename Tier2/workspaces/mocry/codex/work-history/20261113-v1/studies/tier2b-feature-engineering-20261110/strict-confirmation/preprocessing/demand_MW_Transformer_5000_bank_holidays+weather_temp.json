@@ -1,0 +1,73 @@
+{
+  "target": "demand_MW",
+  "family": "Transformer",
+  "budget": 5000,
+  "groups": "bank_holidays+weather_temp",
+  "pool": "self_features",
+  "target_mean": [
+    25936.862947728696,
+    28781.64872262774,
+    120.97857969411676
+  ],
+  "target_std": [
+    5238.09892616852,
+    4003.302662756515,
+    79.89525467079051
+  ],
+  "extra_feature_names": [
+    "bank_holidays__england-and-wales_target_offset-1",
+    "bank_holidays__england-and-wales_target_offset0",
+    "bank_holidays__england-and-wales_target_offset1",
+    "bank_holidays__scotland_target_offset-1",
+    "bank_holidays__scotland_target_offset0",
+    "bank_holidays__scotland_target_offset1",
+    "weather_temp__temp_forecast48h_location0",
+    "weather_temp__temp_forecast48h_location1",
+    "weather_temp__temp_forecast48h_location2",
+    "weather_temp__temp_forecast48h_location3",
+    "weather_temp__cold_index15",
+    "weather_temp__warm_index22",
+    "weather_temp__temperature_change",
+    "weather_temp__any_missing_forecast"
+  ],
+  "extra_mean": [
+    0.024657534246575342,
+    0.024657534246575342,
+    0.025570776255707764,
+    0.0273972602739726,
+    0.0273972602739726,
+    0.028310502283105023,
+    12.69356164383563,
+    10.85195585996956,
+    10.966750380517501,
+    9.801632420091323,
+    4.532240296803651,
+    0.028671993911719946,
+    -0.00214992389649924,
+    0.02009132420091324
+  ],
+  "extra_std": [
+    0.15507914189682173,
+    0.15507914189682173,
+    0.15785091592191855,
+    0.16323801764127194,
+    0.16323801764127194,
+    0.16585842680908236,
+    5.434969191986168,
+    5.103229162069697,
+    4.8450294987835525,
+    4.425280912835136,
+    3.964315679740986,
+    0.35294946099445,
+    1.523477049817421,
+    0.14031273246846326
+  ],
+  "input_scaler_origin_fit_start": "2022-01-01",
+  "input_scaler_origin_fit_end": "2024-12-30",
+  "target_scaler_label_fit_end": "2024-12-31",
+  "base_encoding": "First3: standardized observed generation,demand,price; then observed-day weekday sine/cosine, yearly sine/cosine, weekend.",
+  "groups_csv": {
+    "bank_holidays": "44f16a85a56b394d1b934551f36e31c6ce388cbcc1c579477ec0949c5162c992",
+    "weather_temp": "6144f0ca97a99f1450c8bf78c028bd81bfc2d15df8e8c27c58c829a13e164bfb"
+  }
+}

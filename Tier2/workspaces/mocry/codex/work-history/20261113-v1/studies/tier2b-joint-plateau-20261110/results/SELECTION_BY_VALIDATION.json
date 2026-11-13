@@ -1,0 +1,12 @@
+{
+  "RNN": {
+    "policy": "fixed",
+    "mean_joint_validation_loss": 0.1154826823998209,
+    "criterion": "Mean joint validation only; test not used"
+  },
+  "LSTM": {
+    "policy": "fixed",
+    "mean_joint_validation_loss": 0.11615439492175643,
+    "criterion": "Mean joint validation only; test not used"
+  }
+}

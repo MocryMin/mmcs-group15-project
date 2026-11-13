@@ -1,0 +1,17 @@
+{
+  "id": "N_joint_RNN_small15",
+  "label": "联合 RNN 5k P15",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "One joint-val checkpoint per seed, patience15",
+  "parameters_total": 5511,
+  "lookback": 28,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_joint_RNN_small15.npz",
+  "prediction_sha256": "38258a2829b55a4a3ef010fb23ea4ef486678404dd4c9b8b51ca93172c374ff0",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

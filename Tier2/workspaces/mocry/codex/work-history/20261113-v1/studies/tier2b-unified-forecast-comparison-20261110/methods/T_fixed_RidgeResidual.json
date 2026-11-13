@@ -1,0 +1,28 @@
+{
+  "id": "T_fixed_RidgeResidual",
+  "label": "岭回归 变化",
+  "category": "traditional",
+  "regime": "fixed",
+  "selection": "Each target selects its own configuration solely by target validation MSE",
+  "target_configs": {
+    "generation_MW": {
+      "candidate": "RidgeResidual_L7_a10",
+      "validation_loss": 0.15162865197539271
+    },
+    "demand_MW": {
+      "candidate": "RidgeResidual_L7_a10",
+      "validation_loss": 0.08704081706751814
+    },
+    "price_GBP_MWh": {
+      "candidate": "RidgeResidual_L7_a1",
+      "validation_loss": 0.11564597924535645
+    }
+  },
+  "parameters_total": 171,
+  "uncertainty": "deterministic; no training seed SD",
+  "prediction_file": "predictions/T_fixed_RidgeResidual.npz",
+  "prediction_sha256": "e24dbc32eb6d996f1e7e473572d27187dfba0e951caa09b4ec326016658597d2",
+  "seeds": [
+    "det"
+  ]
+}

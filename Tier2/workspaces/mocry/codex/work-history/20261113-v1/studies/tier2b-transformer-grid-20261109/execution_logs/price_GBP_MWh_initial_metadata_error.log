@@ -1,0 +1,25 @@
+START price_GBP_MWh_RNN_L30_lr0.001_s17 cpu initial 0.13496970994844773
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 200 E 12 train 0.11923475841910491 val 0.11995803281888058 best 0.1190724822787609
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 400 E 23 train 0.11662009880138068 val 0.11935312545390098 best 0.11666204874313808
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 600 E 34 train 0.10925850473801424 val 0.11602460931360423 best 0.11571347434247152
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 800 E 45 train 0.1029643979345907 val 0.12152011958968201 best 0.1137605706563775
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 1000 E 56 train 0.09358869446436237 val 0.12105376912231579 best 0.1134214604503696
+STEP price_GBP_MWh_RNN_L30_lr0.001_s17 1200 E 67 train 0.0797305998454492 val 0.12131794913823948 best 0.1123473425406158
+Traceback (most recent call last):
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-transformer-grid-20261109\run.py", line 111, in <module>
+    if len(sys.argv)>1 and sys.argv[1]=="baseline":baseline_worker(sys.argv[2])
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-transformer-grid-20261109\run.py", line 36, in baseline_worker
+    values.append(fit(target,family,c["lookback"],c["lr"],seed,x,data,mean,scale,"cpu","baseline_confirmation"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-transformer-grid-20261109\fit_core.py", line 117, in fit
+    cp=torch.load(checkpoint,weights_only=True);model.load_state_dict(cp["state_dict"]);metrics=[];exported={}
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\研究生\courses\MMCS\assignments\FinalProject\tier2b-transformer-grid-20261109\.venv-gpu\Lib\site-packages\torch\serialization.py", line 1614, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL torch.torch_version.TorchVersion was not an allowed global by default. Please use `torch.serialization.add_safe_globals([torch.torch_version.TorchVersion])` or the `torch.serialization.safe_globals([torch.torch_version.TorchVersion])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

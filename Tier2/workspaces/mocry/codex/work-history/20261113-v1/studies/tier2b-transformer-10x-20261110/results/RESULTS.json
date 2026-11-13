@@ -1,0 +1,786 @@
+{
+  "protocol": {
+    "experiment": "10x Transformer width scaling, frozen previous configuration",
+    "parameters": 54005,
+    "previous_parameters": 5407,
+    "ratio": 9.987978546328833,
+    "architecture": {
+      "layers": 1,
+      "d_model": 72,
+      "heads": 3,
+      "ffn": 220,
+      "activation": "GELU",
+      "pre_LN": true,
+      "dropout": 0.1,
+      "fixed_relative_lag_positions": true,
+      "persistence_residual_output": true
+    },
+    "training": {
+      "batch_size": 64,
+      "steps_per_epoch": 18,
+      "max_epochs": 120,
+      "patience_complete_epochs": 15,
+      "min_delta": 1e-05,
+      "optimizer": "AdamW",
+      "weight_decay": 0.0001,
+      "clip_norm": 1.0,
+      "dropout": 0.1
+    },
+    "precision": "float32, math SDPA, AMP off, TF32 off, deterministic algorithms; CUBLAS_WORKSPACE_CONFIG=:4096:8",
+    "logging": "Full train, validation and test eval after every update; weighted all-sample mean from chunks; CSV flush every row",
+    "evaluation_chunks": "Transformer largest power-of-two <=64*(365/L)^2, bounded64..2048; recurrent2048; no sample subsampling",
+    "periods": {
+      "train": [
+        "2022-01-01",
+        "2024-12-31"
+      ],
+      "validation": [
+        "2025-01-01",
+        "2025-08-31"
+      ],
+      "test": [
+        "2025-09-01",
+        "2026-08-31"
+      ]
+    },
+    "samples": {
+      "train": 1096,
+      "validation": 243,
+      "test": 365
+    },
+    "features": 8,
+    "horizon": 1,
+    "separate_targets": true,
+    "configs": {
+      "generation_MW": {
+        "target": "generation_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "selected_seed": 17,
+        "best_validation_loss": 0.13743225866126743,
+        "screen_run": "generation_MW_Transformer_L7_lr0.001_s17"
+      },
+      "demand_MW": {
+        "target": "demand_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "selected_seed": 17,
+        "best_validation_loss": 0.0800233698275964,
+        "screen_run": "demand_MW_Transformer_L7_lr0.001_s17"
+      },
+      "price_GBP_MWh": {
+        "target": "price_GBP_MWh",
+        "family": "Transformer",
+        "lookback": 182,
+        "lr": 0.001,
+        "selected_seed": 17,
+        "best_validation_loss": 0.09671390575832985,
+        "screen_run": "price_GBP_MWh_Transformer_L182_lr0.001_s17"
+      }
+    },
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "expected_fits": 9,
+    "selection": "Original small-model val-selected window/lr frozen; each new checkpoint selected only by val",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "source_hashes": {
+      "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+      "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+      "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+      "run.py": "13458fba09ee98bf279d2a447ec0536fbcf0961e0ed99e0a354e285898006c8c",
+      "CONFIGS_FROZEN.json": "2a8b729272f45afffd9407565bc6f4568d999c0e805de21c8c86c0f8bf9c7b66"
+    },
+    "test_is_monitored_not_blind": true,
+    "external_features": false,
+    "MPC_evaluated": false,
+    "data_vintage_audited": false,
+    "new_hyperparameter_search": false
+  },
+  "values": [
+    {
+      "row": {
+        "run": "generation_MW_Transformer_L7_lr0.001_s17",
+        "target": "generation_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 17,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 26,
+        "best_step": 460,
+        "epochs": 41,
+        "steps": 738,
+        "best_train_loss": 0.09989855253147237,
+        "best_validation_loss": 0.13657795499837466,
+        "test_loss_at_val_checkpoint": 0.1838314380235744,
+        "last_train_loss": 0.08847090966829577,
+        "last_validation_loss": 0.13942041628115354,
+        "last_test_loss": 0.1905098168141569,
+        "seconds": 5.312999999994645,
+        "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s17.pt",
+        "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s17.csv"
+      },
+      "metrics": [
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.09989855306846736,
+          "MSE": 2740984.567551852,
+          "RMSE": 1655.5919085184767,
+          "MAE": 1262.152743094226
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.13657795375338877,
+          "MSE": 3747382.2393531133,
+          "RMSE": 1935.8156522130698,
+          "MAE": 1441.415593000982
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.18383143890473427,
+          "MSE": 5043908.260847228,
+          "RMSE": 2245.8647022577356,
+          "MAE": 1735.468450830085
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "generation_MW_Transformer_L7_lr0.001_s29",
+        "target": "generation_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 29,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 12,
+        "best_step": 213,
+        "epochs": 27,
+        "steps": 486,
+        "best_train_loss": 0.11088168540068964,
+        "best_validation_loss": 0.13995634167230075,
+        "test_loss_at_val_checkpoint": 0.18256590272743817,
+        "last_train_loss": 0.0960936504733314,
+        "last_validation_loss": 0.1544922850776451,
+        "last_test_loss": 0.18373686098527134,
+        "seconds": 3.2969999999913853,
+        "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s29.pt",
+        "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s29.csv"
+      },
+      "metrics": [
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.110881685897866,
+          "MSE": 3042336.2554799146,
+          "RMSE": 1744.2294159541957,
+          "MAE": 1342.3667620510842
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.13995634199958465,
+          "MSE": 3840077.3761853245,
+          "RMSE": 1959.6115370617015,
+          "MAE": 1428.3650710109368
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.1825659017693783,
+          "MSE": 5009184.857443207,
+          "RMSE": 2238.1208317343385,
+          "MAE": 1733.9558298631775
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "generation_MW_Transformer_L7_lr0.001_s43",
+        "target": "generation_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 43,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 19,
+        "best_step": 326,
+        "epochs": 34,
+        "steps": 612,
+        "best_train_loss": 0.10566513514672869,
+        "best_validation_loss": 0.13619211479767127,
+        "test_loss_at_val_checkpoint": 0.17807576724719076,
+        "last_train_loss": 0.09263720052082115,
+        "last_validation_loss": 0.14714308363936213,
+        "last_test_loss": 0.18710728482040967,
+        "seconds": 4.14100000000326,
+        "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s43.pt",
+        "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s43.csv"
+      },
+      "metrics": [
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.105665135826904,
+          "MSE": 2899206.222049213,
+          "RMSE": 1702.7055594110254,
+          "MAE": 1300.3464185646599
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.1361921156042666,
+          "MSE": 3736795.7355466792,
+          "RMSE": 1933.079340209987,
+          "MAE": 1437.5983138512427
+        },
+        {
+          "target": "generation_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.1780757652978961,
+          "MSE": 4885985.928164426,
+          "RMSE": 2210.426639398925,
+          "MAE": 1700.118227979923
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "demand_MW_Transformer_L7_lr0.001_s17",
+        "target": "demand_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 17,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 17,
+        "best_step": 300,
+        "epochs": 32,
+        "steps": 576,
+        "best_train_loss": 0.07291716292116561,
+        "best_validation_loss": 0.07864415641453854,
+        "test_loss_at_val_checkpoint": 0.10553943645478399,
+        "last_train_loss": 0.06473563302818118,
+        "last_validation_loss": 0.09528877934664816,
+        "last_test_loss": 0.1218378524491413,
+        "seconds": 3.875,
+        "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s17.pt",
+        "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s17.csv"
+      },
+      "metrics": [
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.07291716273098778,
+          "MSE": 1168601.9654269828,
+          "RMSE": 1081.0189477650163,
+          "MAE": 849.3254050267484
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.07864415632091773,
+          "MSE": 1260385.2399610004,
+          "RMSE": 1122.6688024350728,
+          "MAE": 871.9899499764754
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.10553943786861696,
+          "MSE": 1691420.6464442064,
+          "RMSE": 1300.546287697676,
+          "MAE": 1004.518817532334
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "demand_MW_Transformer_L7_lr0.001_s29",
+        "target": "demand_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 29,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 10,
+        "best_step": 178,
+        "epochs": 25,
+        "steps": 450,
+        "best_train_loss": 0.07269955894879068,
+        "best_validation_loss": 0.07888431786664458,
+        "test_loss_at_val_checkpoint": 0.10446924004427048,
+        "last_train_loss": 0.06885744237998699,
+        "last_validation_loss": 0.09926815490496241,
+        "last_test_loss": 0.1174424145975856,
+        "seconds": 3.0469999999913853,
+        "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s29.pt",
+        "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s29.csv"
+      },
+      "metrics": [
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.07269955882207269,
+          "MSE": 1165114.5511322038,
+          "RMSE": 1079.404720729071,
+          "MAE": 845.7980631595741
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.07888431858908894,
+          "MSE": 1264234.184271158,
+          "RMSE": 1124.3816897616032,
+          "MAE": 878.4681321843227
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.10446924165033374,
+          "MSE": 1674269.219300884,
+          "RMSE": 1293.9355545392839,
+          "MAE": 1000.7254221741738
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "demand_MW_Transformer_L7_lr0.001_s43",
+        "target": "demand_MW",
+        "family": "Transformer",
+        "lookback": 7,
+        "lr": 0.001,
+        "seed": 43,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 2048,
+        "parameters": 54005,
+        "best_epoch": 14,
+        "best_step": 239,
+        "epochs": 29,
+        "steps": 522,
+        "best_train_loss": 0.07515877990429906,
+        "best_validation_loss": 0.07905960596301335,
+        "test_loss_at_val_checkpoint": 0.10666471096099735,
+        "last_train_loss": 0.06838444924260063,
+        "last_validation_loss": 0.08414608461670865,
+        "last_test_loss": 0.10617994591099002,
+        "seconds": 3.562000000005355,
+        "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s43.pt",
+        "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s43.csv"
+      },
+      "metrics": [
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.07515877979324896,
+          "MSE": 1204527.0893152694,
+          "RMSE": 1097.509493952225,
+          "MAE": 856.4749666153282
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.07905960600234173,
+          "MSE": 1267043.4161168558,
+          "RMSE": 1125.6302306338685,
+          "MAE": 877.344206262021
+        },
+        {
+          "target": "demand_MW",
+          "family": "Transformer",
+          "lookback": 7,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.10666471308756656,
+          "MSE": 1709454.7934578825,
+          "RMSE": 1307.4612015114951,
+          "MAE": 1002.6785327533646
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "price_GBP_MWh_Transformer_L182_lr0.001_s17",
+        "target": "price_GBP_MWh",
+        "family": "Transformer",
+        "lookback": 182,
+        "lr": 0.001,
+        "seed": 17,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 256,
+        "parameters": 54005,
+        "best_epoch": 32,
+        "best_step": 575,
+        "epochs": 47,
+        "steps": 846,
+        "best_train_loss": 0.07336155820038581,
+        "best_validation_loss": 0.09453603686315958,
+        "test_loss_at_val_checkpoint": 0.07290590890006031,
+        "last_train_loss": 0.04617761386511814,
+        "last_validation_loss": 0.10642999110736431,
+        "last_test_loss": 0.07056653586940595,
+        "seconds": 17.562000000005355,
+        "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s17.pt",
+        "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s17.csv"
+      },
+      "metrics": [
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.07336155856342506,
+          "MSE": 468.28529480193436,
+          "RMSE": 21.639900526618284,
+          "MAE": 15.724787052264285
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.09453603681675954,
+          "MSE": 603.4473195095641,
+          "RMSE": 24.56516475640992,
+          "MAE": 14.854173555496889
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 17,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.07290590900392471,
+          "MSE": 465.3767689680329,
+          "RMSE": 21.57259300520067,
+          "MAE": 15.959472446843098
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "price_GBP_MWh_Transformer_L182_lr0.001_s29",
+        "target": "price_GBP_MWh",
+        "family": "Transformer",
+        "lookback": 182,
+        "lr": 0.001,
+        "seed": 29,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 256,
+        "parameters": 54005,
+        "best_epoch": 39,
+        "best_step": 697,
+        "epochs": 54,
+        "steps": 972,
+        "best_train_loss": 0.06114825467632703,
+        "best_validation_loss": 0.09715886427594086,
+        "test_loss_at_val_checkpoint": 0.06737133410229865,
+        "last_train_loss": 0.03965466807341331,
+        "last_validation_loss": 0.10534423974714889,
+        "last_test_loss": 0.07359779334463953,
+        "seconds": 20.23399999999674,
+        "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s29.pt",
+        "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s29.csv"
+      },
+      "metrics": [
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.06114825480597778,
+          "MSE": 390.32470259863317,
+          "RMSE": 19.756636925312797,
+          "MAE": 14.304942716640426
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.09715886067880901,
+          "MSE": 620.1894644353907,
+          "RMSE": 24.90360344278295,
+          "MAE": 14.811863234910371
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 29,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.06737133397954045,
+          "MSE": 430.0481834301931,
+          "RMSE": 20.737603126451067,
+          "MAE": 15.275114737134171
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    },
+    {
+      "row": {
+        "run": "price_GBP_MWh_Transformer_L182_lr0.001_s43",
+        "target": "price_GBP_MWh",
+        "family": "Transformer",
+        "lookback": 182,
+        "lr": 0.001,
+        "seed": 43,
+        "stage": "10x_frozen_configuration",
+        "device": "cuda",
+        "eval_batch": 256,
+        "parameters": 54005,
+        "best_epoch": 37,
+        "best_step": 665,
+        "epochs": 52,
+        "steps": 936,
+        "best_train_loss": 0.05824355901404032,
+        "best_validation_loss": 0.09218851827531535,
+        "test_loss_at_val_checkpoint": 0.06817087446157875,
+        "last_train_loss": 0.04030703646321975,
+        "last_validation_loss": 0.0963381853369298,
+        "last_test_loss": 0.07043605650841449,
+        "seconds": 19.51600000000326,
+        "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s43.pt",
+        "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s43.csv"
+      },
+      "metrics": [
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "train",
+          "loss": 0.05824355937077876,
+          "MSE": 371.78330046898765,
+          "RMSE": 19.281683029989566,
+          "MAE": 14.191947131505742
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "validation",
+          "loss": 0.09218851481302758,
+          "MSE": 588.4624956440618,
+          "RMSE": 24.25824593090073,
+          "MAE": 14.582905782155331
+        },
+        {
+          "target": "price_GBP_MWh",
+          "family": "Transformer",
+          "lookback": 182,
+          "lr": 0.001,
+          "seed": 43,
+          "stage": "10x_frozen_configuration",
+          "split": "test",
+          "loss": 0.068170874405881,
+          "MSE": 435.1518512309698,
+          "RMSE": 20.860293651599676,
+          "MAE": 15.836671389867737
+        }
+      ],
+      "signature": {
+        "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+        "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+        "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+        "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+        "torch": "2.14.1+cu130"
+      }
+    }
+  ],
+  "wall_seconds": 80.875
+}

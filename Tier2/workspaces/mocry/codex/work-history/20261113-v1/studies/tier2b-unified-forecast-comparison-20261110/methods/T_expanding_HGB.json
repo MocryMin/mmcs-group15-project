@@ -1,0 +1,38 @@
+{
+  "id": "T_expanding_HGB",
+  "label": "梯度提升树（扩展）",
+  "category": "traditional",
+  "regime": "expanding",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "HGB",
+      "parameter": 2,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.1551464897841277
+    },
+    {
+      "family": "HGB",
+      "parameter": 4,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.09055440184843126
+    },
+    {
+      "family": "HGB",
+      "parameter": 2,
+      "transform": "asinh",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.0890712261864521
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_expanding_HGB.npz",
+  "prediction_sha256": "3aa6d9bf10c5f5108e1bc0654000985535abdbddef5737c28ef57f9da7126ca8",
+  "seeds": [
+    "det"
+  ]
+}

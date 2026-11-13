@@ -1,0 +1,37 @@
+[
+  {
+    "source": "GOV.UK bank holidays",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "used": "England/Wales and Scotland target-day and adjacent-day flags. Official calendar fetched; special-announcement vintage assumed known by previous day."
+  },
+  {
+    "source": "Open-Meteo Historical Forecast API",
+    "url": "https://open-meteo.com/en/docs/historical-forecast-api",
+    "used": "Archive coverage and distinction between stitched short-lead histories and fixed-lead forecast products."
+  },
+  {
+    "source": "Open-Meteo Previous Runs API",
+    "url": "https://open-meteo.com/en/docs/previous-runs-api",
+    "used": "48h fixed-lead GFS temperature and JMA wind/cloud forecasts. Original run files and exact publication latency not independently reconstructed;48h offset leaves at least24h margin before end of origin."
+  },
+  {
+    "source": "NESO Day Ahead Demand Forecast",
+    "url": "https://www.neso.energy/data-portal/1-day-ahead-demand-forecast",
+    "used": "Archived cardinal point predictions, issue timestamps and field definitions inspected through official CKAN API. Not a daily actual-demand column."
+  },
+  {
+    "source": "NESO Day Ahead Wind Forecast",
+    "url": "https://www.neso.energy/data-portal/day-ahead-wind-forecast",
+    "used": "Inspected and rejected from final pool because strict issue filtering leaves341missing origin dates, including148consecutive days. Kept as a labeled exploratory classical experiment."
+  },
+  {
+    "source": "Lago etal2021, Applied Energy293,116983",
+    "url": "https://arxiv.org/abs/2008.08004",
+    "used": "Read abstract and bibliographic record. Supports comparison against strong simpler methods and multi-year common evaluation; no claim to have reproduced its benchmark or read every paper it cites."
+  },
+  {
+    "source": "Hyndman and Athanasopoulos, Forecasting: Principles and Practice, regression forecasting",
+    "url": "https://otexts.com/fpp3/regression.html#sec-forecasting-regression",
+    "used": "Read ex-ante/ex-post and predictor availability discussion. Motivation to use calendar, lagged observations and forecasts already issued before origin, rather than realised future weather."
+  }
+]

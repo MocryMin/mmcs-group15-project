@@ -1,0 +1,47 @@
+{
+  "CalendarResidualAR": {
+    "model": "CalendarResidualAR",
+    "validation_loss": 0.11334340927616343,
+    "criterion": "Joint validation MSE only"
+  },
+  "RidgeLevel": {
+    "model": "RidgeLevel_L7_a100",
+    "validation_loss": 0.11423751675410107,
+    "criterion": "Joint validation MSE only"
+  },
+  "RidgeResidual": {
+    "model": "RidgeResidual_L7_a10",
+    "validation_loss": 0.1181176191822712,
+    "criterion": "Joint validation MSE only"
+  },
+  "OLSResidual": {
+    "model": "OLSResidual_L7_a0",
+    "validation_loss": 0.12030993741264596,
+    "criterion": "Joint validation MSE only"
+  },
+  "OLSLevel": {
+    "model": "OLSLevel_L7_a0",
+    "validation_loss": 0.12030993778960218,
+    "criterion": "Joint validation MSE only"
+  },
+  "Persistence": {
+    "model": "Persistence",
+    "validation_loss": 0.22717541169791183,
+    "criterion": "Joint validation MSE only"
+  },
+  "Mean28": {
+    "model": "Mean28",
+    "validation_loss": 0.28672302076642586,
+    "criterion": "Joint validation MSE only"
+  },
+  "Seasonal7": {
+    "model": "Seasonal7",
+    "validation_loss": 0.2983096527232876,
+    "criterion": "Joint validation MSE only"
+  },
+  "CalendarOLS": {
+    "model": "CalendarOLS",
+    "validation_loss": 0.35028293213521905,
+    "criterion": "Joint validation MSE only"
+  }
+}

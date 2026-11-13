@@ -1,0 +1,8 @@
+{
+  "all_three_sets_exact_float32_input_and_label_match": true,
+  "scalers_exact_match": true,
+  "lookback": 56,
+  "seed": 17,
+  "source": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\tier2b-independent-newsplit-20261109",
+  "reuse_only_same_target_family_learning_rate_window_seed": true
+}

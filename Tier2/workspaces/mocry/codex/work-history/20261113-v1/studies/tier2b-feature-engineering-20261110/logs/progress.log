@@ -1,0 +1,112 @@
+NEURAL fits 477 best val by feature group:
+       target                             groups      family  budget  seeds  val_mean  improvement_pct
+    demand_MW                        neso_demand Transformer   10000      3  0.038495        52.309476
+    demand_MW         bank_holidays+weather_temp Transformer    5000      3  0.057278        28.531881
+    demand_MW                       weather_temp        LSTM    5000      1  0.062729        25.415042
+    demand_MW                      bank_holidays Transformer   10000      1  0.070895        12.170047
+    demand_MW                    calendar_target Transformer    5000      1  0.075255         6.100643
+price_GBP_MWh                        neso_demand Transformer   10000      1  0.076501        24.667871
+    demand_MW                               base Transformer    5000      3  0.080145         0.000000
+price_GBP_MWh           neso_demand+weather_wind        LSTM   10000      3  0.081605        23.652495
+price_GBP_MWh         weather_wind+weather_solar Transformer    2000      1  0.085568        19.133698
+price_GBP_MWh                       weather_wind Transformer    5000      3  0.085916        17.420761
+price_GBP_MWh                    calendar_target Transformer    5000      1  0.091706        11.856426
+price_GBP_MWh balance+weather_wind+weather_solar Transformer   10000      1  0.096223         5.246362
+price_GBP_MWh                             regime Transformer    2000      1  0.099116         6.330986
+price_GBP_MWh                       price_robust Transformer    5000      1  0.101434         2.505407
+price_GBP_MWh                               base Transformer   10000      3  0.101551         0.000000
+price_GBP_MWh                      weather_solar Transformer    5000      1  0.102366         1.610169
+price_GBP_MWh                     weekly_context Transformer   10000      1  0.104285        -2.692111
+price_GBP_MWh                            balance Transformer    5000      1  0.107859        -3.669574
+price_GBP_MWh                           fuel_mix         RNN   10000      1  0.113665        -5.484210
+generation_MW           neso_demand+weather_wind        LSTM   10000      3  0.122961         9.932605
+generation_MW                       price_robust Transformer    5000      1  0.131548         4.711910
+generation_MW                       weather_wind Transformer    5000      1  0.131900         4.457096
+generation_MW                            balance Transformer   10000      3  0.132009         4.972902
+generation_MW               balance+weather_wind        LSTM    5000      3  0.132485         5.883910
+generation_MW         weather_wind+weather_solar Transformer   10000      1  0.134230         3.373961
+generation_MW                           fuel_mix Transformer    5000      1  0.134703         2.426641
+generation_MW balance+weather_wind+weather_solar Transformer   10000      1  0.136199         1.956857
+generation_MW                               base        LSTM   10000      3  0.136521         0.000000
+generation_MW                    calendar_target Transformer    5000      1  0.140212        -1.564231
+generation_MW                     weekly_context Transformer    2000      1  0.141802        -0.071626
+generation_MW                             regime        LSTM   10000      1  0.145656        -6.691175
+generation_MW                      weather_solar Transformer    5000      1  0.146155        -5.868942
+generation_MW                        neso_demand        LSTM    5000      1  0.146744        -4.245840
+CLASSICAL validation:
+       target                                     groups     family     loss  improvement_pct
+    demand_MW                   neso_demand+weather_wind CalendarAR 0.039326     5.025282e+01
+    demand_MW     neso_demand+bank_holidays+weather_temp      Lasso 0.042841     4.886202e+01
+    demand_MW                                neso_demand CalendarAR 0.042981     4.562936e+01
+    demand_MW calendar_target+bank_holidays+weather_temp      Lasso 0.059709     2.872691e+01
+    demand_MW                 bank_holidays+weather_temp      Lasso 0.059709     2.872687e+01
+    demand_MW    bank_holidays+weather_temp+weather_wind      Lasso 0.062104     2.586861e+01
+    demand_MW                               weather_temp      Lasso 0.066822     2.023699e+01
+    demand_MW                  weather_wind+weather_temp      Lasso 0.067818     1.904728e+01
+price_GBP_MWh                                  neso_wind        HGB 0.067958     2.336968e+01
+price_GBP_MWh                   neso_demand+weather_wind        HGB 0.070071     2.098694e+01
+    demand_MW                 weather_wind+weather_solar      Lasso 0.071714     1.439752e+01
+    demand_MW         balance+weather_wind+weather_solar      Lasso 0.071714     1.439679e+01
+    demand_MW                              weather_solar      Lasso 0.074200     1.142984e+01
+    demand_MW                              bank_holidays CalendarAR 0.075050     5.062462e+00
+    demand_MW              calendar_target+bank_holidays CalendarAR 0.075050     5.062462e+00
+price_GBP_MWh     neso_demand+bank_holidays+weather_temp        HGB 0.075373     1.500898e+01
+price_GBP_MWh    weather_wind+price_robust+bank_holidays        HGB 0.076306     1.395661e+01
+price_GBP_MWh                  price_robust+weather_wind        HGB 0.076337     1.392177e+01
+price_GBP_MWh                                neso_demand        HGB 0.076481     1.375893e+01
+    demand_MW    weather_wind+price_robust+bank_holidays      Lasso 0.076815     8.307759e+00
+price_GBP_MWh                               weather_wind        HGB 0.077070     1.309532e+01
+price_GBP_MWh    bank_holidays+weather_temp+weather_wind        HGB 0.077167     1.298588e+01
+price_GBP_MWh                  weather_wind+weather_temp        HGB 0.077415     1.270562e+01
+price_GBP_MWh                 weather_wind+weather_solar        HGB 0.077544     1.256075e+01
+    demand_MW                                       base CalendarAR 0.079052     0.000000e+00
+    demand_MW                            calendar_target CalendarAR 0.079052    -4.362675e-08
+price_GBP_MWh         balance+weather_wind+weather_solar        HGB 0.079486     1.037069e+01
+price_GBP_MWh                      fuel_mix+weather_wind        HGB 0.079664     1.017003e+01
+    demand_MW                  price_robust+weather_wind CalendarAR 0.081867    -3.561429e+00
+    demand_MW                               price_robust      Lasso 0.083245     6.331994e-01
+    demand_MW                               weather_wind      Lasso 0.083545     2.750946e-01
+    demand_MW                                    balance      Lasso 0.083774     1.607222e-03
+    demand_MW                             weekly_context      Lasso 0.083775     5.521341e-04
+    demand_MW                                     regime      Lasso 0.084263    -5.817474e-01
+    demand_MW                      fuel_mix+weather_wind      Ridge 0.084639     4.824699e+00
+    demand_MW                                  neso_wind      Lasso 0.085046    -1.517570e+00
+price_GBP_MWh                               price_robust        HGB 0.085821     3.227524e+00
+price_GBP_MWh                               weather_temp        HGB 0.085931     3.103219e+00
+price_GBP_MWh                              weather_solar        HGB 0.086173     2.830372e+00
+price_GBP_MWh calendar_target+bank_holidays+weather_temp        HGB 0.086787     2.137380e+00
+    demand_MW                                   fuel_mix      Lasso 0.086871    -3.695408e+00
+price_GBP_MWh                 bank_holidays+weather_temp        HGB 0.087127     1.754527e+00
+price_GBP_MWh                             weekly_context        HGB 0.087595     1.227262e+00
+price_GBP_MWh              calendar_target+bank_holidays        HGB 0.087773     1.026306e+00
+price_GBP_MWh                            calendar_target        HGB 0.088148     6.033597e-01
+price_GBP_MWh                              bank_holidays        HGB 0.088498     2.089511e-01
+price_GBP_MWh                                       base        HGB 0.088683     0.000000e+00
+price_GBP_MWh                                   fuel_mix        HGB 0.088958    -3.101918e-01
+price_GBP_MWh                                    balance        HGB 0.089787    -1.244821e+00
+price_GBP_MWh                                     regime        HGB 0.092463    -4.262869e+00
+generation_MW                                    balance      Ridge 0.140493     1.817696e+00
+generation_MW                                   fuel_mix      Ridge 0.141148     1.359720e+00
+generation_MW calendar_target+bank_holidays+weather_temp      Ridge 0.141940     8.067565e-01
+generation_MW                 bank_holidays+weather_temp      Lasso 0.142093     3.847363e+00
+generation_MW              calendar_target+bank_holidays      Ridge 0.142115     6.841314e-01
+generation_MW                              bank_holidays      Ridge 0.142273     5.738013e-01
+generation_MW                            calendar_target      Ridge 0.142788     2.138146e-01
+generation_MW                                       base      Ridge 0.143094     0.000000e+00
+generation_MW                               weather_temp      Ridge 0.143195    -7.026561e-02
+generation_MW                               price_robust      Ridge 0.143579    -3.386113e-01
+generation_MW                             weekly_context      Ridge 0.143591    -3.469580e-01
+generation_MW                              weather_solar      Ridge 0.144682    -1.109993e+00
+generation_MW                                     regime      Ridge 0.146982    -2.716820e+00
+generation_MW    bank_holidays+weather_temp+weather_wind      Lasso 0.151046    -2.211053e+00
+generation_MW    weather_wind+price_robust+bank_holidays      Lasso 0.151184    -2.304673e+00
+generation_MW         balance+weather_wind+weather_solar      Lasso 0.152279    -3.045633e+00
+generation_MW                      fuel_mix+weather_wind      Lasso 0.152900    -3.465879e+00
+generation_MW     neso_demand+bank_holidays+weather_temp      Lasso 0.153607    -3.944417e+00
+generation_MW                  weather_wind+weather_temp      Lasso 0.153808    -4.080158e+00
+generation_MW                 weather_wind+weather_solar      Lasso 0.153971    -4.190670e+00
+generation_MW                  price_robust+weather_wind      Lasso 0.154373    -4.462873e+00
+generation_MW                               weather_wind      Lasso 0.154387    -4.472272e+00
+generation_MW                                neso_demand      Lasso 0.156474    -5.884378e+00
+generation_MW                   neso_demand+weather_wind      Lasso 0.157384    -6.500484e+00
+generation_MW                                  neso_wind      Lasso 0.159167    -7.706855e+00

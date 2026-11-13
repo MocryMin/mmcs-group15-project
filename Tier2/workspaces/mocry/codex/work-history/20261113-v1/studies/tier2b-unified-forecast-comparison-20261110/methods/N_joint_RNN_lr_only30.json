@@ -1,0 +1,17 @@
+{
+  "id": "N_joint_RNN_lr_only30",
+  "label": "联合 RNN 55k 降LR P30",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "One joint-val checkpoint per seed; prior predeclared plateau policy; patience30",
+  "parameters_total": 54951,
+  "lookback": 28,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_joint_RNN_lr_only30.npz",
+  "prediction_sha256": "9a5bba276a37fbacf07474217ba1b0719bd7c1ef67c12e74f8fdc1014ec35c1b",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "row": {
+    "run": "generation_MW_Transformer_L7_lr0.001_s43",
+    "target": "generation_MW",
+    "family": "Transformer",
+    "lookback": 7,
+    "lr": 0.001,
+    "seed": 43,
+    "stage": "10x_frozen_configuration",
+    "device": "cuda",
+    "eval_batch": 2048,
+    "parameters": 54005,
+    "best_epoch": 19,
+    "best_step": 326,
+    "epochs": 34,
+    "steps": 612,
+    "best_train_loss": 0.10566513514672869,
+    "best_validation_loss": 0.13619211479767127,
+    "test_loss_at_val_checkpoint": 0.17807576724719076,
+    "last_train_loss": 0.09263720052082115,
+    "last_validation_loss": 0.14714308363936213,
+    "last_test_loss": 0.18710728482040967,
+    "seconds": 4.14100000000326,
+    "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s43.pt",
+    "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s43.csv"
+  },
+  "metrics": [
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 43,
+      "stage": "10x_frozen_configuration",
+      "split": "train",
+      "loss": 0.105665135826904,
+      "MSE": 2899206.222049213,
+      "RMSE": 1702.7055594110254,
+      "MAE": 1300.3464185646599
+    },
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 43,
+      "stage": "10x_frozen_configuration",
+      "split": "validation",
+      "loss": 0.1361921156042666,
+      "MSE": 3736795.7355466792,
+      "RMSE": 1933.079340209987,
+      "MAE": 1437.5983138512427
+    },
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "lookback": 7,
+      "lr": 0.001,
+      "seed": 43,
+      "stage": "10x_frozen_configuration",
+      "split": "test",
+      "loss": 0.1780757652978961,
+      "MSE": 4885985.928164426,
+      "RMSE": 2210.426639398925,
+      "MAE": 1700.118227979923
+    }
+  ],
+  "signature": {
+    "model.py": "ca988928cef0ad859dde6e1a97df2ede623f57fba8e3e529d64e1b688e03975b",
+    "fit_core.py": "e7cd5f0543995ee489a4e9588b77433740896a6245c9b9036fb13f047a10ee3e",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "torch": "2.14.1+cu130"
+  }
+}

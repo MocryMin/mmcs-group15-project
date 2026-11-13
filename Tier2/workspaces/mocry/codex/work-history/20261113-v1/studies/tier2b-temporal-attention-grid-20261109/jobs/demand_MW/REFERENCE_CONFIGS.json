@@ -1,0 +1,50 @@
+{
+  "generation_MW|RNN": {
+    "target": "generation_MW",
+    "family": "RNN",
+    "lookback": 56,
+    "lr": 0.003,
+    "mean": 0.24441752831141153,
+    "std": 0.002510719358456343
+  },
+  "generation_MW|LSTM": {
+    "target": "generation_MW",
+    "family": "LSTM",
+    "lookback": 28,
+    "lr": 0.003,
+    "mean": 0.2539472778638204,
+    "std": 0.006056904581136686
+  },
+  "demand_MW|RNN": {
+    "target": "demand_MW",
+    "family": "RNN",
+    "lookback": 56,
+    "lr": 0.001,
+    "mean": 0.08184204498926799,
+    "std": 0.000689763568552598
+  },
+  "demand_MW|LSTM": {
+    "target": "demand_MW",
+    "family": "LSTM",
+    "lookback": 28,
+    "lr": 0.003,
+    "mean": 0.0865266943971316,
+    "std": 0.00024775191279389775
+  },
+  "price_GBP_MWh|RNN": {
+    "target": "price_GBP_MWh",
+    "family": "RNN",
+    "lookback": 28,
+    "lr": 0.001,
+    "mean": 0.038268805791934334,
+    "std": 0.0005117440030700939
+  },
+  "price_GBP_MWh|LSTM": {
+    "target": "price_GBP_MWh",
+    "family": "LSTM",
+    "lookback": 56,
+    "lr": 0.003,
+    "mean": 0.03974222640196482,
+    "std": 0.0005676605429841915
+  }
+}

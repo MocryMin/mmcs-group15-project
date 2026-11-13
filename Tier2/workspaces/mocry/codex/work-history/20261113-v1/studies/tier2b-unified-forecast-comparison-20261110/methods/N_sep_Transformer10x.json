@@ -1,0 +1,33 @@
+{
+  "id": "N_sep_Transformer10x",
+  "label": "独立 Transformer 54k",
+  "category": "neural",
+  "regime": "fixed",
+  "selection": "Previous frozen target configurations and per-seed target val checkpoints",
+  "target_configs": {
+    "generation_MW": {
+      "lookback": 7,
+      "lr": 0.001,
+      "parameters_per_target": 54005
+    },
+    "demand_MW": {
+      "lookback": 7,
+      "lr": 0.001,
+      "parameters_per_target": 54005
+    },
+    "price_GBP_MWh": {
+      "lookback": 182,
+      "lr": 0.001,
+      "parameters_per_target": 54005
+    }
+  },
+  "parameters_total": 162015,
+  "uncertainty": "sample SD of three training seeds",
+  "prediction_file": "predictions/N_sep_Transformer10x.npz",
+  "prediction_sha256": "07f9fc6ef6a9e9170441d357f861cb986cd1c1e1f5772cd2b814bd561c775fa6",
+  "seeds": [
+    "17",
+    "29",
+    "43"
+  ]
+}

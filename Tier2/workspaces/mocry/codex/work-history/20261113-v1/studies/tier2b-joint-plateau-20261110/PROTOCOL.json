@@ -1,0 +1,127 @@
+{
+  "joint_next_day": true,
+  "features": 8,
+  "outputs": 3,
+  "parameters": {
+    "RNN": 54951,
+    "LSTM": 54995
+  },
+  "configs": {
+    "RNN": {
+      "lookback": 28,
+      "lr": 0.003,
+      "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+    },
+    "LSTM": {
+      "lookback": 56,
+      "lr": 0.003,
+      "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+    }
+  },
+  "policies": [
+    "fixed",
+    "lr_only",
+    "reg_only",
+    "combined"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "expected_fits": 24,
+  "periods": {
+    "train": [
+      "2022-01-01",
+      "2024-12-31"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-08-31"
+    ],
+    "test": [
+      "2025-09-01",
+      "2026-08-31"
+    ]
+  },
+  "samples": {
+    "train": 1096,
+    "validation": 243,
+    "test": 365
+  },
+  "schedule": {
+    "trigger": "5 complete epochs with no new global joint-val checkpoint; epoch improvement based on any step beating global joint-val best by1e-5",
+    "plateau_epochs": 5,
+    "max_transitions": 3,
+    "lr_levels": [
+      0.003,
+      0.001,
+      0.0003,
+      0.0001
+    ],
+    "weight_decay_levels": [
+      0.0001,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "dropout_levels": [
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "lr_only": "LR changes; WD/dropout fixed",
+    "reg_only": "WD/dropout change; LR fixed",
+    "combined": "all three change",
+    "fixed": "all three fixed",
+    "continuation": "Continue current weights and AdamW moments; no rewind, no optimiser restart; transition after completed epoch affects next update"
+  },
+  "training": {
+    "max_epochs": 120,
+    "early_stop_full_epochs": 30,
+    "batch": 64,
+    "steps_per_epoch": 18,
+    "checkpoint_min_delta": 1e-05,
+    "optimizer": "AdamW",
+    "clip_norm": 1.0
+  },
+  "old_control_patience": 15,
+  "matched_new_control_patience": 30,
+  "early_stop_clock_not_reset_by_schedule": true,
+  "selection": "One joint-val checkpoint per seed; mean joint-val across seeds selects policy per family; test only monitored",
+  "loss": "Equal mean of three targets standardised by train-only scales; train/val/test always eval mode without dropout or added penalty",
+  "logging": "Every optimizer step: complete train/val/test joint+3 components, LR/WD/dropout/stage/effective LR*WD; separate event audit",
+  "precision": "float32; AMP/TF32 off; deterministic CUDA/cuDNN; same initialisation/shuffle seeds as old study",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU",
+  "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+  "source_hashes": {
+    "model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+    "policy.py": "00a67e185eb83b033a6d12b09a2d559bd422a8b59099a9dba92a25ae7af0e7d7",
+    "fit_core.py": "0698788f1978be26d7bec94f00bfde0a0cb1caf4af8d15bb8a7df9b026c25290",
+    "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "run.py": "b28b965814eebc1f4b7c30cddb1d2bafd3f1a98c12bf9529f257b3f62769015c",
+    "CONFIGS_FROZEN.json": "bf8b8f68e7aa978359dc2f34ce9e58039a3d02f3c498da12a8b6a3e98fb826aa"
+  },
+  "reference_hashes": {
+    "reference/data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+    "reference/fit_core.py": "722c4341e17dcd7800553c92455970b734ee0b3cfa40f2dea62d6c5b31175bd8",
+    "reference/MMCS_Tier2B_Joint_RNN_LSTM_10x_20261110_v1.1.zip": "011ad3bcd8f6c30222a5c39f3e79729cdf19c6f915897f361c5ff99777e731c7",
+    "reference/model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+    "reference/PROTOCOL.json": "d198184e2051be43ec10d24aee357fd834de5261b8f15fbd6127d6c1c0a11ce6",
+    "reference/scalers.json": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+    "reference/splits.csv": "996e638da27bb6c0a683fd01d6974f092c2739fbce63fd048842ce73ab841e06",
+    "reference/results/ALL_METRICS.csv": "978877f06b615af55a59bb7a8c763d4f4a36ee679020f94bcfaa86628ac801f1",
+    "reference/results/AUDIT.json": "de247e4dc944c9634c7ace4b598257321b8a3ec862a17520c78d4d67fd0bbac5",
+    "reference/results/SIMPLE_BASELINES.csv": "8c5a64f79b4ab57b177794015aefa7ca1a2383b2b238c0e51f4166f2d1e484fa",
+    "reference/results/SUMMARY.csv": "9a3a7e9c1e239a914677d608872666df0a9dc56838c3b93bada5fc1e949baac5",
+    "reference/results/training_runs.csv": "723532e16f3994dbc19f8bb7d4bfa6c7b627db889dfa689d6a66a5f171df08ad"
+  },
+  "test_is_monitored_not_blind": true,
+  "new_window_or_lr_grid": false,
+  "external_features_added": false,
+  "data_vintage_audited": false,
+  "MPC_evaluated": false
+}

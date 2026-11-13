@@ -1,0 +1,86 @@
+PROTOCOL {"lookbacks_days": [365, 182, 91, 56, 30, 14, 7], "labels": {"365": "one year", "182": "half year", "91": "three months", "56": "56 days", "30": "30 days", "14": "14 days", "7": "7 days"}, "month_interpretation": "Fixed day counts; not variable calendar-month windows", "seed": 17, "purpose": "Single-seed controlled lookback smoke grid", "expected_cases": 42, "periods": {"train": ["2022-01-01", "2024-12-31"], "validation": ["2025-01-01", "2025-08-31"], "test": ["2025-09-01", "2026-08-31"]}, "samples": {"train": 1096, "validation": 243, "test": 365}, "context_only": "2021-01-01 through 2021-12-31; no 2021 training labels", "identical_target_dates_for_every_window": true, "batch_size": 64, "steps_per_epoch": 18, "max_epochs": 120, "patience_epochs": 15, "checkpoint_min_delta": 1e-05, "learning_rates": "Fixed previous target/family learning rate; only input lookback changes", "architecture": "Independent scalar targets; RNN hidden68/5373 parameters, LSTM hidden32/5409; 8 shared-observation input features; no weight sharing", "evaluation": "Full train, val and test eval after every optimiser step; checkpoint/early stop and grid selection use validation only", "previous_reuse": "Only three identical L56 seed17 cases after exact input/label/scaler checks; original complete logs and weights retained", "test_status": "Monitored held-out test, previously inspected; not blind; no test-driven selection", "source_hashes": {"run_grid.py": "b42dee53e73c0c06f883e19dbc1711549234dc005a10e3eda6f5f8a6c31918e4", "fit_core.py": "f64830e4e5bb2fce11cd8274b532b30beccb44bddc2b93570e45ec054bd4bd34", "model.py": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d", "REFERENCE_CONFIGS.json": "00c46c389aa53e53c815cd6eb671caccf974321416f127000d9e8b57e9afd3f2"}, "data_vintage_audited": false, "MPC_evaluated": false, "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]", "torch": "2.15.0+cpu"}
+START generation_MW_RNN_L365_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L365_lr0.003_s17 200 E12 train=0.11438 val=0.16014 test=0.19868 bestVal=0.14719
+STEP generation_MW_RNN_L365_lr0.003_s17 400 E23 train=0.10655 val=0.14844 test=0.19751 bestVal=0.14501
+STEP generation_MW_RNN_L365_lr0.003_s17 600 E34 train=0.09266 val=0.16706 test=0.21972 bestVal=0.14501
+DONE {"run": "generation_MW_RNN_L365_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 365, "lr": 0.003, "parameters": 5373, "best_epoch": 23, "best_step": 397, "epochs": 38, "steps": 684, "best_train_loss": 0.109325110912323, "best_validation_loss": 0.145005464553833, "test_loss_at_val_checkpoint": 0.19553717970848083, "last_train_loss": 0.08964866399765015, "last_validation_loss": 0.16941338777542114, "last_test_loss": 0.21349921822547913, "seconds": 112.65599999998813, "step_log": "step_logs\\generation_MW_RNN_L365_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L365_lr0.003_s17.pt"}
+PROGRESS 1 /42
+START generation_MW_RNN_L182_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L182_lr0.003_s17 200 E12 train=0.11436 val=0.16055 test=0.19867 bestVal=0.14739
+STEP generation_MW_RNN_L182_lr0.003_s17 400 E23 train=0.10658 val=0.15141 test=0.20067 bestVal=0.14739
+DONE {"run": "generation_MW_RNN_L182_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 182, "lr": 0.003, "parameters": 5373, "best_epoch": 11, "best_step": 197, "epochs": 26, "steps": 468, "best_train_loss": 0.1160459816455841, "best_validation_loss": 0.14738775789737701, "test_loss_at_val_checkpoint": 0.19551017880439758, "last_train_loss": 0.10633675754070282, "last_validation_loss": 0.16695760190486908, "last_test_loss": 0.2065703272819519, "seconds": 37.187999999994645, "step_log": "step_logs\\generation_MW_RNN_L182_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L182_lr0.003_s17.pt"}
+PROGRESS 2 /42
+START generation_MW_RNN_L91_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L91_lr0.003_s17 200 E12 train=0.11448 val=0.16028 test=0.19924 bestVal=0.14776
+STEP generation_MW_RNN_L91_lr0.003_s17 400 E23 train=0.10549 val=0.15136 test=0.19435 bestVal=0.14508
+STEP generation_MW_RNN_L91_lr0.003_s17 600 E34 train=0.09497 val=0.16476 test=0.22087 bestVal=0.14508
+DONE {"run": "generation_MW_RNN_L91_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 91, "lr": 0.003, "parameters": 5373, "best_epoch": 22, "best_step": 396, "epochs": 37, "steps": 666, "best_train_loss": 0.10871578007936478, "best_validation_loss": 0.14507931470870972, "test_loss_at_val_checkpoint": 0.19015228748321533, "last_train_loss": 0.09349630773067474, "last_validation_loss": 0.1579974889755249, "last_test_loss": 0.20890143513679504, "seconds": 25.796999999991385, "step_log": "step_logs\\generation_MW_RNN_L91_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L91_lr0.003_s17.pt"}
+PROGRESS 3 /42
+REUSE generation_MW_RNN_L56_lr0.003_s17
+PROGRESS 4 /42
+START generation_MW_RNN_L30_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L30_lr0.003_s17 200 E12 train=0.11538 val=0.16378 test=0.20398 bestVal=0.14935
+STEP generation_MW_RNN_L30_lr0.003_s17 400 E23 train=0.10844 val=0.14820 test=0.19061 bestVal=0.14394
+STEP generation_MW_RNN_L30_lr0.003_s17 600 E34 train=0.09196 val=0.16487 test=0.21591 bestVal=0.14394
+DONE {"run": "generation_MW_RNN_L30_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 30, "lr": 0.003, "parameters": 5373, "best_epoch": 23, "best_step": 397, "epochs": 38, "steps": 684, "best_train_loss": 0.11143631488084793, "best_validation_loss": 0.14394284784793854, "test_loss_at_val_checkpoint": 0.19182923436164856, "last_train_loss": 0.093531034886837, "last_validation_loss": 0.18736177682876587, "last_test_loss": 0.22088393568992615, "seconds": 7.921999999991385, "step_log": "step_logs\\generation_MW_RNN_L30_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L30_lr0.003_s17.pt"}
+PROGRESS 5 /42
+START generation_MW_RNN_L14_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L14_lr0.003_s17 200 E12 train=0.11860 val=0.14941 test=0.19575 bestVal=0.14332
+STEP generation_MW_RNN_L14_lr0.003_s17 400 E23 train=0.10850 val=0.15266 test=0.18996 bestVal=0.14332
+DONE {"run": "generation_MW_RNN_L14_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 14, "lr": 0.003, "parameters": 5373, "best_epoch": 11, "best_step": 196, "epochs": 26, "steps": 468, "best_train_loss": 0.1190357357263565, "best_validation_loss": 0.1433229148387909, "test_loss_at_val_checkpoint": 0.19223475456237793, "last_train_loss": 0.11531836539506912, "last_validation_loss": 0.16745135188102722, "last_test_loss": 0.19466076791286469, "seconds": 2.610000000000582, "step_log": "step_logs\\generation_MW_RNN_L14_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L14_lr0.003_s17.pt"}
+PROGRESS 6 /42
+START generation_MW_RNN_L7_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_RNN_L7_lr0.003_s17 200 E12 train=0.11566 val=0.15133 test=0.20004 bestVal=0.14739
+STEP generation_MW_RNN_L7_lr0.003_s17 400 E23 train=0.10519 val=0.15711 test=0.19688 bestVal=0.14662
+DONE {"run": "generation_MW_RNN_L7_lr0.003_s17", "target": "generation_MW", "family": "RNN", "seed": 17, "lookback": 7, "lr": 0.003, "parameters": 5373, "best_epoch": 12, "best_step": 212, "epochs": 27, "steps": 486, "best_train_loss": 0.111873559653759, "best_validation_loss": 0.1466171145439148, "test_loss_at_val_checkpoint": 0.19270732998847961, "last_train_loss": 0.10666482150554657, "last_validation_loss": 0.15727980434894562, "last_test_loss": 0.20208989083766937, "seconds": 1.6410000000032596, "step_log": "step_logs\\generation_MW_RNN_L7_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_RNN_L7_lr0.003_s17.pt"}
+PROGRESS 7 /42
+START generation_MW_LSTM_L365_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L365_lr0.003_s17 200 E12 train=0.11871 val=0.15922 test=0.19374 bestVal=0.15423
+STEP generation_MW_LSTM_L365_lr0.003_s17 400 E23 train=0.10555 val=0.15556 test=0.18859 bestVal=0.14707
+STEP generation_MW_LSTM_L365_lr0.003_s17 600 E34 train=0.09142 val=0.14394 test=0.18697 bestVal=0.14345
+STEP generation_MW_LSTM_L365_lr0.003_s17 800 E45 train=0.08297 val=0.15224 test=0.19697 bestVal=0.14194
+DONE {"run": "generation_MW_LSTM_L365_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 365, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09226439148187637, "best_validation_loss": 0.14193953573703766, "test_loss_at_val_checkpoint": 0.18781115114688873, "last_train_loss": 0.07627926021814346, "last_validation_loss": 0.15936079621315002, "last_test_loss": 0.20152424275875092, "seconds": 186.23399999999674, "step_log": "step_logs\\generation_MW_LSTM_L365_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L365_lr0.003_s17.pt"}
+PROGRESS 8 /42
+START generation_MW_LSTM_L182_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L182_lr0.003_s17 200 E12 train=0.11871 val=0.15922 test=0.19374 bestVal=0.15423
+STEP generation_MW_LSTM_L182_lr0.003_s17 400 E23 train=0.10555 val=0.15556 test=0.18859 bestVal=0.14707
+STEP generation_MW_LSTM_L182_lr0.003_s17 600 E34 train=0.09142 val=0.14394 test=0.18697 bestVal=0.14345
+STEP generation_MW_LSTM_L182_lr0.003_s17 800 E45 train=0.08297 val=0.15224 test=0.19697 bestVal=0.14194
+DONE {"run": "generation_MW_LSTM_L182_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 182, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09226438403129578, "best_validation_loss": 0.14193953573703766, "test_loss_at_val_checkpoint": 0.18781118094921112, "last_train_loss": 0.07627926021814346, "last_validation_loss": 0.15936078131198883, "last_test_loss": 0.20152422785758972, "seconds": 84.53100000000268, "step_log": "step_logs\\generation_MW_LSTM_L182_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L182_lr0.003_s17.pt"}
+PROGRESS 9 /42
+START generation_MW_LSTM_L91_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L91_lr0.003_s17 200 E12 train=0.11871 val=0.15922 test=0.19374 bestVal=0.15423
+STEP generation_MW_LSTM_L91_lr0.003_s17 400 E23 train=0.10555 val=0.15556 test=0.18859 bestVal=0.14707
+STEP generation_MW_LSTM_L91_lr0.003_s17 600 E34 train=0.09142 val=0.14394 test=0.18697 bestVal=0.14345
+STEP generation_MW_LSTM_L91_lr0.003_s17 800 E45 train=0.08297 val=0.15225 test=0.19696 bestVal=0.14194
+DONE {"run": "generation_MW_LSTM_L91_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 91, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09226439148187637, "best_validation_loss": 0.14193958044052124, "test_loss_at_val_checkpoint": 0.18781141936779022, "last_train_loss": 0.07628365606069565, "last_validation_loss": 0.15937919914722443, "last_test_loss": 0.2015295773744583, "seconds": 54.530999999988126, "step_log": "step_logs\\generation_MW_LSTM_L91_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L91_lr0.003_s17.pt"}
+PROGRESS 10 /42
+START generation_MW_LSTM_L56_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L56_lr0.003_s17 200 E12 train=0.11871 val=0.15922 test=0.19374 bestVal=0.15423
+STEP generation_MW_LSTM_L56_lr0.003_s17 400 E23 train=0.10555 val=0.15556 test=0.18859 bestVal=0.14707
+STEP generation_MW_LSTM_L56_lr0.003_s17 600 E34 train=0.09143 val=0.14391 test=0.18696 bestVal=0.14341
+STEP generation_MW_LSTM_L56_lr0.003_s17 800 E45 train=0.08296 val=0.15225 test=0.19711 bestVal=0.14192
+DONE {"run": "generation_MW_LSTM_L56_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 56, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09226750582456589, "best_validation_loss": 0.1419152468442917, "test_loss_at_val_checkpoint": 0.18778927624225616, "last_train_loss": 0.07620976120233536, "last_validation_loss": 0.15938091278076172, "last_test_loss": 0.20177626609802246, "seconds": 35.796999999991385, "step_log": "step_logs\\generation_MW_LSTM_L56_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L56_lr0.003_s17.pt"}
+PROGRESS 11 /42
+START generation_MW_LSTM_L30_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L30_lr0.003_s17 200 E12 train=0.11872 val=0.15923 test=0.19375 bestVal=0.15425
+STEP generation_MW_LSTM_L30_lr0.003_s17 400 E23 train=0.10557 val=0.15549 test=0.18859 bestVal=0.14706
+STEP generation_MW_LSTM_L30_lr0.003_s17 600 E34 train=0.09124 val=0.14389 test=0.18739 bestVal=0.14303
+STEP generation_MW_LSTM_L30_lr0.003_s17 800 E45 train=0.08265 val=0.15046 test=0.19624 bestVal=0.14179
+DONE {"run": "generation_MW_LSTM_L30_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 30, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09210735559463501, "best_validation_loss": 0.14179441332817078, "test_loss_at_val_checkpoint": 0.1881818324327469, "last_train_loss": 0.0761825367808342, "last_validation_loss": 0.15997366607189178, "last_test_loss": 0.20471514761447906, "seconds": 20.531999999991967, "step_log": "step_logs\\generation_MW_LSTM_L30_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L30_lr0.003_s17.pt"}
+PROGRESS 12 /42
+START generation_MW_LSTM_L14_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L14_lr0.003_s17 200 E12 train=0.11890 val=0.16014 test=0.19424 bestVal=0.15497
+STEP generation_MW_LSTM_L14_lr0.003_s17 400 E23 train=0.10645 val=0.15554 test=0.18864 bestVal=0.14791
+STEP generation_MW_LSTM_L14_lr0.003_s17 600 E34 train=0.09220 val=0.14559 test=0.18847 bestVal=0.14377
+STEP generation_MW_LSTM_L14_lr0.003_s17 800 E45 train=0.08244 val=0.15248 test=0.19851 bestVal=0.14313
+DONE {"run": "generation_MW_LSTM_L14_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 14, "lr": 0.003, "parameters": 5409, "best_epoch": 34, "best_step": 604, "epochs": 49, "steps": 882, "best_train_loss": 0.09287839382886887, "best_validation_loss": 0.14312656223773956, "test_loss_at_val_checkpoint": 0.1892709881067276, "last_train_loss": 0.07667285948991776, "last_validation_loss": 0.1620093286037445, "last_test_loss": 0.2028287649154663, "seconds": 11.09299999999348, "step_log": "step_logs\\generation_MW_LSTM_L14_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L14_lr0.003_s17.pt"}
+PROGRESS 13 /42
+START generation_MW_LSTM_L7_lr0.003_s17 initial 0.2464493215084076 0.3035537898540497 0.3222067356109619
+STEP generation_MW_LSTM_L7_lr0.003_s17 200 E12 train=0.12007 val=0.15727 test=0.19356 bestVal=0.15451
+STEP generation_MW_LSTM_L7_lr0.003_s17 400 E23 train=0.10502 val=0.15356 test=0.18855 bestVal=0.14400
+STEP generation_MW_LSTM_L7_lr0.003_s17 600 E34 train=0.09471 val=0.14721 test=0.19217 bestVal=0.14206
+STEP generation_MW_LSTM_L7_lr0.003_s17 800 E45 train=0.08658 val=0.14453 test=0.19642 bestVal=0.14206
+DONE {"run": "generation_MW_LSTM_L7_lr0.003_s17", "target": "generation_MW", "family": "LSTM", "seed": 17, "lookback": 7, "lr": 0.003, "parameters": 5409, "best_epoch": 31, "best_step": 542, "epochs": 46, "steps": 828, "best_train_loss": 0.09833202511072159, "best_validation_loss": 0.14206351339817047, "test_loss_at_val_checkpoint": 0.18903829157352448, "last_train_loss": 0.0844147726893425, "last_validation_loss": 0.14756663143634796, "last_test_loss": 0.2080821394920349, "seconds": 6.327999999994063, "step_log": "step_logs\\generation_MW_LSTM_L7_lr0.003_s17.csv", "checkpoint": "checkpoints\\generation_MW_LSTM_L7_lr0.003_s17.pt"}
+PROGRESS 14 /42
+START demand_MW_RNN_L365_lr0.001_s17 initial 0.263292521238327 0.2430027425289154 0.2661166489124298

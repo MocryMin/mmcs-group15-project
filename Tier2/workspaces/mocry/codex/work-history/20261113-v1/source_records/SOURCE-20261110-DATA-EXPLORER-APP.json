@@ -1,0 +1,31 @@
+{
+  "source_id": "LOCAL-MMCS-DATA-EXPLORER-APP-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "recorded_on": "2026-11-10",
+  "status": "deployed_public_verified",
+  "public_url": "https://mmcs-energy-data-explorer-ran.mocrymin.chatgpt.site",
+  "folder": "apps/energy-data-explorer",
+  "app_version": "2.0.0",
+  "project_id": "appgprj_6af3053707b88191ae7fc82b252396ed",
+  "source_commit": "d38c952186f64330dc77066ea62679e57b2bf4ba",
+  "saved_version_id": "appgprj_6af3053707b88191ae7fc82b252396ed~appgver_e21e0cbf6f988191ab33629c24e1933d",
+  "deployment_id": "appgdep_6af3088985bc819197a1d0f322e6888b",
+  "archive_path": "apps/energy-data-explorer-v2.0.0.tar.gz",
+  "archive_sha256": "2bdcc3b7b473af7e7e9a77cb18ba44607dded8a0f82f89697746d9968ddfb83f",
+  "access_authorization": "User explicitly selected public link accessible to anyone with the URL in this turn",
+  "primary_sources": [
+    "https://www.neso.energy/data-portal/historic-demand-data",
+    "https://bmrs.elexon.co.uk/api-documentation/endpoint/forecast/demand/day-ahead/history",
+    "https://data.elexon.co.uk/bmrs/api/v1/forecast/demand/day-ahead/history"
+  ],
+  "collection_access": "Anonymous Playwright MCP requests;2086 historical national snapshots;zero request failures",
+  "data_audit": "apps/energy-data-explorer/DATA_AUDIT.json",
+  "ui_audit": "apps/energy-data-explorer/UI_QA.json;additional interactions and public checks in.local/",
+  "public_access_check": {"HTTP_status":200,"requires_login":false,"app_ready":true,"javascript_errors":[]},
+  "coverage": {"daily_dates":2086,"ND_actual":2086,"TSD_actual":2086,"ND_forecast":1863,"TSD_forecast":1899},
+  "forecast_aggregation": "Snapshot at23:59:59UTC before validdate;select nationalboundaryN;strictly earlier publication;48 distinct halfhours;missing remainsnull",
+  "new_forecast_source_not_used_in_prior_training": true,
+  "automatic_data_collection_enabled": false,
+  "model_results_or_formal_report_changed": false
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "epoch": 30,
+    "global_step": 540,
+    "from_stage": 0,
+    "to_stage": 1,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "dropout": 0.1
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    }
+  },
+  {
+    "epoch": 35,
+    "global_step": 630,
+    "from_stage": 1,
+    "to_stage": 2,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    }
+  },
+  {
+    "epoch": 40,
+    "global_step": 720,
+    "from_stage": 2,
+    "to_stage": 3,
+    "no_improvement_complete_epochs": 5,
+    "best_joint_validation": 0.11638154598721936,
+    "before": {
+      "lr": 0.003,
+      "weight_decay": 0.003,
+      "dropout": 0.3
+    },
+    "after": {
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "dropout": 0.4
+    }
+  }
+]

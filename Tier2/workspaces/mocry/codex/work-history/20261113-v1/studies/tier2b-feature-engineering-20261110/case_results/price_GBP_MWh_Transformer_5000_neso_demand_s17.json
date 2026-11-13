@@ -1,0 +1,61 @@
+{
+  "row": {
+    "run": "price_GBP_MWh_Transformer_5000_neso_demand_s17",
+    "target": "price_GBP_MWh",
+    "family": "Transformer",
+    "budget": 5000,
+    "parameters": 5012,
+    "features": 14,
+    "groups": "neso_demand",
+    "seed": 17,
+    "epoch": 28,
+    "step": 489,
+    "batch_loss": 0.10646567493677139,
+    "train_loss": 0.08844186035857961,
+    "validation_loss": 0.092007805438922,
+    "test_loss": 0.056685688785803406,
+    "best_validation": 0.092007805438922,
+    "improved": true,
+    "seconds": 12.35899999999674,
+    "epochs_ran": 43,
+    "updates": 774,
+    "wall_seconds": 18.26600000000326,
+    "device": "cuda",
+    "lookback": 182,
+    "lr": 0.001,
+    "checkpoint": "models/price_GBP_MWh_Transformer_5000_neso_demand_s17.pt"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "n": 1096,
+      "loss": 0.08844186126272191,
+      "MSE": 564.5466629289111,
+      "MAE": 16.202482106624796,
+      "RMSE": 23.760190717435563
+    },
+    {
+      "split": "validation",
+      "n": 243,
+      "loss": 0.09200780554846295,
+      "MSE": 587.3089829204067,
+      "MAE": 13.048048345105677,
+      "RMSE": 24.23445858525432
+    },
+    {
+      "split": "test",
+      "n": 365,
+      "loss": 0.0566856883701486,
+      "MSE": 361.83901772637444,
+      "MAE": 14.201673807540896,
+      "RMSE": 19.0220665997776
+    }
+  ],
+  "signature": {
+    "features.py": "2d042148aab0e8843f8fb361f6d9fc757cc41f4a150fa5d27fd8f6e25a22685a",
+    "model.py": "0d5893e6e439c01e54b449643b0f29e35c118547eb8e0a0574f14988f5921a81",
+    "fit.py": "bdc181c8bd566f80fa08d97725299557ead59d4afff0b0cfb023067014289411",
+    "BASELINE_FROZEN.json": "5d5a523a6879c082f275fd08424a61a5d44cc500920a922ec75af0e0c8b48ca0",
+    "inputs/model_daily.csv": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475"
+  }
+}

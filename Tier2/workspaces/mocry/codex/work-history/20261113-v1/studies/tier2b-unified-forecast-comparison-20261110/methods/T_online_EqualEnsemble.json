@@ -1,0 +1,22 @@
+{
+  "id": "T_online_EqualEnsemble",
+  "label": "等权集成（滚动）",
+  "category": "traditional",
+  "regime": "rolling_ensemble",
+  "members": [
+    "T_expanding_Ridge",
+    "T_rolling730_Lasso",
+    "T_expanding_HGB"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "selection": "members target-specific validation selected; equal weights fixed",
+  "prediction_file": "predictions/T_online_EqualEnsemble.npz",
+  "prediction_sha256": "812640b8197cd09b8ee86dd23158b174c92143e4a65be47c35ddb4469e725d52",
+  "seeds": [
+    "det"
+  ]
+}

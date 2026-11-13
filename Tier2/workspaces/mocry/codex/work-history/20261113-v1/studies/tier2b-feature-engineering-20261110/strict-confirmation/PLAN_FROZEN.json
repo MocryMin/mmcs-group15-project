@@ -1,0 +1,52 @@
+{
+  "reason": "Verify final claims after excluding the boundary input token from extra-feature normalization; configurations frozen from original validation selection, no new features or model search.",
+  "original_input_fit": "2022-01-01 through2024-12-31; all input values known by end-of-training, but boundary row is also first validation origin.",
+  "strict_input_fit": "2022-01-01 through2024-12-30; only training-origin rows used.",
+  "target_scale_unchanged": true,
+  "baseline_inputs_identical": true,
+  "original_selection_sha256": "3808fb6d9f812ba0a0857e97910d8bcf82ff67a07888bda11449f0ac8196bfac",
+  "plan": [
+    {
+      "target": "generation_MW",
+      "family": "Transformer",
+      "budget": 10000,
+      "groups": "balance",
+      "pool": "self_features"
+    },
+    {
+      "target": "generation_MW",
+      "family": "LSTM",
+      "budget": 10000,
+      "groups": "neso_demand+weather_wind",
+      "pool": "external_forecasts"
+    },
+    {
+      "target": "demand_MW",
+      "family": "Transformer",
+      "budget": 5000,
+      "groups": "bank_holidays+weather_temp",
+      "pool": "self_features"
+    },
+    {
+      "target": "demand_MW",
+      "family": "Transformer",
+      "budget": 10000,
+      "groups": "neso_demand",
+      "pool": "external_forecasts"
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "Transformer",
+      "budget": 5000,
+      "groups": "weather_wind",
+      "pool": "self_features"
+    },
+    {
+      "target": "price_GBP_MWh",
+      "family": "LSTM",
+      "budget": 10000,
+      "groups": "neso_demand+weather_wind",
+      "pool": "external_forecasts"
+    }
+  ]
+}

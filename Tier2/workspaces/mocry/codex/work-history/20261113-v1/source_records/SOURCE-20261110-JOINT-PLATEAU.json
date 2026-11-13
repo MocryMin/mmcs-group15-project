@@ -1,0 +1,1947 @@
+{
+  "source_id": "LOCAL-MMCS-JOINT-PLATEAU-20261110",
+  "recorded_at": "2026-11-10T01:30:28.192353+00:00",
+  "evidence_status": "local_experiment_verified",
+  "folder": "assignments\\FinalProject\\tier2b-joint-plateau-20261110",
+  "archive": {
+    "path": "assignments\\FinalProject\\MMCS_Tier2B_Joint_Plateau_20261110.zip",
+    "sha256": "e379f36abc225c335eca1f12ff00ea2e2c37116ef1fab50c2f8da4653da3c6e9",
+    "bytes": 21478144,
+    "files": 170,
+    "verified": true
+  },
+  "protocol": {
+    "joint_next_day": true,
+    "features": 8,
+    "outputs": 3,
+    "parameters": {
+      "RNN": 54951,
+      "LSTM": 54995
+    },
+    "configs": {
+      "RNN": {
+        "lookback": 28,
+        "lr": 0.003,
+        "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+      },
+      "LSTM": {
+        "lookback": 56,
+        "lr": 0.003,
+        "source": "Previous joint next-day validation selection; not the per-target independent smoke windows"
+      }
+    },
+    "policies": [
+      "fixed",
+      "lr_only",
+      "reg_only",
+      "combined"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "expected_fits": 24,
+    "periods": {
+      "train": [
+        "2022-01-01",
+        "2024-12-31"
+      ],
+      "validation": [
+        "2025-01-01",
+        "2025-08-31"
+      ],
+      "test": [
+        "2025-09-01",
+        "2026-08-31"
+      ]
+    },
+    "samples": {
+      "train": 1096,
+      "validation": 243,
+      "test": 365
+    },
+    "schedule": {
+      "trigger": "5 complete epochs with no new global joint-val checkpoint; epoch improvement based on any step beating global joint-val best by1e-5",
+      "plateau_epochs": 5,
+      "max_transitions": 3,
+      "lr_levels": [
+        0.003,
+        0.001,
+        0.0003,
+        0.0001
+      ],
+      "weight_decay_levels": [
+        0.0001,
+        0.001,
+        0.003,
+        0.01
+      ],
+      "dropout_levels": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "lr_only": "LR changes; WD/dropout fixed",
+      "reg_only": "WD/dropout change; LR fixed",
+      "combined": "all three change",
+      "fixed": "all three fixed",
+      "continuation": "Continue current weights and AdamW moments; no rewind, no optimiser restart; transition after completed epoch affects next update"
+    },
+    "training": {
+      "max_epochs": 120,
+      "early_stop_full_epochs": 30,
+      "batch": 64,
+      "steps_per_epoch": 18,
+      "checkpoint_min_delta": 1e-05,
+      "optimizer": "AdamW",
+      "clip_norm": 1.0
+    },
+    "old_control_patience": 15,
+    "matched_new_control_patience": 30,
+    "early_stop_clock_not_reset_by_schedule": true,
+    "selection": "One joint-val checkpoint per seed; mean joint-val across seeds selects policy per family; test only monitored",
+    "loss": "Equal mean of three targets standardised by train-only scales; train/val/test always eval mode without dropout or added penalty",
+    "logging": "Every optimizer step: complete train/val/test joint+3 components, LR/WD/dropout/stage/effective LR*WD; separate event audit",
+    "precision": "float32; AMP/TF32 off; deterministic CUDA/cuDNN; same initialisation/shuffle seeds as old study",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "input_sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+    "source_hashes": {
+      "model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+      "policy.py": "00a67e185eb83b033a6d12b09a2d559bd422a8b59099a9dba92a25ae7af0e7d7",
+      "fit_core.py": "0698788f1978be26d7bec94f00bfde0a0cb1caf4af8d15bb8a7df9b026c25290",
+      "data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+      "run.py": "b28b965814eebc1f4b7c30cddb1d2bafd3f1a98c12bf9529f257b3f62769015c",
+      "CONFIGS_FROZEN.json": "bf8b8f68e7aa978359dc2f34ce9e58039a3d02f3c498da12a8b6a3e98fb826aa"
+    },
+    "reference_hashes": {
+      "reference/data.py": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+      "reference/fit_core.py": "722c4341e17dcd7800553c92455970b734ee0b3cfa40f2dea62d6c5b31175bd8",
+      "reference/MMCS_Tier2B_Joint_RNN_LSTM_10x_20261110_v1.1.zip": "011ad3bcd8f6c30222a5c39f3e79729cdf19c6f915897f361c5ff99777e731c7",
+      "reference/model.py": "b244368466ffc20e9985c3539988e8adcf06b6955323283ca6087dc5d6465722",
+      "reference/PROTOCOL.json": "d198184e2051be43ec10d24aee357fd834de5261b8f15fbd6127d6c1c0a11ce6",
+      "reference/scalers.json": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+      "reference/splits.csv": "996e638da27bb6c0a683fd01d6974f092c2739fbce63fd048842ce73ab841e06",
+      "reference/results/ALL_METRICS.csv": "978877f06b615af55a59bb7a8c763d4f4a36ee679020f94bcfaa86628ac801f1",
+      "reference/results/AUDIT.json": "de247e4dc944c9634c7ace4b598257321b8a3ec862a17520c78d4d67fd0bbac5",
+      "reference/results/SIMPLE_BASELINES.csv": "8c5a64f79b4ab57b177794015aefa7ca1a2383b2b238c0e51f4166f2d1e484fa",
+      "reference/results/SUMMARY.csv": "9a3a7e9c1e239a914677d608872666df0a9dc56838c3b93bada5fc1e949baac5",
+      "reference/results/training_runs.csv": "723532e16f3994dbc19f8bb7d4bfa6c7b627db889dfa689d6a66a5f171df08ad"
+    },
+    "test_is_monitored_not_blind": true,
+    "new_window_or_lr_grid": false,
+    "external_features_added": false,
+    "data_vintage_audited": false,
+    "MPC_evaluated": false
+  },
+  "summary": [
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.103591672710485,
+      "loss_sd": 0.0038675486347427
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1144661878824899,
+      "loss_sd": 0.0067561131220151
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0766672723987259,
+      "loss_sd": 0.0028078763997187
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1196415578502391,
+      "loss_sd": 0.0030382510492561
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1154826823998209,
+      "loss_sd": 0.0013111866116847
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1436311680934817,
+      "loss_sd": 0.00073655354456
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0857593373877789,
+      "loss_sd": 0.0013268588711374
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.117057541718202,
+      "loss_sd": 0.0034251160413626
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1253257304640488,
+      "loss_sd": 0.0018820057049266
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1928580830442982,
+      "loss_sd": 0.0038231923496315
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.111794714611449,
+      "loss_sd": 0.0006569367020981
+    },
+    {
+      "family": "RNN",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0713243937363991,
+      "loss_sd": 0.0015897181807778
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.1059671608361826,
+      "loss_sd": 0.0044545714266416
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1172339037435243,
+      "loss_sd": 0.0050360837459436
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0789856954371803,
+      "loss_sd": 0.0045617951920778
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1216818833278433,
+      "loss_sd": 0.0038993661234934
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1168324793798311,
+      "loss_sd": 0.0015293685930227
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1491739326439828,
+      "loss_sd": 0.0033564290350508
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0852525438954537,
+      "loss_sd": 0.0016239226616019
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1160709616000568,
+      "loss_sd": 0.0004391276404578
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1234900265180787,
+      "loss_sd": 0.0016822252089418
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1910279603232997,
+      "loss_sd": 0.0036874980345577
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1110565636036026,
+      "loss_sd": 0.0018562411181208
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0683855556273336,
+      "loss_sd": 0.0002503582292727
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.1058821089434798,
+      "loss_sd": 0.0035419552053061
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1172094781271315,
+      "loss_sd": 0.0039038558457367
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0790876702004171,
+      "loss_sd": 0.0038212967943498
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1213491785028908,
+      "loss_sd": 0.0030714027204354
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1173222446497897,
+      "loss_sd": 0.0010687622197353
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1470652762882751,
+      "loss_sd": 0.0052069045951241
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0867043782816649,
+      "loss_sd": 0.0010775183497307
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1181970793794291,
+      "loss_sd": 0.0031272006155858
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1245408273810271,
+      "loss_sd": 0.0004177862899567
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1918984435406746,
+      "loss_sd": 0.000794294932131
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1124624114866398,
+      "loss_sd": 0.0006977784294066
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0692616271157669,
+      "loss_sd": 0.0007854414125112
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.10521073541726,
+      "loss_sd": 0.0049390785939252
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1166382241992886,
+      "loss_sd": 0.0057492578921544
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0787933628289889,
+      "loss_sd": 0.0050381373031418
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1202006192235026,
+      "loss_sd": 0.0040964374167005
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1174771660867805,
+      "loss_sd": 0.0009249168858716
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1498829288101164,
+      "loss_sd": 0.0024653893802069
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0866370568565334,
+      "loss_sd": 0.0006883744858396
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1159115125936916,
+      "loss_sd": 0.0003343624871422
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1238588522599571,
+      "loss_sd": 0.0011223703059036
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1918881954664388,
+      "loss_sd": 0.0026344106245209
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1123156592292746,
+      "loss_sd": 0.0009556548791758
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.067372702084158,
+      "loss_sd": 0.0009933287168474
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.0908202211918573,
+      "loss_sd": 0.0125732718387818
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.0992849348806287,
+      "loss_sd": 0.01464053830632
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0679165635312937,
+      "loss_sd": 0.0088915284148837
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1052591651636495,
+      "loss_sd": 0.0145655325458169
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1161543949217564,
+      "loss_sd": 0.0009774398453244
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1445395561413084,
+      "loss_sd": 0.00175911678006
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.085906818005821,
+      "loss_sd": 0.0025242874466577
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1180168106181397,
+      "loss_sd": 0.0044067330242611
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1243247244795218,
+      "loss_sd": 0.0014220848024828
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1866210584903032,
+      "loss_sd": 0.0016943559624475
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1167001186516139,
+      "loss_sd": 0.0015921960975158
+    },
+    {
+      "family": "LSTM",
+      "policy": "fixed",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0696529962966484,
+      "loss_sd": 0.0028338746602492
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.0983595436958503,
+      "loss_sd": 0.004457321449924
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1082509565958058,
+      "loss_sd": 0.0033013196885156
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0729848553537732,
+      "loss_sd": 0.0025095764553559
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1138428191379718,
+      "loss_sd": 0.0076195562165213
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1169911620012752,
+      "loss_sd": 0.0006060992907665
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1437603571492138,
+      "loss_sd": 0.0024333043273863
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0863873850602088,
+      "loss_sd": 0.0031951195092815
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1208257437944031,
+      "loss_sd": 0.0011227492788144
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1224840719842326,
+      "loss_sd": 0.0027420013967964
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1845190465148335,
+      "loss_sd": 0.0048772893584318
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1148534196140764,
+      "loss_sd": 0.0030523025447606
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0680797498237877,
+      "loss_sd": 0.0008315539187317
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.0904199821553603,
+      "loss_sd": 0.0132271678810316
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.0988786998288795,
+      "loss_sd": 0.0153292269210426
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0672774053450532,
+      "loss_sd": 0.0099588672516931
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.105103841292148,
+      "loss_sd": 0.0147991651330029
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1163223590781556,
+      "loss_sd": 0.0007073529819138
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1443944287609291,
+      "loss_sd": 0.0018288973795518
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0856961709450105,
+      "loss_sd": 0.0022643023765675
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1188764775285273,
+      "loss_sd": 0.0029723228840649
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1241569031157948,
+      "loss_sd": 0.0012966243371191
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1863315212999172,
+      "loss_sd": 0.0020439394588835
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1171038625828357,
+      "loss_sd": 0.0019437759429548
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0690353254646316,
+      "loss_sd": 0.0018381107838316
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "train",
+      "loss_mean": 0.0983595436958503,
+      "loss_sd": 0.004457321449924
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "train",
+      "loss_mean": 0.1082509565958058,
+      "loss_sd": 0.0033013196885156
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "train",
+      "loss_mean": 0.0729848553537732,
+      "loss_sd": 0.0025095764553559
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "loss_mean": 0.1138428191379718,
+      "loss_sd": 0.0076195562165213
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "validation",
+      "loss_mean": 0.1169911620012752,
+      "loss_sd": 0.0006060992907665
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "validation",
+      "loss_mean": 0.1437603571492138,
+      "loss_sd": 0.0024333043273863
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "validation",
+      "loss_mean": 0.0863873850602088,
+      "loss_sd": 0.0031951195092815
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "loss_mean": 0.1208257437944031,
+      "loss_sd": 0.0011227492788144
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "test",
+      "loss_mean": 0.1224840719842326,
+      "loss_sd": 0.0027420013967964
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "test",
+      "loss_mean": 0.1845190465148335,
+      "loss_sd": 0.0048772893584318
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "test",
+      "loss_mean": 0.1148534196140764,
+      "loss_sd": 0.0030523025447606
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "loss_mean": 0.0680797498237877,
+      "loss_sd": 0.0008315539187317
+    }
+  ],
+  "changes": [
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": 2.293126526044764,
+      "seed17_pct": 6.024536799988711,
+      "seed29_pct": -0.7617707075361024,
+      "seed43_pct": 1.6896454089786903,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": 2.4179331139040583,
+      "seed17_pct": 9.209509237434688,
+      "seed29_pct": -1.4907803050766,
+      "seed43_pct": 0.0194543357902476,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": 3.0240061579298594,
+      "seed17_pct": 2.8741412878991124,
+      "seed29_pct": 0.8236749793659071,
+      "seed43_pct": 5.21480147437916,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": 1.7053651877035891,
+      "seed17_pct": 5.153147843304806,
+      "seed29_pct": -1.050054580103832,
+      "seed43_pct": 1.069528537900899,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 1.1688306436605125,
+      "seed17_pct": 0.4536325278678976,
+      "seed29_pct": 1.3695064340671248,
+      "seed43_pct": 1.68320060373508,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": 3.859026299148116,
+      "seed17_pct": 3.56092507233976,
+      "seed29_pct": 1.1742082205920656,
+      "seed43_pct": 6.8707323045396285,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": -0.5909484701748347,
+      "seed17_pct": -2.0169726161819117,
+      "seed29_pct": 0.6771059727422202,
+      "seed43_pct": -0.4268818484458037,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": -0.8428163650662013,
+      "seed17_pct": -1.5430009932966615,
+      "seed29_pct": 2.136429423586206,
+      "seed43_pct": -2.968113595438071,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -1.464746256952143,
+      "seed17_pct": 0.5007798031354316,
+      "seed29_pct": -2.4447679823791035,
+      "seed43_pct": -2.417629063457971,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -0.9489478958360164,
+      "seed17_pct": 2.148761632427809,
+      "seed29_pct": -2.276072626523329,
+      "seed43_pct": -2.6468073111301726,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": -0.6602736188485392,
+      "seed17_pct": -0.5892516981467089,
+      "seed29_pct": -1.7887252927689778,
+      "seed43_pct": 0.3847053393938315,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -4.120382880402563,
+      "seed17_pct": -2.241539730595643,
+      "seed29_pct": -3.916717101489609,
+      "seed43_pct": -6.116999005454882,
+      "better_seeds": 3
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": 2.211023505138288,
+      "seed17_pct": 3.864731052923132,
+      "seed29_pct": 1.1263698242435227,
+      "seed43_pct": 1.6896454089786903,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": 2.3965943964673557,
+      "seed17_pct": 6.5725088530140585,
+      "seed29_pct": 0.9609113903455092,
+      "seed43_pct": 0.0194543357902476,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": 3.1570156677849903,
+      "seed17_pct": 0.7547208612149747,
+      "seed29_pct": 3.4524452810539508,
+      "seed43_pct": 5.21480147437916,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": 1.4272805230346242,
+      "seed17_pct": 3.4070320692585643,
+      "seed29_pct": -0.1625486738697446,
+      "seed43_pct": 1.069528537900899,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 1.5929334266760131,
+      "seed17_pct": 0.6101596437623868,
+      "seed29_pct": 2.4990112972602008,
+      "seed43_pct": 1.68320060373508,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": 2.390921302372462,
+      "seed17_pct": -1.1008213088631311,
+      "seed29_pct": 1.4383970721561612,
+      "seed43_pct": 6.8707323045396285,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": 1.1019685117351186,
+      "seed17_pct": 0.2437228556877002,
+      "seed29_pct": 3.541834580449521,
+      "seed43_pct": -0.4268818484458037,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": 0.97348504376622,
+      "seed17_pct": 2.955372134698786,
+      "seed29_pct": 3.0701360643115905,
+      "seed43_pct": -2.968113595438071,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -0.6262904513824719,
+      "seed17_pct": 0.2484323066204607,
+      "seed29_pct": 0.3363114385208643,
+      "seed43_pct": -2.417629063457971,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -0.4975884279650344,
+      "seed17_pct": 0.5303328324246515,
+      "seed29_pct": 0.6967872986834545,
+      "seed43_pct": -2.6468073111301726,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": 0.5972526317647775,
+      "seed17_pct": -0.3087414757888429,
+      "seed29_pct": 1.7260078689647074,
+      "seed43_pct": 0.3847053393938315,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -2.8920913485164457,
+      "seed17_pct": 0.3752081154515752,
+      "seed29_pct": -2.7901000167789625,
+      "seed43_pct": -6.116999005454882,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": 1.562927467442199,
+      "seed17_pct": 4.852295766846981,
+      "seed29_pct": -1.8284920571954637,
+      "seed43_pct": 1.6896454089786903,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": 1.8975352957752545,
+      "seed17_pct": 8.840924370703185,
+      "seed29_pct": -2.714073000945594,
+      "seed43_pct": 0.0194543357902476,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": 2.773139520610157,
+      "seed17_pct": 3.2723469968130026,
+      "seed29_pct": -0.3750325651025066,
+      "seed43_pct": 5.21480147437916,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": 0.4672802522040831,
+      "seed17_pct": 2.20943112975227,
+      "seed29_pct": -1.884681039653624,
+      "seed43_pct": 1.069528537900899,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 1.727084655043254,
+      "seed17_pct": 0.8860252290888271,
+      "seed29_pct": 2.6263499834053627,
+      "seed43_pct": 1.68320060373508,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": 4.3526490800142925,
+      "seed17_pct": 3.7074581546018495,
+      "seed29_pct": 2.502880336304081,
+      "seed43_pct": 6.8707323045396285,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": 1.023468109117598,
+      "seed17_pct": 0.6058028771941615,
+      "seed29_pct": 2.9384723069625363,
+      "seed43_pct": -0.4268818484458037,
+      "better_seeds": 1
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": -0.9790305756371076,
+      "seed17_pct": -2.3431694959666127,
+      "seed29_pct": 2.550129926268019,
+      "seed43_pct": -2.968113595438071,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -1.170452546863432,
+      "seed17_pct": 0.569946772832508,
+      "seed29_pct": -1.6255049987185075,
+      "seed43_pct": -2.417629063457971,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -0.5029022183305143,
+      "seed17_pct": 2.323270833710356,
+      "seed29_pct": -1.100459132587095,
+      "seed43_pct": -2.6468073111301726,
+      "better_seeds": 2
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": 0.4659832261624919,
+      "seed17_pct": 0.8630343449969047,
+      "seed29_pct": 0.1477099208603283,
+      "seed43_pct": 0.3847053393938315,
+      "better_seeds": 0
+    },
+    {
+      "family": "RNN",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -5.540448989788505,
+      "seed17_pct": -4.682829107354802,
+      "seed29_pct": -5.789062941601319,
+      "seed43_pct": -6.116999005454882,
+      "better_seeds": 3
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": 8.30136989874337,
+      "seed17_pct": 0.0,
+      "seed29_pct": 29.309331115801186,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": 9.0305963598174,
+      "seed17_pct": 0.0,
+      "seed29_pct": 32.50313422796967,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": 7.46252689911826,
+      "seed17_pct": 0.0,
+      "seed29_pct": 26.186912856024904,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": 8.15478059414303,
+      "seed17_pct": 0.0,
+      "seed29_pct": 28.394056369177424,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 0.7203920954368392,
+      "seed17_pct": 0.0,
+      "seed29_pct": 2.1812891101534504,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": -0.5390904835302357,
+      "seed17_pct": 0.0,
+      "seed29_pct": -1.6220964486156508,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": 0.5594050222593294,
+      "seed17_pct": 0.0,
+      "seed29_pct": 1.6366689458750638,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": 2.380112766605791,
+      "seed17_pct": 0.0,
+      "seed29_pct": 7.453848739446345,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -1.4805200679068875,
+      "seed17_pct": 0.0,
+      "seed29_pct": -4.411565091438153,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -1.1263530452962578,
+      "seed17_pct": 0.0,
+      "seed29_pct": -3.401202477821597,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": -1.582431156775865,
+      "seed17_pct": 0.0,
+      "seed29_pct": -4.722099665594293,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "lr_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -2.2586917383428773,
+      "seed17_pct": 0.0,
+      "seed29_pct": -6.4848261979115085,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": -0.4406937477629991,
+      "seed17_pct": 0.0,
+      "seed29_pct": -1.555940661770061,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": -0.409160818041121,
+      "seed17_pct": 0.0,
+      "seed29_pct": -1.4726612130281258,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": -0.9410932370657932,
+      "seed17_pct": 0.0,
+      "seed29_pct": -3.302410419632551,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": -0.1475632751409938,
+      "seed17_pct": 0.0,
+      "seed29_pct": -0.5137992253749446,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 0.1446042196788122,
+      "seed17_pct": 0.0,
+      "seed29_pct": 0.4378499037755112,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": -0.1004066874520148,
+      "seed17_pct": 0.0,
+      "seed29_pct": -0.3021187279482751,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": -0.2452041243061975,
+      "seed17_pct": 0.0,
+      "seed29_pct": -0.7174014527642547,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": 0.7284275061195888,
+      "seed17_pct": 0.0,
+      "seed29_pct": 2.28123159727871,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -0.1349863146124619,
+      "seed17_pct": 0.0,
+      "seed29_pct": -0.4022241415532646,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -0.1551471161551743,
+      "seed17_pct": 0.0,
+      "seed29_pct": -0.4684914362308667,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": 0.3459670271862114,
+      "seed17_pct": 0.0,
+      "seed29_pct": 1.0323929583838654,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "reg_only",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -0.8867828591123006,
+      "seed17_pct": 0.0,
+      "seed29_pct": -2.546001572064593,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "train",
+      "change_pct": 8.30136989874337,
+      "seed17_pct": 0.0,
+      "seed29_pct": 29.309331115801186,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "train",
+      "change_pct": 9.0305963598174,
+      "seed17_pct": 0.0,
+      "seed29_pct": 32.50313422796967,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "train",
+      "change_pct": 7.46252689911826,
+      "seed17_pct": 0.0,
+      "seed29_pct": 26.186912856024904,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "train",
+      "change_pct": 8.15478059414303,
+      "seed17_pct": 0.0,
+      "seed29_pct": 28.394056369177424,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "validation",
+      "change_pct": 0.7203920954368392,
+      "seed17_pct": 0.0,
+      "seed29_pct": 2.1812891101534504,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "validation",
+      "change_pct": -0.5390904835302357,
+      "seed17_pct": 0.0,
+      "seed29_pct": -1.6220964486156508,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "validation",
+      "change_pct": 0.5594050222593294,
+      "seed17_pct": 0.0,
+      "seed29_pct": 1.6366689458750638,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "validation",
+      "change_pct": 2.380112766605791,
+      "seed17_pct": 0.0,
+      "seed29_pct": 7.453848739446345,
+      "seed43_pct": 0.0,
+      "better_seeds": 0
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "JOINT",
+      "split": "test",
+      "change_pct": -1.4805200679068875,
+      "seed17_pct": 0.0,
+      "seed29_pct": -4.411565091438153,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "generation_MW",
+      "split": "test",
+      "change_pct": -1.1263530452962578,
+      "seed17_pct": 0.0,
+      "seed29_pct": -3.401202477821597,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "demand_MW",
+      "split": "test",
+      "change_pct": -1.582431156775865,
+      "seed17_pct": 0.0,
+      "seed29_pct": -4.722099665594293,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    },
+    {
+      "family": "LSTM",
+      "policy": "combined",
+      "target": "price_GBP_MWh",
+      "split": "test",
+      "change_pct": -2.2586917383428773,
+      "seed17_pct": 0.0,
+      "seed29_pct": -6.4848261979115085,
+      "seed43_pct": 0.0,
+      "better_seeds": 1
+    }
+  ],
+  "selection": {
+    "RNN": {
+      "policy": "fixed",
+      "mean_joint_validation_loss": 0.1154826823998209,
+      "criterion": "Mean joint validation only; test not used"
+    },
+    "LSTM": {
+      "policy": "fixed",
+      "mean_joint_validation_loss": 0.11615439492175643,
+      "criterion": "Mean joint validation only; test not used"
+    }
+  },
+  "audit": {
+    "all_passed": true,
+    "fits": 24,
+    "policies": 4,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "reference_manifest_files_verified": 94,
+    "all_events_reconstructed_from_val_only": true,
+    "matched_30_epoch_patience": true,
+    "no_schedule_reset_of_early_stop_clock": true,
+    "every_step_full_joint_and_components": true,
+    "checkpoint_parameters_match_log": true,
+    "max_normalised_replay_prediction_difference": 0.0,
+    "max_relative_metric_difference": 2.5146406391273994e-16,
+    "max_metric_vs_logged_loss_difference": 3.1559430346828066e-09,
+    "initial_trajectory_comparisons": [
+      {
+        "family": "RNN",
+        "seed": 17,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 17,
+        "comparison": "lr_only before first intervention",
+        "steps": 324,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 17,
+        "comparison": "reg_only before first intervention",
+        "steps": 324,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 17,
+        "comparison": "combined before first intervention",
+        "steps": 324,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 29,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 29,
+        "comparison": "lr_only before first intervention",
+        "steps": 342,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 29,
+        "comparison": "reg_only before first intervention",
+        "steps": 342,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 29,
+        "comparison": "combined before first intervention",
+        "steps": 342,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 43,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 43,
+        "comparison": "lr_only before first intervention",
+        "steps": 306,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 43,
+        "comparison": "reg_only before first intervention",
+        "steps": 306,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "RNN",
+        "seed": 43,
+        "comparison": "combined before first intervention",
+        "steps": 306,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 17,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 17,
+        "comparison": "lr_only before first intervention",
+        "steps": 486,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 17,
+        "comparison": "reg_only before first intervention",
+        "steps": 486,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 17,
+        "comparison": "combined before first intervention",
+        "steps": 486,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 29,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 29,
+        "comparison": "lr_only before first intervention",
+        "steps": 450,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 29,
+        "comparison": "reg_only before first intervention",
+        "steps": 450,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 29,
+        "comparison": "combined before first intervention",
+        "steps": 450,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 43,
+        "comparison": "old15 vs new30 prefix",
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 43,
+        "comparison": "lr_only before first intervention",
+        "steps": 540,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 43,
+        "comparison": "reg_only before first intervention",
+        "steps": 540,
+        "max_loss_difference": 0.0
+      },
+      {
+        "family": "LSTM",
+        "seed": 43,
+        "comparison": "combined before first intervention",
+        "steps": 540,
+        "max_loss_difference": 0.0
+      }
+    ],
+    "cpu_cuda_replay": [
+      {
+        "family": "RNN",
+        "policy": "fixed",
+        "max_normalised_difference": 2.5033950805664062e-06
+      },
+      {
+        "family": "RNN",
+        "policy": "lr_only",
+        "max_normalised_difference": 8.642673492431641e-07
+      },
+      {
+        "family": "RNN",
+        "policy": "reg_only",
+        "max_normalised_difference": 2.4437904357910156e-06
+      },
+      {
+        "family": "RNN",
+        "policy": "combined",
+        "max_normalised_difference": 1.3113021850585938e-06
+      },
+      {
+        "family": "LSTM",
+        "policy": "fixed",
+        "max_normalised_difference": 2.086162567138672e-06
+      },
+      {
+        "family": "LSTM",
+        "policy": "lr_only",
+        "max_normalised_difference": 2.086162567138672e-06
+      },
+      {
+        "family": "LSTM",
+        "policy": "reg_only",
+        "max_normalised_difference": 2.086162567138672e-06
+      },
+      {
+        "family": "LSTM",
+        "policy": "combined",
+        "max_normalised_difference": 2.086162567138672e-06
+      }
+    ],
+    "optimizer_updates": 27360,
+    "evaluation_rows": 27384,
+    "test_is_monitored_not_blind": true,
+    "MPC_evaluated": false
+  },
+  "remote_published": false,
+  "MPC_evaluated": false
+}

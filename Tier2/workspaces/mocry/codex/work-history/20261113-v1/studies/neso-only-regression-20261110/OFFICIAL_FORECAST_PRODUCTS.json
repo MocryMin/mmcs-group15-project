@@ -1,0 +1,106 @@
+{
+  "retrieved_on": "2026-11-10",
+  "access": "Playwright anonymous public JSON APIs",
+  "products": [
+    {
+      "url": "https://api.neso.energy/api/3/action/package_show?id=1-day-ahead-demand-forecast",
+      "title": "Day Ahead Demand Forecast",
+      "notes": "This dataset contains national electricity demand forecast for day ahead as well as all historic day ahead demand forecasts. The forecast assists the industry to make efficient decisions in balancing their supply and demand positions.                                                                  <br/><br/>",
+      "resources": [
+        {
+          "name": "Day Ahead National Demand Forecast",
+          "id": "aec5601a-7f3e-4c4c-bf56-d8e4184d3c5b",
+          "url": "https://api.neso.energy/dataset/8fbc8a09-06af-4c90-886f-d3025d38a349/resource/aec5601a-7f3e-4c4c-bf56-d8e4184d3c5b/download/ng_demand_1da_20261111.csv",
+          "description": "Publication frequency: twice daily.\r\n<br/>\r\nPublication time: between 09:00 & 09:15 and between 12:00 & 12:15 (clock time).\r\n<br/><br/>\r\nThis is our day ahead national demand forecast. National Demand is the Great Britain generation requirement and is the sum of metered generation based on National Grid's operational generation metering, but excludes generation required to meet station load, pump storage pumping and interconnector exports.<br>"
+        },
+        {
+          "name": "Demand Curve - Sample",
+          "id": "bcc91aed-76fd-4114-86b8-7c83de23b35c",
+          "url": "https://api.neso.energy/dataset/8fbc8a09-06af-4c90-886f-d3025d38a349/resource/bcc91aed-76fd-4114-86b8-7c83de23b35c/download/cardinal-points.png",
+          "description": "The demand curve displays what time of the day the different cardinal points occur."
+        },
+        {
+          "name": "Historic Day Ahead Demand Forecasts",
+          "id": "9847e7bb-986e-49be-8138-717b25933fbb",
+          "url": "https://api.neso.energy/dataset/8fbc8a09-06af-4c90-886f-d3025d38a349/resource/9847e7bb-986e-49be-8138-717b25933fbb/download/archive_1dayahead.csv",
+          "description": "All historic day ahead demand forecasts from 2018 to the most recent forecast."
+        }
+      ]
+    },
+    {
+      "url": "https://api.neso.energy/api/3/action/package_show?id=2-day-ahead-demand-forecast",
+      "title": "2 Day Ahead Demand Forecast",
+      "notes": "This dataset contains national electricity demand forecast for 2 days ahead as well as all historic 2 day ahead demand forecasts. The forecast assists the industry to make efficient decisions in balancing their supply and demand positions.                                                          <br/><br/>",
+      "resources": [
+        {
+          "name": "2 Day Ahead Demand Forecast",
+          "id": "cda26f27-4bb6-4632-9fb5-2d029ca605e1",
+          "url": "https://api.neso.energy/dataset/836df27e-e92c-45bf-80c0-a197e7c0ece3/resource/cda26f27-4bb6-4632-9fb5-2d029ca605e1/download/ng_demand_2da_20261111.csv",
+          "description": "Publication frequency: daily.\r\n\r\nPublication time: between 16:15 and 17:00 (clock time).\r\n\r\n<br/>\r\nThis is our 2 days ahead national demand forecast. National Demand is the Great Britain generation requirement and is the sum of metered generation based on National Grid's operational generation metering, but excludes generation required to meet station load, pump storage pumping and interconnector exports.\r\n<br>"
+        },
+        {
+          "name": "Demand Curve - Sample",
+          "id": "607621c1-20c1-4b29-81e1-16156d04b13f",
+          "url": "https://api.neso.energy/dataset/836df27e-e92c-45bf-80c0-a197e7c0ece3/resource/607621c1-20c1-4b29-81e1-16156d04b13f/download/cardinal-points.png",
+          "description": "The demand curve displays what time of the day the different cardinal points occur.  "
+        },
+        {
+          "name": "Historic 2 Day Ahead Demand Forecasts",
+          "id": "24abd271-5936-45c7-85f4-2a6b450ef6b7",
+          "url": "https://api.neso.energy/dataset/836df27e-e92c-45bf-80c0-a197e7c0ece3/resource/24abd271-5936-45c7-85f4-2a6b450ef6b7/download/archive_2dayahead.csv",
+          "description": "All historic 2 day ahead demand forecasts from 2018 to the most recent forecast."
+        }
+      ]
+    },
+    {
+      "url": "https://api.neso.energy/api/3/action/package_show?id=7-day-ahead-national-forecast",
+      "title": "7 Day Ahead Demand Forecast",
+      "notes": "This dataset contains national electricity demand forecast for 7 days ahead as well as all historic 7 day ahead demand forecasts. The forecast assists the industry to make efficient decisions in balancing their supply and demand positions.                                                                <br/><br/>",
+      "resources": [
+        {
+          "name": "7 Day Ahead Demand Forecast",
+          "id": "70d3d674-15a6-4e41-83b4-410440c0b0b9",
+          "url": "https://api.neso.energy/dataset/2b90a483-f59d-455b-be6d-3cb4c13a85d0/resource/70d3d674-15a6-4e41-83b4-410440c0b0b9/download/ng_demand_7da_20261116.csv",
+          "description": "Publication frequency: daily.\r\n\r\nPublication time: between 16:15 and 17:00 (clock time).\r\n\r\n<br/>\r\nThis is our 7 days ahead national demand forecast. National Demand is the Great Britain generation requirement and is the sum of metered generation based on National Grid’s operational generation metering, but excludes generation required to meet station load, pump storage pumping and interconnector exports.\r\n<br>"
+        },
+        {
+          "name": "Demand Curve - Sample",
+          "id": "2be09dad-2569-4fca-b4a9-92219e89c063",
+          "url": "https://api.neso.energy/dataset/2b90a483-f59d-455b-be6d-3cb4c13a85d0/resource/2be09dad-2569-4fca-b4a9-92219e89c063/download/cardinal-points.png",
+          "description": "The demand curve displays what time of the day the different cardinal points occur."
+        },
+        {
+          "name": "Historic 7 Day Ahead Demand Forecasts",
+          "id": "6f7408b4-47fd-4ae7-b1e5-f095a3a5a2dc",
+          "url": "https://api.neso.energy/dataset/2b90a483-f59d-455b-be6d-3cb4c13a85d0/resource/6f7408b4-47fd-4ae7-b1e5-f095a3a5a2dc/download/archive_7dayahead.csv",
+          "description": "All historic 7 day ahead demand forecasts from 2018 to the most recent forecast."
+        }
+      ]
+    },
+    {
+      "url": "https://api.neso.energy/api/3/action/package_show?id=2-14-days-ahead-national-demand-forecast",
+      "title": "2-14 Days Ahead Demand Forecast",
+      "notes": "This dataset contains national electricity demand forecasts for 2-14 days ahead (medium term) as well as all historic 2-14 days ahead forecasts. These forecasts assist the industry to make efficient decisions in balancing their supply and demand positions. <br/><br/>These files are updated twice daily, at 09:20 and 14:20.",
+      "resources": [
+        {
+          "name": "Historic 2-14 Day Ahead Demand Forecasts",
+          "id": "4dd712a2-ee2c-455d-a9c0-9d3564c80fa0",
+          "url": "https://api.neso.energy/dataset/633daec6-3e70-444a-88b0-c4cef9419d40/resource/4dd712a2-ee2c-455d-a9c0-9d3564c80fa0/download/archive_14dayahead.csv",
+          "description": "All historic 2-14 day ahead demand forecasts from 2020 to the most recent forecast."
+        },
+        {
+          "name": "2-14 Days Ahead Cardinal Point Forecast",
+          "id": "9af18ed4-efc8-4779-bef5-c0927fee9b0a",
+          "url": "https://api.neso.energy/dataset/633daec6-3e70-444a-88b0-c4cef9419d40/resource/9af18ed4-efc8-4779-bef5-c0927fee9b0a/download/ng_demand_14da_20261124.csv",
+          "description": "This is our 2-14 days ahead national demand forecast, updated twice daily. National Demand is the Great Britain generation requirement and is the sum of metered generation based on the operational generation metering from the Transmission Network Operators, but excludes generation required to meet station load, pump storage pumping and interconnector exports."
+        },
+        {
+          "name": "2-14 Days Ahead Half Hourly Forecast",
+          "id": "7c0411cd-2714-4bb5-a408-adb065edf34d",
+          "url": "https://api.neso.energy/dataset/633daec6-3e70-444a-88b0-c4cef9419d40/resource/7c0411cd-2714-4bb5-a408-adb065edf34d/download/ng-demand-14da-hh.csv",
+          "description": "This is our 2-14 days ahead national demand forecast, updated twice daily. National Demand is the Great Britain generation requirement and is the sum of metered generation based on the operational generation metering from the Transmission Network Operators, but excludes generation required to meet station load, pump storage pumping and interconnector exports."
+        }
+      ]
+    }
+  ]
+}

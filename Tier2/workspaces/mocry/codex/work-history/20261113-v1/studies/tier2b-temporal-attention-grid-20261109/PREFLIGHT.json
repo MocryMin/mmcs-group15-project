@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "same_training_scalers_as_baseline": true,
+    "attention_matches_independent_numpy": true,
+    "RNN_same_initial_backbone": true,
+    "RNN_5441_parameters": true,
+    "RNN_uses_all_365_positions": true,
+    "RNN_normalised_nonnegative_weights": true,
+    "RNN_initial_persistence": true,
+    "RNN_finite_backprop_to_early_history": true,
+    "LSTM_same_initial_backbone": true,
+    "LSTM_5441_parameters": true,
+    "LSTM_uses_all_365_positions": true,
+    "LSTM_normalised_nonnegative_weights": true,
+    "LSTM_initial_persistence": true,
+    "LSTM_finite_backprop_to_early_history": true
+  },
+  "all_passed": true,
+  "source": "Frozen preceding plain RNN/LSTM grid; no new data",
+  "attention": "Last hidden state as query; all observed hidden states as keys and values; no Q/K/V projection matrices"
+}

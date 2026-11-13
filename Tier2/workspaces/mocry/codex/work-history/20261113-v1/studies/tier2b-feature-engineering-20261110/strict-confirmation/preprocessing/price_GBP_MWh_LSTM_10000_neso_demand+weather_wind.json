@@ -1,0 +1,67 @@
+{
+  "target": "price_GBP_MWh",
+  "family": "LSTM",
+  "budget": 10000,
+  "groups": "neso_demand+weather_wind",
+  "pool": "external_forecasts",
+  "target_mean": [
+    25936.862947728696,
+    28781.64872262774,
+    120.97857969411676
+  ],
+  "target_std": [
+    5238.09892616852,
+    4003.302662756515,
+    79.89525467079051
+  ],
+  "extra_feature_names": [
+    "neso_demand__neso_demand_mean",
+    "neso_demand__neso_demand_min",
+    "neso_demand__neso_demand_max",
+    "neso_demand__neso_demand_n",
+    "neso_demand__missing_forecast",
+    "neso_demand__forecast_stale_days",
+    "weather_wind__wind_forecast48h_location0",
+    "weather_wind__wind_cubic_forecast48h_location0",
+    "weather_wind__wind_forecast48h_location1",
+    "weather_wind__wind_cubic_forecast48h_location1",
+    "weather_wind__wind_forecast48h_location2",
+    "weather_wind__wind_cubic_forecast48h_location2"
+  ],
+  "extra_mean": [
+    25522.835641983598,
+    19562.616438356163,
+    32915.59726027397,
+    11.529680365296803,
+    0.0,
+    0.0,
+    23.93512557077629,
+    529.7410788145911,
+    29.61657153729076,
+    917.1468340309153,
+    20.141777016742765,
+    327.9370167820811
+  ],
+  "extra_std": [
+    3750.9790604472623,
+    2471.699717413732,
+    5588.538644264704,
+    0.6640029351092207,
+    1.0,
+    1.0,
+    9.99026351569235,
+    632.9263331480894,
+    11.396925890314531,
+    1013.3645185209708,
+    8.819782757774846,
+    446.48257154482104
+  ],
+  "input_scaler_origin_fit_start": "2022-01-01",
+  "input_scaler_origin_fit_end": "2024-12-30",
+  "target_scaler_label_fit_end": "2024-12-31",
+  "base_encoding": "First3: standardized observed generation,demand,price; then observed-day weekday sine/cosine, yearly sine/cosine, weekend.",
+  "groups_csv": {
+    "neso_demand": "e17dcfba9e0838b0f20e852622944116b3b1e295489350067cf8cb955d55f887",
+    "weather_wind": "429c63599b6f3ca89cfd0d2337a12de0b5e2108e4a6b61789c6aef32be751549"
+  }
+}

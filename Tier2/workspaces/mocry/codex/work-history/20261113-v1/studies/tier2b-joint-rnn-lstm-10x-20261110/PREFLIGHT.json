@@ -1,0 +1,85 @@
+{
+  "checks": {
+    "same_scalers": true,
+    "same_splits": true,
+    "RNNsmall_count": true,
+    "RNNsmall_formula": true,
+    "RNNsmall_persistence_shape": true,
+    "RNNsmall_cpu_cuda": true,
+    "RNNsmall_finite_nonzero_gradient": true,
+    "RNNlarge_count": true,
+    "RNNlarge_formula": true,
+    "RNNlarge_persistence_shape": true,
+    "RNNlarge_cpu_cuda": true,
+    "RNNlarge_finite_nonzero_gradient": true,
+    "LSTMsmall_count": true,
+    "LSTMsmall_formula": true,
+    "LSTMsmall_persistence_shape": true,
+    "LSTMsmall_cpu_cuda": true,
+    "LSTMsmall_finite_nonzero_gradient": true,
+    "LSTMlarge_count": true,
+    "LSTMlarge_formula": true,
+    "LSTMlarge_persistence_shape": true,
+    "LSTMlarge_cpu_cuda": true,
+    "LSTMlarge_finite_nonzero_gradient": true
+  },
+  "all_passed": true,
+  "timings": [
+    {
+      "family": "RNN",
+      "budget": "small",
+      "parameters": 5511,
+      "lookback": 28,
+      "seconds_per_update_and_full_eval": 0.003375833339911575,
+      "peak_cuda_MiB": 133.078125
+    },
+    {
+      "family": "RNN",
+      "budget": "large",
+      "parameters": 54951,
+      "lookback": 28,
+      "seconds_per_update_and_full_eval": 0.0046904333285056055,
+      "peak_cuda_MiB": 270.27734375
+    },
+    {
+      "family": "LSTM",
+      "budget": "small",
+      "parameters": 5475,
+      "lookback": 56,
+      "seconds_per_update_and_full_eval": 0.003631566670568039,
+      "peak_cuda_MiB": 245.27099609375
+    },
+    {
+      "family": "LSTM",
+      "budget": "large",
+      "parameters": 54995,
+      "lookback": 56,
+      "seconds_per_update_and_full_eval": 0.006913699995493516,
+      "peak_cuda_MiB": 662.67529296875
+    }
+  ],
+  "cpu_cuda": [
+    {
+      "family": "RNN",
+      "budget": "small",
+      "max_prediction_difference": 2.7194619178771973e-07
+    },
+    {
+      "family": "RNN",
+      "budget": "large",
+      "max_prediction_difference": 2.384185791015625e-07
+    },
+    {
+      "family": "LSTM",
+      "budget": "small",
+      "max_prediction_difference": 1.0058283805847168e-07
+    },
+    {
+      "family": "LSTM",
+      "budget": "large",
+      "max_prediction_difference": 5.960464477539063e-08
+    }
+  ],
+  "torch": "2.14.1+cu130",
+  "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU"
+}

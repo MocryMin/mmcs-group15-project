@@ -1,0 +1,2012 @@
+{
+  "original_zip": "MMCS_Tier2B_Transformer_Grid_20261109.zip",
+  "original_zip_sha256": "ee0fbe39e22cf8f7847227930c83564f4181ac97f815b11aca7d1e47465e39a2",
+  "bytes": 9480927,
+  "representation": "All file payloads preserved; original ZIP container is not duplicated. Paths may deduplicate identical bytes.",
+  "entries": [
+    {
+      "entry": "analyse.py",
+      "bytes": 34549,
+      "sha256": "10cef47e0007856d31a76e0faa81a2ad717504ad1e2341fd119aff886d899068",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/analyse.py"
+    },
+    {
+      "entry": "analysis.log",
+      "bytes": 6876,
+      "sha256": "c94a3e70a09bda1c1e277473f78e1b4d7d434e81ba341da49aaf2c3740fb1631",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/analysis.log"
+    },
+    {
+      "entry": "BASELINE_CONFIGS.json",
+      "bytes": 1284,
+      "sha256": "6bad1e49abbd11b51023e7581efb805c279d449d5a78f4df84d455460f1e6d86",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/BASELINE_CONFIGS.json"
+    },
+    {
+      "entry": "case_results/demand_MW_LSTM_L14_lr0.003_s17.json",
+      "bytes": 2261,
+      "sha256": "859a62966f329bb40c77ca9760a22545b438b192cbff32b067fbfed28115dd50",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_LSTM_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_LSTM_L14_lr0.003_s29.json",
+      "bytes": 2267,
+      "sha256": "80737e60ab17554fbcb602d89ee9c6809197f97f04e2371387ac9661b0939a6a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_LSTM_L14_lr0.003_s29.json"
+    },
+    {
+      "entry": "case_results/demand_MW_LSTM_L14_lr0.003_s43.json",
+      "bytes": 2270,
+      "sha256": "13b379270213f26a356fc5463b79907e684f73052f4ed59f474f4e0f780ad961",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_LSTM_L14_lr0.003_s43.json"
+    },
+    {
+      "entry": "case_results/demand_MW_RNN_L7_lr0.001_s17.json",
+      "bytes": 2481,
+      "sha256": "08929a0b3f26fddce18810998bf574d197ae9f8c884635e6bfadc085045d2154",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_RNN_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_RNN_L7_lr0.001_s29.json",
+      "bytes": 2243,
+      "sha256": "cc79b57a386f11a6e6aef34e9ea378563e3554934f3bc9da348731ec8368b2e9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_RNN_L7_lr0.001_s29.json"
+    },
+    {
+      "entry": "case_results/demand_MW_RNN_L7_lr0.001_s43.json",
+      "bytes": 2254,
+      "sha256": "910e8dc280a8286ccdad5f1fd78a3e08178eaedd9da79230f6d2df96d6ab2453",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_RNN_L7_lr0.001_s43.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L14_lr0.001_s17.json",
+      "bytes": 2260,
+      "sha256": "169529a319e1ced142fe0548782cf3413ccfe8fe484225befadeefddd0b25253",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L14_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L14_lr0.003_s17.json",
+      "bytes": 2259,
+      "sha256": "d6d51491cdf25ccf4164f344e366b0f4db781b23cdc91c5bccf12f4f38ee6359",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L182_lr0.001_s17.json",
+      "bytes": 2265,
+      "sha256": "5545d34fb7bf7be4afc7b40ef934da9b687cb3c1184ef29261c3457314ba2f80",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L182_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L182_lr0.003_s17.json",
+      "bytes": 2251,
+      "sha256": "251c7d1c7cf01036e4e78ed97135b13f7e58596b382d37fe8c74bff9cc301e1d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L30_lr0.001_s17.json",
+      "bytes": 2259,
+      "sha256": "561f0d71a77b8641398b6782665b399d8dfa6a8857290ba44f23f57bb1c30faa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L30_lr0.003_s17.json",
+      "bytes": 2260,
+      "sha256": "b2f265384adc7c1a8ba6e322f68988800cb338fa6bc0835627ac157e56b227fc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L365_lr0.001_s17.json",
+      "bytes": 2264,
+      "sha256": "b4f1546c704816c0c99d6b9f8dbedec720af11a1f83c60dd46d59c9ef55ae894",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L365_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L365_lr0.003_s17.json",
+      "bytes": 2262,
+      "sha256": "d17cf0360a02b4fc4f0550b36c0e5119c4e77c066b92d3d23225c4ddd9ffc00c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L56_lr0.001_s17.json",
+      "bytes": 2260,
+      "sha256": "dda44752001ffd072ddbe81eeb98c89bf97f7bf67421156297a601f6a5683911",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L56_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L56_lr0.003_s17.json",
+      "bytes": 2258,
+      "sha256": "38f00d8ce9d57daa6e7635a21d6faa2dabbc956bc85b1f5205265f53485683ab",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L7_lr0.001_s17.json",
+      "bytes": 2248,
+      "sha256": "729678facdc220ba6a6c446889ecc8b6ebb4ee1f70138e9aac06291f156672f9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L7_lr0.001_s29.json",
+      "bytes": 2278,
+      "sha256": "d2eb688af367c05eb14a69f216572b0f913e0867c283620e31cdd4a6567324b9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L7_lr0.001_s29.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L7_lr0.001_s43.json",
+      "bytes": 2264,
+      "sha256": "1edd30d85d00bb867b6a5bb368664cec697bd1cbd04fabe2d880307677b2c705",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L7_lr0.001_s43.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L7_lr0.003_s17.json",
+      "bytes": 2236,
+      "sha256": "c1bd49dad5ea277bacbf5b1251b955d1c9d1b52e60a6d698dbe4f99c0750a1a7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L91_lr0.001_s17.json",
+      "bytes": 2259,
+      "sha256": "c0fb232fffacd36f86aa286725373cd51b800d399e75ad235a7fe9ff533e10f1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L91_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/demand_MW_Transformer_L91_lr0.003_s17.json",
+      "bytes": 2260,
+      "sha256": "d06552158d6fa14ff5dc7c9e4b39c15d7f7dce31f9fe12ebc4623d389287ef06",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/demand_MW_Transformer_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_LSTM_L30_lr0.003_s17.json",
+      "bytes": 2292,
+      "sha256": "47747a37af46749ac30dfaa607ed7cea70461ab76caf6e55d8dffcc18a9bdd1b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_LSTM_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_LSTM_L30_lr0.003_s29.json",
+      "bytes": 2295,
+      "sha256": "e50a6b8e42b3cf5015931fdabe6696444dd0d6a7dacdcbc245aa7cc4a450b79f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_LSTM_L30_lr0.003_s29.json"
+    },
+    {
+      "entry": "case_results/generation_MW_LSTM_L30_lr0.003_s43.json",
+      "bytes": 2296,
+      "sha256": "9e6a76b73cd02dfbba49945b7b6a730a1180c1f21fee1c686481fcfb14767ac0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_LSTM_L30_lr0.003_s43.json"
+    },
+    {
+      "entry": "case_results/generation_MW_RNN_L14_lr0.003_s17.json",
+      "bytes": 2502,
+      "sha256": "aecbeb34ce61de6020ededbcdab8fd57c9403b89b92f289c3f382ce3210e2054",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_RNN_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_RNN_L14_lr0.003_s29.json",
+      "bytes": 2285,
+      "sha256": "deef9f5369b1e0df8cb466e8327163a26371e3b231fd4021cadbc394c95ee374",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_RNN_L14_lr0.003_s29.json"
+    },
+    {
+      "entry": "case_results/generation_MW_RNN_L14_lr0.003_s43.json",
+      "bytes": 2282,
+      "sha256": "b9970085a99a3349e71d1d690ac57aad5a63cdb2005132ed05ad2b88cc314fb3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_RNN_L14_lr0.003_s43.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L14_lr0.001_s17.json",
+      "bytes": 2284,
+      "sha256": "8f6577b973b5d854ae5f51711dd7a1449b166f580be7f9d2bbace5d6ff890712",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L14_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L14_lr0.003_s17.json",
+      "bytes": 2285,
+      "sha256": "f7209d48227224748374f5ce9cd2e21992f88c8186a72e1ed5d5934f3dab4af5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L182_lr0.001_s17.json",
+      "bytes": 2294,
+      "sha256": "2020555c950320e352e3b67fe70f87134c363328c8d92d24bd50e841f3efb327",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L182_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L182_lr0.003_s17.json",
+      "bytes": 2291,
+      "sha256": "5fadd6e2141e8d66d522974c0b8687fb515e8d857fb2cf613af1ce1daad2d68a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L30_lr0.001_s17.json",
+      "bytes": 2288,
+      "sha256": "a3035fb1cf3a952a69e81b28258233f6309141ccc06412c6b50933e11970db3a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L30_lr0.003_s17.json",
+      "bytes": 2285,
+      "sha256": "c60080e2b6d254d270fdaaf1a6df4af2a078fb32b4e9fbaa309528db575f6b4a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L365_lr0.001_s17.json",
+      "bytes": 2519,
+      "sha256": "420fa3a0dc5979f8ee39f003265cf56adece4ea87a600aa7ac4020201b124204",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L365_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L365_lr0.003_s17.json",
+      "bytes": 2290,
+      "sha256": "1089242df41b964dbaa42ac96903085fcc885182e25fa6154bb27033d87fd2c3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L56_lr0.001_s17.json",
+      "bytes": 2275,
+      "sha256": "d881fce14159032f757551c1e57ec3ac46ff40598770a7a18e29c68b9a01c7e3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L56_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L56_lr0.003_s17.json",
+      "bytes": 2289,
+      "sha256": "c55ec07d0d873f4f7c9d316a390315e7202ec8f756f3a4a576ff6247410880b1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L7_lr0.001_s17.json",
+      "bytes": 2276,
+      "sha256": "9efb2a502462829efbc0a795f5d1513804c88a4a67d8d2dd7c240f88fa9aa48a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L7_lr0.001_s29.json",
+      "bytes": 2302,
+      "sha256": "caa00c7b352e9c4095ae86103352e2a154fa0770431bca31a503d2504e35dd62",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L7_lr0.001_s29.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L7_lr0.001_s43.json",
+      "bytes": 2306,
+      "sha256": "72fca7fa088e6c92d36a0543923a9f2ea17327d2d7709521165b6f7188f9cdef",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L7_lr0.001_s43.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L7_lr0.003_s17.json",
+      "bytes": 2283,
+      "sha256": "573f2486abdd4a3a82d2ed6046e124756be8c6c7720c0c906d1c0ae1ee5dc4b9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L91_lr0.001_s17.json",
+      "bytes": 2286,
+      "sha256": "0a74e3401a9244754a0106e2b4805e2b1ebb80b075024fa2cdf2d7f60fce0ced",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L91_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/generation_MW_Transformer_L91_lr0.003_s17.json",
+      "bytes": 2284,
+      "sha256": "b93e4f75f480a1db7c70f1a592df2dace69b76a8ccfa1f7ddf32f29797aac320",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/generation_MW_Transformer_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_LSTM_L14_lr0.003_s17.json",
+      "bytes": 2295,
+      "sha256": "f59cd8abdab530d71ef91bfdcec8ab1ae56d3252e878d18ceda934523383b6e3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_LSTM_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_LSTM_L14_lr0.003_s29.json",
+      "bytes": 2295,
+      "sha256": "bd73b3f47de5837e903d772b9e2cbe007ab7b11fa4516ba524ca55d9d00de936",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_LSTM_L14_lr0.003_s29.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_LSTM_L14_lr0.003_s43.json",
+      "bytes": 2297,
+      "sha256": "21de9524d8df2b18092b8abd52e9f54470fdb1da9bb292421b8dc861787effe6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_LSTM_L14_lr0.003_s43.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_RNN_L30_lr0.001_s17.json",
+      "bytes": 2520,
+      "sha256": "87a8be0f6afb164b1142822a0d95a09bbb76d9ac4bf6856393816970bef82b40",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_RNN_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_RNN_L30_lr0.001_s29.json",
+      "bytes": 2292,
+      "sha256": "a8b14bada50ff2b42e8fe13f7f770f0746fc667d6ab4af7d0f773faf66f25246",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_RNN_L30_lr0.001_s29.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_RNN_L30_lr0.001_s43.json",
+      "bytes": 2286,
+      "sha256": "59a043fcc6128b53130aca64fd4a78484bc3cdc6bf5a346af52a70b808f3acb5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_RNN_L30_lr0.001_s43.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L14_lr0.001_s17.json",
+      "bytes": 2274,
+      "sha256": "b80ea10ad20fc02d5125085abda6414c6a9f72b738c80e67faa849bbc8df6366",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L14_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L14_lr0.003_s17.json",
+      "bytes": 2285,
+      "sha256": "8bf1c3728d7e719eb617160d2f579b0ffbb0d3d532bdbf68b33005c76ce21839",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L14_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L182_lr0.001_s17.json",
+      "bytes": 2283,
+      "sha256": "9d730818bf6608e34a74cdcaae85568e00d42f73c5e7f002b698f4a65e0c5878",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L182_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L182_lr0.001_s29.json",
+      "bytes": 2315,
+      "sha256": "ac1cca9f41fe64da0cbaa7dc945cd6d60936349ad92f731ee585280e0a3a6b87",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L182_lr0.001_s29.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L182_lr0.001_s43.json",
+      "bytes": 2316,
+      "sha256": "b1101603505885eb131f9c8140c2060d8aa510be84cbfee30fddb700197c6b78",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L182_lr0.001_s43.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L182_lr0.003_s17.json",
+      "bytes": 2292,
+      "sha256": "5031a92265ddbf4d88122a36639d347ec1f5e8c2714004266b85f20bbce71437",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L182_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L30_lr0.001_s17.json",
+      "bytes": 2285,
+      "sha256": "a41ab0d727b7bffa1718f1c386df1136d6d094904abacc9ba09a5e425d5345f3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L30_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L30_lr0.003_s17.json",
+      "bytes": 2272,
+      "sha256": "52ef57d161d960ed608f45442ffac87623a3fb8c2a97fa0676d03f0414c35d5e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L30_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L365_lr0.001_s17.json",
+      "bytes": 2278,
+      "sha256": "456463a4792e223a70774d7476e390141c36fe0cb5fea3b4d5f4893b023fa3a6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L365_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L365_lr0.003_s17.json",
+      "bytes": 2296,
+      "sha256": "f8c685691dec9fb7477daa8fa74fb689b454cd38e14a9c854b618eb8eede9092",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L365_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L56_lr0.001_s17.json",
+      "bytes": 2284,
+      "sha256": "5d31b5e83744dbfe462ec4d868ed9749c90392f59df77cf2272625642e9a784d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L56_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L56_lr0.003_s17.json",
+      "bytes": 2286,
+      "sha256": "a7636929ab00b5cc890569c2f5a9bccdd064e35f72da9222c6d05dc15aefe1b4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L56_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L7_lr0.001_s17.json",
+      "bytes": 2279,
+      "sha256": "afdd9eecc36987d0fce124da3dbdc47e6f98a89367192dd304224cef037b21d7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L7_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L7_lr0.003_s17.json",
+      "bytes": 2278,
+      "sha256": "d838a1496b4f1ec055e695159b2a0d8bbf3ef3d608f595cdb7b7d6b5d61496bf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L7_lr0.003_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L91_lr0.001_s17.json",
+      "bytes": 2286,
+      "sha256": "3d2ad3a1cdb3e5a88326f7d3748d12864555959448f1586ddfd64a956ae1d8c5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L91_lr0.001_s17.json"
+    },
+    {
+      "entry": "case_results/price_GBP_MWh_Transformer_L91_lr0.003_s17.json",
+      "bytes": 2284,
+      "sha256": "341872e06df66874325ddfdc8db030f71b889c704b61ffc4ebddc685f60c1613",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/case_results/price_GBP_MWh_Transformer_L91_lr0.003_s17.json"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L14_lr0.003_s17.pt",
+      "bytes": 24597,
+      "sha256": "bb46487b396eb9568965e3e59692c103ae4cb1d1c4bb8843addd7d8adbb272cf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_LSTM_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L14_lr0.003_s29.pt",
+      "bytes": 24597,
+      "sha256": "5a9dbbe369b0132e7edbde964968d1fd296f78e4b8f482eb6133e45c2d178b20",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_LSTM_L14_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_LSTM_L14_lr0.003_s43.pt",
+      "bytes": 24597,
+      "sha256": "deb3c31c11cb7c8538a195ee6bd07abec7304340cacf2b57eec4d44a9df601a9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_LSTM_L14_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L7_lr0.001_s17.pt",
+      "bytes": 24597,
+      "sha256": "0048afcd0181008f4775d23649a55c584344e1fa45237162616c5ebe11721221",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_RNN_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L7_lr0.001_s29.pt",
+      "bytes": 24597,
+      "sha256": "75dddc1946222683e913071752576ed565adff7ea056edb800b1c9349017aee9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_RNN_L7_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_RNN_L7_lr0.001_s43.pt",
+      "bytes": 24597,
+      "sha256": "2b4ec7dff01295b0913f698f4d15a28dba9a59d2af38917fe98f484457a34a1f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_RNN_L7_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L14_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "d91e63647baa32a738afdf89d0ecfe900bfadebc466ae57233529cb81bedbf0e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L14_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L14_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "e66aacc735f0c42d0df814e377a13ba19674896e0fece087aa6c1deafd946bcb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L182_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "7bd6aeac9ebabb3d81afdff8a3ddb18e29de2eebd2648ad83bc993495dc24033",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L182_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L182_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "bd80759f068d0bfaab3fd9e5f64a61dfd43fe8374e0780af82df093d4902e8ff",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L30_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "326c7babe278b894e110a6deb7452e8d1266d07d17cc60cae7be4aa2357c7a7f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L30_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "92858db859943c1ff12841d3b89aeed27790028b523412eacaec8e13c06f8b12",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L365_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "fbf90abe7099a769f7cf64c3ddd2a66b9879a3d47038cf1e9b453a8f6e907de7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L365_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L365_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "9898759a1b2c0c327ef6301873ac1994b555ca351d885911f051e8d836bf4caf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L56_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "af779a9defaef78ad2f32836aa7593830f5c7b91c0cf6e27de2f6686770ee4e0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L56_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "215700d6a30a37162084d0c53a7990777bdf31d6dc8be73b7787264ac24da572",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L7_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "ceeb12d964cd8b41a4701dbe3173a12e025eb819b3c35b22aabfe8c37583e79d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L7_lr0.001_s29.pt",
+      "bytes": 26995,
+      "sha256": "a4cebd4f97f92f6d6e956112b270fe996426221e37c54284abf895a66972bfec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L7_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L7_lr0.001_s43.pt",
+      "bytes": 26995,
+      "sha256": "bbea7376f1eff7d734011ed8ddc0b430e48aacee227b87fac76a445c8076d380",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L7_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L7_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "e52ac71d5e4afbc530a1fd5d96e60d5c3d3ec6c763fa8e3d81673f65acce7b00",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L91_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "96dc9e922579cedbe0f4017d3966b6b3e8461582769c8ce86d9ae1482d10c466",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L91_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/demand_MW_Transformer_L91_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "dda5867367784a42871a53bef6c439bf566f1abc514d522f42eb717a4b7024dc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/demand_MW_Transformer_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L30_lr0.003_s17.pt",
+      "bytes": 24597,
+      "sha256": "c3f4daafd6c7b329622cb269ffa50af79f65c9176aaee39bd04a76e91f50a426",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_LSTM_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L30_lr0.003_s29.pt",
+      "bytes": 24597,
+      "sha256": "171d395ff487cce9093105aee359edbb12ccbe2d26a1613f9eab14fc8cdff1ab",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_LSTM_L30_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_LSTM_L30_lr0.003_s43.pt",
+      "bytes": 24597,
+      "sha256": "d2d979d179953dabd3e032de976fa582b4553d6d21a96f6cf1f97f7eb6b9b2e3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_LSTM_L30_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L14_lr0.003_s17.pt",
+      "bytes": 24597,
+      "sha256": "d8edf55593b7b46e3f800f3c4d0b69a05b091c97ad9ea2ca7d2fe4cad4a69c53",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_RNN_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L14_lr0.003_s29.pt",
+      "bytes": 24597,
+      "sha256": "7872adb84e1ef06dd41481029a4b2992bfac13a6538bdc8e818f597d5b99e0cb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_RNN_L14_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_RNN_L14_lr0.003_s43.pt",
+      "bytes": 24597,
+      "sha256": "264bb843193c602cf5a8fef93f22baf1452b8d098b90602ffc4f7de189126aba",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_RNN_L14_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L14_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "348f7a7e019ce62551a7da661c5bd90a465f3c11909e0e415152c2c8125e25a2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L14_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L14_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "12fe0eddf1347c9bd20bd047fe1c09e846300eb432824ff28784bee425e668e8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L182_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "f736aa828da8328be10051b2235f12c0f1c4b4014ad13edfc175e2ae835075f3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L182_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L182_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "5671717b181554efc62c459b9c990459523716cc1a0dbc124eef25d18c155852",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L30_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "381422531cb0b8538b568138655528ac6d9867438ff7fe6e442c89d8c98acdde",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L30_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "f1c62299549af140ee9341c5e99d594030471ab67a077ae2a9d3178d6d1632de",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L365_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "2112659a69b50d0102813f65c84d106b8f36a7376e2c82dadcac8a10834ce4e2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L365_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L365_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "159bdda86f69ec0e13a274b4fde965cceab9872bd4bd5487ba25cac28f2ea711",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L56_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "6605b4c796423974657519312ef0988d87bbdbb69c8cf0e84c0306c798b70643",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L56_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "52366445e50d330489614e1bbca9e12a700e1fbd3bf88431c5ecddbee70164d4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L7_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "5b1eb70d8cb996a56b8c97ab922159e2bba0d6a1fc4f51656c81737296d9d901",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L7_lr0.001_s29.pt",
+      "bytes": 26995,
+      "sha256": "50c5d376e473b75a84dcc365d875303968ae67b09ff51e8386c7cc0fad7fa85c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L7_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L7_lr0.001_s43.pt",
+      "bytes": 26995,
+      "sha256": "c701e262d7ed20b014a0d8aaa77ff7c0e05caf42a0e9656cb225634d3b2868b8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L7_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L7_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "d7a2917bbc0b3ab793c452f00421a146f4c12ce004aad1db69028f69bc2fece1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L91_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "3009ba85ff23a0ed542693eb1d5886d7b5a221a23ef6f24d7b2485e293367502",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L91_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/generation_MW_Transformer_L91_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "ff0e6a5c2f98bbd875ba0bd40c17581c33afdb0cefe1872b7193917494b00921",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/generation_MW_Transformer_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s17.pt",
+      "bytes": 24597,
+      "sha256": "21e5f9c5d1bb7145c3bd60a88361f037185011ee8ccee5062788917d5afc52df",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s29.pt",
+      "bytes": 24597,
+      "sha256": "b4dd4f973325fc249870398819e0f0708f0cbd0b84ee661ad96e2fe2575dbdd8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s29.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s43.pt",
+      "bytes": 24597,
+      "sha256": "4f936734b900e432c742d437701248417d31eaab9fbf0837811f17ce8e2d10ea",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_LSTM_L14_lr0.003_s43.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s17.pt",
+      "bytes": 24597,
+      "sha256": "0390f8eabc65e014a586ddc50fe42a7a5a42ecf970c265f258d9759fe5c7a281",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s29.pt",
+      "bytes": 24597,
+      "sha256": "22a74933b02fe6d27e742b34e5eff22110e52e889e2cf5a73374758409de1c3e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s43.pt",
+      "bytes": 24597,
+      "sha256": "1c613512155db070fe3c39c7dd9bfbb2054f3e94e10751b647c5c8d98d255506",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_RNN_L30_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L14_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "cba88e98993ca86ed3e7ac139e38d5d710dad3d943fe96499669eb5f8ca97dfd",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L14_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L14_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "b1b3ea463a96ccbda13d37d378f5d643abcdfaee4e920dd27cd767cbe29ed6cf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L14_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "1b7877ae5945dac30365cb31ff7dc2fe55a4e4909c3e8e9ff5a2f8062e62f3f0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s29.pt",
+      "bytes": 26995,
+      "sha256": "fd0a1c63ea45f43e9347099bce51dc63a457cdbab6a1d493b2e0aae23dddd989",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s29.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s43.pt",
+      "bytes": 26995,
+      "sha256": "a02d3bf5f31171da79a8284692abca3bbc1155bdd33e7803a138f37ed961a729",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L182_lr0.001_s43.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L182_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "076573101ed011a05e53b9034c4d595dfd10440998d67a9e6cdcf1de6817fc8a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L182_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L30_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "a09a844382a0f8e19b532f39147ca5c2f4628154fe2fb33e1ee1b871e9565905",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L30_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L30_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "6d1d46dd0bce8b3f04003efb64932aec146df190de647e84cef3b59162c457e1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L30_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L365_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "ba9400c2377b0a99469c028555c3db13d2d2835a01157e2596cbbd0b20ab711d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L365_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L365_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "0c56d6c73ae2715121c2cb01d03ddcb71068e01b1f73f99a2bdb1c7502a4ad0a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L365_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L56_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "95cab6bfde90acdab955cfc3f00e5bd5c0f4508fd944b98ac04178238f094eb7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L56_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L56_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "6db1bc126fba4edbbab927ed4732ce4b51144e6a88fbb00c446533d22ac6fe9f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L56_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L7_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "6586de3787e1148365b3e1f41b0599d483c7b324727adad57fce0cc20d1f23dd",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L7_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L7_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "2594a082426dfe8b49db1bcd42d98fcb566f15cac545cdcaed2b64ac29138d9e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L7_lr0.003_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L91_lr0.001_s17.pt",
+      "bytes": 26995,
+      "sha256": "36a81ef3d47ff65c41632008920aa9c4ba8e6d72606bb2c8eb531fe4bddb3491",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L91_lr0.001_s17.pt"
+    },
+    {
+      "entry": "checkpoints/price_GBP_MWh_Transformer_L91_lr0.003_s17.pt",
+      "bytes": 26995,
+      "sha256": "0930694d8232a599c279161dd3a70e4a28c3e243a708896a47f1d698b47b11da",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/checkpoints/price_GBP_MWh_Transformer_L91_lr0.003_s17.pt"
+    },
+    {
+      "entry": "data.py",
+      "bytes": 2029,
+      "sha256": "39c4fbf6d20fe5b0dbd35d838e31b2fa0b6d3f0d72661e648df7a0ebb7bdeee1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-joint-plateau-20261110/data.py"
+    },
+    {
+      "entry": "EVALUATION_CHUNK_TIMING.json",
+      "bytes": 1723,
+      "sha256": "550252afb255d4b583d08cd87c22256978eebc0b49ce2ae1509497dc8105b8f5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/EVALUATION_CHUNK_TIMING.json"
+    },
+    {
+      "entry": "execution_logs/demand_MW_baseline.log",
+      "bytes": 5530,
+      "sha256": "f8dcf138084d461706d40b246463c3368de59bbc6f268f553835fa4ab7fbbb30",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/baseline_jobs/demand_MW/worker.log"
+    },
+    {
+      "entry": "execution_logs/demand_MW_initial_metadata_error.log",
+      "bytes": 2877,
+      "sha256": "46df51e3b0ec8f7ebdab8ffe468d868a33dc844db0c085bd36cbb0f57ddc9e05",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/execution_logs/demand_MW_initial_metadata_error.log"
+    },
+    {
+      "entry": "execution_logs/generation_MW_baseline.log",
+      "bytes": 5840,
+      "sha256": "f1ea221b0e13d874d62b2bd88bb2f6af51f8d76538d4a2f67d26e655159ee069",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/baseline_jobs/generation_MW/worker.log"
+    },
+    {
+      "entry": "execution_logs/generation_MW_initial_metadata_error.log",
+      "bytes": 2650,
+      "sha256": "cdcc604592b96e63fbd6a122cb81a490b0d63b31982cbf72c1b89c364a7c40e6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/execution_logs/generation_MW_initial_metadata_error.log"
+    },
+    {
+      "entry": "execution_logs/initial_metadata_error.log",
+      "bytes": 5477,
+      "sha256": "95338b4ae83994a8ad3dde76eb967808f23f7866a02144d2c2f878765f19aee9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/execution_logs/initial_metadata_error.log"
+    },
+    {
+      "entry": "execution_logs/price_GBP_MWh_baseline.log",
+      "bytes": 7364,
+      "sha256": "fe1c23ff86828943ed5b5bb3d6f2a4f6ba403b9452746a4cf9780f39b976d1fe",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/baseline_jobs/price_GBP_MWh/worker.log"
+    },
+    {
+      "entry": "execution_logs/price_GBP_MWh_initial_metadata_error.log",
+      "bytes": 3148,
+      "sha256": "64212090326fb743f244eb2acb319e91efadbd64b92890ef963aac49522787ff",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/execution_logs/price_GBP_MWh_initial_metadata_error.log"
+    },
+    {
+      "entry": "figures/paired_seed_differences.png",
+      "bytes": 109104,
+      "sha256": "4d28bffc2a76d0c5491bb13b2548d97b02b01336860842824f870ecd220498e0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/paired_seed_differences.png"
+    },
+    {
+      "entry": "figures/paired_seed_differences.svg",
+      "bytes": 76899,
+      "sha256": "382aebb50e256f04d2edbac3c0bc3d985013406f44f6b1d0bae093caac0d2714",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/paired_seed_differences.svg"
+    },
+    {
+      "entry": "figures/screening_grid.png",
+      "bytes": 149923,
+      "sha256": "7fbf2e8474c5edb80b32dc9e9cf7209e7edde088364911ef8cdc86ac8a88503d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/screening_grid.png"
+    },
+    {
+      "entry": "figures/screening_grid.svg",
+      "bytes": 98820,
+      "sha256": "cc356afd7ccc2bde9ac9ae3225d3068330c2808e9b03a48bc5aa99362bcbafb1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/screening_grid.svg"
+    },
+    {
+      "entry": "figures/selected_step_losses.png",
+      "bytes": 890107,
+      "sha256": "4da60ecccf763753bf20890c6240a622048ca2417bf1192201a814925723e213",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/selected_step_losses.png"
+    },
+    {
+      "entry": "figures/selected_step_losses.svg",
+      "bytes": 582284,
+      "sha256": "1498fbcbc04ce65a5965a46e5b1c22e20c23ee9d984b8a0da0abf396dd974c1a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/selected_step_losses.svg"
+    },
+    {
+      "entry": "figures/three_seed_losses.png",
+      "bytes": 201605,
+      "sha256": "03f61af0c175db5a73459e0f395f2a5feb38929c84abab1d173e5bbf5ab3a035",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/three_seed_losses.png"
+    },
+    {
+      "entry": "figures/three_seed_losses.svg",
+      "bytes": 130413,
+      "sha256": "704f5f714a9726131a420e265d2f7883098a1ecbd70211d20d7b7108fca23c7c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/figures/three_seed_losses.svg"
+    },
+    {
+      "entry": "finalize_release.py",
+      "bytes": 5550,
+      "sha256": "2a7c193e980fe576adb63e7f9f8b656b4475f368c6b17ae8f769245274f7482e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/finalize_release.py"
+    },
+    {
+      "entry": "fit_core.py",
+      "bytes": 7617,
+      "sha256": "568d2da253fbafa5898923b70ef99c19e326bf8177dda05bf52e427634bade8c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/fit_core.py"
+    },
+    {
+      "entry": "fit_core_initial_metadata.txt",
+      "bytes": 7612,
+      "sha256": "b1453e01e630c51df0a7e9cf320e2dc4cee4d759ffb4e308872783a7906f2cad",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/fit_core_initial_metadata.txt"
+    },
+    {
+      "entry": "gpu-install.log",
+      "bytes": 623,
+      "sha256": "64514798687a7484820c34b76d52382374b750d8664335ad918f73549d140517",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/gpu-install.log"
+    },
+    {
+      "entry": "inputs/model_daily.csv",
+      "bytes": 169577,
+      "sha256": "addc31ee1e01de947c025eb2b47aa7a09e3680e3ca189ea904edf9bd73fae475",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/model_daily.csv"
+    },
+    {
+      "entry": "inputs/SOURCE_MANIFEST.json",
+      "bytes": 1480,
+      "sha256": "7ff14bc7cf9949d274e0db80c9f07283360e6e121b28fb27ba7fc9a204ea492e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-joint-plateau-20261110/inputs/SOURCE_MANIFEST.json"
+    },
+    {
+      "entry": "METADATA_RECOVERY.json",
+      "bytes": 1596,
+      "sha256": "72ad568301bbcff938f800b1866b59795abb4a4ac17796b1bfe4233832263305",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/METADATA_RECOVERY.json"
+    },
+    {
+      "entry": "model.py",
+      "bytes": 2043,
+      "sha256": "e9f3725764953067a6e9137986620aa63be81669d201108bff4cfc3d9dd905b7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/model.py"
+    },
+    {
+      "entry": "package_artifacts.py",
+      "bytes": 1912,
+      "sha256": "f183058f2e1d427e9412229a7fa8b05f6e869aad14df394a5588366c0ae80d4a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/package_artifacts.py"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L14_lr0.003_s17.npz",
+      "bytes": 13425,
+      "sha256": "4f79e8d6a4d1b42d1b58c1b56d4dc5215b6ed3ddde8133186a00691b1deaea0a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/parallel_jobs/demand_MW/predictions/demand_MW_LSTM_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L14_lr0.003_s29.npz",
+      "bytes": 13419,
+      "sha256": "9c2b4c4be67e830498c2039ae8a4c57cc752605a043e7c780dca4477a7d1e1ad",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_LSTM_L14_lr0.003_s29.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_LSTM_L14_lr0.003_s43.npz",
+      "bytes": 13431,
+      "sha256": "707726a39a9ff73058c2fed84093b741a6070f9065a092081bc7b57329419ebc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_LSTM_L14_lr0.003_s43.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L7_lr0.001_s17.npz",
+      "bytes": 13419,
+      "sha256": "71a3a8b0d22df13c3fa49a4d1a4e2a81cc0be17cea5ae580468f00937b53d823",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/parallel_jobs/demand_MW/predictions/demand_MW_RNN_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L7_lr0.001_s29.npz",
+      "bytes": 13428,
+      "sha256": "a4982676b8130e718fc0be6ec38a2f884b4eb69fd8f5a3e0bf7212519afe94d2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_RNN_L7_lr0.001_s29.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_RNN_L7_lr0.001_s43.npz",
+      "bytes": 13433,
+      "sha256": "ccd539446e80149c69a308989546290018b2fb3b04ecd273df5a6b1da47a3ab8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_RNN_L7_lr0.001_s43.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L14_lr0.001_s17.npz",
+      "bytes": 13420,
+      "sha256": "0c7c9452df665c994df99b3846612ebd312cd124128e847caa7075ab47ce4539",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L14_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L14_lr0.003_s17.npz",
+      "bytes": 13426,
+      "sha256": "b2fe6cb242184fb176dce89fd6a8ae8b3faa0fbce8e2218847caffb6c951dc58",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L182_lr0.001_s17.npz",
+      "bytes": 13433,
+      "sha256": "44559467c5e5cba52fac5de5ed5850d3a691b5b05c92ae8f07ba8c803942a2c8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L182_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L182_lr0.003_s17.npz",
+      "bytes": 13455,
+      "sha256": "cec4f894026659d3a76a11b08dfcf55ed02874c716ba07d499a75628fa85dad3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L30_lr0.001_s17.npz",
+      "bytes": 13415,
+      "sha256": "4c85b1cc33b3ce629afbabdb6bdff5997d459c7aa73112d36457bd181a2e604e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L30_lr0.003_s17.npz",
+      "bytes": 13436,
+      "sha256": "6052abf20b0b2fabf911e0502b862ee38b5d80200a2593076d4fc4c5d083efa4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L365_lr0.001_s17.npz",
+      "bytes": 13421,
+      "sha256": "f7231bc6d3eaa25d06a03595eb88e8e7ec9c12e289564a757f04a81d59350558",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L365_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L365_lr0.003_s17.npz",
+      "bytes": 13436,
+      "sha256": "f6aa3d5a69fbbc806bc553758255cb64cb59a76d028bd14f4858f536e84fc1a4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L56_lr0.001_s17.npz",
+      "bytes": 13424,
+      "sha256": "5878e3d6f8b44f31254683d10d2611772ca93fa2147f3b46d9c802ab24167838",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L56_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L56_lr0.003_s17.npz",
+      "bytes": 13422,
+      "sha256": "6bb4bef79ef4cd0e79ce2fac3180f7023719856a33cc0edf458644e51b7c1630",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L7_lr0.001_s17.npz",
+      "bytes": 13421,
+      "sha256": "d1e6ec024c609c4e861b256a8353b5fa35bd96859bb1b0dc9fe62e4e90a41578",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L7_lr0.001_s29.npz",
+      "bytes": 13403,
+      "sha256": "326a6c8a5100d78df7a4d924627d1983fc87c41f0282001441562297ebe4109c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L7_lr0.001_s29.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L7_lr0.001_s43.npz",
+      "bytes": 13428,
+      "sha256": "c0d9c9d3d1eb347824f1ef879b696953087113b749a931d1b0829586e0e6e196",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L7_lr0.001_s43.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L7_lr0.003_s17.npz",
+      "bytes": 13418,
+      "sha256": "411c5999720f03e64ab0575a26f17369a960b4db376a9cc5db0b4cc8ae2467ab",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L91_lr0.001_s17.npz",
+      "bytes": 13430,
+      "sha256": "8cd547bc2a64cfb8b24201a490481464048132672c6b5a97e9f7a18a624a5b00",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L91_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/demand_MW_Transformer_L91_lr0.003_s17.npz",
+      "bytes": 13408,
+      "sha256": "13cc4659c1044f1328110f66d25cc636ce8ae06d5c677c5c557e27e678c30e81",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/demand_MW_Transformer_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L30_lr0.003_s17.npz",
+      "bytes": 13435,
+      "sha256": "17dcde8fd4004d2105ade178825e94dc764f49258667e86c2cb27e2ef0271e4d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/predictions/generation_MW_LSTM_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L30_lr0.003_s29.npz",
+      "bytes": 13440,
+      "sha256": "9bc5a33e15161655cfb900b6ad87e4fe43b5b43e289896435f91977a2f9cbc76",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_LSTM_L30_lr0.003_s29.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_LSTM_L30_lr0.003_s43.npz",
+      "bytes": 13434,
+      "sha256": "81a25e218fb012fd4111dd7541ef960c3b51a4ece3eb331e3ea7c55adb8a704e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_LSTM_L30_lr0.003_s43.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L14_lr0.003_s17.npz",
+      "bytes": 13444,
+      "sha256": "f9bf13f6169c7d8ed80d757ad61e58de9a4f3cce0b21557607590c1a09ad1181",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/predictions/generation_MW_RNN_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L14_lr0.003_s29.npz",
+      "bytes": 13441,
+      "sha256": "736e23e7197face13641a057c3043741b56f5232d68222bcefdff8b8951c1edb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_RNN_L14_lr0.003_s29.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_RNN_L14_lr0.003_s43.npz",
+      "bytes": 13451,
+      "sha256": "f93aedcc293831b27a0b3762b4ea79a805d11adb6d69579ae18ef0441cf52cf6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_RNN_L14_lr0.003_s43.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L14_lr0.001_s17.npz",
+      "bytes": 13448,
+      "sha256": "8f3c9041d9f1e990a1ff444787f64d9994d1e3000c9e228bfd2781601c0221de",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L14_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L14_lr0.003_s17.npz",
+      "bytes": 13464,
+      "sha256": "6402fe409ebe527eecf50eae9ff640c41e30f05f9cbd5911137f1bf6fd1e5443",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L182_lr0.001_s17.npz",
+      "bytes": 13459,
+      "sha256": "f82dd9b7e9960979e54543b2f2df792583a947509d30804006046299f898b231",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L182_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L182_lr0.003_s17.npz",
+      "bytes": 13440,
+      "sha256": "a76fcab4d6d7fa38c7228670231dbcb71f925050cf90321721fa46cee771f21b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L30_lr0.001_s17.npz",
+      "bytes": 13461,
+      "sha256": "9c0fdb5366b11531b1a49e442ea5ce6feffc472033cabb10d1f7d066ac57774b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L30_lr0.003_s17.npz",
+      "bytes": 13447,
+      "sha256": "2b0d3671923ac20d21610dd0992d0d0babcc7cd4043dc3839e88c10f19c543aa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L365_lr0.001_s17.npz",
+      "bytes": 13441,
+      "sha256": "6895b911613f80555dc941977a57d6332ab1fad09a89598b889c0826df38f3ff",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L365_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L365_lr0.003_s17.npz",
+      "bytes": 13442,
+      "sha256": "837e82710a8a3c881269cef41ca13d2bae8d07f3c29871762dedb145950dfb7d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L56_lr0.001_s17.npz",
+      "bytes": 13466,
+      "sha256": "197ae276636e59071e79aa787b566bb87cb16a27183a964555b8add4e83a0114",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L56_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L56_lr0.003_s17.npz",
+      "bytes": 13433,
+      "sha256": "3687d91a33e2577a9187b5d7368073afc7b97f52e3cb198f656c3e7775ec4223",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L7_lr0.001_s17.npz",
+      "bytes": 13440,
+      "sha256": "341111c5a686ecd22dba0a5ad1e295650131de40d9fabe412c4092b573349351",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L7_lr0.001_s29.npz",
+      "bytes": 13448,
+      "sha256": "9f08c52f437081fcc272d5c4111bf0121bd4fe76e441144dda211720b782cd2d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L7_lr0.001_s29.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L7_lr0.001_s43.npz",
+      "bytes": 13443,
+      "sha256": "b35dd0a72a64c1f26be417abd255f307c9b12339fb070ab2e3b5be21e495154c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L7_lr0.001_s43.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L7_lr0.003_s17.npz",
+      "bytes": 13424,
+      "sha256": "d7b4d03489c10980e1591b248bb4b9d2468bae2094dce054578970b8d55fd5e0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L91_lr0.001_s17.npz",
+      "bytes": 13443,
+      "sha256": "9ab164914f9925c401a27fa996905e2d9b34d44f76d1810ea6a870a385e58a19",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L91_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/generation_MW_Transformer_L91_lr0.003_s17.npz",
+      "bytes": 13448,
+      "sha256": "49831fd324dfe155e3815f36aef5e211f12d69502d7a2df7d32a6d13570df3ec",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/generation_MW_Transformer_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s17.npz",
+      "bytes": 13509,
+      "sha256": "ef93342d54ba8b95fc8e901ab70dfb4bbcb66b5dd2c2c418624eeb29719cf957",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/parallel_jobs/price_GBP_MWh/predictions/price_GBP_MWh_LSTM_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s29.npz",
+      "bytes": 13501,
+      "sha256": "2c85760f2a991cd8c9c90511d8dc6b4eb193aedc6782929addbfd40bf694e94e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_LSTM_L14_lr0.003_s29.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_LSTM_L14_lr0.003_s43.npz",
+      "bytes": 13494,
+      "sha256": "a002cd530b3b38722e17cb64f4621354431771502c0529a70cd4327d1f3b55b6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_LSTM_L14_lr0.003_s43.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s17.npz",
+      "bytes": 13502,
+      "sha256": "68d8018520745c2e0f0e1083e23af731734495e3ea5e6a2a33357b510e4ff35f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/parallel_jobs/price_GBP_MWh/predictions/price_GBP_MWh_RNN_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s29.npz",
+      "bytes": 13522,
+      "sha256": "4d074c2ebb449c328811f96d670570f81cdc94512097cf9f7d46b24e1a8636bf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_RNN_L30_lr0.001_s29.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_RNN_L30_lr0.001_s43.npz",
+      "bytes": 13505,
+      "sha256": "837c10e9b256c9e31caf7e8a694dd6684449fa1df8744f2949e4ced2b4b1c2fc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_RNN_L30_lr0.001_s43.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L14_lr0.001_s17.npz",
+      "bytes": 13487,
+      "sha256": "aa77ff7b437c00c54defdd754f7683f9a5e53ce3c6d03c30cfa993388f8f7208",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L14_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L14_lr0.003_s17.npz",
+      "bytes": 13499,
+      "sha256": "bef7140484e0e03fa53d82d8901fc02fd2bea8b347a4e15859acb7a0342be8d9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L14_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s17.npz",
+      "bytes": 13497,
+      "sha256": "9e7832666c68fb9396588c46277b4a985ef18e195f27a53f4746e96e82aefd53",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L182_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s29.npz",
+      "bytes": 13484,
+      "sha256": "17d89a2718fc33b2b5f458e15a0d17666094070f5ed62bd5494f5bf5991119bb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L182_lr0.001_s29.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L182_lr0.001_s43.npz",
+      "bytes": 13501,
+      "sha256": "660add1bc4d86d6d45258f086c5a25c022d363eb473345351b41d4bff88f8cf6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L182_lr0.001_s43.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L182_lr0.003_s17.npz",
+      "bytes": 13493,
+      "sha256": "2ab238b37175a281d88139626e2e9723d8aaa8d4b2bfe9fa919ad811dffc7359",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L182_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L30_lr0.001_s17.npz",
+      "bytes": 13493,
+      "sha256": "1527a3a0d25d15b4463974648d70d49757f788182610c6b19e372686258ee8ff",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L30_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L30_lr0.003_s17.npz",
+      "bytes": 13518,
+      "sha256": "9b3760044753468d2aaaa169cae096ae5adf26ea72f4327e4c6f4c02630f7119",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L30_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L365_lr0.001_s17.npz",
+      "bytes": 13500,
+      "sha256": "4dfb293733a1e8c7af8ef72bd2dede31c7831f105ebeac77d174e5e6cc3f2366",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L365_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L365_lr0.003_s17.npz",
+      "bytes": 13504,
+      "sha256": "397f340dd723370f570ac21bbc702a2f278de60606118459bcd0cfec411bb018",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L365_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L56_lr0.001_s17.npz",
+      "bytes": 13501,
+      "sha256": "8f53768e44c295726dddd964dd94b7c31203798c264860c0dcba28fb4a3c9280",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L56_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L56_lr0.003_s17.npz",
+      "bytes": 13499,
+      "sha256": "da005331fc989c4c4c04d42bbd59a953eb8be719f624c999013e113f19dbab6e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L56_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L7_lr0.001_s17.npz",
+      "bytes": 13484,
+      "sha256": "1cf851cbf2f1b14c5968db29aa5a64fb5238b20ebaabc211394db9c092312937",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L7_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L7_lr0.003_s17.npz",
+      "bytes": 13498,
+      "sha256": "70ea9436413651762c0d8eca3227c0be39ae3bc4bf8aaeefa86f694983aae1da",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L7_lr0.003_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L91_lr0.001_s17.npz",
+      "bytes": 13508,
+      "sha256": "17efa09626ee809873a2c9f39f47b84772883a3a4113c31b026d106c1bf1ba35",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L91_lr0.001_s17.npz"
+    },
+    {
+      "entry": "predictions/price_GBP_MWh_Transformer_L91_lr0.003_s17.npz",
+      "bytes": 13495,
+      "sha256": "6eab54ad65dbab22525aba7dcb6b67461d4bfa9268c369ad738a15780d87e630",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/predictions/price_GBP_MWh_Transformer_L91_lr0.003_s17.npz"
+    },
+    {
+      "entry": "preflight-adaptive.log",
+      "bytes": 4398,
+      "sha256": "1134dcb0bdd2adb7d343afc5850df78c949e5f0a8d0d891b2281980458cedb4c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/preflight-adaptive.log"
+    },
+    {
+      "entry": "preflight.log",
+      "bytes": 4006,
+      "sha256": "b86c74f0b940c24b91ca85401856687d1491d99c347ac9135c5d6bb6b2e68486",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/preflight.log"
+    },
+    {
+      "entry": "PREFLIGHT_BENCHMARK.json",
+      "bytes": 3135,
+      "sha256": "8615607817d76824988cd6fc8df81cbfa3378ee4b21f74ef7960e4c81e4e0dfa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/PREFLIGHT_BENCHMARK.json"
+    },
+    {
+      "entry": "preflight_benchmark.py",
+      "bytes": 4191,
+      "sha256": "4c882e46242921050ee3826e5075c75c415cd3ac76d748a0ac5b514d8ce17ae0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/preflight_benchmark.py"
+    },
+    {
+      "entry": "PREFLIGHT_BENCHMARK_INITIAL64.json",
+      "bytes": 2869,
+      "sha256": "525f4ec145cb8e92b554c150e62278ff9936a64882b07836d982f7c30f0cc94c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/PREFLIGHT_BENCHMARK_INITIAL64.json"
+    },
+    {
+      "entry": "PROTOCOL.json",
+      "bytes": 3312,
+      "sha256": "8fa04f0b8f1fe25728c3fac7bd68bbf16f1a47b154cd8a88b7015a085fbb3ce9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/PROTOCOL.json"
+    },
+    {
+      "entry": "PROTOCOL_INITIAL_METADATA.json",
+      "bytes": 3312,
+      "sha256": "ce7243d7d0385521982586208bb51dc3826f1a93d5d51cce647d1132ba6abed8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/PROTOCOL_INITIAL_METADATA.json"
+    },
+    {
+      "entry": "recover_metadata.py",
+      "bytes": 4682,
+      "sha256": "b42d5c292ceba5515e6c9a798e92f9b511ebd2e013ffce0c078034bd3afaf481",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/recover_metadata.py"
+    },
+    {
+      "entry": "reference_attention/results/GRID_METRICS.csv",
+      "bytes": 14438,
+      "sha256": "1f2f8c20127343e125110fbe0bbfb1a24497d961235b4175b7e1a003f52a330a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/GRID_METRICS.csv"
+    },
+    {
+      "entry": "reference_attention/results/SELECTED_COMPARISON.csv",
+      "bytes": 4524,
+      "sha256": "9f947ae0b41dd9d7e0b3e94d45643f84e3dbc66c6f26916b6a6a990b5b2d97e5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-temporal-attention-grid-20261109/results/SELECTED_COMPARISON.csv"
+    },
+    {
+      "entry": "REFERENCE_MANIFEST.json",
+      "bytes": 1036,
+      "sha256": "d2ffef53871157bf74d11eae74816677281d91168769da7689f9d8849f26bc4a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/REFERENCE_MANIFEST.json"
+    },
+    {
+      "entry": "reference_plain/model.py",
+      "bytes": 899,
+      "sha256": "2c5a50e6380bcd6479fd36f4e5072db0bbf411af8f41b3c90dd2da40cb77657d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-independent-newsplit-20261109/model.py"
+    },
+    {
+      "entry": "reference_plain/results/GRID_METRICS.csv",
+      "bytes": 14389,
+      "sha256": "c4609b980f6c2571378a84bccbcf26a02e50279f1cc20603b901b9e05a146da4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/GRID_METRICS.csv"
+    },
+    {
+      "entry": "reference_plain/results/PERSISTENCE.csv",
+      "bytes": 895,
+      "sha256": "ef9062320b06a0aae7accd411551ad3c815670f86099f43e1a19648803857d7e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/PERSISTENCE.csv"
+    },
+    {
+      "entry": "reference_plain/results/SELECTED_SUMMARY.csv",
+      "bytes": 2897,
+      "sha256": "8c8b788e2b0f5c0ec60a69969b0f7ae2938650544e6a665f869f9f9c91637583",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/SELECTED_SUMMARY.csv"
+    },
+    {
+      "entry": "reference_plain/results/SELECTION_FROZEN.json",
+      "bytes": 1457,
+      "sha256": "88c3f0c153ae4db8ab104ac2fec5aad6cafee30a0245cb155d70f37895fcb7c6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/SELECTION_FROZEN.json"
+    },
+    {
+      "entry": "reference_plain/results/training_runs.csv",
+      "bytes": 13720,
+      "sha256": "b908b4e841468bf1d0a701aed51efb4390a4f2203c06bf3b3f8f6c2bf3fe15f0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-lookback-grid-smoke-20261109/results/training_runs.csv"
+    },
+    {
+      "entry": "reference_plain/scalers.json",
+      "bytes": 340,
+      "sha256": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/scalers.json"
+    },
+    {
+      "entry": "REPORT_ZH.md",
+      "bytes": 13434,
+      "sha256": "86c0423be2b1b85a2e16e806ac7265622be4b2f567e7e27e0da9037d7799b7f0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/REPORT_ZH.md"
+    },
+    {
+      "entry": "requirements.txt",
+      "bytes": 128,
+      "sha256": "603fe56a46665915bd9c6f93ca7ebafb65baf583a28e6354a3be0375046f3c9b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-joint-plateau-20261110/requirements.txt"
+    },
+    {
+      "entry": "research/SOURCES.json",
+      "bytes": 892,
+      "sha256": "e4d3e7b1f3bb207fbf548cd8f2bd8932b2a6c7885927e5b905a8c1ccfc141acf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/research/SOURCES.json"
+    },
+    {
+      "entry": "research/torch_gpu_plan.json",
+      "bytes": 669,
+      "sha256": "511aa92abe95208995276c13191d1c81aa6eeb840a22aeef4f5cd7fe37efb66c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/research/torch_gpu_plan.json"
+    },
+    {
+      "entry": "results/ALL_METRICS.csv",
+      "bytes": 25809,
+      "sha256": "d8833a39c4fcfc024b0762069d032f8e95f32e61d1789c1e13d99c536d1f5cf3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/ALL_METRICS.csv"
+    },
+    {
+      "entry": "results/ALL_STEP_LOSSES.csv",
+      "bytes": 10626926,
+      "sha256": "f59745e562dce6d37f8816dce4acd7ed5bb5c6cfe8d29e88222540cf33cfa1b0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/ALL_STEP_LOSSES.csv"
+    },
+    {
+      "entry": "results/AUDIT.json",
+      "bytes": 2048,
+      "sha256": "fed4f843c549e93ed7f006fa1f26bdcede88cd2c87ba39c33e38b6fb747c6297",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/AUDIT.json"
+    },
+    {
+      "entry": "results/CONFIRMATION_METRICS.csv",
+      "bytes": 10775,
+      "sha256": "8dbee8daaa7d0c5eda455fd980b59d96481141998e1079714b5a83178e3e9f93",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/CONFIRMATION_METRICS.csv"
+    },
+    {
+      "entry": "results/OVERFIT_DIAGNOSTICS.csv",
+      "bytes": 1549,
+      "sha256": "4e11640fa0942bda68acb5c7dc80b68df7826e9c8a46aadcbf0813d467048472",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/OVERFIT_DIAGNOSTICS.csv"
+    },
+    {
+      "entry": "results/PAIRED_SEED_TEST_COMPARISON.csv",
+      "bytes": 1500,
+      "sha256": "cfd3dfbdbffcaa5fdaaceb7a403984bc4af0d83201feeca128dba73602d06d00",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/PAIRED_SEED_TEST_COMPARISON.csv"
+    },
+    {
+      "entry": "results/RECURRENT_FAMILY_SELECTED_BY_VALIDATION.json",
+      "bytes": 85,
+      "sha256": "6286dbc0f60dc5a52893aee30075673459cb3dbb7c8f6be646a75b92a3381807",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/RECURRENT_FAMILY_SELECTED_BY_VALIDATION.json"
+    },
+    {
+      "entry": "results/RESULTS.json",
+      "bytes": 180067,
+      "sha256": "92adf3c992d80faa2457983f390d3106ea374feb22aed323553e2db5679378d2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/RESULTS.json"
+    },
+    {
+      "entry": "results/SELECTION_FROZEN.json",
+      "bytes": 794,
+      "sha256": "0e290c7aa9ae157ea61edc30669d33e0420f62db3c36a9d42c650775e5c02338",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/results/SELECTION_FROZEN.json"
+    },
+    {
+      "entry": "results/SIMPLE_BASELINES.csv",
+      "bytes": 1962,
+      "sha256": "119a2fb4ee9b672f29fa9e2639865fcb744c8399a3908a3b3f394c421c601d9a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/SIMPLE_BASELINES.csv"
+    },
+    {
+      "entry": "results/THREE_SEED_SUMMARY.csv",
+      "bytes": 5294,
+      "sha256": "aaee9efc02151150b56d00a0a8b6143118450280a966e1eb3fa998a3274305e8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/THREE_SEED_SUMMARY.csv"
+    },
+    {
+      "entry": "results/training_runs.csv",
+      "bytes": 23842,
+      "sha256": "68f6facfd41e2b20713a89c3c09d9c59f33bae6c73fb8f1ef6a3a7466fa69984",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/training_runs.csv"
+    },
+    {
+      "entry": "results/TRANSFORMER_VS_RECURRENT.csv",
+      "bytes": 2062,
+      "sha256": "05852bb7d72db1875e6789caf439c8508d72635b1bcb583caf16627d044e8ca5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-10x-20261110/reference/results/TRANSFORMER_VS_RECURRENT.csv"
+    },
+    {
+      "entry": "run.log",
+      "bytes": 63038,
+      "sha256": "c273b34ffa31509caf5f92e7cd2a49e9ff7acae3f2fb6eb26faccfaf515217a7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/run.log"
+    },
+    {
+      "entry": "run.py",
+      "bytes": 7751,
+      "sha256": "f535d64c66ec0b252c7396f446cd4633d7971c559cd0578904d07172c8f1bb6a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/run.py"
+    },
+    {
+      "entry": "scalers.json",
+      "bytes": 340,
+      "sha256": "4ea0b31201ca51636c112b7705a91cc567c230e7099c07bac012eb01214945ac",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/scalers.json"
+    },
+    {
+      "entry": "splits.csv",
+      "bytes": 69054,
+      "sha256": "996e638da27bb6c0a683fd01d6974f092c2739fbce63fd048842ce73ab841e06",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/inputs/splits.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L14_lr0.003_s17.csv",
+      "bytes": 171180,
+      "sha256": "22599a5dfd36d036fe4f6ebea9c291868a3720f7a5ac53690ee2b09975658b7a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_LSTM_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L14_lr0.003_s29.csv",
+      "bytes": 143729,
+      "sha256": "ad4a9fa5352e15241754203e5fd4507648b5b7fd743fdf5b0b0e3f9b9bc1d9fe",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_LSTM_L14_lr0.003_s29.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_LSTM_L14_lr0.003_s43.csv",
+      "bytes": 106051,
+      "sha256": "5cf3dea258a6fc84091e4ee96a65a498020896cc35fe83f33c0fa75719692dd0",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_LSTM_L14_lr0.003_s43.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L7_lr0.001_s17.csv",
+      "bytes": 168648,
+      "sha256": "1d66794e8ce4c73615b37a02f93bf6c0a9dccdc655aedebefc06e85038fa678b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_RNN_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L7_lr0.001_s29.csv",
+      "bytes": 104614,
+      "sha256": "63c240475f379ff91bf262dba5600835facff80d10a093a4e7dc644ded99822f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_RNN_L7_lr0.001_s29.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_RNN_L7_lr0.001_s43.csv",
+      "bytes": 118218,
+      "sha256": "582964d400d8ae361b0414df39629b93b8dca07579aa602c7812b69a1eb2fbdf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_RNN_L7_lr0.001_s43.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L14_lr0.001_s17.csv",
+      "bytes": 242252,
+      "sha256": "c15497440d3cb1b93a51616509d18f2d57a8f1809dceb3a7c3335b2be3b87f62",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L14_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L14_lr0.003_s17.csv",
+      "bytes": 136091,
+      "sha256": "487a83ec7bf41f40f4079f4611f48bcbec0af721867fb9ea7847350dfb97d8f6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L182_lr0.001_s17.csv",
+      "bytes": 136616,
+      "sha256": "74a7f2d710bf035bfa78e227e0074b4df2d86cd26e2cd8f5626e8bff5807f4aa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L182_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L182_lr0.003_s17.csv",
+      "bytes": 158850,
+      "sha256": "83b2eb60fe6868e54a34817bcf8cbd2de70a22c316ca3ec707a9f7003a9413c5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L30_lr0.001_s17.csv",
+      "bytes": 184015,
+      "sha256": "b8880383d18d8c34d928d66a966ca887e86bdc32d9eb62ca1a53bc26f419401f",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L30_lr0.003_s17.csv",
+      "bytes": 117736,
+      "sha256": "d276bf68bb82f306f6a0e8a64aaf29484dedaa74c255735e851c124bd7bddf60",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L365_lr0.001_s17.csv",
+      "bytes": 184672,
+      "sha256": "1d521f935fc17c64cf7866a663fa889811119a8123e4f269c90936a7613cb638",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L365_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L365_lr0.003_s17.csv",
+      "bytes": 118064,
+      "sha256": "0fc34915467c817b25bd5c359730603d4f155cd8f2f58079520e9cad187763b2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L56_lr0.001_s17.csv",
+      "bytes": 194797,
+      "sha256": "81e8231fd78fe15496b0e79c01590b4860e21439f49a9beda0017c52d747baf3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L56_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L56_lr0.003_s17.csv",
+      "bytes": 135700,
+      "sha256": "fc26f2c3b5a8dd3373560b0ac0adf3336338c6d8ac1e694afba8e2db1ebb44ea",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L7_lr0.001_s17.csv",
+      "bytes": 182813,
+      "sha256": "dd37bd97db92a5252b563204bc1b11b09e11808c62de39fb1f4c42becd4a0d7e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L7_lr0.001_s29.csv",
+      "bytes": 164591,
+      "sha256": "6e03b6528a0084642518c31f76d424343c7e6012c628d763a86fcad8bcb12513",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L7_lr0.001_s29.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L7_lr0.001_s43.csv",
+      "bytes": 113379,
+      "sha256": "844e725a2d9b364db6956eeed3c8eeebbb536c7b9f8a24b00e67fd4f802d02d9",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L7_lr0.001_s43.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L7_lr0.003_s17.csv",
+      "bytes": 102280,
+      "sha256": "9e89625b590eab059b04adb9b61456060e8dd680bee6f5d3e5616446fe842655",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L91_lr0.001_s17.csv",
+      "bytes": 117498,
+      "sha256": "4f7e25706a51a3f4b2b237729be965e5bfeef8b929cf2e40e4c59b49f50d8ddf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L91_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/demand_MW_Transformer_L91_lr0.003_s17.csv",
+      "bytes": 117546,
+      "sha256": "30b1ebc32fe0bf1806d64ebe09567e3a21cb08e8c5d8cfd4b6aaa3ee2b741f83",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/demand_MW_Transformer_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L30_lr0.003_s17.csv",
+      "bytes": 174391,
+      "sha256": "0a8390432d2e1784b97cf58f05fc758391e79f7a7013a6353f7833a5e01d5923",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_LSTM_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L30_lr0.003_s29.csv",
+      "bytes": 145847,
+      "sha256": "96440c2682515abc771cd2ab4f5295a357c89202becd9649c32776856bb106d3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_LSTM_L30_lr0.003_s29.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_LSTM_L30_lr0.003_s43.csv",
+      "bytes": 145967,
+      "sha256": "65494834fe4842e4a066d2bd77eef46425b088e5b8aa3370b044f42f3d50edb6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_LSTM_L30_lr0.003_s43.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L14_lr0.003_s17.csv",
+      "bytes": 91084,
+      "sha256": "8b2f03b7494b6e3d5241016b43ebe98c12a8acc050500bbda9398cf9cc68619e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_RNN_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L14_lr0.003_s29.csv",
+      "bytes": 87892,
+      "sha256": "950435eb58ad40a320e38fae264b6fa285658d31755fdb94d5effef26d3eb291",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_RNN_L14_lr0.003_s29.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_RNN_L14_lr0.003_s43.csv",
+      "bytes": 144656,
+      "sha256": "892f566ad025c7c3191b99314aa21259dafd2adb2cdeca065d0261bd5da04fa7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_RNN_L14_lr0.003_s43.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L14_lr0.001_s17.csv",
+      "bytes": 213319,
+      "sha256": "98b655054a4f1b2fe9b9e0509f5a7c1600a3bae46ca757d8190c30e845d7051a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L14_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L14_lr0.003_s17.csv",
+      "bytes": 148812,
+      "sha256": "01677d06c1a0ad5fd17c3cc88f0661a00cea15017aea49034bccf377cea59ec1",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L182_lr0.001_s17.csv",
+      "bytes": 149261,
+      "sha256": "4cc06f2c5a8e222bf494e7d06ebba8930711133f10d42adad5072717929f20d6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L182_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L182_lr0.003_s17.csv",
+      "bytes": 141864,
+      "sha256": "7b275390ab96aaac5adf9ac0c86d39b988cd71a5f4a7c90a3c565755ad17cdfc",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L30_lr0.001_s17.csv",
+      "bytes": 148797,
+      "sha256": "270b021c287557993f453f6ecfec004095579e9ac5893c6dddb4af9a2033b229",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L30_lr0.003_s17.csv",
+      "bytes": 110557,
+      "sha256": "3c34a38780077c279fd13b2619e71e84dfa31cc074142bf36b3886dd32598064",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L365_lr0.001_s17.csv",
+      "bytes": 164684,
+      "sha256": "ca75eb7dd443ef7667b286b7e9f1c85eb66015e17621269d2529d6a9fbc1d97c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L365_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L365_lr0.003_s17.csv",
+      "bytes": 134203,
+      "sha256": "c5a3dfae977cebf0e5d0fb233cd66333d12a4bba936effac63c5ba47abf14048",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L56_lr0.001_s17.csv",
+      "bytes": 205996,
+      "sha256": "c7a2ea494916b6aa7a86f5d4613ece83e9b37363dfe8b6ff6b5452b17ee19ec7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L56_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L56_lr0.003_s17.csv",
+      "bytes": 125783,
+      "sha256": "1ee6a51fd1b2d21ebada2dd85d89faf069e8a15ca7e572c117cc1eb9c6cc115a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L7_lr0.001_s17.csv",
+      "bytes": 204929,
+      "sha256": "2bb428896770ba391e03aef8698e8138fd164b6be2b380877e2dfd197f092625",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L7_lr0.001_s29.csv",
+      "bytes": 170240,
+      "sha256": "8a895cae509d50142837265d288edf4e35e18d873c1a81649d7bba533c97ec9c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L7_lr0.001_s29.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L7_lr0.001_s43.csv",
+      "bytes": 254457,
+      "sha256": "ca92643372aca3b131ac0e5eb59fc0dfaf9674d804b592944685bcfdc267a8c7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L7_lr0.001_s43.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L7_lr0.003_s17.csv",
+      "bytes": 147998,
+      "sha256": "924ab1a1b1c025ecd13bdbec69a8ce486b35c2c8e6b12b385d51148b4f8e447c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L91_lr0.001_s17.csv",
+      "bytes": 190792,
+      "sha256": "fea2a806a9a24731b5622150322d160f00b8af013ab6c943bd3fb23d1311ff9d",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L91_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/generation_MW_Transformer_L91_lr0.003_s17.csv",
+      "bytes": 125898,
+      "sha256": "09847510320f649fa2b91dcec98471c23717df13616bfd3b62cfb0692b7fe89c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/generation_MW_Transformer_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s17.csv",
+      "bytes": 221474,
+      "sha256": "682c3daaa4a43a54bac78cc5ab7e4c805502d5a52b5cd72ceb96136d43628ea8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s29.csv",
+      "bytes": 261278,
+      "sha256": "c438c231b107432e7f4af4ebb6750d40c110cd3ad780ffa82068b9b578474703",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s29.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s43.csv",
+      "bytes": 253735,
+      "sha256": "2fc4795cf5dae0a1e42cc1437f9010318f6287c4086cf237fbb2c1a2aa92778b",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_LSTM_L14_lr0.003_s43.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L30_lr0.001_s17.csv",
+      "bytes": 271954,
+      "sha256": "543a1b8bfcd6ff71047d9cec0f00d45df62ccb642ac3f5866b54a4562858241e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_RNN_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L30_lr0.001_s29.csv",
+      "bytes": 251270,
+      "sha256": "7da837c31d7877d82e2cee2898c8369214ef25d141559a530f82e242e81247a4",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_RNN_L30_lr0.001_s29.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_RNN_L30_lr0.001_s43.csv",
+      "bytes": 169249,
+      "sha256": "fce84c77ac526148cdac3bb6c446d9a73b7404bd5ec58a13302c55d61fcd1916",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_RNN_L30_lr0.001_s43.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L14_lr0.001_s17.csv",
+      "bytes": 206499,
+      "sha256": "c23ae2924a8e07a0bdad90df02bf326bd2ff317e7a68e3c4e67b7a9e574005eb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L14_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L14_lr0.003_s17.csv",
+      "bytes": 114533,
+      "sha256": "c99a1a29a770b911db756f6a6c4d733949afbd4b102a3503f25db94b345122a6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L14_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s17.csv",
+      "bytes": 463465,
+      "sha256": "63ab5aa378ee95779dff4f7ee603c43f4d6b98f20d57531f9f0f943d81aa3fdb",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s29.csv",
+      "bytes": 238287,
+      "sha256": "46ef6b439f2d07d4a7a979dfabfa722d9c36d9d5b67a3a6780a23245ab9dcfa7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s29.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s43.csv",
+      "bytes": 149739,
+      "sha256": "b75f4aca2551612ceb0e7ee00fa3dd696e1a29d6f5043d486e9671f7f241ed7c",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L182_lr0.001_s43.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L182_lr0.003_s17.csv",
+      "bytes": 215559,
+      "sha256": "6fd135b143607f21484aed3416751b9ef12883dde7c16cc360ca6b7c2b5d8cc8",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L182_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L30_lr0.001_s17.csv",
+      "bytes": 106774,
+      "sha256": "6b631d8db6ffb81daa7f4a8666d5cb442aceef5532480b4ce74c0d80606f40b6",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L30_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L30_lr0.003_s17.csv",
+      "bytes": 106933,
+      "sha256": "a3445fb6300e475bda93f45bc9153500db571590016eff0dc5d704fe50fddff7",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L30_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L365_lr0.001_s17.csv",
+      "bytes": 176715,
+      "sha256": "a0f89a9b2122ab6b0dc53e5b620c529b97fa35558827d1e5afb937395ef18a13",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L365_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L365_lr0.003_s17.csv",
+      "bytes": 269799,
+      "sha256": "03bb2f69793c95a3004f49c086816c9adb6d606ea85bee712d9387be8498df2e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L365_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L56_lr0.001_s17.csv",
+      "bytes": 106726,
+      "sha256": "f0105eb602c04bacdc92cf930ee5c12792fcb03336008fcd220faaf93db75c56",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L56_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L56_lr0.003_s17.csv",
+      "bytes": 106938,
+      "sha256": "7b097d32e8bd81a718c58d1ad36e0316f85bd033524143aae9b969b46c7d678e",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L56_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L7_lr0.001_s17.csv",
+      "bytes": 193957,
+      "sha256": "bd4f09b6ff3202994224c7e9fdb1dcc035732b86d932126123df60c556c5c3bf",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L7_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L7_lr0.003_s17.csv",
+      "bytes": 133104,
+      "sha256": "6d7acafe2f818818662d70ab047b9e4209f93a135b76553c177fccc3b03e50c2",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L7_lr0.003_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L91_lr0.001_s17.csv",
+      "bytes": 126109,
+      "sha256": "134f8a8e3619574565d6de2cde588aefe934f5b015bd798025ef6e4eba9c65aa",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L91_lr0.001_s17.csv"
+    },
+    {
+      "entry": "step_logs/price_GBP_MWh_Transformer_L91_lr0.003_s17.csv",
+      "bytes": 98933,
+      "sha256": "dca19de106cd88fa2e784da37074bb8d2dff26873ea75661023247abb75f74a5",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/step_logs/price_GBP_MWh_Transformer_L91_lr0.003_s17.csv"
+    },
+    {
+      "entry": "tune_evaluation.py",
+      "bytes": 1638,
+      "sha256": "ba21d0192fd718f28a18a2985d52a725d886936f669f93adcd7dd1dc46ce544a",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/tune_evaluation.py"
+    },
+    {
+      "entry": "MANIFEST.json",
+      "bytes": 55234,
+      "sha256": "4187356e69a4d2a35e24ebc3bc74f2b4e38c06fde83b29ba35915d8a384e11c3",
+      "repository_path": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-transformer-grid-20261109/MANIFEST.json"
+    }
+  ]
+}

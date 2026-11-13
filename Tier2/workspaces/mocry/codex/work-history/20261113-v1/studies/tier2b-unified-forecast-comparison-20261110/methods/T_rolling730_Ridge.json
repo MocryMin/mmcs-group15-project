@@ -1,0 +1,38 @@
+{
+  "id": "T_rolling730_Ridge",
+  "label": "特征岭回归（滚动730）",
+  "category": "traditional",
+  "regime": "rolling730",
+  "selection": "per-target rolling validation MSE",
+  "selected": [
+    {
+      "family": "Ridge",
+      "parameter": 10.0,
+      "transform": "raw",
+      "target": "generation_MW",
+      "validation_loss": 0.16219157070683093
+    },
+    {
+      "family": "Ridge",
+      "parameter": 10.0,
+      "transform": "raw",
+      "target": "demand_MW",
+      "validation_loss": 0.09185060489375847
+    },
+    {
+      "family": "Ridge",
+      "parameter": 100.0,
+      "transform": "raw",
+      "target": "price_GBP_MWh",
+      "validation_loss": 0.08918870662794684
+    }
+  ],
+  "refit_every_origin_days": 28,
+  "training_boundary": "label date <= first forecast origin of each block",
+  "train_score": "not comparable: varying model, per-refit in FIT_HISTORY.csv",
+  "prediction_file": "predictions/T_rolling730_Ridge.npz",
+  "prediction_sha256": "77a791aafd6a3aebb826d56c26c7f900b4df23f252756b00e40ae4c11a380f6f",
+  "seeds": [
+    "det"
+  ]
+}

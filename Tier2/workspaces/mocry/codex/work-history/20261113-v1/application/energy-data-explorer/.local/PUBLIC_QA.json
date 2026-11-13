@@ -1,0 +1,44 @@
+{
+  "status": 200,
+  "url": "https://mmcs-energy-data-explorer-ran.mocrymin.chatgpt.site/",
+  "title": "MMCS Energy Data Explorer · 需求与预测对照",
+  "requires_login": false,
+  "app": {
+    "rows": 2086,
+    "version": "2.0.0",
+    "coverage": {
+      "ND_actual": 2086,
+      "TSD_actual": 2086,
+      "ND_forecast": 1863,
+      "TSD_forecast": 1899,
+      "ND_cardinal_mean": 2084
+    },
+    "visible": {
+      "course": {
+        "trace": 1,
+        "checked": true
+      },
+      "nd": {
+        "trace": 8,
+        "checked": true
+      },
+      "tsd": {
+        "trace": 9,
+        "checked": true
+      },
+      "ndf": {
+        "trace": 10,
+        "checked": true
+      },
+      "tsdf": {
+        "trace": 11,
+        "checked": true
+      },
+      "cardinal": {
+        "trace": 12,
+        "checked": false
+      }
+    }
+  },
+  "errors": []
+}

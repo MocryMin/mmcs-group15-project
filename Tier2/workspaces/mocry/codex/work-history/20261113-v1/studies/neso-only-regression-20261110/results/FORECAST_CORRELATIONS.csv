@@ -1,0 +1,10 @@
+target,split,correlation_raw_NESO_mean_forecast_vs_actual_target
+generation_MW,train,0.7157772901052148
+demand_MW,train,0.9490913171274897
+price_GBP_MWh,train,0.2633760991118511
+generation_MW,validation,0.8170349836844529
+demand_MW,validation,0.9786124587715163
+price_GBP_MWh,validation,0.6991774403147608
+generation_MW,test,0.8136869854738479
+demand_MW,test,0.9689540223049369
+price_GBP_MWh,test,0.014566975577696947

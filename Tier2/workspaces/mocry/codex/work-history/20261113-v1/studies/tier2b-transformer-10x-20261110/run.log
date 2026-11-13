@@ -1,0 +1,54 @@
+START generation_MW_Transformer_L7_lr0.001_s17 cuda initial 0.3035537839224133
+STEP generation_MW_Transformer_L7_lr0.001_s17 200 E 12 train 0.11308760101860071 val 0.1525830549129362 best 0.13794614793144536
+STEP generation_MW_Transformer_L7_lr0.001_s17 400 E 23 train 0.10006538782984302 val 0.14256301089991968 best 0.13788444669590222
+STEP generation_MW_Transformer_L7_lr0.001_s17 600 E 34 train 0.09032646884695408 val 0.1366403796004732 best 0.13657795499837466
+DONE {"run": "generation_MW_Transformer_L7_lr0.001_s17", "target": "generation_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 17, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 26, "best_step": 460, "epochs": 41, "steps": 738, "best_train_loss": 0.09989855253147237, "best_validation_loss": 0.13657795499837466, "test_loss_at_val_checkpoint": 0.1838314380235744, "last_train_loss": 0.08847090966829577, "last_validation_loss": 0.13942041628115354, "last_test_loss": 0.1905098168141569, "seconds": 5.312999999994645, "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s17.pt", "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s17.csv"}
+PROGRESS 1 /9
+START generation_MW_Transformer_L7_lr0.001_s29 cuda initial 0.3035537839224133
+STEP generation_MW_Transformer_L7_lr0.001_s29 200 E 12 train 0.11411266332926029 val 0.15576203777990572 best 0.14266615805253277
+STEP generation_MW_Transformer_L7_lr0.001_s29 400 E 23 train 0.09952521904156149 val 0.15435593024475924 best 0.13995634167230075
+DONE {"run": "generation_MW_Transformer_L7_lr0.001_s29", "target": "generation_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 29, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 12, "best_step": 213, "epochs": 27, "steps": 486, "best_train_loss": 0.11088168540068964, "best_validation_loss": 0.13995634167230075, "test_loss_at_val_checkpoint": 0.18256590272743817, "last_train_loss": 0.0960936504733314, "last_validation_loss": 0.1544922850776451, "last_test_loss": 0.18373686098527134, "seconds": 3.2969999999913853, "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s29.pt", "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s29.csv"}
+PROGRESS 2 /9
+START generation_MW_Transformer_L7_lr0.001_s43 cuda initial 0.3035537839224133
+STEP generation_MW_Transformer_L7_lr0.001_s43 200 E 12 train 0.11083923244062892 val 0.14690136387664834 best 0.14099738748653998
+STEP generation_MW_Transformer_L7_lr0.001_s43 400 E 23 train 0.10920241227953427 val 0.14512855779795447 best 0.13619211479767127
+STEP generation_MW_Transformer_L7_lr0.001_s43 600 E 34 train 0.0939463801858997 val 0.14582095492178007 best 0.13619211479767127
+DONE {"run": "generation_MW_Transformer_L7_lr0.001_s43", "target": "generation_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 43, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 19, "best_step": 326, "epochs": 34, "steps": 612, "best_train_loss": 0.10566513514672869, "best_validation_loss": 0.13619211479767127, "test_loss_at_val_checkpoint": 0.17807576724719076, "last_train_loss": 0.09263720052082115, "last_validation_loss": 0.14714308363936213, "last_test_loss": 0.18710728482040967, "seconds": 4.14100000000326, "checkpoint": "checkpoints\\generation_MW_Transformer_L7_lr0.001_s43.pt", "step_log": "step_logs\\generation_MW_Transformer_L7_lr0.001_s43.csv"}
+PROGRESS 3 /9
+START demand_MW_Transformer_L7_lr0.001_s17 cuda initial 0.24300274140197195
+STEP demand_MW_Transformer_L7_lr0.001_s17 200 E 12 train 0.0815912340243845 val 0.09048549580534451 best 0.08261957223730919
+STEP demand_MW_Transformer_L7_lr0.001_s17 400 E 23 train 0.0715687277384639 val 0.09399801545555674 best 0.07864415641453854
+DONE {"run": "demand_MW_Transformer_L7_lr0.001_s17", "target": "demand_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 17, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 17, "best_step": 300, "epochs": 32, "steps": 576, "best_train_loss": 0.07291716292116561, "best_validation_loss": 0.07864415641453854, "test_loss_at_val_checkpoint": 0.10553943645478399, "last_train_loss": 0.06473563302818118, "last_validation_loss": 0.09528877934664816, "last_test_loss": 0.1218378524491413, "seconds": 3.875, "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s17.pt", "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s17.csv"}
+PROGRESS 4 /9
+START demand_MW_Transformer_L7_lr0.001_s29 cuda initial 0.24300274140197195
+STEP demand_MW_Transformer_L7_lr0.001_s29 200 E 12 train 0.07214378291056624 val 0.08340672518214982 best 0.07888431786664458
+STEP demand_MW_Transformer_L7_lr0.001_s29 400 E 23 train 0.07405800985517307 val 0.11118043295572447 best 0.07888431786664458
+DONE {"run": "demand_MW_Transformer_L7_lr0.001_s29", "target": "demand_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 29, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 10, "best_step": 178, "epochs": 25, "steps": 450, "best_train_loss": 0.07269955894879068, "best_validation_loss": 0.07888431786664458, "test_loss_at_val_checkpoint": 0.10446924004427048, "last_train_loss": 0.06885744237998699, "last_validation_loss": 0.09926815490496241, "last_test_loss": 0.1174424145975856, "seconds": 3.0469999999913853, "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s29.pt", "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s29.csv"}
+PROGRESS 5 /9
+START demand_MW_Transformer_L7_lr0.001_s43 cuda initial 0.24300274140197195
+STEP demand_MW_Transformer_L7_lr0.001_s43 200 E 12 train 0.08199565132710464 val 0.0897916655734216 best 0.08003168478169932
+STEP demand_MW_Transformer_L7_lr0.001_s43 400 E 23 train 0.07837620060941847 val 0.09215575468911374 best 0.07905960596301335
+DONE {"run": "demand_MW_Transformer_L7_lr0.001_s43", "target": "demand_MW", "family": "Transformer", "lookback": 7, "lr": 0.001, "seed": 43, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 2048, "parameters": 54005, "best_epoch": 14, "best_step": 239, "epochs": 29, "steps": 522, "best_train_loss": 0.07515877990429906, "best_validation_loss": 0.07905960596301335, "test_loss_at_val_checkpoint": 0.10666471096099735, "last_train_loss": 0.06838444924260063, "last_validation_loss": 0.08414608461670865, "last_test_loss": 0.10617994591099002, "seconds": 3.562000000005355, "checkpoint": "checkpoints\\demand_MW_Transformer_L7_lr0.001_s43.pt", "step_log": "step_logs\\demand_MW_Transformer_L7_lr0.001_s43.csv"}
+PROGRESS 6 /9
+START price_GBP_MWh_Transformer_L182_lr0.001_s17 cuda initial 0.13496970994844776
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s17 200 E 12 train 0.10885686091881133 val 0.10951833872961834 best 0.10607540762628259
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s17 400 E 23 train 0.09386287049272488 val 0.11492282790934365 best 0.09879063293211635
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s17 600 E 34 train 0.06813646209571987 val 0.10036370995854073 best 0.09453603686315958
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s17 800 E 45 train 0.05255771404490851 val 0.10518150051043262 best 0.09453603686315958
+DONE {"run": "price_GBP_MWh_Transformer_L182_lr0.001_s17", "target": "price_GBP_MWh", "family": "Transformer", "lookback": 182, "lr": 0.001, "seed": 17, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 256, "parameters": 54005, "best_epoch": 32, "best_step": 575, "epochs": 47, "steps": 846, "best_train_loss": 0.07336155820038581, "best_validation_loss": 0.09453603686315958, "test_loss_at_val_checkpoint": 0.07290590890006031, "last_train_loss": 0.04617761386511814, "last_validation_loss": 0.10642999110736431, "last_test_loss": 0.07056653586940595, "seconds": 17.562000000005355, "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s17.pt", "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s17.csv"}
+PROGRESS 7 /9
+START price_GBP_MWh_Transformer_L182_lr0.001_s29 cuda initial 0.13496970994844776
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s29 200 E 12 train 0.11215442938836909 val 0.10926630032800973 best 0.10723748379388469
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s29 400 E 23 train 0.09329067484494152 val 0.11518620863953413 best 0.1007020766799104
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s29 600 E 34 train 0.06565242578252123 val 0.10475348777563978 best 0.09856726410262816
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s29 800 E 45 train 0.04989638275670053 val 0.09981145028377987 best 0.09715886427594086
+DONE {"run": "price_GBP_MWh_Transformer_L182_lr0.001_s29", "target": "price_GBP_MWh", "family": "Transformer", "lookback": 182, "lr": 0.001, "seed": 29, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 256, "parameters": 54005, "best_epoch": 39, "best_step": 697, "epochs": 54, "steps": 972, "best_train_loss": 0.06114825467632703, "best_validation_loss": 0.09715886427594086, "test_loss_at_val_checkpoint": 0.06737133410229865, "last_train_loss": 0.03965466807341331, "last_validation_loss": 0.10534423974714889, "last_test_loss": 0.07359779334463953, "seconds": 20.23399999999674, "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s29.pt", "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s29.csv"}
+PROGRESS 8 /9
+START price_GBP_MWh_Transformer_L182_lr0.001_s43 cuda initial 0.13496970994844776
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s43 200 E 12 train 0.10953828475649609 val 0.10737445410885295 best 0.10682663266168528
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s43 400 E 23 train 0.07880753569647805 val 0.10187539597881971 best 0.09853408838299062
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s43 600 E 34 train 0.053361621765268416 val 0.0994197328475069 best 0.09548684352590428
+STEP price_GBP_MWh_Transformer_L182_lr0.001_s43 800 E 45 train 0.042939764319142905 val 0.09729144086756594 best 0.09218851827531535
+DONE {"run": "price_GBP_MWh_Transformer_L182_lr0.001_s43", "target": "price_GBP_MWh", "family": "Transformer", "lookback": 182, "lr": 0.001, "seed": 43, "stage": "10x_frozen_configuration", "device": "cuda", "eval_batch": 256, "parameters": 54005, "best_epoch": 37, "best_step": 665, "epochs": 52, "steps": 936, "best_train_loss": 0.05824355901404032, "best_validation_loss": 0.09218851827531535, "test_loss_at_val_checkpoint": 0.06817087446157875, "last_train_loss": 0.04030703646321975, "last_validation_loss": 0.0963381853369298, "last_test_loss": 0.07043605650841449, "seconds": 19.51600000000326, "checkpoint": "checkpoints\\price_GBP_MWh_Transformer_L182_lr0.001_s43.pt", "step_log": "step_logs\\price_GBP_MWh_Transformer_L182_lr0.001_s43.csv"}
+PROGRESS 9 /9
+COMPLETE 9 fits 80.875
