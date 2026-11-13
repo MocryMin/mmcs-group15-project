@@ -1,0 +1,89 @@
+PAGE 1
+MODEL                                      MC250                            MC500
+
+Class                                                          1.25 MW                                        2.5 MW
+
+                                           Fully-automated MW-class on-site hydrogen generator utilizing a modular containerized
+                                           design for ease of installation and integration
+                                              Tri-mode operation (selectable):Description                                                     • Command mode allows operation based on customer input current command
+                                                     • Load following mode automatically adjusts output to match demand
+                                                     • Tank filling mode operates with power-conservation mode during standby
+Electrolyte                                                  Proton Exchange Membrane (PEM) – caustic-free
+
+HYDROGEN PRODUCTION
+
+Nominal Production Rate
+  Nm3/h (m3/h @ 0°C, 1 bar)                          246 Nm3/h                             492 Nm3/h
+  SCF/h (ft3/h @ 70°F, 1 atm)                             9,352 SCF/h                                18,704 SCF/h
+  kg/24 h                                           531 kg/24 h                                1,062 kg/24 h
+
+Delivery Pressure – Nominal                             30 barg (435 psig); full differential pressure H2 over O2
+Power Consumption at Stack per Unit                         4.7 kWh/Nm3                                     4.7 kWh/Nm3
+of H2 Gas Produced at 100% Capacity1                       53.2 kWh/kg                                  53.2 kWh/kg
+Power Consumption by System per Unit                      5.2 kWh/Nm3                                        5.1 kWh/Nm3
+of H2 Gas Produced at 100% Capacity1                      59.0 kWh/kg                                      57.3 kWh/kg
+                                            99.95% [H2O < 500 ppm, N2 < 2 ppm, O2 < 1 ppm, all others undetectable]Purity (concentration of impurities)
+                                                 ISO 14687:2019(E) Type I, Type II Grade D and SAE J-2719 Type I Grade LPurity (concentration of impurities
+                                           99.999+% [H2O < 5 ppm, -65oC (-85oF) Dew Point, N2 < 2 ppm, O2 < 1 ppm,with optional high purity dryer)                                                                                                                all others undetectable]
+
+Start-up Time (from standby)                                            < 8 min
+
+Ramp-up Time (minimum to full load)                                      < 15 sec
+
+Ramp Rate (% of full-range)                                           ≤ 7.4% per sec
+
+Turndown Range                                                        10 to 100% (automatic)
+
+POTABLE WATER REQUIREMENTS
+
+                                                                                  1.5 l/Nm3 of H2 (0.4 gal/Nm3 of H2)Consumption2
+                                                                             15.9 l/kg of H2 (4.2 gal/kg of H2)
+Maximum Flow Rate (periodic)                     23 l/min (6.1 gal/min)                     30 l/min (7.9 gal/min)
+
+Temperature                                                       5 to 35°C (41 to 95°F)
+
+Pressure                                                                               2.7 to 4.8 barg
+
+Input Water Quality2                                                        Potable, subject to site water quality analysis
+
+Water Purification System (included)                                 Reverse Osmosis/Electrodeionization (RO/EDI)
+
+PAGE 2
+MODEL                                      MC250                            MC500
+
+ELECTRICAL SPECIFICATIONS
+
+                                                  Medium voltage: 6.6 to 35 kV, three phase 50/60 Hz
+Electrical Requirements                        Low voltage, three phase required for balance of plant and ancillary equipment
+                                             Backup, low voltage, three phase required for emergency heating for freeze protection
+
+Power Quality (medium voltage)                                       Total harmonic distortion: < 5%, power factor: > 0.9
+
+PHYSICAL CHARACTERISTICS
+
+                   Power Supply                         6.1 m x 2.5 m x 2.6 m                                6.1 m x 2.5 m x 2.6 m
+Dimensions          Enclosure                       (20 ft x 8 ft x 8.5 ft)                           (20 ft x 8 ft x 8.5 ft)
+W x D x H              Electrolyser                        12.2 m x 2.5 m x 3 m                              12.2 m x 2.5 m x 3 m
+                      Enclosure3                       (40 ft x 8 ft x 9.9 ft)                           (40 ft x 8 ft x 9.9 ft)
+
+                   Power Supply                                                  14,000 kg (31,000 lbs)                         14,000 kg (31,000 lbs)                     Enclosure
+Weight
+                       Electrolyser                                                     17,300 kg (38,000 lbs)                        18,600 kg (41,000 lbs)                      Enclosure4
+
+ENVIRONMENTAL CONSIDERATIONS – DO NOT FREEZE
+
+                                                                          Outdoor, pad mounted
+Standard Siting Location                                                   Flatness 35/25 per ACI-117-10
+                                              Bottom access for AC and DC electrical connections, water and drains
+
+Storage/Transport Temperature                                        5 to 60°C (41 to 140°F)
+
+Ambient Temperature                                                    -20 to 40°C (-4 to 104°F)
+
+Altitude Range                                                    Sea level to 1,000 m (3,281 ft)
+
+OPTIONS
+
+• Medium voltage input 4.16 to 6.6 kV        • Thermal Control System5                        • High purity hydrogen dryer with dew point meter
+• High ambient temperature -20 to 45°C     • Low ambient temperature -30 to 40°C           • High altitude 2,000 m (6,560 ft)
+ (-4 to 113°F)                               (-22 to 104°F)

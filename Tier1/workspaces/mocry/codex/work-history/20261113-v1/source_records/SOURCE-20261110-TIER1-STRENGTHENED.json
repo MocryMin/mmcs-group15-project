@@ -1,0 +1,11 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-STRENGTHENED-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-10",
+  "evidence_status": "user_requested_implementation_with_locally_verified_computation_and_public_sources",
+  "details": "../assignments/FinalProject/tier1-strengthened-20261110-v5/SOURCES.json",
+  "entry": "../assignments/FinalProject/tier1-strengthened-20261110-v5/README.md",
+  "scope": "Daily SOC, battery-to-H2, strict available-stock supply priority, researched national offtake upper-envelope, equipment catalogue and full recalculation",
+  "limitations": "National annual consumption estimates are not client orders;smoothed day cap and market share are scenarios;reference product grid retained;not published to team repository;oldreportunchanged"
+}

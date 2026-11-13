@@ -1,0 +1,40 @@
+{
+  "source_id": "USER-MMCS-TIER1-PARALLEL-BASELINES-20261103",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "recorded_date": "2026-11-03",
+  "status": "two_regimes_and_profit_objective_user_confirmed_parameterisation_pending",
+  "user_confirmed": {
+    "regime_A": "Electricity sales/supply and charging can compete freely; no supply guarantee",
+    "regime_B": "Parallel baseline with a supply-priority constraint",
+    "objective": "Maximise the scheme's net profit/net benefit; difference from the no-new-equipment scheme is a reported metric rather than a necessary objective transformation",
+    "research_condition": "Assume complete and coherent research interfaces for trading, batteries, electrolysers/hydrogen and financial parameters"
+  },
+  "assistant_assessment": "A shared model with two policy regimes is structurally clear and aligned with the open-ended project brief. Research fills parameters and selected mechanisms; operational semantics must still be explicit rather than inferred from data availability.",
+  "proposed_executable_priority_definition": {
+    "status": "assistant_proposed_definition_not_yet_separately_user_confirmed",
+    "G_t": "Fixed daily available energy from the given total generation plus the specified additional wind profile",
+    "D_t": "Given constructed-system demand, used as the sales/absorption limit in the working system convention",
+    "q_t": "Direct sale from current given generation; distinct from battery discharge sales",
+    "regime_A": "q_t chosen jointly with charging, hydrogen production, discharge and curtailment",
+    "regime_B": "q_t = min(G_t,D_t); only remaining current generation is available for charging/hydrogen/curtailment",
+    "remaining_deficit": "No automatic requirement to exhaust stored energy or buy power to fill residual demand; these stronger duties would require a separate explicit rule",
+    "negative_prices": "Supply priority still applies in B even if its sale cash flow is negative"
+  },
+  "common_accounting": [
+    "Same data, technology candidates, financial horizon, prices, cost boundaries and starting/terminal inventories in A and B",
+    "No-new-equipment comparator evaluated under the matching policy regime",
+    "Choose a precise profit basis consistent with the time horizon: cumulative net cash benefit, discounted net benefit or annual-equivalent net benefit; avoid treating mismatched periods as comparable",
+    "Include relevant direct electricity sales, battery discharge sales, H2 sales, new investment and affected operating/purchase/replacement costs",
+    "Fixed existing sunk capital and unchanged existing costs may cancel in incremental comparisons"
+  ],
+  "validation_implication": "If B only adds constraints to A with identical variables, inputs and accounting, optimised absolute net profit in A cannot be below B. Regime-specific incremental profits need not have the same ordering because their no-investment comparators can differ.",
+  "implementation_conventions_to_document": [
+    "Investment timing and fixed capacity over each evaluation run",
+    "Daily power/energy conversion, state continuity across missing dates, initial/terminal stock rules",
+    "Tier1 perfect-information operations versus separate held-out capacity and causal-operation evaluations"
+  ],
+  "github_repository_changed": false,
+  "research_or_solver_run": false,
+  "formal_requirements_or_deadlines_changed": false
+}

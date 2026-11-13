@@ -1,0 +1,278 @@
+[
+  {
+    "id": "tesvolt-tallon",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 1443675.0,
+    "fixed_OM_EUR2020_year_literal": 20880.0,
+    "fixed_OM_EUR2020_year_alternative": 41866.575000000004,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "tesvolt-powercore-g2",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 146205.0,
+    "fixed_OM_EUR2020_year_literal": 2088.0,
+    "fixed_OM_EUR2020_year_alternative": 4239.945000000001,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "sungrow-st255cs-2h",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 73715.0,
+    "fixed_OM_EUR2020_year_literal": 1044.0,
+    "fixed_OM_EUR2020_year_alternative": 2137.735,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "sungrow-powertitan2-2h",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 1443675.0,
+    "fixed_OM_EUR2020_year_literal": 20880.0,
+    "fixed_OM_EUR2020_year_alternative": 41866.575000000004,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "sungrow-powertitan2-4h",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 1336175.0,
+    "fixed_OM_EUR2020_year_literal": 10440.0,
+    "fixed_OM_EUR2020_year_alternative": 38749.075000000004,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "huawei-luna215",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 61963.0,
+    "fixed_OM_EUR2020_year_literal": 902.016,
+    "fixed_OM_EUR2020_year_alternative": 1796.9270000000001,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "huawei-luna241",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 68333.0,
+    "fixed_OM_EUR2020_year_literal": 902.016,
+    "fixed_OM_EUR2020_year_alternative": 1981.6570000000002,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "huawei-luna5015",
+    "status": "requires externalPCS definition;no installedcost assigned"
+  },
+  {
+    "id": "catl-enerone-plus-285",
+    "status": "requires externalPCS definition;no installedcost assigned"
+  },
+  {
+    "id": "catl-enerone-plus-306",
+    "status": "requires externalPCS definition;no installedcost assigned"
+  },
+  {
+    "id": "catl-enerc-plus-280",
+    "status": "requires externalPCS definition;no installedcost assigned"
+  },
+  {
+    "id": "catl-enerc-plus-306",
+    "status": "requires externalPCS definition;no installedcost assigned"
+  },
+  {
+    "id": "tesla-megapack2xl-2h",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 1109952.0,
+    "fixed_OM_EUR2020_year_literal": 16094.304,
+    "fixed_OM_EUR2020_year_alternative": 32188.608,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "tesla-megapack2xl-4h",
+    "status": "illustrative transferred generic cost,not supplier quote",
+    "capex_EUR2020": 1043614.0,
+    "fixed_OM_EUR2020_year_literal": 8176.608,
+    "fixed_OM_EUR2020_year_alternative": 30264.806,
+    "lifetime_reference_years": 15,
+    "source": "DEA reference;scaleandbrandtransfer"
+  },
+  {
+    "id": "itm-neptune-ii",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 44618.021,
+      "central": 50598.324,
+      "high": 58879.8035
+    },
+    "explicit_stack_replacement_GBP2020": 957920.5251,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "itm-neptune-v",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 114732.054,
+      "central": 130109.97599999998,
+      "high": 151405.209
+    },
+    "explicit_stack_replacement_GBP2020": 2463224.2073999997,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "itm-poseidon",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 458928.216,
+      "central": 520439.9039999999,
+      "high": 605620.836
+    },
+    "explicit_stack_replacement_GBP2020": 9852896.829599999,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "itm-alpha50",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 1147320.54,
+      "central": 1301099.76,
+      "high": 1514052.0899999999
+    },
+    "explicit_stack_replacement_GBP2020": 24632242.073999997,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-mc250",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 28204.963275,
+      "central": 31985.369099999996,
+      "high": 37220.4472125
+    },
+    "explicit_stack_replacement_GBP2020": 605542.6176524999,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-mc500",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 56409.92655,
+      "central": 63970.73819999999,
+      "high": 74440.894425
+    },
+    "explicit_stack_replacement_GBP2020": 1211085.2353049999,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-mc1000",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 112819.8531,
+      "central": 127941.47639999999,
+      "high": 148881.78885
+    },
+    "explicit_stack_replacement_GBP2020": 2422170.4706099997,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-mc2000",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 225639.7062,
+      "central": 255882.95279999997,
+      "high": 297763.5777
+    },
+    "explicit_stack_replacement_GBP2020": 4844340.941219999,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-mc4000",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 451279.4124,
+      "central": 511765.90559999994,
+      "high": 595527.1554
+    },
+    "explicit_stack_replacement_GBP2020": 9688681.882439999,
+    "replacement_calendar_interval_years": 11,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "nel-a485",
+    "status": "legacy UK generic life/maintenance reference,not a supplier promise",
+    "annual_fixed_OM_GBP2020_range": {
+      "low": 51287.528658333336,
+      "central": 53380.897175,
+      "high": 62801.0555
+    },
+    "explicit_stack_replacement_GBP2020": 737389.0599958333,
+    "replacement_calendar_interval_years": 9,
+    "plant_lifetime_years": 30,
+    "source": "BEIS2021annex2020column;standalonegenericcostscenario"
+  },
+  {
+    "id": "enapter-flex120",
+    "status": "AEM product-specific lifecycle and costs unresolved",
+    "optional_legacy_AEM_operating_hours_cases": [
+      30000,
+      40000
+    ],
+    "warning": "Neither value is a verified lifetime of this modern product;no PEMreplacementcost copied"
+  },
+  {
+    "id": "enapter-nexus500",
+    "status": "AEM product-specific lifecycle and costs unresolved",
+    "optional_legacy_AEM_operating_hours_cases": [
+      30000,
+      40000
+    ],
+    "warning": "Neither value is a verified lifetime of this modern product;no PEMreplacementcost copied"
+  },
+  {
+    "id": "enapter-nexus1000",
+    "status": "AEM product-specific lifecycle and costs unresolved",
+    "optional_legacy_AEM_operating_hours_cases": [
+      30000,
+      40000
+    ],
+    "warning": "Neither value is a verified lifetime of this modern product;no PEMreplacementcost copied"
+  },
+  {
+    "id": "enapter-nexus2500",
+    "status": "AEM product-specific lifecycle and costs unresolved",
+    "optional_legacy_AEM_operating_hours_cases": [
+      30000,
+      40000
+    ],
+    "warning": "Neither value is a verified lifetime of this modern product;no PEMreplacementcost copied"
+  },
+  {
+    "id": "enapter-rheos20",
+    "status": "AEM product-specific lifecycle and costs unresolved",
+    "optional_legacy_AEM_operating_hours_cases": [
+      30000,
+      40000
+    ],
+    "warning": "Neither value is a verified lifetime of this modern product;no PEMreplacementcost copied"
+  }
+]

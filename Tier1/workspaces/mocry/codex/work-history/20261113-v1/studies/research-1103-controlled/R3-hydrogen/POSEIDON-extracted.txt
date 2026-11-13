@@ -1,0 +1,86 @@
+PAGE 1
+HEATINGREFINERIES STEELAMMONIA METHANOL TRANSPORT STORAGESEMICONDUCTORS MINING ELECTRICITY
+CUTTING-EDGE 20MW MODULE FOR LARGE-SCALE PROJECTS
+CONTACT OUR SALES TEAM
+sales@itm-power.com
+Our core electrolysis process module is engineered to incorporate 
+real-world lessons learned from commercial projects. POSEIDON  is 
+a modular building block enabling scale up with optimised footprint. 
+Suitable for both indoor and outdoor installation, it consists of skid-
+mounted units which can be pre-fabricated and pre-tested. This leads 
+to reduced deployment times and low project costs.
+Engineered to be safe, cost competitive and reliable.
+
+
+PAGE 2
+Water Purification
+Unit
+BoP/Optional Scope
+Water In
+Hydrogen
+ Out
+H2 VentO2 VentH2 Vent
+O2/H2O 
+Process & Cooling Skid
+Hydraulic 
+Package
+PSUMODULE PLC
+Instrument Air 
+System
+PEM Electrolyser 
+Stacks
+O2/H2O 
+Separation Vessel (x5)
+H2/H2O 
+Separation Skid
+Module MCC 
+Site DCS
+H2 Purification Unit 
+(De-Ox/Dryer)
+Chilling 
+Unit
+POSEIDON 20MW
+TECHNOLOGY PEM
+NUMBER OF STACKS 30
+AC POWER CONSUMPTION 55.9 kWh/kg*
+SYSTEM FOOTPRINT 35m x 15m x 7.5m (With PSUs & Access)
+OPERATING RANGE
+20%-100% (Based on 4 Pairs turned down  
+to 25& applied load) 
+INPUT WATER PURITY DI Water**
+POSEIDON: PROCESS FLOW & SPECIFICATIONS
+Poseidon
+H2 PRODUCTION 360 kg/hr
+H2 OUTPUT PRESSURE 31 bar(g)
+H2 OUTPUT PURITY Single Phase Fully Saturated with Trace O2
+AMBIENT TEMPERATURE RANGE -20°C/+45°C
+MODULATION
+10% per second ramp up
+50% per second ramp down
+COMPLIANCE CE Marked/PED
+Diagram Key:
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life  **As per ITM Power Specification (D992-01-QUAL-011) – Input water post water polishing unit
+
+PAGE 3
+POSEIDON: 20MW MODULE
+CORE PRODUCT
+10x TRIDENT Enclosure Units, each of these shall be supplied with:
+3x PEM Stacks, 1x TRIDENT Skid Frame,  
+Gas Detection Equipment, Ventilation Fans
+3x Power Supply Units (2x 40ft Container / 1x 20ft Container) 
+5x O2 / Water Separator Vessel
+2x O2 / Water Processing Skid
+1x H2 Processing Skid: H2/Water Separator Vessel
+Additional balance of plant scopes are available on request.
+35m
+7.5m
+15m
+
+PAGE 4
+Find out the detailed 
+scope of supply and more 
+on our product page
+POSEIDON
+CONTACT OUR SALES TEAM
+itm-power.com/products/poseidon
+sales@itm-power.com

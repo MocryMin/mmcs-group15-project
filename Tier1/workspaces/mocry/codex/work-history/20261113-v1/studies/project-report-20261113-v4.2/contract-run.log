@@ -1,0 +1,94 @@
+netback-3.89951353 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+netback-3.89951353 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.89951353 0.0 0.0 0.0
+FINISHED netback-3.89951353 0.0 0.0 0.0
+netback-5.84927029 iteration 1 {"status": 0, "objective_increment": 0.12153452971868678, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-5.84927029 0.12153452972052037 0.0 3.8409000000000004
+netback-3.89951353 iteration 1 {"status": 0, "objective_increment": 0.13098478807565758, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.89951353 0.13098478807660285 0.0 3.8409000000000004
+netback-4.87439191 iteration 1 {"status": 0, "objective_increment": 0.016053088244029876, "gap": 3.8132563311530083e-10, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.87439191 0.016053088245826075 0.0 3.300375
+netback-5.84927029 iteration 1 {"status": 0, "objective_increment": 0.9497099800919186, "gap": 6.445585304140172e-12, "variables": 57005, "rows": 78916, "added_min_states": 1, "need_battery_logic": false}
+netback-1.94975676 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-1.94975676 0.0 0.0 0.0
+netback-4.38695272 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.38695272 0.0 0.0 0.0
+netback-2.92463515 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-2.92463515 0.0 0.0 0.0
+netback-4.63067231 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.63067231 0.0 0.0 0.0
+netback-5.84927029 iteration 2 {"status": 0, "objective_increment": 0.9497096184339857, "gap": 1.9041092532690164e-07, "variables": 57006, "rows": 78918, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-5.84927029 0.9497096184386464 0.0 23.424374999999998
+netback-3.41207434 iteration 1 {"status": 0, "objective_increment": 0.004210297408572017, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+netback-4.75253211 iteration 1 {"status": 0, "objective_increment": 0.006064728565332071, "gap": 1.0093749363699244e-09, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.41207434 0.004210297411191277 0.0 1.995
+FINISHED netback-4.75253211 0.0060647285645245574 0.0 1.995
+netback-4.69160221 iteration 1 {"status": 0, "objective_increment": 0.002140843078209285, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+netback-3.16835474 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.16835474 0.0 0.0 0.0
+FINISHED netback-4.69160221 0.0021408430802694056 0.0 1.995
+netback-4.87439191 iteration 1 {"status": 0, "objective_increment": 0.20944962656788962, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.87439191 0.20944962656722055 0.0 22.659525
+netback-4.66113726 iteration 1 {"status": 0, "objective_increment": 0.00017890033464786114, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.66113726 0.0001789003363228403 0.0 1.995
+netback-3.29021454 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.29021454 0.0 0.0 0.0
+netback-4.38695272 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.38695272 0.0 0.0 0.0
+netback-4.64590479 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.64590479 0.0 0.0 0.0
+netback-3.35114444 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.35114444 0.0 0.0 0.0
+netback-4.63067231 iteration 1 {"status": 0, "objective_increment": 0.03667049013134452, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.63067231 0.03667049013529322 0.0 20.124
+netback-4.65352103 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.65352103 0.0 0.0 0.0
+netback-3.89951353 iteration 1 {"status": 0, "objective_increment": 1.1404883483295787, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 1, "need_battery_logic": false}
+netback-3.38160939 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.38160939 0.0 0.0 0.0
+netback-4.50881252 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.50881252 0.0 0.0 0.0
+netback-4.65732914 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.65732914 0.0 0.0 0.0
+netback-4.56974242 iteration 1 {"status": 0, "objective_increment": 0.00042435639818421637, "gap": 1.4422566218967976e-08, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+netback-3.39684186 iteration 1 {"status": 0, "objective_increment": 0.0019345143677968026, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.56974242 0.00042435639988980256 0.0 10.062
+FINISHED netback-3.39684186 0.0019345143664395437 0.0 1.995
+netback-4.53927747 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.53927747 0.0 0.0 0.0
+netback-3.38922562 iteration 1 {"status": 0, "objective_increment": 0.0008029854893665431, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.38922562 0.0008029854870983399 0.0 1.995
+netback-4.55450994 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.55450994 0.0 0.0 0.0
+netback-3.38541751 iteration 1 {"status": 0, "objective_increment": 0.0002390583016789261, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.38541751 0.00023905829584691674 0.0 1.995
+netback-4.56212618 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.56212618 0.0 0.0 0.0
+netback-4.56593430 iteration 1 {"status": 0, "objective_increment": -2.5438913128783547e-12, "gap": 2.406342580927387, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-4.56593430 0.0 0.0 0.0
+netback-3.89951353 iteration 2 {"status": 0, "objective_increment": 1.140488107224289, "gap": 0.0, "variables": 57006, "rows": 78918, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.89951353 1.1404881072267017 0.0 23.424374999999998
+netback-1.94975676 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-1.94975676 0.0 0.0 0.0
+netback-2.92463515 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-2.92463515 0.0 0.0 0.0
+netback-3.41207434 iteration 1 {"status": 0, "objective_increment": 0.14709329309614164, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.41207434 0.1470932930969866 0.0 22.119
+netback-3.16835474 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.16835474 0.0 0.0 0.0
+netback-3.29021454 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.29021454 0.0 0.0 0.0
+netback-3.35114444 iteration 1 {"status": 0, "objective_increment": 0.04854595140375739, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.35114444 0.04854595140204765 0.0 20.124
+netback-3.32067949 iteration 1 {"status": 0, "objective_increment": 0.002299866841745734, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.32067949 0.0022998668428044766 0.0 15.093
+netback-3.30544701 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.30544701 0.0 0.0 0.0
+netback-3.31306325 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.31306325 0.0 0.0 0.0
+netback-3.31687137 iteration 1 {"status": 0, "objective_increment": -2.9815412291855914e-12, "gap": 0.0, "variables": 57005, "rows": 78916, "added_min_states": 0, "need_battery_logic": false}
+FINISHED netback-3.31687137 0.0 0.0 0.0
+{'policy': 'A', 'cap_kg_day': 1558.9687748333345, 'no_positive_gain_at': 3.381609387194329, 'positive_gain_at': 3.385417505873602}
+{'policy': 'A', 'cap_kg_day': 10000.0, 'no_positive_gain_at': 3.31687136964669, 'positive_gain_at': 3.320679488325963}
+{'policy': 'B', 'cap_kg_day': 1558.9687748333345, 'no_positive_gain_at': 4.657329144750748, 'positive_gain_at': 4.661137263430021}
+{'policy': 'B', 'cap_kg_day': 10000.0, 'no_positive_gain_at': 4.565934296448199, 'positive_gain_at': 4.569742415127472}

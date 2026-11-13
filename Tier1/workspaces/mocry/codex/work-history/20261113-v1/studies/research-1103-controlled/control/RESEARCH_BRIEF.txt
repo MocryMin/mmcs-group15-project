@@ -1,0 +1,31 @@
+Controlled Tier1 research run — 2026-11-03, Europe/London
+Owner Ran Min explicitly authorises the main assistant to dispatch workers, review evidence, commission follow-up and close research. This is real execution, not the earlier unstarted external-agent request. Do not pretend to be DS/Clever User or another harness.
+
+Shared project context (read relevant parts):
+C:/研究生/courses/MMCS/assignments/FinalProject/group-collaboration/PROJECT.md
+C:/研究生/courses/MMCS/assignments/FinalProject/group-collaboration/Tier1/public/baseline_1103/TEACHER_CLARIFICATIONS.md
+C:/研究生/courses/MMCS/assignments/FinalProject/group-collaboration/Tier1/public/baseline_1103/BASELINE_1103.md
+C:/研究生/courses/MMCS/assignments/FinalProject/group-collaboration/Tier1/public/baseline_1103/GAPS.md
+C:/研究生/courses/MMCS/materials/sync-20261023/Project-brief-extracted.txt
+
+Baseline family: fixed total generation plus additional simulated farm, given system demand as absorption limit; daily deterministic perfect foresight; optimise initial battery/electrolyser additions and subsequent operation. A permits economic sale/charge/H2 choice; B mandates current-generation direct supply q=min(G,D), without forcing battery depletion/imports. Objective is scheme net benefit with consistent financial horizon; incremental benefit against matching no-addition policy is reported. Initial candidates use the brief references: two-hour battery, 90% roundtrip, SOC20–80%, EUR288000/MWh nameplate; electrolyser55.9kWh/kg,20% minimum while on,20MWreference notfixed; GBP9.5/kg H2 is supported benchmark, not guaranteed market revenue. Sourced alternatives allowed/proposed with clear scope; asset ownership/additional-farm connection is a chosen constructed-system convention, not verified facility provenance. No project implementation or school-platform access requested in this run.
+
+Files and research boundaries:
+- Write only your assigned R1/R2/R3/R4 folder under this research run. Do not edit shared course state, GitHub checkout, other workers' files or original materials. No commit/push, email, booking or school_chrome.
+- Read C:/研究生/courses/AGENTS.md and MMCS/AGENTS.md. Any web/page/search/PDF/API retrieval must use mcp__playwright tools. Never built-in web/search_service, curl/requests or authenticated Chrome. Anonymous fresh context for every call; no credentials/cookies/profiles. If login is required, stop that source and use alternatives.
+- Serialize public Playwright calls using control/browser_lock.py via the available Python executable C:/Users/Mocry/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe. acquire --owner R1 (or your own ID); proceed only if ACQUIRED; use one bounded browser_run_code_unsafe call, then release in finally even on failure. Do not hold the lock during local thinking/writing. Retry BUSY after useful local work; never remove someone else's lock. Inside browser_run_code, create a fresh context via page.context().browser().newContext(), a new page, read actual source content, close context in finally. Do not navigate/default or school tabs. Root uses owner R4. The search engine is often noisy here: use primary-source direct URLs/official search and verify actual pages rather than snippets.
+- Report exact sources actually read, date, page/section, units and source scope. Prefer government/regulator/system operator, manufacturer, public research reports/papers. Search snippets/unclicked links are not read evidence. A linked PDF not retrieved/read must be marked that way. No invented quote, CAPEX or guarantee. Distinguish evidence from controller modelling assumptions and scenario ranges.
+
+First pass: aim to produce a decision-ready baseline interface, not an exhaustive industry survey. Seek multiple independent primary sources for decision-critical numbers, but do not make source-count a KPI. Give recommended core values/rules, plausible ranges, applicability and remaining gaps. Unknown private tariff/quote is a legitimate bounded-assumption/fallback finding, not an excuse to search forever. Treat current technology on historical paths as a counterfactual. Do not inspect other worker results until first pass saved.
+
+Deliverables per worker:
+1. REPORT.md (Chinese explanation, precise English names/units as needed): findings, recommended baseline vs optional mechanisms, critical evidence, gaps, and whether ready to close.
+2. parameters.json: each parameter/rule with ID/gap, recommended value or rule, unit, currency/base year, equipment/system boundary, source URL + location + access date, evidence status, uncertainty/sensitivity, and any prerequisites.
+3. sources.json: actually read sources, title/URL, evidence excerpt or locator, retrieved type/read depth, limitations. Keep read excerpts short.
+4. End with a compact return identifying high-impact facts to cross-check and exact paths. Do not claim team adoption.
+
+Review/stop gates controlled by root:
+Evidence gate: high-impact facts read from appropriate primary sources; no silent year/currency/nameplate/installed-cost mismatch.
+Interface gate: enough parameters/rules or explicit bounded fallback assumptions to instantiate a finite, coherent baseline; optional features can be deferred.
+Conflict gate: material disagreement triggers a targeted second pass or cross-review. Preserve first-pass files.
+Close when critical gaps are researched/explicitly scenario-assumed or consciously deferred, and no remaining uncertainty is disguised as a fact. Root decides whether to follow up; workers do not create additional subagents.

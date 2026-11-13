@@ -1,0 +1,63 @@
+{
+  "source": "European Hydrogen Observatory; 2025 update; UK annual consumption 2022–2024",
+  "source_page": "https://observatory.clean-hydrogen.europa.eu/hydrogen-landscape/end-use/hydrogen-demand",
+  "status": "research-derived national upper-envelope scenario, not a verified local daily maximum",
+  "national_smooth_cap_kg_day": 1558968.7748333344,
+  "selection": "maximum published annual UK consumption estimate divided by actual calendar days",
+  "temporal_assumption": "smooth daily absorption; annual averages do not establish physical daily peaks",
+  "commercial_assumption": "all national end uses are potentially replaceable in the upper-envelope case; no claim that captive consumption or this volume is available at the assumed netback",
+  "upper_envelope_share": 1.0,
+  "sensitivity_shares": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "clean_consumption_scope": "reported clean subset is a different market-scale indicator, not the capacity of all possible new clean-hydrogen buyers",
+  "sources": [
+    {
+      "year": 2022,
+      "file": "evidence/hydrogen-demand-2022-update2025.xlsx",
+      "sha256": "bd976a1a21b4d0b59a909696ad2dc6974dc0b8873d07a5e72c419c401f3a9269",
+      "url": "https://observatory.clean-hydrogen.europa.eu/sites/default/files/2025-09/Hydrogen%20demand%202022%20%28Update%202025%29.xlsx"
+    },
+    {
+      "year": 2023,
+      "file": "evidence/hydrogen-demand-2023-update2025.xlsx",
+      "sha256": "b290c32a63c0ff322a35cb31441a99150332d619e80de65ff1011ae512b19775",
+      "url": "https://observatory.clean-hydrogen.europa.eu/sites/default/files/2025-09/Hydrogen%20demand%202023%20%28Update%202025%29.xlsx"
+    },
+    {
+      "year": 2024,
+      "file": "evidence/hydrogen-demand-2024-update2025.xlsx",
+      "sha256": "19b88807696b0b0f728c37e009da2eb2e72862836b73c502427b50064cd5ca46",
+      "url": "https://observatory.clean-hydrogen.europa.eu/sites/default/files/2025-09/Hydrogen%20demand%202024%20%28Update%202025%29.xlsx"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2022,
+      "clean_tonnes": 797.5886792452834,
+      "other_tonnes": 568226.0141349217,
+      "total_tonnes": 569023.602814167,
+      "calendar_days": 365,
+      "average_tonnes_per_day": 1558.9687748333345
+    },
+    {
+      "year": 2023,
+      "clean_tonnes": 1116.7625660377362,
+      "other_tonnes": 473297.4255806724,
+      "total_tonnes": 474414.1881467102,
+      "calendar_days": 365,
+      "average_tonnes_per_day": 1299.764899032083
+    },
+    {
+      "year": 2024,
+      "clean_tonnes": 1116.7625660377362,
+      "other_tonnes": 484508.8603669451,
+      "total_tonnes": 485625.62293298286,
+      "calendar_days": 366,
+      "average_tonnes_per_day": 1326.8459642977673
+    }
+  ]
+}

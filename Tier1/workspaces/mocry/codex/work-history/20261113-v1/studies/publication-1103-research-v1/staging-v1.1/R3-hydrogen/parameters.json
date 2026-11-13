@@ -1,0 +1,809 @@
+{
+  "owner": "R3",
+  "as_of": "2026-11-03",
+  "status": "controller_IEA_followup_complete;topic_closed_with_explicit_scenario_conditions;adoption_by_root_pending",
+  "unit_conventions": {
+    "electricity_capacity": "MW_e",
+    "energy": "MWh/day",
+    "hydrogen": "kg/day",
+    "HHV": "39.37kWh/kg fromBEIS; brief uses39.4",
+    "financial_rebase_owner": "R4"
+  },
+  "parameters": [
+    {
+      "id": "H01-TECH",
+      "gap": "H-01",
+      "name": "Reference technology",
+      "recommended_value_or_rule": "PEM",
+      "unit": "category",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "Low-temperature electrolysis",
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITM p2; BEIS p14",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "ITM p2; BEIS p14",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified; analyst recommendation",
+      "uncertainty_and_sensitivity": "Alkaline can be a separate fully parameterised candidate; do not inherit PEM response without evidence",
+      "prerequisites": []
+    },
+    {
+      "id": "H01-MODULE",
+      "gap": "H-01",
+      "name": "Capacity grid",
+      "recommended_value_or_rule": 20,
+      "unit": "MW_e/module",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "POSEIDON nominal input module, 30 stacks",
+      "source": [
+        {
+          "id": "R3-S01",
+          "url": "https://itm-power.com/products/poseidon",
+          "location": "ITM product description; PDF pp2-3",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITM product description; PDF pp2-3",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "manufacturer_specification",
+      "uncertainty_and_sensitivity": "Optional2/5MW Neptune candidates are linked but technical sheets/costs not read; no volume discount evidence",
+      "prerequisites": []
+    },
+    {
+      "id": "H01-QUOTE",
+      "gap": "H-01",
+      "name": "Product-specific installed quotation",
+      "recommended_value_or_rule": null,
+      "unit": "GBP/kW_e",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "Complete installed site",
+      "source": [
+        {
+          "id": "R3-S01",
+          "url": "https://itm-power.com/products/poseidon",
+          "location": "Contact sales; core supply p3",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "Contact sales; core supply p3",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "unknown",
+      "uncertainty_and_sensitivity": "No supplier quotation, EPC or site-specific price obtained",
+      "prerequisites": [
+        "Supplier scope quotation before procurement claim"
+      ]
+    },
+    {
+      "id": "H01-CAPEX-RAW",
+      "gap": "H-01",
+      "name": "Legacy UK reference plant CAPEX",
+      "recommended_value_or_rule": {
+        "low": 953.59,
+        "medium": 1158.63,
+        "high": 1887.51
+      },
+      "unit": "GBP2020/kW_H2_HHV",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "Stack, necessary BOP, dryer/de-oxo/deionisation, civil works and electricity connection; excludes H2 compression/storage/transport; development/decommission uncertainty",
+      "source": [
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "PDFp16; Technical and cost assumptions!K14:K16; A1:B14",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S05",
+          "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+          "location": "PDFp16; Technical and cost assumptions!K14:K16; A1:B14",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified historical model input",
+      "uncertainty_and_sensitivity": "2018 underlying evidence; 2020 commission row; generic10MW. Not current quote or ITM price",
+      "prerequisites": []
+    },
+    {
+      "id": "H01-CAPEX-HYBRID",
+      "gap": "H-01",
+      "name": "Legacy/sensitivity installed plant proxy on adopted electricity-input basis",
+      "recommended_value_or_rule": {
+        "scenario": "UK2020_legacy_proxy",
+        "central": 816.0154400715563,
+        "range": [
+          671.6071252236136,
+          1329.3607996422181
+        ],
+        "formula": "c_GBP_per_kWe = c_GBP_per_kW_H2_HHV * (39.37/55.9)",
+        "higher_cost_stress_multipliers": [
+          1,
+          2,
+          3
+        ],
+        "role": "Legacy/sensitivity only; modern main reference is H01-IEA-MODERN"
+      },
+      "unit": "GBP2020/kW_e",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "Legacy production plant including conditioning, civil and connection; no compression/storage/transport",
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITMp2; BEISp8,16; AnnexK14:K16",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "ITMp2; BEISp8,16; AnnexK14:K16",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S05",
+          "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+          "location": "ITMp2; BEISp8,16; AnnexK14:K16",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "derived hybrid transposition; higher-cost multipliers analyst assumptions",
+      "uncertainty_and_sensitivity": "Historical UK generic10MW cost transposition, not current quote. Modern generic installed benchmark now available in H01-IEA-MODERN; do not pool different years/currencies without explicit harmonisation.",
+      "prerequisites": [
+        "R4 inflation/rebase",
+        "State linear scaling from generic10MW to chosen20MW",
+        "Do not call quote/current market range"
+      ]
+    },
+    {
+      "id": "H02-ENERGY",
+      "gap": "H-02",
+      "name": "Specific electricity consumption",
+      "recommended_value_or_rule": 55.9,
+      "unit": "kWh_AC/kg_H2",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "Water purification, stack and BOP energy; excludes unverified downstream compression",
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "Briefpp3,6; ITMp2 footnote",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "Briefpp3,6; ITMp2 footnote",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_supplied reference and manufacturer_specification",
+      "uncertainty_and_sensitivity": "Beginning of life full system. Sensitivity52/60 are analyst scenarios; no measured partial-load/degradation curve",
+      "prerequisites": []
+    },
+    {
+      "id": "H02-TURNDOWN",
+      "gap": "H-02",
+      "name": "On-load range",
+      "recommended_value_or_rule": [
+        0.2,
+        1.0
+      ],
+      "unit": "fraction of active installed module",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "ITMp2 operating range",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITMp2 operating range",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified",
+      "uncertainty_and_sensitivity": "20% applies while on; daily24h steady-state approximation, not arbitrary running hours",
+      "prerequisites": []
+    },
+    {
+      "id": "H02-OFF",
+      "gap": "H-02",
+      "name": "Shutdown and daily active modules",
+      "recommended_value_or_rule": "z_t integer, 0<=z_t<=n; 0.2*24*Pmod*z_t<=e_t<=24*Pmod*z_t",
+      "unit": "MWh/day constraint",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "Brief operating range; R3 modelling construction",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "Brief operating range; R3 modelling construction",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "model_assumption grounded in on-load limits",
+      "uncertainty_and_sensitivity": "Independently stoppable modules and zero off-state consumption assumed; cold start, standby and startup energy unquoted",
+      "prerequisites": []
+    },
+    {
+      "id": "H02-RAMP",
+      "gap": "H-02",
+      "name": "Manufacturer modulation",
+      "recommended_value_or_rule": {
+        "up": 0.1,
+        "down": 0.5
+      },
+      "unit": "fraction/s",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITMp2 modulation",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "manufacturer_specification",
+      "uncertainty_and_sensitivity": "No cold-start time given; baseline omits subdaily ramp due daily resolution",
+      "prerequisites": []
+    },
+    {
+      "id": "H03-FOM",
+      "gap": "H-03",
+      "name": "Independent legacy absolute fixed O&M proxy",
+      "recommended_value_or_rule": {
+        "central": 25.861652951699458,
+        "range": [
+          22.80501967799642,
+          30.094456171735235
+        ]
+      },
+      "unit": "GBP2020/kW_e/year",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "Fixed site operations and routine maintenance",
+      "source": [
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "PDFp19; AnnexK21:K23 times39.37/55.9",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S05",
+          "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+          "location": "PDFp19; AnnexK21:K23 times39.37/55.9",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "derived hybrid from historical model",
+      "uncertainty_and_sensitivity": "Retain old absoluteGBP2020/kWe/year values as independent uncertainty scenarios. No IEA modernOPEX source obtained; do not scale to newIEA totalCAPEX using old percentages.",
+      "prerequisites": [
+        "R4 rebase and financial horizon",
+        "Modern package must label this as independent old absoluteOPEX proxy, not IEA operating cost"
+      ]
+    },
+    {
+      "id": "H03-STACK-BASE",
+      "gap": "H-03",
+      "name": "Legacy package explicit replacement; never apply60% to IEA total",
+      "recommended_value_or_rule": {
+        "legacy_package_only": true,
+        "cost_fraction_of_UK2020_initial_plant_capex": 0.6,
+        "calendar_interval_years": 11,
+        "events_within_30y": [
+          11,
+          22
+        ],
+        "disable_annuitised_variable_stack_cost": true,
+        "apply_60percent_to_modern_IEA_total": false
+      },
+      "unit": "fraction; years",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "Replacement stack cost assumed60% plantCAPEX; no second variable reserve",
+      "source": [
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "PDFp19",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified historical assumption; recommended fallback scenario",
+      "uncertainty_and_sensitivity": "BEIS historical assumption only. IEA2025 saysEPC+contingency>50%total, so old60%stack share must not be transferred to modernIEA installedCAPEX. Modern replacement source unavailable.",
+      "prerequisites": [
+        "Only events within chosen asset/horizon",
+        "R4 discount event cash flows and residual consistently"
+      ]
+    },
+    {
+      "id": "H03-STACK-ALT",
+      "gap": "H-03",
+      "name": "Alternative simplified stack reserve",
+      "recommended_value_or_rule": {
+        "central": 0.15354299999999999,
+        "range": [
+          0.11417299999999998,
+          0.35039299999999995
+        ],
+        "disable_explicit_replacement": true
+      },
+      "unit": "GBP2020/kg_H2",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "Alternative to explicit replacement, not additive",
+      "source": [
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "PDFp19; AnnexK24:K26",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S05",
+          "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+          "location": "PDFp19; AnnexK24:K26",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "derived historical model input",
+      "uncertainty_and_sensitivity": "Variable OPEX in BEIS explicitly refers to annuitised stack replacement; not evidenced as water/transport. At low utilisation does not guarantee calendar replacement funding Retain as independent legacy absolute reserve scenario only; not scaled to modernIEA totalCAPEX.",
+      "prerequisites": []
+    },
+    {
+      "id": "H03-LIFE",
+      "gap": "H-03",
+      "name": "Asset and stack life references",
+      "recommended_value_or_rule": {
+        "plant_years": 30,
+        "DOE_2022_stack_operating_hours": 40000,
+        "DOE_target_hours_not_current": 80000
+      },
+      "unit": "years; operating h",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S03",
+          "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis",
+          "location": "DOE table/footnotesf,g; BEISp20",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "DOE table/footnotesf,g; BEISp20",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified historical assumptions/status",
+      "uncertainty_and_sensitivity": "Plant lifetime is not stack lifetime. 80k is target. Downtime/replacement not product guarantee",
+      "prerequisites": [
+        "Choose one replacement model; not both calendar and hours events"
+      ]
+    },
+    {
+      "id": "H03-WATER",
+      "gap": "H-03",
+      "name": "Raw-water proxy and tariff",
+      "recommended_value_or_rule": {
+        "stoichiometric_minimum_about": 9,
+        "raw_water_litre_per_kg": 15,
+        "raw_water_range_litre_per_kg": [
+          10,
+          25
+        ],
+        "tariff": 2,
+        "tariff_range": [
+          1,
+          5
+        ],
+        "central_cost_per_kg": 0.03
+      },
+      "unit": "L/kg; GBP2020/m3; GBP2020/kg",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "Consumptive raw feedwater proxy; no full cooling water design",
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITM DI-water input requirement; quantitative volumes/tariff are R3 assumptions",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "stoichiometric derivation plus analyst scenario; not official water demand/price",
+      "uncertainty_and_sensitivity": "Cooling, water treatment losses and local tariff unquoted; electricity for overlapping water/BOP already in55.9",
+      "prerequisites": []
+    },
+    {
+      "id": "H04-QUALITY",
+      "gap": "H-04",
+      "name": "Outlet pressure and quality",
+      "recommended_value_or_rule": {
+        "pressure_bar_g": 31,
+        "core_gas": "single-phase saturated wet H2 with trace O2",
+        "required_rule": "Declare buyer specification and include necessary de-oxo/dryer, or gate netback with buyer processing"
+      },
+      "unit": "bar(g); category",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "Core outlet versus optional purification/conditioning",
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITMp2 specification and coloured process diagram",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "manufacturer_specification plus model interface",
+      "uncertainty_and_sensitivity": "Not automatically fuel-cell-grade or high-pressure trailer product; no buyer contract",
+      "prerequisites": [
+        "Finite assumed buyer accepts declared gate product; quote before delivery claim"
+      ]
+    },
+    {
+      "id": "H04-POLICY-PRICE",
+      "gap": "H-04",
+      "name": "Policy-supported benchmark",
+      "recommended_value_or_rule": {
+        "brief_value": 9.5,
+        "strike_reported": 241,
+        "strike_explicit_2012_real": 175,
+        "conversion_HHV_kWh_per_kg_brief": 39.4,
+        "derived_2012_real_per_kg": 6.895
+      },
+      "unit": "GBP/kg; GBP/MWh_H2_HHV",
+      "currency": "GBP",
+      "base_year": {
+        "241": "unstated; reported2023",
+        "175": 2012
+      },
+      "equipment_or_system_boundary": "Weighted lifetime-contract strike value, not spot buyer price",
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "Briefp6; HAR1 award paragraph and footnote1",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S06",
+          "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model-net-zero-hydrogen-fund-shortlisted-projects/hydrogen-production-business-model-net-zero-hydrogen-fund-har1-successful-projects",
+          "location": "Briefp6; HAR1 award paragraph and footnote1",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified policy benchmark; not sale guarantee",
+      "uncertainty_and_sensitivity": "241 price base year unstated on actual page;2012 basis explicit for175. No support contract/eligibility for constructed project. Do not add support again to9.5",
+      "prerequisites": [
+        "R4 currency/real-price consistency",
+        "Label policy scenario separately"
+      ]
+    },
+    {
+      "id": "H04-PRICE-SENS",
+      "gap": "H-04",
+      "name": "Sale netback scenarios",
+      "recommended_value_or_rule": [
+        2.5,
+        5,
+        9.5,
+        12
+      ],
+      "unit": "GBP/kg",
+      "currency": "GBP",
+      "base_year": "requires R4 manifest declaration",
+      "equipment_or_system_boundary": "Plant-gate netback; exclude/assign buyer downstream service costs explicitly",
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "Brief benchmark; alternative values analyst scenarios/teacher example",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S06",
+          "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model-net-zero-hydrogen-fund-shortlisted-projects/hydrogen-production-business-model-net-zero-hydrogen-fund-har1-successful-projects",
+          "location": "Brief benchmark; alternative values analyst scenarios/teacher example",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "analyst scenario;9.5 policy benchmark only",
+      "uncertainty_and_sensitivity": "No commercial price quotation obtained. Set common base year and gate delivery terms, do not treat range as empirical market interval",
+      "prerequisites": []
+    },
+    {
+      "id": "H04-ELIGIBILITY",
+      "gap": "H-04",
+      "name": "Low-carbon/support eligibility gate",
+      "recommended_value_or_rule": {
+        "threshold": 20,
+        "unit": "gCO2e/MJ_LHV",
+        "baseline_support_contract_proven": false,
+        "classification": "unknown unless separate compliance is demonstrated"
+      },
+      "unit": "rule",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S07",
+          "url": "https://www.gov.uk/government/publications/uk-low-carbon-hydrogen-standard-emissions-reporting-and-sustainability-criteria",
+          "location": "Official LCHS overview requirements and previous versions",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified summary; project compliance unknown",
+      "uncertainty_and_sensitivity": "Current webpagev4Jan2026; actual agreements may specify older version;186page PDF not read. No detailed electricity matching certification conclusion",
+      "prerequisites": [
+        "Lifecycle GHG, eligible pathway, monitoring/fugitive plan and contract compliance",
+        "Pooled generation alone insufficient"
+      ]
+    },
+    {
+      "id": "H05-OUTLET",
+      "gap": "H-05",
+      "name": "Direct-sale minimum outlet",
+      "recommended_value_or_rule": "0<=s_t=m_t<=B_t; no inventory; no vented-H2 revenue",
+      "unit": "kg/day",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [
+        {
+          "id": "R3-S00",
+          "url": null,
+          "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+          "location": "Teacher direct-sale option; R3 finite model construction",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "model_assumption",
+      "uncertainty_and_sensitivity": "No actual buyer. Same-day gate sale means buyer has capacity to accept variable production; not free storage at supplier",
+      "prerequisites": [
+        "Declare quality/pressure and cost ownership"
+      ]
+    },
+    {
+      "id": "H05-DEM",
+      "gap": "H-04,H-07",
+      "name": "Finite buyer scenario",
+      "recommended_value_or_rule": {
+        "core_assumed": 10000,
+        "stress": [
+          0,
+          2000,
+          50000
+        ]
+      },
+      "unit": "kg/day",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [],
+      "evidence_status": "model_assumption",
+      "uncertainty_and_sensitivity": "10t/day is optional demonstrator, not frozen fact. Zero buyer stress is essential",
+      "prerequisites": [
+        "Root chooses/adopts scenario explicitly"
+      ]
+    },
+    {
+      "id": "H05-STORAGE",
+      "gap": "H-05",
+      "name": "Storage/transport/compression baseline",
+      "recommended_value_or_rule": "Disabled as supplier module only under gate-sale assumed buyer self-collection/processing; if supplier delivers, require costed explicit module",
+      "unit": "rule",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": "No cross-day supplier inventory or downstream logistics in baseline",
+      "source": [
+        {
+          "id": "R3-S02",
+          "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+          "location": "ITM31bar(g), optional scope; BEISp19 compression",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "ITM31bar(g), optional scope; BEISp19 compression",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "model interface grounded in source boundaries",
+      "uncertainty_and_sensitivity": "Route/pressure/distance costs not obtained. Optional netback deductions0/1/3GBP/kg are artificial stress not observed transport range",
+      "prerequisites": []
+    },
+    {
+      "id": "H06-RECONVERSION",
+      "gap": "H-06",
+      "name": "Optional reconversion",
+      "recommended_value_or_rule": "Deferred; no baseline hydrogen-to-electricity route",
+      "unit": "rule",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [],
+      "evidence_status": "consciously_deferred",
+      "uncertainty_and_sensitivity": "No read primary equipment/cost/efficiency source. Would require fuel-cell/turbine capacity, efficiency and O&M plus inventory; never sell same H2 twice",
+      "prerequisites": []
+    },
+    {
+      "id": "H07-BOUND",
+      "gap": "H-07",
+      "name": "Finite investment upper bound",
+      "recommended_value_or_rule": "nmax=ceil(min(max_t G_t, 0.0559*max_t B_t)/(24*Pmod)); common A/B upper bound",
+      "unit": "integer modules",
+      "currency": null,
+      "base_year": null,
+      "equipment_or_system_boundary": null,
+      "source": [],
+      "evidence_status": "inferred mathematical sufficient bound",
+      "uncertainty_and_sensitivity": "Assumes no H2 storage/import; same-day sale, identical independently stoppable modules, nondecreasing effective total investment cost, no idle-capacity subsidy/residual arbitrage; replace bound if these change",
+      "prerequisites": [
+        "G in MWh/day",
+        "B in kg/day",
+        "Pmod inMW",
+        "Net effectiveCAPEX nondecreasing",
+        "No extra production route"
+      ]
+    },
+    {
+      "id": "H01-IEA-MODERN",
+      "gap": "H-01,H-07",
+      "name": "Preferred modern generic installedCAPEX benchmark",
+      "recommended_value_or_rule": {
+        "scenario": "IEA2024_observed_nonChina_installed",
+        "source_endpoints": [
+          2000,
+          2600
+        ],
+        "analyst_central_midpoint": 2300,
+        "observed_cost_year": 2024,
+        "denominator_mapping": "electrical_input_inferred; noHHVefficiency multiplication",
+        "EPC_and_contingency_already_in_total": true,
+        "source_EPC_and_contingency_share": "more_than_half",
+        "quotation": false
+      },
+      "unit": "USD/kW electrolyser capacity; interpretedkW_e, AC/DCunspecified",
+      "currency": "USD",
+      "base_year": "Not separately stated as constant-dollarbase;2024isobservedcostyear",
+      "equipment_or_system_boundary": "Generic non-China manufacturing and installation outsideChina, includingEPCandcontingency; exactsiteitemisation notgiven. Not PEM/ITM-specific or full downstreamH2chain.",
+      "source": [
+        {
+          "id": "R3-S10",
+          "url": "https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary",
+          "location": "China leads on electrolyser deployment and manufacturing capacity, but overseas sales face barriers; cost paragraph",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified genericrange; electricaldenominator/productmapping inferred;midpoint analystassumption",
+      "uncertainty_and_sensitivity": "Use2000/2300/2600rawUSD per kW.2024observation is not proofconstant2024USD. No companyquote,AC/DCclarification,modernFOM/replacementor completeH2compression/storage/transportscope. Do not addsameEPCagain orapplyBEIS60%tothistotal.",
+      "prerequisites": [
+        "Root/R4 explicitly declareprice-basealignment andverifiedFX beforeGBPconversion",
+        "Adopt electricalinput mapping transparently",
+        "Treat legacyFOM/stackabsoluteproxies asseparateuncertaintyassumptions"
+      ]
+    },
+    {
+      "id": "H01-IEA-ORIGIN",
+      "gap": "H-01",
+      "name": "Manufacture-origin/location alternatives",
+      "recommended_value_or_rule": {
+        "China_manufactured_installed_outsideChina_including_stated_transport_tariffs": [
+          1500,
+          2400
+        ],
+        "China_manufactured_and_installed_inChina": [
+          600,
+          1200
+        ],
+        "not_same_product_discount": true
+      },
+      "unit": "USD/kW electrolyser capacity; inferred electricalinput",
+      "currency": "USD",
+      "base_year": "Not separatelystated;2024observedcostcontext",
+      "equipment_or_system_boundary": "Alternativemanufacture/installlocations; importedinstallation includesstatedtransport/tariffs, notdownstreamH2logistics",
+      "source": [
+        {
+          "id": "R3-S10",
+          "url": "https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary",
+          "location": "China leads on electrolyser deployment and manufacturing capacity, but overseas sales face barriers; cost paragraph",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "official_verified genericranges; applicabilityrequiresseparatecandidate",
+      "uncertainty_and_sensitivity": "CannotapplyChina-domesticrange toUKinstallation.2025summarynotesperformance/efficiency/localstandard/maintenancebarriers; equalperformance substitutionunsupported.",
+      "prerequisites": [
+        "Separatemanufacturer/technologyperformanceanddeliveryscope",
+        "R4consistentmonetarybasis"
+      ]
+    },
+    {
+      "id": "H03-STACK-ABS",
+      "gap": "H-03",
+      "name": "Independent old absolute replacement-cost uncertainty proxy for modernCAPEX scenarios",
+      "recommended_value_or_rule": {
+        "central": 489.6092640429338,
+        "low": 402.96427513416813,
+        "high": 797.6164797853307,
+        "calendar_interval_years": 11,
+        "disable_perkg_annuitised_reserve": true,
+        "not_fraction_of_IEA_installed_CAPEX": true
+      },
+      "unit": "GBP2020/kW_e per replacementevent",
+      "currency": "GBP",
+      "base_year": 2020,
+      "equipment_or_system_boundary": "DerivedBEISoldplantstackreplacementabsoluteproxy;modernlabor/dismantling/currentstackquotenotestablished",
+      "source": [
+        {
+          "id": "R3-S04",
+          "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+          "location": "p19stack60%oldplantCAPEX/every11years",
+          "access_date": "2026-11-03"
+        },
+        {
+          "id": "R3-S05",
+          "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+          "location": "Technical andcostassumptions!K14:K16;39.37/55.9transposition",
+          "access_date": "2026-11-03"
+        }
+      ],
+      "evidence_status": "derivedindependentlegacyuncertaintyscenario;notmodernquote",
+      "uncertainty_and_sensitivity": "Do notapply60%toIEAinstalledtotal. Old60%isusedonlytoderiveoldabsoluteproxy. Newcapitalpriceandoldreplacementproxymustnotbeclaimedassingleverifiedsuppliercostcurve.",
+      "prerequisites": [
+        "Root/R4normalisescurrencyandyearbeforecombining",
+        "Onlyreplacementwithinasset/financialhorizon",
+        "Neverdoublecountperkgreserve"
+      ]
+    }
+  ],
+  "close_recommendation": "Close topic:modern generic installedbenchmark now read;preferrawIEAUSD2000-2600/kW(central2300analystmidpoint)overlegacyCAPEXforcurrentcounterfactual. Requireexplicitdenominatorandprice-baseharmonisation. KeepoldabsoluteFOM/stackproxiesasseparateuncertaintyscenarios,neverBEISpercenttimesIEAtotal. No companyquote/offtake/eligibilityguarantee.",
+  "controller_followup_at": "2026-11-03T16:42:30.803115+00:00"
+}

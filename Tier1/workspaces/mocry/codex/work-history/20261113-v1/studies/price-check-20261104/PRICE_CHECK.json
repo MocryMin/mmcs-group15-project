@@ -1,0 +1,549 @@
+{
+  "verdict": "Baseline1104 main calculations use corrected prices; only two explicitly labelled old-price comparisons use course prices.",
+  "model_input_dates": 2452,
+  "max_model_input_price_error": 5.684341886080802e-14,
+  "cases_checked": 82,
+  "corrected_price_cases": 80,
+  "old_price_comparisons": [
+    "A_old_price_matched",
+    "B_old_price_matched"
+  ],
+  "max_case_price_error": 5.684341886080802e-14,
+  "max_electricity_revenue_error_GBP2020": 0.0,
+  "examples": [
+    {
+      "date": "2020-01-01",
+      "periods": 48,
+      "provider_records": 96,
+      "zero_volume_records": 48,
+      "providers": [
+        "APXMIDP",
+        "N2EXMIDP"
+      ],
+      "flat_price": 18.5934375,
+      "active_daily_price": 37.186875,
+      "ratio": 2.0,
+      "course_value": 18.5934375
+    },
+    {
+      "date": "2023-05-09",
+      "periods": 48,
+      "provider_records": 96,
+      "zero_volume_records": 48,
+      "providers": [
+        "APXMIDP",
+        "N2EXMIDP"
+      ],
+      "flat_price": 50.68114583333334,
+      "active_daily_price": 101.36229166666668,
+      "ratio": 2.0,
+      "course_value": 42.43
+    }
+  ],
+  "design2023_mean_real_price": {
+    "corrected": 78.1261430580068,
+    "legacy": 37.89618957078108
+  },
+  "policy_A_design2023_increment_GBP2020_year": {
+    "old_comparison": 15187761.690917015,
+    "corrected_main": 8572351.00089264
+  },
+  "old_research_file_status": "derived from unrepaired course prices; superseded for model-input use",
+  "CU_message": "ceb9095432fb43048540c0688b466c8c",
+  "remote_sync_head": "9f5efb3b56f3843349bb8fd37f4d2febd9844d68",
+  "recalculation_required_for_price_bug": false,
+  "checks": [
+    {
+      "case": "A_0_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_battery_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_hydrogen_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_both_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_chronological_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_simple_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_chronological_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_simple_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_chronological_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_oracle2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_stress_2020",
+      "source": "corrected v2",
+      "max_price_error": 7.105427357601002e-15,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_stress_2021",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_stress_2022",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed_stress_2026",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed20MW_2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_simple20MW_2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_fixed20MW_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_simple20MW_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_0_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_battery_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_hydrogen_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_both_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_chronological_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_simple_2024",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_chronological_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_simple_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_chronological_design2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_oracle2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_stress_2020",
+      "source": "corrected v2",
+      "max_price_error": 7.105427357601002e-15,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_stress_2021",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_stress_2022",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed_stress_2026",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed20MW_2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_simple20MW_2023",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_fixed20MW_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_simple20MW_2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2price_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2price_2",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2price_3",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2price_6",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2limit_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2limit_2000",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2limit_50000",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_rate_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_rate_0.03",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_rate_0.08",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_rate_0.12",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_battery_lowFOM",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2cost_legacy",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2cost_modern_low",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_H2cost_modern_high",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_no_independent_wind",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_strict_quality_refit",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2price_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2price_2",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2price_3",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2price_6",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2limit_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2limit_2000",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2limit_50000",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_rate_0",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_rate_0.03",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_rate_0.08",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_rate_0.12",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_battery_lowFOM",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2cost_legacy",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2cost_modern_low",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_H2cost_modern_high",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_no_independent_wind",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_strict_quality_refit",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_all_years_oracle",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_all_years_capacity_on2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_all_years_oracle",
+      "source": "corrected v2",
+      "max_price_error": 5.684341886080802e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_all_years_capacity_on2025",
+      "source": "corrected v2",
+      "max_price_error": 1.4210854715202004e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_old_price_matched",
+      "source": "old-price comparison",
+      "max_price_error": 7.105427357601002e-15,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "A_new_price_matched",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_old_price_matched",
+      "source": "old-price comparison",
+      "max_price_error": 7.105427357601002e-15,
+      "revenue_error_GBP2020": 0.0
+    },
+    {
+      "case": "B_new_price_matched",
+      "source": "corrected v2",
+      "max_price_error": 2.842170943040401e-14,
+      "revenue_error_GBP2020": 0.0
+    }
+  ]
+}

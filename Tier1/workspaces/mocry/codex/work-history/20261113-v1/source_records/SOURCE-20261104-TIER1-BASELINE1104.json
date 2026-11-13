@@ -1,0 +1,61 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-BASELINE1104-20261104",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "recorded_at_utc": "2026-11-04 13:12:23 UTC",
+  "evidence_status": "local_computation_and_review",
+  "entry": "assignments/FinalProject/baseline-1104/README.md",
+  "parameters": "assignments/FinalProject/baseline-1104/parameters.json",
+  "model": "assignments/FinalProject/baseline-1104/MODEL.md",
+  "results": "assignments/FinalProject/baseline-1104/results.json",
+  "verification": "assignments/FinalProject/baseline-1104/VERIFICATION.json",
+  "scope": "Deterministic Tier1 A/B candidate with annual pooled storage, chronological checks and historical fixed-portfolio replays",
+  "data_release_commit": "0a821eaf61a2b552682e185c137d98c5a9bffc93",
+  "research_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+  "design_year": 2023,
+  "validation_year": 2024,
+  "test_year": 2025,
+  "cases": 82,
+  "core_solver": "Xpress9.9",
+  "full_sample_reference_solver": "SciPy/HiGHS",
+  "primary_conditions": {
+    "hydrogen_netback_GBP2020_kg": 7.7990270551508845,
+    "hydrogen_offtake_kg_day": 10000,
+    "discount_rate_real": 0.05,
+    "netback_status": "High-value policy-reference scenario, including unitemized non-electric variable costs, not an actual merchant contract or support eligibility"
+  },
+  "primary_design": {
+    "A": {
+      "battery_MW": 0,
+      "electrolyser_MW": 20,
+      "increment_GBP2020_year": 8572351.00089264
+    },
+    "B": {
+      "battery_MW": 0,
+      "electrolyser_MW": 0,
+      "increment_GBP2020_year": 0
+    }
+  },
+  "findings": [
+    "A 20MW mostly reallocates saleable electricity; only 8.1% of 2023 H2 input is contemporaneous surplus.",
+    "At a 3GBP2020/kg netback neither policy invests on the design year.",
+    "Fixed20MW 2023 netback break-even A4.6145/B12.0775GBP2020/kg.",
+    "B design-year zero investment differs from full-panel and2025oracles; annual surplus distribution controls viability.",
+    "Repairing prices reduces matched2023A incremental margin15.188m to8.572mGBP2020/year.",
+    "No actual scenario selects a battery; temporal relaxation is tested on nonzero-battery fixtures and a chronological comparison."
+  ],
+  "checks": {
+    "schedules_and_finance_passed": true,
+    "independent_no_battery_enumeration": true,
+    "nonzero_battery_fixtures": true,
+    "two_solver_fixture": true
+  },
+  "publication": "local_candidate_not_pushed_or_team_adopted",
+  "not_completed": [
+    "Tier2 selection/implementation",
+    "Final report and presentation",
+    "Course submission",
+    "Procurement-ready H2 contract"
+  ],
+  "unmodified": "Public baseline1103 and remote repository contents"
+}

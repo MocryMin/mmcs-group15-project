@@ -1,0 +1,501 @@
+{
+  "saved_schedules": 16,
+  "schedule_audits": {
+    "A_low_battery_fom2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "A_national_upper2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "A_national_upper2023": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "A_old10t2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "A_old_routes10t2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "A_share0.001_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "A_share0.01_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "A_share0.1_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 1.4210854715202004e-14,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "B_low_battery_fom2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 3.552713678800501e-15,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 3.552713678800501e-15,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "B_national_upper2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 3.552713678800501e-15,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 3.552713678800501e-15,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "B_national_upper2023": {
+      "errors_GWh": {
+        "generation_balance": 5.684341886080802e-14,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 5.684341886080802e-14,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "B_old10t2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "B_old_routes10t2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "B_share0.001_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 3.637978807091713e-12
+    },
+    "B_share0.01_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    },
+    "B_share0.1_2020_25": {
+      "errors_GWh": {
+        "generation_balance": 1.1368683772161603e-13,
+        "h2_sources": 0.0,
+        "daily_stock_balance": 0.0,
+        "minimum_stock": 0.0,
+        "maximum_stock": 0.0,
+        "final_stock": 0.0,
+        "sales_ceiling": 0.0,
+        "hydrogen_acceptance": 0.0,
+        "electrolyser_capacity": 0.0,
+        "no_same_day_opposite_flows": 0.0,
+        "nonnegative_flows": 0.0,
+        "online_minimum": 0.0,
+        "online_capacity": 0.0,
+        "installed_modules": 0.0,
+        "current_generation_priority": 1.1368683772161603e-13,
+        "battery_priority": 0.0,
+        "no_h2_discharge_with_unmet_demand": 0.0
+      },
+      "profit_error_mGBP": 0.0
+    }
+  },
+  "independent_zero_battery_enumeration": {
+    "A_low_battery_fom2020_25": {
+      "candidates": 183,
+      "best_modules": 182,
+      "objective_error_mGBP": 3.183231456205249e-12
+    },
+    "A_national_upper2020_25": {
+      "candidates": 183,
+      "best_modules": 182,
+      "objective_error_mGBP": 3.183231456205249e-12
+    },
+    "A_national_upper2023": {
+      "candidates": 183,
+      "best_modules": 182,
+      "objective_error_mGBP": 3.183231456205249e-12
+    },
+    "A_old10t2020_25": {
+      "candidates": 3,
+      "best_modules": 1,
+      "objective_error_mGBP": 7.176481631177012e-13
+    },
+    "A_old_routes10t2020_25": {
+      "candidates": 3,
+      "best_modules": 1,
+      "objective_error_mGBP": 7.176481631177012e-13
+    },
+    "A_share0.001_2020_25": {
+      "candidates": 2,
+      "best_modules": 0,
+      "objective_error_mGBP": 0.0
+    },
+    "A_share0.01_2020_25": {
+      "candidates": 3,
+      "best_modules": 2,
+      "objective_error_mGBP": 5.897504706808832e-13
+    },
+    "A_share0.1_2020_25": {
+      "candidates": 20,
+      "best_modules": 18,
+      "objective_error_mGBP": 2.3590018827235326e-12
+    },
+    "B_low_battery_fom2020_25": {
+      "candidates": 183,
+      "best_modules": 37,
+      "objective_error_mGBP": 1.6768808563938364e-12
+    },
+    "B_national_upper2020_25": {
+      "candidates": 183,
+      "best_modules": 37,
+      "objective_error_mGBP": 1.6768808563938364e-12
+    },
+    "B_national_upper2023": {
+      "candidates": 183,
+      "best_modules": 0,
+      "objective_error_mGBP": 0.0
+    },
+    "B_old10t2020_25": {
+      "candidates": 3,
+      "best_modules": 1,
+      "objective_error_mGBP": 1.6262546864709293e-12
+    },
+    "B_old_routes10t2020_25": {
+      "candidates": 3,
+      "best_modules": 1,
+      "objective_error_mGBP": 1.6262546864709293e-12
+    },
+    "B_share0.001_2020_25": {
+      "candidates": 2,
+      "best_modules": 0,
+      "objective_error_mGBP": 0.0
+    },
+    "B_share0.01_2020_25": {
+      "candidates": 3,
+      "best_modules": 2,
+      "objective_error_mGBP": 1.2185807918285718e-12
+    },
+    "B_share0.1_2020_25": {
+      "candidates": 20,
+      "best_modules": 18,
+      "objective_error_mGBP": 1.4779288903810084e-12
+    }
+  },
+  "annual_Xpress_replays": [
+    {
+      "policy": "A",
+      "year": 2020,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 2866.181590243999,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "A",
+      "year": 2021,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 934.4365743166983,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "A",
+      "year": 2022,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 414.41350144791477,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "A",
+      "year": 2023,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 1437.2153480936322,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "A",
+      "year": 2024,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 2095.665089447302,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "A",
+      "year": 2025,
+      "fixed_MW": 3640,
+      "incremental_profit_mGBP": 2076.441583711405,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2020,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": 52.506630958842194,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2021,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": -38.07065208335398,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2022,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": 190.73377024466822,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2023,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": -58.86296802013722,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2024,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": -45.41861109351156,
+      "solver": "Xpress"
+    },
+    {
+      "policy": "B",
+      "year": 2025,
+      "fixed_MW": 740,
+      "incremental_profit_mGBP": 125.38735798835599,
+      "solver": "Xpress"
+    }
+  ],
+  "largest_profit_error_mGBP": 3.637978807091713e-12,
+  "largest_flow_error_GWh": 1.1368683772161603e-13
+}

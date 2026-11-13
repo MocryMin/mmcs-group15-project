@@ -1,0 +1,346 @@
+{
+  "as_of": "2026-11-10",
+  "pdfs": [
+    {
+      "file": "evidence/Lazard-LCOEplus-202506-archived20251025.pdf",
+      "url": "https://web.archive.org/web/20251025104311id_/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "pages": 48,
+      "sha256": "5beb3d1066236ffe7e07ebb96b7e712bb52e6dbb1fae21a679e8278d00396dca",
+      "bytes": 1901670,
+      "retrieved": "2026-11-10",
+      "access": "anonymous Playwright MCP",
+      "scope": "Original publisher report recovered from public historical archive"
+    },
+    {
+      "file": "evidence/Tesla-Megapack-Maintenance-Agreement.pdf",
+      "url": "https://digitalassets.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-maintenance-agreement",
+      "pages": 2,
+      "sha256": "977c1567c23fb59f41c4555dc65ad882f88c8df6a489ab421a6d30a70eb90918",
+      "bytes": 114736,
+      "retrieved": "2026-11-10",
+      "access": "anonymous Playwright MCP",
+      "scope": "public unsigned US contract template"
+    },
+    {
+      "file": "evidence/Tesla-Megapack-Equipment-Reservation.pdf",
+      "url": "https://digitalassets.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-purchase-equipment-only-agreement",
+      "pages": 28,
+      "sha256": "1302b56dc1c48f75ebf2d7dc2b8f49dd24469cad3178a5c65254922942ee88f1",
+      "bytes": 1015085,
+      "retrieved": "2026-11-10",
+      "access": "anonymous Playwright MCP",
+      "scope": "public unsigned US contract template"
+    },
+    {
+      "file": "evidence/Tesla-Megapack-Installation-Reservation.pdf",
+      "url": "https://digitalassets.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-purchase-installation-agreement",
+      "pages": 34,
+      "sha256": "dd28139c7453915f9ec7b520622bcb57c464cb81142960f1d7d4207831938ccf",
+      "bytes": 1115907,
+      "retrieved": "2026-11-10",
+      "access": "anonymous Playwright MCP",
+      "scope": "public unsigned US contract template"
+    }
+  ],
+  "pages": [
+    {
+      "file": "evidence/pages-01.json",
+      "url": "https://www.tesla.com/megapack/design",
+      "requested": "https://www.tesla.com/megapack/design",
+      "status": 403,
+      "error": null,
+      "sha256": "d4175c4c1c7627165a8477379f963932150aa96270c56b58f49d81ac66f80f32"
+    },
+    {
+      "file": "evidence/pages-01.json",
+      "url": "https://www.tesla.com/megapack",
+      "requested": "https://www.tesla.com/megapack",
+      "status": 403,
+      "error": null,
+      "sha256": "d4175c4c1c7627165a8477379f963932150aa96270c56b58f49d81ac66f80f32"
+    },
+    {
+      "file": "evidence/pages-01.json",
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+      "requested": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+      "status": 403,
+      "error": null,
+      "sha256": "d4175c4c1c7627165a8477379f963932150aa96270c56b58f49d81ac66f80f32"
+    },
+    {
+      "file": "evidence/pages-01.json",
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTesla%2BMegapack%2Bmaintenance%2Bannual%2Bcost%2Bprice%2B2025%26sei%3DyX3zarfqFu-gi-gPhJvqsQM&q=EgTAKYAEGMn7zdcGIjDKU13Vgp_xu73NF7gzlA2VHA93N7r3eoDxrJwsHml-jpPzoMc2nH9ndVTxOuWhOrEyAVJaAUNg4s2RgfSDuqyoAQ",
+      "requested": "https://www.google.com/search?q=Tesla+Megapack+maintenance+annual+cost+price+2025",
+      "status": 200,
+      "error": null,
+      "sha256": "d4175c4c1c7627165a8477379f963932150aa96270c56b58f49d81ac66f80f32"
+    },
+    {
+      "file": "evidence/pages-02.json",
+      "url": "https://cn.bing.com/search?q=%22Megapack%22+%22maintenance%22&setlang=en-GB&cc=GB",
+      "requested": "https://www.bing.com/search?q=%22Megapack%22+%22maintenance%22&setlang=en-GB&cc=GB",
+      "status": 200,
+      "error": null,
+      "sha256": "520cbf8b07a0e64db6adbf6bb1f79356b60e832ae6ff8482645091534f08281e"
+    },
+    {
+      "file": "evidence/pages-02.json",
+      "url": "about:blank",
+      "requested": "https://search.yahoo.com/search?p=Lazard+LCOE+2025+pdf",
+      "status": null,
+      "error": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://search.yahoo.com/search?p=Lazard+LCOE+2025+pdf\nCall log:\n\u001b[2m  - navigating to \"https://search.yahoo.com/search?p=Lazard+LCOE+2025+pdf\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "sha256": "520cbf8b07a0e64db6adbf6bb1f79356b60e832ae6ff8482645091534f08281e"
+    },
+    {
+      "file": "evidence/pages-02.json",
+      "url": "https://search.brave.com/search?q=Tesla+Megapack+2025+price+maintenance",
+      "requested": "https://search.brave.com/search?q=Tesla+Megapack+2025+price+maintenance",
+      "status": 429,
+      "error": null,
+      "sha256": "520cbf8b07a0e64db6adbf6bb1f79356b60e832ae6ff8482645091534f08281e"
+    },
+    {
+      "file": "evidence/pages-02.json",
+      "url": "https://www.mojeek.com/search?q=Lazard+2025+storage+pdf",
+      "requested": "https://www.mojeek.com/search?q=Lazard+2025+storage+pdf",
+      "status": 403,
+      "error": null,
+      "sha256": "520cbf8b07a0e64db6adbf6bb1f79356b60e832ae6ff8482645091534f08281e"
+    },
+    {
+      "file": "evidence/pages-03.json",
+      "url": "https://cn.bing.com/search?q=Lazard+LCOE+2025+pdf&ensearch=1&rdr=1&rdrig=A684097793104253AD8A13B6BB6F6C8E",
+      "requested": "https://cn.bing.com/search?q=Lazard+LCOE+2025+pdf&ensearch=1",
+      "status": 200,
+      "error": null,
+      "sha256": "51d84de28dade155f328db09d9c28408b4b91d4323092b10bcd2337ab398344b"
+    },
+    {
+      "file": "evidence/pages-03.json",
+      "url": "https://cn.bing.com/search?q=Tesla+Megapack+maintenance+cost+2025&ensearch=1&rdr=1&rdrig=FC7B106467A1421CBB713C6388C0406B",
+      "requested": "https://cn.bing.com/search?q=Tesla+Megapack+maintenance+cost+2025&ensearch=1",
+      "status": 200,
+      "error": null,
+      "sha256": "51d84de28dade155f328db09d9c28408b4b91d4323092b10bcd2337ab398344b"
+    },
+    {
+      "file": "evidence/pages-03.json",
+      "url": "https://www.tesla.cn/support/energy/megapack/resources",
+      "requested": "https://www.tesla.cn/support/energy/megapack/resources",
+      "status": 200,
+      "error": null,
+      "sha256": "51d84de28dade155f328db09d9c28408b4b91d4323092b10bcd2337ab398344b"
+    },
+    {
+      "file": "evidence/pages-03.json",
+      "url": "https://www.tesla.cn/megapack/design",
+      "requested": "https://www.tesla.cn/megapack/design",
+      "status": 404,
+      "error": null,
+      "sha256": "51d84de28dade155f328db09d9c28408b4b91d4323092b10bcd2337ab398344b"
+    },
+    {
+      "file": "evidence/pages-04.json",
+      "url": "https://web.archive.org/web/20251025104311id_/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "requested": "https://web.archive.org/web/20250701000000id_/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "status": 200,
+      "error": null,
+      "sha256": "d1fc42b0abc23f2d8638ddc88c8afed82d131f588e7b3b7bb4295b217ebdbc1d"
+    },
+    {
+      "file": "evidence/pages-04.json",
+      "url": "https://lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "requested": "https://lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "status": 403,
+      "error": null,
+      "sha256": "d1fc42b0abc23f2d8638ddc88c8afed82d131f588e7b3b7bb4295b217ebdbc1d"
+    },
+    {
+      "file": "evidence/pages-04.json",
+      "url": "https://www.tesla.cn/megapack",
+      "requested": "https://www.tesla.cn/megapack",
+      "status": 200,
+      "error": null,
+      "sha256": "d1fc42b0abc23f2d8638ddc88c8afed82d131f588e7b3b7bb4295b217ebdbc1d"
+    },
+    {
+      "file": "evidence/pages-04.json",
+      "url": "https://www.tesla.com/en_gb/megapack/design",
+      "requested": "https://www.tesla.com/en_gb/megapack/design",
+      "status": 403,
+      "error": null,
+      "sha256": "d1fc42b0abc23f2d8638ddc88c8afed82d131f588e7b3b7bb4295b217ebdbc1d"
+    },
+    {
+      "file": "evidence/pages-05.json",
+      "url": "https://web.archive.org/web/20250326122136id_/https://www.tesla.com/megapack/design?cacheBuster=1794342525056",
+      "requested": "https://web.archive.org/web/20250326122136id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "d227817d94229a391debee12ca0161efc0e316dc9df22b6c62e24c361762aea3"
+    },
+    {
+      "file": "evidence/pages-05.json",
+      "url": "https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design?cacheBuster=1794342523695",
+      "requested": "https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "d227817d94229a391debee12ca0161efc0e316dc9df22b6c62e24c361762aea3"
+    },
+    {
+      "file": "evidence/pages-05.json",
+      "url": "https://web.archive.org/web/20230123082807id_/https://www.tesla.com/megapack/design?cacheBuster=1794342525063",
+      "requested": "https://web.archive.org/web/20230123082807id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "d227817d94229a391debee12ca0161efc0e316dc9df22b6c62e24c361762aea3"
+    },
+    {
+      "file": "evidence/pages-06-static-archive.json",
+      "url": "https://web.archive.org/web/20250326122136id_/https://www.tesla.com/megapack/design",
+      "requested": "https://web.archive.org/web/20250326122136id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "4a1eba465e84e664b04da031a356d37eed1e11167240e5219922710a795f9d57"
+    },
+    {
+      "file": "evidence/pages-06-static-archive.json",
+      "url": "https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design",
+      "requested": "https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "4a1eba465e84e664b04da031a356d37eed1e11167240e5219922710a795f9d57"
+    },
+    {
+      "file": "evidence/pages-06-static-archive.json",
+      "url": "https://web.archive.org/web/20230123082807id_/https://www.tesla.com/megapack/design",
+      "requested": "https://web.archive.org/web/20230123082807id_/https://www.tesla.com/megapack/design",
+      "status": 200,
+      "error": null,
+      "sha256": "4a1eba465e84e664b04da031a356d37eed1e11167240e5219922710a795f9d57"
+    },
+    {
+      "file": "evidence/pages-07.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign*&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&from=2023&to=2025&limit=100",
+      "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign*&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&from=2023&to=2025&limit=100",
+      "status": 200,
+      "error": null,
+      "sha256": "3e6483b92df2a635224bc37b15325d61cf62aeb51ffd82f7ed6dd1b3d24b5286"
+    },
+    {
+      "file": "evidence/pages-07.json",
+      "url": "https://www.tesla.com/en_GB/megapack",
+      "requested": "https://www.tesla.cn/en_GB/megapack",
+      "status": 403,
+      "error": null,
+      "sha256": "3e6483b92df2a635224bc37b15325d61cf62aeb51ffd82f7ed6dd1b3d24b5286"
+    },
+    {
+      "file": "evidence/pages-07.json",
+      "url": "https://www.tesla.cn/support/energy/megapack/resources",
+      "requested": "https://www.tesla.cn/support/energy/megapack/resources",
+      "status": 200,
+      "error": null,
+      "sha256": "3e6483b92df2a635224bc37b15325d61cf62aeb51ffd82f7ed6dd1b3d24b5286"
+    },
+    {
+      "file": "evidence/pages-07.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fsites%2Fdefault%2Ffiles%2Fpdfs%2F*megapack*&output=json&filter=statuscode%3A200&collapse=urlkey&limit=100",
+      "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fsites%2Fdefault%2Ffiles%2Fpdfs%2F*megapack*&output=json&filter=statuscode%3A200&collapse=urlkey&limit=100",
+      "status": 503,
+      "error": null,
+      "sha256": "3e6483b92df2a635224bc37b15325d61cf62aeb51ffd82f7ed6dd1b3d24b5286"
+    },
+    {
+      "file": "evidence/pages-08.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=timestamp%3A6&from=2025&to=20261110",
+      "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=timestamp%3A6&from=2025&to=20261110",
+      "status": 200,
+      "error": null,
+      "sha256": "aaa5b7fd771c00359ab9b8e34f1932fd4eca7525232c2d19c426072de45c05a2"
+    },
+    {
+      "file": "evidence/pages-08.json",
+      "url": "https://www.tesla.cn/support/energy/tesla-software/powerhub",
+      "requested": "https://www.tesla.cn/support/energy/tesla-software/powerhub",
+      "status": 200,
+      "error": null,
+      "sha256": "aaa5b7fd771c00359ab9b8e34f1932fd4eca7525232c2d19c426072de45c05a2"
+    },
+    {
+      "file": "evidence/pages-08.json",
+      "url": "https://www.tesla.cn/support/energy/tesla-software/autobidder",
+      "requested": "https://www.tesla.cn/support/energy/tesla-software/autobidder",
+      "status": 200,
+      "error": null,
+      "sha256": "aaa5b7fd771c00359ab9b8e34f1932fd4eca7525232c2d19c426072de45c05a2"
+    },
+    {
+      "file": "evidence/pages-09-latest-quotes.json",
+      "url": "https://web.archive.org/web/20251121125605id_/https://www.tesla.com/megapack/design",
+      "requested": null,
+      "status": 200,
+      "error": null,
+      "sha256": "47ac94af7431a12c659111335acfb72c6bd3b551f2939c115511d5c581aed97d"
+    },
+    {
+      "file": "evidence/pages-09-latest-quotes.json",
+      "url": "https://web.archive.org/web/20260123224223id_/https://www.tesla.com/megapack/design",
+      "requested": null,
+      "status": 200,
+      "error": null,
+      "sha256": "47ac94af7431a12c659111335acfb72c6bd3b551f2939c115511d5c581aed97d"
+    },
+    {
+      "file": "evidence/pages-09-latest-quotes.json",
+      "url": "https://web.archive.org/web/20261011091248id_/https://www.tesla.com/megapack/design",
+      "requested": null,
+      "status": 200,
+      "error": null,
+      "sha256": "47ac94af7431a12c659111335acfb72c6bd3b551f2939c115511d5c581aed97d"
+    },
+    {
+      "file": "evidence/pages-10-nrel.json",
+      "url": "about:blank",
+      "requested": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "status": null,
+      "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage\nCall log:\n\u001b[2m  - navigating to \"https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "sha256": "fc019ecf3e217d9c8c1c3592738fb2a98c1c0ddf41169a18a2e58ad86138d40d"
+    },
+    {
+      "file": "evidence/pages-10-nrel.json",
+      "url": "https://web.archive.org/web/20250919220637id_/https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "requested": "https://web.archive.org/web/20251001000000id_/https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "status": 200,
+      "error": null,
+      "sha256": "fc019ecf3e217d9c8c1c3592738fb2a98c1c0ddf41169a18a2e58ad86138d40d"
+    },
+    {
+      "file": "evidence/pages-11-quote-api-archive-index.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fenergy-config%2Fapi%2F*&output=json&filter=statuscode%3A200&filter=original%3A.*%5BMm%5Dega.*&collapse=urlkey&from=2023&to=20261110&limit=30",
+      "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fenergy-config%2Fapi%2F*&output=json&filter=statuscode%3A200&filter=original%3A.*%5BMm%5Dega.*&collapse=urlkey&from=2023&to=20261110&limit=30",
+      "status": 503,
+      "error": null,
+      "sha256": "1b8e632779f1597eef70eb234a689e023dffb51ed5d4157aef08e9bee998ad12"
+    }
+  ],
+  "NREL_source": {
+    "original": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+    "archive": "https://web.archive.org/web/20250919220637id_/https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+    "capture": "evidence/pages-10-nrel.json",
+    "finding": "15year maintained-capacity fixedOM2.5%CAPEX includes augmentation;no additionalVOM"
+  },
+  "Tesla_specification": {
+    "previously_verified": "../equipment-research-20261110-v3.1/evidence/Tesla-Megapack2XL-20230210.pdf",
+    "note": "2023datasheet standard15yearequipment/retentionwarranty;raw2024/2026quotehas3.8544MWhvsrounded3.854"
+  },
+  "interpretation_limits": [
+    "Quotes are five-unitCalifornia estimates,notactualpurchases orUKfirmprices",
+    "Current directTesla andLazard endpoints blocked;publicarchives recovered facts without login",
+    "Archive page JS disabled to prevent livecachebuster redirect;embedded publicSSR data read without ordering or livequote calls",
+    "NRELcostfactor andLazardEPC/4hcosts transferred explicitly;notmanufacturerpromises",
+    "LazardfirstyeargeneralOM is not totalwarranty/augmentationcost",
+    "No hydrogentransport orstorage work in this round"
+  ],
+  "archive_scope": "PortableZIP contains own analysis,numericalinputs,source pointers and selected data captures;full thirdpartyPDFs andLazardpageimages remain in local evidence,not redistributed inZIP"
+}

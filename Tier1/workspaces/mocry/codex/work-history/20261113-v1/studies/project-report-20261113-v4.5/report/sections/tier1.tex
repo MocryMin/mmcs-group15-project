@@ -1,0 +1,222 @@
+\chapter{Tier 1: deterministic investment appraisal}\label{chap:tier1}
+\section{Problem analysis}\label{sec:problem1}
+We select battery and electrolyser capacities and their daily use over
+2020--25 (2,192 consecutive days). The investment is made once and applies
+to all six years. Direct electricity sales provide the no-investment
+benchmark. The investment case depends on three questions: whether
+electrolysis can use electricity that could otherwise be sold, how much
+hydrogen a buyer can take, and whether storage can shift enough electricity
+to recover its costs.
+
+\section{Research findings and model inputs}\label{sec:research1}
+\begin{table}[H]
+\centering\small
+\caption{Research findings used in the model. Appendix~\ref{app:research} gives the evidence and calculations.}
+\label{tab:findings}
+\begin{tabularx}{\linewidth}{@{}lY@{}}
+\toprule
+Research subject & Finding used in Tier 1 \\
+\midrule
+Electricity sales & No client-specific shortfall charge identified. Model uses market receipts. \\
+Hydrogen value & UK support benchmark implies a scenario netback of \gbp 7.80/kg \cite{har}. \\
+Hydrogen offtake & UK use implies a broad case of 1,559 t/day \cite{eho}. \\
+Battery equipment & Four short-duration units with 90--92\% round-trip efficiency \cite{v6}. \\
+Electrolyser equipment & Eight units use 55.9--59.0 kWh/kg at rated load \cite{v6}. \\
+Equipment economics & Include battery capacity upkeep and electrolyser stack renewals \cite{beis,v6}. \\
+Price basis & Convert market prices and equipment costs to 2020 pounds \cite{cpi,basis}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\input{generated/equipment}
+
+\section{Notation and assumptions}\label{sec:notation1}
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{.98}
+\begin{tabularx}{\linewidth}{@{}lY@{}}
+\toprule
+Symbol & Definition \\
+\midrule
+\(t\in\mathcal T,\ T,\ Y\) & UTC day, number of days, represented years from calendar-year fractions. \\
+\(G_t,D_t,S_t,p_t\) & Generation, market demand, surplus \(\max(0,G_t-D_t)\), and price (\gbp/MWh). \\
+\(b_i,n_j,z_{jt}\) & Installed battery and electrolyser counts and online electrolyser count. \\
+\(q_t,g_t^H,h_{jt}\) & Direct sales, direct input to electrolysis and input to model \(j\). \\
+\(c_{it},r_{it},u_{it},s_{it}\) & Charge, discharge to sales, discharge to electrolysis and usable closing stock. \\
+\(W_i,P_i,\eta_i,\delta_i\) & Usable capacity, power (MW), one-way efficiency (\(\sqrt{\mathrm{RTE}}\)) and daily self-discharge. \\
+\(H_j,\alpha_j,\kappa_j\) & Full-load daily input per unit, minimum load fraction and specific use (MWh/kg). \\
+\(v,w_j,L\) & Hydrogen netback and stack reserve (\gbp/kg), and offtake limit (kg/day). \\
+\(a_i^B,a_j^H\) & Annual costs per battery and electrolyser unit (\gbp/year). \\
+\bottomrule
+\end{tabularx}
+\endgroup
+
+\noindent Energy and stock are in MWh. Indices \(i,j\) denote battery and electrolyser models.
+
+{\interlinepenalty=10000
+\textbf{Assumptions.}
+Fixed generation combines the reported total and simulated wind farm.
+The single market caps sales at demand, with no imports, other exports,
+spatial limits, unused-power revenue or shortfall charge \cite{brief,teacher}.
+A dispatches by value. B prioritises sales from generation, then storage,
+even at negative prices. Hydrogen is sold daily at \gbp 7.80/kg after
+non-electricity variable costs, capped at 1.56, 10 or 1,559 t/day.
+Costs use 2020 pounds, a 5\% real discount and zero residual value.\par}
+
+\section{Mathematical model}\label{sec:model1}
+\subsection{Objective}
+\begin{equation}
+\max\quad \Pi =
+\frac{1}{Y}\sum_{t\in\mathcal T}
+\left[p_t\left(q_t+\sum_i r_{it}\right)+
+\sum_j (v-w_j)\frac{h_{jt}}{\kappa_j}\right]
+-\sum_i a_i^B b_i-\sum_j a_j^H n_j .
+\label{eq:profit}
+\end{equation}
+Annual cost \(a\) uses capital \(K\), fixed operation \(F\), life \(N\),
+discount rate \(d\) and renewals \(C_k\) in year \(k\).
+\begin{equation}
+a=F+\frac{d}{1-(1+d)^{-N}}
+\left(K+\sum_k\frac{C_k}{(1+d)^k}\right).
+\label{eq:annualcost}
+\end{equation}
+Set \(w_j=0\) when renewals enter \(a\). Gain is profit above the
+same-policy no-investment benchmark, so existing asset costs cancel.
+
+\subsection{Constraints}
+Daily constraints hold for all applicable \(t,i,j\), with \(T=|\mathcal T|\)
+and \((x)_+=\max(0,x)\).
+{\setlength{\jot}{6pt}
+\begin{gather}
+ q_t+g_t^H+\sum_i c_{it}\le G_t,\quad
+ q_t+\sum_i r_{it}\le D_t,\quad
+ \sum_j h_{jt}=g_t^H+\sum_i u_{it}, \label{eq:flow}\\
+ s_{it}=(1-\delta_i)s_{i,t-1}+\eta_i c_{it}-(r_{it}+u_{it})/\eta_i,
+ \quad 0\le s_{it}\le W_i b_i,\quad s_{i0}=s_{iT}=0, \label{eq:stock}\\
+ c_{it}\le b_i\min(24P_i,W_i/\eta_i),\quad
+ r_{it}+u_{it}\le b_i\min(24P_i,\eta_i W_i), \label{eq:window}\\
+ (c_{it}=0)\ \lor\ (r_{it}+u_{it}=0), \label{eq:direction}\\
+ \alpha_j H_j z_{jt}\le h_{jt}\le H_j z_{jt},\quad
+ z_{jt}\le n_j,\quad \sum_j h_{jt}/\kappa_j\le L, \label{eq:hydrogen}\\
+ \text{Policy B:}\quad q_t=\min(G_t,D_t), \quad
+ \sum_i r_{it}=\min\!\left\{(D_t-G_t)_+,\
+                   \sum_i\eta_i(1-\delta_i)s_{i,t-1}\right\}. \label{eq:priority}
+\end{gather}}
+Flows are nonnegative and \(b_i,n_j,z_{jt}\in\mathbb Z_{\ge0}\).
+
+{\setlength{\parskip}{0pt}
+\noindent\textbf{Constraint interpretation.}\par
+\noindent\eqref{eq:flow} allocates generation, caps sales and balances electrolysis inputs.\par
+\noindent\eqref{eq:stock}--\eqref{eq:direction} carry stock across days with losses, limit
+throughput and allow one direction per battery model per day.\par
+\noindent\eqref{eq:hydrogen} imposes online loading and the daily offtake cap.\par
+\noindent\eqref{eq:priority} gives B's remaining demand first claim on usable stock.
+The batteries can discharge that stock in one day. Binary indicators
+implement the direction choice and B's minimum.\par}
+
+\textbf{Numerical checks.} HiGHS certified 14 cases (relative gap below
+\(10^{-9}\)). Independent checks covered flows, cash and dispatch,
+including six forced-storage cases \cite{v6}.
+
+\newpage
+\section{Results and analysis}\label{sec:results1}
+\subsection{Capacity and historical performance}
+In the broad market case, electrolysis-only and joint investment return
+the same portfolios. A selects 3,631 MW (721 Neptune V and two Neptune II
+units) and B selects 740 MW (147 Neptune V units). At 10 t/day, both choose
+23.4 MW across six smaller modules. Initial capital in the broad case is
+\gbp 5.30bn (A) and \gbp 1.08bn (B), producing about 488,000 and
+19,100 t/year of hydrogen respectively.
+\input{generated/annual}
+At 10 t/day, B loses money in 2021, 2023 and 2024, with a worst
+year of \gbp 1.26m below no investment. These years have 43, 29 and
+30 surplus days, respectively, against 154 in 2022. A can produce on
+additional days when the hydrogen value exceeds
+the price of forgone electricity sales. At the broad cap, A meets 82.2\%
+of electricity demand and B meets 92.2\%. Using the alternative UK cost
+basis at that cap leaves A's capacity unchanged and raises B's from
+740 to 1,465 MW, with zero batteries in both cases \cite{beis,v6}.
+
+\subsection{Energy attribution and contract sensitivity}\label{sec:contract1}
+The historical mean physical surplus is 2,276 GWh/year.
+For the zero-battery solutions we attribute \(\min(g_t^H,S_t)\) to physical
+surplus first. The remaining electrolysis input uses energy within current
+electricity demand. We calculate the monetary loss separately against
+same-policy electricity sales without investment, accounting for negative
+prices under A. The aggregate records identify the available fuels by day
+and cannot trace the generating unit that supplied electrolysis.
+\input{generated/comparisons}
+In the broad market case, A uses about 2,184 GWh/year of physical surplus,
+only 8\% of its total electrolysis input. Its electricity receipts fall by
+\gbp 1,618m/year. B uses 1,067 GWh/year of surplus and preserves direct
+sales, limiting its hydrogen throughput. At 10 t/day, each captures
+about 43 GWh/year, just under 2\% of the physical surplus.
+
+\newpage
+\noindent
+After reoptimising electrolysis and dispatch, the lowest netbacks that
+support any investment are about \gbp 3.32/kg in A and \gbp 4.57/kg in B
+at 10 t/day. At 1.56 t/day they rise to \gbp 3.38/kg and \gbp 4.66/kg.
+The 23.4 MW portfolio in Table~\ref{tab:annual} is sized at \gbp 7.80/kg.
+Holding its operation fixed, it breaks even at \gbp 3.90/kg in A or
+\gbp 4.61/kg in B. At other prices, reoptimise operation and capacity.
+
+\subsection{Storage and investment sensitivity}\label{sec:storage1}
+\begin{table}[H]
+\centering\small
+\caption{Storage entry under historical and stressed conditions.
+Price multipliers scale the standard deviation of daily prices.}
+\label{tab:storage}
+\begin{tabularx}{\linewidth}{@{}P{.35\linewidth}Y@{}}
+\toprule
+Test & Implication for storage investment \\
+\midrule
+Historical high-volatility windows &
+All four battery options remain unselected in the highest-variance
+60-, 90-, 180- and 365-day windows under both policies. The 90-day price
+standard deviation is \gbp 114/MWh against \gbp 65/MWh over six years. \\
+Battery cost and price stress &
+Halving purchase and maintenance costs still gives zero batteries.
+With historical supply and demand, batteries first enter at about
+\(40\times\) (A) and \(127\times\) (B) the historical price standard
+deviation at the modelled costs. \\
+Joint supply and price stress &
+The joint grid selects zero batteries at the historical price dispersion
+across nine supply--demand gap dispersions. At \(120\times\) price
+dispersion in B, raising gap dispersion from \(1\times\) to \(1.1\times\)
+changes the optimum from zero to 2.60 GWh. \\
+Cavern compressed air &
+A separate 50 MW / 1.5 GWh test, at one-third of the reference battery
+installation cost per MWh and 62\% round-trip efficiency, needs
+\(5.38\)--\(5.50\times\) (A) or \(15.00\)--\(15.13\times\) (B) price
+dispersion at the original supply--demand gap. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+The volatility tests centre each series before scaling, preserving
+means and date order. The battery and cavern tests allow the electrolyser
+choice to adjust. For battery-only investment, even free charging and
+the full usable discharge on every positive-price day yield at most
+57\% of annual ownership cost across the four models. At historical
+prices the cavern's annual operating
+gain is \gbp 1.38m in A and \gbp 2.35m in B, against an annual cost of
+\gbp 8.52m \cite{stress}.
+
+\subsection{Investment recommendations}\label{sec:recommendations1}
+\textbf{Size electrolysis to secured demand.}
+For 10 t/day, appraise the 23.4 MW portfolio against the \gbp 34.2m
+initial cost. A and B yield \gbp 12.68m and \gbp 2.44m/year respectively
+(Table~\ref{tab:annual}). Confirm the ability to displace electricity
+sales before relying on A. Under B, use the observed loss years to test
+cash reserves and the case for staged procurement. Reduce the appraisal to roughly
+3.84 MW if the outlet is near 1.56 t/day. At a netback below the
+market entry levels above, defer electrolysis at the tested costs.
+The broad cap describes market scale. Capacity at that scale warrants
+appraisal only with much larger contracted offtake.
+
+\textbf{Defer daily storage.}
+Both cost and historical stress tests support zero batteries
+(Table~\ref{tab:storage}). Reopen procurement if a lower installed cost
+or additional revenue brings the expected operating gain above annual
+ownership costs. For the cavern, the historical gain implies an annual
+cost ceiling of \gbp 1.38m under A or \gbp 2.35m under B on these inputs.

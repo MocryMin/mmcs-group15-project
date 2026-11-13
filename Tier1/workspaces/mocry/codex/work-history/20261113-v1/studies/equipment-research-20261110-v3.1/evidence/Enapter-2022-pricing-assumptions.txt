@@ -1,0 +1,33 @@
+PAGE 1
+List of Assumptions
+
+
+Capex Values
+
+                                            Unit Cost
+EL 2.1                                  € 9,000
+EL Model T                              € 2,500
+
+
+
+Opex Values
+                                              Cost                             Units
+Electricity Cost                           0.05 / 0.03 / 0.00               EUR/kWh
+Water Cost                                 0.0015                       EUR/L
+Water Purification System Cost                0.0183                       EUR/L
+KOH Cost                                 10                        EUR/Year
+Labour Cost                               30                        EUR/Year
+
+
+
+Technical Values
+                                               Unit                             Units
+Lifetime Op. Hours (EL2.1)                    30,000                       Hours/EL
+Lifetime Op. Hours (EL Model T)               40,000                       Hours/EL
+EL Efficiency (LHV)                          68                  %
+EL Power Consumption                           2.2                   kW
+EL H2 Production                                0.5                      Nm³/hour
+EL Electricity Consumption                     4.400                   kWh/Nm³
+EL Water Consumption                        0.400                         L/hour
+H2 Density                                  0.0899                      kg/Nm³
+Energy Density (LHV)                         33.330                     kWh/kg

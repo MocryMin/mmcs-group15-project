@@ -1,0 +1,29 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-LAYOUT-RESULTS-V4-1-20261107",
+  "course_id": "MMCS",
+  "at": "2026-11-07",
+  "request": "修复第三页末尾空白，压实 Table II.3/II.4 并评估与补充结果展示",
+  "package": "assignments/FinalProject/tier1-candidate-20261107-v4.1-academic",
+  "report": "report/report.pdf",
+  "zip": "assignments/FinalProject/MMCS_Tier1_Candidate_20261107_v4_1_academic.zip",
+  "changes": [
+    "Conversion explanation before research table; finance row restored to third page",
+    "Natural column widths with right-aligned numerical columns",
+    "Table II.3: portfolio comparison plus six-year operating results and both-policy hydrogen output",
+    "Table II.4: six scenarios, nine columns, explicit free/fixed capacity and both-policy returns"
+  ],
+  "body_pages": 7,
+  "tier1_pages": [3, 4, 5, 6],
+  "new_model_or_input_changes": false,
+  "optimisations_rerun": false,
+  "validation": {
+    "previous_64_schedules_independently_rechecked": true,
+    "new_production_values_from_12_annual_schedules": true,
+    "unaffected_pdf_pages_text_identical": true,
+    "affected_pages_visually_reviewed": [3, 4, 5, 6],
+    "unpacked_report_regeneration_and_compilation": "passed"
+  },
+  "published": false,
+  "submitted": false,
+  "tier2b": "Method specification, forecast/control experiments pending"
+}

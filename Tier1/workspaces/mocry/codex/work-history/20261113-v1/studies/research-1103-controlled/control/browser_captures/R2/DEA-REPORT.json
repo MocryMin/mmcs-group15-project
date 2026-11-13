@@ -1,0 +1,30 @@
+{
+  "owner": "R2",
+  "id": "DEA-REPORT",
+  "requested_url": "https://ens.dk/media/6588/download",
+  "url": "https://ens.dk/media/6588/download",
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "public",
+    "content-disposition": "attachment; filename=\"Technology Data Catalogue for Energy Storage - 0011.pdf\"",
+    "content-language": "da",
+    "content-length": "16580176",
+    "content-security-policy": "frame-ancestors 'self'",
+    "content-type": "application/pdf",
+    "date": "Tue, 03 Nov 2026 16:20:36 GMT",
+    "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "last-modified": "Wed, 15 Jul 2026 07:19:41 GMT",
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "x-drupal-cache": "UNCACHEABLE (no cacheability)",
+    "x-drupal-dynamic-cache": "UNCACHEABLE (no cacheability)",
+    "x-frame-options": "SAMEORIGIN",
+    "x-generator": "Drupal 11 (https://www.drupal.org)",
+    "x-xss-protection": "1; mode=block"
+  },
+  "bytes": 16580176,
+  "base64": null,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:20:36.041Z"
+}

@@ -1,0 +1,259 @@
+{
+  "worker": "R1",
+  "status": "first_pass_not_team_adopted",
+  "parameters": [
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P01",
+      "gaps": [
+        "E-01"
+      ],
+      "name": "sales_price",
+      "recommended_rule": "p_sell[t] = supplied_price[t]",
+      "unit": "GBP/MWh",
+      "status": "controller_modelling_assumption",
+      "source_ids": [
+        "R1-L01",
+        "R1-S01",
+        "R1-S02",
+        "R1-S04"
+      ],
+      "source_url": "https://www.elexon.co.uk/bsc/glossary/market-index-data/",
+      "source_location": "Definition paragraphs; local brief page2",
+      "uncertainty": "Not verified executable PPA or daily aggregation lineage; no spread/fees included",
+      "sensitivity": "p_sell=p-f_sell, f_sell>=0; fixed-price or supported contracts only separate scenario",
+      "prerequisites": [
+        "R4 validates price units and daily aggregation",
+        "Do not call profit a conservative lower bound"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P02",
+      "gaps": [
+        "E-02"
+      ],
+      "name": "shared_sales_absorption_limit",
+      "recommended_rule": "q_current[t]+battery_sale[t]<=D[t]; extra_sale[t]=0",
+      "unit": "MWh/day",
+      "status": "controller_modelling_assumption",
+      "source_ids": [
+        "R1-L03"
+      ],
+      "source_url": null,
+      "source_location": "BL02/06/07",
+      "uncertainty": "D is constructed absorption, not actual grid connection capacity",
+      "sensitivity": "D'=alpha D; illustrative alpha=[0.8,1,1.2], not empirical bounds",
+      "prerequisites": [
+        "Energy units validated",
+        "All routes share cap without duplicate sale"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P03",
+      "gaps": [
+        "E-03"
+      ],
+      "name": "purchases",
+      "recommended_value": 0,
+      "recommended_rule": "import[t]=0",
+      "unit": "MWh/day",
+      "status": "explicit_bounded_fallback",
+      "source_ids": [
+        "R1-L03",
+        "R1-S02"
+      ],
+      "source_url": "https://www.elexon.co.uk/bsc/about/",
+      "source_location": "What is BSC and Why BSC matters",
+      "uncertainty": "No project tariff/connection contract obtained; not statement imports legally prohibited",
+      "sensitivity": "Optional finite equipment-only import; forbid direct resale; import<=delta_hours*I_max",
+      "prerequisites": [
+        "For enabling: finite I_max and equipment sizes; buy tariff and fees; H2 market limit; clear source attribution"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P04",
+      "gaps": [
+        "E-03",
+        "E-04"
+      ],
+      "name": "optional_import_tariff",
+      "recommended_value": null,
+      "recommended_rule": "Disabled baseline; scenario p_buy=p+f_buy, p_sell=p-f_sell; f_buy,f_sell>=0",
+      "unit": "GBP/MWh",
+      "status": "scenario_assumption_not_market_quote",
+      "source_ids": [
+        "R1-S02",
+        "R1-S04"
+      ],
+      "source_url": "https://www.elexon.co.uk/bsc/about/",
+      "source_location": "Contracted vs actual energy volumes",
+      "uncertainty": "No universal UK all-in tariff, tax or fee identified",
+      "sensitivity": "User/controller chosen spread stress; no empirical range claimed",
+      "prerequisites": [
+        "Do not substitute wholesale proxy for complete supplier bill",
+        "Contract/voltage/tax identity required for actual tariff claim"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P05",
+      "gaps": [
+        "E-04"
+      ],
+      "name": "negative_prices",
+      "recommended_rule": "Retain original negatives; A may withhold sales; B q=min(G,D) even at p<0",
+      "unit": "GBP/MWh and MWh/day",
+      "status": "controller_policy_and_accounting",
+      "source_ids": [
+        "R1-L03"
+      ],
+      "source_url": null,
+      "source_location": "BL06 and BL11",
+      "uncertainty": "B is chosen priority policy, not market legal obligation",
+      "sensitivity": "Contractual floor only separate supported contract scenario",
+      "prerequisites": [
+        "Check revenue sign in zero-device A0/B0 cases",
+        "Do not clip negative observations as cleaning"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P06",
+      "gaps": [
+        "E-04"
+      ],
+      "name": "simultaneous_trade",
+      "recommended_rule": "Baseline imports zero; if enabled use net flow or finite directional limits; prohibit naked import-resale arbitrage",
+      "unit": "MWh per modeled interval",
+      "status": "modelling_guard",
+      "source_ids": [
+        "R1-L03"
+      ],
+      "source_url": null,
+      "source_location": "BL07 physical/trade constraints",
+      "uncertainty": "Daily direction exclusivity is stricter than instantaneous exclusivity; no claim of UK daily legal ban",
+      "sensitivity": "Subdaily routing if supported data; bounded equipment-only imports otherwise",
+      "prerequisites": [
+        "Negative-price lossy cycling requires power/throughput and no artificial loop safeguards"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P07",
+      "gaps": [
+        "E-05"
+      ],
+      "name": "market_impact",
+      "recommended_value": 0,
+      "recommended_rule": "Exogenous supplied prices; no causal price feedback",
+      "unit": "GBP/MWh impact coefficient",
+      "status": "explicit_uncalibrated_assumption",
+      "source_ids": [
+        "R1-L01",
+        "R1-L03"
+      ],
+      "source_url": null,
+      "source_location": "Brief p2 constructed system; BL04",
+      "uncertainty": "National-scale system cannot be justified as tiny price-taking firm; no order-book/elasticity evidence",
+      "sensitivity": "Optional average sale price p-kappa*s/D, kappa>=0; all chosen kappa values hypothetical, D=0 implies s=0",
+      "prerequisites": [
+        "Do not claim empirical market-impact function",
+        "Keep baseline and scenario distinct"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P08",
+      "gaps": [
+        "E-06"
+      ],
+      "name": "unused_energy_cash_coefficient",
+      "recommended_value": 0,
+      "recommended_rule": "No explicit unused-energy penalty or automatic compensation",
+      "unit": "GBP/MWh unused energy",
+      "status": "no_evidence_of_entitlement_fallback",
+      "source_ids": [
+        "R1-L01",
+        "R1-L03",
+        "R1-S03"
+      ],
+      "source_url": "https://www.neso.energy/industry-information/balancing-costs",
+      "source_location": "Balancing costs and balancing services",
+      "uncertainty": "Does not establish no real-world compensation or no opportunity cost",
+      "sensitivity": "Only eligible instructed/contracted actions with actual settlement terms may earn compensation",
+      "prerequisites": [
+        "Opportunity cost appears in foregone actual sale revenue, do not charge twice",
+        "Do not label national residual actual Scottish curtailment"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P09",
+      "gaps": [
+        "E-07"
+      ],
+      "name": "network_geography",
+      "recommended_rule": "Single pooled system; no locational constraints, congestion, explicit transmission losses",
+      "unit": "not applicable",
+      "status": "classroom_simplification",
+      "source_ids": [
+        "R1-L01",
+        "R1-L02"
+      ],
+      "source_url": null,
+      "source_location": "Brief p2 and TC07",
+      "uncertainty": "Not site deliverability or actual Scottish congestion estimate",
+      "sensitivity": "Optional zonal network with explicit capacities and costs only if independently supported",
+      "prerequisites": [
+        "Evidence is GB-specific, not automatically Northern Ireland market",
+        "Generation pool includes nonrenewables; label total-electricity KPIs unless attributed"
+      ]
+    },
+    {
+      "access_date": "2026-11-03",
+      "currency_base_year": "GBP nominal daily historical prices; financial rebasing delegated to R4",
+      "system_boundary": "constructed pooled system; GB market evidence contextual only",
+      "id": "R1-P10",
+      "gaps": [
+        "E-02",
+        "E-03",
+        "E-05"
+      ],
+      "name": "finite_trade_domain",
+      "recommended_rule": "Core export <=D, import=extra_export=0; preserve finite equipment bounds supplied R2/R3",
+      "unit": "MWh/day and MW",
+      "status": "mathematical_interface",
+      "source_ids": [
+        "R1-L03"
+      ],
+      "source_url": null,
+      "source_location": "BL07/08/12",
+      "uncertainty": "Optional purchase/H2 profitability may otherwise incentivise unsupported expansion",
+      "sensitivity": "Separate finite contractual cap scenario; never infer unlimited route from absent data",
+      "prerequisites": [
+        "Every optional route has limit, unit, source or explicit assumption"
+      ]
+    }
+  ]
+}

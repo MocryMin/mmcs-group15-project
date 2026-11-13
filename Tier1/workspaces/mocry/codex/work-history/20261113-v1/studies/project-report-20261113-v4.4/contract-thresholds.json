@@ -1,0 +1,298 @@
+[
+  {
+    "policy": "A",
+    "cap_kg_day": 1558.9687748333345,
+    "no_positive_gain_at": 3.381609387194329,
+    "positive_gain_at": 3.385417505873602,
+    "evaluations": [
+      {
+        "price": 3.8995135275754422,
+        "gain_GBP_year": 130984.78807660285,
+        "upper_GBP_year": 130984.78807565758,
+        "electrolyser_MW": 3.8409000000000004
+      },
+      {
+        "price": 1.9497567637877211,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 2.924635145681582,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.4120743366285122,
+        "gain_GBP_year": 4210.297411191277,
+        "upper_GBP_year": 4210.297408572017,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 3.168354741155047,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.29021453889178,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.351144437760146,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.381609387194329,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9842794901924208e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.3968418619114207,
+        "gain_GBP_year": 1934.5143664395437,
+        "upper_GBP_year": 1934.5143677968026,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 3.389225624552875,
+        "gain_GBP_year": 802.98548709834,
+        "upper_GBP_year": 802.9854893665431,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 3.385417505873602,
+        "gain_GBP_year": 239.05829584691674,
+        "upper_GBP_year": 239.05830167892609,
+        "electrolyser_MW": 1.995
+      }
+    ]
+  },
+  {
+    "policy": "A",
+    "cap_kg_day": 10000.0,
+    "no_positive_gain_at": 3.31687136964669,
+    "positive_gain_at": 3.320679488325963,
+    "evaluations": [
+      {
+        "price": 3.8995135275754422,
+        "gain_GBP_year": 1140488.1072267017,
+        "upper_GBP_year": 1140488.1072242893,
+        "electrolyser_MW": 23.424374999999998
+      },
+      {
+        "price": 1.9497567637877211,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 2.924635145681582,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.4120743366285122,
+        "gain_GBP_year": 147093.2930969866,
+        "upper_GBP_year": 147093.29309613394,
+        "electrolyser_MW": 22.119
+      },
+      {
+        "price": 3.168354741155047,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.29021453889178,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.351144437760146,
+        "gain_GBP_year": 48545.95140204765,
+        "upper_GBP_year": 48545.95140375295,
+        "electrolyser_MW": 20.124
+      },
+      {
+        "price": 3.320679488325963,
+        "gain_GBP_year": 2299.8668428044766,
+        "upper_GBP_year": 2299.866841745768,
+        "electrolyser_MW": 15.093
+      },
+      {
+        "price": 3.3054470136088714,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.313063250967417,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 3.31687136964669,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": -2.9558577807620168e-06,
+        "electrolyser_MW": 0.0
+      }
+    ]
+  },
+  {
+    "policy": "B",
+    "cap_kg_day": 1558.9687748333345,
+    "no_positive_gain_at": 4.657329144750748,
+    "positive_gain_at": 4.661137263430021,
+    "evaluations": [
+      {
+        "price": 3.8995135275754422,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 5.849270291363164,
+        "gain_GBP_year": 121534.52972052037,
+        "upper_GBP_year": 121534.52971868678,
+        "electrolyser_MW": 3.8409000000000004
+      },
+      {
+        "price": 4.874391909469303,
+        "gain_GBP_year": 16053.088245826075,
+        "upper_GBP_year": 16053.08825015133,
+        "electrolyser_MW": 3.300375
+      },
+      {
+        "price": 4.386952718522372,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.630672313995838,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.75253211173257,
+        "gain_GBP_year": 6064.728564524557,
+        "upper_GBP_year": 6064.7285714536565,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 4.691602212864204,
+        "gain_GBP_year": 2140.8430802694056,
+        "upper_GBP_year": 2140.843078209285,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 4.661137263430021,
+        "gain_GBP_year": 178.9003363228403,
+        "upper_GBP_year": 178.90033464786114,
+        "electrolyser_MW": 1.995
+      },
+      {
+        "price": 4.6459047887129294,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.653521026071475,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.657329144750748,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      }
+    ]
+  },
+  {
+    "policy": "B",
+    "cap_kg_day": 10000.0,
+    "no_positive_gain_at": 4.565934296448199,
+    "positive_gain_at": 4.569742415127472,
+    "evaluations": [
+      {
+        "price": 3.8995135275754422,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 5.849270291363164,
+        "gain_GBP_year": 949709.6184386464,
+        "upper_GBP_year": 949709.799269073,
+        "electrolyser_MW": 23.424374999999998
+      },
+      {
+        "price": 4.874391909469303,
+        "gain_GBP_year": 209449.62656722055,
+        "upper_GBP_year": 209449.62656788962,
+        "electrolyser_MW": 22.659525
+      },
+      {
+        "price": 4.386952718522372,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.630672313995838,
+        "gain_GBP_year": 36670.49013529322,
+        "upper_GBP_year": 36670.490131344515,
+        "electrolyser_MW": 20.124
+      },
+      {
+        "price": 4.5088125162591055,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.569742415127472,
+        "gain_GBP_year": 424.35639988980256,
+        "upper_GBP_year": 424.35640430452463,
+        "electrolyser_MW": 10.062
+      },
+      {
+        "price": 4.539277465693289,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.55450994041038,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.562126177768926,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      },
+      {
+        "price": 4.565934296448199,
+        "gain_GBP_year": 0.0,
+        "upper_GBP_year": 3.5775826745521044e-06,
+        "electrolyser_MW": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "as_of": "2026-11-11",
+  "scope": "Onsite compressed-gas hydrogen buffer between the approximately 30 barg electrolyser outlet and a 30 barg industrial hydrogen delivery header. One module contains Type I vessels, a compressor, and installation auxiliaries.",
+  "status": "Model reference assembled from a published system estimate and explicit engineering assumptions. UK commercial quote, delivery specification and pressure-dependent flow curves are open.",
+  "money": {
+    "currency": "GBP",
+    "price_year": 2020,
+    "real_discount_rate": 0.05,
+    "EUR2020_to_GBP2020": 0.8897040856031,
+    "life_years": 25,
+    "residual_value_GBP": 0,
+    "capital_recovery_factor": 0.0709524572992296
+  },
+  "technology": {
+    "pressure_vessel_type": "Type I steel",
+    "gross_capacity_kg": 500,
+    "max_pressure_barg": 200,
+    "min_pressure_barg": 40,
+    "delivery_pressure_barg_assumption": 30,
+    "inlet_pressure_barg_assumption": 30,
+    "reference_temperature_K": 293.15,
+    "NIST_max_density_kg_m3": 14.7727,
+    "NIST_min_density_kg_m3": 3.31083,
+    "usable_capacity_kg": 387.9409315832583,
+    "heel_kg": 112.0590684167417,
+    "compressor_rated_electrical_kW": 95,
+    "charge_reference_kg_h": 60,
+    "charge_limit_kg_day": 1440,
+    "charge_limit_definition": "min(60 kg/h, 95 kW / chosen kWh/kg) times 24; headroom and availability can bind sooner. The 60 kg/h bound is a study transfer, not a matched compressor curve.",
+    "withdrawal_limit_kg_day": 387.9409315832583,
+    "withdrawal_limit_definition": "One working inventory per day, from opening stock. This is a daily model convention; gas header and valve flow require supplier confirmation.",
+    "planned_outage_weeks_per_year_source": 3,
+    "construction_years_source": 0.5,
+    "availability_use": "Annual source parameters retained. The date schedule and capacity derating are explicit scenario choices, as no dated outage record is available."
+  },
+  "capital_GBP2020_per_module": {
+    "compressor": 474001.77363979863,
+    "vessels": 284401.0641838791,
+    "installation_piping_power_electronics_labour": 142200.53209193956,
+    "total": 900603.3699156173,
+    "per_kg_nominal_capacity": 1801.2067398312347,
+    "per_kg_usable_capacity": 2321.496126330597,
+    "source": "DEA workbook 151a D8, D24:D27, 2020 technology column, EUR2020. The low-inlet-pressure system estimate is transferred intact; equipment is not re-quoted for 30 barg inlet. The report scope excludes taxes and allows site-specific items to vary."
+  },
+  "fixed_maintenance_GBP2020_per_module_year": {
+    "compressor": 5676.667947782019,
+    "vessels": 1182.6391557879206,
+    "piping_controls_and_other": 946.1113246303364,
+    "total": 7805.418428200276,
+    "capital_annuity": 63900.022147480114,
+    "annual_capital_and_fixed_maintenance": 71705.44057568039,
+    "high_maintenance_test": 25828.839162409813,
+    "source": "DEA Table 6 pp105–106 annual absolute O&M numbers EUR 6000+1250+1000, multiplied by 1.0634 inferred from the corresponding capital components, then converted to GBP2020. Maintenance is incurred for installed capacity irrespective of the model's actual annual throughput. High test transfers DESNZ compressor 5% of capex and leaves vessel/auxiliary allowances as in the main profile."
+  },
+  "variable_costs": {
+    "charging_kWh_per_kg": 1.5,
+    "charging_kWh_per_kg_unrounded_transfer": 1.463181864746381,
+    "charging_kWh_per_kg_sensitivity": [1.0, 1.5, 2.41, 4.0],
+    "charging_energy_source": "DESNZ pp40–41 reports 2.41 kWh/kg for 30 to 500 bar. Transfer using ratio of isothermal/adiabatic midpoint work at 31.01325 to 201.01325 bara versus 30 to 500 bar, gamma 1.41. 1.0 is a favourable study point; 2.41 and DEA low-inlet 4.0 are adverse study points.",
+    "holding_mass_loss_fraction_per_day": 0.0,
+    "holding_loss_source": "DEA chapter 151 treats Type I vessel standby permeation as negligible. The worksheet's <1% margin has an unspecified period, so zero daily explicit leakage is a study simplification.",
+    "idle_electricity_kW_assumption": 0.0,
+    "idle_electricity_source": "No matched controls and standby metering for this plant. The reference omits separate idle electrical loads. Ambient-temperature gas storage does not require continuous refrigeration.",
+    "withdrawal_electric_kWh_per_kg": 0.0,
+    "withdrawal_electric_boundary": "Pressure-regulated 30 barg delivery from a vessel above the assumed minimum pressure. Downstream recompression would require its own power and cost inputs.",
+    "non_energy_variable_GBP2020_per_kg": 0.0,
+    "non_energy_variable_source": "No numerical incremental O&M in DEA workbook D29. Zero explicit charge is a reference modelling assumption; routine servicing is represented in annual O&M.",
+    "first_fill_value_GBP2020_per_kg_assumption": 7.7990270551508845,
+    "first_fill_heel_value_GBP2020_at_assumed_netback": 873.9517063571725,
+    "first_fill_compression_kWh_at_reference": 168.08860262511255,
+    "illustrative_electricity_GBP2020_MWh": 78.1261430580068,
+    "illustrative_compression_GBP2020_per_kg": 0.1171892145870102
+  },
+  "model_connections": {
+    "inventory_measure": "kg above the pressure heel",
+    "initial_usable_kg": 0,
+    "terminal_usable_kg": 0,
+    "revenue_boundary": "Recognise H2 revenue at sale. Direct sales plus withdrawals share the daily buyer acceptance limit.",
+    "power_boundary": "Charging compressor electricity appears once in the onsite power balance. Direct sales and storage withdrawals share the specified delivery pressure boundary.",
+    "cost_boundary": "Install capital and fixed O&M are charged per module. Storage-cycle electricity is incurred only on injections. Routine maintenance and pressure-related usable capacity are separate from leakage. Site-specific land, permitting, hydrogen transport and power reconversion are outside this reference."
+  }
+}

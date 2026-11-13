@@ -1,0 +1,379 @@
+[
+  {
+    "row": 6728,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "Performance",
+      "G": "End of Life (%)",
+      "H": 0.6
+    }
+  },
+  {
+    "row": 6729,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($)",
+      "H": 8139900
+    }
+  },
+  {
+    "row": 6730,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($/kW)",
+      "H": 813.99
+    }
+  },
+  {
+    "row": 6731,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($/kWh)",
+      "H": 407
+    }
+  },
+  {
+    "row": 6732,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "LCOS",
+      "G": "LCOS_Project_Life (yrs)",
+      "H": 25
+    }
+  },
+  {
+    "row": 6733,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Low",
+      "F": "LCOS",
+      "G": "LCOS ($/kWh)",
+      "H": 0.1789
+    }
+  },
+  {
+    "row": 6734,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "DC Storage Block ($/kWh)",
+      "H": 193.72
+    }
+  },
+  {
+    "row": 6735,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "DC Storage BOS ($/kWh)",
+      "H": 48.76
+    }
+  },
+  {
+    "row": 6736,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Power Equipment ($/kW)",
+      "H": 73.53
+    }
+  },
+  {
+    "row": 6737,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "C&C ($/kW)",
+      "H": 6.39
+    }
+  },
+  {
+    "row": 6738,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Systems Integration ($/kWh)",
+      "H": 44.62
+    }
+  },
+  {
+    "row": 6739,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "EPC ($/kWh)",
+      "H": 51.24
+    }
+  },
+  {
+    "row": 6740,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Project Development ($/kWh)",
+      "H": 61.49
+    }
+  },
+  {
+    "row": 6741,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Grid Integration ($/kW)",
+      "H": 24.86
+    }
+  },
+  {
+    "row": 6742,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "O&M Cost",
+      "G": "Fixed O&M ($/kW-year)",
+      "H": 2.79
+    }
+  },
+  {
+    "row": 6743,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Decommissioning",
+      "G": "Recycling ($/kWh)",
+      "H": 2.65
+    }
+  },
+  {
+    "row": 6744,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Rest Before Charge (hrs)",
+      "H": 3.6
+    }
+  },
+  {
+    "row": 6745,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Rest After Discharge (hrs)",
+      "H": 3.6
+    }
+  },
+  {
+    "row": 6746,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "RTE (%)",
+      "H": 0.83
+    }
+  },
+  {
+    "row": 6747,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Calendar Life (yrs)",
+      "H": 16
+    }
+  },
+  {
+    "row": 6748,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Primary DOD (%)",
+      "H": 0.8
+    }
+  },
+  {
+    "row": 6749,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Cycle Life at Primary DOD (#)",
+      "H": 2400
+    }
+  },
+  {
+    "row": 6750,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Secondary DOD (%)",
+      "H": 0.6
+    }
+  },
+  {
+    "row": 6751,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "Cycle Life at Secondary DOD (#)",
+      "H": 8000
+    }
+  },
+  {
+    "row": 6752,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Performance",
+      "G": "End of Life (%)",
+      "H": 0.6
+    }
+  },
+  {
+    "row": 6753,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($)",
+      "H": 9044400
+    }
+  },
+  {
+    "row": 6754,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($/kW)",
+      "H": 904.44
+    }
+  },
+  {
+    "row": 6755,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "Capital Cost",
+      "G": "Total Installed Cost ($/kWh)",
+      "H": 452.22
+    }
+  },
+  {
+    "row": 6756,
+    "cells": {
+      "A": "Lithium-ion LFP",
+      "B": 2023,
+      "C": 10,
+      "D": 2,
+      "E": "Point",
+      "F": "LCOS",
+      "G": "LCOS_Project_Life (yrs)",
+      "H": 25
+    }
+  }
+]

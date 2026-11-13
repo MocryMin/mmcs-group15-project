@@ -1,0 +1,106 @@
+PAGE 1
+SC5000UD-MV-US-P3
+MV Power Converter
+
+
+
+
+   HIGH YIELD                       FLEXIBLE APPLICATION
+
+
+ Max. efficiency 99 %                                                    Bidirectional power conversion system with full four-
+ Wide DC voltage operation window, full power operation            quadrant operation
+ at 1500 V                                                      VSG, VF, PQ and other operating modes
+  Intelligent air cooling, 45℃ without derating                       Supports various scenarios such as high altitude, high salt
+                                                                            spray, and high/extremely low temperature
+
+
+   SAFE AND RELIABLE               GRID SUPPORT
+
+
+ TYPE 3R/C5 high protection level                                         Inertia support and microsecond voltage construction
+ On-line insulation monitoring to ensure safety                        Fast active/reactive power response
+ BMS/PCS/EMS linkage supports multiple system                    L/HVRT, FRT, soft start/stop, specified power factor control
+ protection                                               and reactive power support
+
+PAGE 2
+  Type designation                                               SC5000UD-MV-US-P3
+
+  DC side
+   Max. DC voltage                                                                      1500 V
+   Min. DC voltage                                                                    1000 V
+  DC voltage range                                                               1000 V ~ 1500 V
+   Max. DC current                                                   1275 A * 4                              2550 A * 2
+   No. of DC inputs                                             4                                         2
+  AC side (Grid)
+  AC output power                                                      5000 kVA @ 45 ℃ ( 113 ℉ )
+   Max. AC output current                                                             83 A
+  Nominal LV / MV voltage                                                               0.69 kV / 34.5 kV
+  Nominal grid frequency / Grid frequency range                                60 Hz / 55 Hz ~ 65 Hz
+  Harmonic (THD)                                                              < 3 % ( at nominal power )
+  Power factor at nominal power / Adjustable power factor                         > 0.99 / 1 leading - 1 lagging
+  AC side (Off-Grid)
+  Nominal LV / MV voltage                                                               0.69 kV / 34.5 kV
+  AC voltage distortion                                                             < 3 % ( Linear load )
+  DC voltage component                                                    < 0.5 % Un ( Linear balance load )
+  Unbalance load capacity                                                                100 %
+  Nominal frequency / Frequency range                                        60 Hz / 55 Hz ~ 65 Hz
+   Efficiency
+   Max.Converter unit efficiency                                                                99.0 %
+   Max.efficiency (including transformer)                                                        98.3 %
+   Protection
+  DC protection                                                DC Load switch + fuse
+  AC protection                                             MV Load switch + fuse
+  Surge protection                                              DC Type II / AC Type II
+   Grid monitoring / Ground fault monitoring                                               Yes / Yes
+   Insulation monitoring                                                                    Yes
+  Overheat protection                                                                     Yes
+   General data
+                                                                      6058 mm * 2896 mm * 2438 mm
+  Dimensions (W*H*D)
+                                                                                                         238.5'' * 114.0'' * 96.0''
+  Weight                                                                        ≤ 17000 kg / 37478 lbs
+   Transformer vector                                                                    Dy1
+  Degree of protection                                                          TYPE 3R
+                                                                                       -35 ℃ ~ 60 ℃ ( > 45 ℃ derating )
+   Operating ambient temperature range
+                                                                                                   -31 ℉ ~ 140 ℉ ( > 113 ℉ derating )
+   Allowable relative humidity range                                              0 % ~ 100 %
+   Cooling method                                                            Forced air cooling + KNAN
+   Max. operating altitude                                              1000 m ( Standard ) / > 1000 m ( Optional )
+   Display                                                                          LED, WEB HMI
+  Communication                                                        RS485, CAN, Ethernet, Optical Fiber
+  Compliance                                                 UL1741, UL1741 SA/SB, IEEE 1547:2018, Rule 21,HECO 14H, CSA C22.2 No.107.1-16
+                                                          L/HVRT, FRT, active & reactive power control and power ramp rate control,   Grid Support
+                                                                                             Volt-var, Volt-watt, Frequency-watt
+
+
+CIRCUIT DIAGRAM
+
+
+
+
+
+  DC1
+                          DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC                                                                                                                       DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC
+                          FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC              AC SPD                                                       DC1                FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC              AC SPD
+ DC2
+                          DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC                                                                                                                       DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC
+                          FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC                                                                                                                                                     FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC
+
+
+
+
+ DC3
+                                                                                                                                                                                                                                                                                                                                               Medium                                                                                                                                                                                                                                                                                                                                                                                                                                        Voltage                                                                                                                                                          Medium                                                                                                                                                                                                       Voltage                                                                                                                                                                                                                           DC SPD                          DC SPD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     FilterAC                 FilterEMIAC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        FilterEMIDC                                                                                                                                                                         FilterAC                 FilterEMIAC                                                                                                FilterEMIDC                                                                                                                                                                                                                                                                                                                                                                                                                                   Transformer                                                                                                                                                                                                  Transformer
+                                                                                                                                                                                                                                                                                                                                                                      SwitchDC                                                                                                                                                                      DC2                 FuseDC                                                           SwitchDC                           FuseDC                                                                                                                                                                                                                                                               DC BUS         ConversionCircuit                                                              DC BUS         ConversionCircuit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         BreakerAC              AC SPD                                                                                                                                                                           BreakerAC              AC SPD
+
+ DC4
+                          DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC                                                                                                                       DC SPD                                    FilterEMIDC                                                                   FilterAC                 FilterEMIAC
+                           FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC                                                                                                                                                      FuseDC                            SwitchDC                     DC BUS         ConversionCircuit                                                 BreakerAC
+
+
+
+
+
+                       © 2025 Sungrow Power Supply Co., Ltd. All rights reserved. Subject to change without notice. Version 6  NA

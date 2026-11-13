@@ -1,0 +1,30 @@
+{
+  "version": "Baseline 1104",
+  "date": "2026-11-04",
+  "source_release_commit": "0a821eaf61a2b552682e185c137d98c5a9bffc93",
+  "design_year": 2023,
+  "validation_year": 2024,
+  "test_year": 2025,
+  "perfect_information": true,
+  "portfolio_fixed_out_of_design": true,
+  "unseen_blind_test_claim": false,
+  "hydrogen_value_status": "policy-supported value scenario treated as a site netback assumption, not a secured subsidy or contract",
+  "primary_time_model": "annual pooled-energy relaxation; chronological feasibility checked separately",
+  "self_discharge_primary": 0.0,
+  "source_files": {
+    "inputs/research/BASELINE_CANDIDATE.json": "e6a8086937eeca1fcc9892e077a376f7afe7a5ba9aaf190b00d1c765c2c96c80",
+    "inputs/finance/ONS-CPI-CSV.csv": "05bf2ec5459e46961aa994c2cbfdd2abcef5c1591b99659358a414652966bee6",
+    "inputs/data_repair/data/cell_audit.csv": "c75fd613d06cbffbf31cf2d5c33e564220a752af38695e6d03b79ceffd45e088",
+    "inputs/data_repair/data/daily_demand.csv": "6157ab30c52bb63716447df01e5fc3286b7c3c8bb0715caba9d91814408f730e",
+    "inputs/data_repair/data/daily_generation_by_fuel.csv": "43bd78ca6eeacf72e4e949fd4ffe97423e636ac0a9f0036bad53d2ee8048b7f5",
+    "inputs/data_repair/data/daily_generation_total.csv": "a06ba6dc046df88e728ac4c3dd265e0a9ec943334ec2b18504fe8be36e56b780",
+    "inputs/data_repair/data/daily_market_index_price.csv": "897bfe59f26ab8bac961007212c95594d09b58662fc82dd8dca9e78586a344ec",
+    "inputs/data_repair/data/date_quality.csv": "d3d57a1e0a2329b86623c5dac9a4dc2385d32ec4eb5e3bb885e8a109806db77d",
+    "inputs/data_repair/data/quality.csv": "6ca0e87010879046578f75a24e21b4d9b11998e0ab44f2edbf101937ef1d2ee0",
+    "inputs/data_repair/data/wind_farm_generation.csv": "24dcc7745692311fb92f50187701ce158ddb9651a269288e49964ad3179e5d10"
+  },
+  "cases": 82,
+  "publication": "local proposal for review",
+  "solver_core": "Xpress9.9",
+  "full_sample_reference": "SciPy/HiGHS"
+}

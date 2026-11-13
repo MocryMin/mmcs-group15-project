@@ -1,0 +1,69 @@
+\chapter{Tier 2B: forecasting and chronological operation}\label{chap:tier2}
+\section{Information and experimental design}\label{sec:design2}
+The operating decision is made once per day. Following the classroom
+simplification, current-day generation, demand and price are known at that
+decision, while future days are unknown \cite{teacher}. Let
+\(y_t=(G_t,D_t,p_t)\) and let \(\mathcal I_t\) contain observations through
+day \(t\), the installed equipment and the previous day's usable stock.
+Only information in \(\mathcal I_t\) can determine the implemented action.
+Current-day aggregates are treated as observed at this daily planning decision.
+
+We reserve 2020--22 for training and capacity selection, 2023 for model and
+horizon selection, and 2024--25 for the final test. A forecasting training
+target must lie before its corresponding cutoff. Repair calibration, scaling and hyperparameter
+selection use training/validation data only. The six-year Tier 1 capacity
+comparison remains a hindsight benchmark; test observations must not
+choose the capacity used in the predictive experiment.
+
+\section{Multi-step forecasting model}\label{sec:forecast2}
+The proposed first predictive model is regularised linear autoregression,
+compared against a seven-day seasonal-naive predictor. At each forecast
+origin \(t\), the feature vector \(f_t\) contains observed generation,
+demand and price lags, day-of-week indicators and annual sine/cosine terms.
+For variable \(j\in\{G,D,p\}\) and horizon \(k=1,\ldots,H\), fit
+\begin{equation}
+\widehat\beta_{jk}=\arg\min_{\beta}
+\sum_{\tau\in\mathcal A_k}(y_{\tau+k,j}-f_\tau^{\top}\beta)^2
++\lambda\lVert\beta\rVert_2^2,
+\qquad
+\widehat y_{t+k,j}=f_t^{\top}\widehat\beta_{jk},
+\end{equation}
+where \(\mathcal A_k\) contains eligible training origins whose targets
+are already observed, \(\lambda\ge0\) is the validation-selected penalty
+and \(H\) is the planning horizon. Forecast generation and demand are
+projected onto nonnegative values; negative price forecasts remain allowed.
+The seasonal-naive forecast uses the most recent observation with the same
+weekday, recursively if needed.
+
+\section{Rolling optimisation and storage feedback}\label{sec:rolling2}
+At day \(t\), installed battery and electrolyser counts are fixed. A
+planning problem uses observed values for the current day and predictions
+for \(t+1,\ldots,t+H\). It retains the Tier 1 flow, demand, throughput and electrolysis
+constraints, but replaces the pooled energy balance with chronological stock:
+\begin{equation}
+s_\tau=s_{\tau-1}+\eta c_\tau-r_\tau/\eta,
+\qquad 0\le s_\tau\le E_Bb,
+\qquad \tau=t,\ldots,t+H.
+\end{equation}
+Here \(s_{t-1}\) is the measured initial stock for that solve. The optimiser
+maximises forecast operating receipts plus a terminal-stock value; the latter
+is selected on validation data to avoid repeatedly liquidating storage at an
+artificial short horizon. Only \((q_t,c_t,r_t,h_t)\) is implemented. Its
+realised stock becomes the next solve's initial condition. The test's initial
+and final stock treatment is held equal across all compared policies.
+
+\section{Evaluation and results to be completed}\label{sec:evaluation2}
+Forecast error is reported by series and horizon using mean absolute error
+and root mean square error, with price errors in \gbp/MWh and physical
+errors in MWh. Operating evaluation compares the predictive controller,
+the same controller with seasonal-naive forecasts, a current-day rule and
+a full-path perfect-information optimiser, all at identical installed
+capacities and with identical data, costs and terminal stock. The gap to
+perfect information measures the realised loss from restricted information,
+rather than a change in investment scale.
+
+Since zero batteries remove cross-day storage, fixed nonzero battery cases
+will diagnose prediction and feedback value alongside the training-selected
+investment. Results will include forecast errors, realised annual value,
+surplus capture, lost sales, stock feasibility and seasonal/adverse-period
+comparisons. These forecast and control experiments are pending.

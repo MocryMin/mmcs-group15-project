@@ -1,0 +1,12 @@
+{
+  "owner": "R2",
+  "id": "S09",
+  "requested_url": "https://energylibrary.tesla.com/docs/Public/EnergyStorage/Megapack/2XL/Datasheet/en-us/index.html",
+  "url": "https://energylibrary.tesla.com/error?code=0002&message=%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%96%87%E4%BB%B6%E3%80%82",
+  "status": 200,
+  "title": "Energy Library",
+  "body": "",
+  "links": [],
+  "read_depth": "rendered HTML body; linked PDFs not retrieved",
+  "accessed_at": "2026-11-03T16:20:04.483Z"
+}

@@ -1,0 +1,53 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-CANDIDATE-V3-20261107",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "status": "locally_computed_and_reviewed_candidate",
+  "at": "2026-11-07",
+  "request": "根据课程、Opus 和 CU 的反馈修改并交付完整 Tier 1 候选包",
+  "sources": {
+    "shared_repository_commit": "53e3b50181ff9b6238a802cb32d65652518dbb29",
+    "opus_review_commit": "69a81e1",
+    "cu_printed_formula_corrections": ["5116a21", "53e3b50"],
+    "official_rubric": "materials/sync-20261106/mmcs_25_26_reports_descriptors.pdf",
+    "rubric_version_caveat": "Learn 当前课程发布，PDF 内部标题 25/26 保留；Presentation 2、其余六项各 1",
+    "online_access_this_run": false
+  },
+  "package": "assignments/FinalProject/tier1-candidate-20261107-v3",
+  "zip": "assignments/FinalProject/MMCS_Tier1_Candidate_20261107_v3.zip",
+  "main_outputs": {
+    "report": "report/Tier1_Report.pdf",
+    "report_pages": 4,
+    "template": "report/report-template.pdf",
+    "template_pages": 1,
+    "contains": ["original_CSVs", "repaired_CSVs", "upstream_evidence", "cell_repair_audit", "research_and_parameter_basis", "Python_Xpress_source", "64_schedules", "7930_contract_grid_points", "LaTeX_source", "feedback_disposition", "hash_manifest", "replication_instructions"]
+  },
+  "results": {
+    "common_capacity_years": "2020–2025; six complete calendar years",
+    "electrolyser_MW": 20,
+    "battery_MW": 0,
+    "A_annual_mean_gain_mGBP2020": 10.943940778772639,
+    "B_annual_mean_gain_mGBP2020": 2.1193746029776217,
+    "B_losing_complete_years": 3,
+    "2023": "lowest_surplus_complete_year_stress_case",
+    "2026": "partial260days_excluded_from_six_year_mean",
+    "conditions": "realised_supported_netback_scenario_7.799GBP2020kg;10000kgday_buyer_cap;5percent_real_discount;daily_service_boundary"
+  },
+  "validation": {
+    "xpress_exported_schedules": 60,
+    "simple_rules": 2,
+    "common_size_exact_enumeration_schedules": 2,
+    "independent_yearly_replays": 14,
+    "peer_rounding_max_difference_GBP_year": 49.542552302939136,
+    "xpress_grid_crosschecks": 8,
+    "supplemental_threshold_MILPs": 2,
+    "unpack_rerun_gain_difference_GBP_year": 0,
+    "recompiled_PDF_text_identical": true,
+    "visual_review": "all four report pages and one template page",
+    "new_independent_agent_review": false
+  },
+  "published": false,
+  "group_adopted": false,
+  "official_submission": false,
+  "remaining": "User visual review; group choice and Tier2 integration; whole technical report within ten physical pages"
+}

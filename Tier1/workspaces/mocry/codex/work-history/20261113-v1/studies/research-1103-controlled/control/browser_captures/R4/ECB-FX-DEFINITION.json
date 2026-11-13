@@ -1,0 +1,2913 @@
+{
+  "owner": "R4",
+  "id": "ECB-FX-DEFINITION",
+  "requested_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+  "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+  "status": 200,
+  "title": "Euro foreign exchange reference rates",
+  "body": "Skip to: \nSkip to\nnavigation \nSkip to\ncontent \nSkip to\nfooter\nEN\nMonetary policy & markets\nPayments & financial stability\nStatistics\nThe euro\nResearch\nNews & publications\nECB banking supervision\nAbout us\nECB & You\nCareers\nSearch\nHome\nStatistics\nEuro foreign exchange reference rates\n\nThe reference rates are usually updated at around 16:00 CET every working day, except on TARGET closing days.\n\nThey are based on the daily concertation procedure between central banks across Europe, which normally takes place around 14:10 CET. The reference rates are published for information purposes only. Using the rates for transaction purposes is strongly discouraged.\n\n3 November 2026\n\nAll currencies quoted against the euro (base currency)\n\nCurrency\tSpot\tChart\nUSD\tUS dollar\t\n1.1179\n\t\nJPY\tJapanese yen\t\n176.95\n\t\nCZK\tCzech koruna\t\n24.343\n\t\nDKK\tDanish krone\t\n7.4735\n\t\nGBP\tPound sterling\t\n0.83358\n\t\nHUF\tHungarian forint\t\n364.40\n\t\nPLN\tPolish zloty\t\n4.4190\n\t\nRON\tRomanian leu\t\n5.3428\n\t\nSEK\tSwedish krona\t\n10.9515\n\t\nCHF\tSwiss franc\t\n0.9166\n\t\nISK\tIcelandic krona\t\n136.20\n\t\nNOK\tNorwegian krone\t\n10.3185\n\t\nTRY\tTurkish lira\t\n55.8921\n\t\nAUD\tAustralian dollar\t\n1.6007\n\t\nBRL\tBrazilian real\t\n6.1411\n\t\nCAD\tCanadian dollar\t\n1.5623\n\t\nCNY\tChinese yuan renminbi\t\n7.4590\n\t\nHKD\tHong Kong dollar\t\n8.7710\n\t\nIDR\tIndonesian rupiah\t\n20275.02\n\t\nILS\tIsraeli shekel\t\n3.5292\n\t\nINR\tIndian rupee\t\n105.9155\n\t\nKRW\tSouth Korean won\t\n1503.12\n\t\nMXN\tMexican peso\t\n20.7896\n\t\nMYR\tMalaysian ringgit\t\n4.5577\n\t\nNZD\tNew Zealand dollar\t\n1.9876\n\t\nPHP\tPhilippine peso\t\n70.943\n\t\nSGD\tSingapore dollar\t\n1.4322\n\t\nTHB\tThai baht\t\n37.735\n\t\nZAR\tSouth African rand\t\n18.5995\n\t\n\nOwing to current trading activity in the EUR/RUB market, the European Central Bank (ECB) is not in a position to set a reference rate that is representative of prevailing market conditions. The ECB has therefore decided to suspend its publication of a euro reference rate for the Russian rouble until further notice. The ECB last published a EUR/RUB reference rate on 1 March 2022.\n\nDownloads\nLatest reference rates\nPDF\nCSV (.zip)\nXML\nRSS feeds\nDownload a PDF with the exchange rates of a specific day\nTime series\nCSV (.zip)\nXML\nXML (last 90 days only)\nXML (SDMX-ML)\n\nTo import CSV files into your spreadsheet, choose a setting that uses a dot \".\" as decimal separator (such as UK or US format).\n\nRelated information\nFramework for the euro foreign exchange reference rates\nECB introduces changes to euro foreign exchange reference rates, 7 December 2015\nSEE ALSO\nECB Data Portal\nTime series for bilateral exchange rates\nNOT AN EXPERT? CHECK EXPLAINER\nLEARN MORE\nWhat is the role of exchange rates?\nUseful links\nAbout us\nWork with us\nExplainers\nPress photos\nContacts\nWhere to find us\nUsing our site\nDisclaimer & Copyright\nTechnical updates\nResponsible disclosure\nCorporate Policies\nData Protection\nPrivacy statement for the website\nCookies policy\nAccessibility statement\nLanguage policy\n Site directory\n\nCopyright 2026, European Central Bank\n\nFollow us\nOur website uses cookies\n\nWe use functional cookies to store user preferences; analytics cookies to improve website performance; third-party cookies set by third-party services integrated into the website. You have the choice to accept or reject them. For more information or to review your preference on the cookies and server logs we use, we invite you to:\n\nRead our privacy statement\nLearn more about how we use cookies\n\nI understand and I accept the use of cookies\nI do not accept the use of cookies",
+  "links": [
+    {
+      "title": "Skip to navigation",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html#navwrapper"
+    },
+    {
+      "title": "Skip to content",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html#main-content"
+    },
+    {
+      "title": "Skip to footer",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html#ecb-doc-footer"
+    },
+    {
+      "title": "Български",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.bg.html"
+    },
+    {
+      "title": "Čeština",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.cs.html"
+    },
+    {
+      "title": "Dansk",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.da.html"
+    },
+    {
+      "title": "Deutsch",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.de.html"
+    },
+    {
+      "title": "Eλληνικά",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.el.html"
+    },
+    {
+      "title": "English",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    },
+    {
+      "title": "Español",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.es.html"
+    },
+    {
+      "title": "Eesti keel",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.et.html"
+    },
+    {
+      "title": "Suomi",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.fi.html"
+    },
+    {
+      "title": "Français",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.fr.html"
+    },
+    {
+      "title": "Gaeilge",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.ga.html"
+    },
+    {
+      "title": "Hrvatski",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.hr.html"
+    },
+    {
+      "title": "Magyar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.hu.html"
+    },
+    {
+      "title": "Italiano",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.it.html"
+    },
+    {
+      "title": "Lietuvių",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.lt.html"
+    },
+    {
+      "title": "Latviešu",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.lv.html"
+    },
+    {
+      "title": "Malti",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.mt.html"
+    },
+    {
+      "title": "Nederlands",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.nl.html"
+    },
+    {
+      "title": "Polski",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.pl.html"
+    },
+    {
+      "title": "Português",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.pt.html"
+    },
+    {
+      "title": "Română",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.ro.html"
+    },
+    {
+      "title": "Slovenčina",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.sk.html"
+    },
+    {
+      "title": "Slovenščina",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.sl.html"
+    },
+    {
+      "title": "Svenska",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.sv.html"
+    },
+    {
+      "title": "Monetary policy & markets",
+      "url": "https://www.ecb.europa.eu/mopo/html/index.en.html"
+    },
+    {
+      "title": "Overview of monetary policy and markets",
+      "url": "https://www.ecb.europa.eu/mopo/html/index.en.html"
+    },
+    {
+      "title": "What is monetary policy?",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/html/monetary_policy.en.html"
+    },
+    {
+      "title": "Strategy review",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/strategy-review/html/index.en.html"
+    },
+    {
+      "title": "Asset purchase programmes",
+      "url": "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+    },
+    {
+      "title": "Latest monetary policy press conference\n    29 October 2026",
+      "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy & markets",
+      "url": "https://www.ecb.europa.eu/mopo/html/index.en.html"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://www.ecb.europa.eu/mopo/intro/html/index.en.html"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://www.ecb.europa.eu/mopo/intro/html/index.en.html"
+    },
+    {
+      "title": "Benefits of price stability",
+      "url": "https://www.ecb.europa.eu/mopo/intro/benefits/html/index.en.html"
+    },
+    {
+      "title": "Scope of monetary policy",
+      "url": "https://www.ecb.europa.eu/mopo/intro/role/html/index.en.html"
+    },
+    {
+      "title": "Transmission mechanism",
+      "url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    },
+    {
+      "title": "Decisions, statements & accounts",
+      "url": "https://www.ecb.europa.eu/mopo/decisions/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    },
+    {
+      "title": "Strategy review",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/strategy-review/html/index.en.html"
+    },
+    {
+      "title": "Medium-term orientation",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/medium-term-orientation/html/index.en.html"
+    },
+    {
+      "title": "Two per cent inflation target",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html"
+    },
+    {
+      "title": "Economic, monetary and financial analysis",
+      "url": "https://www.ecb.europa.eu/mopo/devel/html/index.en.html"
+    },
+    {
+      "title": "Economic, monetary and financial analysis",
+      "url": "https://www.ecb.europa.eu/mopo/devel/html/index.en.html"
+    },
+    {
+      "title": "Economic analysis",
+      "url": "https://www.ecb.europa.eu/mopo/devel/ecana/html/index.en.html"
+    },
+    {
+      "title": "Monetary and financial analysis",
+      "url": "https://www.ecb.europa.eu/mopo/devel/monan/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy operations",
+      "url": "https://www.ecb.europa.eu/mopo/implement/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy operations",
+      "url": "https://www.ecb.europa.eu/mopo/implement/html/index.en.html"
+    },
+    {
+      "title": "Open market operations",
+      "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/index.en.html"
+    },
+    {
+      "title": "Open market operations",
+      "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/index.en.html"
+    },
+    {
+      "title": "TLTROs",
+      "url": "https://www.ecb.europa.eu/mopo/implement/omo/tltro/html/index.en.html"
+    },
+    {
+      "title": "Asset purchase programmes",
+      "url": "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+    },
+    {
+      "title": "Asset purchase programmes",
+      "url": "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+    },
+    {
+      "title": "Securities lending",
+      "url": "https://www.ecb.europa.eu/mopo/implement/app/lending/html/index.en.html"
+    },
+    {
+      "title": "Pandemic emergency purchase programme",
+      "url": "https://www.ecb.europa.eu/mopo/implement/pepp/html/index.en.html"
+    },
+    {
+      "title": "Standing facilities",
+      "url": "https://www.ecb.europa.eu/mopo/implement/sf/html/index.en.html"
+    },
+    {
+      "title": "Minimum reserves",
+      "url": "https://www.ecb.europa.eu/mopo/implement/mr/html/index.en.html"
+    },
+    {
+      "title": "Minimum reserves",
+      "url": "https://www.ecb.europa.eu/mopo/implement/mr/html/index.en.html"
+    },
+    {
+      "title": "Two-tier system",
+      "url": "https://www.ecb.europa.eu/mopo/implement/mr/two-tier/html/index.en.html"
+    },
+    {
+      "title": "Euro central bank liquidity lines",
+      "url": "https://www.ecb.europa.eu/mopo/liquidity-lines/html/index.en.html"
+    },
+    {
+      "title": "Euro central bank liquidity lines",
+      "url": "https://www.ecb.europa.eu/mopo/liquidity-lines/html/index.en.html"
+    },
+    {
+      "title": "Swap lines",
+      "url": "https://www.ecb.europa.eu/mopo/liquidity-lines/swap-lines/html/index.en.html"
+    },
+    {
+      "title": "EUREP",
+      "url": "https://www.ecb.europa.eu/mopo/liquidity-lines/eurep/html/index.en.html"
+    },
+    {
+      "title": "Chronology of Eurosystem liquidity lines",
+      "url": "https://www.ecb.europa.eu/mopo/liquidity-lines/chronology/html/index.en.html"
+    },
+    {
+      "title": "Emergency liquidity assistance (ELA)",
+      "url": "https://www.ecb.europa.eu/mopo/ela/html/index.en.html"
+    },
+    {
+      "title": "Liquidity analysis",
+      "url": "https://www.ecb.europa.eu/mopo/liq/html/index.en.html"
+    },
+    {
+      "title": "Collateral",
+      "url": "https://www.ecb.europa.eu/mopo/coll/html/index.en.html"
+    },
+    {
+      "title": "Collateral",
+      "url": "https://www.ecb.europa.eu/mopo/coll/html/index.en.html"
+    },
+    {
+      "title": "Eligibility criteria and assessment",
+      "url": "https://www.ecb.europa.eu/mopo/coll/standards/html/index.en.html"
+    },
+    {
+      "title": "Eligibility criteria and assessment",
+      "url": "https://www.ecb.europa.eu/mopo/coll/standards/html/index.en.html"
+    },
+    {
+      "title": "Marketable assets",
+      "url": "https://www.ecb.europa.eu/mopo/coll/standards/marketable/html/index.en.html"
+    },
+    {
+      "title": "Non-marketable assets",
+      "url": "https://www.ecb.europa.eu/mopo/coll/standards/nonmarketable/html/index.en.html"
+    },
+    {
+      "title": "List of eligible marketable assets",
+      "url": "https://www.ecb.europa.eu/mopo/coll/assets/html/index.en.html"
+    },
+    {
+      "title": "List of eligible marketable assets",
+      "url": "https://www.ecb.europa.eu/mopo/coll/assets/html/index.en.html"
+    },
+    {
+      "title": "User guide",
+      "url": "https://www.ecb.europa.eu/mopo/coll/assets/guide/html/index.en.html"
+    },
+    {
+      "title": "Collateral management",
+      "url": "https://www.ecb.europa.eu/mopo/coll/coll/html/index.en.html"
+    },
+    {
+      "title": "Collateral management",
+      "url": "https://www.ecb.europa.eu/mopo/coll/coll/html/index.en.html"
+    },
+    {
+      "title": "Eligible SSSs",
+      "url": "https://www.ecb.europa.eu/mopo/coll/coll/eligiblesss/html/index.en.html"
+    },
+    {
+      "title": "Eligible links",
+      "url": "https://www.ecb.europa.eu/mopo/coll/coll/ssslinks/html/index.en.html"
+    },
+    {
+      "title": "Eligible triparty agents",
+      "url": "https://www.ecb.europa.eu/mopo/coll/coll/triparty/html/index.en.html"
+    },
+    {
+      "title": "Risk mitigation",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/html/index.en.html"
+    },
+    {
+      "title": "Risk mitigation",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/html/index.en.html"
+    },
+    {
+      "title": "ECAF",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/ecaf/html/index.en.html"
+    },
+    {
+      "title": "Risk control",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/riskcontrol/html/index.en.html"
+    },
+    {
+      "title": "Haircut categories",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/liquidity/html/index.en.html"
+    },
+    {
+      "title": "Valuation",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/valuation/html/index.en.html"
+    },
+    {
+      "title": "Loan-level requirements",
+      "url": "https://www.ecb.europa.eu/mopo/coll/loanlevel/html/index.en.html"
+    },
+    {
+      "title": "Contacts",
+      "url": "https://www.ecb.europa.eu/mopo/coll/contacts/html/index.en.html"
+    },
+    {
+      "title": "Structure of the euro area economy",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/html/index.en.html"
+    },
+    {
+      "title": "Structure of the euro area economy",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/html/index.en.html"
+    },
+    {
+      "title": "Economic policy",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/ecopolicy/html/index.en.html"
+    },
+    {
+      "title": "Fiscal policies",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/fiscal/html/index.en.html"
+    },
+    {
+      "title": "External trade",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/trade/html/index.en.html"
+    },
+    {
+      "title": "Effective exchange rates",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/eer/html/index.en.html"
+    },
+    {
+      "title": "Financial structure",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/structure/html/index.en.html"
+    },
+    {
+      "title": "Financial markets",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/markets/html/index.en.html"
+    },
+    {
+      "title": "Financial intermediaries",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/intermediaries/html/index.en.html"
+    },
+    {
+      "title": "Economic diversity",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/diversity/html/index.en.html"
+    },
+    {
+      "title": "Labour market",
+      "url": "https://www.ecb.europa.eu/mopo/eaec/labour/html/index.en.html"
+    },
+    {
+      "title": "Market contact groups",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/html/index.en.html"
+    },
+    {
+      "title": "Market contact groups",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/html/index.en.html"
+    },
+    {
+      "title": "Bond market (BMCG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/bmcg/html/index.en.html"
+    },
+    {
+      "title": "Money market (MMCG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/mmcg/html/index.en.html"
+    },
+    {
+      "title": "Debt Issuance Market Contact Group (DIMCG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/dimcg/html/index.en.html"
+    },
+    {
+      "title": "ECB Operations managers group (ECB OMG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/omg/html/index.en.html"
+    },
+    {
+      "title": "Foreign exchange (FXCG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/fxcg/html/index.en.html"
+    },
+    {
+      "title": "Institutional Investor Dialogue (IID)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/iid/html/index.en.html"
+    },
+    {
+      "title": "Monetary Analysis Contact Group (MACG)",
+      "url": "https://www.ecb.europa.eu/mopo/market-contact-groups/macg/html/index.en.html"
+    },
+    {
+      "title": "Payments & financial stability",
+      "url": "https://www.ecb.europa.eu/paym/html/index.en.html"
+    },
+    {
+      "title": "Overview of payments and financial stability",
+      "url": "https://www.ecb.europa.eu/paym/html/index.en.html"
+    },
+    {
+      "title": "Digital euro",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html"
+    },
+    {
+      "title": "Payments news & events",
+      "url": "https://www.ecb.europa.eu/press/intro/html/index.en.html"
+    },
+    {
+      "title": "Market contact groups",
+      "url": "https://www.ecb.europa.eu/paym/groups/html/index.en.html"
+    },
+    {
+      "title": "TARGET professional use documents and links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/html/index.en.html"
+    },
+    {
+      "title": "Latest Financial Stability Review\n    5 June 2025",
+      "url": "https://www.ecb.europa.eu/pub/financial-stability/fsr/html/index.en.html"
+    },
+    {
+      "title": "Payments & financial stability",
+      "url": "https://www.ecb.europa.eu/paym/html/index.en.html"
+    },
+    {
+      "title": "TARGET Services",
+      "url": "https://www.ecb.europa.eu/paym/target/html/index.en.html"
+    },
+    {
+      "title": "TARGET Services",
+      "url": "https://www.ecb.europa.eu/paym/target/html/index.en.html"
+    },
+    {
+      "title": "Shared features",
+      "url": "https://www.ecb.europa.eu/paym/target/coco/html/index.en.html"
+    },
+    {
+      "title": "T2",
+      "url": "https://www.ecb.europa.eu/paym/target/t2/html/index.en.html"
+    },
+    {
+      "title": "T2",
+      "url": "https://www.ecb.europa.eu/paym/target/t2/html/index.en.html"
+    },
+    {
+      "title": "Facts and figures",
+      "url": "https://www.ecb.europa.eu/paym/target/t2/facts/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/target/t2/governance/html/index.en.html"
+    },
+    {
+      "title": "T2S",
+      "url": "https://www.ecb.europa.eu/paym/target/t2s/html/index.en.html"
+    },
+    {
+      "title": "T2S",
+      "url": "https://www.ecb.europa.eu/paym/target/t2s/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/target/t2s/governance/html/index.en.html"
+    },
+    {
+      "title": "Facts and figures",
+      "url": "https://www.ecb.europa.eu/paym/target/t2s/facts/html/index.en.html"
+    },
+    {
+      "title": "Pricing",
+      "url": "https://www.ecb.europa.eu/paym/target/t2s/pricing/html/index.en.html"
+    },
+    {
+      "title": "TIPS",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/html/index.en.html"
+    },
+    {
+      "title": "TIPS",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/html/index.en.html"
+    },
+    {
+      "title": "Cross-border payments",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/crossborder/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/governance/html/index.en.html"
+    },
+    {
+      "title": "Facts and figures",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/facts/html/index.en.html"
+    },
+    {
+      "title": "Onboarding",
+      "url": "https://www.ecb.europa.eu/paym/target/tips/onboarding/html/index.en.html"
+    },
+    {
+      "title": "ECMS",
+      "url": "https://www.ecb.europa.eu/paym/target/ecms/html/index.en.html"
+    },
+    {
+      "title": "ECMS",
+      "url": "https://www.ecb.europa.eu/paym/target/ecms/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/target/ecms/governance/html/index.en.html"
+    },
+    {
+      "title": "Pontes",
+      "url": "https://www.ecb.europa.eu/paym/target/pontes/html/index.en.html"
+    },
+    {
+      "title": "Pontes",
+      "url": "https://www.ecb.europa.eu/paym/target/pontes/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/target/pontes/governance/html/index.en.html"
+    },
+    {
+      "title": "TARGET professional use documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/html/index.en.html"
+    },
+    {
+      "title": "TARGET professional use documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/html/index.en.html"
+    },
+    {
+      "title": "Shared features documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/coco/html/index.en.html"
+    },
+    {
+      "title": "T2 documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/t2/html/index.en.html"
+    },
+    {
+      "title": "T2S documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/t2s/html/index.en.html"
+    },
+    {
+      "title": "TIPS documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/tips/html/index.en.html"
+    },
+    {
+      "title": "ECMS documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/ecms/html/index.en.html"
+    },
+    {
+      "title": "Pontes documents & links",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes-documents-links/html/index.en.html"
+    },
+    {
+      "title": "Tokenisation and DLT",
+      "url": "https://www.ecb.europa.eu/paym/dlt/html/index.en.html"
+    },
+    {
+      "title": "Tokenisation and DLT",
+      "url": "https://www.ecb.europa.eu/paym/dlt/html/index.en.html"
+    },
+    {
+      "title": "Appia",
+      "url": "https://www.ecb.europa.eu/paym/dlt/appia/html/index.en.html"
+    },
+    {
+      "title": "Governance",
+      "url": "https://www.ecb.europa.eu/paym/dlt/governance/html/index.en.html"
+    },
+    {
+      "title": "Exploratory work",
+      "url": "https://www.ecb.europa.eu/paym/dlt/exploratory/html/index.en.html"
+    },
+    {
+      "title": "Retail payments",
+      "url": "https://www.ecb.europa.eu/paym/retail/html/index.en.html"
+    },
+    {
+      "title": "Retail payments",
+      "url": "https://www.ecb.europa.eu/paym/retail/html/index.en.html"
+    },
+    {
+      "title": "Retail payments strategy",
+      "url": "https://www.ecb.europa.eu/paym/retail/retail_payments_strategy/html/index.en.html"
+    },
+    {
+      "title": "ECB as a catalyst",
+      "url": "https://www.ecb.europa.eu/paym/retail/ecb/html/index.en.html"
+    },
+    {
+      "title": "SEPA",
+      "url": "https://www.ecb.europa.eu/paym/retail/sepa/html/index.en.html"
+    },
+    {
+      "title": "Instant payments",
+      "url": "https://www.ecb.europa.eu/paym/retail/instant_payments/html/index.en.html"
+    },
+    {
+      "title": "Market contact groups",
+      "url": "https://www.ecb.europa.eu/paym/retail/groups/html/index.en.html"
+    },
+    {
+      "title": "Collateral management harmonisation",
+      "url": "https://www.ecb.europa.eu/paym/collateral/html/index.en.html"
+    },
+    {
+      "title": "Collateral management harmonisation",
+      "url": "https://www.ecb.europa.eu/paym/collateral/html/index.en.html"
+    },
+    {
+      "title": "SCoRE",
+      "url": "https://www.ecb.europa.eu/paym/collateral/score/html/index.en.html"
+    },
+    {
+      "title": "Implementation",
+      "url": "https://www.ecb.europa.eu/paym/collateral/implementation/html/index.en.html"
+    },
+    {
+      "title": "FAQ",
+      "url": "https://www.ecb.europa.eu/paym/collateral/faq/html/index.en.html"
+    },
+    {
+      "title": "AMI-SeCo",
+      "url": "https://www.ecb.europa.eu/paym/collateral/ami-seco/html/index.en.html"
+    },
+    {
+      "title": "Cyber resilience",
+      "url": "https://www.ecb.europa.eu/paym/cyber-resilience/html/index.en.html"
+    },
+    {
+      "title": "Cyber resilience",
+      "url": "https://www.ecb.europa.eu/paym/cyber-resilience/html/index.en.html"
+    },
+    {
+      "title": "Financial market infrastructures",
+      "url": "https://www.ecb.europa.eu/paym/cyber-resilience/fmi/html/index.en.html"
+    },
+    {
+      "title": "TIBER-EU",
+      "url": "https://www.ecb.europa.eu/paym/cyber-resilience/tiber-eu/html/index.en.html"
+    },
+    {
+      "title": "Euro Cyber Resilience Board",
+      "url": "https://www.ecb.europa.eu/paym/cyber-resilience/euro-cyber-board/html/index.en.html"
+    },
+    {
+      "title": "Oversight",
+      "url": "https://www.ecb.europa.eu/paym/pol/html/index.en.html"
+    },
+    {
+      "title": "Oversight",
+      "url": "https://www.ecb.europa.eu/paym/pol/html/index.en.html"
+    },
+    {
+      "title": "Payment systems",
+      "url": "https://www.ecb.europa.eu/paym/pol/systems/html/index.en.html"
+    },
+    {
+      "title": "TARGET2-Securities",
+      "url": "https://www.ecb.europa.eu/paym/pol/target2-securities/html/index.en.html"
+    },
+    {
+      "title": "Electronic payments",
+      "url": "https://www.ecb.europa.eu/paym/pol/instr/html/index.en.html"
+    },
+    {
+      "title": "Securities settlement systems and central counterparties",
+      "url": "https://www.ecb.europa.eu/paym/pol/clearing/html/index.en.html"
+    },
+    {
+      "title": "Critical service providers",
+      "url": "https://www.ecb.europa.eu/paym/pol/critical/html/index.en.html"
+    },
+    {
+      "title": "Correspondent and custodian banks",
+      "url": "https://www.ecb.europa.eu/paym/pol/correspondent-and-custodian-banks/html/index.en.html"
+    },
+    {
+      "title": "SecuRe Pay forum",
+      "url": "https://www.ecb.europa.eu/paym/pol/forum/html/index.en.html"
+    },
+    {
+      "title": "Reserve management services",
+      "url": "https://www.ecb.europa.eu/paym/erms/html/index.en.html"
+    },
+    {
+      "title": "Reserve management services",
+      "url": "https://www.ecb.europa.eu/paym/erms/html/index.en.html"
+    },
+    {
+      "title": "Key aspects",
+      "url": "https://www.ecb.europa.eu/paym/erms/aspects/html/index.en.html"
+    },
+    {
+      "title": "Range of services",
+      "url": "https://www.ecb.europa.eu/paym/erms/service/html/index.en.html"
+    },
+    {
+      "title": "Cash professionals",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/html/index.en.html"
+    },
+    {
+      "title": "Cash professionals",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/html/index.en.html"
+    },
+    {
+      "title": "Cash handling",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/cashhand/html/index.en.html"
+    },
+    {
+      "title": "Cash handling",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/cashhand/html/index.en.html"
+    },
+    {
+      "title": "Authentication devices",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/cashhand/devices/html/index.en.html"
+    },
+    {
+      "title": "Recirculation of banknotes",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/cashhand/recycling/html/index.en.html"
+    },
+    {
+      "title": "Common detector interface specifications",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/cdispec/html/index.en.html"
+    },
+    {
+      "title": "Banknote manufacturer accreditation",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/accreditation/html/index.en.html"
+    },
+    {
+      "title": "Introduction to financial stability",
+      "url": "https://www.ecb.europa.eu/paym/financial-stability/html/index.en.html"
+    },
+    {
+      "title": "Macroprudential Measures",
+      "url": "https://www.ecb.europa.eu/paym/macroprudential-measures/html/index.en.html"
+    },
+    {
+      "title": "Financial stability contact groups",
+      "url": "https://www.ecb.europa.eu/paym/financial_stability_contact_groups/html/index.en.html"
+    },
+    {
+      "title": "Statistics",
+      "url": "https://www.ecb.europa.eu/stats/html/index.en.html"
+    },
+    {
+      "title": "Overview of ECB statistics",
+      "url": "https://www.ecb.europa.eu/stats/html/index.en.html"
+    },
+    {
+      "title": "Key figures",
+      "url": "https://data.ecb.europa.eu/key-figures"
+    },
+    {
+      "title": "ECB Data Portal",
+      "url": "https://data.ecb.europa.eu/"
+    },
+    {
+      "title": "Statistical releases",
+      "url": "https://www.ecb.europa.eu/press/stats/html/index.en.html"
+    },
+    {
+      "title": "PRESS RELEASE - ECB launches pilot project for research access to confidential statistical data\n    13 March 2025",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250313~9d160bc6e2.en.html"
+    },
+    {
+      "title": "Statistics",
+      "url": "https://www.ecb.europa.eu/stats/html/index.en.html"
+    },
+    {
+      "title": "Euro exchange rates",
+      "url": "https://www.ecb.europa.eu/stats/euro-exchange-rates/html/index.en.html"
+    },
+    {
+      "title": "Key ECB interest rates",
+      "url": "https://www.ecb.europa.eu/stats/key-ecb-interest-rates/html/index.en.html"
+    },
+    {
+      "title": "Euro short-term rate (€STR)",
+      "url": "https://www.ecb.europa.eu/stats/euro-short-term-rates/html/index.en.html"
+    },
+    {
+      "title": "Euro short-term rate (€STR)",
+      "url": "https://www.ecb.europa.eu/stats/euro-short-term-rates/html/index.en.html"
+    },
+    {
+      "title": "Interest rate benchmarks",
+      "url": "https://www.ecb.europa.eu/stats/euro-short-term-rates/interest_rate_benchmarks/html/index.en.html"
+    },
+    {
+      "title": "Interest rate benchmarks",
+      "url": "https://www.ecb.europa.eu/stats/euro-short-term-rates/interest_rate_benchmarks/html/index.en.html"
+    },
+    {
+      "title": "Working group on euro risk-free rates",
+      "url": "https://www.ecb.europa.eu/stats/euro-short-term-rates/interest_rate_benchmarks/WG_euro_risk-free_rates/html/index.en.html"
+    },
+    {
+      "title": "Inflation",
+      "url": "https://www.ecb.europa.eu/stats/inflation/html/index.en.html"
+    },
+    {
+      "title": "Euro area yield curves",
+      "url": "https://www.ecb.europa.eu/stats/euro-area-yield-curves/html/index.en.html"
+    },
+    {
+      "title": "All key statistics",
+      "url": "https://www.ecb.europa.eu/stats/all-key-statistics/html/index.en.html"
+    },
+    {
+      "title": "All data services",
+      "url": "https://www.ecb.europa.eu/stats/accessing-our-data/html/index.en.html"
+    },
+    {
+      "title": "Data reporting & standards",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/html/index.en.html"
+    },
+    {
+      "title": "Data reporting & standards",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/html/index.en.html"
+    },
+    {
+      "title": "Governance and quality framework",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/governance_and_quality_framework/html/index.en.html"
+    },
+    {
+      "title": "Co-operation and standards",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/co-operation_and_standards/html/index.en.html"
+    },
+    {
+      "title": "Banks’ data reporting",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/html/index.en.html"
+    },
+    {
+      "title": "Banks’ data reporting",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/html/index.en.html"
+    },
+    {
+      "title": "DPM Alliance",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/dpm/html/index.en.html"
+    },
+    {
+      "title": "IReF",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/IReF/html/index.en.html"
+    },
+    {
+      "title": "JBRC",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/jbrc/html/index.en.html"
+    },
+    {
+      "title": "BIRD",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/reporting/bird/html/index.en.html"
+    },
+    {
+      "title": "AnaCredit",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/html/index.en.html"
+    },
+    {
+      "title": "AnaCredit",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/html/index.en.html"
+    },
+    {
+      "title": "AnaCredit Q&A",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/index.en.html"
+    },
+    {
+      "title": "Public consultations",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/consultations/html/index.en.html"
+    },
+    {
+      "title": "Banking industry dialogue on ESCB statistics and integrated reporting",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/dialogue/html/index.en.html"
+    },
+    {
+      "title": "SDMX – statistical data exchange model",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/sdmx/html/index.en.html"
+    },
+    {
+      "title": "INEXDA - granular data network",
+      "url": "https://www.ecb.europa.eu/stats/ecb_statistics/inexda/html/index.en.html"
+    },
+    {
+      "title": "The euro",
+      "url": "https://www.ecb.europa.eu/euro/html/index.en.html"
+    },
+    {
+      "title": "Overview of the euro",
+      "url": "https://www.ecb.europa.eu/euro/html/index.en.html"
+    },
+    {
+      "title": "Cash professionals",
+      "url": "https://www.ecb.europa.eu/paym/cashprof/html/index.en.html"
+    },
+    {
+      "title": "Banknote and coins\n                statistics",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/banknotes+coins/html/index.en.html"
+    },
+    {
+      "title": "Euro exchange\n                rates",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    },
+    {
+      "title": "Redesign process of our future banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/index.en.html"
+    },
+    {
+      "title": "The euro",
+      "url": "https://www.ecb.europa.eu/euro/html/index.en.html"
+    },
+    {
+      "title": "Digital euro",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html"
+    },
+    {
+      "title": "Digital euro",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html"
+    },
+    {
+      "title": "What it is",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/features/html/index.en.html"
+    },
+    {
+      "title": "What it is",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/features/html/index.en.html"
+    },
+    {
+      "title": "Digital euro and privacy",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/features/privacy/html/index.en.html"
+    },
+    {
+      "title": "How it works",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/how-it-works/html/index.en.html"
+    },
+    {
+      "title": "Why we need it",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/why-we-need-it/html/index.en.html"
+    },
+    {
+      "title": "Innovation platform",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/innovation-platform/html/index.en.html"
+    },
+    {
+      "title": "Pilot",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/pilot/html/index.en.html"
+    },
+    {
+      "title": "Timeline and progress",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/progress/html/index.en.html"
+    },
+    {
+      "title": "In-depth information",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/html/index.en.html"
+    },
+    {
+      "title": "In-depth information",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/html/index.en.html"
+    },
+    {
+      "title": "Governance and stakeholder engagement",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/stakeholder/html/index.en.html"
+    },
+    {
+      "title": "Technical documents and research",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/html/index.en.html"
+    },
+    {
+      "title": "Scheme rulebook",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/rulebook/html/index.en.html"
+    },
+    {
+      "title": "Frequently asked questions",
+      "url": "https://www.ecb.europa.eu/euro/digital_euro/faqs/html/index.en.html"
+    },
+    {
+      "title": "The Eurosystem cash strategy",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/html/index.en.html"
+    },
+    {
+      "title": "The Eurosystem cash strategy",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/html/index.en.html"
+    },
+    {
+      "title": "The role of cash",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/cash_role/html/index.en.html"
+    },
+    {
+      "title": "Issuance and circulation",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/issuance/html/index.en.html"
+    },
+    {
+      "title": "Access to and acceptance of cash",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/acceptance-cash/html/index.en.html"
+    },
+    {
+      "title": "Frequently asked questions",
+      "url": "https://www.ecb.europa.eu/euro/cash_strategy/faqs/html/index.en.html"
+    },
+    {
+      "title": "Banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html"
+    },
+    {
+      "title": "Banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html"
+    },
+    {
+      "title": "Future banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/index.en.html"
+    },
+    {
+      "title": "Current banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+    },
+    {
+      "title": "Current banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/current/html/index.en.html"
+    },
+    {
+      "title": "Denominations",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/current/denominations/html/index.en.html"
+    },
+    {
+      "title": "Design elements",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html"
+    },
+    {
+      "title": "Security features",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/current/security/html/index.en.html"
+    },
+    {
+      "title": "Anti-counterfeiting",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/ac/html/index.en.html"
+    },
+    {
+      "title": "Banknote production and stocks",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/production/html/index.en.html"
+    },
+    {
+      "title": "Damaged and inked-stained banknotes",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/damaged/html/index.en.html"
+    },
+    {
+      "title": "Environment, health and safety",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/environmental/html/index.en.html"
+    },
+    {
+      "title": "Environment, health and safety",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/environmental/html/index.en.html"
+    },
+    {
+      "title": "Product environmental footprint",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/environmental/pef/html/index.en.html"
+    },
+    {
+      "title": "Research and development",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/research/html/index.en.html"
+    },
+    {
+      "title": "Images and reproduction rules",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html"
+    },
+    {
+      "title": "Information and training materials",
+      "url": "https://www.ecb.europa.eu/euro/banknotes/info/html/index.en.html"
+    },
+    {
+      "title": "Coins",
+      "url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html"
+    },
+    {
+      "title": "Coins",
+      "url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html"
+    },
+    {
+      "title": "€2",
+      "url": "https://www.ecb.europa.eu/euro/coins/2euro/html/index.en.html"
+    },
+    {
+      "title": "€1",
+      "url": "https://www.ecb.europa.eu/euro/coins/1euro/html/index.en.html"
+    },
+    {
+      "title": "50 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/50cents/html/index.en.html"
+    },
+    {
+      "title": "20 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/20cents/html/index.en.html"
+    },
+    {
+      "title": "10 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/10cents/html/index.en.html"
+    },
+    {
+      "title": "5 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/5cents/html/index.en.html"
+    },
+    {
+      "title": "2 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/2cents/html/index.en.html"
+    },
+    {
+      "title": "1 cent",
+      "url": "https://www.ecb.europa.eu/euro/coins/1cent/html/index.en.html"
+    },
+    {
+      "title": "Common sides",
+      "url": "https://www.ecb.europa.eu/euro/coins/common/html/index.en.html"
+    },
+    {
+      "title": "€2 commemorative coins",
+      "url": "https://www.ecb.europa.eu/euro/coins/comm/html/index.en.html"
+    },
+    {
+      "title": "Security features",
+      "url": "https://www.ecb.europa.eu/euro/coins/security/html/index.en.html"
+    },
+    {
+      "title": "Collector coins",
+      "url": "https://www.ecb.europa.eu/euro/coins/collect/html/index.en.html"
+    },
+    {
+      "title": "Joining the euro area",
+      "url": "https://www.ecb.europa.eu/euro/changeover/html/index.en.html"
+    },
+    {
+      "title": "Joining the euro area",
+      "url": "https://www.ecb.europa.eu/euro/changeover/html/index.en.html"
+    },
+    {
+      "title": "Bulgaria (2026)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/bulgaria/html/index.en.html"
+    },
+    {
+      "title": "Croatia (2023)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/croatia/html/index.en.html"
+    },
+    {
+      "title": "Lithuania (2015)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/lithuania/html/index.en.html"
+    },
+    {
+      "title": "Latvia (2014)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/latvia/html/index.en.html"
+    },
+    {
+      "title": "Estonia (2011)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/estonia/html/index.en.html"
+    },
+    {
+      "title": "Slovakia (2009)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/slovakia/html/index.en.html"
+    },
+    {
+      "title": "Cyprus (2008)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/cyprus/html/index.en.html"
+    },
+    {
+      "title": "Malta (2008)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/malta/html/index.en.html"
+    },
+    {
+      "title": "Slovenia (2007)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/slovenia/html/index.en.html"
+    },
+    {
+      "title": "Initial changeover (2002)",
+      "url": "https://www.ecb.europa.eu/euro/changeover/2002/html/index.en.html"
+    },
+    {
+      "title": "Exchanging national cash",
+      "url": "https://www.ecb.europa.eu/euro/exchange/html/index.en.html"
+    },
+    {
+      "title": "Exchanging national cash",
+      "url": "https://www.ecb.europa.eu/euro/exchange/html/index.en.html"
+    },
+    {
+      "title": "Austria",
+      "url": "https://www.ecb.europa.eu/euro/exchange/au/html/index.en.html"
+    },
+    {
+      "title": "Belgium",
+      "url": "https://www.ecb.europa.eu/euro/exchange/be/html/index.en.html"
+    },
+    {
+      "title": "Bulgaria",
+      "url": "https://www.ecb.europa.eu/euro/exchange/bg/html/index.en.html"
+    },
+    {
+      "title": "Croatia",
+      "url": "https://www.ecb.europa.eu/euro/exchange/hr/html/index.en.html"
+    },
+    {
+      "title": "Cyprus",
+      "url": "https://www.ecb.europa.eu/euro/exchange/cy/html/index.en.html"
+    },
+    {
+      "title": "Estonia",
+      "url": "https://www.ecb.europa.eu/euro/exchange/et/html/index.en.html"
+    },
+    {
+      "title": "Finland",
+      "url": "https://www.ecb.europa.eu/euro/exchange/fi/html/index.en.html"
+    },
+    {
+      "title": "France",
+      "url": "https://www.ecb.europa.eu/euro/exchange/fr/html/index.en.html"
+    },
+    {
+      "title": "Germany",
+      "url": "https://www.ecb.europa.eu/euro/exchange/de/html/index.en.html"
+    },
+    {
+      "title": "Greece",
+      "url": "https://www.ecb.europa.eu/euro/exchange/gr/html/index.en.html"
+    },
+    {
+      "title": "Ireland",
+      "url": "https://www.ecb.europa.eu/euro/exchange/ir/html/index.en.html"
+    },
+    {
+      "title": "Latvia",
+      "url": "https://www.ecb.europa.eu/euro/exchange/lv/html/index.en.html"
+    },
+    {
+      "title": "Italy",
+      "url": "https://www.ecb.europa.eu/euro/exchange/it/html/index.en.html"
+    },
+    {
+      "title": "Lithuania",
+      "url": "https://www.ecb.europa.eu/euro/exchange/lt/html/index.en.html"
+    },
+    {
+      "title": "Luxembourg",
+      "url": "https://www.ecb.europa.eu/euro/exchange/lu/html/index.en.html"
+    },
+    {
+      "title": "Malta",
+      "url": "https://www.ecb.europa.eu/euro/exchange/mt/html/index.en.html"
+    },
+    {
+      "title": "The Netherlands",
+      "url": "https://www.ecb.europa.eu/euro/exchange/nl/html/index.en.html"
+    },
+    {
+      "title": "Portugal",
+      "url": "https://www.ecb.europa.eu/euro/exchange/pt/html/index.en.html"
+    },
+    {
+      "title": "Slovakia",
+      "url": "https://www.ecb.europa.eu/euro/exchange/slovakia/html/index.en.html"
+    },
+    {
+      "title": "Slovenia",
+      "url": "https://www.ecb.europa.eu/euro/exchange/sl/html/index.en.html"
+    },
+    {
+      "title": "Spain",
+      "url": "https://www.ecb.europa.eu/euro/exchange/es/html/index.en.html"
+    },
+    {
+      "title": "Visually impaired people",
+      "url": "https://www.ecb.europa.eu/euro/visually/html/index.en.html"
+    },
+    {
+      "title": "Research",
+      "url": "https://www.ecb.europa.eu/pub/html/index.en.html"
+    },
+    {
+      "title": "Overview of ECB research",
+      "url": "https://www.ecb.europa.eu/pub/html/index.en.html"
+    },
+    {
+      "title": "Conferences & seminars",
+      "url": "https://www.ecb.europa.eu/press/conferences/html/index.en.html"
+    },
+    {
+      "title": "Opportunities for researchers",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/html/index.en.html"
+    },
+    {
+      "title": "Research Bulletin",
+      "url": "https://www.ecb.europa.eu/press/research-publications/resbull/html/index.en.html"
+    },
+    {
+      "title": "Research",
+      "url": "https://www.ecb.europa.eu/pub/html/index.en.html"
+    },
+    {
+      "title": "Economic research",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/html/index.en.html"
+    },
+    {
+      "title": "Economic research",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/html/index.en.html"
+    },
+    {
+      "title": "Research agenda",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/html/index.en.html"
+    },
+    {
+      "title": "Research agenda",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy, strategy and implementation",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/monetary_policy/html/index.en.html"
+    },
+    {
+      "title": "Fiscal policy and governance within EMU",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/fiscal_policy/html/index.en.html"
+    },
+    {
+      "title": "International macro and finance",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/international/html/index.en.html"
+    },
+    {
+      "title": "Real sector and microeconomic analysis",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/real_sector/html/index.en.html"
+    },
+    {
+      "title": "Forecasting and business cycle analysis",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/forecasting/html/index.en.html"
+    },
+    {
+      "title": "Macro-finance, systemic risk and macroprudential policy",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/macro-finance/html/index.en.html"
+    },
+    {
+      "title": "Financial institutions, microprudential policy, financial markets and payments",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/research_agenda/financial_institutions/html/index.en.html"
+    },
+    {
+      "title": "Opportunities for researchers",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/html/index.en.html"
+    },
+    {
+      "title": "Opportunities for researchers",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/html/index.en.html"
+    },
+    {
+      "title": "Wim Duisenberg Fellowship",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/duisenberg/html/index.en.html"
+    },
+    {
+      "title": "Regular Research Visitors",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/visitors/html/index.en.html"
+    },
+    {
+      "title": "Lamfalussy Fellowship",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/lamfalussy/html/index.en.html"
+    },
+    {
+      "title": "Summer Research Graduate Programme",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/graduate/html/index.en.html"
+    },
+    {
+      "title": "Student Research Traineeship Programme",
+      "url": "https://www.ecb.europa.eu/pub/economic-research/programmes/traineeship/html/index.en.html"
+    },
+    {
+      "title": "Legal Research",
+      "url": "https://www.ecb.europa.eu/pub/legal-research/html/index.en.html"
+    },
+    {
+      "title": "Legal Research",
+      "url": "https://www.ecb.europa.eu/pub/legal-research/html/index.en.html"
+    },
+    {
+      "title": "Legal conferences and seminars",
+      "url": "https://www.ecb.europa.eu/pub/legal-research/legal-conferences-and-seminars/html/index.en.html"
+    },
+    {
+      "title": "Legal Research Programme",
+      "url": "https://www.ecb.europa.eu/pub/legal-research/legal-research-programme/html/index.en.html"
+    },
+    {
+      "title": "Research papers",
+      "url": "https://www.ecb.europa.eu/pub/research/html/index.en.html"
+    },
+    {
+      "title": "Research papers",
+      "url": "https://www.ecb.europa.eu/pub/research/html/index.en.html"
+    },
+    {
+      "title": "Papers by authors",
+      "url": "https://www.ecb.europa.eu/pub/research/authors/html/index.en.html"
+    },
+    {
+      "title": "ECB researchers",
+      "url": "https://www.ecb.europa.eu/pub/researchers/html/index.en.html"
+    },
+    {
+      "title": "Research networks",
+      "url": "https://www.ecb.europa.eu/pub/research-networks/html/index.en.html"
+    },
+    {
+      "title": "News & publications",
+      "url": "https://www.ecb.europa.eu/press/html/index.en.html"
+    },
+    {
+      "title": "Browse all news & publications",
+      "url": "https://www.ecb.europa.eu/press/pubbydate/html/index.en.html"
+    },
+    {
+      "title": "Press releases",
+      "url": "https://www.ecb.europa.eu/press/pr/html/index.en.html"
+    },
+    {
+      "title": "Statistical releases",
+      "url": "https://www.ecb.europa.eu/press/stats/html/index.en.html"
+    },
+    {
+      "title": "Speeches",
+      "url": "https://www.ecb.europa.eu/press/key/html/index.en.html"
+    },
+    {
+      "title": "Interviews",
+      "url": "https://www.ecb.europa.eu/press/inter/html/index.en.html"
+    },
+    {
+      "title": "The ECB Blog",
+      "url": "https://www.ecb.europa.eu/press/blog/html/index.en.html"
+    },
+    {
+      "title": "Podcasts & webcasts",
+      "url": "https://www.ecb.europa.eu/press/tvservices/html/index.en.html"
+    },
+    {
+      "title": "Payments news & events",
+      "url": "https://www.ecb.europa.eu/press/intro/html/index.en.html"
+    },
+    {
+      "title": "Press hub",
+      "url": "https://www.ecb.europa.eu/press/contacts/html/index.en.html"
+    },
+    {
+      "title": "News & publications",
+      "url": "https://www.ecb.europa.eu/press/html/index.en.html"
+    },
+    {
+      "title": "Governing Council decisions",
+      "url": "https://www.ecb.europa.eu/press/govcdec/html/index.en.html"
+    },
+    {
+      "title": "Governing Council decisions",
+      "url": "https://www.ecb.europa.eu/press/govcdec/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu/press/govcdec/mopo/html/index.en.html"
+    },
+    {
+      "title": "Other decisions",
+      "url": "https://www.ecb.europa.eu/press/govcdec/otherdec/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy accounts",
+      "url": "https://www.ecb.europa.eu/press/accounts/html/index.en.html"
+    },
+    {
+      "title": "Economic Bulletin",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/index.en.html"
+    },
+    {
+      "title": "Economic Bulletin",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/index.en.html"
+    },
+    {
+      "title": "Articles",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/html/index.en.html"
+    },
+    {
+      "title": "Focus",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/html/index.en.html"
+    },
+    {
+      "title": "Monthly Bulletin",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html"
+    },
+    {
+      "title": "Macroeconomic projections",
+      "url": "https://www.ecb.europa.eu/press/projections/html/index.en.html"
+    },
+    {
+      "title": "Annual reports & financial statements",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/html/index.en.html"
+    },
+    {
+      "title": "Annual reports & financial statements",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/html/index.en.html"
+    },
+    {
+      "title": "Annual Report",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/html/index.en.html"
+    },
+    {
+      "title": "Annual Report",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/html/index.en.html"
+    },
+    {
+      "title": "Annual Accounts",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/annual-accounts/html/index.en.html"
+    },
+    {
+      "title": "Eurosystem balance sheet",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/balance/html/index.en.html"
+    },
+    {
+      "title": "Weekly financial statements",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/html/index.en.html"
+    },
+    {
+      "title": "Weekly financial statements",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/html/index.en.html"
+    },
+    {
+      "title": "Disaggregated data",
+      "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/dis/html/index.en.html"
+    },
+    {
+      "title": "Financial stability publications",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/html/index.en.html"
+    },
+    {
+      "title": "Financial stability publications",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/html/index.en.html"
+    },
+    {
+      "title": "Financial Stability Review",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.en.html"
+    },
+    {
+      "title": "Financial Stability Review",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.en.html"
+    },
+    {
+      "title": "Special features & boxes",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/index.en.html"
+    },
+    {
+      "title": "Macroprudential Bulletin",
+      "url": "https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/index.en.html"
+    },
+    {
+      "title": "Research publications",
+      "url": "https://www.ecb.europa.eu/press/research-publications/html/index.en.html"
+    },
+    {
+      "title": "Research publications",
+      "url": "https://www.ecb.europa.eu/press/research-publications/html/index.en.html"
+    },
+    {
+      "title": "Research Bulletin",
+      "url": "https://www.ecb.europa.eu/press/research-publications/resbull/html/index.en.html"
+    },
+    {
+      "title": "Working papers",
+      "url": "https://www.ecb.europa.eu/press/research-publications/working-papers/html/index.en.html"
+    },
+    {
+      "title": "Discussion papers",
+      "url": "https://www.ecb.europa.eu/press/research-publications/discussion-papers/html/index.en.html"
+    },
+    {
+      "title": "Occasional papers",
+      "url": "https://www.ecb.europa.eu/press/research-publications/occasional-papers/html/index.en.html"
+    },
+    {
+      "title": "Legal working papers",
+      "url": "https://www.ecb.europa.eu/press/research-publications/legal-working-papers/html/index.en.html"
+    },
+    {
+      "title": "Statistics papers",
+      "url": "https://www.ecb.europa.eu/press/research-publications/statistics-papers/html/index.en.html"
+    },
+    {
+      "title": "Other publications",
+      "url": "https://www.ecb.europa.eu/press/other-publications/html/index.en.html"
+    },
+    {
+      "title": "Other publications",
+      "url": "https://www.ecb.europa.eu/press/other-publications/html/index.en.html"
+    },
+    {
+      "title": "Letters to MEPs",
+      "url": "https://www.ecb.europa.eu/press/other-publications/mep-letters/html/index.en.html"
+    },
+    {
+      "title": "Convergence Report",
+      "url": "https://www.ecb.europa.eu/press/other-publications/convergence/html/index.en.html"
+    },
+    {
+      "title": "International Role of the Euro",
+      "url": "https://www.ecb.europa.eu/press/other-publications/ire/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy press conference",
+      "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy press conference",
+      "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy statements",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy statements at a glance",
+      "url": "https://www.ecb.europa.eu/press/press_conference/visual-mps/html/index.en.html"
+    },
+    {
+      "title": "Conferences & seminars",
+      "url": "https://www.ecb.europa.eu/press/conferences/html/index.en.html"
+    },
+    {
+      "title": "Conferences & seminars",
+      "url": "https://www.ecb.europa.eu/press/conferences/html/index.en.html"
+    },
+    {
+      "title": "Forum on Central Banking",
+      "url": "https://www.ecb.europa.eu/press/conferences/ecbforum/html/index.en.html"
+    },
+    {
+      "title": "Forum on Central Banking",
+      "url": "https://www.ecb.europa.eu/press/conferences/ecbforum/html/index.en.html"
+    },
+    {
+      "title": "Young Economist Prize",
+      "url": "https://www.ecb.europa.eu/press/conferences/ecbforum/YE_competition/html/index.en.html"
+    },
+    {
+      "title": "Past editions",
+      "url": "https://www.ecb.europa.eu/press/conferences/ecbforum/previous_fora/html/index.en.html"
+    },
+    {
+      "title": "Civil society engagement",
+      "url": "https://www.ecb.europa.eu/press/conferences/civil_society_engagement/html/index.en.html"
+    },
+    {
+      "title": "Calendars",
+      "url": "https://www.ecb.europa.eu/press/calendars/html/index.en.html"
+    },
+    {
+      "title": "Calendars",
+      "url": "https://www.ecb.europa.eu/press/calendars/html/index.en.html"
+    },
+    {
+      "title": "Weekly schedule",
+      "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    },
+    {
+      "title": "Meetings of the Governing Council and the General Council",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    },
+    {
+      "title": "Statistical calendars",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html"
+    },
+    {
+      "title": "Statistical calendars",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html"
+    },
+    {
+      "title": "Money, banking and financial markets",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/mfm/html/index.en.html"
+    },
+    {
+      "title": "Euro area economic and financial developments by institutional sector",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/eaa/html/index.en.html"
+    },
+    {
+      "title": "External transactions and positions",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/ext/html/index.en.html"
+    },
+    {
+      "title": "Prices, output, demand and labour",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/ges/html/index.en.html"
+    },
+    {
+      "title": "Government finance",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/gf/html/index.en.html"
+    },
+    {
+      "title": "Supervisory and prudential statistics",
+      "url": "https://www.ecb.europa.eu/press/calendars/statscal/sps/html/index.en.html"
+    },
+    {
+      "title": "Eurosystem's tender operations",
+      "url": "https://www.ecb.europa.eu/press/calendars/caleu/html/index.en.html"
+    },
+    {
+      "title": "Reserve maintenance period",
+      "url": "https://www.ecb.europa.eu/press/calendars/reserve/html/index.en.html"
+    },
+    {
+      "title": "ECB banking supervision",
+      "url": "https://www.bankingsupervision.europa.eu/home/html/index.en.html"
+    },
+    {
+      "title": "About us",
+      "url": "https://www.ecb.europa.eu/ecb/html/index.en.html"
+    },
+    {
+      "title": "About us",
+      "url": "https://www.ecb.europa.eu/ecb/html/index.en.html"
+    },
+    {
+      "title": "All about us",
+      "url": "https://www.ecb.europa.eu/ecb/all-about-us/html/index.en.html"
+    },
+    {
+      "title": "Our leadership",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/html/index.en.html"
+    },
+    {
+      "title": "Our leadership",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/html/index.en.html"
+    },
+    {
+      "title": "Executive Board",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/eb/html/index.en.html"
+    },
+    {
+      "title": "Governing Council",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/govc/html/index.en.html"
+    },
+    {
+      "title": "General Council",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/genc/html/index.en.html"
+    },
+    {
+      "title": "Supervisory Board",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/ssm/html/index.en.html"
+    },
+    {
+      "title": "Our organisation",
+      "url": "https://www.ecb.europa.eu/ecb/orga/html/index.en.html"
+    },
+    {
+      "title": "Our organisation",
+      "url": "https://www.ecb.europa.eu/ecb/orga/html/index.en.html"
+    },
+    {
+      "title": "ECB, ESCB and the Eurosystem",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/html/index.en.html"
+    },
+    {
+      "title": "ECB, ESCB and the Eurosystem",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/html/index.en.html"
+    },
+    {
+      "title": "ECB mission",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/ecb-mission/html/index.en.html"
+    },
+    {
+      "title": "Eurosystem mission",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/eurosystem-mission/html/index.en.html"
+    },
+    {
+      "title": "Strategic intents",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/strategic-intents/html/index.en.html"
+    },
+    {
+      "title": "Organisational principles",
+      "url": "https://www.ecb.europa.eu/ecb/orga/escb/organisational-principles/html/index.en.html"
+    },
+    {
+      "title": "Our tasks and responsibilities",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/html/index.en.html"
+    },
+    {
+      "title": "Our tasks and responsibilities",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/monpol/html/index.en.html"
+    },
+    {
+      "title": "Statistics",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/statistics/html/index.en.html"
+    },
+    {
+      "title": "Financial stability and macroprudential policy",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/html/index.en.html"
+    },
+    {
+      "title": "Financial stability and macroprudential policy",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/html/index.en.html"
+    },
+    {
+      "title": "Our tasks",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/tasks/html/index.en.html"
+    },
+    {
+      "title": "Strategy",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/strategy/html/index.en.html"
+    },
+    {
+      "title": "Institutional framework",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/framework/html/index.en.html"
+    },
+    {
+      "title": "Banknotes",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/euro/html/index.en.html"
+    },
+    {
+      "title": "Payments & securities",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/paym/html/index.en.html"
+    },
+    {
+      "title": "European relations",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/europe/html/index.en.html"
+    },
+    {
+      "title": "European relations",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/europe/html/index.en.html"
+    },
+    {
+      "title": "European cooperation",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/europe/cooperation/html/index.en.html"
+    },
+    {
+      "title": "EMU economic governance",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/europe/emu/html/index.en.html"
+    },
+    {
+      "title": "International affairs",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/international/html/index.en.html"
+    },
+    {
+      "title": "International affairs",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/international/html/index.en.html"
+    },
+    {
+      "title": "International relations and analysis",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/international/institutions/html/index.en.html"
+    },
+    {
+      "title": "International central bank cooperation",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/international/financialarchitecture/html/index.en.html"
+    },
+    {
+      "title": "Foreign reserves and own funds",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/reserves/html/index.en.html"
+    },
+    {
+      "title": "Foreign exchange operations",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/forex/html/index.en.html"
+    },
+    {
+      "title": "Organisation chart of the ECB",
+      "url": "https://www.ecb.europa.eu/ecb/orga/orgachart/html/index.en.html"
+    },
+    {
+      "title": "Capital subscription",
+      "url": "https://www.ecb.europa.eu/ecb/orga/capital/html/index.en.html"
+    },
+    {
+      "title": "Corporate governance",
+      "url": "https://www.ecb.europa.eu/ecb/orga/governance/html/index.en.html"
+    },
+    {
+      "title": "Eurosystem financial literacy network",
+      "url": "https://www.ecb.europa.eu/ecb/orga/eurosystem-financial-literacy-network/html/index.en.html"
+    },
+    {
+      "title": "Our values",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/html/index.en.html"
+    },
+    {
+      "title": "Our values",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/html/index.en.html"
+    },
+    {
+      "title": "Independence",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/independence/html/index.en.html"
+    },
+    {
+      "title": "Transparency",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/transparency/html/index.en.html"
+    },
+    {
+      "title": "Integrity",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/integrity/html/index.en.html"
+    },
+    {
+      "title": "Integrity",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/integrity/html/index.en.html"
+    },
+    {
+      "title": "Ethics Network of Multilateral Organizations (ENMO)",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/integrity/enmo/html/index.en.html"
+    },
+    {
+      "title": "Accountability",
+      "url": "https://www.ecb.europa.eu/ecb/our-values/accountability/html/index.en.html"
+    },
+    {
+      "title": "Our history, arts and culture",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/html/index.en.html"
+    },
+    {
+      "title": "Our history, arts and culture",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/html/index.en.html"
+    },
+    {
+      "title": "Our history",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/html/index.en.html"
+    },
+    {
+      "title": "Our history",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/html/index.en.html"
+    },
+    {
+      "title": "25 years of the ECB",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/25-year-anniversary-of-the-ecb/html/index.en.html"
+    },
+    {
+      "title": "Economic and Monetary Union",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/emu/html/index.en.html"
+    },
+    {
+      "title": "EU enlargement",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/enlargement/html/index.en.html"
+    },
+    {
+      "title": "European Union",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/history/ec/html/index.en.html"
+    },
+    {
+      "title": "Archives",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/html/index.en.html"
+    },
+    {
+      "title": "Archives",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/html/index.en.html"
+    },
+    {
+      "title": "Committee of Governors",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/cog/html/index.en.html"
+    },
+    {
+      "title": "European Monetary Cooperation Fund",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/emcf/html/index.en.html"
+    },
+    {
+      "title": "Delors Committee",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/delors/html/index.en.html"
+    },
+    {
+      "title": "European Monetary Institute",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/emi/html/index.en.html"
+    },
+    {
+      "title": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/archives/european/html/index.en.html"
+    },
+    {
+      "title": "Arts and culture",
+      "url": "https://www.ecb.europa.eu/ecb/history-arts-culture/artsculture/html/index.en.html"
+    },
+    {
+      "title": "Our legal framework",
+      "url": "https://www.ecb.europa.eu/ecb/legal/html/index.en.html"
+    },
+    {
+      "title": "Our legal framework",
+      "url": "https://www.ecb.europa.eu/ecb/legal/html/index.en.html"
+    },
+    {
+      "title": "EUR-Lex - Frequently asked questions",
+      "url": "https://www.ecb.europa.eu/ecb/legal/faqs/html/index.en.html"
+    },
+    {
+      "title": "Institutional framework",
+      "url": "https://www.ecb.europa.eu/ecb/legal/fsla/html/index.en.html"
+    },
+    {
+      "title": "Climate change and the ECB",
+      "url": "https://www.ecb.europa.eu/ecb/climate/html/index.en.html"
+    },
+    {
+      "title": "Climate change and the ECB",
+      "url": "https://www.ecb.europa.eu/ecb/climate/html/index.en.html"
+    },
+    {
+      "title": "Our climate and nature plan",
+      "url": "https://www.ecb.europa.eu/ecb/climate/our-climate-and-nature-plan/html/index.en.html"
+    },
+    {
+      "title": "Climate-related financial disclosures",
+      "url": "https://www.ecb.europa.eu/ecb/climate/climate-related-financial-disclosures/html/index.en.html"
+    },
+    {
+      "title": "Managing climate-related risks",
+      "url": "https://www.ecb.europa.eu/ecb/climate/managing_mitigating_climatel_risk/html/index.en.html"
+    },
+    {
+      "title": "Supporting the green transition",
+      "url": "https://www.ecb.europa.eu/ecb/climate/green_transition/html/index.en.html"
+    },
+    {
+      "title": "Fostering wider action",
+      "url": "https://www.ecb.europa.eu/ecb/climate/wider_action/html/index.en.html"
+    },
+    {
+      "title": "Our approach",
+      "url": "https://www.ecb.europa.eu/ecb/climate/our_approach/html/index.en.html"
+    },
+    {
+      "title": "Environmental protection",
+      "url": "https://www.ecb.europa.eu/ecb/climate/green/html/index.en.html"
+    },
+    {
+      "title": "Climate Insurance Protection Gap",
+      "url": "https://www.ecb.europa.eu/ecb/climate/climate/html/index.en.html"
+    },
+    {
+      "title": "Sanctions imposed by the ECB",
+      "url": "https://www.ecb.europa.eu/ecb/sanctions/html/index.en.html"
+    },
+    {
+      "title": "Procurement",
+      "url": "https://www.ecb.europa.eu/ecb/jobsproc/html/index.en.html"
+    },
+    {
+      "title": "Procurement",
+      "url": "https://www.ecb.europa.eu/ecb/jobsproc/html/index.en.html"
+    },
+    {
+      "title": "Tenders",
+      "url": "https://www.ecb.europa.eu/ecb/jobsproc/tenders/html/index.en.html"
+    },
+    {
+      "title": "Archive",
+      "url": "https://www.ecb.europa.eu/ecb/jobsproc/archive/html/index.en.html"
+    },
+    {
+      "title": "Electronic tendering system",
+      "url": "https://www.ecb.europa.eu/ecb/jobsproc/sourcing/html/index.en.html"
+    },
+    {
+      "title": "Access to documents",
+      "url": "https://www.ecb.europa.eu/ecb/access_to_documents/html/index.en.html"
+    },
+    {
+      "title": "Access to documents",
+      "url": "https://www.ecb.europa.eu/ecb/access_to_documents/html/index.en.html"
+    },
+    {
+      "title": "Public Register of Documents",
+      "url": "https://www.ecb.europa.eu/ecb/access_to_documents/document/html/index.en.html"
+    },
+    {
+      "title": "Contacts",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/html/index.en.html"
+    },
+    {
+      "title": "Contacts",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/html/index.en.html"
+    },
+    {
+      "title": "Address",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/address/html/index.en.html"
+    },
+    {
+      "title": "ECB public holidays",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/working-hours/html/index.en.html"
+    },
+    {
+      "title": "ECB & You",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/html/index.en.html"
+    },
+    {
+      "title": "ECB & You",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/html/index.en.html"
+    },
+    {
+      "title": "All about ECB & You",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/educational/html/index.en.html"
+    },
+    {
+      "title": "Explainers",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/html/index.en.html"
+    },
+    {
+      "title": "Explainers",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/html/index.en.html"
+    },
+    {
+      "title": "Key things to know about the ECB",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/key-things-to-know-about-the-ecb/html/index.en.html"
+    },
+    {
+      "title": "ECB and beyond",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/ecb-and-beyond/html/index.en.html"
+    },
+    {
+      "title": "Our currency, the euro",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/our-currency-the-euro/html/index.en.html"
+    },
+    {
+      "title": "Making payments",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/making-payments/html/index.en.html"
+    },
+    {
+      "title": "Monetary policy",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/path-monetary-policy/html/index.en.html"
+    },
+    {
+      "title": "Unconventional monetary policy instruments",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/unconventional-monetary-policy-instruments/html/index.en.html"
+    },
+    {
+      "title": "Banking supervision",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/path-banking-supervision/html/index.en.html"
+    },
+    {
+      "title": "Climate change and the ECB",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/climate-change-and-the-ecb/html/index.en.html"
+    },
+    {
+      "title": "Test your knowledge",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/test-your-knowledge/html/index.en.html"
+    },
+    {
+      "title": "Youth initiatives",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/youth-initiatives/html/index.en.html"
+    },
+    {
+      "title": "Youth initiatives",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/youth-initiatives/html/index.en.html"
+    },
+    {
+      "title": "Girls' IT Bootcamp",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/youth-initiatives/girls_it_bootcamp/html/index.en.html"
+    },
+    {
+      "title": "Financial literacy in Europe",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/financial_literacy_europe/html/index.en.html"
+    },
+    {
+      "title": "Financial literacy in Europe",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/financial_literacy_europe/html/index.en.html"
+    },
+    {
+      "title": "The gender gap in financial literacy",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/financial_literacy_europe/The-gender-gap-in-financial-literacy/html/index.en.html"
+    },
+    {
+      "title": "Everyone needs stability",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/everyone-needs-stability/html/index.en.html"
+    },
+    {
+      "title": "ECB & You broadcasts",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/ecb_and_you/html/index.en.html"
+    },
+    {
+      "title": "ECB in Frankfurt",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/ecb-in-frankfurt/html/index.en.html"
+    },
+    {
+      "title": "Ask us",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/ask_us/html/index.en.html"
+    },
+    {
+      "title": "Visit us",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/visits/html/index.en.html"
+    },
+    {
+      "title": "Visit us",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/visits/html/index.en.html"
+    },
+    {
+      "title": "Main building",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/visits/premises/html/index.en.html"
+    },
+    {
+      "title": "Careers",
+      "url": "https://www.ecb.europa.eu/careers/html/index.en.html"
+    },
+    {
+      "title": "Careers",
+      "url": "https://www.ecb.europa.eu/careers/html/index.en.html"
+    },
+    {
+      "title": "All about careers",
+      "url": "https://www.ecb.europa.eu/careers/all-about-careers/html/index.en.html"
+    },
+    {
+      "title": "Vacancies",
+      "url": "https://www.ecb.europa.eu/careers/vacancies/html/index.en.html"
+    },
+    {
+      "title": "Who we are",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/html/index.en.html"
+    },
+    {
+      "title": "Who we are",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/html/index.en.html"
+    },
+    {
+      "title": "About the ECB",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/about/html/index.en.html"
+    },
+    {
+      "title": "Meet our people",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/employee-portraits/html/index.en.html"
+    },
+    {
+      "title": "Life in Frankfurt",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/life-in-frankfurt/html/index.en.html"
+    },
+    {
+      "title": "Values at work",
+      "url": "https://www.ecb.europa.eu/careers/working-at-the-ecb/values-at-work/html/index.en.html"
+    },
+    {
+      "title": "Why we value diversity",
+      "url": "https://www.ecb.europa.eu/careers/why-we-value-diversity/html/index.en.html"
+    },
+    {
+      "title": "Why we value diversity",
+      "url": "https://www.ecb.europa.eu/careers/why-we-value-diversity/html/index.en.html"
+    },
+    {
+      "title": "Women@ECB",
+      "url": "https://www.ecb.europa.eu/careers/why-we-value-diversity/women/html/index.en.html"
+    },
+    {
+      "title": "Diversity networks",
+      "url": "https://www.ecb.europa.eu/careers/why-we-value-diversity/diversity-networks/html/index.en.html"
+    },
+    {
+      "title": "What we offer",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/html/index.en.html"
+    },
+    {
+      "title": "What we offer",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/html/index.en.html"
+    },
+    {
+      "title": "Benefits & rewards",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/benefits/html/index.en.html"
+    },
+    {
+      "title": "Contract types",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/html/index.en.html"
+    },
+    {
+      "title": "Contract types",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/html/index.en.html"
+    },
+    {
+      "title": "Fixed-term",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/fixed/html/index.en.html"
+    },
+    {
+      "title": "Short-term",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/short/html/index.en.html"
+    },
+    {
+      "title": "ESCB/IO",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/escb/html/index.en.html"
+    },
+    {
+      "title": "Other",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/contract/other/html/index.en.html"
+    },
+    {
+      "title": "Traineeship",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html"
+    },
+    {
+      "title": "Graduate programme",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/graduate/html/index.en.html"
+    },
+    {
+      "title": "ECB Scholarship for Women",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/wecs/html/index.en.html"
+    },
+    {
+      "title": "ECB Scholarship for Ukrainian graduates",
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/ukrainian-scholarship/html/index.en.html"
+    },
+    {
+      "title": "How you can join us",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/html/index.en.html"
+    },
+    {
+      "title": "How you can join us",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/html/index.en.html"
+    },
+    {
+      "title": "How to apply",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/how-to-apply/html/index.en.html"
+    },
+    {
+      "title": "How we hire",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/how-we-hire/html/index.en.html"
+    },
+    {
+      "title": "You have been selected, what next?",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/html/index.en.html"
+    },
+    {
+      "title": "You have been selected, what next?",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/html/index.en.html"
+    },
+    {
+      "title": "Fixed-term employee",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/fixed-term/html/index.en.html"
+    },
+    {
+      "title": "Short-term employee",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/short-term/html/index.en.html"
+    },
+    {
+      "title": "Trainee",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/trainee/html/index.en.html"
+    },
+    {
+      "title": "Cost-free secondee",
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/newcomers/cost-free/html/index.en.html"
+    },
+    {
+      "title": "FAQs",
+      "url": "https://www.ecb.europa.eu/careers/faq/html/index.en.html"
+    },
+    {
+      "title": "Search",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html#"
+    },
+    {
+      "title": "Home",
+      "url": "https://www.ecb.europa.eu/"
+    },
+    {
+      "title": "TARGET closing days",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/working-hours/html/index.en.html"
+    },
+    {
+      "title": "USD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+    },
+    {
+      "title": "US dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+    },
+    {
+      "title": "1.1179",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+    },
+    {
+      "title": "JPY",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html"
+    },
+    {
+      "title": "Japanese yen",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html"
+    },
+    {
+      "title": "176.95",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html"
+    },
+    {
+      "title": "CZK",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-czk.en.html"
+    },
+    {
+      "title": "Czech koruna",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-czk.en.html"
+    },
+    {
+      "title": "24.343",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-czk.en.html"
+    },
+    {
+      "title": "DKK",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-dkk.en.html"
+    },
+    {
+      "title": "Danish krone",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-dkk.en.html"
+    },
+    {
+      "title": "7.4735",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-dkk.en.html"
+    },
+    {
+      "title": "GBP",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html"
+    },
+    {
+      "title": "Pound sterling",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html"
+    },
+    {
+      "title": "0.83358",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html"
+    },
+    {
+      "title": "HUF",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-huf.en.html"
+    },
+    {
+      "title": "Hungarian forint",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-huf.en.html"
+    },
+    {
+      "title": "364.40",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-huf.en.html"
+    },
+    {
+      "title": "PLN",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-pln.en.html"
+    },
+    {
+      "title": "Polish zloty",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-pln.en.html"
+    },
+    {
+      "title": "4.4190",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-pln.en.html"
+    },
+    {
+      "title": "RON",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ron.en.html"
+    },
+    {
+      "title": "Romanian leu",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ron.en.html"
+    },
+    {
+      "title": "5.3428",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ron.en.html"
+    },
+    {
+      "title": "SEK",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sek.en.html"
+    },
+    {
+      "title": "Swedish krona",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sek.en.html"
+    },
+    {
+      "title": "10.9515",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sek.en.html"
+    },
+    {
+      "title": "CHF",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-chf.en.html"
+    },
+    {
+      "title": "Swiss franc",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-chf.en.html"
+    },
+    {
+      "title": "0.9166",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-chf.en.html"
+    },
+    {
+      "title": "ISK",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-isk.en.html"
+    },
+    {
+      "title": "Icelandic krona",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-isk.en.html"
+    },
+    {
+      "title": "136.20",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-isk.en.html"
+    },
+    {
+      "title": "NOK",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nok.en.html"
+    },
+    {
+      "title": "Norwegian krone",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nok.en.html"
+    },
+    {
+      "title": "10.3185",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nok.en.html"
+    },
+    {
+      "title": "TRY",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-try.en.html"
+    },
+    {
+      "title": "Turkish lira",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-try.en.html"
+    },
+    {
+      "title": "55.8921",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-try.en.html"
+    },
+    {
+      "title": "AUD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-aud.en.html"
+    },
+    {
+      "title": "Australian dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-aud.en.html"
+    },
+    {
+      "title": "1.6007",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-aud.en.html"
+    },
+    {
+      "title": "BRL",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html"
+    },
+    {
+      "title": "Brazilian real",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html"
+    },
+    {
+      "title": "6.1411",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html"
+    },
+    {
+      "title": "CAD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cad.en.html"
+    },
+    {
+      "title": "Canadian dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cad.en.html"
+    },
+    {
+      "title": "1.5623",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cad.en.html"
+    },
+    {
+      "title": "CNY",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cny.en.html"
+    },
+    {
+      "title": "Chinese yuan renminbi",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cny.en.html"
+    },
+    {
+      "title": "7.4590",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cny.en.html"
+    },
+    {
+      "title": "HKD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-hkd.en.html"
+    },
+    {
+      "title": "Hong Kong dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-hkd.en.html"
+    },
+    {
+      "title": "8.7710",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-hkd.en.html"
+    },
+    {
+      "title": "IDR",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-idr.en.html"
+    },
+    {
+      "title": "Indonesian rupiah",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-idr.en.html"
+    },
+    {
+      "title": "20275.02",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-idr.en.html"
+    },
+    {
+      "title": "ILS",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ils.en.html"
+    },
+    {
+      "title": "Israeli shekel",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ils.en.html"
+    },
+    {
+      "title": "3.5292",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-ils.en.html"
+    },
+    {
+      "title": "INR",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-inr.en.html"
+    },
+    {
+      "title": "Indian rupee",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-inr.en.html"
+    },
+    {
+      "title": "105.9155",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-inr.en.html"
+    },
+    {
+      "title": "KRW",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-krw.en.html"
+    },
+    {
+      "title": "South Korean won",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-krw.en.html"
+    },
+    {
+      "title": "1503.12",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-krw.en.html"
+    },
+    {
+      "title": "MXN",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-mxn.en.html"
+    },
+    {
+      "title": "Mexican peso",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-mxn.en.html"
+    },
+    {
+      "title": "20.7896",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-mxn.en.html"
+    },
+    {
+      "title": "MYR",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-myr.en.html"
+    },
+    {
+      "title": "Malaysian ringgit",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-myr.en.html"
+    },
+    {
+      "title": "4.5577",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-myr.en.html"
+    },
+    {
+      "title": "NZD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nzd.en.html"
+    },
+    {
+      "title": "New Zealand dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nzd.en.html"
+    },
+    {
+      "title": "1.9876",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-nzd.en.html"
+    },
+    {
+      "title": "PHP",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-php.en.html"
+    },
+    {
+      "title": "Philippine peso",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-php.en.html"
+    },
+    {
+      "title": "70.943",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-php.en.html"
+    },
+    {
+      "title": "SGD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sgd.en.html"
+    },
+    {
+      "title": "Singapore dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sgd.en.html"
+    },
+    {
+      "title": "1.4322",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sgd.en.html"
+    },
+    {
+      "title": "THB",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-thb.en.html"
+    },
+    {
+      "title": "Thai baht",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-thb.en.html"
+    },
+    {
+      "title": "37.735",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-thb.en.html"
+    },
+    {
+      "title": "ZAR",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-zar.en.html"
+    },
+    {
+      "title": "South African rand",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-zar.en.html"
+    },
+    {
+      "title": "18.5995",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-zar.en.html"
+    },
+    {
+      "title": "EUR/RUB reference rate",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-rub.en.html"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf?15f04877fe22107015b1ac6820c41087"
+    },
+    {
+      "title": "CSV (.zip)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref.zip?15f04877fe22107015b1ac6820c41087"
+    },
+    {
+      "title": "XML",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml?528475567c7b5261fb54ac301c791ffb"
+    },
+    {
+      "title": "RSS feeds",
+      "url": "https://www.ecb.europa.eu/home/html/rss.en.html"
+    },
+    {
+      "title": "CSV (.zip)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip?15f04877fe22107015b1ac6820c41087"
+    },
+    {
+      "title": "XML",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml?528475567c7b5261fb54ac301c791ffb"
+    },
+    {
+      "title": "XML (last 90 days only)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml?528475567c7b5261fb54ac301c791ffb"
+    },
+    {
+      "title": "XML (SDMX-ML)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-sdmx.xml?5594783090e2b04aecb231825abd6f22"
+    },
+    {
+      "title": "Framework for the euro foreign exchange reference rates",
+      "url": "https://www.ecb.europa.eu/stats/pdf/exchange/Frameworkfortheeuroforeignexchangereferencerates.en.pdf"
+    },
+    {
+      "title": "ECB introduces changes to euro foreign exchange reference rates, 7 December 2015",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2015/html/pr151207.en.html"
+    },
+    {
+      "title": "Time series for bilateral exchange rates",
+      "url": "https://data.ecb.europa.eu/data/data-categories/ecbeurosystem-policy-and-exchange-rates/exchange-rates/reference-rates"
+    },
+    {
+      "title": "LEARN MOREWhat is the role of exchange rates?",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/role_of_exchange_rates.en.html"
+    },
+    {
+      "title": "Yes",
+      "url": ""
+    },
+    {
+      "title": "No",
+      "url": ""
+    },
+    {
+      "title": "Page not working",
+      "url": ""
+    },
+    {
+      "title": "Information not useful",
+      "url": ""
+    },
+    {
+      "title": "Design not attractive",
+      "url": ""
+    },
+    {
+      "title": "Something else",
+      "url": ""
+    },
+    {
+      "title": "About us",
+      "url": "https://www.ecb.europa.eu/ecb/all-about-us/html/index.en.html"
+    },
+    {
+      "title": "Work with us",
+      "url": "https://www.ecb.europa.eu/careers/vacancies/html/index.en.html"
+    },
+    {
+      "title": "Explainers",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/html/index.en.html"
+    },
+    {
+      "title": "Press photos",
+      "url": "https://www.ecb.europa.eu/press/contacts/html/press_photos.en.html"
+    },
+    {
+      "title": "Contacts",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/html/index.en.html"
+    },
+    {
+      "title": "Where to find us",
+      "url": "https://www.ecb.europa.eu/ecb/contacts/address/html/index.en.html"
+    },
+    {
+      "title": "Disclaimer & Copyright",
+      "url": "https://www.ecb.europa.eu/services/disclaimer/html/index.en.html"
+    },
+    {
+      "title": "Technical updates",
+      "url": "https://www.ecb.europa.eu/services/using-our-site/technical-updates/html/index.en.html"
+    },
+    {
+      "title": "Responsible disclosure",
+      "url": "https://www.ecb.europa.eu/services/using-our-site/responsible-disclosure/html/index.en.html"
+    },
+    {
+      "title": "Data Protection",
+      "url": "https://www.ecb.europa.eu/services/data-protection/html/index.en.html"
+    },
+    {
+      "title": "Privacy statement for the website",
+      "url": "https://www.ecb.europa.eu/services/data-protection/privacy-statements/html/ecb.privacy_statement_website.en.html"
+    },
+    {
+      "title": "Cookies policy",
+      "url": "https://www.ecb.europa.eu/services/data-protection/privacy-statements/html/ecb.privacy_statement_cookiepolicy.en.html"
+    },
+    {
+      "title": "Accessibility statement",
+      "url": "https://www.ecb.europa.eu/services/html/accessibility-statement.en.html"
+    },
+    {
+      "title": "Language policy",
+      "url": "https://www.ecb.europa.eu/services/using-our-site/language-policy/html/index.en.html"
+    },
+    {
+      "title": "Site directory",
+      "url": "https://www.ecb.europa.eu/home/sitedir/html/index.en.html"
+    },
+    {
+      "title": "Read our privacy statement",
+      "url": "https://www.ecb.europa.eu/services/data-protection/privacy-statements/html/ecb.privacy_statement_website.en.html"
+    },
+    {
+      "title": "Learn more about how we use cookies",
+      "url": "https://www.ecb.europa.eu/services/data-protection/privacy-statements/html/ecb.privacy_statement_cookiepolicy.en.html"
+    },
+    {
+      "title": "See what has changed in our privacy policy",
+      "url": "https://www.ecb.europa.eu/home/data-protection/privacy-statements/website/html/index.en.html"
+    },
+    {
+      "title": "Learn more about how we use cookies",
+      "url": "https://www.ecb.europa.eu/home/data-protection/privacy-statements/website/html/index.en.html"
+    },
+    {
+      "title": "Modify",
+      "url": ""
+    }
+  ],
+  "read_depth": "rendered HTML body; linked files not retrieved",
+  "accessed_at": "2026-11-03T16:23:58.256Z"
+}

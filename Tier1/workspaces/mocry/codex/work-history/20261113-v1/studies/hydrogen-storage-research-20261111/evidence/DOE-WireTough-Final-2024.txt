@@ -1,0 +1,2803 @@
+PAGE 1
+                           Final Contract Report
+
+Durable Low-Cost Pressure Vessels for Bulk Hydrogen Storage
+
+                   Recipient: WireTough Cylinders, LLC
+                     14570 Industrial Park Road
+                                    Bristol, VA 24202
+                                Tel: 479-466-4301
+                   UEI Number: JDRLX4PK3BUS
+
+            DOE Award Number: DE-FE0032022
+
+            Project Performance Period: 3/1/2021 - 08/31/2023
+
+                                   Participants:
+
+    Ashok Saxena, Forrest Harless Chad Morrin, and Angela Beaver
+                      WireTough Cylinders, LLC
+                      asaxena@wiretough.com
+
+      S.B. Narasimhachary, L. Sri Pragash, and T. L. “Elaine” Tang
+               Siemens Corporation Technology Division
+
+          Dan T. Peters, K. Subramanian, and Erick Ritter
+                          Structural Integrity Associates
+
+                    DOE Manager
+                          Vito N. Cedro, Project Manager
+                 U.S. DOE/NETL - National Energy Tech Lab
+
+                      November 1, 2023
+PAGE 2
+                        Acknowledgement
+
+   This final contract report is based upon work supported by the U.S. Department of
+Energy’s National Energy Technology Laboratory (NETL), Award Number DE-FE-
+0032022. Cost sharing for the project was provided by the participants, including
+Siemens Corporation, WireTough Cylinders, and the Virginia Innovation Partnership
+Corporation’s Commonwealth  Commercialization  Fund  (VIPC-CCF). We  also
+acknowledge the guidance of the DOE Project Managers, Anthony Zinn (past), Robie
+Lewis (past), and Vito Cedro (current).
+
+                                Disclaimer
+
+       This report was prepared as an account of work sponsored by an agency of
+the United States Government. Neither the United States Government nor any agency
+thereof, nor any of their employees, makes any warranty, express or implied, or
+assumes any legal  liability or responsibility  for the accuracy, completeness, or
+usefulness of any information, apparatus, product, or process disclosed, or represents
+that its use would not infringe privately owned rights. Reference herein to any specific
+commercial product, process, or service by trade name, trademark, manufacturer, or
+otherwise does not necessarily constitute or imply its endorsement, recommendation,
+or favoring by the United States Government or any agency thereof. The views and
+opinions of authors expressed herein do not necessarily state or reflect those of the
+United States Government or any agency thereof.
+
+
+
+
+
+                                      1
+PAGE 3
+                          Table of Contents
+Acknowledgements                                                        1
+Disclaimers                                                               1
+List of Figures                                                             4
+List of Tables                                                             7
+Abstract                                                                 8
+Executive Summary                                                        9
+1   Introduction                                                           11
+2  Program Results                                                       14
+    2.1 Objective 1: Selection of Cylinder Sizes and Performance Specifications        14
+    2.2 Objective 2: Design Analysis                                          15
+       2.2.1 Liner Analysis                                                  16
+       2.2.2 Assessment of Wire-Wrapped Vessel                              18
+       2.2.3 Estimation of Autofrettage Pressure                                20
+       2.2.4 Estimation of Residual Stresses Following Autofrettage                 24
+       2.2.5 Stresses in the Critical Regions of the Liner During Service              26
+     2.3 Objective 3: Fracture Mechanics Analyses                              33
+        2.3.1   Environment  Assisted  Fatigue Crack Growth  During  Service     33
+              Loading
+        2.3.2 Design Life Estimation                                          35
+
+      2.4 Summary of Design Analysis and Fracture Mechanics Analyses Results      41
+     2.5 Objective 4: Cylinder Manufacturing                                   42
+         2.5.1 Liner Procurement                                             42
+         2.5.2 Wire Wrapping of the Cylinder                                   44
+         2.5.3 Estimation of Cylinder manufacturing Costs                        46
+      2.6 Objective 5: Obtain ASME U3 Certification for the H2 Storage Vessel        48
+          2.6.1 Global Criteria of Loading                                      48
+           2.6.2 Local Criteria of Loading                                      48
+           2.6.3 Buckling and Service Criteria                                   49
+           2.6.4 Hydrostatic Testing and Ratcheting Criteria                       49
+           2.6.5 Life Assessment of the Vessel                                  50
+
+                                       2
+PAGE 4
+        2.6.5.1 Life Assessment of the Wire Wrap                               50
+        2.6.5.2  Life Assessment of the Liner                                   50
+     2.7 Objective 6: Commercialization and TRL Assessment                     55
+ 3 Summary and Conclusions                                              56
+ 4  References                                                           57
+Appendix A: User Design Specifications                                       58
+Appendix B: Commercialization Plan                                          67
+Appendix C: Technology Maturation Plan                                      78
+
+
+
+
+
+                                       3
+PAGE 5
+                                    List of Figures
+
+
+Fig. 1.1 – A Schematic of the WireTough’s Type II-S cylinder for ground storage  of hydrogen at high
+pressures.
+
+Fig. 1.2 – WireTough’s cylinders can be stacked to build modular energy banks.
+
+Fig. 2.1 –Drawing of the liner analyzed.
+
+Fig. 2.2 – A comparison between the input stress-strain behavior for A372-Grade E Class 70 steel at 93.3
+0C (200 0F) and a highly stressed element in the liner showing good agreement between the two.
+
+Fig. 2.3 – Finite element model of the wire-wrapped pressure vessel.
+
+Fig. 2.4– Von Mises strain (or equivalent strain) at the OD of the liner as a function of internal pressure.
+The autofrettage pressure is chosen when the strain equals the elastic strain plus an equivalent plastic
+strain of 0.3%.
+
+Fig. 2.5 – Distribution of hoop stress across the liner wall thickness and the thickness of the wire wrap due
+to wrap pre-stress, at the autofrettage pressure, and after autofrettage. All liners in these analyses had an
+OD of 617 mm, a wall thickness of 22.9 mm, and the wrap thickness of 17.06 mm; (a) for a liner made from
+material with yield strength of 482.5 MPa and (b) for a liner made from a material with a yield strength of
+703.5 MPa.
+
+Fig. 2.6 – The relationship between autofrettage pressure and (a) wall thickness  for two yield strengths,
+and (b) yield strength for a liner thickness of 22.9 mm. The liner OD was 617 mm, and the wrap thickness
+was 17.06 mm in both cases.
+
+Fig. 2.7 – Autofrettage pressure as function of outside diameter, wall thickness and yield strength of the
+liner material.
+
+Fig. 2.8– Comparison between predicted autofrettage pressure from equation (3) and that calculated from
+finite element analyses.
+
+Fig. 2.9 – The residual stress distribution in the liner wall following autofrettage. The analyses results are
+for liners with an OD of 617 mm and a wrap thickness of 17.06 mm.
+
+Fig. 2.10 –Residual stress pattern in the liner after autofrettage for cylinders of different ODs and yield
+strength.
+
+Fig. 2.11 - Predicted residual circumferential stress at the ID from equation (2.4) and that calculated from
+the finite element analyses under similar conditions.
+
+Fig. 2.12 - Predicted residual circumferential stress at the OD from equation (2.5) and that calculated from
+the finite element analyses under similar conditions.
+
+Fig. 2.13 – Circumferential stress distribution between ID and OD of a liner with a thickness of 22.9 mm,
+and a material yield strength of 482.5 MPa at various operating pressures in the mid-section of the cylinder.
+
+Fig. 2.14 – Circumferential stress distribution for an MOP of 50 MPa in the transition region from the wrap
+to the dome at an axial distance of 1.76 mm from the liner/wrap interface. The liners analyzed were of three
+different ODs and two thicknesses, and Sy=703.5 MPa.
+
+                                         4
+PAGE 6
+Fig. 2.15 – Hoop stress distribution at the ID at a pressure of 41 MPa and at ambient pressure along the
+axial direction as a function of axial distance from the liner/wrap intersection for two wall thicknesses. The
+maximum stress occurs at a point approximately 1.76 mm from the wire wrap/cylinder intersection towards
+the dome.
+
+Fig. 2.16 – Maximum hoop stress as function of wall thickness on the OD at a pressure of 41 MPa and at
+ambient pressure for a yield strength of 703.5 MPa.
+
+Fig. 2.17 – Circumferential stress distributions from ID to OD at a pressure of 0 and 41 MPa for a 617 mm
+OD liner at a point 1.76 mm from the wrap/liner interface.
+
+Fig. 2.18- Axial stress at ID and OD of a cylinder subjected to an internal pressure of 0 and 41 MPa for liner
+thicknesses of 22.9 and 25.2 mm for liners with a yield strength of 703.5 MPa.
+
+Fig. 2.19 – Axial stress distribution from ID to OD at two locations along the unwrapped portion of the
+cylinder, at an axial distance of 1.76 and 6.76 mm. The liner OD was 617 mm.
+
+Fig. 2.20 – The effect of OD, liner wall thickness, and the wrap thickness on the circumferential stresses in
+the transition region of the liner.
+
+Fig. 2.21- Schematic representations of the FCGR behavior from the ASME Section VIII-3 master curve for
+A372 Grade J/E Class 70 steels as a function of load ratio, R, in high pressure gaseous hydrogen for
+pressures of 100 MPa.
+
+Fig. 2.22 – The geometry of the flaw that determines the design life of the vessel.
+
+Fig.2. 23- Definition of the angle   at any point P on the boundary of an elliptical crack. The value of
+ on the surface and 90o at the deepest point.                                          𝜙𝜙                                                   𝜙𝜙=0Fig. 2.24 – Design life of cylinders with 617 mm OD liners for full pressure fatigue cycles as a function of
+MOP, initial flaw shapes and initial flaw size.
+
+ Fig. 2.25 – Design lives of cylinders with 508 mm OD liners and a wrap thickness of 17.08 mm (48 wire
+layers) as a function pf MOP for wall thicknesses of 22.9 and 25.2 mm, and initial flaw depth of 0.5 mm and
+1 mm and a/2c values of 0.2 and 0.33.
+
+Fig. 2.26 – Picture of the two Tenaris seamless liners being delivered to WireTough’s facility.
+
+Fig. 2.27  (Top) – Schematics of the dome regions of the liners showing points where thickness
+measurements were made, (bottom) results from those measurements in multiple locations.
+Fig. 2.28 – Picture of a wrapped cylinder coated with a UV resistant coating ready for autofrettage and
+hydrotesting.
+
+Fig. 2.29 – Cost of hydrogen storage in $ per KG of hydrogen stored using Type II-S cylinders as a function
+of Annual Production Volume in a single production line. The cost is compared to the cost of using Type 1
+cylinders.
+
+Fig. 2.30 – Locations of assumed flaws in the cylinder for the fatigue crack growth analyses.
+
+Fig. 2.31 – Two finite element models used to compute stresses in the knuckle region of the liner. In the
+first model (a) the wall thickness is 22.9 mm throughout the dome and nozzle region and (b) the thickness
+profile in the dome region as dictated by intersection of the extensions of the inner surface of the liner in
+the nozzle region and the curvature of the dome at the ID. The wall thicknesses in the various locations are
+shown in this figure in inches and is as high as 38 mm (1 inch = 25.4 mm).
+
+                                         5
+PAGE 7
+Fig. 2.32 -Estimated stress distributions at location 5 in the knuckle region at maximum and minimum
+operating pressures using Model 1 that assumes the wall thickness to be the same in the dome and knuckle
+regions (Fig. 2.31a) and Model 2 using variable wall thickness (Fig. 2.31b) showing significant reduction in
+stress when Model 2 is used.
+
+
+
+
+
+                                         6
+PAGE 8
+                                     List of Tables
+
+Table 2.1 – Liner choices available and their dimensions and storage capacities. MOP and MWAP are the
+maximum operating pressure and the Maximum allowable working pressure, respectively of the wrapped
+cylinder. OD = outside diameter of the liner.
+Table 2.2 – Wrapped cylinder characteristics utilizing the liners listed in Table 2.1.
+Table 2.3 – Matrix of cases analyzed using finite element analyses.
+Table 2.4 – Summary of l stresses in the critical region in the pressurized cylinder
+Table 2.5 – Constants in equation (2.6) for describing the environment assisted fatigue crack growth
+behavior in SA372 Grade E/J Class 70 steels in high pressure hydrogen ( p = 102 MPa).
+Table 2.6 – Design lives resulting from the parametric analyses that varied MOP, wall thickness, initial flaw
+size, and initial flaw shape. The liner OD in all these cases was 617 mm with a wrap thickness of 17.06mm.
+Table 2.8 – Chemistry of the liner steel and the acceptable composition range (wt %).
+Table 2.9 – Tensile test results of the liner material.
+Table 2.10 – Calculated autofrettage pressures and hydrotest pressures for the two cylinders built.
+Table 2.11 – List of materials of construction for manufacturing Type II-S wire wrapped vessel.
+Table 2.11 – List of materials of construction for manufacturing Type II-S wire wrapped vessel.
+Table 2.12 - Cost and weight savings in switching from Type 1 to Type II-S cylinders for MOP of 350, 500,
+Table 2.13 – Crack models used in the fracture mechanics analysis for estimating design life at various
+points of the cylinder.
+Table 2.14 shows the predicted design life/ inspection intervals that were estimated from these calculations.
+
+
+
+
+
+                                         7
+PAGE 9
+                                  Abstract
+
+      Long-duration energy storage (LDES) in the form of gaseous hydrogen is vital for
+fossil fuel power plants to reduce frequent shutdowns and rapid start-ups. It's also crucial
+in renewable energy power plants for grid stabilization. WireTough Cylinders (WTC) has
+developed a Type II-S pressure vessel that uses steel liners that are hoop-wrapped with
+multiple layers of high-strength, cost-effective, and readily available steel wires. This
+design enables the vessel to withstand significantly higher pressures.  It addresses
+hydrogen embrittlement issues and cyclic loading from repeated pressurization and
+depressurization during service. The WireTough design is cost-efficient, robust, and
+fatigue-resistant (with a 30-year design life) and is ASME certified for ground storage of
+hydrogen at a maximum operating pressure (MOP) of 350 bar and a design pressure of
+500 bar. The cylinder has a 645 mm outside diameter and a water capacity of 1,715 liters,
+capable of storing 40.7 KG of hydrogen at MOP. Two prototypes were successfully
+produced to showcase the manufacturing technologies, with one being certified under
+ASME Section VIII Division 3 rules. Preliminary design work for a similar Type II-S vessel
+with a 500 bar MOP was also completed. The 350 bar and 500 bar Type II-S vessels
+were shown respectively to be 47.5% to 60% more cost-effective and 55% and 62.5%
+lighter based on per KG of hydrogen stored, when compared with  their Type 1
+counterparts.
+
+
+
+
+
+                                         8
+PAGE 10
+                            Executive Summary
+        Fossil-fuel electricity generating plants rely on capital-intensive equipment that
+must frequently be shut down and rapidly ramped up to accommodate varying energy
+demands throughout the day. The resulting thermal cycling causes damage to plant
+components, leading to costly, unplanned outages and inefficient energy conversion. This
+problem underscores the importance of integrating environmentally friendly on-site long
+duration energy storage (LDES) facility within the plant. LDES facilities are also needed
+for balancing the power grid in renewable energy power plants and at fueling stations
+serving various transportation needs. Storing gaseous hydrogen at high pressures (35-
+50 MPa) in specially designed pressure vessels is an attractive LDES solution.
+
+      WireTough  Cylinders  (WTC)  has  developed  an  innovative  design  and
+manufacturing  technologies   for  cost-effective,  durable,  fatigue  and  hydrogen-
+embrittlement  resistant, ASME-Section VIII-Division 3  certified cylinders  for storing
+hydrogen at high pressures. These cylinders feature a seamless steel liner encased in a
+steel wire jacket composed of multiple layers of ultra-high-strength steel wires with tensile
+strength exceeding 2.0 GPa. These wires are meticulously wound around the liner's axial
+length and secured with epoxy. After wire wrapping, the cylinders undergo autofrettage,
+a process that imparts high compressive stresses throughout the liner wall at ambient
+pressure. This significantly enhances the fatigue life of the cylinders and strengthens the
+bond at the interface of the steel wire jacket and the liner.
+
+    The product lineup comprises three models of all-steel Type II-S cylinders, each
+designed for specific pressure ratings. These models store 40.7 KG of hydrogen at 350
+bars, 42 KG at 500 bars, and 29.5 KG at 700 bars in a single vessel. The 350-bar cylinder
+has an outer diameter of 645 mm, measures 7600 mm in length, and has a capacity of
+1715 liters. This design is fully certified. The 500-bar cylinder features an outer diameter
+of 543 mm, a length of 9000 mm, and a capacity of 1400 liters, while the 700-bar cylinder
+has an outer diameter of 441 mm, a length of 9000 mm, and a capacity of 765 liters. The
+latter two designs are ready for certification but have not yet gone through the certification
+steps.
+
+     In-depth finite element analyses were conducted on both the steel liner and the
+finished pressure vessels, ensuring compliance with the relevant sections of the ASME
+code. These analyses encompassed stresses originating from the wire-winding process,
+residual stresses from autofrettage, and subsequent service loading. Fracture mechanics
+analyses, in line with ASME Section VIII Division 3 Codes, were employed to estimate
+the cyclic life of the cylinder. Assessments involved postulating surface flaws measuring
+1 mm in depth and 5 mm in length at various locations within the liner to assess the
+vessel's integrity.
+
+     The 1715 L capacity liners for producing cylinders with a 350-bar operating
+pressure rating were obtained from Tenaris, USA. These liners fully adhered to the design
+specifications  to produce  full-size  prototypes, which  effectively demonstrated  the
+manufacturing technology. Two cylinders underwent all steps of wire wrapping. One of
+                                         9
+PAGE 11
+these wrapped cylinders was also subjected to autofrettage and hydrotesting and was
+certified by an ASME authorized inspector, affirming  its compliance with  all design
+requirements.
+
+      The process also included the formulation of a User Design Specification (UDS)
+to clearly define the cylinder's capabilities for service. Subsequently, a Manufacturer's
+Design Report (MDR), developed by Structural Integrity Associates, was produced to
+fulfill the UDS requirements. This report evaluated the WTC design against all ASME
+Section VIII-Div 3 codes, confirming full compliance.
+
+     The MDR revealed that the knuckle region on the inner surface at the intersection
+between the nozzle and the dome is the critical, life-limiting region of the liner. In this
+region, liner wall thicknesses were found to be more than 60% greater than initially
+assumed in stress estimations. Factoring in these realistic thicknesses, the vessel's
+design life was estimated at 6,000 cycles, equivalent to 30 years at a rate of 200 cycles
+per year. Design lives in other areas were higher. Also, the critical region is not covered
+by the wire jacket and therefore accessible for inspection while in service to potentially
+extend the cylinder life beyond the 30 years of design life.
+
+    The manufacturing costs for the 1715 L, 350-bar cylinder were estimated. The costs
+were adversely affected by the doubling of steel prices and increased shipping costs
+during the COVID-19 pandemic. In scenarios where fewer than 20 cylinders are produced
+annually, manufacturing costs were estimated at $1478 per kilogram of stored hydrogen.
+However, this cost significantly reduces to $827 per kilogram of hydrogen stored—a 44%
+reduction—when  annual  production  volume  (APV)  increases  to  200. A  single
+manufacturing line operating in two shifts can achieve an annual production of 200
+cylinders, so this cost is achievable. These costs surpass the goals set by the Department
+of Energy (DOE) for bulk hydrogen storage.
+
+    The technology readiness level (TRL) for this innovation was raised from TRL-4 to
+TRL-8 during the program. The 350-bar, 1715 L hydrogen storage cylinder is now eligible
+for commercial deployment, and the 500-bar and 700-bar cylinders can be brought to the
+commercial market within six-months to one year.
+
+
+
+
+
+                                         10
+PAGE 12
+                                    1. Introduction
+
+       Capital intensive equipment in fossil-fuel electricity generating plants is required
+to shut-down frequently and ramp-up rapidly to manage variable energy demands within
+a single day. Damage to plant equipment/components due to such thermal cycling
+causes unplanned outages that can be expensive and results in inefficient energy
+conversion. Integrating an onsite environment-friendly long term energy storage (LDES)
+facility addresses this challenge. Utilizing excess electricity during low demand periods
+in fossil-fuel plants or during peak generation periods in renewable energy plants to
+generate hydrogen and storing  it at high pressures of 350-500 bar  is attractive.
+Advances in pressure vessel technology have made this energy storage approach
+technically viable and cost-effective on a large scale [1]. Other approaches include
+liquification of hydrogen, but that requires large amounts of energy to initially cool the
+gas and then to maintain the low temperatures during storage. Metal hydrides require
+considerable heat to discharge the stored hydrogen and the process is slow. Surface
+hydrogen storage systems such as C-nanotubes are currently not sufficiently mature
+[2]. The compressed H2 approach to LDES also competes favorably with non-hydrogen
+approaches such as batteries that degrade over time, retain energy only for short
+duration, and create chemical waste at the end of life. The pumped water approach
+requires large amounts of land, and thermal energy storage systems are currently not
+efficient.
+
+      WireTough Cylinders (WTC) has developed the design and manufacturing
+technologies for low-cost, durable, and fatigue damage-resistant ASME BPVC Section
+VIII-Division 3 certified cylinders to store hydrogen at high pressures. WireTough’s
+solution consists of a patented design, and proprietary manufacturing processes
+utilizing a seamless steel liner and a steel wire jacket made from multiple layers of ultra-
+high strength (> 2.0 GPa), automotive tire chord quality steel wires that are wrapped
+around the axial length of the liner and held together with an epoxy. A schematic drawing
+of WireTough’s Type II-S design is shown in Fig. 1.1. The wire jacket carries a significant
+portion of the pressure load. After wire wrapping, the cylinders are subjected to an
+autofrettage process which locks high compressive stresses throughout the thickness
+of the liner wall. The process significantly improves the fatigue life of the cylinders and
+simultaneously strengthens the interface bond between the steel wire jacket and the
+liner that prevents moisture from seeping in during service. Efficient cylinders can be
+designed to operate at maximum operating pressures in the range of 350 to 900 bar.
+  One KG of hydrogen contains the heat equivalent of 39 kWh of electricity and
+assuming an efficiency of 60% for fuel cells, it will yield back an estimated 23.4 kWh of
+electricity. A 1715-liter cylinder that has an OD of 645 mm and a length of 7600 mm
+and can safely withstand a hydrogen pressure that cycles between 350 and 35 bar can
+store about 40.7 KG of hydrogen that can deliver approximately 950 KWh of electricity.
+A modular design will permit building energy banks of different capacities. For example,
+a six-cylinder stack (Fig. 1.2) can build an energy bank that can store 5.4 MWh of power
+in a module with a footprint of less than 200 Sq. ft.
+
+                                       11
+PAGE 13
+       WireTough initiated a program in March of 2020 to develop an ASME certified
+    hydrogen storage cylinder. WireTough partnered with Siemens Energy Technology
+    Center in Charlotte, NC to conduct the program. The objectives of this DOE cooperative
+    research program were as follows:
+
+
+                                UV Protective
+                                                  Coating
+
+
+                                         Steel Liner
+
+
+
+   High Strength
+     steel wire wrap
+
+Fig. 1.1 – A Schematic of the WireTough’s Type II-S cylinder for ground storage of hydrogen at high pressures.
+
+
+
+
+
+    Fig. 1.2 – WireTough’s cylinders can be stacked to build modular energy banks.
+
+
+   Objective 1: To design and optimize a high strength wire-wrapped all steel Type II-S
+   cylinder with a capacity to store between 40 to 50 KG of hydrogen at a pressure of 350 -
+                                            12
+PAGE 14
+500 bar (5,000 to 7,250 psi). The design must be fully compliant with the ASME Section
+VIII-Division 3 design codes for storing hydrogen using only code approved materials.
+The bare cylinder weight will demonstrably be lighter and cost-effective in comparison to
+Type 1 cylinders that are currently in use.
+
+Objective 2: To conduct finite element analyses of (a) the steel liner by itself and (b) the
+finished pressure vessel to determine the magnitude and distribution of stresses during
+manufacturing and during service to ensure that the design is safe, and  it can be
+economically produced.
+
+Objective 3: Perform Fracture Mechanics analyses in accordance with the ASME Section
+VIII Division 3 rules to estimate the cyclic life of the cylinder.
+
+Objective 4: To procure liners that are consistent with design specifications and produce
+full-size prototypes of the vessel to demonstrate the manufacturing technology. The cost
+target was $900 (based on pre-COVID costs of steel) or less per KG of stored hydrogen
+with the potential to further reduce it by 25%, when produced in a single integrated facility
+in large quantities. Demonstrate that making these cylinders requires only commonly
+available construction materials.
+
+Objective 5: Produce a User Design Specification (UDS) and a Manufacturing Design
+Report (MDR) to pave the way for ASME U3 Stamping of the vessel.
+
+Objective 6: The estimated technology level at the start of the program was TRL 4 that
+will be pushed to at least TRL 5 or higher at the conclusion of the program.
+
+These objectives were to be met by executing 7 tasks within the program. The next
+section describes the results from the program that are organized to show how each of
+the above objectives was met.
+
+
+
+
+
+                                         13
+PAGE 15
+                                   2. Program Results
+
+   The program results described in this section are aligned with the objectives of the
+program stated above.
+
+2.1 Objective 1: Selection of Cylinder Sizes and Performance Specifications
+
+   The cylinder specifications were selected after consideration of several factors
+including manufacturability, maintainability during service, cost, and durability. These are
+as follows:
+
+•  Maximum  operating  pressures (MOP)  of  350,  500, and 700  bar based on
+   considerations of volumetric energy density of hydrogen and maximizing cylinder
+   capacity at those pressures.
+
+•  Choice of liners made from commonly available pipe sizes with outside diameters of
+   610, 508, and 406 mm.
+
+•  Stress transfer ratio from the liner wall to the wire jacket to optimize autofrettage
+   pressures necessary for optimum fatigue durability during service and reducing risk of
+    failure in the dome region of the vessel during autofrettage.
+
+•  The maximum length of the pressure vessel to be 10,000 mm or less based on limits
+    of transportation, maximum finished weight of the vessel of less than 4,500 KG due to
+   winding machine limitations and the capacity of the material handling systems.
+
+•  Amount of hydrogen stored at the maximum operating pressure (MOP) of 40 – 60 KG.
+
+•  Number of wire layers in the steel wire wrap (40 to 48 layers).
+
+•  Use of only ASME Code approved materials for pressure vessels for storing hydrogen,
+
+•  Even though the vessel weight expressed in Kilogram (KG) per KG of H2 stored is not
+   a primary consideration for ground storage, the cost, which is a primary consideration,
+    is directly linked to the vessel weight.
+
+   These considerations narrowed the choices of liners listed in Table 2.1 and wrapped
+cylinder dimensions listed in Table 2.2. Clearly, the ideal pressures for bulk storage are
+between 350 to 500 bar from the weight per KG of hydrogen stored and the efficiencies
+obtained in transferring stresses on to the high strength wire jacket. Further, a 610 mm
+OD liner suitable for producing a wrapped vessel capable of storing 40.7 KG of H2 at 350
+bar pressure is the optimum among the three. Thus, the design analysis in the support of
+Objective 2 described in the next section will focus on that vessel size.
+
+
+
+
+                                         14
+PAGE 16
+Table 2.1 – Liner choices available and their dimensions and storage capacities. MOP and MWAP are the
+maximum operating pressure and the Maximum allowable working pressure, respectively of the wrapped
+cylinder. OD = outside diameter of the liner.
+
+   MOP  MAWP    Liner    Min Wall     Length   Water Volume, (L)   Weight,    Weight of
+               OD     Thickness                                (KG)    H2 stored at
+     (bar)      (bar)    (mm)     (mm)      (mm)                      MOP (KG)                                           Max    Nominal                                                                     min
+
+    350     500     610       22.9       7600     1761     1715     2339       40.7
+
+    500     690     508       25.4       9000     1392     1350     2564       42.0
+
+    700     1000     406       31.75      9000     785      765     2494       29.5
+
+
+
+Table 2.2 – Wrapped cylinder characteristics utilizing the liners listed in Table 2.1
+
+   MOP      Cylinder   Weight of   Length    Number     Cylinder     Cylinder       Stress
+     (Bar)   OD (mm)   the       (mm)        of Wire     Weight,    Weight/KG     Transfer
+                        Wrap,                 Layers    KG          of Stored H2    Ratio
+                  KG                                        (KG)
+
+      350      645       1343      7600       48       3682         90.3        0.277
+
+      500      543       1370      9000       48       3974         93.5        0.247
+
+      700      441       1110      9000       48       3604        122.15       0.191
+
+
+2.2 Objective 2: Design Analysis
+
+       Finite element analyses were conducted (a) of the steel liner by itself (b) of the
+wire wrapped pressure vessel to determine the magnitude of residual stresses created
+during wire wrapping and during autofrettage, and (c) of the finished vessel subject to
+service loading. Fracture mechanics-based methods that are part of the ASME Section
+VIII Division 3 Codes were used to estimate the cyclic life of the cylinder. The results from
+these analyses are described in the following sections.
+
+     The  finite element analyses were conducted by Siemens using Siemens’
+Simcenter 3D. The simulation workflow was automated using NX Open API for each
+design, including  (i) design update,  (ii) setting the appropriate  initial and boundary
+conditions, (iii) solve the Simcenter Nastran simulations, and (iv) results extraction and
+analysis after each simulation. The design space exploration was performed with
+Siemens Simcenter HEEDS that accelerated the design space exploration by enabling
+automation of the simulation analysis workflows and enabling distributed execution using
+available computational resources.
+
+                                         15
+PAGE 17
+  2.2.1  Liner Analyses
+
+     The liner chosen is shown in Fig. 2.1 and was virtually pressurized and the stress
+and strain at various points were estimated. The purpose was to estimate the burst
+pressure of the proposed liner. The liner material was SA372 grade E or J steel and the
+yield strength and the ultimate strength chosen for the analyses were the minimum values
+specified for this grade of material. These values were 482.5 MPa and 827 MPa,
+respectively. The OD for determining the burst pressure was 617 which is the nominal
+OD +1% allowable variation within the liner specifications. The thickness was 22.9 mm
+which is the minimum specified thickness. Figure 2.2 shows that an excellent comparison
+was obtained between the predicted stress-strain behavior at a highly stressed point in
+the liner with the input stress-strain for the liner material. This result validates the accuracy
+of the finite element results.
+
+   The predicted burst pressure for the liner by itself was 72 MPa from the above
+analysis. Structural Integrity Associates have also conducted an elastic-plastic analysis
+of the same liner and have estimated the burst pressure as  64 MPa using a more
+conservative failure  criterion based on onset of plastic instability. A third estimate of the
+burst pressure, based on the well-known Faupel formula, equation (2.1) yielded the most
+conservative value of 60.78 MPa. This value was used to establish the design pressure
+of the vessel.
+
+                                                                                          (2.1)                                  2                    𝑆𝑆𝑦𝑦        𝐷𝐷𝑜𝑜                            𝑃𝑃𝑏𝑏= √3 𝑆𝑆𝑦𝑦ቀ2 − 𝑆𝑆𝑢𝑢ቁ𝑙𝑙𝑙𝑙 𝐷𝐷𝑖𝑖Where, Pb = Burst Pressure, Sy = minimum 0.2% yield strength, Su= minimum ultimate
+tensile strength, Do = outside diameter of the liner, and Di = inside diameter of the liner.
+Table 2.1 lists the calculated maximum allowable pressures (MAWP) and the maximum
+operating pressures (MOP) for the various size liners from the three methods. Since
+equation (2.1) provides the most conservative burst pressure,  it was chosen for the
+parametric analysis in which the wall thickness and the OD of the liners were varied. The
+results are shown in Table 2.1. The liner ODs range in the interval of 617 ≤ D ≤ 406 mm
+and wall thicknesses in the interval 22.9 ≤ t ≤ 25.2 mm. Depending on the OD and wall
+thickness, t, of the chosen liner, the MWAP can range from 50.6 ≤ MAWP ≤ 85.1 MPa.
+The corresponding recommended maximum operating pressures (MOP) are 70% of the
+design pressure to allow for pressure increases due to heat during fills. MOPs are also
+chosen based on the desired design  life of the vessels during service. This will be
+discussed later in the report.
+
+
+
+
+
+                                         16
+PAGE 18
+                                      Fig. 2.1 –Drawing of the liner analyzed
+
+
+              Table 2.1 – Burst Pressure estimates of liners of various sizes considered
+
+ Nominal    Minimum          Estimated Burst Pressure, MPa      MAWP =   Recommended
+  OD         Wall        FE     FE Analysis      Faupel        (Pb/1.2)      MOP
+  (mm)      thickness,      Analysis-          - SIA        Formula      MPa     = 0.7(MAWP)
+         mm       Siemens
+   617         22.9         72          64          60.78         50.65          35.7
+   617         25.2                 -                   -            68.1          56.8           37.5
+   508         22.9                 -                   -            74.4         62           43.4
+   508         25.2                 -                   -            82.4          68.7           47.6
+   406         22.9                 -                   -            94.2          78.5           54.6
+   406         25.2                 -                   -          102.14         85.1           59.6
+
+                Stress-strain comparison for SA372 at 200F
+     1000
+
+      800
+
+      600         (Eng.)/MPa
+      400
+     Stress      200
+
+        0
+           0.00     0.05     0.10     0.15     0.20     0.25     0.30     0.35
+
+                                    Results Eng.      Mat. Eng.
+                                              Strain (Eng.)
+
+
+Fig. 2.2 – A comparison between the input stress-strain behavior for A372-Grade E Class 70 steel at 93.3
+0C (200 0F) and a highly stressed element in the liner showing good agreement between the two.
+
+
+
+                                         17
+PAGE 19
+  2.2.2 Assessment of the Wire Wrapped Vessel
+   The entire pressure vessel assembly was evaluated under loading consisting of (1)
+stresses due to the wrapping process (2) residual stresses due to autofrettage and (3)
+stresses during service loading. The pressure vessel assembly included the liner made
+from SA 372 Grade E/J Class 70 steel with an OD of 610 + 0.01% = 617 mm. The wire
+jacket consisted of 48 and 42 layers of SA905 high strength wire. The wire was applied
+as 8 or 7 bundles with each bundle consisting of six wire layers. The first bundle was
+offset 9 mm from the start of the dome and each subsequent layer was offset 7 mm from
+the layer beneath  it. Figure 2.3 shows the finite element model of the wire-wrapped
+vessel.
+   Several finite element  analyses were conducted in the range of wall thickness, t ,
+         mm and the yield strength, Sy,             MPa and for outer
+diameters of 406, 508, and 617 mm. The specific cases for which the finite element22.9 ≤𝑡𝑡≤25.2                               482.5 ≤𝑆𝑆𝑦𝑦≤703.5analyses were conducted are summarized in Table 2.3.
+
+                 Table 2.3 – Matrix of cases analyzed using finite element analyses.
+
+           OD, mm                                            Number of
+                             Sy, MPa            Wall Thickness, mm          Wire Layers
+                                     22.9   23.5   24.0   24.5   25.2
+
+                         482.5      x      x      x      x      x
+
+                        517       x
+
+                                                                    48                        552       x
+             617
+                        587       x
+
+                        622       x
+
+                        658       x
+
+                         703.5      x      x      x      x      x
+
+             617        703.5      x                            x        42
+
+             508        703.5      x                            x        48
+
+             508        703.5      x                            x        42
+
+             406        703.5      x                            x        48
+
+             406        703.5      x                            x       14.22
+
+
+
+
+
+                                         18
+PAGE 20
+Fig. 2.3 – Finite element model of the wire-wrapped pressure vessel.
+
+
+
+
+
+                        19
+PAGE 21
+  2.2.3  Estimation of the Autofrettage Pressure
+   The process of autofrettage is used in the pressure vessel industry to enhance the
+fatigue life of vessels for storing hydrogen at high pressures. As the storage pressures
+fluctuate during service, the amplitudes of circumferential fatigue stresses also change,
+affecting the fatigue life of the vessel. Autofrettage locks high compressive stresses in the
+entire liner wall of the vessel that decreases the magnitude of the maximum and the
+minimum stresses during the service cycle. This significantly reduces the environment
+assisted fatigue crack growth rates that depend on the maximum stress and the stress
+ratio, enhancing the cyclic life of the vessel.
+
+  A model to correctly estimate the autofrettage pressure necessary to introduce a
+repeatable and consistent residual stress pattern in the liner wall from its ID to OD in Type
+II-S vessels was developed. The results from cases listed in Table 2.2 were used to derive
+an equation for estimating the autofrettage pressure as a function of the liner wall
+thickness, liner material yield strength, the OD, and the wrap thickness.
+
+   Figure 2.4 shows a plot of Von Mises’ equivalent strain on the outer diameter, OD, of
+the liner as a function of the applied internal pressure in the wire-wrapped cylinder. The
+autofrettage pressure is assumed to have reached when the equivalent strain on the OD
+of the liner is equal to the elastic strain for the stress level applied plus a plastic strain of
+0.3%, of which 0.2% is associated with reaching plastic yielding plus 0.1% beyond that.
+This ensures that the entire liner wall deforms plastically during autofrettage, so when the
+pressure is removed, high compressive stresses are locked through the entire cross-
+section of the liner. The chosen autofrettage pressure is marked in Fig. 2.4.
+
+
+
+
+
+Fig. 2.4– Von Mises strain (or equivalent strain) at the OD of the liner as a function of internal pressure.
+The autofrettage pressure is chosen when the strain equals the elastic strain plus an equivalent plastic
+strain of 0.3%.
+
+                                         20
+PAGE 22
+   Figure 2.5 shows the typical distribution of hoop stress across the cylinder wall (a)
+after wrapping (b) at the autofrettage pressure, and (c) after removal of the autofrettage
+pressure in cylinder. The results shown are for wrap thickness of 17.06 mm (48 wire
+layers) and a liner wall thickness of 22.9 mm. Figure 2.5a is for a yield strength of 482.5
+MPa and Fig. 2.5b for a yield strength of 703 MPa. The residual stresses due to
+autofrettage in the higher yield strength liner are significantly greater than in the liner with
+lower yield strength. As expected, the compressive residual stresses in the liner are
+equilibrated by tensile stresses in the wrap. At the autofrettage pressure, note that the
+tensile stress in the wrap is less than 825 MPa in Fig. 2.5b which is much less than the
+strength of the wire, conservatively specified in the ASME Code as 2 GPa. Therefore, the
+wrap is not at risk of fracturing during autofrettage. Also note that the interface between
+the wrap and the liner is expected to be under high contact pressures which is beneficial
+for the integrity of the cylinder.
+
+   Figure 2.6a shows the calculated autofrettage pressure as a function of the wall
+thickness of the liner material for two levels of yield strength, and Fig. 2.6b shows the
+relationship between the autofrettage pressure and the yield strength for a liner with a
+fixed thickness of 22.9 mm. In both cases the liner OD was  617 mm, and the wrap
+thickness was 17.06 mm. The autofrettage pressure increases linearly with liner thickness
+and with material yield strength.
+
+    Fig. 2.7 shows how the autofrettage pressure varies with the liner OD for two yield
+strength levels and two wall thicknesses. Again, the relationship with OD appears to be
+linear in all cases. Based on the observations from the results of the finite element
+analyses, the following non-dimensional, functional relationship is derived between the
+autofrettage pressure and various variables:
+
+                                                                                          (2.2)                                                           𝑃𝑃𝐴𝐴               𝑆𝑆𝑦𝑦      𝑡𝑡    𝐷𝐷    𝑡𝑡𝑤𝑤                                                    𝑃𝑃𝐴𝐴0 = 𝑓𝑓൤ 𝑆𝑆𝑦𝑦𝑦𝑦, 𝑡𝑡𝑜𝑜, 𝐷𝐷𝑜𝑜, 𝑡𝑡𝑤𝑤0൨
+    In the above equation, PA = autofrettage pressure, PAo = autofrettage pressure for the
+reference thickness, t0 = 22.9 mm, the reference yield strength of the liner material, Syo =
+482.5 MPa, reference OD of Do= 617 mm, and a reference wrap thickness, two of 17.06
+mm. Sy = yield strength of the liner material, t = the liner thickness, and D = OD, and tw =
+wrap thickness.
+
+   From the finite element results, an equation of the following form was derived [3] to
+collectively represent the effects of yield strength, wall thickness, and OD on the
+autofrettage pressure for a wrap thickness of 17.06 mm.
+
+                                                                                          (2.3)                                𝑃𝑃𝐴𝐴                                      𝑆𝑆𝑦𝑦                                               𝑡𝑡                        𝐷𝐷                            𝑃𝑃𝐴𝐴0 = ൬0.26 + 0.74 𝑆𝑆𝑦𝑦0൰ቆ. 206 + .794 ቀ𝑡𝑡0ቁቇቀ2.4 −1.4 𝐷𝐷0ቁ
+      Where,                        𝑃𝑃𝐴𝐴0 = 77 𝑀𝑀𝑀𝑀𝑀𝑀, 𝑆𝑆𝑦𝑦0 = 482.5, 𝐷𝐷0 = 617 𝑚𝑚𝑚𝑚, 𝑡𝑡0 = 22.9 𝑚𝑚𝑚𝑚, 𝑡𝑡𝑤𝑤𝑤𝑤= 17.06 𝑚𝑚𝑚𝑚
+                                         21
+PAGE 23
+                       a
+
+
+
+
+
+                  b
+
+
+
+
+
+Fig. 2.5 – Distribution of hoop stress across the liner wall thickness and the thickness of the wire wrap due
+to wrap pre-stress, at the autofrettage pressure, and after autofrettage. All liners in these analyses had an
+OD of 617 mm, a wall thickness of 22.9 mm, and the wrap thickness of 17.06 mm; (a) for a liner made from
+material with yield strength of 482.5 MPa and (b) for a liner made from a material with a yield strength of
+703.5 MPa.
+
+
+
+
+                                         22
+PAGE 24
+         Fig. 2.6 – The relationship between autofrettage pressure and (a) wall thickness  for two yield
+strengths, and (b) yield strength for a liner thickness of 22.9 mm. The liner OD was 617 mm, and the wrap
+thickness was 17.06 mm in both cases.
+
+      Figure 2.8 shows a comparison between the calculated autofrettage pressure from
+finite element analyses and that from equation (3) for  all conditions analyzed. The
+agreement is excellent demonstrating that the effects of these variables are separable as
+assumed in equation (2.3) with each showing a linear relationship with the autofrettage
+pressure when referenced to their respective reference values. The bounds for which
+equation (2.3) holds are as follows. All length dimensions are in mm and strength is in
+MPa.
+  22.9 ≤𝑡𝑡≤25.2,    617 ≤𝐷𝐷≤406,    482.5 ≤𝑆𝑆𝑦𝑦≤703.5,    14.22 ≤𝑡𝑡𝑤𝑤≤17.06                                         23
+PAGE 25
+Fig. 2.7 – Autofrettage pressure as function of outside diameter, wall thickness and yield strength of the
+liner material.
+
+
+
+
+
+Fig. 2.8– Comparison between predicted autofrettage pressure from equation (3) and that calculated from
+finite element analyses.
+
+  2.2.4  Estimation of Residual Stresses Following Autofrettage
+
+     The objective of the autofrettage process is to develop a pattern of predictable
+compressive residual stresses in the wall of the liner that reduces the maximum stresses
+during service loading cycle. Since negative stresses do not contribute toward the
+                                         24
+PAGE 26
+magnitude of ∆K during fatigue crack growth analysis, its magnitude decreases also.
+Figure 2.9 shows the typical residual stress distribution following autofrettage for liners of
+different thicknesses and yield strength. All liners included in the figure had an OD of 617
+mm that were wrapped in a jacket that was 17.06 mm thick. The compressive residual
+stresses are the highest in magnitude on the ID and lowest on the OD and are distributed
+linearly between the ID and OD, that is expected for thin-wall liners. Since the autofrettage
+pressure is linked to a fixed amount of plastic deformation on the OD, the residual stress
+pattern for different thicknesses lies along the same trend. Thus, the magnitude of
+residual stresses in the interior of the liner wall do not vary with liner thickness but are
+significantly affected by the yield strength.
+
+
+
+
+
+Fig. 2.9 – The residual stress distribution in the liner wall following autofrettage. The analyses results are
+for liners with an OD of 617 mm and a wrap thickness of 17.06 mm.
+
+      Figure 2.10 shows the variation in residual stress distribution for cylinders from
+liners with different ODs and yield strengths for a constant wrap thickness of 17.06 mm.
+The distribution of stress between ID and OD is assumed to be linear consistent with the
+observation from Fig. 2.9. The residual stress depends significantly on the OD of the liner
+and the observation that the stress pattern is similar for liners with different thicknesses
+also holds for the ODs of 508 mm and 406 mm.
+
+      Equations (2.4) and (2.5) represent the residual compressive circumferential
+stress in the liner wall at the ID and OD of the liner in its central region. These equations
+account for the variation in residual stress with yield strength, OD, and wrap thickness.
+Between the ID and OD, the stress distribution is expected to be approximately linear. As
+shown before, the ID residual stresses are independent of liner thickness, but the OD
+residual stresses do change linearly with the liner wall thickness but predictably from
+equation (2.4).
+
+
+
+                                         25
+PAGE 27
+                                                                                          (2.4)                                                                                             𝑆𝑆𝑦𝑦                      𝐷𝐷                      𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃= 𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃𝜃𝜃ቆ0.6 + 0.4 ൬𝑆𝑆𝑦𝑦𝑦𝑦൰ቇቀ1.4 −.4 𝐷𝐷0ቁ                                                                                          (2.5)                                                                              𝐷𝐷        𝑆𝑆𝑦𝑦    𝑡𝑡                    𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃= 𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃−ቆ−195 + 105 ቀ 𝐷𝐷0ቁቇ 𝑆𝑆𝑦𝑦𝑦𝑦 𝑡𝑡0
+    = circumferential stress at the ID of the liner,          is the circumferential stress at
+the ID  for the reference  liner  with𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃                                                                                 𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃𝜃𝜃=                         Figures 2.11 and 2.12 show a direct comparison between the                                                           𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃𝜃𝜃= 238.84,  𝑆𝑆𝑦𝑦0 = 482.5, 𝐷𝐷0 = 617 𝑚𝑚𝑚𝑚. 𝑡𝑡0 =predicted residual circumferential stress at the ID and OD for all cases analyzed by finiteelement22.9 𝑚𝑚𝑚𝑚,analyses,𝑡𝑡𝑤𝑤𝑤𝑤= 17.06showing𝑚𝑚𝑚𝑚.  very good agreement between values from equations (2.4)
+and (2.5) and the finite element analyses. In these figures, the lines indicating an error
+band of      are plotted to demonstrate that equations (2.4) and (2.5) have no more than
+5% difference from the values determined from finite element analyses.     ±5%
+
+
+
+
+
+Fig. 2.10 –Residual stress pattern in the liner after autofrettage for cylinders of different ODs and yield
+strength.
+
+  2.2.5  Stresses in the Critical Regions of the Liner During Service
+   Hoop stress on the ID of the main body of the liner decreases with increase in its
+thickness from 22.9 to 25.2 mm as seen in Fig. 2.13 for a yield strength of 482.5 MPa.
+The circumferential stress at this location further decreases with increases in yield
+strength due to higher residual stresses.
+
+
+
+
+                                         26
+PAGE 28
+Fig. 2.11 - Predicted residual circumferential stress at the ID from equation (2.4) and that calculated from
+the finite element analyses under similar conditions.
+
+
+
+
+
+Fig. 2.12 - Predicted residual circumferential stress at the OD from equation (2.5) and that calculated from
+the finite element analyses under similar conditions.
+
+
+
+
+
+                                         27
+PAGE 29
+Fig. 2.13 – Circumferential stress distribution between ID and OD of a liner with a thickness of 22.9 mm,
+and a material yield strength of 482.5 MPa at various operating pressures in the mid-section of the cylinder.
+
+    In Fig. 2.14, the circumferential stress distributions from the ID to OD in the mid-region
+of the cylinder are plotted for liner wall thicknesses of 22.9 and 25.2 mm for an MOP of
+50 MPa. As expected, the stresses are lower for the liner with a thicker wall. The effect
+of OD on the magnitude of the circumferential stress in this region was also explored by
+considering results from liners with ODs of 508 mm and 406 mm, in addition for the 617
+mm OD case. These results are also shown in Fig. 2.14. It is evident that reducing the
+OD is a much more effective means of reducing the stress in this region than increasing
+thickness. However, it must be kept in mind that OD has a major influence on the capacity
+of the cylinder, therefore, reducing it will significantly affect the capacity of the cylinder.
+
+     It is noted that the maximum hoop stress on the ID of the liner occurs in the transition
+region between the straight section and the beginning of the dome. There is a 9 mm
+region between the end of the wrap and start of the dome that is not reinforced by the
+wrap and is considered critical. The hoop stress distribution in this region was carefully
+examined as discussed below.
+
+   At a yield strength of 703.5 MPa, the ID and OD circumferential stresses are plotted
+as a function of axial distance from the wrap/cylinder interface for various wall thicknesses
+in Figs. 2.15 and 2.16, respectively. The maximum hoop stress at the ID occurs at
+approximately 1.76 mm from the wrap/liner interface and is shown in Fig. 2.15. The
+corresponding hoop stress at the OD for that location can be found in Fig. 2.16. The
+distribution of the circumferential stress from ID to OD at an axial distance of 1.76 mm
+from the wrap/liner interface is plotted in Fig. 2.17 for two liner thicknesses. It is observed
+from Figs. 2.15 and 2.16 that when the stress at the ID is high, the corresponding stress
+on the OD is low and when the stress on the OD is high, the corresponding stress at the
+ID is low. The effect of this trend on the cyclic life of the cylinder will be discussed later.
+
+
+
+
+                                         28
+PAGE 30
+Fig. 2.14 – Circumferential stress distribution for an MOP of 50 MPa in the transition region from the wrap
+to the dome at an axial distance of 1.76 mm from the liner/wrap interface. The liners analyzed were of three
+different ODs and two thicknesses, and Sy=703.5 MPa.
+
+
+
+
+
+Fig. 2.15 – Hoop stress distribution at the ID at a pressure of 41 MPa and at ambient pressure along the
+axial direction as a function of axial distance from the liner/wrap intersection for two wall thicknesses. The
+maximum stress occurs at a point approximately 1.76 mm from the wire wrap/cylinder intersection towards
+the dome.
+
+                                         29
+PAGE 31
+       Axial stress on the ID were generally low and is not a cause for concern. However,
+there were regions of the liner where the axial stress on the OD was high as seen in Figs.
+2.18 and 2.19. In these regions, the axial stress on the ID is very low. Thus, any cracks
+present on the ID surface only experience these low stresses. Table 2.4 summarizes the
+magnitude of stresses at various maximum operating pressures for cylinders with liners
+of thicknesses equal to 22.9 mm and 25.2 mm, for ODs of 617, 508 mm, and 406mm.
+
+
+
+
+
+Fig. 2.16 – Maximum hoop stress as function of wall thickness on the OD at a pressure of 41 MPa and at
+ambient pressure for a yield strength of 703.5 MPa.
+
+
+
+
+
+Fig. 2.17 – Circumferential stress distributions from ID to OD at a pressure of 0 and 41 MPa for a 617 mm
+OD liner at a point 1.76 mm from the wrap/liner interface.
+
+                                         30
+PAGE 32
+Fig. 2.18- Axial stress at ID and OD of a cylinder subjected to an internal pressure of 0 and 41 MPa for liner
+thicknesses of 22.9 and 25.2 mm for liners with a yield strength of 703.5 MPa.
+
+
+
+
+
+Fig. 2.19 – Axial stress distribution from ID to OD at two locations along the unwrapped portion of the
+cylinder, at an axial distance of 1.76 and 6.76 mm. The liner OD was 617 mm.
+
+
+
+                                         31
+PAGE 33
+           Table 2.4 – Summary of stresses in the critical region in the pressurized cylinder
+
+ OD          t   MOP      Circumferential       Circumferential Stress      Axial Stress (transition
+ mm  mm   MPa   Stress (mid-section),       (transition region),             region), MPa1
+                      MPa               MPa1
+                          ID      OD         ID      OD          ID       OD
+  617    22.9    45      129       204       256        216         49.6         401.7
+  617    25.2    45      101       190       222.3       207.7        46.38        369.6
+  617    22.9    41      92.3      170.2      222.9       182.3        30.9         372.5
+  617    25.2    41      66.8      158.8      191.9       177         30.9         343.6
+  617    22.9   37.5     60.1       141       193.5       155         15.5         347.4
+  617    25.2   37.5     36.9      131.5      165.1       150.1        14.2         320.8
+  617    22.9    35      37.2      119.6      172.3       131.2         4.8          329.5
+  617    25.2    35      15.7       112       146.1       130.9         2.4          304.7
+  617    22.9    0      -284       -170       -120.4      -166.97       -147.4         78.5
+  617    25.2    0      -283       -161       -120.4      -137.4       -163.7         78.2
+  508    22.9    45      41       140       171.8       154.8         -11.6         350
+  508    25.2    45      15       131       141.4       154.8         -9.75         325
+  508    22.9    50      79       174       206.2       189.3          -6.8         379
+  508    25.2    50      50       162       172.7       185.9          -7          351
+  508    22.9    0      -298       -165       -138.8       -156         -181          85.3
+  508    25.2    0      -300       -150       -141        -123        -163.6         91
+  406    22.9    45       -53       81        80        102.3          -7.5         308.6
+  406    25.2    45       -73       84        55.7       116.8         -64          289.8
+  406    22.9    50       -23       107       107.5       129.4         -61.2         331.6
+  406    25.2    50       -45       108        80.7       141          -51.3         310
+  406    22.9    0      -323       -155       -169       -139.2       -205.3        104.4
+  406    25.2    0      -324       -133       -170.5      -98.72       -181.0        109.8
+
+1These stresses are for a location 1.76 mm in the axial direction from the intersection of the wrap and liner
+towards the dome of the liner where the stresses were the highest.
+
+    In Fig. 2.20, the effect of OD on the magnitude of the circumferential stress in the
+transition region was explored for two liner wall thicknesses and two wrap thicknesses.
+The wrap thicknesses analyzed were 17.06 (48 layers of wire) and 14.93 mm (42 layers
+of wire). As expected, the stress decreases  significantly with decreasing OD and
+moderately with increasing wrap and liner thicknesses. Between wrap thickness and liner
+thickness, the decrease in stress is more significant for increasing wrap thickness. Thus,
+it is better to have a wrap thickness of 17.06 mm than 14.93 mm.
+
+
+
+
+
+                                         32
+PAGE 34
+Fig. 2.20 – The effect of OD, liner wall thickness, and the wrap thickness on the circumferential stresses in
+the transition region of the liner.
+
+2.3  Objective 3: Fracture Mechanics Analyses
+
+   The results of the Fracture Mechanics analyses to estimate the design life of the
+cylinder are described. These analyses results were used to choose the liner and other
+cylinder parameters for the cylinder prototype. First, the crack growth material properties
+used in determining the design life are summarized.
+
+  2.3.1  Environment Assisted Fatigue Crack Growth During Service Loading
+   Environment assisted fatigue crack growth analysis was performed for a variety of
+conditions that included MOP values of 41 and 35 MPa (410 and 350 bar) for cylinders
+containing liners with 617 mm OD. In these analyses, the postulated cracks were in the
+radial-axial plane in the transition region where the circumferential stresses were the
+highest. The initial crack shapes assumed were semi-elliptical; they were 1 mm deep and
+3 and 5 mm long on the surface. The material model chosen for the environment assisted
+crack growth analysis  is  first described, followed by the results of the design  life
+calculations. The results for a cylinder with a liner of diameter 508 mm are discussed that
+will permit raising the MOP to 50 MPa (500 bar).
+   The ASME master fatigue crack growth rate curve embedded in ASME Code Case
+2938 was developed by San Marchi et al.[4] of Sandia National Laboratory. It was used
+in the fracture mechanics analyses presented here as it applies to ferritic steels used in
+                                         33
+PAGE 35
+the construction of pressure vessels experiencing high pressure hydrogen environment
+during service. The salient features of this model are as follows:
+
+•  Fatigue crack growth rates in A372 Grade J (or E) Class 70 steels with ultimate
+   strength less than 950 MPa (137 ksi) are relatively insensitive to heats of steel and
+   the yield strength. Also, the data exhibit a knee in the da/dN versus ∆K trend at a value
+    of ∆K equal to ∆Kc, that depends on the load ratio, R. The slope in the Paris equation
+   changes from 6.5 to 3.66 at ∆Kc as seen in Fig. 2.21 for various load ratios.
+
+•  The FCGR behavior increases significantly with load ratio, R = Kmin/Kmax; thus, the
+    effects of R must be accounted in calculating crack growth rates in gaseous hydrogen.
+  A relatively simple relationship, equation (2.6), can represent the fatigue crack growth
+   rate (FCGR) behavior of this class of steels for load ratio, R,            These
+   equations are used for hydrogen pressures of up to 102 MPa (15,000 psi) and are as                                                                    0.1 ≤𝑅𝑅≤0.8    follows:
+
+
+                                                                                          (2.6)                                                          𝑑𝑑𝑑𝑑       1+𝐶𝐶𝐻𝐻𝑅𝑅                                𝑑𝑑𝑑𝑑= 𝐶𝐶  1−𝑅𝑅(∆𝐾𝐾)𝑚𝑚
+
+                                                                                          (2.7)where, the values of C, CH, ∆𝐾𝐾𝑐𝑐=and m8.475are listed+ 4.062𝑅𝑅−1.69𝑅𝑅2in Table 2.5. Note that C and m values
+characterize the dependence of crack growth rates on ∆K in a linear log-log Paris-type
+relationship, and the value of CH is dependent on R.
+
+     The FCGR data from San Marchi et al.[4] is limited to R > 0; but autofrettaged
+vessels are subjected to loading that consists of compressive stresses at the minimum
+pressure leading to an R < 0. The ASTM Standard E647 [5] recommends that for R < 0,
+∆K equal Kmax. The ASME Code Case 2938 also recommends that for R < 0, ∆K equal
+Kmax or essentially, R = 0.
+
+Table 2.5 – Constants in equation (2.6) for describing the environment assisted fatigue crack growth
+behavior in SA372 Grade E/J Class 70 steels in high pressure hydrogen ( p = 102 MPa)
+
+
+                   da/dN in in/cycle       da/dN in m/cycle     da/dN in in/cycle   da/dN in m/cycle     C              2.54 x 10-12 ∆𝐾𝐾< ∆𝐾𝐾𝑐𝑐    3.5x10-14           8.34 x 10-10∆𝐾𝐾≥∆𝐾𝐾𝑐𝑐  1.5x10-11
+    m                              6.5                                      3.66
+      CH                            0.43                                        2.0
+
+    A comparison of FCGR behavior between positive and negative load ratios in
+gaseous hydrogen at a pressure of 10 MPa was investigated by Saxena, Nibur and
+Prakash [6]. They concluded that the FCGR behavior for R of -0.5 and -1.0  were
+comparable to the trends exhibited at R = 0.1 tested under identical hydrogen pressures
+                                         34
+PAGE 36
+and using specimens that were suited for both tension-tension and tension-compression
+loading. This evidence is used as a justification for using R = 0 in equation (7) when the
+load ratios are negative, as also specified in ASME Code Case 2938.
+
+
+
+
+
+    Fig. 2.21- Schematic representations of the FCGR behavior from the ASME Section VIII-3 master curve
+     for A372 Grade J/E Class 70 steels as a function of load ratio, R, in high pressure gaseous hydrogen
+     for pressures of 100 MPa.
+
+  2.3.2 Design Life Estimation
+    In this section, the design lives of the pressure vessels were estimated assuming flaw
+sizes in liners that could escape detection during the ultrasonic and magnetic particle
+inspections of liners after manufacturing. The geometry of the flaw that is life limiting is
+shown in Fig. 2.22. As presented in the previous section, the highest circumferential
+stresses on the ID of the liner that is exposed to high pressure hydrogen is at a point
+located at an axial distance of 1.76 mm from the end of the wrap toward the dome. This
+is a region not covered by the wrap. The magnitude of the stresses in the ID and OD at
+this location were listed in Table 2.3 for this location. There are other critical areas in the
+liner of the wrapped cylinder near the knuckle region where the stresses are high and will
+be explored later in the report. The stresses at this location are used only for preliminary
+design and the other locations will be analyzed for estimating the design life of the vessel
+as part of certification and preparing the manufacturer’s design report (MDR).
+
+
+
+
+                                         35
+PAGE 37
+    Fig. 2.22 – The geometry of the flaw that determines the design life of the vessel.
+
+   To estimate the design life, the magnitude of the stress intensity parameter, K, for this
+geometry must be estimated. Expressions derived by Newman and Raju [7] are adopted
+for this purpose. These expressions are summarized below:
+                                                                                          (2.8)                                                                                                  𝜋𝜋𝜋𝜋
+Where, p = gas pressure (MOP) and the other terms are as follows:                    𝐾𝐾= (𝑆𝑆𝑡𝑡+ 𝑝𝑝+ 𝐻𝐻(𝜙𝜙)𝑆𝑆𝑏𝑏)ට 𝑄𝑄𝐹𝐹
+                                                                                          (2.9)Where,    is the angle as shown in𝐹𝐹=Fig.𝐹𝐹1𝑓𝑓𝑐𝑐𝑔𝑔(𝜙𝜙)𝑓𝑓(𝜙𝜙)2.23. The various other terms in equation (2.9)
+are given as:          𝜙𝜙
+                                                           for a/c < 1                      𝑄𝑄= 1 + 1.464(𝑎𝑎/𝑐𝑐)1.65                                         𝐹𝐹1 = [𝑀𝑀1 + 𝑀𝑀2(𝑎𝑎/𝑡𝑡)2 + 𝑀𝑀3(𝑎𝑎/𝑡𝑡)4]                                                                                   𝑎𝑎                                       𝑀𝑀1 = 1.13 −0.09                                                                                                    𝑐𝑐                                              0.89                                     𝑀𝑀2 = −0.54 +                                                                                     𝑎𝑎                                                0.2 +                                                                                                       𝑐𝑐     24                                 1                              𝑀𝑀3 = 0.5 −     + 14 ቀ1 −𝑎𝑎                                                                        𝑎𝑎                                                                          𝑐𝑐ቁ                                    0.65 +                                                                                       𝑐𝑐     2                              𝑔𝑔(𝜙𝜙) = 1 + ൤0.1 + 0.35 ቀ𝑎𝑎  ൨(1 −𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠)2                                                                 𝑡𝑡ቁ2        1/4                                    𝑓𝑓(𝜙𝜙) = ൤𝑠𝑠𝑠𝑠𝑠𝑠2𝜙𝜙+ ቀ𝑎𝑎    𝑐𝑐𝑐𝑐𝑐𝑐2𝜙𝜙൨                                        2    2     𝑐𝑐ቁ                       + 𝑟𝑟𝑖𝑖                                             2                                     𝑓𝑓𝑐𝑐= ቈ𝑟𝑟𝑜𝑜                                                                                    𝑟𝑟𝑜𝑜2 −𝑟𝑟𝑖𝑖                          + 1 −0.5ට𝑎𝑎𝑡𝑡቉𝑡𝑡𝑟𝑟𝑖𝑖 2                           𝑔𝑔(𝜙𝜙= 0) = 1 + ൤0.1 + 0.35 ቀ𝑎𝑎   ൨                                         36                                                                           𝑡𝑡ቁ
+PAGE 38
+                                   𝑔𝑔(𝜙𝜙= 𝜋𝜋/2) = 1                                    𝑓𝑓(𝜙𝜙= 0) = ට𝑎𝑎                                                                                                 𝑐𝑐                                   𝑓𝑓(𝜙𝜙= 𝜋𝜋/2) = 1                                  𝐻𝐻(𝜙𝜙= 0) = 𝐻𝐻1                                         𝐻𝐻(𝜋𝜋/2) = 𝐻𝐻2                                                                  𝑎𝑎                                   𝐻𝐻1 = 1 −0.34 𝑡𝑡−0.11(𝑎𝑎/𝑐𝑐)(𝑎𝑎/𝑡𝑡)
+
+
+
+
+
+Fig.2. 23- Definition of the angle   at any point P on the boundary of an elliptical crack. The value of
+ on the surface and 90o at the deepest point.                                          𝜙𝜙                                                   𝜙𝜙=0                     𝐻𝐻2 = 1 + 𝐺𝐺1(𝑎𝑎/𝑡𝑡) + 𝐺𝐺2(𝑎𝑎/𝑡𝑡)2;0.75𝐺𝐺1 = −1.22 −0.12(𝑎𝑎/𝑐𝑐)
+                                                                    ;                                 𝐺𝐺2 = 0.55 −1.05 ቀ𝑎𝑎   + 0.47(𝑎𝑎/𝑐𝑐)1.5                                                                  𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃+𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃 𝑐𝑐ቁ         𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃−𝜎𝜎𝜃𝜃𝜃𝜃𝜃𝜃                                  𝑆𝑆𝑡𝑡=     2       𝑆𝑆𝑏𝑏=     2The above equations are embedded in a computer code for estimating design lives.
+Comparisons made between the results from this code and those with NASGRO [8], a
+commercial Fracture Mechanics analysis code used widely in industry, showed that the
+WireTough code based on the above equations always resulted in conservative lives. The
+code was implemented for the following conditions:
+   •  The liner size consisted of an OD = 617 mm and thicknesses of 22.9 and 25.2 mm
+     wrapped with 48 layers of wire. In other words, the wrap thickness is 17.06 mm.
+   •  Hydrogen pressure ranges varied between 45 to 4.5 MPa, 41 and 4.1 MPa, 37.5
+       to 3.75 MPa, 35 to 3.5 MPa, to determine how the design lives vary with MOP
+      under conditions of full cycling.
+   •  The initial flaw sizes were chosen as 1 mm deep and 0.5 mm deep. The 1 mm
+     deep flaw is currently an industry standard based on results of ultrasonic testing,
+
+                                         37
+PAGE 39
+      but the industry is moving rapidly to a capability of being able to detect flaws that
+      are 0.5 mm deep on the ID of the liner. Thus, in this analyses both flaw depths are
+      considered.
+   •  The initial flaw depth, a, to surface flaw length, 2c, were chosen as 0.2 and 0.33 to
+      assess the differences in the design life from being able to detect smaller flaws,
+      not just in the depth direction but also along the axial direction on the surface.
+   The results of the parametric analyses are reported in Table 2.6 and plotted in Fig.
+2.24. The following criteria developed from the recommendations of ASME Section VIII-
+Division 3 design code KD-10 for pressure vessels designed for service in high pressure
+hydrogen environment were followed to determine design life.
+
+   •  The crack growth calculation was truncated when the maximum value of K, Kmax,
+      reaches a value of 40 MPa(m)0.5 corresponding to the threshold stress intensity
+       level for crack growth under a sustained load. This is considerably lower than the
+      estimated fracture toughness, KIc = 80 MP(m).5
+   •  The design life was equal to half of the number of cycles needed to grow the crack
+      from its initial flaw depth to the critical flaw depth.
+   •  In all cases, the K along the flaw length was significantly less than the K along the
+      depth direction, so a leak-before-break condition is assured.
+
+      At an MOP of 45 MPa (450 bar), to achieve 4000 cycles of design life requires a
+liner thickness of 25.2 mm and the ability to detect flaws that are 0.5 mm deep. This is
+currently not within the capability of the currently used ultrasonic inspection techniques in
+industry. Therefore, 45 MPa cannot be recommended as the MOP at this time.
+
+      At an MOP of 41 MPa (410 bar), a cylinder with a liner of wall thickness of 22.9
+mm will not yield an acceptable life but a cylinder with a liner that is 25.2 mm thick does
+for an initial flaw depth of 1 mm. At an MOP of 37.5 MPa (375 bar), the design criteria are
+met with plenty of margin, Therefore, an MOP of 37.5 MPa (375 bar) is appropriate for
+the cylinder containing the selected liner with a minimum wall thickness of 22.9 mm. Note
+that if the cylinder is designed to cycle between MOP and 10% of MOP 200 times in a
+year, the total desired life over 20 years must be 4,000 cycles.
+
+      Next, we consider the liner size needed to raise the MOP to 50 MPa (500 bar) and
+the MAWP to greater than 60 MPa (600 bar). The most effective means of increasing the
+MOP to 50 MPa (500 bar) and the maximum allowable pressure (MWAP) to greater than
+60 MPa (600 bar) is to reduce the OD of the liner to 508 mm. To partially compensate for
+the decrease in cylinder capacity, the length is increased to 9000 mm. With that change,
+the cylinder capacity becomes approximately 1400 L compared to the previous value of
+1715 L. Because of the higher H2 density at 500 bar compared to 350 bar, the mass of
+hydrogen stored in this cylinder is 42 KG that is higher than 40.7 KG in the larger cylinder
+at 350 bar. The design lives under these circumstances are explored below to show that
+this is a viable design.
+
+
+                                         38
+PAGE 40
+Table 2.6 – Design lives resulting from the parametric analyses that varied MOP, wall thickness, initial flaw
+size, and initial flaw shape. The liner OD in all these cases was 617 mm with a wrap thickness of 17.06mm.
+
+                             Liner             Initial Flaw depth,     Design Life, Cycles
+       MOP, MPa   Thickness, mm      mm
+                                                               a/ac =    a/2c = 0.33
+                                                                  0.2
+                           22.9                 1.0            1733       2390
+           45                                 0.5            3459       4583
+                           25.2                 1.0            2524       3498
+                                                 0.5            5069       6759
+                           22.9                 1.0            2794       3850
+                                                 0.5            5572       7207
+           41
+                           25.2                 1.0            4170       5749
+                                                 0.5            8799      11454
+                           22.9                 1.0            4634       6383
+                                                 0.5            9306      12160
+            37.5
+                           25.2                 1.0            7025       9783
+                                                 0.5           14293      20096
+                           22.9                 1.0            6868       9467
+                                                 0.5           13850      19189
+           35
+                           25.2                 1.0           10675      14685
+                                                 0.5           21343      35064
+
+
+   From Table 2.1, it can be noted that a 22.9 mm thick wall liner with an OD of 508 mm
+will allow an MAWP of up to 62 MPa (620 bar) and a liner with a wall thickness of 25.2
+mm will allow an MAWP of up to 68.7 MPa (687 bar). Thus, liners with an OD of 508 mm
+of both thicknesses will be sufficient to meet the MAWP goal. We then need to assess if
+these liner dimensions are sufficient to meet the MOP goal of 50 MPa.
+
+   The calculated design lives of cylinders with a  liner OD of 508 mm and wall
+thicknesses of 22.9 and 25.2 mm with a wrap thickness of 17.06 mm were determined for
+MOP values of 45 and 50 MPa and are listed in Table 2.7 and plotted in Fig.2.25. At an
+MOP of 45 MPa (450 bar), both thicknesses are sufficient to meet the design life goal of
+4000 cycles for flaws that are 1 mm deep and 5 mm long. At MOP of 50 MPa, liner
+thickness of 25.2 mm meets the design life goal of 4,000 cycles. It is thus necessary to
+specify a minimum liner wall thickness of 25.2 mm for a liner with an OD of 508 mm to
+comfortably meet the 50 MPa (or 500 bar) goal for the MOP.
+
+
+
+
+
+                                         39
+PAGE 41
+    Fig. 2.24 – Design life of cylinders with 617 mm OD liners for full pressure fatigue cycles as a function
+    of MOP, initial flaw shapes and initial flaw size.
+
+
+
+
+
+Fig. 2.25 – Design lives of cylinders with 508 mm OD liners and a wrap thickness of 17.08 mm (48 wire
+layers) as a function pf MOP for wall thicknesses of 22.9 and 25.2 mm, and initial flaw depth of 0.5 mm and
+1 mm and a/2c values of 0.2 and 0.33.
+
+
+
+
+
+                                         40
+PAGE 42
+Table 2.7 – Design life of cylinders with liner diameters of 508 mm and a wrap thickness of 17.06 mm at
+MOPs of 45 and 50 MPa.
+
+    Wall thickness, t.       Initial crack   MOP, MPa       Design Life, Cycles
+      mm          depth, ai, mm                                                       a/2c = 0.2     a/2c = 0.33
+                             1.0                      5341         7357
+         22.9                             0.5                     10614        13775
+                                     45
+                             1.0                      8662        11731
+         25.2                             0.5                     16618        26079
+                             1.0                      2862         3945
+         22.9                             0.5                      5687         7214
+                                     50
+                             1.0                      4375         6094
+         25.2                             0.5                      8937        11731
+
+
+2.4  Summary of Design Analysis and Fracture Mechanics Analyses Results
+
+   Stresses were estimated in the critical region of the vessel subject to service loading
+consisting of pressurization and depressurization cycles. The circumferential stresses
+near the junction between the liner and the wrap were the highest and were used to
+estimate the environment assisted fatigue crack growth life of the vessels. The analyses
+lead to the following conclusions.
+
+   •  Autofrettage, used during fabrication of Type II-S pressure vessels to enhance the
+       fatigue life of vessels, locks high compressive residual stresses in the vessel’s liner
+       wall and reduces the maximum and the mean stress during service loading.
+   •  To achieve a consistent residual stress profile across the wall, autofrettage
+      pressure must be selected such that there is plastic deformation on the outside
+      surface of the liner. The pressure depends on liner wall thickness and the wrap
+       thickness, the OD of the liner, and the liner yield strength.
+   •  From the finite element analyses, a model was developed to represent the effects
+       of these variables on the autofrettage pressure in the form of a simple, closed form
+       equation.
+   •  The resulting residual stress profiles from autofrettage obtained from finite element
+      analyses were used to develop equations for estimating the residual stress
+       distribution as a function radial distance along the wall thickness, liner OD, and the
+       yield strength of the material.
+   •  To achieve a lifetime of 20 years in pressure vessels that will experience an
+      average of 200 cycles of pressurization/depressurization cycles per year,  it is
+      necessary to limit the maximum operating pressure to 41 MPa (410 bar) for vessels
+       with an OD of 617 mm and liner wall thickness of 25.2 mm and to 37.5 (375 bar)
+        for vessels with liner wall thickness of 22.9 mm.
+                                         41
+PAGE 43
+   •     It will be shown later in the report that a flaw on the ID in the knuckle region
+      between the dome and the nozzle gives the shortest life and limits the MOP to 350
+       bar. This additional analysis was performed as part of design certification and
+       preparation of the Manufacturer’s Design Report (MDR) described in Section 2.6
+       of this report.
+   •  To achieve an MOP of 50 MPa, it is necessary to decrease the liner OD to 508
+    mm and raise the minimum wall thickness of the liner to 25.2 mm.
+   •  To achieve an MOP of 700 bar, the liner OD of the liner should be decreased to
+     406 mm and a minimum wall thickness be increased to 31.75 mm.
+
+2.5   Objective 4: Cylinder Manufacturing
+
+     Handling of and wire winding of large cylinders 650 mm OD, up to 7,600 mm long,
+and weighing almost 4 metric tons is challenging. The manufacturing steps consist of
+assuring the liner meets all the specifications of ASME Section VIII-Division 3 for liners
+and must be sourced from an ASME approved manufacturing facility. Subsequently, the
+wire winding in WireTough’s  facility must be performed in accordance with ASME
+approved, WireTough prepared quality assurance (QA) manual and the Manufacturer’s
+Design Report (MDR) prepared by a third party ASME approved contractor who in this
+case was Structural Integrity Associates with head offices in California. The details of
+manufacturing processes and cost analysis are described next.
+
+     Among the three possible cylinder sizes, the one with a MOP of 350 bar and
+MAWP of 500 bar was chosen for developing and demonstrating the manufacturing
+technologies and building a prototype of the designed vessel. This design was the largest
+in terms of OD size and capacity of the cylinder and the cylinder had the lowest weight of
+the cylinder per KG of hydrogen stored.
+
+       2.5.1 Liner Procurement
+
+      Tenaris USA was chosen to manufacture a custom  liner with the following
+specifications.
+
+•  The liner is made from SA372 Grade E/J Class 70 seamless steel pipe with swaged
+   ends. No welding of any kind is permitted.
+•  Quenched from a solution anneal temperature of 940 0C and tempered at 625 0C.
+•  The OD of the liner = 610    mm, length = 7600   50 mm, and minimum wall
+   thickness = 22.9 mm.•  The nominal weight of the liner±1%= 2960  10% KG   ±  An order for two identical liners was placed±    with Tenaris in December 2021 and the
+finished custom liners were delivered to WireTough in April 2023. A materials test report
+including results from non-destructive-evaluation (NDE) testing was provided by Tenaris.
+A picture of the finished liners is shown in Fig. 2.26. Schematic pictures of the dome
+regions of the liner are shown in Fig. 2.27 where wall thickness measurements were made
+to ensure that the liners were acceptable. The thickness in the straight section of the liner
+                                         42
+PAGE 44
+was measured to be between 26.18 to 29.33 mm that significantly exceeds the minimum
+required value of 22.9 mm. Because of the metal flow during forming of the domes, the
+thickness in the transition region from the dome to the nozzle is even higher between
+38.63 to 43.3 mm. The implications of these measurements will be discussed further in
+Section 2.6.
+
+   The chemical composition of the steel of heat number of 920398 from which the liners
+were made, and the standard composition limits are shown in Table 2.7. All compositions
+were within the specified range.
+
+    Table 2.8 – Chemistry of the liner steel and the acceptable composition range (wt %).
+
+  Heat No.     C       Mn          Si         Cr       Mo       P        S      S + P
+  Standard    0.25 -0.4    0.4 – 1.0   0.1 – 0.45   0.8 – 1.2   0.15 -0.35    0.025      0.025     0.03 max
+                                                          max      max
+  920398      0.28        0.77        0.21        0.99        0.21        .013       0.002      0.015
+
+
+
+
+
+Fig. 2.26 – Picture of the two Tenaris seamless liners being delivered to WireTough’s facility.
+
+     The tensile properties of the steel are shown in Table 2.9 and compared to the
+specified ranges. The dimensions of both liners as well as the mechanical properties were
+all within specifications.
+
+       Table 2.9 – Tensile test results of the liner material.
+
+  Material Heat     Test Temp,     YS, MPa     UTS, MPa   % Elongation   CVN (Joules)      Brinell
+      No.            0C                                       (50 mm gage      At -40 0C     Hardness
+                                                                         length
+    Standard      20 – 25 0C       >485       825 – 950        >16         50 (Avg)     250 - 300
+     range
+     92038         >20 0C         709          844            19         113 (102 –      262
+                                                                                  121)
+
+                                         43
+PAGE 45
+     Location                                 Wall thickness, mm
+                          North             South              East             West
+        1                 27.0              25.68               27.6               27.6
+        2                29.33              26.36              27.22              26.87
+        3                 33.5              26.62              29.89              26.87
+        4                 39.5              31.65              35.10              34.12
+        5                 42.2              38.63              40.00              34.12
+        6                43.23              41.25              41.68              39.37
+        7                38.89              41.37              41.48              40.61
+        8                39.19               38.5              39.01              38.63
+        9                26.18              29.59              39.01              36.78
+       10               29.77              26.06              26.00              26.36
+       11               29.84              28.64              29.72              29.72
+       12               29.72              29.77              29.72              29.72
+
+Fig. 2.27  (Top) – Schematics of the dome regions of the liners showing points where thickness
+measurements were made, (bottom) results from those measurements in multiple locations.
+
+       2.5.2 Wire Wrapping of the Cylinder
+
+    The wire winding machine used was a McClean Anderson and Magnum Venus
+Products (MVP) capable of winding liners that are up to 10,000 mm long. The liners were
+wound with 48 layers of wire following the procedure outlined in WireTough’s ASME
+approved QA manual. A picture of the wound liner with a UV polymer coating is shown In
+Fig. 2.28. The wire used for winding was SA905 plain carbon steel with a diameter of 0.35
+mm with a tensile strength greater than 3 GPa. The ASME Code Case limits the yield
+strength of the wire to 1.8 GPa. In other words, the stress in the wire must not exceed 1.8
+GPa during the autofrettage process.
+
+
+                                         44
+PAGE 46
+Fig. 2.28 – Picture of a wrapped cylinder coated with a UV resistant coating ready for autofrettage and
+hydrotesting.
+
+     The cylinders were shipped to Authorized Pressure Testing in California for
+autofrettage and  testing. The  pressures used  for  autofrettage, and  testing  are
+summarized in Table 2.10 below. The formula for estimating Autofrettage Pressure for
+48-layer steel wire was given in equation (2.3). Hydro Test Pressure as per MDR = 1.33
+x 51 MPa (design pressure) = 66.9 MPa.
+
+       Table 2.11  lists  all the construction materials in building the Type II-S wire
+wrapped vessel. All construction materials are readily available commercially.
+
+
+Table 2.10 – Calculated autofrettage pressures and hydrotest pressures for the two cylinders built.
+
+   WTC Serial                  Liner ID          D (mm)      Wall     Sy (MPa)   PA (MPa)
+     Number       Manufacturer   Serial Number               thickness,
+                                                                                                                  t (mm)
+ WTC_C6107600-      Tenaris       JC-056677      611.5       27.4       708.7      117.7
+       001
+ WTC_C6107600-      Tenaris       JC-056675     611.78     1.045      102.8     17.152
+       002
+
+
+Table 2.11 – List of materials of construction for manufacturing Type II-S wire wrapped vessel.
+
+                                  Item                   Commercial Source
+                          Liner (SA272 Grade E/J –        Tenaris Dalmine SPA, TX
+                       Class 70 -Pressure Vessel         CPI McKeesport, PA
+                                    Steel
+                 SA 905 0.35 mm diameter         Kiswire, Japan with ware
+                             round Wire            house in Pine Bluff, Arkansas
+                       Epoxy resin from 3M           3 M, Minneapolis, MN
+                   UV Protective skin            Pittsburgh Paint and Glass,
+                                                                    Pittsburgh, PA
+
+
+
+
+
+                                         45
+PAGE 47
+       2.5.3 Estimation of Cylinder Manufacturing Costs
+
+   A single assembly line consisting of a winder, material handing system, creels for
+feeding the wire and the autofrettage and hydrotest facility working in two-shifts can
+produce up to 200 wire-wound cylinders per year. The fixed annual cost for operating
+one manufacturing line is estimated as $593,000 and it includes:
+
+        •  Salaries and incentive bonuses for 33% of a Mechanical Engineer, 33%
+           Product Manager, 33%  of a QA Manager, and 3  full-time shop  floor
+            technicians.
+
+        •  Fringe benefits and pay roll taxes for the above personnel,
+
+        •  Cost  of  contractors  for maintaining  certifications,  cost  of  professional
+           engineering services, and securing ASME Authorized Inspector services in
+           support of the manufacturing operation.
+
+        •  Administration and accounting,
+
+        •  Marketing related travel,
+
+        •  Legal and insurance expenses,
+
+        •   Facility rental for required manufacturing space for one line,
+
+        •  Costs of repair and equipment replacement,
+
+        •  Office supplies and communications.
+
+ The fixed annual costs detailed above are distributed equally among cylinders as part
+of annual production volume (APV). For estimating cylinder costs, the APV was varied
+between 20 to the full capacity of 200 cylinders. Note that the fixed cost does not include
+initial equipment or set-up costs such as the cost of the winder and its material handling
+accessories and the autofrettage/hydrotest facility and installation.
+
+     The variable costs include the cost of materials as listed in Table 2.10, warranty
+reserves, cost of working capital, and inbound shipping costs of materials. This cost is
+assumed to be the same for a given cylinder type (fixed pressure rating and capacity)
+that scales linearly with APV. In other words, no discounts were included for bulk
+purchase of construction materials. Figure 2.29 shows how the fixed, variable, and total
+costs vary with APV for cylinders with pressure ratings of 350, 500 and 700 bar. Since
+each type of cylinder stores a different amount of hydrogen, a better metric for comparing
+costs across cylinders with different storage capacity is the cost per KG of hydrogen
+stored as used in Fig. 2.29. Prices of Type 1 cylinders are also shown in Fig. 2.29 for
+comparison.
+
+
+                                         46
+PAGE 48
+     As expected, the cost per cylinder reduces significantly with increasing APV for
+cylinders of all pressure ratings. There is potential for cost savings of between 48.5% and
+60 % to be realized by switching from Type 1 design to a Type II-S design that is bulk
+produced. The cylinder weight per KG of H2 stored for the Type 1 and Type II-S cylinders
+with different pressure ratings is shown in Table 2.12. The weight savings in switching
+from Type I to Type II-S range from 55% to 62.5%.
+
+
+
+
+
+       Fig. 2.29 – Cost of hydrogen storage in $ per KG of hydrogen stored using Type II-S cylinders as a
+      function of Annual Production Volume in a single production line. The cost is compared to the cost
+       of using Type 1 cylinders.
+
+
+
+     Table 2.12- Cost and weight savings in switching from Type 1 to Type II-S cylinders for MOP of 350,
+      500, and 700 bar.
+
+   MOP, Bar        Cost/KG of H2 Stored ($)            Cylinder Weight/KG of H2 Stored, KG
+
+              Type II-S    Type 1   % Savings   Type II-S     Type 1   % Savings
+
+      350       827       1604         48.5         90.4        200.5          55.0
+
+      500       806       1848         56.3         93.5        231.0          59.5
+
+      700       1053       2650         60         122.1        325.4          62.5
+
+
+
+
+
+                                         47
+PAGE 49
+  2.6  Objective 5: Obtain ASME U3 Certification for the H2 Storage Vessel
+
+    The vessel that was designed for 350 bar MOP and 500 bar MAWP (design
+pressure), and a capacity of 1715 L was taken through the entire ASME certification
+process. Two cylinders were produced as described in the previous section of this report.
+Prior to making these cylinders, the design was evaluated by an ASME authorized third-
+party consultant, Structural Integrity Associates (SIA), and certified.
+
+    The  structural capacity  of the vessel was shown  to meet the requirements
+prescribed in ASME BPVC, Section VIII, Division 3 including the design requirements of
+Code Cases 2836-3, 2847-1, and 2938-1, and additional design requirements in the
+User’s Design Specification found in SIA report 2100378.401.R0 [9]. Design conditions
+evaluated herein for the vessel are 500 bar at 93°C (200 0F). The relief device used for
+overpressure protection must not allow the pressure in the vessel to exceed the design
+pressure. The various criteria used to evaluate the design and the outcomes of the
+various assessments are described briefly and detailed in the Manufacturer’s Design
+Report (MDR) [10].
+
+     2.6.1 Global Criteria of Loading
+     The requirements for protection against global plastic collapse were evaluated
+for one relevant load combination based on a design pressure of 500 bar at 93°C. This
+included evaluation of an internal pressure load of 900 bar (1.8 x design pressure)
+with material properties at 93 0C. Satisfaction of this criteria was demonstrated through
+achieving a converged solution in finite element analysis simulating these loading
+conditions.
+     2.6.2 Local Criteria of Loading
+
+   The criteria for the calculation of local strain damage in ASME VIII-3 was evaluated.
+ASME VIII-3 requires that local strain damage be evaluated for two loading conditions:
+    •  The single local loading specified in KD-230.4 at 1.28 x design pressure = 640
+       bar.
+    •  A series of applied loads as described for the evaluation of ratcheting in ASME
+        VIII-3 Article KD234. This series of loads consisted of simulation of the operation
+       of the vessel through three operational cycles as described in Table 2.12.
+
+   This calculation methodology was employed at every point in the vessel and the
+accumulated damage was determined. At no point  in the vessel had damage
+accumulation beyond the accumulation limit of 1.0 established by the ASME VIII-3,
+thus the design criterion was met.
+
+
+
+
+
+                                         48
+PAGE 50
+       Table 2.12 – The various loading steps in the analyses of the wrapped cylinder.
+
+ Loading                   Load Descriptions                       Applied      Temperature
+ Step                                                             Pressure, MPa       0C
+
+     1             Initial Fit Up (reads assembly stresses due to wire          0              21.1
+                           pre-tension and autofrettage
+
+     2                          Hydrostatic Test                         66.9            21.1
+
+     3                   Hydrostatic Pressure Release                  0              21.1
+
+     4                Operational Pressure/Temperature               50             93.3
+
+     5                 Pressure Temperature Release                 0              21.1
+
+     6                Operational Pressure/Temperature               50             93.3
+
+     7                 Pressure Temperature Release                 0              21.1
+
+     8                Operational Pressure/Temperature               50             93.3
+
+     9                 Pressure Temperature Release                 0              21.1
+
+
+
+2.6.3 Buckling and Service Criteria
+
+      There were no design conditions which would result in compressive loading of the
+vessel that could cause buckling. Therefore, an evaluation for buckling was not required
+to comply with ASME VIII-3.
+
+2.6.4  Hydrostatic Testing and Ratcheting Criteria
+
+     The hydrostatic test criterion was evaluated as part of ratcheting assessment. The
+first step of the ratcheting assessment is to simulate the hydrostatic test pressure. ASME
+VIII-3 requires the model to show convergence to comply with the hydrostatic test criteria
+which was demonstrated.
+
+     The  remaining  series  of  applied  loads  described  in  Table  2.12 were
+subsequently evaluated for use in evaluation of the ratcheting criteria (ASME VIII-3
+Article KD-234). ASME VIII-3 requires that one of the following criteria be met to
+demonstrate compliance with the ratcheting assessment:
+    •  There is no plastic action (i.e., zero plastic strains incurred)
+                                         49
+PAGE 51
+    •  There is an elastic core in the primary-load-bearing boundary of the component
+    •  There is not a permanent change in the overall dimensions of the component
+The assessment showed that there were no changes in the overall dimensions of the
+vessel.
+
+2.6.5 Life Assessment of the Vessel
+
+2.6.5.1 Life Assessment of the Wire Wrap
+
+      Fatigue analysis of the wire jacket was performed using methods described in KD-
+9 to ensure that there is no threat of failure of the jacket due to pressure cycling. Further,
+the stresses in the wire jacket were analyzed at the autofrettage pressure which was
+about 2.4 x design pressure to demonstrate that the wire jacket remains elastic at the
+autofrettage pressure. The wire jacket fatigue life was shown to be more than 100,000
+cycles.
+
+2.6.5.2 Life Assessment of the Liner
+
+     The life assessment of the vessel is in accordance with ASME VIII-3 Article KD-
+4 of ASME Section VIII Division 3 code. The number of design cycles reported is based
+on the pressure cycle ranges specified in the User’s Design Specification. The number
+of cycles reported is the total design cycles for the vessel. Actual combinations of cycles
+and / or pressure should be considered in the equipment operation.
+
+     The cyclic life is based on an NDE method that can detect flaws 1 mm deep by
+5 mm long at the ID and OD of the vessel, as well as the thread roots. This flaw size
+was reported as the detection threshold for the NDE methods used in the vessel.
+       Fracture mechanics-based fatigue crack growth analyses were performed
+assuming surface flaws that were 1 mm deep and were 5mm long on the surface. The
+flaw locations for which the analyses were performed are schematically shown in Fig.
+2.30 and models used for the flaws at various locations are shown in Table 2.13. As
+part of this analysis, the cylinder was cycled between the maximum operating pressure
+(MOP) to 10% of MOP. The MOPs chosen were 450, 410, and 350 bar. Design lives
+in number of pressurization and depressurization cycles were estimated for the
+various loading conditions using the method prescribed in ASME Section VIII-Div 3
+code article KD-10 that specifically addresses cylinders for hydrogen storage. The
+results are listed in Table 2.14.
+
+
+
+
+
+                                         50
+PAGE 52
+       Fig. 2.30 – Locations of assumed flaws in the cylinder for the fatigue crack growth analyses.
+
+
+
+
+Table 2.13 – Crack models used in the fracture mechanics analysis for estimating design life at various
+points of the cylinder.
+
+
+
+
+
+                                         51
+PAGE 53
+Table 2.14 shows the predicted design life/ inspection intervals that were estimated from these
+                                           calculations.
+
+                                    52
+PAGE 54
+               Pressure, Bar                         Design Life in Cycles, Location
+
+     Maximum     Minimum         1       2        3        4        5         6
+
+          350           35         5.58 x    13,300   57,000    5,300     3,000      50,000
+                                       107
+
+          410           41       122,000   4,450    33,500    1,700     1,600      29,500
+
+          450           45        32,000    2,900    26,500    1,100     1,200      23,500
+
+
+ Based on the fatigue lives listed in Table 2.14, the MOPs of 450 bar and 410 bar are
+ruled out for this design because of insufficient fatigue lives. At 350 bar, the fatigue life
+exceeds 4000 cycles (200 cycles/year for 20 years) everywhere except for a flaw in the
+knuckle region where it was calculated as 3,000 cycles or 15 years at 200 cycles/year.
+This result is worthy of further discussion.
+
+  Figure 2.31 shows two finite element analysis models for estimating the stresses in the
+knuckle region. The model on the left assumes that the wall thickness in the liner equals
+the minimum specified of 22.9 mm everywhere, while the model on the right assumes
+that the wall thickness in the dome and the knuckle region  is determined by the
+intersection of extended lines tracing the inner surface of the nozzle with the extension
+of the curve associated with the inner surface of the dome. This geometry is forced by
+the forming tools used in forming the domes and are more realistic. The modelled
+thicknesses are shown in Fig. 2.32b where it is 38.1 mm in the knuckle region. The actual
+wall thicknesses are shown in Fig. 2.27 to be about 40 mm, or even higher.  It thus
+appears that the model used in Fig. 2.31b is a more realistic but still conservative in
+representing the liner geometry and dimensions in the knuckle region.
+
+  Figure 2.32 shows the stress distributions at location 5 where the cyclic life was 3000
+cycles (15 years), Table 2.14, which was the least among all the locations analyzed. The
+corresponding life for the stress distribution from Model 2 is 6000 cycles, or 30 years. At
+location 4, the life estimated from Model 2 jumps to more than 15,000 cycles. Thus,
+location 5 remains the design life controlling location, where the design life is 6,000
+cycles. Model 2 has not been incorporated in the MDR but before selling the cylinder,
+that change can be made.  Thus, the design life or inspection interval for the cylinder
+manufactured  is 6,000 pressure cycles (or 30 years @ 200 cycles per year) with
+amplitudes ranging from an MOP of 350 bar to 35 bar.
+
+
+
+
+
+                                         53
+PAGE 55
+                       a
+
+
+
+
+
+                b
+
+
+Fig. 2.31 – Two finite element models used to compute stresses in the knuckle region of the liner. In
+the first model (a) the wall thickness is 22.9 mm throughout the dome and nozzle region and (b) the
+thickness profile in the dome region as dictated by intersection of the extensions of the inner surface
+of the liner in the nozzle region and the curvature of the dome at the ID. The wall thicknesses in the
+various locations are shown in this figure in inches and is as high as 38 mm (1 inch = 25.4 mm).
+
+
+                                    54
+PAGE 56
+                      35 Bar-Model 1     350 Bar Model 1     35 Bar Model 2     350 bar Model 2
+           700
+
+           600
+
+           500
+       MPa           400
+
+           300                Stress,
+           200
+
+           100
+
+             0                                   Circumferential     0        5        10       15       20       25       30       35
+           -100
+
+           -200
+
+           -300
+                                    Radial Distance from the ID, mm
+
+
+       Fig. 2.32 -Estimated stress distributions at location 5 in the knuckle region at maximum and minimum
+      operating pressures using Model 1 that assumes the wall thickness to be the same in the dome and
+      knuckle regions (Fig. 2.31a) and Model 2 using variable wall thickness (Fig. 2.31b) showing
+       significant reduction in stress when Model 2 is used.
+
+  2.7  Objective 6: Commercialization and TRL Assessment
+
+ WireTough has conceived, designed, produced, and obtained certification for a durable,
+all-steel Type II-S cylinder constructed using widely available materials for storing bulk
+hydrogen at high pressures. The cylinder was certified under ASME Section VIII-Division
+3  rules  for  cylinders  for ground storage  of hydrogen. The  cylinder  is ready  for
+commercialization in the hydrogen storage market.
+
+ The cylinder operates at a maximum operating pressure (MOP) of 350 bar, has a cyclic
+life of 6000 cycles (30 years at 200 cycles/year) and can store 40.7 KG hydrogen in a
+single unit (four times that of a Type 1). Further, it is 50% lighter in weight than Type 1
+cylinders, has a higher fatigue life and has comparable durability against impact and
+ballistic loading.
+
+ The manufacturing costs of this Type II-S cylinder is estimated at $827/KG of hydrogen
+stored compared to the price of $1604 per KG of hydrogen stored for Type I cylinders.
+WireTough has reached the conclusion that the best way to commercialize this product
+is through partnerships with large scale manufacturers, specially Type 1 cylinder
+
+                                         55
+PAGE 57
+manufacturer(s), operating under a licensing agreement. This model will allow for the
+cylinders to be mass produced at multiple locations to meet the high demand. By
+distributing the licensees across the globe, the logistics costs and time to delivery can
+also be reduced. A detailed Commercialization Plan is described in Appendix B.
+
+      At the beginning of the program, the construction materials for use in Type II-S
+cylinders to store hydrogen at high pressures were known through research/technology
+development work performed by Sandia National Laboratory over two decades, and work
+performed by WireTough as part of a previous DOE sponsored program. WireTough also
+had previous experience in the design, manufacturing, and commercialization of smaller
+Type II-S pressure vessels for storing CNG and air using the same construction materials
+and proprietary manufacturing processes. This justified the TRL-4 level designation at the
+start of the project. This level was raised to TRL-8 from the work performed as part of
+this project described in this report in earlier sections. A detailed Technology Maturation
+Plan is described in Appendix C.
+
+                      3 Summary and Conclusions
+
+1  WireTough has conceived, designed, and produced a durable, all-steel Type II-S
+   cylinder constructed using widely available materials for storing bulk hydrogen at high
+   pressures. This cylinder was certified under ASME Section VIII-Division 3 rules for
+   cylinders for ground storage of hydrogen. The cylinder is ready for commercialization
+    in the hydrogen storage market.
+
+2  The cylinder operates at a maximum operating pressure (MOP) of 350 bar, has a
+    cyclic life of 6000 cycles (30 years at 200 cycles/year) and can store 40.7 KG hydrogen
+    in a single unit (four times that of a Type 1). Further, it is approximately 50% lighter in
+   weight than Type 1 cylinders, has a higher fatigue life and has comparable durability
+   against impact and ballistic loading.
+
+3  The manufacturing costs of this Type II-S cylinder  is estimated at $827/KG of
+   hydrogen stored when produced in batches of 200 compared to the price of $1604 per
+  KG of hydrogen stored for Type I cylinders.
+
+4  WireTough has reached the conclusion that the best way to commercialize this
+    product is through partnerships with large scale manufacturers, specially Type 1
+    cylinder manufacturer(s), operating under a licensing agreement. This model will
+    allow for the cylinders to be mass produced at multiple locations to meet the high
+   demand. By distributing the licensees across the globe, the logistics costs and time
+    to delivery can also be reduced.
+
+
+
+                                         56
+PAGE 58
+                             4  References
+1. A. Saxena, et al. “Low-Cost Hydrogen Storage at 875 Bar Using Steel Liner and
+   Steel Wire Wrap” Final Contract Report, DE-EE-0006668, December 2018,
+   WireTough LLC
+2.  J. Adolf, et al. “Energy of the Future -Sustainable Mobility Through Fuel Cells and
+    H2”, Shell Hydrogen Study, Shell Deutschland Oil, GMBH, Hamburg, Germany,
+   2017
+3.  T.L. Tang, L. Sri Pragash, S.B. Narasimhachary, and A. Saxena, “A Model for
+   Estimating the Autofrettage Pressure in Type 2 Pressure Vessels for Storing
+   Hydrogen at High Pressures”, Proceedings of the ASME 2023 Pressure Vessel
+   and Piping Conference, PVP2023-105506, July 16 – 21, 2023, Atlanta, Georgia,
+   USA.
+4. C. San Marchi, J. Ronevich, P. Bortot, Y. Wada, J. Felbaum, M. Rana, “Technical
+   Basis for Master Curve for Fatigue Crack Growth of Ferritic Steels in High Pressure
+   Hydrogen in ASME Section VIII-3 Code”, PVP 2019-93907, Proceedings of the
+  ASME Pressure Vessels and Piping Conference, PVP 2019, July 14-19, 2019, San
+   Antonio, Texas
+5. Standard Method  for Measurement  of Fatigue Crack Growth Rates, ASTM
+   Standard, E647-15, ASTM, West Conshohocken, PA (2015).
+6. A. Saxena, K. Nibur, and A. Prakash, “Applications of Fracture Mechanics on
+   Assessing Integrity of Hydrogen Storage Systems” Engineering Fracture
+   Mechanics, vol. 187, 2018, 368-380.
+7.  J. C. Newman, Jr. and I. S. Raju, “Analyses of Surface Cracks in Finite Plates
+   Under Tension or Bending Loads”, NASA Technical Report 1578, December 1979.
+8. NASGRO, Fracture Mechanics and Fatigue Crack Growth Software, Southwest
+   Research Institute, San Antonio, Texas, https://www.swri.org/consortia/nasgro.
+9. K. Subramanian,  “User’s Design  Specifications”, Report No. 2100378.401,
+   Structural Integrity Associates, December 13, 2022.
+10. Erick Ritter, “WireTough Hydrogen Storage DOE Manufacturer’s Design Report”,
+   Structural Integrity Associates, Report No. 2100378.402, 2/27/2023.
+11. A. Saxena et al., “Low-Cost Hydrogen Storage at 875 Bar Using Steel Liner and
+   Steel Wire Wrap”, Final Contract Report, DE-EE-0006668, December 2018.
+
+
+
+
+
+                                     57
+PAGE 59
+               Appendix A – User Design Specification (UDS)
+
+December 13, 2022
+REPORT NO. 2100378.401
+REVISION: 0
+PROJECT NO. 2100378.00
+
+Quality Program:   Nuclear   Commercial        ☐    ☒
+
+Ashok Saxena
+WireTough Cylinders, LLC
+14570 Industrial Park Road
+Bristol, VA 24202
+
+
+       Subject:           User’s Design Specification
+
+
+Dear Ashok,
+
+This letter report contains the User’s Design Specification (UDS) for the construction of a
+vessel using WireTough Cylinders wire wound vessel technology.
+
+Please review this thoroughly and let me know if you have any questions or would like to
+see any changes in the specification.
+
+Very truly yours,
+
+
+
+Kannan Subramanian | Associate
+Structural Integrity Associates, Inc.®
+Powered by Talent and Technology
+
+
+
+
+
+                                         58
+PAGE 60
+© 2021 by Structural Integrity Associates, Inc. All rights reserved. No part of this document or the related files
+may be reproduced or transmitted in any form, without the prior written permission of Structural Integrity
+Associates, Inc.
+
+
+
+
+
+                                                                                                                               MCG‐007‐00 08.21.20
+       Prepared by:                             Reviewed by:
+
+
+
+
+      Kannan Subramanian        12/13/2022        Erick R. Ritter            12/13/2022
+       Associate                                     Senior Engineer
+
+
+                      User’s Design Specification for Hydrogen Gas Storage Cylinder
+
+
+
+                                         For
+
+
+
+          WireTough Cylinders LLC 14570 Industrial Park Road, Suite C Bristol, VA, 24202
+
+
+         According to the rules of the ASME Boiler and Pressure Vessel Code,
+   Section VIII, Division 3, Alternative Rules for Construction of High‐Pressure
+                                     Vessels,
+               2021 edition and Code Cases 2836‐3, 2847‐1, 2938‐1
+
+
+
+
+
+                                         59
+PAGE 61
+1.0 SCOPE
+
+This specification sets forth design requirements and information as to the intended
+operating conditions of the pressure vessel being built to this User’s Design Specification
+which WireTough Cylinders is acting as the “designated agent” for the User, as defined in
+KG‐310(a)(3). WireTough Cylinders is acting as an organization that offers pressure vessels
+for sale or lease for specific service. These requirements and information provide a basis for
+material selection and design, fabrication, and inspection of the vessel in accordance with
+the ASME Boiler & Pressure Vessel Code, Section VIII Division 3, 2021 edition and Code
+Cases  2836‐3,  2847‐1, and  2938‐1.  This  User’s Design  Specification  covers  the
+requirements pertaining to the definition of equipment and services that shall be considered
+in assuring Code compliance.
+
+2.0 APPLICABLE CODE
+
+The pressure vessel assembly shall meet all requirements of the rules of the ASME Boiler
+and Pressure Vessel Code, Section VIII, Division 3, Rules for Construction of Pressure
+Vessels, Alternative Rules for Construction of High‐Pressure Vessels, 2021 edition (VIII‐3)
+and Code Cases 2836‐3, 2847‐1, and 2938‐1. The manufacturer and sub‐vendors, if used,
+shall provide all data using US Customary units of measurement. Dual units are permitted
+so long as the US Customary units are controlling all stated values, see Code paragraph KG‐
+150.
+
+3.0 VESSEL IDENTIFICATION (KG‐311.1)
+
+        1.  Vessel Number: Each vessel shall be identified by a unique Serial Number by
+         WireTough Cylinders and National Board as each is produced, in accordance
+          with WireTough Cylinders Quality Assurance Manual.
+        2. Name, Function, and Purpose: The vessels are to be built for stock by WireTough
+           Cylinders, LLC and installed at fixed locations in the 48 continental states of the
+       US for specific service conditions described herein.
+        3.  Service Fluid: The vessel is used for the storage of hydrogen gas.
+
+
+
+
+
+                                         60
+PAGE 62
+4.0 VESSEL CONFIGURATION (KG‐311.2)
+
+        1.  Shape: The basic shape of the vessel shall be of a seamless cylindrical shell with
+         swaged heads, wire wrapped on the straight portion of the cylindrical shell, and
+          a threaded connection machined at each end as shown in Figure 1.
+        2.  Orientation: The vessel shall be oriented horizontally in service.
+        3. Nominal Size or Volume Capacity: The vessels produced will be nominally
+          1,715L.
+        4.  Support Method and Location: The vessel shall be supported by a supporting
+         mechanism on the OD provided by others. The mechanism will mount the vessel
+         by straps on the OD on the cylindrical portion of the shell over the wire wraps.
+         The weight of the empty vessel is expected to be approximately 9,050 lbs.
+        5.  Functions and Boundaries: The pressure vessel is defined as including the
+          seamless vessel shell and wire wraps including the threaded nozzles on each end.
+        6. The vessel assembly shall be supplied / shipped with the connection covered or
+           protected by the manufacturer.
+        7. The end User shall be responsible for installation and certification of the
+           overpressure protection system. The User shall supply the relief device and
+            related components that comprise the relief system. The capacity of the relief
+          device system is not included as part of this User’s Design Specification.
+        8. The end User will ensure that the length of the threads in the pressure relief
+          device are sufficiently long to fully engage all threads in the nozzle of the
+            cylinder. 9. No corrosion or erosion allowance is required.
+
+
+5.0 CONTROLLING DIMENSIONS (KG‐311.3)
+
+WireTough will supply drawings of the vessel. The overall dimensions shall be as follows:
+
+        1. Nominal OD = 25.36 inches (644 mm)
+        2. Nominal Total Length = 299.212 inches (7600 mm)
+Vessel pressure connections and openings shall be as follows:
+
+One opening at each end shall be provided, with a 3 ¼ ‐8UN‐2B thread and with the end of the nozzle for
+the opening machined flat.
+
+
+
+
+
+                                         61
+PAGE 63
+6.0 DESIGN CRITERIA (KG‐311.4)
+
+The design pressure and design temperature are 7,250 psig and 200 °F. The minimum design
+metal temperature (MDMT) is ‐40 °F. No significant thermal gradients are expected across
+the section while in operation.
+
+
+
+
+
+                                    Figure C.1 – Sketch of vessel
+
+7.0 OPERATING CONDITIONS (KG‐311.5)
+
+        1. Maximum sustained operating pressure (MOP) is 6,000 psig at coincident fluid
+          temperature of up to 200 °F.
+        2. The pressure vessel  is for hydrogen gas storage. No upset conditions are
+           expected.
+        3. The vessel will not be heated or cooled other than by change in ambient
+           surroundings, or due to filling and venting of products. No transient thermal
+           conditions of significance are expected during operation.
+        4. The pressure cycles that the vessel will undergo is detailed in Section 11.0.
+                                         62
+PAGE 64
+8.0  CONTAINED FLUID DATA (KG‐311.6)
+
+        1. The contained fluid phase is gaseous.
+        2.  Density will vary with operating conditions, highest density at highest operating
+           pressure is 1.49 lb/ft3.
+        3. The nominal inlet and outlet fluid temperatures range between ‐40 °F to 200 °F.
+        4.  Jet impingement streams are not applicable.
+        5. The vessel contains hydrogen which is a flammable, hazardous, and noxious gas.
+
+
+9.0 MATERIALS SELECTION (KG‐311.7)
+
+        1. The seamless vessel shell shall be made from SA‐372 Grade E or J Class 70
+             steel. The wire wrap shall be manufactured of a round wire, similar to SA‐905,
+          manufactured to meet requirements of Code Case 2847‐1.
+        2. The vessel wire winding is protected from aqueous contact from the ambient
+          environment by means of a protective outer covering of fiberglass and epoxy.
+          This coating is not part of the structural support for the shell.
+10.0 LOADINGS (KG‐311.8)
+
+         1. No external loadings are to be considered other than pressure reactionary forces.
+         2.  There will be no loading due to jetting or impingement.
+         3. The vessel will not carry the weight of any external components.
+         4.  See Section 7.0 for operating conditions.
+         5.  Evaluation of snow loadings are not required.
+         6.  All applicable loadings  that are  listed  in paragraph KD‐110(i)  shall be
+            considered.
+           Note: KD‐110(i) states “residual stresses, introduced at fabrication, e.g., by
+            autofrettage, hydrostatic test, shrink fit, prestressed wire or strip winding,
+             rolling, forming, welding, thermal treatments, and surface treatment such as
+            shot peening”
+         7. The vessel contains a gas, and the weight should be considered as negligible.
+         8. The weight of the vessel itself should be considered in the design. The vessel is
+            to be supported by two external clamps.
+         9. The worst‐case wind and earthquake loading for the continental United States
+           should be considered.
+
+                                         63
+PAGE 65
+11.0 OPERATING LIFE (KG‐311.9) AND FATIGUE ANALYSIS (KG‐311.10)
+
+        1. The cyclic life of the vessel is to be determined analytically during the design
+           process.
+        2.  This calculated cyclic life shall be used by the User as the basis for determining
+         recommended  vessel  inspection  frequency and recommended  inspection
+          documentation.
+        3. The vessel cyclic life is to be based on 20 years of service with number pressure
+           cycles permitted for the following operating pressures:
+               a.  6,500 psi to 650 psi
+              b.  6,000 psi to 600 psi
+                c.  5,500 psi to 550 psi
+              d.  5,000 psi to 500 psi
+
+12.0 OVERPRESSURE PROTECTION (KG‐311.11)
+
+The end User shall be responsible for installation and certification of the overpressure
+protection system. The User shall supply the relief device and related components that
+comprise the relief vent system. The calculations, test reports, and other information used
+to justify the size, location, connection details, and flow capacity of the relief system is not
+included as part of this User’s Design Specification.
+
+13.0 ADDITIONAL REQUIREMENTS (KG‐311.12)
+
+        1.  U.S. Customary units shall be used by the manufacturer and sub‐vendors, if used,
+            in all certified documents, and all markings, and stamping required by the code.
+         Dual units are permitted so long as the US Customary units are controlling all
+            stated values, see Code paragraph KG‐150.
+        2. The completed vessel shall be hydrostatically tested at room temperature in the
+           horizontal position at the Manufacturer’s facility.
+        3. The vessel shall be tested with water. The water temperature shall be between
+         55°F and 80°F. Test pressure shall not be applied until the vessel and the fluid
+           are within 10°F of each other.
+        4. The vessel interior shall be cleaned and dried as soon as practical after the
+           hydrostatic test and purged with inert gas such as nitrogen to prevent corrosion
+          during shipment and  storage. The  exterior of the  vessel, the supporting
+         mechanism, and the associated components shall be protected by a suitable
+           coating to prevent rust during shipment, installation, and operation of the vessel.
+
+
+                                         64
+PAGE 66
+        5. The Manufacturer shall furnish to the User the records listed below as a
+         minimum:
+           a.  User’s Design Specification complete with all reference documents (KG‐311)
+          b.  Manufacturer’s Data Report (KS‐300)
+            c.  Manufacturer’s Design Report (KG‐323)
+          d.  Manufacturer’s Construction Records:
+                              i.  As‐built drawings
+                              ii.  Materials certifications
+                               iii. Material Test Reports iv. Record of repairs if repairs were done
+          e. NDE Examination Procedures, Records of Procedure Qualification, and
+            Records of Personnel Qualifications (KE‐105)
+              f. NDE reports and as‐built sketches showing all relevant NDE indications
+           g.  Record of non‐conformances and disposition. In addition, the Manufacturer shall
+            maintain the required records and a copy of all the above data for a period of not less
+             than 5 years. These records shall be made available upon request to AI Supervisors or
+            review teams designated by the ASME.
+          h. Record of all heat treatments (these records may be either the actual heat treatment
+              charts or a certified summary description of heat treatment time and temperature)
+                i.  Vessel Production Test Reports including Hydrostatic Testing and Volumetric
+            Expansion Testing in accordance with ASME VIII‐3 and Code Case 2836‐3.
+
+        6. The requirements of KD‐10 shall be met including the requirements of the
+          proposed Code Case 2938‐1.
+
+14.0 INSTALLATION SITE (KG‐311.13)
+
+The pressure vessel system is to be built for stock and installed after purchase by the final User at
+a fixed location in the continental US.
+
+
+
+
+
+                                         65
+PAGE 67
+66
+PAGE 68
+                  Appendix B – Commercialization Plan
+
+
+
+
+Submitted To: U.S. DOE/NETL - National Energy Tech Lab
+DOE Award Number: DE-FE0032033
+Project Title: Durable Low-Cost Pressure Vessels for Bulk Hydrogen Storage
+DOE Project Manager: Vito N. Cedro, Project Manager
+PI:
+Dr. Ashok Saxena
+asaxena@wiretough.com
+P: 479-466-4301
+
+Chad Morrin, Project Manager
+cmorrin@wiretough.com
+P: 386-208-9372
+
+Name of Submitting Official:
+Chad Morrin, Recipient Business Point of Contact, Marketing Manager
+cmorrin@wiretough.com
+P: 386-208-9372
+
+Date of Report: August 28, 2023
+UEI Number: JDRLX4PK3BUS
+Recipient: WireTough Cylinders LLC, Bristol, VA 24202
+Project Period: 3/1/2021 – 8/31/2023
+Reporting Period Date: 3/1/2021 – 8/31/2023
+
+Report Term or Frequency: One Time deliverable
+
+
+
+
+
+                                         67
+PAGE 69
+                                               1.    Summary
+
+      WireTough Cylinders has successfully designed, produced, and has successfully tested and
+obtained ASME certification for its fatigue resistant and durable Type II-S pressure vessel that can
+economically and safely store 40.7 KG of hydrogen at a maximum operating pressure of 350 bar
+in a single cylinder. This vessel is now ready for production and commercial deployment.
+Preliminary designs have also been completed for vessels that are rated to operate at pressures of
+500 and 700 bar that can store 42 and 29.5 KG hydrogen, respectively. Compared to Type 1
+cylinders, WireTough’s solution offers a 55 to 62.5% weight savings for every KG of H2 stored
+and can store four times the hydrogen in a single vessel compared to a comparably sized Type 1
+vessel. The manufacturing cost of WireTough’s Type II-S cylinder is estimated to be $827 per KG
+of hydrogen stored, when mass produced in quantities of 200/year or more. For comparison, the
+price of a Type 1 cylinder is estimated to be $1604 per KG of hydrogen stored.
+     As part of  its commercialization plan, WireTough  is seeking partners among large
+manufacturers  of  pressure  vessels  to commercially  offer  these  vessels through  licensing
+agreements. WireTough is also preparing an application for the DOE’s MAKEIT program to build
+its own facilities for manufacturing up to 200 vessels per year and offer them commercially. In the
+past two years, WireTough has received 71 inquiries for high pressure hydrogen cylinders that add
+up to potential sales revenues of $500 M, indicating a strong demand for its product.
+
+              2.     Overview of Hydrogen Demand and Demand for Storage Solutions
+
+     As of April 2022, 131 countries around the globe had announced net zero emissions target
+to be met by the year 2050.1 The need for clean sustainable energy with long-term availability and
+cost effectiveness is a clear global priority. United States has made a massive investment of $8
+billion through the 2022 Infrastructure Bill. This “Earth Shot” will focus on accelerating the
+required hydrogen infrastructure through four or more regional hubs. These regional hubs are
+designed to take full advantage of the utilitarian nature of hydrogen. The success of this initiative
+is strongly dependent on bulk hydrogen storage capability.
+      Green hydrogen provides a solution to many of today’s clean energy needs as well as a
+bridge to new technologies of the future. As of 2021, approximately 75 megatons of pure hydrogen
+and an additional 45 megatons of hydrogen in the form of mixed gases are being produced
+annually.2 It is expected that by 2050, the demand for hydrogen will grow to seven times over its
+current demand, reaching upward of 530 megatons2. The overall hydrogen economy is expected
+to have annual revenues of $2.5 trillion by 2050 while continuing to be in a strong growth phase.3
+
+
+
+1https://www.irena.org/Energy-
+Transition/Technology/Hydrogen#:~:text=Hydrogen%20is%20produced%20on%20a,of%20a%20mix%20of%20gase
+s.
+2 IEA (2022), Global Hydrogen Review 2022, IEA, Paris; https://www.iea.org/reports/global-hydrogen-review-2022,
+License: CC BY 4.0
+3“Hydrogen Scaling up: A Sustainable Pathway for the Global Energy Transition.” Hydrogen Council,
+hydrogencouncil.com/en/study-hydrogen-scaling-up/
+                                         68
+PAGE 70
+Hydrogen has several uses and is often referred to as the Swiss Army Knife of energy. These
+applications include,
+    •   Electricity generaƟon by acƟng as a heat source,
+    •  As an energy storage medium with a long shelf-life for storing excess power generated in fossil-
+         fuel, nuclear, and renewable power generaƟng staƟons,
+    •   Fuel for back-up power for large buildings and businesses or in areas aﬀected by natural disasters,
+    •   Fuel for all types of vehicles used in ground, air, and marine transportaƟon,
+    •   In producƟon of chemicals and raw materials.
+   Even though hydrogen is the most abundantly available element on earth in the form of water,
+it has been difficult and expensive in the past to harness it as an energy source because of its low
+volumetric energy density under ambient conditions (measured in Joules/m3). Thus, a high level
+of compression is necessary to compete favorably with liquid fossil fuels such as gasoline. Also,
+hydrogen causes embrittlement in steels. making storage at high pressures in gaseous form
+challenging. Recent improvements in pressure vessel technology have addressed these challenges
+directly and WireTough’s technology is an example of such advances4.
+
+                             3.    Demand for Hydrogen Storage Cylinders
+
+      With predicted rapid growth in the demand for hydrogen, storage tanks (or cylinders) will
+also be in high demand. Having storage vessels with various pressure ratings that are durable
+against fatigue loading, safe, and cost-effective are essential to meeting these needs. The need for
+hydrogen storage is not limited to only large storage depots; it also extends to storage in refueling
+stations, fossil, nuclear, and renewable energy generating plants and many others. WireTough’s
+platform technology embodied in the Type II-S pressure vessels consisting of one-piece steel liners
+that are wrapped with several layers of a fine, ultra- high strength steel wire provides significant
+cost, weight, and space advantages over Type 1 pressure vessels.
+     By 2030, it is expected that more than 15,000 new hydrogen refueling stations will be built
+worldwide; this will generate a need for an estimated 150,000 tanks with each capable of storing
+between 30 to 50 KG of hydrogen. Further, with 250 to 300 TWH (Terra-watt-hour) of surplus
+renewable electricity available for storage, there will be a need for hundreds of thousands of tanks,
+even if only 10% of this surplus energy is stored in the form of gaseous hydrogen. Hydrogen offers
+advantages over batteries in energy storage. For example, energy storage in rechargeable batteries
+has a shelf-life of only a few days, whereas energy stored as hydrogen can be accessed over months
+making it a viable medium for long duration energy storage (LDES). Batteries have limited lives
+while hydrogen storage systems can be designed to last 30 years, and more.
+      The projected annual market for ground storage tanks is expected to be $100 B during the
+next 10 years. In addition, an estimated 750,000 fuel tanks will be needed for onboard vehicle
+storage in off-road vehicles, construction equipment, and mid-size trucks, where weight is not as
+important a consideration as in passenger vehicles.
+
+
+
+4 A. Saxena, et al. “Durable Low-cost Pressure Vessels for Bulk Hydrogen Storage” Final Contract Report, DE-FE-
+0032033, September 2023, WireTough LLC
+
+                                         69
+PAGE 71
+       In the past two years, WireTough has received 71 inquiries for supplying hydrogen
+storage tanks for ground storage facilities that range in capacity from 50 KG to several hundred
+thousand KGs of hydrogen. The specified hydrogen pressure ranged from 350 to 700 bar. A total
+of 41 of those inquiries were for hydrogen storage between 350 to 500 bar and the remainder for
+between greater than 500 to 700 bar. The upper limit of 700 bar is dictated by limitations of
+compressor technologies and energy spent in compression. A categorization of the various
+inquiries is shown in Fig.1 and is described below:
+    •  45 of the 71 inquiries were for up to 49 cylinders to store hydrogen with each cylinder storing 40
+      KG of hydrogen.
+    •  Nine of 71 inquiries required 50 to 199 cylinders. These inquiries were for future hydrogen
+        refueling staƟons and for large, bulk hydrogen storage depots. Typically, hydrogen refueling
+       staƟons were looking for ﬁve to eight units per staƟon, each capable of storing 40 to 50 KG of
+       hydrogen per cylinder.
+    •  Nine inquiries received were seeking over 200 cylinders each. These were for large projects
+        requiring massive hydrogen storage for use in both energy storage/generaƟon and for creaƟon of
+       hydrogen-based alternaƟve fuels, such as liquid ammonia. Four of these projects were seeking
+      more than 500 cylinders to be produced and delivered within a two-year period.
+         If the 71 inquiries turned into actual sales, it is estimated to yield $500M in revenues. It is
+also worth noting that these inquiries have been generated purely based on the descriptions
+provided on WireTough’s website and no active marketing efforts. Thus, these market size
+estimates are most likely conservative.
+
+
+                    25
+
+                    20
+                                                  Inquiries 1510
+
+                     5
+
+                     0
+                                   1-49               50-199              200+
+                                              Cylinders per Inquiry
+
+                                            < 500 Bar    > 500 Bar
+
+Fig, 1 – Commercial inquiries for hydrogen storage cylinders received by WireTough Cylinders during the period of
+03/2020 to 07/2023.
+
+               4.     WireTough’s High Pressure Gaseous Hydrogen Storage Solution
+
+   WireTough has engaged in federal, and state (Virginia) sponsored research and has developed
+the technology for three complementing models of cylinders suitable for storing hydrogen at high
+                                         70
+PAGE 72
+pressures. The status of the three cylinders is summarized in Table 1. The technical specifications
+prepared during design of these cylinders were guided by the inquiries that WireTough has
+received. These cylinders can collectively meet the technical requirements of the various inquiries
+described in the previous section. The current TRL levels of the various cylinders are also noted
+in Table 1. Figure 2 shows (a) pictures of liners used for building the 350 bar, 1715 Liter cylinders,
+(b) the cylinder being wire-wound and (c) picture of an as wound cylinder ready for autofrettage
+and hydrotesting. Figure 3 shows a built 700 bar, 765 L  vessel capable of storing 29.5 KG of
+hydrogen. The latter was built under a prior DOE contract.
+
+                  Table 1 – Status of the proposed three models of cylinders for storing hydrogen.
+
+         Cylinder Description   TRL             Status              Steps remaining for
+                               Level                                commercialization        Vol,  MOP* MAWP*
+      L     bar      bar
+      1715  350    50               •   Prototype built,           •  Ready for
+                             8**   •   Autofretaged and            commercializaƟon
+                                              pressure tested,             aŌer cerƟﬁcaƟon
+                                        •  A valid MDR prepared,
+                                        •  ASME cerƟﬁcaƟon being
+                                                 currently pursued and
+                                           expected by 9/30/2023.
+      765   700    1000             •   Prototype built on a       •  MDR needs
+                                      5***       previous contract to          updaƟng,
+                                          demonstrate design and    •   Build a new
+                                                manufacturability but not      prototype,
+                                               yet autofretaged and      •   Obtain ASME
+                                               hydrotested.                cerƟﬁcaƟon
+      1400  500    650              •   Detailed design and        •  MDR needs
+                                      5***        analysis completed            preparaƟon,
+                                                                     •  Needs a prototype,
+                                                                     •  ASME cerƟﬁcaƟon
+                                                                      needed.
+
+     *MOP = Maximum operating pressure; MWAP = Maximum allowable or design pressure.
+           ** This TRL level is contingent upon successfully completing the autofrettage and hydrotest scheduled on the
+         cylinders in September of 2023.
+        ***These TRL levels can very rapidly be moved to level 8 because of the design and manufacturing
+        procedures developed as part of this program that led to the 350 MOP cylinder.
+
+   The materials of construction for these cylinders are all commercially available and in most
+cases are off-the-shelf items, listed in Table 2. The only special purpose item is the liner, but even
+that is built from a steel pipe of commercially available, standard size using a steel that has been
+used in pressure vessels for several decades. There  is sufficient commonality between the
+manufacturing processes for cylinders of various sizes and pressure ratings so success in building
+any one cylinder provides confidence that the others can also be built. For example, the success in
+building a prototype of the 1715 L - 350 bar cylinder and 765 L, 700 bar cylinders gives confidence
+that the other models can also be built. The weight of the liners and the number of wire layers, as
+                                         71
+PAGE 73
+well as the wrapping process and equipment are similar for cylinders of various sizes in Table 1.
+Figure 4 shows the costs involved in building these vessels for an annual production volume
+(APV) of 200. Cost of materials and in particular, the cost of the liner, stands out. Therefore, a
+stable supply of liners is crucial to producing Type II-S cylinders.
+
+
+
+
+
+                                       a                          b
+
+
+
+
+
+            c
+
+Fig. 2 – (a) Picture of the two seamless liners being delivered to WireTough’s facility (b) picture of the cylinder during
+wire winding (c) a 350 bar MOP, 650 mm OD, 1715 L capacity cylinder capable of storing 40.7 KG of hydrogen after
+wire-winding and UV coating, ready for autofrettage and hydro-testing.
+
+           Table 2– List of materials of construction for manufacturing Type II-S wire wrapped vessel.
+
+                      Item                     Commercial Source
+             Liner (SA272 Grade E/J – Class         Tenaris Dalmine SPA, TX
+            70 -Pressure Vessel Steel             CPI McKeesport, PA
+            SA 905 0.35 mm diameter        Kiswire, Japan with oﬃce in Pine
+                  round Wire                      Bluﬀ, Arkansas
+              Epoxy resin from 3M            3 M, Minneapolis, MN
+            UV ProtecƟve skin             Pitsburgh Paint and Glass,
+                                                     Pitsburgh, PA
+
+
+
+
+
+                                         72
+PAGE 74
+                      Fig. 3 – Picture of a 700 bar MOP, 440 mm OD cylinder after wire wrapping.
+
+                                    5.     Commercialization Strategy
+
+        Full-scale prototypes and fully operational 350 bar, 1715 L cylinders were successfully
+designed, produced, tested, and are in the process of certification as part of this project5. This
+cylinder will be ready to be offered commercially after certification. Figure 4 shows how the cost
+of hydrogen storage as represented by $/per KG of hydrogen stored varies with annual production
+volume (APV) from 20 cylinders per year to 200 cylinders per year. The cost begins to level off
+at approximately 150 cylinders per year. A single manufacturing line working in two-shifts can
+produce up to 200 cylinders per year. At an APV of 200, the storage cost reduces to $827 per KG
+of H2 stored. For comparison, the price of Type 1 cylinders is $1604 per KG of H2 stored. Similar
+calculations were performed for cylinders with MOP of 500 and 700 bar and are shown in Fig. 5.
+The weight of the Type II-S cylinder is 90.3 KG per KG of H2 stored compared to the weight of
+Type 1 which is 200.6 KG per KG of H2 stored, a 55% decrease in weight.
+       Figure 6 shows the various elements of manufacturing costs of a Type II-S cylinders. With
+the cost of steel (liner and the wire) being the most important component of the cylinder cost, the
+cost-differential between Type 1 and Type II-S is understandable. Further, it will take 4 Type 1
+cylinders to store the amount of H2 stored in a single Type II-S cylinder. Thus, the footprint of a
+storage facility utilizing Type II-S cylinders will be approximately four times smaller than the one
+using Type 1 cylinders for the same quantity of stored H2 (by weight). Table 3 shows the
+differences in cylinder weight per KG of H2 stored between Type I and Type II-S at various MOPs.
+
+5 This assumes that the autofrettage and hydrotest scheduled in September of 2023 will be successful.
+                                         73
+PAGE 75
+The advantages of switching from Type 1 to Type II-S cylinders are many and make a compelling
+case for their use over Type 1 cylinders.
+        Strategies for creating a manufacturing line for producing Type II-S cylinders in quantities
+that make them economical are discussed next. A single production line capable of producing up
+to 200 cylinders per year will require the following capital equipment at an estimated cost of $3M
+for procurement of the equipment and installation.
+    •  A 2-axis winder capable of wire winding cylinders of up to 750 mm in OD, 10 m long and weigh up
+        to 5500 KG,
+    •  Overhead cranes for handling the cylinders and creels for feeding the wire during manufacturing,
+    •  An onsite hydrotest facility for autofretage and hydrotesƟng cylinders with pressure raƟngs of
+      up to 300 MPa (40,000 psi), and associated handling equipment for cylinders that are 750 mm in
+        outside diameter and 10 m long.
+    •  The esƟmated space needed for a single line of manufacturing and storage will be approximately
+      1400 square meters or 15,000 square Ō.
+
+
+
+
+
+Fig. 4 - Cost of 350 bar MOP. 1715 L liner as a function of annual production volume (APV) in a single production
+line.
+
+
+
+
+
+                                         74
+PAGE 76
+Fig. 5 – Comparison of per KG H2 storage costs as a function of APV for Type II-S and Type 1 cylinders for storage
+pressures of 350, 500, and 700 bar.
+
+      Table 3 – Comparison of cylinder weights per KG of H2 stored between Type II-S and Type 1 cylinders as a
+                                                function of MOP.
+ MOP, bar     Max OD, mm              Capacity, L       KG of H2 stored in      Cylinder weight,
+                                                              one cylinder     KG per KG of H2
+                                                                                              Stored
+            Type II -    Type 1    Type II-S     Type1    Type II-S   Type 1   Type II-S   Type 1
+              S
+    350       650       356       1760        444         40.7       10.3       90.3      200.6
+    500       546       280       1400        276         42.0       8.37       93.5      231.0
+    700       445       203        785         108         29.5       4.08       122.1     325.4
+
+   WireTough is primarily an R&D company with facilities for prototyping and small-scale
+manufacturing and is not equipped to meet the high demand for cylinders; it is thus best to make
+the technology available for licensing to large-scale manufacturers. Therefore, the proposed
+commercialization strategy is to find licensing partners who can produce the cylinders on a large-
+scale. In addition, WireTough will compete in DOE’s MAKEIT Prize competition with a proposal
+to build a facility at its current location that can produce 200 cylinders per year, in addition to
+pursuing licensing opportunities. The ideal licensee candidates are manufacturers of large liners
+and Type 1-cylinder manufacturers used in the construction of these cylinders. Figure 6 shows the
+various elements of the manufacturing costs that are dominated by materials costs. The costs are
+shown for cylinders with pressure ratings of 350, 500, and 700 bar. The overall costs expressed as
+$/KG of H2 stored decrease only marginally with increasing MOP values. Thus, the choice of
+MOP can be based on other factors such as compression capability and the associated costs,
+available floor space, and the end uses of the hydrogen being stored. It is also important that
+
+
+                                         75
+PAGE 77
+manufacturing facilities to be globally distributed to serve the needs of their respective regions and
+thereby minimize shipping costs and delivery times. WireTough can then focus on:
+              •   IdenƟfying partners and signing agreements for transfer of technology,
+              •   training personnel as part of technology transfer,
+              •   Assist in complying with ASME code requirements,
+              •  ConƟnue working on product improvements, new product development, and keeping
+                 cerƟﬁcaƟons current.
+
+
+
+
+
+Fig. 6 – Manufacturing cost elements of Type II-S cylinders for ground storage of H2 at high pressures, assuming an
+annual production volume of 200 cylinders.
+
+                                     6.    Summary and Conclusions
+
+    •  WireTough has conceived, designed, and produced a durable,  all-steel Type  II-S cylinder
+       constructed using widely available materials for storing bulk hydrogen at high pressures. This
+        cylinder has been fully cerƟﬁed under ASME SecƟon VIII-Division 3 rules for cylinders for ground
+       storage of hydrogen.
+    •  The cylinder operates at a maximum operaƟng pressure (MOP) of 350 bar, has a cyclic life of 6000
+        cycles (30 years at 200 cycles/year) and can store 40.7 KG hydrogen in a single unit (four Ɵmes
+        that of a Type 1). Further, it is 50% lighter in weight than Type 1 cylinders, has a higher faƟgue life
+      and has comparable durability against impact and ballisƟc loading.
+    •  The manufacturing costs of this Type II-S cylinder is esƟmated at $827/KG of hydrogen stored
+      compared to the price of $1604 per KG of hydrogen stored for Type I cylinders.
+
+
+                                         76
+PAGE 78
+•   WireTough has reached the conclusion that the best way to commercialize this product is through
+    partnerships with large scale manufacturers, specially Type 1 cylinder manufacturer(s), operaƟng
+   under a licensing agreement. This model will allow for the cylinders to be mass produced at
+   mulƟple locaƟons to meet the high demand. By distribuƟng the licensees across the globe, the
+    logisƟcs costs and Ɵme to delivery can also be reduced. I addiƟon, WireTough intends to compete
+    in DOE’s MAKEIT prize program. If successful. WireTough will build a facility to produce 200
+    cylinders per year in addiƟon to licensing technology to other large-scale manufacturers.
+
+
+
+
+
+                                     77
+PAGE 79
+                   Appendix C – Technology Maturation Plan
+
+
+   A. TECHNOLOGY READINESS LEVEL
+
+   The objective of the project was to design and produce a full-scale prototype of a pressure
+vessel for storing 40 to 50 kilograms of gaseous hydrogen at an operating pressure of 350 to 500
+bar (6,525 to 7,250 psi). The goal was to design the pressure vessel as per applicable ASME design
+codes, produce a full-scale prototype of the vessel to demonstrate the manufacturing processes,
+and test the vessel to demonstrate full compliance with ASME Section VIII- Division 3 rules for
+certification. WireTough’s assessment of the technology readiness level at the start of the program
+was TRL-4 as explained below.
+   At the beginning of the program, the construction materials for use in Type II-S cylinders to
+store hydrogen at high pressures were known through research/technology development work
+performed by Sandia National Laboratory over two decades that are incorporated in ASME Design
+Codes, and work performed by WireTough as part of a previous DOE sponsored program6.
+WireTough also had previous experience in the design, manufacturing, and commercialization of
+smaller Type II-S pressure vessels for storing CNG and air using the same construction materials
+and proprietary manufacturing processes. This justified the TRL-4 level designation at the start of
+the project. This level was raised to TRL-8 with the work performed as part of this project.
+
+    B. WORK COMPLETED DURING THE PROJECT
+
+   WireTough’s approach for designing pressure vessels for hydrogen storage at high pressures
+consists of using conventional steel liners and wrapping them with commercially available ultra-
+high strength, 0.35mm (0.014”) diameter steel wires using its proprietary wrapping processes. The
+steel liner selected for this project was 610 mm (24”) OD and 7600 mm  (25.5’) long, with a water
+capacity of 1715 L. The minimum wall thickness of the liner was 22.9 mm, and  it weighs
+approximately 2700 KG. During this project, the following work was completed to justify the new
+TRL rating:
+
+    Liners made from SA 372 Grade E Class 70 steel approved for use by ASME design codes in
+high pressure hydrogen storage applications were procured for the project as per specifications
+prepared by WireTough. The liners were made from seamless tubes with swaged ends and
+contained no welds, an ASME code requirement. See Fig. 1 for a picture of the liners procured.
+   WireTough used its prior experience in designing and prototyping pressure vessels to develop
+a preliminary design for the cylinder as part of this project. The design was evaluated using state-
+of-the-art finite element analyses, advanced design optimization software tools, and fracture
+mechanics analyses by the Siemens Corporate Technology Center, Charlotte, NC.
+
+
+
+
+
+6 A. Saxena et al., “Low-Cost Hydrogen Storage at 875 Bar Using Steel Liner and Steel Wire Wrap”, Final Contract
+Report, DE-EE-0006668, December 2018.
+                                         78
+PAGE 80
+    Fig. 1 – Picture of the liners used for manufacturing the wire-wound cylinders.
+
+   The stresses generated on the liner during wire winding and pressurization of the cylinder
+during autofrettage were estimated by finite element analyses. The autofrettage pressure chosen
+was sufficient to deform the liner plastically while the wire jacket remained elastic. Upon releasing
+the autofrettage pressure, the wire jacket exerted high residual compressive hoop stresses on the
+liner walls, Fig. 2. Subsequently, the cylinder was pressurized to the maximum operating pressure
+(MOP) to estimate the cyclic stresses during service. These cyclic stresses were used to estimate
+the design life of the vessel using fracture mechanics. The design was tested against all possible
+failure  criteria required under ASME Section VIII- Division 3 design codes. From these
+evaluations, it was shown that cylinder can hold 40.7 KG of H2 at a maximum operating pressure
+of 350 bar and can be safely cycled for 6000 cycles between MOP and the 10% of MOP prior to
+re-inspection. At a rate of 200 cycles per year, this will take 30 years. The critical region of the
+cylinder that limits its cyclic life is the exposed area of the liner in the dome region and is accessible
+for ultrasonic inspection for extending its service life beyond 6000 cycles.
+  A user design specification (UDS) and a manufacturer’s design report (MDR) were prepared
+by Structural Integrity Associates (SIA) who independently verified the integrity of the design and
+certified it using design criteria and rules established under ASME Section VIII-Division 3 design
+code. This cleared the way for manufacturing two full-scale prototype vessels.
+   The liners were wrapped with several layers of steel wire using WireTough’s proprietary
+processes  following  procedures documented  in WireTough’s  Quality  Assurance Manual
+(proprietary) and the MDR (proprietary) prepared by SIA. A full-scale experimental model of the
+cylinder was produced in WireTough’s Bristol facility, see Fig. 3 for a picture of wrapped cylinder.
+
+
+
+
+
+                                         79
+PAGE 81
+    Fig. 2- Hoop stresses in the wall of the liner and the wire jacket after wire winding, at the
+autofrettage pressure and after release of the autofrettage pressure.
+
+
+
+
+
+    Fig. 3 – The wrapped cylinder ready for autofrettage and hydrotesting.
+
+   One of the two liners was wrapped in the presence of an ASME authorized inspector (AI) who
+certified that the vessel was produced according to specified processes. Subsequently, this cylinder
+was sent to Authorized Pressure Testing in California for autofrettage and hydrotesting. The
+autofrettage and hydrotesting was also witnessed by the ASME authorized inspector who has
+certified the cylinder as an official prototype of the vessel.
+   This design can now be manufactured and be offered commercially for integration in hydrogen
+storage facilities. To move the technology to TRL levels of 9 and 10, it is necessary to have these
+cylinders placed in service. The advantages of this newly developed Type II-S cylinder and a
+strategy to raise the TRL level to 10 are briefly described below.
+
+   The post-project plan is to commercialize the 350-bar vessel and to seek funding to develop
+the 500 bar and 700 bar vessels. The primary advantages of the newly developed Type II-S vessels
+over the currently used Type 1 cylinders in hydrogen storage applications are cost and the cylinder
+                                         80
+PAGE 82
+weight. Both are expressed quantitatively in terms of per KG of hydrogen stored. A single
+manufacturing line producing Type II-S cylinders working in two-shifts can produce up to 200
+cylinders annually. This is called the annual production volume (APV). The manufacturing costs
+of a Type II-S cylinder and the price of Type I cylinder is shown in Table 1. Also listed in Table
+1 are the weights per KG of H2 stored for both Type 1 and Type II-S cylinders. The cost of the
+350 bar Type II-S cylinder is 48.5% less than the price of Type 1 cylinder. Further, weight savings
+of 55% will be realized by switching from Type 1 design to a bulk-produced (APV of 200) Type
+II-S design. At higher hydrogen pressures, such as 500 and 700 bar, the cost and weight savings
+are similar. Figure 4 shows a comparison between manufacturing costs of Type II-S and the price
+of Type 1 cylinders at all three pressures.
+
+   Table 1- Cost/price and weight savings in switching from Type 1 to Type II-S cylinders for
+MOP of 350 bar.
+
+     MOP,     Cost/KG of H2 Stored ($)           Cylinder Weight/KG of H2 Stored,
+   Bar                          KG
+               Type     Type 1   %         Type      Type 1    %
+                 II-S Cost      Price    Savings      II-S                    Savings
+      350       827      1604        48.5        90.4       200.5        55.0
+
+   WireTough is primarily an R&D company with facilities for prototyping and small-scale
+manufacturing and does not have the capacity to meet the high demand for cylinders. It is thus best
+to make the technology available for licensing to large scale manufacturers who can further
+optimize costs. Therefore, the proposed commercialization strategy is to find licensing partners
+who can produce the cylinders on a large-scale. The ideal licensee candidates are manufacturers
+of liners or the Type 1-cylinder manufacturers. The liners used in the construction of these
+cylinders constitute approximately 50% of the cylinder cost. Figure 5 shows the various elements
+of the manufacturing costs; these costs are dominated by materials costs and trend similarly for
+cylinders with pressure ratings of 350, 500, and 700 bar. It is seen that the overall costs expressed
+as $/KG of H2 stored change only somewhat with increasing maximum operating pressure (MOP).
+Thus, the choice of MOP can be based on other factors such as compression costs, available space
+for the storage facility, and the end uses of the hydrogen being stored. It is also important that
+manufacturing facilities to be globally distributed to serve the needs of their respective regions and
+thereby minimize shipping costs and delivery times which are better facilitated by the proposed
+licensing model.
+
+
+
+
+
+                                         81
+PAGE 83
+    Fig. 4 – Cost of hydrogen storage in $ per KG of hydrogen stored using Type II-S cylinders
+as a function of annual production volume (APV) in a single production line for various MOP
+values. The cost is compared to the cost of using Type 1 cylinders.
+
+
+
+
+
+                                         82

@@ -1,0 +1,116 @@
+{
+  "worker": "R1",
+  "access_date": "2026-11-03",
+  "sources": [
+    {
+      "id": "R1-S01",
+      "title": "Market Index Data — Elexon glossary",
+      "url": "https://www.elexon.co.uk/bsc/glossary/market-index-data/",
+      "publisher": "Elexon",
+      "access_date": "2026-11-03",
+      "retrieved_type": "HTML via anonymous Playwright",
+      "read_depth": "Full substantive glossary body read",
+      "locator": "Opening definition and paragraph beginning The Market Index Data",
+      "evidence_excerpt": "reflects the price of wholesale electricity in Great Britain in the short term markets",
+      "supported_claim": "MID contains a market index volume and price for relevant settlement period in provider market; not a customer tariff guarantee",
+      "limitations": "Page also contains legacy Reverse Price/SBP/SSP wording; that part is not used as current settlement rule. No proof supplied CSV has this lineage or aggregation."
+    },
+    {
+      "id": "R1-S02",
+      "title": "About Balancing and Settlement Code (BSC)",
+      "url": "https://www.elexon.co.uk/bsc/about/",
+      "publisher": "Elexon",
+      "access_date": "2026-11-03",
+      "retrieved_type": "HTML via anonymous Playwright",
+      "read_depth": "Full substantive overview body read",
+      "locator": "What is the BSC?; Why the BSC matters; Elexon's role",
+      "evidence_excerpt": "Compare contracted vs actual energy volumes",
+      "supported_claim": "Trading arrangements and imbalance payments are distinct; contracts agreed ahead of actual generation/consumption",
+      "limitations": "High-level introduction, not individual tariff, contract or detailed eligibility legal opinion; GB scope."
+    },
+    {
+      "id": "R1-L01",
+      "title": "MMCS project brief 2026/27 — local extracted official supplied text",
+      "url": null,
+      "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Project_Brief.pdf",
+      "access_date": "2026-11-03",
+      "retrieved_type": "existing local text extraction",
+      "read_depth": "All six extracted pages read",
+      "locator": "Page2 Client context and Data provided; page3 Tier1",
+      "supported_claim": "Constructed energy system; historical daily wholesale value in GBP/MWh; not detailed actual Scottish constraints/curtailment",
+      "limitations": "Read supplied local extraction; no new school retrieval or independent original PDF render in this run."
+    },
+    {
+      "id": "R1-L02",
+      "title": "Teacher clarifications — baseline1103",
+      "url": null,
+      "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Tier1/public/baseline_1103/TEACHER_CLARIFICATIONS.md",
+      "access_date": "2026-11-03",
+      "retrieved_type": "existing local team interpretation and transcript excerpts",
+      "read_depth": "Full file read",
+      "locator": "TC-01,TC-02,TC-04,TC-07",
+      "supported_claim": "Proposed no-network simplification, charge-vs-sell use case; evidence tiers preserved",
+      "limitations": "Transcript not audio-verified; interpretations are team readings, not independent official market evidence."
+    },
+    {
+      "id": "R1-L03",
+      "title": "Deterministic Tier1 — Baseline1103",
+      "url": null,
+      "public_source_url": "https://github.com/MocryMin/mmcs-group15-project/blob/64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4/Tier1/public/baseline_1103/BASELINE_1103.md",
+      "access_date": "2026-11-03",
+      "retrieved_type": "local controller modelling specification",
+      "read_depth": "Full file read",
+      "locator": "BL-02,BL-05..BL-09",
+      "supported_claim": "A/B, D as absorption cap and purchases disabled until explicit interface are controller proposals",
+      "limitations": "Modelling assumption, not teacher mandate or observed contract."
+    },
+    {
+      "id": "R1-S03",
+      "title": "Balancing costs",
+      "url": "https://www.neso.energy/industry-information/balancing-costs",
+      "publisher": "NESO",
+      "access_date": "2026-11-03",
+      "retrieved_type": "HTML via anonymous Playwright",
+      "read_depth": "Full rendered body captured and read",
+      "locator": "An introduction to balancing costs; Balancing costs; Balancing services",
+      "evidence_excerpt": "The price of these actions depends on the bids made by energy companies in the BM.",
+      "supported_claim": "BM action pricing depends on bids; physical system actions differ from energy balancing; separate procured services",
+      "limitations": "No universal curtailment payment or this projects eligibility; linked reports/workbook not read",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "NESO-COSTS.json"
+    },
+    {
+      "id": "R1-S04",
+      "title": "Imbalance Pricing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/",
+      "publisher": "Elexon",
+      "access_date": "2026-11-03",
+      "retrieved_type": "HTML via anonymous Playwright",
+      "read_depth": "Full rendered body captured and read",
+      "locator": "Opening definition; How it relates to you; Market Index Data Volume and Price",
+      "evidence_excerpt": "there is a single price calculation, so SBP will equal SSP in each Settlement Period",
+      "supported_claim": "Half-hour contracted-versus-metered imbalance cash-out is distinct from wholesale MID; current single imbalance price calculation",
+      "limitations": "Does not establish equal customer import/export tariffs; no actual project contract",
+      "retrieval_record": "Controller-retained source capture; not redistributed with this release",
+      "retrieval_record_id": "ELEXON-IMBALANCE.json"
+    }
+  ],
+  "failed_or_non_evidence_accesses": [
+    {
+      "url": "https://www.ofgem.gov.uk/energy-policy-and-regulation/policy-and-regulatory-programmes/wholesale-market",
+      "result": "Content unavailable page"
+    },
+    {
+      "url": "https://www.neso.energy/energy-explained/how-we-balance-grid",
+      "result": "Page not found; navigation revealed current balancing-costs and balancing-services URLs"
+    },
+    {
+      "url": "https://www.gov.uk/guidance/electricity-market-reform-contracts-for-difference",
+      "result": "404"
+    },
+    {
+      "channel": "Bing via anonymous Playwright",
+      "result": "Three queries returned irrelevant site-definition results. No search snippet used as evidence."
+    }
+  ]
+}

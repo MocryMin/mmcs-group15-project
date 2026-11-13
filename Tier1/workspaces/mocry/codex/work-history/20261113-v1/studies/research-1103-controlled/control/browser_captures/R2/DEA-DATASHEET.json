@@ -1,0 +1,30 @@
+{
+  "owner": "R2",
+  "id": "DEA-DATASHEET",
+  "requested_url": "https://ens.dk/media/6589/download",
+  "url": "https://ens.dk/media/6589/download",
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "public",
+    "content-disposition": "attachment; filename=\"technology_datasheet_for_energy_storage - 0011.xlsx\"",
+    "content-language": "da",
+    "content-length": "336703",
+    "content-security-policy": "frame-ancestors 'self'",
+    "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "date": "Tue, 03 Nov 2026 16:20:35 GMT",
+    "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "last-modified": "Wed, 15 Jul 2026 07:20:15 GMT",
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "x-drupal-cache": "UNCACHEABLE (no cacheability)",
+    "x-drupal-dynamic-cache": "UNCACHEABLE (no cacheability)",
+    "x-frame-options": "SAMEORIGIN",
+    "x-generator": "Drupal 11 (https://www.drupal.org)",
+    "x-xss-protection": "1; mode=block"
+  },
+  "bytes": 336703,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:20:35.105Z",
+  "binary_base64_path": "C:/研究生/courses/MMCS/assignments/FinalProject/research-1103-controlled/control/browser_captures/R2/DEA-DATASHEET.b64"
+}

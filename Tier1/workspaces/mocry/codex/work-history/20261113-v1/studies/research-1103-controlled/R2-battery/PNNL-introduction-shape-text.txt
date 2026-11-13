@@ -1,0 +1,31 @@
+ESGC - Energy Storage Cost and Performance Database v2024
+Information in this database includes capital costs, operations & maintenance (O&M) costs, various performance parameters, warranty costs (if applicable), decommissioning costs (if applicable), and levelized cost of storage (LCOS) results. 
+2023 & 2030 cost and performance
+ 
+estimates are
+ provided for the following 
+technologies:
+Lithium-ion batteries -
+ 
+lithium iron phosphate (LFP) and nickel manganese cobalt (NMC) chemistries
+Vanadium redox flow batteries
+Lead acid batteries
+Zinc-based batteries
+Pumped storage hydropower (PSH)
+Compressed air energy storage (CAES)
+Thermal energy storage
+2021 & 2030 cost and performance
+ 
+estimates are
+ provided for the following 
+technologies:
+Hydrogen energy storage
+ systems (bi-directional, salt cavern storage)
+Gravitational energy storage
+For Hydrogen and Gravitational, energy storage installed cost and performance estimates correspond to those found in the 2022 ESGC Cost and Performance Report. These values have not been updated as part of the 2024 effort. LCOS estimates for these two technologies reflect 2021 cost and performance estimates using the most up to date LCOS methodology.
+Low, Point, and High estimates are provided across various power capacity and energy duration combinations. Note that for performance parameters, the "low" estimates are those that are associated with the higher (improved) values, not numerically low. 
+LCOS estimates are provided in terms of 
+cost per unit of discharge energy throughput ($/kWh), not in terms of rated energy of the storage system.
+For the most up to date cost & performance information, please visit 
+https://www.pnnl.gov/ESGC-cost-performance
+.

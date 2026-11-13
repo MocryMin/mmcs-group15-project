@@ -1,0 +1,130 @@
+PAGE 1
+OUTPERFORMING. COMPACT. COMPETITIVE.
+
+ Best-in-class NEPTUNE V 5 MW Plug & Play Green Hydrogen Plant for
+ mid-scale projects.
+
+
+ Designed against the highest safety and quality standards, and
+ building on the learnings from our operational electrolysers
+ around the world, NEPTUNE V is our brand-new full scope 5 MW
+ containerised green hydrogen plant, engineered to outperform.
+
+
+ Engineered to be safe, cost competitive and reliable.
+
+
+
+
+
+ CONTACT OUR SALES TEAM
+ sales@itm-power.com                   EUR 5,000,000*
+
+
+
+
+
+ REFINERIES     AMMONIA      METHANOL     TRANSPORT  SEMICONDUCTORS     STEEL        STORAGE        MINING        HEATING     ELECTRICITY
+
+
+
+* prices are based on ITM’s Standard T&C’s
+
+PAGE 2
+NEPTUNE V: PROCESS FLOW & SPECIFICATIONS
+
+
+
+
+ Diagram Key:                                                    Breather                   Oxygen vent                                       Hydrogen vent                Instrument
+                                                                                                                                                                                                                         air system
+    Water Systems
+
+   Hydrogen Systems
+
+          Utilities                                                                                                             Cooling system                                                  Chiller unit
+
+
+
+                       Water purification                  Water polishing               Oxygen/Water           PEM electrolyser           Hydrogen/water          Hydrogen purification Tap water                                                                                                                                                                   Hydrogen @ 30 bar                                    unit                                   unit                      separation unit                   stacks                  separation unit                       unit
+
+
+
+                             Drain                                                                      PSU                                                  Drain
+
+
+
+  TECHNOLOGY                     PEM                          H2 PRODUCTION                    90 kg/hr
+
+  NUMBER OF STACKS                  8                             H2 OUTPUT PRESSURE               30 bar(g)
+
+  CAPACITY                    5MW                          H2 OUTPUT PURITY                <5ppm H2O, <5ppm O2 (EN 17124 & ISO 14687)
+
+  AC POWER CONSUMPTION                55.9 kWh/kg*                    AMBIENT TEMPERATURE RANGE         -20°C to + 45°C
+
+  SYSTEM FOOTPRINT                     Approx. 96m2 optimised layout***                                                                                    10% per second ramp up
+                                                                MODULATION
+                                                                                    50% per second ramp down
+  OPERATING RANGE                  12.5–100%
+
+  INPUT WATER PURITY                   Potable Water**                  COMPLIANCE                       CE
+
+
+
+
+
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life
+** Input water to the system, prior to purification
+***Not including hazardous areas
+
+PAGE 3
+NEPTUNE V: PLUG & PLAY
+
+
+
+
+
+                    AIR BLAST COOLER
+
+
+                          12m
+                                                                      SCOPE OF SUPPLY
+
+                                                               Water purification unit
+  8m                                                            Water polishing unit
+                                                  PEM stacks and skids
+                                                                  Process water cooling system - adiabatic cooler
+                                                                  Instrument air system
+                                                              Hydrogen purification unit
+                                                                     Container temperature control
+                                                                      Containerised power supply unit including; MV trafo, dual-rectifier and
+                                                                         cooling system, specifically designed to match our electrolyser
+                                                             Siemens S7 PLC, integrated safety
+                                                                      Local HMI for plant control and diagnostics
+  9m                                                                           Fully autonomous operating software system, able to connect to
+                                                                         external SCADA or DCS
+                                                                                      All process and electrical interconnections within the container
+                                                                      Factory Acceptance Test (FAT) before shipment
+
+                          12m
+
+
+                      ELECTROLYSER
+
+PAGE 4
+NEPTUNE V: PLUG & PLAY
+
+
+
+
+
+                                                                                                                                                     Find out the detailed
+                                                                                                                                     scope of supply and more
+                                                                                                                                  on our product page
+
+
+
+                                                                                                                         CONTACT OUR SALES TEAM
+                                                                                                                                   sales@itm-power.com
+
+                                                                                                                         itm-power.com/products/neptune-5

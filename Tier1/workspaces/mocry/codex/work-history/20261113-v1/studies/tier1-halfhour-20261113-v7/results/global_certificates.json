@@ -1,0 +1,20 @@
+{
+  "A": {
+    "global_upper_annual_increment_GBP": 1807615574.8420606,
+    "feasible_annual_increment_GBP": 1807615343.3474646,
+    "global_absolute_gap_GBP": 231.4945959369652,
+    "global_gap_percent": 1.2806629285867192e-05,
+    "minimum_integer_battery_dual_penalty_GBP": 2125.6887590621286,
+    "zero_battery_certified": true,
+    "proof": "Any positive integer battery purchase lowers the continuous upper bound by at least its positive reduced cost. That penalty exceeds the gap to the zero-battery feasible integer plan. Numerical safety margin: GBP10/year."
+  },
+  "B": {
+    "global_upper_annual_increment_GBP": 118378319.24500643,
+    "feasible_annual_increment_GBP": 118378271.65829366,
+    "global_absolute_gap_GBP": 47.58671275340021,
+    "global_gap_percent": 4.019885751564464e-05,
+    "minimum_integer_battery_dual_penalty_GBP": 1941.013732802625,
+    "zero_battery_certified": true,
+    "proof": "Any positive integer battery purchase lowers the continuous upper bound by at least its positive reduced cost. That penalty exceeds the gap to the zero-battery feasible integer plan. Numerical safety margin: GBP10/year."
+  }
+}

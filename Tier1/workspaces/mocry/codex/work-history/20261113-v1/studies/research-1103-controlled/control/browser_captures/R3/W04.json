@@ -1,0 +1,341 @@
+{
+  "owner": "R3",
+  "id": "W04",
+  "requested_url": "https://www.energy.gov/eere/fuelcells/technical-targets-proton-exchange-membrane-electrolysis",
+  "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis",
+  "status": 200,
+  "title": "Technical Targets for Proton Exchange Membrane Electrolysis | Department of Energy",
+  "body": "Skip to main content\n\nAn official website of the United States government\n\nHere's how you know\nPolicy & Priorities\nLeadership & Organization\nTopics\nNews & Events\nAbout\n\nFunding Opportunities\n\nBreadcrumb\nAlternative Fuels and Feedstocks Office  Technical Targets for Proton Exchange Membrane Electrolysis\nTechnical Targets for Proton Exchange Membrane Electrolysis\n\nThis table summarizes the U.S. Department of Energy (DOE) technical targets for proton exchange membrane (PEM) electrolysis. There are many combinations of performance, efficiency, lifetime, and cost targets that can achieve the central goal of low-cost hydrogen production of $2/kg H2 by 2026 and $1/kg H2 by 2031. The combination of targets listed here were developed with input from experts from industry and national laboratories; they can be considered a starting guidepost for technology developers.\n\nTechnical Targets for PEM Electrolyzer Stacks and Systems a,b\n\nCharacteristic\tUnits\t2022 Statusc\t2026 Targets\tUltimate Targets\nStack\nTotal Platinum Group Metal Content (both electrodes combined) d\tmg/cm2\t3.0\t0.5\t0.125\ng/kW\t0.8\t0.1\t0.03\nPerformance\t \t2.0 A/cm2 @ 1.9 V/cell\t3.0 A/cm2 @ 1.8 V/cell\t3.0 A/cm2 @ 1.6 V/cell\nElectrical Efficiency e\tkWh/kg H2\n(% LHV)\t51\n(65%)\t48\n(69%)\t43\n(77%)\nAverage Degradation Rate f\tmV/kh\n(%/1,000 h)\t4.8\n(0.25)\t2.3\n(0.13)\t2.0\n(0.13)\nLifetime g\tOperation h\t40,000\t80,000\t80,000\nCapital Cost h\t$/kW\t450\t100\t50\nSystem\nEnergy Efficiency\tkWh/kg H2\n(% LHV)\t55\n(61%)\t51\n(65%)\t46\n(72%)\nUninstalled Capital Cost h\t$/kW\t1,000\t250\t150\nH2 Production Cost i\t$/kg H2\t>3\t2.00\t1.00\n\na This target table has been developed specifically for low-temperature PEM electrolyzers; separate tables have been developed for other electrolyzer technologies. There are many combinations of performance, efficiency, lifetime, and capital cost targets that can achieve the central goal of low-cost hydrogen production. The targets listed here can be considered a starting guidepost for technology developers.\n\nb All performance, durability, and capital cost targets must be met simultaneously on the same stack or system for achieving the levelized cost of hydrogen cost targets. Ultimately, the goal is to demonstrate these targets in stacks and systems at relevant commercial scales.\n\nc Status is based on ongoing analysis work in the Hydrogen from Next-generation Electrolyzers of Water (H2NEW) Consortium, to be published in a DOE Program Record.\n\nd Iridium in the anode accounts for much of the platinum group metal (PGM) content in PEM electrolyzers, but platinum is also present in the cathode. Reducing PGM catalyst loading is important to reduce cost, but doing so should not compromise the ability to meet performance and durability targets.\n\ne Includes 2.5% efficiency loss due to H2 crossover (2.5% is included as an upper limit to allow for safety margins).\n\nf Status and targets are consistent with an end-of-life performance loss of 10%. While the status value is based on continuous operation, evaluation of degradation rate with respect to targets must include operation near the stack’s nominal operating point as well as consider dynamic operation (e.g., to meet duty cycle requirements) and on-off cycling if applications/end uses require.\n\ng End-of-life is based on 10% voltage loss from beginning-of-life operations (following any break-in/conditioning period), measured at the same current density. Lifetime is calculated based on average degradation rate from beginning-of-life to end-of-life voltage (e.g., for 2022 Status: [(1.9 V * 1.1) – 1.9 V] / [0.0048 V/kh*kh/1,000 h]).\n\nh Status represents current manufacturing volumes. 2026 and ultimate targets assume economies of scale have been achieved with high-volume manufacturing. Installation costs, such as engineering, procurement, construction, and permitting costs, are not included in system cost values.\n\ni Values (including the lower bound of $3/kg H2 for status) assume utilization of low-cost electricity (e.g., ≤$0.03/kWh) with high availability (e.g., >90%); however, other scenarios utilizing lower-cost electricity at lower capacity factors (e.g., from wind or solar) could also be considered to meet production cost targets.\n\nCommitted to Restoring America’s Energy Dominance.\n\nFollow Us\n\nLink to Facebook\nLink to Instagram\nLink to Linkedin\nLink to Youtube\nLink to X\nLink to Flickr\nQuick Links\nLeadership & Offices\nNewsroom\nContact Us\nCareers\nResources\nBudget & Performance\nDirectives, Delegations, & Requirements\nFreedom of Information Act (FOIA)\nInspector General\nPrivacy Program\nFederal Government\nUSA.gov\nThe White House\nOpen Gov\nAccessibility\nPrivacy\nInformation Quality\nNo Fear Act\nWeb Policies\nVulnerability Disclosure Program\nWhistleblower Protection\nEqual Employment Opportunity\nNotice of Court Orders",
+  "links": [
+    {
+      "title": "Skip to main content",
+      "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis#main-content"
+    },
+    {
+      "title": "View all Policy & Priorities",
+      "url": "https://www.energy.gov/topics/priorities"
+    },
+    {
+      "title": "Increase American Energy Production\n                    Expanding domestic energy resources to support national needs and economic growth.",
+      "url": "https://www.energy.gov/topics/increase-american-energy-production"
+    },
+    {
+      "title": "Energy Innovation\n                    Driving research and development to shape the future of energy systems and technologies.",
+      "url": "https://www.energy.gov/topics/energy-innovation"
+    },
+    {
+      "title": "Energy Exports\n                    Supporting global energy markets through U.S. energy production and trade.",
+      "url": "https://www.energy.gov/topics/energy-exports"
+    },
+    {
+      "title": "Affordable Energy for Consumers\n                    Promoting access to reliable and cost-effective energy for households and businesses.",
+      "url": "https://www.energy.gov/topics/affordable-energy-consumers"
+    },
+    {
+      "title": "Strategic Petroleum Reserve (SPR)\n                    Managing emergency fuel reserves to support national energy security.",
+      "url": "https://www.energy.gov/topics/strategic-petroleum-reserve-spr"
+    },
+    {
+      "title": "Nuclear Security\n                    Maintaining the safety, security, and effectiveness of the nation’s nuclear deterrent.",
+      "url": "https://www.energy.gov/topics/nuclear-security"
+    },
+    {
+      "title": "Nuclear Energy\n                    Advancing nuclear technologies to support energy, security, and innovation goals.",
+      "url": "https://www.energy.gov/topics/nuclear-energy"
+    },
+    {
+      "title": "Energy Reliability\n                    Ensuring consistent and dependable energy delivery across the nation.",
+      "url": "https://www.energy.gov/topics/energy-reliability"
+    },
+    {
+      "title": "Energy Infrastructure\n                    Strengthening and modernizing the systems that produce, deliver, and store energy.",
+      "url": "https://www.energy.gov/topics/energy-infrastructure"
+    },
+    {
+      "title": "View all Leadership & Organization",
+      "url": "https://www.energy.gov/leadership-organization"
+    },
+    {
+      "title": "Chris Wright\n                        \n                            Secretary of Energy",
+      "url": "https://www.energy.gov/person/chris-wright"
+    },
+    {
+      "title": "James Danly\n                        \n                            Deputy Secretary of Energy",
+      "url": "https://www.energy.gov/person/james-danly"
+    },
+    {
+      "title": "Staff Offices\n                                Supporting DOE operations through policy, administration, and mission services.",
+      "url": "https://www.energy.gov/staff-offices"
+    },
+    {
+      "title": "Science and Innovation Program Offices\n                                Leading scientific research and technology development across priority areas.",
+      "url": "https://www.energy.gov/science-and-innovation-program-offices"
+    },
+    {
+      "title": "Independent Offices\n                                Providing oversight and specialized functions across key areas of the Department.",
+      "url": "https://www.energy.gov/independent-offices"
+    },
+    {
+      "title": "Energy Program Offices\n                                Managing programs that support energy production, efficiency, and delivery.",
+      "url": "https://www.energy.gov/energy-program-offices"
+    },
+    {
+      "title": "National Laboratories\n                                Advancing research and innovation through DOE’s National Laboratory System.",
+      "url": "https://www.energy.gov/national-laboratories"
+    },
+    {
+      "title": "Nuclear Security Offices\n                                Overseeing national security efforts related to nuclear safety and defense.",
+      "url": "https://www.energy.gov/nnsa/national-nuclear-security-administration"
+    },
+    {
+      "title": "Hydrocarbons and Geothermal Energy Office",
+      "url": "https://www.energy.gov/hgeo/hydrocarbons-and-geothermal-energy-office"
+    },
+    {
+      "title": "View all Topics",
+      "url": "https://www.energy.gov/topics"
+    },
+    {
+      "title": "Energy Sources\n                        \n                                                Learn about the resources and technologies used to produce power across the United States.",
+      "url": "https://www.energy.gov/topics/energy-sources"
+    },
+    {
+      "title": "Energy Usage\n                        \n                                                Explore how energy is consumed in homes, businesses, transportation, and industry.",
+      "url": "https://www.energy.gov/topics/energy-usage"
+    },
+    {
+      "title": "Policy\n                        \n                                                Understand the laws, regulations, and strategies that guide energy decisions and national priorities.",
+      "url": "https://www.energy.gov/topics/policy"
+    },
+    {
+      "title": "Science & Innovation\n                        \n                                                See how research, discovery, and new technologies are shaping the future of energy.",
+      "url": "https://www.energy.gov/topics/science-innovation"
+    },
+    {
+      "title": "Economy\n                        \n                                                Discover how energy affects jobs, markets, investment, and economic growth.",
+      "url": "https://www.energy.gov/topics/economy"
+    },
+    {
+      "title": "National Security & Safety\n                        \n                                                Learn how energy systems support resilience, infrastructure protection, and public safety.",
+      "url": "https://www.energy.gov/topics/national-security-safety"
+    },
+    {
+      "title": "View all News & Events",
+      "url": "https://www.energy.gov/newsroom"
+    },
+    {
+      "title": "Energy Department Announces Over $230 Million Funding Opportunity to Strengthen America's Grid Supply Chain and Lower Electricity Costs",
+      "url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid"
+    },
+    {
+      "title": "Read more",
+      "url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid"
+    },
+    {
+      "title": "Electric Grids",
+      "url": "https://www.energy.gov/topics/electric-grids"
+    },
+    {
+      "title": "View all Press Releases",
+      "url": "https://www.energy.gov/search?type%5B1%5D=1&office%5B0%5D=Energy.gov"
+    },
+    {
+      "title": "FACT SHEET: Project Uprise Is Delivering On President Trump's Agenda To Unleash American Nuclear Power",
+      "url": "https://www.energy.gov/articles/fact-sheet-project-uprise-delivering-president-trumps-agenda-unleash-american-nuclear"
+    },
+    {
+      "title": "Nuclear",
+      "url": "https://www.energy.gov/topics/nuclear"
+    },
+    {
+      "title": "FACT SHEET: Delivering on President Trump's Promise to Unleash Prosperity and Security for the United States and Venezuela",
+      "url": "https://www.energy.gov/articles/fact-sheet-delivering-president-trumps-promise-unleash-prosperity-and-security-united"
+    },
+    {
+      "title": "FACT SHEET: The Energy Department is Ushering in a Golden Age of American Science",
+      "url": "https://www.energy.gov/articles/fact-sheet-energy-department-ushering-golden-age-american-science"
+    },
+    {
+      "title": "Super Intelligence",
+      "url": "https://www.energy.gov/topics/super-intelligence"
+    },
+    {
+      "title": "View all Fact Sheets",
+      "url": "https://www.energy.gov/search?type%5B1381215%5D=1381215&office%5B0%5D=Energy.gov"
+    },
+    {
+      "title": "ORSSAB Executive Committee Meeting - November 4, 2026 (Virtual)",
+      "url": "https://www.energy.gov/orem/events/orssab-executive-committee-meeting-november-4-2026-virtual"
+    },
+    {
+      "title": "Utility Open House for Federal Customers Featuring Philadelphia Gas Works",
+      "url": "https://www.energy.gov/cmei/femp/events/utility-open-house-federal-customers-featuring-philadelphia-gas-works"
+    },
+    {
+      "title": "Chairs Meeting - November 2026",
+      "url": "https://www.energy.gov/em/events/chairs-meeting-november-2026"
+    },
+    {
+      "title": "View all Events",
+      "url": "https://www.energy.gov/search-events?keywords=events&page=0&startDate%5Bvalue%5D=now"
+    },
+    {
+      "title": "Mission\n                    Supporting USA energy, science, and security priorities.",
+      "url": "https://www.energy.gov/mission"
+    },
+    {
+      "title": "History & Achievements",
+      "url": "https://www.energy.gov/lm/history"
+    },
+    {
+      "title": "Nobel Prize Laureates",
+      "url": "https://www.energy.gov/doe-affiliated-nobel-prize-laureates"
+    },
+    {
+      "title": "Contact Us\n                    Access general information and ways to connect with the Department of Energy.",
+      "url": "https://www.energy.gov/contact-us"
+    },
+    {
+      "title": "Careers",
+      "url": "https://www.energy.gov/work-us-department-energy"
+    },
+    {
+      "title": "Internships & Fellowships",
+      "url": "https://www.energy.gov/internships-fellowships"
+    },
+    {
+      "title": "Apprenticeships & Workforce Development",
+      "url": "https://www.energy.gov/apprenticeships-workforce-development"
+    },
+    {
+      "title": "Work at DOE",
+      "url": "https://www.energy.gov/careers/jobs-doe"
+    },
+    {
+      "title": "Funding Opportunities",
+      "url": "https://www.energy.gov/funding-opportunities"
+    },
+    {
+      "title": "Alternative Fuels and Feedstocks Office",
+      "url": "https://www.energy.gov/cmei/fuels"
+    },
+    {
+      "title": "Technical Targets for Proton Exchange Membrane Electrolysis",
+      "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis"
+    },
+    {
+      "title": "other electrolyzer technologies",
+      "url": "https://www.energy.gov/cmei/fuels/hydrogen-production-related-links#targets"
+    },
+    {
+      "title": "Link to Facebook",
+      "url": "https://www.facebook.com/energy"
+    },
+    {
+      "title": "Link to Instagram",
+      "url": "https://www.instagram.com/energy"
+    },
+    {
+      "title": "Link to Linkedin",
+      "url": "https://www.linkedin.com/company/u-s--department-of-energy"
+    },
+    {
+      "title": "Link to Youtube",
+      "url": "https://www.youtube.com/user/USdepartmentofenergy"
+    },
+    {
+      "title": "Link to X",
+      "url": "https://twitter.com/energy"
+    },
+    {
+      "title": "Link to Flickr",
+      "url": "https://www.flickr.com/photos/departmentofenergy/"
+    },
+    {
+      "title": "Leadership & Offices",
+      "url": "https://www.energy.gov/leadership-organization"
+    },
+    {
+      "title": "Newsroom",
+      "url": "https://www.energy.gov/newsroom"
+    },
+    {
+      "title": "Contact Us",
+      "url": "https://www.energy.gov/contact-us"
+    },
+    {
+      "title": "Careers",
+      "url": "https://www.energy.gov/work-us-department-energy"
+    },
+    {
+      "title": "Budget & Performance",
+      "url": "https://www.energy.gov/budget-performance"
+    },
+    {
+      "title": "Directives, Delegations, & Requirements",
+      "url": "https://www.directives.doe.gov/"
+    },
+    {
+      "title": "Freedom of Information Act (FOIA)",
+      "url": "https://www.energy.gov/gc/freedom-information-act"
+    },
+    {
+      "title": "Inspector General",
+      "url": "https://www.energy.gov/ig/office-inspector-general"
+    },
+    {
+      "title": "Privacy Program",
+      "url": "https://www.energy.gov/cio/privacy-program"
+    },
+    {
+      "title": "USA.gov",
+      "url": "https://www.usa.gov/"
+    },
+    {
+      "title": "The White House",
+      "url": "https://www.whitehouse.gov/"
+    },
+    {
+      "title": "Open Gov",
+      "url": "https://www.energy.gov/open-government"
+    },
+    {
+      "title": "Accessibility",
+      "url": "https://www.energy.gov/cio/accessibility-standard-statement"
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.energy.gov/about-us/web-policies/privacy"
+    },
+    {
+      "title": "Information Quality",
+      "url": "https://www.energy.gov/cio/department-energy-information-quality-guidelines"
+    },
+    {
+      "title": "No Fear Act",
+      "url": "https://www.energy.gov/eeocr/no-fear-act-data"
+    },
+    {
+      "title": "Web Policies",
+      "url": "https://www.energy.gov/web-policies"
+    },
+    {
+      "title": "Vulnerability Disclosure Program",
+      "url": "https://www.energy.gov/cio/articles/vulnerability-disclosure-policy"
+    },
+    {
+      "title": "Whistleblower Protection",
+      "url": "https://www.energy.gov/whistleblower-protection-and-nondisclosure-agreements"
+    },
+    {
+      "title": "Equal Employment Opportunity",
+      "url": "https://www.energy.gov/eeocr/notice-equal-employment-opportunity-eeo-findings-discrimination-harassment-andor-retaliation"
+    },
+    {
+      "title": "Notice of Court Orders",
+      "url": "https://www.energy.gov/notice-court-orders"
+    }
+  ],
+  "read_depth": "rendered HTML body, linked PDFs not yet retrieved",
+  "accessed_at": "2026-11-03T16:18:04.304Z"
+}

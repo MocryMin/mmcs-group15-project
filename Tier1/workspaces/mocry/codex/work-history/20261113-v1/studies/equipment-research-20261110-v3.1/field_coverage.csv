@@ -1,0 +1,924 @@
+﻿id,manufacturer,model,field,field_ZH,public_record_status,value,source,has_study_profile
+tesvolt-tallon,TESVOLT,TALLON,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,5015,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,recorded_with_qualifiers,5015.0,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,2500,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,permitted_DoD,厂家允许放电深度,recorded_with_qualifiers,1.0,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,normalized_SOC_operating_range,对可用容量归一化的库存范围,recorded_with_qualifiers,"[0, 1]","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,roundtrip_AC,交流往返效率及条件,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,roundtrip_DC,直流往返效率及条件,recorded_with_qualifiers,"{""boundary"": ""DC connection point"", ""points"": [{""efficiency"": 0.937, ""rate_Cp"": 0.5}, {""efficiency"": 0.952, ""rate_C"": 0.25}]}","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,one_way_efficiencies,分别披露的单程效率,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,auxiliary_active_kW,运行辅助功率（kW）,recorded_with_qualifiers,"{""peak"": 36, ""typical25C"": 23, ""typical45C"": 33}","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,auxiliary_standby_kW,待机辅助功率（kW）,recorded_with_qualifiers,"{""kind"": ""stated standby"", ""value"": 2}","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,self_discharge_per_day,每日储存损耗,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,lifetime_years,日历寿命（年）,recorded_with_qualifiers,15,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,cycle_life,循环寿命及限定,recorded_with_qualifiers,11000,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,EOL_SOH,寿命终点健康状态,recorded_with_qualifiers,0.6,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,degradation_curve,衰减曲线,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,warranty_years,质保年限及性质,recorded_with_qualifiers,"{""kind"": ""combined product/performance, purchase terms control"", ""optional"": 20, ""standard"": 15}","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,availability,可用率,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,parallel_limit,并机数及适用边界,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 55]","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,derating_above_C,开始降额温度（°C）,not_obtained,,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,scope,测量/供应范围,recorded_with_qualifiers,DC battery container;needs matchingPCS and AC-system boundary,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,auxiliary_duty_reference,辅助能耗的参考运行工况,recorded_with_qualifiers,"{""annual_MWh"": 63.51, ""cycles_day"": 1.5, ""warning"": ""not additive to all other auxiliary figures""}","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,lifetime_conditions,寿命工况,recorded_with_qualifiers,"average2cycles/day,100%DoD,max0.5Cp;optional20yearwarranty not automatic20yearconstantcapacity","TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-tallon,TESVOLT,TALLON,usable_definition,可用容量定义,recorded_with_qualifiers,Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%.,"TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,509,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,250,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,battery_DC_charge_power_kW,电池部分充电功率（kW）,recorded_with_qualifiers,244,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,battery_DC_discharge_power_kW,电池部分放电功率（kW）,recorded_with_qualifiers,254.8,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,permitted_DoD,厂家允许放电深度,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""conditions"": ""manufacturerFAQ:configurationandoperatingconditions"", ""maximum_approx"": 0.92}",TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,roundtrip_DC,直流往返效率及条件,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,one_way_efficiencies,分别披露的单程效率,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,self_discharge_per_day,每日储存损耗,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,lifetime_years,日历寿命（年）,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,cycle_life,循环寿命及限定,recorded_with_qualifiers,"{""kind"": ""webpage>10000 cycles"", ""value"": 10000}",TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,EOL_SOH,寿命终点健康状态,recorded_with_qualifiers,"{""at_year"": 10, ""kind"": ""webpage reference;detailed duty/contract not verified"", ""lower"": 0.7}",TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,degradation_curve,衰减曲线,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,warranty_years,质保年限及性质,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,availability,可用率,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,parallel_limit,并机数及适用边界,not_obtained,,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-20, 55]",TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,45,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,scope,测量/供应范围,recorded_with_qualifiers,"battery plusPCS, but usable depth and rating boundaries not fully published",TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,marketed_energy_kWh,名称中的容量（kWh）,recorded_with_qualifiers,500,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+tesvolt-powercore-g2,TESVOLT,POWERCORE G2 IA-250kW/500kWh,rating_issue,额定边界待确认事项,recorded_with_qualifiers,Battery section and250kWACrating cannot be equated without conversion/boundary confirmation,TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources,False
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,257,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,recorded_with_qualifiers,257.0,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,125,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,permitted_DoD,厂家允许放电深度,recorded_with_qualifiers,1.0,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,normalized_SOC_operating_range,对可用容量归一化的库存范围,recorded_with_qualifiers,"[0, 1]",Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""kind"": ""productpage states consistentlyover90%;not a mean or point"", ""lower_exclusive"": 0.9}",Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,roundtrip_DC,直流往返效率及条件,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,one_way_efficiencies,分别披露的单程效率,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,self_discharge_per_day,每日储存损耗,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,lifetime_years,日历寿命（年）,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,cycle_life,循环寿命及限定,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,EOL_SOH,寿命终点健康状态,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,degradation_curve,衰减曲线,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,warranty_years,质保年限及性质,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,availability,可用率,not_obtained,,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,parallel_limit,并机数及适用边界,recorded_with_qualifiers,"{""boundary"": ""one system group;not a global investment cap"", ""off_grid"": 10, ""on_grid"": 25}",Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 50]",Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,45,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,scope,测量/供应范围,recorded_with_qualifiers,"integratedACBESS, approximately2-hourclass",Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,PCS_efficiency_max,变流器最高效率,recorded_with_qualifiers,0.985,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,auxiliary_supply,辅助供电方式,recorded_with_qualifiers,internal bydefault;external optional;quantified draw unpublished,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,maintenance,维护,recorded_with_qualifiers,Usermanualp93:yearlyinspection and cell replacement when needed;no numeric service life guarantee,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-st255cs-2h,Sungrow,PowerStack ST255CS-2H,usable_definition,可用容量定义,recorded_with_qualifiers,Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%.,Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual,True
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,5015,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,2500,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,permitted_DoD,厂家允许放电深度,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,roundtrip_AC,交流往返效率及条件,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,roundtrip_DC,直流往返效率及条件,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,one_way_efficiencies,分别披露的单程效率,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,self_discharge_per_day,每日储存损耗,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,lifetime_years,日历寿命（年）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,cycle_life,循环寿命及限定,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,EOL_SOH,寿命终点健康状态,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,degradation_curve,衰减曲线,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,warranty_years,质保年限及性质,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,availability,可用率,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,parallel_limit,并机数及适用边界,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 50]",Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,45,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,scope,测量/供应范围,recorded_with_qualifiers,integratedACblock;DoD and ACroundtrip not stated in retained sheet,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,apparent_power_kVA,额定视在功率（kVA）,recorded_with_qualifiers,2520,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-2h,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,course_scope,与课程时长参考的关系,recorded_with_qualifiers,2-hourreference,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,5015,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,1250,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,permitted_DoD,厂家允许放电深度,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,roundtrip_AC,交流往返效率及条件,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,roundtrip_DC,直流往返效率及条件,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,one_way_efficiencies,分别披露的单程效率,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,self_discharge_per_day,每日储存损耗,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,lifetime_years,日历寿命（年）,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,cycle_life,循环寿命及限定,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,EOL_SOH,寿命终点健康状态,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,degradation_curve,衰减曲线,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,warranty_years,质保年限及性质,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,availability,可用率,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,parallel_limit,并机数及适用边界,not_obtained,,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 50]",Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,45,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,scope,测量/供应范围,recorded_with_qualifiers,integratedACblock;DoD and ACroundtrip not stated in retained sheet,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,apparent_power_kVA,额定视在功率（kVA）,recorded_with_qualifiers,1260,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+sungrow-powertitan2-4h,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,course_scope,与课程时长参考的关系,recorded_with_qualifiers,4-hourextension;not silently a2-hourcandidate,Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023),False
+huawei-luna215,Huawei,LUNA2000-215-2S10,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,215,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,recorded_with_qualifiers,215.0,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,108,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,permitted_DoD,厂家允许放电深度,recorded_with_qualifiers,1.0,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,normalized_SOC_operating_range,对可用容量归一化的库存范围,recorded_with_qualifiers,"[0, 1]",Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""kind"": ""maximumcycleefficiency;not routineaverage"", ""maximum"": 0.913, ""test_rate_C"": 0.5}",Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,roundtrip_DC,直流往返效率及条件,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,one_way_efficiencies,分别披露的单程效率,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,auxiliary_standby_kW,待机辅助功率（kW）,recorded_with_qualifiers,"{""kind"": ""standbyupperbound"", ""upper"": 0.15}",Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,self_discharge_per_day,每日储存损耗,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,lifetime_years,日历寿命（年）,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,cycle_life,循环寿命及限定,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,EOL_SOH,寿命终点健康状态,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,degradation_curve,衰减曲线,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,warranty_years,质保年限及性质,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,availability,可用率,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,parallel_limit,并机数及适用边界,not_obtained,,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 55]",Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,50,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,scope,测量/供应范围,recorded_with_qualifiers,integratedACBESS;productgrades/revisions keptseparate,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,auxiliary_supply_rating_kW_upper,辅助电源额定上限（kW）,recorded_with_qualifiers,5,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,auxiliary_warning,辅助负荷计量注意,recorded_with_qualifiers,"5kW is supply rating,not a constant parasitic load;avoid doublecounting cycleauxiliaries",Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,PCS_model,配套PCS型号,recorded_with_qualifiers,PCS2000-108K-MB1,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna215,Huawei,LUNA2000-215-2S10,usable_definition,可用容量定义,recorded_with_qualifiers,Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%.,Huawei-LUNA215-2S10.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,241,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,recorded_with_qualifiers,241.0,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,108,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,permitted_DoD,厂家允许放电深度,recorded_with_qualifiers,1.0,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,normalized_SOC_operating_range,对可用容量归一化的库存范围,recorded_with_qualifiers,"[0, 1]",Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""kind"": ""maximumcycleefficiency;not routineaverage"", ""maximum"": 0.913, ""test_rate_C"": 0.25}",Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,roundtrip_DC,直流往返效率及条件,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,one_way_efficiencies,分别披露的单程效率,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,auxiliary_standby_kW,待机辅助功率（kW）,recorded_with_qualifiers,"{""kind"": ""standbyupperbound"", ""upper"": 0.15}",Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,self_discharge_per_day,每日储存损耗,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,lifetime_years,日历寿命（年）,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,cycle_life,循环寿命及限定,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,EOL_SOH,寿命终点健康状态,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,degradation_curve,衰减曲线,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,warranty_years,质保年限及性质,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,availability,可用率,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,parallel_limit,并机数及适用边界,not_obtained,,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 55]",Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,derating_above_C,开始降额温度（°C）,recorded_with_qualifiers,50,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,scope,测量/供应范围,recorded_with_qualifiers,integratedACBESS;productgrades/revisions keptseparate,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,auxiliary_supply_rating_kW_upper,辅助电源额定上限（kW）,recorded_with_qualifiers,5,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,auxiliary_warning,辅助负荷计量注意,recorded_with_qualifiers,"5kW is supply rating,not a constant parasitic load;avoid doublecounting cycleauxiliaries",Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,PCS_model,配套PCS型号,recorded_with_qualifiers,PCS2000-108K-MB1,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna241,Huawei,LUNA2000-241-2S1,usable_definition,可用容量定义,recorded_with_qualifiers,Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%.,Huawei-LUNA241-2S1.pdf p1;pages-12/13.json,True
+huawei-luna5015,Huawei,LUNA2000-5015-2S,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,5015,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,nominal_AC_power_kW,额定交流功率（kW）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,battery_DC_charge_power_kW,电池部分充电功率（kW）,recorded_with_qualifiers,2507.5,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,battery_DC_discharge_power_kW,电池部分放电功率（kW）,recorded_with_qualifiers,2507.5,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,permitted_DoD,厂家允许放电深度,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,roundtrip_AC,交流往返效率及条件,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,roundtrip_DC,直流往返效率及条件,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,one_way_efficiencies,分别披露的单程效率,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,self_discharge_per_day,每日储存损耗,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,lifetime_years,日历寿命（年）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,cycle_life,循环寿命及限定,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,EOL_SOH,寿命终点健康状态,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,degradation_curve,衰减曲线,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,warranty_years,质保年限及性质,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,availability,可用率,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,parallel_limit,并机数及适用边界,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,derating_above_C,开始降额温度（°C）,not_obtained,,Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+huawei-luna5015,Huawei,LUNA2000-5015-2S,scope,测量/供应范围,recorded_with_qualifiers,"DCcontainer,not an integrated2507.5kWACsystem;needsPCS and efficiency closure",Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,379.4,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,nominal_AC_power_kW,额定交流功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,permitted_DoD,厂家允许放电深度,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,roundtrip_AC,交流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,roundtrip_DC,直流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,one_way_efficiencies,分别披露的单程效率,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,self_discharge_per_day,每日储存损耗,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,lifetime_years,日历寿命（年）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,cycle_life,循环寿命及限定,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,EOL_SOH,寿命终点健康状态,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,degradation_curve,衰减曲线,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,warranty_years,质保年限及性质,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,availability,可用率,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,parallel_limit,并机数及适用边界,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,ambient_temperature_C,环境温度范围（°C）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,derating_above_C,开始降额温度（°C）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,scope,测量/供应范围,recorded_with_qualifiers,"DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,cell_capacity_Ah,电芯配置（Ah）,recorded_with_qualifiers,285,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,voltage_nominal_DC_V,额定直流电压（V）,recorded_with_qualifiers,1361.2,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,optional_cycle_claim,可选电芯循环宣传的边界,recorded_with_qualifiers,up to12000cycles for optionalcells;not guaranteed for everyconfiguration,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-285,CATL,EnerOne Plus 285Ah,reliability_claim,可靠性表述的边界,recorded_with_qualifiers,"20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty",CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,407.3,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,nominal_AC_power_kW,额定交流功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,permitted_DoD,厂家允许放电深度,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,roundtrip_AC,交流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,roundtrip_DC,直流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,one_way_efficiencies,分别披露的单程效率,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,self_discharge_per_day,每日储存损耗,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,lifetime_years,日历寿命（年）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,cycle_life,循环寿命及限定,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,EOL_SOH,寿命终点健康状态,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,degradation_curve,衰减曲线,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,warranty_years,质保年限及性质,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,availability,可用率,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,parallel_limit,并机数及适用边界,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,ambient_temperature_C,环境温度范围（°C）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,derating_above_C,开始降额温度（°C）,not_obtained,,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,scope,测量/供应范围,recorded_with_qualifiers,"DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,cell_capacity_Ah,电芯配置（Ah）,recorded_with_qualifiers,306,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,voltage_nominal_DC_V,额定直流电压（V）,recorded_with_qualifiers,1361.2,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,optional_cycle_claim,可选电芯循环宣传的边界,recorded_with_qualifiers,up to12000cycles for optionalcells;not guaranteed for everyconfiguration,CATL-ESS-202406.pdf p17,False
+catl-enerone-plus-306,CATL,EnerOne Plus 306Ah,reliability_claim,可靠性表述的边界,recorded_with_qualifiers,"20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty",CATL-ESS-202406.pdf p17,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,3720,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,nominal_AC_power_kW,额定交流功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,permitted_DoD,厂家允许放电深度,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,roundtrip_AC,交流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,roundtrip_DC,直流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,one_way_efficiencies,分别披露的单程效率,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,self_discharge_per_day,每日储存损耗,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,lifetime_years,日历寿命（年）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,cycle_life,循环寿命及限定,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,EOL_SOH,寿命终点健康状态,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,degradation_curve,衰减曲线,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,warranty_years,质保年限及性质,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,availability,可用率,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,parallel_limit,并机数及适用边界,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,ambient_temperature_C,环境温度范围（°C）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,derating_above_C,开始降额温度（°C）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,scope,测量/供应范围,recorded_with_qualifiers,"DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,cell_capacity_Ah,电芯配置（Ah）,recorded_with_qualifiers,280,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,voltage_nominal_DC_V,额定直流电压（V）,recorded_with_qualifiers,1331.2,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,optional_cycle_claim,可选电芯循环宣传的边界,recorded_with_qualifiers,up to12000cycles for optionalcells;not guaranteed for everyconfiguration,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-280,CATL,EnerC Plus 280Ah,reliability_claim,可靠性表述的边界,recorded_with_qualifiers,"20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty",CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,4070,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,nominal_AC_power_kW,额定交流功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,permitted_DoD,厂家允许放电深度,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,roundtrip_AC,交流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,roundtrip_DC,直流往返效率及条件,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,one_way_efficiencies,分别披露的单程效率,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,self_discharge_per_day,每日储存损耗,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,lifetime_years,日历寿命（年）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,cycle_life,循环寿命及限定,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,EOL_SOH,寿命终点健康状态,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,degradation_curve,衰减曲线,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,warranty_years,质保年限及性质,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,availability,可用率,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,parallel_limit,并机数及适用边界,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,ambient_temperature_C,环境温度范围（°C）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,derating_above_C,开始降额温度（°C）,not_obtained,,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,scope,测量/供应范围,recorded_with_qualifiers,"DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,cell_capacity_Ah,电芯配置（Ah）,recorded_with_qualifiers,306,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,voltage_nominal_DC_V,额定直流电压（V）,recorded_with_qualifiers,1331.2,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,optional_cycle_claim,可选电芯循环宣传的边界,recorded_with_qualifiers,up to12000cycles for optionalcells;not guaranteed for everyconfiguration,CATL-ESS-202406.pdf p16,False
+catl-enerc-plus-306,CATL,EnerC Plus 306Ah,reliability_claim,可靠性表述的边界,recorded_with_qualifiers,"20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty",CATL-ESS-202406.pdf p16,False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,3854,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,1927,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",permitted_DoD,厂家允许放电深度,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""boundary"": ""includes product power conversion and thermal system losses; external site MV transformer not explicitly covered"", ""conditions"": ""full-depth cycle at25C"", ""value"": 0.92}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",roundtrip_DC,直流往返效率及条件,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",one_way_efficiencies,分别披露的单程效率,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",self_discharge_per_day,每日储存损耗,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",lifetime_years,日历寿命（年）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",cycle_life,循环寿命及限定,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",EOL_SOH,寿命终点健康状态,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",degradation_curve,衰减曲线,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",warranty_years,质保年限及性质,recorded_with_qualifiers,"{""coverage"": ""equipment and energy retention;retention curve not published in this sheet"", ""optional"": 20, ""standard"": 15}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",availability,可用率,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",parallel_limit,并机数及适用边界,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 50]","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",derating_above_C,开始降额温度（°C）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",scope,测量/供应范围,recorded_with_qualifiers,"integrated product;published nominal energy,allowed DoD/usable energy and external connection efficiency require declared assumptions","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",apparent_power_kVA,额定视在功率（kVA）,recorded_with_qualifiers,2400,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",inverter_apparent_configuration,inverter_apparent_configuration,recorded_with_qualifiers,"{""minimum_kVA"": 400, ""step_kVA"": 50}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",nominal_AC_voltage_V,nominal_AC_voltage_V,recorded_with_qualifiers,480,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",cell_chemistry,cell_chemistry,recorded_with_qualifiers,not stated in retained sheet;do not silently assign LFP/NMC life,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",course_scope,与课程时长参考的关系,recorded_with_qualifiers,2-hour reference-compatible,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-2h,Tesla,"Megapack2XL 2-hour (Rev1.5.1,2023)",site_interface,site_interface,recorded_with_qualifiers,480VAC product interface requires matched UKsite transformer/grid equipment,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",nominal_energy_kWh,名义容量（kWh）,recorded_with_qualifiers,3916,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",usable_energy_kWh,厂家允许深度对应可用容量（kWh）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",nominal_AC_power_kW,额定交流功率（kW）,recorded_with_qualifiers,979,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",max_AC_charge_power_kW,最大交流充电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",max_AC_discharge_power_kW,最大交流放电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",battery_DC_charge_power_kW,电池部分充电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",battery_DC_discharge_power_kW,电池部分放电功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",permitted_DoD,厂家允许放电深度,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",normalized_SOC_operating_range,对可用容量归一化的库存范围,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",roundtrip_AC,交流往返效率及条件,recorded_with_qualifiers,"{""boundary"": ""includes product power conversion and thermal system losses; external site MV transformer not explicitly covered"", ""conditions"": ""full-depth cycle at25C"", ""value"": 0.937}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",roundtrip_DC,直流往返效率及条件,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",one_way_efficiencies,分别披露的单程效率,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",auxiliary_active_kW,运行辅助功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",auxiliary_standby_kW,待机辅助功率（kW）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",self_discharge_per_day,每日储存损耗,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",lifetime_years,日历寿命（年）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",cycle_life,循环寿命及限定,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",EOL_SOH,寿命终点健康状态,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",degradation_curve,衰减曲线,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",warranty_years,质保年限及性质,recorded_with_qualifiers,"{""coverage"": ""equipment and energy retention;retention curve not published in this sheet"", ""optional"": 20, ""standard"": 15}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",availability,可用率,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",parallel_limit,并机数及适用边界,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-30, 50]","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",derating_above_C,开始降额温度（°C）,not_obtained,,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",scope,测量/供应范围,recorded_with_qualifiers,"integrated product;published nominal energy,allowed DoD/usable energy and external connection efficiency require declared assumptions","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",apparent_power_kVA,额定视在功率（kVA）,recorded_with_qualifiers,1320,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",inverter_apparent_configuration,inverter_apparent_configuration,recorded_with_qualifiers,"{""minimum_kVA"": 400, ""step_kVA"": 50}","Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",nominal_AC_voltage_V,nominal_AC_voltage_V,recorded_with_qualifiers,480,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",cell_chemistry,cell_chemistry,recorded_with_qualifiers,not stated in retained sheet;do not silently assign LFP/NMC life,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",course_scope,与课程时长参考的关系,recorded_with_qualifiers,4-hour extension,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+tesla-megapack2xl-4h,Tesla,"Megapack2XL 4-hour (Rev1.5.1,2023)",site_interface,site_interface,recorded_with_qualifiers,480VAC product interface requires matched UKsite transformer/grid equipment,"Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",False
+itm-neptune-ii,ITM,NEPTUNE II,technology,电解技术,recorded_with_qualifiers,PEM,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,marketing_class_MW,产品MW等级,recorded_with_qualifiers,2,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,35,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,57,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,1995,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.25,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.25,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,operating range of installed/online reference product as specified,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,base_purity,基本气质,recorded_with_qualifiers,"<5ppmH2O,<5ppmO2",neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,optional_purity,可选气质,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,additional_purification_kW,额外净化功率（kW）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,water_litre_per_kg,水耗（L/kg）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,DI forPOSEIDON;potableinput forotherfullscopepackages,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,ramp,爬坡,recorded_with_qualifiers,"{""down_fraction_per_second"": 0.5, ""up_fraction_per_second"": 0.1}",neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,hot_start_seconds,热启动（秒）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,cold_start_seconds,冷启动（秒）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,standby_kW,待机功率（kW）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,minimum_up_time_hours,最小连续运行（h）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,minimum_down_time_hours,最小连续停机（h）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,stack_lifetime_hours,电堆寿命（h）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,plant_lifetime_years,工厂寿命（年）,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,warranty_years,质保年限及性质,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-20, 40]",neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,degradation_curve,衰减曲线,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,replacement_cost,替换成本,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,maintenance,维护,not_obtained,,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,scope,测量/供应范围,recorded_with_qualifiers,fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,water_flow_status,数值水耗的披露情况,recorded_with_qualifiers,Input water quality is stated; no numerical water-consumption rate published in retained product sheet,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,57.0,neptune-2.pdf p2,True
+itm-neptune-ii,ITM,NEPTUNE II,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,neptune-2.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,technology,电解技术,recorded_with_qualifiers,PEM,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,marketing_class_MW,产品MW等级,recorded_with_qualifiers,5,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,90,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,55.9,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,5031.0,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.125,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.125,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,operating range of installed/online reference product as specified,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,base_purity,基本气质,recorded_with_qualifiers,"<5ppmH2O,<5ppmO2",neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,optional_purity,可选气质,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,additional_purification_kW,额外净化功率（kW）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,water_litre_per_kg,水耗（L/kg）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,DI forPOSEIDON;potableinput forotherfullscopepackages,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,ramp,爬坡,recorded_with_qualifiers,"{""down_fraction_per_second"": 0.5, ""up_fraction_per_second"": 0.1}",neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,hot_start_seconds,热启动（秒）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,cold_start_seconds,冷启动（秒）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,standby_kW,待机功率（kW）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,minimum_up_time_hours,最小连续运行（h）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,minimum_down_time_hours,最小连续停机（h）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,stack_lifetime_hours,电堆寿命（h）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,plant_lifetime_years,工厂寿命（年）,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,warranty_years,质保年限及性质,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-20, 45]",neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,degradation_curve,衰减曲线,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,replacement_cost,替换成本,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,maintenance,维护,not_obtained,,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,scope,测量/供应范围,recorded_with_qualifiers,fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,water_flow_status,数值水耗的披露情况,recorded_with_qualifiers,Input water quality is stated; no numerical water-consumption rate published in retained product sheet,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,55.9,neptune-5.pdf p2,True
+itm-neptune-v,ITM,NEPTUNE V,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,neptune-5.pdf p2,True
+itm-poseidon,ITM,POSEIDON,technology,电解技术,recorded_with_qualifiers,PEM,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,marketing_class_MW,产品MW等级,recorded_with_qualifiers,20,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,360,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,55.9,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,20124.0,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.2,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.2,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,operating range of installed/online reference product as specified,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,base_purity,基本气质,recorded_with_qualifiers,fullysaturatedwithtraceO2,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,optional_purity,可选气质,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,additional_purification_kW,额外净化功率（kW）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,water_litre_per_kg,水耗（L/kg）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,DI forPOSEIDON;potableinput forotherfullscopepackages,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,ramp,爬坡,recorded_with_qualifiers,"{""down_fraction_per_second"": 0.5, ""up_fraction_per_second"": 0.1}",ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,hot_start_seconds,热启动（秒）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,cold_start_seconds,冷启动（秒）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,standby_kW,待机功率（kW）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,minimum_up_time_hours,最小连续运行（h）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,minimum_down_time_hours,最小连续停机（h）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,stack_lifetime_hours,电堆寿命（h）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,plant_lifetime_years,工厂寿命（年）,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,warranty_years,质保年限及性质,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-20, 45]",ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,degradation_curve,衰减曲线,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,replacement_cost,替换成本,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,maintenance,维护,not_obtained,,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,scope,测量/供应范围,recorded_with_qualifiers,POSEIDONcoremodulewithoptionalBoP;systemenergyalreadyincludesBoP,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,water_flow_status,数值水耗的披露情况,recorded_with_qualifiers,Input water quality is stated; no numerical water-consumption rate published in retained product sheet,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,55.9,ITM-Poseidon20-2-7.pdf p2,True
+itm-poseidon,ITM,POSEIDON,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,ITM-Poseidon20-2-7.pdf p2,True
+itm-alpha50,ITM,ALPHA50,technology,电解技术,recorded_with_qualifiers,PEM,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,marketing_class_MW,产品MW等级,recorded_with_qualifiers,50,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,900,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,55.9,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,50310.0,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.125,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.125,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,operating range of installed/online reference product as specified,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,base_purity,基本气质,recorded_with_qualifiers,"<5ppmH2O,<5ppmO2",alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,optional_purity,可选气质,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,additional_purification_kW,额外净化功率（kW）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,water_litre_per_kg,水耗（L/kg）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,DI forPOSEIDON;potableinput forotherfullscopepackages,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,ramp,爬坡,recorded_with_qualifiers,"{""down_fraction_per_second"": 0.5, ""up_fraction_per_second"": 0.1}",alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,hot_start_seconds,热启动（秒）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,cold_start_seconds,冷启动（秒）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,standby_kW,待机功率（kW）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,minimum_up_time_hours,最小连续运行（h）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,minimum_down_time_hours,最小连续停机（h）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,stack_lifetime_hours,电堆寿命（h）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,plant_lifetime_years,工厂寿命（年）,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,warranty_years,质保年限及性质,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,ambient_temperature_C,环境温度范围（°C）,recorded_with_qualifiers,"[-20, 45]",alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,degradation_curve,衰减曲线,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,replacement_cost,替换成本,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,maintenance,维护,not_obtained,,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,scope,测量/供应范围,recorded_with_qualifiers,fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,water_flow_status,数值水耗的披露情况,recorded_with_qualifiers,Input water quality is stated; no numerical water-consumption rate published in retained product sheet,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,55.9,alpha-50.pdf p2,True
+itm-alpha50,ITM,ALPHA50,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,alpha-50.pdf p2,True
+nel-mc250,Nel,MC250,technology,电解技术,recorded_with_qualifiers,PEM,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,marketing_class_MW,产品MW等级,recorded_with_qualifiers,1.25,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,22.125,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,59.0,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,1305.375,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.1,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.1,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,base_purity,基本气质,recorded_with_qualifiers,0.9995,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,15.9,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,potable subjecttositeanalysis;RO/EDIincluded,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,ramp,爬坡,recorded_with_qualifiers,"{""max_fraction_per_second"": 0.074, ""min_to_full_seconds_upper"": 15}",Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,"{""source_wording"": ""fromstandby;not proof ofcoldstart"", ""upper"": 480}",Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,standby_kW,待机功率（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,plant_lifetime_years,工厂寿命（年）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,warranty_years,质保年限及性质,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,degradation_curve,衰减曲线,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,replacement_cost,替换成本,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,maintenance,维护,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,scope,测量/供应范围,recorded_with_qualifiers,containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,scope_warning,scope_warning,recorded_with_qualifiers,MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,59.0,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc250,Nel,MC250,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,technology,电解技术,recorded_with_qualifiers,PEM,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,marketing_class_MW,产品MW等级,recorded_with_qualifiers,2.5,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,44.25,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,57.3,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,2535.525,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.1,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.1,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,base_purity,基本气质,recorded_with_qualifiers,0.9995,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,15.9,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,potable subjecttositeanalysis;RO/EDIincluded,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,ramp,爬坡,recorded_with_qualifiers,"{""max_fraction_per_second"": 0.074, ""min_to_full_seconds_upper"": 15}",Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,"{""source_wording"": ""fromstandby;not proof ofcoldstart"", ""upper"": 480}",Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,standby_kW,待机功率（kW）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,plant_lifetime_years,工厂寿命（年）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,warranty_years,质保年限及性质,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,degradation_curve,衰减曲线,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,replacement_cost,替换成本,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,maintenance,维护,not_obtained,,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,scope,测量/供应范围,recorded_with_qualifiers,containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,scope_warning,scope_warning,recorded_with_qualifiers,MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,57.300000000000004,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc500,Nel,MC500,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,Nel-MC-Series-RevJ.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,technology,电解技术,recorded_with_qualifiers,PEM,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,marketing_class_MW,产品MW等级,recorded_with_qualifiers,5,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,88.5,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,5024.145,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,base_purity,基本气质,recorded_with_qualifiers,0.9995,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,15.9,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,potable subjecttositeanalysis;RO/EDIincluded,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,ramp,爬坡,recorded_with_qualifiers,"{""max_fraction_per_second"": 0.074, ""min_to_full_seconds_upper"": 15}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,"{""source_wording"": ""fromstandby;not proof ofcoldstart"", ""upper"": 480}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,standby_kW,待机功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,plant_lifetime_years,工厂寿命（年）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,warranty_years,质保年限及性质,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,degradation_curve,衰减曲线,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,replacement_cost,替换成本,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,maintenance,维护,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,scope,测量/供应范围,recorded_with_qualifiers,containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,scope_warning,scope_warning,recorded_with_qualifiers,MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc1000,Nel,MC1000,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,technology,电解技术,recorded_with_qualifiers,PEM,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,marketing_class_MW,产品MW等级,recorded_with_qualifiers,10,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,177.0,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,10048.29,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,base_purity,基本气质,recorded_with_qualifiers,0.9995,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,15.9,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,potable subjecttositeanalysis;RO/EDIincluded,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,ramp,爬坡,recorded_with_qualifiers,"{""max_fraction_per_second"": 0.074, ""min_to_full_seconds_upper"": 15}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,"{""source_wording"": ""fromstandby;not proof ofcoldstart"", ""upper"": 480}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,standby_kW,待机功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,plant_lifetime_years,工厂寿命（年）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,warranty_years,质保年限及性质,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,degradation_curve,衰减曲线,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,replacement_cost,替换成本,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,maintenance,维护,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,scope,测量/供应范围,recorded_with_qualifiers,containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,scope_warning,scope_warning,recorded_with_qualifiers,MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc2000,Nel,MC2000,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,technology,电解技术,recorded_with_qualifiers,PEM,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,marketing_class_MW,产品MW等级,recorded_with_qualifiers,20,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,354.0,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,20096.58,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.2,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,30,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,base_purity,基本气质,recorded_with_qualifiers,0.9995,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,15.9,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,potable subjecttositeanalysis;RO/EDIincluded,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,ramp,爬坡,recorded_with_qualifiers,"{""max_fraction_per_second"": 0.074, ""min_to_full_seconds_upper"": 15}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,"{""source_wording"": ""fromstandby;not proof ofcoldstart"", ""upper"": 480}",Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,standby_kW,待机功率（kW）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,plant_lifetime_years,工厂寿命（年）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,warranty_years,质保年限及性质,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,degradation_curve,衰减曲线,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,replacement_cost,替换成本,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,maintenance,维护,not_obtained,,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,scope,测量/供应范围,recorded_with_qualifiers,containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,scope_warning,scope_warning,recorded_with_qualifiers,MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,power_origin,输入功率是否推导,recorded_with_qualifiers,Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,56.77,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-mc4000,Nel,MC4000,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0,Nel-MC-Modular-RevA.pdf pp1-2,True
+nel-a485,Nel,A485,technology,电解技术,recorded_with_qualifiers,alkaline,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,marketing_class_MW,产品MW等级,recorded_with_qualifiers,2.2,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,43.583333333333336,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,nominal_system_input_kW,名义整机输入（kW）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,nominal_stack_input_kW,电堆输入（kW）,recorded_with_qualifiers,2179.166666666667,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.15,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.15,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,0.03,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,base_purity,基本气质,recorded_with_qualifiers,"99+% saturatedwithliquidwater,O2<1%",Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,optional_purity,可选气质,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,additional_purification_kW,额外净化功率（kW）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,10,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,DI<1uScm,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,ramp,爬坡,recorded_with_qualifiers,"{""min_fraction_per_minute"": 0.1}",Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,hot_start_seconds,热启动（秒）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,cold_start_seconds,冷启动（秒）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,standby_kW,待机功率（kW）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,plant_lifetime_years,工厂寿命（年）,recorded_with_qualifiers,20+webclaim;not full-servicewarranty,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,warranty_years,质保年限及性质,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,degradation_curve,衰减曲线,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,replacement_cost,替换成本,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,maintenance,维护,not_obtained,,Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,scope,测量/供应范围,recorded_with_qualifiers,"stackandelectrolyteonly;notfullACplant;requiresrectifier,BoP,quality/pressurematching",Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,stack_specific_kWh_per_kg,电堆比电耗（kWh/kg）,recorded_with_qualifiers,"{""tolerance"": 1.1, ""value"": 50}",Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+nel-a485,Nel,A485,hydrogen_rate_kind,产氢率的最大/额定性质,recorded_with_qualifiers,"maximum production; source tolerance +0/-3%, not a guaranteed mean",Nel-A485-Rev03.pdf pp1-2;pages-08.json,False
+enapter-flex120,Enapter,AEM Flex120,technology,电解技术,recorded_with_qualifiers,AEM,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,marketing_class_MW,产品MW等级,recorded_with_qualifiers,0.12,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,2.16,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,51.3,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,112.0,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.12,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.12,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,base_purity,基本气质,recorded_with_qualifiers,0.995,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,additional_purification_kW,额外净化功率（kW）,recorded_with_qualifiers,3.0,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,8.981481481481481,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,TypeIIpurifiedwater;rawrequirementdependsontreatment,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,ramp,爬坡,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,225,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,cold_start_seconds,冷启动（秒）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,standby_kW,待机功率（kW）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,plant_lifetime_years,工厂寿命（年）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,warranty_years,质保年限及性质,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,degradation_curve,衰减曲线,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,replacement_cost,替换成本,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,maintenance,维护,not_obtained,,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,scope,测量/供应范围,recorded_with_qualifiers,systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,efficiency_conditions,效率工况,recorded_with_qualifiers,"55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,startup_warning,启动边界,recorded_with_qualifiers,225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,51.85185185185185,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-flex120,Enapter,AEM Flex120,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.010757346039997048,Enapter-Flex120-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,technology,电解技术,recorded_with_qualifiers,AEM,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,marketing_class_MW,产品MW等级,recorded_with_qualifiers,0.5,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,9.1,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,51.3,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,467.0,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.17,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.17,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,base_purity,基本气质,recorded_with_qualifiers,0.995,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,additional_purification_kW,额外净化功率（kW）,recorded_with_qualifiers,12.0,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,8.956043956043956,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,TypeIIpurifiedwater;rawrequirementdependsontreatment,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,ramp,爬坡,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,225,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,cold_start_seconds,冷启动（秒）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,standby_kW,待机功率（kW）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,plant_lifetime_years,工厂寿命（年）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,warranty_years,质保年限及性质,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,degradation_curve,衰减曲线,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,replacement_cost,替换成本,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,maintenance,维护,not_obtained,,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,scope,测量/供应范围,recorded_with_qualifiers,systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,efficiency_conditions,效率工况,recorded_with_qualifiers,"55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,startup_warning,启动边界,recorded_with_qualifiers,225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,51.31868131868132,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus500,Enapter,AEM Nexus500,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0003641582588951351,Enapter-Nexus500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,technology,电解技术,recorded_with_qualifiers,AEM,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,marketing_class_MW,产品MW等级,recorded_with_qualifiers,1.0,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,18.2,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,51.3,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,933.2,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.085,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.085,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,base_purity,基本气质,recorded_with_qualifiers,0.995,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,additional_purification_kW,额外净化功率（kW）,recorded_with_qualifiers,12.0,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,8.956043956043956,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,TypeIIpurifiedwater;rawrequirementdependsontreatment,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,ramp,爬坡,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,225,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,cold_start_seconds,冷启动（秒）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,standby_kW,待机功率（kW）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,plant_lifetime_years,工厂寿命（年）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,warranty_years,质保年限及性质,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,degradation_curve,衰减曲线,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,replacement_cost,替换成本,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,maintenance,维护,not_obtained,,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,scope,测量/供应范围,recorded_with_qualifiers,systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,efficiency_conditions,效率工况,recorded_with_qualifiers,"55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,startup_warning,启动边界,recorded_with_qualifiers,225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,51.27472527472528,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus1000,Enapter,AEM Nexus1000,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0004926847032109362,Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,technology,电解技术,recorded_with_qualifiers,AEM,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,marketing_class_MW,产品MW等级,recorded_with_qualifiers,2.5,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,44.2,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,51.3,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,2266.0,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.1,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,minimum_transient_flow_fraction,暂态最低比例,recorded_with_qualifiers,0.035,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,transient_limit_hours,暂态持续时间上限（h）,recorded_with_qualifiers,24,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.1,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,base_purity,基本气质,recorded_with_qualifiers,0.995,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,optional_purity,可选气质,recorded_with_qualifiers,0.99999,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,additional_purification_kW,额外净化功率（kW）,recorded_with_qualifiers,18.0,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,8.959276018099548,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,TypeIIpurifiedwater;rawrequirementdependsontreatment,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,ramp,爬坡,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,hot_start_seconds,热启动（秒）,recorded_with_qualifiers,225,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,cold_start_seconds,冷启动（秒）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,standby_kW,待机功率（kW）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,plant_lifetime_years,工厂寿命（年）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,warranty_years,质保年限及性质,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,degradation_curve,衰减曲线,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,replacement_cost,替换成本,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,maintenance,维护,not_obtained,,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,scope,测量/供应范围,recorded_with_qualifiers,systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,efficiency_conditions,效率工况,recorded_with_qualifiers,"55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,startup_warning,启动边界,recorded_with_qualifiers,225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,51.26696832579185,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0006438922847591739,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-nexus2500,Enapter,AEM Nexus2500,low_load_rule,特殊低负荷规则,recorded_with_qualifiers,3.5-10%atmost24h;then10-100%;shutdown/reset details require confirmation;notconstant3.5%forever,Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,technology,电解技术,recorded_with_qualifiers,AEM,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,marketing_class_MW,产品MW等级,recorded_with_qualifiers,20.0,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,hydrogen_kg_per_hour,产氢率（kg/h）,recorded_with_qualifiers,362.0,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,system_specific_kWh_per_kg,整机比电耗（kWh/kg）,recorded_with_qualifiers,51.4,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,nominal_system_input_kW,名义整机输入（kW）,recorded_with_qualifiers,18590.0,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,nominal_stack_input_kW,电堆输入（kW）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,minimum_flow_fraction,最低在线比例,recorded_with_qualifiers,0.01,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,minimum_transient_flow_fraction,暂态最低比例,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,transient_limit_hours,暂态持续时间上限（h）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,minimum_steady_flow_fraction,长期稳态最低比例,recorded_with_qualifiers,0.01,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,operating_range_basis,运行范围所指对象,recorded_with_qualifiers,flow fraction unless datasheet explicitly says power,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,outlet_pressure_barg,出口压力（barg）,recorded_with_qualifiers,31,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,base_purity,基本气质,recorded_with_qualifiers,0.99999,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,optional_purity,可选气质,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,additional_purification_kW,额外净化功率（kW）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,water_litre_per_kg,水耗（L/kg）,recorded_with_qualifiers,8.955801104972375,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,water_quality,水质/原水或纯水边界,recorded_with_qualifiers,TypeIIpurifiedwater;rawrequirementdependsontreatment,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,ramp,爬坡,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,hot_start_seconds,热启动（秒）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,cold_start_seconds,冷启动（秒）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,standby_kW,待机功率（kW）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,minimum_up_time_hours,最小连续运行（h）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,minimum_down_time_hours,最小连续停机（h）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,stack_lifetime_hours,电堆寿命（h）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,plant_lifetime_years,工厂寿命（年）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,warranty_years,质保年限及性质,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,ambient_temperature_C,环境温度范围（°C）,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,degradation_curve,衰减曲线,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,replacement_cost,替换成本,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,maintenance,维护,not_obtained,,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,scope,测量/供应范围,recorded_with_qualifiers,"full-scopeplant,includingpurificationto99.999%,transformers,rectifiers,waterconditioning",Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,efficiency_conditions,效率工况,recorded_with_qualifiers,"55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,startup_warning,启动边界,recorded_with_qualifiers,225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,nominal_power_to_flow_ratio_kWh_per_kg,名义输入/产出比（kWh/kg）,recorded_with_qualifiers,51.353591160220994,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False
+enapter-rheos20,Enapter,AEM Rheos20,nominal_power_consistency_relative_error,公开输入与比电耗乘产量的舍入差异,recorded_with_qualifiers,0.0009028957155448155,Enapter-Rheos20-202606.pdf p2rev08(2026-06-15),False

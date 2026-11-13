@@ -1,0 +1,689 @@
+{
+  "owner": "R3",
+  "id": "IEA2024-PRODUCTION",
+  "requested_url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production",
+  "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production",
+  "status": 200,
+  "title": "Hydrogen production - Global Hydrogen Review 2024 - IEA",
+  "body": "Sign In\n\nEmail *\nPassword *\nForgot password?\nSign in\n\nCreate an account\n\nCreate a free IEA account to download our reports or subcribe to a paid service.\n\nJoin for free\nContents\nCite\nShare\nDownload full report\nHydrogen production\nExecutive summary\nProgress summary dashboard\nHydrogen demand\nHydrogen production\nTrade and infrastructure\nInvestment, finance and innovation\nPolicies\nGHG emissions of hydrogen and its derivatives\nLatin America in focus\nTable: Overview of existing and planned certification systems and regulatory frameworks\nGlobal Hydrogen Review 2024\nHydrogen production\nHighlights\nHydrogen production reached 97 Mt in 2023, of which less than 1% was low-emissions. Based on announced projects, low-emissions hydrogen could reach 49 Mtpa by 2030 (up from 38 Mtpa in the Global Hydrogen Review 2023).\nInstalled water electrolyser capacity reached 1.4 GW by the end of 2023 and could reach 5 GW by the end of 2024. China leads in terms of committed projects and could account for almost 70% of 2024 capacity. Announced projects suggests that capacity could grow to close to 520 GW by 2030, although only 4% has reached a final investment decision (FID) or is under construction. For fossil-based production with carbon capture, utilisation and storage (CCUS), 14% of the announced potential production has reached FID, boosted by an acceleration of FIDs in the last 12 months. Progress is being made, albeit far more slowly than was expected a few years ago.\nAround 6.5 GW of electrolyser capacity reached FID in the past 12 months, nearly 12% less than in the 12 months prior to GHR 2023. More than 40% of this capacity is in China and 32% in Europe, where there was a four-fold increase compared to the previous 12 months. Committed projects are mainly in industry, or to produce hydrogen-based fuels for transport. On the other hand, several projects have been cancelled due to uncertainty about demand or regulations, financial hurdles, licencing and permitting issues.\nElectrolyser manufacturing capacity doubled in 2023 to reach 25 GW/yr, with China accounting for 60%. This capacity is heavily underutilised, with only 2.5 GW of output in 2023. Considering projects with FID or under construction, capacity could reach more than 40 GW/yr in 2024. The project pipeline to 2030 adds up to more than 165 GW/yr, of which 30% has reached FID.\nProducing renewable hydrogen today is generally one-and-a-half to six times more costly than unabated fossil-based production. This cost premium is much lower further down the value chain; for consumers, it typically represents only a few percentage points on final products (for example, it is around 1% for electric vehicles with steel produced using renewable hydrogen), but acceptance of higher prices varies by product.\nAround 40% of planned low-emissions hydrogen production projects are in water-stressed regions, where using diverse sources of water and managing them sustainably will be crucial. Project developers are exploring large-scale desalination and treated wastewater to secure sufficient water supplies.\n\nNext\nTrade and infrastructure",
+  "links": [
+    {
+      "title": "IEA",
+      "url": "https://www.iea.org/"
+    },
+    {
+      "title": "About",
+      "url": "https://www.iea.org/about"
+    },
+    {
+      "title": "News",
+      "url": "https://www.iea.org/news"
+    },
+    {
+      "title": "Events",
+      "url": "https://www.iea.org/events"
+    },
+    {
+      "title": "Programmes",
+      "url": "https://www.iea.org/programmes"
+    },
+    {
+      "title": "Help centre",
+      "url": "https://www.iea.org/help-centre"
+    },
+    {
+      "title": "IEA",
+      "url": "https://www.iea.org/"
+    },
+    {
+      "title": "Skip navigation",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#content"
+    },
+    {
+      "title": "Energy system Chevron down",
+      "url": "https://www.iea.org/energy-system"
+    },
+    {
+      "title": "Fossil Fuels",
+      "url": "https://www.iea.org/energy-system/fossil-fuels"
+    },
+    {
+      "title": "Renewables and Low-Emissions Fuels",
+      "url": "https://www.iea.org/energy-system/renewables-and-low-emissions-fuels"
+    },
+    {
+      "title": "Transport",
+      "url": "https://www.iea.org/energy-system/transport"
+    },
+    {
+      "title": "Industry",
+      "url": "https://www.iea.org/energy-system/industry"
+    },
+    {
+      "title": "Buildings",
+      "url": "https://www.iea.org/energy-system/buildings"
+    },
+    {
+      "title": "Explore all",
+      "url": "https://www.iea.org/energy-system"
+    },
+    {
+      "title": "Topics  Chevron down",
+      "url": "https://www.iea.org/topics"
+    },
+    {
+      "title": "The Middle East and Global Energy Markets",
+      "url": "https://www.iea.org/topics/the-middle-east-and-global-energy-markets"
+    },
+    {
+      "title": "Energy Security",
+      "url": "https://www.iea.org/topics/energy-security"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.iea.org/topics/artificial-intelligence"
+    },
+    {
+      "title": "Investment",
+      "url": "https://www.iea.org/topics/investment"
+    },
+    {
+      "title": "Critical Minerals",
+      "url": "https://www.iea.org/topics/critical-minerals"
+    },
+    {
+      "title": "Access and Affordability",
+      "url": "https://www.iea.org/topics/access-and-affordability"
+    },
+    {
+      "title": "Energy Innovation",
+      "url": "https://www.iea.org/topics/energy-innovation"
+    },
+    {
+      "title": "Climate Change",
+      "url": "https://www.iea.org/topics/climate-change"
+    },
+    {
+      "title": "Energy and Gender",
+      "url": "https://www.iea.org/topics/energy-and-gender"
+    },
+    {
+      "title": "Russia's War on Ukraine",
+      "url": "https://www.iea.org/topics/russias-war-on-ukraine"
+    },
+    {
+      "title": "Energy Innovation",
+      "url": "https://www.iea.org/topics/energy-innovation"
+    },
+    {
+      "title": "Climate Change",
+      "url": "https://www.iea.org/topics/climate-change"
+    },
+    {
+      "title": "Energy and Gender",
+      "url": "https://www.iea.org/topics/energy-and-gender"
+    },
+    {
+      "title": "Russia's War on Ukraine",
+      "url": "https://www.iea.org/topics/russias-war-on-ukraine"
+    },
+    {
+      "title": "Energy and Water",
+      "url": "https://www.iea.org/topics/energy-and-water"
+    },
+    {
+      "title": "Fossil Fuel Subsidies",
+      "url": "https://www.iea.org/topics/fossil-fuel-subsidies"
+    },
+    {
+      "title": "Net Zero Emissions",
+      "url": "https://www.iea.org/topics/net-zero-emissions"
+    },
+    {
+      "title": "Saving Energy",
+      "url": "https://www.iea.org/topics/saving-energy"
+    },
+    {
+      "title": "COP28: Tracking the Energy Outcomes",
+      "url": "https://www.iea.org/topics/cop28-tracking-the-energy-outcomes"
+    },
+    {
+      "title": "All topics",
+      "url": "https://www.iea.org/topics"
+    },
+    {
+      "title": "Countries Chevron down",
+      "url": "https://www.iea.org/countries"
+    },
+    {
+      "title": "Australia",
+      "url": "https://www.iea.org/countries/australia"
+    },
+    {
+      "title": "Austria",
+      "url": "https://www.iea.org/countries/austria"
+    },
+    {
+      "title": "Belgium",
+      "url": "https://www.iea.org/countries/belgium"
+    },
+    {
+      "title": "Canada",
+      "url": "https://www.iea.org/countries/canada"
+    },
+    {
+      "title": "Czechia",
+      "url": "https://www.iea.org/countries/czechia"
+    },
+    {
+      "title": "Denmark",
+      "url": "https://www.iea.org/countries/denmark"
+    },
+    {
+      "title": "Estonia",
+      "url": "https://www.iea.org/countries/estonia"
+    },
+    {
+      "title": "Finland",
+      "url": "https://www.iea.org/countries/finland"
+    },
+    {
+      "title": "France",
+      "url": "https://www.iea.org/countries/france"
+    },
+    {
+      "title": "Germany",
+      "url": "https://www.iea.org/countries/germany"
+    },
+    {
+      "title": "Greece",
+      "url": "https://www.iea.org/countries/greece"
+    },
+    {
+      "title": "Hungary",
+      "url": "https://www.iea.org/countries/hungary"
+    },
+    {
+      "title": "Ireland",
+      "url": "https://www.iea.org/countries/ireland"
+    },
+    {
+      "title": "Italy",
+      "url": "https://www.iea.org/countries/italy"
+    },
+    {
+      "title": "Japan",
+      "url": "https://www.iea.org/countries/japan"
+    },
+    {
+      "title": "Korea",
+      "url": "https://www.iea.org/countries/korea"
+    },
+    {
+      "title": "Latvia",
+      "url": "https://www.iea.org/countries/latvia"
+    },
+    {
+      "title": "Lithuania",
+      "url": "https://www.iea.org/countries/lithuania"
+    },
+    {
+      "title": "Luxembourg",
+      "url": "https://www.iea.org/countries/luxembourg"
+    },
+    {
+      "title": "Mexico",
+      "url": "https://www.iea.org/countries/mexico"
+    },
+    {
+      "title": "New Zealand",
+      "url": "https://www.iea.org/countries/new-zealand"
+    },
+    {
+      "title": "Norway",
+      "url": "https://www.iea.org/countries/norway"
+    },
+    {
+      "title": "Poland",
+      "url": "https://www.iea.org/countries/poland"
+    },
+    {
+      "title": "Portugal",
+      "url": "https://www.iea.org/countries/portugal"
+    },
+    {
+      "title": "Slovak Republic",
+      "url": "https://www.iea.org/countries/slovak-republic"
+    },
+    {
+      "title": "Spain",
+      "url": "https://www.iea.org/countries/spain"
+    },
+    {
+      "title": "Sweden",
+      "url": "https://www.iea.org/countries/sweden"
+    },
+    {
+      "title": "Switzerland",
+      "url": "https://www.iea.org/countries/switzerland"
+    },
+    {
+      "title": "The Netherlands",
+      "url": "https://www.iea.org/countries/the-netherlands"
+    },
+    {
+      "title": "Türkiye",
+      "url": "https://www.iea.org/countries/turkiye"
+    },
+    {
+      "title": "United Kingdom",
+      "url": "https://www.iea.org/countries/united-kingdom"
+    },
+    {
+      "title": "United States",
+      "url": "https://www.iea.org/countries/united-states"
+    },
+    {
+      "title": "Brazil",
+      "url": "https://www.iea.org/countries/brazil"
+    },
+    {
+      "title": "Chile",
+      "url": "https://www.iea.org/countries/chile"
+    },
+    {
+      "title": "Colombia",
+      "url": "https://www.iea.org/countries/colombia"
+    },
+    {
+      "title": "Costa Rica",
+      "url": "https://www.iea.org/countries/costa-rica"
+    },
+    {
+      "title": "Israel",
+      "url": "https://www.iea.org/countries/israel"
+    },
+    {
+      "title": "Romania",
+      "url": "https://www.iea.org/countries/romania"
+    },
+    {
+      "title": "Argentina",
+      "url": "https://www.iea.org/countries/argentina"
+    },
+    {
+      "title": "China",
+      "url": "https://www.iea.org/countries/china"
+    },
+    {
+      "title": "Egypt",
+      "url": "https://www.iea.org/countries/egypt"
+    },
+    {
+      "title": "India",
+      "url": "https://www.iea.org/countries/india"
+    },
+    {
+      "title": "Indonesia",
+      "url": "https://www.iea.org/countries/indonesia"
+    },
+    {
+      "title": "Kenya",
+      "url": "https://www.iea.org/countries/kenya"
+    },
+    {
+      "title": "Morocco",
+      "url": "https://www.iea.org/countries/morocco"
+    },
+    {
+      "title": "Nigeria",
+      "url": "https://www.iea.org/countries/nigeria"
+    },
+    {
+      "title": "Senegal",
+      "url": "https://www.iea.org/countries/senegal"
+    },
+    {
+      "title": "Singapore",
+      "url": "https://www.iea.org/countries/singapore"
+    },
+    {
+      "title": "South Africa",
+      "url": "https://www.iea.org/countries/south-africa"
+    },
+    {
+      "title": "Thailand",
+      "url": "https://www.iea.org/countries/thailand"
+    },
+    {
+      "title": "Ukraine",
+      "url": "https://www.iea.org/countries/ukraine"
+    },
+    {
+      "title": "Viet Nam",
+      "url": "https://www.iea.org/countries/viet-nam"
+    },
+    {
+      "title": "All Countries and Regions",
+      "url": "https://www.iea.org/countries"
+    },
+    {
+      "title": "DataChevron down",
+      "url": "https://www.iea.org/data-and-statistics"
+    },
+    {
+      "title": "Data explorers\n                                            Understand and manipulate data with easy to use explorers and trackers\n                                        \n                                        Data explorers",
+      "url": "https://www.iea.org/data-and-statistics/data-explorers"
+    },
+    {
+      "title": "Data sets\n                                            Free and paid data sets from across the energy system available for download\n                                        \n                                        Data sets",
+      "url": "https://www.iea.org/data-and-statistics/data-sets"
+    },
+    {
+      "title": "Policies database\n                                            Past, existing or planned government policies and measures\n                                        \n                                        Policies database",
+      "url": "https://www.iea.org/policies"
+    },
+    {
+      "title": "Chart Library\n                                            Access every chart published across all IEA reports and analysis\n                                        \n                                        Chart",
+      "url": "https://www.iea.org/data-and-statistics/charts"
+    },
+    {
+      "title": "Explore data",
+      "url": "https://www.iea.org/data-and-statistics"
+    },
+    {
+      "title": "Reports Chevron down",
+      "url": "https://www.iea.org/reports"
+    },
+    {
+      "title": "Oil Market Report - October 2026\n                                                        \n\n        \n                                                                                \n                        Fuel report   — 14 October 2026",
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026"
+    },
+    {
+      "title": "Sheltering From Oil Shocks\n                                        Measures to reduce impacts on households and businesses\n                                            \n\n        \n                                                                                \n                        Fuel report   — 20 March 2026",
+      "url": "https://www.iea.org/reports/sheltering-from-oil-shocks"
+    },
+    {
+      "title": "World Energy Outlook 2025\n                                                        \n\n        \n                                                                \n                        \n                Read more\n            \n                    \n                                                    \n                        Flagship report   — 12 November 2025",
+      "url": "https://www.iea.org/reports/world-energy-outlook-2025"
+    },
+    {
+      "title": "Energy Technology Perspectives 2026\n                                                        \n\n        \n                                                                \n                        \n                Read more\n            \n                    \n                                                    \n                        Flagship report   — 26 March 2026",
+      "url": "https://www.iea.org/reports/energy-technology-perspectives-2026"
+    },
+    {
+      "title": "All reports",
+      "url": "https://www.iea.org/reports"
+    },
+    {
+      "title": "Search",
+      "url": "https://www.iea.org/search"
+    },
+    {
+      "title": "Bag\n            1",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#"
+    },
+    {
+      "title": "User Profile",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#"
+    },
+    {
+      "title": "ConnectConnect",
+      "url": "https://www.iea.org/account/login-by-ip"
+    },
+    {
+      "title": "Forgot password?",
+      "url": "https://www.iea.org/account/password/reset"
+    },
+    {
+      "title": "Join for freeJoin for free",
+      "url": "https://www.iea.org/account/register"
+    },
+    {
+      "title": "logo",
+      "url": "https://www.iea.org/"
+    },
+    {
+      "title": "Cite",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#"
+    },
+    {
+      "title": "Share",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#"
+    },
+    {
+      "title": "Download full report\n                       arrow-down",
+      "url": "https://www.iea.org/files/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf"
+    },
+    {
+      "title": "arrow-down-24",
+      "url": "https://www.iea.org/files/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf"
+    },
+    {
+      "title": "Executive summary",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary#abstract"
+    },
+    {
+      "title": "Progress summary dashboard",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/progress-summary-dashboard#abstract"
+    },
+    {
+      "title": "Hydrogen demand",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-demand#abstract"
+    },
+    {
+      "title": "Hydrogen production",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#abstract"
+    },
+    {
+      "title": "Trade and infrastructure",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/trade-and-infrastructure#abstract"
+    },
+    {
+      "title": "Investment, finance and innovation",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/investment-finance-and-innovation#abstract"
+    },
+    {
+      "title": "Policies",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/policies#abstract"
+    },
+    {
+      "title": "GHG emissions of hydrogen and its derivatives",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/ghg-emissions-of-hydrogen-and-its-derivatives#abstract"
+    },
+    {
+      "title": "Latin America in focus",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/latin-america-in-focus#abstract"
+    },
+    {
+      "title": "Table: Overview of existing and planned certification systems and regulatory frameworks",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/table-overview-of-existing-and-planned-certification-systems-and-regulatory-frameworks#abstract"
+    },
+    {
+      "title": "Share on Twitter Twitter",
+      "url": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.iea.org%2Freports%2Fglobal-hydrogen-review-2024%2Fhydrogen-production&text=Hydrogen%20production%20-%20Global%20Hydrogen%20Review%202024%20-%20IEA"
+    },
+    {
+      "title": "Share on Facebook Facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.iea.org%2Freports%2Fglobal-hydrogen-review-2024%2Fhydrogen-production"
+    },
+    {
+      "title": "Share on LinkedIn LinkedIn",
+      "url": "https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.iea.org%2Freports%2Fglobal-hydrogen-review-2024%2Fhydrogen-production"
+    },
+    {
+      "title": "Share on Bluesky Bluesky",
+      "url": "https://bsky.app/intent/compose?text=Hydrogen%20production%20-%20Global%20Hydrogen%20Review%202024%20-%20IEA%20https%3A%2F%2Fwww.iea.org%2Freports%2Fglobal-hydrogen-review-2024%2Fhydrogen-production"
+    },
+    {
+      "title": "Share on Email Email",
+      "url": "mailto:?subject=Hydrogen%20production%20-%20Global%20Hydrogen%20Review%202024%20-%20IEA&body=Hello%2C%20check%20out%20this%20page%20from%20the%20International%20Energy%20Agency%20website%3A%0A%0Ahttps%3A%2F%2Fwww.iea.org%2Freports%2Fglobal-hydrogen-review-2024%2Fhydrogen-production"
+    },
+    {
+      "title": "Share on Print Print",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.iea.org/files/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf"
+    },
+    {
+      "title": "Global Hydrogen Review 2024Global Hydrogen Review 2024",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024"
+    },
+    {
+      "title": "Trade and infrastructure",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/trade-and-infrastructure#abstract"
+    },
+    {
+      "title": "Subscribe to newsletters",
+      "url": "https://www.iea.org/newsletters"
+    },
+    {
+      "title": "Listen to our podcast",
+      "url": "https://www.iea.org/podcasts"
+    },
+    {
+      "title": "Reports",
+      "url": "https://www.iea.org/reports"
+    },
+    {
+      "title": "News and commentaries",
+      "url": "https://www.iea.org/news"
+    },
+    {
+      "title": "Events",
+      "url": "https://www.iea.org/events"
+    },
+    {
+      "title": "Energy system",
+      "url": "https://www.iea.org/energy-system"
+    },
+    {
+      "title": "Topics",
+      "url": "https://www.iea.org/topics"
+    },
+    {
+      "title": "Countries and regions",
+      "url": "https://www.iea.org/countries"
+    },
+    {
+      "title": "Glossary",
+      "url": "https://www.iea.org/glossary"
+    },
+    {
+      "title": "Data explorers",
+      "url": "https://www.iea.org/data-and-statistics/data-explorers"
+    },
+    {
+      "title": "Data sets",
+      "url": "https://www.iea.org/data-and-statistics/data-sets"
+    },
+    {
+      "title": "Policies database",
+      "url": "https://www.iea.org/policies"
+    },
+    {
+      "title": "Chart library",
+      "url": "https://www.iea.org/data-and-statistics/charts"
+    },
+    {
+      "title": "Energy Statistics Browser",
+      "url": "https://www.iea.org/data-and-statistics#browser"
+    },
+    {
+      "title": "About",
+      "url": "https://www.iea.org/about"
+    },
+    {
+      "title": "Mission",
+      "url": "https://www.iea.org/about/mission"
+    },
+    {
+      "title": "Membership",
+      "url": "https://www.iea.org/about/membership"
+    },
+    {
+      "title": "Structure",
+      "url": "https://www.iea.org/about/structure"
+    },
+    {
+      "title": "Programmes",
+      "url": "https://www.iea.org/programmes"
+    },
+    {
+      "title": "International collaborations",
+      "url": "https://www.iea.org/about/international-collaborations"
+    },
+    {
+      "title": "Training",
+      "url": "https://www.iea.org/about/training"
+    },
+    {
+      "title": "Contact",
+      "url": "https://www.iea.org/contact"
+    },
+    {
+      "title": "Press",
+      "url": "https://www.iea.org/help-centre/media-relations"
+    },
+    {
+      "title": "Careers",
+      "url": "https://www.iea.org/about/careers"
+    },
+    {
+      "title": "Internships",
+      "url": "https://www.iea.org/about/careers/internships"
+    },
+    {
+      "title": "Delegates",
+      "url": "https://ieaorg.sharepoint.com/sites/delegates"
+    },
+    {
+      "title": "Help centre",
+      "url": "https://www.iea.org/help-centre"
+    },
+    {
+      "title": "IEA",
+      "url": "https://www.iea.org/"
+    },
+    {
+      "title": "Terms",
+      "url": "https://www.iea.org/terms"
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.iea.org/privacy"
+    },
+    {
+      "title": "youtube",
+      "url": "https://www.youtube.com/user/IEAEnergy"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/company/international-energy-agency/"
+    },
+    {
+      "title": "bluesky",
+      "url": "https://bsky.app/profile/iea.org"
+    },
+    {
+      "title": "facebook",
+      "url": "https://www.facebook.com/internationalenergyagency/"
+    },
+    {
+      "title": "instagram",
+      "url": "https://www.instagram.com/internationalenergyagency/?hl=en"
+    },
+    {
+      "title": "x (formally twitter)",
+      "url": "https://twitter.com/iea"
+    },
+    {
+      "title": "Back to top",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/hydrogen-production#header"
+    }
+  ],
+  "read_depth": "rendered HTML body",
+  "accessed_at": "2026-11-03T16:24:25.169Z"
+}

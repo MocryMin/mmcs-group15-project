@@ -1,0 +1,87 @@
+{
+  "price_basis_recommendation": "Use constant2020 GBP for the source-reference comparison; current-technology/historical-condition counterfactual, not a nominal2026 supplier quote",
+  "GBP_per_EUR_2020": 0.8897040856031,
+  "fx_key": "EXR.A.GBP.EUR.SP00.A",
+  "CPI_2020_annual": 108.7,
+  "CPI_2012_annual": 96.1,
+  "CPI_2026_Sep": 144.1,
+  "deflation_formula": "p_real2020(day)=p_nominal(day)*CPI_annual2020/CPI_month(day)",
+  "normalised_price_rows": 2422,
+  "all_price_months_have_CPI": true,
+  "battery": {
+    "reference_energy_MWh": 3.0,
+    "reference_power_MW": 1.5,
+    "CAPEX_EUR2020_per_MWh": 288000.0,
+    "CAPEX_GBP2020_per_MWh": 256234.7766536928,
+    "CAPEX_GBP2020_per_MW_at2h": 512469.5533073856,
+    "FOM_table_EUR2020_per_MWyr": 8351.999999999998,
+    "FOM_2point9percent_CAPEX_EUR2020_per_MWyr": 16704.0,
+    "FOM_table_GBP2020_per_MWyr": 7430.80852295709,
+    "FOM_capexcase_GBP2020_per_MWyr": 14861.617045914183,
+    "FOM_ratio": 2.0000000000000004,
+    "source_formula_D24": "=((D25+D27)*D8+(D26*D10))/D8",
+    "source_formula_D28": "=D24*2.9%*1000",
+    "review": "Unit conflict retained as two cases; do not rewrite source or double count maintenance/replacement included by footnoteO"
+  },
+  "hydrogen": {
+    "HHV_kWh_kg": 39.37,
+    "electricity_kWh_kg": 55.9,
+    "hybrid_HHV_output_to_electric_input_ratio": 0.704293381037567,
+    "proxy_CAPEX_GBP2020_per_kWe": {
+      "low": 671.6071252236136,
+      "central": 816.0154400715563,
+      "high": 1329.3607996422181
+    },
+    "proxy_FOM_GBP2020_per_kWe_yr": 25.861652951699458,
+    "variable_reserve_GBP2020_per_kg": 0.153543,
+    "scope": "Old reference output-capacity costs adapted to ITM BOL consumption; hybrid modelling proxy, not modern ITM quotation. Do not combine reserve with explicit replacement."
+  },
+  "supported_H2_reference": {
+    "GBP2012_per_MWh_HHV": 175,
+    "brief_HHV_kWh_per_kg": 39.4,
+    "GBP2012_per_kg": 6.895,
+    "GBP2020_per_kg": 7.7990270551508845,
+    "scope": "Supported strike-value reference only; not a commercial sale or eligibility guarantee"
+  },
+  "modern_H2_CAPEX_reporting_scenario": {
+    "source": "IEA Global Hydrogen Review2025 executive summary; manufacture and install outside China in2024",
+    "raw_USD_per_kW": {
+      "low": 2000,
+      "analyst_midpoint": 2300,
+      "high": 2600
+    },
+    "GBP_per_EUR_2024": 0.8466166015625,
+    "USD_per_EUR_2024": 1.08238046875,
+    "GBP_per_USD_cross_of_annual_reference_rates_2024": 0.7821802277532088,
+    "CPI_2024_annual": 133.9,
+    "GBP2020_per_assumed_USD2024": 0.6349737920595504,
+    "CAPEX_GBP2020_per_kW_assumed_electrical": {
+      "low": 1269.9475841191008,
+      "analyst_midpoint": 1460.439721736966,
+      "high": 1650.931859354831
+    },
+    "price_base_assumption": "Treat the2024 observed USD costs as nominalUSD2024 for this reporting scenario; constant-dollar base not explicitly given in IEA summary",
+    "denominator_assumption": "Electrical capacity inferred from electrolyser context; summary does not label kWe or AC/DC",
+    "FX_scope": "Ratio of annual EUR-base reference rates; not independently computed annual average of dailyGBP/USD nor executable quotation",
+    "cost_scope": "Modern generic non-China installed reference, not ITM/UK site quotation; EPC+contingency already included",
+    "replacement_rule": "Do not multiply this installed cost by old BEIS60% stack share; use separately labelled absolute old-cost proxy or separate reserve scenario"
+  },
+  "discount": {
+    "empirically_verified_private_rate": null,
+    "analyst_sensitivity_real_rates": [
+      0,
+      0.03,
+      0.05,
+      0.08,
+      0.12
+    ],
+    "scope": "No private investor hurdle inferred from public STPR; no risk-free point estimate invented after BoE403",
+    "CRF_formula": "r*(1+r)^L/((1+r)^L-1), limit1/L at r=0; apply only with common cost/horizon convention"
+  },
+  "cautions": [
+    "CPI is a general purchasing-power deflator, not a battery equipment cost forecast",
+    "2020 annual FX is a reporting conversion, not future transaction FX guarantee",
+    "Use contemporaneously available information for causal actions; ex-post deflation is a reporting adjustment",
+    "Do not treat 2012-supported H2 reference as merchant netback or combine mixed price bases"
+  ]
+}

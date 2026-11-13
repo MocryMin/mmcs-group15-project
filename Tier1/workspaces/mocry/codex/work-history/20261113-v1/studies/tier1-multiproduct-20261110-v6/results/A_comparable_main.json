@@ -1,0 +1,676 @@
+{
+  "name": "A_comparable_main",
+  "policy": "A",
+  "cost_case": "comparable",
+  "battery_cost": "main",
+  "days": 2192,
+  "years": 5.999999999999998,
+  "cap_kg_day": 1558968.7748333344,
+  "annual_incremental_profit_mGBP": 1638.6601356227402,
+  "annual_operating_receipts_mGBP": 23146.506140782185,
+  "annual_electricity_receipts_mGBP": 19344.050766306686,
+  "annual_hydrogen_receipts_mGBP": 3802.455374475501,
+  "annual_reference_receipts_mGBP": 20961.782711978627,
+  "annual_variable_stack_reserve_mGBP": 0.0,
+  "annual_equipment_fixed_cost_mGBP": 546.0632931808169,
+  "initial_capex_mGBP": 5303.354639572036,
+  "battery_MWh": 0.0,
+  "electrolyser_MW": 3631.3409999999994,
+  "annual_h2_tonnes": 487555.0947043017,
+  "annual_sales_GWh": 208340.61390461485,
+  "annual_unserved_GWh": 45071.03009538523,
+  "annual_unused_GWh": 254.310677860636,
+  "demand_coverage": 0.822143018434523,
+  "investment": [
+    {
+      "id": "sungrow-st255cs-2h",
+      "kind": "battery",
+      "count": 0,
+      "capital_GBP": 65584.53667023251,
+      "annual_fixed_GBP": 8220.923665534074,
+      "physical_MW": 0.125,
+      "physical_MWh": 0.257
+    },
+    {
+      "id": "huawei-luna215",
+      "kind": "battery",
+      "count": 0,
+      "capital_GBP": 55128.73425622488,
+      "annual_fixed_GBP": 6910.302826589297,
+      "physical_MW": 0.108,
+      "physical_MWh": 0.215
+    },
+    {
+      "id": "huawei-luna241",
+      "kind": "battery",
+      "count": 0,
+      "capital_GBP": 60796.149281516635,
+      "annual_fixed_GBP": 7620.710847479722,
+      "physical_MW": 0.108,
+      "physical_MWh": 0.241
+    },
+    {
+      "id": "tesla-megapack2xl-2h",
+      "kind": "battery",
+      "count": 0,
+      "capital_GBP": 1239439.6333058076,
+      "annual_fixed_GBP": 150402.48977394178,
+      "physical_MW": 1.9272,
+      "physical_MWh": 3.8544
+    },
+    {
+      "id": "itm-neptune-ii",
+      "kind": "electrolyser",
+      "count": 2,
+      "capital_GBP": 2913577.244865247,
+      "annual_fixed_GBP": 299998.3394277017,
+      "physical_MW": 1.995,
+      "physical_MWh": 0
+    },
+    {
+      "id": "itm-neptune-v",
+      "kind": "electrolyser",
+      "count": 721,
+      "capital_GBP": 7347472.240058675,
+      "annual_fixed_GBP": 756537.1657447455,
+      "physical_MW": 5.031,
+      "physical_MWh": 0
+    },
+    {
+      "id": "itm-alpha50",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 73474722.40058675,
+      "annual_fixed_GBP": 7565371.657447455,
+      "physical_MW": 50.31,
+      "physical_MWh": 0
+    },
+    {
+      "id": "nel-mc250",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 1906421.5017623918,
+      "annual_fixed_GBP": 196295.90593004314,
+      "physical_MW": 1.305375,
+      "physical_MWh": 0
+    },
+    {
+      "id": "nel-mc500",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 3702981.425457121,
+      "annual_fixed_GBP": 381279.84439971106,
+      "physical_MW": 2.5355250000000003,
+      "physical_MWh": 0
+    },
+    {
+      "id": "nel-mc1000",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 7337460.92576617,
+      "annual_fixed_GBP": 755506.3443829527,
+      "physical_MW": 5.024145000000001,
+      "physical_MWh": 0
+    },
+    {
+      "id": "nel-mc2000",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 14674921.85153234,
+      "annual_fixed_GBP": 1511012.6887659053,
+      "physical_MW": 10.048290000000001,
+      "physical_MWh": 0
+    },
+    {
+      "id": "nel-mc4000",
+      "kind": "electrolyser",
+      "count": 0,
+      "capital_GBP": 29349843.70306468,
+      "annual_fixed_GBP": 3022025.3775318107,
+      "physical_MW": 20.096580000000003,
+      "physical_MWh": 0
+    }
+  ],
+  "solver": "SciPy/HiGHS",
+  "relaxation_certificate": "Exact-feasible incumbent of a global upper-bound model",
+  "status": 0,
+  "optimal": true,
+  "gap": 0.0,
+  "upper_profit_bound_mGBP": 1638.6601356227402,
+  "matrix_error": 0.0,
+  "objective_recalculation_error": 6.821210263296962e-13,
+  "elapsed_s": 65.42173030000413,
+  "iterations": [
+    {
+      "status": 0,
+      "objective_increment": 1638.6601356227409,
+      "gap": 0.0,
+      "variables": 57005,
+      "rows": 78916,
+      "added_min_states": 0,
+      "need_battery_logic": false
+    }
+  ],
+  "active_products": {
+    "batteries": [
+      {
+        "id": "sungrow-st255cs-2h",
+        "E_MWh": 0.257,
+        "P_MW": 0.125,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 65584.53667023251,
+        "fom_GBP": 1901.9515634367428,
+        "fom_literal_GBP": 928.8510653696364,
+        "reference_idle_kW": 0.1,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.00015420000000000003,
+        "commission_GBP": 4.232902340995709,
+        "annual": 0.008220923665534074
+      },
+      {
+        "id": "huawei-luna215",
+        "E_MWh": 0.215,
+        "P_MW": 0.108,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 55128.73425622488,
+        "fom_GBP": 1598.7332934305216,
+        "fom_literal_GBP": 802.5273204793658,
+        "reference_idle_kW": 0.075,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.000129,
+        "commission_GBP": 3.541143981766839,
+        "annual": 0.006910302826589297
+      },
+      {
+        "id": "huawei-luna241",
+        "E_MWh": 0.241,
+        "P_MW": 0.108,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 60796.149281516635,
+        "fom_GBP": 1763.0883291639825,
+        "fom_literal_GBP": 802.5273204793658,
+        "reference_idle_kW": 0.075,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.00014460000000000002,
+        "commission_GBP": 3.969375347003758,
+        "annual": 0.007620710847479722
+      },
+      {
+        "id": "tesla-megapack2xl-2h",
+        "E_MWh": 3.8544,
+        "P_MW": 1.9272,
+        "rte": 0.92,
+        "life": 15,
+        "capital_GBP": 1239439.6333058076,
+        "fom_GBP": 30985.99083264519,
+        "fom_literal_GBP": 30985.99083264519,
+        "reference_idle_kW": null,
+        "research_self_discharge": 0.001,
+        "source": "tesla_economic_inputs.json",
+        "cost_kind": "2024 US installation-included estimate; NREL total maintained-capacity FOM",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9591663046625439,
+        "usable": 0.0023126400000000004,
+        "commission_GBP": 62.78982160632205,
+        "annual": 0.15040248977394177
+      }
+    ],
+    "electrolysers": [
+      {
+        "id": "itm-neptune-ii",
+        "MW": 1.995,
+        "kg_hour": 35,
+        "kWh_kg": 57,
+        "minimum": 0.25,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 2913577.244865247,
+          "fom_GBP": 51593.99763864042,
+          "replacement_GBP": 976770.4817656529,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 1313999.3405,
+            "fom_GBP": 44618.021,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 1596534.2085,
+            "fom_GBP": 50598.32399999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 2600894.4044999997,
+            "fom_GBP": 58879.803499999995,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 2913577.244865247,
+        "fom_GBP": 51593.99763864042,
+        "replacement_GBP": 976770.4817656529,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.2999983394277017,
+        "unit_GWh": 0.047880000000000006
+      },
+      {
+        "id": "itm-neptune-v",
+        "MW": 5.031,
+        "kg_hour": 90,
+        "kWh_kg": 55.9,
+        "minimum": 0.125,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 7347472.240058675,
+          "fom_GBP": 130109.97599999998,
+          "replacement_GBP": 2463224.2073999997,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 3378855.4469999997,
+            "fom_GBP": 114732.054,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 4105373.679,
+            "fom_GBP": 130109.97599999998,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 6688014.182999999,
+            "fom_GBP": 151405.209,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 7347472.240058675,
+        "fom_GBP": 130109.97599999998,
+        "replacement_GBP": 2463224.2073999997,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.7565371657447455,
+        "unit_GWh": 0.120744
+      },
+      {
+        "id": "itm-alpha50",
+        "MW": 50.31,
+        "kg_hour": 900,
+        "kWh_kg": 55.9,
+        "minimum": 0.125,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 73474722.40058675,
+          "fom_GBP": 1301099.7599999998,
+          "replacement_GBP": 24632242.073999997,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 33788554.47,
+            "fom_GBP": 1147320.54,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 41053736.79000001,
+            "fom_GBP": 1301099.76,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 66880141.83,
+            "fom_GBP": 1514052.09,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 73474722.40058675,
+        "fom_GBP": 1301099.7599999998,
+        "replacement_GBP": 24632242.073999997,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 7.565371657447455,
+        "unit_GWh": 1.20744
+      },
+      {
+        "id": "nel-mc250",
+        "MW": 1.305375,
+        "kg_hour": 22.125,
+        "kWh_kg": 59.0,
+        "minimum": 0.1,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 1906421.5017623918,
+          "fom_GBP": 33759.15522182468,
+          "replacement_GBP": 639123.6930500446,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 830635.2973875,
+            "fom_GBP": 28204.963275000002,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 1009237.6960875001,
+            "fom_GBP": 31985.369099999996,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 1644136.8199874999,
+            "fom_GBP": 37220.4472125,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 1906421.5017623918,
+        "fom_GBP": 33759.15522182468,
+        "replacement_GBP": 639123.6930500446,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.19629590593004315,
+        "unit_GWh": 0.031329
+      },
+      {
+        "id": "nel-mc500",
+        "MW": 2.5355250000000003,
+        "kg_hour": 44.25,
+        "kWh_kg": 57.3,
+        "minimum": 0.1,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 3702981.425457121,
+          "fom_GBP": 65572.86760035779,
+          "replacement_GBP": 1241416.5292124597,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 1661270.594775,
+            "fom_GBP": 56409.926550000004,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 2018475.3921750002,
+            "fom_GBP": 63970.73819999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 3288273.6399749997,
+            "fom_GBP": 74440.894425,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 3702981.425457121,
+        "fom_GBP": 65572.86760035779,
+        "replacement_GBP": 1241416.5292124597,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.3812798443997111,
+        "unit_GWh": 0.06085260000000001
+      },
+      {
+        "id": "nel-mc1000",
+        "MW": 5.024145000000001,
+        "kg_hour": 88.5,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 7337460.92576617,
+          "fom_GBP": 129932.6943690161,
+          "replacement_GBP": 2459867.9358949857,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 3322541.18955,
+            "fom_GBP": 112819.85310000001,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 4036950.7843500003,
+            "fom_GBP": 127941.47639999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 6576547.279949999,
+            "fom_GBP": 148881.78885,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 7337460.92576617,
+        "fom_GBP": 129932.6943690161,
+        "replacement_GBP": 2459867.9358949857,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.7555063443829526,
+        "unit_GWh": 0.12057948000000002
+      },
+      {
+        "id": "nel-mc2000",
+        "MW": 10.048290000000001,
+        "kg_hour": 177.0,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 14674921.85153234,
+          "fom_GBP": 259865.3887380322,
+          "replacement_GBP": 4919735.871789971,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 6645082.3791,
+            "fom_GBP": 225639.70620000002,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 8073901.568700001,
+            "fom_GBP": 255882.95279999997,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 13153094.559899999,
+            "fom_GBP": 297763.5777,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 14674921.85153234,
+        "fom_GBP": 259865.3887380322,
+        "replacement_GBP": 4919735.871789971,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 1.5110126887659052,
+        "unit_GWh": 0.24115896000000003
+      },
+      {
+        "id": "nel-mc4000",
+        "MW": 20.096580000000003,
+        "kg_hour": 354.0,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 29349843.70306468,
+          "fom_GBP": 519730.7774760644,
+          "replacement_GBP": 9839471.743579943,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 13290164.7582,
+            "fom_GBP": 451279.41240000003,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 16147803.137400001,
+            "fom_GBP": 511765.90559999994,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 26306189.119799998,
+            "fom_GBP": 595527.1554,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 29349843.70306468,
+        "fom_GBP": 519730.7774760644,
+        "replacement_GBP": 9839471.743579943,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 3.0220253775318104,
+        "unit_GWh": 0.48231792000000007
+      }
+    ]
+  }
+}

@@ -1,0 +1,1598 @@
+PAGE 1
+LoDES Phase 2
+Final Project Report
+RheEnergise High Density Hydro
+
+
+
+
+
+February 2026
+PAGE 2
+© Crown copyright 2026
+
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated.
+To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3.
+
+Where we have identified any third-party copyright information you will need to obtain permission from the
+copyright holders concerned.
+PAGE 3
+Contents
+
+Introduction ________________________________________________________________ 5
+Executive Summary __________________________________________________________ 5
+  The Funding Programme ____________________________________________________ 5
+  Project Aims ______________________________________________________________ 5
+  Project Successes _________________________________________________________ 6
+  Key Lessons and Development Areas __________________________________________ 6
+The Technology _____________________________________________________________ 8
+  Commercialisation of HD-Hydro _______________________________________________ 9
+    Competition ___________________________________________________________ 10
+    Target Markets _________________________________________________________ 13
+    Beachhead customers ___________________________________________________ 13
+    Developing Commercial Relationships _______________________________________ 14
+Demonstrator Delivery _______________________________________________________ 15
+  Site Permitting ___________________________________________________________ 15
+    Landowner Agreement ___________________________________________________ 15
+    Planning ______________________________________________________________ 15
+    Grid Connection ________________________________________________________ 16
+  Project Design and Manufacturing ____________________________________________ 17
+    Design Approach _______________________________________________________ 17
+     Site Specific System Design _______________________________________________ 17
+   HD Hydro Turbomachinery Design and Manufacturing __________________________ 18
+   Low Voltage and High Voltage (LV/HV) System & Software Controls _______________ 23
+   HD Specific Valves ______________________________________________________ 25
+     Fluid Management System ________________________________________________ 26
+    High Density Fluid Supply Chain ___________________________________________ 28
+  Construction, Installation and Commissioning ___________________________________ 29
+     Civil Works ____________________________________________________________ 29
+    Powerhouse Fit Out _____________________________________________________ 33
+     Fluid Production System Fit Out, Testing and Commissioning ____________________ 35
+   Change of Project Scope to Reach Minimum Viable Product _____________________ 37
+
+
+                                                                                  3
+PAGE 4
+    Turbomachinery Commissioning ___________________________________________ 37
+Performance Results ________________________________________________________ 38
+  Turbomachinery Performance _______________________________________________ 38
+  Demonstrator Round Trip Efficiency __________________________________________ 39
+  High Density Fluid Performance _____________________________________________ 40
+     Fluid Production ________________________________________________________ 40
+     Fluid Stability __________________________________________________________ 41
+Budget ___________________________________________________________________ 42
+Project Successes __________________________________________________________ 43
+Lessons Learnt ____________________________________________________________ 44
+Reflections on the NZIP funding scheme ________________________________________ 46
+Future Plans ______________________________________________________________ 46
+
+
+
+
+
+                                                                                  4
+PAGE 5
+LoDES Final Project Report – RheEnergise High Density Hydro
+Introduction
+
+In September 2022, RheEnergise was awarded just over £8 million (subsequently
+increased to £9.8m) under the government LoDES Stream 2 Phase 2 funding
+programme to build a first of a kind High-Density Hydro longer duration energy storage
+demonstrator. The demonstrator plant has been designed to provide peak power of
+500kW and four hours of storage duration in an operational (TRL7) environment.
+
+This report summarises the design and development of the project, provides
+performance results and documents successes and lessons learnt.
+Executive Summary
+
+The LoDES Demonstrator Project has successfully advanced RheEnergise’s High-Density
+Hydro (HD-H) technology from laboratory scale and small field trial, toward near-commercial
+(TRL7) readiness. Despite an extension of timelines and adjustment to scope, the project has
+delivered clear evidence of technical viability, established critical operational capability, and
+generated learning essential to the next phase of commercial development. Once delivered at
+a commercial scale,        is expected to achieve a lower Levelised Cost of Storage (LCOS) at
+durations beyond four hours than all competing technologies, with the exception of               HD‑Hconventional pumped hydro.
+
+The Funding Programme
+
+Funding was awarded to the project by the Department of Energy and Net Zero as part of the
+Net Zero Innovation Portfolio (NZIP) Energy Storage and Flexibility innovation challenge. The
+NZIP aims to “accelerate the commercialisation of innovative low-carbon technologies,
+systems and processes in power, buildings and industry” .
+
+Project Aims
+
+The project aims were to:
+
+   •  Progress the HD-Hydro technology from laboratory-scale to a near-to-commercial scale
+      demonstrator in an operational environment, advancing it from TRL 4/5 to TRL 6/7.
+   •  Provide validation of the turbine design approach and thus confidence in scaling to
+       larger megawatt-class machines.
+   •  Gain valuable experience of high density fluid (HDF) production and operation at scale.
+   •  To undertake a programme of knowledge-dissemination activities, deepening market
+      understanding and strengthening engagement with potential customers, investors, and
+      stakeholders
+                                                                                  5
+PAGE 6
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+   •  To build traction and support the pathway toward commercialisation of the technology.
+
+Project Successes
+
+The project achieved its primary goal of demonstrating      technology in an operational
+environment. The transition from                prototypes to a                                       HD‑Hdemonstrator represents a significant achievement given the scale, novelty, and technical                                 laboratory‑scale              near‑commercialcomplexity involved. Turbine performance testing produced positive results that closely aligned
+with internal modelling, validating the core design approach and providing confidence in
+scaling to larger               machines.A major project outcomemegawatt‑classhas been the establishment of a dedicated       testing facility. This
+installation now enables continued development, optimisation, and validation across the full                                                HD‑Hsystem. It also provides an essential platform for investor engagement and has already
+supported the successful award of €2.5m in European Innovation Council funding to advance
+turbine development.
+
+The project has strengthened RheEnergise’s intellectual property position and deepened
+relationships with manufacturers who recognise the commercial potential of the technology.
+The internal team has also gained extensive experience across design, engineering,
+commissioning, and operational domains—skills that will be critical as the technology
+progresses towards commercial deployment.
+
+RheEnergise has significantly expanded its commercial reach during the LoDES project,
+securing three Memoranda of Understanding with developers across three continents and
+building strategic relationships with vertically integrated utilities worldwide. Engagement with
+industrial customers—particularly in mining—has demonstrated the value of HD Hydro through
+targeted modelling and case studies, helping accelerate project development and convert
+interest into strategic partnerships. The company now has a commercial pipeline valued at
+$1.75 billion (project capital expenditure) across its top 35 opportunities.
+
+Key Lessons and Development Areas
+
+The project highlighted several areas that will inform future design, contracting, and
+construction strategies. The selected design and owner’s engineer lacked the breadth needed
+for a multidisciplinary, first-of-a-kind system, contributing to gaps in design quality and late
+identification of defects. Earlier and more sustained in-house engineering oversight—
+particularly on site—would have mitigated several of these issues.
+
+The sequencing of design and construction activities was impacted by schedule pressures,
+leading to overlaps that increased complexity and coordination challenges. Future projects
+would benefit from a more linear design-then-build approach and more integrated contracting
+structures.
+
+
+                                                                                  6
+PAGE 7
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Subsystem integration and testing emerged as a substantial lesson. Some delays and rework
+were caused by insufficient off-site system integration and limited factory testing of minor
+components. More rigorous FAT processes will be essential at commercial scale.
+
+Fluid production and management also provided significant insight. The project delivered the
+largest-ever batch of HD fluid, uncovering critical learnings around moisture sensitivity,
+material handling, mixing rates, operational procedures, and the level of automation required.
+
+Further details are provided in the Lessons Learnt section of this report.
+
+Figure 1 The RheEnergise team celebrating reaching full turbine power.
+
+
+
+
+
+                                                                                  7
+PAGE 8
+LoDES Final Project Report – RheEnergise High Density Hydro
+The Technology
+
+RheEnergise’s High-Density Hydro (HD-H) builds on a mature form of energy storage:
+conventional pumped hydro. Instead of water, this technology uses a proprietary,
+environmentally benign high-density fluid (HDF) in a closed-loop system. At times of low
+energy demand, the fluid is pumped to the top storage tanks. When the energy is required, the
+fluid is released and passes through turbines regenerating electricity.
+
+Figure 2. High-Density Hydro illustration
+
+
+
+
+
+For future commercial scale projects this technology will offer:
+
+   •  Lower construction costs and times - using the HDF, rather than water, means that
+       projects are 60% smaller volumetrically for the same power and energy, lowering
+       construction costs and times.
+   •  Globally scalable – use of HDF lowers the vertical elevation needed from ~500m to
+      between 75 and 300m, to achieve the same power generation and energy storage
+       capacity. RheEnergise has identified around 6,500 potential sites throughout the UK
+     and over a million sites globally. Taken as an indication of the addressable market and
+       with a typical project size expected at 40 MW and 10 hours storage, this would provide
+     enough sites to meet the needs of the energy transition several times over.
+   •  Excellent environment credentials – HDF is an environmentally benign fluid. The
+      closed loop sealed system requires 20% of the water volume and has a significantly
+      reduced footprint versus conventional pumped hydro. There are also opportunities for
+    HDF to be created from waste material from other industries in the future.
+
+
+                                                                                  8
+PAGE 9
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+   •  Over 60-year project lifetimes with a low-risk technology – HD-H builds upon the
+      proven technology of pumped hydro.
+   •  High levels of efficiency - the precise level of efficiency will be validated through
+      longer term development, but analysis and experimentation suggest that 80% round trip
+       efficiency (RTE) is achievable. Current experimental results are shared below on page
+      39.
+
+Commercialisation of HD-Hydro
+
+Our engagement with the market, from analysis provided by industry experts and energy-users
+experiencing pain due to rising costs, has identified that as grids decarbonise, Long Duration
+Energy Storage (LDES) is required to balance the intraday cycle of solar and the two-weekly
+cycle of wind. Modelling suggests that as markets mature, 8-10 hours of energy storage will be
+required to undertake the vast majority of balancing between intermittent supply and variable
+demand.
+
+RheEnergise aims to be a solution provider for LDES and flexibility, a solution that is flexible
+over time, which can address multiple wholesale and ancillary service markets and can
+integrate with other solutions.
+
+RheEnergise are developing a product that will be delivered in 10-20 MW, 4-8 hour modules,
+maximising off-site powerhouse construction. A typical project is expected to be 40MW
+(400MWh) but system sizes can be expanded as required to meet site needs. Development
+and construction is expected to take 3-4 years.
+
+Figure 3 Illustration of a proposed RheEnergise product with four 20MW (8-16hr) modules
+installed along a ridge line at a site in Chile
+
+
+
+
+
+                                                                                  9
+PAGE 10
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Competition
+
+Any solution that provides flexibility to the grid or a generation asset is a potential competitor to
+RheEnergise. There is some overlap in the market with both Li-ion batteries and with
+conventional pumped hydro (PHS), but the extent of that overlap is limited. Developers
+increasingly recognise that for more than ~4-6 hours of storage, Li-ion batteries may not be the
+solution for both capital and operational cost reasons. Given the investment requirements and
+decade-long timescales of conventional PHS projects, these are only likely to be developed
+where there are good sites, and a government backed contract (or revenues) to proceed. The
+prevailing form of flexibility for durations above 1-2 hours today is gas OCGTs or CCGTs. High
+Density Hydro’s costs are already competitive with gas.
+
+The advantage is expected to grow as increasing low electricity price periods imply low-cost
+charging for energy storage, but lower utilisation and therefore higher costs for gas.
+
+RheEnergise carried out a Levelised Cost of Storage (LCOS) analysis based on the
+methodology of Imperial University consultants Schmidt and Staffel.1 The analysis uses the
+Imperial University data for all other technologies alongside HD Hydro parameters based on a
+bottom-up model created for RheEnergise by Mott MacDonald. These results based on the
+consultants’ and Mott MacDonald’s work are summarised in Table 1and Figure 1 below.
+Figure 4 LCOS by system duration and technology as a function of system
+storage in a full daily discharge use case. HD Hydro cost scenarios range
+indicated by light blue bar
+
+
+
+
+
+1 LCOS is the total cost of an energy storage system over the course of its lifetime, including the
+costs initial investment, charging, O&M, replacement and end of life, divided by its lifetime units of energy
+discharged and discounted.
+                                                                                 10
+PAGE 11
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+For HD Hydro, the LCOS is given as a range (represented by the light blue bar) which is based
+on a range of Capex per kWh installed (using upper, lower and central scenarios). At higher
+head heights, savings arise from a reduction in the reservoir and required fluid volume, while
+increased power capacities give cost savings (in terms of Capex £/kWh) due to economies of
+scale.
+
+Table 1 Technology-specific parameters used in LCOS analysis and projected figures for
+RheEnergise HD Hydro technology
+
+        HD     HD     HD
+          Hydro    Hydro    Hydro
+                                           Comp-         Vanadi-
+          Upper     Central   Lower    Pumped              Li-             Hydro-                                                  ressed      um                                      Hydro             ion           gen                                                          Air           Flow          80 MW   50MW   20MW
+
+         300m    250m    150m
+
+ Specific   1310      1377      1539      1100      1300   250   700      5000
+ power
+ CAPEX
+ $/kW
+
+ Specific   113       144       266       50        40     300   450      30
+ energy
+ CAPEX
+ $/kWh
+
+ Round    80        80        80        80        45     86    68       35
+ trip
+ efficiency
+ (%)
+
+ Self-      0         0         0         0         0      1     0       5
+ discharge
+ (%)
+
+ Lifetime   30k       30k       30k       30k       15k     3.5k   20k      10k
+ (cycles)
+
+ Depth of   100       100       100       100       100    80    100      100
+ discharge
+ (%)
+
+
+                                                                                 11
+PAGE 12
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+
+
+The results show that HD Hydro is the lowest cost storage technology for durations beyond 4
+hours, with the exception of conventional pumped hydro that requires highly specific
+geographies. Most true LDES solutions (e.g. HD Hydro) have decoupled power and energy
+costs, which means that as the storage duration increases, the cost per MWh decreases.
+Therefore, at greater storage durations, the cost gap between LDES solutions and Li ion
+widens. At four hours, HD Hydro and Li ion have a comparable LCOS, but at 10 hours, the
+LCOS of HD Hydro is almost half that of Li ion. This is due to attractive CAPEX but also low
+degradation, long project lifetimes and an abundant global supply chain.
+
+Due to its strengths across efficiency, system lifetime and flexible discharging capabilities, HD
+Hydro is well-positioned to capitalise on the vast incoming market for energy storage,
+particularly as demand shifts towards longer durations with increasing renewable penetration.
+
+HD Hydro Positioning vs Li-ion Forecast Cost Reductions
+RheEnergise has conducted sensitivity analysis beyond the initial analysis to assess its
+position relative to cost reductions for lithium-ion, today’s fastest deploying short-duration
+technology. The cost projections come from NREL’s ‘2023 Cost Projections for Utility Scale
+Battery Storage’. As before, the HD Hydro range is for head heights between 150-300m.
+
+Figure 5 Sensitivity analysis of HD Hydro cost scenarios (blue bar) versus NREL L-ion cost
+reduction forecasts (red bar)
+
+
+
+
+
+Against the optimistic bound of the NREL forecast, HD Hydro remains competitive beyond 4-6
+hours, depending on head height. For systems beyond 10 hours, the US Department of
+Energy’s definition of long duration, HD Hydro maintains a pronounced cost advantage (for
+example, the 50MW, 250m head system is 31% below NREL’s most advanced Li-ion scenario
+at 10 hours).
+
+                                                                                 12
+PAGE 13
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+The large bounds for lithium-ion are due to the large uncertainty within the cost estimate by
+NREL due to:
+
+   • A complex supply/demand balance with demand for electric vehicles. EV
+      uptake has been slower than expected so far, prompting overcapacity in the
+      supply chains of Li-ion in 2023/24. In 2024 there was a glut of Li-Ion
+      production capacity, so we see production supplying the stationary market. If we look
+      over the next 15 years, one of the fundamental problems is that Li-Ion cannot meet the
+       mobility and stationary energy storage needs. In the long-term, Li-ion is unlikely
+       to maintain this excess supply as bottlenecks and
+       constraints in component commodities arise with accelerating demand for both EVs and
+       stationary storage.
+   •  The extent to which reductions in cell costs will be matched by savings in the
+      other components of power and energy components. We still expect HD Hydro
+      costs will be significantly lower than Lithium-Ion costs (35-50% below) even with their
+      cost down projections for medium duration applications; even before taking into
+      account that there are also opportunities for significant cost reductions for HD Hydro.
+HD Hydro’s cost profile demonstrates a strong competitive position, that is resilient to cost
+reductions in other technologies. For example, the modelling above is based on a UK scenario
+where construction costs, which represent approximately 50% of the capital expenditure, are
+high compared to other markets.
+Target Markets
+
+RheEnergise’s business model thinking and approach has evolved significantly during the
+period of the LoDES project. This in turn has impacted our route to market and beachhead
+market customers.
+Beachhead customers
+
+These now include:
+
+   •  Mine and quarry operators, where we have had significant engagement including
+       signing Memoranda of Understanding with owners. These operators not only recognise
+      the need for energy storage coupled with renewables to decarbonise (and lower costs
+        of) their operations but also see opportunities to be a major part of our supply chain, i.e.
+      the supply of fluid weighting agents for future projects.
+   •  Data centres global demand in this sector has surged since the start of the LoDES
+       project, driven largely by the rapid expansion of Artificial Intelligence. The International
+      Energy Agency projects that data-centre electricity consumption will more than double
+       within five years, reaching levels comparable to Japan’s current national demand by
+      2030. In some US states, new datacentre load could add up to 30% to existing demand
+     and must be met within extremely short timelines of 3–5 years. Traditional supply
+     options—new gas generation, nuclear, and conventional PHS—are constrained by long
+      lead times, infrastructure limitations, and decarbonisation challenges. Renewable
+
+                                                                                 13
+PAGE 14
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+      energy combined with HD Hydro provides a solution that could be developed within
+      these constraints.
+   •  Locations of grid constraint, where LDES can absorb power when there is power in
+      excess of capacity and then dispatch as demand exceeds supply. LDES becomes a
+       solution to enable the increase of locations of demand, allowing businesses and
+      communities to expand and an increased supply of renewable energy to connect.
+   •  Vertically integrated utilities, i.e. energy companies who owns and operates every
+      stage of the electricity supply present a particularly good opportunity. LDES provides
+       multiple benefits in this sector due to savings from avoiding network upgrade, reduced
+        fossil fuel turn-up and maximised value capture from renewables assets.
+Developing Commercial Relationships
+
+Throughout the course of the LoDES project, RheEnergise has progressively strengthened its
+relationships with our key customer groups. We have signed three Memoranda of
+Understanding with developers on three continents and have established strategic
+engagement with a number of vertically integrated utilities operating across the globe.
+
+We have worked closely with industrial players, particularly in the mining and data centre
+sectors; providing modelling and case studies demonstrating how HD Hydro can add value and
+support decarbonisation of their assets. Through this work RheEnergise has been able to
+accelerate project progress and successfully persuade customers to achieve target signed
+strategic partnerships, moving projects towards to the next phases of development.
+
+Our current commercial pipeline is valued at $1.75bn project value. This figure corresponds to
+the top 35 deals in the pipeline. The successful delivery of the demonstrator project has
+provided an invaluable technical proof point as these opportunities are progressed and the
+next stage is to secure a First of A Kind (FOAK) project.
+
+First Of A Kind Project Opportunities
+The opportunities presented here are examples of our FOAK opportunities, where partners are
+comfortable with the risks of FOAK and moving at pace. Each opportunity is analysed on a set
+list of criteria including development feasibility and economic viability.
+
+   •  Polish FtM project: 10MW, 6-hour prospective FtM (front of meter) FOAK project with a
+      developer on partner-owned site in South East Poland, revenue focus primarily
+       arbitrage. Currently at environmental permit stage.
+   •  Scottish projects: Landowner pull for 2x 10MW, 8 hour projects on two neighbouring
+       Scottish estates. Good revenue opportunities with constraint management revenue uplift
+       potential.
+   •  Italian projects: Evaluating sites in the portfolio of a UK and Italy-based developer
+       partner and seeking new sites to co-develop HD Hydro. MACSE auction potential route
+       to market.
+
+
+
+                                                                                 14
+PAGE 15
+LoDES Final Project Report – RheEnergise High Density Hydro
+Demonstrator Delivery
+
+Work commenced following the funding award in October 2022, as the company expanded the
+team, engaged consultants and contractors, began detailed design and embarked on the
+permitting process for the Hemerdon Mine site identified during the feasibility stage. This
+section of the report outlines the project approach and provides a brief overview of each phase
+of work.
+
+Site Permitting
+
+Landowner Agreement
+
+In November 2023, negotiations for the original site came to a halt due to issues with the
+mine’s operating permits and the site’s ability to host the project on a timeline suitable for both
+the NZIP programme and RheEnergise’s overall aims.
+
+Fortunately, having foreseen the potential for this scenario, RheEnergise had begun
+discussions with a number of alternative landowners. Negotiations progressed well with a new
+site in close proximity to the original location. In April 2024, the team were able to secure a
+lease agreement to build the generator at Sibelco’s China Clay mine site just outside of
+Plymouth.
+
+A change in site meant that surveys, initial civils design and the permitting process (grid
+connection and planning) had to be repeated.
+Planning
+
+Achieving timely planning permission for the project was key to its successful delivery. Having
+gone through the successful but lengthy process of a full planning application for the original
+site, it was feared that re-applying for the new site would reduce the chances of the being able
+to deliver the project in the timescales prescribed by the NZIP programme.
+
+However, RheEnergise were advised that the works would be likely to fall within the Permitted
+Development Rights (PDR) of the site which could significantly accelerate the process. This
+was confirmed and the local planning authority issued a Certificate of Lawfulness for the
+development in March 2024.
+
+Figure 6 Sibelco site layout
+
+
+
+
+
+                                                                                 15
+PAGE 16
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+
+
+
+
+Grid Connection
+
+The RheEnergise system is connected Behind-The-Meter i.e. it is designed to predominantly
+serve electrical loads on site ahead of exporting any excess to the grid. Sibelco operate a
+1.4MW CHP (Combined Heat and Power) plant at the site to dry their mined product. In
+addition, a 450kW solar PV plant is planned for future development. These additional
+generating assets had to be accounted for when applying for grid connection for the HD-Hydro
+plant.
+
+RheEnergise was supported in its grid connection application by a specialist consultant with
+significant experience working with the local Distribution Network Operator NGED. After a
+period of assessment and negotiation, RheEnergise accepted a final ‘no works’ grid connection
+offer in November 2024.
+
+
+
+
+
+                                                                                 16
+PAGE 17
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Project Design and Manufacturing
+
+Whilst landowner agreements and site permitting were established, works progressed with the
+main design packages.
+Design Approach
+
+In order to meet the time constraints of the funding programme, it was necessary to progress
+design on all sub-systems concurrently. The work was divided into the following packages:
+
+   •  Site Specific System Design
+   • HD Hydro Turbomachinery
+   •  LV/HV System & Software Controls
+   • HD Hydro Specific Valves
+   • HD Hydro Fluid Management System
+   •  Fluid Supply Chain
+Due to the constraints of RheEnergise’s in-house design resources, the team worked with
+expert consultants to develop the detail design of the various sub-systems. This helped us
+make decisions and produce results more quickly whilst up-skilling the existing team.
+
+The design work carried out within each work package is summarised in the sections that
+follow.
+Site Specific System Design
+
+Civil Works Design
+RheEnergise engaged an experienced small-scale hydropower consultant, as designer and
+owner’s engineer. Their scope was to provide detailed design and oversee construction of the
+lower and upper reservoirs, powerhouse, pipeline and cable route for the High Voltage (HV)
+electrical connection.
+
+The change of project site meant that certain elements of the civils design had to be completed
+twice. Once the location had been finalised and tenders had been received for the
+construction, budget overruns necessitated further civils design development.
+
+Changes in Reservoir Design
+
+The most notable changes were a reduction in size of the lower and upper reservoirs and
+adoption of a new construction method for the upper reservoir.
+
+A 50% reduction in tank size was implemented for both reservoirs to achieve significant cost
+savings. This led to a reduction in fluid capacity for the system, but it was agreed that the
+original storage duration could still be achieved albeit with the turbine running at lower power.
+
+
+                                                                                 17
+PAGE 18
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+The design of the upper reservoir construction was revised from a more conventional concrete
+structure to one based on large-diameter glass-reinforced plastic (GRP) pressure pipes.
+
+Figure 7 Revised upper reservoir design
+
+
+
+
+
+Alongside cost savings, this allowed RheEnergise to test both reservoir designs concurrently,
+maximising learning from the project, mitigating the risk of following just one design approach
+and allowing demonstration of further commercial viability for the technology.
+
+Whole System Modelling
+A critical aim of the demonstrator project was to validate the whole system and sub system
+modelling carried out during design of the system. Once the initial site design and main
+component choices had been made, a full transient analysis for the system was carried out.
+This would provide theoretical performance curves and inform the overall system design and
+control principles. RheEnergise collaborated on this exercise with TUV-NEL who provided
+hydraulic optimization and computational fluid dynamics (CFD) analysis services.
+HD Hydro Turbomachinery Design and Manufacturing
+
+RheEnergise engaged Energy Revolution Services (ERS) as Owner’s Engineer to support in
+the development of the HD turbine. Design work took place in two stages:
+
+   •  Hydraulic Design - developing a preferred turbine concept and refining the geometry
+        for optimal flow characteristics.
+   •  Mechanical Design - developing the turbine geometry into fabrication drawings with
+      appropriate details of welds, materials, cutting, machining, testing, and coating
+      requirements.
+                                                                                 18
+PAGE 19
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Two fundamental design decisions were made early in the project.
+
+Separate Pump and Turbine
+It was concluded at feasibility stage that it would be most practical to implement a separate
+pump and turbine design rather than developing a Reversible Pump Turbine (RPT) often found
+in conventional pumped hydro systems.
+
+Designing a small-scale RPT would have added significant complexity, risk, time and cost to
+the project and it was felt that the benefits of an integrated RPT unit were not likely to be
+realised in a project of this scale. An additional benefit of this approach were greater
+opportunities to add test instrumentation, maximising the opportunity for data gathering and
+analysis of the turbine performance.
+
+Change in Turbine Configuration
+It was identified in the early stages of design that it would be necessary to substitute a single
+500kW turbine for the two 250kW turbines originally conceived at feasibility stage. Having
+identified a turbine geometry best suited to the project’s research and development
+requirements, it became clear that manufacturing a 250kW turbine to withstand the pressures
+(head) at the proposed site elevation would not be technically or economically viable. Use of a
+single 500kW unit would lead to a turbine design better matched to project needs with added
+advantages of reduced complexity in the power control system and other system components
+such as the generator and valves. The compromise was a loss of the ability to demonstrate the
+parallel operation and control of two machines which could have been useful in the design of
+future commercial projects.
+
+Hydraulic Design Considerations
+Four key areas were selected for investigation within the project focusing on the aspects that
+differ most substantially from traditional (water) hydropower turbine technology.
+
+   •  Changes to machine performance characteristics - the fluid density alters the
+       specific speed (and machine performance characteristics) for a given head.
+   •  Altered fluid viscosity - this will result in differing shear stresses, friction losses,
+      boundary layers and resulting overall flow behaviour. Understanding this ‘non-
+      Newtonian’ fluid behaviour will draw from past research into slurry pumping, as well as
+      RheEnergise’s fundamental fluids work package. These findings will then be adapted to
+      the HD Turbine design.
+   •  Increased abrasion – it was expected that this would increase in a manner likely closer
+       to a slurry than sediment-laden water. An understanding of abrasion behaviour will draw
+      from analogous phenomena in slurry pumping and hydropower applications, with
+      experimental review of behaviour specific to the HDF and its application to
+      turbomachinery design.
+   •  Changes to the part-load (vortex rope), cavitation and transient behaviour of the
+      turbine.
+
+
+                                                                                 19
+PAGE 20
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+The Turbine Performance Specification describes the design process and design parameters
+in more detail, but key points are:
+
+   •  The turbine hydraulic design was adapted from an open-source high head Francis
+      reference turbine developed at the Norwegian University of Science and Technology
+      (NTNU). rescaled to match the design conditions.2
+   •  Mechanical design was completed using standard hydropower turbine design
+      approaches including CFD analysis, providing sufficient detail to enable manufacture.
+
+ Figure 8 Finite Element Analysis of the turbine runner
+
+
+
+
+
+2 https://www.ntnu.edu/nvks/about
+                                                                                 20
+PAGE 21
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+In-House Testing Facilities
+A fluid test loop was developed in the Montreal facility allowing the team to test and develop
+the theoretical modelling by running scaled down equipment with HDF.
+
+Figure 9 Fluid test loop
+
+
+
+
+
+                                                                                 21
+PAGE 22
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Turbine Manufacturing
+An Inspection and Test Plan was developed for the turbine to ensure quality control during
+manufacturing. The RheEnergise team carried out Factory Acceptance Testing with our
+Owner’s Engineer.
+
+Figure 10 Turbine Factory Acceptance Testing
+
+
+
+
+
+Pump
+In addition to turbine design, ERS provided support in the selection of the pump for the system.
+It is notable that the pump was not optimised for efficiency but reliability. Its main purpose was
+to provide the required fluid in the upper reservoir to allow testing of RheEnergise’s
+demonstrator turbine. This is a significant difference to a commercial project, where the entire
+system design would be optimised to provide the best economic and technical solution for the
+site.
+
+
+
+
+                                                                                 22
+PAGE 23
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Low Voltage and High Voltage (LV/HV) System & Software Controls
+
+Power Conversion System
+The power conversion system (PCS) is defined as being the system that converts shaft power
+from the turbine (or to the pump) into electrical power supplied to the grid. As such, it also
+includes the electrical machines (generator and motor, or EM) for the pump and turbine.
+
+Figure 11 The power conversion system and system interfaces
+
+
+
+
+
+The objectives of the design for the PCS were as follows:
+
+   •  Use latest technology: Where it makes sense to do so, use the latest technology to get
+      the maximum performance (see point 2) and futureproofing (see point 3). The
+      conventional hydropower industry has not been taking full advantage of the powerful
+      technology developments of the last few decades.
+   •  Unlock revenue streams via enhanced capability: long-duration energy storage can
+      access multiple revenue streams if the technology is capable of doing so. This
+       translates into a need for variable power input/output, dynamic ramping capability (and
+       therefore excellent control), and potentially black-start capabilities.
+   •  Pathway to commercialisation: develop a solution that can scale with the technology
+      as it approaches TRL9 and ultimately commercialisation.
+   •  Reinforce the HD Hydro whole system design: the power conversion system
+       interacts with most other systems. Where it is possible, leverage new technologies to
+      maximise the sum of the whole and unlock new possibilities.
+During the development of the design RheEnergise built a strong relationship with the main
+equipment supplier (Danfoss) which proved to be invaluable throughout the installation and
+commissioning of the system.
+
+
+                                                                                 23
+PAGE 24
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Main Control System (MCS)
+The MCS is the core command centre for the demonstrator system, tasked with automating
+and overseeing all operational aspects. Important functions of the MCS include gathering data
+from remote sensors that monitor various process variables, comparing this data with operator-
+set parameters, and generating appropriate command functions to control the process through
+final control elements.
+
+The design of the MCS was developed by the in-house RheEnergise team following a modular
+design approach. This enhanced the system’s robustness and reliability and facilitates
+software maintenance.
+
+The control system has been designed to be a representative version of the eventual
+commercial product. The modular design provides scalability, allowing for ease of future
+expansions and adaptations.
+
+Test and Instrumentation (T&I System)
+While the T&I system shares several features with the MCS—including sensors,
+              components, and              capability—its purpose is distinct. The T&I
+system is designed to independently capture the maximum amount of           performancedata‑acquisition                  data‑storagedata, whilst operating without the practical constraints of the control system.                                                                         high‑quality
+HV Design and Grid Connection
+RheEnergise worked with an HV design consultant and contractor who had an existing
+relationship with the site owners and good understanding of the site and its operating
+constraints.
+
+The high voltage (11kV) connection point was in an existing substation close to the main
+incoming substation. This was located c. 600m from the RheEnergise powerhouse and
+transformer compound. The HV cable route involved crossing both a road and a brook.
+
+The system was designed to be connected Behind-The-Meter i.e. to predominantly serve
+electrical loads on site ahead of exporting any excess to the grid. Sibelco operate an existing
+1.4MW CHP (Combined Heat and Power) plant at the site and a 450kW solar PV plant is
+planned for the future. RheEnergise worked with a grid consultant to design a compliant
+system that took all these elements into account.
+
+G99 Compliance3
+
+NGED, the local Distribution Network Operator (DNO) required that the RheEnergise system
+was installed in compliance with the Engineering Recommendation G99.
+
+G100 Compliance4
+
+
+3Engineering Recommendation G99 outlines the technical requirements for connecting power generating modules
+ to distribution networks in Great Britain
+4 Engineering Recommendation G100 sets out the technical requirements for export and import limitation
+schemes.
+                                                                                 24
+PAGE 25
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Due to the CHP plant, there is an existing 1MW export agreement with NGED for the site.
+Adding the additional generation capacity of the RheEnergise system (and futureproofing for
+the solar generation) necessitated adding G100 Export Limitation equipment to ensure that net
+export from the site never exceeds 1MW.
+
+Initial designs for export limitation were produced by our HV design consultant. It was
+suggested that a secondary metering unit would be required for the main incoming high
+voltage supply. This would have led to significant expense, potential delay to the project and
+the need for a full site shut down. RheEnergise worked closely with our grid consultants,
+Sibelco and NGED (the DNO) to simplify the design such that a new metering unit could be
+avoided and hence accelerate the implementation of the system.
+HD Specific Valves
+
+The valves developed for the project were specified with more of an R&D leaning that would be
+typical in a commercial project. They play a critical safety and operational role in isolating the
+turbomachinery and all the subcomponents of the powerhouse and lower tank from the very
+high hydrostatic pressures generated by the HD Fluid in the penstock and upper reservoir.
+Figure 12 Main Inlet Valve (MIV) Factory Acceptance Tests
+
+
+
+
+
+                                                                                 25
+PAGE 26
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+RheEnergise chose to work with a partner manufacturer to develop the HD valve design. A
+company who specialises in valves for slurries and that has a long-term interest in future
+RheEnergise projects.
+
+The pump and turbine Main Inlet Valves (MIVs) have an identical specification, developed in
+collaboration with the partner manufacturer. A testing plan was designed which combined tests
+by the valve manufacturer with tests involving the HD-Fluid carried out by RheEnergise using a
+smaller scale version of the valve installed in the Fluid Test Loop described above.
+
+Ahead of finalising orders RheEnergise visited both the valve and actuator manufacturers and
+attended Factory Acceptance Tests.
+Fluid Management System
+
+The unique fluid characteristics of HDF necessitated the inclusion of a Fluid Management
+System (FMS) within the lower reservoir to monitor the fluid, interact with and signal control
+system parameters in real time. The design process was a challenge given that the formulation
+for the HDF was being developed concurrently and thus the fluid final properties were still
+being finalised. The aim was to find the line between ‘over designing’ for problems that would
+not necessarily manifest and providing a system with good functionality.
+
+Having originally intended to out-source the design work, RheEnergise moved to developing
+the design in-house. Some support was given by the team from a design consultancy which
+helped up-skill the RheEnergise team, specifically in the area of design risk assessment
+through the process of DFMEA (Design Failure Mode and Effects Analysis).
+
+ Figure 13 3D rendering of FMS in the powerhouse and store
+
+
+
+
+
+                                                            Store
+         Powerhouse
+
+
+
+
+
+Given that the FMS system design was starting from basic concept, the process started early
+in the project. Initial stages were spent exploring the techniques to control the HDF properties
+deemed crucial for a healthy fluid.
+
+
+                                                                                 26
+PAGE 27
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Sensor selection, mechanical and control system design followed. As with the other sub-
+systems a test rig was set up to test components and validate design iterations. The FMS was
+designed to take samples of HDF as it moves within the system from sampling points within
+the pump, turbine and lower reservoir. Following analysis of key fluid health metrics the FMS
+control system is designed to implement measures to maintain the health of the fluid via fluid
+movement or the control of PH, by countering evaporation or dosing with biocides.
+
+Once installed on site, the FMS design continued to evolve. As understanding of the fluid’s
+behaviour at scale improved, the team introduced new techniques to optimise its maintenance.
+Originally a simple fluid circulation system formed part of the design, pumping HDF around a
+loop to the powerhouse and back into the reservoir via a ‘spray bar’ which spanned the width
+of the reservoir. This aimed to prevent settling and separation of the fluid. As the design
+progressed, and following successful laboratory testing, ‘bubble plates’ were incorporated in
+the floor of the lower reservoir using a pneumatic system to periodically pump air through the
+fluid and hence provide additional agitation.
+Figure 14 Bubble plates in the lower reservoir
+
+
+
+
+
+Finally, at the later stages of the project, with learnings from the initial fluid production and
+storage, a more significant fluid agitation system was implemented making use of some of the
+original circulation pipework and pump. The existing systems were adapted to implement these
+changes which meant some design compromises and varying levels of success, but the
+development of the system provided many valuable learning opportunities.
+
+
+
+
+                                                                                 27
+PAGE 28
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+High Density Fluid Supply Chain
+
+This work package was concerned with the production of HDF to provide first fill of the LoDES
+demonstrator reservoir. The first months were focused on finalising the formulation for the fluid
+and developing the concept design for the HDF production system.
+
+Fluid Formulation
+The team recognised early on that the pre-mixed off-the-shelf powder originally selected would
+not be suitable due to availability and cost of the volumes required to operate at scale. A
+second based formulation was investigated and worked through test rigs but was found to be
+unstable. The fluid formulation was finalised in Summer 2024.
+Figure 15 Fluid chemistry & flow test loop
+
+
+
+
+
+HDF Production Design
+The HDF production system was divided into two sections – the HDF Engineering System and
+the Mud Mixing System (MMS). The first covering the production of the solid constituent at the
+required specification, the second comprising the material handling, wetting, mixing,
+conditioning, and transfer of the final on-spec fluid to the LoDES reservoir.
+
+The initial concept design work and testing enabled the team to finalise design of the HDF
+Engineering System, working with the bulk material handling manufacturers and to place
+orders for long lead time equipment.
+
+Having developed the concept design and settled on the final fluid formulation, it was
+recognised that the team would benefit from the input of additional expertise to develop the
+design of the Mud Mixing System and progress to procurement. A product design consultancy
+was engaged and helped move the design to a greater level of detail.
+
+
+
+                                                                                 28
+PAGE 29
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Having completed work on the mud mixing design attention turned to the control system. The
+proposals received for development and manufacturing of this system both from the original
+product design consultants and other parties significantly exceeded the budget and timescales
+allowed and hence RheEnergise decided to bring this work back in-house. This also giving the
+team the opportunity to use learnings from the initial development of the powerhouse Main
+Control System.
+
+Fluid Production Location
+
+During the process of design development, it became clear that the original existing building
+identified for the fluid production plant would not be the optimal solution. The size and condition
+of the building and logistics of transporting the fluid from its location to the lower reservoir
+made it less practical and economic in comparison to building a dedicated temporary building
+closer to the lower reservoir. The design was adapted to suit with fluid to be transferred to the
+lower reservoir via a dedicated pipe rather than moved around the site in tankers as originally
+envisaged. This change allowed direct control of the fluid movement and greater flexibility for
+co-ordination with production.
+
+Construction, Installation and Commissioning
+
+Civil Works
+
+Following a tender process, the main construction contract was initially awarded to a local
+marine contractor. However, late in contract negotiations, they disclosed that existing
+commitments meant they could not meet the delivery schedule required for the NZIP
+programme. RheEnergise therefore had to engage another contractor who could deliver to the
+build schedule at very short notice. The civil works design consultant, made an introduction to
+a Scottish contractor with an extensive experience in the hydropower industry. Despite being
+based at some distance from site, this contractor was able to commit to the programme and
+mobilised to site in June 2024.
+
+Concurrent with the final main contract negotiations, RheEnergise engaged a local
+subcontractor to clear the site and set up safety fencing in preparation for works to start. This
+subcontractor became a key member of the project team, continuing to work with RheEnergise
+right through to the final operation of the system.
+
+
+
+
+
+                                                                                 29
+PAGE 30
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+The main construction works took six months to complete, largely in line with the contract
+schedule. This was in spite of supplier delays on the main pipework manifold at the entrance to
+the powerhouse which slowed progress in the completion of the concrete works.
+Figure 16 High Level Civil Works Plan
+
+
+
+
+
+Figure 17 Upper reservoir construction
+
+
+
+
+
+                                                                                 30
+PAGE 31
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Figure 18 Lower reservoir and powerhouse construction
+
+
+
+
+
+                                                                                 31
+PAGE 32
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Generally, the civil works were of a good quality, but two major defects were missed during the
+routine site inspections by the Owner’s Engineer, and having been identified at a later stage
+required swift rectification to avoid significant impacts on the programme.
+
+Issues with a pipework joint in the upper reservoir: a full inspection of the upper reservoir
+GRP pipework was overlooked prior to the main contractor leaving site. Once completed, this
+revealed significant defects in a pipework joint. Repairs were made by specialist contractors
+nominated by the manufacturer. The root cause of the defect was identified as an installation
+error (insufficient tethering of the pipework during concrete pour) which may have been
+avoided with greater supervision by the client’s engineer or the presence of a RheEnergise site
+engineer.
+
+Incorrect pressure fittings in main penstock: having reviewed pressure testing results for
+the main penstock, it was identified by the RheEnergise team that pressure testing had been
+carried out at a value lower than expected. Having investigated this with the owner’s engineer,
+it became clear that incorrect fittings had been installed in the lower half of the penstock (PN16
+rated rather than PN25 as specified). Having explored different solutions, it was concluded that
+these fittings needed to be replaced and the penstock re-tested prior to full system operation.
+Discovering the issue at this point in the project meant returning the main contractor to site,
+uncovering the affected sections of buried pipework adding additional cost to the project.
+Fortunately, it was possible to carry out these works without a major impact on the overall
+programme.
+
+In parallel with the main works, RheEnergise managed the construction of the temporary
+building to house the fluid production equipment. Having engaged D A MacDonald to provide
+the concrete foundations, the remaining construction was completed by end of December
+2024.
+
+Figure 19 Whole site layout
+
+
+
+
+
+                                                                                 32
+PAGE 33
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Powerhouse Fit Out
+
+Fit out of the powerhouse began in early 2025 with the installation of stairs and walkways to
+enable safe access followed by the positioning of the main inlet valves and turbine.
+
+Figure 20 Positioning of turbine and main inlet valve
+
+
+
+
+
+Turbine and Pump Installation
+In February 2025 works began on the installation of the turbine and pump. A specialist
+contractor was brought in to complete the equipment installation. Substantial concrete works
+were required within the powerhouse to secure the equipment including some unforeseen
+alterations to the powerhouse floor. This led to the works being completed in two stages and
+being completed in April.
+
+Mechanical and Low Voltage Electrical Works
+RheEnergise directly contracted mechanical and electrical contractors (M&E) to deliver the
+equipment installation alongside their own in-house engineering team.
+
+There were significant mechanical works to complete within the powerhouse with the
+installation of the Fluid Management System adding to the works undertaken in a standard
+pumped hydro scheme.
+
+
+
+
+
+                                                                                 33
+PAGE 34
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Figure 21 Powerhouse views of turbine pump and MIVs and towards FMS
+
+
+
+
+
+                                                                                 34
+PAGE 35
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+High Voltage Works
+Given the long lead times associated with high voltage (HV) equipment, RheEnergise engaged
+with an HV designer and contractor early in the project. Key items such as the transformer and
+ring main unit were delivered to the project in good time and construction works were
+completed in line with the overall programme. However, issues with establishing a sufficient
+site earth reading (influenced by local ground conditions) delayed the final high voltage
+connection by some weeks, with a corresponding delay to the low voltage commissioning in
+the powerhouse and in turn to the main power supply to the fluid production equipment.
+Figure 22 Running the HV cable
+
+
+
+
+
+Fluid Production System Fit Out, Testing and Commissioning
+
+The large items of equipment were installed and connected in the Mud Mixing System (MMS)
+building in the first half of 2025. System integration and testing with the main control system
+took place in May followed by commissioning (both dry and with water) with fluid production
+beginning in early July.
+
+                                                                                 35
+PAGE 36
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+One of the major uncertainties for the project was how the process of fluid production would
+progress when mixing greater volumes of high density fluid than had ever been previously
+produced. It was therefore not unexpected that issues would arise as the system came into
+operation.
+
+Fluid Production Rate
+Following the first weeks of operating the system, it became clear that although it was
+successful in producing a useable fluid, the production rate of the facility was not as predicted
+during the design phase.
+
+Initial investigations suggested that there were multiple contributing factors and that some
+relatively quick improvements could be made to the system to try and alleviate the issues. As
+an initial step, the control system was upgraded, followed by the replacement of eductor
+components in the Mud Mixing system. Operation of the system was also refined, training up
+more operators to reduce reliance on RheEnergise’s engineers and enabling the team to
+spend more time researching and making improvements to the system. However, without a
+more significant redesign it was unlikely that the original target mixing rate would be reached.
+
+Figure 23 Fluid production equipment
+
+
+
+
+
+Fluid Quality
+Following the initial period of mixing, the first batch of fluid was transferred to the lower
+reservoir. Within a matter of days, signs of syneresis (separation) were observed in this fluid
+which suggested that there may be further issues with the fluid production.
+
+
+
+                                                                                 36
+PAGE 37
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Detailed sample testing and analysis in the Montreal facility showed that the properties of this
+first batch of fluid did not match the ‘baseline design’. We discovered that the chemical
+properties of one of the additives did not match those in the version used for testing in spite of
+an understanding that an identical material had been ordered. Further enquiries revealed that
+this variation in the product was known to the manufacturer that but given that it does not
+impact common uses of the product, it had not been highlighted.
+Change of Project Scope to Reach Minimum Viable Product
+
+As the fluid production issues became clearer, it was recognised that given the constraints of
+the NZIP programme and the improvements that could be made in the short term, it would be
+very difficult to deliver the original volume of fluid proposed in the remaining time available.
+
+Reducing the total volume of fluid from 1420m3 to 540m3 would reduce the total running time of
+the system to c. 15 minutes at full power, but it would still be possible to achieve a Minimum
+Viable Product (MVP).
+
+Reaching the MVP would allow testing, full commissioning and operation of the integrated
+system. It would achieve TRL7 across the entire system, validating all control system features
+and functions, as well as sufficiently examining the actions of fluid. It would produce data such
+that the round trip efficiency of the system and levelised cost of storage for the system could
+be reliably forecasted.
+
+Moving to MVP was a compromise to the original scope of the project but at this stage it was
+accepted that there was no other reasonable alternative.
+Turbomachinery Commissioning
+
+Commissioning of the system took place in three phases over approximately nine months with
+construction activities taking place in between.
+
+Phase One - Dry Commissioning: verified the correct operation of individual components and
+subsystems, as well as their integration within the overall control architecture.
+
+Phase Two – Water Commissioning: following experience in the fluid production and
+powerhouse clean-up required following a valve failure in the initial operation of the FMS with
+HDF, it was decided to include a stage of water commissioning ahead of introducing HDF into
+the system. This would also allow direct comparison of the turbine and pump performance with
+HDF versus water.
+
+Phase Three – HDF Commissioning: carried out in December 2025, this confirmed stable
+and controlled operation of both pump and turbine with HDF across incremental operating
+points. Controlled shut down and safe response to a range of fault and emergency shutdowns
+was assessed and the process culminated in sustained operation at the design full power
+output of 500kW.
+
+
+
+                                                                                 37
+PAGE 38
+LoDES Final Project Report – RheEnergise High Density Hydro
+Performance Results
+
+Following the latter two stages of commissioning, RheEnergise have been able to gather initial
+performance results from the turbine and pump allowing a comparison between operation with
+water and HDF. Most crucially the results could also be compared with the initial forecasts in
+order to validate the models used to predict the performance, vital when designing future
+projects.
+
+Turbomachinery Performance
+
+The preliminary results from over 100 turbine-pump operations, have validated the turbine
+design and its operational compatibility with HDF. The system has been operated at full power
+over sustained periods and the turbine demonstrated excellent hydraulic performance,
+achieving a peak efficiency of 89.6% with water and 84.8% with HDF and a notably flat
+efficiency profile over a wide range of operating conditions. Allowing for system losses, this
+gives confidence that the target system efficiency for commercial projects is achievable once
+system designs have been further optimised.
+
+Whilst there is a decrease in efficiency when operating with HDF, this can be explained as a
+combined effect of scale (Reynolds number) effects and the viscous dominance inherent in
+small-scale testing. In layman’s terms, fluids flow more smoothly through larger machines. It is
+expected that as the small-scale demonstrator turbine is transitioned to a commercial-scale
+prototype (i.e. at 5MW), the efficiency with HDF is expected to approach the efficiency of
+water.
+
+Figure 24 Hydraulic efficiency (%) vs power (kW) & measured vs predicted efficiency shows a
+comparison between the efficiency measured on site and the predicted results from CFD.
+Excellent agreement can be seen between the two, within c.1%
+
+Figure 24 Turbine hydraulic efficiency (%) vs power (kW) & measured vs predicted efficiency
+
+
+
+
+
+                                                                                 38
+PAGE 39
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Crucially, after accounting for seal losses, the measured turbine runner efficiency showed
+excellent agreement with numerical data obtained through CFD, validating RheEnergise’s in-
+house modelling capabilities.
+
+Demonstrator Round Trip Efficiency
+
+Table 2 gives a breakdown of the efficiency of different parts of the demonstrator system,
+showing a close agreement with the values provided by the computational modelling and
+measurements taken on site.
+
+Table 2 Comparison of model and measured efficiency for the LoDES demonstrator
+
+ System Component                Model Efficiency      Measured Efficiency
+
+ Total Pumping                  70%              73%
+
+ Pump Penstock                  98%              98%
+
+ Pump Hydraulic                  76%              78%
+
+ Pump Motor                    97%              98%
+
+ Pump Variable Frequency Drive (VFD)   97%              98%
+
+ Turbine Overall                 79%              80%
+
+ Turbine Penstock                 98%              98%
+
+ Turbine Hydraulic (incl. seal losses)     86%              85%
+
+ Turbine Motor                   97%              98%
+
+ Turbine VFD                    97%              98%
+
+ RTE (excl. parasitic losses)         56%              59%
+
+The figures given for RTE do not include parasitic losses. Measurement of parasitic losses is
+planned as part of further site testing but during modelling were estimated at 1.18% averaged
+over a year.
+
+
+
+
+                                                                                 39
+PAGE 40
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+As previously mentioned, there are multiple areas for design optimisation but these results
+provide the RheEnergise team with confidence that our target round trip efficiency (RTE) of
+80% for larger commercial projects is highly achievable.
+
+  From these results RheEnergise have been able to confidently conclude that at
+   industrial scales, HDF will achieve efficiencies comparable to water, validating its
+   viability as a medium for long-duration energy storage.
+
+High Density Fluid Performance
+
+Alongside the performance of the turbomachinery, the demonstrator project has provided vital
+experience and data for both the production and stability of the high density fluid formulation.
+Fluid Production
+
+The demonstrator project achieved the largest scale fluid production by the company to date.
+Following issues with the initial production, the team required three months to make
+improvements to the fluid formulation and troubleshoot equipment and system operation prior
+to restarting. Once production was running the team were able to mix 465m3 of HDF within the
+acceptable range of specific gravity, In just over five weeks, which successfully enabled full
+system testing.
+
+Figure 25 Batch volumes and cumulative fluid output over the production period
+
+
+
+
+
+The overall production rate was 1.09 m3/h. However, optimisations and operator experience
+resulted in an increase to 1.43m3/h in the latter stages. This represents 32% of the nominal
+rate from the design. Figure 25 shows the batch volumes during the production period.
+
+                                                                                 40
+PAGE 41
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+The primary bottleneck was material handling, predominantly a slow barite powder feed,
+suspected to be due to moisture penetrating the bulk bags. It is also felt that assumptions
+made regarding batch sequence timing were optimistic. Many lessons have been learned
+which will inform the design of future commercial-scale systems.
+Fluid Stability
+
+Vitally important to the success of future projects is an understanding of the characteristics of
+the HDF and its stability during the long-term operation of the plant and an ability to test
+modifications of the original fluid management system. The demonstrator provides an
+invaluable facility for this. An initial period of testing during a period of FMS shutdown following
+the first system operation has already provided valuable data. It has indicated that although
+there was a reduction in in fluid density, the fluid has remained sufficiently stable such that it
+can be returned to a homogenised state. Building on this learning is an important next step for
+the team.
+
+
+
+
+
+                                                                                 41
+PAGE 42
+LoDES Final Project Report – RheEnergise High Density Hydro
+Budget
+
+The original funding award was £8.2m. Managing budget overruns has been a significant
+challenge for the project for many reasons. Even with some additional funding awarded, the
+total funding fell short of the final total project spend which reached £10.2m versus a funding
+award of £9.8m.
+
+There are several main reasons for changes to the original project budget.
+
+   •  Inflation: this was identified as a potential project risk from the first monthly progress
+       report and has continued to impact on budgets that were originally forecast in early
+      2022. Due to the delay in construction start, actual costs received from contractors have
+      continued to exceed the original (and adjusted) forecasts.
+   • R & D Cost Estimation-Related Factors: the inherent complexity of R&D projects and
+      the unknown unknowns that come with them make accurate cost estimations a
+       challenge. While the original timelines and budget estimates for this project were based
+     on information available to us at the time, as the project has progressed, we had to
+       readjust some of these estimates (in some cases, multiple times) as our knowledge of
+        this first-of-its-kind-globally energy storage prototype has expanded.
+   •  Extended Construction Programme: the construction programme had been
+     compressed from the original forecast of 16 months to 11 months to meet the original
+      requirements of the funding programme. However, in December 2023, it became clear
+       that it would be necessary to extend the programme to reach an expected completion
+      date of end of May 2025 and then further to November 2025. Inherent to the extensions
+       of the programme were further costs, to maintain the safe construction site, for project
+     management and oversight and continued engineering efforts from the RheEnergise
+      team.
+   •  New/Additional Scope: due to the evolving project design, some items included in the
+      revised project estimates were not originally budgeted (e.g. the inclusion of ‘bubble
+       plates’ in the fluid management system, the provision of a building for the fluid
+      processing (MMS) equipment and additional retaining walls).
+   •  Change to MVP - In October 2025, due to the NZIP programme nearing closure, a
+     change request was made to alter the scope of the project and reduce the volume of
+    HDF to be manufactured to a volume sufficient to reach the Minimum Viable Product
+     (MVP) with an intention to produce the remainder of the fluid later in 2026 when further
+      refinement of the system will be complete. (More details in the section below).
+      Consequently, there was a reduction in funding by £64.5k to reflect the lower volume of
+        fluid being produced prior to project closure bringing the final funding to £9,806,109.
+
+
+
+
+
+                                                                                 42
+PAGE 43
+LoDES Final Project Report – RheEnergise High Density Hydro
+Project Successes
+
+Moving to near-commercial scale
+RheEnergise consider the scaling from laboratory to an operating near-commercial-scale
+system in an operational environment on these timescales as being highly successful. Given
+the complex nature of the technology being developed, the huge number of unknowns and
+major hurdles that the project had to overcome, it could not be viewed as anything other than a
+huge achievement.
+
+Excellent turbine performance results
+Achieving positive performance test results for the turbine and validating our internal modelling
+provides the confidence to develop our design as the technology scales further.
+
+Developing a unique testing facility
+RheEnergise now has a unique space in which to test and further develop HD Hydro. The
+demonstrator is key to proving to investors and others that the technology has progressed to
+TRL 6/7.5 It has led directly to RheEnergise’s securing Euro 2.5m European Innovation Council
+funding to develop technology further and is opening up conversations relating to other
+funding.
+
+Intellectual Property
+The project has delivered opportunities to register and protect intellectual property which
+strengthens our long-term strategic position. To date, 17 patent applications have been made
+with 3 granted and the team continue to explore further application opportunities.
+
+Manufacturer Partnerships
+Working closely with manufacturers as the team developed designs has had significant
+benefits. Unsurprisingly, the best engagement has come from those who have appreciated the
+potential to work with RheEnergise on future projects.
+
+Team Development
+The RheEnergise team have benefited enormously from the project and the opportunities that
+it has presented for both professional and personal development.
+
+
+
+
+
+5 Using the European Commission definitions of TRLs for Industrial Processes where:
+TRL6: Development of a pilot-scale testing plant or unit (1/100th of commercial scale)including engineering-scale
+equivalents of all the operations that will be required at scale. (The demonstrator is 1/10th the scale of a
+commercial project)
+TRL7: Successful demonstration of the continuous operation of the pilot plant/unit during a relevant timeframe.
+                                                                                 43
+PAGE 44
+LoDES Final Project Report – RheEnergise High Density Hydro
+Lessons Learnt
+
+There are numerous detailed technical improvements to be made across all areas that are too
+numerous to present here however some main themes and project delivery lessons are
+detailed below.
+
+Approach to Construction Contracting
+Incorporating everything into one main construction contract, although likely to be more
+expensive, could have reduced risk, time and issues for RheEnergise with co-ordinating works.
+However, it did have advantages given the research-based nature of the project. In areas
+where designs were not entirely developed, the team could remain closer to subcontractors
+and could ensure that changes were made in line with our requirements and with tighter control
+on costs.
+
+Quality of design engineering services
+RheEnergise chose a designer and owner’s engineer with experience mainly in smaller scale
+conventional hydropower sites, which had a material impact on the project. Although this
+selection may have seemed aligned with the scale of the demonstrator, RheEnergise later felt
+that the project needed broader, deeper, and more specialist support.
+
+The need for more in-house engineering and site engineering resource
+RheEnergise worked extensively with consultants to support development of our detailed
+designs. Whilst this approach was very successful in some areas, such as the turbomachinery,
+in others, most particularly the main construction works it is felt that this could have been a
+more effective approach if RheEnergise had employed an in-house site engineer to interrogate
+design and construction work further. This may have avoided issues with over-specification,
+design coordination and the late detection of some major construction defects.
+
+Sequencing of Works
+Following the delays due to the change of site and need for major design changes, there was
+significant pressure on the project team to show progress in the construction. This led to some
+aspects of construction commencing when key aspects of design were being finalised. This
+created a complex array of overlapping work, and occasional confusion about engineering
+priorities. While some phasing (e.g. civil works moving to powerhouse works) or separation of
+clear project areas (e.g. MMS building vs. powerhouse) is reasonable, typical practice would
+be to complete and approve the design of each section of the project before commencing
+construction. While this may have delayed the start of some aspects of construction, a more
+streamlined/linear approach may have saved time overall.
+
+Similarly, there was further overlap in the construction and commissioning stages of the works
+which would ideally be avoided in future projects.
+
+
+
+                                                                                 44
+PAGE 45
+LoDES Final Project Report – RheEnergise High Density Hydro
+
+Procurement Co-ordination and Insistence on Factory Test Reports
+In some instances, sub-systems were separated into different procurement packages which
+were not well co-ordinated off site ahead of final installation. Spending more time integrating
+sub systems off site, rather than rushing to deliver equipment, is likely to have saved time
+overall.
+
+Although Factory Acceptance Tests were carried out for major items of equipment, errors in
+more minor components also caused significant costs and delays at times. Manufacturing
+errors could have been detected earlier with a strict requirement for factory test reports and
+review prior to approving a component for shipping.
+
+Design of Powerhouse Control Systems
+Control systems for the sub systems within the powerhouse were either procured from
+separate vendors (valve actuators, TRS system) or developed in house by RheEnergise (Main
+Control System, FMS Control System). This has created interface and communications
+challenges. A common vendor and further sub-system control integration should be considered
+for future commercial-scale projects to simplify co-ordination and provide standardisation.
+
+Fluid Management and Fluid Production – the need for more extensive pilot-
+testing
+It is felt that further pilot-scale testing off site of sub-systems (particularly those designed in the
+latter stages of the project) would have been very beneficial. Under pressure to deliver on site,
+lessons were learnt at large scale with larger consequential costs in time and budget and this
+could have been alleviated.
+
+Fluid Mixing System– dry material storage
+Although efforts were made to store materials in the dry, the impact of moisture on the mixing
+process had been underestimated. Although it was possible to process the damp feedstock, it
+took about three times as long to mix. Storage conditions are a key consideration for future
+projects.
+
+Fluid Mixing System – operational experience
+The nature of the project precluded a fully automated MMS. However, the trade-off was heavy
+reliance on expert operation during HDF production. This allowed the team to build up a huge
+bank of experience but the HDF production process at scale will require a much higher level of
+automation. There were invaluable learnings regarding the robust processes for quality
+assurance that will be needed, and insights into recovery from process upsets.
+
+Fluid Stability – poor mixing is worse than no mixing
+Experience with HDF at this scale taught RheEnergise that poor/inadequate mixing is worse
+for fluid health than no mixing, as it breaks the gel structure on which stability depends. This
+will be a key consideration in the further development of reservoir designs, the fluid production
+and fluid management system designs.
+
+
+                                                                                 45
+PAGE 46
+LoDES Final Project Report – RheEnergise High Density Hydro
+Reflections on the NZIP funding scheme
+
+The LoDES funding and framework of deliverables has been invaluable to the project, without
+it, the demonstrator is likely to have taken much longer to be constructed, if it got constructed
+at all. However, the funding time constraints both in absolute timing and specific deadlines at
+financial year ends, have presented significant challenges to the successful delivery of the
+project.
+Future Plans
+
+In the immediate future RheEnergise plan to use the demonstrator plant to further refine the
+design and operation of the system. We will be building up operational hours to provide further
+proof of the system’s ability to sustain operation and perform in an industrial environment.
+
+We will collaborate with the site owners to combine the operation of the plant with the on-site
+CHP and planned solar PV plants, demonstrating the potential for behind-the-meter energy
+supply flexibility and reliability.
+
+We were recently awarded a European Innovation Council grant to take the lessons learnt from
+the demonstrator and develop the design for a 5MW, commercial scale, turbine.
+
+Following this work we aim to deliver a 10MW, 6+ hour First-of-a-Kind project to scale from
+demonstrator to full deployment. To finance this development, we are actively pursuing further
+crowd funding in the short term and series A investment within the next six months.
+
+In the longer term RheEnergise’s commercialisation strategy targets global markets, starting
+with mines and quarries, data centres, and regions with high renewable penetration or grid
+constraints.
+
+RheEnergise plan to operate as a service provider to future projects, offering consultancy,
+supply chain facilitation, and O&M services with recurring royalties.
+
+
+
+
+
+                                                                                 46
+PAGE 47
+If you need a version of this document in a more accessible format, please email
+alt.formats@energysecurity.gov.uk. Please tell us what format you need. It will help us if you
+say what assistive technology you use.

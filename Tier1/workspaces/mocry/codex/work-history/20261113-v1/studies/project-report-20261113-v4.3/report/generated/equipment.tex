@@ -1,0 +1,50 @@
+\begin{table}[H]
+\centering\small
+\caption{Per-unit equipment inputs. Capital and fixed operation are in 2020 pounds.}
+\label{tab:equipment}
+{\footnotesize\setlength{\tabcolsep}{2.5pt}
+\begin{minipage}[t]{.49\linewidth}
+\centering
+\textit{(a) Batteries}\par\vspace{3pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Model & Energy & Power & RTE & Capital & FOM \\
+ & (MWh) & (MW) & (\%) & (\gbp k) & (\gbp k/yr) \\
+\midrule
+ST255CS & 0.257 & 0.125 & 90 & 65.6 & 1.90 \\
+LUNA215 & 0.215 & 0.108 & 90 & 55.1 & 1.60 \\
+LUNA241 & 0.241 & 0.108 & 90 & 60.8 & 1.76 \\
+Megapack 2XL & 3.854 & 1.927 & 92 & 1,239 & 31.0 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\raggedright
+RTE is round-trip efficiency. FOM is fixed operation and maintenance.
+Use 20--80\% state of charge and 15 years of service. The initial
+20\% fill is a commissioning cost. Main-case daily self-discharge is zero.
+\end{minipage}\hfill
+\begin{minipage}[t]{.49\linewidth}
+\centering
+\textit{(b) Electrolysers}\par\vspace{3pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Model & Input & Output & Consumption & Min. load \\
+ & (MW) & (kg/h) & (kWh/kg) & (\%) \\
+\midrule
+Neptune II & 2.00 & 35 & 57 & 25 \\
+Neptune V & 5.03 & 90 & 55.9 & 12.5 \\
+Alpha 50 & 50.31 & 900 & 55.9 & 12.5 \\
+MC250 & 1.31 & 22.125 & 59 & 10 \\
+MC500 & 2.54 & 44.25 & 57.3 & 10 \\
+MC1000 & 5.02 & 88.5 & 56.77 & 20 \\
+MC2000 & 10.05 & 177 & 56.77 & 20 \\
+MC4000 & 20.10 & 354 & 56.77 & 20 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\raggedright
+Use a 30-year life. Per MW, capital is \gbp 1.46m, fixed operation
+is \gbp 25.9k/year and each stack renewal costs \gbp 489.6k
+in years 11 and 22.
+\end{minipage}}
+\end{table}

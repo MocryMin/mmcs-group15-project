@@ -1,0 +1,1636 @@
+PAGE 1
+Whole-System Value of Long-Duration
+Energy Storage in a Net-Zero Emission
+Energy System for Great Britain
+
+Independent opinion provided by:
+Dr Danny Pudjianto, Dr Luis Badesa and Prof Goran Strbac
+Dept of Electronic and Electrical Engineering, Imperial College London.
+
+Produced for SSE Renewables
+PAGE 2
+Project Team
+
+Imperial College London:
+Danny Pudjianto
+Luis Badesa
+Goran Strbac
+
+
+Acknowledgements
+The authors appreciate the data provided, guidance, and fruitful discussions from SSE
+colleagues, particularly from Pavel Miller, Sean Kelly, and Emmeline Smart. All the
+suggestions have been valuable and supported the development of relevant studies and
+the corresponding analysis.
+
+Furthermore, the authors would like to express their gratitude to the Engineering and
+Physical Sciences Research Council for the support obtained through the Integrated
+Development of Low-Carbon Energy Systems and Energy Storage for Low Carbon Grids
+programmes, that supported substantial enhancement of the Integrated Whole-Energy
+System (IWES) modelling framework, that has been applied in this study.
+
+
+
+
+
+                                 Page 2 of 51
+PAGE 3
+Contents
+
+Abbreviations .................................................................................................................. 4
+
+Executive Summary .......................................................................................................... 5
+   Context and objective of the studies .................................................................................... 5
+   Key findings ........................................................................................................................... 5
+
+Chapter 1.    Introduction ............................................................................................... 9
+   1.1   Context ....................................................................................................................... 9
+   1.2   Key objectives ........................................................................................................... 10
+   1.3   Energy demand scenario .......................................................................................... 11
+   1.4   Whole-energy system modelling framework ........................................................... 12
+
+Chapter 2.   Whole-system benefits of long-duration energy storage in supporting the
+               cost-effective transition to a zero-carbon energy system ........................... 14
+   2.1   Value of long-term duration storage ........................................................................ 15
+   2.2   Impact on the optimal electricity generation portfolio............................................ 18
+   2.3   Impact on electricity production from wind and nuclear ........................................ 19
+   2.4   Impact on the transmission transfer capability between Scotland and England ..... 20
+   2.5   Impact on the hydrogen storage requirements ....................................................... 22
+
+Chapter 3.   Key parameters that drive the system integration benefits of long-duration
+            energy storage ......................................................................................... 24
+   3.1   Value of PHS in a flexible and inflexible system ....................................................... 25
+     3.1.1    Incremental savings: DR or PHES first                               27
+   3.2   Role and value of variable speed PHES in the context of frequency regulation ...... 28
+   3.3   Impact of constraint at the Scotland and England boundary ................................... 31
+   3.4   Impact of higher GB interconnection ....................................................................... 31
+   3.5   Impact of low-cost offshore wind ............................................................................ 33
+   3.6   Value of PHES with different storage capacity in the system with 50g and zero-
+         emission electricity sector target ............................................................................. 34
+     3.6.1    Impact on the optimal generation portfolio                          35
+     3.6.2    The utilisation of LD-PHES                                        37
+   3.7   Impact of a prolonged period of extremely low wind conditions ............................ 42
+   3.8   Impact of seasonal thermal storage ......................................................................... 43
+
+Chapter 4.   Review of the market and policy framework for long-duration PHES .......... 45
+
+Chapter 5.   Conclusions .............................................................................................. 49
+
+
+
+
+                                 Page 3 of 51
+PAGE 4
+Abbreviations
+
+
+ CCGT           Combined Cycle Gas Turbine
+ CCS             Carbon Capture and Storage
+ DER               Distributed Energy Resources
+ DR           Demand (Side) Response
+ GB              Great Britain
+ IWES             Integrated Whole Energy System model
+ LCOE             Levelized Cost of Electricity
+ LD-PHES          Long-Duration Pumped Hydro Energy Storage
+ OCGT          Open Cycle Gas Turbine
+ P2G            Power to gas (electrolysers)
+ PHES          Pumped Hydro Energy Storage
+ PV                Photovoltaics
+ RES            Renewable Energy Sources
+ LT-TES           Long-term Thermal Energy Storage
+
+
+
+
+
+                                 Page 4 of 51
+PAGE 5
+Executive Summary
+
+Context and objective of the studies
+This report describes the role and value of new long-duration energy storage in facilitating
+a cost-effective transition to a net-zero carbon Great Britain (GB) energy system. The
+report is specifically focused on quantifying the value of new long-duration pumped hydro
+energy storage (LD-PHES) in Scotland, as the current most established long-duration
+energy storage technology. The assessment approach used in the studies can be applied
+to other energy storage technologies (e.g. thermal and hydrogen storage), taking into
+consideration specific technology characteristics.
+A range of studies has been carried out via Whole-Energy-System Model to quantify the
+system integration benefits and value of LD-PHES across the entire system. This modelling
+provides core evidence related to both system implications of the technology, focusing on
+the  impact on  the  optimal  portfolio  of  other  technologies and  infrastructure
+requirements, particularly the amount and value of the avoided investment in low carbon
+and conventional generation, investment in transmission network between Scotland and
+England, including the savings in system operation cost through providing balancing
+services.
+Moreover, the key parameters that drive the system integration benefits of LD-PHES are
+identified and have been subject to furthermore specific modelling focusing on the impact
+on the value of LD-PHES of:
+     -  The presence of other flexibility technologies including on the demand-side, e.g.
+      EV batteries
+     -   Energy storage capacity on the provision of frequency response
+     -  Network constraint at the Scotland-England boundary
+     -   Higher GB interconnection capacity with Europe
+     -   Lower-cost offshore wind
+     -   Different carbon targets
+     -   Prolonged periods of extremely low-wind conditions
+     -   Seasonal thermal storage
+Finally, the report assesses the current market and policy framework's suitability for
+delivering appropriate investment signals for long-duration storage.
+
+Key findings
+Benefits of long duration pumped hydro energy storage
+
+•  New LD-PHES reduces the system costs by providing the following services to the GB
+    energy transition to a net-zero emission energy system:
+
+
+                                 Page 5 of 51
+PAGE 6
+Total system cost savings
+Using the Integrated Whole-Energy System (IWES) model developed by Imperial, the
+following system savings are:
+•  The range of new LD-PHES capacity analysed in the study is between 300 MW and
+   4500 MW power rating with 30 GWh and 90 GWh of energy storage volume.1 The
+    total gross electricity system cost savings from new LD-PHES are between £44m and
+   £690m per year in 2050, with more savings made when the energy storage volume is
+    higher, and system flexibility is lower.
+•  75% of these system savings are from the avoided capital cost in low carbon electricity
+    generation technologies that would otherwise be needed to meet decarbonisation
+   and security of supply objectives. For example, assuming 100h of storage, new 1GW
+    of LD-PHES capacity can help to "firm up" variable renewables to replace 750MW of
+    firm low carbon generation (such as nuclear, hydrogen-based generation, CCS). This
+    ability depends on the duration of energy storage and system conditions that drive
+   the demand for long-duration storage (e.g. a prolonged low-wind period).
+
+
+Wider benefits of LD-PHES
+
+•  New LD-PHES reduces the system costs by providing the following services to the GB
+    energy transition to a net-zero emission energy system:
+
+     -  New LD-PHES reduces wind curtailment in the GB electricity system (between
+     3TWh and 11TWh a year), by storing excess renewable output and discharging it
+      when needed.
+     -   LD-PHES, in particular, can provide critical ancillary services needed for integrating a
+       high penetration of renewable generation, e.g. frequency response, significant
+        contribution to system inertia and operating reserves.
+     -   LD-PHES can reduce system emissions by displacing some conventional (fossil-fuel
+       based) mid-merit and peaking plant.
+     -   LD-PHES supports network congestion management. New LD-PHES in Scotland could
+       reduce the need for up to 2GW of transmission between Scotland and England in
+       2050, saving up to £2bn in avoided capex.
+
+LD-PHES complements other storage and flexibility technologies
+
+•   Comparing the cases of LD-PHES of 900MW power rating with 30 GWh and 90 GWh
+
+
+
+     1 The values are based on 77 GW of wind in GB under the 2050 system background used in the
+    study.
+
+                                 Page 6 of 51
+PAGE 7
+    of energy volume, the savings are still considerable, between £100m and £231m p.a.
+    in 2050, even with high flexibility levels from DR, EVs and interconnection. As the
+   modelling optimises the use of all flexibility technologies to minimise the total system
+    costs, it will first allocate DR and EVs and then LD-PHES to provide short-term services
+    as needed (which is system condition dependant). Hence LD-PHES provides both short
+   and long-term system services.
+•  New LD-PHES could reduce the need for hydrogen storage by up to 10% (110GWh) in
+   2050 given the close interactions between the hydrogen and electricity systems (H2
+    for power generation).
+
+
+Value drivers of LD-PHES
+
+•     If, as expected, the electricity sector needs to achieve zero carbon emissions by 2050 then
+   system savings from new LD_PHES (2GW, 200GWh) would reach £411m per year in a
+    highly flexible GB system (a high level of distributed demand-side response is available).
+    In the case of lower availability of flexibility, the savings rise to £511m per year.
+•   As expected, the benefits of flexibility provided by LD-PHES are strongly affected by
+   the carbon intensity target. The results demonstrate that the value in 2030 with 50g
+     is much smaller than the value in 2050 with 0g carbon target.  For example, with
+   LD_PHES (2GW, 200GWh), no DR and 50g carbon target, the savings are £99m/year,
+    while the savings increase to £511m/year when the carbon target reaches 0g.
+•   The savings from new LD_PHES increase with growth in wind generation penetration. For
+    example, LD-PHES of 4.5 GW power rating with 90 GWh of energy volume, the system
+    savings increase to £550m per year in a system with 120GW of wind, compared to the
+   £316m savings with 77GW of wind.
+•   Insufficient network capacity between Scotland and England or limited boundary capacity
+   – a lower transmission capacity increases the value of LD-PHES (4.5GW, 90GWh storage)
+   from £316m to £350m per year
+•   Increase in the ratio between energy storage volume (MWh) and capacity (MW) increases
+    storage value as it can provide the system services more often and over longer duration.
+•   Modelling results present both total system benefits and per-unit benefits of LD-PHES
+    installed. As expected, increasing the amount of LD-PHES installed, increases the total
+   system benefits, while the per-unit benefits reduce.
+•   The system's ability to cope with a prolonged period of low renewable output during peak
+   demand whilst not substantially increasing emissions;
+
+The Policy and Market Framework for LD-PHES
+
+•   The value of LD-PHES can be remunerated via current market frameworks as these are
+    evolved to ensure carbon intensity aligns with net-zero objectives, e.g. arbitrage in
+    wholesale markets, ancillary services, and new addition flexibility services. However,
+    there is a large amount of uncertainty related to those revenue streams' size and volume,
+
+                                 Page 7 of 51
+PAGE 8
+   making the investment case challenging for high capex long-duration storage technologies
+     like LD-PHES.
+
+•   Furthermore, the current market framework does not recognise the benefit of LD_PHES
+    in reducing future capex costs of new high-cost firm low carbon generation, which are
+    otherwise needed to meet decarbonisation and security of supply objectives.
+
+•   The development of such a market framework, or the alternatives, warrants further
+    analysis. One of the options is to develop a real-time carbon price market that captures
+    the investment and operating cost of the system to meet the carbon target. In this case,
+      it can provide an appropriate economic signal and incentive for the LD_PHES to support
+    the integration of renewables and reduce the required capacity of high-cost firm low-
+   carbon technologies.
+
+•   Moreover, there is also a need to investigate further how the cross-sector technology
+    benefits of LD_PHES, e.g. integration between hydrogen infrastructure and the electricity
+    system, can be recognised to maximise potential cost savings to energy consumers.
+
+
+
+
+
+                                 Page 8 of 51
+PAGE 9
+Chapter 1. Introduction
+
+
+1.1  Context
+Previous analysis2,3 carried out at Imperial College London demonstrated that meeting the
+zero-emission target cost-effectively would require a significant capacity of firm low
+carbon generation (such as nuclear, hydrogen-based generation, CCS). The need for
+nuclear is primarily driven by the variability of renewable production and the need to
+eliminate emissions associated with management of demand-supply balance. The analysis
+also demonstrated that the need for firm low-carbon generation is significantly less critical
+for the 2030 carbon targets. Hence, in the zero-carbon case, a significant amount of
+variable renewables are replaced by firm low-carbon generation capacity, although the
+cost of renewable generation is significantly lower. The analysis revealed the need for
+long-duration energy storage to achieve zero-carbon emissions with a lower capacity of
+higher-cost firm low-carbon generation.
+However, there are still many open questions regarding the value of long-duration energy
+storage, and the synergy or competition with other flexibility technologies such as
+demand response, short-duration storage, and other forms of energy storage such as
+hydrogen and seasonal thermal storage. For example, the previous analysis results that
+focused on hydrogen storage showed that during periods of high RES output, the excess
+energy would be converted into hydrogen by electrolysers ("Power-to-Gas") and stored
+in hydrogen storage. While during periods of low output of RES, the stored energy would
+produce electricity via hydrogen-based power generation. The previous analysis also
+demonstrated the stronger coupling between different energy vectors that indicates
+more complex  challenges  in evaluating the  role and value  of  specific  flexibility
+technologies, such as long-duration pumped hydro energy storage (LD-PHES).
+Optimising the interaction across energy storage technologies also needs to consider the
+technologies' specific technical characteristics, e.g. efficiency losses, ramping capability,
+ability to provide response and reserve services. For example, the efficiency of LD-PHES is
+
+
+
+2 G.Strbac, D. Pudjianto, et al,”Analysis of Alternative UK Heat Decarbonisation Pathways”, a report to
+  the Committee on Climate Change, June 2018.  Available  at: https://www.theccc.org.uk/wp-
+  content/uploads/2018/06/Imperial-College-2018-Analysis-of-Alternative-UK-Heat-Decarbonisation-
+  Pathways.pdf
+
+3 G.Strbac, D.Pudjianto, F.Teng, D. Papadaskalopoulos, G.Davies, and A.Shakoor,”Roadmap  for
+  Flexibility Services to 2030,” a report to the Committee on Climate Change, London, May 2017. Link:
+  https://www.theccc.org.uk/wp-content/uploads/2017/06/Roadmap-for-flexibility-services-to-2030-
+  Poyry-and-Imperial-College-London.pdf
+
+                                 Page 9 of 51
+PAGE 10
+c.75% while using hydrogen storage to store energy to be used for electricity later is
+currently much lower, i.e. around 40%-50%. Therefore, the efficiency losses are lower if
+LD-PHES is used instead of hydrogen storage. In the long term, hydrogen storage could
+provide significant energy storage capacity, and the cost is relatively lower; therefore, the
+optimal portfolio of energy storage should be assessed considering all the aspects above.
+
+1.2 Key objectives
+In this context, this report describes in detail the role and value of new long-duration
+energy storage in facilitating a cost-effective transition to a low carbon energy system. LD-
+PHES is currently the most mature, proven long-duration electricity storage technology.
+However, it can be used as a proxy for other long-duration energy storage technologies
+such as compressed air, liquid air, flow batteries, seasonal thermal storage, and stacked
+blocks technologies. In this work, we focus our studies on the new LD-PHES in Scotland,
+although we  also  investigate  the  interaction between  different  energy  storage
+technologies.
+We have carried out a range of studies and applied the whole-energy-system modelling
+approach to quantify the system integration benefits and value of LD-PHES across the
+entire system in 2050, as the first objective of the work. This work identifies both the
+system implications of the technology (how it will change the optimal portfolio of other
+technologies and infrastructure requirements, particularly the amount and value of the
+avoided investment in conventional and low carbon generation and transmission network
+between Scotland and England) and the value of benefits along the value chain, i.e. savings
+in operation cost through providing balancing services.
+The second objective is to identify the key parameters that drive the system integration
+benefits of long-duration energy storage. We have carried out a spectrum of sensitivity studies
+looking at the impact of:
+
+     -  The presence of other flexibility technologies such as demand response
+     -   Energy storage capacity on the provision of frequency response
+     -  Network constraint at the Scotland-England interconnector
+     -   Higher GB interconnection to Europe
+     -   Low-cost offshore wind
+     -   Different carbon targets
+     -   Prolong period of extremely low-wind conditions
+     -   Seasonal thermal storage
+on the value of LD-PHES.
+Finally, the third objective is to assess the appropriateness of the present market and
+policy framework. The studies provide the revenue streams associated with the provision
+of different system services by long-duration energy storage. This work provides
+fundamental evidence regarding the weaknesses of the current market design and
+
+                                 Page 10 of 51
+PAGE 11
+decarbonisation  policy framework  in  delivering  appropriate incomes  that  justify
+investment in long-duration energy storage technologies. A key consideration is to assess
+the efficiency of the current energy system planning processes while considering cost-
+effective energy system decarbonisation, contribution to the security of supply and ESO's
+Network Options Assessment process, and how this could quantify the optionality / least-
+regret benefits of an LD-PHES asset compared with network assets.
+
+1.3  Energy demand scenario
+The study is based on an optimised system constructed by the IWES model, which assumes
+that full coordination across all energy system components can be achieved. The study uses
+the future (2050) annual system energy demands of domestic and non-domestic sectors
+provided by the CCC4:
+
+   •   Total annual non-heat and non-transport electricity demand: 367 TWh
+   •   Total heat energy demand: 633 TWh; it is assumed that heat will be decarbonised
+       through electrification.
+   •   Total transport-related-electricity demand: 111 TWh
+The composition of the energy demand used in the study is summarised in Figure 1-1.
+
+
+
+
+
+                        Figure 1-1 Composition of energy demand
+
+
+
+
+
+4 G.Strbac, D. Pudjianto, et al,”Analysis of Alternative UK Heat Decarbonisation Pathways”, a report to
+the Committee on  Climate  Change,  June  2018.  Available  at:  https://www.theccc.org.uk/wp-
+content/uploads/2018/06/Imperial-College-2018-Analysis-of-Alternative-UK-Heat-Decarbonisation-
+Pathways.pdf
+                                 Page 11 of 51
+PAGE 12
+1.4 Whole-energy system modelling framework
+
+To study the role and value of longer duration PHES considering the interaction between
+different energy vectors, we will simulate and optimise a set of pathways using the
+Integrated Whole-Energy System (IWES) model developed by Imperial.
+The IWES model incorporates  detailed modelling  of the energy system, heating
+technologies, including district heating, heat network, heat pumps (air/ground source,
+hybrid) and a module that optimises the hydrogen infrastructure. Overall, the IWES model
+includes  electricity,  gas, hydrogen and heat systems and  captures the complex
+interactions across those energy vectors, as shown in Figure 1-2.
+
+
+
+
+
+             Figure 1-2 Interaction between gas, heat, and electricity systems
+
+In summary, the IWES model minimises the total cost of long-term infrastructure
+investment and short-term operating cost while considering the flexibility provided by
+different technologies and advanced demand control while meeting carbon targets. The
+IWES model includes  electricity,  gas, hydrogen and heat systems, simultaneously
+considering both short-term operation and long-term investment decisions covering both
+local district and national/international level energy infrastructure, including carbon
+emissions and security constraints.
+For the purposes of this study, the IWES model has been set up to:
+   •  Take into consideration system variability and optimise the operation of the
+       energy system on an hourly basis;
+   •   Reflect the technical needs of balancing the supply and demand of energy across
+        different time horizons (seconds to years), including maintaining grid frequency
+      and providing system inertia; while reflecting the dynamic parameters and
+        technical limitations of the selected portfolio of energy sources;
+                                 Page 12 of 51
+PAGE 13
+   •  Have a robust representation of demand and outputs of intermittent technologies
+      on an hourly/half-hourly basis, considering spatial differences, correlation of
+       renewable output and demand; whilst allowing opportunities for demand-side
+       response to be analysed;
+   •  Model electricity systems in GB and Europe to reflect the correlation of both
+         electricity demand and supply with interconnected markets (e.g. benefit from
+        diversity in renewable generation patterns through optimising interconnectors
+        flows);
+   •   Identify operating reserve requirements at different timescales;
+   •   Include all components of system cost, i.e. capital, generation, carbon, operation
+      and maintenance,  transmission and  distribution, energy  storage  (thermal,
+         electricity, hydrogen), and transport of gas/hydrogen/carbon to storage;
+   •   Reflect  the  impact on  bulk  transmission  and  distribution  infrastructure
+       requirements and costs for different network characteristics (e.g. urban and rural)
+      and
+   •   Incorporate distributed generation (e.g. solar PV, battery storage) connected
+        directly to the distribution network.
+
+The main outputs of the model include:
+   •  Optimised energy infrastructure including the capacity and technology choices for
+      power generation, hydrogen and heat sources
+   •  The capacity of transmission and distribution infrastructure for electricity and
+       gas/hydrogen, including the consideration of grid constraints and required
+       reinforcements
+   •  Energy storage, including electricity, thermal and hydrogen storage
+   •  Emissions and generation/production by technology, including electricity and
+      hydrogen production
+   •   Capital and maintenance expenditure of gas and electricity infrastructures
+   •  Operating costs including fuel costs, and balancing costs for the energy system and
+       the cost of transporting hydrogen/carbon
+The model results are used to analyse the technical and cost implications of LD-PHES when
+considering an optimised development and operation of the future UK's low carbon
+energy system.
+
+
+
+
+
+                                 Page 13 of 51
+PAGE 14
+Chapter 2. Whole-system benefits
+           of long-duration energy
+          storage in supporting
+          the cost-effective
+           transition to a zero-
+         carbon energy system
+
+
+This chapter quantifies and analyses the energy system implications, and the cost savings
+attributed to new long-duration pumped hydro energy storage (LD-PHES) in Scotland with
+different configurations. The study was carried out using the test system background
+described in section 1.3, and the IWES modelling tool explained in section 1.4.
+
+                              Key highlights
+
+   •  The total system cost savings from new LD-PHES (range: 30 GWh – 90 GWh, 300
+   MW - 4500 MW) are between £44m and £316m per year with more savings the
+       higher the storage volume is (assuming high flexibility levels from DR, EVs and
+       interconnection).
+   •  Avoided capital cost in electricity generation technologies makes up 75% of the
+       value of new LD-PHES. Most of the savings come from the reduction of low-carbon
+       generation. There other substantial savings are in terms of avoided generation
+       operating costs and network reinforcement costs.
+   •  New LD-PHES integrates more wind on to the system (between 3TWh and 11TWh
+      a year), whilst substantially reducing the need for nuclear and other firm low
+      carbon generation technologies.
+   •  New LD-PHES in Scotland could reduce the need for up to 2GW of transmission
+      between Scotland and England in 2050.
+   •  New LD-PHES could reduce the need for hydrogen storage by up to 10% (110GWh)
+        in 2050 given the close interactions between the hydrogen and electricity systems.
+      However, they would continue to play complementary roles.
+
+
+
+
+                                 Page 14 of 51
+PAGE 15
+2.1  Value of long-term duration storage
+Scenarios
+
+The study uses two aggregated effective energy storage capacities, i.e. 30 GWh and 90 GWh
+with different power ratings such that it creates three energy storage configurations with 20h,
+33.3h, and 100h duration. It would be attributable to the total fleet of new LD-PHES, rather
+than a single new station. These durations indicate how long the new LD-PHES fleet can
+produce electricity at the maximum output. Therefore, six LD PHES configurations are being
+studied:
+
+     -  30 GWh storage with 300 MW, 900 MW, and 1500 MW power rating
+     -  90 GWh storage with 900 MW, 2700 MW, and 4500 MW power rating
+
+The system's annual costs with the new LD -PHES following the above configurations are
+compared with the annual costs of the counterfactual system, i.e. the system without the new
+LD-PHES. The changes in the annual system costs are analysed, and the results are presented
+in Figure 1-2.
+
+Total cost savings
+
+The total annual cost of the system with 30 GWh of new PHES is lower by 44 million to 121
+million pounds per year in 2050 (depending on its power rating) than the counterfactual
+system's total cost. The saving with 90 GWh of new PHES is larger (between 200 million to 316
+million pounds per year). It is important to note that the cost of new PHES is not included and
+therefore, the savings should be treated as gross savings that can be used to inform the
+investment case for new LD-PHES. Nevertheless, even with the cost of new PHES included,
+there are significant savings.
+
+The results below demonstrate that the new LD-PHES can reduce the capex investment costs
+required in power generation (both low-carbon and non-low-carbon generation), the capital
+cost of the electricity network, and decrease electricity operating costs. The presence of new
+PHES also affects the capacity requirement of hydrogen infrastructure. The interaction
+between the PHES and hydrogen storage has also been analysed and discussed later in section
+3.6.
+
+
+
+
+
+                                 Page 15 of 51
+PAGE 16
+  Figure 2-1 Changes in the annual energy system costs attributed to the new long-term
+                                   duration PHES
+
+Except for the case with 300 MW and 30 GWh storage, the savings in power generation's
+capital cost are the highest compared to other benefits. It represents more than 75% of the
+value of the new PHES. Most of the savings come from the reduction of low-carbon
+generation. While for the 300 MW case, the savings in the generation, transmission, and
+electricity operating cost are relatively similar. The implications of the new PHES on the power
+generation are discussed in more detailed in section 2.2.
+
+The second-largest benefit is obtained from the reduction in operating cost, followed by the
+reduction on the electricity network, i.e. transmission. However, the impact on transmission
+is quite complex since it is affected by the presence of LD-PHES and the changes in the
+generation portfolio. While the required capacity of the Scotland-England interconnection (as
+discussed later in section 2.4) decreases, other parts of the transmission system, e.g. the
+transfer capability between North and South Scotland may need to be reinforced. The impact
+on the hydrogen system also varies; in some cases, the new PHES may increase the cost of
+hydrogen infrastructure due to the increased level of renewables in the system.
+
+Savings per MW
+
+While increasing the power rating of the PHES increases the cost savings non-linearly, the
+average cost savings per MW will decrease, as shown in Figure 2-2 and Figure 2-3 below. For
+the 30 GWh cases, the average values of PHES are between £80 and £150 per kW per year.
+While for the 90 GWh cases, the values vary between £70 and £222 per kW per year.
+
+
+                                 Page 16 of 51
+PAGE 17
+  Figure 2-2 The whole-system value and the average system savings of 30 GWh storage
+                               with different ratings
+
+
+
+
+
+  Figure 2-3 The whole-system value and the average system savings of 90 GWh storage
+                               with different ratings
+
+Based on these results, we can conclude the following:
+
+     -   Higher storage volume increases the value of LD-PHES. The savings from a 90GWh
+
+                                 Page 17 of 51
+PAGE 18
+      LD-PHES fleet are double those from 30GWh.
+     -   Increasing the power rating of storage increases non-linearly the system savings
+       as it reduces the power system capacity requirement, but the benefit diminishes
+       with the increased power rating.
+
+2.2  Impact on the optimal electricity generation portfolio
+The highest benefit of LD-PHES is in the capital cost savings of electricity generation. Figure
+2-4 shows the system's optimal generation portfolio changes with the new LD-PHES compared
+to the counterfactual. The positive change indicates that the new LD-PHES enables more
+capacity to be integrated into the system, while the negative change indicates that those
+capacities have been displaced.
+
+
+
+
+
+             Figure 2-4 Impact of new LD-PHES on power generation capacity
+
+The results show the following:
+
+     -  More wind power can be integrated with new LD-PHES. New LD-PHES brings
+      more flexibility, improving the system balancing capability and reducing wind
+
+
+
+
+                                 Page 18 of 51
+PAGE 19
+       energy curtailment. Flexibility reduces the system integration cost of wind5  ,
+      making it more competitive. Therefore, it can increase the wind capacity that can
+      be integrated into the system.
+     -   Increased storage volume is more important than increased power capacity. It
+       demonstrates that LD-PHES  facilitates the integration of wind power more
+        effectively than shorter-duration storage. The increased volume of wind is not
+        linear to the increase in the rating of LD-PHES. For example, 900MW 30GWh
+       storage enables around 900MW more wind power to be connected. Having a
+       higher power rating of the LD-PHES fleet to 1500MW increases the new wind
+       capacity slightly to around 1000MW. However, increasing energy storage volume
+      from 30GWh to 90GWh enables 900MW to 2200MW wind capacity to be
+        integrated.
+     -   LD-PHES acts to 'firm up' variable renewables, and therefore, the need for firm
+      low carbon power generation (such as nuclear, hydrogen-based generation, CCS)
+          is reduced. The volume of nuclear that can be displaced per MW of installed LD-
+      PHES depends on the energy storage volume. For example, for the 100h storage,
+      between 0.75 to 1 MW the nuclear capacity can be displaced by increased wind
+       capacity supported by 1 MW LD-PHES. The ratio decreases to around 0.3 MW
+       nuclear per MW LD-PHES for the 20h storage.
+     -   LD-PHES has capacity value, and therefore,  it can displace firm generation
+        capacity. Studies demonstrate that the capacity value of storage depends not only
+      on the power rating of the storage but also the energy storage capacity as it has
+       to cover the duration of the peak demand. In this study, the 20 h to 100 h of energy
+       storage capacity is sufficient to maximise its capacity value.
+     -  Some CCGT capacity can also be displaced by OCGT running with green gas as the
+      CCGT capacity factor decreases along with the increased wind penetration. It is
+       important to highlight that the capex of CCGT is higher than the OCGT capex, and
+        therefore, it may be more cost-efficient to displace low load factor CCGT with
+     OCGT using green gas.
+
+2.3  Impact on electricity production from wind and nuclear
+The benefits of LD-PHES in integrating a higher capacity of wind power whilst reducing the
+need for firm low-carbon generation technologies such as nuclear are also depicted in Figure
+2-5. It shows the annual electricity production changes from wind power and nuclear power
+compared to the production  in the counterfactual scenario. The results demonstrate
+increased electricity production from wind power while the nuclear power output decreases
+because it is not needed. In Figure 2-5, the electricity generation changes by wind power are
+
+
+
+5 G. Strbac, M. Aunedi, D. Pudjianto, F. Teng, P. Djapic, R. Druce, A. Carmel, and K. Borkowski, “Value of
+  Flexibility in a Decarbonised Grid and System Externalities of Low-Carbon Generation Technologies,”
+  Imp. Coll. London, NERA Econ. Consult., 2015.
+                                 Page 19 of 51
+PAGE 20
+greater than the displaced electricity production from nuclear primarily due to the loss
+efficiency of the storage.
+
+The results also demonstrate the same findings as discussed previously, that long-duration
+storage will be able to integrate more wind than shorter duration storage. For example,
+comparing the results from the 900 MW power rating with 30 GWh and 90 GWh energy
+storage, the case with LD-PHES increases the electricity production from wind three times
+compared with high flexibility levels from DR, EVs and interconnection shorter-duration
+storage.
+
+
+
+
+
+       Figure 2-5 Impact of LD-PHES on electricity production from nuclear and wind
+
+While increasing the power rating of the new LD-PHES increases the volume of electricity
+production from wind power, the benefit diminishes, as shown in Figure 2-5. For example, the
+volume of additional wind energy in the case with 900 MW and 90 GWh storage is around 8
+TWh year-1, the volume increases to around 11 TWh year-1 for the 2700 MW. From this point,
+the volume does not increase substantially even if the capacity is increased to 4500 MW.
+
+2.4  Impact on the transmission transfer capability between Scotland
+    and England
+LD-PHES in Scotland can also provide a service to manage transmission network congestion,
+for example, at the Scotland-England border. During high wind periods, when the network is
+congested, the LD-PHES can store the wind energy to relieve the congestion and discharge the
+energy back to the grid during low-wind conditions. Using IWES, the volume of transmission
+
+                                 Page 20 of 51
+PAGE 21
+capacity needed and the implications of the new LD-PHES to the capacity needed can be
+quantified and analysed.
+
+In this context, the required capacity of the Scotland-England interconnectors (East and West,
+i.e. SS-NEE and SS-NEW) for different cases is calculated by IWES, and the results are shown
+in Figure 2-6.
+
+
+
+
+
+  Figure 2-6 Impact of LD-PHES on transmission capability between Scotland and England
+
+Without  the new  LD-PHES  plants,  the  counterfactual  system  will  require  a  total
+interconnection capacity of around 10.8 GW between Scotland and England in 2050 compared
+to circa 6 GW today. With new LD-PHES plants, the transmission capacity required reduces, as
+shown in Figure 2-6. For example, with 900 MW 30 GWh storage, the total capacity required
+decreases to 10.4GW. The capacity required does not change when the storage capacity
+increases to 90 GWh. However, if the rating of LD-PHES is 4500 MW (although with the same
+90 GWh energy storage), the total transmission capacity requirement decreases by 2 GW to
+8.8 GW. It is important to note that storage may have capacity benefits across multiple system
+boundaries.
+
+The results demonstrate that the benefit of the LD-PHES in providing network congestion
+management correlates more strongly to the rating of the LD-PHES, although the benefit also
+diminishes along with the increased capacity of new LD-PHES. Although it is not demonstrated
+in the study, we can conclude that sufficient storage capacity is also required since there may
+be a need to reduce the flows for several hours. Given the assumptions taken in the study and
+the assumed storage capacity (20h – 100h), the results show that such capacity is sufficient
+for transmission congestion services.
+
+                                 Page 21 of 51
+PAGE 22
+2.5  Impact on the hydrogen storage requirements
+Power-to-gas (electrolysers) and hydrogen-based power generation create links between the
+electricity and hydrogen systems. The flexibility in the hydrogen system provided by hydrogen
+storage can benefit the electricity system. On the other hand, since part of the hydrogen
+demand potentially comes from power generation, the electricity system's flexibility that
+changes the temporal variation of hydrogen demand may also affect the need for hydrogen
+storage. In this context, we investigate the impact of LD-PHES on the need for hydrogen
+storage in the system. The results are presented in Figure 2-7.
+
+
+
+
+
+          Figure 2-7 Impact of LD-PHES on the requirement of hydrogen storage
+
+In this study, hydrogen is used to fuel power generation. The main source of hydrogen is
+bioenergy through gasification with carbon capture and storage. The biomass plants run at a
+high load factor to reduce its capex but the hydrogen demand for power generation (around
+93 TWh/year) varies in time depending on, among others, wind power output. Therefore,
+hydrogen storage is needed to enable supply and demand balance in the hydrogen system.
+
+As shown in Figure 2-7, the integration of new 30 GWh or 90 GWh LD-PHES reduces the need
+for hydrogen storage by around 70 GWh in the case with 30 GWh LD-PHES. Increasing the
+power rating of LD-PHES has a small impact. A similar pattern is found with the 90 GWh LD-
+PHES; it reduces the hydrogen storage requirement by around 110 GWh. The reduction is not
+linear to the increased LD-PHES capacity since the whole-system evolves and optimised by the
+model.
+
+While hydrogen storage can provide low-cost bulk energy storage, converting electricity to
+hydrogen and back to electricity incurs substantial losses. The overall energy conversion
+efficiency is only 40%-50%. In comparison, the efficiency of LD-PHES is above 75%. Therefore,
+
+                                 Page 22 of 51
+PAGE 23
+it is expected that both technologies will work complementarily, although at a certain extent,
+also compete with each other.
+
+
+
+
+
+                                 Page 23 of 51
+PAGE 24
+Chapter 3. Key parameters that
+          drive the system
+          integration benefits of
+          long-duration energy
+          storage
+
+
+This chapter discusses the main findings from the sensitivity studies that have been analysed
+to identify the implications of different system conditions on the system value of the LD-PHES.
+The sensitivity studies analyse the impact of the following:
+
+     -  The presence of other flexibility technologies including on the demand-side, e.g.
+      EV batteries
+     -   Energy storage capacity on the provision of frequency response
+     -  Network constraint at the Scotland-England border
+     -   Higher GB interconnection
+     -   Lower-cost offshore wind
+     -   Different carbon targets
+     -   Prolonged periods of extremely low-wind conditions
+     -   Seasonal thermal storage
+
+                             Key highlights
+
+  •  The value of new PHES is between £100m and £231m per year in 2050 even in a
+      highly flexible system with competing technologies (for 900MW plant capacity and
+     volume of energy storage between 30GWh and 90GWh). In an inflexible system the
+      benefit of new PHES increases to £190m - £481m per year.
+  •  Value of flexibility diminishes; technologies deployed upfront will have a higher
+      value. The value of PHES after the deployment of demand response is around £100m
+     year while if the PHES is deployed upfront, the value is £190m/year.
+  •  LD-PHES complements the presence of short-duration flexibility such as DSR, short
+     duration energy storage.
+  •  The value of frequency support provided by PHES in pumping mode is significant for
+     a system with 20GW - 60GW wind capacity (potential value of £200m - £1bn/year in
+      inflexible system).
+  •  The value of variable speed is small.
+  •  LD-PHES provides more valuable frequency support than short-duration storage as
+        it can operate longer to provide the services continuously.
+
+
+                                 Page 24 of 51
+PAGE 25
+                              Key highlights
+
+  •  The  benefits  of LD-PHES  in  Scotland  amplifies  if  there  is no  transmission
+      reinforcement between Scotland and England.
+  •  The impact of a higher GB interconnection capacity (30GW total) on the value of new
+     LD-PHES is relatively small, a reduction of up to £40m/year across all cases. It
+      indicates that there is not only competition but also synergy between the flexibility
+     from interconnection and the long-duration energy storage.
+  •  Low-cost offshore wind increases the penetration of wind which amplifies the
+      benefits of LD-PHES (4500 MW, 90 GWh) to £550m/year.
+  •  The benefits of LD-PHES are strongly affected by carbon targets. Considering a case
+      of 2GW of LD-PHES with 20 GWh storage (10h) and 200 GWh (100h), for the
+     50gCO2/kWh the benefits are between £6m (10h) in a flexible system and £99m
+      (100h) per year in an inflexible system; while the benefits with net-zero emissions
+      are between £93m (10h) in flexible and £511m (100) per year in inflexible system.
+  •  The utilisation factor of LD-PHES increases by 3% in a system with a lower carbon
+       target. A higher volume of energy storage also increases the utilisation factor of LD-
+      PHES.
+  •   Since the main benefits of LD-PHES are in enabling low-cost variable low-carbon
+      technologies, the prolonged extreme low-wind conditions beyond the energy
+      storage capacity will reduce significantly the benefits of LD-PHES.
+  •  LD-PHES competes but also works in synergy with Long-duration Thermal Energy
+
+3.1  Value of PHS in a flexible and inflexible system
+A set of studies is used to investigate the impact of other flexibility technologies, such as EVs,
+on the value of new PHES. We assume no increased demand response in an inflexible system
+compared to today, no new energy storage except the new PHES. The study assumes a high
+demand response in the flexible system, and IWES is allowed to install new battery storage if
+needed. The demand response comes from different sources, including industrial and
+commercial customers (3.5%), electric vehicles (40%), and smart appliances (20.5%). In this
+study, the demand response provides short-term flexibility as some percentage of the energy
+demand can be shifted within one day. Demand response can also provide frequency response
+and balancing services. Thus, the demand response-based services compete directly with the
+flexibility services from the new PHES. The cost of demand response is negligible, and the
+efficiency losses due to load-shifting are assumed to be small.
+
+Using the same approach as described previously, we quantify the value of new PHES under
+two system conditions: an inflexible and flexible system. The 30 GWh and 90 GWh energy
+storage capacity  results are compared and presented  in Figure 3-1 and Figure  3-2,
+respectively.
+
+
+                                 Page 25 of 51
+PAGE 26
+      Figure 3-1 Value of new 30 GWh PHES in a flexible and inflexible energy system
+
+
+
+
+
+      Figure 3-2 Value of new 90 GWh PHES in a flexible and inflexible energy system
+
+As demonstrated by Figure 3-1, the system benefits of the new PHES in a flexible system are
+much lower than in the inflexible system. Consequently, the impact on the system savings will
+also be reflected in the savings per MW PHES. For example, for the 900 MW 30 GWh storage,
+the benefit is around £100m/year in the flexible system. Without other flexibility technologies,
+the benefit increases to around £190m/year; the difference is £90m/year. For the 90 GWh
+storage, the finding is the same, but the difference tends to be higher. For example, for the
+2700 MW 90GWh storage, the benefit  is around £231m/year; this value increases to
+£481m/year in the inflexible system; the difference is £250m/year. The impact of other
+flexibility technologies is also more profound with the short- duration storage (i.e. with large
+rating). The results are expected since the shorter duration storage will compete more
+strongly to demand response and battery storage.
+
+In conclusion, these findings highlight that LD-PHES is still valuable and complementing the
+presence of other short-duration flexibility technologies.
+
+
+
+
+                                 Page 26 of 51
+PAGE 27
+3.1.1  Incremental savings: DR or PHES first
+Since the value of flexibility technologies is system-specific, depending on the presence of
+other flexibility technologies, it indicates that the technology that can be deployed first will
+have a higher value than the subsequent technology, assuming both provide the same
+flexibility services. In order to demonstrate this effect, two case studies were carried out. The
+first case assumes that demand response flexibility, e.g. EVs and short duration batteries are
+deployed upfront then PHES, and the second case assumes the other way round. The savings
+are the difference between the system's cost with and without DR and PHES. The results are
+shown in Figure 3-3.
+
+
+
+
+
+        Figure 3-3 Incremental savings of demand-response technologies and PHES
+
+The left diagram of Figure 3-3 shows that the value of PHES after the deployment of demand
+response  is around £100m/year while  if the PHES  is deployed upfront, the value  is
+£190m/year. In any case, it demonstrates that the value of LD-PHES will not be nullified
+entirely with the presence of demand response and short duration battery storage.
+
+It is important to highlight that there is significant uncertainty, at least at present, related to
+whether, when, where, and how much distributed flexibility technologies such as demand
+response will be deployed in the system in future. On the other hand, the deployment of large-
+scale PHES can be planned and executed with more certainty. It is also possible that in the
+least-worst regret approach, the new PHES can be part of the solution to deal with the
+uncertainty of demand response technologies. It may warrant further investigation looking at
+the transition towards a zero-carbon system considering uncertainty in flexibility technologies'
+deployment.
+
+
+                                 Page 27 of 51
+PAGE 28
+3.2  Role and value of variable speed PHES in the context of frequency
+     regulation
+The need for ancillary services to maintain frequency stability will increase as renewable
+penetration increases in electricity grids to meet the emissions target. The cost associated
+with ancillary services is predicted to increase by 15 times in 2030, compared to 2015 levels,
+and this cost could reach 25% of the total operating cost of the Great Britain power grid6. In
+this context, a sufficient amount of inertia and frequency response must be available to
+maintain stability: the frequency limits must be contained, so that the Rate-of-Change-of-
+Frequency (RoCoF) and frequency nadir do not exceed the acceptable values set by the
+standards.
+
+In this context, the key topic investigated in this study is the difference in benefits between
+short and long-duration PHES, in providing frequency support. This includes consideration of
+automatic disconnection, when in pumping mode, in the event of a generation loss in the
+system, as this operational strategy would effectively reduce the generation loss by the power
+being pumped by the PHES. Simultaneously, the inertia provided by the PHES would be
+removed from the system when the PHES is disconnected. The analysis is conducted using
+advanced frequency-secured Stochastic Unit Commitment (SUC) model, considering two key
+characteristics: (a) uncertainty from renewable generation is explicitly considered while (b)
+ensuring that security of supply related to frequency stability  is met after the largest
+generation loss. Full details on how to characterise uncertainty in the SUC through the
+scenario tree are available in (Sturt and Strbac, 2012)7. The frequency-secured framework
+used in this SUC is unique as it co-optimises the different ancillary services for frequency
+support: Inertia, Enhanced Frequency Response (EFR), Firm Frequency Response (FFR) and
+implication of reserve requirements8.
+
+The SUC simulations results for two different wind power penetration levels are presented in
+Figure 3-4 (the system characteristics can be found in (Badesa et al., 2019) 9. The results
+presented in Figure 3-4 show the following key findings:
+•   In case of penetration of wind of 20GW, there is no significant difference in the value
+   between short and long term PHES (blue bars)
+
+
+
+
+
+6 Imperial College London & Pöyry Management Consulting, “Roadmap for flexibility services to 2030,”
+ A report to the Committee on Climate Change (CCC), 2017.
+7 A. Sturt and G. Strbac, “Efficient Stochastic Scheduling for Simulation of Wind-Integrated Power
+  Systems,” IEEE Transactions on Power Systems, 2012
+8 L. Badesa, F. Teng and G. Strbac, “Simultaneous Scheduling of Multiple Frequency Services in
+  Stochastic Unit Commitment,” IEEE Transactions on Power Systems, 2019
+9 Imperial College London & Pöyry Management Consulting, “Roadmap for flexibility services to 2030,”
+ A report to the Committee on Climate Change (CCC), 2017
+                                 Page 28 of 51
+PAGE 29
+   Figure 3-4 Analysis of the system operating cost under 20 GW and 60 GW of wind capacity.
+ Several sensitivities of pump hydro storage are presented: 1) 5h and 2-day duration; 2) fixed- and
+variable-speed; 3) no frequency support provided by PHES vs frequency support provided through
+                             disconnection after a generation loss.
+
+•   In the case of 60GW of wind, the additional benefit of 2-day duration PHES in providing
+   frequency regulation services is about £400m/year larger than a 5h duration PHES.
+    This is because long-duration PHES can charge for a significantly longer period, so it can
+   be ready to disconnect while pumping for a much longer period (i.e. LD-PHES will provide
+    ancillary services more frequently). When compared with battery storage, that can
+    provide frequency response services from the standby mode, the additional benefit of LD-
+   PHES  is  in  the  order  of £90m/year  (this  will  reduce  further when  flexibility
+    technology/systems provide frequency response services, e.g. V2G, flexible demand,
+    electrolysers, interconnectors, renewable generation with grid-forming converters).
+
+•  The loss of inertia due to disconnecting the pump is negligible compared to the savings
+   brought by disconnecting the PHES when in pumping mode.
+
+
+In this context, it is informative to highlight that the COVID-19 pandemic led to a reduction in
+electricity demand and the coincidence with large renewable outputs, created conditions that
+were not expected until renewable capacity increases to meet emissions targets in coming
+                                 Page 29 of 51
+PAGE 30
+years. The system experienced periods of very high instantaneous production of non-
+synchronous renewables, challenging system frequency stability due to reduced inertia.
+Ancillary-services costs increased by £200m in May to July 2020 compared to the same period
+in 2019 (a threefold increase), highlighting the importance of ancillary services in low-carbon
+systems. In this context, it may be appropriate to consider early deployment of technologies
+that can provide flexibility services, including frequency response services, such as PHES.
+
+
+The ability of LD-PHES to reduce the need for firm low-carbon generation
+
+Further detail modelling has been carried out to assess the value of LD-PHES, using the
+stochastic optimisation, in supporting displacement of firm low carbon generation by
+renewables. In this case study, it was assumed that 2 GW of nuclear generation would be
+replaced by 6 GW of wind generation (as both have a similar annual energy production) while
+considering the impact of PHES, with different levels of storage duration, on short term
+operating costs and carbon emissions. The base case considers a renewable scenario with 80
+GW of wind capacity in the system.
+
+The operating cost for each case considered  is presented in Figure 3-5. The results
+demonstrate that replacing 2 GW of nuclear with 6 GW of wind would increase the system
+operating cost. However, the extra wind capacity combined with additional PHES of 2 GW
+would reduce system operating costs. It is shown that the system operation costs reduce more
+when the duration PHES increases while providing balancing services, including frequency
+regulation.
+
+
+
+
+
+  Figure 3-5 Analysis of the economic benefits in replacing 2 GW of nuclear capacity with 6GW of
+                  wind in combination with 2 GW of pump-storage hydro
+
+The analysis also demonstrated that LD-PHES would maintain/increase the security of supply
+during prolonged no-wind periods. The case study was carried out, considering zero wind
+generation for two consecutive weeks, showing that LD-PHES can replace firm low carbon
+
+                                 Page 30 of 51
+PAGE 31
+generation capacity, assuming the duration of storage of 2 weeks. More discussions on this
+topic can also be found later in section 3.7. In the rest of the report, the studies are carried
+out by IWES.
+
+3.3  Impact of constraint at the Scotland and England boundary
+In this study, we investigate the impact of network congestion at boundary B6 (i.e. Scotland-
+England boundary). We study two cases. The first one assumes that there will be no further
+capacity reinforcement at B6 and the second one assumes optimal development of that
+corridor. The system savings of the new PHES with different configurations are analysed, and
+the results are shown in Figure 3-6.
+
+
+
+
+
+   Figure 3-6 The benefit of new PHES with and without the optimal development of B6
+
+If the capacity of B6 is optimised, the value of the PHES storage for managing the congestion
+at B6 decreases. For example, for 2700 MW 90 GWh storage, the savings made by PHES are
+£286m/year if there no reinforcement of B6; but the savings reduce to £231m/year if B6
+capacity is optimal. It can be concluded that the optimal network development tends to
+reduce the value of flexibility used for network congestion management services, including
+the services provided by PHES.
+
+3.4  Impact of higher GB interconnection
+Another technology that can provide balancing services is the interconnection between GB
+and other countries. The power exchange across the interconnectors helps both regions
+balance their supply and demand while optimally using the most economical available
+resources. Interconnection also allows sharing of balancing resources and generation capacity
+across regions. By maximising the benefit of diversity in demand and supply across regions,
+                                 Page 31 of 51
+PAGE 32
+the interconnection facilitates reducing the total capacity required to maintain the security
+and allows the development of low-carbon technologies cost-efficiently across Europe.
+
+In this context, we analyse the impact of higher GB interconnection capacity to the rest of
+Europe on the value of LD-PHES. Two scenarios, i.e. 25 GW and 30 GW GB interconnection
+capacity, are used in this study. The results of the cases with 30 GWh and 90 GWh storage
+capacity are presented in Figure 3-7 and Figure 3-8, respectively.
+
+
+
+
+
+Figure 3-7 Impact of higher GB interconnection capacity on the value of 30 GWh new PHES
+
+
+
+
+
+Figure 3-8 Impact of higher GB interconnection capacity on the value of 90 GWh new PHES
+
+                                 Page 32 of 51
+PAGE 33
+The results demonstrate that the impact of a higher interconnection capacity on the value of
+new LD-PHES is relatively small; it reduces the value up to £40m/year across all cases. It
+indicates that there is not only competition but also synergy between the flexibility from
+interconnection and the long-duration energy storage. It suggests that the value of LD-PHES
+is not reduced significantly by an increase in interconnection capacity. Another reason is that
+the GB flexibility, including flexibility from long-duration energy storage, may also help the
+neighbourhood system.
+
+3.5  Impact of low-cost offshore wind
+Demand for system flexibility  is triggered by the increased penetration of variable and
+intermittent generation from renewables and the need to meet the emission target. In this
+context, we investigate the impact of increasing total wind capacity (including both onshore
+and offshore wind) connected to Scotland network by reducing the LCOE of wind on the value
+of new LD-PHES. Two cases are investigated: (i) 30 GW of wind generation connected in
+Scotland (offshore and onshore) out of 77 GW of wind (offshore and onshore) connected
+across GB, and (ii) 52 GW of wind (offshore and onshore) connected to Scotland infrastructure
+out of 120 GW wind (offshore and onshore) connected across GB. The cases with 30 GWh and
+90 GWh of energy storage are presented in Figure 3-9 and Figure 3-10.
+
+
+
+
+
+    Figure 3-9 The impact of higher wind penetration on the value of 30 GWh LD-PHES
+
+
+
+
+
+                                 Page 33 of 51
+PAGE 34
+    Figure 3-10 The impact of higher wind penetration on the value of 90 GWh LD-PHES
+
+As expected, the cost savings attributed to the new LD-PHES increases considerably with a
+higher penetration of wind power. For example, for the 900 MW 30 GWh storage, the savings
+increase from around £100m to £160m per year. The impact is more profound in the 90 GWh
+storage case as the system relies more on the flexibility provided by storage; the system
+benefits of LD-PHES are up to £550m/year.
+
+Considering the rapid development of offshore wind in the UK driven by the cost reduction
+and improvement of technologies, it can be expected that further penetration of wind farms
+in Scotland may boost further the value of LD-PHES. The emergence of floating offshore wind
+farms that can release the full potential of wind resources in the UK's waters can drive
+additional value for LD-PHES in the future.
+
+3.6  Value of PHES with different storage capacity in the system with
+    50g and zero-emission electricity sector target
+The value of LD-PHES is driven by the volume of renewables connected to the system and the
+need to meet the carbon target. In this context, we investigate the impact of having 50g and
+0g carbon intensity target for the power sector on the value of 2GW of PHES with 20 GWh
+storage (10h) and 200 GWh (100h) long-duration energy storage. The 50g carbon intensity
+target for the power sector can be associated with the 2030 timeline, as recommended by the
+CCC. A 0g carbon intensity target for the power sector is assumed for 2050 to achieve overall
+economy-wide net-zero emissions. We also investigate its impact on the system with and
+without demand response. The system cost savings attributed to the 2 GW storage are
+presented in Figure 3-11.
+
+                                 Page 34 of 51
+PAGE 35
+    Figure 3-11 Value of PHES in the system with 50g and zero-emission target with and
+                            without demand response
+
+As expected, the benefits of flexibility provided by 2 GW LD-PHES depend on the carbon
+intensity  target and other  flexibility sources such as demand response. The  results
+demonstrate that the value in 2030 with 50g is much smaller than the value in 2050 with 0g
+carbon target. For example, with 100h storage, no DR and 50g carbon target, the savings are
+£99m/year. The savings become £511m/year when the carbon target is changed to 0g. The
+utilisation of traditional gas plants will be very limited in a system with a low-carbon target;
+therefore, without LD-PHES, the system will need to have high-cost but firm low-carbon
+sources (such as nuclear, hydrogen-based generation, CCS). The results are consistent with
+the analysis discussed earlier. It can be concluded that the value of LD-PHES' flexibility is
+strongly affected by the carbon target.
+
+3.6.1  Impact on the optimal generation portfolio
+We also analyse the implication of having 50 g and 0g carbon target on the optimal generation
+portfolio. The results are presented in Figure 3-12. The results show the following:
+
+     -  The capacity of renewables in 50g case is higher than in 0g case. For example,
+        installed wind capacity in 50g cases is 111-120 GW, but in 0g, it is only 71 – 76 GW.
+      The opposite is true for nuclear. In 50g, the nuclear capacity is 9 – 14 GW, but it
+       increases significantly to 43 – 45 GW in 0g. The results suggest that in a system
+       with very low carbon target (e.g. 0g), the value of a firm low-carbon generation
+       capacity such as nuclear increases, bringing nuclear power generation to be
+       competitive against wind power generation. In 0g, there is a need to produce clean
+       energy all times, and this is challenging for renewables, and the availability of
+
+                                 Page 35 of 51
+PAGE 36
+       energy resources varies across time.
+
+
+
+
+
+ Figure 3-12 Optimal generation capacity portfolio in the scenarios with 50g and 0g carbon
+                                          target
+
+    •  The value of PHES is not always aligned to the installed capacity of wind (or
+       renewables) and the carbon target. The lower the carbon target, the higher the
+       value of energy storage since  it can work in tandem with renewable power
+       generation and firm up variable RES to energy supply.
+
+    •   In 50g, we observe a considerable capacity of traditional CCGT (48 GW) and OCGT
+       (105 – 126 GW). Their capacity becomes much less in 0g, although they can still
+      be run with zero-emission gas, e.g. biogas. On the other hand, more H2 CCGT or
+      H2 OCGT are installed in 0g case due to zero-emission requirement although some
+      CCGT and OCGT are retained and run with biogas if needed. In this study, it is
+      assumed that biogas is carbon neutral.
+
+    •  Demand response can reduce the need for nuclear capacity and the firm capacity
+       requirement. For example, the nuclear capacity needed in 50g without demand
+       response is 14 GW; but only 9 GW is needed if it has DR.
+
+The changes in the optimal generation portfolio due to the new 2 GW LD-PHES are
+presented in Figure 3-13. The results demonstrate:
+                                 Page 36 of 51
+PAGE 37
+               Figure 3-13 Changes in the generation due to 2 GW LD-PHES
+
+     -  More wind power can be integrated with new PHES.
+     -  PHES firms the supply of low-carbon electricity, especially from variable sources
+       such as renewables, and therefore, the need for nuclear power generation
+      becomes less.
+     -  Some CCGT capacity can also be displaced by OCGT running with green gas as the
+      CCGT capacity factor decreases along with the increased wind penetration.
+     -  PHES has capacity value, and therefore, it can displace firm generation capacity.
+
+
+3.6.2  The utilisation of LD-PHES
+Figure 3-14 shows the comparison between the average load factor of electricity storage with
+and without DR and for the 50g and 0g carbon target. In this context, the load factor is defined
+as the percentage of the storage's electricity output compared to  its maximum annual
+electricity output. While it indicates how the storage is used, it does not include utilising the
+storage for the frequency response services; for example, if it spins on air. So it is likely that
+the storage will operate longer than what is indicated below.
+
+The results demonstrate that the utilisation of LD-PHES (200GWh) is substantially higher than
+the utilisation of shorter-duration PHES (20GWh). In 50g no DR case, the utilisation of 100h
+storage (rating 2GW) is 23% compared to 13% for the 10h storage capacity.
+
+The results also show that the utilisation of the storage decreases when the system has DR.
+for example, in 50g no DR case, the utilisation is 13%, and down to 9% with DR. The reduction
+is lower if the storage capacity is higher. It indicates that the DR competes more directly with
+shorter-duration storage. This trend is observed in both 50g and 0g emission case.
+
+                                 Page 37 of 51
+PAGE 38
+The utilisation factor of storage tends to increase by 2% - 3% in the system with a lower carbon
+target.
+
+
+
+
+
+                             Figure 3-14 Average load factor
+
+LD-PHES can generate electricity for a few days without the need to be charged during that
+period.  This characteristic is essential, especially  if there is a prolonged period of low-
+availability of renewable energy resources or generation capacity. In this context, the charging
+and discharging cycle of LD-PHES, electricity demand, and electricity production from different
+generation technologies are plotted for a winter week where the peak demand occurs
+coinciding with a 3-days low-wind period. The plots are shown in Figure 3-15.
+
+The upper graph in Figure 3-15 shows the output of different generation technologies and
+electricity production from LD-PHES (2 GW, 100h). On day 16 – 18, wind output is very low
+while the electricity demand is at the peak, as shown by the lower graph in Figure 3-15. To
+meet the peak demand on those days, the long-duration storage produces electricity
+supporting other generation technologies. Peaking generation such as OCGT running on
+biogas, H2 OCGT running on hydrogen, and electricity import are also used to meet the
+demand during those days. Without sufficient energy storage, the system will require the
+additional capacity of firm low-carbon generation technology (such as nuclear, hydrogen-
+based generation, CCS). The finding highlights the difference between the short-duration (1-4
+h) storage with longer-duration storage.
+
+
+
+
+                                 Page 38 of 51
+PAGE 39
+   Figure 3-15 Charging and discharging of LD-PHES in a winter week with peak demand
+
+On day 16 – 18, the storage is not being charged as baseload plants' capacity has been fully
+employed. For example, when the wind blows again on days 19-20, the storage is charged.
+
+LD-PHES can also help balance the electricity system during low-demand conditions (e.g. in
+summer) with high renewable output. However, the wind in summer is relatively low, and the
+solar output has a constant diurnal pattern, so the flexibility from LD-PHES may not necessarily
+be visible as clearly as in the previous case. The balancing of the system can also be provided
+by demand response and exporting power to Europe, shown on day 67-68 of the lower graph
+in Figure 3-16.
+
+
+
+
+
+                                 Page 39 of 51
+PAGE 40
+   Figure 3-16 Charging and discharging of LD-PHES in a summer week with low demand
+
+We also investigate the number of mode changes: charging (or pumping) and discharging (or
+generating) cycles of the LD-PHES across one year. We identify the number of transitions from
+storage charging to discharging and vice versa. The storage does not need to be charged or
+discharged at maximum, but it must be at a minimum level, e.g. 10%. If there is no mode
+change, e.g. if the storage continues to charge or discharge (although the level may vary and
+it may go to zero but not changing the mode), it is counted as 010. The results are shown in
+Figure 3-17.
+
+
+
+
+
+10 It does not mean that LD-PHES is doing nothing; it means that LD-PHES continues to charge or
+discharge during that day and there  is no mode change  (i.e. switching between charging and
+discharging).
+                                 Page 40 of 51
+PAGE 41
+  Figure 3-17 Number of charging and discharging cycles of long-duration storage per day
+
+In around 88% of the time, the number of storage cycles per day is between 0 – 2. There are
+infrequent occasions where the number of storage cycles is more than 2.
+
+The number of cycles is also affected by the presence of demand response. We compare the
+number of storage cycles per day in a system with and without demand response. The results
+are presented in Figure 3-18.
+
+
+
+
+
+          Figure 3-18 The impact of DR on the LD-PHES number of cycles per day
+
+                                 Page 41 of 51
+PAGE 42
+With demand response, the number of cycles decreases. For example, there are more than
+200 days when there is no transition between charging and discharging in the case with
+demand response. It is compared with around 120 days in the system without demand
+response. The difference is also visible when the storage needs to change polarity twice in a
+day. In a system with DR, the number is 38 compared to 101 in a system without DR. It
+demonstrates that the demand for short-term balancing is less for LD-PHES since this flexibility
+service can also be provided by demand response.
+
+We also investigate the number of storage cycles per day for the shorter-duration storage (i.e.
+10 h) and compare it with the results of LD-PHES (100 h). The results are shown in Figure 3-19.
+
+
+
+
+
+Figure 3-19 Number of charging and discharging cycles of storage per day for 10h and 100h
+                             energy storage capacity
+
+The results demonstrate that shorter duration storage cycles more often than LD-PHES. The
+number of days without changing polarity decreases from 120 to 35 when the storage capacity
+duration becomes 10h. The number of days when storage has two cycles/day increases from
+100 to 157 with the shorter duration storage. The increased number of cycling may affect the
+plants' wear and tear and increase its operating and maintenance cost. Although this topic is
+not investigated in this study, it may warrant further investigation.
+
+3.7  Impact of a prolonged period of extremely low wind conditions
+The previous analysis demonstrates how LD-PHES can be dispatched to generate electricity
+during 3-days low-wind conditions which coincide with the peak demand. There is uncertainty
+on how long low-wind period may occur in future. In this context, we carry out further analysis
+by extending the period of extremely low-wind output to one week and two weeks to
+
+                                 Page 42 of 51
+PAGE 43
+investigate the impact on the value of LD-PHES. The system savings attributed to the 2GW 200
+GWh storage for a system designed to withstands against prolonged low-wind periods during
+peak demand are shown in Figure 3-20.
+
+The value of 2GW 200 GWh LD-PHES does not change significantly when the low-wind
+duration is extended from 3 days to 1 week. This is reasonable given that 100 h energy storage
+can provide continuous support for one week, considering the diurnal variation of electricity
+demand. Extending the low-wind period to 2 weeks has a substantial impact on the storage
+benefits; the savings plummet from around £371m to £121m per year.
+
+
+
+
+
+  Figure 3-20 System savings of LD-PHES in a system with prolonged periods of extremely
+                              low-wind conditions
+
+In order to deal with a two-week low-wind period, longer duration storage will be required.
+Without sufficient storage capacity, the storage can not substitute firm low-carbon generation
+(such as nuclear, hydrogen-based generation, CCS) and reduce the system costs.
+
+3.8  Impact of seasonal thermal storage
+Seasonal thermal storage is also seen as an alternative technology to store energy across
+different seasons, such as storing excess solar energy in summer and using it for heating in
+winter, to relieve system scarcity during peak demand. By reducing the heat-led electricity
+demand during peak demand conditions, especially when the generation capacity is limited,
+seasonal thermal storage can also reduce the need for firm low-carbon capacity. In this
+context, there may be competition between seasonal thermal storage and long-duration
+electricity storage. Therefore, we carry out studies to understand how seasonal thermal
+storage will affect the value of long-duration electrical storage. We compare the system
+savings of the long-duration electrical storage with and without seasonal thermal storage. The
+results are presented in Figure 3-21.
+                                 Page 43 of 51
+PAGE 44
+    Figure 3-21 System savings of 2 GW 200GWh LD-PHES in a system with and without
+                              seasonal thermal storage
+
+The results demonstrate that the value of LD-PHES reduces significantly in a system with
+seasonal thermal storage. The savings attributed to the long-duration storage reduce from
+£410m to £150m/year in the system with seasonal thermal storage.
+
+From all the previous analyses discussed, we can conclude that the value of LD-PHES is system-
+specific and reduced by other flexibility sources such as demand response, seasonal thermal
+storage, and interconnectors. However, in the presence of other technologies, the value of
+LD-PHES is still considerable, indicating the synergy across different flexibility technologies.
+
+
+
+
+
+                                 Page 44 of 51
+PAGE 45
+Chapter 4. Review of the market
+        and policy framework
+           for long-duration PHES
+
+
+In chapters 2 and 3, the system benefits of the LD-PHES under different future system
+development scenarios have been quantified. However, the current  electricity market
+frameworks cannot capture the benefits of LD-PHES fully. Therefore,  it may become a
+commercial barrier for the technologies to be developed and deployed in the system. This
+section uses the previous analysis to demonstrate the issues and outline a few approaches to
+stimulate more discussions in this area.
+
+                             Key highlights
+
+  •  The benefits of flexible technologies that allow more efficient investment in low-
+     carbon generation technologies, are not yet recognised fully. More than 75% of the
+      benefits of LD-PHES are in this segment.
+  •  The CfD mechanism is designed to support investment in low carbon generation
+      only, and it does not recognise the role and value flexibility technologies (such as
+     energy storage) in facilitating cost-effective decarbonisation. Also, in its current form
+        it would not be appropriate to support LD-PHES as the payments are based on the
+     energy output, which is not appropriate for energy storage technologies. Possible
+      existing approaches are “cap and floor” or Regulated Asset Base (RAB) model.
+
+For example, based on the study described in section 2.1, the benefits of LD-PHES in the
+electricity system are shown in Figure 4-1.
+
+
+
+
+
+                                 Page 45 of 51
+PAGE 46
+                                                               Note
+                                                                               C: is capex and O: is opex
+
+
+
+                      Figure 4-1 Annual system benefits of LD-PHES
+
+The benefits of LD-PHES can be summarised as follows:
+
+     -    It enables more cost-effective integration of variable renewables and reduces the
+      need for higher-cost firm low-carbon generation technologies (such as nuclear,
+       hydrogen-based generation, CCS). Considering the rapid reduction in wind and PV
+       cost in the past few years, the ability to integrate more renewable generation
+      would bring significant economic benefits. Thus, LD-PHES would reduce the
+       investment cost in low-carbon technologies while meeting the carbon target.
+     -    It contributes to security during peak demand, and therefore, it has a capacity
+        value. Therefore, the presence of LD-PHES can also reduce the need for peaking
+       or back-up plants.
+     -    It enables more efficient generation investment since the increased renewables
+     may shift some mid-merit plants such as CCGT to lower-cost peaking plants
+       (OCGT).
+     -    It helps to optimise network capacity by managing network congestion more
+         efficiently.
+     -    It improves the efficiency of system operation by reducing costs associated with
+       the provision of frequency response and balancing services
+
+The system benefits of the LD-PHES should be recognised and remunerated properly in
+electricity markets to incentivise technology development and deployment.
+
+Figure 4-2 shows the links between the different value of LD-PHES to the current electricity
+market frameworks. For example, the capacity value of the LD-PHES can be remunerated in
+the capacity market. Similarly, network congestion services, energy arbitrage and frequency
+response services can be rewarded through network charges, wholesale electricity market,
+
+                                 Page 46 of 51
+PAGE 47
+balancing mechanisms, and ancillary service market (although the design of ancillary services
+market would need to be enhanced to reflect more accurately the impact and changes of
+system inertia on the value of services). However, these revenue streams are highly uncertain,
+depending on several factors, many of which are discussed in this report.
+
+
+
+
+
+           Figure 4-2 Commercial frameworks for long-duration energy storage
+
+There is a significant gap in the present market framework that needs to be addressed since
+the current market framework does not recognise the benefit of flexible technologies that
+allow more efficient generation investment, especially in low-carbon technologies. As shown
+previously, the largest benefit of LD-PHES is minimising the capex of generation investment
+driven by security consideration and carbon reduction target. Therefore, it is important to
+have a commercial framework that recognises such value to provide appropriate economic
+signal and incentivise the development of suitable flexibility technologies such as LD-PHES.
+
+The contracts-for-difference model (CfD) was designed to support the development of low-
+carbon technologies such as wind, solar, biomass, nuclear. The model uses an auction-based
+model to determine the  strike-price, assuming a certain volume of expected energy
+generation across the contracting period. The energy generated will be qualified for payment
+at the strike price. However, the current CFD concept does not recognise the benefit of
+flexibility that long-duration storage would bring by firming up the low-carbon supply from
+intermittent renewables, and therefore, LD-PHES cannot access appropriate revenues.
+Furthermore, CfD in its current form would not be the appropriate instrument to support LD-
+PHES as the payments are based on the output, which is more suitable to generation
+technologies and not for storage.
+
+The market framework should recognise that cost of long-duration storage technologies like
+PHES, have relatively high upfront capex and low opex, meaning there is a significant hurdle
+for investors given the uncertainty of currently available revenue streams in the electricity
+                                 Page 47 of 51
+PAGE 48
+market. In this context, a concept similar to "cap and floor" model used to de-risk investment
+in interconnectors could be an appropriate model as the revenue streams, and operational
+profile is more similar to PHES. Revenues would be made in the various electricity markets
+segments, but the instrument would de-risk revenues to a floor level, reflecting the societal
+benefit of PHES and the return required for the investment.
+
+As an alternative, the development of LD-PHES could also be incentivised using regulated asset
+base (RAB) model. It requires government intervention and may not provide a level playing
+field and facilitate competition between different technologies. In this model, part of the
+commercial risks in the investment of the technology would be socialised.
+
+This would need to be linked with CfD, as LD-PHES would significantly reduce system
+integration costs of variable renewable generation and them more competitive from the
+whole-system perspective.
+
+Another option may be to develop a real-time carbon price market that would capture the
+system's investment and operating cost to meet the carbon target. In this case, it can provide
+appropriate economic signal and incentive for the LD-PHES to support the integration of
+renewables and reduce the capacity required for high-cost firm low-carbon technologies. The
+development of such a market framework or the alternatives warrants further analysis.
+Moreover, there is also a need to investigate further how the cross-sector benefits of LD-PHES,
+can be recognised, e.g. the impact on hydrogen infrastructure.
+
+
+
+
+
+                                 Page 48 of 51
+PAGE 49
+Chapter 5. Conclusions
+
+
+Based on the preceding analysis in Chapter 2 – 4, the key findings are summarised as follows:
+
+•  New LD-PHES will have the following roles in the GB future energy transition to a net-zero
+    emission system:
+
+     -     It Improves integration of variable RES and firms the output of low-carbon energy,
+        especially during low renewables output.
+     -     It reduces the need for high-cost firm low-carbon energy sources (such as nuclear,
+       hydrogen-based generation, CCS).
+     -     It provides ancillary services and capacity (displacing capacity of mid-merit and
+       peaking plant).
+     -     It supports network congestion management.
+     -     It allows arbitrage that can improve the utilisation of baseload or RES plant.
+
+•   The value of new LD-PHES varies widely depending on system conditions and carbon
+    targets. The analysis demonstrates that the value in 2030 with 50g is much lower than the
+    value in 2050 with 0g carbon target. High value is driven by net-zero emission target which
+    drives the need for firm low-carbon energy sources and
+
+     -   High RES penetration, e.g. driven by low wind LCOE;
+     -  Low level of other system flexibility, e.g. limited availability of demand response
+        technology;
+     -   The system is designed to cope with a prolonged period of low renewable output
+       during peak demand; this will drive the need for long-duration energy storage.
+     -    Ability to provide ancillary services, e.g. frequency response will be very important in
+       the future low-inertia system;
+     -    Insufficient network capacity between Scotland and England or limited boundary
+        capacity;
+     -   High ratio between energy storage capacity and power rating, but higher power rating
+         facilitates stronger network congestion management.
+
+•   There are competition and synergy between the LD-PHES with other flexibility sources.
+
+     -   The presence of other flexibility resources, such as demand response, reduces the
+       value of LD-PHES, but its value is still considerable, suggesting that the long-duration
+       storage technology is synergetic with other flexibility sources.
+
+•   COVID-19 pandemic led to a reduction in electricity demand and the coincidence with
+    large renewable outputs, created conditions that were not expected until renewable
+    capacity increases more significantly. The ancillary-services costs increased by £200m in
+
+                                 Page 49 of 51
+PAGE 50
+   May to July 2020 compared to the same period in 2019 (a threefold increase), highlighting
+    the importance of ancillary services in low-carbon systems. In this context, it may be
+    appropriate to consider early deployment of established technologies that can provide
+     flexibility services, including frequency response, such as PHES.
+
+•   In the future, long-duration storage will provide more valuable frequency response
+    (benefit of about £500m/year in the extreme case with no frequency regulation provided
+   by  other  flexibility  technologies/systems).  Long-duration PHES can  charge  for a
+    significantly longer period, so it can be ready to disconnect while pumping for a much
+    longer period and therefore provides ancillary services more frequently. The studies with
+    different scenarios and PHES designs, including the variable-speed PHES, demonstrate
+    that:
+
+     -   For 20 GW of wind, the value frequency response provided by PHES in pumping mode
+           is limited, while for 60 GW of wind, the value is significant
+     -   In the context of frequency regulation, variable speed does not bring much value,
+       even with high penetration of wind.
+     -   Long-duration storage provides more valuable frequency support (additional benefit
+        of about £400m/year from a 2-day duration PHES compared to a 5-h duration PHES,
+         in the extreme case of absence of other flexibility technologies/systems), as the LD-
+      PHES can keep pumping for a longer period and therefore provides ancillary services
+      more frequently (particularly during low- inertia periods).
+     -   Increased wind generation capacity, combined with LD-PHES, can efficiently replace
+        firm low carbon generation (such as nuclear, hydrogen-based generation, CCS):
+       both system-operating costs and carbon intensity can be reduced.
+     -   In an extreme weather year, with two consecutive weeks without wind energy, LD-
+      PHES could effectively provide firm capacity if enhanced wind-forecasting techniques
+       are  available: improved  forecasting would  allow  charging  the LD-PHES tank
+         sufficiently before the periods with very low or no wind production.
+
+•   Large thermal storage reduces the value of long-duration electrical storage as it can be
+   used to adjust heat-led electricity demand across a long period.
+
+•   There is cross-energy vector benefit of LD-PHES since it can reduce demand for H2 storage.
+      It indicates a stronger coupling between a low-carbon electricity system with the
+   hydrogen system.
+
+•   The development of market and policy frameworks for LD-PHES warrants further analysis.
+
+    •  The benefits of flexible technologies that allow more efficient investment in low-carbon
+      generation technologies are not yet recognised fully. More than 75% of the benefits of
+     LD-PHES are in this segment.
+    •  A CfD in its current form would not be the right instrument to support LD-PHES as it
+      pays based on output, which is more suitable to generation technologies and not
+      storage.
+
+                                 Page 50 of 51
+PAGE 51
+    •  Approaches similar to "cap and floor" or regulated asset base (RAB) model would be
+     more appropriate.
+    •  Real-time carbon price market may provide economic signal and incentive for LD-PHES
+      to firm the output of variable RES.
+•   Moreover, there is also a need to investigate further how the cross-sector benefits of long-
+    duration storage, e.g. the impact on hydrogen infrastructure, can be recognised and dealt
+    with by suitable market frameworks.
+
+
+
+
+
+                                 Page 51 of 51
+PAGE 52
+Imperial Consultants
+www.imperial-consultants.co.uk
+
+
+A wholly owned company of Imperial College London
+Registered in England and Wales, number 2478877

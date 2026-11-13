@@ -1,0 +1,97 @@
+{
+  "owner": "R2",
+  "created_at": "2026-11-03 Europe/London",
+  "scope": "Independent battery B-01..B-06 first pass; actual body/PDF/datasheet evidence needed; anonymous broker only",
+  "requests": [
+    {
+      "id": "R2-S01",
+      "url": "https://www.tesla.com/megapack",
+      "want": "Actual official current product page, all technical/specification text and official datasheet/warranty/design links. Need commercial MW and MWh modules, 2-hour fit, quoted energy AC vs DC, efficiency, warranty/life and included balance-of-system. Do not treat current product as historic availability."
+    },
+    {
+      "id": "R2-S02",
+      "url": "https://www.tesla.com/megapack/design",
+      "want": "Read-only public configurator if public; no form submission or quote request. Need publicly stated size/price and exact installed/equipment boundaries, currencies, tax/shipping/installation exclusions, maintenance terms. If login/inputs required stop; no manufacturer quote may be invented."
+    },
+    {
+      "id": "R2-S03",
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "want": "Actual cost + FOM + technical text/tables/linked data. Need 2-hour total installed capital benchmark with price year, USD basis, power and energy denominator; 15-year/1-cycle-per-day/augmentation/FOM/85% RTE assumptions. If DNS fails record and use next sources."
+    },
+    {
+      "id": "R2-S04",
+      "url": "https://www.pnnl.gov/ESGC-cost-performance",
+      "want": "DOE/PNNL official storage cost performance assessment page; find/read report or cost data, preferably 2022 or newer. Need 2-hour LFP full installed cost, scale and cost components, year/currency; also calendar/cycle-life/depth-of-discharge/augmentation and O&M definitions."
+    },
+    {
+      "id": "R2-S05",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf",
+      "want": "If valid retrieve PDF and actual relevant table/paragraph text; capital cost breakdown for LFP at 2 hours and at an explicitly named MW scale; life, warranty/degradation modelling and scope. Prefer source sections and page numbers over snippets."
+    },
+    {
+      "id": "R2-S06",
+      "url": "https://ens.dk/en/analyses-and-statistics/technology-data-energy-storage",
+      "want": "Danish Energy Agency official storage catalogue landing page and its battery storage datasheet/xlsx/report. Need determine whether EUR0.288 million/MWh is total installed or energy component only, technology year, nameplate vs usable, power-cost component, 2-hour scale, FOM, lifetime. If landing relocated can use official-site search."
+    },
+    {
+      "id": "R2-Q01",
+      "query": "site:tesla.com Megapack 2 hour datasheet 93.7 1927 3854 warranty",
+      "want": "Only if product page lacks specification; open actual official PDF/page, not search snippet."
+    },
+    {
+      "id": "R2-Q02",
+      "query": "site:pnnl.gov 2022 grid energy storage technology cost performance assessment lithium ion 2 hour installed cost LFP",
+      "want": "Official fallback to locate valid full report/download if S04/S05 fail."
+    },
+    {
+      "id": "R2-S07",
+      "url": "https://docs.nlr.gov/docs/fy23osti/85332.pdf",
+      "want": "Official lab-hosted Cost Projections for Utility-Scale Battery Storage: 2023 Update (NREL/TP-6A40-85332), fallback if old nrel.gov DNS fails. Read actual PDF cost figures and scope/year/currency; 4-hour benchmark is acceptable with explicit duration mismatch, must not relabel it a 2-hour quote. FOM/life/augmentation discussion useful."
+    },
+    {
+      "id": "R2-S08",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/megapack-2-xl-datasheet-en.pdf",
+      "want": "Potential official Tesla CDN datasheet fallback; verify actual response/PDF title, do not assume URL exists. Need exact 2-hour MW/MWh AC boundary and RTE."
+    },
+    {
+      "id": "R2-S09",
+      "url": "https://energylibrary.tesla.com/docs/Public/EnergyStorage/Megapack/2XL/Datasheet/en-us/index.html",
+      "want": "Potential official energy-library datasheet index fallback, verify actual response; follow technical specifications if public."
+    },
+    {
+      "id": "R2-S10",
+      "url": "https://www.wartsila.com/energy/energy-storage/quantum3",
+      "want": "Alternative manufacturer real candidate if Tesla blocked. Need actually read Quantum3 nameplate DC energy module, AC power/inverter pairing and duration, efficiency/lifetime statements; report any missing power or quote."
+    },
+    {
+      "id": "R2-Q03",
+      "query": "site:tesla.com OR site:tesla.cn OR site:energylibrary.tesla.com Megapack 2 XL datasheet 2-hour",
+      "want": "Manufacturer actual source location only; open/read actual source, search snippets not evidence."
+    },
+    {
+      "id": "R2-S11",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/lithium-ion-battery",
+      "want": "Actually linked by S04-retry: read full lithium-ion cost/lifetime body and data links."
+    },
+    {
+      "id": "R2-S12",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/subsystems-definitions",
+      "want": "Actually linked by S04-retry: installed-cost subsystem boundaries."
+    },
+    {
+      "id": "R2-S13",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports",
+      "want": "Actually linked by S04-retry: select actual newest full report/PDF/data download."
+    },
+    {
+      "id": "R2-S14",
+      "url": "https://ens.dk/media/6589/download",
+      "want": "Actually linked Datasheet for energy storage from S06: download binary workbook in capture directory; R2 can parse locally. Need battery investment/per-MW/per-MWh/currency price year, O&M/life notes."
+    },
+    {
+      "id": "R2-S15",
+      "url": "https://ens.dk/media/6588/download",
+      "want": "Actually linked Technology data for energy storage report from S06: download actual PDF in capture directory; R2 can extract text locally. Need lithium ion cost definitions/aux/degradation."
+    }
+  ]
+}

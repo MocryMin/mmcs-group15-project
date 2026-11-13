@@ -1,0 +1,34 @@
+{
+  "daily_generation_total.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_generation_total.csv",
+    "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964"
+  },
+  "daily_generation_by_fuel.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_generation_by_fuel.csv",
+    "sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec"
+  },
+  "daily_demand.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_demand.csv",
+    "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e"
+  },
+  "wind_farm_generation.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/wind_farm_generation.csv",
+    "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a"
+  },
+  "daily_market_index_price.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_market_index_price.csv",
+    "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7"
+  },
+  "date_quality.csv": {
+    "source": "group-collaboration/Tier1/public/data_quality/full_data_repair/20261104-v2/data/date_quality.csv",
+    "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a"
+  },
+  "CPI.csv": {
+    "source": "research-1103-controlled/control/browser_captures/R4/ONS-CPI-CSV.csv",
+    "sha256": "05bf2ec5459e46961aa994c2cbfdd2abcef5c1591b99659358a414652966bee6"
+  },
+  "parameters.json": {
+    "source": "baseline-1104/parameters.json",
+    "sha256": "41f3fecdb37928e1c32b9a1ddf36bb61232f9e2c9b9f83f7fceb189a9b5eb88b"
+  }
+}

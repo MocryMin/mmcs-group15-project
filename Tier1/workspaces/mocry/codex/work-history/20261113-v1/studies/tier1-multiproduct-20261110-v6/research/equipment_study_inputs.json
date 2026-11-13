@@ -1,0 +1,851 @@
+{
+  "as_of": "2026-11-10",
+  "primary_candidates": 12,
+  "user_direction": "Prefer products with high overall completeness; credible non-manufacturer evidence and estimates are acceptable.",
+  "status": "Research reference inputs for evaluation; no automatic baseline adoption",
+  "profiles": [
+    {
+      "id": "sungrow-st255cs-2h",
+      "kind": "battery",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/sungrow-st255cs-2h.json",
+      "electrical": {
+        "nominal_energy_kWh": 257,
+        "permitted_DoD": 1.0,
+        "study_DoD": 0.8,
+        "usable_energy_kWh": 205.60000000000002,
+        "charge_AC_kW": 125,
+        "discharge_AC_kW": 125,
+        "roundtrip_AC": 0.9,
+        "eta_charge": 0.9486832980505138,
+        "eta_discharge": 0.9486832980505138,
+        "self_discharge_fraction_day": 0.001,
+        "standby_kW": 0.1
+      },
+      "lifecycle": {
+        "calendar_reference_years": 15,
+        "cycle_reference": 2400,
+        "cycle_reference_DoD": 0.8,
+        "cycle_reference_terminal_capacity_fraction": 0.8,
+        "EOL_SOH": 0.6,
+        "service_convention": "Maintained available capacity in the annual cost reference; no separate augmentation charge or simultaneous uncompensated capacity decay is imposed.",
+        "alternative_depth_life": {
+          "study_DoD": 0.6,
+          "cycles": 8000,
+          "terminal_capacity_fraction": 0.6,
+          "usable_energy_kWh": 154.2
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "price_year": 2020,
+        "installed_reference": 73715,
+        "fixed_OM_cases_per_year": {
+          "literal_per_MW": 1044.0,
+          "alternative_capex_fraction": 2137.735
+        },
+        "additional_explicit_stack_or_cell_replacement": 0,
+        "replacement_zero_reason": "Already represented by the selected maintenance/maintained-capacity accounting convention; not a claim that physical replacement is free."
+      },
+      "field_sources": {
+        "nominal_energy_and_permitted_depth": "Manufacturer product sheet",
+        "charge_discharge_power": "Equal bidirectional nominal rating is a study interpretation; charging maximum is not separately guaranteed in every retained sheet.",
+        "operating_DoD_and_cycles": "PNNL H6748:H6752 plus2022report Table4.3:80%DoD/2400 reaches80%remaining capacity;60%/8000 reaches60%;not a product-specific guarantee",
+        "roundtrip": "0.90 operating reference; DEA AC reference0.91 and supplier maximum/bound retained separately",
+        "efficiency_split": "Model protocol: symmetric square-root split",
+        "self_discharge": "DEA D15:0.1%/day, transferred lithium-ion reference",
+        "standby": "Sungrow: engineering size transfer from TALLON2kW/2500kW; Huawei: midpoint of published0..0.15kW bound, not a measured mean",
+        "cost_and_fixed_OM": "DEA D24:D28; decomposition and unresolved FOM unit interpretation retained",
+        "calendar_life": "DEA15years;PNNL16year alternative",
+        "EOL": "PNNL LFP reference60%; maintained-output scenario rather than a manufacturer fade guarantee"
+      },
+      "sensitivity": {
+        "whole_plant_roundtrip": [
+          0.83,
+          0.9,
+          0.91
+        ],
+        "storage_loss_per_day": [
+          0.0005,
+          0.001,
+          0.002
+        ],
+        "standby_kW": [
+          0,
+          0.2
+        ],
+        "capex_source_alternative": "PNNL LFP2023 10MW/2h:USD452.22/kWh (range407..497.44),FOM USD2.79/kW-year; switch entire currency/scope package before comparing"
+      },
+      "readiness": "Numeric inputs complete for a declared daily maintained-capacity reference scenario; not a supplier quote/warranty"
+    },
+    {
+      "id": "huawei-luna215",
+      "kind": "battery",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/huawei-luna215.json",
+      "electrical": {
+        "nominal_energy_kWh": 215,
+        "permitted_DoD": 1.0,
+        "study_DoD": 0.8,
+        "usable_energy_kWh": 172.0,
+        "charge_AC_kW": 108,
+        "discharge_AC_kW": 108,
+        "roundtrip_AC": 0.9,
+        "eta_charge": 0.9486832980505138,
+        "eta_discharge": 0.9486832980505138,
+        "self_discharge_fraction_day": 0.001,
+        "standby_kW": 0.075
+      },
+      "lifecycle": {
+        "calendar_reference_years": 15,
+        "cycle_reference": 2400,
+        "cycle_reference_DoD": 0.8,
+        "cycle_reference_terminal_capacity_fraction": 0.8,
+        "EOL_SOH": 0.6,
+        "service_convention": "Maintained available capacity in the annual cost reference; no separate augmentation charge or simultaneous uncompensated capacity decay is imposed.",
+        "alternative_depth_life": {
+          "study_DoD": 0.6,
+          "cycles": 8000,
+          "terminal_capacity_fraction": 0.6,
+          "usable_energy_kWh": 129.0
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "price_year": 2020,
+        "installed_reference": 61963,
+        "fixed_OM_cases_per_year": {
+          "literal_per_MW": 902.016,
+          "alternative_capex_fraction": 1796.9270000000001
+        },
+        "additional_explicit_stack_or_cell_replacement": 0,
+        "replacement_zero_reason": "Already represented by the selected maintenance/maintained-capacity accounting convention; not a claim that physical replacement is free."
+      },
+      "field_sources": {
+        "nominal_energy_and_permitted_depth": "Manufacturer product sheet",
+        "charge_discharge_power": "Equal bidirectional nominal rating is a study interpretation; charging maximum is not separately guaranteed in every retained sheet.",
+        "operating_DoD_and_cycles": "PNNL H6748:H6752 plus2022report Table4.3:80%DoD/2400 reaches80%remaining capacity;60%/8000 reaches60%;not a product-specific guarantee",
+        "roundtrip": "0.90 operating reference; DEA AC reference0.91 and supplier maximum/bound retained separately",
+        "efficiency_split": "Model protocol: symmetric square-root split",
+        "self_discharge": "DEA D15:0.1%/day, transferred lithium-ion reference",
+        "standby": "Sungrow: engineering size transfer from TALLON2kW/2500kW; Huawei: midpoint of published0..0.15kW bound, not a measured mean",
+        "cost_and_fixed_OM": "DEA D24:D28; decomposition and unresolved FOM unit interpretation retained",
+        "calendar_life": "DEA15years;PNNL16year alternative",
+        "EOL": "PNNL LFP reference60%; maintained-output scenario rather than a manufacturer fade guarantee"
+      },
+      "sensitivity": {
+        "whole_plant_roundtrip": [
+          0.83,
+          0.9,
+          0.913
+        ],
+        "storage_loss_per_day": [
+          0.0005,
+          0.001,
+          0.002
+        ],
+        "standby_kW": [
+          0,
+          0.15
+        ],
+        "capex_source_alternative": "PNNL LFP2023 10MW/2h:USD452.22/kWh (range407..497.44),FOM USD2.79/kW-year; switch entire currency/scope package before comparing"
+      },
+      "readiness": "Numeric inputs complete for a declared daily maintained-capacity reference scenario; not a supplier quote/warranty"
+    },
+    {
+      "id": "huawei-luna241",
+      "kind": "battery",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/huawei-luna241.json",
+      "electrical": {
+        "nominal_energy_kWh": 241,
+        "permitted_DoD": 1.0,
+        "study_DoD": 0.8,
+        "usable_energy_kWh": 192.8,
+        "charge_AC_kW": 108,
+        "discharge_AC_kW": 108,
+        "roundtrip_AC": 0.9,
+        "eta_charge": 0.9486832980505138,
+        "eta_discharge": 0.9486832980505138,
+        "self_discharge_fraction_day": 0.001,
+        "standby_kW": 0.075
+      },
+      "lifecycle": {
+        "calendar_reference_years": 15,
+        "cycle_reference": 2400,
+        "cycle_reference_DoD": 0.8,
+        "cycle_reference_terminal_capacity_fraction": 0.8,
+        "EOL_SOH": 0.6,
+        "service_convention": "Maintained available capacity in the annual cost reference; no separate augmentation charge or simultaneous uncompensated capacity decay is imposed.",
+        "alternative_depth_life": {
+          "study_DoD": 0.6,
+          "cycles": 8000,
+          "terminal_capacity_fraction": 0.6,
+          "usable_energy_kWh": 144.6
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "price_year": 2020,
+        "installed_reference": 68333,
+        "fixed_OM_cases_per_year": {
+          "literal_per_MW": 902.016,
+          "alternative_capex_fraction": 1981.6570000000002
+        },
+        "additional_explicit_stack_or_cell_replacement": 0,
+        "replacement_zero_reason": "Already represented by the selected maintenance/maintained-capacity accounting convention; not a claim that physical replacement is free."
+      },
+      "field_sources": {
+        "nominal_energy_and_permitted_depth": "Manufacturer product sheet",
+        "charge_discharge_power": "Equal bidirectional nominal rating is a study interpretation; charging maximum is not separately guaranteed in every retained sheet.",
+        "operating_DoD_and_cycles": "PNNL H6748:H6752 plus2022report Table4.3:80%DoD/2400 reaches80%remaining capacity;60%/8000 reaches60%;not a product-specific guarantee",
+        "roundtrip": "0.90 operating reference; DEA AC reference0.91 and supplier maximum/bound retained separately",
+        "efficiency_split": "Model protocol: symmetric square-root split",
+        "self_discharge": "DEA D15:0.1%/day, transferred lithium-ion reference",
+        "standby": "Sungrow: engineering size transfer from TALLON2kW/2500kW; Huawei: midpoint of published0..0.15kW bound, not a measured mean",
+        "cost_and_fixed_OM": "DEA D24:D28; decomposition and unresolved FOM unit interpretation retained",
+        "calendar_life": "DEA15years;PNNL16year alternative",
+        "EOL": "PNNL LFP reference60%; maintained-output scenario rather than a manufacturer fade guarantee"
+      },
+      "sensitivity": {
+        "whole_plant_roundtrip": [
+          0.83,
+          0.9,
+          0.913
+        ],
+        "storage_loss_per_day": [
+          0.0005,
+          0.001,
+          0.002
+        ],
+        "standby_kW": [
+          0,
+          0.15
+        ],
+        "capex_source_alternative": "PNNL LFP2023 10MW/2h:USD452.22/kWh (range407..497.44),FOM USD2.79/kW-year; switch entire currency/scope package before comparing"
+      },
+      "readiness": "Numeric inputs complete for a declared daily maintained-capacity reference scenario; not a supplier quote/warranty"
+    },
+    {
+      "id": "itm-neptune-ii",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/itm-neptune-ii.json",
+      "electrical": {
+        "H2_kg_hour": 35,
+        "H2_kg_day": 840,
+        "system_kWh_kg": 57,
+        "full_load_AC_kW": 1995,
+        "full_load_MWh_day": 47.88,
+        "minimum_online_fraction": 0.25,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": "<5ppmH2O,<5ppmO2"
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 1313999.3405,
+            "fixed_OM_year": 44618.021,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 1596534.2085,
+            "fixed_OM_year": 50598.32399999999,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 2600894.4044999997,
+            "fixed_OM_year": 58879.803499999995,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 3990000,
+          "high": 5187000
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": null,
+        "quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "itm-neptune-v",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/itm-neptune-v.json",
+      "electrical": {
+        "H2_kg_hour": 90,
+        "H2_kg_day": 2160,
+        "system_kWh_kg": 55.9,
+        "full_load_AC_kW": 5031.0,
+        "full_load_MWh_day": 120.744,
+        "minimum_online_fraction": 0.125,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": "<5ppmH2O,<5ppmO2"
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 3378855.4469999997,
+            "fixed_OM_year": 114732.054,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 4105373.679,
+            "fixed_OM_year": 130109.97599999998,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 6688014.182999999,
+            "fixed_OM_year": 151405.209,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 10062000.0,
+          "high": 13080600.0
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": null,
+        "quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "itm-poseidon",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/itm-poseidon.json",
+      "electrical": {
+        "H2_kg_hour": 360,
+        "H2_kg_day": 8640,
+        "system_kWh_kg": 55.9,
+        "full_load_AC_kW": 20124.0,
+        "full_load_MWh_day": 482.976,
+        "minimum_online_fraction": 0.2,
+        "outlet_pressure_barg": 31,
+        "base_gas_grade": "fullysaturatedwithtraceO2"
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 13515421.787999999,
+            "fixed_OM_year": 458928.216,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 16421494.716,
+            "fixed_OM_year": 520439.9039999999,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 26752056.731999997,
+            "fixed_OM_year": 605620.836,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 40248000.0,
+          "high": 52322400.0
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": null,
+        "quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "itm-alpha50",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/itm-alpha50.json",
+      "electrical": {
+        "H2_kg_hour": 900,
+        "H2_kg_day": 21600,
+        "system_kWh_kg": 55.9,
+        "full_load_AC_kW": 50310.0,
+        "full_load_MWh_day": 1207.44,
+        "minimum_online_fraction": 0.125,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": "<5ppmH2O,<5ppmO2"
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 33788554.47,
+            "fixed_OM_year": 1147320.54,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 41053736.79000001,
+            "fixed_OM_year": 1301099.76,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 66880141.83,
+            "fixed_OM_year": 1514052.09,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 100620000.0,
+          "high": 130806000.0
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": null,
+        "quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "nel-mc250",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/nel-mc250.json",
+      "electrical": {
+        "H2_kg_hour": 22.125,
+        "H2_kg_day": 531.0,
+        "system_kWh_kg": 59.0,
+        "full_load_AC_kW": 1305.375,
+        "full_load_MWh_day": 31.329,
+        "minimum_online_fraction": 0.1,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": 0.9995
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 830635.2973875,
+            "fixed_OM_year": 28204.963275000002,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 1009237.6960875001,
+            "fixed_OM_year": 31985.369099999996,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 1644136.8199874999,
+            "fixed_OM_year": 37220.4472125,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 2610750.0,
+          "high": 3393975.0
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": 15.9,
+        "quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "nel-mc500",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/nel-mc500.json",
+      "electrical": {
+        "H2_kg_hour": 44.25,
+        "H2_kg_day": 1062.0,
+        "system_kWh_kg": 57.3,
+        "full_load_AC_kW": 2535.525,
+        "full_load_MWh_day": 60.8526,
+        "minimum_online_fraction": 0.1,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": 0.9995
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 1661270.594775,
+            "fixed_OM_year": 56409.926550000004,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 2018475.3921750002,
+            "fixed_OM_year": 63970.73819999999,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 3288273.6399749997,
+            "fixed_OM_year": 74440.894425,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 5071050.0,
+          "high": 6592365.0
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": 15.9,
+        "quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "nel-mc1000",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/nel-mc1000.json",
+      "electrical": {
+        "H2_kg_hour": 88.5,
+        "H2_kg_day": 2124.0,
+        "system_kWh_kg": 56.77,
+        "full_load_AC_kW": 5024.145,
+        "full_load_MWh_day": 120.57948,
+        "minimum_online_fraction": 0.2,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": 0.9995
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 3322541.18955,
+            "fixed_OM_year": 112819.85310000001,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 4036950.7843500003,
+            "fixed_OM_year": 127941.47639999999,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 6576547.279949999,
+            "fixed_OM_year": 148881.78885,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 10048290.0,
+          "high": 13062777.000000002
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": 15.9,
+        "quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "nel-mc2000",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/nel-mc2000.json",
+      "electrical": {
+        "H2_kg_hour": 177.0,
+        "H2_kg_day": 4248.0,
+        "system_kWh_kg": 56.77,
+        "full_load_AC_kW": 10048.29,
+        "full_load_MWh_day": 241.15896,
+        "minimum_online_fraction": 0.2,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": 0.9995
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 6645082.3791,
+            "fixed_OM_year": 225639.70620000002,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 8073901.568700001,
+            "fixed_OM_year": 255882.95279999997,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 13153094.559899999,
+            "fixed_OM_year": 297763.5777,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 20096580.0,
+          "high": 26125554.000000004
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": 15.9,
+        "quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    },
+    {
+      "id": "nel-mc4000",
+      "kind": "electrolyser",
+      "mode": "daily nominal reference scenario",
+      "facts_record": "products/nel-mc4000.json",
+      "electrical": {
+        "H2_kg_hour": 354.0,
+        "H2_kg_day": 8496.0,
+        "system_kWh_kg": 56.77,
+        "full_load_AC_kW": 20096.58,
+        "full_load_MWh_day": 482.31792,
+        "minimum_online_fraction": 0.2,
+        "outlet_pressure_barg": 30,
+        "base_gas_grade": 0.9995
+      },
+      "lifecycle": {
+        "plant_calendar_years": 30,
+        "stack_operating_hour_reference": 40000,
+        "EOL_performance_loss_reference": 0.1,
+        "cost_convention": "BEIS variable OM is the stack-renewal reserve; keep nominal operating efficiency and account for renewal here, without another explicit replacement bill.",
+        "hourly_life_role": "DOE2022 status for lifecycle sensitivity; not an additional mandatory replacement schedule in the reserve case"
+      },
+      "costs": {
+        "currency": "GBP",
+        "price_year": 2020,
+        "packages": {
+          "low": {
+            "installed": 13290164.7582,
+            "fixed_OM_year": 451279.41240000003,
+            "variable_stack_reserve_per_kg": 0.114173
+          },
+          "central": {
+            "installed": 16147803.137400001,
+            "fixed_OM_year": 511765.90559999994,
+            "variable_stack_reserve_per_kg": 0.153543
+          },
+          "high": {
+            "installed": 26306189.119799998,
+            "fixed_OM_year": 595527.1554,
+            "variable_stack_reserve_per_kg": 0.35039299999999995
+          }
+        },
+        "additional_explicit_stack_replacement": 0,
+        "modern_total_installation_sensitivity_USD2024": {
+          "low": 40193160.0,
+          "high": 52251108.00000001
+        },
+        "modern_scope": "IEA2025 non-China observations; alternative cost envelope, not added to the BEIS capital cost"
+      },
+      "partial_load_convention": "Constant nominal specific energy when online; manufacturer full partial-load curve not available in retained public sheets.",
+      "off_start_convention": "Daily single steady state or shutdown; minute-scale start energy and warm standby are not resolved. No physical zero-start claim.",
+      "water": {
+        "litre_per_kg": 15.9,
+        "quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "treatment": "Nel15.9L/kg raw potable input is published. ITM volume remains a site utility input, not invented here."
+      },
+      "hydrogen_sale_boundary": "Netback must use this delivered grade; POSEIDON wet core output requires a purification/compression allowance or matching wet-gas buyer.",
+      "field_sources": {
+        "flow_energy_load_pressure_grade": "Manufacturer per-model data sheet",
+        "plant_life_and_cost": "BEIS2021 Annex PEM2020 complete reference cost package, on H2-HHV output basis",
+        "stack_hours_and_EOL": "DOE2022 PEM status40000h at10% performance loss; benchmark not product guarantee",
+        "partial_load_and_start": "Explicit daily model conventions",
+        "modern_capex": "IEA GHR2025 executive summary:2024 non-China installed cost USD2000..2600/kW"
+      },
+      "readiness": "Numeric daily power/flow/capital/FOM/renewal-reserve reference inputs complete; market grade and local water remain project interfaces"
+    }
+  ],
+  "shared_project_interfaces": [
+    "Currency and price-year normalisation from project finance research",
+    "Actual site grid/land and water-service conditions",
+    "Delivered H2 grade and matching netback; unchanged constant price is not evidence of identical buyer acceptance",
+    "Existing daily initial/terminal inventory and A/B operating protocols"
+  ],
+  "reserve_candidates": [
+    "tesvolt-tallon",
+    "tesvolt-powercore-g2",
+    "sungrow-powertitan2-2h",
+    "sungrow-powertitan2-4h",
+    "huawei-luna5015",
+    "catl-enerone-plus-285",
+    "catl-enerone-plus-306",
+    "catl-enerc-plus-280",
+    "catl-enerc-plus-306",
+    "tesla-megapack2xl-2h",
+    "tesla-megapack2xl-4h",
+    "nel-a485",
+    "enapter-flex120",
+    "enapter-nexus500",
+    "enapter-nexus1000",
+    "enapter-nexus2500",
+    "enapter-rheos20"
+  ],
+  "AEM_role": "2026 full-system operation is well documented; legacy30k/40kh evidence retained, but a matched current installation/lifecycle-cost package is weaker. Keep AEM as sensitivity/research competitor instead of silently assigning PEM maintenance.",
+  "no_automatic_merge": true
+}

@@ -1,0 +1,89 @@
+PAGE 1
+HEATINGREFINERIES STEELAMMONIA METHANOL TRANSPORT STORAGESEMICONDUCTORS MINING ELECTRICITY
+MODULAR. HIGH-PERFORMING. COMPETITIVE.
+EUR 50,000,000* 
+CONTACT OUR SALES TEAM
+sales@itm-power.com
+* prices are based on ITM’s Standard T&C’s
+ALPHA 50 unites technology, engineering, manufacturing, and 
+deployment, in one full-scope 50 MW plant. 
+With its compact footprint and designed for outdoor installation, 
+ALPHA 50 can be easily configured into larger plants. Fully skid-
+mounted, pre-fabricated and standardised, offering in-built 
+redundancy for key components to maximise uptime, the full-scope 
+plant can cope with the widest ambient temperature range and is 
+capable of being deployed globally into any territory.
+
+PAGE 2
+Water purification 
+unit
+Hydrogen/water 
+separation unit
+Water polishing 
+unit
+Hydrogen purification 
+unit
+Oxygen/Water 
+separation unit
+Chiller unit
+Instrument  
+air system
+TECHNOLOGY PEM
+NUMBER OF STACKS 80
+CAPACITY 50 MW
+AC POWER CONSUMPTION 55.9 kWh/kg*
+SYSTEM FOOTPRINT 74 x 35 m
+OPERATING RANGE 12.5–100%
+INPUT WATER PURITY Potable Water**
+ALPHA 50: PROCESS FLOW & SPECIFICATIONS
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life 
+** Input water to the system, prior to purification
+PEM electrolyser 
+stacks
+Cooling system
+PSU
+Water Systems
+Hydrogen Systems
+Utilities
+H2 PRODUCTION 900 kg/hr
+H2 OUTPUT PRESSURE 30 bar(g)
+H2 OUTPUT PURITY <5ppm H2O, <5ppm O2 (EN 17124 & ISO 14687)
+AMBIENT TEMPERATURE RANGE -20°C to + 45°C 
+MODULATION
+10% per second ramp-up
+50% per second ramp-down
+INSTALLATION Outdoor installation
+COMPLIANCE CE/ASME
+Oxygen vent Hydrogen ventBreather
+Tap waterDiagram Key:
+Hydrogen @ 30 bar
+DrainDrain
+
+PAGE 3
+74m
+35m
+15m
+35m
+Water purification unit
+Water polishing unit
+PEM stacks and skids
+Hydraulic package unit 
+Cooling system – hybrid cooling tower 
+Hydrogen purification unit
+Power supply unit including MV trafo, dual-rectifier and cooling 
+system, specifically designed to match our electrolyser
+Plant DCS (Siemens PCS7) and safety system 
+Heat-tracing installation and insulation for ISBL
+All piping, instrumentation and electrical interconnections 
+prefabricated within the process units
+SCOPE OF SUPPLYSCHEMATIC
+ALPHA 50: FULL-SCOPE
+
+PAGE 4
+Find out the detailed 
+scope of supply and more 
+on our product page
+ALPHA 50: FULL-SCOPE
+CONTACT OUR SALES TEAM
+itm-power.com/products/alpha
+sales@itm-power.com

@@ -1,0 +1,65 @@
+{
+  "access_date": "2026-11-11",
+  "method": "Public primary sources accessed in an isolated Playwright context; earlier local primary workbooks and reports re-used for cost extraction.",
+  "originals": [
+    {
+      "name": "Ofgem Window 1 minded-to decisions consultation",
+      "url": "https://consult.ofgem.gov.uk/energy-generation/ldes-window-1-minded-to-decision/supporting_documents/window-1-minded-to-decisions-long-duration-electricity-storage-consultationpdf",
+      "file": "evidence/Ofgem-LDES-Minded-To-2026.pdf",
+      "sha256": "7e0977bfc0f2f1151551b798d37cd987d90bc43661bd49b4e4b58537087b1d49",
+      "location": "p13 portfolio; pp70–72 project size, duration and RTE"
+    },
+    {
+      "name": "RheEnergise LoDES final report",
+      "url": "https://assets.publishing.service.gov.uk/media/6a61f0ba47af652afa0c8ab6/rheenergise-high-density-hydro-final-report.pdf",
+      "file": "evidence/DESNZ-RheEnergise-final-2026.pdf",
+      "sha256": "f90e0aa5ff1ef1ad664a0f3817b6f3384f36433337e58db613e00b8aa8e41b8f",
+      "location": "p5 revised demonstrator; p11 commercial capex scenarios; pp39–40 measured RTE and commercial target"
+    },
+    {
+      "name": "SynchroStor LoDES final report",
+      "url": "https://assets.publishing.service.gov.uk/media/6a61f6e32dc18ebe4c3b2aba/SynchroStor-final-report.pdf",
+      "file": "evidence/DESNZ-SynchroStor-final-2026.pdf",
+      "sha256": "9cdadae0db4237e43cd9518ecfcfb86ee32c1a3ba96b6f911d4520926eda51fa",
+      "location": "p9 scope change, TRL6 core and TRL4 storage; p14 expected RTE; p47 FOAK hardware concept cost $5.3m/MW + $150k per hour of discharge as published"
+    },
+    {
+      "name": "KES FlexiTanker LoDES final report",
+      "url": "https://assets.publishing.service.gov.uk/media/6a61ee7247af652afa0c8ab0/keep-energy-systems-flexitanker-compressed-air-energy-storage-report.pdf",
+      "file": "evidence/DESNZ-FlexiTanker-final-2026.pdf",
+      "sha256": "e51be79d5e0bcefca547f732b95dde8308a7a705dfbd1d83d889d419b03eba10",
+      "location": "pp4 and 48–49 demonstrator and simulations, 40/48/52%"
+    },
+    {
+      "name": "Alliant Energy Columbia fact sheet",
+      "url": "https://www.alliantenergy.com/-/media/alliant/documents/ourenergy/energystorage/columbiaenergystorageprojectfactsheet3.pdf?sc_lang=en",
+      "file": "evidence/Alliant-Columbia-CO2-factsheet.pdf",
+      "sha256": "a3609be80f59aa56649f87824f1adff0be6163a56b8ede065c4ced5638b7d814",
+      "location": "pp1–2 20MW/200MWh, DOE grant, supply contract and planned operation"
+    },
+    {
+      "name": "SSE/Imperial Long Duration Pumped Hydro analysis",
+      "url": "https://www.coireglas.com/s/SSE_ICL_LDPHS_Final_Report_F21.pdf",
+      "file": "evidence/SSE-Imperial-Long-Duration-Hydro.pdf",
+      "sha256": "5e649fd643309e11baaf25cfec43e83f91e5ec7614943fcd38acff3df21405d2",
+      "location": "System-level benefit study, excludes cost of the additional pumped hydro in the cited system saving comparison. Project dimensions instead use the newer developer and Ofgem material."
+    },
+    {
+      "name": "PNNL Energy Storage Cost and Performance Database v2024",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC_Cost_Performance_Database_v2024.xlsx",
+      "file": "../equipment-research-20261110-v3.1/evidence/PNNL-cost-performance-2024.xlsx",
+      "sha256": "ef50e87012361e2a10d3df97cb61b93d38eae9255539ca76061e0c5feef501e9",
+      "location": "Database, 100MW/10h, three estimates per technology; exact row references in REFERENCE_COSTS.json"
+    }
+  ],
+  "other_sources": [
+    {"name": "SSE Coire Glas", "url": "https://www.coireglas.com/project", "role": "Developer current ≥45GWh, approx. 1.4GW"},
+    {"name": "Hydrostor Goderich", "url": "https://hydrostor.ca/project/the-goderich-a-caes-facility/", "role": "Commercial contracted and physical capacities"},
+    {"name": "Highview Carrington groundbreaking", "url": "https://highviewpower.com/news-announcements/mayor-of-greater-manchester-andy-burnham-officially-breaks-ground-on-highviews-pioneering-liquid-air-energy-storage-facility-in-carrington-manchester/", "role": "Funding, project boundary and 50MW/300MWh"},
+    {"name": "Highview FAQs", "url": "https://highviewpower.com/faqs/", "role": "Carrington construction, phase 1 stability separate from LAES; Hunterston hybrid"},
+    {"name": "Energy Vault Rudong", "url": "https://www.energyvault.com/projects/rudong", "role": "25MW/100MWh and developer target and commissioning account"},
+    {"name": "Beacon Stephentown", "url": "https://beaconpower.com/stephentown-new-york/", "role": "20MW and 200 flywheels, grid regulation"},
+    {"name": "PNNL 2022 assessment", "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf", "role": "Tables 4.41/4.47/4.51 conventional LAES versus fuel-added configurations"},
+    {"name": "Danish Energy Agency storage workbook", "url": "https://ens.dk/media/6589/download", "role": "162 Flywheels, D-column 2020 technology example, standby loss distinct from conversion RTE"}
+  ]
+}

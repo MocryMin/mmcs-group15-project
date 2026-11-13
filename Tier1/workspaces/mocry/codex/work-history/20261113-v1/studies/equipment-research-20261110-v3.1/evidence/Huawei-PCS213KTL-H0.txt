@@ -1,0 +1,125 @@
+PAGE 1
+Model: LUNA2000-213KTL-H0
+Smart PCS
+
+
+
+
+
+    Max. Efficiency 99%         Modular Design             IP66 Protection
+
+
+
+
+      Built-in Intelligent             Dual-stage            Smart Grid Forming
+   Active Breaking Device           Architecture                Algorithm
+
+
+                Efficiency Curve                                    Circuit Diagram
+
+  Efficiency
+
+
+  100%
+
+   99%
+
+                                                                                                                                                                                                                                                  L1       L2
+   98%                                                                                                                                            +                                                               =     =                                                                                                                                                                                                                                                                                                                                                                                   FilterEMIAC               L1L2L3                                                                                                                                                                                                                                  FilterEMIDC           CircuitStartSoft
+                                                                                                                                                                                                                                                                            SPD                                                                                                                                                                                                                      C   97%                                                                                                                                                                                                             -              =     ~                                                                                                                                                                                                                                                   Relay  Relay    RCD
+                                                                                                                                                        SPD
+   96%                                                                                                                                                                                  Booster              Inverter              Line
+                                                                                                                                                                                                                                            Circuit              Bridge                  Filter
+
+   95%
+      0%       20%       40%       60%       80%       100%
+                                                                           LUNA2000-213KTL-H0
+              1100V            1250V            1350V            1500V
+
+
+                          Load
+
+1 - Applies to LUNA2000-4472 series models.
+
+
+                                                                     S O L A R . H U A W E I . C O M
+
+PAGE 2
+                                                            Model: LUNA2000-213KTL-H0
+                                   Technical Specifications
+
+                                                    Efficiency
+Max. Efficiency                                                              99.01%
+                                  DC Side
+Rated DC Voltage                                                                   1,331 V
+
+Max. DC Voltage                                                                    1,500 V
+
+Operating DC Voltage Range                                               800 V ~ 1,500 V
+
+Rated Power Operating Voltage Range                                        1100V-1500V
+
+Max. DC Current                                                                     218.5 A
+
+Max. Number of Inputs                                                         1
+                                    AC Side
+Rated AC Active Power                                               213,000 W @40°C; 192,000 W @50°C
+
+Max. Apparent Power                                                            236,400 VA
+
+Rated AC Voltage                                                            800 V
+
+Rated AC Grid Frequency                                                   50 Hz / 60 Hz
+
+Max. AC Current                                                                     170.6 A
+
+Adjustable Power Factor Range                                                         -1 ... +1
+Max. Total Harmonic Distortion                                          THDi ≤ 1.5% (Rated)
+                                               Protection
+AC Overcurrent Protection                                                            Yes
+
+DC Reverse-polarity Protection                                                        Yes
+
+Insulation Resistance Detection                                                       Yes
+
+Residual Current Protection                                                           Yes
+
+DC Surge Protection                                                           Type II
+
+AC Surge Protection                                                            Type II
+                                     Communication
+Display                                                       LED Indicators, WLAN + APP
+
+USB                                                                               Yes
+
+Communication Protocol                                                                Ethernet, CAN
+                                            General
+Dimension (W x H x D)                                                  875 x 865 x 365 mm
+
+Weight                                                           ≤110 kg
+
+Operating Temperature Range                                                    -25°C ~ 60°C
+
+Cooling Method                                                         Smart Air Cooling
+
+Max. Operating Altitude without Derating                                             4,700 m
+
+Relative Humidity                                                  0 ~ 100% (Non-condensing)
+
+DC Connector                                                OT / DT Terminal
+
+AC Connector                                                OT / DT Terminal
+
+Protection Degree                                                                    IP66
+
+Anti-corrosion Degree                                                   C5-Medium
+
+Topology                                                                        Transformerless
+                                       Standards Compliance
+                                   GB/T 34120, GB/T 34133, IEC/EN62477-1, etc.
+
+
+
+
+
+                                                                 S O L A R . H U A W E I . C O M

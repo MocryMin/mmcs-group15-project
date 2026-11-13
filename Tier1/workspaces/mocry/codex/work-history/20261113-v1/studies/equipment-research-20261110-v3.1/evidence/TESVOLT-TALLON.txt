@@ -1,0 +1,67 @@
+PAGE 1
+   Technisches Datenblatt
+  TESVOLT TALLON
+
+
+      Technische Daten Energiespeicher
+
+     TESVOLT TALLON                                 In sich geschlossener elektrischer Energiespeicher (EES) im Standard 20-ft-Containerformat
+      Batteriesystem
+       Nennenergiekapazität, -leistung und Lade-/      5,015 MWh | 2,5 MW | 0,5Cp
+       Entladerate
+       Zulässige Entladungstiefe DOD              100 %
+       Zelle                                        Lithium-Eisenphosphat (LFP) prismatisch; 314 Ah
+      Betriebsspannungsbereich                      1.040...1.500 V mit 1.331 V Nennspannung
+      Roundtrip-Wirkungsgrad DC-Anschlusspunkt    93,7 % bei 0,5CP | 95,2 % bei 0,25C
+       Modularität                             12 Racks mit je 4 Einschubebenen für insgesamt 48 Batteriemodule, 416s12p
+     Zu erwartende Betriebslebensdauer*           11.000 Zyklen | 15 Jahre
+       *Bei 2 Zyklen/Tag (Jahresdurchschnitt), 100 % DOD und maximal 0,5CP. Wert für das Ende der Betriebslebensdauer: Zustand (SOH) = 60 %
+       Batteriecontainer
+      Typ                                               20-ft-ISO-Stahl-Container, C5-Korrosionsschutz gem. DIN EN ISO 12944, Lichtgrau RAL 7035
+      Transportgewicht (inkl. Batterien)               Bis zu 44,5 t
+      Schutzklasse                               IP55
+      Umgebungstemperaturbereich                  −30...55 °C | 10...90 % relative Luftfeuchte
+      Betriebshöhe                              < 3.000 m
+      Lärmemission                                  Durchschnittlicher Schalldruckpegel LP 75 dB(A), Messung nach ISO 3744
+       Hilfsteilsystem
+      Behelfsmäßige Leistungsaufnahme             Typisch: 23 kW @ 25 °C / 33 kW @ 45 °C | Standby: 2 kW | Spitze: 36 kW / 53 kVA
+      Nennwert des Energieverbrauchs              63,51 MWh/Jahr bei 1,5 Zyklen/Tag
+      Kühlkonzept                                    Kühlplatte an Modulunterseite
+       Kühlkreislauf                                   Wasser-Ethylenglykol-Kühlkreislauf mit Luft-Wasser-Wärmepumpe
+       Kältemittel                            R410A (RoHS-konform)
+      Brandschutzkonzept
+       Detektion und Alarm                          Brandmeldezentrale (BMZ)
+                                                Rauch- und Gasmelder (CO & H2)
+      Brandbekämpfung                               Selbsttätige Löschanlage (Modul- und Container)
+                                                     Hitzeschild-Pads auf Modulebene als Propagationsbarriere
+                                                       Wasser-Einspritzleitung trocken für Feuerwehr
+       Löschmittel                                  Aerosol
+      Explosionsschutz                              Aktives Entlüftungssystem (NFPA 69)
+                                                       Deflagrationsplatten im Dach des Containers (NFPA 68)
+       Zertifikate & Normen
+                                        CE | UN 38.3 | IEC62619 | IEC 60730 | UL 9540A | EU-BattV 2023
+      Kommunikationsschnittstellen
+                                          TESVOLT Energy Trading und Energiemanagement, myTESVOLT Portal, CAN, Modbus TCP
+                                          TESVOLT Energy Controller Pro
+      Garantie
+                                            15 Jahre kombinierte Produkt- und Performance-Garantie (optional 20 Jahre)
+
+
+
+
+
+B.01
+Revision:
+         TESVOLT AG
+       Am Heideberg 31  | 06886 Lutherstadt Wittenberg
+           Deutschland  | Germany
+              Tel. +49 (0) 3491 8797 100
+           info@tesvolt.com  | www.tesvolt.com RD.TI.150.E.de-DE
+
+
+|
+AG           Dieses Datenblatt dient ausschließlich der Produktinformation und ist nicht rechtsverbindlich. Die tatsächlichen Spezifikationen und/oder Produktmerkmale (insbesondere bei Weiterentwicklung der Produkte) können geringfügig da­
+             von abweichen. Irrtümer und Änderungen bleiben vorbehalten. Bitte lesen Sie die Sicherheits- und Installationsanweisungen aufmerksam und vollständig durch, bevor sie das Produkt verwenden. Bei Kauf gelten die aktuell gütligen
+              Garantieerklärungen und die allgemeinen Liefer- und Geschäftsbedingungen der TESVOLT AG.
+
+              Für die Nutzung des Energie-Management-Systems (EMS) TESVOLT Energy Manager ist eine Registrierung im myTESWORLD-Portal des Herstellers (https://mytesworld.tesvolt.com) erforderlich.© TESVOLT           Für die Nutzung des Energie-Management-Systems (EMS) Data Manager M ist eine Registrierung im Sunny Portal powered by ennexOS des Herstellers SMA (Sunny Portal powered by ennexOS) erforderlich.

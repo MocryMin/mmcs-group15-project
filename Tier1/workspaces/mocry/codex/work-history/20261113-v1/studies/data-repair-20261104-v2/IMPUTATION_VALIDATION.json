@@ -1,0 +1,17 @@
+{
+  "demand_17_missing_midnight_slots": {
+    "n": 74,
+    "bias": 5.524798235735943,
+    "mae": 8.627557244744821,
+    "p95_absolute": 24.27604166666424,
+    "mape_percent": 0.030053110225365144
+  },
+  "whole_day_price_estimation_GBP_MWh": {
+    "n": 77,
+    "bias": -2.881006717869119,
+    "mae": 19.869513298575274,
+    "p95_absolute": 78.9122395833333,
+    "mape_percent": 22.95583458929249
+  },
+  "caveat": "Holdout tests use normal complete days on the 15th of each month. Errors are empirical, not guaranteed bounds. Wind and solar holdout statistics are in REPAIR_AUDIT.json."
+}

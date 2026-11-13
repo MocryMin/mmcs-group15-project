@@ -1,0 +1,16 @@
+{
+  "source_id": "LOCAL-MMCS-HALFHOUR-V7-20261113",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "date": "2026-11-13",
+  "status": "local_computational_result",
+  "scope": "Half-hour Tier 1 re-optimisation with preserved v6 daily energy and price means",
+  "entry": "../assignments/FinalProject/tier1-halfhour-20261113-v7/README.md",
+  "periods": 105216,
+  "years": [2020, 2025],
+  "new_online_collection": false,
+  "published": false,
+  "data_limitation": "Archived observed/repaired intraday shapes. Independent farm intraday profile assumed flat, with GB wind-shape sensitivity; not observed farm half-hours.",
+  "solver": "CPU HiGHS 1.16.0 with chronological battery pricing certificates and integer feasible schedules",
+  "meaning": "Numerically certified zero integer battery investment in both policies. Remaining electrolyser portfolio profit gap bounded; not a unique procurement recommendation."
+}

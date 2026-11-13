@@ -1,0 +1,68 @@
+{
+  "products": 27,
+  "counts": {
+    "battery": 12,
+    "electrolyser": 15
+  },
+  "battery_brands": [
+    "CATL",
+    "Huawei",
+    "Sungrow",
+    "TESVOLT"
+  ],
+  "electrolyser_brands": [
+    "Enapter",
+    "ITM",
+    "Nel"
+  ],
+  "nominal_operating_reference_core_known": 17,
+  "unconditional_full_investment_ready": 0,
+  "declared_daily_reference_profiles": 12,
+  "field_coverage_records": 861,
+  "raw_documents_hashed": 29,
+  "local_markdown_links_checked": true,
+  "visual_review": {
+    "pages": 14,
+    "status": "rendered and inspected:manufacturer tables, Nexus2500duration footnote, CATLvariant/voltage columns, Huaweiauxiliary ratings",
+    "correction": "CATLEnerOnePlus1361.2V differs from EnerCPlus1331.2V; catalogue corrected before release"
+  },
+  "power_definition_warnings": [
+    {
+      "id": "nel-mc250",
+      "marketing_MW": 1.25,
+      "source_or_derived_input_MW": 1.305375,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    },
+    {
+      "id": "enapter-flex120",
+      "marketing_MW": 0.12,
+      "source_or_derived_input_MW": 0.112,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    },
+    {
+      "id": "enapter-nexus500",
+      "marketing_MW": 0.5,
+      "source_or_derived_input_MW": 0.467,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    },
+    {
+      "id": "enapter-nexus1000",
+      "marketing_MW": 1.0,
+      "source_or_derived_input_MW": 0.9332,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    },
+    {
+      "id": "enapter-nexus2500",
+      "marketing_MW": 2.5,
+      "source_or_derived_input_MW": 2.266,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    },
+    {
+      "id": "enapter-rheos20",
+      "marketing_MW": 20.0,
+      "source_or_derived_input_MW": 18.59,
+      "interpretation": "Keep source input/flow;marketing label is not exact input power"
+    }
+  ],
+  "findings": "Raw unknowns remain null;public references and engineering scenarios do not overwrite manufacturer fields."
+}

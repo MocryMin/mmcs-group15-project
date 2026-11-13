@@ -1,0 +1,53 @@
+{
+  "at": "2026-11-07T17:38:47.849076+00:00",
+  "pages": 10,
+  "page_labels": [
+    "i",
+    "ii",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "R1"
+  ],
+  "front_matter_pages": 2,
+  "body_pages": 7,
+  "reference_pages": 1,
+  "tier1_body_pages": 4,
+  "chapters": {
+    "I": [
+      1,
+      2
+    ],
+    "II": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "III": [
+      7
+    ]
+  },
+  "tier2_status": "forecasting_and_control_method_specification; experiments_pending",
+  "visual_reviewed_physical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "embedded_fonts": 17,
+  "overfull_warnings": false,
+  "undefined_references": false,
+  "numeric_inputs_and_core_model_unchanged": true,
+  "sha256": "e30260a54e5ce94f64be409ef102f549e8beb66e69377c2cb43115f2ab62873a"
+}

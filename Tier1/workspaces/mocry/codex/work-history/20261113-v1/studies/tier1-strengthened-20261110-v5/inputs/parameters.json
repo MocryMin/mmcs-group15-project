@@ -1,0 +1,25 @@
+{
+  "rate": 0.05,
+  "battery_unit_MWh": 3.0,
+  "battery_unit_MW": 1.5,
+  "battery_cost_MWh": 256234.7766536928,
+  "battery_FOM_MW": 14861.617045914183,
+  "battery_life": 15,
+  "eta": 0.9486832980505138,
+  "soc_window": 0.6,
+  "hydrogen_unit_MW": 20.0,
+  "hydrogen_kWh_kg": 55.9,
+  "hydrogen_min": 0.2,
+  "hydrogen_cost_MW": 1460439.721736966,
+  "hydrogen_FOM_MW": 25861.65295169946,
+  "hydrogen_replacement_MW": 489609.26404293376,
+  "hydrogen_replacement_years": [
+    11,
+    22
+  ],
+  "hydrogen_life": 30,
+  "hydrogen_price": 7.7990270551508845,
+  "hydrogen_limit_kg": 10000.0,
+  "self_discharge": 0.0,
+  "commission_price_GBP_MWh": 78.1261430580068
+}

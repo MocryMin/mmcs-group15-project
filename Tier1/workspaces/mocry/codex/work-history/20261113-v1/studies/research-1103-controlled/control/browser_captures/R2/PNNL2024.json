@@ -1,0 +1,30 @@
+{
+  "owner": "R2",
+  "id": "PNNL2024",
+  "requested_url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC_Cost_Performance_Database_v2024.xlsx",
+  "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC_Cost_Performance_Database_v2024.xlsx",
+  "status": 200,
+  "headers": {
+    "date": "Tue, 03 Nov 2026 16:22:43 GMT",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "User-Agent",
+    "last-modified": "Sun, 19 May 2024 16:01:37 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "862630",
+    "cache-control": "max-age=1209600",
+    "expires": "Tue, 17 Nov 2026 16:22:43 GMT",
+    "access-control-allow-headers": "Content-Type, Accept, X-CSRF-Token",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive",
+    "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-permitted-cross-domain-policies": "none"
+  },
+  "bytes": 862630,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:22:44.900Z",
+  "binary_base64_path": "C:/研究生/courses/MMCS/assignments/FinalProject/research-1103-controlled/control/browser_captures/R2/PNNL2024.b64"
+}

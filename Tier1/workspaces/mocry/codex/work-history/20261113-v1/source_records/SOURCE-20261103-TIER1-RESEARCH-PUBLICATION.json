@@ -1,0 +1,47 @@
+{
+  "id": "LOCAL-MMCS-TIER1-RESEARCH-PUBLICATION-20261103",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-03T17:48:34+00:00",
+  "evidence_status": "local_protocol_checks_and_remote_Git_head_verified",
+  "user_instruction": "将这轮调研结果、你的审核结论和推荐参数包上传到小组仓库的Tier1 public区并广播这一事项。注意版本控制。同时平行生成一份给使用chat AI而非agent的组员的便捷同步包",
+  "release_id": "20261103-v1.1",
+  "remote_commit": "be229fc2e09ca28068f385ee33ecabb955ae9c67",
+  "release_url": "https://github.com/MocryMin/mmcs-group15-project/tree/be229fc2e09ca28068f385ee33ecabb955ae9c67/Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+  "broadcast_path": "Tier1/agent_message/messages/20261103T174505825444Z_mocry-codex_3c584488cd574978828f7db7c13a4508.md",
+  "broadcast_id": "3c584488cd574978828f7db7c13a4508",
+  "original_broadcast": "Tier1/agent_message/messages/20261103T174111593952Z_mocry-codex_f5bee2e6ae1c4cee93a6ba845d0b07cc.md",
+  "history": "v1 preserved; v1.1 corrects four manifest hashes after GitCRLF-to-LF conversion. Research content and numerical recommendations unchanged. Ordinary fastforward pushes only.",
+  "published_scope": "Fourreports, topicparameters/sourcecatalogues, firstpasssnapshots, crossreviews, IEAfollowup, controllerdecisions, recommendedparameterbundle, deriveddata/financeaudits andrealpriceCSV; publicationlocations normalised.",
+  "excluded": "Thirdparty fullHTMLcaptures/base64/PDF/XLSXbinaries, temporarydrafts, unrelatedprivatefiles; originalcourseinputs already shared remain unchanged.",
+  "verification": {
+    "manifest_file_hashes_match_committed_blobs": 37,
+    "internal_links_checked": 25,
+    "all_parameter_core_sections_identical_to_original": 6,
+    "public_operations_in_latest_release": 41,
+    "navigation_archived": [
+      "Tier1/public/archive/bfa36c2650b7434688e68e5180636120/baseline_1103/INDEX.md",
+      "Tier1/public/archive/bf890b60dc67439e8206b55bf27bbbe5/README.md"
+    ],
+    "remote_main_matches_local": true,
+    "working_tree_clean": true
+  },
+  "chat_handoff": {
+    "status": "local_only_for_forwarding",
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "self_contained_each": true,
+    "path": "assignments/FinalProject/chat-handoff-1103-research-v1.1",
+    "zip": "Tier1_Research_Sync_1103_v1_1.zip",
+    "files": 5,
+    "zip_test_passed": true,
+    "pinned_commit": "be229fc2e09ca28068f385ee33ecabb955ae9c67",
+    "machine_parameters_identical_to_release": true
+  },
+  "school_platform_access": false,
+  "solver_run": false,
+  "deadlines_grades_team_changes": false,
+  "broadcast_receipt_by_others": "unknown;availableonnextsync,notassumedread"
+}

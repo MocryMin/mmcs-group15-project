@@ -1,0 +1,14 @@
+{
+  "all_passed": true,
+  "schedules_checked": 64,
+  "xpress_schedules": 60,
+  "simple_rules": 2,
+  "exact_common_size_schedules": 2,
+  "largest_flow_residual_MWh": 1.2670997584507402e-06,
+  "largest_cash_residual_GBP_year": 2.3092638912203256e-08,
+  "independent_annual_replays": 14,
+  "largest_peer_rounding_difference_GBP": 49.542552302939136,
+  "contract_grid_points": 7930,
+  "xpress_contract_grid_crosschecks": 8,
+  "input_sha256_checks": 8
+}

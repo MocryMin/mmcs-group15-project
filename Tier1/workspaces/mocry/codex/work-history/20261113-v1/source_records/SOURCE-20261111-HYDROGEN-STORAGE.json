@@ -1,0 +1,13 @@
+{
+  "source_id": "LOCAL-MMCS-HYDROGEN-STORAGE-20261111",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-11",
+  "user_request": "调查储存H2设备的一条龙数据，包括首次购置成本，非储存维护成本，储存成本",
+  "report": "../assignments/FinalProject/hydrogen-storage-research-20261111/REPORT_ZH.md",
+  "model_inputs": "../assignments/FinalProject/hydrogen-storage-research-20261111/MODEL_INPUTS.json",
+  "source_register": "../assignments/FinalProject/hydrogen-storage-research-20261111/SOURCES.json",
+  "evidence_status": "Primary system estimate, manufacturer technical sheets, NIST query and labelled pressure/cost transfers. Original reference hashes and numerical calculations verified.",
+  "scope": "Onsite Type I compressed gaseous hydrogen buffer. Initial equipment and installation, annual fixed maintenance, charging electricity, inventory and discharge parameters, first fill and throughput examples.",
+  "price_basis": "GBP2020 using existing project exchange convention. Technical and cost scenario suitable for model input, with UK site quotations open."
+}

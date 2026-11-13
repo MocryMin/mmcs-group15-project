@@ -1,0 +1,36 @@
+{
+  "source_id": "USER-AND-LOCAL-MMCS-ACADEMIC-V4-20261107",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "at": "2026-11-07",
+  "status": "user_specified_framework_and_locally_verified_report_revision",
+  "user_requirements": {
+    "presentation": "Standard academic paper; monochrome; no KPI cards, decision boxes or marketing opening",
+    "pagination": "Abstract and Contents separate, excluded from body; References excluded from body",
+    "source_boundary": "User-specified format after reading past examples, not a newly retrieved official exclusion rule",
+    "body_budget": {"common": 2, "tier1_maximum": 4, "tier1_and_tier2_maximum": 8, "total_maximum": 10},
+    "hierarchy": "Centered Roman-numeral chapters; left-aligned Arabic-numbered sections",
+    "tier1_order": ["Problem analysis", "Assumptions and research", "Mathematical model", "Results and analysis"],
+    "tier2_choice": "Tier2B with a predictive model; selected for our proposed approach, not claimed to be universal course requirement"
+  },
+  "package": "assignments/FinalProject/tier1-candidate-20261107-v4-academic",
+  "zip": "assignments/FinalProject/MMCS_Tier1_Candidate_20261107_v4_academic.zip",
+  "PDF": {
+    "file": "report/report.pdf",
+    "physical_pages": 10,
+    "front_pages": ["i", "ii"],
+    "body_pages": 7,
+    "common_pages": [1, 2],
+    "tier1_pages": [3, 4, 5, 6],
+    "tier2_method_specification_pages": [7],
+    "reference_pages": ["R1"]
+  },
+  "numerics": "v3 frozen inputs and core model unchanged; 64 schedules recalculated and audited",
+  "tier2b_status": "Predictive model, rolling control, leakage boundary and comparisons specified; no new prediction/control experiment results",
+  "review": "Sequential terminology/symbol audit, all pages visually checked, compile warnings and cross-references checked",
+  "online_school_access": false,
+  "new_independent_agent_review": false,
+  "published": false,
+  "group_adoption": "not_confirmed",
+  "official_submission": false
+}

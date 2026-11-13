@@ -1,0 +1,71 @@
+{
+  "id": "enapter-flex120",
+  "type": "electrolyser",
+  "manufacturer": "Enapter",
+  "model": "AEM Flex120",
+  "source": "Enapter-Flex120-202606.pdf p2rev08(2026-06-15)",
+  "technical": {
+    "technology": "AEM",
+    "marketing_class_MW": 0.12,
+    "hydrogen_kg_per_hour": 2.16,
+    "system_specific_kWh_per_kg": 51.3,
+    "nominal_system_input_kW": 112.0,
+    "nominal_stack_input_kW": null,
+    "minimum_flow_fraction": 0.12,
+    "minimum_transient_flow_fraction": null,
+    "transient_limit_hours": null,
+    "minimum_steady_flow_fraction": 0.12,
+    "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+    "outlet_pressure_barg": 31,
+    "base_purity": 0.995,
+    "optional_purity": 0.99999,
+    "additional_purification_kW": 3.0,
+    "water_litre_per_kg": 8.981481481481481,
+    "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+    "ramp": null,
+    "hot_start_seconds": 225,
+    "cold_start_seconds": null,
+    "standby_kW": null,
+    "minimum_up_time_hours": null,
+    "minimum_down_time_hours": null,
+    "stack_lifetime_hours": null,
+    "plant_lifetime_years": null,
+    "warranty_years": null,
+    "ambient_temperature_C": null,
+    "degradation_curve": null,
+    "replacement_cost": null,
+    "maintenance": null,
+    "scope": "systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits",
+    "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+    "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+    "nominal_power_to_flow_ratio_kWh_per_kg": 51.85185185185185,
+    "nominal_power_consistency_relative_error": 0.010757346039997048
+  },
+  "public_prices": [],
+  "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+  "model_protocol": [
+    "daily steady-state and shutdown convention",
+    "preserve both nominal output and input definitions",
+    "part-load curve approximation must be declared",
+    "common delivered hydrogen grade before applying equal netback",
+    "use one consistent stack-replacement accounting route"
+  ],
+  "general_gaps": [
+    "Current full installed project price",
+    "Product-specific lifetime/renewal cost and downtime",
+    "Off/standby/start energy and full partial-load curves where unpublished"
+  ],
+  "model_view": {
+    "hydrogen_kg_day": 51.84,
+    "system_kWh_kg": 51.3,
+    "full_load_input_MWh_day": 2.688,
+    "minimum_flow_fraction": 0.12,
+    "missing_core_fields": [],
+    "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": true,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

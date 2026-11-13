@@ -1,0 +1,452 @@
+{
+  "original_zip": "MMCS_Tier1_Multiproduct_20261110_v6.zip",
+  "original_zip_sha256": "e89b214368746cdcf41e8b43c3f0dbec5115c59c70ad8c04a9f5d4ca52081dcf",
+  "bytes": 2033071,
+  "representation": "All file payloads preserved; original ZIP container is not duplicated. Paths may deduplicate identical bytes.",
+  "entries": [
+    {
+      "entry": "tier1-multiproduct-20261110-v6/build_inputs.py",
+      "bytes": 6915,
+      "sha256": "e88cf05c7b9bf896f2b99a74e0ac28d18a06e2474da7b475ca1ebe46b39670c4",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/build_inputs.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/configuration.json",
+      "bytes": 14965,
+      "sha256": "eb3307b46ed2405db43f870f1972075f4e5c6521576cb7ac554f07950688d3c9",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-halfhour-20261113-v7/source_data/tier1-multiproduct-20261110-v6/configuration.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/CPI.csv",
+      "bytes": 11950,
+      "sha256": "05bf2ec5459e46961aa994c2cbfdd2abcef5c1591b99659358a414652966bee6",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/research-1103-controlled/control/browser_captures/R4/ONS-CPI-CSV.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/daily_demand.csv",
+      "bytes": 76041,
+      "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/daily_demand.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/daily_generation_by_fuel.csv",
+      "bytes": 798302,
+      "sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/daily_generation_by_fuel.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/daily_generation_total.csv",
+      "bytes": 44151,
+      "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/daily_generation_total.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/daily_market_index_price.csv",
+      "bytes": 96709,
+      "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/daily_market_index_price.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/date_quality.csv",
+      "bytes": 44229,
+      "sha256": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/date_quality.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/MANIFEST.json",
+      "bytes": 1808,
+      "sha256": "675dda9381f23b37dd7cf212c5edf22a9ad3bb9694370b0b9559f50351c23136",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-candidate-20261107-v3/inputs/MANIFEST.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/parameters.json",
+      "bytes": 680,
+      "sha256": "41f3fecdb37928e1c32b9a1ddf36bb61232f9e2c9b9f83f7fceb189a9b5eb88b",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/baseline-1104/parameters.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/inputs/wind_farm_generation.csv",
+      "bytes": 73819,
+      "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/data-repair-20261104-v2/data/wind_farm_generation.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/legacy_model.py",
+      "bytes": 24500,
+      "sha256": "e3cfcc6081de2364fe5aabee77aa12b48834b033c31d287cf691e2e62e134b25",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-candidate-20261107-v3/run_study.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/MODEL.md",
+      "bytes": 3593,
+      "sha256": "4154b2ef3dfe03ff5c8873d4e7bea802690e7d2786a0549688af1a3916339e18",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/MODEL.md"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/model.py",
+      "bytes": 12742,
+      "sha256": "e19582cc2d914fcc1cfa87f45703f387cb6a4504ca8ea321ea3803252ef192ca",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/model.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/package.py",
+      "bytes": 1434,
+      "sha256": "b25d74affcfe0c89907a217cafbe7c553209ca21889cdec3c487f7c89cb72b26",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/package.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/README.md",
+      "bytes": 6220,
+      "sha256": "ca7ec4119470c2707f6d82c990b1f07b562644fe432adf2e4e97245e27bd5967",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/README.md"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/requirements.txt",
+      "bytes": 55,
+      "sha256": "a6195358d161cee4dc27a4632dda61974d2678401397a0f4af7ed9f58f8002c0",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/requirements.txt"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/research/eligibility.json",
+      "bytes": 2389,
+      "sha256": "2f9536cdd6b3e449ccb7ae918f347e37764b3ad84c105f7af2e20e1ac1a7f2ed",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/ELIGIBILITY_ASSESSMENT.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/research/equipment_study_inputs.json",
+      "bytes": 42535,
+      "sha256": "9531bf9ef1cf1aacb84ba22b1a122decd7492a09c01ca60e24a391165ea7b0ef",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/equipment-research-20261110-v3.1/STUDY_INPUTS.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/research/SOURCE_HASHES.json",
+      "bytes": 555,
+      "sha256": "3bc9548a330c2ee543dae4b351e8630e96f9271f972d4d8d3f487a0dd7250421",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/research/SOURCE_HASHES.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/research/tesla_economic_inputs.json",
+      "bytes": 13118,
+      "sha256": "4e119c5ad73fe538cf399ed2c4a1dbe44bbddad9c3e085921ae593df6cf22f06",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/ECONOMIC_INPUTS.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/research/v5_configuration.json",
+      "bytes": 1247,
+      "sha256": "615c1d2dba402c623f9745eab7beab93f4eb56a48a8718808a9b22a624224e44",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/research/v5_configuration.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main.json",
+      "bytes": 21541,
+      "sha256": "4ee00bff2ef7e9ac3ce55d6d442ce887b042d9bc52299b94d8110a0c16222d20",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-halfhour-20261113-v7/source_data/tier1-multiproduct-20261110-v6/results/A_comparable_main.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_cap10000.json",
+      "bytes": 21771,
+      "sha256": "e10509efd0f2f7617f59f59690b79d838eaa8dcdfeb78fecf35742c11f3e184c",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_cap10000.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_cap10000_schedule.csv",
+      "bytes": 767464,
+      "sha256": "561c540bd82baa061d8ef0358b1b94d98370e022d4c50c0cdd37aa3b2ad164f7",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_cap10000_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_cap1558.97.json",
+      "bytes": 21573,
+      "sha256": "8bbf2390da14b64a080cc5ec3ffb52f2bbcd5db9dabd945b19fd88c2994cfa69",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_cap1558.97.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_cap1558.97_schedule.csv",
+      "bytes": 746644,
+      "sha256": "b38e62a26f2374c1f564fcdcfc09fb3b6632926cf1bb8c40439db0f1af9bfedd",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_cap1558.97_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_included.json",
+      "bytes": 23363,
+      "sha256": "384a463602b1580cbd84905f198d82506fc26accc0c9e55f03b7a062e8026541",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_included.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_included_schedule.csv",
+      "bytes": 837233,
+      "sha256": "473a1b52155e38ec3396f89ebb7c089d4a44a5c00f8ac4119448bb9b17ff2194",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_included_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_only.json",
+      "bytes": 3435,
+      "sha256": "1f5b788f8514e1e5bd5e82e0126495beb0e718c7635d75a5bbf54d5f5945ad92",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_only.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_only_schedule.csv",
+      "bytes": 463004,
+      "sha256": "6bff426f259a59d69cf09a59bffae7081f71f5b32ac858964bcca0dddd47a6c1",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_main_reference_only_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_main_schedule.csv",
+      "bytes": 777948,
+      "sha256": "aec2c9dd0cc7894cd2967d47d250b99f2b524a3e7a71160eff1edeebf426f009",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-halfhour-20261113-v7/source_data/tier1-multiproduct-20261110-v6/results/A_comparable_main_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_research_favourable_research_battery_operation.json",
+      "bytes": 21565,
+      "sha256": "d651eb5f79b1793617fe2301f63c6f7fc2e06ede4e53f2533eedbac60d8135c4",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_research_favourable_research_battery_operation.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_comparable_research_favourable_research_battery_operation_schedule.csv",
+      "bytes": 777639,
+      "sha256": "f14a48c637c59c73c17dcf138e436d0f3b2ea7d8539f60caf07949a3804a603b",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_comparable_research_favourable_research_battery_operation_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_research_central_main.json",
+      "bytes": 21163,
+      "sha256": "9281378419e8a1cd609ff2b73c7274349e1b4f7e2afe885d71c38dcb1bd61757",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_research_central_main.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/A_research_central_main_schedule.csv",
+      "bytes": 755217,
+      "sha256": "ddb419b4e5b838b1aa6b0a6b5cb5ea97500b1c169a5e4eba8df3d07183231daa",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/A_research_central_main_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/annual_breakdown.csv",
+      "bytes": 18626,
+      "sha256": "5de18d200be18a10f86d2b8062f281bd62ab59c10331ac9352539744d9f29ff0",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-halfhour-20261113-v7/source_data/tier1-multiproduct-20261110-v6/results/annual_breakdown.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main.json",
+      "bytes": 21816,
+      "sha256": "2cee32251f5b7d06d0ce81401952f8926fad4d00549b54c115f04da26a5eff17",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-halfhour-20261113-v7/source_data/tier1-multiproduct-20261110-v6/results/B_comparable_main.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_cap10000.json",
+      "bytes": 21792,
+      "sha256": "d643890a156b807222fdff7dabc30b5eb1fd0867eb33b9fe21e49438fd9415c0",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_cap10000.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_cap10000_schedule.csv",
+      "bytes": 617542,
+      "sha256": "d2d7c62ea2d68a6aa1714ec6fac824d311668f072a93069c1266f1e15ef919a2",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_cap10000_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_cap1558.97.json",
+      "bytes": 21609,
+      "sha256": "9f92b05271670bbe126aa1899ec4b0c4bd264a89edb81d7efa6db3702d0736d4",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_cap1558.97.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_cap1558.97_schedule.csv",
+      "bytes": 616959,
+      "sha256": "2a6577e17980097c57e07a1cb23806a4c85797af62b296658845c624cf831220",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_cap1558.97_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_included.json",
+      "bytes": 23363,
+      "sha256": "461b126b0cc8ed0c8038e404a978b2a3eebfe7ed8b1cd2350e56c996a75b3917",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_included.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_included_schedule.csv",
+      "bytes": 648586,
+      "sha256": "e0942352109d336b687b8864597278e3d46059c57ba63852e05bf14204e065a1",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_included_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_only.json",
+      "bytes": 3432,
+      "sha256": "8d6f40bd30d0bc1a4843221166f103b0c9a5831468fe4de248712032228b1105",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_only.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_only_schedule.csv",
+      "bytes": 365682,
+      "sha256": "22e9b94b9b414f4a3021fe397be9d173cc753e4bf9f4c5c9d0f3714b1043b616",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_reference_only_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_main_schedule.csv",
+      "bytes": 604580,
+      "sha256": "b816bdbf728bd58417618c7864cc1ab627c40638f2d2f60abae4f804ff93edca",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_main_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_research_favourable_research_battery_operation.json",
+      "bytes": 22012,
+      "sha256": "26be389286522a9bc2cce0139ab860b03ad667149941f2f2d14148269b13b2c8",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_research_favourable_research_battery_operation.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_comparable_research_favourable_research_battery_operation_schedule.csv",
+      "bytes": 614066,
+      "sha256": "23d8a40a88001ee5f8efb2519155d36f4f43a77c9d5c1ba24c6e65ad58e0234c",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_comparable_research_favourable_research_battery_operation_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_research_central_main.json",
+      "bytes": 21176,
+      "sha256": "3e6425373b3a2e8b64fbe94af544261c52064ad4702caf91393183130944add2",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_research_central_main.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/B_research_central_main_schedule.csv",
+      "bytes": 593387,
+      "sha256": "a4b338fd5de3ed6c314b89f5df836b041f0cd63134b7ff400a837498dd417ff2",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/B_research_central_main_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/behavioural_checks.json",
+      "bytes": 18253,
+      "sha256": "ba86166a7fdcfa9a84aef8eb5a625495488d2845db440be281ab200c43b3c71b",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/behavioural_checks.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/case_summary.csv",
+      "bytes": 7544,
+      "sha256": "b8ef1d89b0a8f008b210d6ea69262b32c895977a6231cba34fef195447251221",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/case_summary.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/daily_model_inputs.csv",
+      "bytes": 210277,
+      "sha256": "0b76fddfca060170f821ad5e2965d62d642a88358245aeebb67c6c249799e9f7",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/daily_model_inputs.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/equipment_selection.csv",
+      "bytes": 16965,
+      "sha256": "afbdea1caffa9061e994df3395cabeb9e1a52fc5858a4344672557f3fba64156",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/equipment_selection.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/independent_audits.json",
+      "bytes": 59816,
+      "sha256": "9db915b1bf60d28c99c7722bdb8f6889867387aa012d1ee8506c7f71506da509",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/independent_audits.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_B_priority_0.03.json",
+      "bytes": 21693,
+      "sha256": "c0c8a0c79ee2b3fe8e53938830b9e290694be7ea0710933335c5e7b5ac9b0a14",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_B_priority_0.03.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_B_priority_0.03_schedule.csv",
+      "bytes": 1354,
+      "sha256": "c65e7abf2b8fcbc753c718320feb9f384e20b3a8bc2e9f9e72d8623b3c0c3daa",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_B_priority_0.03_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_B_priority_0.3.json",
+      "bytes": 21673,
+      "sha256": "e4ad98d990f482375c12a2189736e117dd7650e428531b4c35a114f9aa336508",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_B_priority_0.3.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_B_priority_0.3_schedule.csv",
+      "bytes": 1245,
+      "sha256": "f58e419b7ac9fda7cbcb218fecb00c03fef18e13f4cbe7aaff9033e24d3f43d4",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_B_priority_0.3_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_crossday_H2.json",
+      "bytes": 21464,
+      "sha256": "e3e4bba96f0fe0696cb5850107f091160a973c84e197f2991744c0d660eb7f41",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_crossday_H2.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_crossday_H2_schedule.csv",
+      "bytes": 1249,
+      "sha256": "638373d3111ad8172e6aafb761fc9f924e23235cccee83e0a4e55049b62512d8",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_crossday_H2_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_negative_A.json",
+      "bytes": 21449,
+      "sha256": "866a5d0df58ed9391cdd956fd90e22b4ed5a5f6196f71d5a0fc2ddef267350ca",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_negative_A.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_negative_A_schedule.csv",
+      "bytes": 1502,
+      "sha256": "d9ec0ed4b14fc2006d28c08e232c23c7c02019e42db049537471a26974b7bd3d",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_negative_A_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_negative_B.json",
+      "bytes": 21638,
+      "sha256": "837fc4e044cf6602d1a094cd36e20cdcf2644d0540bd71df706f1c3cf149fcdd",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_negative_B.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_negative_B_schedule.csv",
+      "bytes": 1504,
+      "sha256": "52bb2a63199d11981e4568d0f6d7238f0b3b10a1d862f8b5e5df109b9bdc829d",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_negative_B_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_no_future_borrowing.json",
+      "bytes": 21475,
+      "sha256": "d0a07e72cb6a17965bba44ed44e0b3481548ad23e02fbb5bb27a1062a33426b4",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_no_future_borrowing.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/test_no_future_borrowing_schedule.csv",
+      "bytes": 1225,
+      "sha256": "1985e9286dac6af443f6e78b305eb9d57b5820a14ab53e1b5e73b87f68667b1c",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/test_no_future_borrowing_schedule.csv"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/results/verification_summary.json",
+      "bytes": 353,
+      "sha256": "8179a50720c8242006a9c69885e1b766f728e3b1e0a1fb2519b40ba23e2c1b76",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/results/verification_summary.json"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/run_study.py",
+      "bytes": 2636,
+      "sha256": "07e147028bd96441a38124edc40cbb0ae3d34e287141e8b5422ac72d1e7b8062",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/run_study.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/summarize.py",
+      "bytes": 3649,
+      "sha256": "c8f63bd80631e8357087f8a4d9b4ec4e0e4c5f04509aa9b5e48f43befcefa3f1",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/summarize.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/verify_behaviour.py",
+      "bytes": 1989,
+      "sha256": "2cd71a030651072805283bc5774237cd10e31540c94f97edcfb39f78835331b0",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/verify_behaviour.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/verify_results.py",
+      "bytes": 6479,
+      "sha256": "fd42a8ff7770603da97814623b332fbbf4efae7a1f1ca9ee10b068fcf940060e",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/verify_results.py"
+    },
+    {
+      "entry": "tier1-multiproduct-20261110-v6/PACKAGE_MANIFEST.json",
+      "bytes": 11144,
+      "sha256": "7e1e04891cab958cceb2e4209c176d78fea2fb9a55039ad489f117e5b575d5d9",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tier1-multiproduct-20261110-v6/PACKAGE_MANIFEST.json"
+    }
+  ]
+}

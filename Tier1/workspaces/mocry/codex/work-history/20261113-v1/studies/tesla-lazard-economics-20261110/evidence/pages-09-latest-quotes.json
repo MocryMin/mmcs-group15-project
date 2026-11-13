@@ -1,0 +1,161 @@
+[
+  {
+    "url": "https://web.archive.org/web/20251121125605id_/https://www.tesla.com/megapack/design",
+    "status": 200,
+    "data": [
+      {
+        "presets": [
+          {
+            "megaPackCapacityMWh": 3.916,
+            "megaPackPowerMW": 0.979,
+            "name": "4hXL",
+            "quarters": [
+              "2026 Q3"
+            ]
+          },
+          {
+            "megaPackCapacityMWh": 3.8544,
+            "megaPackPowerMW": 1.9272,
+            "name": "2hXL",
+            "quarters": [
+              "2026 Q3"
+            ]
+          }
+        ]
+      },
+      {
+        "query_key": [
+          "1111LeasePh2",
+          5,
+          "2026 Q3",
+          "2hXL",
+          "megapackPricing",
+          "CA"
+        ],
+        "quote": {
+          "totalPrice": 5045400,
+          "annualMaintenancePrice": 29610
+        }
+      }
+    ],
+    "text": "Select Megapack\n\nMegapack enables low-cost, high-density commercial and utility projects at large scale. It ships ready to install with fully integrated battery modules, inverters, and thermal systems. View Product Details\n\nHave Questions?\n\nContact Us\n9.6 MW\nPower\n19.3 MWh\nEnergy\nMegapack Quantity\n \nMegapack Duration\n2 hr\n4 hr\n\nSite Location\n\nAlaska\nAlabama\nArkansas\nArizona\nCalifornia\nColorado\nConnecticut\nDistrict Of Columbia\nDelaware\nFlorida\nGeorgia\nHawaii\nIowa\nIdaho\nIllinois\nIndiana\nKansas\nKentucky\nLouisiana\nMassachusetts\nMaryland\nMaine\nMichigan\nMinnesota\nMissouri\nMississippi\nMontana\nNorth Carolina\nNorth Dakota\nNebraska\nNew Hampshire\nNew Jersey\nNew Mexico\nNevada\nNew York\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVirginia\nVermont\nWashington\nWisconsin\nWest Virginia\nWyoming\nPuerto Rico\n\nDesired Delivery Date\n\nSelect\n\nEstimated Price\n\n-\n\nSubject to change\nTaxes and installation not included\n\nEst. Annual Maintenance\n\n-\n\nPrice escalates at 2% per year\n\nDue Today\n\n$10,000\n\nNon-refundable Reservation Deposit\n\nBy placing a deposit, I agree to the Megapack Reservation Terms, Megapack Maintenance Agreement, and Privacy Notice\n\nSite Contact Information\nCompany Name\nInstallation Address",
+    "links": [
+      {
+        "text": "Megapack Reservation Terms",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-purchase-equipment-only-agreement"
+      },
+      {
+        "text": "Megapack Maintenance Agreement",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-maintenance-agreement"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20260123224223id_/https://www.tesla.com/megapack/design",
+    "status": 200,
+    "data": [
+      {
+        "presets": [
+          {
+            "megaPackCapacityMWh": 3.916,
+            "megaPackPowerMW": 0.979,
+            "name": "4hXL",
+            "quarters": [
+              "2026 Q3"
+            ]
+          },
+          {
+            "megaPackCapacityMWh": 3.8544,
+            "megaPackPowerMW": 1.9272,
+            "name": "2hXL",
+            "quarters": [
+              "2026 Q3"
+            ]
+          }
+        ]
+      },
+      {
+        "query_key": [
+          "1211Tax",
+          5,
+          "2026 Q3",
+          "2hXL",
+          "megapackPricing",
+          "CA"
+        ],
+        "quote": {
+          "totalPrice": 5045400,
+          "annualMaintenancePrice": 29610
+        }
+      }
+    ],
+    "text": "Select Megapack\n\nMegapack enables low-cost, high-density commercial and utility projects at large scale. It ships ready to install with fully integrated battery modules, inverters, and thermal systems. View Product Details\n\nHave Questions?\n\nContact Us\n9.6 MW\nPower\n19.3 MWh\nEnergy\nMegapack Quantity\n \nMegapack Duration\n2 hr\n4 hr\n\nSite Location\n\nAlaska\nAlabama\nArkansas\nArizona\nCalifornia\nColorado\nConnecticut\nDistrict Of Columbia\nDelaware\nFlorida\nGeorgia\nHawaii\nIowa\nIdaho\nIllinois\nIndiana\nKansas\nKentucky\nLouisiana\nMassachusetts\nMaryland\nMaine\nMichigan\nMinnesota\nMissouri\nMississippi\nMontana\nNorth Carolina\nNorth Dakota\nNebraska\nNew Hampshire\nNew Jersey\nNew Mexico\nNevada\nNew York\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVirginia\nVermont\nWashington\nWisconsin\nWest Virginia\nWyoming\nPuerto Rico\n\nDesired Delivery Date\n\nSelect\n\nEstimated Price\n\n-\n\nSubject to change\nTaxes and installation not included\n\nEst. Annual Maintenance\n\n-\n\nPrice escalates at 2% per year\n\nDue Today\n\n$10,000\n\nNon-refundable Reservation Deposit\n\nBy placing a deposit, I agree to the Megapack Reservation Terms, Megapack Maintenance Agreement, and Privacy Notice\n\nSite Contact Information\nCompany Name\nInstallation Address",
+    "links": [
+      {
+        "text": "Megapack Reservation Terms",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-purchase-equipment-only-agreement"
+      },
+      {
+        "text": "Megapack Maintenance Agreement",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-maintenance-agreement"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20261011091248id_/https://www.tesla.com/megapack/design",
+    "status": 200,
+    "data": [
+      {
+        "presets": [
+          {
+            "megaPackCapacityMWh": 3.916,
+            "megaPackPowerMW": 0.979,
+            "name": "4hXL",
+            "quarters": [
+              "2027 Q1",
+              "2027 Q2",
+              "2027 Q3",
+              "2027 Q4"
+            ]
+          },
+          {
+            "megaPackCapacityMWh": 3.8544,
+            "megaPackPowerMW": 1.9272,
+            "name": "2hXL",
+            "quarters": [
+              "2027 Q1",
+              "2027 Q2",
+              "2027 Q3",
+              "2027 Q4"
+            ]
+          }
+        ]
+      },
+      {
+        "query_key": [
+          "1008CWCPrice",
+          5,
+          "2027 Q1",
+          "2hXL",
+          "megapackPricing",
+          "CA"
+        ],
+        "quote": {
+          "totalPrice": 5045400,
+          "annualMaintenancePrice": 29610
+        }
+      }
+    ],
+    "text": "Select Megapack\n\nMegapack enables low-cost, high-density commercial and utility projects at large scale. It ships ready to install with fully integrated battery modules, inverters, and thermal systems. View Product Details\n\nHave Questions?\n\nContact Us\n9.6 MWPower\n19.3 MWhEnergy\nMegapack Quantity\n \nMegapack Duration\n2 hr4 hr\n\nSite Location\n\nAlaska\nAlabama\nArkansas\nArizona\nCalifornia\nColorado\nConnecticut\nDistrict Of Columbia\nDelaware\nFlorida\nGeorgia\nHawaii\nIowa\nIdaho\nIllinois\nIndiana\nKansas\nKentucky\nLouisiana\nMassachusetts\nMaryland\nMaine\nMichigan\nMinnesota\nMissouri\nMississippi\nMontana\nNorth Carolina\nNorth Dakota\nNebraska\nNew Hampshire\nNew Jersey\nNew Mexico\nNevada\nNew York\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVirginia\nVermont\nWashington\nWisconsin\nWest Virginia\nWyoming\nPuerto Rico\n\nDesired Delivery Date\n\nSelect\n\nEstimated Price\n\n-\n\nSubject to change\nTaxes and installation not included\n\nEst. Annual Maintenance\n\n-\n\nPrice escalates at 2% per year\n\nDue Today\n\n$10,000\n\nNon-refundable Reservation Deposit\n\nBy placing a deposit, I agree to the Megapack Reservation Terms, Megapack Maintenance Agreement, and Privacy Notice\n\nSite Contact Information\nCompany Name\nInstallation Address\nStreet Address\nCity Or Town\nState\nCalifornia\nAlaska\nAlabama\nArkansas\nArizona\nCalifornia\nColorado\nConnecticut\nDistrict Of Columbia\nDelaware\nFlorida\nGeorgia\nHawaii\nIowa\nIdaho\nIllinois\nIndiana\nKansas\nKentucky\nLouisiana\nMassachusetts\nMaryland\nMaine\nMichigan\nMinnesota\nMissouri\nMississippi\nMontana\nNorth Carolina\nNorth Dakota\nNebraska\nNew Hampshire\nNew Jersey\nNew Mexico\nNevada\nNew York\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVirginia\nVermont\nWashington\nWisconsin\nWest Virginia\nWyoming\nZip Code\nCountry\n- Select -\nAndorra\nUnited Arab Emirates\nAfghanistan\nAntigua and Barbuda\nAnguilla\nAlbania\nArmenia\nNetherlands Antilles\nAngola\nAntarctica\nArgentina\nAmerican Samoa\nAustria\nAustralia\nAruba\nAland Islands\nAzerbaijan\nBosnia and Herzegovina\nBarbados\nBangladesh\nBelgium\nBurkina Faso\nBulgaria\nBahrain\nBurundi\nBenin\nBermuda\nBrunei\nBolivia\nBrazil\nBahamas\nBhutan\nBouvet Island\nBotswana\nBelarus\nBelize\nCanada\nCocos (Keeling) Islands\nCongo (Kinshasa)\nCentral African Republic\nCongo (Brazzaville)\nSwitzerland\nIvory Coast\nCook Islands\nChile\nCameroon\nChina Mainland\nColombia\nCosta Rica\nCuba\nCape Verde\nCuraçao\nChristmas Island\nCyprus\nCzech Republic\nGermany\nDjibouti\nDenmark\nDominica\nDominican Republic\nAlgeria\nEcuador\nEstonia\nEgypt\nWestern Sahara\nEritrea\nSpain\nEthiopia\nFinland\nFiji\nFalkland Islands\nMicronesia\nFaroe Islands\nFrance\nGabon\nUnited Kingdom\nGrenada\nGeorgia\nFrench Guiana\nGuernsey\nGhana\nGibraltar\nGreenland\nGambia\nGuinea\nGuadeloupe\nEquatorial Guinea\nGreece\nSouth Georgia and the South Sandwich Islands\nGuatemala\nGuam\nGuinea-Bissau\nGuyana\nHong Kong S.A.R., China\nHeard Island and McDonald Islands\nHonduras\nCroatia\nHaiti\nHungary\nIndonesia\nIreland\nIsrael\nIsle of Man\nIndia\nBritish Indian Ocean Territory\nIraq\nIran\nIceland\nItaly\nJersey\nJamaica\nJordan\nJapan\nKenya\nKyrgyzstan\nCambodia\nKiribati\nComoros\nSaint Kitts and Nevis\nKorea\nKuwait\nCayman Islands\nKazakhstan\nLaos\nLebanon\nSaint Lucia\nLiechtenstein\nSri Lanka\nLiberia\nLesotho\nLithuania\nLuxembourg\nLatvia\nLibya\nMorocco\nMonaco\nMoldova\nMontenegro\nMadagascar\nMarshall Islands\nMacedonia\nMali\nMyanmar\nMongolia\nMacao S.A.R., China\nNorthern Mariana Islands\nMartinique\nMauritania\nMontserrat\nMalta\nMauritius\nMaldives\nMalawi\nMexico\nMalaysia\nMozambique\nNamibia\nNew Caledon",
+    "links": [
+      {
+        "text": "Megapack Reservation Terms",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-purchase-equipment-only-agreement"
+      },
+      {
+        "text": "Megapack Maintenance Agreement",
+        "url": "https://digitalcontent.tesla.com/image/upload/prod/fulfillment/energy/Order/MegapackConfigurator/megapack-web-maintenance-agreement"
+      }
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper,oneside]{article}
+\input{academic-style}
+\begin{document}
+\pagenumbering{roman}
+\begin{center}
+{\Large\bfseries Investment and chronological operation of\\[3pt]
+electricity storage and electrolysis\par}
+\vspace{12pt}
+Methodology, Modelling and Consulting Skills\\
+Group 15\\
+November 2026
+\end{center}
+\vspace{16pt}
+\begin{center}\large\bfseries Abstract\end{center}
+\noindent
+This study considers investment in batteries and electrolysers for the
+constructed energy system supplied in the project. It combines a deterministic
+investment appraisal (Tier 1) with a forecast-based chronological extension
+(Tier 2B). Before modelling, the five course datasets are reconciled to a
+common daily calendar. Missing generation records, query-endpoint snapshots,
+invalid demand observations and price-aggregation errors are repaired using
+archived upstream records, calibrated alternative series and documented
+imputation. Research on equipment costs and hydrogen support values provides
+a common financial basis.
+
+Tier 1 uses mixed-integer optimisation to compare economic dispatch with
+supply-first operation over six historical years. Both policies choose
+electrolysis and zero batteries. A 10 t/day hydrogen outlet supports about
+23 MW, whereas a national consumption ceiling supports hundreds to thousands
+of MW and illustrates the risk of using national demand to size a local asset.
+Replaying high-volatility periods and varying equipment costs and price
+dispersion tests when the investment would change.
+
+The Tier 2B specification couples multi-step forecasts of generation, demand
+and electricity prices to rolling-horizon optimisation with storage-state
+feedback. It separates forecast evaluation from decision evaluation and fixes
+investment before the test period. This draft contains the completed Tier 1
+analysis and the Tier 2B method and evaluation specification; forecast and
+control experiment results remain to be added.
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\input{sections/common}
+\input{sections/tier1}
+\input{sections/tier2}
+\label{body-last}
+\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{R\arabic{page}}
+\input{sections/references}
+\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{A\arabic{page}}
+\setcounter{chapter}{0}
+\renewcommand{\thechapter}{\Alph{chapter}}
+\providecommand{\theHchapter}{}
+\renewcommand{\theHchapter}{appendix.\arabic{chapter}}
+\input{sections/appendices}
+\end{document}

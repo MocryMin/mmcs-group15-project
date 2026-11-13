@@ -1,0 +1,14 @@
+{
+  "status": "local arithmetic only; not commercial quote or adopted model",
+  "input_sources": [
+    "Project brief pp3,6: E_nameplate=2*P; SOC_min=.2; SOC_max=.8; roundtrip=.9; EUR288000/MWh_nameplate"
+  ],
+  "eta_charge_equal_split": 0.9486832980505138,
+  "eta_discharge_equal_split": 0.9486832980505138,
+  "usable_internal_MWh_per_MW": 1.2000000000000002,
+  "delivered_AC_MWh_per_MW_from_full_usable_window": 1.1384199576606167,
+  "CAPEX_EUR_per_MW_at_brief_cost": 576000,
+  "CAPEX_EUR_per_usable_internal_MWh": 479999.99999999994,
+  "CAPEX_EUR_per_one_full_window_delivered_AC_MWh": 505964.4256269407,
+  "warning": "Last cost is capital per one-cycle output capability, not levelised energy cost, and must not be charged per every MWh dispatched."
+}

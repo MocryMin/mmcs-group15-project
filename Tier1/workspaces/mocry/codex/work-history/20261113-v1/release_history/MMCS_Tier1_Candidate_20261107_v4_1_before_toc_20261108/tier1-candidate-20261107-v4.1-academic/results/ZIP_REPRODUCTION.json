@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "at": "2026-11-07T17:37:51.516927+00:00",
+  "mode": "Fresh ZIP extraction, hash check, regenerate report tables/figures, recompile PDF",
+  "numeric_model_and_inputs": "Frozen v3 unchanged; preserved schedules passed independent arithmetic check",
+  "optimisations_rerun_this_revision": false,
+  "pdf_pages": 10,
+  "page_labels": [
+    "i",
+    "ii",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "R1"
+  ],
+  "extracted_text_identical": true
+}

@@ -1,0 +1,115 @@
+{
+  "name": "A_comparable_main_reference_only",
+  "policy": "A",
+  "cost_case": "comparable",
+  "battery_cost": "main",
+  "days": 2192,
+  "years": 5.999999999999998,
+  "cap_kg_day": 1558968.7748333344,
+  "annual_incremental_profit_mGBP": 1637.3922812101628,
+  "annual_operating_receipts_mGBP": 23146.540384425298,
+  "annual_electricity_receipts_mGBP": 19344.051551607263,
+  "annual_hydrogen_receipts_mGBP": 3802.4888328180364,
+  "annual_reference_receipts_mGBP": 20961.782711978627,
+  "annual_variable_stack_reserve_mGBP": 0.0,
+  "annual_equipment_fixed_cost_mGBP": 547.3653912365083,
+  "initial_capex_mGBP": 5316.000587122556,
+  "battery_MWh": 0.0,
+  "electrolyser_MW": 3640.0,
+  "annual_h2_tonnes": 487559.38477052393,
+  "annual_sales_GWh": 208340.9091147968,
+  "annual_unserved_GWh": 45070.73488520332,
+  "annual_unused_GWh": 254.31628175964485,
+  "demand_coverage": 0.8221441833777644,
+  "investment": [
+    {
+      "id": "v5-reference-battery",
+      "kind": "battery",
+      "count": 0,
+      "capital_GBP": 768704.3299610784,
+      "annual_fixed_GBP": 96355.91961122444,
+      "physical_MW": 1.5,
+      "physical_MWh": 3.0
+    },
+    {
+      "id": "v5-reference-PEM",
+      "kind": "electrolyser",
+      "count": 182,
+      "capital_GBP": 29208794.434739318,
+      "annual_fixed_GBP": 3007502.1496511446,
+      "physical_MW": 20.0,
+      "physical_MWh": 0
+    }
+  ],
+  "solver": "SciPy/HiGHS",
+  "relaxation_certificate": "Exact-feasible incumbent of a global upper-bound model",
+  "status": 0,
+  "optimal": true,
+  "gap": 8.887250413573384e-15,
+  "upper_profit_bound_mGBP": 1637.3922812101737,
+  "matrix_error": 0.0,
+  "objective_recalculation_error": 3.410605131648481e-12,
+  "elapsed_s": 0.4092291000124533,
+  "iterations": [
+    {
+      "status": 0,
+      "objective_increment": 1637.3922812101594,
+      "gap": 8.887250413573384e-15,
+      "variables": 15347,
+      "rows": 24113,
+      "added_min_states": 0,
+      "need_battery_logic": false
+    }
+  ],
+  "active_products": {
+    "batteries": [
+      {
+        "id": "v5-reference-battery",
+        "E_MWh": 3.0,
+        "P_MW": 1.5,
+        "rte": 0.8999999999999999,
+        "life": 15,
+        "capital_GBP": 768704.3299610784,
+        "fom_GBP": 22292.425568871273,
+        "fom_literal_GBP": 11146.212784435636,
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "eta": 0.9486832980505138,
+        "usable": 0.0018000000000000002,
+        "commission_GBP": 49.411311373490776,
+        "annual": 0.09635591961122444
+      }
+    ],
+    "electrolysers": [
+      {
+        "id": "v5-reference-PEM",
+        "MW": 20.0,
+        "kg_hour": 357.78175313059035,
+        "kWh_kg": 55.9,
+        "minimum": 0.2,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 29208794.434739318,
+          "fom_GBP": 517233.0590339892,
+          "replacement_GBP": 9792185.280858675,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0.0
+        },
+        "capital_GBP": 29208794.434739318,
+        "fom_GBP": 517233.0590339892,
+        "replacement_GBP": 9792185.280858675,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0.0,
+        "annual": 3.0075021496511445,
+        "unit_GWh": 0.48
+      }
+    ]
+  }
+}

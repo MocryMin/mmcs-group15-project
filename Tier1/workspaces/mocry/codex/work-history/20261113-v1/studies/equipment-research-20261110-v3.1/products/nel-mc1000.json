@@ -1,0 +1,77 @@
+{
+  "id": "nel-mc1000",
+  "type": "electrolyser",
+  "manufacturer": "Nel",
+  "model": "MC1000",
+  "source": "Nel-MC-Modular-RevA.pdf pp1-2",
+  "technical": {
+    "technology": "PEM",
+    "marketing_class_MW": 5,
+    "hydrogen_kg_per_hour": 88.5,
+    "system_specific_kWh_per_kg": 56.77,
+    "nominal_system_input_kW": 5024.145,
+    "nominal_stack_input_kW": null,
+    "minimum_flow_fraction": 0.2,
+    "minimum_transient_flow_fraction": null,
+    "transient_limit_hours": null,
+    "minimum_steady_flow_fraction": 0.2,
+    "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+    "outlet_pressure_barg": 30,
+    "base_purity": 0.9995,
+    "optional_purity": 0.99999,
+    "additional_purification_kW": null,
+    "water_litre_per_kg": 15.9,
+    "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+    "ramp": {
+      "min_to_full_seconds_upper": 15,
+      "max_fraction_per_second": 0.074
+    },
+    "hot_start_seconds": {
+      "upper": 480,
+      "source_wording": "fromstandby;not proof ofcoldstart"
+    },
+    "cold_start_seconds": null,
+    "standby_kW": null,
+    "minimum_up_time_hours": null,
+    "minimum_down_time_hours": null,
+    "stack_lifetime_hours": null,
+    "plant_lifetime_years": null,
+    "warranty_years": null,
+    "ambient_temperature_C": null,
+    "degradation_curve": null,
+    "replacement_cost": null,
+    "maintenance": null,
+    "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+    "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+    "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+    "nominal_power_to_flow_ratio_kWh_per_kg": 56.77,
+    "nominal_power_consistency_relative_error": 0.0
+  },
+  "public_prices": [],
+  "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+  "model_protocol": [
+    "daily steady-state and shutdown convention",
+    "preserve both nominal output and input definitions",
+    "part-load curve approximation must be declared",
+    "common delivered hydrogen grade before applying equal netback",
+    "use one consistent stack-replacement accounting route"
+  ],
+  "general_gaps": [
+    "Current full installed project price",
+    "Product-specific lifetime/renewal cost and downtime",
+    "Off/standby/start energy and full partial-load curves where unpublished"
+  ],
+  "model_view": {
+    "hydrogen_kg_day": 2124.0,
+    "system_kWh_kg": 56.77,
+    "full_load_input_MWh_day": 120.57948,
+    "minimum_flow_fraction": 0.2,
+    "missing_core_fields": [],
+    "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": true,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

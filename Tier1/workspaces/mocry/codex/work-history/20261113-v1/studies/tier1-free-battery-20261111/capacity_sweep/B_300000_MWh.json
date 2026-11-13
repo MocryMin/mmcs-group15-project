@@ -1,0 +1,66 @@
+{
+  "policy": "B",
+  "nominal_capacity_MWh": 300000,
+  "annual_gain_GBP": 90190957.51463772,
+  "annual_gain_upper_GBP": 92870677.4071885,
+  "annual_incremental_profit_mGBP": 127.90341094392295,
+  "no_battery_profit_mGBP": 37.71245342928523,
+  "annual_reference_receipts_mGBP": 20959.853256230683,
+  "roundtrip_efficiency": 0.92,
+  "available_stock_window_fraction": 0.6,
+  "electrolyser_units": {
+    "itm-neptune-ii": 0,
+    "itm-neptune-v": 115,
+    "nel-mc250": 0,
+    "nel-mc500": 0,
+    "nel-mc1000": 0
+  },
+  "electrolyser_MW": 578.5649999999999,
+  "annual_charge_MWh": 992722.1289751381,
+  "annual_battery_sales_MWh": 594100.8442929988,
+  "annual_battery_to_H2_MWh": 319203.5143641284,
+  "max_stock_GWh": 172.64993483925792,
+  "elapsed_seconds": 125.125,
+  "solver_history": [
+    {
+      "status": "HighsModelStatus.kTimeLimit",
+      "objective": -90.1909575146377,
+      "lower_bound": -94.33075858659663,
+      "relative_gap": 0.04590040050619339,
+      "nodes": 1014,
+      "invalid_minimum_load_days": 0
+    },
+    {
+      "status": "HighsModelStatus.kTimeLimit",
+      "objective": -90.19095751463773,
+      "lower_bound": -92.87067740718851,
+      "relative_gap": 0.029711624827975167,
+      "nodes": 2865,
+      "invalid_minimum_load_days": 0
+    }
+  ],
+  "audit": {
+    "stock_balance": 2.842170943040401e-14,
+    "terminal_stock": 0.0,
+    "stock_capacity": 0.0,
+    "max_generation_use": 1.1368683772161603e-13,
+    "max_sales": 5.684341886080802e-14,
+    "no_simultaneous_charge_discharge": 0.0,
+    "nonnegative_flows": 8.881784197001252e-16,
+    "B_direct": 1.1368683772161603e-13,
+    "B_battery": 7.105427357601002e-15,
+    "itm-neptune-ii_capacity": 0.0,
+    "itm-neptune-ii_minimum": 0.0,
+    "itm-neptune-v_capacity": 1.0658141036401503e-14,
+    "itm-neptune-v_minimum": 0.0,
+    "nel-mc250_capacity": 0.0,
+    "nel-mc250_minimum": 0.0,
+    "nel-mc500_capacity": 0.0,
+    "nel-mc500_minimum": 0.0,
+    "nel-mc1000_capacity": 0.0,
+    "nel-mc1000_minimum": 0.0,
+    "h2_sources": 3.197442310920451e-14,
+    "h2_cap_GWh_equivalent": 0.0,
+    "profit_error_mGBP": 5.684341886080801e-13
+  }
+}

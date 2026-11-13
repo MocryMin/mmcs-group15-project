@@ -1,0 +1,1341 @@
+{
+  "source": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports",
+  "workbook": "equipment-research-20261110-v3.1\\evidence\\PNNL-cost-performance-2024.xlsx",
+  "worksheet": "Database",
+  "sha256": "ef50e87012361e2a10d3df97cb61b93d38eae9255539ca76061e0c5feef501e9",
+  "price_note": "Original reported USD and workbook reference years are retained. Convert to the project GBP2020 basis before monetary optimisation.",
+  "open_fields": [
+    "site limits",
+    "electrical charging capacity",
+    "daily standing losses",
+    "variable operating cost and fuel boundary",
+    "project-specific renewal"
+  ],
+  "profiles": [
+    {
+      "technology": "PSH",
+      "reference_year_in_workbook": 2023,
+      "discharge_MW": 100,
+      "nominal_duration_hours": 10,
+      "rated_energy_MWh": 1000,
+      "cost_and_technology_boundary": "Pumped-storage hydropower; reservoir and powerhouse cost case.",
+      "scenarios": {
+        "low": {
+          "installed_capital_USD_reported": 250818000,
+          "fixed_OM_USD_reported_per_year": 2449000.0,
+          "roundtrip_efficiency": 0.8,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "PSH Reservoir Construction & Infrastructure ($/kWh)": {
+              "value": 33.15,
+              "category": "Capital Cost",
+              "workbook_row": 14474
+            },
+            "PSH Powerhouse Construction & Infrastructure ($/kW)": {
+              "value": 810.71,
+              "category": "Capital Cost",
+              "workbook_row": 14475
+            },
+            "PSH Electromechanical ($/kW)": {
+              "value": 535.51,
+              "category": "Capital Cost",
+              "workbook_row": 14476
+            },
+            "PSH EPC Contractor Indirect Costs + Contingency ($/kW)": {
+              "value": 830.46,
+              "category": "Capital Cost",
+              "workbook_row": 14477
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 24.49,
+              "category": "O&M Cost",
+              "workbook_row": 14478
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14479
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14480
+            },
+            "RTE (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14481
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 14482
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14483
+            },
+            "Total Installed Cost ($)": {
+              "value": 250818000,
+              "category": "Capital Cost",
+              "workbook_row": 14484
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 2508.18,
+              "category": "Capital Cost",
+              "workbook_row": 14485
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 250.82,
+              "category": "Capital Cost",
+              "workbook_row": 14486
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 14487
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1136,
+              "category": "LCOS",
+              "workbook_row": 14488
+            }
+          }
+        },
+        "point": {
+          "installed_capital_USD_reported": 278684000,
+          "fixed_OM_USD_reported_per_year": 2721000.0,
+          "roundtrip_efficiency": 0.8,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "PSH Reservoir Construction & Infrastructure ($/kWh)": {
+              "value": 36.83,
+              "category": "Capital Cost",
+              "workbook_row": 14489
+            },
+            "PSH Powerhouse Construction & Infrastructure ($/kW)": {
+              "value": 900.79,
+              "category": "Capital Cost",
+              "workbook_row": 14490
+            },
+            "PSH Electromechanical ($/kW)": {
+              "value": 595.01,
+              "category": "Capital Cost",
+              "workbook_row": 14491
+            },
+            "PSH EPC Contractor Indirect Costs + Contingency ($/kW)": {
+              "value": 922.74,
+              "category": "Capital Cost",
+              "workbook_row": 14492
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 27.21,
+              "category": "O&M Cost",
+              "workbook_row": 14493
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14494
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14495
+            },
+            "RTE (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14496
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 14497
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14498
+            },
+            "Total Installed Cost ($)": {
+              "value": 278684000,
+              "category": "Capital Cost",
+              "workbook_row": 14499
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 2786.84,
+              "category": "Capital Cost",
+              "workbook_row": 14500
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 278.68,
+              "category": "Capital Cost",
+              "workbook_row": 14501
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 14502
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1221,
+              "category": "LCOS",
+              "workbook_row": 14503
+            }
+          }
+        },
+        "high": {
+          "installed_capital_USD_reported": 306549000,
+          "fixed_OM_USD_reported_per_year": 2994000.0,
+          "roundtrip_efficiency": 0.8,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "PSH Reservoir Construction & Infrastructure ($/kWh)": {
+              "value": 40.51,
+              "category": "Capital Cost",
+              "workbook_row": 14459
+            },
+            "PSH Powerhouse Construction & Infrastructure ($/kW)": {
+              "value": 990.87,
+              "category": "Capital Cost",
+              "workbook_row": 14460
+            },
+            "PSH Electromechanical ($/kW)": {
+              "value": 654.51,
+              "category": "Capital Cost",
+              "workbook_row": 14461
+            },
+            "PSH EPC Contractor Indirect Costs + Contingency ($/kW)": {
+              "value": 1015.01,
+              "category": "Capital Cost",
+              "workbook_row": 14462
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 29.94,
+              "category": "O&M Cost",
+              "workbook_row": 14463
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14464
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 14465
+            },
+            "RTE (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14466
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 14467
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 14468
+            },
+            "Total Installed Cost ($)": {
+              "value": 306549000,
+              "category": "Capital Cost",
+              "workbook_row": 14469
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 3065.49,
+              "category": "Capital Cost",
+              "workbook_row": 14470
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 306.55,
+              "category": "Capital Cost",
+              "workbook_row": 14471
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 14472
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1306,
+              "category": "LCOS",
+              "workbook_row": 14473
+            }
+          }
+        }
+      }
+    },
+    {
+      "technology": "CAES",
+      "reference_year_in_workbook": 2023,
+      "discharge_MW": 100,
+      "nominal_duration_hours": 10,
+      "rated_energy_MWh": 1000,
+      "cost_and_technology_boundary": "Cavern CAES technology benchmark. Match fuel and thermal recovery boundaries before adopting for a fuel-free plant.",
+      "scenarios": {
+        "low": {
+          "installed_capital_USD_reported": 97084000,
+          "fixed_OM_USD_reported_per_year": 1388000.0,
+          "roundtrip_efficiency": 0.65,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "CAES Capital (Turbine, Compressor, BOP, & EPC Management) ($/kW)": {
+              "value": 944.04,
+              "category": "Capital Cost",
+              "workbook_row": 54
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 2.68,
+              "category": "Capital Cost",
+              "workbook_row": 55
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 13.88,
+              "category": "O&M Cost",
+              "workbook_row": 56
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 57
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 58
+            },
+            "RTE (%)": {
+              "value": 0.65,
+              "category": "Performance",
+              "workbook_row": 59
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 60
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 61
+            },
+            "Total Installed Cost ($)": {
+              "value": 97084000,
+              "category": "Capital Cost",
+              "workbook_row": 62
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 970.84,
+              "category": "Capital Cost",
+              "workbook_row": 63
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 97.08,
+              "category": "Capital Cost",
+              "workbook_row": 64
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 65
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.0791,
+              "category": "LCOS",
+              "workbook_row": 66
+            }
+          }
+        },
+        "point": {
+          "installed_capital_USD_reported": 112533000,
+          "fixed_OM_USD_reported_per_year": 1543000.0,
+          "roundtrip_efficiency": 0.55,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "CAES Capital (Turbine, Compressor, BOP, & EPC Management) ($/kW)": {
+              "value": 1048.93,
+              "category": "Capital Cost",
+              "workbook_row": 67
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 7.64,
+              "category": "Capital Cost",
+              "workbook_row": 68
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 15.43,
+              "category": "O&M Cost",
+              "workbook_row": 69
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 70
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 71
+            },
+            "RTE (%)": {
+              "value": 0.55,
+              "category": "Performance",
+              "workbook_row": 72
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 73
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 74
+            },
+            "Total Installed Cost ($)": {
+              "value": 112533000,
+              "category": "Capital Cost",
+              "workbook_row": 75
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 1125.33,
+              "category": "Capital Cost",
+              "workbook_row": 76
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 112.53,
+              "category": "Capital Cost",
+              "workbook_row": 77
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 78
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.0966,
+              "category": "LCOS",
+              "workbook_row": 79
+            }
+          }
+        },
+        "high": {
+          "installed_capital_USD_reported": 131923000,
+          "fixed_OM_USD_reported_per_year": 1697000.0,
+          "roundtrip_efficiency": 0.52,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "CAES Capital (Turbine, Compressor, BOP, & EPC Management) ($/kW)": {
+              "value": 1153.83,
+              "category": "Capital Cost",
+              "workbook_row": 41
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 16.54,
+              "category": "Capital Cost",
+              "workbook_row": 42
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 16.97,
+              "category": "O&M Cost",
+              "workbook_row": 43
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 44
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 45
+            },
+            "RTE (%)": {
+              "value": 0.52,
+              "category": "Performance",
+              "workbook_row": 46
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 47
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 48
+            },
+            "Total Installed Cost ($)": {
+              "value": 131923000,
+              "category": "Capital Cost",
+              "workbook_row": 49
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 1319.23,
+              "category": "Capital Cost",
+              "workbook_row": 50
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 131.92,
+              "category": "Capital Cost",
+              "workbook_row": 51
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 52
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1083,
+              "category": "LCOS",
+              "workbook_row": 53
+            }
+          }
+        }
+      }
+    },
+    {
+      "technology": "Gravitational",
+      "reference_year_in_workbook": 2021,
+      "discharge_MW": 100,
+      "nominal_duration_hours": 10,
+      "rated_energy_MWh": 1000,
+      "cost_and_technology_boundary": "Composite of gravity systems; not the price or performance of the Rudong EVx.",
+      "scenarios": {
+        "low": {
+          "installed_capital_USD_reported": 267520000,
+          "fixed_OM_USD_reported_per_year": 2226000.0,
+          "roundtrip_efficiency": 0.9,
+          "calendar_life_years": 60,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 480,
+              "category": "Capital Cost",
+              "workbook_row": 809
+            },
+            "Gravitational Capital (SB + BOS) ($/kWh)": {
+              "value": 175,
+              "category": "Capital Cost",
+              "workbook_row": 810
+            },
+            "Combined Project Development & Grid Integration ($/kWh)": {
+              "value": 44.52,
+              "category": "Capital Cost",
+              "workbook_row": 811
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 22.26,
+              "category": "O&M Cost",
+              "workbook_row": 812
+            },
+            "Recycling ($/kWh)": {
+              "value": 0,
+              "category": "Decommissioning",
+              "workbook_row": 813
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 814
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 815
+            },
+            "RTE (%)": {
+              "value": 0.9,
+              "category": "Performance",
+              "workbook_row": 816
+            },
+            "Calendar Life (yrs)": {
+              "value": 60,
+              "category": "Performance",
+              "workbook_row": 817
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 818
+            },
+            "Total Installed Cost ($)": {
+              "value": 267520000,
+              "category": "Capital Cost",
+              "workbook_row": 819
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 60,
+              "category": "LCOS",
+              "workbook_row": 820
+            }
+          }
+        },
+        "point": {
+          "installed_capital_USD_reported": 454924000,
+          "fixed_OM_USD_reported_per_year": 2622000.0,
+          "roundtrip_efficiency": 0.83,
+          "calendar_life_years": 49,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 910.34,
+              "category": "Capital Cost",
+              "workbook_row": 821
+            },
+            "Gravitational Capital (SB + BOS) ($/kWh)": {
+              "value": 288,
+              "category": "Capital Cost",
+              "workbook_row": 822
+            },
+            "Combined Project Development & Grid Integration ($/kWh)": {
+              "value": 75.89,
+              "category": "Capital Cost",
+              "workbook_row": 823
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 26.22,
+              "category": "O&M Cost",
+              "workbook_row": 824
+            },
+            "Recycling ($/kWh)": {
+              "value": 0,
+              "category": "Decommissioning",
+              "workbook_row": 825
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 826
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 827
+            },
+            "RTE (%)": {
+              "value": 0.83,
+              "category": "Performance",
+              "workbook_row": 828
+            },
+            "Calendar Life (yrs)": {
+              "value": 49,
+              "category": "Performance",
+              "workbook_row": 829
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 830
+            },
+            "Total Installed Cost ($)": {
+              "value": 454924000,
+              "category": "Capital Cost",
+              "workbook_row": 831
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 4549.24,
+              "category": "Capital Cost",
+              "workbook_row": 832
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 454.92,
+              "category": "Capital Cost",
+              "workbook_row": 833
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 49,
+              "category": "LCOS",
+              "workbook_row": 834
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1714,
+              "category": "LCOS",
+              "workbook_row": 835
+            }
+          }
+        },
+        "high": {
+          "installed_capital_USD_reported": 577142000,
+          "fixed_OM_USD_reported_per_year": 2820000.0,
+          "roundtrip_efficiency": 0.8,
+          "calendar_life_years": 35,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 1209.12,
+              "category": "Capital Cost",
+              "workbook_row": 794
+            },
+            "Gravitational Capital (SB + BOS) ($/kWh)": {
+              "value": 360,
+              "category": "Capital Cost",
+              "workbook_row": 795
+            },
+            "Combined Project Development & Grid Integration ($/kWh)": {
+              "value": 96.23,
+              "category": "Capital Cost",
+              "workbook_row": 796
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 28.2,
+              "category": "O&M Cost",
+              "workbook_row": 797
+            },
+            "Recycling ($/kWh)": {
+              "value": 0,
+              "category": "Decommissioning",
+              "workbook_row": 798
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 799
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 800
+            },
+            "RTE (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 801
+            },
+            "Calendar Life (yrs)": {
+              "value": 35,
+              "category": "Performance",
+              "workbook_row": 802
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 803
+            },
+            "Total Installed Cost ($)": {
+              "value": 577142000,
+              "category": "Capital Cost",
+              "workbook_row": 804
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 5771.42,
+              "category": "Capital Cost",
+              "workbook_row": 805
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 577.14,
+              "category": "Capital Cost",
+              "workbook_row": 806
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 35,
+              "category": "LCOS",
+              "workbook_row": 807
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.2136,
+              "category": "LCOS",
+              "workbook_row": 808
+            }
+          }
+        }
+      }
+    },
+    {
+      "technology": "Thermal",
+      "reference_year_in_workbook": 2023,
+      "discharge_MW": 100,
+      "nominal_duration_hours": 10,
+      "rated_energy_MWh": 1000,
+      "cost_and_technology_boundary": "Composite of thermal and liquid-air systems; not a Carrington or SynchroStor quotation.",
+      "scenarios": {
+        "low": {
+          "installed_capital_USD_reported": 159964000,
+          "fixed_OM_USD_reported_per_year": 1484000.0,
+          "roundtrip_efficiency": 0.6,
+          "calendar_life_years": 40,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 1068.84,
+              "category": "Capital Cost",
+              "workbook_row": 15265
+            },
+            "Thermal Capital (SB + BOS) ($/kWh)": {
+              "value": 20.1,
+              "category": "Capital Cost",
+              "workbook_row": 15266
+            },
+            "Combined EPC Fee, Project Development & Grid Integration ($/kWh)": {
+              "value": 32.98,
+              "category": "Capital Cost",
+              "workbook_row": 15267
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 14.84,
+              "category": "O&M Cost",
+              "workbook_row": 15268
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15269
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15270
+            },
+            "RTE (%)": {
+              "value": 0.6,
+              "category": "Performance",
+              "workbook_row": 15271
+            },
+            "Calendar Life (yrs)": {
+              "value": 40,
+              "category": "Performance",
+              "workbook_row": 15272
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 15273
+            },
+            "Total Installed Cost ($)": {
+              "value": 159964000,
+              "category": "Capital Cost",
+              "workbook_row": 15274
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 35,
+              "category": "LCOS",
+              "workbook_row": 15275
+            }
+          }
+        },
+        "point": {
+          "installed_capital_USD_reported": 302494000,
+          "fixed_OM_USD_reported_per_year": 3726000.0,
+          "roundtrip_efficiency": 0.5,
+          "calendar_life_years": 34,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 1465.94,
+              "category": "Capital Cost",
+              "workbook_row": 15276
+            },
+            "Thermal Capital (SB + BOS) ($/kWh)": {
+              "value": 90.1,
+              "category": "Capital Cost",
+              "workbook_row": 15277
+            },
+            "Combined EPC Fee, Project Development & Grid Integration ($/kWh)": {
+              "value": 65.8,
+              "category": "Capital Cost",
+              "workbook_row": 15278
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 37.26,
+              "category": "O&M Cost",
+              "workbook_row": 15279
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15280
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15281
+            },
+            "RTE (%)": {
+              "value": 0.5,
+              "category": "Performance",
+              "workbook_row": 15282
+            },
+            "Calendar Life (yrs)": {
+              "value": 34,
+              "category": "Performance",
+              "workbook_row": 15283
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 15284
+            },
+            "Total Installed Cost ($)": {
+              "value": 302494000,
+              "category": "Capital Cost",
+              "workbook_row": 15285
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 3024.94,
+              "category": "Capital Cost",
+              "workbook_row": 15286
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 302.49,
+              "category": "Capital Cost",
+              "workbook_row": 15287
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 34,
+              "category": "LCOS",
+              "workbook_row": 15288
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.1831,
+              "category": "LCOS",
+              "workbook_row": 15289
+            }
+          }
+        },
+        "high": {
+          "installed_capital_USD_reported": 683603000,
+          "fixed_OM_USD_reported_per_year": 8923000.0,
+          "roundtrip_efficiency": 0.34,
+          "calendar_life_years": 30,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "Power Equipment ($/kW)": {
+              "value": 2273.63,
+              "category": "Capital Cost",
+              "workbook_row": 15251
+            },
+            "Thermal Capital (SB + BOS) ($/kWh)": {
+              "value": 339.24,
+              "category": "Capital Cost",
+              "workbook_row": 15252
+            },
+            "Combined EPC Fee, Project Development & Grid Integration ($/kWh)": {
+              "value": 117,
+              "category": "Capital Cost",
+              "workbook_row": 15253
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 89.23,
+              "category": "O&M Cost",
+              "workbook_row": 15254
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15255
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 15256
+            },
+            "RTE (%)": {
+              "value": 0.34,
+              "category": "Performance",
+              "workbook_row": 15257
+            },
+            "Calendar Life (yrs)": {
+              "value": 30,
+              "category": "Performance",
+              "workbook_row": 15258
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 15259
+            },
+            "Total Installed Cost ($)": {
+              "value": 683603000,
+              "category": "Capital Cost",
+              "workbook_row": 15260
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 6836.03,
+              "category": "Capital Cost",
+              "workbook_row": 15261
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 683.6,
+              "category": "Capital Cost",
+              "workbook_row": 15262
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 30,
+              "category": "LCOS",
+              "workbook_row": 15263
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.4632,
+              "category": "LCOS",
+              "workbook_row": 15264
+            }
+          }
+        }
+      }
+    },
+    {
+      "technology": "Hydrogen",
+      "reference_year_in_workbook": 2021,
+      "discharge_MW": 100,
+      "nominal_duration_hours": 10,
+      "rated_energy_MWh": 1000,
+      "cost_and_technology_boundary": "Electrolyser, compression, cavern and fuel-cell system; exclude the shared electrolysis equipment when costing only an add-on.",
+      "scenarios": {
+        "low": {
+          "installed_capital_USD_reported": 262222000,
+          "fixed_OM_USD_reported_per_year": 2163000.0,
+          "roundtrip_efficiency": 0.31,
+          "calendar_life_years": 30,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "C&C ($/kW)": {
+              "value": 1.35,
+              "category": "Capital Cost",
+              "workbook_row": 1821
+            },
+            "Grid Integration ($/kW)": {
+              "value": 18,
+              "category": "Capital Cost",
+              "workbook_row": 1822
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 1.78,
+              "category": "Capital Cost",
+              "workbook_row": 1823
+            },
+            "HESS Electrolyzer ($/kW)": {
+              "value": 1184.4,
+              "category": "Capital Cost",
+              "workbook_row": 1824
+            },
+            "HESS Rectifier ($/kW)": {
+              "value": 117,
+              "category": "Capital Cost",
+              "workbook_row": 1825
+            },
+            "HESS Compressor ($/kW)": {
+              "value": 35.37,
+              "category": "Capital Cost",
+              "workbook_row": 1826
+            },
+            "HESS Fuel Cell ($/kW)": {
+              "value": 1188,
+              "category": "Capital Cost",
+              "workbook_row": 1827
+            },
+            "HESS Inverter ($/kW)": {
+              "value": 60.3,
+              "category": "Capital Cost",
+              "workbook_row": 1828
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 21.63,
+              "category": "O&M Cost",
+              "workbook_row": 1829
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1830
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1831
+            },
+            "RTE (%)": {
+              "value": 0.31,
+              "category": "Performance",
+              "workbook_row": 1832
+            },
+            "Calendar Life (yrs)": {
+              "value": 30,
+              "category": "Performance",
+              "workbook_row": 1833
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 1834
+            },
+            "Total Installed Cost ($)": {
+              "value": 262222000,
+              "category": "Capital Cost",
+              "workbook_row": 1835
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 2622.22,
+              "category": "Capital Cost",
+              "workbook_row": 1836
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 262.22,
+              "category": "Capital Cost",
+              "workbook_row": 1837
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 30,
+              "category": "LCOS",
+              "workbook_row": 1838
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.324,
+              "category": "LCOS",
+              "workbook_row": 1839
+            }
+          }
+        },
+        "point": {
+          "installed_capital_USD_reported": 295369000,
+          "fixed_OM_USD_reported_per_year": 2321000.0,
+          "roundtrip_efficiency": 0.31,
+          "calendar_life_years": 30,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "C&C ($/kW)": {
+              "value": 1.5,
+              "category": "Capital Cost",
+              "workbook_row": 1840
+            },
+            "Grid Integration ($/kW)": {
+              "value": 19.89,
+              "category": "Capital Cost",
+              "workbook_row": 1841
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 6,
+              "category": "Capital Cost",
+              "workbook_row": 1842
+            },
+            "HESS Electrolyzer ($/kW)": {
+              "value": 1316,
+              "category": "Capital Cost",
+              "workbook_row": 1843
+            },
+            "HESS Rectifier ($/kW)": {
+              "value": 130,
+              "category": "Capital Cost",
+              "workbook_row": 1844
+            },
+            "HESS Compressor ($/kW)": {
+              "value": 39.3,
+              "category": "Capital Cost",
+              "workbook_row": 1845
+            },
+            "HESS Fuel Cell ($/kW)": {
+              "value": 1320,
+              "category": "Capital Cost",
+              "workbook_row": 1846
+            },
+            "HESS Inverter ($/kW)": {
+              "value": 67,
+              "category": "Capital Cost",
+              "workbook_row": 1847
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 23.21,
+              "category": "O&M Cost",
+              "workbook_row": 1848
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1849
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1850
+            },
+            "RTE (%)": {
+              "value": 0.31,
+              "category": "Performance",
+              "workbook_row": 1851
+            },
+            "Calendar Life (yrs)": {
+              "value": 30,
+              "category": "Performance",
+              "workbook_row": 1852
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 1853
+            },
+            "Total Installed Cost ($)": {
+              "value": 295369000,
+              "category": "Capital Cost",
+              "workbook_row": 1854
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 2953.69,
+              "category": "Capital Cost",
+              "workbook_row": 1855
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 295.37,
+              "category": "Capital Cost",
+              "workbook_row": 1856
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 30,
+              "category": "LCOS",
+              "workbook_row": 1857
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.35,
+              "category": "LCOS",
+              "workbook_row": 1858
+            }
+          }
+        },
+        "high": {
+          "installed_capital_USD_reported": 334858000,
+          "fixed_OM_USD_reported_per_year": 2506000.0,
+          "roundtrip_efficiency": 0.31,
+          "calendar_life_years": 30,
+          "primary_DoD": 0.8,
+          "rest_before_charge_hours": 0,
+          "rest_after_discharge_hours": 0,
+          "source_parameters": {
+            "C&C ($/kW)": {
+              "value": 1.65,
+              "category": "Capital Cost",
+              "workbook_row": 1802
+            },
+            "Grid Integration ($/kW)": {
+              "value": 22,
+              "category": "Capital Cost",
+              "workbook_row": 1803
+            },
+            "Cavern Storage ($/kWh)": {
+              "value": 16.54,
+              "category": "Capital Cost",
+              "workbook_row": 1804
+            },
+            "HESS Electrolyzer ($/kW)": {
+              "value": 1447.6,
+              "category": "Capital Cost",
+              "workbook_row": 1805
+            },
+            "HESS Rectifier ($/kW)": {
+              "value": 143,
+              "category": "Capital Cost",
+              "workbook_row": 1806
+            },
+            "HESS Compressor ($/kW)": {
+              "value": 43.23,
+              "category": "Capital Cost",
+              "workbook_row": 1807
+            },
+            "HESS Fuel Cell ($/kW)": {
+              "value": 1452,
+              "category": "Capital Cost",
+              "workbook_row": 1808
+            },
+            "HESS Inverter ($/kW)": {
+              "value": 73.7,
+              "category": "Capital Cost",
+              "workbook_row": 1809
+            },
+            "Fixed O&M ($/kW-year)": {
+              "value": 25.06,
+              "category": "O&M Cost",
+              "workbook_row": 1810
+            },
+            "Rest Before Charge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1811
+            },
+            "Rest After Discharge (hrs)": {
+              "value": 0,
+              "category": "Performance",
+              "workbook_row": 1812
+            },
+            "RTE (%)": {
+              "value": 0.31,
+              "category": "Performance",
+              "workbook_row": 1813
+            },
+            "Calendar Life (yrs)": {
+              "value": 30,
+              "category": "Performance",
+              "workbook_row": 1814
+            },
+            "Primary DOD (%)": {
+              "value": 0.8,
+              "category": "Performance",
+              "workbook_row": 1815
+            },
+            "Total Installed Cost ($)": {
+              "value": 334858000,
+              "category": "Capital Cost",
+              "workbook_row": 1816
+            },
+            "Total Installed Cost ($/kW)": {
+              "value": 3348.58,
+              "category": "Capital Cost",
+              "workbook_row": 1817
+            },
+            "Total Installed Cost ($/kWh)": {
+              "value": 334.86,
+              "category": "Capital Cost",
+              "workbook_row": 1818
+            },
+            "LCOS_Project_Life (yrs)": {
+              "value": 30,
+              "category": "LCOS",
+              "workbook_row": 1819
+            },
+            "LCOS ($/kWh)": {
+              "value": 0.3796,
+              "category": "LCOS",
+              "workbook_row": 1820
+            }
+          }
+        }
+      }
+    }
+  ]
+}

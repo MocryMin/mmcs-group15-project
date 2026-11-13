@@ -1,0 +1,1993 @@
+{
+  "owner": "R2",
+  "id": "PNNL-REPORTS",
+  "requested_url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports",
+  "url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports",
+  "status": 200,
+  "title": "Download Reports | PNNL",
+  "body": "Skip to main content\nPNNL\nABOUT\nNEWS & MEDIA\nCAREERS\nEVENTS\nRESEARCH\nSCIENTIFIC DISCOVERY\nAutonomous Science\nBiology\nEarth & Coastal Sciences\nMaterials Sciences\nNuclear & Particle Physics\nQuantum Information Sciences\nChemistry\nFusion Energy Science\nENERGY RESILIENCY\nCritical Minerals and Materials\nElectric Grid Modernization\nEnergy Efficiency\nEnergy Storage\nEnvironmental Management\nFossil Energy\nNuclear Energy\nRenewable Energy\nTransportation\nNATIONAL SECURITY\nChemical & Biothreat Signatures\nCybersecurity\nNuclear Material Science\nNuclear Nonproliferation\nStakeholder Engagement\nSystems Integration & Deployment\nThreat Analysis\nDATA SCIENCE & COMPUTING\nArtificial Intelligence\nGraph and Data Analytics\nComputational Mathematics & Statistics\nFuture Computing Technologies\nSCIENCE & TECHNOLOGY STRATEGY\nPUBLICATIONS & REPORTS\nFEATURED RESEARCH\nPEOPLE\nInventors\nLab Leadership\nLab Fellows\nStaff Accomplishments\nPARTNER WITH PNNL\nEDUCATION\nUndergraduate Students\nGraduate Students\nPost-graduate Students\nUniversity Faculty\nUniversity Partnerships\nK-12 Educators and Students\nSTEM Education\nInternships\nCOMMUNITY\nPhilanthropy\nVolunteering\nINDUSTRY\nWhy Partner with PNNL\nExplore Types of Engagement\nHow to Partner with Us\nAvailable Technologies\nProcurement\nTechnology Ombuds\nFACILITIES & CENTERS\nALL FACILITIES\nAtmospheric Radiation Measurement User Facility\nElectricity Infrastructure Operations Center\nEnergy Sciences Center\nEnvironmental Molecular Sciences Laboratory\nGrid Storage Launchpad\nInstitute for Integrated Catalysis\nInterdiction Technology and Integration Laboratory\nPNNL Portland Research Center\nPNNL-Seattle\nPNNL-Sequim (Marine and Coastal Research)\nRadiochemical Processing Laboratory\nShallow Underground Laboratory\nEnergy Storage Cost and Performance Database\nENERGY STORAGE SUBSYSTEMS & DEFINITIONS\nCOST AND PERFORMANCE ESTIMATES\nLCOS ESTIMATES\nDOWNLOAD REPORTS\nTERMS\nBreadcrumb\nHOME  PROJECTS  ENERGY STORAGE COST AND PERFORMANCE DATABASE\nDownload Reports\nDOWNLOAD DATABASE\nEnergy Storage Cost and Performance Database v2024\nDOWNLOAD REPORTS\n\nThe updated Energy Storage Cost and Performance Database values provided on this webpage do not currently have an associated report. However, previous reports for previous iterations of this effort are available below for download.\n\n2022 Grid Energy Storage Technology Cost and Performance Assessment\n2020 Grid Energy Storage Technology Cost and Performance Assessment\nPNNL\nGET IN TOUCH\nCONTACT\nCAREERS\nDOING BUSINESS\nENVIRONMENTAL REPORTS\nSECURITY & PRIVACY\nVULNERABILITY DISCLOSURE POLICY\nNOTICE TO APPLICANTS\nRESEARCH\nSCIENTIFIC DISCOVERY\nENERGY RESILIENCY\nNATIONAL SECURITY\nSubscribe to PNNL News\nDepartment of Energy Logo\nBattelle Logo\nPacific Northwest National Laboratory (PNNL) is managed and operated by Battelle for the Department of Energy\nYouTube\nFacebook\nX (formerly Twitter)\nInstagram\nLinkedIn",
+  "links": [
+    {
+      "title": "Skip to main content",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports#main"
+    },
+    {
+      "title": "Pacific Northwest National Laboratory",
+      "url": "https://www.pnnl.gov/"
+    },
+    {
+      "title": "Scientific Discovery",
+      "url": "https://www.pnnl.gov/scientific-discovery"
+    },
+    {
+      "title": "Autonomous Science",
+      "url": "https://www.pnnl.gov/autonomous-science"
+    },
+    {
+      "title": "Biology",
+      "url": "https://www.pnnl.gov/biology"
+    },
+    {
+      "title": "Chemical Biology",
+      "url": "https://www.pnnl.gov/chemical-biology"
+    },
+    {
+      "title": "Computational Biology",
+      "url": "https://www.pnnl.gov/computational-biology"
+    },
+    {
+      "title": "Ecosystem Science",
+      "url": "https://www.pnnl.gov/ecosystem-science"
+    },
+    {
+      "title": "Human Health",
+      "url": "https://www.pnnl.gov/human-health"
+    },
+    {
+      "title": "Cancer Biology",
+      "url": "https://www.pnnl.gov/cancer-biology"
+    },
+    {
+      "title": "Exposure Science & Pathogen Biology",
+      "url": "https://www.pnnl.gov/exposure-science-pathogen-biology"
+    },
+    {
+      "title": "Integrative Omics",
+      "url": "https://www.pnnl.gov/integrative-omics"
+    },
+    {
+      "title": "Advanced Metabolomics",
+      "url": "https://www.pnnl.gov/advanced-metabolomics"
+    },
+    {
+      "title": "Chemical Biology",
+      "url": "https://www.pnnl.gov/chemical-biology"
+    },
+    {
+      "title": "Mass Spectrometry-Based Measurement Technologies",
+      "url": "https://www.pnnl.gov/mass-spectrometry-based-measurement-technologies"
+    },
+    {
+      "title": "Spatial and Single-Cell Proteomics",
+      "url": "https://www.pnnl.gov/spatial-and-single-cell-proteomics"
+    },
+    {
+      "title": "Structural Biology",
+      "url": "https://www.pnnl.gov/structural-biology"
+    },
+    {
+      "title": "Microbiome Science",
+      "url": "https://www.pnnl.gov/microbiome-science"
+    },
+    {
+      "title": "Biofuels & Bioproducts",
+      "url": "https://www.pnnl.gov/biofuels-bioproducts"
+    },
+    {
+      "title": "Human Microbiome",
+      "url": "https://www.pnnl.gov/human-microbiome"
+    },
+    {
+      "title": "Soil Microbiome",
+      "url": "https://www.pnnl.gov/soil-microbiome"
+    },
+    {
+      "title": "Synthetic Biology",
+      "url": "https://www.pnnl.gov/synthetic-biology"
+    },
+    {
+      "title": "Predictive Phenomics",
+      "url": "https://www.pnnl.gov/predictive-phenomics"
+    },
+    {
+      "title": "Toward a Standard Model of Biology",
+      "url": "https://www.pnnl.gov/toward-standard-model-biology"
+    },
+    {
+      "title": "Earth & Coastal Sciences",
+      "url": "https://www.pnnl.gov/earth-coastal-science"
+    },
+    {
+      "title": "Global Change",
+      "url": "https://www.pnnl.gov/global-change"
+    },
+    {
+      "title": "Atmospheric Science",
+      "url": "https://www.pnnl.gov/atmospheric-science"
+    },
+    {
+      "title": "Atmospheric Aerosols",
+      "url": "https://www.pnnl.gov/atmospheric-aerosols"
+    },
+    {
+      "title": "Human-Earth System Interactions",
+      "url": "https://www.pnnl.gov/human-earth-system-interactions"
+    },
+    {
+      "title": "Modeling Earth Systems",
+      "url": "https://www.pnnl.gov/modeling-earth-systems"
+    },
+    {
+      "title": "Coastal Science",
+      "url": "https://www.pnnl.gov/coastal-science"
+    },
+    {
+      "title": "Ecosystem Science",
+      "url": "https://www.pnnl.gov/ecosystem-science"
+    },
+    {
+      "title": "Subsurface Science",
+      "url": "https://www.pnnl.gov/subsurface-science"
+    },
+    {
+      "title": "Terrestrial Aquatics",
+      "url": "https://www.pnnl.gov/terrestrial-aquatics"
+    },
+    {
+      "title": "Materials Sciences",
+      "url": "https://www.pnnl.gov/materials-sciences"
+    },
+    {
+      "title": "Materials in Extreme Environments",
+      "url": "https://www.pnnl.gov/materials-extreme-environments"
+    },
+    {
+      "title": "Nondestructive Examination",
+      "url": "https://www.pnnl.gov/nondestructive-examination"
+    },
+    {
+      "title": "Precision Materials by Design",
+      "url": "https://www.pnnl.gov/precision-materials-design"
+    },
+    {
+      "title": "Science of Interfaces",
+      "url": "https://www.pnnl.gov/science-interfaces"
+    },
+    {
+      "title": "Smart Advanced Manufacturing",
+      "url": "https://www.pnnl.gov/smart-advanced-manufacturing"
+    },
+    {
+      "title": "Cold Spray",
+      "url": "https://www.pnnl.gov/cold-spray"
+    },
+    {
+      "title": "Friction Stir Welding & Processing",
+      "url": "https://www.pnnl.gov/friction-stir-welding-processing"
+    },
+    {
+      "title": "ShAPE",
+      "url": "https://www.pnnl.gov/shape"
+    },
+    {
+      "title": "Nuclear & Particle Physics",
+      "url": "https://www.pnnl.gov/nuclear-particle-physics"
+    },
+    {
+      "title": "Dark Matter",
+      "url": "https://www.pnnl.gov/dark-matter"
+    },
+    {
+      "title": "Neutrino Physics",
+      "url": "https://www.pnnl.gov/neutrino-physics"
+    },
+    {
+      "title": "Fusion Energy Science",
+      "url": "https://www.pnnl.gov/fusion-energy-science"
+    },
+    {
+      "title": "Quantum Information Sciences",
+      "url": "https://www.pnnl.gov/quantum-information-sciences"
+    },
+    {
+      "title": "Chemistry",
+      "url": "https://www.pnnl.gov/chemistry"
+    },
+    {
+      "title": "Computational Chemistry",
+      "url": "https://www.pnnl.gov/computational-chemistry"
+    },
+    {
+      "title": "Chemical Separations",
+      "url": "https://www.pnnl.gov/chemical-separations"
+    },
+    {
+      "title": "Chemical Physics",
+      "url": "https://www.pnnl.gov/chemical-physics"
+    },
+    {
+      "title": "Catalysis",
+      "url": "https://www.pnnl.gov/catalysis"
+    },
+    {
+      "title": "Fusion Energy Science",
+      "url": "https://www.pnnl.gov/fusion-energy-science"
+    },
+    {
+      "title": "Energy Resiliency",
+      "url": "https://www.pnnl.gov/energy-resiliency"
+    },
+    {
+      "title": "Critical Minerals and Materials",
+      "url": "https://www.pnnl.gov/critical-minerals-and-materials"
+    },
+    {
+      "title": "Supply Chain Modeling",
+      "url": "https://www.pnnl.gov/critical-minerals-and-materials-supply-chain-modeling"
+    },
+    {
+      "title": "Electric Grid Modernization",
+      "url": "https://www.pnnl.gov/electric-grid-modernization"
+    },
+    {
+      "title": "Emergency Response",
+      "url": "https://www.pnnl.gov/emergency-response"
+    },
+    {
+      "title": "Grid Analytics",
+      "url": "https://www.pnnl.gov/grid-analytics"
+    },
+    {
+      "title": "AGM Program",
+      "url": "https://www.pnnl.gov/advanced-grid-modeling"
+    },
+    {
+      "title": "Tools and Capabilities",
+      "url": "https://www.pnnl.gov/grid-modeling-tools-and-capabilities"
+    },
+    {
+      "title": "Grid Architecture",
+      "url": "https://www.pnnl.gov/grid-architecture"
+    },
+    {
+      "title": "Basic Terms & Principles",
+      "url": "https://www.pnnl.gov/grid-architecture/basic-terms-principles"
+    },
+    {
+      "title": "Resource Library",
+      "url": "https://www.pnnl.gov/grid-architecture/resource-library"
+    },
+    {
+      "title": "Grid Cybersecurity",
+      "url": "https://www.pnnl.gov/grid-cybersecurity"
+    },
+    {
+      "title": "Grid Energy Storage",
+      "url": "https://www.pnnl.gov/grid-energy-storage"
+    },
+    {
+      "title": "Transmission",
+      "url": "https://www.pnnl.gov/transmission"
+    },
+    {
+      "title": "Distribution",
+      "url": "https://www.pnnl.gov/distribution"
+    },
+    {
+      "title": "Energy Efficiency",
+      "url": "https://www.pnnl.gov/energy-efficiency"
+    },
+    {
+      "title": "Appliance and Equipment Standards",
+      "url": "https://www.pnnl.gov/appliance-and-equipment-standards"
+    },
+    {
+      "title": "Building Energy Codes",
+      "url": "https://www.pnnl.gov/building-energy-codes"
+    },
+    {
+      "title": "Building Technologies",
+      "url": "https://www.pnnl.gov/building-technologies"
+    },
+    {
+      "title": "Advanced Building Controls",
+      "url": "https://www.pnnl.gov/advanced-building-controls"
+    },
+    {
+      "title": "Advanced Lighting",
+      "url": "https://www.pnnl.gov/advanced-lighting"
+    },
+    {
+      "title": "Building-Grid Integration",
+      "url": "https://www.pnnl.gov/building-grid-integration"
+    },
+    {
+      "title": "Commercial Buildings",
+      "url": "https://www.pnnl.gov/commercial-buildings"
+    },
+    {
+      "title": "Federal Buildings",
+      "url": "https://www.pnnl.gov/federal-buildings"
+    },
+    {
+      "title": "Federal Performance Optimization",
+      "url": "https://www.pnnl.gov/federal-performance-optimization"
+    },
+    {
+      "title": "Resilience and Security",
+      "url": "https://www.pnnl.gov/resilience-and-security"
+    },
+    {
+      "title": "Residential Buildings",
+      "url": "https://www.pnnl.gov/residential-buildings"
+    },
+    {
+      "title": "Building America Solution Center",
+      "url": "https://www.pnnl.gov/building-america-solution-center"
+    },
+    {
+      "title": "Energy Efficient Technology Integration",
+      "url": "https://www.pnnl.gov/energy-efficient-technology-integration"
+    },
+    {
+      "title": "Home Energy Score",
+      "url": "https://www.pnnl.gov/home-energy-score"
+    },
+    {
+      "title": "Energy Efficient Technology Integration",
+      "url": "https://www.pnnl.gov/energy-efficient-technology-integration"
+    },
+    {
+      "title": "Energy Storage",
+      "url": "https://www.pnnl.gov/energy-storage"
+    },
+    {
+      "title": "Electrochemical Energy Storage",
+      "url": "https://www.pnnl.gov/electrochemical-energy-storage"
+    },
+    {
+      "title": "Flexible Loads and Generation",
+      "url": "https://www.pnnl.gov/flexible-loads-and-generation"
+    },
+    {
+      "title": "Grid Integration, Controls, and Architecture",
+      "url": "https://www.pnnl.gov/grid-integration-controls-and-architecture"
+    },
+    {
+      "title": "Regulation, Policy, and Valuation",
+      "url": "https://www.pnnl.gov/regulation-policy-and-valuation"
+    },
+    {
+      "title": "Science Supporting Energy Storage",
+      "url": "https://www.pnnl.gov/science-supporting-energy-storage"
+    },
+    {
+      "title": "Chemical Energy Storage",
+      "url": "https://www.pnnl.gov/chemical-energy-storage"
+    },
+    {
+      "title": "Environmental Management",
+      "url": "https://www.pnnl.gov/environmental-management"
+    },
+    {
+      "title": "Waste Processing",
+      "url": "https://www.pnnl.gov/waste-processing"
+    },
+    {
+      "title": "Radiation Measurement",
+      "url": "https://www.pnnl.gov/radiation-measurement"
+    },
+    {
+      "title": "Environmental Remediation",
+      "url": "https://www.pnnl.gov/environmental-remediation"
+    },
+    {
+      "title": "Fossil Energy",
+      "url": "https://www.pnnl.gov/fossil-energy"
+    },
+    {
+      "title": "Subsurface Energy Systems",
+      "url": "https://www.pnnl.gov/subsurface-energy-systems"
+    },
+    {
+      "title": "Advanced Hydrocarbon Conversion",
+      "url": "https://www.pnnl.gov/advanced-hydrocarbon-conversion"
+    },
+    {
+      "title": "Nuclear Energy",
+      "url": "https://www.pnnl.gov/nuclear-energy"
+    },
+    {
+      "title": "Fuel Cycle Research",
+      "url": "https://www.pnnl.gov/fuel-cycle-research"
+    },
+    {
+      "title": "Advanced Reactors",
+      "url": "https://www.pnnl.gov/advanced-reactors"
+    },
+    {
+      "title": "Reactor Operations",
+      "url": "https://www.pnnl.gov/reactor-operations"
+    },
+    {
+      "title": "Reactor Licensing",
+      "url": "https://www.pnnl.gov/reactor-licensing"
+    },
+    {
+      "title": "Nondestructive Examination",
+      "url": "https://www.pnnl.gov/nondestructive-examination"
+    },
+    {
+      "title": "Renewable Energy",
+      "url": "https://www.pnnl.gov/renewable-energy"
+    },
+    {
+      "title": "Solar Energy",
+      "url": "https://www.pnnl.gov/solar-energy"
+    },
+    {
+      "title": "Wind Energy",
+      "url": "https://www.pnnl.gov/wind-energy"
+    },
+    {
+      "title": "Wind Resource Characterization",
+      "url": "https://www.pnnl.gov/wind-resource-characterization"
+    },
+    {
+      "title": "Wildlife and Wind",
+      "url": "https://www.pnnl.gov/wildlife-and-wind"
+    },
+    {
+      "title": "Wind Systems Integration",
+      "url": "https://www.pnnl.gov/wind-systems-integration"
+    },
+    {
+      "title": "Wind Data Management",
+      "url": "https://www.pnnl.gov/wind-data-management"
+    },
+    {
+      "title": "Distributed Wind",
+      "url": "https://www.pnnl.gov/distributed-wind"
+    },
+    {
+      "title": "Marine Energy",
+      "url": "https://www.pnnl.gov/marine-energy"
+    },
+    {
+      "title": "Environmental Monitoring for Marine Energy",
+      "url": "https://www.pnnl.gov/environmental-monitoring-marine-energy"
+    },
+    {
+      "title": "Marine Biofouling and Corrosion",
+      "url": "https://www.pnnl.gov/marine-biofouling-and-corrosion"
+    },
+    {
+      "title": "Marine Energy Innovation",
+      "url": "https://www.pnnl.gov/blue-economy"
+    },
+    {
+      "title": "Marine Energy Resource Characterization",
+      "url": "https://www.pnnl.gov/marine-energy-resource-characterization"
+    },
+    {
+      "title": "Testing for Marine Energy",
+      "url": "https://www.pnnl.gov/testing-marine-energy"
+    },
+    {
+      "title": "Hydropower",
+      "url": "https://www.pnnl.gov/hydropower"
+    },
+    {
+      "title": "Environmental Performance of Hydropower",
+      "url": "https://www.pnnl.gov/environmental-performance-hydropower"
+    },
+    {
+      "title": "Hydropower Cybersecurity and Digitalization",
+      "url": "https://www.pnnl.gov/hydropower-cybersecurity-and-digitalization"
+    },
+    {
+      "title": "Hydropower and the Electric Grid",
+      "url": "https://www.pnnl.gov/hydropower-and-electric-grid"
+    },
+    {
+      "title": "Materials Science for Hydropower",
+      "url": "https://www.pnnl.gov/materials-science-hydropower"
+    },
+    {
+      "title": "Pumped Storage Hydropower",
+      "url": "https://www.pnnl.gov/pumped-storage-hydropower"
+    },
+    {
+      "title": "Water + Hydropower Planning",
+      "url": "https://www.pnnl.gov/water-hydropower-planning"
+    },
+    {
+      "title": "Grid Integration of Renewable Energy",
+      "url": "https://www.pnnl.gov/grid-integration-renewable-energy"
+    },
+    {
+      "title": "Geothermal Energy",
+      "url": "https://www.pnnl.gov/geothermal-energy"
+    },
+    {
+      "title": "Geothermal Materials Research",
+      "url": "https://www.pnnl.gov/geothermal-materials-research"
+    },
+    {
+      "title": "Transportation",
+      "url": "https://www.pnnl.gov/transportation"
+    },
+    {
+      "title": "Bioenergy Technologies",
+      "url": "https://www.pnnl.gov/bioenergy-technologies"
+    },
+    {
+      "title": "Algal Biofuels",
+      "url": "https://www.pnnl.gov/algal-biofuels"
+    },
+    {
+      "title": "Aviation Biofuels",
+      "url": "https://www.pnnl.gov/aviation-biofuels"
+    },
+    {
+      "title": "Waste-to-Energy and Products",
+      "url": "https://www.pnnl.gov/waste-energy-and-products"
+    },
+    {
+      "title": "Hydrogen & Fuel Cells",
+      "url": "https://www.pnnl.gov/hydrogen-fuel-cells"
+    },
+    {
+      "title": "Vehicle Technologies",
+      "url": "https://www.pnnl.gov/vehicle-technologies"
+    },
+    {
+      "title": "Emission Control",
+      "url": "https://www.pnnl.gov/emission-control"
+    },
+    {
+      "title": "Energy-Efficient Mobility Systems",
+      "url": "https://www.pnnl.gov/energy-efficient-mobility-systems"
+    },
+    {
+      "title": "Lightweight Materials",
+      "url": "https://www.pnnl.gov/lightweight-materials"
+    },
+    {
+      "title": "Vehicle Electrification",
+      "url": "https://www.pnnl.gov/vehicle-electrification"
+    },
+    {
+      "title": "Vehicle Grid Integration",
+      "url": "https://www.pnnl.gov/vehicle-grid-integration"
+    },
+    {
+      "title": "National Security",
+      "url": "https://www.pnnl.gov/national-security"
+    },
+    {
+      "title": "Chemical & Biothreat Signatures",
+      "url": "https://www.pnnl.gov/chemical-biothreat-signatures"
+    },
+    {
+      "title": "Contraband Detection",
+      "url": "https://www.pnnl.gov/contraband-detection"
+    },
+    {
+      "title": "Pathogen Science & Detection",
+      "url": "https://www.pnnl.gov/pathogen-science-detection"
+    },
+    {
+      "title": "Explosives Detection",
+      "url": "https://www.pnnl.gov/explosives-detection"
+    },
+    {
+      "title": "Threat-Agnostic Biodefense",
+      "url": "https://www.pnnl.gov/threat-agnostic-biodefense"
+    },
+    {
+      "title": "Cybersecurity",
+      "url": "https://www.pnnl.gov/cybersecurity"
+    },
+    {
+      "title": "Discovery and Insight",
+      "url": "https://www.pnnl.gov/discovery-and-insight"
+    },
+    {
+      "title": "Proactive Defense",
+      "url": "https://www.pnnl.gov/proactive-defense"
+    },
+    {
+      "title": "Trusted Systems",
+      "url": "https://www.pnnl.gov/trusted-systems"
+    },
+    {
+      "title": "Nuclear Material Science",
+      "url": "https://www.pnnl.gov/nuclear-material-science"
+    },
+    {
+      "title": "Nuclear Nonproliferation",
+      "url": "https://www.pnnl.gov/nuclear-nonproliferation"
+    },
+    {
+      "title": "Radiological & Nuclear Detection",
+      "url": "https://www.pnnl.gov/radiological-nuclear-detection"
+    },
+    {
+      "title": "Nuclear Forensics",
+      "url": "https://www.pnnl.gov/nuclear-forensics"
+    },
+    {
+      "title": "Ultra-Sensitive Nuclear Measurements",
+      "url": "https://www.pnnl.gov/ultra-sensitive-nuclear-measurements"
+    },
+    {
+      "title": "Nuclear Explosion Monitoring",
+      "url": "https://www.pnnl.gov/nuclear-explosion-monitoring"
+    },
+    {
+      "title": "Global Nuclear & Radiological Security",
+      "url": "https://www.pnnl.gov/global-nuclear-radiological-security"
+    },
+    {
+      "title": "Stakeholder Engagement",
+      "url": "https://www.pnnl.gov/stakeholder-engagement"
+    },
+    {
+      "title": "Disaster Recovery",
+      "url": "https://www.pnnl.gov/disaster-recovery"
+    },
+    {
+      "title": "Global Collaborations",
+      "url": "https://www.pnnl.gov/global-collaborations"
+    },
+    {
+      "title": "Legislative and Regulatory Analysis",
+      "url": "https://www.pnnl.gov/legislative-and-regulatory-analysis"
+    },
+    {
+      "title": "Technical Training",
+      "url": "https://www.pnnl.gov/technical-training"
+    },
+    {
+      "title": "Systems Integration & Deployment",
+      "url": "https://www.pnnl.gov/systems-integration-deployment"
+    },
+    {
+      "title": "Additive Manufacturing",
+      "url": "https://www.pnnl.gov/additive-manufacturing"
+    },
+    {
+      "title": "Deployed Technologies",
+      "url": "https://www.pnnl.gov/deployed-technologies"
+    },
+    {
+      "title": "Rapid Prototyping",
+      "url": "https://www.pnnl.gov/rapid-prototyping"
+    },
+    {
+      "title": "Systems Engineering",
+      "url": "https://www.pnnl.gov/systems-engineering"
+    },
+    {
+      "title": "Threat Analysis",
+      "url": "https://www.pnnl.gov/threat-analysis"
+    },
+    {
+      "title": "Advanced Wireless Security",
+      "url": "https://www.pnnl.gov/advanced-wireless-security"
+    },
+    {
+      "title": "5G Security",
+      "url": "https://www.pnnl.gov/5g-security"
+    },
+    {
+      "title": "RF Signal Detection & Exploitation",
+      "url": "https://www.pnnl.gov/rf-signal-detection-exploitation"
+    },
+    {
+      "title": "Border Security",
+      "url": "https://www.pnnl.gov/border-security"
+    },
+    {
+      "title": "Internet of Things",
+      "url": "https://www.pnnl.gov/internet-things"
+    },
+    {
+      "title": "Maritime Security",
+      "url": "https://www.pnnl.gov/maritime-security"
+    },
+    {
+      "title": "Millimeter Wave",
+      "url": "https://www.pnnl.gov/millimeter-wave"
+    },
+    {
+      "title": "Mission Risk and Resilience",
+      "url": "https://www.pnnl.gov/mission-risk-and-resilience"
+    },
+    {
+      "title": "Data Science & Computing",
+      "url": "https://www.pnnl.gov/data-science-computing"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.pnnl.gov/artificial-intelligence"
+    },
+    {
+      "title": "Graph and Data Analytics",
+      "url": "https://www.pnnl.gov/graph-and-data-analytics"
+    },
+    {
+      "title": "Computational Mathematics & Statistics",
+      "url": "https://www.pnnl.gov/computational-mathematics-statistics"
+    },
+    {
+      "title": "Future Computing Technologies",
+      "url": "https://www.pnnl.gov/future-computing-technologies"
+    },
+    {
+      "title": "Adaptive Autonomous Systems",
+      "url": "https://www.pnnl.gov/adaptive-autonomous-systems"
+    },
+    {
+      "title": "Science & Technology Strategy",
+      "url": "https://www.pnnl.gov/science-and-technology-strategy"
+    },
+    {
+      "title": "Publications & Reports",
+      "url": "https://www.pnnl.gov/publications-reports"
+    },
+    {
+      "title": "Featured Research",
+      "url": "https://www.pnnl.gov/featured-research"
+    },
+    {
+      "title": "Inventors",
+      "url": "https://www.pnnl.gov/inventors"
+    },
+    {
+      "title": "Lab Leadership",
+      "url": "https://www.pnnl.gov/lab-leadership"
+    },
+    {
+      "title": "Lab Fellows",
+      "url": "https://www.pnnl.gov/senior-research-fellows"
+    },
+    {
+      "title": "Staff Accomplishments",
+      "url": "https://www.pnnl.gov/staff-accomplishments"
+    },
+    {
+      "title": "Education",
+      "url": "https://www.pnnl.gov/education"
+    },
+    {
+      "title": "Undergraduate Students",
+      "url": "https://www.pnnl.gov/undergraduate-students"
+    },
+    {
+      "title": "Graduate Students",
+      "url": "https://www.pnnl.gov/graduate-students"
+    },
+    {
+      "title": "Post-graduate Students",
+      "url": "https://www.pnnl.gov/post-graduate-students"
+    },
+    {
+      "title": "University Faculty",
+      "url": "https://www.pnnl.gov/university-faculty"
+    },
+    {
+      "title": "University Partnerships",
+      "url": "https://www.pnnl.gov/university-partnerships"
+    },
+    {
+      "title": "K-12 Educators and Students",
+      "url": "https://www.pnnl.gov/k-12-educators-and-students"
+    },
+    {
+      "title": "STEM Education",
+      "url": "https://www.pnnl.gov/stem-education"
+    },
+    {
+      "title": "STEM Workforce Development",
+      "url": "https://www.pnnl.gov/stem-workforce-development"
+    },
+    {
+      "title": "STEM Outreach",
+      "url": "https://www.pnnl.gov/stem-outreach"
+    },
+    {
+      "title": "Internships",
+      "url": "https://www.pnnl.gov/internships"
+    },
+    {
+      "title": "Community",
+      "url": "https://www.pnnl.gov/community"
+    },
+    {
+      "title": "Philanthropy",
+      "url": "https://www.pnnl.gov/philanthropy"
+    },
+    {
+      "title": "Volunteering",
+      "url": "https://www.pnnl.gov/volunteering"
+    },
+    {
+      "title": "Industry",
+      "url": "https://www.pnnl.gov/industry"
+    },
+    {
+      "title": "Why Partner with PNNL",
+      "url": "https://www.pnnl.gov/industry/why-partner-pnnl"
+    },
+    {
+      "title": "Explore Types of Engagement",
+      "url": "https://www.pnnl.gov/industry/explore-types-engagement"
+    },
+    {
+      "title": "How to Partner with Us",
+      "url": "https://www.pnnl.gov/industry/how-partner-us"
+    },
+    {
+      "title": "Available Technologies",
+      "url": "https://www.pnnl.gov/available-technologies"
+    },
+    {
+      "title": "Procurement",
+      "url": "https://www.pnnl.gov/procurement"
+    },
+    {
+      "title": "Technology Ombuds",
+      "url": "https://www.pnnl.gov/industry/technology-partnership-ombuds"
+    },
+    {
+      "title": "All Facilities",
+      "url": "https://www.pnnl.gov/facilities"
+    },
+    {
+      "title": "Atmospheric Radiation Measurement User Facility",
+      "url": "https://www.pnnl.gov/atmospheric-radiation-measurement-user-facility"
+    },
+    {
+      "title": "Electricity Infrastructure Operations Center",
+      "url": "https://www.pnnl.gov/electricity-infrastructure-operations-center"
+    },
+    {
+      "title": "Energy Sciences Center",
+      "url": "https://www.pnnl.gov/energy-sciences-center"
+    },
+    {
+      "title": "Environmental Molecular Sciences Laboratory",
+      "url": "https://www.pnnl.gov/environmental-molecular-sciences-laboratory"
+    },
+    {
+      "title": "Grid Storage Launchpad",
+      "url": "https://www.pnnl.gov/projects/grid-storage-launchpad"
+    },
+    {
+      "title": "Institute for Integrated Catalysis",
+      "url": "https://www.pnnl.gov/projects/institute-integrated-catalysis"
+    },
+    {
+      "title": "Interdiction Technology and Integration Laboratory",
+      "url": "https://www.pnnl.gov/interdiction-technology-and-integration-laboratory"
+    },
+    {
+      "title": "PNNL Portland Research Center",
+      "url": "https://www.pnnl.gov/portland-research-center"
+    },
+    {
+      "title": "PNNL-Seattle",
+      "url": "https://www.pnnl.gov/pnnl-seattle"
+    },
+    {
+      "title": "PNNL-Sequim (Marine and Coastal Research)",
+      "url": "https://www.pnnl.gov/pnnl-sequim"
+    },
+    {
+      "title": "Radiochemical Processing Laboratory",
+      "url": "https://www.pnnl.gov/radiochemical-processing-laboratory"
+    },
+    {
+      "title": "Shallow Underground Laboratory",
+      "url": "https://www.pnnl.gov/shallow-underground-laboratory"
+    },
+    {
+      "title": "About",
+      "url": "https://www.pnnl.gov/about"
+    },
+    {
+      "title": "News & Media",
+      "url": "https://www.pnnl.gov/news?news%5B0%5D=type%3A994&news%5B1%5D=type%3A165&news%5B2%5D=type%3A24&news%5B3%5D=type%3A23"
+    },
+    {
+      "title": "Careers",
+      "url": "https://careers.pnnl.gov/"
+    },
+    {
+      "title": "Events",
+      "url": "https://www.pnnl.gov/events"
+    },
+    {
+      "title": "PNNL",
+      "url": "https://www.pnnl.gov/"
+    },
+    {
+      "title": "About",
+      "url": "https://www.pnnl.gov/about"
+    },
+    {
+      "title": "News & Media",
+      "url": "https://www.pnnl.gov/news?news%5B0%5D=type%3A994&news%5B1%5D=type%3A165&news%5B2%5D=type%3A24&news%5B3%5D=type%3A23"
+    },
+    {
+      "title": "Careers",
+      "url": "https://careers.pnnl.gov/"
+    },
+    {
+      "title": "Events",
+      "url": "https://www.pnnl.gov/events"
+    },
+    {
+      "title": "Scientific Discovery",
+      "url": "https://www.pnnl.gov/scientific-discovery"
+    },
+    {
+      "title": "Autonomous Science",
+      "url": "https://www.pnnl.gov/autonomous-science"
+    },
+    {
+      "title": "Biology",
+      "url": "https://www.pnnl.gov/biology"
+    },
+    {
+      "title": "Chemical Biology",
+      "url": "https://www.pnnl.gov/chemical-biology"
+    },
+    {
+      "title": "Computational Biology",
+      "url": "https://www.pnnl.gov/computational-biology"
+    },
+    {
+      "title": "Ecosystem Science",
+      "url": "https://www.pnnl.gov/ecosystem-science"
+    },
+    {
+      "title": "Human Health",
+      "url": "https://www.pnnl.gov/human-health"
+    },
+    {
+      "title": "Cancer Biology",
+      "url": "https://www.pnnl.gov/cancer-biology"
+    },
+    {
+      "title": "Exposure Science & Pathogen Biology",
+      "url": "https://www.pnnl.gov/exposure-science-pathogen-biology"
+    },
+    {
+      "title": "Integrative Omics",
+      "url": "https://www.pnnl.gov/integrative-omics"
+    },
+    {
+      "title": "Advanced Metabolomics",
+      "url": "https://www.pnnl.gov/advanced-metabolomics"
+    },
+    {
+      "title": "Chemical Biology",
+      "url": "https://www.pnnl.gov/chemical-biology"
+    },
+    {
+      "title": "Mass Spectrometry-Based Measurement Technologies",
+      "url": "https://www.pnnl.gov/mass-spectrometry-based-measurement-technologies"
+    },
+    {
+      "title": "Spatial and Single-Cell Proteomics",
+      "url": "https://www.pnnl.gov/spatial-and-single-cell-proteomics"
+    },
+    {
+      "title": "Structural Biology",
+      "url": "https://www.pnnl.gov/structural-biology"
+    },
+    {
+      "title": "Microbiome Science",
+      "url": "https://www.pnnl.gov/microbiome-science"
+    },
+    {
+      "title": "Biofuels & Bioproducts",
+      "url": "https://www.pnnl.gov/biofuels-bioproducts"
+    },
+    {
+      "title": "Human Microbiome",
+      "url": "https://www.pnnl.gov/human-microbiome"
+    },
+    {
+      "title": "Soil Microbiome",
+      "url": "https://www.pnnl.gov/soil-microbiome"
+    },
+    {
+      "title": "Synthetic Biology",
+      "url": "https://www.pnnl.gov/synthetic-biology"
+    },
+    {
+      "title": "Predictive Phenomics",
+      "url": "https://www.pnnl.gov/predictive-phenomics"
+    },
+    {
+      "title": "Toward a Standard Model of Biology",
+      "url": "https://www.pnnl.gov/toward-standard-model-biology"
+    },
+    {
+      "title": "Earth & Coastal Sciences",
+      "url": "https://www.pnnl.gov/earth-coastal-science"
+    },
+    {
+      "title": "Global Change",
+      "url": "https://www.pnnl.gov/global-change"
+    },
+    {
+      "title": "Atmospheric Science",
+      "url": "https://www.pnnl.gov/atmospheric-science"
+    },
+    {
+      "title": "Atmospheric Aerosols",
+      "url": "https://www.pnnl.gov/atmospheric-aerosols"
+    },
+    {
+      "title": "Human-Earth System Interactions",
+      "url": "https://www.pnnl.gov/human-earth-system-interactions"
+    },
+    {
+      "title": "Modeling Earth Systems",
+      "url": "https://www.pnnl.gov/modeling-earth-systems"
+    },
+    {
+      "title": "Coastal Science",
+      "url": "https://www.pnnl.gov/coastal-science"
+    },
+    {
+      "title": "Ecosystem Science",
+      "url": "https://www.pnnl.gov/ecosystem-science"
+    },
+    {
+      "title": "Subsurface Science",
+      "url": "https://www.pnnl.gov/subsurface-science"
+    },
+    {
+      "title": "Terrestrial Aquatics",
+      "url": "https://www.pnnl.gov/terrestrial-aquatics"
+    },
+    {
+      "title": "Materials Sciences",
+      "url": "https://www.pnnl.gov/materials-sciences"
+    },
+    {
+      "title": "Materials in Extreme Environments",
+      "url": "https://www.pnnl.gov/materials-extreme-environments"
+    },
+    {
+      "title": "Nondestructive Examination",
+      "url": "https://www.pnnl.gov/nondestructive-examination"
+    },
+    {
+      "title": "Precision Materials by Design",
+      "url": "https://www.pnnl.gov/precision-materials-design"
+    },
+    {
+      "title": "Science of Interfaces",
+      "url": "https://www.pnnl.gov/science-interfaces"
+    },
+    {
+      "title": "Smart Advanced Manufacturing",
+      "url": "https://www.pnnl.gov/smart-advanced-manufacturing"
+    },
+    {
+      "title": "Cold Spray",
+      "url": "https://www.pnnl.gov/cold-spray"
+    },
+    {
+      "title": "Friction Stir Welding & Processing",
+      "url": "https://www.pnnl.gov/friction-stir-welding-processing"
+    },
+    {
+      "title": "ShAPE",
+      "url": "https://www.pnnl.gov/shape"
+    },
+    {
+      "title": "Nuclear & Particle Physics",
+      "url": "https://www.pnnl.gov/nuclear-particle-physics"
+    },
+    {
+      "title": "Dark Matter",
+      "url": "https://www.pnnl.gov/dark-matter"
+    },
+    {
+      "title": "Neutrino Physics",
+      "url": "https://www.pnnl.gov/neutrino-physics"
+    },
+    {
+      "title": "Fusion Energy Science",
+      "url": "https://www.pnnl.gov/fusion-energy-science"
+    },
+    {
+      "title": "Quantum Information Sciences",
+      "url": "https://www.pnnl.gov/quantum-information-sciences"
+    },
+    {
+      "title": "Chemistry",
+      "url": "https://www.pnnl.gov/chemistry"
+    },
+    {
+      "title": "Computational Chemistry",
+      "url": "https://www.pnnl.gov/computational-chemistry"
+    },
+    {
+      "title": "Chemical Separations",
+      "url": "https://www.pnnl.gov/chemical-separations"
+    },
+    {
+      "title": "Chemical Physics",
+      "url": "https://www.pnnl.gov/chemical-physics"
+    },
+    {
+      "title": "Catalysis",
+      "url": "https://www.pnnl.gov/catalysis"
+    },
+    {
+      "title": "Fusion Energy Science",
+      "url": "https://www.pnnl.gov/fusion-energy-science"
+    },
+    {
+      "title": "Energy Resiliency",
+      "url": "https://www.pnnl.gov/energy-resiliency"
+    },
+    {
+      "title": "Critical Minerals and Materials",
+      "url": "https://www.pnnl.gov/critical-minerals-and-materials"
+    },
+    {
+      "title": "Supply Chain Modeling",
+      "url": "https://www.pnnl.gov/critical-minerals-and-materials-supply-chain-modeling"
+    },
+    {
+      "title": "Electric Grid Modernization",
+      "url": "https://www.pnnl.gov/electric-grid-modernization"
+    },
+    {
+      "title": "Emergency Response",
+      "url": "https://www.pnnl.gov/emergency-response"
+    },
+    {
+      "title": "Grid Analytics",
+      "url": "https://www.pnnl.gov/grid-analytics"
+    },
+    {
+      "title": "AGM Program",
+      "url": "https://www.pnnl.gov/advanced-grid-modeling"
+    },
+    {
+      "title": "Tools and Capabilities",
+      "url": "https://www.pnnl.gov/grid-modeling-tools-and-capabilities"
+    },
+    {
+      "title": "Grid Architecture",
+      "url": "https://www.pnnl.gov/grid-architecture"
+    },
+    {
+      "title": "Basic Terms & Principles",
+      "url": "https://www.pnnl.gov/grid-architecture/basic-terms-principles"
+    },
+    {
+      "title": "Resource Library",
+      "url": "https://www.pnnl.gov/grid-architecture/resource-library"
+    },
+    {
+      "title": "Grid Cybersecurity",
+      "url": "https://www.pnnl.gov/grid-cybersecurity"
+    },
+    {
+      "title": "Grid Energy Storage",
+      "url": "https://www.pnnl.gov/grid-energy-storage"
+    },
+    {
+      "title": "Transmission",
+      "url": "https://www.pnnl.gov/transmission"
+    },
+    {
+      "title": "Distribution",
+      "url": "https://www.pnnl.gov/distribution"
+    },
+    {
+      "title": "Energy Efficiency",
+      "url": "https://www.pnnl.gov/energy-efficiency"
+    },
+    {
+      "title": "Appliance and Equipment Standards",
+      "url": "https://www.pnnl.gov/appliance-and-equipment-standards"
+    },
+    {
+      "title": "Building Energy Codes",
+      "url": "https://www.pnnl.gov/building-energy-codes"
+    },
+    {
+      "title": "Building Technologies",
+      "url": "https://www.pnnl.gov/building-technologies"
+    },
+    {
+      "title": "Advanced Building Controls",
+      "url": "https://www.pnnl.gov/advanced-building-controls"
+    },
+    {
+      "title": "Advanced Lighting",
+      "url": "https://www.pnnl.gov/advanced-lighting"
+    },
+    {
+      "title": "Building-Grid Integration",
+      "url": "https://www.pnnl.gov/building-grid-integration"
+    },
+    {
+      "title": "Commercial Buildings",
+      "url": "https://www.pnnl.gov/commercial-buildings"
+    },
+    {
+      "title": "Federal Buildings",
+      "url": "https://www.pnnl.gov/federal-buildings"
+    },
+    {
+      "title": "Federal Performance Optimization",
+      "url": "https://www.pnnl.gov/federal-performance-optimization"
+    },
+    {
+      "title": "Resilience and Security",
+      "url": "https://www.pnnl.gov/resilience-and-security"
+    },
+    {
+      "title": "Residential Buildings",
+      "url": "https://www.pnnl.gov/residential-buildings"
+    },
+    {
+      "title": "Building America Solution Center",
+      "url": "https://www.pnnl.gov/building-america-solution-center"
+    },
+    {
+      "title": "Energy Efficient Technology Integration",
+      "url": "https://www.pnnl.gov/energy-efficient-technology-integration"
+    },
+    {
+      "title": "Home Energy Score",
+      "url": "https://www.pnnl.gov/home-energy-score"
+    },
+    {
+      "title": "Energy Efficient Technology Integration",
+      "url": "https://www.pnnl.gov/energy-efficient-technology-integration"
+    },
+    {
+      "title": "Energy Storage",
+      "url": "https://www.pnnl.gov/energy-storage"
+    },
+    {
+      "title": "Electrochemical Energy Storage",
+      "url": "https://www.pnnl.gov/electrochemical-energy-storage"
+    },
+    {
+      "title": "Flexible Loads and Generation",
+      "url": "https://www.pnnl.gov/flexible-loads-and-generation"
+    },
+    {
+      "title": "Grid Integration, Controls, and Architecture",
+      "url": "https://www.pnnl.gov/grid-integration-controls-and-architecture"
+    },
+    {
+      "title": "Regulation, Policy, and Valuation",
+      "url": "https://www.pnnl.gov/regulation-policy-and-valuation"
+    },
+    {
+      "title": "Science Supporting Energy Storage",
+      "url": "https://www.pnnl.gov/science-supporting-energy-storage"
+    },
+    {
+      "title": "Chemical Energy Storage",
+      "url": "https://www.pnnl.gov/chemical-energy-storage"
+    },
+    {
+      "title": "Environmental Management",
+      "url": "https://www.pnnl.gov/environmental-management"
+    },
+    {
+      "title": "Waste Processing",
+      "url": "https://www.pnnl.gov/waste-processing"
+    },
+    {
+      "title": "Radiation Measurement",
+      "url": "https://www.pnnl.gov/radiation-measurement"
+    },
+    {
+      "title": "Environmental Remediation",
+      "url": "https://www.pnnl.gov/environmental-remediation"
+    },
+    {
+      "title": "Fossil Energy",
+      "url": "https://www.pnnl.gov/fossil-energy"
+    },
+    {
+      "title": "Subsurface Energy Systems",
+      "url": "https://www.pnnl.gov/subsurface-energy-systems"
+    },
+    {
+      "title": "Advanced Hydrocarbon Conversion",
+      "url": "https://www.pnnl.gov/advanced-hydrocarbon-conversion"
+    },
+    {
+      "title": "Nuclear Energy",
+      "url": "https://www.pnnl.gov/nuclear-energy"
+    },
+    {
+      "title": "Fuel Cycle Research",
+      "url": "https://www.pnnl.gov/fuel-cycle-research"
+    },
+    {
+      "title": "Advanced Reactors",
+      "url": "https://www.pnnl.gov/advanced-reactors"
+    },
+    {
+      "title": "Reactor Operations",
+      "url": "https://www.pnnl.gov/reactor-operations"
+    },
+    {
+      "title": "Reactor Licensing",
+      "url": "https://www.pnnl.gov/reactor-licensing"
+    },
+    {
+      "title": "Nondestructive Examination",
+      "url": "https://www.pnnl.gov/nondestructive-examination"
+    },
+    {
+      "title": "Renewable Energy",
+      "url": "https://www.pnnl.gov/renewable-energy"
+    },
+    {
+      "title": "Solar Energy",
+      "url": "https://www.pnnl.gov/solar-energy"
+    },
+    {
+      "title": "Wind Energy",
+      "url": "https://www.pnnl.gov/wind-energy"
+    },
+    {
+      "title": "Wind Resource Characterization",
+      "url": "https://www.pnnl.gov/wind-resource-characterization"
+    },
+    {
+      "title": "Wildlife and Wind",
+      "url": "https://www.pnnl.gov/wildlife-and-wind"
+    },
+    {
+      "title": "Wind Systems Integration",
+      "url": "https://www.pnnl.gov/wind-systems-integration"
+    },
+    {
+      "title": "Wind Data Management",
+      "url": "https://www.pnnl.gov/wind-data-management"
+    },
+    {
+      "title": "Distributed Wind",
+      "url": "https://www.pnnl.gov/distributed-wind"
+    },
+    {
+      "title": "Marine Energy",
+      "url": "https://www.pnnl.gov/marine-energy"
+    },
+    {
+      "title": "Environmental Monitoring for Marine Energy",
+      "url": "https://www.pnnl.gov/environmental-monitoring-marine-energy"
+    },
+    {
+      "title": "Marine Biofouling and Corrosion",
+      "url": "https://www.pnnl.gov/marine-biofouling-and-corrosion"
+    },
+    {
+      "title": "Marine Energy Innovation",
+      "url": "https://www.pnnl.gov/blue-economy"
+    },
+    {
+      "title": "Marine Energy Resource Characterization",
+      "url": "https://www.pnnl.gov/marine-energy-resource-characterization"
+    },
+    {
+      "title": "Testing for Marine Energy",
+      "url": "https://www.pnnl.gov/testing-marine-energy"
+    },
+    {
+      "title": "Hydropower",
+      "url": "https://www.pnnl.gov/hydropower"
+    },
+    {
+      "title": "Environmental Performance of Hydropower",
+      "url": "https://www.pnnl.gov/environmental-performance-hydropower"
+    },
+    {
+      "title": "Hydropower Cybersecurity and Digitalization",
+      "url": "https://www.pnnl.gov/hydropower-cybersecurity-and-digitalization"
+    },
+    {
+      "title": "Hydropower and the Electric Grid",
+      "url": "https://www.pnnl.gov/hydropower-and-electric-grid"
+    },
+    {
+      "title": "Materials Science for Hydropower",
+      "url": "https://www.pnnl.gov/materials-science-hydropower"
+    },
+    {
+      "title": "Pumped Storage Hydropower",
+      "url": "https://www.pnnl.gov/pumped-storage-hydropower"
+    },
+    {
+      "title": "Water + Hydropower Planning",
+      "url": "https://www.pnnl.gov/water-hydropower-planning"
+    },
+    {
+      "title": "Grid Integration of Renewable Energy",
+      "url": "https://www.pnnl.gov/grid-integration-renewable-energy"
+    },
+    {
+      "title": "Geothermal Energy",
+      "url": "https://www.pnnl.gov/geothermal-energy"
+    },
+    {
+      "title": "Geothermal Materials Research",
+      "url": "https://www.pnnl.gov/geothermal-materials-research"
+    },
+    {
+      "title": "Transportation",
+      "url": "https://www.pnnl.gov/transportation"
+    },
+    {
+      "title": "Bioenergy Technologies",
+      "url": "https://www.pnnl.gov/bioenergy-technologies"
+    },
+    {
+      "title": "Algal Biofuels",
+      "url": "https://www.pnnl.gov/algal-biofuels"
+    },
+    {
+      "title": "Aviation Biofuels",
+      "url": "https://www.pnnl.gov/aviation-biofuels"
+    },
+    {
+      "title": "Waste-to-Energy and Products",
+      "url": "https://www.pnnl.gov/waste-energy-and-products"
+    },
+    {
+      "title": "Hydrogen & Fuel Cells",
+      "url": "https://www.pnnl.gov/hydrogen-fuel-cells"
+    },
+    {
+      "title": "Vehicle Technologies",
+      "url": "https://www.pnnl.gov/vehicle-technologies"
+    },
+    {
+      "title": "Emission Control",
+      "url": "https://www.pnnl.gov/emission-control"
+    },
+    {
+      "title": "Energy-Efficient Mobility Systems",
+      "url": "https://www.pnnl.gov/energy-efficient-mobility-systems"
+    },
+    {
+      "title": "Lightweight Materials",
+      "url": "https://www.pnnl.gov/lightweight-materials"
+    },
+    {
+      "title": "Vehicle Electrification",
+      "url": "https://www.pnnl.gov/vehicle-electrification"
+    },
+    {
+      "title": "Vehicle Grid Integration",
+      "url": "https://www.pnnl.gov/vehicle-grid-integration"
+    },
+    {
+      "title": "National Security",
+      "url": "https://www.pnnl.gov/national-security"
+    },
+    {
+      "title": "Chemical & Biothreat Signatures",
+      "url": "https://www.pnnl.gov/chemical-biothreat-signatures"
+    },
+    {
+      "title": "Contraband Detection",
+      "url": "https://www.pnnl.gov/contraband-detection"
+    },
+    {
+      "title": "Pathogen Science & Detection",
+      "url": "https://www.pnnl.gov/pathogen-science-detection"
+    },
+    {
+      "title": "Explosives Detection",
+      "url": "https://www.pnnl.gov/explosives-detection"
+    },
+    {
+      "title": "Threat-Agnostic Biodefense",
+      "url": "https://www.pnnl.gov/threat-agnostic-biodefense"
+    },
+    {
+      "title": "Cybersecurity",
+      "url": "https://www.pnnl.gov/cybersecurity"
+    },
+    {
+      "title": "Discovery and Insight",
+      "url": "https://www.pnnl.gov/discovery-and-insight"
+    },
+    {
+      "title": "Proactive Defense",
+      "url": "https://www.pnnl.gov/proactive-defense"
+    },
+    {
+      "title": "Trusted Systems",
+      "url": "https://www.pnnl.gov/trusted-systems"
+    },
+    {
+      "title": "Nuclear Material Science",
+      "url": "https://www.pnnl.gov/nuclear-material-science"
+    },
+    {
+      "title": "Nuclear Nonproliferation",
+      "url": "https://www.pnnl.gov/nuclear-nonproliferation"
+    },
+    {
+      "title": "Radiological & Nuclear Detection",
+      "url": "https://www.pnnl.gov/radiological-nuclear-detection"
+    },
+    {
+      "title": "Nuclear Forensics",
+      "url": "https://www.pnnl.gov/nuclear-forensics"
+    },
+    {
+      "title": "Ultra-Sensitive Nuclear Measurements",
+      "url": "https://www.pnnl.gov/ultra-sensitive-nuclear-measurements"
+    },
+    {
+      "title": "Nuclear Explosion Monitoring",
+      "url": "https://www.pnnl.gov/nuclear-explosion-monitoring"
+    },
+    {
+      "title": "Global Nuclear & Radiological Security",
+      "url": "https://www.pnnl.gov/global-nuclear-radiological-security"
+    },
+    {
+      "title": "Stakeholder Engagement",
+      "url": "https://www.pnnl.gov/stakeholder-engagement"
+    },
+    {
+      "title": "Disaster Recovery",
+      "url": "https://www.pnnl.gov/disaster-recovery"
+    },
+    {
+      "title": "Global Collaborations",
+      "url": "https://www.pnnl.gov/global-collaborations"
+    },
+    {
+      "title": "Legislative and Regulatory Analysis",
+      "url": "https://www.pnnl.gov/legislative-and-regulatory-analysis"
+    },
+    {
+      "title": "Technical Training",
+      "url": "https://www.pnnl.gov/technical-training"
+    },
+    {
+      "title": "Systems Integration & Deployment",
+      "url": "https://www.pnnl.gov/systems-integration-deployment"
+    },
+    {
+      "title": "Additive Manufacturing",
+      "url": "https://www.pnnl.gov/additive-manufacturing"
+    },
+    {
+      "title": "Deployed Technologies",
+      "url": "https://www.pnnl.gov/deployed-technologies"
+    },
+    {
+      "title": "Rapid Prototyping",
+      "url": "https://www.pnnl.gov/rapid-prototyping"
+    },
+    {
+      "title": "Systems Engineering",
+      "url": "https://www.pnnl.gov/systems-engineering"
+    },
+    {
+      "title": "Threat Analysis",
+      "url": "https://www.pnnl.gov/threat-analysis"
+    },
+    {
+      "title": "Advanced Wireless Security",
+      "url": "https://www.pnnl.gov/advanced-wireless-security"
+    },
+    {
+      "title": "5G Security",
+      "url": "https://www.pnnl.gov/5g-security"
+    },
+    {
+      "title": "RF Signal Detection & Exploitation",
+      "url": "https://www.pnnl.gov/rf-signal-detection-exploitation"
+    },
+    {
+      "title": "Border Security",
+      "url": "https://www.pnnl.gov/border-security"
+    },
+    {
+      "title": "Internet of Things",
+      "url": "https://www.pnnl.gov/internet-things"
+    },
+    {
+      "title": "Maritime Security",
+      "url": "https://www.pnnl.gov/maritime-security"
+    },
+    {
+      "title": "Millimeter Wave",
+      "url": "https://www.pnnl.gov/millimeter-wave"
+    },
+    {
+      "title": "Mission Risk and Resilience",
+      "url": "https://www.pnnl.gov/mission-risk-and-resilience"
+    },
+    {
+      "title": "Data Science & Computing",
+      "url": "https://www.pnnl.gov/data-science-computing"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.pnnl.gov/artificial-intelligence"
+    },
+    {
+      "title": "Graph and Data Analytics",
+      "url": "https://www.pnnl.gov/graph-and-data-analytics"
+    },
+    {
+      "title": "Computational Mathematics & Statistics",
+      "url": "https://www.pnnl.gov/computational-mathematics-statistics"
+    },
+    {
+      "title": "Future Computing Technologies",
+      "url": "https://www.pnnl.gov/future-computing-technologies"
+    },
+    {
+      "title": "Adaptive Autonomous Systems",
+      "url": "https://www.pnnl.gov/adaptive-autonomous-systems"
+    },
+    {
+      "title": "Science & Technology Strategy",
+      "url": "https://www.pnnl.gov/science-and-technology-strategy"
+    },
+    {
+      "title": "Publications & Reports",
+      "url": "https://www.pnnl.gov/publications-reports"
+    },
+    {
+      "title": "Featured Research",
+      "url": "https://www.pnnl.gov/featured-research"
+    },
+    {
+      "title": "Inventors",
+      "url": "https://www.pnnl.gov/inventors"
+    },
+    {
+      "title": "Lab Leadership",
+      "url": "https://www.pnnl.gov/lab-leadership"
+    },
+    {
+      "title": "Lab Fellows",
+      "url": "https://www.pnnl.gov/senior-research-fellows"
+    },
+    {
+      "title": "Staff Accomplishments",
+      "url": "https://www.pnnl.gov/staff-accomplishments"
+    },
+    {
+      "title": "Education",
+      "url": "https://www.pnnl.gov/education"
+    },
+    {
+      "title": "Undergraduate Students",
+      "url": "https://www.pnnl.gov/undergraduate-students"
+    },
+    {
+      "title": "Graduate Students",
+      "url": "https://www.pnnl.gov/graduate-students"
+    },
+    {
+      "title": "Post-graduate Students",
+      "url": "https://www.pnnl.gov/post-graduate-students"
+    },
+    {
+      "title": "University Faculty",
+      "url": "https://www.pnnl.gov/university-faculty"
+    },
+    {
+      "title": "University Partnerships",
+      "url": "https://www.pnnl.gov/university-partnerships"
+    },
+    {
+      "title": "K-12 Educators and Students",
+      "url": "https://www.pnnl.gov/k-12-educators-and-students"
+    },
+    {
+      "title": "STEM Education",
+      "url": "https://www.pnnl.gov/stem-education"
+    },
+    {
+      "title": "STEM Workforce Development",
+      "url": "https://www.pnnl.gov/stem-workforce-development"
+    },
+    {
+      "title": "STEM Outreach",
+      "url": "https://www.pnnl.gov/stem-outreach"
+    },
+    {
+      "title": "Internships",
+      "url": "https://www.pnnl.gov/internships"
+    },
+    {
+      "title": "Community",
+      "url": "https://www.pnnl.gov/community"
+    },
+    {
+      "title": "Philanthropy",
+      "url": "https://www.pnnl.gov/philanthropy"
+    },
+    {
+      "title": "Volunteering",
+      "url": "https://www.pnnl.gov/volunteering"
+    },
+    {
+      "title": "Industry",
+      "url": "https://www.pnnl.gov/industry"
+    },
+    {
+      "title": "Why Partner with PNNL",
+      "url": "https://www.pnnl.gov/industry/why-partner-pnnl"
+    },
+    {
+      "title": "Explore Types of Engagement",
+      "url": "https://www.pnnl.gov/industry/explore-types-engagement"
+    },
+    {
+      "title": "How to Partner with Us",
+      "url": "https://www.pnnl.gov/industry/how-partner-us"
+    },
+    {
+      "title": "Available Technologies",
+      "url": "https://www.pnnl.gov/available-technologies"
+    },
+    {
+      "title": "Procurement",
+      "url": "https://www.pnnl.gov/procurement"
+    },
+    {
+      "title": "Technology Ombuds",
+      "url": "https://www.pnnl.gov/industry/technology-partnership-ombuds"
+    },
+    {
+      "title": "All Facilities",
+      "url": "https://www.pnnl.gov/facilities"
+    },
+    {
+      "title": "Atmospheric Radiation Measurement User Facility",
+      "url": "https://www.pnnl.gov/atmospheric-radiation-measurement-user-facility"
+    },
+    {
+      "title": "Electricity Infrastructure Operations Center",
+      "url": "https://www.pnnl.gov/electricity-infrastructure-operations-center"
+    },
+    {
+      "title": "Energy Sciences Center",
+      "url": "https://www.pnnl.gov/energy-sciences-center"
+    },
+    {
+      "title": "Environmental Molecular Sciences Laboratory",
+      "url": "https://www.pnnl.gov/environmental-molecular-sciences-laboratory"
+    },
+    {
+      "title": "Grid Storage Launchpad",
+      "url": "https://www.pnnl.gov/projects/grid-storage-launchpad"
+    },
+    {
+      "title": "Institute for Integrated Catalysis",
+      "url": "https://www.pnnl.gov/projects/institute-integrated-catalysis"
+    },
+    {
+      "title": "Interdiction Technology and Integration Laboratory",
+      "url": "https://www.pnnl.gov/interdiction-technology-and-integration-laboratory"
+    },
+    {
+      "title": "PNNL Portland Research Center",
+      "url": "https://www.pnnl.gov/portland-research-center"
+    },
+    {
+      "title": "PNNL-Seattle",
+      "url": "https://www.pnnl.gov/pnnl-seattle"
+    },
+    {
+      "title": "PNNL-Sequim (Marine and Coastal Research)",
+      "url": "https://www.pnnl.gov/pnnl-sequim"
+    },
+    {
+      "title": "Radiochemical Processing Laboratory",
+      "url": "https://www.pnnl.gov/radiochemical-processing-laboratory"
+    },
+    {
+      "title": "Shallow Underground Laboratory",
+      "url": "https://www.pnnl.gov/shallow-underground-laboratory"
+    },
+    {
+      "title": "Energy Storage Cost and Performance Database",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance"
+    },
+    {
+      "title": "Energy Storage Subsystems & Definitions",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/subsystems-definitions"
+    },
+    {
+      "title": "Cost and Performance Estimates",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/estimates"
+    },
+    {
+      "title": "Lithium-ion Battery (LFP & NMC)",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/lithium-ion-battery"
+    },
+    {
+      "title": "Lead Acid Battery",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/lead-acid-battery"
+    },
+    {
+      "title": "Vanadium Redox Flow Battery",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/vanadium-redox-flow-battery"
+    },
+    {
+      "title": "Zinc",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/zinc"
+    },
+    {
+      "title": "Pumped Storage Hydropower",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/pumped-storage-hydropower"
+    },
+    {
+      "title": "Compressed Air Energy Storage",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/compressed-air-energy-storage"
+    },
+    {
+      "title": "Hydrogen (Bi-Directional)",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/hydrogen-bi-directional"
+    },
+    {
+      "title": "Gravitational",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/gravitational"
+    },
+    {
+      "title": "Thermal",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/thermal"
+    },
+    {
+      "title": "LCOS Estimates",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/lcos-estimates"
+    },
+    {
+      "title": "Download Reports",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports"
+    },
+    {
+      "title": "Terms",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/terms"
+    },
+    {
+      "title": "Home",
+      "url": "https://www.pnnl.gov/"
+    },
+    {
+      "title": "Projects",
+      "url": "https://www.pnnl.gov/projects"
+    },
+    {
+      "title": "Energy Storage Cost and Performance Database",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance"
+    },
+    {
+      "title": "Energy Storage Cost and Performance Database v2024",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC_Cost_Performance_Database_v2024.xlsx"
+    },
+    {
+      "title": "2022 Grid Energy Storage Technology Cost and Performance Assessment",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf"
+    },
+    {
+      "title": "2020 Grid Energy Storage Technology Cost and Performance Assessment",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/Final%20-%20ESGC%20Cost%20Performance%20Report%2012-11-2020.pdf"
+    },
+    {
+      "title": "PNNL",
+      "url": "https://www.pnnl.gov/"
+    },
+    {
+      "title": "Contact",
+      "url": "https://www.pnnl.gov/contact"
+    },
+    {
+      "title": "Careers",
+      "url": "https://careers.pnnl.gov/"
+    },
+    {
+      "title": "Doing Business",
+      "url": "https://www.pnnl.gov/business/"
+    },
+    {
+      "title": "Environmental Reports",
+      "url": "https://www.pnnl.gov/pnnl-annual-site-environmental-report"
+    },
+    {
+      "title": "Security & Privacy",
+      "url": "https://www.pnnl.gov/security-privacy"
+    },
+    {
+      "title": "Vulnerability Disclosure Policy",
+      "url": "https://www.energy.gov/vulnerability-disclosure-policy"
+    },
+    {
+      "title": "Notice to Applicants",
+      "url": "https://www.pnnl.gov/notice-to-applicants"
+    },
+    {
+      "title": "Scientific Discovery",
+      "url": "https://www.pnnl.gov/scientific-discovery"
+    },
+    {
+      "title": "Energy Resiliency",
+      "url": "https://www.pnnl.gov/energy-resiliency"
+    },
+    {
+      "title": "National Security",
+      "url": "https://www.pnnl.gov/national-security"
+    },
+    {
+      "title": "Subscribe to PNNL News",
+      "url": "https://www.pnnl.gov/subscribe-pnnl-news"
+    },
+    {
+      "title": "Department of Energy Logo",
+      "url": "https://www.energy.gov/"
+    },
+    {
+      "title": "Battelle Logo",
+      "url": "https://www.battelle.org/"
+    },
+    {
+      "title": "YouTube",
+      "url": "http://www.youtube.com/user/PNNLgov"
+    },
+    {
+      "title": "Facebook",
+      "url": "http://www.facebook.com/PNNLgov"
+    },
+    {
+      "title": "X (formerly Twitter)",
+      "url": "http://twitter.com/PNNLab"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/pnnlab"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/company/pacific-northwest-national-laboratory"
+    }
+  ],
+  "read_depth": "rendered HTML body; linked PDFs not retrieved",
+  "accessed_at": "2026-11-03T16:21:20.080Z"
+}

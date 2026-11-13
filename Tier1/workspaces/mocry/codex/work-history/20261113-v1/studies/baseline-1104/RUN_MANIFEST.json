@@ -1,0 +1,30 @@
+{
+  "version": "Baseline 1104",
+  "date": "2026-11-04",
+  "source_release_commit": "0a821eaf61a2b552682e185c137d98c5a9bffc93",
+  "design_year": 2023,
+  "validation_year": 2024,
+  "test_year": 2025,
+  "perfect_information": true,
+  "portfolio_fixed_out_of_design": true,
+  "unseen_blind_test_claim": false,
+  "hydrogen_value_status": "policy-supported value scenario treated as a site netback assumption, not a secured subsidy or contract",
+  "primary_time_model": "annual pooled-energy relaxation; chronological feasibility checked separately",
+  "self_discharge_primary": 0.0,
+  "source_files": {
+    "group-collaboration\\Tier1\\public\\research_1103\\controller\\mocry-codex\\20261103-v1.1\\BASELINE_CANDIDATE.json": "e6a8086937eeca1fcc9892e077a376f7afe7a5ba9aaf190b00d1c765c2c96c80",
+    "research-1103-controlled\\control\\browser_captures\\R4\\ONS-CPI-CSV.csv": "05bf2ec5459e46961aa994c2cbfdd2abcef5c1591b99659358a414652966bee6",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\cell_audit.csv": "ae714976f41795772628e7871d2b3af38e1ec9d2e47a749f3eb83a4e0de2cbc6",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\daily_demand.csv": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\daily_generation_by_fuel.csv": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\daily_generation_total.csv": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\daily_market_index_price.csv": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\date_quality.csv": "21bff007e2f69e10f44ac86e427c70886b0ad3744cdcd8ea8ecbea8479c9c85a",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\quality.csv": "4c767cb90dedeaafb9e67098dda483554879d79987232ed86831e90029ca3145",
+    "group-collaboration\\Tier1\\public\\data_quality\\full_data_repair\\20261104-v2\\data\\wind_farm_generation.csv": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a"
+  },
+  "cases": 82,
+  "publication": "local proposal for review",
+  "solver_core": "Xpress9.9",
+  "full_sample_reference": "SciPy/HiGHS"
+}

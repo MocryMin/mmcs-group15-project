@@ -1,0 +1,74 @@
+PAGE 1
+ST5015kWh-2500kW-2h
+ST5015kWh-1250kW-4h
+PowerTitan 2.0 Liquid Cooled Energy Storage System                 NEW
+
+
+
+
+
+ OPTIMAL COST                        SAFETY AND RELIABLE
+
+   Intelligent liquid-cooled temperature control system         Electrical safety management, overcurrent fast breaking and
+   to optimize the auxiliary power consumption                arc extinguishing protection
+  Pre-assembled, no battery module handling on site,       The electrical cabinet and battery cabinet are separated to
+  transportation of complete system                       prevent thermal runaway
+
+
+ EFFICIENT AND FLEXIBLE              CONVENIENT O&M
+
+   High-efficiency heat dissipation, increase battery life       One-click system upgrade
+  and system discharge capacity                          Automatic coolant refilling design
+   Front single-door-open design, supporting back to         Online intelligent monitoring
+  back layout drawing
+  Function test in factory, limited on-site work,
+   accelerate commissioning process
+
+
+
+
+
+ © 2023 Sungrow Power Supply Co., Ltd. All rights reserved. Subject to change without notice. Version 3
+
+PAGE 2
+Technical Data                           ST5015kWh-2500kW-2h                 ST5015kWh-1250kW-4h
+
+DC side
+                                                                      LFP
+Cell type
+                                                                                               3.2 V / 314 Ah
+Battery configuration                                                            416S12P
+Nominal capacity                                                                 5015 kWh
+Nominal voltage range                                                                    1123.2 V - 1497.6 V
+AC side
+Nominal AC power                                    210 kVA * 12                                            210 kVA * 6
+AC current distortion rate                                                 < 3 % ( Nominal Power )
+DC component                                                                  < 0.5 %
+Nominal AC voltage                                                        690 V
+AC voltage range                                                                   621 V - 759 V
+Termination (LV)                                  352 A * 3 Phase * 6                                     352 A * 3 Phase * 3
+Power factor                                                            > 0.99 ( Nominal Power )
+Adjustable range of reactive power                                                                   ﹣ 100 % - 100 %
+Nominal frequency                                                          50 Hz
+Isolation method                                                               Transformerless
+System parameter
+Dimension（W * H * D）                                          6058 mm * 2896 mm * 2438 mm
+Weight                                         42500 kg                                      42000 kg
+Degree of protection                                                                 IP55
+Anti-corrosion Degree                                                      C3
+Operation Ambient Temperature Range                        ﹣30 ℃ - 50 ℃  ( > 45 ℃ Derating )
+Operation humidity range                                       0 % - 100 % ( Non-condensing )
+Maximum Operation Altitude                                             4000 m
+Temperature Control Method                                                     Intelligent Liquid Cooling
+                                        FACP, FK5112, Flammable gas detector, Smoke detector, Heat detector, Sounder beacon,
+Fire suppression system                   Alarm bell, War ning sign, Extinguishant abort button, Ventilation system, Pressure relief
+                                                         port, Manual automatic switching and emergency starting device(Default)
+                                                                           Sprinkler, Vent panel, Aerosol ( Optional )
+Communication                                                                Ethernet
+Standard                                         IEC61000, IEC62619, IEC62933,AS3000,UKCA,G99,UN38.3/UN3536,CE,IEC62477
+
+
+
+
+
+                            © 2023 Sungrow Power Supply Co., Ltd. All rights reserved. Subject to change without notice. Version 3

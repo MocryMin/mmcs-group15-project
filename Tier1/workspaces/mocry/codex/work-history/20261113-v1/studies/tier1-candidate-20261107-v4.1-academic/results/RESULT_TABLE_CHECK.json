@@ -1,0 +1,14 @@
+{
+  "checked": true,
+  "production_values_recomputed_from_daily_schedules": 12,
+  "maximum_tonnes_error": 9.094947017729282e-13,
+  "common_capture_column_checked": true,
+  "unchanged_pdf_pages_text_checked": [
+    1,
+    2,
+    3,
+    4,
+    9,
+    10
+  ]
+}

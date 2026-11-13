@@ -1,0 +1,84 @@
+PAGE 1
+Key features
+
+≡ Unmatched system efficiency: <52 kWh/kg           The AEM Nexus 1000 is a megawatt class
+                                                         containerized AEM Electrolyser featuring many≡  Fully automatic operation, AI optimized
+                                      AEM stacks around a common balance of plant
+≡  Modular architecture for max. redundancy
+                                                       (BoP) that includes rectifiers, control/safety
+≡  Rapid reaction times to variable renewables                                                      system, cooling/heating and electrolyte loop.
+≡ Low maintenance requirements
+
+
+
+
+
+                                                     AEM Nexus 1000
+
+                                                                                      www.enapter.com/aem-nexus
+
+
+
+
+
+AEMNexus1000-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.
+
+PAGE 2
+Specifications                                                                Enapter                                                        AEM Nexus 1000
+
+
+                                           Electrolyte Pump
+                                           Electrolyte Tank
+                                                                          AC/DC Power and
+                                             Heat Exchanger                                                                                                Control room
+                                     AEM stacks
+
+
+
+
+
+        H₂ nominal flow                    202 Nm³/h (18.2 kg/h)       Net volume flow rate
+
+        H₂ outlet pressure                Up to 31 barg
+
+        H₂ purity                           99.5% in molar fraction       Impurities: H₂O < 5000 ppm, O₂ < 5 ppm
+
+        H₂ purity with optional chiller          99.95% in molar fraction      Impurities: H₂O < 500 ppm, O₂ < 5 ppm
+
+        H₂ purity with optional dryer          99.999% in molar fraction    Impurities: H₂O < 5 ppm, O₂ < 5 ppm
+
+          Specific power consumption             4.61 kWh/Nm³ H₂            Including all utilities inside the battery limits
+           (Efficiency)                             51.3 kWh/kg H₂            @standard conditions*, 99.5% configuration.
+
+        Nominal power consumption           933.2 kW                    Including all utilities inside the battery limits
+                                                                   @standard conditions*, 99.5% configuration.
+
+                                                                   99.95% configuration + ~6 kW
+
+                                                                  99.999% configuration + ~12kW
+
+         Voltage                           400 Vac 3ph+N+PE         ± 10 %
+
+                                         230 Vac 1ph+N+PE         ± 10 %
+
+         Frequency                         50 Hz                    ± 10 %
+
+       H₂O nominal consumption            163 L/h                       Purified water
+
+       H₂O inlet purity (recommended)       Type II water               According to ASTM D1193-06
+                                                      Acidity < 0.1 meq/l          According to ASTM D1067
+
+         Operational flexibility                 8.5% – 100%
+
+        Hot startup time                    0 – 100% in 225 seconds      Electrolyte valve open, solution circulating at ≥45°C
+
+        Dimensions                           12.19 × 2.44 × 5.13 m        L x W x H (H= 8.98 m including standard vent lines)
+
+
+         *at full load, normal operation, BoL, 55°C electrolyte temperature and 15°C ambient temperature
+
+
+
+
+
+AEMNexus1000-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.

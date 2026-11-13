@@ -1,0 +1,28 @@
+﻿id,type,manufacturer,model,energy_kWh,AC_power_kW,H2_kg_day,system_kWh_kg,minimum_steady_fraction,core_reference_known,unconditional_investment_ready
+tesvolt-tallon,battery,TESVOLT,TALLON,5015,2500,,,,False,False
+tesvolt-powercore-g2,battery,TESVOLT,POWERCORE G2 IA-250kW/500kWh,509,250,,,,False,False
+sungrow-st255cs-2h,battery,Sungrow,PowerStack ST255CS-2H,257,125,,,,True,False
+sungrow-powertitan2-2h,battery,Sungrow,PowerTitan2.0 ST5015kWh-2500kW-2h,5015,2500,,,,False,False
+sungrow-powertitan2-4h,battery,Sungrow,PowerTitan2.0 ST5015kWh-1250kW-4h,5015,1250,,,,False,False
+huawei-luna215,battery,Huawei,LUNA2000-215-2S10,215,108,,,,True,False
+huawei-luna241,battery,Huawei,LUNA2000-241-2S1,241,108,,,,True,False
+huawei-luna5015,battery,Huawei,LUNA2000-5015-2S,5015,,,,,False,False
+catl-enerone-plus-285,battery,CATL,EnerOne Plus 285Ah,379.4,,,,,False,False
+catl-enerone-plus-306,battery,CATL,EnerOne Plus 306Ah,407.3,,,,,False,False
+catl-enerc-plus-280,battery,CATL,EnerC Plus 280Ah,3720,,,,,False,False
+catl-enerc-plus-306,battery,CATL,EnerC Plus 306Ah,4070,,,,,False,False
+itm-neptune-ii,electrolyser,ITM,NEPTUNE II,,,840,57,0.25,True,False
+itm-neptune-v,electrolyser,ITM,NEPTUNE V,,,2160,55.9,0.125,True,False
+itm-poseidon,electrolyser,ITM,POSEIDON,,,8640,55.9,0.2,True,False
+itm-alpha50,electrolyser,ITM,ALPHA50,,,21600,55.9,0.125,True,False
+nel-mc250,electrolyser,Nel,MC250,,,531.0,59.0,0.1,True,False
+nel-mc500,electrolyser,Nel,MC500,,,1062.0,57.3,0.1,True,False
+nel-mc1000,electrolyser,Nel,MC1000,,,2124.0,56.77,0.2,True,False
+nel-mc2000,electrolyser,Nel,MC2000,,,4248.0,56.77,0.2,True,False
+nel-mc4000,electrolyser,Nel,MC4000,,,8496.0,56.77,0.2,True,False
+nel-a485,electrolyser,Nel,A485,,,1046.0,,0.15,False,False
+enapter-flex120,electrolyser,Enapter,AEM Flex120,,,51.84,51.3,0.12,True,False
+enapter-nexus500,electrolyser,Enapter,AEM Nexus500,,,218.39999999999998,51.3,0.17,True,False
+enapter-nexus1000,electrolyser,Enapter,AEM Nexus1000,,,436.79999999999995,51.3,0.085,True,False
+enapter-nexus2500,electrolyser,Enapter,AEM Nexus2500,,,1060.8000000000002,51.3,0.1,True,False
+enapter-rheos20,electrolyser,Enapter,AEM Rheos20,,,8688.0,51.4,0.01,True,False

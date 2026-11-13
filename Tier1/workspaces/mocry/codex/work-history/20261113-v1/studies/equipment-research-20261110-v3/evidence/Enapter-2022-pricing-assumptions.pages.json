@@ -1,0 +1,10 @@
+{
+  "file": "Enapter-2022-pricing-assumptions.pdf",
+  "sha256": "a65577e74bd9749bc979cee0a3f04ca2cda3e3af484dfd4f6b7db694d8849448",
+  "pages": [
+    {
+      "page": 1,
+      "text": "List of Assumptions\n\n\nCapex Values\n\n                                            Unit Cost\nEL 2.1                                  € 9,000\nEL Model T                              € 2,500\n\n\n\nOpex Values\n                                              Cost                             Units\nElectricity Cost                           0.05 / 0.03 / 0.00               EUR/kWh\nWater Cost                                 0.0015                       EUR/L\nWater Purification System Cost                0.0183                       EUR/L\nKOH Cost                                 10                        EUR/Year\nLabour Cost                               30                        EUR/Year\n\n\n\nTechnical Values\n                                               Unit                             Units\nLifetime Op. Hours (EL2.1)                    30,000                       Hours/EL\nLifetime Op. Hours (EL Model T)               40,000                       Hours/EL\nEL Efficiency (LHV)                          68                  %\nEL Power Consumption                           2.2                   kW\nEL H2 Production                                0.5                      Nm³/hour\nEL Electricity Consumption                     4.400                   kWh/Nm³\nEL Water Consumption                        0.400                         L/hour\nH2 Density                                  0.0899                      kg/Nm³\nEnergy Density (LHV)                         33.330                     kWh/kg"
+    }
+  ]
+}

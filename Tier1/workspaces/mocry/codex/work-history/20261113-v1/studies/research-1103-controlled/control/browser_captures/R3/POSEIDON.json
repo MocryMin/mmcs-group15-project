@@ -1,0 +1,23 @@
+{
+  "owner": "R3",
+  "id": "POSEIDON",
+  "requested_url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+  "url": "https://itm-power-assets.s3.eu-west-2.amazonaws.com/POSEIDON_DATA_SHEET_2_7_2e1f89da3f.pdf",
+  "status": 200,
+  "headers": {
+    "x-amz-request-id": "F1WNMXNC3BH819G4",
+    "x-amz-id-2": "VVLirQGsGl+sKD2D1IGQo+ajvLFVcbKdiQbvZzWAF+v4eL8XmZMzETi2dguxR7R5N/i6I295j6mQXD6C9EL4kHDpcMhdLit6",
+    "content-length": "4202363",
+    "accept-ranges": "bytes",
+    "date": "Tue, 03 Nov 2026 16:20:35 GMT",
+    "server": "AmazonS3",
+    "last-modified": "Thu, 22 May 2025 12:35:13 GMT",
+    "etag": "\"76d8755cddebe29068ad10f507059f83\"",
+    "content-type": "application/pdf",
+    "x-amz-server-side-encryption": "AES256"
+  },
+  "bytes": 4202363,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:20:34.487Z",
+  "binary_base64_path": "C:/研究生/courses/MMCS/assignments/FinalProject/research-1103-controlled/control/browser_captures/R3/POSEIDON.b64"
+}

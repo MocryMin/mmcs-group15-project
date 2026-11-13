@@ -1,0 +1,13 @@
+{
+  "source_id": "USER-MMCS-BATTERY-PARAMETERS-FROM-RESEARCH-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-10",
+  "user_instruction": "除了模型协议外，其他这些量应该在电池调研时确定",
+  "evidence_status": "user_reported_instruction; subsequent manufacturer evidence read directly",
+  "research_record": "../assignments/FinalProject/battery-research-20261110-v2/PARAMETER_CONTRACT.md",
+  "parameter_record": "../assignments/FinalProject/battery-research-20261110-v2/catalogue.json",
+  "scope": "Separation of research-calibrated equipment/cost inputs from time/state/protocol conventions",
+  "numerical_change": false,
+  "remote_change": false
+}

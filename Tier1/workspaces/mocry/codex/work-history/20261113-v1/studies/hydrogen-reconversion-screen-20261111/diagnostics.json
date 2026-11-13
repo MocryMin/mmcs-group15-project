@@ -1,0 +1,40 @@
+{
+  "A": {
+    "zero_relaxation_gap_GBP_year": -0.001087188720703125,
+    "h2_cap_days": 1833,
+    "unused_days": 19,
+    "mean_annual_unused_GWh": 254.3106778606359,
+    "max_price_GBP_MWh": 645.6726004596678,
+    "above_direct_h2_equivalent": {
+      "0.5": {
+        "threshold_GBP_MWh": 467.98842215126825,
+        "days": 2,
+        "days_with_demand_headroom_in_v6": 1
+      },
+      "0.6": {
+        "threshold_GBP_MWh": 389.9903517927236,
+        "days": 7,
+        "days_with_demand_headroom_in_v6": 5
+      }
+    }
+  },
+  "B": {
+    "zero_relaxation_gap_GBP_year": -0.000270843505859375,
+    "h2_cap_days": 0,
+    "unused_days": 270,
+    "mean_annual_unused_GWh": 1208.7389135923133,
+    "max_price_GBP_MWh": 645.6726004596678,
+    "above_direct_h2_equivalent": {
+      "0.5": {
+        "threshold_GBP_MWh": 467.98842215126825,
+        "days": 2,
+        "days_with_demand_headroom_in_v6": 1
+      },
+      "0.6": {
+        "threshold_GBP_MWh": 389.9903517927236,
+        "days": 7,
+        "days_with_demand_headroom_in_v6": 5
+      }
+    }
+  }
+}

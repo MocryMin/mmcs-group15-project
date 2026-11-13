@@ -1,0 +1,73 @@
+{
+  "access_date": "2026-11-11",
+  "sources": [
+    {
+      "name": "Danish Energy Agency Technology Data for Energy Storage, chapter 151",
+      "url": "https://ens.dk/media/6588/download",
+      "local_file": "../equipment-research-20261110-v3.1/evidence/DEA-Storage-Catalogue2025.pdf",
+      "sha256": "554730f7876d2659cb47d1fab0dd7916e0a4081494123741aa4f2e452d1f5a1d",
+      "locations": ["pp20–21 currency and cost conventions", "pp97–101 stationary system and losses", "pp105–106 Table 6 capital and absolute annual O&M"],
+      "role": "Source for 500 kg/200 bar system, nominal rate reference, life and absolute O&M. Relevant cost pages rendered and visually checked."
+    },
+    {
+      "name": "Danish Energy Agency current energy storage datasheet",
+      "url": "https://ens.dk/media/6589/download",
+      "local_file": "evidence/DEA-storage-current.xlsx",
+      "sha256": "227c63de212697978815a0a6ed86d84527899d2ae309fd411a6a8490fe122405",
+      "locations": ["151a Hydrogen Storage - Tanks, D8:D19, D24:D29, B36:B47"],
+      "role": "Fetched through Playwright and byte-identical to the earlier local copy. D28's per-MW label is inconsistent with absolute annual maintenance in Table 6."
+    },
+    {
+      "name": "DESNZ Hydrogen Transport and Storage Cost Report",
+      "url": "https://www.gov.uk/government/publications/hydrogen-transport-and-storage-cost",
+      "local_file": "../equipment-research-20261110-v3.1/evidence/DESNZ-Hydrogen-Transport-Storage2023.pdf",
+      "sha256": "155f87575e2c1f4f21fd7b492afc0a39e1a339a5057b42110e8726dc154082ab",
+      "locations": ["pp20–21 and p36 Table A2 levelised costs and cycles", "pp40–42 compression energy assumptions and 5% annual compressor O&M sensitivity"],
+      "role": "Use original estimate for 30→500 bar, transfer pressure separately. 700 bar levelised totals only as comparator."
+    },
+    {
+      "name": "NIST Chemistry WebBook hydrogen fluid properties",
+      "url": "https://webbook.nist.gov/cgi/fluid.cgi?ID=C1333740&Action=Data&Type=IsoTherm&Digits=6&PLow=1.01325&PHigh=201.01325&PInc=10&T=293.15&TUnit=K&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+      "readings": [{"pressure_bara": 41.0132, "density_kg_m3": 3.31083}, {"pressure_bara": 201.013, "density_kg_m3": 14.7727}],
+      "role": "Real-gas working capacity at 293.15 K. Delivery and minimum pressures are study assumptions."
+    },
+    {
+      "name": "HSE Pressure systems",
+      "url": "https://www.hse.gov.uk/pressure-systems/about.htm",
+      "role": "Supports scope of fixed examination and maintenance, gives no annual cost quotation."
+    },
+    {
+      "name": "NPROXX Stationary Hydrogen Storage",
+      "url": "https://www.nproxx.com/transport-stationary-storage/stationary/",
+      "role": "Manufacturer stationary Type IV product family, 500 bar system over 1000 kg. No public installed price or service fee on this page."
+    },
+    {
+      "name": "Hexagon Purus 1000 bar stationary storage bundle, Rev. 01/2024",
+      "url": "https://s3.eu-central-1.amazonaws.com/hexagonpurus-website/1000-bar-Bundle-Hexagon-Purus-Datasheet.pdf",
+      "local_file": "evidence/HexagonPurus-1000bar.pdf",
+      "sha256": "18ecfccec4215bf3e1c6638b7f40735d372fe7d0e2fe99d3743f7b9a79684311",
+      "role": "Product sheet pp2–3, 15.2/47.2 kg."
+    },
+    {
+      "name": "WireTough DOE/NETL final contract report, dated 2023 and OSTI record 2024",
+      "url": "https://www.osti.gov/biblio/2478384",
+      "local_file": "evidence/DOE-WireTough-Final-2024.pdf",
+      "sha256": "4b17cf36e94a7a67288cf9ac6d75d2e0838533dc068977a5f4f803c8bd475445",
+      "role": "Prototype 350 bar and 40.7 kg. $827/kg manufacturing estimate with production volume assumptions, not system CAPEX."
+    },
+    {
+      "name": "Papadias and Ahluwalia, Bulk storage of hydrogen",
+      "url": "https://www.osti.gov/biblio/1840539",
+      "local_file": "evidence/Argonne-Bulk-Storage-Hydrogen-2021.pdf",
+      "sha256": "e77860d98f7a657bbf6be9e823dffa51bc46784f1017b08e167e64ccbdafa9b7",
+      "role": "Scale-dependent salt cavern and underground pipe benchmarks, separate location-specific designs."
+    },
+    {
+      "name": "BEIS commissioned Mott MacDonald Storage cost and technical assumptions (2018)",
+      "url": "https://www.gov.uk/government/publications/storage-cost-and-technical-assumptions-for-electricity-storage-technologies",
+      "local_file": "evidence/BEIS-MottMacDonald-Storage2018.pdf",
+      "sha256": "694a8c388d86a68535616c642cc4c4558bf0f12a4959a66ca375417d3a9b227e",
+      "role": "pp83–84 electricity-to-electricity reference includes equipment outside onsite buffer boundary, so its £/kW and variable power cost do not populate the selected profile."
+    }
+  ]
+}

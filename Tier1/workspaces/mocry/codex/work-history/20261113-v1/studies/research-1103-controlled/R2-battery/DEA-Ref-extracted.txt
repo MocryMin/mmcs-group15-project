@@ -1,0 +1,102 @@
+A1=ws | B1=description
+A2=142 Small scale hot water tank | B2=5. Metro-Therm A/S, 2019, sales department and homepage.
+A3=142 Small scale hot water tank | B3=6. PlanEnergi, 2019
+A4=142 Small scale hot water tank | B4=8. Danish standard, "Specification for indirectly heated unvented (closed) storage water heaters", DS12897:2016
+A5=160 Pumped hydro storage | B5=1. BKK, presentation on Nygard Pumpekraftverk
+A6=160 Pumped hydro storage | B6=2. Tonstad Pumpekraftverk, Sira-Kvina kraftselskap, 2002
+A7=160 Pumped hydro storage | B7=3. BKK and Sira-Kvina (1-2% of investment)
+A8=160 Pumped hydro storage | B8=4. “Energy technology perspectives 2008”, International Energy Agency, 2008.
+A9=161 CAES | B9=1. S. Karellas and N. Tzouganatos, "Comparison of the performance of compressed-air and hydrogen," vol. 29, 2014. 
+A10=161 CAES | B10=2. E. Barbour, "http://energystoragesense.com/compressed-air-energy-storage/," [Online]. 
+A11=161 CAES | B11=3. S. Zunft, S. Freund and E. M. Schlichtenmayer, "Large Scale Electricity Storage with Adiabatic CAES," Paris, November 2014. 
+A12=161 CAES | B12=4. "Geological storage in Northern Ireland," Geological Survay of Northern Ireland. [Online]. 
+A13=161 CAES | B13=5. P. Johnson, "ASSESSMENT OF COMPRESSED AIR ENERGY STORAGE SYSTEM (CAES)," Thesis Submitted to the University of Tennessee, University of Tennessee at Chattanooga, Chattanooga, Tenessee, USA, 2014.
+A14=161 CAES | B14=6. R. W. S. Succar, "Compressed Air Energy Storage: Theory, Resources, And Applications For Wind Power," Energy Systems Analysis Group, Princeton Environmental Institute, Princeton University, April 2008.
+A15=161 CAES | B15=7. J. W. X. Luo, "Overview on current development on Compressed Air Energy Storage, EERA Technical Report – CAES.," School of engineering, University of Warwick. Available on http://integratedenergystorage.org/. Accessed February 2017, December 2013.
+A16=161 CAES | B16=8. I. Gyuk and S. Eckroad, "EPRI-DOE Hanbook of Energy Storage for Transmission and Distribution Applications,1001834, Final Report," EPRI and DOE, December 2003.
+A17=161 CAES | B17=9. Nakhamkin and Brotel, "Second generation compressed air storage," in Energy Storage Forum Europe, Rome, 2012. 
+A18=161 CAES | B18=10. F. Crotogino, K.-U. Mohmeyer and R. Scharf, "Huntorf CAES/More than 20 yeasr of successful operation," Orlando, April 2001. 
+A19=161 CAES | B19=11. "https://dddusmma.wordpress.com/2014/05/30/storage-is-essential-for-wind-and-solar/," Department of Energy, USA. [Online]. [Accessed 2017].
+A20=161 CAES | B20=12. "https://dddusmma.wordpress.com/2015/03/17/the-quest-for-storing-electricity/," 17 March 2015. [Online]. [Accessed 2017].
+A21=161 CAES | B21=13. A. Wänn, P. Leahy, M. Reidy, S. Doyle, H. Dalton and P. Barr, "Environmental performance of existing energy storage installations. Deliverable D.3.1. Available on www.store-project.eu. Accessed February 2017," stoRE project, 2012.
+A22=161 CAES | B22=14. E. Bouman, M. M. Øberg and E. G. Hertwich, "LIFE CYCLE ASSESSMENT OF COMPRESSED AIR ENERGY STORAGE (CAES)," Gothenburg, 2013. 
+A23=161 CAES | B23=15. "ADELE – ADIABATIC COMPRESSED-AIR ENERGY STORAGE FOR ELECTRICITY SUPPLY. RWE Brochure.," RWE Power AG, Cologne, 2010.
+A24=161 CAES | B24=16. "Energy Storage Technology Roadmap, Technology Annex, p. 5," International Energy Agency, March 2014.
+A25=161 CAES | B25=17. Gaelectric. Accesses February 2017. [Online]. 
+A26=161 CAES | B26=18. "Gaelectric energy storage: The missing link. Brochure by Gaelectric. Availble on http://www.gaelectric.ie/energy-storage-publications/. Accessed February 2017," Gaelectric.
+A27=161 CAES | B27=19. [Online]. 
+A28=161 CAES | B28=20. D.Rastler, A. Akhil and D. Gauntlett, "Energy Storage System Costs 2011 update. Excecutive summary.," 2011.
+A29=161 CAES | B29=21. "InflationData.com," InflationData, 2017. [Online]. [Accessed March 2017].
+A30=161 CAES | B30=22. E. Drury, P. Denholm and R. Sioshansi, "The Value of Compressed Air Energy Storage in Energy and Reserve Markets," National Renewable Energy Laboratory, USA, 2009.
+A31=161 CAES | B31=23. "Handbook for Energy Storage for Transmission or Distribution Applications. Report No. 1007189. Technical Update December 2002. Document can be found at: www.epri.com," EPRI, 2002.
+A32=161 CAES | B32=24. "COST AND PERFORMANCE DATA FOR POWER GENERATION TECHNOLOGIES, Report prepared for the National Renewable Energy Laboratory, Avaliable on https://www.bv.com/docs/reports-studies/nrel-cost-report.pdf (Accessed February 2017)," Black & Veatch, 2012.
+A33=161 CAES | B33=25. B. McGrail, "Techno-economic Performance Evaluation of Compressed Air Energy Storage in the Pacific Northwest. Available on http://caes.pnnl.gov/pdf/PNNL-22235.pdf. Accessed February 2017," Pacific Northwes National Laboratory (operated by Batelle), 2013.
+A34=161 CAES | B34=26. "Materials Roadmap Enabling Low Carbon Energy Technologies, Commission Staff Working Paper," European Commission, Brussels, 2011.
+A35=161 CAES | B35=27. A. Bary, "Storing natural gas underground. Available on https://www.slb.com/~/media/Files/resources/oilfield_review/ors02/sum02/p2_17.pdf (Accessed February 2017)," Oilfield review, 2002.
+A36=161 CAES | B36=28. A. Cavallo, "Controllable and affordable utility-scale electricity from intermittent wind resources and compressed air energy storage (CAES)," vol. 32, pp. 120-127, 2007. 
+A37=161 CAES | B37=29. J. T. Dasand, "Compressed Air Energy Storage (Educational Chapter)," Iowa state University, 2012.
+A38=161 CAES | B38=30. E. M. G.Locatellia, "Assessing the economics of large Energy Storage Plants with an optimisation methodology," vol. 83, April 2015. 
+A39=161 CAES | B39=31. "Energy Storage News," Energy Storage News, 2016. [Online]. 
+A40=161 CAES | B40=32. P. Tayler, "Pathways for Energy Storage in the UK, Report 007," The Centre for Low Carbon Futures, March 2012.
+A41=161 CAES | B41=33. H. Lund and G. Salgi, "The role of compressed air energy storage (CAES) in future sustainable energy systems," vol. 50, pp. 1172-1179, 2009. 
+A42=161 CAES | B42=34. M. Nakhamkin, M. Chiruvolu and C. Daniel, "Available Compressed Air Energy Storage (CAES) Plant Concepts. Available on http://www.espcinc.com/library/PowerGen_2007_paper.pdf. Accessed February 2017," ESPC and Towngas International Company, 2007.
+A43=161 CAES | B43=35. J. Simmons, "Study of Compressed Air Energy Storage with Grid and Photovoltaic Energy Generation," The Arizona Research Institute for Solar Energy (AzRISE) - APS Final Draft Report., University of Arizona, 2010.
+A44=162 Flywheels | B44=[1]    "http://www.elp.com/articles/2016/01/amber-kinetics-signs-flywheel-energy-storage-contract-with-pg-e.html," 2016. [Online]. [Accessed March 2017].
+A45=162 Flywheels | B45=[2]    e. a. I. Gyuk, "Grid Energy Storage," US Department of Energy, 2013.
+A46=162 Flywheels | B46=[3]    S.-i. Inage, "Prospects of Electricity Storage in Decarbonised Power Grids, IEA Working Paper Series," OECD/IEA, 2009.
+A47=162 Flywheels | B47=[4]    "Toshiba Leading Innovation," Toshiba. [Online]. [Accessed March 2017].
+A48=162 Flywheels | B48=[5]    "Fact sheet. Frequency Regulation and Flywheels," Beacon Power, 2010. Archived March 2017. Available on https://web.archive.org/web/20100331042630/http://www.beaconpower.com/files/Flywheel_FR-Fact-Sheet.pdf.
+A49=162 Flywheels | B49=[6]    "http://beaconpower.com," Beacon Power. [Online]. [Accessed March 2017].
+A50=162 Flywheels | B50=[7]    B. Z. a. S. Syri, "Electrical Energy Storage Systems: A comparative life cycle cost analysis," Renewable and Sustainable Energy Reviews, vol. 42, pp. 569-596, 2015. 
+A51=162 Flywheels | B51=[8]    I. P. ,. E. S. Gyuk, "EPRI-DOE Handbook of Energy Storage for Transmission & Distribution Applications 1001834," US Department of Energy, Washington, 2003.
+A52=162 Flywheels | B52=[9]    "timesunion," Times Union, 2011. [Online]. [Accessed March 2017].
+A53=162 Flywheels | B53=[10] "Joint EASE/EERA recommendations for a European Energy Storage Technology Development Roadmap towards 2030," EASE and EERA, Brussels, 2013.
+A54=162 Flywheels | B54=[11] "Technology Roadmap, Energy Storage," International Energy Agency, Paris, 2013.
+A55=162 Flywheels | B55=[12] N. K. Kohli, "Short-Term backup power through flywheel energy storage system. Available on https://www.slideshare.net/Drnavinkumarkohli/ppt-fly-wheel-navin-kohli (Accessed March 2017)," 2012.
+A56=162 Flywheels | B56=[13] S. o. A. E. I. SAE, "https://global.ihs.com/doc_detail.cfm?rid=GS&&item_s_key=00138611," IHS Markit, 2013. [Online]. [Accessed March 2017].
+A57=162 Flywheels | B57=[14] "Electrical Energy Storage," International Electrotechnical Commission, Geneva, Switzerland, 2011.
+A58=162 Flywheels | B58=[15] 2. Private communication with WattsUp Power. 
+A59=162 Flywheels | B59=[16] W. Torell, "Lifecycle C arbon Footprint Analysis of Batteries vs. Flywheels, White Paper 209," Schneider Electric, 2015.
+A60=162 Flywheels | B60=[17] W. V. H. Susan M. Schoenung, "Long- vs. Short-Term Energy Storage Technologies Analysis. A Life-Cycle Cost Study," Sandia National Laboratories, Albuquerque, New Mexico 87185 and Livermore, California 94550, 2003.
+A61=162 Flywheels | B61=[18] "Lazard´s levelized cost of storage - Version 2.0," Lazard, 2016.
+A62=162 Flywheels | B62=[19] e. a. P. Tayler, "Pathways for Energy Storage in the UK, Report 007," The Centre for Low Carbon Futures, March 2012.
+A63=162 Flywheels | B63=[20] "https://www.calnetix.com/resource/flywheels/advantages-flywheels," Calnetix. [Online]. [Accessed March 2017].
+A64=162 Flywheels | B64=[21] "http://www.climatetechwiki.org/technology/jiqweb-es-fw," [Online]. 
+A65=162 Flywheels | B65=[22] P. N. N. L. Daryl Brown, "Federal Technology Alert. DOE/EE-0286," Federal Energy Management Program, 2003.
+A66=162 Flywheels | B66=[23] "InflationData.com," InflationData, 2017. [Online]. [Accessed 2017].
+A67=162 Flywheels | B67=[24] "Materials Roadmap Enabling Low Carbon Energy Technologies, Commission Staff Working Paper," European Commission, Brussels, 2011.
+A68=162 Flywheels | B68=[25] "energy.gov," 2010. [Online]. [Accessed March 2017].
+A69=162 Flywheels | B69=[26] "Scientific American," Scientific American, 2011. [Online]. [Accessed March 2017].
+A70=162 Flywheels | B70=[27] e. a. M. Hedlund, "Flywheel Energy Storage for Automotive Applications," Energies, vol. 8, pp. 10636-10663, 2015. 
+A71=162 Flywheels | B71=[28] 2009. [Online]. [Accessed March 2017].
+A72=162 Flywheels | B72=[29] Memoori, Smart Building Resesearch, 2017. [Online]. [Accessed MArch 2017].
+A73=182 Na-S Battery | B73=[1] NGK Insulators LTD, “Case Studies.” pp. 1–13, 2016.
+A74=182 Na-S Battery | B74=[2] “DOE Global Energy Storage Database.” [Online]. Available: https://www.energystorageexchange.org/. [Accessed: 29-Mar-2017].
+A75=182 Na-S Battery | B75=[3] IEC, “Electrical Energy Storage,” 2011.
+A76=182 Na-S Battery | B76=[4] C.-H. Dustmann and A. Bito, “SECONDARY BATTERIES – HIGH TEMPERATURE SYSTEMS | Safety,” in Encyclopedia of Electrochemical Power Sources, 2009, pp. 324–333.
+A77=182 Na-S Battery | B77=[5] B. Dunn, H. Kamath, and J.-M. Tarascon, “Electrical Energy Storage for the Grid: A Battery of Choices,” Science (80-. )., vol. 334, no. 6058, pp. 928–935, 2011.
+A78=182 Na-S Battery | B78=[6] J. Cho, S. Jeong, and Y. Kim, “Commercial and research battery technologies for electrical energy storage applications,” Prog. Energy Combust. Sci., vol. 48, pp. 84–101, Jun. 2015.
+A79=182 Na-S Battery | B79=[7] J. Garche and C. K. Dyer, Encyclopedia of electrochemical power sources. Academic Press, 2009.
+A80=182 Na-S Battery | B80=[8] R. Holze, “SECONDARY BATTERIES – HIGH TEMPERATURE SYSTEMS: Sodium-Sulfur,” in Encyclopedia of Electrochemical Power Systems, vol. 200, 2009, pp. 302–311.
+A81=182 Na-S Battery | B81=[9] M. Andriollo et al., “Energy intensive electrochemical storage in Italy: 34.8 MW sodium-sulphur secondary cells,” J. Energy Storage, vol. 5, pp. 146–155, Feb. 2016.
+A82=182 Na-S Battery | B82=[10] NGK Insulators LTD, “Structure of NAS Energy Storage System,” 2016. [Online]. Available: https://www.ngk.co.jp/nas/specs/.
+A83=182 Na-S Battery | B83=[11] H. Chen, T. N. Cong, W. Yang, C. Tan, Y. Li, and Y. Ding, “Progress in electrical energy storage system: A critical review,” Prog. Nat. Sci., vol. 19, no. 3, pp. 291–312, 2009.
+A84=182 Na-S Battery | B84=[12] NGK Insulators LTD, “The World’s Largest NAS Battery Installation Commences Operation Short Installation Period Achieved through Containerized, Compact Format,” 2016. [Online]. Available: http://www.ngk.co.jp/english/news/2016/0303.html.
+A85=182 Na-S Battery | B85=[13] G. Huff et al., “DOE/EPRI 2013 electricity storage handbook in collaboration with NRECA,” Rep. SAND2013- …, no. July, p. 340, 2013.
+A86=182 Na-S Battery | B86=[14] NGK Insulators LTD, “Comparison of Battery Technologies | Why NAS? | NAS.” [Online]. Available: https://www.ngk.co.jp/nas/why/comparison.html. [Accessed: 13-Sep-2017].
+A87=182 Na-S Battery | B87=[15] O. Teller et al., “Joint EASE/EERA Recommendations for a European Energy Storage Technology Development Roadmap Towards 2030,” 2013.
+A88=182 Na-S Battery | B88=[16] Z. Wen, Y. Hu, X. Wu, J. Han, and Z. Gu, “Main Challenges for High Performance NAS Battery: Materials and Interfaces,” Adv. Funct. Mater., vol. 23, no. 8, pp. 1005–1018, Feb. 2013.
+A89=182 Na-S Battery | B89=[17] G. Kim, Y.-C. Park, Y. Lee, N. Cho, C.-S. Kim, and K. Jung, “The effect of cathode felt geometries on electrochemical characteristics of sodium sulfur (NaS) cells: Planar vs. tubular,” J. Power Sources, vol. 325, pp. 238–245, Sep. 2016.
+A90=182 Na-S Battery | B90=[18] S. I. Kim, W. Il Park, K. Jung, and C.-S. Kim, “An innovative electronically-conducting matrix of the cathode for sodium sulfur battery,” J. Power Sources, vol. 320, pp. 37–42, Jul. 2016.
+A91=182 Na-S Battery | B91=[19] K. . Ahlbrecht, C. Bucharsky, M. Holzapfel, J. Tübke, and M. J. Hoffmann, “Investigation of the wetting behavior of Na and Na alloys on uncoated and coated Na-β”-alumina at temperatures below 150 °C,” Ionics (Kiel)., pp. 1–9, Mar. 2017.
+A92=182 Na-S Battery | B92=[20] X. Yu and A. Manthiram, “Ambient-Temperature Sodium-Sulfur Batteries with a Sodiated Nafion Membrane and a Carbon Nanofiber-Activated Carbon Composite Electrode,” Adv. Energy Mater., vol. 5, no. 12, pp. 1–6, 2015.
+A93=182 Na-S Battery | B93=[21] X. Yu and A. Manthiram, “Performance Enhancement and Mechanistic Studies of Room-Temperature Sodium–Sulfur Batteries with a Carbon-Coated Functional Nafion Separator and a Na 2 S/Activated Carbon Nanofiber Cathode,” Chem. Mater., vol. 28, no. 3, pp. 896–905, Feb. 2016.
+A94=182 Na-S Battery | B94=[22] R. Benato, G. Bruno, F. Palone, R. Polito, and M. Rebolini, “Large-Scale Electrochemical Energy Storage in High Voltage Grids: Overview of the Italian Experience,” Energies, vol. 10, no. 1, p. 108, Jan. 2017.
+A95=182 Na-S Battery | B95=[23] J. E. Al Carlsson, “ETRI 2014 - Energy Technology Reference Indicator projections for 2010-2050,” 2014.
+A96=182 Na-S Battery | B96=[24] B. Zakeri and S. Syri, “Electrical energy storage systems: A comparative life cycle cost analysis,” Renew. Sustain. Energy Rev., vol. 42, pp. 569–596, 2015.
+A97=182 Na-S Battery | B97=[25] K.-P. Kairies, “Battery storage technology improvements and cost reductions to 2030: A Deep Dive,” Int. Renew. Energy Agency Work., 2017.
+A98=182 Na-S Battery | B98=[26] IRENA, “Electricity storage and renewables: Costs and markets to 2030 - Cost-of-service tool. Version 1.0,” 2017.
+A99=182 Na-S Battery | B99=[27] P. Ralon, M. Taylor, and A. Ilas, Electricity storage and renewables: costs and market to 2030, no. October. 2017.
+A100=182 Na-S Battery | B100=[28] L. Sigrist and E. Peirano, “E-Highway2050: Battery Storage Technology Assessment,” in WP3 workshop April 15th, 2014.
+A101=182 Na-S Battery | B101=[29] R. Benato et al., “Sodium nickel chloride battery technology for large-scale stationary storage in the high voltage network,” J. Power Sources, vol. 293, pp. 127–136, 2015.
+A102=182 Na-S Battery | B102=[30] G. L. Soloveichik, “Battery Technologies for Large-Scale Stationary Energy Storage,” Annu. Rev. Chem. Biomol. Eng, vol. 2, pp. 503–27, 2011.

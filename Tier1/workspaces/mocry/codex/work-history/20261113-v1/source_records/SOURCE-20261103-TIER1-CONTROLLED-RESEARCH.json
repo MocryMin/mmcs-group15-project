@@ -1,0 +1,24 @@
+{
+  "id": "LOCAL-MMCS-TIER1-CONTROLLED-RESEARCH-20261103",
+  "course_id": "MMCS",
+  "collected_at": "2026-11-03T16:49:49+00:00",
+  "academic_year": "2026/27",
+  "evidence_status": "mixed_primary_sources_local_calculations_and_explicit_modelling_assumptions",
+  "user_authorisation": "现在由你主控，派遣若干个worker进行主题research，由你审核结果并控制调研的结束或者继续发起",
+  "run_id": "MMCS-TIER1-CONTROLLED-RESEARCH-20261103",
+  "entry": "RESEARCH_SYNTHESIS.md",
+  "run_directory": "assignments/FinalProject/research-1103-controlled",
+  "source_catalogues": [
+    "R1-market/sources.json",
+    "R2-battery/sources.json",
+    "R3-hydrogen/sources.json",
+    "R4-finance-data/sources.json"
+  ],
+  "scope": "Publicresearch throughanonymousPlaywright only plusunchangedlocalcoursefiles; actualsuppliedPDF/CSV/originalXLSX/PDF relevantcontentread. Threeindependenttopicfirstpasses withneutralbrowsertransport andsubsequentcrossreview; rootdata/finance plusboundedIEAfollowup.",
+  "closed": true,
+  "school_platform_last_success_advanced": false,
+  "repo_modified": false,
+  "new_solver_result": false,
+  "course_deadlines_or_grades_changed": false,
+  "remaining": "Scenario variables arenot contracts/quotes/eligibility; originaldailymeanMWfielddefinition not independentlyrecovered; no claim research freezes groupbaseline."
+}

@@ -1,0 +1,138 @@
+{
+  "worker": "R2",
+  "first_pass_independent": true,
+  "access_date": "2026-11-03",
+  "broker_reason": "Public Playwright profile already owned by R1 process; root appointed R1 solely to capture independently selected actual sources. No peer conclusions inspected.",
+  "sources": [
+    {
+      "id": "R2-BRIEF",
+      "title": "MMCS Project brief 2026/27",
+      "url": null,
+      "local_path": "C:/研究生/courses/MMCS/materials/sync-20261023/Project-brief-extracted.txt",
+      "access_date": "2026-11-03",
+      "retrieved_type": "local supplied text",
+      "read_depth": "all six pages",
+      "locator": "pp3,6",
+      "supports": "2h nameplate; RTE90%; SOC20–80%; EUR288000/MWh reference",
+      "limitations": "Brief modelling defaults, not a commercial quotation."
+    },
+    {
+      "id": "R2-DEA-XLSX",
+      "title": "Danish Energy Agency: Datasheet for energy storage, technology_datasheet_for_energy_storage - 0011.xlsx",
+      "url": "https://ens.dk/media/6589/download",
+      "landing_url": "https://ens.dk/en/analyses-and-statistics/technology-data-energy-storage",
+      "access_date": "2026-11-03",
+      "retrieved_type": "actual XLSX binary through fresh-anonymous Playwright broker",
+      "read_depth": "entire 180 Lithium Ion Battery worksheet values and all notes/references read independently with cell coordinates; Index not used as numerical evidence",
+      "local_path": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\research-1103-controlled\\R2-battery\\DEA-datasheet.xlsx",
+      "locator": "180 Lithium Ion Battery, D8:D34, B41:B61",
+      "supports": "2025 technical case 3MWh/1.5MW; total installed cost .288 MEUR2020/MWh; component costs, losses, lifetime, cycles, O&M",
+      "limitations": "2020 price basis, 2025 technology, generic Denmark/Europe benchmark rather than UK site quote; source FOM units internally conflicted; 2030 uncertainty mixes duration/C-rate; manufacturer references have not thereby been read."
+    },
+    {
+      "id": "R2-DEA-LANDING",
+      "title": "Danish Energy Agency: Technology Data for Energy Storage",
+      "url": "https://ens.dk/en/analyses-and-statistics/technology-data-energy-storage",
+      "access_date": "2026-11-03",
+      "retrieved_type": "rendered HTML via broker",
+      "read_depth": "complete relevant body and download links",
+      "locator": "Technology data / Datasheet links",
+      "supports": "official provenance and catalogue download links",
+      "limitations": "Landing page alone contains no battery numerical parameters."
+    },
+    {
+      "id": "R2-PNNL-DEF",
+      "title": "PNNL Energy Storage Subsystems and Definitions",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/subsystems-definitions",
+      "access_date": "2026-11-03",
+      "retrieved_type": "rendered HTML via broker",
+      "read_depth": "all component definition rows",
+      "locator": "Calendar Life; Cycle Life; EPC; Grid Integration; RTE; Storage Block; Warranty; Recycle/Disposal",
+      "supports": "lifetime versus warranty, equipment/installed distinction, RTE auxiliary boundary and end-of-life costs",
+      "limitations": "Definitions do not certify the inclusion boundary of DEA or a manufacturer offer."
+    },
+    {
+      "id": "R2-PNNL-DB",
+      "title": "PNNL Energy Storage Cost and Performance Database",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance",
+      "access_date": "2026-11-03",
+      "retrieved_type": "rendered HTML via broker",
+      "read_depth": "relevant complete body and actual links",
+      "locator": "intro; installed ESS cost explanation",
+      "supports": "cost assessment distinguishes procurement/install/connect, O&M and end-of-life",
+      "limitations": "Interactive numerical charts were not read; no chart value is quoted."
+    },
+    {
+      "id": "R2-PNNL-LI",
+      "title": "PNNL Lithium-ion Battery (LFP and NMC)",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/lithium-ion-battery",
+      "access_date": "2026-11-03",
+      "retrieved_type": "rendered HTML via broker",
+      "read_depth": "all relevant body",
+      "locator": "technology introductory paragraphs",
+      "supports": "two lithium-ion chemistries LFP and NMC covered",
+      "limitations": "No actual numerical table in rendered body; no cost number taken."
+    },
+    {
+      "id": "R2-PNNL-REPORTS",
+      "title": "PNNL Download Reports",
+      "url": "https://www.pnnl.gov/projects/esgc-cost-performance/download-reports",
+      "access_date": "2026-11-03",
+      "retrieved_type": "rendered HTML via broker",
+      "read_depth": "complete relevant body/download links",
+      "locator": "2024 database and report availability",
+      "supports": "2024 database has no associated report; 2022/2020 reports are previous iterations",
+      "limitations": "Linked files are not read evidence unless separately recorded."
+    },
+    {
+      "id": "R2-TESVOLT",
+      "title": "TESVOLT TPS-E Technical Data Sheet RD.TI.094.E.en-US_v.B.02",
+      "url": "https://www.tesvolt.com/_media/05%20SERVICE/03%20Downloads/E-Serie/TPS-E/Datenblatt/RD.TI.094.E.en-US_v.B.02.pdf",
+      "access_date": "2026-11-03",
+      "retrieved_type": "actual official PDF via fresh anonymous Playwright broker",
+      "read_depth": "entire single page extracted and rendered visually verified",
+      "local_path": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\research-1103-controlled\\control\\browser_captures\\R2\\TESVOLT.pdf",
+      "locator": "p1 TS HV90 technical data; Container system; disclaimer",
+      "supports": "20/40/45ft maximum1.9/4.2/4.6MWh; NMC;1C;6000cycles1C and8000cycles0.5C at100%DoD/70%EOL/23±5°C;10yperformance and5ysystem guarantee",
+      "limitations": "No price/named external PCS/AC complete-system power; maximum energy basis not labelled total DC vs usable; battery98% not installed AC RTE; guarantee contract not read; German take-back not UK disposal."
+    },
+    {
+      "id": "R2-PNNL-XLSX",
+      "title": "PNNL ESGC Energy Storage Cost and Performance Database v2024",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC_Cost_Performance_Database_v2024.xlsx",
+      "access_date": "2026-11-03",
+      "retrieved_type": "actual XLSX via fresh anonymous Playwright broker",
+      "read_depth": "Introduction drawing textbox extracted;2023 LFP2h10/100MW capital/operation/performance rows independently read",
+      "local_path": "C:\\研究生\\courses\\MMCS\\assignments\\FinalProject\\research-1103-controlled\\control\\browser_captures\\R2\\PNNL2024.xlsx",
+      "locator": "Database rows6686–6755 and7190–7259;Introduction drawing1 textbox",
+      "supports": "2023 estimate point452.22$/kWh10MW2h;423$/kWh100MW2h; total installed components;16ycalendar;83%RTE;60/80%DoD cycles;60%EOL",
+      "limitations": "USD convention inferred from U.S.DOE source. Separate constant-dollar price base not explicitly confirmed; preserve raw values pending R4 harmonisation.2024 version not automatically2024 money."
+    }
+  ],
+  "failed_or_not_read": [
+    {
+      "url": "https://www.tesla.com/megapack",
+      "outcome": "403 Access Denied"
+    },
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "outcome": "DNS failure"
+    },
+    {
+      "url": "https://energylibrary.tesla.com/docs/Public/EnergyStorage/Megapack/2XL/Datasheet/en-us/index.html",
+      "outcome": "error redirect and empty body"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/energy-storage/quantum3",
+      "outcome": "404"
+    },
+    {
+      "url": "https://docs.nlr.gov/docs/fy23osti/85332.pdf",
+      "outcome": "200 text/html, not a PDF; report not read"
+    },
+    {
+      "url": "https://ens.dk/media/6588/download",
+      "outcome": "actual PDF response 16.6MB not transferred to worker; not read"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "errors_GWh": {
+    "generation_balance": 0.0,
+    "h2_sources": 0.0,
+    "daily_stock_balance": 0.0,
+    "minimum_stock": 0.0,
+    "maximum_stock": 0.0,
+    "final_stock": 0.0,
+    "sales_ceiling": 0.0,
+    "hydrogen_acceptance": 0.0,
+    "electrolyser_capacity": 0.0,
+    "no_same_day_opposite_flows": 0.0,
+    "nonnegative_flows": 0.0,
+    "online_minimum": 0.0,
+    "online_capacity": 0.0,
+    "installed_modules": 0.0,
+    "current_generation_priority": 0.0
+  },
+  "profit_error_mGBP": 0.0
+}

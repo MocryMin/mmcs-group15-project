@@ -1,0 +1,24 @@
+{
+  "gap": 8.0,
+  "price": 80.0,
+  "source_price": 80.0,
+  "annual_profit_GBP": 61340911465.392075,
+  "status": "HighsModelStatus.kOptimal",
+  "counts": {
+    "sungrow-st255cs-2h": 0,
+    "huawei-luna215": 0,
+    "huawei-luna241": 103914,
+    "tesla-megapack2xl-2h": 0
+  },
+  "battery_MW": 11222.712,
+  "battery_MWh": 25043.273999999998,
+  "battery_annual_cost_GBP": 791898547.0050077,
+  "electrolyser_counts": {
+    "itm-neptune-ii": 2,
+    "itm-neptune-v": 720,
+    "nel-mc250": 0,
+    "nel-mc500": 0,
+    "nel-mc1000": 1
+  },
+  "electrolyser_MW": 3631.334145
+}

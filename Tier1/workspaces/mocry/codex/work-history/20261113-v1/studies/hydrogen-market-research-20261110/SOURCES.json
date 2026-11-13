@@ -1,0 +1,118 @@
+{
+  "source_id": "LOCAL-MMCS-HYDROGEN-MARKET-RESEARCH-20261110",
+  "retrieved_on": "2026-11-10",
+  "timezone": "Europe/London",
+  "scope": "UK withlocalproject/Scotland relevance;no specific site or buyer specified",
+  "target_data_requirement": "At least2022-01-01to2026-09-17 daily actual market saleprice, consistentproduct/grade/delivery and dates, plus attainablevolume",
+  "access": "Anonymous Playwright MCP only;original PDFs downloaded through Playwright;no subscriptions,signups,outreach,or loggedinaccounts",
+  "sources": [
+    {
+      "id": "H2-S01",
+      "title": "EEX Hydrogen Market",
+      "url": "https://www.eex.com/en/markets/hydrogen",
+      "classification": "weekly market-indication index;Germany delivered-green-hydrogen;not UK spot"
+    },
+    {
+      "id": "H2-S02",
+      "title": "EEX HYDRIX FAQ",
+      "url": "https://www.eex.com/en/faq#%7B%22faqcategory%22%3A%22592%22%7D",
+      "classification": "May2023launch;weekly;Germany;deliveredcost;no volume collection",
+      "answers": [
+        {
+          "question": "Does the price refer to a specific delivery region?",
+          "answer": "HYDRIX reflects an average price for green hydrogen for consumers in Germany. Participant price assessments include delivery costs, but HYDRIX is not a specific delivery price but a reference value."
+        },
+        {
+          "question": "Are transport costs included in the price?",
+          "answer": "Yes. HYDRIX represents the price a consumer pays for one MWh of hydrogen, including transport costs."
+        },
+        {
+          "question": "What volume does HYDRIX reflect?",
+          "answer": "HYDRIX does not collect volume data. This accounts for the heterogeneity of the market, and the increasing role young and small enterprises will play. However, participants must base their assessments on all received and submitted offers and completed transactions, taking volumes into account."
+        },
+        {
+          "question": "How does HYDRIX currently work and what results are available?",
+          "answer": "HYDRIX was launched in May 2023 and has been calculated weekly since then. It is published every Wednesday at 16:00 CEST on the EEX Website."
+        },
+        {
+          "question": "Are prices from future projects considered?",
+          "answer": "No. HYDRIX only includes prices for the current delivery week. Once new projects begin producing or consuming hydrogen, their prices will be included."
+        }
+      ]
+    },
+    {
+      "id": "H2-S03",
+      "title": "Argus Hydrogen and Future Fuels",
+      "url": "https://www.argusmedia.com/en/solutions/products/argus-hydrogen-and-future-fuels",
+      "classification": "modelled production costs;weekly;full historical subscription dataset not obtained"
+    },
+    {
+      "id": "H2-S04",
+      "title": "Argus methodology October2026",
+      "url": "https://www.argusmedia.com/-/media/project/argusmedia/mainsite/english/documents-and-files/methodology/argus-hydrogen-and-future-fuels.pdf?rev=d171e9e81cbd498a827e6d328048ab21",
+      "local": "evidence/ARGUS-methodology.pdf",
+      "pages_reviewed": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "classification": "costs not realised sale prices;includes UKHarwich offgridwind and UKgridPPA assumptions"
+    },
+    {
+      "id": "H2-S05",
+      "title": "ICIS renewable hydrogen assessments launch27September2022",
+      "url": "https://www.icis.com/explore/press-releases/icis-launches-europes-first-market-linked-renewable-hydrogen-assessments/",
+      "classification": "PPA-linked fair-value/production assessment,not proof of UK transactions;prelaunch2022coverage unavailable"
+    },
+    {
+      "id": "H2-S06",
+      "title": "ICIS free Hydrogen Market Watch launch4July2023",
+      "url": "https://www.icis.com/explore/press-releases/icis-hydrogen-market-watch-to-help-accelerate-market-growth/",
+      "classification": "weeklyoverview;cost/priceassessments;not complete UK daily archive"
+    },
+    {
+      "id": "H2-S07",
+      "title": "UK Hydrogen Production Business Model official collection",
+      "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model",
+      "classification": "policy support not a market price feed"
+    },
+    {
+      "id": "H2-S08",
+      "title": "LCHA key terms explanatory notes HAR1 December2025",
+      "url": "https://assets.publishing.service.gov.uk/media/693941eb7a605b2d61cd9014/lcha-key-terms-summary-explanatory-notes-har1-december-2025.pdf",
+      "local": "evidence/LCHA-key-terms-2025.pdf",
+      "pages_reviewed": [
+        1,
+        2,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        69
+      ],
+      "classification": "achievedsalesprice/floor/volume-support;projectcaps not nationaldemand;zero sales no subsidy;storedhydrogen accounted"
+    },
+    {
+      "id": "H2-S09",
+      "title": "HAR1 successful projects December2023",
+      "url": "https://www.gov.uk/government/publications/hydrogen-production-business-model-net-zero-hydrogen-fund-shortlisted-projects/hydrogen-production-business-model-net-zero-hydrogen-fund-har1-successful-projects",
+      "classification": "weightedaverage supportstrikeprice241GBP/MWh;not actualproducerachievedsaleprice"
+    },
+    {
+      "id": "H2-S10",
+      "title": "UK Hydrogen Strategy historical2021 HTML",
+      "url": "https://www.gov.uk/government/publications/uk-hydrogen-strategy/uk-hydrogen-strategy-accessible-html-version",
+      "classification": "historicalcontext only,not2026time-series demand or actualnewclientquantity"
+    }
+  ],
+  "limitations": [
+    "No qualifying complete public UK/Scottish daily actual transaction price series obtained.",
+    "Argus subscription history not licensed;ICIS historical archives not fully obtained.",
+    "Google and DuckDuckGo presented automated-traffic challenges;Bing multiwordqueries returned broadsingleword results and were discarded.",
+    "S&P public page403;LCCC publicpage403;not interpreted as lackofdata.",
+    "EEX public data hub observed, but no full historicallicensed series downloaded."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "nominal_MWh": 3.0,
+  "power_MW": 1.5,
+  "rte": 0.8999999999999999,
+  "usable_sale_MWh_per_full_cycle": 1.7076299364909249,
+  "dates": 2192,
+  "years": 6,
+  "max_full_equivalent_cycles": 1096,
+  "theoretical_throughput_MWh_year": 311.92706839900893,
+  "electricity_only_output_upper_GBP2020_year": 39688.982826554384,
+  "electricity_or_hydrogen_output_upper_GBP2020_year": 50437.66504742933,
+  "chronological_electricity_only_upper_GBP2020_year": 27452.794337561016,
+  "chronological_electricity_or_hydrogen_upper_GBP2020_year": 47133.86259360286,
+  "max_h2_value_per_electric_input_GBP2020_MWh": 139.51747862523945,
+  "annualised_battery_cost_GBP2020": 96355.91961122444,
+  "historical_no_battery_relaxation_upper_minus_v6_GBP2020_year": {
+    "A": 1.4551915228366852e-05,
+    "B": 2.1827872842550278e-05
+  }
+}

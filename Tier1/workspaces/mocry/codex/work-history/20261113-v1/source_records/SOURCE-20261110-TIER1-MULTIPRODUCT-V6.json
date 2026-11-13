@@ -1,0 +1,16 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-MULTIPRODUCT-20261110-V6",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-10",
+  "evidence_status": "Local computed study with independently verified daily feasibility, cash flows and retained reference replay",
+  "user_request": "将两者的多种选择开放进入tier1，保留今天更新的tier1设置。计算结果",
+  "directory": "../assignments/FinalProject/tier1-multiproduct-20261110-v6",
+  "report": "../assignments/FinalProject/tier1-multiproduct-20261110-v6/README.md",
+  "archive": "../assignments/FinalProject/MMCS_Tier1_Multiproduct_20261110_v6.zip",
+  "archive_sha256": "e89b214368746cdcf41e8b43c3f0dbec5115c59c70ad8c04a9f5d4ca52081dcf",
+  "dependencies": ["LOCAL-MMCS-TIER1-STRENGTHENED-20261110", "LOCAL-MMCS-CU-EQUIPMENT-CROSSCHECK-20261110", "LOCAL-MMCS-TESLA-LAZARD-ECONOMICS-20261110"],
+  "scope": "4 commercial battery and 8 commercial PEM research profiles with joint integer purchase; common operational assumptions preserved; comparable and BEIS2020 cost cases separated",
+  "checks": "14 globally optimal reported cases plus 6 behavioural cases; 20 independent daily feasibility/cash-flow audits and exact legacy replay",
+  "remote_publication": false
+}

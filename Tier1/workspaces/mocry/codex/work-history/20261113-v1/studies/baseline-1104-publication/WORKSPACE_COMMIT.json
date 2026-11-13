@@ -1,0 +1,11 @@
+{
+  "commit": "68d1041a760c45de99159be57dc528699f80fd96",
+  "path": "Tier1/workspaces/mocry/codex/baseline-1104/20261104-v1",
+  "files": 190,
+  "reproduction": {
+    "cases": 82,
+    "same_installed_counts": true,
+    "max_profit_difference_GBP2020": 0.0,
+    "all_checks_passed": true
+  }
+}

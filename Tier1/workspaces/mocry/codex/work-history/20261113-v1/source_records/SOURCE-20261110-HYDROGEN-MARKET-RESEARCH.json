@@ -1,0 +1,18 @@
+{
+  "source_id": "LOCAL-MMCS-HYDROGEN-MARKET-RESEARCH-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "retrieved_on": "2026-11-10",
+  "status": "local_primary_source_research_complete_with_data_access_gaps",
+  "report": "assignments/FinalProject/hydrogen-market-research-20261110/REPORT_ZH.md",
+  "source_manifest": "assignments/FinalProject/hydrogen-market-research-20261110/SOURCES.json",
+  "web_access": "Playwright MCP anonymous contexts only",
+  "source_classes": ["EEXHYDRIXmarketindications","ICISPPA-linkedassessments","Argusmodelledcosts","GOVLCHA2025contractterms"],
+  "originals_downloaded": ["ArgusmethodologyOctober2026,10pages","LCHAkeytermsDecember2025,78pages"],
+  "visual_checks": "Arguspage2andLCHApage24renderedandinspected;relevantcompletepagesextracted",
+  "dataset_result": "No qualifying complete UK dailyactualtransactionprice and accessibleclientquantityseries obtained. Not a proof that no commercial source exists.",
+  "model_limits": "10tonnes/day is an analytical assumption;no nationaluniformper-producerdemandcap identified;LCHAprojectsalescaps are conditionalcontractualconstraints",
+  "failures": ["S&P403","LCCC403","GoogleandDDGchallenge","Bingmultiwordqueryirrelevance"],
+  "remote_published": false,
+  "models_or_results_modified": false
+}

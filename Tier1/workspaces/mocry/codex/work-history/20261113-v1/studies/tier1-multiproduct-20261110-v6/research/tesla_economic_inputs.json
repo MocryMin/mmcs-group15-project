@@ -1,0 +1,239 @@
+{
+  "version": "1.0",
+  "as_of": "2026-11-10",
+  "profiles": [
+    {
+      "horizon_years": 15,
+      "standard_warranty_years": 15,
+      "extended_warranty_purchased": false,
+      "extension_cost_in_base": 0,
+      "extension_zero_reason": "Horizon ends within standard warranty;no20year extension is purchased or claimed free",
+      "net_terminal_value": 0,
+      "terminal_assumption": "Financial reference only,no evidenced positive resale credit;site removal needs a separate project allowance if required",
+      "normalised_currency": "Native USD at each declared year;projectGBP2020 conversion is a separate shared-finance interface",
+      "finance": {
+        "real_discount_reference": 0.05,
+        "general_inflation_reference": 0.02,
+        "nominal_discount_reference": 0.07100000000000017,
+        "source": "project/reference financial conventions,not aTesla quoted hurdle rate"
+      },
+      "maintenance_nominal_escalator": 0.02,
+      "capacity_accounting": "NREL-style15year maintained-capacity reference,with augmentation budget included in totalFOM",
+      "monetary_year_note": "Quote/report observation year treated as the native nominal price base for research;not a separately certifiedconstant-dollarindex",
+      "reservation_fee_rule": "Base assumes credited against final contract or immaterial within scope estimate;credit not explicitly established by publictemplate,so test non-credit sensitivity",
+      "total_FOM_reference_fraction_K": 0.025,
+      "total_FOM_source": "NREL ATB2024:includes augmentation to maintain rated capacity15years;transfer toTesla/site size is an explicit engineering estimate",
+      "no_double_count": "RoutineTesla fee is included within totalFOM reference,not added on top;no separate normal-aging replacement bill in the same case",
+      "project_scope_assumptions": [
+        "Existing suitable site and interconnection;no new land purchase or major network reinforcement",
+        "Pre-tax and pre-financing incremental equipment study;VAT/ownerfinance not added as vendor fees",
+        "No optionalAutobidder revenue contract or subscription purchased;our own control model used",
+        "No invented bulk discount;five-unit average transferred only as an explicitly identified price hypothesis"
+      ],
+      "physical_gaps_unchanged": "Product permittedDoD/retention curve not fully public;economic study inputs do not manufacture a warranty curve",
+      "id": "tesla2xl_2h_2024_installed_reference",
+      "product_id": "tesla-megapack2xl-2h",
+      "evidence_strength": "Manufacturerfive-unitUSinstalled estimate plus explicitNRELlifecycle transfer",
+      "currency": "USD",
+      "price_year": 2024,
+      "E_kWh": 3854.4,
+      "P_kW": 1927.2,
+      "RTE_product": 0.92,
+      "capital_K": 1951954.0,
+      "general_maintenance_first_year": 5922.0,
+      "total_FOM_year": 48798.850000000006,
+      "remaining_lifecycle_budget_year": 42876.850000000006,
+      "source_quote": {
+        "snapshot": "20240106085048",
+        "url": "https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design",
+        "origin": "Tesla public page server-rendered __NEXT_DATA__",
+        "currency": "USD",
+        "site": "California,US",
+        "quantity": 5,
+        "configuration": "2hXL",
+        "delivery_quarter": "2024 Q4",
+        "installation_included": true,
+        "total_price": 9759770,
+        "maintenance_first_year": 29610,
+        "price_per_unit": 1951954.0,
+        "maintenance_per_unit_year1": 5922.0,
+        "price_status": "non-final estimate;taxes excluded;unit figure is five-unit average,not an independent one-unit quote",
+        "quote_query_key": [
+          "1108Loans",
+          5,
+          "2024 Q4",
+          true,
+          "2hXL",
+          "megapackPricing",
+          "CA"
+        ],
+        "source_file": "evidence/pages-06-static-archive.json"
+      },
+      "noncredited_reservation_fee_per_quoted_five_unit_batch": 1000,
+      "capital_scope": "Installation included in selectedTeslaoption;taxesexcluded;localUKsite adaptation remains a transfer",
+      "scenario_role": "Primaryinstalled-price reference;not a currentUKfirmquote"
+    },
+    {
+      "horizon_years": 15,
+      "standard_warranty_years": 15,
+      "extended_warranty_purchased": false,
+      "extension_cost_in_base": 0,
+      "extension_zero_reason": "Horizon ends within standard warranty;no20year extension is purchased or claimed free",
+      "net_terminal_value": 0,
+      "terminal_assumption": "Financial reference only,no evidenced positive resale credit;site removal needs a separate project allowance if required",
+      "normalised_currency": "Native USD at each declared year;projectGBP2020 conversion is a separate shared-finance interface",
+      "finance": {
+        "real_discount_reference": 0.05,
+        "general_inflation_reference": 0.02,
+        "nominal_discount_reference": 0.07100000000000017,
+        "source": "project/reference financial conventions,not aTesla quoted hurdle rate"
+      },
+      "maintenance_nominal_escalator": 0.02,
+      "capacity_accounting": "NREL-style15year maintained-capacity reference,with augmentation budget included in totalFOM",
+      "monetary_year_note": "Quote/report observation year treated as the native nominal price base for research;not a separately certifiedconstant-dollarindex",
+      "reservation_fee_rule": "Base assumes credited against final contract or immaterial within scope estimate;credit not explicitly established by publictemplate,so test non-credit sensitivity",
+      "total_FOM_reference_fraction_K": 0.025,
+      "total_FOM_source": "NREL ATB2024:includes augmentation to maintain rated capacity15years;transfer toTesla/site size is an explicit engineering estimate",
+      "no_double_count": "RoutineTesla fee is included within totalFOM reference,not added on top;no separate normal-aging replacement bill in the same case",
+      "project_scope_assumptions": [
+        "Existing suitable site and interconnection;no new land purchase or major network reinforcement",
+        "Pre-tax and pre-financing incremental equipment study;VAT/ownerfinance not added as vendor fees",
+        "No optionalAutobidder revenue contract or subscription purchased;our own control model used",
+        "No invented bulk discount;five-unit average transferred only as an explicitly identified price hypothesis"
+      ],
+      "physical_gaps_unchanged": "Product permittedDoD/retention curve not fully public;economic study inputs do not manufacture a warranty curve",
+      "id": "tesla2xl_2h_2026_equipment_plus_EPC_proxy",
+      "product_id": "tesla-megapack2xl-2h",
+      "evidence_strength": "Manufacturer2026equipment estimate plus adjacent-scaleEPC estimate",
+      "currency": "USD",
+      "price_year": 2026,
+      "E_kWh": 3854.4,
+      "P_kW": 1927.2,
+      "RTE_product": 0.92,
+      "equipment_K": 1009080.0,
+      "EPC_proxy_range": [
+        220163.328,
+        660489.984
+      ],
+      "capital_K_range": [
+        1229243.328,
+        1669569.9840000002
+      ],
+      "capital_K": 1449406.656,
+      "general_maintenance_first_year": 5922.0,
+      "total_FOM_year": 36235.1664,
+      "total_FOM_year_range": [
+        30731.0832,
+        41739.24960000001
+      ],
+      "remaining_lifecycle_budget_year": 30313.166400000002,
+      "source_quote": {
+        "snapshot": "20261011091248",
+        "url": "https://web.archive.org/web/20261011091248id_/https://www.tesla.com/megapack/design",
+        "origin": "Tesla public page server-rendered __NEXT_DATA__",
+        "currency": "USD",
+        "site": "California,US",
+        "quantity": 5,
+        "configuration": "2hXL",
+        "delivery_quarter": "2027 Q1",
+        "installation_included": false,
+        "total_price": 5045400,
+        "maintenance_first_year": 29610,
+        "price_per_unit": 1009080.0,
+        "maintenance_per_unit_year1": 5922.0,
+        "price_status": "non-final estimate;taxes and installation excluded;five-unit average",
+        "quote_query_key": [
+          "1008CWCPrice",
+          5,
+          "2027 Q1",
+          "2hXL",
+          "megapackPricing",
+          "CA"
+        ],
+        "source_file": "evidence/pages-09-latest-quotes.json"
+      },
+      "noncredited_reservation_fee_per_quoted_five_unit_batch": 10000,
+      "EPC_source": "LazardCI2h56..168USD/kWh transferred to9.6MWfleet;2025to2026 inflation2%assumption",
+      "capital_scope": "IntegratedequipmentplusEPCproxy;no extraPCS;site and owner exclusions in common assumptions",
+      "scenario_role": "Currentequipmentanchored research estimate with range"
+    },
+    {
+      "horizon_years": 15,
+      "standard_warranty_years": 15,
+      "extended_warranty_purchased": false,
+      "extension_cost_in_base": 0,
+      "extension_zero_reason": "Horizon ends within standard warranty;no20year extension is purchased or claimed free",
+      "net_terminal_value": 0,
+      "terminal_assumption": "Financial reference only,no evidenced positive resale credit;site removal needs a separate project allowance if required",
+      "normalised_currency": "Native USD at each declared year;projectGBP2020 conversion is a separate shared-finance interface",
+      "finance": {
+        "real_discount_reference": 0.05,
+        "general_inflation_reference": 0.02,
+        "nominal_discount_reference": 0.07100000000000017,
+        "source": "project/reference financial conventions,not aTesla quoted hurdle rate"
+      },
+      "maintenance_nominal_escalator": 0.02,
+      "capacity_accounting": "NREL-style15year maintained-capacity reference,with augmentation budget included in totalFOM",
+      "monetary_year_note": "Quote/report observation year treated as the native nominal price base for research;not a separately certifiedconstant-dollarindex",
+      "reservation_fee_rule": "Base assumes credited against final contract or immaterial within scope estimate;credit not explicitly established by publictemplate,so test non-credit sensitivity",
+      "total_FOM_reference_fraction_K": 0.025,
+      "total_FOM_source": "NREL ATB2024:includes augmentation to maintain rated capacity15years;transfer toTesla/site size is an explicit engineering estimate",
+      "no_double_count": "RoutineTesla fee is included within totalFOM reference,not added on top;no separate normal-aging replacement bill in the same case",
+      "project_scope_assumptions": [
+        "Existing suitable site and interconnection;no new land purchase or major network reinforcement",
+        "Pre-tax and pre-financing incremental equipment study;VAT/ownerfinance not added as vendor fees",
+        "No optionalAutobidder revenue contract or subscription purchased;our own control model used",
+        "No invented bulk discount;five-unit average transferred only as an explicitly identified price hypothesis"
+      ],
+      "physical_gaps_unchanged": "Product permittedDoD/retention curve not fully public;economic study inputs do not manufacture a warranty curve",
+      "id": "tesla2xl_4h_industry_cost_reference",
+      "product_id": "tesla-megapack2xl-4h",
+      "evidence_strength": "Producttechnicalfacts;financialcosts industry-only,no recovered4hTeslaquote",
+      "currency": "USD",
+      "price_year": 2025,
+      "E_kWh": 3916,
+      "P_kW": 979,
+      "RTE_product": 0.937,
+      "capital_K": 990748.0,
+      "capital_K_range": [
+        553135,
+        1428361
+      ],
+      "alternative_small_site_capital_range": [
+        1190464,
+        2478828
+      ],
+      "total_FOM_year": 24768.7,
+      "total_FOM_year_range": [
+        13828.375,
+        35709.025
+      ],
+      "general_maintenance_first_year": null,
+      "general_maintenance_note": "No4hTesla-specific quote;wholeFOMreference covers maintenance and capacity renewal",
+      "capital_scope": "Lazardutility4hcomponentrates on physicalTeslaE/P,no extra10%initialoverbuild;smallsite2hcoefficienttransfer is an explicit separate sensitivity",
+      "scenario_role": "Competition/sensitivity;not supplier-price ranking"
+    }
+  ],
+  "extension": {
+    "actual_Tesla_extension_price": null,
+    "optional_20year_sensitivity": {
+      "warranty_fraction_K": [
+        0.0065,
+        0.015
+      ],
+      "first_paid_year": 16,
+      "last_year": 20,
+      "source": "Lazard2hgenericpricefraction transferred,notTeslaquote;year16 chosen because standardTesla15years",
+      "note": "15yearNRELmaintained-capacitycase is not automatically extrapolated to20years;service/augmentation budget must also be specified"
+    }
+  },
+  "baseline_adoption": false,
+  "research_stage": "Complete numerical15year economic-reference inputs within declared scope;unpublishedactualcosts explicitly estimated",
+  "not_claimed": [
+    "UKfirmquotation",
+    "Actualsingleunitprice",
+    "Actualquantitydiscountcurve",
+    "Manufacturerfundedagingaugmentation",
+    "Freeextensionto20years"
+  ]
+}

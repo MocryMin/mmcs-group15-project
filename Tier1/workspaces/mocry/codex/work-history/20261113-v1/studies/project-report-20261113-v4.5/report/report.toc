@@ -1,0 +1,31 @@
+\contentsline {chapter}{\numberline {I}Introduction and data}{1}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.I.1}%
+\contentsline {section}{\numberline {2}Data audit and reconstruction}{1}{section.I.2}%
+\contentsline {chapter}{\numberline {II}Tier 1: deterministic investment appraisal}{2}{chapter.2}%
+\contentsline {section}{\numberline {1}Problem analysis}{2}{section.II.1}%
+\contentsline {section}{\numberline {2}Research findings and model inputs}{2}{section.II.2}%
+\contentsline {section}{\numberline {3}Notation and assumptions}{2}{section.II.3}%
+\contentsline {section}{\numberline {4}Mathematical model}{3}{section.II.4}%
+\contentsline {subsection}{\numberline {4.1}Objective}{3}{subsection.II.4.1}%
+\contentsline {subsection}{\numberline {4.2}Constraints}{3}{subsection.II.4.2}%
+\contentsline {section}{\numberline {5}Results and analysis}{4}{section.II.5}%
+\contentsline {subsection}{\numberline {5.1}Capacity and historical performance}{4}{subsection.II.5.1}%
+\contentsline {subsection}{\numberline {5.2}Energy attribution and contract sensitivity}{4}{subsection.II.5.2}%
+\contentsline {subsection}{\numberline {5.3}Storage and investment sensitivity}{5}{subsection.II.5.3}%
+\contentsline {subsection}{\numberline {5.4}Investment recommendations}{5}{subsection.II.5.4}%
+\contentsline {chapter}{\numberline {III}Tier 2B: forecasting and chronological operation}{6}{chapter.3}%
+\contentsline {section}{\numberline {1}Information and experimental design}{6}{section.III.1}%
+\contentsline {section}{\numberline {2}Multi-step forecasting model}{6}{section.III.2}%
+\contentsline {section}{\numberline {3}Rolling optimisation and storage feedback}{6}{section.III.3}%
+\contentsline {section}{\numberline {4}Evaluation and results to be completed}{6}{section.III.4}%
+\contentsline {chapter}{References}{R1}{section*.7}%
+\contentsline {chapter}{\numberline {A}Data reconstruction}{A1}{chapter.appendix.1}%
+\contentsline {section}{\numberline {1}Sources and alignment}{A1}{section.A.1}%
+\contentsline {section}{\numberline {2}Generation}{A1}{section.A.2}%
+\contentsline {section}{\numberline {3}Demand and market index prices}{A2}{section.A.3}%
+\contentsline {section}{\numberline {4}Repair outcomes and verification}{A2}{section.A.4}%
+\contentsline {chapter}{\numberline {B}Market and equipment research}{A3}{chapter.appendix.2}%
+\contentsline {section}{\numberline {1}Electricity trading and hydrogen offtake}{A3}{section.B.1}%
+\contentsline {section}{\numberline {2}Battery selection and cost basis}{A3}{section.B.2}%
+\contentsline {section}{\numberline {3}Electrolyser selection and cost basis}{A4}{section.B.3}%
+\contentsline {section}{\numberline {4}Financial conversion and operating horizon}{A4}{section.B.4}%

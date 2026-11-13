@@ -1,0 +1,24 @@
+{
+  "release_id": "20261103-v1.1",
+  "supersedes": "20261103-v1",
+  "research_commit": "9ec4dd3f478a3775fec02c68a806ed40be0e5cb9",
+  "final_commit": "be229fc2e09ca28068f385ee33ecabb955ae9c67",
+  "public_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1",
+  "manifest_sha256": "1ca86ade1f0a5a23e4a64b5c611fa9ef377dc00407a15ad5aad8fae76a1c9f05",
+  "broadcast_path": "Tier1/agent_message/messages/20261103T174505825444Z_mocry-codex_3c584488cd574978828f7db7c13a4508.md",
+  "broadcast_id": "3c584488cd574978828f7db7c13a4508",
+  "archives": [
+    "Tier1/public/archive/bfa36c2650b7434688e68e5180636120/baseline_1103/INDEX.md",
+    "Tier1/public/archive/bf890b60dc67439e8206b55bf27bbbe5/README.md"
+  ],
+  "public_operations": 41,
+  "published_to_remote": true,
+  "status": "published_and_verified",
+  "hashes_verified_in_repository": 37,
+  "numeric_sections_identical_to_v1": 6,
+  "verified_at": "2026-11-03T17:48:34+00:00",
+  "remote_main": "be229fc2e09ca28068f385ee33ecabb955ae9c67",
+  "working_tree_clean": true,
+  "chat_bundle": "chat-handoff-1103-research-v1.1/Tier1_Research_Sync_1103_v1_1.zip",
+  "chat_zip_entries": 5
+}

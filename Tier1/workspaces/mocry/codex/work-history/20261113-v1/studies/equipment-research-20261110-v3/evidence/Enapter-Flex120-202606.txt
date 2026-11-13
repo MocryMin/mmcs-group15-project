@@ -1,0 +1,80 @@
+PAGE 1
+ Key features
+
+
+ ≡ Top system efficiency: <52 kWh/kg
+ ≡  Fully automatic operation, AI optimized
+ ≡  Modular architecture for max. redundancy
+ ≡  Rapid reaction times to variable renewables
+ ≡ Low maintenance requirements
+
+
+
+
+                                                      AEM Flex 120
+
+                                                                                           www.enapter.com/aem-flex-120
+
+
+
+
+
+AEMFlex120-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.
+
+PAGE 2
+ Specifications                                        AEM FlexEnapter120
+
+
+
+
+
+          H₂ nominal flow                       24.1 Nm³/h (2.16 kg/h)      Net volume flow rate
+
+          H₂ outlet pressure                Up to 31 barg
+
+          H₂ purity                          99.5% in molar fraction      Impurities: H₂O < 5000 ppm, O₂ < 5 ppm
+
+          H₂ purity with optional chiller         99.95% in molar fraction     Impurities: H₂O < 500 ppm, O₂ < 5 ppm
+
+          H₂ purity with optional dryer         99.999% in molar fraction    Impurities: H₂O < 5 ppm, O₂ < 5 ppm
+
+                                                             Open loop technology
+
+            Specific power consumption           4.61 kWh/Nm³ H₂            Including all utilities inside the battery limits
+
+            (Efficiency)                           51.3 kWh/kg H₂           @standard conditions*, 99.5% configuration.
+
+         Nominal power consumption         112 kW                     Including all utilities inside the battery limits
+                                                                   @standard conditions*, 99.5% configuration.
+
+                                                                   99.95% configuration + ~0.6 kW
+
+                                                                   99.999% configuration + ~3 kW
+
+          Voltage                           400Vac 3ph+N+PE         ± 10 %
+
+          Frequency                         50 Hz                   ± 10 %
+
+         H₂O nominal consumption             19.4 L/h                      Purified water
+
+         H₂O inlet purity (recommended)      Type II water               According to ASTM D1193-06
+                                                       Acidity < 0.1 meq/l          According to ASTM D1067
+
+           Operational flexibility              12% – 100 %              Of nominal H2 flow rate
+
+         Hot startup time                   0 – 100% in 225 seconds     Electrolyte valve open, solution circulating at ≥45°C
+
+           Cooling type                             Liquid cooled               Optional air cooler available on request
+
+          Dimensions                             Suitable to be installed       (L x W x H)
+                                                     into a 6 x 2.5 m footprint    Without table cooler
+                                                     including its dryer and its
+                                              water treatment
+
+          *at full load, normal operation, BoL, 55°C electrolyte temperature and 15°C ambient temperature
+
+
+
+
+
+AEMFlex120-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.

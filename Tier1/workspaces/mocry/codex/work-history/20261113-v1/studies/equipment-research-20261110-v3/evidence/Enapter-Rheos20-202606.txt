@@ -1,0 +1,70 @@
+PAGE 1
+AEM RHEOS 20
+
+
+
+
+
+ Key features
+
+ ≡ Unmatched system efficiency: <52 kWh/kg           The AEM RHEOS 20 is a full-scope, skid mounted
+                                      AEM hydrogen plant, featuring many AEM stacks ≡  Fully automatic operation, AI optimized
+                                                  around a common balance of plant (BoP) that
+ ≡  Modular architecture for max. redundancy
+                                                           includes MV/LV transformers, rectifiers,
+ ≡  Rapid reaction times to variable renewables                                                           cooling/heating, water treatment and electrolyte
+ ≡ Low maintenance requirements                        loop.
+
+
+
+
+
+                                                     AEM RHEOS 20
+
+                                                                                               http://www.enapter.com/
+
+
+
+
+
+AEM RHEOS20-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.
+
+PAGE 2
+Specification                                                                  Enapter                                                        AEM RHEOS 20
+
+
+
+
+
+        H₂ nominal flow                    4000 Nm³/h (~362 kg/h)    Net volume flow rate
+
+        H₂ outlet pressure                Up to 31 barg
+
+        H₂ purity after purification           99.999% in molar fraction    Impurities: H₂O < 5 ppm, O₂ < 5 ppm
+
+          Specific power consumption            4.62 kWh/Nm³ H₂            Including all utilities inside the battery limits
+
+           (Efficiency)                            51.4 kWh/kg H₂           @standard conditions*
+
+        Nominal power consumption          18,590 kW                  Including all utilities inside the battery limits,
+                                                                 @standard conditions*
+
+       H₂O nominal consumption             3,242 L/h                The consumption of raw water should be determined
+                                                                    based on the actual water quality
+
+       H₂O inlet purity (recommended)      Type II water               According to ASTM D1193-06
+
+                                                    Acidity < 0.1 meq/l          According to ASTM D1067
+
+         Operational flexibility             1% – 100%
+
+        Type of installation                    Indoor                      Footprint 1,250 m2
+
+
+          *at full load, normal operation, BoL, 55°C electrolyte temperature and 15°C ambient temperature
+
+
+
+
+
+AEM RHEOS20-DTS-COM02_rev08  - Note: The product is under continuous improvement, and the technical specifications might be subject to change.

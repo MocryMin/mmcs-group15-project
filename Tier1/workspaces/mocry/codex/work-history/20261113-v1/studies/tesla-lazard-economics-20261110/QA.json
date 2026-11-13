@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "quote_snapshots": 6,
+  "profiles": 3,
+  "checks": [
+    "ArchivedSSRquantities/configurations/currency matched",
+    "InstallationYesverified in archivedDOM",
+    "Equipment-only and installedprices not treated as a common-scope trend",
+    "Maintenance divided byfive,not confused as perunit",
+    "LazardO&M,warranty andaugmentation separated",
+    "10%overbuild counted only in benchmarkreconstruction",
+    "Tesla routinefee not added on top of NRELwholeFOM",
+    "NoextraPCSchargeforintegratedequipment",
+    "Tesla4hcostproxy not labelled amanufacturerquote",
+    "NoUSD/GBP or real/nominalsilentmix"
+  ],
+  "visual_pages": [
+    "Lazard42",
+    "Lazard43",
+    "TeslaMaintenance1",
+    "TeslaMaintenance2",
+    "TeslaInstallation2"
+  ],
+  "no_new_optimization": true,
+  "no_remote_publication": true,
+  "source_PDFs_hashed": 4,
+  "local_links": "pass",
+  "full_report_physical_pages": 48,
+  "source_scope": "Teslaquote6snapshots,maintenance2pages,installationselectedUI,Lazard19/42/43,NRELarchivedprimarypage"
+}

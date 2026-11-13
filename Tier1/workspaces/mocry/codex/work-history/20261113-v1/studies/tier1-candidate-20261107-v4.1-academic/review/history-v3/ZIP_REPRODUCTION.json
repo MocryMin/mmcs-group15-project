@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "at": "2026-11-07T15:11:58.380419+00:00",
+  "source": "Fresh ZIP extraction; manifest verified before recalculation",
+  "cases_recalculated": 64,
+  "largest_gain_difference_GBP_year": 0.0,
+  "capacities_identical": true,
+  "pdf_recompiled": {
+    "Tier1_Report.pdf": {
+      "pages": 4,
+      "extracted_text_identical": true
+    },
+    "report-template.pdf": {
+      "pages": 1,
+      "extracted_text_identical": true
+    }
+  },
+  "dependencies": "Existing Python/Xpress installation and existing LaTeX compiler; all model inputs supplied in ZIP",
+  "computation_source_paths_outside_package": false
+}

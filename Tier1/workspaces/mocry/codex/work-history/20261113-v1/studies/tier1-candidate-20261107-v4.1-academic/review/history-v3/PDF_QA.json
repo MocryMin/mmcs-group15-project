@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-07T15:14:44.022037+00:00",
+  "pdfs": {
+    "Tier1_Report": {
+      "pages": 4,
+      "embedded_fonts": 7,
+      "undefined_references": false,
+      "overfull_warnings": false,
+      "sha256": "af479523f311cea390869c5355de3122f83fe49dc3271fd51c76b4047e6b08e5",
+      "rendered_and_visually_inspected_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "report-template": {
+      "pages": 1,
+      "embedded_fonts": 6,
+      "undefined_references": false,
+      "overfull_warnings": false,
+      "sha256": "4d8f1d9e90cf3d441c60abb44e0f05b8d4e779df625a2f1c2f054f2519a243d0",
+      "rendered_and_visually_inspected_pages": [
+        1
+      ]
+    }
+  },
+  "review": "All pages inspected for layout, formulas, table alignment, captions and footers."
+}

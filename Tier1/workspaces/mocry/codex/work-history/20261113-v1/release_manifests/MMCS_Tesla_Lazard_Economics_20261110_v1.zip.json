@@ -1,0 +1,92 @@
+{
+  "original_zip": "MMCS_Tesla_Lazard_Economics_20261110_v1.zip",
+  "original_zip_sha256": "37bd405996acf4e559e38037069d8258eb100876e418ebaa593f7240e1414091",
+  "bytes": 44363,
+  "representation": "All file payloads preserved; original ZIP container is not duplicated. Paths may deduplicate identical bytes.",
+  "entries": [
+    {
+      "entry": "tesla-lazard-economics-20261110/README.md",
+      "bytes": 1399,
+      "sha256": "f942fee014398b1ad08ea2420ce6e060730f9314f8e02554fc74214007cb60b6",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/README.md"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/REPORT_ZH.md",
+      "bytes": 10393,
+      "sha256": "8faf70d655d1ebcac20f2b10dea181264a6a3273394b46c7dd6ca2c782dfa910",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/REPORT_ZH.md"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/ECONOMIC_INPUTS.json",
+      "bytes": 13118,
+      "sha256": "4e119c5ad73fe538cf399ed2c4a1dbe44bbddad9c3e085921ae593df6cf22f06",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/ECONOMIC_INPUTS.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/LAZARD_BOUNDARIES.json",
+      "bytes": 4520,
+      "sha256": "88a7813d4829f9136121380f53a254738e3395e4d8feb3a4c939264d006b574c",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/LAZARD_BOUNDARIES.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/QA.json",
+      "bytes": 1074,
+      "sha256": "b50b614259711cba58501c63adfb0a97619c148d95061350a23abde3d5e0afd3",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/QA.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/SOURCES.json",
+      "bytes": 17782,
+      "sha256": "f6010e563c5d806f6f68ee3f6d8595f57e9adf2360122ff3a43b766a80988b24",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/SOURCES.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/TESLA_QUOTES.json",
+      "bytes": 5687,
+      "sha256": "c37dc4137b9de8480e0d06440ce14d804bb83d1d388547f1ae6d5d177da9f390",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/TESLA_QUOTES.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/build_inputs.py",
+      "bytes": 14926,
+      "sha256": "c15d50be234a39181d94b4a2eeeb4b5daf84dd3195e19b5a7a9d52a74e046b94",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/build_inputs.py"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/finalise.py",
+      "bytes": 5409,
+      "sha256": "cb9810da0001be6f5b1618dca06b93a09b29473a90519a8af0f6641c70e63cab",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/finalise.py"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/evidence/pages-06-static-archive.json",
+      "bytes": 55109,
+      "sha256": "4a1eba465e84e664b04da031a356d37eed1e11167240e5219922710a795f9d57",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/evidence/pages-06-static-archive.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/evidence/pages-09-latest-quotes.json",
+      "bytes": 10702,
+      "sha256": "47ac94af7431a12c659111335acfb72c6bd3b551f2939c115511d5c581aed97d",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/evidence/pages-09-latest-quotes.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/evidence/pages-10-nrel.json",
+      "bytes": 24133,
+      "sha256": "fc019ecf3e217d9c8c1c3592738fb2a98c1c0ddf41169a18a2e58ad86138d40d",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/evidence/pages-10-nrel.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/evidence/2024-ui-selection.json",
+      "bytes": 228,
+      "sha256": "46bddaf3b6d58e8f134238eb1185d34a3d80c86e984afffa1efdd9cbaa003b58",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/evidence/2024-ui-selection.json"
+    },
+    {
+      "entry": "tesla-lazard-economics-20261110/ANALYSIS_MANIFEST.json",
+      "bytes": 2106,
+      "sha256": "ff3609dc2d914e4c826e97db5a77e275174ea7c0db11d34ec4096bbe8940645a",
+      "repository_path": "Tier1/workspaces/mocry/codex/work-history/20261113-v1/studies/tesla-lazard-economics-20261110/ANALYSIS_MANIFEST.json"
+    }
+  ]
+}

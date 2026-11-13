@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-11-10",
+  "peer_source": "Tier1/public/research_1103/independent/mocry-cleveruser/20261103-cu-v1",
+  "remote_snapshot": "48a3cdd5e9892730e9956b1d3f13da328ba51740",
+  "snapshot_note": "Verified gitrev-parseHEAD after fast-forward main.",
+  "comparison_basis": "Codex equipment-research-20261110-v3",
+  "independently_retrieved": [
+    {
+      "file": "evidence/Tesla-Megapack2XL-20230210.pdf",
+      "url": "https://portal.ct.gov/-/media/csc/3_petitions-medialibrary/petitions_medialibrary/mediapetitionnos1601-1700/pe1607/petitionersubmissions/supplement-attachment-a---megapack_2_xl_datasheet.pdf",
+      "document_version": "Rev1.5.1,2023-02-10",
+      "pages_reviewed": [
+        1
+      ],
+      "status": "PDF retrieved and visually read; API DNS initially failed, anonymous same-origin Playwright browser fetch succeeded"
+    },
+    {
+      "file": "evidence/PNNL-Cost-Performance-2022.pdf",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf",
+      "pages_read": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "pages_visually_reviewed": [
+        43,
+        44
+      ],
+      "status": "verified; resolves2400cycles at80%DoD reaching80%remaining energy rather than ultimate60%"
+    },
+    {
+      "file": "evidence/DEA-Storage-Catalogue2025.pdf",
+      "url": "https://ens.dk/media/6588/download",
+      "pages_visually_reviewed": [
+        180,
+        181
+      ],
+      "status": "component reconstruction1.10*(228000E_MWh+86000P_MW) verified"
+    },
+    {
+      "file": "evidence/DESNZ-Hydrogen-Transport-Storage2023.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/659e600b915e0b00135838a6/hydrogen-transport-and-storage-cost-report.pdf",
+      "pages_visually_reviewed": [
+        36,
+        37
+      ],
+      "status": "storage and transport costs/pressure/cycles/distance conditions verified"
+    }
+  ],
+  "not_retrieved": [
+    {
+      "url": "https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "status": "403 via request and browser; peer extracts treated as a research lead,not independently verified parameters"
+    }
+  ],
+  "new_numerical_optimization": false,
+  "remote_publication": false,
+  "revised_package": "../equipment-research-20261110-v3.1",
+  "revision_reason": "Add two independently verified Tesla configurations and correct lifecycle terminal-capacity metadata; preserve delivered v3"
+}

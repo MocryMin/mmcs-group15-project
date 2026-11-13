@@ -1,0 +1,44 @@
+PAGE1
+TECHNICAL DATA SHEET
+TPS-E
+TESVOLT TS HV 90 TECHNICAL DATA
+C-rate 1C
+Cell Lithium NMC prismatic (Samsung SDI)
+Cell balancing DynamiX Battery Optimizer
+Cycles expected at 100% DoD | 70% EoL | 23°C ± 5°C 1C/1C 6,000
+Cycles expected at 100% DoD | 70% EoL | 23°C ± 5°C 0.5C/0.5C 8,000
+Cycle eﬃ   ciency (battery) up to 98%
+Operating voltage up to 1,300 V DC
+Communication interface CAN 2.0, Modbus TCP/IP
+Certiﬁ  cates/standards (currently in preparation) Cell IEC 62619, UL 1642, UN 38.3
+Product CE, UN 38.3, IEC 62619, IEC 61000-6-2/4/7, BattG 2006/66/EC
+Guarantee 10-year performance guarantee, 5-year system guarantee
+Recycling TESVOL T offers a free take-back scheme for batteries from Germany
+Protection class IP 20
+Battery speciﬁ  cation as per DIN EN 62620:2015 INP46/175/127/[1P22S]M/-20+60/90
+CONTAINER SYSTEM
+Size 20 ft 40 ft 45 ft
+Dimensions (L x W x H) 6.06 x 2.44 x 2.90 m 12.12 x 2.44 x 2.90 m 13.72 x 2.44 x 2.90 m
+Energy (max.) 1.9 MWh 4.2 MWh 4.6 MWh
+Number of storage systems up to 19 up to 42 up to 48
+External operating temperature range -20°C to 45°C
+Altitude of installation site < 2,000 m above sea level (other speciﬁ  cations on request)
+Protection class IP 54
+Special equipment (optional) Fire extinguisher, CSC certiﬁ  cation, available in all RAL colours, greater operating temperature range, 
+corrosion protection to C4
+TESVOLT AG 
+Am Heideberg 31  |  06886 Lutherstadt Wittenberg 
+Germany
+Phone +49 (0) 3491 8797 100
+info@tesvolt.com  |  www.tesvolt.com
+© TESVOLT AG  |  RD.TI.094.E.en-US_v.B.02  
+This data sheet is strictly informational and is not legally binding. The exact speciﬁ  cations and/or product features (particularly in case of further development of the product) may differ somewhat from the information provided 
+here. Subject to errors and changes. Please read the safety and installation instructions carefully and completely before using the product. In case of purchase, the currently valid guarantee policies and the general terms and 
+conditions of delivery and business of TESVOL T AG apply. 
+MADE
+IN 
+GERMANY
+MADE
+IN 
+GERMANY
+PARTNER PARTNER

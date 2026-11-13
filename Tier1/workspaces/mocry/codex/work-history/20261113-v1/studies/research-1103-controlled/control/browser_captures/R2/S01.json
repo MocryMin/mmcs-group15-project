@@ -1,0 +1,12 @@
+{
+  "owner": "R2",
+  "id": "S01",
+  "requested_url": "https://www.tesla.com/megapack",
+  "url": "https://www.tesla.com/megapack",
+  "status": 403,
+  "title": "Access Denied",
+  "body": "Access Denied\nYou don't have permission to access \"http://www.tesla.com/megapack\" on this server.\n\nReference #18.e10f0317.1793722685.baa2c194\n\nhttps://errors.edgesuite.net/18.e10f0317.1793722685.baa2c194",
+  "links": [],
+  "read_depth": "rendered HTML body, linked PDFs not yet retrieved",
+  "accessed_at": "2026-11-03T16:18:04.437Z"
+}

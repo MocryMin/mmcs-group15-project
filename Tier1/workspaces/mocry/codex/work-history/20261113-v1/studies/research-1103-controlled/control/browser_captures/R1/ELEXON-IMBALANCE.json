@@ -1,0 +1,1761 @@
+{
+  "owner": "R1",
+  "id": "ELEXON-IMBALANCE",
+  "requested_url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/",
+  "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/",
+  "status": 200,
+  "title": "Imbalance Pricing - Elexon BSC",
+  "body": "Services\nProgrammes\nElexon Support\nMy services\nAbout BSC\nBSC & Codes\nChanges & Releases\nCommittees & Groups\nSettlement & Invoicing\nOperational Practices\nBSC Data Reports\nMarket Entry & Exit\nPerformance Assurance\nYou are here:\nHome Settlement & Invoicing Imbalance Pricing\nImbalance Pricing\nAdd Bookmark to My BSC dashboard\nGlossary\nToggle Tooltip\n\nThe Imbalance Price is used to settle energy imbalance volumes. At the end of a Settlement Period, BSC Systems compare a Party’s contracted (traded) volume with the metered volume of energy used in the Settlement Period. If a Party is in imbalance of its contracted volume, then it will be subject to imbalance charges.\n\nOn this page\nFeatured content\nIndicative Settlement Price data now available on the Insights Solution\n26 February 2024\nEnhancing our customer enquiry processes using Elexon Support\n18 December 2023\nRead More\nMarket Index Definition Statement Review 2023\n4 October 2023\nRead More\nHow it relates to you\n\nThere are two Energy Imbalance Prices for each Settlement Period. These are:\n\nSystem Buy Price (SBP)\nSystem Sell Price (SSP)\n\nThe System Sell Price (SSP) and System Buy Price (SBP) are the ‘cash-out’ or ‘Energy Imbalance’ prices. These are used to settle the difference between contracted generation, or consumption, and the amount that was actually generated, or consumed, in each half hour trading period.\n\nHowever now there is a single price calculation, so SBP will equal SSP in each Settlement Period.  These prices are applied to Parties’ imbalances to determine their imbalance charges.\n\nLatest pricing\n\nSSP and SBP (in £/MWh) and the Net Imbalance Volume (NIV) (in MWh) for every Settlement Period in a particular day.\n\nIndicative SSP and SBP on the Insights Solution\nFinalised Settlement data is published in Best View Prices on BSC Portal\nAccessing data\nElexon Portal\nInsights Solution\nMore about the data\n\nPricing and related data used in BSC processes includes:\n\nSystem Sell Price and System Buy Price\nMarket Index Price and Volume\nParameters used in the calculation of System Prices (Energy Imbalance Price):\nNIV – Net Imbalance Volume\nPAR – Price Average Reference Volume\nDMAT – De Minimis Acceptance Threshold\nCADL – Continuous Acceptance Duration Limit\nMIDS – Market Index Definition Statement\nLoLP – Loss of Load Probability\nVoLL – Value of Loss Load\nRSVP – Reserve Scarcity Price\nUtilisation Price\nMore about pricing\n\nA Party is out of balance when its contracted energy volume does not match its physical production or consumption.\n\nSSP is paid to BSC Trading Parties who have a net surplus of imbalance energy, and SBP is paid by BSC Trading Parties who have a net deficit of imbalance energy. These prices are designed to reflect the prices associated with the Balancing Mechanism Bids and Offers selected by National Grid to balance the energy flows in the Transmission System, as well as reserve scarcity.\n\nCalculating SSP and SBP price\n\nFor each half hour trading period, the ‘cash-out’ or ‘energy imbalance’ prices (System Sell Price and System Buy Price) will be associated with Balancing Mechanism Bids and Offers accepted by National Grid as well as the Balancing Services used for that specific half hour.\n\nMarket Index Data Volume and Price\n\nMarket Index Data (MID) is used in the calculation of the Market Index Price for each Settlement Period, and reflects the price of wholesale electricity in the short-term market.\nMID Volume (in MWh) and Price (in £/MWh) for every Settlement can be obtained from BMReports.com and the Elexon Portal.\n\nMore on Market Index Definition Statement for Market Index Data Provider(s)\nSystem Prices (Energy Imbalance Price) parameters\nNet Imbalance Volume (NIV)\n\nNIV is the net imbalance volume (in MWh) of the total system for a given Settlement Period. It is derived by netting Buy and Sell Actions in the Balancing Mechanism. Where the NIV is positive, the system is short and would normally result in the SO accepting Offers to increase generation/decrease consumption.\n\nWhere NIV is negative, the system is long and the SO would normally accept Bids to reduce generation/increase consumption. It is subject to change via Standard Settlement Runs.\n\nPrice Average Reference (PAR) Volume\n\nThe Price Averaging Reference (PAR) volume is used to tag Bid-Offer acceptances such that a maximum volume of PAR MWh is used to set the Energy Imbalance Price.\n\nPlease note: The current value of PAR is 1MWh.\n\nThe PAR may only be amended by an Approved Modification.\n\nDe Minimis Acceptance Threshold (DMAT)\n\nThe De Minimis Acceptance Threshold is a parameter used to eliminate Bid/Offer acceptances of small volume. DMAT is currently 0.1MWh.\n\nThis value is written into the text of BSC Section T Paragraph 1.7 the BSC Panel may review it from time to time.\n\nProposed revisions to the value of DMAT are consulted upon with the Transmission Company and Trading Parties before a Panel determination is made, and are subject to Ofgem’s approval.\n\nContinuous Acceptance Duration Limit (CADL)\n\nCADL is used to flag short duration Bid-Offer acceptances, associated with system balancing actions in the Energy Imbalance Price calculation.\n\nA Bid-Offer acceptance relating to any given Balancing Mechanism (BM) Unit will be flagged in the system price calculation if it has duration of less than the CADL value in minutes. CADL is currently 10 minutes.\n\nCADL is defined in BSC Section T Paragraph 3.1B.\n\nThe BSC Panel may revise the value of CADL after consulting with BSC Parties but subject to Ofgem’s approval.\n\nLoss of Load Probability (LoLP)\n\nThe LoLP is a measure of system reliability calculated by the System Operator (SO) for each Settlement Period.\n\nThe System Operator’s methodology is set out in the Loss of Load Probability Calculation Statement.\n\nPlease note: Currently a dynamic LoLP function is used.\n\nValue of Loss Load (VoLL)\n\nThe VoLL price is an assessment of the average value that electricity consumers attribute to the security of supply. It is currently set at £6,000/MWh.\n\nReserve Scarcity Price (RSVP)\n\nBoth accepted BM and non-BM Short Term Operating Reserve (STOR) Actions are included in the calculation of System Prices as individual actions, with a price which is the greater of the Utilisation Price for that action or the RSVP.\n\nThe RSVP is based on the prevailing system scarcity, and is calculated as the product the VoLL and the LoLP for each Settlement Period.\n\nUtilisation Price\n\nThe price (in £/MWh) sent by the SO in respect of the utilisation of a STOR Action which:\n\nin relation to a BM STOR Action shall be the Offer Price\nin relation to a Non-BM STOR Action shall be the Balancing Services Adjustment Cost\nMarket Index Definition Statement (MIDS) Parameters\n\nThe Market Index Definition Statement (MIDS) defines two main parameters.\n\nIndividual Liquidity Threshold (ILT)\ntime and product weightings\n\nThe Individual Liquidity Threshold (ILT) and (time and product) weightings parameters are published on the Elexon Portal.\n\nMarket Index Data is used in Settlement to calculate a price, expressed in £/MWh in respect of each Settlement Period, which reflects the price of wholesale electricity in Great Britain in the short-term market.\n\nThe Market Index Definition Statement (MIDS) defines the parameters for use by the Market Index Data Provider (MIDP) in the provision of Market Index data (MID) to the Settlement Administration Agent (SAA).\n\nThe MIDS is reviewed by the BSC Panel at least once a year. Any proposed changes are consulted upon with BSC Parties before the Panel determines whether a change is to be made.\n\nA change to the MIDS is subject to approval by Ofgem.\n\nMore on Market Index Definition Statement for Market Index Data Provider(s)\nSidebar\nContact information\nElexon Support\nFollow this page\n\nEnter your email below to subscribe for regular updates.\n\nEmail Address\nSubscribe\nTraining services\nTraining on Imbalance Settlement\nIntroduction to the energy market\nGuidance Notes\nBSC Section T Simple Guide\nImbalance Pricing\nBSC codes\nBSC Section T\nAccessibility\n\nPlease let us know if you cannot access this information or need it in an alternative format.\n\ncommunications@elexon.co.uk\n\nBSC\nCMAG\nDIP\nEMRS\nFM\nMHHS\nNCC\nSSES\nCorporate Policies\nPrivacy Policy\nCookie Policy\nContact Elexon\nService Status Dashboard\nA-Z Index\nGlossary\nUsing this website\nLinkedin\nX\nGlassdoor\nCopyright © 2026 Elexon",
+  "links": [
+    {
+      "title": "Services",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#"
+    },
+    {
+      "title": "Balancing and Settlement Code",
+      "url": "https://www.elexon.co.uk/bsc/"
+    },
+    {
+      "title": "Capacity Market Advisory Group",
+      "url": "https://www.elexon.co.uk/cmag/"
+    },
+    {
+      "title": "Data Integration Platform",
+      "url": "https://www.elexon.co.uk/data-integration-platform/"
+    },
+    {
+      "title": "EMR Settlement Services",
+      "url": "https://www.emrsettlement.co.uk/"
+    },
+    {
+      "title": "Flexibility Markets Facilitator",
+      "url": "https://www.elexon.co.uk/flexibility-markets/"
+    },
+    {
+      "title": "Network Charging Compensation Scheme",
+      "url": "https://www.elexon.co.uk/what-we-do/about-our-services/network-charging-compensation-scheme/"
+    },
+    {
+      "title": "Smart Secure Electricity Systems",
+      "url": "https://www.elexon.co.uk/sses/"
+    },
+    {
+      "title": "Programmes",
+      "url": "https://www.elexon.co.uk/what-we-do/about-our-programmes/"
+    },
+    {
+      "title": "Elexon Support",
+      "url": "https://support.elexon.co.uk/csm"
+    },
+    {
+      "title": "My services",
+      "url": "https://login.elexon.co.uk/"
+    },
+    {
+      "title": "Menu",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#"
+    },
+    {
+      "title": "About BSC",
+      "url": "https://www.elexon.co.uk/bsc/about/"
+    },
+    {
+      "title": "About BSC",
+      "url": "https://www.elexon.co.uk/bsc/about/"
+    },
+    {
+      "title": "About BSC",
+      "url": "https://www.elexon.co.uk/bsc/about/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/"
+    },
+    {
+      "title": "BSC Costs and Charges",
+      "url": "https://www.elexon.co.uk/bsc/about/bsc-costs-charges/"
+    },
+    {
+      "title": "BSC News & Insights",
+      "url": "https://www.elexon.co.uk/bsc/news-events/"
+    },
+    {
+      "title": "BSC News & Insights",
+      "url": "https://www.elexon.co.uk/bsc/news-events/"
+    },
+    {
+      "title": "BSC News & Insights",
+      "url": "https://www.elexon.co.uk/bsc/news-events/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/news-events/"
+    },
+    {
+      "title": "BSC Meetings & events",
+      "url": "https://www.elexon.co.uk/bsc/events-calendar/"
+    },
+    {
+      "title": "BSC Insights & ‘Spotlight On’ articles",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-insights/"
+    },
+    {
+      "title": "BSC Signatories & Qualified Persons",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-key-contacts/bsc-signatories-qualified-persons/"
+    },
+    {
+      "title": "Roles and Parties within the electricity industry",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/"
+    },
+    {
+      "title": "Roles and Parties within the electricity industry",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/"
+    },
+    {
+      "title": "Roles and Parties within the electricity industry",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/"
+    },
+    {
+      "title": "Interconnector Administrator and Error Administrator roles",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/interconnector-administrator-and-interconnector-error-administrator/"
+    },
+    {
+      "title": "Interconnector User role",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/interconnector-user/"
+    },
+    {
+      "title": "Virtual Lead Party role",
+      "url": "https://www.elexon.co.uk/bsc/about/roles/virtual-lead-party/"
+    },
+    {
+      "title": "Becoming a Virtual Trading Party",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-virtual-trading-party/"
+    },
+    {
+      "title": "Becoming a Generator",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-generator/"
+    },
+    {
+      "title": "Becoming a Supplier",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-supplier/"
+    },
+    {
+      "title": "Becoming a Non Physical Trader",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-non-physical-trader/"
+    },
+    {
+      "title": "Becoming an Energy Contract Volume Notification Agent",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-an-energy-contract-volume-notification-agent/"
+    },
+    {
+      "title": "Becoming a Metered Volume Reallocation Notification Agent",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-a-metered-volume-reallocation-notification-agent/"
+    },
+    {
+      "title": "Becoming an Asset Metering Virtual Lead Party",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-an-asset-metering-virtual-lead-party/"
+    },
+    {
+      "title": "Becoming a LDSO or IDNO",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-a-ldso-or-idno/"
+    },
+    {
+      "title": "Consultations",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/"
+    },
+    {
+      "title": "Consultations",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/"
+    },
+    {
+      "title": "Consultations",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/"
+    },
+    {
+      "title": "Change consultations",
+      "url": "https://www.elexon.co.uk/bsc/change/consultations/"
+    },
+    {
+      "title": "Process, Operational and Credit Consultations",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/others/"
+    },
+    {
+      "title": "Elexon’s responses to industry-wide consultations",
+      "url": "https://www.elexon.co.uk/about-elexon/consultations/"
+    },
+    {
+      "title": "Training videos and services",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-training/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-training/"
+    },
+    {
+      "title": "BSC & Codes",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/"
+    },
+    {
+      "title": "BSC & Codes",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/"
+    },
+    {
+      "title": "BSC & Codes",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/"
+    },
+    {
+      "title": "Consultations on BSC and codes",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/bsc/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/bsc/"
+    },
+    {
+      "title": "User Requirements Specifications",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/user-requirements-specifications"
+    },
+    {
+      "title": "Digital Code site homepage",
+      "url": "https://bscdocs.elexon.co.uk/"
+    },
+    {
+      "title": "Category 3 Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents"
+    },
+    {
+      "title": "Category 3 Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents"
+    },
+    {
+      "title": "Category 3 Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents"
+    },
+    {
+      "title": "Read More",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents"
+    },
+    {
+      "title": "Accurate/Limited Status and MHHS Supplier Charges Eligible Settlement Runs of Consumption Component Classes",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/accuratelimited-status-and-mhhs-supplier-charges-eligible-settlement-runs-of-consumption-component-classes"
+    },
+    {
+      "title": "BSC Sandbox Procedure",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/bsc-sandbox-procedure"
+    },
+    {
+      "title": "Baselining Methodology Document",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/baselining-methodology-document"
+    },
+    {
+      "title": "Code Subsidiary Documents Architectural Principles",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/code-subsidiary-documents-architectural-principles"
+    },
+    {
+      "title": "Demand Capacity and Generation Capacity Limit Review and Determination",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/demand-capacity-and-generation-capacity-limit-review-and-determination"
+    },
+    {
+      "title": "Demand Disconnection Event Threshold Rules",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/demand-disconnection-event-threshold-rules"
+    },
+    {
+      "title": "Limit on SVA Connection for Auxiliary Supplies for CVA Primary BM Units",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/limit-on-sva-connection-for-auxiliary-supplies-for-cva-primary-bm-units"
+    },
+    {
+      "title": "Loss of Load Probability Calculation Methodology Statement",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/loss-of-load-probability-calculation-methodolgy-statement"
+    },
+    {
+      "title": "Market Index Definition Statement",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/market-index-definition-statement"
+    },
+    {
+      "title": "On-Site Energy Allocation Methodology Document",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/on-site-energy-allocation-methodology-document"
+    },
+    {
+      "title": "Party Service Line 100: Generic Requirements for BSC Parties and Party Agents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/party-service-line-100-generic-requirements-for-bsc-parties-and-party-agents"
+    },
+    {
+      "title": "Process for Requesting BSC Data",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/process-for-requesting-bsc-data"
+    },
+    {
+      "title": "Qualification Readiness Assessment",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/qualification-readiness-assessment"
+    },
+    {
+      "title": "Replacement Reserve Schedule Methodology",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/replacement-reserve-schedule-methodology"
+    },
+    {
+      "title": "Self Assessment Document (SAD): forms (obsolete)",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/self-assessment-document-sad-qualification-process-for-sva-parties-sva-party-agents-and-cva-moas"
+    },
+    {
+      "title": "Settlement Performance Weightings of Consumption Component Classes",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/settlement-performance-weightings-of-consumption-component-classes"
+    },
+    {
+      "title": "Supplier Compensation Reference Price Methodology Document",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/category-3-documents/supplier-compensation-reference-price-methodology-document"
+    },
+    {
+      "title": "Balancing & Settlement Code",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/bsc"
+    },
+    {
+      "title": "BSC Baseline Statement",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/bsc-baseline-statement/"
+    },
+    {
+      "title": "BSC Procedures",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/bsc-procedures"
+    },
+    {
+      "title": "Guidance Notes",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/guidance-notes"
+    },
+    {
+      "title": "Business Definition Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/business-definition-documents"
+    },
+    {
+      "title": "BSC Simple Guides",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/simple-guides"
+    },
+    {
+      "title": "Codes of Practice",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/codes-of-practice"
+    },
+    {
+      "title": "Code Administration Code of Practice (CACoP)",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/code-administration-code-practice-cacop/"
+    },
+    {
+      "title": "Interface Definition Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/interface-definition-documents"
+    },
+    {
+      "title": "EU legislation directly impacting on the BSC",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/europe/"
+    },
+    {
+      "title": "Service Descriptions",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/service-descriptions"
+    },
+    {
+      "title": "Derogations from the BSC using the BSC Sandbox",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/derogations-from-the-bsc/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/derogations-from-the-bsc/"
+    },
+    {
+      "title": "Settlement Software Documents",
+      "url": "https://bscdocs.elexon.co.uk/bsc-module/settlement-software-documents"
+    },
+    {
+      "title": "About the Digital Code site",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/"
+    },
+    {
+      "title": "About the Digital Code site",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/"
+    },
+    {
+      "title": "About the Digital Code site",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/"
+    },
+    {
+      "title": "Digital Code ongoing development and planning",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/digital-code/digital-code-ongoing-development-and-planning/"
+    },
+    {
+      "title": "Changes & Releases",
+      "url": "https://www.elexon.co.uk/bsc/change/"
+    },
+    {
+      "title": "Changes & Releases",
+      "url": "https://www.elexon.co.uk/bsc/change/"
+    },
+    {
+      "title": "Changes & Releases",
+      "url": "https://www.elexon.co.uk/bsc/change/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/"
+    },
+    {
+      "title": "Calendar and events",
+      "url": "https://www.elexon.co.uk/bsc/events-calendar/"
+    },
+    {
+      "title": "Change Consultations",
+      "url": "https://www.elexon.co.uk/bsc/change/consultations/"
+    },
+    {
+      "title": "BSC Change Forum",
+      "url": "https://www.elexon.co.uk/bsc/change/bsc-change-forum/"
+    },
+    {
+      "title": "Change Report and Change Register",
+      "url": "https://www.elexon.co.uk/bsc/change/change-register/"
+    },
+    {
+      "title": "BSC changes by role",
+      "url": "https://www.elexon.co.uk/bsc/change/bsc-changes-by-role/"
+    },
+    {
+      "title": "Modifications",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/"
+    },
+    {
+      "title": "Modifications",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/"
+    },
+    {
+      "title": "Modifications",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/"
+    },
+    {
+      "title": "Modification and Issue Workgroups",
+      "url": "https://www.elexon.co.uk/bsc/change/modifications/modification-workgroups/"
+    },
+    {
+      "title": "Change Proposals",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/"
+    },
+    {
+      "title": "Change Proposals",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/"
+    },
+    {
+      "title": "Change Proposals",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/"
+    },
+    {
+      "title": "Change Proposal Circulars",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/change-proposal-circulars/"
+    },
+    {
+      "title": "Change Proposal Consultation Impact Assessment Timetable",
+      "url": "https://www.elexon.co.uk/bsc/change/change-proposals/change-proposal-consultation-impact-assessment-timetable/"
+    },
+    {
+      "title": "Issues",
+      "url": "https://www.elexon.co.uk/bsc/change/standing-modification-group-issues/"
+    },
+    {
+      "title": "Government and Ofgem directions to the Code (ORDs)",
+      "url": "https://www.elexon.co.uk/bsc/change/other-regulatory-decisions/"
+    },
+    {
+      "title": "Standard Changes",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/list-of-all-bsc-standard-changes/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/list-of-all-bsc-standard-changes/"
+    },
+    {
+      "title": "Standard Changes",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/list-of-all-bsc-standard-changes/"
+    },
+    {
+      "title": "Standard Changes",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/list-of-all-bsc-standard-changes/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/list-of-all-bsc-standard-changes/"
+    },
+    {
+      "title": "About Standard Changes",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/standard-changes/"
+    },
+    {
+      "title": "Releases and implementing Change",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/the-release-and-implementation-process/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/the-release-and-implementation-process/"
+    },
+    {
+      "title": "Releases and implementing Change",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/the-release-and-implementation-process/"
+    },
+    {
+      "title": "Releases and implementing Change",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/the-release-and-implementation-process/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/the-release-and-implementation-process/"
+    },
+    {
+      "title": "List of Releases",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/"
+    },
+    {
+      "title": "Release Circulars",
+      "url": "https://www.elexon.co.uk/bsc/change/releases/release-circulars/"
+    },
+    {
+      "title": "Committees & Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/"
+    },
+    {
+      "title": "Committees & Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/"
+    },
+    {
+      "title": "Committees & Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/groups/"
+    },
+    {
+      "title": "Calendar and events",
+      "url": "https://www.elexon.co.uk/bsc/events-calendar/"
+    },
+    {
+      "title": "DIP Change and Advisory Board (DCAB)",
+      "url": "https://www.elexon.co.uk/bsc/groups/dip-change-and-advisory-board-dcab/"
+    },
+    {
+      "title": "BSC Stakeholder Advisory Forum",
+      "url": "https://www.elexon.co.uk/bsc/groups/bsc-stakeholder-advisory-forum/"
+    },
+    {
+      "title": "Balancing Mechanism Reporting Service Change Board (BCB)",
+      "url": "https://www.elexon.co.uk/bsc/group/balancing-mechanism-reporting-service-change-board-bcb/"
+    },
+    {
+      "title": "BSC Panel",
+      "url": "https://www.elexon.co.uk/bsc/group/the-panel/"
+    },
+    {
+      "title": "Industry Workgroups",
+      "url": "https://www.elexon.co.uk/bsc/groups/working-groups/"
+    },
+    {
+      "title": "Credit Committee",
+      "url": "https://www.elexon.co.uk/bsc/group/credit-committee-cc/"
+    },
+    {
+      "title": "Market-wide Half Hourly Settlement Working Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/"
+    },
+    {
+      "title": "Market-wide Half Hourly Settlement Working Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/"
+    },
+    {
+      "title": "Market-wide Half Hourly Settlement Working Groups",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/"
+    },
+    {
+      "title": "MHHS Expert Group",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/mhhs-expert-group/"
+    },
+    {
+      "title": "MHHS Settlement Assurance",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/mhhs-settlement-assurance-working-group/"
+    },
+    {
+      "title": "MHHS Transitional Operations Group",
+      "url": "https://www.elexon.co.uk/bsc/groups/market-wide-half-hourly-settlement-mhhs-working-groups/mhhs-transitional-operations-group/"
+    },
+    {
+      "title": "Data Protection Committee",
+      "url": "https://www.elexon.co.uk/bsc/groups/data-protection-committee/"
+    },
+    {
+      "title": "Performance Assurance Board (PAB)",
+      "url": "https://www.elexon.co.uk/bsc/group/performance-assurance-board-pab/"
+    },
+    {
+      "title": "Imbalance Settlement Group (ISG)",
+      "url": "https://www.elexon.co.uk/bsc/group/imbalance-settlement-group-isg/"
+    },
+    {
+      "title": "Q8 committee",
+      "url": "https://www.elexon.co.uk/bsc/group/q8-committee/"
+    },
+    {
+      "title": "Technical Assurance of Metering Expert Group (TAMEG)",
+      "url": "https://www.elexon.co.uk/bsc/group/technical-assurance-of-metering-expert-group-tameg/"
+    },
+    {
+      "title": "Supplier Volume Allocation Group (SVG)",
+      "url": "https://www.elexon.co.uk/bsc/group/supplier-volume-allocation-group-svg/"
+    },
+    {
+      "title": "Software Technical Advisory Group (STAG)",
+      "url": "https://www.elexon.co.uk/bsc/group/software-technical-advisory-group-stag/"
+    },
+    {
+      "title": "Trading Disputes Committee (TDC)",
+      "url": "https://www.elexon.co.uk/bsc/group/trading-disputes-committee-tdc/"
+    },
+    {
+      "title": "Unmetered Supplies User Group (UMSUG)",
+      "url": "https://www.elexon.co.uk/bsc/group/unmetered-supplies-user-group-umsug/"
+    },
+    {
+      "title": "BSC Change Forum",
+      "url": "https://www.elexon.co.uk/bsc/change/bsc-change-forum/"
+    },
+    {
+      "title": "Settlement & Invoicing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/"
+    },
+    {
+      "title": "Settlement & Invoicing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/"
+    },
+    {
+      "title": "Settlement & Invoicing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/"
+    },
+    {
+      "title": "Consultations on Operations and Settlement",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/operations-and-settlement/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/operations-and-settlement/"
+    },
+    {
+      "title": "Energy Price Guarantee scheme administration",
+      "url": "https://www.elexon.co.uk/bsc/settlement/energy-price-guarantee-scheme-administration/"
+    },
+    {
+      "title": "About the Kinnect Settlement Solution project",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/kinnect-settlement-solution/"
+    },
+    {
+      "title": "BSC Central Services and Kinnect platform",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/"
+    },
+    {
+      "title": "BSC Central Services and Kinnect platform",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/"
+    },
+    {
+      "title": "BSC Central Services and Kinnect platform",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/"
+    },
+    {
+      "title": "Elexon Kinnect platform",
+      "url": "https://www.elexon.co.uk/bsc/settlement/bsc-central-services/elexon-kinnect-platform/"
+    },
+    {
+      "title": "BSC Portal",
+      "url": "https://www.elexonportal.co.uk/"
+    },
+    {
+      "title": "Credit Cover explained",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/"
+    },
+    {
+      "title": "Credit Cover explained",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/"
+    },
+    {
+      "title": "Credit Cover explained",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/"
+    },
+    {
+      "title": "Calculating credit cover",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/calculating-credit-cover/"
+    },
+    {
+      "title": "Lodging and withdrawing Credit Cover",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/lodging-credit-cover/"
+    },
+    {
+      "title": "Credit Default",
+      "url": "https://www.elexon.co.uk/bsc/settlement/credit/credit-default/"
+    },
+    {
+      "title": "GSP Group Correction Factors",
+      "url": "https://www.elexon.co.uk/bsc/settlement/gsp-group-correction-factors/"
+    },
+    {
+      "title": "Imbalance Pricing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/"
+    },
+    {
+      "title": "Trading Charges",
+      "url": "https://www.elexon.co.uk/bsc/settlement/trading-charges/"
+    },
+    {
+      "title": "Transmission Losses",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/"
+    },
+    {
+      "title": "Transmission Losses",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/"
+    },
+    {
+      "title": "Transmission Losses",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/"
+    },
+    {
+      "title": "Transmission Loss Factor analysis",
+      "url": "https://www.elexon.co.uk/bsc/operational/transmission-losses/transmission-loss-factors-analysis/"
+    },
+    {
+      "title": "Transmission Loss Factors determination data",
+      "url": "https://www.elexon.co.uk/bsc/settlement/transmission-losses/tlf-data/"
+    },
+    {
+      "title": "Estimated Transmission Loss Adjustments",
+      "url": "https://www.elexon.co.uk/bsc/operational/transmission-losses/estimated-transmission-loss-adjustments/"
+    },
+    {
+      "title": "Profiling",
+      "url": "https://www.elexon.co.uk/bsc/settlement/profiling/"
+    },
+    {
+      "title": "Operational Practices",
+      "url": "https://www.elexon.co.uk/bsc/operational/"
+    },
+    {
+      "title": "Operational Practices",
+      "url": "https://www.elexon.co.uk/bsc/operational/"
+    },
+    {
+      "title": "Operational Practices",
+      "url": "https://www.elexon.co.uk/bsc/operational/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/"
+    },
+    {
+      "title": "Consultations on Operations and Settlement",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/operations-and-settlement/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/operations-and-settlement/"
+    },
+    {
+      "title": "Market-wide Half Hourly Settlement and the BSC",
+      "url": "https://www.elexon.co.uk/bsc/operational/market-wide-half-hourly-settlement/"
+    },
+    {
+      "title": "About the Kinnect Customer Solution",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/"
+    },
+    {
+      "title": "About the Kinnect Customer Solution",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/"
+    },
+    {
+      "title": "About the Kinnect Customer Solution",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/"
+    },
+    {
+      "title": "FAQs when using the Kinnect Customer Solution",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/elexon-kinnect-faqs-and-guidance/"
+    },
+    {
+      "title": "FAQs for SVA Non Final Demand Facility Declaration",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/faqs-for-sva-non-final-demand-facility-declaration/"
+    },
+    {
+      "title": "Kinnect Customer Solution ongoing development and planning",
+      "url": "https://www.elexon.co.uk/bsc/operational/kinnect-customer-solution/customer-solution-ongoing-development/"
+    },
+    {
+      "title": "BSC Portal",
+      "url": "https://www.elexonportal.co.uk/"
+    },
+    {
+      "title": "Trading Disputes",
+      "url": "https://www.elexon.co.uk/bsc/operational/dispute-decisions/"
+    },
+    {
+      "title": "Balancing Mechanism Units",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/"
+    },
+    {
+      "title": "Balancing Mechanism Units",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/"
+    },
+    {
+      "title": "Balancing Mechanism Units",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/"
+    },
+    {
+      "title": "Credit Assessment Load Factor",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/credit-assessment-load-factor/"
+    },
+    {
+      "title": "Generation and Demand Capacity",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/generation-and-demand-capacity/"
+    },
+    {
+      "title": "BM Unit Transfers",
+      "url": "https://www.elexon.co.uk/bsc/operational/balancing-mechanism-units/bm-unit-transfers/"
+    },
+    {
+      "title": "Line Loss Factors",
+      "url": "https://www.elexon.co.uk/bsc/operational/losses/"
+    },
+    {
+      "title": "Metering",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/"
+    },
+    {
+      "title": "Metering",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/"
+    },
+    {
+      "title": "Metering",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/"
+    },
+    {
+      "title": "Aggregation Rules & Trading Units",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/aggregation-rules-trading-units/"
+    },
+    {
+      "title": "AMVLP upload service for Lead Party Asset Meter Registers",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/amvlp-upload-service-for-lead-party-asset-meter-registers/"
+    },
+    {
+      "title": "Current and Voltage Transformer ratios",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/current-and-voltage-transformer-ratios/"
+    },
+    {
+      "title": "Erroneous Large EACs and AAs",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/erroneous-large-eacs-and-aas/"
+    },
+    {
+      "title": "Metering Dispensations",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/metering-dispensations/"
+    },
+    {
+      "title": "Technical Assurance of Metering Systems",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/technical-assurance-of-metering-systems/"
+    },
+    {
+      "title": "F602 01 SVA Non Final Demand Facility Declaration web form",
+      "url": "https://www.elexon.co.uk/bsc/operational/metering/f602-01-sva-non-final-demand-facility-declaration-web-form/"
+    },
+    {
+      "title": "Supplier Hub Operations",
+      "url": "https://www.elexon.co.uk/bsc/operational/supplier-hub-operations/"
+    },
+    {
+      "title": "Unmetered Supplies",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/"
+    },
+    {
+      "title": "Unmetered Supplies",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/"
+    },
+    {
+      "title": "Unmetered Supplies",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/"
+    },
+    {
+      "title": "Central Management Systems",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/central-management-systems/"
+    },
+    {
+      "title": "Charge Codes and Switch Regimes",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/charge-codes-and-switch-regimes/"
+    },
+    {
+      "title": "Unmetered Supplies contacts form",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/unmetered-supplies-contacts/"
+    },
+    {
+      "title": "BSC Data Reports",
+      "url": "https://www.elexon.co.uk/bsc/data/"
+    },
+    {
+      "title": "BSC Data Reports",
+      "url": "https://www.elexon.co.uk/bsc/data/"
+    },
+    {
+      "title": "BSC Data Reports",
+      "url": "https://www.elexon.co.uk/bsc/data/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/"
+    },
+    {
+      "title": "Insights Solution",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "Insights Solution",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "Insights Solution",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "REMIT",
+      "url": "https://bmrs.elexon.co.uk/remit"
+    },
+    {
+      "title": "Generation data",
+      "url": "https://bmrs.elexon.co.uk/generation"
+    },
+    {
+      "title": "Demand data",
+      "url": "https://bmrs.elexon.co.uk/demand"
+    },
+    {
+      "title": "Balancing data",
+      "url": "https://bmrs.elexon.co.uk/balancing"
+    },
+    {
+      "title": "Transmission data",
+      "url": "https://bmrs.elexon.co.uk/transmission"
+    },
+    {
+      "title": "Insights data notices",
+      "url": "https://bmrs.elexon.co.uk/notices"
+    },
+    {
+      "title": "Insights API documentation",
+      "url": "https://bmrs.elexon.co.uk/api-documentation"
+    },
+    {
+      "title": "Insights Real-Time Information Service (IRIS)",
+      "url": "https://bmrs.elexon.co.uk/iris"
+    },
+    {
+      "title": "About the Insights Solution service",
+      "url": "https://www.elexon.co.uk/bsc/data/kinnect-insights-solution/"
+    },
+    {
+      "title": "About the Insights Solution service",
+      "url": "https://www.elexon.co.uk/bsc/data/kinnect-insights-solution/"
+    },
+    {
+      "title": "About the Insights Solution service",
+      "url": "https://www.elexon.co.uk/bsc/data/kinnect-insights-solution/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/kinnect-insights-solution/"
+    },
+    {
+      "title": "Insights Solution ongoing development and planning",
+      "url": "https://www.elexon.co.uk/bsc/data/kinnect-insights-solution/kinnect-insights-solution-ongoing-development-and-planning/"
+    },
+    {
+      "title": "BSC Portal",
+      "url": "https://www.elexonportal.co.uk/"
+    },
+    {
+      "title": "Trading Operations Report",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/"
+    },
+    {
+      "title": "Trading Operations Report",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/"
+    },
+    {
+      "title": "Trading Operations Report",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/"
+    },
+    {
+      "title": "Generation and Demand data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/generation-and-demand-data-trading-operations-report/"
+    },
+    {
+      "title": "GSP Group Correction Factors data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/gsp-group-correction-factors-data-trading-operations-report/"
+    },
+    {
+      "title": "Imbalance Volumes data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/imbalance-volumes-data-trading-operations-report/"
+    },
+    {
+      "title": "Metering data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/metering-data-trading-operations-report/"
+    },
+    {
+      "title": "Balancing Services data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/balancing-services-data-from-the-trading-operations-report/"
+    },
+    {
+      "title": "Cash Flows data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/cash-flows-data-trading-operations-report/"
+    },
+    {
+      "title": "SVA Storage Facility data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/sva-storage-facility-data-from-the-trading-operations-report/"
+    },
+    {
+      "title": "System Performance data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/system-performance-data-trading-operations-report/"
+    },
+    {
+      "title": "Credit data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/credit-data-trading-operations-report/"
+    },
+    {
+      "title": "Transmission Losses data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/transmission-losses-data-trading-operations-report/"
+    },
+    {
+      "title": "Energy Settled on Metered data",
+      "url": "https://www.elexon.co.uk/bsc/data/trading-operations-report/energy-settled-on-metered-data-trading-operations-report/"
+    },
+    {
+      "title": "Half hourly settlement data",
+      "url": "https://www.elexon.co.uk/bsc/data/half-hourly-settlement-data/"
+    },
+    {
+      "title": "Peer Comparison Graphs",
+      "url": "https://www.elexon.co.uk/bsc/data/peer-comparison-graphs/"
+    },
+    {
+      "title": "Gross Supplier Market Share Data reports",
+      "url": "https://www.elexon.co.uk/bsc/data/gross-supplier-market-share-data-reports/"
+    },
+    {
+      "title": "Industry Standing Data",
+      "url": "https://www.elexon.co.uk/bsc/data/industry-standing-data/"
+    },
+    {
+      "title": "Industry Standing Data",
+      "url": "https://www.elexon.co.uk/bsc/data/industry-standing-data/"
+    },
+    {
+      "title": "Industry Standing Data",
+      "url": "https://www.elexon.co.uk/bsc/data/industry-standing-data/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/industry-standing-data/"
+    },
+    {
+      "title": "Industry Standing Data (ISD) Circulars",
+      "url": "https://www.elexon.co.uk/bsc/data/industry-standing-data/industry-standing-data-isd-circulars/"
+    },
+    {
+      "title": "Market Domain Data",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/"
+    },
+    {
+      "title": "Market Domain Data",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/"
+    },
+    {
+      "title": "Market Domain Data",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/"
+    },
+    {
+      "title": "Market Domain Data / Industry Standing Data Release Schedule",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/mdd-release-schedule/"
+    },
+    {
+      "title": "Market Domain Data (MDD) Circulars",
+      "url": "https://www.elexon.co.uk/bsc/data/market-domain-data/mdd-circulars/"
+    },
+    {
+      "title": "Open Settlement Data",
+      "url": "https://www.elexon.co.uk/bsc/data/open-settlement-data/"
+    },
+    {
+      "title": "Data flows",
+      "url": "https://www.elexon.co.uk/bsc/about/consultations/data-flows/"
+    },
+    {
+      "title": "Open Data Requests",
+      "url": "https://www.elexon.co.uk/bsc/data/open-data-requests/"
+    },
+    {
+      "title": "Short Term Operating Reserve (STOR) Availability Window",
+      "url": "https://www.elexon.co.uk/bsc/data/short-term-operating-reserve-stor-availability-window/"
+    },
+    {
+      "title": "Market Entry & Exit",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/"
+    },
+    {
+      "title": "Market Entry & Exit",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/"
+    },
+    {
+      "title": "Market Entry & Exit",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/"
+    },
+    {
+      "title": "Consultations on Market Entry and Compliance",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/market-entry-and-compliance/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/market-entry-and-compliance/"
+    },
+    {
+      "title": "How to enter the market by role",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/how-to-enter-the-market-by-role/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/how-to-enter-the-market-by-role/"
+    },
+    {
+      "title": "How to enter the market by role",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/how-to-enter-the-market-by-role/"
+    },
+    {
+      "title": "How to enter the market by role",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/how-to-enter-the-market-by-role/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/how-to-enter-the-market-by-role/"
+    },
+    {
+      "title": "Becoming a Generator",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-generator/"
+    },
+    {
+      "title": "Becoming a Supplier",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-supplier/"
+    },
+    {
+      "title": "Becoming a Non Physical Trader",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-non-physical-trader/"
+    },
+    {
+      "title": "Becoming an Interconnector User",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-interconnector-user/"
+    },
+    {
+      "title": "Becoming an Interconnector Administrator or Interconnector Error Administrator",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-an-interconnector-administrator-or-interconnector-error-administrator/"
+    },
+    {
+      "title": "Becoming an Energy Contract Volume Notification Agent",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-an-energy-contract-volume-notification-agent/"
+    },
+    {
+      "title": "Becoming a Metered Volume Reallocation Notification Agent",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-a-metered-volume-reallocation-notification-agent/"
+    },
+    {
+      "title": "Becoming a Virtual Lead Party",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-virtual-lead-party/"
+    },
+    {
+      "title": "Becoming a Virtual Trading Party",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-virtual-trading-party/"
+    },
+    {
+      "title": "Becoming an Asset Metering Virtual Lead Party",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-an-asset-metering-virtual-lead-party/"
+    },
+    {
+      "title": "Becoming a LDSO or IDNO",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/becoming-a-ldso-or-idno/"
+    },
+    {
+      "title": "Market Entry Process videos",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/market-entry-process-videos/"
+    },
+    {
+      "title": "Order Communication Line process diagram",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/order-communication-line-process-diagram/"
+    },
+    {
+      "title": "Registration of Balancing Mechanism Units for EMR",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/registration-balancing-mechanism-units-emr-assets/"
+    },
+    {
+      "title": "SVA Qualification and Re-Qualification",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/"
+    },
+    {
+      "title": "SVA Qualification and Re-Qualification",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/"
+    },
+    {
+      "title": "SVA Qualification and Re-Qualification",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/"
+    },
+    {
+      "title": "Qualification Test Framework",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/sva-qualification/qualification-test-framework/"
+    },
+    {
+      "title": "CVA Qualification",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/cva-qualification/"
+    },
+    {
+      "title": "Exiting the Market",
+      "url": "https://www.elexon.co.uk/bsc/reference/market-exit/"
+    },
+    {
+      "title": "Performance Assurance",
+      "url": "https://www.elexon.co.uk/bsc/reference/"
+    },
+    {
+      "title": "Performance Assurance",
+      "url": "https://www.elexon.co.uk/bsc/reference/"
+    },
+    {
+      "title": "Performance Assurance",
+      "url": "https://www.elexon.co.uk/bsc/reference/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/reference/"
+    },
+    {
+      "title": "Consultations on Market Entry and Compliance",
+      "url": "https://www.elexon.co.uk/bsc/consultation_type/market-entry-and-compliance/"
+    },
+    {
+      "title": "Performance Assurance Framework",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/"
+    },
+    {
+      "title": "PAF explained",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/paf-explained/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/paf-explained/"
+    },
+    {
+      "title": "PAF explained",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/paf-explained/"
+    },
+    {
+      "title": "PAF explained",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/paf-explained/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/paf-explained/"
+    },
+    {
+      "title": "Identifying and preventing issues",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/identifying-and-preventing-issues/"
+    },
+    {
+      "title": "Monitoring and auditing performance",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/monitoring-and-auditing-performance/"
+    },
+    {
+      "title": "Managing and resolving issues",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/managing-and-resolving-issues/"
+    },
+    {
+      "title": "Performance Assurance Framework Documents",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-processes/"
+    },
+    {
+      "title": "Performance Assurance Queries and Appeals",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-queries-and-appeals/"
+    },
+    {
+      "title": "Performance Assurance Reports",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-reports/"
+    },
+    {
+      "title": "Techniques used to address Settlement Risks",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/"
+    },
+    {
+      "title": "Techniques used to address Settlement Risks",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/"
+    },
+    {
+      "title": "Techniques used to address Settlement Risks",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/"
+    },
+    {
+      "title": "Assurance Information Request (AIR)",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/assurance-information-request/"
+    },
+    {
+      "title": "Breach and Default",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/breach-default-within-performance-assurance-framework/"
+    },
+    {
+      "title": "BSC Audit",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/bsc-audit-performance-assurance-framework/"
+    },
+    {
+      "title": "Bulk Change of Non Half Hourly Agent",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/bulk-change-of-non-half-hourly-agent/"
+    },
+    {
+      "title": "Change Mechanism",
+      "url": "https://www.elexon.co.uk/bsc/change/"
+    },
+    {
+      "title": "Education (and training)",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-training/"
+    },
+    {
+      "title": "Error and Failure Resolution",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/error-and-failure-resolution/"
+    },
+    {
+      "title": "Material Error Monitoring",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/material-error-monitoring/"
+    },
+    {
+      "title": "Peer Comparison as part of Performance Assurance",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/peer-comparison/"
+    },
+    {
+      "title": "Performance Assurance Reporting and Monitoring System (PARMS)",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/parms/"
+    },
+    {
+      "title": "Qualification and requalification",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/sva-qualification-re-qualification-within-performance-assurance-framework/"
+    },
+    {
+      "title": "Removal of Qualification",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/removal-qualification-within-performance-assurance-framework/"
+    },
+    {
+      "title": "Supplier Charges",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/supplier-charges/"
+    },
+    {
+      "title": "Technical Assurance of Metering Systems",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/technical-assurance-metering-systems-within-performance-assurance-framework/"
+    },
+    {
+      "title": "Technical Assurance of Performance Assurance Parties",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/technical-assurance-performance-assurance-parties-within-performance-assurance-framework/"
+    },
+    {
+      "title": "Trading Disputes",
+      "url": "https://www.elexon.co.uk/bsc/operational/dispute-decisions/"
+    },
+    {
+      "title": "Technical Assurance Agent Management Tool (TAAMT)",
+      "url": "https://taamt.candc-uk.com/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://taamt.candc-uk.com/"
+    },
+    {
+      "title": "Technical Assurance Agent Management Tool (TAAMT)",
+      "url": "https://taamt.candc-uk.com/"
+    },
+    {
+      "title": "Technical Assurance Agent Management Tool (TAAMT)",
+      "url": "https://taamt.candc-uk.com/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://taamt.candc-uk.com/"
+    },
+    {
+      "title": "About the Technical Assurance Agent Management Tool (TAAMT)",
+      "url": "https://www.elexon.co.uk/bsc/reference/performance-assurance/performance-assurance-techniques/technical-assurance-metering-systems-within-performance-assurance-framework/taamt/"
+    },
+    {
+      "title": "Exemptions, transfers, derogations and dispensations",
+      "url": "https://www.elexon.co.uk/bsc/reference/exceptions/"
+    },
+    {
+      "title": "Read More",
+      "url": "https://www.elexon.co.uk/bsc/reference/exceptions/"
+    },
+    {
+      "title": "Home",
+      "url": "https://www.elexon.co.uk/bsc/"
+    },
+    {
+      "title": "Settlement & Invoicing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/"
+    },
+    {
+      "title": "Add Bookmark to My BSC dashboard",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#"
+    },
+    {
+      "title": "How it relates to you",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#how-it-relates-to-you"
+    },
+    {
+      "title": "Accessing data",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#accessing-data"
+    },
+    {
+      "title": "More about pricing",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#more-about-pricing"
+    },
+    {
+      "title": "System Prices (Energy Imbalance Price) parameters",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#system-prices-energy-imbalance-price-parameters"
+    },
+    {
+      "title": "Market Index Definition Statement (MIDS) Parameters",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#market-index-definition-statement-mids-parameters"
+    },
+    {
+      "title": "Indicative Settlement Price data now available on the Insights Solution\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t26 February 2024",
+      "url": "https://www.elexon.co.uk/bsc/article/indicative-settlement-price-data-now-available-on-the-insights-solution/"
+    },
+    {
+      "title": "Enhancing our customer enquiry processes using Elexon Support\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t18 December 2023\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tRead More",
+      "url": "https://www.elexon.co.uk/bsc/article/enhancing-our-customer-enquiry-processes-using-elexon-support/"
+    },
+    {
+      "title": "Market Index Definition Statement Review 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4 October 2023\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tRead More",
+      "url": "https://www.elexon.co.uk/bsc/article/market-index-definition-statement-review-2023/"
+    },
+    {
+      "title": "Indicative SSP and SBP on the Insights Solution",
+      "url": "https://bmrs.elexon.co.uk/system-prices"
+    },
+    {
+      "title": "Best View Prices on BSC Portal",
+      "url": "https://www.elexonportal.co.uk/"
+    },
+    {
+      "title": "Elexon Portal",
+      "url": "https://www.elexonportal.co.uk/"
+    },
+    {
+      "title": "Insights Solution",
+      "url": "https://bmrs.elexon.co.uk/"
+    },
+    {
+      "title": "More on Market Index Definition Statement for Market Index Data Provider(s)",
+      "url": "https://www.elexon.co.uk/bsc-and-codes/bsc-related-documents/market-index-definition-statement/"
+    },
+    {
+      "title": "Loss of Load Probability Calculation Statement",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/bsc-related-documents/loss-load-probability-calculation-statement/"
+    },
+    {
+      "title": "More on Market Index Definition Statement for Market Index Data Provider(s)",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/bsc-related-documents/market-index-definition-statement/"
+    },
+    {
+      "title": "Elexon Support",
+      "url": "https://support.elexon.co.uk/csm"
+    },
+    {
+      "title": "Training on Imbalance Settlement",
+      "url": "https://www.elexon.co.uk/bsc/training/basics-of-imbalance-settlement/"
+    },
+    {
+      "title": "Introduction to the energy market",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-training/introducing-elexon-seminars/"
+    },
+    {
+      "title": "BSC Section T Simple Guide",
+      "url": "https://www.elexon.co.uk/bsc/simple-guide/section-t-settlement-trading-charges/"
+    },
+    {
+      "title": "Imbalance Pricing",
+      "url": "https://www.elexon.co.uk/bsc/guidance-note/imbalance-pricing/"
+    },
+    {
+      "title": "BSC Section T",
+      "url": "https://www.elexon.co.uk/bsc/bsc-and-codes/balancing-settlement-code/bsc-sections/"
+    },
+    {
+      "title": "communications@elexon.co.uk",
+      "url": "mailto:communications@elexon.co.uk?subject=Accessibility"
+    },
+    {
+      "title": "BSC Insights & ‘Spotlight On’ articles",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-insights/"
+    },
+    {
+      "title": "Previous Circulars",
+      "url": "https://www.elexon.co.uk/bsc/news-events/elexon-circulars/"
+    },
+    {
+      "title": "Training videos and services",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-training/"
+    },
+    {
+      "title": "Market Entry & Exit",
+      "url": "https://www.elexon.co.uk/bsc/market-entry/"
+    },
+    {
+      "title": "Charge Codes and Switch Regimes",
+      "url": "https://www.elexon.co.uk/bsc/operational/unmetered-supplies/charge-codes-and-switch-regimes/"
+    },
+    {
+      "title": "Add New",
+      "url": "https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/#"
+    },
+    {
+      "title": "My BSC quicklinks",
+      "url": "https://www.elexon.co.uk/bsc/using-this-website/my-bsc-dashboard/"
+    },
+    {
+      "title": "CONTACT",
+      "url": "https://www.elexon.co.uk/bsc/about/elexon-key-contacts/"
+    },
+    {
+      "title": "SUBSCRIPTIONS",
+      "url": "https://www.elexon.co.uk/subscribe-to-our-newsletter-and-circulars/"
+    },
+    {
+      "title": "BSC",
+      "url": "https://www.elexon.co.uk/bsc/"
+    },
+    {
+      "title": "CMAG",
+      "url": "https://www.elexon.co.uk/cmag/"
+    },
+    {
+      "title": "DIP",
+      "url": "https://www.elexon.co.uk/data-integration-platform/"
+    },
+    {
+      "title": "EMRS",
+      "url": "https://www.emrsettlement.co.uk/"
+    },
+    {
+      "title": "FM",
+      "url": "https://www.elexon.co.uk/flexibility-markets/"
+    },
+    {
+      "title": "MHHS",
+      "url": "https://www.elexon.co.uk/what-we-do/half-hourly-settlement/"
+    },
+    {
+      "title": "NCC",
+      "url": "https://www.elexon.co.uk/what-we-do/about-our-services/network-charging-compensation-scheme/"
+    },
+    {
+      "title": "SSES",
+      "url": "https://www.elexon.co.uk/sses/"
+    },
+    {
+      "title": "Corporate Policies",
+      "url": "https://www.elexon.co.uk/corporate-policies/"
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://www.elexon.co.uk/corporate-policies/privacy-policy/"
+    },
+    {
+      "title": "Cookie Policy",
+      "url": "https://www.elexon.co.uk/corporate-policies/cookie-policy/"
+    },
+    {
+      "title": "Contact Elexon",
+      "url": "https://www.elexon.co.uk/contact/"
+    },
+    {
+      "title": "Service Status Dashboard",
+      "url": "https://status.elexon.co.uk/"
+    },
+    {
+      "title": "A-Z Index",
+      "url": "https://www.elexon.co.uk/bsc/a-to-z/"
+    },
+    {
+      "title": "Glossary",
+      "url": "https://www.elexon.co.uk/glossary/"
+    },
+    {
+      "title": "Using this website",
+      "url": "https://www.elexon.co.uk/using-this-website/"
+    },
+    {
+      "title": "Linkedin",
+      "url": "https://www.linkedin.com/company/elexon"
+    },
+    {
+      "title": "X",
+      "url": "https://twitter.com/ELEXONUK"
+    },
+    {
+      "title": "Glassdoor",
+      "url": "https://www.glassdoor.co.uk/Reviews/ELEXON-Reviews-E315396.htm"
+    }
+  ],
+  "read_depth": "rendered HTML body; linked PDFs not retrieved",
+  "accessed_at": "2026-11-03T16:19:16.912Z"
+}

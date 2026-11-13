@@ -1,0 +1,91 @@
+PAGE 1
+ST255CS-2H
+PowerStack Liquid Cooled C&I Energy Storage System
+                                                   NEW
+
+
+
+
+
+   LOWER COST                            EFFICIENT AND FLEXIBLE
+
+       Integrated Pre-installation: High-degree integrated          High-efficiency Power Conversion: DC/AC power
+      system with pre-installation and pre-commissioning         converter unit features a high efficiency of up to 98.5%
+      reduces on-site commissioning work                     Seamless Installation: Cabinets can be installed side by
+       AI-Controlled Heat Saving: Innovative AI-controlled           side seamlessly for a smooth appearance
+       thermal balance cuts down daily system heat loss by         Flexible Grid Connection: Supports on-grid, off-grid,
+      33%                                              and automatic switching
+       Precise Liquid-Cooling Temperature Equalization:
+       Liquid-cooled balanced heat dissipation keeps the
+         cell temperature difference ≤ 2.5℃.
+
+
+   SMART AND ROBUST                   SAFE AND RELIABLE
+
+       Cloud-based Intelligent Monitoring: Monitor via             AI-Monitored Cell Health: AI monitors cell health and
+       iSolarCloud App or web cloud for real-time alarms           gives early warnings for thermal runaway
+      and troubleshooting                                         Three-level over-current Protection: Three -level over-
+       Wireless Intelligent Operation and Maintenance:             current protection for PACK, RACK, and PCS
+       Near-far-end wireless intelligent operation and               Three-level fire-prevention Design: Three-level fire-
+       one-key remote upgrade reduce operation and             prevention design with accurate early warnings for
+      maintenance costs                                      thermal runaway to prevent fires
+
+
+
+
+
+    © 2025 Sungrow Power Supply Co., Ltd. All rights reserved. Subject to change without notice. Version 2
+
+PAGE 2
+Type designation                                                      ST255CS-2H
+
+DC side
+Cell type                                                               LFP 3.2 V / 314 Ah
+System battery configuration                                                         256S1P
+Nominal capacity                                                                   257 kWh
+Nominal voltage range                                                                      691.2 V ~ 934.4 V
+Depth of charge and discharge                                               0 % ~ 100 %
+AC side ( On-Grid )
+Nominal power                                                                                125 kW
+Nominal voltage                                                            400 V
+Access way                                                                    3P4L
+Voltage range                                                              340 V ~ 440 V
+Nominal frequency                                                            50 Hz / 60Hz
+Frequency range                                                       45 Hz ~ 55 Hz / 55 Hz ~ 65 Hz
+Max.THD of current                                                            ≤ 3 % ( Nominal power )
+DC component                                                               ≤ 0.5 % ( Nominal power )
+Power factor range                                                                                  1.0 leading ~ 1.0 lagging
+AC side ( Off-Grid )
+Nominal AC voltage                                                         400 V
+Nominal AC frequency                                                         50 Hz / 60Hz
+Max.THD of voltage                                                                3 % ( Linear load )
+Unbalance load capacity                                                               100 %
+System parameter
+Dimensions ( W * H * D )                                                            1150 mm * 2450 mm * 1610 mm
+Weight                                                                             ≤ 3200 kg
+Degree of protection                                                                      IP55
+                                                                                   Internal power supply  ( Default )
+Auxiliary power supply
+                                                                               External power supply ( Optional )
+                                                                     C4  ( Default )
+Anti-corrosion degree
+                                                                        C5 ( Optional )
+Operation humidity range                                                   0 % ~ 100 %
+Operation temperature range                                                 -30 ℃ ~ 50 ℃ ( > 45 ℃ derating )
+Max. operating altitude                                                        3000 m
+Temperature control method                                                            Intelligent liquid cooling
+Noise                                                                            ≤ 65 dB @ 1 m
+                                                  Combustible gas detector, Smoke detector, Heat detector, Alarm sounder, Hot
+Fire suppression system
+                                                                             aerosol fire extinguishing equipment
+Communication interface                                                             Ethernet
+Communication protocol                                                 Modbus TCP
+Standard                                               IEC 62619, IEC 63056, IEC 62040, IEC 62477, IEC 61000, IEC 62933, UN 38.3
+                                                                                     On-Grid: 25 pcsMax.Parallel quantity
+                                                                                                Off-Grid: 10 pcs
+
+
+
+
+
+                      © 2025 Sungrow Power Supply Co., Ltd. All rights reserved. Subject to change without notice. Version 2

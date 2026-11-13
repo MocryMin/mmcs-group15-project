@@ -1,0 +1,11 @@
+{
+  "owner": "R4",
+  "id": "ECB-2020-CSV",
+  "requested_url": "https://data-api.ecb.europa.eu/service/data/EXR/A.GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2020&format=csvdata",
+  "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2020&format=csvdata",
+  "status": 200,
+  "content_type": "text/csv",
+  "body": "KEY,FREQ,CURRENCY,CURRENCY_DENOM,EXR_TYPE,EXR_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_ECB,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,NAT_TITLE,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULT\r\nEXR.A.GBP.EUR.SP00.A,A,GBP,EUR,SP00,A,2020,0.8897040856031,A,F,,,P1Y,,A,,,,,,,,,,5,,4F0,,Pound sterling/Euro ECB reference exchange rate,\"ECB reference exchange rate, Pound sterling/Euro, 2.15 pm (C.E.T.)\",GBP,0\r\n",
+  "read_depth": "raw public CSV API response via anonymous Playwright request",
+  "accessed_at": "2026-11-03T16:24:00.364Z"
+}

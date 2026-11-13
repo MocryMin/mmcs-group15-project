@@ -1,0 +1,10 @@
+{
+  "study_cases": 14,
+  "forced_storage_cases": 6,
+  "all_optimal": true,
+  "max_reported_relative_gap": 9.973684842744305e-11,
+  "max_balance_error_GWh": 4.656612873077393e-10,
+  "max_profit_recalculation_error_mGBP": 3.637978807091713e-12,
+  "max_independent_daily_dispatch_error_mGBP": 1.1368683772161603e-13,
+  "v5_replay_passed": true
+}

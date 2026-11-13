@@ -1,0 +1,14 @@
+{
+  "independent_hydrogen_optimum_MW": 329.648437499372,
+  "independent_net_GBP_year": 10603428.556144074,
+  "difference_from_Xpress_GBP": 7.450580596923828e-08,
+  "minimum_H2_price_for_any_profitable_capacity_GBP_kg": 6.333157069385432,
+  "maximum_H2_capex_for_any_profitable_capacity_GBP_MW": 1500041.7478863946,
+  "chronology_reverse_discharge": 0.0,
+  "pooled_reverse_discharge": 1.1384199576606167,
+  "forward_round_trip": 0.8999999999999999,
+  "all_main_cases_optimal": true,
+  "main_case_count": 23,
+  "xpress_solve_count": 21,
+  "max_main_numeric_violation": 1.7881393432617188e-07
+}

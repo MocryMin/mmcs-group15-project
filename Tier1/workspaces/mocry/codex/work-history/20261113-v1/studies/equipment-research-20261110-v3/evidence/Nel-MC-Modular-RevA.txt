@@ -1,0 +1,69 @@
+PAGE 1
+MODEL                                 MC1000                MC2000                MC4000
+
+Class                                         5 MW                       10 MW                    20 MW
+
+                                            Fully-automated MW-class on-site hydrogen generator utilizing a modular containerizedDescription                                           design for ease of installation and integration
+Technology                                                        Proton Exchange Membrane (PEM)
+
+HYDROGEN PRODUCTION
+
+Nominal Production Rate
+  Nm3/h (m3/h @ 0°C, 1 bar)                   984 Nm3/h                  1,968 Nm3/h                3,936 Nm3/h
+  kg/24 h                                        2,124 kg/24 h                4,248 kg/24 h               8,496 kg/24 h
+
+Delivery Pressure – Nominal                             30 barg (435 psig); full differential pressure H2 over O2
+Power Consumption at Stack per Unit                                                   4.7 kWh/Nm3
+of H2 Gas Produced at 100% Capacity1                                              53.2 kWh/kg
+Power Consumption by System per Unit                                          5.04 kWh/Nm3
+of H2 Gas Produced at 100% Capacity1                                              56.77 kWh/kg
+                                            99.95% [H2O < 500 ppm, N2 < 2 ppm, O2 < 1 ppm, all others undetectable]Purity (concentration of impurities)
+                                                 ISO 14687:2019(E) Type I, Type II Grade D and SAE J-2719 Type I Grade LPurity (concentration of impurities
+                                           99.999+% [H2O < 5 ppm, -65oC (-85oF) Dew Point, N2 < 2 ppm, O2 < 1 ppm,with optional high purity dryer)                                                                                                                all others undetectable]
+
+Start-up Time (from standby)                                            < 8 min
+
+Ramp-up Time (minimum to full load)                                      < 15 sec
+
+Ramp Rate (% of full-range)                                           ≤ 7.4% per sec
+
+Turndown Range                                                 20 to 100% (automatic)2
+
+POTABLE WATER REQUIREMENTS
+
+                                                                                   1.5 l/Nm3 of H2 (0.4 gal/Nm3 of H2)Consumption3
+                                                                             15.9 l/kg of H2 (4.2 gal/kg of H2)
+Temperature                                                       5 to 35°C (41 to 95°F)
+
+Pressure                                                                               2.7 to 4.8 barg
+
+Input Water Quality3                                                        Potable, subject to site water quality analysis
+
+Water Purification System (included)                                 Reverse Osmosis/Electrodeionization (RO/EDI)
+
+PAGE 2
+MODEL                                 MC1000                MC2000                MC4000
+
+ELECTRICAL SPECIFICATIONS
+
+                                                  Medium voltage: 4.16 to 35 kV, three phase 50/60 Hz
+Electrical Requirements                        Low voltage, three phase required for balance of plant and ancillary equipment
+                                             Backup, low voltage, three phase required for emergency heating for freeze protection
+
+Power Quality (medium voltage)                                       Total harmonic distortion: < 5%, power factor: > 0.9
+
+PHYSICAL CHARACTERISTICS
+
+                                                 315 m2                       561 m2                        1,053 m2Footprint4                                                  (3,400 ft2)                    (6,050 ft2)                      (11,400 ft2)
+
+ENVIRONMENTAL CONSIDERATIONS – DO NOT FREEZE
+
+                                                                          Outdoor, pad mounted
+Standard Siting Location                                               Flatness/levelness 35/25 per AC 117-10
+                                              Bottom access for AC and DC electrical connections, water and drains
+
+Storage/Transport Temperature                                        5 to 60°C (41 to 140°F)
+
+Ambient Temperature                                                   -30 to 40°C (-22 to 104°F)5
+
+Altitude Range                                                    Sea level to 2,000 m (6,562 ft)

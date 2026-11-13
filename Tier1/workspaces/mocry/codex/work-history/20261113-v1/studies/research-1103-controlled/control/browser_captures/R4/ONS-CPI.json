@@ -1,0 +1,377 @@
+{
+  "owner": "R4",
+  "id": "ONS-CPI",
+  "requested_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+  "status": 200,
+  "title": "CPI INDEX 00: ALL ITEMS 2015=100 - Office for National Statistics",
+  "body": "Cookies on ons.gov.uk\n\nCookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.\n\nWe would like to set additional cookies to remember your settings and understand how you use the site. This helps us to improve our services.\n\nAccept additional cookies\nReject additional cookies\nManage settings\nSkip to main content\nEnglish (EN) | Cymraeg (CY)\nRelease calendar\nMethodology\nMedia\nAbout\nBlog\nHome\nBusiness, industry and trade\nEconomy\nEmployment and labour market\nPeople, population and community\nTaking part in a survey?\nSearch for a keyword(s) or time series ID\nSearch\n\nData and analysis from Census 2021\n\nHome  Economy  Inflation and price indices  CPI INDEX 00: ALL ITEMS 2015=100\nCPI INDEX 00: ALL ITEMS 2015=100\nSource dataset: Consumer price inflation time series (MM23)\n\nContact:\nConsumer Price Inflation team\n\nRelease date:\n21 October 2026\nView previous versions\n\nNext release:\n18 November 2026\n\nSeries ID: D7BT\nWhat's this?\n\nUnits: Index, base year = 100\n\n\nFilters\nUse these filters to interact with the following chart of data.\nShow data as\nChart  Table \nFrequency\nMonth  Quarter  Year \nTime period\nAll  Last 10 years  Last 5 years  Custom \nChart\nPeriod\n\t\nValue\nDownload this time series\nCPI INDEX 00: ALL ITEMS 2015=100\nFull unfiltered time series\nFiltered time series\n\nDownload full time series as:\n\nImage .csv .xls\nRelated time series\nCHZQ : CPI WEIGHTS 00 : HICP (Overall index)\nD7G7 : CPI ANNUAL RATE 00: ALL ITEMS 2015=100\nD7OE : CPI MONTHLY RATE 00: ALL ITEMS 2015=100\nView and download all related time series\nPublications that use this data\nConsumer price inflation, UK: September 2026\nContact details for this data\nConsumer Price Inflation team\ncpi@ons.gov.uk\nTelephone : Consumer Price Inflation Enquiries: +44 1633 456900. Consumer Price Inflation recorded message (available after 8am on release day): +44 808 196 1267\nFooter links\nHelp\nAccessibility\nCookies\nPrivacy\nTerms and conditions\nAbout ONS\nWhat we do\nCareers\nContact us\nNews\nFreedom of Information\nConnect with us\nX\nInstagram\nFacebook\nLinkedIn\nConsultations\nDiscussion forums\nEmail alerts\n \n\nAll content is available under the Open Government Licence v3.0, except where otherwise stated",
+  "links": [
+    {
+      "title": "additional cookies",
+      "url": "https://www.ons.gov.uk/cookies"
+    },
+    {
+      "title": "Manage settings",
+      "url": "https://www.ons.gov.uk/cookies"
+    },
+    {
+      "title": "change your cookie preferences",
+      "url": "https://www.ons.gov.uk/cookies"
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23#main"
+    },
+    {
+      "title": "Cymraeg (CY)",
+      "url": "https://cy.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": "Release calendar",
+      "url": "https://www.ons.gov.uk/releasecalendar"
+    },
+    {
+      "title": "Methodology",
+      "url": "https://www.ons.gov.uk/methodology"
+    },
+    {
+      "title": "Media",
+      "url": "https://www.ons.gov.uk/news"
+    },
+    {
+      "title": "About",
+      "url": "https://www.ons.gov.uk/aboutus"
+    },
+    {
+      "title": "Blog",
+      "url": "https://blog.ons.gov.uk/"
+    },
+    {
+      "title": "Menu",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23#nav-primary"
+    },
+    {
+      "title": "Search",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23#nav-search"
+    },
+    {
+      "title": "Home",
+      "url": "https://www.ons.gov.uk/"
+    },
+    {
+      "title": "Business, industry and trade",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade"
+    },
+    {
+      "title": "Business",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/business"
+    },
+    {
+      "title": "Changes to business",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness"
+    },
+    {
+      "title": "Construction industry",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/constructionindustry"
+    },
+    {
+      "title": "Digital economy",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry"
+    },
+    {
+      "title": "International trade",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade"
+    },
+    {
+      "title": "Manufacturing and production industry",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/manufacturingandproductionindustry"
+    },
+    {
+      "title": "Retail industry",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry"
+    },
+    {
+      "title": "Tourism industry",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/tourismindustry"
+    },
+    {
+      "title": "Economy",
+      "url": "https://www.ons.gov.uk/economy"
+    },
+    {
+      "title": "Economic output and productivity",
+      "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity"
+    },
+    {
+      "title": "Environmental accounts",
+      "url": "https://www.ons.gov.uk/economy/environmentalaccounts"
+    },
+    {
+      "title": "Government, public sector and taxes",
+      "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes"
+    },
+    {
+      "title": "Gross Domestic Product (GDP)",
+      "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp"
+    },
+    {
+      "title": "Gross Value Added (GVA)",
+      "url": "https://www.ons.gov.uk/economy/grossvalueaddedgva"
+    },
+    {
+      "title": "Inflation and price indices",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices"
+    },
+    {
+      "title": "Investments, pensions and trusts",
+      "url": "https://www.ons.gov.uk/economy/investmentspensionsandtrusts"
+    },
+    {
+      "title": "National accounts",
+      "url": "https://www.ons.gov.uk/economy/nationalaccounts"
+    },
+    {
+      "title": "Regional accounts",
+      "url": "https://www.ons.gov.uk/economy/regionalaccounts"
+    },
+    {
+      "title": "Employment and labour market",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket"
+    },
+    {
+      "title": "People in work",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork"
+    },
+    {
+      "title": "People not in work",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork"
+    },
+    {
+      "title": "People, population and community",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity"
+    },
+    {
+      "title": "Armed forces community",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/armedforcescommunity"
+    },
+    {
+      "title": "Births, deaths and marriages",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages"
+    },
+    {
+      "title": "Crime and justice",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice"
+    },
+    {
+      "title": "Cultural identity",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity"
+    },
+    {
+      "title": "Education and childcare",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare"
+    },
+    {
+      "title": "Elections",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/elections"
+    },
+    {
+      "title": "Health and social care",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare"
+    },
+    {
+      "title": "Household characteristics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics"
+    },
+    {
+      "title": "Housing",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing"
+    },
+    {
+      "title": "Leisure and tourism",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism"
+    },
+    {
+      "title": "Measuring progress, well-being and beyond GDP",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing"
+    },
+    {
+      "title": "Personal and household finances",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances"
+    },
+    {
+      "title": "Population and migration",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration"
+    },
+    {
+      "title": "Taking part in a survey?",
+      "url": "https://www.ons.gov.uk/surveys"
+    },
+    {
+      "title": "Cymraeg (CY)",
+      "url": "https://cy.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": "Data and analysis from Census 2021",
+      "url": "https://www.ons.gov.uk/census"
+    },
+    {
+      "title": "Home",
+      "url": "https://www.ons.gov.uk/"
+    },
+    {
+      "title": "Economy",
+      "url": "https://www.ons.gov.uk/economy"
+    },
+    {
+      "title": "Inflation and price indices",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices"
+    },
+    {
+      "title": "Consumer price inflation time series (MM23)",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices"
+    },
+    {
+      "title": "Consumer Price Inflation team",
+      "url": "mailto:cpi@ons.gov.uk"
+    },
+    {
+      "title": "View previous versions",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/previous"
+    },
+    {
+      "title": "What's this?",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23#"
+    },
+    {
+      "title": "Image",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/linechartimage"
+    },
+    {
+      "title": ".csv",
+      "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": ".xls",
+      "url": "https://www.ons.gov.uk/generator?format=xls&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": "Image",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/linechartimage"
+    },
+    {
+      "title": ".csv",
+      "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": ".xls",
+      "url": "https://www.ons.gov.uk/generator?format=xls&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23"
+    },
+    {
+      "title": "image",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/linechartimage"
+    },
+    {
+      "title": ".csv",
+      "url": "https://www.ons.gov.uk/generator?uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23&format=csv"
+    },
+    {
+      "title": ".xls",
+      "url": "https://www.ons.gov.uk/generator?uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23&format=xls"
+    },
+    {
+      "title": "CHZQ\n                                        : CPI WEIGHTS 00 : HICP (Overall index)",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/chzq/mm23"
+    },
+    {
+      "title": "D7G7\n                                        : CPI ANNUAL RATE 00: ALL ITEMS 2015=100",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23"
+    },
+    {
+      "title": "D7OE\n                                        : CPI MONTHLY RATE 00: ALL ITEMS 2015=100",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7oe/mm23"
+    },
+    {
+      "title": "View and download all related time series",
+      "url": "https://www.ons.gov.uk/timeseriestool?topic=/economy/inflationandpriceindices/timeseries"
+    },
+    {
+      "title": "Consumer price inflation, UK: September 2026",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+    },
+    {
+      "title": "cpi@ons.gov.uk",
+      "url": "mailto:cpi@ons.gov.uk"
+    },
+    {
+      "title": "Accessibility",
+      "url": "https://www.ons.gov.uk/help/accessibility"
+    },
+    {
+      "title": "Cookies",
+      "url": "https://www.ons.gov.uk/cookies"
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.ons.gov.uk/help/privacynotice"
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.ons.gov.uk/help/termsandconditions"
+    },
+    {
+      "title": "What we do",
+      "url": "https://www.ons.gov.uk/aboutus/whatwedo"
+    },
+    {
+      "title": "Careers",
+      "url": "https://careers.ons.gov.uk/"
+    },
+    {
+      "title": "Contact us",
+      "url": "https://www.ons.gov.uk/aboutus/contactus"
+    },
+    {
+      "title": "News",
+      "url": "https://www.ons.gov.uk/news"
+    },
+    {
+      "title": "Freedom of Information",
+      "url": "https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi"
+    },
+    {
+      "title": "X",
+      "url": "https://twitter.com/ONS"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/officefornationalstatistics"
+    },
+    {
+      "title": "Facebook",
+      "url": "https://www.facebook.com/ONS"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/company/office-for-national-statistics"
+    },
+    {
+      "title": "Consultations",
+      "url": "https://consultations.ons.gov.uk/"
+    },
+    {
+      "title": "Discussion forums",
+      "url": "https://www.statsusernetwork.ons.gov.uk/"
+    },
+    {
+      "title": "Email alerts",
+      "url": "https://public.govdelivery.com/accounts/UKONS/subscribers/new"
+    },
+    {
+      "title": "Open Government Licence v3.0",
+      "url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    }
+  ],
+  "read_depth": "rendered HTML body; linked PDFs not retrieved",
+  "accessed_at": "2026-11-03T16:21:21.217Z"
+}

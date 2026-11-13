@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\input{report-style}
+\hypersetup{pdftitle={MMCS technical report template}}
+
+% Plan at most 10 physical pages pending confirmation of the counting rule.
+% A working budget is 4 pages for the title, data and Tier 1, 4 for the chosen
+% extension, 1 for the integrated decision, and 1 for references and reserve.
+% Keep decision-critical equations, data adjustments and validation in the body.
+\begin{document}
+\reporttitle{[Client-facing report title]}
+  {Group \guidance{number}\quad\textbar\quad \guidance{team members}
+    \quad\textbar\quad 2026/27}
+
+\section*{Executive summary}
+\guidance{Give the recommended investment and operation, its incremental value
+against a feasible alternative, and the condition most likely to change the decision.}
+
+% Swap this input for sections/tier1 to start from the filled sample. Bring the
+% relevant bibliography entries across from sections/example-references.tex.
+\input{sections/tier1-template}
+
+\section{Tier 2. [Selected extension, 2A or 2B]}
+\guidance{Explain what changes and which Tier 1 assumptions carry over.
+For 2A, define candidate technologies and capacities. For 2B, define chronology,
+what is known at each decision, and the implementable strategy.
+Compare to a matched reference, validate, and stress-test the extension.}
+
+\section{Recommendation}
+\guidance{Integrate both tiers. State the action now, the evidence for it,
+the conditions for expansion and the first items to verify.}
+
+\begin{thebibliography}{9}
+  \bibitem{template:source}
+    \guidance{Author or organisation. Title, date, version and source link.}
+\end{thebibliography}
+\end{document}

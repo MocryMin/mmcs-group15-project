@@ -1,0 +1,3 @@
+date,generation_MW,demand_MW,wind_MW,price_MWh,price_MWday,surplus,headroom,base_revenue,charge_MWh,discharge_MWh,hydrogen_input_MWh,usable_SOC_MWh
+2025-01-01,0.0,0.0,1.0,0.0,0.0,24.0,0.0,0.0,1.2649110640673518,0.0,0.0,1.2
+2025-01-02,0.0,1.0,0.0,100.0,2400.0,0.0,24.0,0.0,0.0,1.1384199576606164,0.0,0.0

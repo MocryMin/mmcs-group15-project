@@ -1,0 +1,46 @@
+{
+  "tier1-multiproduct-20261110-v6\\configuration.json": {
+    "sha256": "eb3307b46ed2405db43f870f1972075f4e5c6521576cb7ac554f07950688d3c9",
+    "bytes": 14965
+  },
+  "tier1-multiproduct-20261110-v6\\results\\A_comparable_main_schedule.csv": {
+    "sha256": "aec2c9dd0cc7894cd2967d47d250b99f2b524a3e7a71160eff1edeebf426f009",
+    "bytes": 777948
+  },
+  "tier1-multiproduct-20261110-v6\\inputs\\daily_generation_by_fuel.csv": {
+    "sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec",
+    "bytes": 798302
+  },
+  "tier1-multiproduct-20261110-v6\\inputs\\daily_demand.csv": {
+    "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e",
+    "bytes": 76041
+  },
+  "tier1-multiproduct-20261110-v6\\inputs\\wind_farm_generation.csv": {
+    "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a",
+    "bytes": 73819
+  },
+  "data-repair-20261104-v2\\REPAIR_AUDIT.json": {
+    "sha256": "6bd37fdb28acd6513cfecdbd0d91d4239a5561bd1a7adcce95b838037263bb43",
+    "bytes": 561614
+  },
+  "gb-price-stress-20261112\\halfhour-market-index.csv": {
+    "sha256": "2b9d266eec1073b205f7dd782b9237840e7e986d5b904dfc5cd8a933484dafd8",
+    "bytes": 9351586
+  },
+  "data-repair-20261104-v2\\evidence\\agpt.json.gz": {
+    "sha256": "a4c79a6682cc19f945fe7c24f114d3e1c87e29c246e871cf9a64974a008febd5",
+    "bytes": 2904321
+  },
+  "data-repair-20261104-v2\\evidence\\fuelhh.json.gz": {
+    "sha256": "d2a1bdbca2f7f3009133d83fcfcf2ec87c3b52753a35beb7008d7a8e6c465fef",
+    "bytes": 2730100
+  },
+  "data-repair-20261104-v2\\evidence\\neso.json.gz": {
+    "sha256": "9e050d011fe4d03b3561ae05d2f7ef78337a55d433fe3c3df42fc981359873d5",
+    "bytes": 3658925
+  },
+  "data-repair-20261104-v2\\evidence\\demand.json.gz": {
+    "sha256": "75c03ca8d193a630c5e718894a260a303a7d1921e282095c9b830a5a736011fb",
+    "bytes": 3669811
+  }
+}

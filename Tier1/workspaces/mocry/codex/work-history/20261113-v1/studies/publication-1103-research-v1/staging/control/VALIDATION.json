@@ -1,0 +1,281 @@
+{
+  "json_file_count": 70,
+  "json_errors": [],
+  "source_ids_registered": 39,
+  "unresolved_source_ids": [],
+  "raw_csv_hashes": [
+    {
+      "file": "daily_generation_by_fuel.csv",
+      "matches_audited_sha256": true,
+      "sha256": "63161ec0f0920d228492e36e6c72b9fa17e0724d299fa7f62d23d204064928d4"
+    },
+    {
+      "file": "daily_generation_total.csv",
+      "matches_audited_sha256": true,
+      "sha256": "f57f24819d0a6e9d324c657af1b2d04c5cf9acb436fd7b99041eb9a2410cf318"
+    },
+    {
+      "file": "daily_demand.csv",
+      "matches_audited_sha256": true,
+      "sha256": "3dea382904e08060f1889e9a902b03c2f0cd04dce8c7dbe75397a9f03c22849b"
+    },
+    {
+      "file": "wind_farm_generation.csv",
+      "matches_audited_sha256": true,
+      "sha256": "52416881329e8e179028c491e3bee5a67cb57cdf66378a59117db26fd45f532f"
+    },
+    {
+      "file": "daily_market_index_price.csv",
+      "matches_audited_sha256": true,
+      "sha256": "77ccf4fdc81e7cada57edeccde77d011b41fc84b7f0766016124fadd5caf0364"
+    }
+  ],
+  "controller_link_check": [
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R4-finance-data/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R1-market/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R2-battery/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R3-hydrogen/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R4-finance-data/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "BASELINE_CANDIDATE.json",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "control/RUN.json",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "control/VALIDATION.json",
+      "exists": true,
+      "note": "Created by this finalisation; independently rechecked afterwards"
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "data_audit.json",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R1-market/CROSS_REVIEW_R4.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "prices_gbp2020.csv",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R2-battery/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R3-hydrogen/CROSS_REVIEW_R2.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "financial_audit.json",
+      "exists": true
+    }
+  ],
+  "first_pass_snapshot_hashes": [
+    {
+      "path": "R1-market\\FIRST_PASS\\parameters.json",
+      "sha256": "3bf0097355cd3249aaa5e045e1da36c1e8facd896c74ad5d810159b46e8b90a9"
+    },
+    {
+      "path": "R1-market\\FIRST_PASS\\REPORT.md",
+      "sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc"
+    },
+    {
+      "path": "R1-market\\FIRST_PASS\\sources.json",
+      "sha256": "902d1364e8c0852a2f969d04bdc84f59055f6b4ce7c2511ccbef898894abe6f7"
+    },
+    {
+      "path": "R2-battery\\FIRST_PASS\\calculations.json",
+      "sha256": "e7fb0767d587ced5a416b81923797d92d382b566b39db170d255407a02a146b2"
+    },
+    {
+      "path": "R2-battery\\FIRST_PASS\\parameters.json",
+      "sha256": "b298865cf868a93056cc050f724dfcff7a589382499f0f1e51390dc999b8d638"
+    },
+    {
+      "path": "R2-battery\\FIRST_PASS\\REPORT.md",
+      "sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b"
+    },
+    {
+      "path": "R2-battery\\FIRST_PASS\\sources.json",
+      "sha256": "dd4648fcb76bf839255123c638f320061c7456d209e3281d11bc91ce50038ffe"
+    },
+    {
+      "path": "R3-hydrogen\\FIRST_PASS\\parameters.json",
+      "sha256": "346e4bb6ea2d5383956c71259543d964bedc6b32b86a72045991eaa49eec459c"
+    },
+    {
+      "path": "R3-hydrogen\\FIRST_PASS\\REPORT.md",
+      "sha256": "beb20f6edab29deba89dc24b8320773df86f86b9232bce13e43df318b07bedec"
+    },
+    {
+      "path": "R3-hydrogen\\FIRST_PASS\\sources.json",
+      "sha256": "f1d20a0ce2966682c7a88550ab06b6234a4fc1829f205321bedfaa99d928e612"
+    }
+  ],
+  "checked_at_UTC": "2026-11-03T16:50:20+00:00",
+  "status": "passed",
+  "source_workbooks": "Read-only extraction, formula/cache/footnote review; originals not saved through workbook editors",
+  "source_ids_status": "All source_ids in four topic parameter files resolved to source or calculation records",
+  "first_pass_snapshot_note": "Final SHA256 inventory of saved independent first passes. Workers report snapshot unchanged; no separate pre-copy root hash manifest exists.",
+  "repository": {
+    "unchanged_HEAD": "64d2a9b697a0b80af4c3e062dea8cc7f5fca2ff4",
+    "porcelain_output_empty": true,
+    "commit_or_push_performed": false
+  },
+  "browser_cleanup": {
+    "root_research_browser_closed": true,
+    "only_about_blank_before_close": true,
+    "school_browser_access": false
+  },
+  "scope": "Original pre-publication research audit; public-copy hashes and links are covered separately by RELEASE_VALIDATION.json",
+  "controller_and_final_topic_report_link_check": [
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R4-finance-data/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R1-market/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R2-battery/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R3-hydrogen/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "R4-finance-data/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "BASELINE_CANDIDATE.json",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "control/RUN.json",
+      "exists": true
+    },
+    {
+      "document": "RESEARCH_SYNTHESIS.md",
+      "target": "control/VALIDATION.json",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "data_audit.json",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R1-market/CROSS_REVIEW_R4.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "prices_gbp2020.csv",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R2-battery/REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "../R3-hydrogen/CROSS_REVIEW_R2.md",
+      "exists": true
+    },
+    {
+      "document": "R4-finance-data\\REPORT.md",
+      "target": "financial_audit.json",
+      "exists": true
+    }
+  ],
+  "missing_report_links": [],
+  "sensitive_http_key_scan": {
+    "keys_found": [],
+    "scope": "Recursive JSONkeynames only; public privacy-banner text not removed"
+  },
+  "original_local_research_artifact_hashes": [
+    {
+      "path": "RESEARCH_SYNTHESIS.md",
+      "sha256": "6300e5d8bed0e08f8bec4dd929ce2c69008373f138a217ba10921a39fcdc586c"
+    },
+    {
+      "path": "R1-market\\REPORT.md",
+      "sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc"
+    },
+    {
+      "path": "R2-battery\\REPORT.md",
+      "sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b"
+    },
+    {
+      "path": "R3-hydrogen\\REPORT.md",
+      "sha256": "557be3875102dc64d8dc43165b01c87def08081b334adbb5a064067b32c02671"
+    },
+    {
+      "path": "R4-finance-data\\REPORT.md",
+      "sha256": "340fcb76ec4883b73ad464fda4ad003ce14ef5492136ee756938bb5919a994b5"
+    },
+    {
+      "path": "BASELINE_CANDIDATE.json",
+      "sha256": "7002d478b68be43170905d46dd202a80d16777a5860d44a876f05eef724525db"
+    },
+    {
+      "path": "control\\REVIEW_DECISIONS.json",
+      "sha256": "4c716f6b6af538472edeba8ab77516537f0e840f0fdfa7ec506d47c101aa1736"
+    }
+  ]
+}

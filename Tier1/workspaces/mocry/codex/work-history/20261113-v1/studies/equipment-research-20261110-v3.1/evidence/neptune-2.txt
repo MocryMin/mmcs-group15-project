@@ -1,0 +1,128 @@
+PAGE 1
+RAPID. COMPETITIVE. CONTAINERISED.
+
+Autonomous NEPTUNE II 2MW Plug & Play Green Hydrogen Plant
+for small-scale projects.
+
+
+With our state-of-the-art TRIDENT stack platform at its heart,
+NEPTUNE II is a fully autonomous green hydrogen plant.
+Supplied with a power conversion system and incorporating all
+necessary balance of the plant, this green hydrogen plant can be
+readily deployed as a complete package.
+
+
+Engineered to be safe, cost competitive and reliable.
+
+
+
+CONTACT OUR SALES TEAM
+sales@itm-power.com
+
+
+
+
+
+REFINERIES     AMMONIA      METHANOL     TRANSPORT  SEMICONDUCTORS     STEEL        STORAGE        MINING        HEATING     ELECTRICITY
+
+PAGE 2
+NEPTUNE II: PROCESS FLOW & SPECIFICATIONS
+
+
+
+
+ Diagram Key:                                                    Breather                   Oxygen vent                                       Hydrogen vent                Instrument
+                                                                                                                                                                                                                         air system
+    Water Systems
+
+   Hydrogen Systems
+
+          Utilities                                                                                                             Cooling system                                                  Chiller unit
+
+
+
+                       Water purification                  Water polishing               Oxygen/Water           PEM electrolyser           Hydrogen/water          Hydrogen purification Tap water                                                                                                                                                                   Hydrogen @ 30 bar                                    unit                                   unit                      separation unit                   stacks                  separation unit                       unit
+
+
+
+                             Drain                                                                      PSU                                                  Drain
+
+
+
+  TECHNOLOGY                     PEM                          H2 PRODUCTION                    35 kg/hr
+
+  NUMBER OF STACKS                  3                             H2 OUTPUT PRESSURE               30 bar(g)
+
+  CAPACITY                   2MW                          H2 OUTPUT PURITY                <5ppm H2O, <5ppm O2 (EN 17124 & ISO 14687)
+
+  AC POWER CONSUMPTION              57 kWh/kg*                     AMBIENT TEMPERATURE RANGE         -20°C to + 40°C
+
+  SYSTEM FOOTPRINT                     Approx. 96m2 optimised layout***                                                                                    10% per second ramp up
+                                                                MODULATION
+                                                                                    50% per second ramp down
+  OPERATING RANGE                 25–100%
+
+  INPUT WATER PURITY                   Potable Water**                  COMPLIANCE                       CE
+
+
+
+
+
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life
+** Input water to the system, prior to purification
+***Not including hazard areas
+
+PAGE 3
+NEPTUNE II: PLUG & PLAY
+
+
+
+
+
+                                 AIR BLAST COOLER
+
+
+                                      6m
+                                                                  SYSTEMS DIMENSIONS (INDICATIVE)
+
+                                                           2.4m
+                                                                           1x 40’ Electrolyser Container
+                                                                           1x 30’ Power Supply Unit
+                                                                           1x Air Blast Cooler & Glycol Pump Skid
+  2.4m                                                                       1x Process Chiller
+
+                                                                      POWER
+                                                             9m     SUPPLY                   Approx. 96m2 optimised layout
+                                                                         UNIT
+
+
+
+
+
+                                                                         3.5m
+  2.9m                                                                                                                              2.4m
+
+
+
+                            12.2m                             2.5m                      9m                      2.4m
+
+
+                      ELECTROLYSER
+
+PAGE 4
+NEPTUNE II: PLUG & PLAY
+
+
+
+
+
+                                                                                                                                                     Find out the detailed
+                                                                                                                                     scope of supply and more
+                                                                                                                                  on our product page
+
+
+
+                                                                                                                         CONTACT OUR SALES TEAM
+                                                                                                                                   sales@itm-power.com
+
+                                                                                                                         itm-power.com/products/neptune-2

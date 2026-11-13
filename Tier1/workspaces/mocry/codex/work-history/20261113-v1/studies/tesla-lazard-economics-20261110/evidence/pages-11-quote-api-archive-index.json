@@ -1,0 +1,23 @@
+[
+  {
+    "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fenergy-config%2Fapi%2F*&output=json&filter=statuscode%3A200&filter=original%3A.*%5BMm%5Dega.*&collapse=urlkey&from=2023&to=20261110&limit=30",
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fenergy-config%2Fapi%2F*&output=json&filter=statuscode%3A200&filter=original%3A.*%5BMm%5Dega.*&collapse=urlkey&from=2023&to=20261110&limit=30",
+    "status": 503,
+    "title": "Internet Archive: Temporarily Offline",
+    "text": "   \nTemporarily Offline\n\nInternet Archive services are temporarily offline.\n\nPlease check our official accounts, including Twitter/X, Bluesky or Mastodon for the latest information.\n\nWe apologize for the inconvenience.",
+    "links": [
+      {
+        "text": "Twitter/X",
+        "url": "https://twitter.com/internetarchive/"
+      },
+      {
+        "text": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:73dpznbu4wqwtcyurwbiulov"
+      },
+      {
+        "text": "Mastodon",
+        "url": "https://mastodon.archive.org/deck/@internetarchive"
+      }
+    ]
+  }
+]

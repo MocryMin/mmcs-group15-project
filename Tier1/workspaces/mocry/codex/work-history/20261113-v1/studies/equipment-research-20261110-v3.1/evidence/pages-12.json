@@ -1,0 +1,220 @@
+[
+  {
+    "requested": "https://solar.huawei.com/en/products/luna2000-215-series/",
+    "url": "https://solar.huawei.com/en/products/luna2000-215-series/",
+    "status": 200,
+    "title": "LUNA2000-241 Series: Smart Energy Storage Solution | HUAWEI Smart PV Global",
+    "text": "LUNA2000-241 Series: Smart Energy Storage Solution | HUAWEI Smart PV Global\nModel: LUNA2000-241 Series\nOverview\nSpecs\nDownload & Support\nC&I Hybrid Cooling\nGrid Forming ESS\n\nModel: LUNA2000-241 Series\n\nUnlock On-demand Energy,\nKeep All-time Safety\nC2C Dual-link Safety\nFull protection from cell to consumption\nscenarios\nLower LCOS\nMore usable energy\nSimplified installation and O&M\nThermal Router\nLower energy consumption,\nlonger lifespan, and higher\nreliability\nOne-Fits-All\nOne Management fits All Lifecycle\nOne solution fits All C&I Scenarios\nInherently Safe,\nAll-time Safety\n\nHuawei proposes the concept of \"C2C Dual-link Safety architecture\", that is electrical and thermal safety from cell, pack, system, to consumption. Such a comprehensive design ensures safety from products to applications and sets a new benchmark for C&I ESS safety.\n\nC2C Electrical-link Safety: Short circuit\nprevention and isolation\n\nThe electrical safety is rigorously guaranteed with protection at every level, preventing short circuits.\n\nDual cell detecting\nSix-side pack insulation\nFive-level system protection\n24-hour consumption assurance\n\n24-hour real-time triple RCD, preventing personnel injury.Rapid shutdown of PCS in case of external short circuit to prevent personnel injury and internal components.\n\nDetection of 13+ fault types and cloud-based risk warning\n\nPatented reinforced insulation materials are used to provide 6-side all-round protection for battery packs and internal cells to survive 30 days of corrosion by electrolyte and 1500 V voltage\n\nFive-level full-range overcurrent protection, covering the AC/DC protection blind spot. Unique cell-to-ground short-circuit protection, rapid shutdown within 5ms.\n\n24-hour real-time triple RCD, preventing personnel injury.Rapid shutdown of PCS in case of external short circuit to prevent personnel injury and internal components.\n\nDetection of 13+ fault types and cloud-based risk warning\n\nC2C Heat-link Safety: Thermal runaway\nsuppression and protection\n\nAn active protection system provides full protection at all levels to ensure the safety of assets, property, and people.\n\nCell heat insulation and cooling\nPack positive pressure oxygen barrier\nSystem directional gas exhaust\nConsumption top explosion vent\n\nHourly fire resistance for assets safety.The top explosion vent design for personal safety.\n\nInter-cell heat insulation and rapid liquid cooling, preventing thermal diffusion between cells.\n\nIP65 protection, prevent oxygen from entering the battery pack and prevent fire inside the battery pack.\n\nThe combustible gases are exhausted through a L-shaped duct to prevent combustion and explosion inside the cabinet.\n\nHourly fire resistance for assets safety.The top explosion vent design for personal safety.\n\nInter-cell heat insulation and rapid liquid cooling, preventing thermal diffusion between cells.\n\nPro in Thermal Control\n\nLUNA2000-241 Series are innovating on the thermal control side with an intelligent hybrid cooling architecture. It's all about optimizing temperature, cutting energy use, and making your energy storage system last longer and work better.\n\n91.3%\nHigher system efficiency\n\n@0.25C\n\nIntelligent Switching Between Multiple Modes\n\nThe \"Thermal Router\" features an advanced thermal management system for adaptive regulation and multi-mode switching based on ambient temperature conditions, similar to how the body regulates heart rate. 30% reduction in energy consumption\n\nHigh temperature\n\nActive liquid cooling mode\nThe liquid-cooled unit runs actively, low-temperature coolant to quickly cool the cells.The air-cooled module runs in parallel medium-temperature coolant to cool the PCS\n\nRoom Temperature\n\nNatural air cooling mode\nOnly the air-cooled module runs. Medium-temperature coolant to cool the cells & PCS, lower power consumption\n\nLow temperature\n\nWaste heat utilization mode\nRecycling PCS waste heat, heating the cold cells, extremely low power consumption\n\nLonger Performance Life, More Reliable Operation\n\nAchieve efficient thermal management through the optimization of heat dissipation. This entails different temperature zones design, ultra-low flow resistance path, and dual-loop convection cooling for cells. Our system promises a longer performance lifespan following the strategy of 2 charge/discharge cycles per day.\n\nMore Energy\n\nEach battery pack has a built-in energy optimizer 2.0 with an efficient bidirectional balancing topology to improve system efficiency and achieve real-time active balancing without charge and discharge restrictions. This overcomes the short-board effect and increases the usable energy by 2% in the lifecycle.\n\n2%\nIncrease in Life Cycle Discharge\nInstall Easier, Cost Lower\n\nOrganize the cabinets with our space-saving three-sided layout, cutting the front-to-back spacing to 30 cm. This integrated design enables a swift, effortless, cost-effective setup without extra wiring or trench digging during installation.\n\nThree-phase four-wire PCS, no need for an isolation transformer.10-year free coolant replacement, save operation and maintenance cost\n\nOne Management fits All Lifecycle, Efficient Design and Operation\n\nSmart design: SmartDesign 2.0, optimal solution design within 1 minute, and hour-level precise benefit analysis.\nSmart scheduling: SmartEMO 2.0, the prediction precision is ≥ 90%, increasing the comprehensive revenue by 10%.\nSmart O&M: Four-level monitoring from cell level to system. Online health diagnosis, locating of abnormal cells in seconds.\n\nRecommendations\nSmart String Inverter\nSUN2000-150K-MG0\nLearn More\nSmart String Inverter\nSUN5000 Series Solution\nLearn More\nTheoretical values from Huawei's internal laboratories in specific test environments,\nand may vary slightly due to differences in products, software versions, use conditions, and environmental factors.\nHome\n\nAbout FusionSolar\n\n \n\nProducts & Solution\n\n \n\nPartners\n\n \n\nService & Support\n\n \n\nQuick Links\n\n© 2026 Huawei Technologies Co., Ltd.\nTerms of Use Privacy Cookies Cookie Settings",
+    "links": [
+      {
+        "text": "Download",
+        "url": "https://info.support.huawei.com/Energy/info/en_US/solar/index"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/residential/"
+      },
+      {
+        "text": "Smart String ESS \n                 \n                 Model: LUNA2000-5/7/10/12/14/15/17/19/21-S1",
+        "url": "https://solar.huawei.com/en/products/luna2000-7-14-21-s1/"
+      },
+      {
+        "text": "Smart Energy Controller \n                 \n                 Model: SUN2000-12/15/17/20/25K-MB0",
+        "url": "https://solar.huawei.com/en/products/sun2000-12-15-17-20-25k-mb0/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: SUN2000-600W-PA0",
+        "url": "https://solar.huawei.com/en/products/merc-600w-pa0/"
+      },
+      {
+        "text": "Smart Guard \n                 \n                 Model: SmartGuard-63A-S0",
+        "url": "https://solar.huawei.com/en/products/huawei-smartguard/"
+      },
+      {
+        "text": "Product Comparison",
+        "url": "https://solar.huawei.com/en/residential/compare-smart-energy-controller-single-phase/"
+      },
+      {
+        "text": "Product Configuration",
+        "url": "https://solar.huawei.com/en/products/product-configuration/"
+      },
+      {
+        "text": "Download FusionSolar App",
+        "url": "https://intl.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/index.html#/jumppage"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/commercial-industrial/"
+      },
+      {
+        "text": "Smart PV Controller \n                 \n                 Model: SUN2000-150K-MG0",
+        "url": "https://solar.huawei.com/en/products/sun2000-150k-mg0/"
+      },
+      {
+        "text": "C&I Hybrid Cooling Grid Forming ESS \n                 \n                 Model: LUNA2000-241 Series",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: MERC-1100/1300W-P",
+        "url": "https://solar.huawei.com/en/products/merc-1100-1300-p/"
+      },
+      {
+        "text": "Accessories \n                 \n                 Model: Smart Dongle - 4G",
+        "url": "https://solar.huawei.com/en/products/ci-smartdongle-4g/"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/utility/"
+      },
+      {
+        "text": "Smart PV Controller \n                \n                Model: SUN2000-506KTL-H1/H3",
+        "url": "https://solar.huawei.com/dam/asset/view/c627e3ca4436437a8611374853aa4331.pdf"
+      },
+      {
+        "text": "Smart String Grid Forming ESS \n                \n                Model: LUNA2000-5015-2S",
+        "url": "https://solar.huawei.com/dam/asset/view/e9bb9b1319904298949861cb2d7c94ac.pdf"
+      },
+      {
+        "text": "Smart PCS \n                \n                Model: LUNA2000-213KTL-H0",
+        "url": "https://solar.huawei.com/dam/asset/view/129065513be14d9e93f68ff542d4f2c9.pdf"
+      },
+      {
+        "text": "Management System \n                \n                Smart PV Plant Management System",
+        "url": "https://solar.huawei.com/en/products/smart-pv-plant-management-system/"
+      },
+      {
+        "text": "Software Download",
+        "url": "https://support.huawei.com/enterprise/en/category/fusion-solar-pid-1600073963553?submodel=software"
+      },
+      {
+        "text": "Residential",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/#"
+      },
+      {
+        "text": "Specs",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/specs/"
+      },
+      {
+        "text": "Download & Support",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/support/"
+      },
+      {
+        "text": "Learn More",
+        "url": "https://solar.huawei.com/en/products/sun5000-150k-mg0/"
+      },
+      {
+        "text": "Technical Support Center",
+        "url": "https://solar.huawei.com/en/support/"
+      }
+    ]
+  },
+  {
+    "requested": "https://solar.huawei.com/en/products/luna2000-200kwh-2h1/",
+    "url": "https://solar.huawei.com/en/products/luna2000-200kwh-2h1/",
+    "status": 404,
+    "title": "Huawei Digital Power - Smart PV & ESS Solutions for Residential, C&I, and Utility Scale",
+    "text": "Huawei Digital Power - Smart PV & ESS Solutions for Residential, C&I, and Utility Scale\n\nSorry, this page does not exist\n\nHome\n\nAbout FusionSolar\n\n \n\nProducts & Solution\n\n \n\nPartners\n\n \n\nService & Support\n\n \n\nQuick Links\n\n© 2026 Huawei Technologies Co., Ltd.\nTerms of Use Privacy Cookies Cookie Settings\n\nHuawei Technologies Co. Ltd use cookies on this site, including third party cookies, in order for the site to work properly and to analyse traffic, offer enhanced functionality, social media features, and personalise content and ads. Learn more\n\n  Consent Preferences >",
+    "links": [
+      {
+        "text": "Download",
+        "url": "https://info.support.huawei.com/Energy/info/en_US/solar/index"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/residential/"
+      },
+      {
+        "text": "All-in-One Energy System\n                                                                \n                    ",
+        "url": "https://solar.huawei.com/en/products/luterra-s2-xl-xm/"
+      },
+      {
+        "text": "Smart Energy Controller\n                                                                \n                     ",
+        "url": "https://solar.huawei.com/en/products/sun2000-12-15-17-20-25k-mb0/"
+      },
+      {
+        "text": "Smart Module Controller\n                                                                \n                     ",
+        "url": "https://solar.huawei.com/en/products/merc-600w-pa0/"
+      },
+      {
+        "text": "Smart Guard\n                                                                \n                                 ",
+        "url": "https://solar.huawei.com/en/products/huawei-smartguard/"
+      },
+      {
+        "text": "Product Comparison",
+        "url": "https://solar.huawei.com/en/residential/compare-smart-energy-controller-single-phase/"
+      },
+      {
+        "text": "Product Configuration",
+        "url": "https://solar.huawei.com/en/products/product-configuration/"
+      },
+      {
+        "text": "Download FusionSolar App",
+        "url": "https://intl.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/index.html#/jumppage"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/commercial-industrial/"
+      },
+      {
+        "text": "Smart PV Controller\n                                                                \n                         ",
+        "url": "https://solar.huawei.com/en/products/sun2000-150k-mg0/"
+      },
+      {
+        "text": "C&I Hybrid Cooling Grid Forming ESS\n                                                                \n         ",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/"
+      },
+      {
+        "text": "Smart Module Controller\n                                                                \n                     ",
+        "url": "https://solar.huawei.com/en/products/merc-1100-1300-p/"
+      },
+      {
+        "text": "Accessories\n                                                                \n                                 ",
+        "url": "https://solar.huawei.com/en/products/ci-smartdongle-4g/"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/utility/"
+      },
+      {
+        "text": "Smart PV Controller\n                                                        \n                                 ",
+        "url": "https://solar.huawei.com/dam/asset/view/c627e3ca4436437a8611374853aa4331.pdf"
+      },
+      {
+        "text": "Smart String Grid Forming ESS\n                                                        \n                       ",
+        "url": "https://solar.huawei.com/dam/asset/view/e9bb9b1319904298949861cb2d7c94ac.pdf"
+      },
+      {
+        "text": "Smart PCS\n                                                        \n                                           ",
+        "url": "https://solar.huawei.com/dam/asset/view/129065513be14d9e93f68ff542d4f2c9.pdf"
+      },
+      {
+        "text": "Management System\n                                                        \n                                   ",
+        "url": "https://solar.huawei.com/en/products/smart-pv-plant-management-system/"
+      },
+      {
+        "text": "",
+        "url": "https://solar.huawei.com/en/products/luna2000-200kwh-2h1/"
+      },
+      {
+        "text": "Software Download",
+        "url": "https://support.huawei.com/enterprise/en/category/fusion-solar-pid-1600073963553?submodel=software"
+      },
+      {
+        "text": "Residential",
+        "url": "https://solar.huawei.com/en/products/luna2000-200kwh-2h1/#"
+      },
+      {
+        "text": "Technical Support Center",
+        "url": "https://solar.huawei.com/en/support/"
+      }
+    ]
+  },
+  {
+    "requested": "https://www.bing.com/search?q=LUNA2000-215-2S10",
+    "url": "https://www.bing.com/search?q=LUNA2000-215-2S10&rdr=1&rdrig=6045D4791FBE48719195869CB8D23527",
+    "status": 200,
+    "title": "LUNA2000-215-2S10 - 搜索",
+    "text": "跳至内容\n辅助功能反馈\nRewards\n全部AI 模式WEB图片视频地图资讯\n更多\n隐私\n条款",
+    "links": []
+  }
+]

@@ -1,0 +1,190 @@
+{
+  "owner": "R4 controller",
+  "status": "controller_reviewed_research_recommendation_not_team_adopted",
+  "parameters": [
+    {
+      "id": "R4-P01",
+      "name": "reporting_currency",
+      "value": "GBP2020",
+      "unit": "constant2020GBP",
+      "evidence_status": "analyst_reporting_convention",
+      "source_ids": [
+        "R4-S02",
+        "R4-S04"
+      ],
+      "scope": "General CPI purchasing-power comparison, not equipment-price forecast"
+    },
+    {
+      "id": "R4-P02",
+      "name": "GBP_per_EUR2020",
+      "value": 0.8897040856031,
+      "unit": "GBP/EUR",
+      "evidence_status": "official_verified",
+      "source_ids": [
+        "R4-S01",
+        "R4-S02"
+      ],
+      "scope": "Multiply EUR2020 costs; historical annual reference"
+    },
+    {
+      "id": "R4-P03",
+      "name": "CPI_annual2020",
+      "value": 108.7,
+      "unit": "2015=100",
+      "evidence_status": "official_verified",
+      "source_ids": [
+        "R4-S04"
+      ],
+      "scope": "p_real2020(day)=p_nominal(day)*CPI_annual2020/CPI_month(day)"
+    },
+    {
+      "id": "R4-P04",
+      "name": "discount_rate_real",
+      "value": 0.05,
+      "unit": "1/year",
+      "evidence_status": "analyst_assumption",
+      "source_ids": [
+        "R4-S05"
+      ],
+      "scope": "Sensitivity0/.03/.05/.08/.12; not empirically identified private hurdle or government-prescribed project rate"
+    },
+    {
+      "id": "R4-P05",
+      "name": "common_dates",
+      "value": 2406,
+      "unit": "days",
+      "evidence_status": "local_calculation",
+      "source_ids": [
+        "R4-C01"
+      ],
+      "scope": "Intersection, not an uninterrupted timeline"
+    },
+    {
+      "id": "R4-P06",
+      "name": "continuous_recommended_years",
+      "value": {
+        "design": 2023,
+        "validation": 2024,
+        "test": 2025
+      },
+      "unit": "calendar years",
+      "evidence_status": "analyst_evaluation_design",
+      "source_ids": [
+        "R4-C01"
+      ],
+      "scope": "Capacity fixed after design; operational oracle labels separate from causal policies; crisis-years stress separately"
+    },
+    {
+      "id": "R4-P07",
+      "name": "daily_power_to_energy",
+      "value": 24,
+      "unit": "hours/day",
+      "evidence_status": "explicit_unit_interpretation",
+      "source_ids": [
+        "R4-C01"
+      ],
+      "scope": "If supplied power is daily meanMW; price-column identity alone does not prove demand aggregation"
+    },
+    {
+      "id": "R4-P08",
+      "name": "anomaly_policy",
+      "value": "keep_negative_prices_and_flag_636_demand",
+      "unit": "rule",
+      "evidence_status": "controller_recommendation",
+      "source_ids": [
+        "R4-C01"
+      ],
+      "scope": "No automatic deletion; no joining of missing-date SOC"
+    },
+    {
+      "id": "R4-P09",
+      "name": "battery_capex",
+      "value": 256234.7766536928,
+      "unit": "GBP2020/MWh_nameplate",
+      "evidence_status": "calculated_from_official_source",
+      "source_ids": [
+        "R4-C02",
+        "R2-DEA-XLSX"
+      ],
+      "scope": "Installed reference, no duplicatePCS/EPC"
+    },
+    {
+      "id": "R4-P10",
+      "name": "battery_FOM_scenarios",
+      "value": {
+        "table_label": 7430.80852295709,
+        "primary_noteN": 14861.617045914183
+      },
+      "unit": "GBP2020/MW/year",
+      "evidence_status": "unresolved_source_unit_conflict_scenario",
+      "source_ids": [
+        "R4-C02",
+        "R2-DEA-XLSX"
+      ],
+      "scope": "Both retained, primary2.9%-CAPEX interpretation; not official erratum"
+    },
+    {
+      "id": "R4-P11",
+      "name": "modern_electrolyser_capex",
+      "value": {
+        "low": 1269.9475841191008,
+        "analyst_midpoint": 1460.439721736966,
+        "high": 1650.931859354831
+      },
+      "unit": "GBP2020/kW_assumed_electrical",
+      "evidence_status": "sourced_range_with_reporting_assumptions",
+      "source_ids": [
+        "R4-S08",
+        "R4-S09",
+        "R4-S10",
+        "R4-S04"
+      ],
+      "scope": "Treat observed2024USD as nominalUSD2024; electrical denominator inferred; midpoint analyst-selected; not UK/ITM quote"
+    },
+    {
+      "id": "R4-P12",
+      "name": "legacy_electrolyser_capex",
+      "value": {
+        "low": 671.6071252236136,
+        "central": 816.0154400715563,
+        "high": 1329.3607996422181
+      },
+      "unit": "GBP2020/kWe",
+      "evidence_status": "historical_hybrid_cost_proxy",
+      "source_ids": [
+        "R4-C02",
+        "R3-S05"
+      ],
+      "scope": "OldH2HHV output costs projected toITM55.9; not modern installation price"
+    },
+    {
+      "id": "R4-P13",
+      "name": "supported_H2_value",
+      "value": 7.7990270551508845,
+      "unit": "GBP2020/kg",
+      "evidence_status": "policy_reference_rebased_not_merchant_contract",
+      "source_ids": [
+        "R3-S06",
+        "R4-S04"
+      ],
+      "scope": "No eligibility or buyer guarantee; no support added again on top of supported price"
+    },
+    {
+      "id": "R4-P14",
+      "name": "economic_objective",
+      "value": "annual_equivalent_net_profit",
+      "unit": "GBP2020/year",
+      "evidence_status": "analyst_accounting_choice",
+      "source_ids": [
+        "R4-S05",
+        "R4-C02"
+      ],
+      "scope": "Common representative-year assumption, asset-specific CRF, no duplicated reserve/replacements; matchA0/A1/B0/B1"
+    }
+  ],
+  "remaining_modelling_choices": [
+    "H2 buyer cap/netback and support eligibility are scenario conditions",
+    "Modern source USD price base/electrical denominator are declared interpretations",
+    "Equipment-specific quotes and private cost of capital are not observed"
+  ]
+}

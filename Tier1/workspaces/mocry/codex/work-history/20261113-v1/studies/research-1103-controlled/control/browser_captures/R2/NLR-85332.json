@@ -1,0 +1,19 @@
+{
+  "owner": "R2",
+  "id": "NLR-85332",
+  "requested_url": "https://docs.nlr.gov/docs/fy23osti/85332.pdf",
+  "url": "https://docs.nlr.gov/docs/fy23osti/85332.pdf",
+  "status": 200,
+  "headers": {
+    "cache-control": "no-store, must-revalidate, no-cache, max-age=0",
+    "content-type": "text/html",
+    "content-length": "50561",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff"
+  },
+  "bytes": 50561,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:20:36.832Z",
+  "binary_base64_path": "C:/研究生/courses/MMCS/assignments/FinalProject/research-1103-controlled/control/browser_captures/R2/NLR-85332.b64"
+}

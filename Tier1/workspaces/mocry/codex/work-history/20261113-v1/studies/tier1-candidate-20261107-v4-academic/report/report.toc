@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {I}Introduction and data}{1}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.I.1}%
+\contentsline {section}{\numberline {2}Data audit and reconstruction}{1}{section.I.2}%
+\contentsline {section}{\numberline {3}Common notation and assumptions}{2}{section.I.3}%
+\contentsline {chapter}{\numberline {II}Tier 1: deterministic investment appraisal}{3}{chapter.2}%
+\contentsline {section}{\numberline {1}Problem analysis}{3}{section.II.1}%
+\contentsline {section}{\numberline {2}Assumptions and research}{3}{section.II.2}%
+\contentsline {subsection}{\numberline {2.1}Tier-specific assumptions}{3}{subsection.II.2.1}%
+\contentsline {subsection}{\numberline {2.2}Research objectives and parameter selection}{3}{subsection.II.2.2}%
+\contentsline {section}{\numberline {3}Mathematical model}{4}{section.II.3}%
+\contentsline {section}{\numberline {4}Results and analysis}{5}{section.II.4}%
+\contentsline {subsection}{\numberline {4.1}Capacity and historical performance}{5}{subsection.II.4.1}%
+\contentsline {subsection}{\numberline {4.2}Energy attribution and contract sensitivity}{5}{subsection.II.4.2}%
+\contentsline {subsection}{\numberline {4.3}Validation and conclusion}{6}{subsection.II.4.3}%
+\contentsline {chapter}{\numberline {III}Tier 2B: forecasting and chronological operation}{7}{chapter.3}%
+\contentsline {section}{\numberline {1}Information and experimental design}{7}{section.III.1}%
+\contentsline {section}{\numberline {2}Multi-step forecasting model}{7}{section.III.2}%
+\contentsline {section}{\numberline {3}Rolling optimisation and storage feedback}{7}{section.III.3}%
+\contentsline {section}{\numberline {4}Evaluation and results to be completed}{7}{section.III.4}%
+\contentsline {chapter}{References}{R1}{section*.10}%

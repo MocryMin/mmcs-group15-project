@@ -1,0 +1,58 @@
+{
+  "policy": "B",
+  "nominal_capacity_MWh": 10000,
+  "annual_gain_GBP": 11489575.207343016,
+  "annual_gain_upper_GBP": 11489580.897795478,
+  "annual_incremental_profit_mGBP": 49.20202863662825,
+  "no_battery_profit_mGBP": 37.71245342928523,
+  "annual_reference_receipts_mGBP": 20959.853256230683,
+  "roundtrip_efficiency": 0.92,
+  "available_stock_window_fraction": 0.6,
+  "electrolyser_units": {
+    "itm-neptune-ii": 0,
+    "itm-neptune-v": 144,
+    "nel-mc250": 0,
+    "nel-mc500": 0,
+    "nel-mc1000": 0
+  },
+  "electrolyser_MW": 724.4639999999999,
+  "annual_charge_MWh": 125716.87907584116,
+  "annual_battery_sales_MWh": 74508.25047879935,
+  "annual_battery_to_H2_MWh": 41151.27827097452,
+  "max_stock_GWh": 5.754997827975264,
+  "elapsed_seconds": 0.3289999999979045,
+  "solver_history": [
+    {
+      "status": "HighsModelStatus.kOptimal",
+      "objective": -11.489575207343016,
+      "lower_bound": -11.489580897795477,
+      "relative_gap": 4.952709180754568e-07,
+      "nodes": 1,
+      "invalid_minimum_load_days": 0
+    }
+  ],
+  "audit": {
+    "stock_balance": 8.881784197001252e-16,
+    "terminal_stock": 0.0,
+    "stock_capacity": 0.0,
+    "max_generation_use": 0.0,
+    "max_sales": 0.0,
+    "no_simultaneous_charge_discharge": 0.0,
+    "nonnegative_flows": 0.0,
+    "B_direct": 0.0,
+    "B_battery": 0.0,
+    "itm-neptune-ii_capacity": 0.0,
+    "itm-neptune-ii_minimum": 0.0,
+    "itm-neptune-v_capacity": 0.0,
+    "itm-neptune-v_minimum": 0.0,
+    "nel-mc250_capacity": 0.0,
+    "nel-mc250_minimum": 0.0,
+    "nel-mc500_capacity": 0.0,
+    "nel-mc500_minimum": 0.0,
+    "nel-mc1000_capacity": 0.0,
+    "nel-mc1000_minimum": 0.0,
+    "h2_sources": 3.552713678800501e-15,
+    "h2_cap_GWh_equivalent": 0.0,
+    "profit_error_mGBP": 4.476419235288631e-13
+  }
+}

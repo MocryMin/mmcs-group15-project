@@ -1,0 +1,76 @@
+{
+  "id": "nel-a485",
+  "type": "electrolyser",
+  "manufacturer": "Nel",
+  "model": "A485",
+  "source": "Nel-A485-Rev03.pdf pp1-2;pages-08.json",
+  "technical": {
+    "technology": "alkaline",
+    "marketing_class_MW": 2.2,
+    "hydrogen_kg_per_hour": 43.583333333333336,
+    "system_specific_kWh_per_kg": null,
+    "nominal_system_input_kW": null,
+    "nominal_stack_input_kW": 2179.166666666667,
+    "minimum_flow_fraction": 0.15,
+    "minimum_transient_flow_fraction": null,
+    "transient_limit_hours": null,
+    "minimum_steady_flow_fraction": 0.15,
+    "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+    "outlet_pressure_barg": 0.03,
+    "base_purity": "99+% saturatedwithliquidwater,O2<1%",
+    "optional_purity": null,
+    "additional_purification_kW": null,
+    "water_litre_per_kg": 10,
+    "water_quality": "DI<1uScm",
+    "ramp": {
+      "min_fraction_per_minute": 0.1
+    },
+    "hot_start_seconds": null,
+    "cold_start_seconds": null,
+    "standby_kW": null,
+    "minimum_up_time_hours": null,
+    "minimum_down_time_hours": null,
+    "stack_lifetime_hours": null,
+    "plant_lifetime_years": "20+webclaim;not full-servicewarranty",
+    "warranty_years": null,
+    "ambient_temperature_C": null,
+    "degradation_curve": null,
+    "replacement_cost": null,
+    "maintenance": null,
+    "scope": "stackandelectrolyteonly;notfullACplant;requiresrectifier,BoP,quality/pressurematching",
+    "stack_specific_kWh_per_kg": {
+      "value": 50,
+      "tolerance": 1.1
+    },
+    "hydrogen_rate_kind": "maximum production; source tolerance +0/-3%, not a guaranteed mean"
+  },
+  "public_prices": [],
+  "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+  "model_protocol": [
+    "daily steady-state and shutdown convention",
+    "preserve both nominal output and input definitions",
+    "part-load curve approximation must be declared",
+    "common delivered hydrogen grade before applying equal netback",
+    "use one consistent stack-replacement accounting route"
+  ],
+  "general_gaps": [
+    "Current full installed project price",
+    "Product-specific lifetime/renewal cost and downtime",
+    "Off/standby/start energy and full partial-load curves where unpublished"
+  ],
+  "model_view": {
+    "hydrogen_kg_day": 1046.0,
+    "system_kWh_kg": null,
+    "full_load_input_MWh_day": null,
+    "minimum_flow_fraction": 0.15,
+    "missing_core_fields": [
+      "system_specific_kWh_per_kg"
+    ],
+    "reference_ready": "not a complete ACplantcandidate"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": false,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

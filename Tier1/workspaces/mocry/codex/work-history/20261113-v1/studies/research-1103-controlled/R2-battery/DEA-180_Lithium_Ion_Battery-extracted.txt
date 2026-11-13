@@ -1,0 +1,84 @@
+A1=Technology | D1=Lithium-ion battery (Utility-scale)
+A2=year | C2=2020 | D2=2025 | E2=2030 | F2=2035 | G2=2040 | H2=2050 | I2=Uncertainty 
+(2030) | K2=Uncertainty 
+(2050) | M2=Note | N2=Ref
+A3=est | C3=ctrl | D3=ctrl | E3=ctrl | F3=ctrl | G3=ctrl | H3=ctrl | I3=Lower | J3=Upper | K3=Lower | L3=Upper | M3=- | N3=-
+A4=cat | B4=par
+A5=Energy/technical data
+B6=Form of energy stored | D6=Electricity
+B7=Application | D7=System, power- and energy-intensive
+B8=Energy storage capacity for one unit [MWh] | D8=3 | E8=3.6 | F8=4.1 | G8=4.5 | H8=4.8 | I8=3 | J8=4.1 | K8=4.5 | L8=5 | M8=A | N8=[1,2]
+B9=Output power for one unit [MW] | D9=1.5 | E9=3.6 | F9=5.3 | G9=7.7 | H9=9.6 | I9=1.5 | J9=5.3 | K9=7.7 | L9=11.5 | M9=A,B | N9=[1,2,7,20]
+B10=Input power for one unit [MW] | D10=1.5 | E10=3.6 | F10=5.3 | G10=7.7 | H10=9.6 | I10=1.5 | J10=5.3 | K10=7.7 | L10=11.5 | M10=A,B | N10=[1,2,7,20]
+B11=Round trip efficiency [%] AC | D11=91 | E11=91 | F11=92 | G11=92 | H11=92 | I11=90 | J11=92 | K11=91 | L11=94 | M11=C | N11=[1,3,4,5,6]
+B12=Round trip efficiency [%] DC | D12=95 | E12=95 | F12=96 | G12=96 | H12=96 | I12=95 | J12=96 | K12=95 | L12=97 | M12=C | N12=[1,3,4,5,6]
+B13=- Charge efficiency [%] | D13=98 | E13=98 | F13=98.5 | G13=98.5 | H13=98.5 | I13=98 | J13=98.5 | K13=98 | L13=99 | M13=D | N13=[7]
+B14=- Discharge efficiency [%] | D14=97 | E14=97 | F14=97.5 | G14=97.5 | H14=97.5 | I14=97 | J14=98 | K14=97 | L14=98 | M14=D | N14=[7]
+B15=Energy losses during storage [%/day] | D15=0.1 | E15=0.1 | F15=0.1 | G15=0.1 | H15=0.1 | I15=0.05 | J15=0.2 | K15=0.05 | L15=0.15 | M15=E | N15=[8,9,10]
+B16=Forced outage [%] | D16=0.4 | E16=0.38 | F16=0.35 | G16=0.3 | H16=0.25 | I16=0.2 | J16=0.5 | K16=0.1 | L16=0.3 | M16=F
+B17=Planned outage [weeks/year] | D17=0.2 | E17=0.2 | F17=0.1 | G17=0.1 | H17=0.1 | I17=0.1 | J17=0.25 | K17=0.05 | L17=0.2 | M17=F
+B18=Technical lifetime [years] | D18=15 | E18=20 | F18=25 | G18=30 | H18=30 | I18=8 | J18=30 | K18=20 | L18=30 | M18=G | N18=[1,2,11,12]
+B19=Construction time [years] | D19=0.25 | E19=0.2 | F19=0.2 | G19=0.2 | H19=0.2 | I19=0.2 | J19=1.5 | K19=0.1 | L19=2 | M19=H
+A20=Regulation ability
+B21=Response time from idle to full-rated discharge [sec] | D21=0.08 | E21=0.08 | F21=0.08 | G21=0.08 | H21=0.08 | I21=0 | J21=0.08 | K21=0 | L21=0.08 | M21=I | N21=[13]
+B22=Response time from full-rated charge to full-rated discharge [sec] | D22=0.08 | E22=0.08 | F22=0.08 | G22=0.08 | H22=0.08 | I22=0 | J22=0.08 | K22=0 | L22=0.08 | M22=I | N22=[13]
+A23=Financial data
+B24=Specific investment [MEUR2020/MWh] | D24=0.288 | E24=0.27899999999999997 | F24=0.2806585365853659 | G24=0.2991688888888889 | H24=0.31799999999999995 | I24=0.18500000000000003 | J24=0.3535853658536586 | K24=0.19844444444444445 | L24=0.38820000000000005 | M24=J
+B25=- energy component [MEUR/MWh] | D25=0.095 | E25=0.065 | F25=0.055 | G25=0.0546 | H25=0.054 | I25=0.05 | J25=0.095 | K25=0.03 | L25=0.055 | M25=K | N25=[15,16]
+B26=- power component [MEUR/MW] | D26=0.086 | E26=0.084 | F26=0.074 | G26=0.0728 | H26=0.072 | I26=0.07 | J26=0.084 | K26=0.04 | L26=0.084 | M26=L | N26=[17]
+B27=- other project costs [MEUR/MWh] | D27=0.15 | E27=0.13 | F27=0.13 | G27=0.12 | H27=0.12 | I27=0.1 | J27=0.15 | K27=0.1 | L27=0.14 | M27=M
+B28=Fixed O&M [kEUR2020/MW/year] | D28=8.351999999999999 | E28=8.091 | F28=8.139097560975609 | G28=8.675897777777775 | H28=9.221999999999998 | I28=5.365 | J28=10.253975609756099 | K28=5.754888888888888 | L28=11.2578 | M28=N | N28=[14]
+B29=Variable O&M [EUR2020/MWh] | D29=0 | E29=0 | F29=0 | G29=0 | H29=0 | I29=0 | J29=0 | K29=0 | L29=0 | M29=O | N29=[14]
+A30=Technology-specific data
+B31=Energy storage expansion cost [MEUR2020/MWh] | D31=0.12 | E31=0.084 | F31=0.072 | G31=0.072 | H31=0.072 | I31=0.05 | J31=0.12 | K31=0.036 | L31=0.108 | M31=P
+B32=Power expansion cost [MEUR2020/MW] | D32=0.108 | E32=0.108 | F32=0.096 | G32=0.096 | H32=0.096 | I32=0.072 | J32=0.144 | K32=0.05 | L32=0.12 | M32=Q
+B33=Alternative Investment cost [MEUR2020/MW] | D33=0.576 | E33=0.27899999999999997 | F33=0.21711320754716984 | G33=0.17483896103896104 | H33=0.15899999999999997 | I33=0.37000000000000005 | J33=0.27352830188679245 | K33=0.11597402597402598 | L33=0.1687826086956522 | M33=R
+B34=Lifetime in total number of cycles | D34=5000 | E34=6000 | F34=8000 | G34=12000 | H34=20000 | I34=5000 | J34=8000 | K34=12000 | L34=36000 | M34=S | N34=[1-5,18]
+B35=Specific power [W/kg] | D35=48 | E35=53 | F35=58 | G35=64 | H35=77 | I35=30 | J35=65 | K35=50 | L35=90 | M35=T | N35=[1,2,18,19]
+B36=Power density [kW/m3] | D36=43 | E36=47 | F36=52 | G36=57 | H36=69 | I36=28 | J36=52 | K36=55 | L36=110 | M36=T | N36=[1,2,18,19]
+B37=Specific energy [Wh/kg] | D37=107 | E37=118 | F37=129 | G37=142 | H37=172 | I37=76 | J37=131 | K37=150 | L37=210 | M37=T | N37=[1,2,18,19]
+B38=Energy density [kWh/m3] | D38=78 | E38=86 | F38=94 | G38=104 | H38=126 | I38=50 | J38=90 | K38=110 | L38=150 | M38=T | N38=[1,2,18,19]
+A40=Notes
+B41=General: Costs are given in 2020 prices. Cost estimates have been calculated by deflating 2024 prices with a factor 0.84 based on the European HICP price index (source: https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/index.en.html#what). 
+A42=A | B42=One unit is defined as a 20 feet container including LIB system and excluding power conversion system. The Specific investment cost under financial data is the total cost for a 3MWh/1,5MW BESS, which is the typical size of grid-scale BESS in 2025. (Some specific BESS might have lower energy capacity and higher power capacity or vice versa.)
+A43=B | B43=Power input and output are both set to 0,5 C-rate in 2025 and is expected to increase incrementally to 2,0 C-rate 2050. The optimum can be considered at around 1,0 C-rate. There are dedicated high-power Li-BESS available with C-rates up to 6,0 but with considerably lower energy capacity at the same size. 
+A44=C | B44=The gradual change towards lower C-rates following the transition from frequency regulation to renewable integration promotes lower C-rates. Because of this and the (theoretical) potential for technical improvement, the average DC roundtrip efficiency is expected to increase slightly.  The AC roundtrip efficiency includes losses in the power electronics and is 2-4% lower than the DC roundtrip efficiency. The total roundtrip efficiency further includes standby losses making the total roundtrip efficiency typically ranging between 80% and 90% [4,5].
+A45=D | B45=The presented conversion efficiencies assume average C-rates of 0,5 in 2025 and 2,0 in 2050. 
+A46=E | B46=Lithium-ion battery daily discharge loss. The central estimates for self-discharge of Li-ion batteries range between 0,05% and 0,20% a day in 2024 and are expected to stay flat to 2050.
+A47=F | B47=The main source of outage of the battery cells is caused by extreme heat or cold as this may push the cells beyond their operational limits. However, these are considered rare events and for many system may never occur. Outages may however happen due to the power electronic or thermal management which will also need yearly maintenance causing planned outage. In total this is expected to remain below a few days per year and is unlikely to change significantly over time.
+A48=G | B48=Current state-of-the-art NMC and LFP LIB are available with 30 years lifetime at optimal thermal conditions. The lifetime may be shorter if the duty cycle requires more cycles to be performed before the technical lifetime of the system is reached. The system will degrade even if not in use, known as calendric aging and set a finite limited lifetime of the system typically in the range of 15 to 30 years. However this is strongly dependant on the ambient temperature and SoC of the battery. 
+A49=H | B49=Construction time of a BESS varies widely from site to site. Construction of the BESS system alone may only take a few months, but getting approval to connect to the grid and potential upgrade to the grid may delay start of operations by as much as 18 months as of 2024 based on experience from the Danish market. However this may differ significantly from country to country. 
+A50=I | B50=The response time is obtained from simulated response time experiments with hardware in the loop [13]. 
+A51=J | B51=The specific investment cost for 2025 is the total cost of a 3MWh/1,5MW BESS, which is the typical grid-scale battery. However size and Power to energy ratio may vary significantly from system to system and must be calculated based on the expected system specifications as shown in the section Cost examples in the chapter.
+A52=K | B52=The battery pack cost forecast is provided in Table 8 and Figure 11.
+A53=L | B53=Power conversion cost is strongly dependent on scalability and application. The PCS cost is based on references and reflects the necessity for high power performance and compliance to grid codes to provide ancillary services, bidirectional electricity flow and two-stage conversion, as well as the early stage of development and the fact that few manufacturers can guarantee turnkey systems. Inverter replacement is expected every 10 years.
+A54=M | B54=Other costs include construction costs and entrepreneur work as described in table 10. These costs heavily dependent on location, power cables to the site and entrepreneur work for installation of the containers are included in other costs. Therefore other costs are assumed to – roughly – correlate with the system size. 
+A55=N | B55=Fixed O&M is assumed to be constant at 2,9% for a 0,5 C-rate BESS with 3MWh/1,5MW. O&M depends on the energy to power ratio.
+A56=O | B56=Variable O&M is assumed to be 0 EUR/MWh, as a fixed use pattern is assumed throughout the BESS calendar life, and all replacement and maintenance is accounted for under fixed O&M. 
+A57=P | B57=Since multi-MWh LIB systems are modularly scalable, the energy storage expansion cost is here estimated to be equal to the energy component plus the 20% of the respective “other costs”. (For a pure BESS expansion, not the full share a "other cost" should valid - if everything needs to be build from scratch, the regular financial data apply.)
+A58=Q | B58=Since multi-MW LIB systems are modularly scalable, the capacity expansion cost equals the capacity component cost plus 20% of the respective “other costs”. (For a pure BESS expansion, not the full share a "other cost" should valid - if everything needs to be build from scratch, the regular financial data apply.).
+A59=R | B59=The alternative investment cost in MEUR2020/MW is specified for a 1,0 C-rate BESS with 3MWh/1,5MW. The calculation is similar to the specific investment (line 24), but weighted by overall power capacity instead. Please be aware of alternative investment cost for the battery system alone decrease with increasing C-rate while the PCS cost increase to realize the higher power capacity.
+A60=S | B60=Lifetime numbers are based on LFP and NMC chemistries as they are more commonly used for grid scale BESS. The upper limit values are given for long life LTO or XNO chemistries as the extreme alternative. However, LTO BESS are generally not competitive with LFP or NMC technologies for most applications. They mainly excel at applications that need several full charge/discharge cycles per day where the high number of lifetime cycles can be fully utilized.
+A61=T | B61=Specific power, power density, Specific energy and energy density are provided based on systems available in 2024 using BYDs 20 ft. containerized ESS, Xolta’s Bat-80, LG chems grid scale BESS and TESvolts TPS-E series. Continuous development is assumed for all performance parameters until 2050. The 2025 values are based on averaged of the available systems.
+A64=References
+A65=[1] | B65=TESvolt. TPS-E Technical datasheet, (2024). https://www.tesvolt.com/_media/05%20SERVICE/03%20Downloads/E-Serie/TPS-E/Datenblatt/RD.TI.094.E.en-US_v.B.02.pdf
+A66=[2] | B66=BYD. 20 Ft ESS ,model CS20H-B2982-E-R1M01, (2024). http://www.bydenergy.com/productDetail?locale=EN&type=CN&name=20ft%20ESS&id=77&pageContentType=PRODUCT_CATEGORY_ENERGY
+A67=[3] | B67=L. Kokam Co. Total Energy Storage Solution Provider, (2018). http://kokam.com/data/2018_Kokam_ESS_Brochure_ver_5.0.pdf
+A68=[4] | B68=A.H. Fathima, K. Palanisamy. Renewable systems and energy storages for hybrid systems, Ed(s): A. Hina Fathima, et al., in  Hybrid-renewable energy systems in microgrids. Woodhead Publishing (2018), pp. 162. https://doi.org/10.1016/B978-0-08-102493-5.00008-X
+A69=[5] | B69=Lazard. Levelized Cost of Storage (2017)., https://www.lazard.com/perspective/levelized-cost-of-storage-2017/ 
+A70=[6] | B70=Danish Technological Institute. BESS project Smart grid ready Battery Energy Storage System for future grid, (2017). https://www.energiforskning.dk/sites/energiteknologi.dk/files/slutrapporter/bess_final_report_forskel_10731.pdf
+A71=[7] | B71=Samsung SDI; ESS Batteries by Samsung SDI Top Safety & Reliability Solutions, 2018, http://www.samsungsdi.com/upload/ess_brochure/201809_SamsungSDI ESS_EN.pdf; Smart Battery Systems, 2016, https://www.samsungsdi.com/upload/ess_brochure/SamsungSDI_ESS_201609EN.pdf
+A72=[8] | B72=Electropaedia. Battery Performance Characteristics - How to specify and test a battery, (2018). https://www.mpoweruk.com/performance.htm
+A73=[9] | B73=International Renewable Energy Agency. Electricity Storage and Renewables : Costs and Markets To 2030, (2017). http://www.irena.org/publications/2017/Oct/Electricity-storage-and-renewables-costs-and-markets
+A74=[10] | B74=H. Chen, T.N. Cong, W. Yang, C. Tan, Y. Li, Y. Ding, Progress in electrical energy storage system: A critical review, Prog. Nat. Sci. 19 (2009) 291–312. doi:10.1016/j.pnsc.2008.07.014
+A75=[11] | B75=StoraXe. StoraXe Industrial & Infrastructure Scalable battery storage system, (2018). https://www.ads-tec.de/fileadmin/download/doc/brochure/Datasheet_Energy_Industrial_EN.pdf
+A76=[12] | B76=Samsung, Smart Battery Systems for Energy Storage, (2016). http://www.samsungsdi.com/upload/ess_brochure/Samsung SDI brochure_EN.pdf
+A77=[13] | B77=D.M. Greenwood, K.Y. Lim, C. Patsios, P.F. Lyons, Y.S. Lim, P.C. Taylor, Frequency response services designed for energy storage, Appl. Energy. 203 (2017) 115–127. doi:10.1016/j.apenergy.2017.06.046
+A78=[14] | B78=W. Cole and A. Karmakar, "Cost Projections for Utility-Scale Battery Storage: 2023 Update," National Renewable Energy Laboratory, Golden, CO, 2023.
+A79=[15] | B79=V. Ramasamy, J. Zuboy, E. O’Shaughnessy, D. Feldman, J. Desai, M. Woodhouse, P. Basore and R. Margolis, "U.S. Solar Photovoltaic System and Energy Storage Cost Benchmarks, With Minimum Sustainable Price Analysis: Q1 2022.," National Renewable Energy Laboratory, Golden, CO, 2022.
+A80=[16] | B80=BloombergNEF, "Lithium-Ion Battery Pack Prices Hit Record Low of $139/kWh," 26 November 2023. [Online]. Available: https://about.bnef.com/blog/lithium-ion-battery-pack-prices-hit-record-low-of-139-kwh/. [Accessed 19 August 2024].
+A81=[17] | B81=Pacific Northwest National Laboratory, "2022 Grid Energy Storage Technology Cost and Performance Assessment," U.S. Department of Energy, 2022.
+A82=[18] | B82=LG Chem. Change your energy. Change your life., (2018). http://www.lgchem.com/upload/file/product/LGChem_Catalog_Global_2018.pdf
+A83=[19] | B83=Xolta. BAT-80 all-in-one Battery energy storage system, (2024). https://xolta.com/wp-content/uploads/XOLTA_DataSheet_BAT-80-Outdoor_UK_10022023.pdf
+A84=[20] | B84=S. S. K. R. Vaka, M. S. Kumari; Optimal Sizing of Battery Storage Systems Considering Degradation Effect for Operating and Electricity Cost Minimization in Microgrids; 2024;  https://doi.org/10.1002/ente.202300704
+A126=New sources

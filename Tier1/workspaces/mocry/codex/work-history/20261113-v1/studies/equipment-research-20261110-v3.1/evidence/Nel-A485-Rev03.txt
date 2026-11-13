@@ -1,0 +1,57 @@
+PAGE 1
+MODEL                                                            A485
+
+Class                                                                                 2.2 MW
+
+                                         MW-class Alkaline Stack Module for on-site hydrogen generation utilizing a modular
+Description                                                   design for ease of installation and integration with the balance of plant
+
+Electrolyte                                                25% KOH solution
+
+HYDROGEN PRODUCTION
+
+Maximum Production Rate
+  Nm3/h (m3/h@ 0° C, 1 bar)                                       485 Nm3/h (+0/-3%)
+  kg/24 h                                                             1,046 kg/24 h (+0/-3%)
+
+Operating Pressure                                                         0.03 barg (0.435 psig)
+
+Power Consumption at Stack per Unit                                             4.5 kWh/Nm3 (±0.1)
+of H2 Gas Produced at 100% Capacity1                                   50 kWh/kg (±1.1)
+Purity (concentration of impurities)                        99+% [saturated gas with liquid water, O2 < 1 %]
+
+Ramp Rate (% of full-range)                                          > 10% per minute
+
+Turndown Range                                                                 15 to 100%
+
+PAGE 2
+DI WATER REQUIREMENTS
+
+                                                                      0.9 l/Nm3 of H2 (0.24 gal/Nm3 of H2)Consumption, electroysis
+                                                                   10 l/kg of H2 (2.64 gal/kg of H2)
+
+Pressure                                                        2 to 16 barg (29 to 232 psig)
+
+Input Water Quality                                                            Deionized Water, < 1 µS/cm
+
+ELECTRICAL SPECIFICATIONS
+
+                                                              355 to 414 VDC; 775 to 5,150 A           DC (Cell Stack)1
+Electrical                                                       Detailed DC power specifications to be provided separately
+Requirements                                    400 VAC, three phase plus neutral and protective earth, 50 Hz                  Electrolyte System                                                                or 480 VAC, three phase and protective earth, 60 Hz
+
+PHYSICAL CHARACTERISTICS
+
+Dimensions W x D x H                                                       14.1 m x 4.3 m x 4.3 m (46.3 ft x 14.1 ft x 14.1 ft)
+
+Weight, Operational                                                         71,440 kg (157,498 lbs)
+
+ENVIRONMENTAL CONSIDERATIONS – DO NOT FREEZE
+
+
+Standard Siting Location                                             Indoor, pad mounted or concrete pier mounted
+
+
+Ambient Temperature                                                5 to 40°C (41 to 104°F)
+
+Altitude Range2                                                   Sea Level to 1,000 m (3,281 ft)

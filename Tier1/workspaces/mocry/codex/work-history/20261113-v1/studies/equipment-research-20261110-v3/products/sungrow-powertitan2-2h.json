@@ -1,0 +1,70 @@
+{
+  "id": "sungrow-powertitan2-2h",
+  "type": "battery",
+  "manufacturer": "Sungrow",
+  "model": "PowerTitan2.0 ST5015kWh-2500kW-2h",
+  "source": "Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023)",
+  "technical": {
+    "nominal_energy_kWh": 5015,
+    "usable_energy_kWh": null,
+    "nominal_AC_power_kW": 2500,
+    "max_AC_charge_power_kW": null,
+    "max_AC_discharge_power_kW": null,
+    "battery_DC_charge_power_kW": null,
+    "battery_DC_discharge_power_kW": null,
+    "permitted_DoD": null,
+    "normalized_SOC_operating_range": null,
+    "roundtrip_AC": null,
+    "roundtrip_DC": null,
+    "one_way_efficiencies": null,
+    "auxiliary_active_kW": null,
+    "auxiliary_standby_kW": null,
+    "self_discharge_per_day": null,
+    "lifetime_years": null,
+    "cycle_life": null,
+    "EOL_SOH": null,
+    "degradation_curve": null,
+    "warranty_years": null,
+    "availability": null,
+    "parallel_limit": null,
+    "ambient_temperature_C": [
+      -30,
+      50
+    ],
+    "derating_above_C": 45,
+    "scope": "integratedACblock;DoD and ACroundtrip not stated in retained sheet",
+    "apparent_power_kVA": 2520,
+    "course_scope": "2-hourreference"
+  },
+  "public_prices": [],
+  "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+  "model_protocol": [
+    "daily net charge or discharge",
+    "daily stock carryover",
+    "declared initial and terminal usable stock",
+    "declare any one-way efficiency split",
+    "do not apply60%usable multiplier toalreadyusableenergy",
+    "separate group/controller parallel limit from project-wide capacity"
+  ],
+  "general_gaps": [
+    "Matched installed price and site scope",
+    "Maintenance/renewal/disposal contract",
+    "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+  ],
+  "model_view": {
+    "energy_kWh": null,
+    "rated_AC_kW": 2500,
+    "roundtrip": null,
+    "loss_boundary": "ACreferencepoint,ifprovided",
+    "missing_core_fields": [
+      "usable_energy_kWh",
+      "roundtrip_AC"
+    ],
+    "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": false,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

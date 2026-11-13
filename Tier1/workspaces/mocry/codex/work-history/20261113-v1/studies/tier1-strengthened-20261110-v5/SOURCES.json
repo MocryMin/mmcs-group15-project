@@ -1,0 +1,68 @@
+{
+  "source_id": "LOCAL-MMCS-TIER1-STRENGTHENED-20261110",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-10",
+  "user_instructions": [
+    "Research H2 daily acceptance; estimate a market upper bound if client-specific evidence is unavailable",
+    "Allow battery electricity to feed electrolysis",
+    "Explain previously researched alternative equipment sizes",
+    "Use daily cross-day battery stock equations instead of pooled balance",
+    "Policy B gives stored electricity priority to current electricity demand"
+  ],
+  "sources": [
+    {
+      "id": "EHO-HYDROGEN-DEMAND-UPDATE2025",
+      "url": "https://observatory.clean-hydrogen.europa.eu/hydrogen-landscape/end-use/hydrogen-demand",
+      "title": "Hydrogen Demand — European Hydrogen Observatory",
+      "reference_years": [2022, 2023, 2024],
+      "update_year": 2025,
+      "content_obtained": "Complete public page and three original XLSX files; UK aggregate cells and source rows extracted",
+      "evidence_status": "official_publication_verified; published sector estimates, not customer transactions",
+      "local_evidence": "evidence/market-primary-pages.json; evidence/hydrogen-demand-*-update2025.xlsx",
+      "interpretation": "National displacement scale; smooth daily upper-envelope is analyst modelling under explicit user instruction"
+    },
+    {
+      "id": "UK-HYDROGEN-STRATEGY-2021",
+      "url": "https://www.gov.uk/government/publications/uk-hydrogen-strategy/uk-hydrogen-strategy-accessible-html-version",
+      "title": "UK hydrogen strategy (accessible HTML version)",
+      "published_at": "2021-08-17",
+      "content_obtained": "Public HTML read and saved",
+      "use": "Context only; production TWh is not substituted for demand tonnes"
+    },
+    {
+      "id": "ITM-ALTERNATIVE-EQUIPMENT-20261110",
+      "urls": [
+        "https://itm-power.com/products/neptune-2",
+        "https://itm-power.com/products/neptune-5",
+        "https://itm-power.com/products/alpha"
+      ],
+      "publication_date": null,
+      "content_obtained": "Complete public product pages and4-pagePDFs, technical page2 rendered and visually checked",
+      "technical_documents": [
+        "https://itm-power-assets.s3.eu-west-2.amazonaws.com/Neptune_II_Spec_Sheet_2_15_e7016ca8f8.pdf",
+        "https://itm-power-assets.s3.eu-west-2.amazonaws.com/Neptune_V_Spec_Sheet_2_8_a3f68d4e43.pdf",
+        "https://itm-power-assets.s3.eu-west-2.amazonaws.com/14299_ITM_Alpha_Spec_Sheet_1_7_5db44f3d20.pdf"
+      ],
+      "evidence_status": "manufacturer_public_specifications_and_advertised_prices_verified; project installed costs unverified",
+      "facts": "2MW57kWhkg25-100%;5MW55.9kWhkg12.5-100%EUR5m;50MW55.9kWhkg12.5-100%EUR50m;prices subject to supplier standard terms",
+      "local_evidence": "evidence/equipment-primary-pages.json; evidence/neptune-2.pdf; evidence/neptune-5.pdf; evidence/alpha-50.pdf",
+      "adoption": "Catalogue and future candidate scenarios; not silently substituted into current20MWgrid"
+    },
+    {
+      "id": "R2-R3-RESEARCH-20261103-LOCAL",
+      "local_sources": [
+        "research/legacy-battery-research.md",
+        "research/legacy-electrolyser-research.md",
+        "research/legacy-parameter-basis.md"
+      ],
+      "use": "Previously acquired TESVOLT/DEA/PNNL sizes and v4.1 economic choices; new acquisitions labelled separately"
+    }
+  ],
+  "coverage": {
+    "access": "Public sources only, all new web access via Playwright in a new anonymous context",
+    "obtained": "National annual consumption estimates and additional manufacturer specifications/public prices",
+    "not_obtained": "Client-specific daily offtake, accessible market share, guaranteed sale at assumed netback, alternative products' complete site-installed quotations",
+    "actions_not_taken": "No contacts, subscriptions, purchases, emails, shared-repository uploads or school-account actions"
+  }
+}

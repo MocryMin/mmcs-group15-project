@@ -1,0 +1,22 @@
+{
+  "cost_status": "illustrative trial assumptions, not market quotations",
+  "discount_rate": 0.08,
+  "life_years": 15,
+  "GBP_per_EUR": 0.85,
+  "CRF": 0.11682954493601999,
+  "battery_GBP_MW": 489600.0,
+  "electrolyser_GBP_MW": 1000000,
+  "fixed_OM_fraction_battery": 0.01,
+  "fixed_OM_fraction_electrolyser": 0.03,
+  "training_years": [
+    2023,
+    2024
+  ],
+  "test_year": 2025,
+  "boundary": "existing wind farm is additional to national background generation; all background output has priority over wind",
+  "time": "daily average MW times24,one usable battery swing perday, no within-day price spread",
+  "electrolyser": "either off or20%-100% for a full day; alternate subdaily duty-cycle case",
+  "hydrogen": "unlimited offtake at scenario price, no compression/transport/water variable cost",
+  "battery": "usableSOCabove20%floor,starts atfloor eachyear; endSOC has zero salvage, no free initialenergy",
+  "cashflow": "incremental grosssales less annualized newcapex and fixedOM; excludes existingwindfarm costs"
+}

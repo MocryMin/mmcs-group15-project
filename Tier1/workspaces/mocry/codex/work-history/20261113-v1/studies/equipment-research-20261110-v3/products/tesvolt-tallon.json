@@ -1,0 +1,100 @@
+{
+  "id": "tesvolt-tallon",
+  "type": "battery",
+  "manufacturer": "TESVOLT",
+  "model": "TALLON",
+  "source": "TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",
+  "technical": {
+    "nominal_energy_kWh": 5015,
+    "usable_energy_kWh": 5015.0,
+    "nominal_AC_power_kW": 2500,
+    "max_AC_charge_power_kW": null,
+    "max_AC_discharge_power_kW": null,
+    "battery_DC_charge_power_kW": null,
+    "battery_DC_discharge_power_kW": null,
+    "permitted_DoD": 1.0,
+    "normalized_SOC_operating_range": [
+      0,
+      1
+    ],
+    "roundtrip_AC": null,
+    "roundtrip_DC": {
+      "points": [
+        {
+          "rate_Cp": 0.5,
+          "efficiency": 0.937
+        },
+        {
+          "rate_C": 0.25,
+          "efficiency": 0.952
+        }
+      ],
+      "boundary": "DC connection point"
+    },
+    "one_way_efficiencies": null,
+    "auxiliary_active_kW": {
+      "typical25C": 23,
+      "typical45C": 33,
+      "peak": 36
+    },
+    "auxiliary_standby_kW": {
+      "value": 2,
+      "kind": "stated standby"
+    },
+    "self_discharge_per_day": null,
+    "lifetime_years": 15,
+    "cycle_life": 11000,
+    "EOL_SOH": 0.6,
+    "degradation_curve": null,
+    "warranty_years": {
+      "standard": 15,
+      "optional": 20,
+      "kind": "combined product/performance, purchase terms control"
+    },
+    "availability": null,
+    "parallel_limit": null,
+    "ambient_temperature_C": [
+      -30,
+      55
+    ],
+    "derating_above_C": null,
+    "scope": "DC battery container;needs matchingPCS and AC-system boundary",
+    "auxiliary_duty_reference": {
+      "annual_MWh": 63.51,
+      "cycles_day": 1.5,
+      "warning": "not additive to all other auxiliary figures"
+    },
+    "lifetime_conditions": "average2cycles/day,100%DoD,max0.5Cp;optional20yearwarranty not automatic20yearconstantcapacity",
+    "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+  },
+  "public_prices": [],
+  "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+  "model_protocol": [
+    "daily net charge or discharge",
+    "daily stock carryover",
+    "declared initial and terminal usable stock",
+    "declare any one-way efficiency split",
+    "do not apply60%usable multiplier toalreadyusableenergy",
+    "separate group/controller parallel limit from project-wide capacity"
+  ],
+  "general_gaps": [
+    "Matched installed price and site scope",
+    "Maintenance/renewal/disposal contract",
+    "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+  ],
+  "model_view": {
+    "energy_kWh": 5015.0,
+    "rated_AC_kW": 2500,
+    "roundtrip": null,
+    "loss_boundary": "ACreferencepoint,ifprovided",
+    "missing_core_fields": [
+      "roundtrip_AC"
+    ],
+    "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": false,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

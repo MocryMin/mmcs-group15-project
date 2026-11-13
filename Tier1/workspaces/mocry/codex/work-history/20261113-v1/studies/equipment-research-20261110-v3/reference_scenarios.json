@@ -1,0 +1,128 @@
+{
+  "status": "optional research reference scenarios;not manufacturer specifications or automatically adopted baseline",
+  "battery": {
+    "source": "DEA-storage.xlsx 180 Lithium Ion Battery D-column2025;currencyEUR2020",
+    "verified_cells": {
+      "D8": 3,
+      "D9": 1.5,
+      "D10": 1.5,
+      "D11": 91,
+      "D12": 95,
+      "D15": 0.1,
+      "D18": 15,
+      "D24": 0.288,
+      "D25": 0.095,
+      "D26": 0.086,
+      "D27": 0.15,
+      "D28": 8.351999999999999,
+      "D29": 0,
+      "D33": 0.576,
+      "D34": 5000
+    },
+    "installed_cost_formula_EUR2020": "95000*nominal_MWh + 86000*AC_MW + 150000*nominal_MWh",
+    "scope": "generic3MWh/1.5MW reference;transfer to other vendors/sizes requires explicit scenario label",
+    "fixed_maintenance_cases": {
+      "literal_EUR2020_per_MW_year": 8352,
+      "alternative_fraction_of_total_capex_per_year": 0.029
+    },
+    "maintenance_warning": "source formula/unit conflict;do not claim either interpretation is supplier-confirmed",
+    "AC_roundtrip_reference": 0.91,
+    "DC_roundtrip_reference": 0.95,
+    "whole_AC_roundtrip_independent_PNNL_LFP2023": 0.83,
+    "lifetime_calendar_years": 15,
+    "self_discharge_fraction_day": 0.001,
+    "storage_loss_sensitivity": [
+      0.0005,
+      0.001,
+      0.002
+    ],
+    "DoD_life_reference": {
+      "primary_DoD": 0.8,
+      "cycles_at_primary": 2400,
+      "secondary_DoD": 0.6,
+      "cycles_at_secondary": 8000,
+      "calendar_years": 16,
+      "EOL_SOH": 0.6,
+      "source": "PNNL Database H6747:H6752;not supplier-specific"
+    },
+    "auxiliary_rule": "Do not add a second copy of auxiliaries already in a whole-system RTE. Retain documented standby bounds;unpublished standby is not asserted zero.",
+    "open_physical_fields": "No unverified product DoD,PCS compatibility or mean efficiency is filled from these references"
+  },
+  "electrolysis": {
+    "modern_installed_cost": {
+      "currency": "USD",
+      "observation_year": 2024,
+      "non_China_per_kW": [
+        2000,
+        2600
+      ],
+      "source": "IEA GHR2025 executive summary;not vendorquotation or all-scaleAEMestimate"
+    },
+    "old_UK2020_packages": {
+      "alkaline": {
+        "commissioning_reference_year": 2020,
+        "reference_electrical_efficiency_input_kWhe_per_kWhHHV": 1.2953999999999999,
+        "plant_lifetime_years": 30,
+        "legacy_capex_GBP2020_per_kWHHV": {
+          "low": 729.44,
+          "central": 859.49,
+          "high": 1179.69
+        },
+        "fixed_opex_GBP2020_per_kWHHV_year": {
+          "low": 29.89,
+          "central": 31.11,
+          "high": 36.6
+        },
+        "variable_opex_stack_reserve_GBP2020_per_kWhHHV": {
+          "low": 0.0033,
+          "central": 0.0045000000000000005,
+          "high": 0.0068000000000000005
+        },
+        "replacement_fraction_of_legacy_capex": 0.5,
+        "replacement_calendar_years": 9
+      },
+      "PEM": {
+        "commissioning_reference_year": 2020,
+        "reference_electrical_efficiency_input_kWhe_per_kWhHHV": 1.397,
+        "plant_lifetime_years": 30,
+        "legacy_capex_GBP2020_per_kWHHV": {
+          "low": 953.59,
+          "central": 1158.63,
+          "high": 1887.51
+        },
+        "fixed_opex_GBP2020_per_kWHHV_year": {
+          "low": 32.38,
+          "central": 36.72,
+          "high": 42.730000000000004
+        },
+        "variable_opex_stack_reserve_GBP2020_per_kWhHHV": {
+          "low": 0.0029000000000000002,
+          "central": 0.0039000000000000003,
+          "high": 0.0089
+        },
+        "replacement_fraction_of_legacy_capex": 0.6,
+        "replacement_calendar_years": 11
+      }
+    },
+    "HHV_kWh_kg": 39.37,
+    "fixed_opex_conversion": "GBP_per_kWHHV_year * nominal_H2_kg_hour *39.37",
+    "replacement_conversion": "fraction *legacy_capex_GBP_per_kWHHV *nominal_H2_kg_hour*39.37",
+    "no_double_count": "Choose explicit replacements OR the annuitised stack-reserve VOM,not both.",
+    "do_not_scale_old_fraction_to_modern_capex": "Old stack fraction belongs to the old plant package;do not multiply it by a different modern total installed price.",
+    "DOE_operating_hour_reference": {
+      "PEM_2022_status": 40000,
+      "alkaline_2022_status": 60000,
+      "target_80000_is_not_current_product_warranty": true,
+      "EOL_performance_loss": 0.1
+    },
+    "AEM_legacy_2022_reference": {
+      "EL21_assumed_operating_hours": 30000,
+      "ModelT_forward_looking_assumption": 40000,
+      "source": "Enapter-2022-pricing-assumptions.pdf",
+      "warning": "Legacyassumptions,not aFlex/Nexus/Rheoslife guarantee;use only declared AEM-family sensitivity"
+    },
+    "water_rule": "Apply product raw/purified flow definitions separately;site water price/RO recovery are external project inputs.",
+    "finance_rule": "Keep quote currency,year and scope;do not compare an uninstalled EURprice directly with GBP2020 installedcost.",
+    "missing_product_quotes": "Native supplier prices/historical orders stay in each product record. No invented product-specific quotation."
+  }
+}

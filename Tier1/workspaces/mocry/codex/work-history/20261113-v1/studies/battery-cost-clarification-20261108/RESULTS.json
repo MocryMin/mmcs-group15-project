@@ -1,0 +1,152 @@
+{
+  "scope": "One fixed 1.5 MW / 3 MWh battery, no electrolyser; same Tier 1 pooled-energy constraints as frozen v4.1. Operations optimised before fixed costs; GBP2020. Historical sample estimates annual earnings, not a six-year asset life.",
+  "capital_GBP": 768704.3299610784,
+  "battery_life_years": 15,
+  "discount_rate": 0.05,
+  "six_year_common_pool": {
+    "A": {
+      "operating_contribution_GBP_year": 25485.699011160952,
+      "fixed_maintenance_GBP_year": 22292.425568871273,
+      "after_maintenance_GBP_year": 3193.273442289679,
+      "annual_capital_recovery_GBP_year": 74063.49404235317,
+      "after_annual_total_cost_GBP_year": -70870.22060006349,
+      "years": 5.999999999999998,
+      "physical_residual_GWh": 5.28880324951464e-14
+    },
+    "B": {
+      "operating_contribution_GBP_year": 20977.42752056758,
+      "fixed_maintenance_GBP_year": 22292.425568871273,
+      "after_maintenance_GBP_year": -1314.9980483036925,
+      "annual_capital_recovery_GBP_year": 74063.49404235317,
+      "after_annual_total_cost_GBP_year": -75378.49209065686,
+      "years": 5.999999999999998,
+      "physical_residual_GWh": 3.955386365661617e-15
+    }
+  },
+  "annual_pools": {
+    "A": {
+      "2020": {
+        "operating_contribution_GBP_year": 8680.06302329834,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -13612.362545572933,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -87675.8565879261,
+        "years": 1.0,
+        "physical_residual_GWh": 5.28880324951464e-14
+      },
+      "2021": {
+        "operating_contribution_GBP_year": 30332.748950304984,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": 8040.323381433711,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -66023.17066091945,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2022": {
+        "operating_contribution_GBP_year": 55696.111487054586,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": 33403.68591818331,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -40659.80812416985,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2023": {
+        "operating_contribution_GBP_year": 13299.119613727224,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -8993.30595514405,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -83056.79999749722,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2024": {
+        "operating_contribution_GBP_year": 8567.96608463758,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -13724.459484233694,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -87787.95352658686,
+        "years": 1.0,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2025": {
+        "operating_contribution_GBP_year": 16319.149353594374,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -5973.276215276899,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -80036.77025763007,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      }
+    },
+    "B": {
+      "2020": {
+        "operating_contribution_GBP_year": 7640.882049011526,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -14651.543519859748,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -88715.0375622129,
+        "years": 1.0,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2021": {
+        "operating_contribution_GBP_year": 17715.776734486386,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -4576.648834384887,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -78640.14287673806,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2022": {
+        "operating_contribution_GBP_year": 54001.790988052286,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": 31709.365419181013,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -42354.12862317215,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2023": {
+        "operating_contribution_GBP_year": 6528.6110543789755,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -15763.814514492296,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -89827.30855684547,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2024": {
+        "operating_contribution_GBP_year": 4620.875490471551,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -17671.550078399723,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -91735.0441207529,
+        "years": 1.0,
+        "physical_residual_GWh": 3.955386365661617e-15
+      },
+      "2025": {
+        "operating_contribution_GBP_year": 15467.186828545053,
+        "fixed_maintenance_GBP_year": 22292.425568871273,
+        "after_maintenance_GBP_year": -6825.23874032622,
+        "annual_capital_recovery_GBP_year": 74063.49404235317,
+        "after_annual_total_cost_GBP_year": -80888.73278267939,
+        "years": 0.9999999999999998,
+        "physical_residual_GWh": 3.955386365661617e-15
+      }
+    }
+  },
+  "mean_of_separate_annual_pools": {
+    "A": {
+      "operating_contribution_GBP_year": 22149.19308543618,
+      "after_maintenance_GBP_year": -143.23248343509172,
+      "after_annual_total_cost_GBP_year": -74206.72652578825
+    },
+    "B": {
+      "operating_contribution_GBP_year": 17662.52052415763,
+      "after_maintenance_GBP_year": -4629.905044713643,
+      "after_annual_total_cost_GBP_year": -78693.3990870668
+    }
+  }
+}

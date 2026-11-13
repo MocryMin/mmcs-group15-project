@@ -1,0 +1,49 @@
+{
+  "policy": "B",
+  "battery_case": "one_reference",
+  "original_years": 5.999999999999998,
+  "roundtrip_efficiency": 0.9,
+  "nominal_battery_MWh_if_fixed": 3.0,
+  "maximum_usable_AC_stock_GWh": 0.0017076299364909247,
+  "nominal_battery_MWh_to_reproduce_schedule": 3.0,
+  "annual_reference_receipts_mGBP": 20959.853256230683,
+  "annual_incremental_profit_mGBP": 37.71608860644708,
+  "no_battery_profit_mGBP": 37.71245342928523,
+  "annual_additional_profit_GBP": 3635.177161847025,
+  "annual_additional_profit_upper_bound_GBP": 3635.177161847025,
+  "annual_charge_MWh": 42.058292880239456,
+  "annual_battery_sale_MWh": 26.18365902619418,
+  "annual_battery_h2_MWh": 11.66880456602132,
+  "annual_sales_GWh": 233573.6646423135,
+  "annual_hydrogen_tonnes": 19095.302404649727,
+  "electrolyser_units": {
+    "itm-neptune-v": 147
+  },
+  "electrolyser_MW": 739.5569999999999,
+  "solver_runs": [
+    {
+      "iteration": 1,
+      "upper": 37.71608860644708,
+      "profit": 37.71608860644708,
+      "status": 0,
+      "added_minimum_days": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    }
+  ],
+  "audit": {
+    "stock_balance": 0.0,
+    "terminal_stock": 0.0,
+    "stock_capacity": 0.0,
+    "max_generation_use": 0.0,
+    "max_sales": 0.0,
+    "no_simultaneous_charge_discharge": 0.0,
+    "nonnegative_flows": 0.0,
+    "B_direct": 0.0,
+    "B_battery": 0.0,
+    "itm-neptune-v_capacity": 0.0,
+    "itm-neptune-v_minimum": 0.0,
+    "h2_sources": 7.177418381854039e-16,
+    "h2_cap_GWh_equivalent": 0.0,
+    "profit_error_mGBP": 1.3855583347321954e-12
+  }
+}

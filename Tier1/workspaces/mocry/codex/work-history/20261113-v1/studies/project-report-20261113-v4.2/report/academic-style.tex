@@ -1,0 +1,61 @@
+\usepackage{amsmath,amssymb}
+\usepackage[a4paper,left=23mm,right=23mm,top=21mm,bottom=21mm,
+  headheight=0pt,headsep=0pt,footskip=10mm]{geometry}
+\usepackage{graphicx,array,booktabs,tabularx,float,caption,microtype}
+\usepackage[hidelinks,bookmarksnumbered]{hyperref}
+\hypersetup{pdftitle={Investment and chronological operation of electricity storage and electrolysis},
+  pdfauthor={Group 15}}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{2pt plus .5pt}
+\setlength{\intextsep}{6pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{7pt plus 1pt minus 1pt}
+\setlength{\tabcolsep}{4pt}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\arraystretch}{1.10}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=4pt}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcounter{chapter}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\makeatletter
+\@addtoreset{section}{chapter}
+\@addtoreset{equation}{chapter}
+\@addtoreset{table}{chapter}
+\@addtoreset{figure}{chapter}
+\newcommand{\chapter}{\@ifstar\academicchapterstar\academicchapter}
+\newcommand{\academicchapter}[1]{\clearpage\refstepcounter{chapter}
+  \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}
+  \academicchapterhead{#1}}
+\newcommand{\academicchapterstar}[1]{\clearpage\academicchapterstarhead{#1}}
+\newcommand{\academicchapterhead}[1]{\vspace*{0pt}{\parindent\z@\centering
+  \normalfont\Large\bfseries\thechapter.\enspace #1\par}\vspace{9pt}}
+\newcommand{\academicchapterstarhead}[1]{\vspace*{0pt}{\parindent\z@\centering
+  \normalfont\Large\bfseries #1\par}\vspace{9pt}}
+\newcommand{\l@chapter}[2]{\vskip5pt{\bfseries
+  \@dottedtocline{0}{0em}{2em}{#1}{#2}}}
+\renewcommand{\l@section}{\@dottedtocline{1}{1.8em}{1.8em}}
+\renewcommand{\l@subsection}{\@dottedtocline{2}{3.6em}{2.6em}}
+\renewcommand{\tableofcontents}{\chapter*{\contentsname}\@starttoc{toc}}
+\renewcommand\section{\@startsection{section}{1}{\z@}
+  {-8pt plus -2pt}{4pt}{\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}
+  {-6pt plus -1pt}{3pt}{\normalfont\normalsize\bfseries}}
+\def\p@section{\thechapter.}
+\def\p@subsection{\thechapter.}
+\makeatother
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\theHsection}{\thechapter.\arabic{section}}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+\pagestyle{plain}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\AtBeginDocument{\setlength{\abovedisplayskip}{5pt plus 1pt}
+  \setlength{\belowdisplayskip}{5pt plus 1pt}}
+\newcommand{\gbp}{\pounds}
+\newcommand{\minus}[1]{\ensuremath{-\mathrm{#1}}}

@@ -1,0 +1,25 @@
+year,country,end_use,clean_tonnes,other_tonnes,total_tonnes,workbook,sheet,excel_row
+2022,United Kingdom,Refining,0.0,308914.6779021971,308914.6779021971,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,141
+2022,United Kingdom,Other chemicals,0.0,115194.3577855572,115194.3577855572,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,142
+2022,United Kingdom,Industrial heat,0.0,13097.01037410072,13097.01037410072,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,143
+2022,United Kingdom,Ammonia,0.0,118380.1701666667,118380.1701666667,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,144
+2022,United Kingdom,Blending in natural gas pipelines,56.19622641509434,0.0,56.19622641509434,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,145
+2022,United Kingdom,Other,0.0,12639.7979064,12639.7979064,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,146
+2022,United Kingdom,Power generation,112.392452830189,0.0,112.392452830189,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,147
+2022,United Kingdom,Mobility,629.0,0.0,629.0,hydrogen-demand-2022-update2025.xlsx,Annual consumption aggregated,148
+2023,United Kingdom,Refining,0.0,292110.5271706481,292110.5271706481,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,146
+2023,United Kingdom,Other chemicals,210.1738867924528,114573.0458103349,114783.2196971274,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,147
+2023,United Kingdom,Ammonia,0.0,35474.9895,35474.9895,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,148
+2023,United Kingdom,Other,0.0,11776.2044106,11776.2044106,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,149
+2023,United Kingdom,Industrial heat,0.0,19166.65868908942,19166.65868908942,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,150
+2023,United Kingdom,Blending in natural gas pipelines,56.19622641509434,0.0,56.19622641509434,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,151
+2023,United Kingdom,Power generation,112.392452830189,0.0,112.392452830189,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,152
+2023,United Kingdom,Mobility,738.0,196.0,934.0,hydrogen-demand-2023-update2025.xlsx,Annual consumption aggregated,153
+2024,United Kingdom,Refining,0.0,303339.8144402192,303339.8144402192,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,150
+2024,United Kingdom,Industrial heat,0.0,19935.2220098834,19935.2220098834,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,151
+2024,United Kingdom,Ammonia,0.0,33078.03075,33078.03075,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,152
+2024,United Kingdom,Other,0.0,12138.64866,12138.64866,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,153
+2024,United Kingdom,Blending in natural gas pipelines,56.19622641509434,0.0,56.19622641509434,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,154
+2024,United Kingdom,Mobility,738.0,445.6500000000001,1183.65,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,155
+2024,United Kingdom,Other chemicals,210.1738867924529,115571.4945068425,115781.668393635,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,156
+2024,United Kingdom,Power generation,112.392452830189,0.0,112.392452830189,hydrogen-demand-2024-update2025.xlsx,Annual consumption aggregated,157

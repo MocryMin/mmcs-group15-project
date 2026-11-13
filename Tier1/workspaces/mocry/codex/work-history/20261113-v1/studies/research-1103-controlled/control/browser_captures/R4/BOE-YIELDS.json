@@ -1,0 +1,12 @@
+{
+  "owner": "R4",
+  "id": "BOE-YIELDS",
+  "requested_url": "https://www.bankofengland.co.uk/statistics/yield-curves",
+  "url": "https://www.bankofengland.co.uk/statistics/yield-curves",
+  "status": 403,
+  "title": "Access Denied",
+  "body": "Access Denied\nYou don't have permission to access \"http://www.bankofengland.co.uk/statistics/yield-curves\" on this server.\n\nReference #18.d6b00f17.1793722806.afbe6c1\n\nhttps://errors.edgesuite.net/18.d6b00f17.1793722806.afbe6c1",
+  "links": [],
+  "read_depth": "rendered HTML body; linked PDFs not retrieved",
+  "accessed_at": "2026-11-03T16:20:06.030Z"
+}

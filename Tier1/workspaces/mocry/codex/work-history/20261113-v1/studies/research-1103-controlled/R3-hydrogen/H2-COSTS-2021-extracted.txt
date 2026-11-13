@@ -1,0 +1,1460 @@
+PAGE 1
+August 2021
+Hydrogen Production Costs 
+2021
+ 
+
+PAGE 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© Crown copyright 2021 
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated. 
+To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3 or write to the 
+Information Policy Team, The National Archives, Kew, London TW9 4DU, or email: 
+psi@nationalarchives.gsi.gov.uk.  
+Where we have identified any third-party copyright information you will need to obtain permission from the 
+copyright holders concerned. 
+Any enquiries regarding this publication should be sent to us at:  
+HydrogenEvidenceBase@beis.gov.uk 
+
+
+PAGE 3
+ 
+3 
+Contents 
+Acronym Glossary __________________________________________________________ 5 
+Introduction _______________________________________________________________ 6 
+Uncertainty ____________________________________________________________ 7 
+Covid-19 ______________________________________________________________ 7 
+Section 1: Hydrogen metrics __________________________________________________ 8 
+Section 2: How levelised costs are calculated _____________________________________ 9 
+Section 3: How BEIS uses production cost data in modelling and policy making__________ 11 
+Use in modelling and policy analysis _________________________________________ 11 
+Levelised Costs are not “Strike Prices” ________________________________________ 11 
+Section 4: Technologies _____________________________________________________ 12 
+CCUS-enabled methane reformation _________________________________________ 12 
+Steam methane reformer with carbon capture, usage and storage (SMR with CCUS) __ 12 
+Autothermal Reformer with carbon capture and storage (ATR with CCUS) __________ 12 
+Autothermal Reformer with Gas Heated Reformer with carbon capture, usage and storage 
+(ATR+GHR with CCUS) _________________________________________________ 13 
+Electrolysis _____________________________________________________________ 13 
+Alkaline electrolysis _____________________________________________________ 14 
+Proton Exchange Membrane electrolysis ____________________________________ 14 
+Solid Oxide Electrolysis__________________________________________________ 14 
+CCUS-enabled biomass gasification _________________________________________ 15 
+Other technologies _______________________________________________________ 15 
+Section 5: Production cost assumptions ________________________________________ 16 
+Technology cost and technical assumptions ___________________________________ 16 
+Capital expenditure (CAPEX) _____________________________________________ 16 
+Variable and fixed operating expenditure (OPEX) _____________________________ 19 
+Hydrogen compression costs _____________________________________________ 19 
+Efficiency _____________________________________________________________ 19 
+Build and lifetime _______________________________________________________ 20 
+Cost reductions __________________________________________________________ 20 
+Electricity prices and load factors ____________________________________________ 21 
+Electricity from the grid __________________________________________________ 21 
+
+PAGE 4
+ 
+4 
+Electricity from dedicated electricity generation sources _________________________ 22 
+Electricity from curtailment _______________________________________________ 23 
+Fuel prices _____________________________________________________________ 23 
+Natural gas ___________________________________________________________ 23 
+Biomass _____________________________________________________________ 24 
+Carbon prices ___________________________________________________________ 24 
+CO2 Transport and Storage costs ___________________________________________ 25 
+Hurdle rates ____________________________________________________________ 25 
+Emission factors _________________________________________________________ 26 
+Section 6: Levelised Costs ___________________________________________________ 27 
+CCUS-enabled methane reformation _________________________________________ 27 
+Electrolysis _____________________________________________________________ 28 
+CCUS-enabled biomass gasification _________________________________________ 30 
+Overarching conclusions __________________________________________________ 30 
+Section 7: Sensitivities ______________________________________________________ 32 
+Fuel and electricity price sensitivity __________________________________________ 32 
+Technology cost and efficiency sensitivity _____________________________________ 33 
+Load factor sensitivity _____________________________________________________ 34 
+Overarching conclusions __________________________________________________ 35 
+ 
+
+PAGE 5
+Hydrogen Production Costs 2021 
+5 
+Acronym Glossary 
+  
+Name Acronym  
+Air Separation Unit ASU 
+Auto-Thermal Reformer ATR 
+Bio-Energy with Carbon Capture and Storage BECCS 
+Capital expenditure CAPEX 
+Carbon Capture, Usage and Storage CCUS 
+Carbon Dioxide CO2 
+CO2 Transmission and Storage CO2 T&S 
+Gas Heated Reformer GHR 
+Higher Heating Value HHV 
+Hydrogen H2 
+Levelised cost of hydrogen LCOH 
+Load Factor LF 
+Long run variable cost LRVC 
+Lower Heating Value LHV 
+Megawatt MW 
+Megawatt electric MWe 
+Megawatt-hour MWh 
+Megapascal  MPa 
+Operating expenditure OPEX 
+Proton Exchange Membrane PEM 
+Solid Oxide Electrolysis SOE 
+Steam Methane Reformation SMR 
+
+PAGE 6
+Hydrogen Production Costs 2021 
+6 
+Introduction 
+Low carbon hydrogen will be vital for meeting our legally binding commitment to achieving net 
+zero by 2050, with potential to help decarbonise vital UK industry sectors and provide flexible 
+energy across heat, power and transport. 
+Hydrogen production costs are a fundamental part of energy market analysis, and a good 
+understanding of these costs is important when analysing and designing policy to make 
+progress towards net zero. 
+This report, produced by the Department for Business, Energy and Industrial Strategy (BEIS), 
+presents estimates of the costs and technical specifications for different production 
+technologies. The report does not cover the costs of hydrogen compression, storage, 
+transmission, distribution or end use.  
+This is the first report by BEIS setting out the levelised cost of hydrogen production 
+technologies (LCOH). It is based on previously published underlying technology cost 
+information prepared by Element Energy for BEIS in 20181. We acknowledge that the 
+evidence base is fast-moving and that there are gaps in our knowledge. We are 
+therefore inviting views on this report and the data published alongside it to continue to 
+improve our evidence base. To provide your views and any new evidence, please email 
+HydrogenEvidenceBase@beis.gov.uk. We will continue to monitor and update cost estimates 
+based on new evidence as it becomes available.    
+In this report we consider the costs of construction and operation, reflecting the cost of building 
+and operating a generic production plant for each technology. Potential revenue streams are 
+not considered. The majority of costs in this report are presented as levelised costs, which is a 
+measure of the average cost per MWh of hydrogen produced over the full lifetime of a plant. All 
+estimates are in 2020 real values.     
+Levelised costs provide a straightforward way of consistently comparing the costs of different 
+production technologies with different characteristics, focusing on the costs incurred by the 
+producer over the lifetime of the plant. However, the simplicity of the measure means that there 
+are factors which are not considered, including a technology’s impact on the wider system, 
+which is particularly important for a cross-cutting energy vector like hydrogen.  
+BEIS considers these impacts through its wider modelling. The production costs underlying the 
+straightforward levelised cost metric are used as inputs to BEIS analysis, including energy 
+system modelling and more specific policy analysis, such as for hydrogen business models or 
+the Net Zero Hydrogen Fund. However, it is important to note that levelised costs do not 
+indicate costs that will be taken into account or used in determining payments under future 
+business models. For further details, please see Section 2. 
+ 
+1 Element Energy (2018), ‘Hydrogen supply chain evidence base’ (viewed on 18 June 2021). 
+
+PAGE 7
+Hydrogen Production Costs 2021 
+7 
+This report is structured as follows:  
+• Section 1 gives a summary of different hydrogen metrics and which ones are used by BEIS. 
+• Section 2 provides an overview of how levelised costs are calculated and what is and is not 
+included in them. 
+• Section 3 outlines how BEIS uses production cost data in its modelling.  
+• Section 4 provides a short description of the different technology types we are considering in 
+this report.    
+• Section 5 presents the underlying assumptions for the levelised cost estimates presented in 
+Section 6 and 7.  
+• Section 6 presents the levelised cost estimates for the core set of hydrogen production 
+technologies.  
+• Section 7 presents sensitivity analysis showing the impact of various uncertainties on the 
+levelised costs presented in Section 6.  
+• The annex, published alongside this report, presents the underlying technology cost and 
+technical detail and the estimated levelised costs for the full range of technologies and 
+sensitivities for 2020, 2025, 2030, 2035, 2040, 2045 and 2050 (unless stated otherwise) 
+covered in this report.  
+Uncertainty  
+As with any projection, there is inherent uncertainty when estimating current and future costs of 
+hydrogen production, particularly given that certain technologies do not yet exist at scale or 
+have not yet been demonstrated. While we consider that the ranges of levelised cost estimates 
+presented in this report are robust for BEIS analysis, these estimates should also be used with 
+a level of care given the uncertainties around the future cost of production. These uncertainties 
+include the potential for unanticipated or further cost reductions in less mature technologies, 
+greater uncertainty for technologies where we have access to less detailed evidence, and 
+uncertainty around electricity and fossil fuel prices. To illustrate the potential effects of these 
+uncertainties, the report presents ranges and sensitivity analysis on the effects of changes in 
+parameters.  
+Covid-19  
+The analysis in this report is predominantly based on technology cost information gathered in 
+2018. Electricity and fuel prices are based on published BEIS data, derived before the Covid-
+19 pandemic. Therefore, the pandemic’s impact on production costs is not considered in this 
+report.  
+
+PAGE 8
+Hydrogen Production Costs 2021 
+8 
+Section 1: Hydrogen metrics 
+There are a variety of different ways to talk about hydrogen capacities, production quantities 
+and costs. As hydrogen will be used as energy input in end-use sectors, the standard definition 
+used by BEIS refers to capacity and quantities in terms of energy units: MW and MWh, 
+respectively. We are using the higher heating value (HHV2) to express MWh. Table 1.1 
+provides a table with common hydrogen metrics. In this report, when quoting MW or MWh, 
+they refer to MW H2 (HHV) and MWh H2 (HHV), unless otherwise stated. The levelised costs 
+of hydrogen (LCOH), defined in Section 2, are expressed as costs per MWh H2 (HHV) in this 
+report.   
+Table 1.1: Hydrogen metrics  
+Plant size / Capacity 
+MW H2 (HHV)  MWe (electrolysers only)* 
+1 1𝑀𝑀𝑀𝑀 𝐻𝐻2 (𝐻𝐻𝐻𝐻𝐻𝐻) ∗ 𝑀𝑀𝑀𝑀ℎ 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑟𝑟𝑖𝑖𝑒𝑒 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑒𝑒
+𝑀𝑀𝑀𝑀ℎ ℎ𝑦𝑦𝑦𝑦𝑟𝑟𝑦𝑦𝑦𝑦𝑒𝑒𝑖𝑖 (𝐻𝐻𝐻𝐻𝐻𝐻)𝑦𝑦𝑖𝑖𝑒𝑒𝑖𝑖𝑖𝑖𝑒𝑒 
+* Not used in this report, quoted for reference only. 
+Turning capacity into energy output 
+MW H2 (HHV) MWh H2 (HHV) 
+1 1𝑀𝑀𝑀𝑀 𝐻𝐻2 (𝐻𝐻𝐻𝐻𝐻𝐻) ∗ 24ℎ ∗ 365 𝑦𝑦𝑑𝑑𝑦𝑦𝑑𝑑∗ 𝑒𝑒𝑦𝑦𝑑𝑑𝑦𝑦 𝑓𝑓𝑑𝑑𝑒𝑒𝑒𝑒𝑦𝑦𝑟𝑟 (%) 
+ 
+Production / Output 
+MWh H2 (HHV) MWh H2 (LHV) kg H2 Nm³ H2 
+1 0.85 25.4 282 
+ 
+Common levelised cost metrics 
+£/MWh H2 (HHV) £/MWh H2 (LHV) £/kg H2  
+1 1.18 0.03937 
+ 
+2 HHV refers to the total amount of heat liberated during the combustion of a unit of fuel, including the latent heat 
+stored in the vapourised water. Lower heating value (LHV) refers to the total amount of heat available from a fuel 
+after the latent heat of vaporisation is deducted from the HHV.  
+
+PAGE 9
+Hydrogen Production Costs 2021 
+9 
+Section 2: How levelised costs are 
+calculated 
+The levelised cost of hydrogen (LCOH) is the discounted lifetime cost of building and operating 
+a production asset, expressed as a cost per energy unit of hydrogen produced (£/MWh). It 
+covers all relevant costs faced by the producer, including capital, operating, fuel and financing 
+costs.  
+The levelised cost of a hydrogen production technology is the ratio of the total costs of a 
+generic/illustrative plant to the total amount of hydrogen expected to be produced over the 
+plant’s lifetime. Both are expressed in net present value terms. This means that future costs 
+and outputs are discounted, when compared to costs and outputs today. Technologies’ 
+financing cost (also referred to as the weighted cost of capital (WACC) or hurdle rate in this 
+report) is applied as the discount rate (see Section 5 for further detail). This means it is not 
+possible to express financing cost as a £/MWh component of the cost directly.  
+Levelised cost estimates do not consider revenue streams available to producers (for example 
+from sale of hydrogen).  
+The main intention of a levelised cost metric is to provide a simple “rule of thumb” comparison 
+between different types of hydrogen production technologies. However, the simplicity of this 
+metric means some relevant issues are not considered. Further details on the considerations 
+included and excluded from levelised costs can be found in Section 3.  
+Table 2.1 demonstrates at a high level how LCOH are calculated and what is included. Further 
+detail on what is included within the plant boundary and which assumptions underpin the 
+components set out below can be found in Section 5. Importantly, LCOH is a production cost 
+metric and does not include any costs associated with delivery or storage of the produced 
+hydrogen, nor costs of end-use adaptation. These costs could be substantial. Future work 
+should consider the potential charges producers may face for using a hydrogen distribution, 
+transmission and storage network.    
+Note, that currently we only have limited evidence on the level and timing of pre-development 
+and decommissioning costs. We are inviting stakeholders to share any evidence they may 
+hold. 
+Whilst our evidence base includes capital and operating costs for compressing hydrogen, we 
+have not included these costs in our LCOH, as they depend on the type of network 
+(transmission or distribution) a plant connects to or whether it requires storage (see further 
+detail in Section 5). Future work will explore this further.    
+  
+
+PAGE 10
+Hydrogen Production Costs 2021 
+10 
+Table 2.1: Steps to calculate levelised costs 
+Step 1: Gather plant data and assumptions 
+Capital Expenditure 
+(CAPEX):  
+• Construction and 
+equipment costs* 
+ 
+ 
+Operating Expenditure (OPEX):  
+• Fixed OPEX* 
+• Variable OPEX* 
+• CO2 transport and storage cost 
+• Fuel and electricity costs 
+• Carbon costs 
+Expected Production Data:  
+• Capacity of plant  
+• Expected load factor  
+• Expected efficiency*  
+* Adjusted over time for learning.  
+Step 2: Sum the net present value of total expected costs for each year 
+𝑁𝑁𝑁𝑁𝐻𝐻 𝑦𝑦𝑓𝑓 𝑇𝑇𝑦𝑦𝑒𝑒𝑑𝑑𝑒𝑒 𝐶𝐶𝑦𝑦𝑑𝑑𝑒𝑒𝑑𝑑= � 𝑇𝑇𝑦𝑦𝑒𝑒𝑑𝑑𝑒𝑒 𝐶𝐶𝐶𝐶𝑁𝑁𝐶𝐶𝐶𝐶 𝑑𝑑𝑖𝑖𝑦𝑦 𝑂𝑂𝑁𝑁𝐶𝐶𝐶𝐶𝑛𝑛
+(1 + 𝑦𝑦𝑖𝑖𝑑𝑑𝑒𝑒𝑦𝑦𝑖𝑖𝑖𝑖𝑒𝑒 𝑟𝑟𝑑𝑑𝑒𝑒𝑒𝑒)𝑛𝑛𝑛𝑛
+      𝑖𝑖= 𝑒𝑒𝑖𝑖𝑡𝑡𝑒𝑒 𝑖𝑖𝑒𝑒𝑟𝑟𝑖𝑖𝑦𝑦𝑦𝑦 
+ 
+Step 3: Sum the net present value of expected production for each year 
+𝑁𝑁𝑁𝑁𝐻𝐻 𝑦𝑦𝑓𝑓 𝐻𝐻𝑦𝑦𝑦𝑦𝑟𝑟𝑦𝑦𝑦𝑦𝑒𝑒𝑖𝑖 𝑁𝑁𝑟𝑟𝑦𝑦𝑦𝑦𝑖𝑖𝑒𝑒𝑒𝑒𝑖𝑖𝑦𝑦𝑖𝑖= � 𝐻𝐻𝑦𝑦𝑦𝑦𝑟𝑟𝑦𝑦𝑦𝑦𝑒𝑒𝑖𝑖 𝑁𝑁𝑟𝑟𝑦𝑦𝑦𝑦𝑖𝑖𝑒𝑒𝑒𝑒𝑖𝑖𝑦𝑦𝑖𝑖𝑛𝑛
+(1 + 𝑦𝑦𝑖𝑖𝑑𝑑𝑒𝑒𝑦𝑦𝑖𝑖𝑖𝑖𝑒𝑒 𝑟𝑟𝑑𝑑𝑒𝑒𝑒𝑒)𝑛𝑛𝑛𝑛
+      𝑖𝑖= 𝑒𝑒𝑖𝑖𝑡𝑡𝑒𝑒 𝑖𝑖𝑒𝑒𝑟𝑟𝑖𝑖𝑦𝑦𝑦𝑦 
+ 
+Step 4: Divide total costs by net production   
+𝐿𝐿𝑒𝑒𝐿𝐿𝑒𝑒𝑒𝑒𝑖𝑖𝑑𝑑𝑒𝑒𝑦𝑦 𝐶𝐶𝑦𝑦𝑑𝑑𝑒𝑒 𝑦𝑦𝑓𝑓 𝐻𝐻𝑦𝑦𝑦𝑦𝑟𝑟𝑦𝑦𝑦𝑦𝑒𝑒𝑖𝑖= 𝑁𝑁𝑁𝑁𝐻𝐻 𝑦𝑦𝑓𝑓 𝑇𝑇𝑦𝑦𝑒𝑒𝑑𝑑𝑒𝑒 𝐶𝐶𝑦𝑦𝑑𝑑𝑒𝑒𝑑𝑑
+𝑁𝑁𝑁𝑁𝐻𝐻 𝑦𝑦𝑓𝑓 𝐻𝐻𝑦𝑦𝑦𝑦𝑟𝑟𝑦𝑦𝑦𝑦𝑒𝑒𝑖𝑖 𝑁𝑁𝑟𝑟𝑦𝑦𝑦𝑦𝑖𝑖𝑒𝑒𝑒𝑒𝑖𝑖𝑦𝑦𝑖𝑖 
+ 
+Levelised cost estimates can be reported for different milestones associated with a project 
+including the project start, the financial close and the online/commissioning year. In this 
+publication, we report levelised cost estimates by online/commissioning year. As the evidence 
+currently assumes a uniform build time of three years across technologies and excludes pre-
+development timings (due to lack of evidence), assuming project start of financial close would 
+not introduce differences between technologies. In reality there is likely to be variation in pre-
+development and construction timings across technologies and we are inviting stakeholder 
+views.  
+
+PAGE 11
+Hydrogen Production Costs 2021 
+11 
+Section 3: How BEIS uses production cost 
+data in modelling and policy making 
+Use in modelling and policy analysis 
+The estimates outlined in this report are intended to provide a high-level, static view on the 
+costs of different hydrogen production technologies for generic/illustrative rather than site-
+specific projects3. Because levelised costs are a simplified metric, focusing only on those costs 
+accruing to the owner/operator of the production asset, the metric does not cover wider 
+impacts to the energy system, such as need for networks and storage or wider flexibility 
+benefits for use across sectors. These are considered in dynamic system models instead.  
+In practice, BEIS’s energy system modelling and more specific policy analysis does not use 
+levelised cost estimates directly. Instead, it optimises system costs (or in the case of specific 
+policy analysis estimates policy impacts) using the underlying capital expenditure (CAPEX) 
+and operating expenditure (OPEX) assumptions incorporated in the levelised cost estimates 
+shown in this report.  
+Levelised Costs are not “Strike Prices” 
+The levelised cost estimates in this report do not provide, nor should be seen as, an indication 
+of potential strike prices4 under a future hydrogen business model.   
+For example, in the power sector, generation cost assumptions (along the lines of hydrogen 
+production cost assumptions in this report) are only one set of inputs into setting administrative 
+strike prices – the maximum strike price applicable to a technology in a Contracts for 
+Difference (CfD) allocation round. Strike prices include additional considerations, such as 
+market conditions, revenues for generators, and policy factors, which are not considered in 
+levelised costs. In addition, generic average cost information may be different from that used 
+as part of the administrative strike price-setting process.  
+ 
+ 
+ 
+ 
+3 This also means that land costs are not included.  
+4 As part of a Contracts for Difference (CfD) support scheme, as available in the power sector for renewable 
+generators, strike prices refer to the price that reflects the costs of investing in a low carbon technology. Projects 
+that have secured a CfD are paid a flat (indexed) rate for their output by receiving a top- up payment on the 
+average market price (the reference price). 
+
+PAGE 12
+Hydrogen Production Costs 2021 
+12 
+Section 4: Technologies 
+This section explains the technologies covered in this report. Explanations are based on the 
+Hydrogen supply chain: evidence base that Element Energy put together for BEIS in late 
+2018.5 
+CCUS-enabled methane reformation  
+Steam methane reformer with carbon capture, usage and storage (SMR with 
+CCUS) 
+A Steam Methane Reformer (SMR) is a mature production process in which an external heat 
+source provides high-temperature steam for the reforming reaction that produces hydrogen 
+and CO2 from a gas source, such as methane. Any excess steam can be used to generate 
+power, which is sufficient to meet the power demand of the overall plant. This report assumes 
+that SMR plants achieve a conversion efficiency of 74% (HHV). 
+There are two main sources of CO2 emissions; one source is the CO2 that is produced 
+alongside hydrogen in the reforming reaction, with the other being the CO2 produced by the 
+external heat source that provides the high-temperature steam for the reaction. The process of 
+capturing CO2 is far simpler for the former, with the capture of CO2 from fuel combustion being 
+relatively expensive, as it needs to be separated from nitrogen. Overall, 90% of all CO2 is 
+assumed to be captured.  
+Due to the design of the plant, SMRs cannot be readily turned down and it takes a number of 
+days to turn on or off. Therefore, an SMR acts very much as a baseload producer, i.e. a 
+producer that is operating at constant (usually high, up to 95%) load factors year-round.   
+The technology varies in scale but is most likely to be deployed in the 100s of MW scale. This 
+report covers a 300MW and a 1000MW illustrative example for 2020 to 2050 online years to 
+show the impact of economies of scale, however other sizes are possible. Whilst 2020 has 
+been included for comparison purposes, SMR with CCUS can only come forward once a CO2 
+transport and storage (T&S) infrastructure is in place. The technology’s technical life is 
+assumed to be 40 years.  
+Autothermal Reformer with carbon capture and storage (ATR with CCUS) 
+An Autothermal Reformer (ATR), unlike an SMR, is ‘self-heating’ (autothermal) as it partially 
+combusts some of the natural gas feed to generate heat for the endothermic reforming 
+reaction. To achieve partial combustion, oxygen is often used instead of air, which requires 
+stripping out nitrogen. Whilst this requires an additional Air Separation Unit (ASU) and creates 
+significant additional power demand that needs to be imported (a proportion of which could be 
+ 
+5 Element Energy (2018), ‘Hydrogen supply chain evidence base’ (viewed on 18 June 2021).  
+
+PAGE 13
+Hydrogen Production Costs 2021 
+13 
+offset by electricity generated from the heat of the hydrogen CO2 mix coming out of the 
+reformer), it avoids the need for expensive post combustion separation of CO2 from nitrogen 
+(required in an SMR). The autothermal process allows ATRs to achieve higher conversion 
+efficiencies and, due to only a single CO2 stream, higher CO2 capture rates than SMRs. This 
+report assumes a conversion efficiency of 84% (HHV) and a CO2 capture rate of 95%.   
+Due to the high-temperature thermal processes, an ATR’s output cannot be readily turned on 
+and off. Whilst, unlike SMR, it has some ability to ramp up and down it remains far slower at 
+doing so than an electrolyser. Therefore, an ATR acts very much as a baseload producer, i.e. 
+a producer that is operating at constant (usually high, up to 95%) load factors year-round. 
+The technology is most likely to be deployed in the 100s of MW scale. This report covers a 
+300MW and a 1000MW illustrative example for 2020 to 2050 online years to show the impact 
+of economies of scale, however other sizes are possible. Whilst 2020 has been included for 
+comparison purposes, ATR with CCUS can only come forward once a CO2 T&S infrastructure 
+is in place. The technology’s technical life is assumed to be 40 years.  
+Autothermal Reformer with Gas Heated Reformer with carbon capture, usage 
+and storage (ATR+GHR with CCUS) 
+A Gas Heated Reformer (GHR) could be added to a methane reformer, typically to an ATR, 
+improving the overall conversion efficiency of the plant. This report assumes a conversion 
+efficiency of 86% (HHV). This is based on simulation estimates undertaken by Jacobs in 2018 
+and should be considered aspirational as a future case, given that the GHR design is less 
+proven at scale. This is achieved as the hot gases coming off the ATR are used to heat a 
+mixture of natural gas and steam as it enters the GHR, which is partially reformed to produce a 
+mixture of syngas (CO, CO2 & H2), unreacted methane and steam. The gases then pass to 
+the ATR which completes the conversion to syngas and the gas from the ATR is then used to 
+heat the methane and steam coming into the GHR in a continuous process. The GHR process 
+means that more power needs to be imported as the heat of the hydrogen CO2 mix coming out 
+of the reformer cannot be used to generate electricity. 
+Like a standard ATR, the high-temperature thermal processes mean an ATR+GHR cannot be 
+readily turned on and off but has some ability to ramp up and down, however far slower than 
+an electrolyser. Like ATR, ATR+GHR has a single CO2 stream, from the reformer, therefore 
+high CO2 capture rates of 96% can be achieved. 
+The technology is most likely to be deployed in the 100s of MW scale. This report covers a 
+300MW and 1000MW example for 2025 (earliest technical availability in Element Energy 
+dataset) to 2050 online years to show the impact of economies of scale, however other sizes 
+are possible. The technology’s technical life is assumed to be 40 years.  
+Electrolysis  
+Electrolysis is the process of using electricity to split water into hydrogen and oxygen. There 
+are plans for electrolysis units or plants to be built in various sizes into the 100s of MW scale, 
+
+PAGE 14
+Hydrogen Production Costs 2021 
+14 
+however these larger projects plans are made up of a series of smaller modules or stacks. 
+Currently, stack sizes are typically up to 5 MW in size. 
+Alkaline electrolysis 
+Alkaline electrolysis is the most mature form of electrolysis with around 90 years of operational 
+experience. In alkaline electrolysis the reaction that separates the water into hydrogen and 
+oxygen occurs between two electrodes in a solution composed of water and liquid electrolyte. 
+Alkaline’s electrical conversion efficiency is assumed to increase from 77% in 2020 to 82% for 
+a plant coming online in 2050. Alkaline’s ability to ramp up and down is quicker than that of gas 
+reforming plants. However, when compared to other electrolyser technologies, such as Proton 
+Exchange Membrane (PEM), it is slower at responding to a fluctuating power supply, so it 
+might be more difficult and costly to pair them with renewable energy sources efficiently.  
+The levelised costs presented in this report assume different operating modes for electrolysis, 
+including grid-connected, dedicated electricity sources and curtailed electricity. Each 
+configuration assumes different load factors. For our calculations we have assumed a 30-year 
+lifetime for Alkaline electrolysis, with a plant size of 10MW (made up of smaller stacks) for 
+online years from 2020 to 2050.  
+Proton Exchange Membrane electrolysis 
+Proton Exchange Membrane (PEM) electrolysis splits water by using an ionically conductive 
+solid polymer and is assumed to achieve electrical conversion efficiencies of 72% in 2020 up to 
+82% for a plant coming online in 2050. PEM electrolysis offers rapid dispatchability and turn 
+down to follow energy output, for example from renewables. Therefore, it is ideal for pairing 
+with, for example, dedicated wind farms for low carbon hydrogen production or the provision of 
+rapid response to the grid.  
+Like for Alkaline, the report shows different operating modes, including grid-connected, 
+dedicated electricity sources and curtailed electricity. For our calculations we have assumed a 
+30-year lifetime for PEM electrolysis, with a plant size of 10MW (made up of smaller stacks) for 
+online years from 2020 to 2050.  
+Solid Oxide Electrolysis 
+Whilst Alkaline and PEM electrolysis are both low-temperature electrolysis, Solid Oxide 
+Electrolysis (SOE) uses high-temperature electrolysis (~500 degrees centigrade). Although 
+SOE is not yet widely available commercially, it is included in this report due to the potential of 
+the technology at large scale, once mature. One advantage of SOE is that the higher 
+temperatures render electrolysis more efficient. The report assumes a conversion efficiency of 
+74% in 2020 up to 86% for plants coming online in 2050. If, in addition, the temperature can be 
+created through waste heat, electrical efficiencies over 100% can be achieved. Note, that in 
+this report, for simplicity, we assume that waste heat can be accessed at £0/MWh. This is an 
+optimistic scenario and SOE would be more expensive if the price for waste heat was non-
+zero. One possible future application is to pair SOE with future nuclear power sources, where it 
+can benefit from both high-temperature heat and electricity from the same source. However, 
+
+PAGE 15
+Hydrogen Production Costs 2021 
+15 
+due to the high temperatures required, SOE is less suitable for cycling but is expected to be 
+capable of a cycle in less than one day.  
+For our calculations we have assumed a mature SOE technology, with a 30-year lifetime and a 
+size of 10MW (made up of smaller stacks) for online years from 2020 to 2050. Whilst 2020 has 
+been included for comparison purposes, SOE is not yet available at MW scale.    
+CCUS-enabled biomass gasification  
+Gasification is a mature technology that heats a solid feedstock, such as coal or biomass, in a 
+reduced concentration atmosphere (to avoid combustion) comprising air, oxygen or steam to 
+produce a synthetic gas (syngas). Hydrogen is then separated out of the syngas. Whilst 
+various different feedstocks can be gasified, this report focuses on biomass. Biomass 
+feedstocks can include almost any organic material including purpose grown woody crops (e.g. 
+short rotation beech), purpose grown herbaceous crops (e.g. grasses), agricultural waste, 
+commercial waste and dry sewage waste. For simplicity, our analysis assumes that plants 
+consume biomass wood pellets. In general, information on gasification technologies with 
+CCUS is sparse and this report includes one example of biomass gasification with CCUS (also 
+referred to as Bio-Energy with Carbon Capture and Storage (BECCS)). BEIS is currently 
+undertaking further work on gasification technologies to improve the evidence base. This will 
+include getting a better understanding of the costs faced by First-Of-A-Kind (FOAK) projects. 
+The Element Energy data underlying this report does not make a distinction between FOAK 
+and Nth-Of-A-Kind (NOAK) projects. This report therefore only covers 2030 to 2050 online 
+years. The technology is most likely to be deployed in the 100s of MW scale. This report 
+covers a 59MW and a 473MW illustrative example to highlight economies of scale, however 
+other sizes are possible. The technology’s technical life is assumed to be 30 years.  
+Other technologies 
+The above does not represent an exhaustive list of hydrogen production technologies. There 
+are other technologies, including newer technologies such as Natural Gas Partial Oxidation 
+(POX) or Compact Hydrogen Generation (CHG) using Sorption Enhanced Reforming (SER). 
+These technologies integrate previously independent process steps and can achieve superior 
+efficiency. These more novel technologies are not covered in this report, but BEIS will be 
+considering these further in the future. Additionally, it is important to note that some of the 
+technologies covered in the report by E4tech and the Ludwig-Bölkow-Systemtechnik (LBST) 
+on behalf of BEIS on a low carbon hydrogen standard6 have not been considered for LCOH at 
+this stage, but future work will explore these further. They include CCUS-enabled gasification 
+that uses residual mixed waste as a feedstock, gas reforming with CCUS that uses biogas 
+formed from food waste and the Chlor-alkali process, which is an electrolytic process that 
+produces H2 as a by-product from water and salt. 
+ 
+6 E4tech and LBST (2021), ‘Report on a Low Carbon Hydrogen Standard’ (viewed in July 2021).  
+
+PAGE 16
+Hydrogen Production Costs 2021 
+16 
+Section 5: Production cost assumptions 
+Section 5 sets out a short description and source for each production cost assumption that 
+underlies our LCOH estimates.  
+Technology cost and technical assumptions 
+Technology costs are based on the Hydrogen supply chain: evidence base that Element 
+Energy put together for BEIS in late 2018.7 The annex, published alongside this publication, 
+puts the information in a more user-friendly format and into 2020 prices.  
+Capital expenditure (CAPEX) 
+For CCUS-enabled methane reformation, CAPEX covers the reformer unit, power island 
+(steam turbine), all other necessary balance of plant, civil works (building and foundations), 
+electricity (where relevant) and gas grid connection and a CO2 dehydration & compression 
+unit. For SMR plants it also includes a unit for CO2 removal from flue gas, whilst for ATR 
+plants it also includes an air separation unit. 
+For electrolysis, CAPEX covers the electrolyser system (the stack), all necessary balance of 
+plant (drier, cooling, de-oxo and water de-ionisation equipment), civil works (building and 
+foundations) and electricity grid connection.  
+For gasification, CAPEX covers the gasifier, syngas treatment unit, an air separation unit, a 
+shift conversion unit, an acid gas removal unit, a sulphur recovery unit, a CO2 drying & 
+compression unit and a methanator unit to convert residual carbon oxides. Grid connection 
+costs are not included as required process electricity is assumed to be produced using a 
+portion of the syngas produced from the relevant input feedstock (for example biomass).   
+Note our CAPEX estimates do not include cost of hydrogen compression equipment. See 
+further detail below under ‘Hydrogen compression costs’.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 Element Energy (2018), ‘Hydrogen supply chain evidence base’ (viewed on 18 June 2021).  
+
+PAGE 17
+Hydrogen Production Costs 2021 
+17 
+Literature Review of CAPEX 
+Given that the technology costs used in this report are based on a publication from 2018 
+and that hydrogen is a fast-moving space, a literature review was undertaken to compare 
+our CAPEX estimates (the largest LCOH component after fuel costs) to a range of 
+external sources to verify the continued relevance of our evidence. To compare the 
+external estimates to our evidence base, several conversions and calculations had to be 
+undertaken. This includes, adjusting to a 2020 price base, converting from $ and € to £, 
+converting from LHV to HHV and converting from kWe to kW H2. In the case of kWe to 
+kW H2, some sources gave conversion efficiencies. If these were not provided, the 
+Element Energy conversion efficiencies for the relevant technology were applied.  
+Whilst there are other important components of LCOH, we found insufficient coverage in 
+the literature to provide a comprehensive review and draw reliable conclusions.  
+We found ample literature on electrolysis production methods, with less coverage of 
+CCUS-enabled methane reformation technologies. For electrolysis technologies we have 
+considered studies, generally with a global focus, by Bloomberg New Energy Finance 
+(BNEF)8, the International Energy Agency (IEA)9, Imperial College London10, the Energy 
+Systems Catapult11, and Deloitte12. Studies focusing on CCUS-enabled methane 
+reformation technologies, also with a global focus, are sparser and we have included 
+Wood13 and the IEA. For both CCUS-enabled methane reformation and electrolysis 
+technologies we also considered published information from the HySupply Competition14 
+and modelling assumptions used in recent reports by Aurora15 and National Grid16. Note, 
+for CCUS-enabled technologies we have only included SMR, ATR and ATR+GHR 
+technologies and excluded newer technologies such as PoX. For electrolysers, we have 
+included Alkaline and PEM. 
+For CCUS-enabled methane reformation, most of the external estimates we considered 
+give CAPEX £/kW H2 HHV estimates based on plant sizes of around 300MW. Time 
+series modelling assumptions used by Aurora are based on their own review of literature 
+with most of the primary sources based on large-scale (1GW+) plants, whilst National 
+Grid’s CAPEX time series is assumed to be relevant for different size plants (from 
+100MW to 1GW+). The chart below compares our 300MW and 1GW plant CAPEX 
+assumptions against the literature estimates. The external time series modelling 
+ 
+8 Bloomberg NEF (2019), ‘Hydrogen - The Economics of Producing Hydrogen from Renewables’ (viewed on 18 
+June 2021).  
+9 IEA (2019), ‘The Future of Hydrogen’ (viewed on 18 June 2021).  
+10 Imperial College London, Grantham Institute (2017), ‘Future cost and performance of water electrolysis: An 
+expert elicitation study’ (viewed on 18 June 2021).   
+11 Energy Systems Catapult (2020), ‘Nuclear Energy for Net Zero’ (viewed on 18 June 2021).  
+12 Deloitte (2020), ‘Investing in hydrogen’ (viewed on 18 June 2021).  
+13 BEIS/Wood (2018), ‘Assessing the Cost Reduction Potential and Competitiveness of Novel (Next Generation) 
+UK Carbon Capture Technology’ (viewed on 18 June 2021).  
+14 BEIS (2020), ‘Low Carbon Hydrogen Supply Competition’ (viewed on 18 June 2021). 
+15 Aurora (2020), ‘Hydrogen for a Net Zero GB: An Integrated Energy Market Perspective’ (viewed on 18 June 
+2021).    
+16 National Grid ESO (2020), ‘Future Energy Scenarios’ (viewed on 18 June 2021).  
+
+PAGE 18
+Hydrogen Production Costs 2021 
+18 
+assumptions and IEA estimates are slightly higher than our cost estimates for different 
+plant sizes. Our data reflects economies of scale, resulting in significantly lower costs for 
+larger sites. The near-term individual data points, from the Hydrogen Supply Competition 
+and Wood (for 200-350MW sites) align more closely with our estimates. Improving our 
+understanding of First-of-a-Kind projects and economies of scale linked to moving to 
+larger sites represents an area of future work.  
+ 
+For electrolysis, whilst our central estimates align with those assumed in other recent 
+studies by National Grid and Aurora, there is generally a wide variation in data points in 
+2020 and 2030. Whilst our upper end cost data envelopes the upper end of literature 
+estimates, our lower bound estimates are more conservative than some other sources. 
+This becomes most prominent by 2050 when many datapoints are lower than our CAPEX 
+assumptions. This is likely to reflect more bullish global demand and deployment 
+scenarios driving down technology costs, but also switches to larger stack sizes (not 
+considered in our data) providing economies of scale. Improving our assumptions around 
+technological learning represents an area of future work.    
+ 
+
+
+PAGE 19
+Hydrogen Production Costs 2021 
+19 
+Variable and fixed operating expenditure (OPEX)  
+Variable and fixed operating costs refer to all technology specific costs incurred and exclude 
+fuel costs, which are considered separately below.  
+For CCUS-enabled methane reformation and gasification, variable OPEX refers to all 
+necessary consumables (excluding fuel costs which are captured below), such as water, 
+chemicals, and catalysts, whilst fixed OPEX generally refer to direct labour, 
+administration/general overheads, insurance/local taxes and maintenance.   
+For electrolysis, variable OPEX refers to annuitised stack replacement costs. Stack costs make 
+up 60% (PEM), 50% (Alkaline), 60% (SOE) of plant CAPEX and are assumed to need 
+replacement every 11 (PEM), 9 (Alkaline), 7 (SOE) years over a 30-year technology technical 
+lifetime. Fixed OPEX, like for reformers, generally refers to direct labour, administration/general 
+overheads, insurance/local taxes and maintenance. 
+Note, our OPEX estimates do not include cost of hydrogen compression equipment. See 
+further detail below under ‘Hydrogen compression costs’.  
+Hydrogen compression costs 
+This report currently does not include hydrogen compression costs. These costs are incurred if 
+the produced hydrogen is injected directly into a high pressure (typically >8.5 Megapascal 
+(MPa)) transmission network or stored (at significantly higher pressure than the transmission 
+network) due to supply and demand variation. For injection into a distribution network at lower 
+pressures (typically <0.7 MPa), compression would not be needed.  
+Most CCUS-enabled technologies output hydrogen at around ~2 MPa, whilst electrolysis is 
+assumed to output hydrogen at around ~3 MPa. Work is underway to attempt to increase this 
+to >8 MPa for PEM electrolysis and up to 6 MPa for Alkaline, which would allow at least PEM 
+electrolysis to directly inject into a transmission network. Therefore, most technologies would 
+incur compression costs if they were to inject directly into a transmission network. All 
+technologies would incur costs if the hydrogen had to be stored. It is our assumption that only 
+larger sites would connect directly to a transmission network and as compressor CAPEX and 
+fixed OPEX costs come down significantly with scale, they are unlikely to make up a large 
+portion of the overall levelised cost (for a 300MW site producing hydrogen at a constant/high 
+load factor year-round they would add around £1/MWh).   
+Given significant uncertainty around the timings of a transmission, distribution and storage 
+network emerging (with dedicated shorter distance pipelines being a potential interim solution) 
+and uncertainty around which projects would connect where, we have excluded these costs for 
+levelised cost purposes but will consider these further going forward. 
+Efficiency 
+For electrolysis, efficiencies refer to the overarching efficiency of the plant including the 
+electrolyser stack itself and the wider necessary balance of plant in turning MWh electricity 
+
+PAGE 20
+Hydrogen Production Costs 2021 
+20 
+input into MWh (HHV) hydrogen output. For reformers and gasification technologies, 
+efficiencies refer to the conversion efficiency of MWh fuel/feedstock/electricity input and MWh 
+(HHV) of hydrogen output.       
+Build and lifetime 
+Build times and technical life of technologies vary by technology and project. In this report we 
+use a generic three-year build time and a technical life of 30 years for electrolysis and 
+gasification projects and 40 years for reformer projects. We will continue to update our 
+evidence base in this area and we also invite stakeholders to share evidence with us.   
+Cost reductions  
+Cost reduction assumptions, just like technology costs above, are based on the Hydrogen 
+supply chain: evidence base that Element Energy put together for BEIS in late 2018.17 Cost 
+reductions can affect CAPEX and OPEX directly or production costs more generally through 
+improvements in plant efficiencies. The main drivers of cost reductions are:  
+• Global technological learning  
+• Local/UK specific learning-by-doing  
+• Economies of scale 
+Our cost estimates reflect global technology learning for all technologies and economies of 
+scale for some technologies. Local/UK specific learning is not reflected in our LCOH estimates, 
+meaning that cost reductions from moving from a First-Of-A-Kind (FOAK) to a Second-Of-A-
+Kind (SOAK) or Nth-Of-A-Kind (NOAK) plant or other learning-by-doing is not reflected. These 
+are however important considerations and should be considered further going forward.  
+For CCUS-enabled methane reformation, an average annual CAPEX reduction due to global 
+technological learning of 1.26% (based on historic evidence) is assumed for SMRs whilst for 
+the newer ATR and ATR+GHR an additional 10% reduction in costs to 2030 is assumed to 
+reflect that these newer technologies will be catching up with more established technologies, 
+such as SMR, followed by the same trend as for SMRs post 2030. No further cost reductions 
+or efficiency improvements are assumed for technologies over time. In addition to global 
+technological learning, all types of plants experience significant CAPEX reductions due to 
+economies of scale. The effect on LCOH is however less pronounced, as technologies are 
+assumed to run at maximum load factors, making CAPEX a small component of LCOH. This 
+report is reflecting this by presenting both a 300MW and 1000MW plant size.  
+For electrolysis, the main cost reductions for CAPEX and OPEX and through efficiency 
+improvements over time are driven by global technological learning driven by demand for and 
+uptake of electrolysis. Whilst moving to larger plants also results in economies of scale on the 
+stack and balance of plant, these drive cost reductions less due to the modular approach to 
+ 
+17 Element Energy (2018), ‘Hydrogen supply chain evidence base’ (viewed on 18 June 2021).  
+
+PAGE 21
+Hydrogen Production Costs 2021 
+21 
+sites (i.e. electrolyser plants in the 10s or 100s of MWs are made up of individual smaller sized 
+stacks). This report assumes a 7% cost reduction per doubling in installed global capacity for 
+PEM electrolysis. Total installed global PEM capacity was less than 50MW in 2018. Alkaline 
+electrolysis is a more mature technology with lower expected cost reduction. Our literature 
+review has shown that our cost reduction assumptions over time might be conservative. Future 
+work will explore this further.  
+For gasification, our evidence assumes good technology development opportunities that have 
+potential to reduce CAPEX and OPEX directly or LCOH through efficiency improvements, 
+including potential for reduced parasitic power loads, move towards second generation 
+gasifiers, more active CO2 removal solvent and more efficient CO2 compression. Gasification 
+also experiences significant cost reductions due to economies of scale.  
+Electricity prices and load factors 
+To show a range of representative LCOH estimates, we have assumed three types of 
+electricity sources and prices. Technologies could be consuming a mixture of these, however 
+for simplicity this report focuses on the three stylised scenarios. The below sets these out and 
+explains how these apply to different technologies.    
+Electricity from the grid  
+These prices are relevant for all technology types that consume electricity. Using electricity 
+from the grid allows hydrogen producers to run at a constant, maximum load factor, equalling 
+their availability once annual maintenance has been taken into account (around 95% for most 
+technologies, see further detail in the annex, published alongside this report). This is referred 
+to as ‘baseload’ in this report. 
+It is unclear at this stage what type of supplier arrangement hydrogen producers would be able 
+to secure, where exactly they would connect to the grid (distribution or transmission) or how 
+much of electricity policy costs they would face. For example, large industrial users benefit 
+from exemptions. Given this uncertainty, this report showcases two grid-connected electricity 
+prices: the industrial retail price and the industrial long run variable cost (LRVC). Both of these 
+price series are Net Zero consistent and published by BEIS18. BEIS does not currently publish 
+underlying Net Zero consistent baseload wholesale prices, which would represent the lower 
+bound grid electricity price. Therefore, configurations where plants access wholesale prices are 
+not covered in this report, however we note if the baseload wholesale price could be secured, 
+levelised costs when using grid electricity would be lower. If plants choose to run at lower than 
+maximum load factor (<95% for most technologies), they could lower their costs further by only 
+accessing off-peak prices. We have not considered this in this report.   
+The industrial retail price assumes that hydrogen producers are large enough to connect to the 
+electricity transmission network and that they face electricity policy costs in line with what other 
+ 
+18 BEIS (2021), ‘Green book supplementary guidance, Data tables 1 to 19: supporting the toolkit and the 
+guidance’ (viewed 15 July 2021).   
+
+PAGE 22
+Hydrogen Production Costs 2021 
+22 
+industrial users face on average. Costs faced by industrial users are lower than those for other 
+consumers (households and businesses), given where they sit in the system.  
+The actual purpose of LRVC is for use in social cost benefit analysis. It isolates those parts of 
+the retail price that represent actual costs to society that vary according to the level of 
+consumption and excludes other price components that are fixed or will only result in transfers 
+between groups in society (which are of no net social benefit). In this report we use the LRVC 
+as a proxy for a grid electricity price closer to a wholesale price, as some add-on costs (such 
+as certain policy or network costs) are stripped out. We refer to this as a “wholesale price plus” 
+in the rest of this report. 
+Levelised cost analysis does not take into account wider system implications of hydrogen 
+production consuming grid electricity. This is considered in wider energy system modelling. 
+Electricity from dedicated electricity generation sources  
+These prices are only relevant for electrolysis technologies. Using electricity from dedicated 
+sources (simplistically assuming the capacity of the dedicated source matches the capacity of 
+the electrolyser it is connected to, i.e. no overplanting) allows electrolysis to run at the same 
+load factor as the dedicated source (i.e. for offshore wind 51% for a 2025 online year rising to 
+63% for a 2050 online year). Electrolysis can connect directly to a variety of different dedicated 
+electricity generation sources, including offshore, onshore, solar, nuclear, or combinations of 
+these technologies including coupling with electricity storage. In this report we are showing the 
+example of dedicated offshore wind, given its high load factor compared to other dedicated 
+renewables.  
+The report currently excludes dedicated nuclear for electrolysis. It could, however, potentially 
+play a valuable role in hydrogen production in the future through both new and existing 
+technologies due to its ability to provide both heat and power. BEIS is in the process of 
+developing its evidence base on different types of nuclear reactors (such as small modular 
+reactors and advanced modular reactors). This coupled with a better understanding of high-
+temperature heat electrolysis (such as SOE) which could potentially improve efficiency will help 
+us to provide useful LCOH estimates for hydrogen production from dedicated nuclear sources 
+in the future.  
+For offshore wind the assumption is that the electrolysis plant would face the levelised cost of 
+offshore wind electricity generation as their electricity price, i.e. the electrolysis plant pays for 
+the full offshore wind generation cost. Note, we are not currently accounting for costs of private 
+wires between the dedicated power source and the electrolysis plant. Levelised cost for 
+offshore wind from 2025 to 2040 (assumed constant thereafter) can be found in the Electricity 
+Generation Cost Report19. Note we are showing LCOH estimates using dedicated offshore 
+wind from 2025 onwards, however in reality these sorts of projects are likely to only be able to 
+come online later in the decade.   
+ 
+19 BEIS (2020), ‘Electricity Generation Costs 2020’ (viewed on 18 June 2021).  
+
+PAGE 23
+Hydrogen Production Costs 2021 
+23 
+Electricity from curtailment  
+These prices are only relevant for electrolysis technologies. Electrolysis could operate by only 
+using curtailed, otherwise wasted electricity as input. Electricity generators are curtailed if 
+electricity supply exceeds demand or due to localised network constraints. The resulting 
+curtailment is unevenly distributed throughout the year, for example it is likely to be higher on 
+high wind/sun days. However, the distribution depends on the make-up of the power sector 
+generation mix. Generally, curtailment increases as the proportion of renewables in the 
+generation mix increases.  
+Using BEIS’s electricity system analysis20 we have found that the available curtailment in low-
+cost, low-carbon systems, could provide electrolysis plants with an average load factor of 
+around 25%. It is important to note that the first electrolysis plant added to such a system 
+would benefit from a higher load factor, whilst the marginal plant, needed to ensure all 
+curtailment throughout the year is absorbed, would face a lower load factor, with curtailment on 
+low excess days already being absorbed by others. For our generic plants, this report assumes 
+an average 25% load factor, which simplistically is assumed to stay constant for online years 
+from 2020 to 2050. When using curtailed electricity, the electrolysis plant does not face the 
+costs of building the electricity source/power sector (like in the dedicated option above) but 
+benefits from absorbing otherwise wasted electricity.  
+In this report we simplistically assume there is no competition for the curtailed electricity and 
+the electricity generator that is curtailed would have been built regardless of whether an 
+electrolysis plant is installed or not. Therefore, the cost of this electricity is assumed to be 
+£0/MWh. Energy system analysis needs to consider this in more detail, considering 
+interactions between the power and hydrogen sector and also taking into account a range of 
+flexibility and storage solutions to better understand competition. Overall, when considering the 
+LCOH of electrolysis plants using curtailed electricity, availability of curtailment is crucial to 
+delivery production at scale.      
+Fuel prices 
+Natural gas 
+CCUS-enabled methane reformation consumes natural gas. Like for electricity, it is unclear at 
+this stage what type of supplier arrangement these plants would be able to secure and how 
+much of gas policy costs they would face. Given this uncertainty and for consistency with grid 
+electricity prices, this report showcases two gas prices: the industrial retail price and the 
+industrial long run variable cost (LRVC)21. In the same publication, BEIS also publishes the 
+underlying natural gas wholesale prices, which represent the lower bound central natural gas 
+ 
+20 BEIS (2020), ‘Modelling 2050: Electricity System Analysis’ (viewed on 18 June 2021).  
+21 BEIS (2021), ‘Green book supplementary guidance, Data tables 1 to 19: supporting the toolkit and the 
+guidance’ (viewed 15 July 2021).  
+
+PAGE 24
+Hydrogen Production Costs 2021 
+24 
+prices faced by hydrogen producers. For completeness, we have included these in the annex 
+published alongside this report. 
+The industrial retail price assumes that hydrogen producers face gas policy costs in line with 
+what other industrial users face on average. 
+In the power sector, given the steady consumption and long-term nature of contracts, natural 
+gas consuming plants are able to secure prices close to the wholesale price. Indeed, the 
+electricity generation cost report assumes gas wholesale prices for input fuel (we cover this in 
+the annex, published alongside this report). In the main report, to ensure consistency with 
+assumptions on electricity, we assume that plants face the industrial LRVC, as a proxy for a 
+gas price closer to a wholesale price, as some add-on costs (such as certain policy or network 
+costs) are stripped out.   
+Biomass 
+Biomass gasification plants are assumed to consume wood pellets. It is possible that smaller 
+sites would consume wood chips. This report does not consider this. Prices used are in line 
+with those assumed in the Electricity Generation Cost Report22 for biomass conversion and 
+BECCS plants, which are assumed to use wood pellets. We are not specifying whether the 
+wood pellet costs refer to wholesale or retail prices.  
+Carbon prices 
+This report assumes that hydrogen production, just like electricity generation, will face a carbon 
+price for any emissions occurred onsite (i.e. CCUS-enabled methane reformation and 
+gasification technologies). In addition, CCUS-enabled biomass gasification produces negative 
+emissions. For simplicity, this report values negative carbon emissions at the same carbon 
+price as carbon emissions for the purposes of the analysis. However, as the policy area 
+evolves, we will update our assessments. Note, electrolysis plants, even if using grid electricity, 
+do not emit carbon onsite. These technologies face the carbon price through the cost of the 
+electricity they consume. Additional carbon emissions incurred in the power system are not 
+considered in LCOH but need to be considered in whole system analysis.  
+The report assumes that the carbon prices faced by hydrogen producers up until 2030 are the 
+EU ETS carbon value projections as set out in Annex M to BEIS’s Energy and Emission 
+Projections under baseline policies23. We acknowledge that going forward the UK ETS will be 
+determining traded carbon prices, however as the UK market is still in early stages, this report 
+still uses the EU ETS carbon values. Updates to carbon prices will be captured in future work. 
+Hydrogen producers are not assumed to be subject to the Carbon Price Support (CPS); 
+ 
+22 BEIS (2020), ‘Electricity Generation Costs 2020’ (viewed on 18 June 2021).  
+23 BEIS (2020), ‘Updated energy and emission projections: 2019, Annex M’ (viewed on 18 June 2021).     
+
+PAGE 25
+Hydrogen Production Costs 2021 
+25 
+currently the CPS only applies to CO2 fossil fuel emitters in the power sector. Beyond 2030, 
+the total carbon price increases linearly to reach the appraisal value of carbon in 205024.  
+CO2 Transport and Storage costs 
+CCUS-enabled hydrogen producers will face CO2 Transport and Storage (T&S) fees for using 
+the CO2 T&S network. The T&S fee structure and methodology is currently being developed to 
+account for the different cost drivers of T&S networks. For the purposes of LCOH we have 
+used a simplified assumption of £28/tCO2 (2020 prices), which is based on the findings of a 
+2018 Uniper report25. Work is ongoing in BEIS to update and further refine this analysis.  
+Hurdle rates 
+Hurdle rates are defined as the minimum financial return that a project developer would require 
+over a project’s lifetime. Financing costs refer to the weighted average cost of capital (WACC) 
+a project faces, in other words the opportunity cost of the money invested (cost of borrowing 
+the money or the return the money could earn in an alternative investment with similar risks). 
+This means that the WACC represents the investor’s minimum required return (hurdle rate), 
+given the investment risks. For levelised costs, the hurdle rate acts as the rate at which both 
+costs and production are discounted across time.   
+Discounting represents the time value of costs and hydrogen output. It also allows to reflect the 
+impact of technology specific risks, if the relevant information is available (see further detail 
+below).  
+Lower hurdle rates allow the LCOH to be less weighted by the upfront CAPEX and more by the 
+hydrogen produced, which is discounted less. Such projects can be interpreted as being less 
+risky and more confident that the production throughout the project's lifetime will generate a 
+sufficient rate of return. Higher hurdle rates make the LCOH more weighted by the upfront 
+CAPEX and less by the hydrogen produced. Such projects can be interpreted as being less 
+willing to take as high a risk with high capital costs, as there is less confidence that the revenue 
+from production later will generate a sufficient rate of return. 
+Hurdle rates will vary across technologies, given that each project will face specific risks, cost 
+of debt, equity and debt-to-equity ratio conditions. Also, the introduction of a hydrogen 
+business model will affect a project’s hurdle rate. The effect will differ depending on the type of 
+business model chosen.  
+ 
+24 BEIS (2020), ‘Green book supplementary guidance, Data tables 1 to 19: supporting the toolkit and the 
+guidance’ (viewed on 18 June 2021).  
+25 Uniper Technologies (2018), ‘CCUS Technical Advisory – Report on Assumptions’ (viewed on 18 June 2021). 
+The report quotes £23/tCO2 in 2012 prices.  
+
+PAGE 26
+Hydrogen Production Costs 2021 
+26 
+Due to lack of knowledge on technology specific hurdle rates at this early stage, for levelised 
+cost purposes, this report assumes a uniform 10% hurdle rate to discount costs and output 
+across time. Future work will improve on this simplified assumption.     
+Emission factors 
+CCUS-enabled methane reformation and biomass gasification produce onsite greenhouse gas 
+emissions, which are mostly captured. To estimate these emissions and the associated carbon 
+and CO2 T&S costs we use emission factors for natural gas and wood pellets, respectively, 
+based on BEIS Greenhouse Gas Reporting: Conversion Factors 202126. For wood pellets both 
+the CO2e consumed and stored within the feedstock over its lifetime while growing and the 
+emissions associated with growing, pelletising, processing and transporting it are included. In 
+addition, we also account for the negative emissions that biomass gasification with CCUS 
+creates by removing CO2 from the atmosphere. It is important to note that biomass emissions 
+are highly dependent on the type of feedstock used and this report only shows one possible 
+option. 
+ 
+26 BEIS (2021), ‘Greenhouse gas reporting: conversion factors 2021’ (viewed on 18 June 2021).  
+
+PAGE 27
+Hydrogen Production Costs 2021 
+27 
+Section 6: Levelised Costs 
+This section summarises the analysis of the levelised cost of hydrogen for a selection of core 
+technology configurations. For CCUS-enabled methane reformation we are presenting 
+levelised costs for the three core technologies at a 300MW and a 1000MW illustrative scale, 
+respectively. This is to reflect economies of scale. For electrolysis we are presenting levelised 
+costs for the three core technologies using four different types of electricity sources and 
+associated running patterns, respectively. For CCUS-enabled biomass gasification we are 
+presenting levelised costs for one core technology at a 59MW and 473MW scale to reflect 
+economies of scale. All values presented in this section are in 2020 real prices. 
+CCUS-enabled methane reformation 
+Chart 6.1 shows levelised costs for online dates from 2020 to 2050 for CCUS-enabled 
+methane reformation at baseload operation (95%), consuming natural gas and electricity 
+(where applicable) at central industrial retail prices. LCOH for these technologies when paying 
+“wholesale price plus” prices for natural gas and electricity (proxied through LRVC) and when 
+paying just the wholesale price for natural gas are shown in the annex, published alongside 
+this report.   
+The chart shows that LCOH for CCUS-enabled reformers are overall fairly constant over time 
+as two effects take place. On the one hand, there is global technological learning, which 
+reduces CAPEX over time, whilst on the other hand fuel and carbon costs increase. The chart 
+also shows the effect of economies of scale, with 1000MW sites being less costly on a £/MWh 
+basis than 300MW sites. As noted in Section 4, on a LCOH basis, when running at baseload 
+operation, the impact of economies of scale is relatively small. The chart uses retail gas and 
+electricity prices; if a “wholesale price plus” (proxied through the LRVC) or wholesale prices are 
+used, LCOH are around £10/MWh lower. This additional information is shown in the annex. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 28
+Hydrogen Production Costs 2021 
+28 
+Chart 6.1: LCOH estimates for CCUS-enabled methane reformation, at central retail fuel 
+prices, commissioning from 2020 to 2050, £/MWh H2 (HHV)  
+ 
+Electrolysis 
+Chart 6.2 shows levelised costs for online dates from 2020 to 2050 for electrolysis 
+technologies that are grid-connected with baseload operation at a 98% load factor for Alkaline 
+and PEM and a 90% load factor for SOE, connected to dedicated offshore wind at a 51% load 
+factor for 2025 online dates up to a 63% load factor for 2050 online dates, and curtailment-
+using at a 25% load factor. When grid-connected we are showing the impact of either facing 
+the industrial retail price or a “wholesale price plus” (proxied through LRVC). Further detail can 
+be found in the annex, published alongside this report. 
+There is obviously a much larger range of combinations that could be modelled. For example, 
+different dedicated renewable sources, mixed renewable sources or coupled with electricity 
+storage, overplanting of renewables, or use of other low carbon generation, such as dedicated 
+nuclear. This report does not explore all of these possibilities but notes that they will require 
+further exploration going forward. We have shown a dedicated offshore connection as one 
+potential example. Note, as mentioned in Section 5 above, the LCOH does not include the cost 
+of private wires.  
+The chart shows that LCOH are highest when using grid electricity, for which our price series 
+include either all (retail) or a reduced amount of policy costs (LRVC). If electrolysis plants do 
+not face these costs, grid-connected operation would become more attractive. Dedicated 
+offshore connection reduces LCOH, but also increases the fixed cost elements of the LCOH 
+due to lower load factors. Using curtailed electricity does not (under our assumptions) incur 
+electricity costs but sees significantly higher fixed costs per MWh due to lower load factors 
+(25%). Technologies that have higher upfront costs (such as SOE) see the largest impacts.  
+0
+10
+20
+30
+40
+50
+60
+70
+80
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+SMR 300MW
+with CCUS
+SMR 1000MW
+with CCUS
+ATR 300MW
+with CCUS
+ATR 1000MW
+with CCUS
+ATR +GHR
+300MW
+with CCUS
+ATR +GHR
+1000MW
+with CCUS
+£/MWh H2 (HHV)
+CAPEX Fixed OPEX Variable OPEX Electricity cost Fuel cost CO2 T&S cost Carbon cost
+
+PAGE 29
+Hydrogen Production Costs 2021 
+29 
+Chart 6.2: LCOH estimates for electrolysis technologies, connected to different electricity sources, commissioning from 2020 
+to 2050, £/MWh H2 (HHV) 
+  
+0
+50
+100
+150
+200
+250
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+Grid electricity:
+Industrial Retail
+Price
+(Baseload)
+Grid electricity:
+Industrial LRVC
+(Baseload)
+Dedicated
+Offshore
+(at Offshore LF)
+Curtailed Electricty
+(25% LF)
+Grid electricity:
+Industrial Retail
+Price
+(Baseload)
+Grid electricity:
+Industrial LRVC
+(Baseload)
+Dedicated
+Offshore
+(at Offshore LF)
+Curtailed Electricty
+(25% LF)
+Grid electricity:
+Industrial Retail
+Price
+(Baseload)
+Grid electricity:
+Industrial LRVC
+(Baseload)
+Dedicated
+Offshore
+(at Offshore LF)
+Curtailed
+Electricty
+(25% LF)
+Alkaline PEM SOE
+£/MWh H2 (HHV)
+CAPEX Fixed OPEX Variable OPEX Electricity cost
+
+PAGE 30
+Hydrogen Production Costs 2021 
+30 
+CCUS-enabled biomass gasification  
+Chart 6.3 shows levelised costs for online dates from 2030 to 2050 for CCUS-enabled biomass 
+gasification. Whilst other gasification routes are possible, such as coal gasification or waste 
+gasification, these have not been considered in this report. To show the economies of scale, 
+this report covers both a 59MW and a 473MW illustrative plant size. Further detail can be 
+found in the annex, published alongside this report.   
+The chart shows that LCOH for biomass gasification with CCUS are fairly constant over time, 
+reducing slightly due to CAPEX learning. There are also significant economies of scale when 
+moving to a larger site. As noted in Section 5, for simplicity, this report values negative carbon 
+emissions at the same carbon price as carbon emissions for the purposes of the analysis. This 
+assumption allows production costs to be partially and eventually more than offset by the value 
+associated with negative emissions. This is demonstrated by the red “net LCOH” dots. As this 
+policy area evolves, we will update our illustrative assessments.  
+Chart 6.3: LCOH estimates for CCUS-enabled biomass gasification commissioning from 
+2030 to 2050, £/MWh H2 (HHV)   
+ 
+Overarching conclusions  
+Chart 6.4 summarises and compares the findings from 6.1, 6.2 and 6.3. To keep the chart 
+manageable, it focuses on one electrolyser technology (PEM), one CCUS-enabled methane 
+reformation technology (ATR+GHR 300MW with CCUS) and a 59MW biomass gasification 
+with CCUS plant, but all data is available in the annex, published alongside this report.  
+-150
+-100
+-50
+0
+50
+100
+150
+2030 2035 2040 2045 2050 2030 2035 2040 2045 2050
+Biomass gasification with CCUS 59MW Biomass gasification with CCUS 473MW
+£/MWh H2 (HHV)
+CAPEX Fixed OPEX Variable OPEX Fuel cost CO2 T&S cost Carbon cost Net LCOH
+
+PAGE 31
+Hydrogen Production Costs 2021 
+31 
+The chart shows that currently CCUS-enabled methane reformation technologies are the 
+lowest cost hydrogen production technology. However, over time and depending on fuel price 
+assumptions, different electrolysis configurations are coming down in costs and in some cases 
+become cost competitive with CCUS-enabled methane reformation technologies. It is not 
+possible to determine precise LCOH ‘switch points’ between different technologies as these 
+vary depending on the different assumptions made. 
+For example, PEM using only curtailed electricity could become cost competitive from 2025 
+onwards. Importantly, curtailment by 2030 is likely to be limited, with the actual amount 
+dependent on build out in the power sector, and electrolysers would have to compete with 
+other flexible technologies and solutions (such as Demand Side Response, storage, 
+interconnection), which may mean less electricity available for electrolysers or increasing 
+prices for curtailed electricity (i.e., not £0/MWh, which is assumed in the estimates in this 
+report). The limited amount of curtailment means that, even if electrolysers are cost 
+competitive (through use of curtailed electricity), hydrogen production would be at low volumes, 
+at least in the short term. 
+Biomass gasification with CCUS is relatively high cost, but the value associated with the 
+negative emissions assumed for this analysis results in rapidly declining and even negative 
+costs to 2050. As this policy area evolves, we will update our illustrative assessments.  
+Chart 6.4: Comparison of LCOH estimates across different technology types at central 
+fuel prices commissioning from 2020 to 2050, £/MWh H2 (HHV) 
+-25
+0
+25
+50
+75
+100
+125
+150
+175
+200
+225
+2020 2025 2030 2035 2040 2045 2050
+£/MWh H2 (HHV)
+PEM Grid electricity:
+Industrial Retail  Price
+(Baseload)
+PEM Grid electricity:
+Industrial LRVC
+(Baseload)
+PEM Dedicated Offshore
+(at Offshore LF)
+PEM Curtailed Electricty
+(25% LF)
+ATR +GHR 300MW
+with CCUS Industrial
+Retail Price
+ATR +GHR 300MW
+with CCUS Industrial
+LRVC
+Biomass gasification with
+CCUS 59MW
+Biomass gasification with
+CCUS 59MW (Net LCOH)
+
+PAGE 32
+Hydrogen Production Costs 2021 
+32 
+Section 7: Sensitivities 
+Levelised cost estimates are highly sensitive to the underlying data and assumptions used. 
+Within this, different technologies are sensitive to different input assumptions.  
+To illustrate some of the key uncertainties around our levelised cost estimates, Charts 7.1-7.4 
+present the impact on LCOH of plants coming online in 2025 for the following sensitivities:  
+• High/low retail fuel and grid electricity prices for all technologies  
+• High/low CAPEX, OPEX and efficiency information for electrolysis technologies 
+• 10 percentage point higher/lower load factor sensitivity for electrolysis when using 
+curtailed electricity 
+Whilst these sensitivities test some of the most important drivers of LCOH, there are likely to 
+be other sensitivities. However, these have not been tested in this report. The annex, 
+published alongside this report, includes data for all online dates to 2050. 
+Fuel and electricity price sensitivity 
+Chart 7.1 shows the impact on central LCOH (shown for reference on the vertical axis) of 
+varying fuel (natural gas for CCUS-enabled methane reformation and biomass for CCUS-
+enabled gasification) and grid electricity prices, relevant to all technologies except for SMRs 
+and gasification for a 2030 online year. 2030 is chosen as all technologies are assumed to be 
+available by that year. Other years for technologies where these are available are covered in 
+the annex, published alongside this report. Whilst the chart focuses on retail prices (except for 
+biomass, where prices refer simply to the cost of wood pellets), the annex shows additional 
+sensitivity results when a “wholesale price plus” (proxied by LRVC) is assumed. The chart also 
+only focuses on small plants (300MW for methane reformation with CCUS and 59MW for 
+biomass gasification with CCUS) as the difference to large sites (due to similar efficiencies) 
+was insignificant. The annex captures the larger units as well.  
+For plants coming online in 2030 the chart shows that by moving from central to low/high fuel 
+and electricity prices, LCOH vary by up to £13/MWh for CCUS-enabled methane reformation 
+technologies. The impact reduces for more efficient technologies, like ATR+GHR with CCUS. 
+The LCOH of electrolysis technologies varies by up to £22/MWh. The impact is larger for 
+electrolysis due to generally lower efficiencies, with the exception of SOE, which has higher 
+efficiencies than other forms of electrolysis and shows similar impacts as for CCUS-enabled 
+technologies. Biomass prices are assumed to have a larger upward than downward risk, 
+therefore LCOH increase by up to £15/MWh if high biomass prices are used but only reduce by 
+£5/MWh if low biomass prices are used.   
+ 
+ 
+
+PAGE 33
+Hydrogen Production Costs 2021 
+33 
+Chart 7.1: Impact of high/low retail fuel/electricity prices on LCOH estimates for 
+technologies commissioning in 2030, £/MWh H2 (HHV) 
+ 
+Technology cost and efficiency sensitivity  
+The Element Energy evidence base provides us with high and low technology costs (CAPEX 
+and OPEX) and efficiencies for electrolysis technologies, which are significantly more uncertain 
+than CCUS-enabled methane reformation and gasification technologies. Chart 7.2 shows the 
+impact on central LCOH (shown for reference on the vertical axis) of varying technology costs 
+and efficiencies.  
+It shows that LCOH could vary substantially with higher or lower assumptions. The right-hand 
+side of the chart shows the impact of a high-cost scenario coupled with lower efficiency, 
+whereas the left-hand side shows the impact on LCOH of a low-cost scenario along with higher 
+efficiency. The impact of high/low fixed cost (CAPEX and fixed OPEX) on LCOH increase with 
+lower load factors, as we move from grid-connected electrolysis to only using curtailed 
+electricity. The size of the impact of high/low efficiencies is strongly linked to the electricity 
+price assumed. The highest price (industrial retail price) results in the biggest swing, whilst 
+efficiencies do not have an impact on LCOH if the electricity price is £0/MWh (assumed for 
+curtailed electricity). As Alkaline is the most mature technology, there is less uncertainty and 
+LCOH are impacted the least out of all three technologies. The newest form of electrolysis, 
+SOE, faces the largest uncertainty and as such LCOH are impacted the most, with the 
+-25 -20 -15 -10 -5 0 5 10 15 20 25
+Grid retail
+Grid retail
+Grid retail
+59MW
+300MW
+300MW
+300MW
+ £141  £164  £164  £70  £61  £66  £64
+SOE PEM Alkaline
+Biomass
+Gasification
+with CCUS
+ATR+GHR
+with CCUS
+ATR with
+CCUS
+SMR with
+CCUS
+£/MWh H2 (HHV)
+Fuel cost Electricity cost
+
+PAGE 34
+Hydrogen Production Costs 2021 
+34 
+exception of efficiencies, which vary less than for other technologies and therefore results in 
+lower LCOH variation.        
+Chart 7.2: Impact of high/low cost and efficiency on LCOH estimates for electrolysis 
+commissioning in 2025, £/MWh H2 (HHV) 
+ 
+Load factor sensitivity  
+Whilst all assumed load factors are uncertain and will depend on the system the technologies 
+will operate in, the shape of demand and the amount of hydrogen storage, we are focusing the 
+sensitivity testing on the assumed 25% load factor for electrolysis using curtailed electricity. If 
+those plants assumed to run at a baseload maximum load factor (equal to availability) had 
+lower load factors LCOH would increase. This is not explored in this report.  
+Chart 6.4 shows the impact of a 10-percentage point higher/lower load factor (i.e. 15% and 
+35%). As curtailed electricity is assumed to be £0/MWh, the change only affects the fixed 
+CAPEX and OPEX elements of the LCOH. The larger the fixed costs, the more a change in 
+load factors affects the LCOH. For example, SOE LCOH varies significantly more than for PEM 
+and Alkaline. A reduction in load factors to 15% has a bigger impact on LCOH than an 
+increase to 35% due to the exponential relationship between load factors and costs.  
+-40 -30 -20 -10 0 10 20 30 40 50 60
+Curtailed
+£104
+Dedicated
+£116
+Grid LRVC
+£123
+Grid retail
+£153
+Curtailed
+£58
+Dedicated
+£112
+Grid LRVC
+£137
+Grid retail
+£178
+Curtailed
+£58
+Dedicated
+£109
+Grid LRVC
+£137
+Grid retail
+£172
+SOE PEM Alkaline
+£/MWh H2 (HHV)
+CAPEX Fixed OPEX Variable OPEX Electricity cost
+
+PAGE 35
+Hydrogen Production Costs 2021 
+35 
+Chart 7.4: Impact of 10 percentage point higher/lower load factor when using curtailed 
+electricity commissioning in 2025, £/MWh H2 (HHV) 
+ 
+Overarching conclusions 
+The use of different sensitivities has shown that LCOH estimates are subject to large 
+uncertainties and has highlighted the importance of considering the individual circumstances of 
+technologies and scenarios. Certain technologies may be heavily impacted by a scenario 
+change, whereas other may not.  
+ 
+  
+-40 -30 -20 -10 0 10 20 30 40 50 60 70
+SOE
+£104
+PEM
+£58
+Alkaline
+£58
+£/MWh H2 (HHV)
+CAPEX Fixed OPEX
+
+PAGE 36
+ 
+ 
+This publication is available from: www.gov.uk/government/publications/hydrogen-production-
+costs-2021  
+If you need a version of this document in a more accessible format, please email 
+enquiries@beis.gov.uk. Please tell us what format you need. It will help us if you say what 
+assistive technology you use. 

@@ -1,0 +1,190 @@
+\chapter{Data reconstruction}\label{app:data}
+\section{Sources and alignment}
+We archive the five course inputs and align their date keys on a continuous
+UTC calendar from 1 January 2020 to 17 September 2026. The original fuel
+total is checked against the fuel breakdown. When the fuel data are
+reconstructed, their sum replaces the reported total. The wind-farm file is
+a simulation. We retain its ten zero-output days and exclude its 18 September
+2026 row from the common calendar. Within that calendar the simulation
+values are preserved. The original files omit 30 generation dates,
+one demand date and 30 price dates. The repairs use Elexon's
+\href{https://bmrs.elexon.co.uk/api-documentation/endpoint/generation/actual/per-type}{AGPT},
+\href{https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH}{FUELHH},
+\href{https://bmrs.elexon.co.uk/api-documentation/endpoint/demand/outturn/summary}{VD}
+and \href{https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/MID}{MID}
+archives, and \href{https://www.neso.energy/data-portal/historic-demand-data}
+{NESO historical demand and embedded generation} \cite{repair}.
+
+\section{Generation}
+\textbf{Missing and zero values.}
+The simultaneous zeros in eight fuel categories on 107 course dates are
+inconsistent with contemporaneous Elexon generation records. We use
+complete Elexon Actual Generation per Production Type (AGPT) data where
+available and reconstruct the eight categories from Elexon half-hourly
+fuel outturn (FUELHH) where needed. Gas combines combined- and
+open-cycle generation. Pumped storage counts positive output only.
+Other coincident partial zeros are flagged separately from normal
+fuel-specific zeros. For the 42 zero-solar dates, we prefer complete AGPT
+records, interpolate short gaps and estimate heavily missing days from
+calibrated National Energy System Operator (NESO) embedded solar data.
+One date belongs to both zero-value groups. Validation checks that all
+107 fuel dates and 42 solar dates were repaired.
+
+\textbf{Incomplete coverage and export differences.}
+Seven course days reproduce the midnight query endpoint. We reaggregate
+the complete UTC days. The current AGPT archive contains 264 incomplete
+days, and
+136 days with simultaneous zero periods. For short gaps of at most six
+half-hours, we interpolate from valid observations on the same day, using
+the nearest observation at a day boundary. For larger gaps, the eight
+non-wind/solar categories use FUELHH and renewable components use
+calibrated alternative data. Solar is scaled to AGPT by year. Wind
+uses a local fit based on FUELHH wind and NESO embedded wind, with the
+nearest 60 complete training days in the same year and every fifth day
+held out. We rebuild the 87 differences between the 2026 extract and
+the current source, including 61 dates outside the initial 107-date repair.
+
+\newpage
+\section{Demand and market index prices}
+\textbf{Demand.}
+The original demand data reproduce Elexon demand outturn (VD) query
+endpoints on 349 Tuesdays and the final file date. Requerying the full
+day removes this sampling error. The retrieved VD output has a
+five-minute grid, with 116 days containing fewer than 288 records and
+42 days having readings below 10 GW. We keep valid readings and fill
+gaps with contemporaneous NESO transmission system demand plus a local
+median VD-to-NESO offset. Nearby complete days supply the offset on two
+dates with only one VD record. The method reconstructs 153 days. On
+2 August 2022 the upstream feed has 17 consecutive readings at 636 MW.
+Replacing those intervals and averaging the full day yields an estimated
+28,744 MW.
+
+\textbf{Prices.}
+Elexon Market Index Data (MID) reproduce the 346 query-end prices and
+the remaining 2,076 published daily values under the original rule.
+We remove 115,571 provider records with zero reported traded volume,
+then volume-weight active providers within each half-hour and average
+those half-hours over the UTC day. Genuine zero or negative prices
+with traded volume are retained. On 1 January 2020 the daily price
+changes from \gbp 18.59 to \gbp 37.19/MWh. Seven nominally negative
+course dates become positive on complete-day averaging. The repaired
+series has two negative daily means. Short gaps are interpolated.
+For 35 missing or severely incomplete price days, estimates use four
+nearby observed days with the same weekday. We maintain both price
+columns for compatibility and use the \gbp/MWh series in the model.
+
+\section{Repair outcomes and verification}
+The release contains 2,452 observations per series, a cell-level record
+of original and replacement values, and flags for the method used.
+Across the calendar, 436 dates use an estimate or interpolation,
+323 use cross-source reconstruction, and 1,929 meet the strict
+quality flag. The categories can overlap. Independent checks reconcile
+fuel components to total generation, verify the price-column factor of
+24 and recompute 2,372 prices with complete active-provider coverage.
+
+Held-out comparisons measure the uncertainty of reconstruction. Annual
+solar mean absolute error ranges from 42 to 182 MW, onshore wind from
+363 to 592 MW and offshore wind from 453 to 832 MW. Hiding the first
+17 demand intervals on 74 control days gives a daily mean absolute
+error of 8.63 MW. Hiding a whole price day on 77 control days gives
+\gbp 19.87/MWh mean absolute error. These validation errors describe
+the held-out days. The archived inputs, evidence, audit and validation
+records are identified in \cite{repair}.
+
+\chapter{Market and equipment research}\label{app:research}
+\section{Electricity trading and hydrogen offtake}
+\textbf{Electricity.}
+The course demand series represents a constructed market. Published
+imbalance settlement applies to differences between contracted and metered
+positions. A company-specific charge would require an actual delivery
+commitment, settlement terms and an applicable price. We model sale at
+the daily market price and report demand coverage separately. Policy B
+is a dispatch scenario for testing priority.
+
+\textbf{Hydrogen price.}
+The sources examined provide distinct measures.
+\href{https://www.eex.com/en/markets/hydrogen}{EEX HYDRIX} is a weekly
+German price indication including delivery.
+\href{https://www.icis.com/explore/resources/news/2022/09/27/10810133/icis-launches-europe-s-first-market-linked-renewable-hydrogen-assessments/}{ICIS}
+publishes assessed values linked to production costs and power arrangements.
+\href{https://www.argusmedia.com/en/solutions/products/argus-hydrogen-and-future-fuels}{Argus}
+provides modelled costs, including UK proxies. The UK Hydrogen Allocation Round 1
+(HAR1) reports a supported strike price, while the Low Carbon Hydrogen
+Agreement distinguishes the buyer's achieved sales price from support
+payments. We use the HAR1 reference as a constant netback scenario.
+At the benchmark of \gbp 175/MWh in 2012 prices and 39.4 kWh/kg, the
+converted value is \(175(39.4/1000)(108.7/96.1)=7.799\) in
+2020 \gbp/kg. The scenario applies no additional non-electricity
+deduction and assumes the buyer accepts each model's gas quality
+\cite{har,cpi,basis,v6}.
+
+\textbf{Hydrogen volume.}
+The European Hydrogen Observatory's 2025 update reports about 569,024,
+474,414 and 485,626 tonnes of UK consumption in 2022, 2023 and 2024.
+We divide by the respective calendar days to obtain approximately
+1,559, 1,300 and 1,327 t/day. The largest is a broad market case that
+smooths aggregate consumption across the year and includes existing
+captive use. The 1.56 t/day case is 0.1\% of that benchmark and
+10 t/day is an illustrative buyer case. Actual offtake depends on
+location, purity, delivery capacity and contract terms \cite{eho,v6}.
+
+\section{Battery selection and cost basis}
+Sungrow ST255CS-2H, Huawei LUNA215 and LUNA241 and Tesla Megapack
+2XL are compatible with the two-hour reference. We use model-specific
+power, nominal capacity and AC round-trip efficiency, splitting the latter
+symmetrically between charge and discharge. The 20--80\% operating
+band is a common modelling convention. It provides 60\% of nominal
+capacity as usable stock. In the main case, stated AC efficiency
+covers round-trip energy losses and we apply zero explicit daily
+self-discharge \cite{brief,dea,v6}.
+
+For the three smaller units, the Danish Energy Agency installed-cost
+reference is scaled by energy capacity and converted to 2020 pounds.
+The fixed annual budget is 2.9\% of capital. We also test the catalogue's
+literal capacity-based operating-cost line as an alternative. For
+Megapack, the \href{https://web.archive.org/web/20240106085048id_/https://www.tesla.com/megapack/design}{2024 US public estimate}
+is US\$9.76m installed for five
+2XL units. The model transfers the average price of US\$1.95m per
+unit to single-unit decisions at 2020 exchange and price equivalence.
+The 2026 equipment-only listing omits installation and tax. For a
+lower-cost case we add a Lazard-based installation proxy. The Lazard
+cost boundaries distinguish standard maintenance, warranty and capacity
+augmentation. We adopt the US National Renewable Energy Laboratory
+\href{https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage}{2.5\%-of-capital fixed annual budget}
+for the maintained-capacity case.
+It includes the upkeep provision, so no separate augmentation bill is
+added. The historical US estimate provides a scenario price for the
+UK project. The available sources do not establish a bulk-discount
+curve \cite{dea,basis,v6}.
+
+\newpage
+\section{Electrolyser selection and cost basis}
+The eight models in Table~\ref{tab:equipment} use published manufacturer
+ratings. We obtain actual input MW from the rated hourly output and
+specific electricity consumption and use the product's minimum sustained
+load. Equipment is selected in whole units. The wet-gas POSEIDON
+reference would require a matching treatment and delivery cost for
+comparison with the selected product grades \cite{brief,v6}.
+
+For the main comparable case, the midpoint of the International Energy
+Agency's 2024 non-China installation range of US\$2,000--2,600/kW
+is converted to \gbp 1.46m per MW in 2020 prices. The UK production
+cost study supplies fixed maintenance and absolute stack replacement
+costs, normalised to AC input power. The alternative uses the UK cost
+study's capital and fixed-operation package with a variable replacement
+reserve per kg, in place of the scheduled replacement charges
+\cite{iea,beis,basis,v6}.
+
+\section{Financial conversion and operating horizon}
+Monthly nominal electricity prices are multiplied by the ratio of the
+2020 mean Consumer Prices Index to the index in the observation month.
+The course battery reference of EUR 288,000/MWh corresponds to
+\gbp 256,235/MWh at the 2020 exchange rate. The comparable US equipment
+conversion factor is 0.635 in 2020 pounds per 2024 dollar. Annual
+equivalent costs use a 5\% real discount rate, 15 years for batteries
+and 30 years for electrolysers, with zero residual value. The
+commissioning charge purchases the starting 20\% battery fill at
+\gbp 78.13/MWh, allowing for charge efficiency. Subsequent stock is
+measured above that level and returns to it at the end of the study.
+Electricity infrastructure costs that are identical across investments
+cancel against each policy's no-investment comparator \cite{cpi,basis,v6}.

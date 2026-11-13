@@ -1,0 +1,139 @@
+{
+  "owner": "R4 controller",
+  "access_date": "2026-11-03",
+  "method": "Public pages and API responses retrieved only through anonymous Playwright contexts; initial neutral broker and later root-owned context. No school authentication.",
+  "sources": [
+    {
+      "id": "R4-S01",
+      "title": "ECB reference exchange rate definitions",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "capture_path": "../control/browser_captures/R4/ECB-FX-DEFINITION.json",
+      "read_depth": "Rendered definition and relevant currency quotation paragraphs",
+      "supports_and_limits": "All quoted currencies have EUR as base; reference rather than executable transaction rates",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S02",
+      "title": "ECB annual GBP/EUR reference series 2020",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2020&format=csvdata",
+      "capture_path": "../control/browser_captures/R4/ECB-2020-CSV.json",
+      "read_depth": "Actual complete CSV response and 2020 observation",
+      "supports_and_limits": "0.8897040856031GBP/EUR; observed annual reference, not future FX",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S03",
+      "title": "ONS CPI D7BT all items 2015=100",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+      "capture_path": "../control/browser_captures/R4/ONS-CPI.json",
+      "read_depth": "Actual series description, release dates and data download links",
+      "supports_and_limits": "General CPI, not equipment-specific deflator",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S04",
+      "title": "ONS CPI D7BT original CSV",
+      "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+      "capture_path": "../control/browser_captures/R4/ONS-CPI-CSV.json",
+      "read_depth": "Actual full original CSV; annual2012/2020/2024 and all2020-Jan to2026-Sep monthly values parsed",
+      "supports_and_limits": "Released2026-10-21; no2026 full-year orOct-Dec observations",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S05",
+      "title": "The Green Book 2026",
+      "url": "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026",
+      "capture_path": "../control/browser_captures/R4/GREENBOOK2026.json",
+      "read_depth": "Actual rendered text: Discounting and AnnexA relevant complete paragraphs",
+      "supports_and_limits": "Social STPR real3% first30years; not private hurdle; inflation separate",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S06",
+      "title": "Electricity generation costs2023 publication landing page",
+      "url": "https://www.gov.uk/government/publications/electricity-generation-costs-2023",
+      "capture_path": "../control/browser_captures/R4/DESNZ-COSTS.json",
+      "read_depth": "Actual publication body only; linked PDF not read",
+      "supports_and_limits": "Lifecycle concept context only, no private discount rate value adopted",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S07",
+      "title": "IEA Global Hydrogen Review2024 executive summary",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
+      "capture_path": "../control/browser_captures/R4/IEA-H2-2024.json",
+      "read_depth": "Actual executive summary, cost revision paragraphs",
+      "supports_and_limits": "No installed numeric range obtained from this page",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S08",
+      "title": "IEA Global Hydrogen Review2025 executive summary",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary",
+      "capture_path": "../control/browser_captures/R4/IEA-H2-2025.json",
+      "read_depth": "Actual executive summary, entire electrolyser cost paragraphs",
+      "supports_and_limits": "2024 outside-China manufacture+install2000–2600USD/kW; no explicit constantUSD price base or kWe/AC/DC label",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S09",
+      "title": "ECB annual GBP/EUR reference series2024",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.GBP.EUR.SP00.A?startPeriod=2024&endPeriod=2024&format=csvdata",
+      "capture_path": "../control/browser_captures/R4/ECB-2024-GBP.json",
+      "read_depth": "Actual complete CSV; annual observation and denomination",
+      "supports_and_limits": "0.8466166015625GBP/EUR",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    },
+    {
+      "id": "R4-S10",
+      "title": "ECB annual USD/EUR reference series2024",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?startPeriod=2024&endPeriod=2024&format=csvdata",
+      "capture_path": "../control/browser_captures/R4/ECB-2024-USD.json",
+      "read_depth": "Actual complete CSV; annual observation and denomination",
+      "supports_and_limits": "1.08238046875USD/EUR",
+      "access_date": "2026-11-03",
+      "published_at": null,
+      "evidence_status": "official_verified"
+    }
+  ],
+  "local_calculations": [
+    {
+      "id": "R4-C01",
+      "path": "data_audit.json",
+      "source": "Five unchanged course CSVs",
+      "status": "reproduced_local_calculation"
+    },
+    {
+      "id": "R4-C02",
+      "path": "financial_audit.json",
+      "source": "ECB/ONS original records plus actual DEA and BEIS source workbooks",
+      "status": "reproduced_local_calculation"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://www.bankofengland.co.uk/statistics/yield-curves",
+      "status": 403,
+      "read_depth": "Access denied only",
+      "consequence": "No empirical risk-free yield adopted"
+    }
+  ]
+}

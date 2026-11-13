@@ -1,0 +1,171 @@
+A1=ws | B1=description
+A2=142 Small scale hot water tank | B2=A. Considering a temperature difference of 30K (hot/cold), cf.  DS12897:2016 [8], and 60K for large tanks, typically for solar thermal applications.
+A3=142 Small scale hot water tank | B3=B. As tanks are typically connected directly to the hydraulic heating system of a building, there is no loss due to the dis-/charging. The heat loss of the tank will typically be utilised as spatial heating, if the tank is mounted inside the building.
+A4=142 Small scale hot water tank | B4=C. Less than 1 % of the stored energy for circulation pumps.
+A5=142 Small scale hot water tank | B5=D. Typically limited to replacement of the anode for every 3 years, potentially the control unit or valves and fittings.
+A6=142 Small scale hot water tank | B6=E. Primarily limited by the extent to which the system is held corrosion-free (the enamelling is held undamaged).
+A7=142 Small scale hot water tank | B7=F. Installation period assessed to be 3-8 hours each for two skilled workers, i.e. the construction site is cleared/prepared, varying by the tank size.
+A8=142 Small scale hot water tank | B8=G. CAPEX cf. a stand-alone cabinet-solution, mounted, site-clearance/preparation and removal of existing heating source/storage not included. Cost for fittings etc. approx. 10 % of total CAPEX. Additional investment for electric heater of approx. 100 EUR may be added if necessary.
+A9=142 Small scale hot water tank | B9=H. Only variable O&M is electricity consumption for pumps as specified above.
+A10=142 Small scale hot water tank | B10=I. Considering a heat loss of 60 W at temperature 65/35°C in the storage and 20°C ambient for the 90 l unit. Considering an idle/discharging cycle of total 4 hours.
+A11=142 Small scale hot water tank | B11=J. Round trip efficiency is not applicable for seasonal storage.
+A12=142 Small scale hot water tank | B12=K. The cost of auxiliary electricity consumption is calculated using the following electricity prices in EUR/MWh: 2015: 63, 2020: 69, 2030: 101, 2040: 117, 2050: 117. These prices include production costs and transport tariffs, but not any taxes or subsidies for renewable energy.
+A13=142 Small scale hot water tank | B13=L. CAPEX is related to storage volume. I.e. an increase of temperature difference in storage yields a lower specific investment/MWh. 
+A14=142 Small scale hot water tank | B14=L. CAPEX is related to storage volume. I.e. an increase of temperature difference in storage yields a lower specific investment/MWh. 
+A15=150 Underground Storage of Gas | B15=A. Process equipment; injection 200,000 Nm3/hour (approx. 2200 MW), withdrawal 600,000 nM3/hour (approx. 6600 MW)
+A16=150 Underground Storage of Gas | B16=B. Establishment of one cavern, 100 million Nm3 (approx. 1.1 TWh)
+A17=150 Underground Storage of Gas | B17=C. A new greenfield store, equivalent to Lille Torup in Denmark, would require one leaching plant, 5 caverns, and one process plant.
+A18=150 Underground Storage of Gas | B18=D. Total investment cost
+A19=150 Underground Storage of Gas | B19=D. Total investment cost
+A20=151a Hydrogen Storage - Tanks | B20=A. Cannot be defined since there is no conversion of hydrogen back to electricity in the form of a fuel cell in the system
+A21=151a Hydrogen Storage - Tanks | B21=B. The only power input that is considered is the input for the compressor and does not include power needs for  the electrolyzer that is making the hydrogen as described in the system definition. Compressor power input decrease of 5% every 10 years
+A22=151a Hydrogen Storage - Tanks | B22=C. Calculated in the "Energy Efficiency" section. Compressor efficency lineraly improved by 20% until 2050.
+A23=151a Hydrogen Storage - Tanks | B23=D. The charge efficiency is practically the roundrtip efficiency itself as there are almost no losses in the discharge process (See note E)
+A24=151a Hydrogen Storage - Tanks | B24=E. Almost no losses during discharge as it is a physical discharge for a pressurized gas from a valve.
+A25=151a Hydrogen Storage - Tanks | B25=F. Permeation characteristics are neglibile for Type I tanks, see also Technology-specific data.
+A26=151a Hydrogen Storage - Tanks | B26=G. System O&M includes maintenance of the compressor and periodic check of the tanks intergrity.
+A27=151a Hydrogen Storage - Tanks | B27=H. System complies with the frequency regulation requirements from Energinet 
+A28=151a Hydrogen Storage - Tanks | B28=I. No hydrogen storage systems are known to have time of forced outage.
+A29=151a Hydrogen Storage - Tanks | B29=J. Compressor consumption is not considered auxiliary. Rest of losses that can be translated into energy losses and consequently more electricity consumption are negligible. 
+A30=151a Hydrogen Storage - Tanks | B30=K. Losses are below <1%
+A31=151a Hydrogen Storage - Tanks | B31=L. Stationary short-medium term storage after production from an electrolyzer
+A32=151b Hydrogen Storage - LOHC | B32=A. Calculated based on techno-economic data of 12tpd plant from Hydrogenious
+A33=151b Hydrogen Storage - LOHC | B33=B. Losses during hydrogenation
+A34=151b Hydrogen Storage - LOHC | B34=C. Efficiency as received from Hydrogenious
+A35=151b Hydrogen Storage - LOHC | B35=D. LOHC uptake does not change with part load operation
+A36=151b Hydrogen Storage - LOHC | B36=E. Investment cost on the lines of 5500 tpd scenario.
+A37=151b Hydrogen Storage - LOHC | B37=F. Assuming 60% as equipment cost and 40% as installation cost
+A38=151b Hydrogen Storage - LOHC | B38=G. Fixed O&M is treated at 4% of CAPEX (Data obtained from hydrogenious)
+A39=151b Hydrogen Storage - LOHC | B39=H. Variable O&M is treated as 1% of CAPEX
+A40=151b Hydrogen Storage - LOHC | B40=I. Input and Outpu tefficiency are exactly the other way round (i, e, output at 72%)
+A41=151b Hydrogen Storage - LOHC | B41=I. Input and Outpu tefficiency are exactly the other way round (i, e, output at 72%)
+A42=151b Hydrogen Storage - LOHC | B42=I. Input and Outpu tefficiency are exactly the other way round (i, e, output at 72%)
+A43=151c Hydrogen Storage - Caverns | B43=A. Data calculated according to the system defined in the report
+A44=151c Hydrogen Storage - Caverns | B44=B. Based on system definition
+A45=151c Hydrogen Storage - Caverns | B45=C. Negligible energy losses reported in literature
+A46=151c Hydrogen Storage - Caverns | B46=D. One constructed, no outage time is defined
+A47=151c Hydrogen Storage - Caverns | B47=E. Pre existing caverns
+A48=151c Hydrogen Storage - Caverns | B48=F. Regulation similar to the tanks based on demand supply profile
+A49=151c Hydrogen Storage - Caverns | B49=G. O&M cost defined as a percentageof CAPEX in litertaure
+A50=151c Hydrogen Storage - Caverns | B50=H. Variable O&M is treated as half of fixed O&M
+A51=151c Hydrogen Storage - Caverns | B51=I. Only considering hydrogen pressure, not considering gradient in the cavern (since it depends on the site)
+A52=151c Hydrogen Storage - Caverns | B52=J. Negligible permeation losses (Through conversations with Gas energy denmark)
+A53=151c Hydrogen Storage - Caverns | B53=J. Negligible permeation losses (Through conversations with Gas energy denmark)
+A54=160 Pumped hydro storage | B54=4. “Energy technology perspectives 2008”, International Energy Agency, 2008.
+A55=160 Pumped hydro storage | B55=A. No significant technology advance or cost decrease is expected, since hydropower and water pumping are established technologies.
+A56=160 Pumped hydro storage | B56=B. Based on the September 2004 exchange rate of 1NOK = 0,12EUR
+A57=160 Pumped hydro storage | B57=C. Cost data are the same as in the 2005 catalogue, however inflated from price level 2002 to 2011 by multiplying with a general inflation factor 1.2306
+A58=160 Pumped hydro storage | B58=D. Cf. paragraph 'Additional remarks' above.
+A59=160 Pumped hydro storage | B59=A. Calculated based on techno-economic data of 12tpd plant from Hydrogenious
+A60=160 Pumped hydro storage | B60=B. Losses during hydrogenation
+A61=161 CAES | B61=A.  For efficiency it is assumed that that new CAES plants can be constructed with at least the same efficiency as the McIntosh plant.
+A62=161 CAES | B62=B. The use of gas in a CAES plant is assumed at the same efficiency as the average use of chemical fuels in the Danish electricity system, i.e. 35% in 2014
+A63=161 CAES | B63=C.  In general it is assumed that at some point between 2020 and 2030 adiabatic CAES plants will dominate the market. This means that investment costs will increase and performance characteristics will improve.
+A64=161 CAES | B64=D. The obtainable ramping rate is likely to decrease after application of thermal energy storage. This is because the heat must be delivered to the storage material, which is a process that cannot be controlled independently.
+A65=161 CAES | B65=E. For the costs/kWh in Table 3 the data lying between 0 and 2 EUR/kWh have been disregarded because it is assumed, that only storage costs are included
+A66=161 CAES | B66=F. Operation not suitable nor relevant for CAES. Data not available. 
+A67=161 CAES | B67=G. If a CAES plant is operated as a hot spinning reserve, it can  reach the maximum capacity within a few minutes. The emergency startup times from cold conditions at the Huntorf and McIntosh plants are about 5 minutes. Their normal startup times are about 10 to 12 minutes [8]
+A68=161 CAES | B68=H. Energy component here taken as the cavern excavating 
+A69=161 CAES | B69=I.  New plants cannot be realized in 2020 because of lead time. Furthermore the upper limit for storage capacity of one unit is determined by cavern volume, which can be obtained practically without.
+A70=161 CAES | B70=J. Upper limit in 2050 is based on the author´s assessment of technological development until then.
+A71=161 CAES | B71=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A72=161 CAES | B72=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A73=161 CAES | B73=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A74=161 CAES | B74=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A75=161 CAES | B75=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A76=162 Flywheels | B76=4. “Energy technology perspectives 2008”, International Energy Agency, 2008.
+A77=162 Flywheels | B77=A. No significant technology advance or cost decrease is expected, since hydropower and water pumping are established technologies.
+A78=162 Flywheels | B78=B. Based on the September 2004 exchange rate of 1NOK = 0,12EUR
+A79=162 Flywheels | B79=C. Cost data are the same as in the 2005 catalogue, however inflated from price level 2002 to 2011 by multiplying with a general inflation factor 1.2306
+A80=162 Flywheels | B80=D. Cf. paragraph 'Additional remarks' above.
+A81=162 Flywheels | B81=A.    Data informed by WattsUp Power February 2018
+A82=162 Flywheels | B82=B.    +25 years on mechanics. 15 years on electronics. Informed by WattsUp Power March 2017
+A83=162 Flywheels | B83=C.   150 W during upstart procedure for 7 min informed by WattsUp Power. After upstart auxiliary power is included in round trip efficiency
+A84=162 Flywheels | B84=D.   Informed by WattsUp Power February 2018
+A85=162 Flywheels | B85=E.    Confer also Table 2
+A86=162 Flywheels | B86=F.    Please note that the mentioned 1 MW is standard size of one unit that can be assembled to larger entities functioning as “larger units” (somewhat similar to the case of cells in batteries). The displayed financial data is for a 2 MW plant. Flywheels can be connected and provide 20 MW regula...
+A87=162 Flywheels | B87=G.   Informed by WattsUp Power February 2018
+A88=162 Flywheels | B88=H.   Loss/day measured by WattsUp Power. The projected losses towards 2050 is justified by results already now obtained by NASA
+A89=162 Flywheels | B89=I.      The variable costs of flywheels are not directly related to the power put in and out. The data is based on storing (and discharging) 33 MWh/day in 350 days/year. Data from WattsUp Power.
+A90=162 Flywheels | B90=J.    Displayed price information is based on recent WattsUp Power sales prices for two units (each 1 MW, 100 kWh). Price for one unit of 1 MW and 100 kWh is approx. 0.1 mill EUR. If several units are purchased unit price may be lower than by purchase of two units.
+A91=162 Flywheels | B91=K.    Based on plans for increasing rotational speed by a factor 3 (WattsUp Power)
+A92=162 Flywheels | B92=L.    The non-flywheel costs depend on the use of the flywheel. Demanding use patterns may increase non-flywheel costs from the 5 k€ (as included here) to 75 k€/MWh
+A93=162 Flywheels | B93=M.   Future uncertainties based on author´s best assessment
+A94=162 Flywheels | B94=M.   Future uncertainties based on author´s best assessment
+A95=180 Lithium Ion Battery | B95=A.  For efficiency it is assumed that that new CAES plants can be constructed with at least the same efficiency as the McIntosh plant.
+A96=180 Lithium Ion Battery | B96=B. The use of gas in a CAES plant is assumed at the same efficiency as the average use of chemical fuels in the Danish electricity system, i.e. 35% in 2014
+A97=180 Lithium Ion Battery | B97=C.  In general it is assumed that at some point between 2020 and 2030 adiabatic CAES plants will dominate the market. This means that investment costs will increase and performance characteristics will improve.
+A98=180 Lithium Ion Battery | B98=D. The obtainable ramping rate is likely to decrease after application of thermal energy storage. This is because the heat must be delivered to the storage material, which is a process that cannot be controlled independently.
+A99=180 Lithium Ion Battery | B99=E. For the costs/kWh in Table 3 the data lying between 0 and 2 EUR/kWh have been disregarded because it is assumed, that only storage costs are included
+A100=180 Lithium Ion Battery | B100=F. Operation not suitable nor relevant for CAES. Data not available. 
+A101=180 Lithium Ion Battery | B101=G. If a CAES plant is operated as a hot spinning reserve, it can  reach the maximum capacity within a few minutes. The emergency startup times from cold conditions at the Huntorf and McIntosh plants are about 5 minutes. Their normal startup times are about 10 to 12 minutes [8]
+A102=180 Lithium Ion Battery | B102=H. Energy component here taken as the cavern excavating 
+A103=180 Lithium Ion Battery | B103=I.  New plants cannot be realized in 2020 because of lead time. Furthermore the upper limit for storage capacity of one unit is determined by cavern volume, which can be obtained practically without.
+A104=180 Lithium Ion Battery | B104=J. Upper limit in 2050 is based on the author´s assessment of technological development until then.
+A105=180 Lithium Ion Battery | B105=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A106=180 Lithium Ion Battery | B106=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A107=180 Lithium Ion Battery | B107=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A108=180 Lithium Ion Battery | B108=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A109=180 Lithium Ion Battery | B109=K. Lower limit in 2050 is based on the author´s assessment of technological development until then.
+A110=181 Vanadium Redox Flow Battery | B110=4. “Energy technology perspectives 2008”, International Energy Agency, 2008.
+A111=181 Vanadium Redox Flow Battery | B111=A. No significant technology advance or cost decrease is expected, since hydropower and water pumping are established technologies.
+A112=181 Vanadium Redox Flow Battery | B112=B. Based on the September 2004 exchange rate of 1NOK = 0,12EUR
+A113=181 Vanadium Redox Flow Battery | B113=C. Cost data are the same as in the 2005 catalogue, however inflated from price level 2002 to 2011 by multiplying with a general inflation factor 1.2306
+A114=181 Vanadium Redox Flow Battery | B114=D. Cf. paragraph 'Additional remarks' above.
+A115=181 Vanadium Redox Flow Battery | B115=A.    Data informed by WattsUp Power February 2018
+A116=181 Vanadium Redox Flow Battery | B116=B.    +25 years on mechanics. 15 years on electronics. Informed by WattsUp Power March 2017
+A117=181 Vanadium Redox Flow Battery | B117=General: Costs are given in 2020 prices. Cost estimates have been calculated by deflating 2024 prices with a factor based on the European HICP price index (source: https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/index.en.html#what). 
+A118=181 Vanadium Redox Flow Battery | B118=E.    Confer also Table 2
+A119=181 Vanadium Redox Flow Battery | B119=F.    Please note that the mentioned 1 MW is standard size of one unit that can be assembled to larger entities functioning as “larger units” (somewhat similar to the case of cells in batteries). The displayed financial data is for a 2 MW plant. Flywheels can be connected and provide 20 MW regula...
+A120=181 Vanadium Redox Flow Battery | B120=G.   Informed by WattsUp Power February 2018
+A121=181 Vanadium Redox Flow Battery | B121=H.   Loss/day measured by WattsUp Power. The projected losses towards 2050 is justified by results already now obtained by NASA
+A122=181 Vanadium Redox Flow Battery | B122=I.      The variable costs of flywheels are not directly related to the power put in and out. The data is based on storing (and discharging) 33 MWh/day in 350 days/year. Data from WattsUp Power.
+A123=181 Vanadium Redox Flow Battery | B123=J.    Displayed price information is based on recent WattsUp Power sales prices for two units (each 1 MW, 100 kWh). Price for one unit of 1 MW and 100 kWh is approx. 0.1 mill EUR. If several units are purchased unit price may be lower than by purchase of two units.
+A124=181 Vanadium Redox Flow Battery | B124=K.    Based on plans for increasing rotational speed by a factor 3 (WattsUp Power)
+A125=181 Vanadium Redox Flow Battery | B125=L.    The non-flywheel costs depend on the use of the flywheel. Demanding use patterns may increase non-flywheel costs from the 5 k€ (as included here) to 75 k€/MWh
+A126=181 Vanadium Redox Flow Battery | B126=M.   Future uncertainties based on author´s best assessment
+A127=181 Vanadium Redox Flow Battery | B127=M.   Future uncertainties based on author´s best assessment
+A128=182 Na-S Battery | B128=A.  For efficiency it is assumed that that new CAES plants can be constructed with at least the same efficiency as the McIntosh plant.
+A129=182 Na-S Battery | B129=B. The use of gas in a CAES plant is assumed at the same efficiency as the average use of chemical fuels in the Danish electricity system, i.e. 35% in 2014
+A130=182 Na-S Battery | B130=C.  In general it is assumed that at some point between 2020 and 2030 adiabatic CAES plants will dominate the market. This means that investment costs will increase and performance characteristics will improve.
+A131=182 Na-S Battery | B131=A. Specific Italian installation from 2015 used here as example. Assuming installations similar to Buzen City discussed above to become standard in the future.
+A132=182 Na-S Battery | B132=B. Highly modular technology type with near linear scaling between total cost and installation size. Power and storage capacity cannot be varied independently.
+A133=182 Na-S Battery | B133=C. Grid size unit including balancing and auxiliary losses. Excluding converters. Assumes no improvement between 2030 and 2050. 
+A134=182 Na-S Battery | B134=D. Ohmic losses maintain the temperature of the battery during operation. Losses are thus included in round trip efficiency [7]. No electrical self-discharge. If idle the heat loss is as much as 1 % of storage capacity/hour but highly variational. IRENA reports as “worst” value og 1.0 % [26]
+A135=182 Na-S Battery | B135=E. Forced outage is minimal. Only reported case is a 2011 fire incident [9].
+A136=182 Na-S Battery | B136=F. On the order of 1 h/year.
+A137=182 Na-S Battery | B137=G. Assumptions for development and uncertainty discussed above in “Prediction of performance” and “Uncertainty”.
+A138=182 Na-S Battery | B138=H. Due to absence of predictions in literature, no development is assumed as an estimate. 
+A139=182 Na-S Battery | B139=I. Measurement. Possibly limited by PCS.
+A140=182 Na-S Battery | B140=J. Includes “Batteries” from reference [22] for 2015 values.
+A141=182 Na-S Battery | B141=K. Includes “PCS-SCI”, “Auxiliary equipment”, and “Switching and actuating equipment” from reference [22] for 2015 values.
+A142=182 Na-S Battery | B142=L. Highly uncertain. Reported in range 2000 to 17300 EUR2015/MW/year [24] 
+A143=182 Na-S Battery | B143=M. Does not include replacement costs. The batteries do not need replacement within lifetime [13],[10].
+A144=182 Na-S Battery | B144=N. See Figure 5.
+A145=182 Na-S Battery | B145=O. Data for standard NGK container unit.
+A146=182 Na-S Battery | B146=P. Not the technological maximum values, i.e., the density of single cells, but the specifications for a full market-standard commercial product.  
+A147=182 Na-S Battery | B147=Q. Uncertainties are based on a qualified guess.
+A148=182 Na-S Battery | B148=Q. Uncertainties are based on a qualified guess.
+A149=182 Na-S Battery | B149=Q. Uncertainties are based on a qualified guess.
+A150=182 Na-S Battery | B150=Q. Uncertainties are based on a qualified guess.
+A151=182 Na-S Battery | B151=Q. Uncertainties are based on a qualified guess.
+A152=182 Na-S Battery | B152=Q. Uncertainties are based on a qualified guess.
+A153=182 Na-S Battery | B153=Q. Uncertainties are based on a qualified guess.
+A154=183 Na-NiCl2 Battery | B154=4. “Energy technology perspectives 2008”, International Energy Agency, 2008.
+A155=183 Na-NiCl2 Battery | B155=A. No significant technology advance or cost decrease is expected, since hydropower and water pumping are established technologies.
+A156=183 Na-NiCl2 Battery | B156=B. Based on the September 2004 exchange rate of 1NOK = 0,12EUR
+A157=183 Na-NiCl2 Battery | B157=C. Cost data are the same as in the 2005 catalogue, however inflated from price level 2002 to 2011 by multiplying with a general inflation factor 1.2306
+A158=183 Na-NiCl2 Battery | B158=D. Cf. paragraph 'Additional remarks' above.
+A159=183 Na-NiCl2 Battery | B159=A.    Data informed by WattsUp Power February 2018
+A160=183 Na-NiCl2 Battery | B160=B.    +25 years on mechanics. 15 years on electronics. Informed by WattsUp Power March 2017
+A161=183 Na-NiCl2 Battery | B161=General: Costs are given in 2020 prices. Cost estimates have been calculated by deflating 2024 prices with a factor based on the European HICP price index (source: https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/index.en.html#what). 
+A162=183 Na-NiCl2 Battery | B162=E.    Confer also Table 2
+A163=183 Na-NiCl2 Battery | B163=F.    Please note that the mentioned 1 MW is standard size of one unit that can be assembled to larger entities functioning as “larger units” (somewhat similar to the case of cells in batteries). The displayed financial data is for a 2 MW plant. Flywheels can be connected and provide 20 MW regula...
+A164=183 Na-NiCl2 Battery | B164=G.   Informed by WattsUp Power February 2018
+A165=183 Na-NiCl2 Battery | B165=H.   Loss/day measured by WattsUp Power. The projected losses towards 2050 is justified by results already now obtained by NASA
+A166=183 Na-NiCl2 Battery | B166=I.      The variable costs of flywheels are not directly related to the power put in and out. The data is based on storing (and discharging) 33 MWh/day in 350 days/year. Data from WattsUp Power.
+A167=183 Na-NiCl2 Battery | B167=J.    Displayed price information is based on recent WattsUp Power sales prices for two units (each 1 MW, 100 kWh). Price for one unit of 1 MW and 100 kWh is approx. 0.1 mill EUR. If several units are purchased unit price may be lower than by purchase of two units.
+A168=183 Na-NiCl2 Battery | B168=K.    Based on plans for increasing rotational speed by a factor 3 (WattsUp Power)
+A169=183 Na-NiCl2 Battery | B169=L.    The non-flywheel costs depend on the use of the flywheel. Demanding use patterns may increase non-flywheel costs from the 5 k€ (as included here) to 75 k€/MWh
+A170=183 Na-NiCl2 Battery | B170=M.   Future uncertainties based on author´s best assessment
+A171=183 Na-NiCl2 Battery | B171=M.   Future uncertainties based on author´s best assessment

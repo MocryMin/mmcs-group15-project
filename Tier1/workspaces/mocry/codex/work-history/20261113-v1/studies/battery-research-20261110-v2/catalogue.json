@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-11-10",
+  "policy_source": "USER-MMCS-BATTERY-PARAMETERS-FROM-RESEARCH-20261110",
+  "baseline_adoption": "not yet calibrated; v5 remains the frozen reference experiment",
+  "products": [
+    {
+      "id": "tesvolt-tallon-rd-ti150-b01",
+      "manufacturer": "TESVOLT",
+      "product": "TALLON",
+      "source_page": "https://www.tesvolt.com/en/products/tesvolt-tallon.html",
+      "source_pdf": "https://www.tesvolt.com/_media/02%20PRODUKTE/11_Tallon/TESVOLT_TALLON-Technisches_Datenblatt-DE.pdf",
+      "source_revision": "RD.TI.150.E.de-DE B.01",
+      "nominal_energy_MWh": 5.015,
+      "rated_power_MW": 2.5,
+      "permitted_depth_of_discharge": 1.0,
+      "energy_measurement_boundary": "nominal battery-container energy; DC system; internal cell buffers not inferred",
+      "dc_roundtrip_efficiency": [{"value":0.937,"test_rate_Cp":0.5},{"value":0.952,"test_rate_C":0.25}],
+      "ac_roundtrip_efficiency": null,
+      "charge_and_discharge_efficiency_separately": null,
+      "lifetime": {"years":15,"cycles":11000,"end_SOH":0.60,"conditions":"annual average2cycles/day,100%DoD,max0.5Cp"},
+      "auxiliary_load": {"typical_kW_at25C":23,"typical_kW_at45C":33,"standby_kW":2,"annual_MWh_at1_5cycles_day":63.51,"combination":"alternative duty descriptions,not additive simultaneous charges"},
+      "installed_cost": null,
+      "fixed_maintenance_cost": null,
+      "remaining_gaps": ["matched PCS and whole-system AC losses", "complete installed-cost basis", "maintenance and replacement cost basis"],
+      "evidence_status": "manufacturer datasheet verified and visually checked; incomplete whole-plant interface"
+    },
+    {
+      "id": "tesvolt-powercore-g2-ia250-500",
+      "manufacturer": "TESVOLT",
+      "product": "POWERCORE G2 / IA-250kW/500kWh",
+      "source_page": "https://www.tesvolt.com/en/products/powercore-g2.html",
+      "source_pdf": "https://www.tesvolt.com/_media/02%20PRODUKTE/12_Forton_XL_PCG2/PC-G2_datasheet_Tesvolt.pdf",
+      "marketed_energy_MWh": 0.500,
+      "datasheet_battery_energy_MWh": 0.509,
+      "datasheet_battery_section_max_charge_power_MW": 0.244,
+      "datasheet_battery_section_max_discharge_power_MW": 0.2548,
+      "rated_AC_output_MW": 0.250,
+      "permitted_depth_of_discharge": null,
+      "usable_energy_MWh": null,
+      "AC_DC_AC_efficiency_max_approx": 0.92,
+      "efficiency_scope": "manufacturer FAQ; maximum depends on configuration and conditions;not a mean or independent one-way efficiencies",
+      "lifetime_marketing": ">10000cycles; SOH>70%after10years, detailed contract/duty not verified",
+      "installed_cost": null,
+      "fixed_maintenance_cost": null,
+      "remaining_gaps": ["usable capacity and permitted DoD", "rating boundaries and duty-dependent AC efficiency", "cost and warranty duty conditions"],
+      "evidence_status": "manufacturer pageFAQ and technical PDFpage2 verified and visually checked; incomplete model calibration"
+    }
+  ],
+  "access_gaps": ["Tesla Megapack public page AccessDenied; no new Tesla specifications inferred", "some manufacturer manuals require partner login; no registration or login attempted"],
+  "model_protocol": ["daily decision convention", "cross-day stock equation", "initial and terminal stock convention", "supply-priority rule", "declared loss split if only roundtrip efficiency is available"]
+}

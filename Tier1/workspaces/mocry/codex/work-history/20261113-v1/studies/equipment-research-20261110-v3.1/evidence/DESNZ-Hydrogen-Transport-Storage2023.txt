@@ -1,0 +1,1817 @@
+PAGE 1
+Hydrogen Transport and
+Storage Cost Report
+
+
+
+
+
+December 2023
+
+PAGE 2
+© Crown copyright 2023
+
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated.
+To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3 or write to the
+Information Policy Team, The National Archives, Kew, London TW9 4DU, or email:
+psi@nationalarchives.gsi.gov.uk.
+
+Where we have identified any third-party copyright information you will need to obtain permission from the
+copyright holders concerned.
+
+PAGE 3
+Contents
+
+Acronym glossary ___________________________________________________________ 5
+Introduction _______________________________________________________________ 6
+Section 1: Methodology ______________________________________________________ 8
+  Overview ________________________________________________________________ 8
+  Uncertainty _____________________________________________________________ 10
+  Metric definitions _________________________________________________________ 10
+Section 2: Hydrogen Forms __________________________________________________ 11
+Section 3: Storage _________________________________________________________ 14
+  Storage technologies _____________________________________________________ 14
+  Technical characteristics __________________________________________________ 15
+    Tanks and Storage Vessels ______________________________________________ 15
+     Salt Caverns __________________________________________________________ 17
+    Depleted Gas and Oil Fields ______________________________________________ 18
+    Aquifers ______________________________________________________________ 19
+    Rock Caverns _________________________________________________________ 20
+  Levelised costs __________________________________________________________ 20
+  Levelised costs of hydrogen storage vs storing other fuels ________________________ 22
+  Summary ______________________________________________________________ 22
+Section 4: Transport ________________________________________________________ 24
+  Transport Technologies ___________________________________________________ 24
+  Road transportation ______________________________________________________ 25
+    Compressed gas tube trailers _____________________________________________ 25
+  Technical characteristics __________________________________________________ 27
+  Pipeline Transportation ____________________________________________________ 28
+    Levelised costs ________________________________________________________ 29
+  Technical characteristics __________________________________________________ 30
+  Summary ______________________________________________________________ 33
+  Levelised costs of hydrogen transport vs transporting other fuels ___________________ 34
+Section 5: Conclusions ______________________________________________________ 35
+Annex ___________________________________________________________________ 36
+
+
+                                                                                 3
+
+PAGE 4
+Underlying data _________________________________________________________ 36
+Additional levelised cost data from published sources ____________________________ 38
+CGH2 trailers: Levelised Costs Calculations ___________________________________ 39
+  Assumptions: Compression ______________________________________________ 39
+  Assumptions: CGH2 Trailers ______________________________________________ 41
+  Sensitivity Analysis _____________________________________________________ 42
+
+
+
+
+
+                                                                               4
+
+PAGE 5
+Hydrogen Transport and Storage Cost Report
+Acronym glossary
+
+
+ Name                                   Abbreviation
+ American Society of Mechanical      ASME
+ Engineers
+ Capital expenditure               CAPEX
+ Composite overwrapped pressure     COPV
+ vessels
+ Compressed gaseous hydrogen       CGH2
+ Development expenditure           DEVEX
+ European Agreement concerning the   ADR
+ International Carriage of Dangerous
+ Goods by Road
+ First of a kind                   FOAK
+ Heavy goods vehicle             HGV
+ Liquefied hydrogen                 LH2
+ Liquid natural gas                LNG
+ Liquid organic hydrogen carriers       LOHCs
+ Methylcyclohexane              MCH
+ National Transmission System        NTS
+ Operating and maintenance        O&M
+ Operating expenditure             OPEX
+ Standard temperature and pressure     STP
+ Submerged Arc Welded           SAW
+
+
+
+
+
+                                                                                 5
+
+PAGE 6
+Hydrogen Transport and Storage Cost Report
+Introduction
+
+Low carbon hydrogen will be vital for meeting our legally binding commitment to achieving net
+zero by 2050. Hydrogen transport and storage will be a critical enabler for the necessary
+growth of the hydrogen economy. An understanding of the available hydrogen transport and
+storage technologies, and the technical and cost characteristics of these technologies is a
+fundamental part of energy market analysis and is needed to analyse and design policy to
+make progress to net zero.
+
+This report, produced by the Department for Energy Security and Net Zero (referred to
+hereafter as ‘the Department’), presents technoeconomic characteristics of hydrogen transport
+and storage technologies. The report aims to consolidate existing evidence on hydrogen
+transport and storage into a single reference point for ease of use and to provide cost
+estimates for use within the Department, other government departments and externally. It
+follows a similar report for Hydrogen Production Costs published in 20211, which presented
+estimates of the costs and technical specifications for different production technologies.
+However, due to the more nascent nature of hydrogen transport and storage technologies,
+there is less available cost data compared to hydrogen production.
+
+This report does not attempt to be an exhaustive assessment of the technoeconomic
+considerations of all existing, or potential, hydrogen transport and storage technologies. Nor
+does the report consider all factors, for example, regulation and funding, that will interact with
+the technoeconomic factors to influence the growth of hydrogen transport and storage and the
+hydrogen economy. It is expected that this report can be used for the following:
+
+    •  To inform policy analysis supporting the design of hydrogen transport and storage business
+       models2.
+    •  To act as a baseline for understanding first-of-a-kind (FOAK) project costs for proposed
+       transport and storage projects, as well as hydrogen production projects that include plans for
+        limited transport and storage solutions.
+    •  To provide relative hydrogen transport and storage costs for comparison to alternative energy
+       vectors.
+    •  To inform assumptions and inputs into energy system modelling to analyse strategic energy
+       decisions.
+    •  To inform impact assessments and monitoring and evaluation of future hydrogen projects.
+
+The report is structured as follows:
+
+    •  Section 1 gives an overview of the methods used to produce this report.
+    •  Section 2 provides an overview of the different hydrogen forms.
+    •  Section 3 describes the technical and cost characteristics of storage technologies.
+    •  Section 4 describes the technical and cost characteristics of transport technologies.
+    •  Section 5 provides a brief conclusion on the report.
+
+1 https://www.gov.uk/government/publications/hydrogen-production-costs-2021 (Accessed November 2023)
+2 Although cost estimates in this report will be used as inputs into analysis for hydrogen policy design, it is
+important to note that the levelised costs do not indicate costs that will be used to determine payments under
+future business models.
+                                                                                 6
+
+PAGE 7
+Hydrogen Transport and Storage Cost Report
+
+    •   Lastly, the Annex includes additional underlying data for the figures presented in this report and
+       provides additional data on levelised costs from published literature.
+
+We acknowledge that the evidence base is fast-moving and through producing this report we
+have a better understanding of the gaps in our knowledge. We invite views on this report to
+continue to improve our collective understanding. To provide your views and any new
+evidence, please email hydrogenevidencebase@energysecurity.gov.uk. We will continue to
+monitor and update cost estimates as new evidence becomes available.
+
+
+
+
+
+                                                                                 7
+
+PAGE 8
+Hydrogen Transport and Storage Cost Report
+Section 1: Methodology
+
+Overview
+
+Using published literature and market intelligence, we have identified existing and potential
+hydrogen transport and storage technologies and subsequently the necessary potential
+hydrogen forms (Section 2). The technologies included in this report are unlikely be exhaustive
+– they represent technologies discussed in existing literature, or in planned projects. Novel
+technologies for both hydrogen transport and storage could emerge as the market develops.
+
+In Section 3 and Section 4 respectively we have identified which hydrogen technologies are
+likely to be utilised with which hydrogen form and provided a brief overview of the technical
+characteristics of these technologies. We researched published data on hydrogen transport
+and storage technology costs with the aim to present a range of levelised cost estimates for
+different technology/form combinations.
+
+  Levelised costs
+
+  The intention of a levelised cost metric is to provide a simple cost comparison between
+   different types of technologies. The levelised cost of a hydrogen transport and storage
+  technology is the ratio of the total costs (£) of an archetypal technology relative to the
+  amount of hydrogen to be transported or stored over the technology’s lifetime. For
+  hydrogen transport and storage, this is usually measured in kilograms. By archetypal
+  technology we mean an illustrative example, e.g. trailers, as the costs for individual
+   trailers and projects will vary hugely, depending on a range of factors, some of which are
+  discussed in this report.
+
+Although there are published estimates for the levelised costs of hydrogen transport and
+storage for a range of technologies and forms in different external literature, most publications
+do not provide sufficient detail on the method used to derive those costs to make fair and direct
+comparisons with other sources. For example, the levelised cost of transporting hydrogen
+(presented in £/kg) will apply to a specific distance covered, which is often not stated. The
+same applies to the literature on storage costs, where there is often little detail on the number
+of cycles (how often the store fills and empties) used to derive the levelised cost estimates.
+
+In the following section we discuss different ‘hydrogen forms’ which could be transported or
+stored. To transport or store hydrogen, hydrogen may need to be compressed (to more
+compressed gas) or converted to another form (e.g. ammonia). While conducting research for
+this report, we encountered challenges in discerning how to separate the costs associated with
+compression and/or conversion from those related to hydrogen transport and storage and have
+identified this as a key evidence gap. An important avenue for further work is to improve our
+understanding of the potential emerging end-to-end archetypes, covering production plants,
+any transport and storage required, and end-use. Improving our knowledge of the potential
+end-to-end process will be key to understanding the total compression/conversion costs.
+                                                                                 8
+
+PAGE 9
+Hydrogen Transport and Storage Cost Report
+
+Without this, it is difficult to understand where to attribute any potential
+compression/conversion costs to hydrogen transport and storage technologies. For example,
+hydrogen may already be compressed to a suitable pressure for some transport technologies
+when released from the production plant. Or, depending on the end-to-end process, hydrogen
+may be compressed/converted several times between the producer and end-user.
+
+During our research we found limited cost data which had sufficient detail on the method to
+calculate levelised costs and their assumptions on compression/conversion for us to present a
+comparable range of the levelised cost estimates from different sources. Although we used a
+wide range of published evidence and literature to form the basis of the technoeconomic
+considerations and conclusions drawn in this report, the levelised cost estimates presented
+here are from DNV’s 2019 publication on the hydrogen in the electricity value chain34. Based
+on our research, this report provided the most detail on their methods, including information on
+cost drivers. We have converted the levelised cost estimates produced by DNV into GBP and
+adjusted for inflation to present these in 2023 prices. In compiling this report, we viewed other
+data on levelised costs, both published and unpublished, and the trends presented here, e.g.
+the ranking of costs from lowest to highest by technology, are consistent with other literature
+sources. A summary of the levelised cost data from other published sources is included in the
+Annex. We had sufficient input data for road transportation of gaseous hydrogen to produce
+our own cost calculator to derive levelised costs of transport. The outputs of this calculator are
+presented in Section 4 and a summary of the method is included in the Annex.
+
+The transport and storage technologies presented in this report are not an exhaustive view of
+all existing, or potential, technologies. We have focused on technologies where there is
+published evidence on the technical characteristics and costs, and those where there are
+projects, or proposals for projects, which plan to use these transport and storage technologies.
+Although some of the technologies presented in this report could be used for international
+transport of hydrogen, we have tried to view this from a UK domestic lens, to narrow the scope
+and provide a more meaningful technoeconomic view relevant to the early years of hydrogen
+economy growth. As the hydrogen market grows, we anticipate new hydrogen transport and
+storage technologies will develop and we can revise our evidence base as needed.
+
+In this report, we consider hydrogen transport and storage technologies separately. However,
+we acknowledge that there are some overlaps. For example, a trailer used to transport
+hydrogen could also be used to store hydrogen prior to transportation. Like with
+compression/conversion costs, a more detailed understanding of the potential end-to-end
+movement of hydrogen will be key to understanding the dual role of some technologies.
+
+
+
+
+
+3 https://www.dnv.com/Publications/hydrogen-in-the-electricity-value-chain-225850 (accessed November 2023)
+4 Although this report is from 2019, we still think these are the best public cost estimates and have updated these
+figures to account for inflation. We anticipate a step-change in the quality of transport and storage cost estimates,
+as projects start applying for government support, and complete funded feasibility studies. Until then, the majority
+of cost estimates and their assumptions and input data will be theoretical.
+                                                                                 9
+
+PAGE 10
+Hydrogen Transport and Storage Cost Report
+
+Uncertainty
+
+There is inherent uncertainty when estimating current and future costs of hydrogen transport
+and storage because technologies are not yet deployed at scale; some technologies are still in
+research phase, and cost data for existing technologies has been difficult to obtain because it
+is commercially sensitive. The costs presented here consider archetypal projects, and the
+actual costs of a project will vary, depending on many factors. Where possible, we have
+described the key cost drivers and their relative importance in Sections 3 and 4.
+
+In addition to the specific drivers of costs for respective transport and storage technologies,
+there are other cost drivers that will affect all infrastructure projects. For example, the price of
+components may differ between buyers depending on their project size and the supplier’s
+confidence that their project will go ahead, and long delivery times will drive up costs as
+producers add cost inflation to cover uncertainty in the price of raw materials. Location may
+also be a driver of cost differences, for instance the wage differential across the country will
+affect the labour costs for projects building in different locations.
+
+Metric definitions
+
+    •   In this report, the levelised costs of hydrogen transport and storage are presented as £/kg.
+      Using the Higher Heating Value (HHV)5 to express kWh, the energy content of 1kg of hydrogen
+         is 39.4 kWh.
+
+    •  The levelised costs presented for storage technologies are relevant for a specific pressure, or
+      range of pressures. In this report, we present pressure in in the bar unit.
+
+    •   In this report, we discuss CAPEX and OPEX costs and their relative impacts on the levelised
+       costs of transport and storage. Examples of capital expenditure (CAPEX) includes spend on
+       physical assets, for example tube trailers. Operating expenditure (OPEX) includes spend on
+       operating costs, for example, fuel and labour costs.
+
+
+
+
+
+5 The HHV refers to the total amount of heat liberated during the combustion of a unit of fuel, including the latent
+heat stored in the vapourised water. Lower heating value (LHV) refers to the total amount of heat available from a
+fuel after the latent heat of vaporisation is deducted from the HHV.
+                                                                                10
+
+PAGE 11
+Hydrogen Transport and Storage Cost Report
+Section 2: Hydrogen Forms
+
+Table 1 provides an overview of the technical characteristics that we have termed different
+hydrogen ‘forms’ relevant for hydrogen transport and storage applications. Hydrogen will be
+produced as a gas from production plants, with the outlet pressure dependent on the
+production technology. Because hydrogen has a low volumetric energy density, further
+compression of hydrogen, or converting it into a different form, will usually be required to
+transport and store hydrogen economically.
+
+This report does not consider the end-uses of hydrogen but some hydrogen ‘forms’ may be
+used directly by end-users without any changes to compression and/or conversion between
+forms. Most hydrogen transport and storage technologies can transport, or store, hydrogen in
+different ‘forms’. These combinations have different technoeconomic considerations and trade-
+offs, discussed in Sections 3 and 4.
+
+Table 1: Overview of Hydrogen 'Forms'
+ Hydrogen      Hydrogen is a gas at standard temperature and pressure (STP). Standard
+ (STP)          temperature and pressure are defined as 0 °C (273K) and 1 atm (1.013
+                    bar), respectively. Compared to other forms of hydrogen, the low
+                  volumetric energy density of hydrogen at STP makes it less practical to be
+               used in transport and storage applications.
+
+ Compressed   CGH2 can be used to describe hydrogen compressed to a range of
+ gaseous        pressures and to transport and store hydrogen it would be compressed to
+ hydrogen       around 300-700 times atmospheric pressure. Compressed gaseous
+ (CGH2)        hydrogen (CGH2) is the least energy dense form of hydrogen we consider
+                as a hydrogen form in the technologies considered in this report.
+
+ Liquefied       Converting hydrogen to liquid requires refrigeration to -253oC and
+ hydrogen       compression, and then regasification to convert back to gaseous
+ (LH2)          hydrogen. Liquefied hydrogen (LH2) is more energy dense than
+               compressed hydrogen gas and liquid organic hydrogen carriers, but less
+                energy dense than ammonia. Liquid hydrogen has high boil-off losses
+               compared to compressed gas. The benefit of storing hydrogen as a liquid
+                       is that, once converted and containerised, it can be transported and stored
+                     in higher volumes (of energy) than gas.
+
+ Ammonia      Hydrogen can be combined with nitrogen to form ammonia. Like
+                 hydrogen, ammonia is a gas at atmospheric pressure and room
+                  temperature. To store ammonia, it must be either compressed to 10 times
+                 atmospheric pressure or cooled to -33oC. Apart from metal hydrides,
+              ammonia is the most energy dense form of hydrogen we consider in this
+                    report. However, ammonia is corrosive and potentially toxic so needs
+                   careful consideration when storing and transporting. There is also a need
+
+                                                                                11
+
+PAGE 12
+Hydrogen Transport and Storage Cost Report
+
+                    to prevent any nitrous oxide emissions and ammonia leakage which would
+               be environmentally harmful. Because there is an established ammonia
+                  trade in the UK, storage and transport technologies are already tested,
+               making ammonia a promising option for transporting and storing hydrogen.
+                    In the energy sector, ammonia could be transformed back into hydrogen
+                   or used directly for fuel.
+
+  Liquified       Hydrogen can be bound to more complex molecules to form liquid organic
+ organic        hydrogen carriers (LOHCs), such as the hydrogenation of toluene to form
+ hydrogen       methylcyclohexane (MCH), and can later be released from LOHCs.
+  carriers       LOHCs are more energy dense (in terms of volumetric density) than forms
+ (LOHCs)         of compressed hydrogen gas but not as dense as liquid hydrogen or
+               ammonia. Leaks are less likely than ammonia, and unlike LH2 and
+               ammonia, no pressurisation is needed as LOHCs are liquid at normal
+                   conditions. LOHCs can potentially be stored in overground tanks and
+                  transported by truck or ship to other LOHC production sites for
+                 dehydrogenation. The chemical components can then be reused. Like with
+               ammonia, care must be taken when storing and transporting LOHCs due
+                    to their toxicity. For example, MCH is classed as “very toxic to aquatic life
+                   with long lasting effects”6. While the hydrogen forms above are already
+                  transported and stored at scale in the UK (although not in the energy
+                    sector), LOHCs are a more novel technology.
+
+ Metal hydrides  Gaseous hydrogen can be absorbed into the crystalline structure of solid
+                 metal powders to form a stable metal hydride. This can be stored in
+                  specialised storage tanks and later extracted through desorption. This
+                 form of hydrogen storage is the most energy dense. It is also very heavy,
+                so is more likely to be used as a storage technology, rather than for
+                hydrogen transportation. Additional considerations include the fact that
+                 metal hydrides can be very flammable. Equipment for purposes such as
+                 hydrogen-drying can be needed in cases where the hydride burns well in
+                  the presence of water. Like, LOHCs, metal hydrides are a more novel
+                 storage technology, not proven at scale.
+
+
+It is important to distinguish the difference between volumetric energy density and gravimetric
+energy density. Volumetric energy density refers to the amount of energy that can be stored in
+a given volume (kWh/dm3), while gravimetric energy density refers to the amount of energy per
+unit of mass (kWh/kg). Hydrogen has a high gravimetric energy density, approximately 33.33
+kWh/kg (~2.2 times the energy density of natural gas per unit mass). However, the volumetric
+energy density of hydrogen at standard temperature and pressure (STP) is just 0.003
+
+
+
+
+6 https://www.merckmillipore.com/GB/en/product/msds/MDA_CHEM-806147 (accessed November 2023)
+                                                                                12
+
+PAGE 13
+Hydrogen Transport and Storage Cost Report
+
+kWh/dm3. Because hydrogen is so much light, ~3 times the volume of hydrogen compared to
+natural gas is required to get the same amount of energy.
+
+In terms of real-world applications, such as hydrogen storage (e.g. tanks and vessels), the
+available volume is often more constrained than the available mass. Therefore, it is more
+practical to consider the energy density of a hydrogen ‘form’ in terms of its volumetric energy
+density.
+
+Figure 1 displays the energy density of given hydrogen ‘forms’ as a function of volumetric
+hydrogen content (see Table A1 for figures behind this graph). From this chart we can see that
+compressing hydrogen from 1 bar to 700 bar (under standard temperature conditions) results a
+in volumetric energy density increase from 0.003 kWh/dm3 to 2.1 kWh/dm3. It is also possible
+to convert hydrogen into other forms, such as liquid hydrogen, liquid organic hydrogen carriers
+(e.g. methylcyclohexane) and ammonia. Of these converted hydrogen forms, liquid ammonia
+has the highest volumetric energy (4.0 kWh/dm3). However, it is important to note that while
+these various forms may increase the volumetric energy density of hydrogen, the processes
+involved (i.e. compression and/or conversion) are often constrained by highly intensive energy
+requirements.
+
+Figure 1: Energy Density vs Volumetric H2 Content of Hydrogen Forms
+
+
+
+
+
+                                                                                13
+
+PAGE 14
+Hydrogen Transport and Storage Cost Report
+Section 3: Storage
+
+Storage technologies
+
+The hydrogen storage technology market is a rapidly growing sector, with the global hydrogen
+energy storage market estimated to grow from USD 11 billion (GBP 9bn) in 2023 to USD 197
+billion (GBP 161bn) by 20287. This growth is driven by the rising demand for low-emission
+fuels, advancements in electrolysers for sustainable hydrogen production, and the scalability
+and affordability of renewable energy systems.
+
+Hydrogen storage technologies can be categorised based on hydrogen forms (described
+above in Section 2) and technology. These storage forms include solid, liquid, and gas and
+involve the use of compression, liquefaction, and material-based storage. Table 2 outlines the
+feasibility of storing different forms of H2 using various storing methods.
+
+It is important to note that the storage technologies listed in this section are unlikely to be
+exhaustive and may not capture the entirety of the innovative strides being made in this area.
+As the hydrogen market continues to expand, novel storage technologies may emerge,
+reshaping the landscape.
+
+
+
+
+
+7 https://www.marketsandmarkets.com/PressReleases/hydrogen-energy-storage.asp (accessed November 2023)
+                                                                                14
+
+PAGE 15
+Hydrogen Transport and Storage Cost Report
+
+Table 2: Feasibility of Storing Different Forms of H2 by Storage Technology8
+                                                                          Metal       Technology      CGH2     LH2     Ammonia    LOHC                                                                         hydride
+       Underground
+         Salt caverns
+       (new or                     £       repurposed from
+         natural gas
+        storage)
+        Depleted oil or
+       gas field (newly
+        depleted, or                     £       repurposed from
+         natural gas
+        storage)
+        Aquifer (new)       £
+       Rock cavern
+        (new)
+        Tank/vessel                     £       £        (new)
+         Currently used in the UK
+
+          Theoretically possible
+
+        Not likely to be a storage technology/hydrogen form combination
+     £ - levelised cost data presented in this report
+
+Technical characteristics
+
+In this section, we first present a summary of the technical characteristics of different hydrogen
+storage technologies, and following this, present the levelised costs for some storage
+technology/form combinations.
+Tanks and Storage Vessels
+
+All forms of hydrogen discussed in this report can be stored in above-ground tanks or
+pressurised storage vessels.
+
+Compressed gaseous hydrogen (CGH2) is stored in pressurised tanks. Broadly there are four
+types of storage tank: types I and II are primarily of steel construction and cheaper but heavier;
+types III and IV are composite overwrapped pressure vessels (COPV) which are more
+expensive but lighter in weight. These tanks are not currently used for large-scale fixed
+
+
+8 Line-packing is a well-established practice in the natural gas transmission system for addressing
+imbalances in entry and exit volumes. However, the UK hydrogen strategy does not recognise line-
+packing as a viable method for managing short-term imbalances in hydrogen supply and demand
+because of the lower energy density of hydrogen.
+
+                                                                                15
+
+PAGE 16
+Hydrogen Transport and Storage Cost Report
+
+storage, rather as small-scale storage tanks which can be stored statically or transported on
+HGVs. They can be filled and emptied quickly, for example for refuelling small-scale end-users
+such as hydrogen-fuelled vehicles. Storing hydrogen in a tank offers an additional advantage:
+the gas maintains a high level of purity. This characteristic enhances its suitability for a range
+of end-users, including road transport and fuel cell applications, where there will likely be
+demand for high-purity hydrogen. Small, compressed gas cylinders have a capacity of 1 m3,
+and those that can be transported by trailer have a capacity of between 40 m3 and 1,000 m3.
+Already in use in the UK, technological readiness of tank storage for compressed gas
+hydrogen in small volumes is high. However, there are no examples in the UK of larger
+overground compressed gas storage on the scale required if it were to make up a substantial
+share of the predicted hydrogen storage capacity required to support a growing hydrogen
+economy. Current limitations include uncertainty around the regulations required for large
+volumes of overground storage, and the large amount of space required.
+
+Liquified hydrogen (LH2) can be stored in large overground cryogenic tanks at a temperature
+of –253 °C, similar in design to liquid natural gas (LNG) storage tanks but built specifically for
+hydrogen. Storing hydrogen as liquid in a tank requires extensive conversion processes
+(liquification and regasification), however, the hydrogen retains a high level of purity. Already in
+use in the UK, technological readiness of tank storage for liquid hydrogen is high, although like
+CGH2 storage in tanks, this has not been demonstrated at a larger scale. The capacity of liquid
+hydrogen storage tanks varies from 1,200 m3 for a bullet tank, to between 10,000 m3 and
+180,000 m3 for a purpose-built flat-bottomed concrete tank.
+
+Ammonia needs careful management due to its toxicity and potential pollution issues and is
+therefore currently stored in pressurised tanks at specialised storage sites, for example, where
+ammonia is produced at ports for export. It can be stored in 1,000 m3 bullet tanks or 50,000 m3
+concrete tanks, for weeks or months. Storing hydrogen in the form of ammonia requires
+conversion into ammonia, and potentially conversion back to hydrogen depending on the
+demand for end-use products. Although the process of synthesising ammonia (the Haber-
+Bosch process) is well used in the UK, ammonia is not currently used for creating hydrogen
+and therefore converting ammonia back into hydrogen (cracking) is not a process yet used on
+an industrial scale. However, the technical readiness of ammonia storage combined with its
+property as a high energy density form for hydrogen, makes it an attractive theoretical option
+for transporting hydrogen long distances by shipping.
+
+LOHCs (other than ammonia) are also stored in tanks. Extensive chemical processes are
+required to transform hydrogen into and out of liquid organic hydrogen carriers. However, their
+relatively high energy density (higher than compressed hydrogen gas, but lower than ammonia
+and liquid hydrogen) makes LOHCs a potentially more attractive storage option than gaseous
+hydrogen, and the fact that LOHCs do not need to be cooled to be in a liquid state and have no
+risk of gas leaks, overcomes some of the limitations of liquified hydrogen and ammonia. An
+additional benefit is that once extracted from the carrier, the hydrogen could retain a high level
+of purity. LOHCs are an emerging technology, and as such there is limited data and a high
+level of uncertainty around the volumes that could be stored in overground tanks and the costs
+involved.
+
+
+                                                                                16
+
+PAGE 17
+Hydrogen Transport and Storage Cost Report
+
+Metal hydrides present a promising solution for stationary hydrogen storage, due to their high
+volumetric energy densities and safety advantages. These materials can store and release
+large amounts of hydrogen in a relatively safe and controlled manner, making them ideal for
+energy storage applications. The hydrogen storage occurs through adsorption or absorption
+processes within the metal hydride, which allows for mostly loss-free and long-lasting storage.
+Nevertheless, when compared to alternative storage technologies, such as compressed
+hydrogen gas tanks, the cost of implementing a metal hydride storage system tends to be
+notably higher. This increased cost is attributed to the materials used and the inherent
+complexity of the system. Furthermore, the relatively heavier weight of metal hydride storage
+systems should be considered in applications where weight is a critical factor, like
+transportation. Despite these challenges, metal hydride storage is an emerging technology,
+and ongoing research and technological advancements could lead to cost reductions and
+wider adoption of metal hydride hydrogen storage in the future.
+Salt Caverns
+
+Salt caverns are a well-established technology for storing natural gas, but the utilisation of
+these caverns for hydrogen storage is limited. There are four designated hydrogen salt cavern
+storage sites in the world today: three in the USA (Clemens Dome, Spindletop, and Moss Bluff)
+and one in the UK (Teesside). The Teesside facility consists of three caverns, each capable of
+storing approximately 70,000 m3 of hydrogen, with a total combined energy storage capacity of
+25 GWh9. Although the design of caverns is influenced by operational needs and geological
+considerations, the overall geotechnical requirements for hydrogen storage salt caverns
+closely align with those for natural gas storage.
+
+The UK’s salt deposits have undergone detailed analysis by The British Geological Society10.
+In certain UK locations, there are options to repurpose existing natural gas storage caverns for
+hydrogen use or construct new salt caverns. The construction process of a salt cavern involves
+several key stages: site selection, solution mining, infrastructure installation, testing, and the
+commissioning phase.
+
+Site Location: An ideal site must feature a substantial and deep salt layer suitable for creating
+a cavern. This salt layer should be free from of geological faults and fractures to ensure
+adequate structural integrity of the cavern. The salt layer should also contain few mineral
+impurities which could react with hydrogen.
+
+Solution Mining: This involves drilling a well into the salt layer and injecting water. The water
+dissolves the salt, creating a brine that is then pumped back to the surface. This process is
+then repeated until a cavern of desired size and shape is formed. The brine that is produced
+during solution mining can be treated and disposed, or alternatively, repurposed for use in
+various industrial processes.
+
+
+
+9 https://www.gaffneycline.com/sites/g/files/cozyhq681/files/2022-
+07/gaffneycline_underground_hydrogen_storage_article.pdf (accessed November 2023)
+10 https://ukccsrc.ac.uk/wp-content/uploads/2020/05/John-Williams_CCS-and-Hydrogen.pdf (accessed November
+2023)
+                                                                                17
+
+PAGE 18
+Hydrogen Transport and Storage Cost Report
+
+Installation of Infrastructure: After the cavern has been created, infrastructure for storing and
+retrieving hydrogen is installed. This includes compressors and piping for injecting and
+extracting hydrogen, as well as safety systems to monitor and control the operation of the
+cavern.
+
+Testing: Before the cavern can be used for hydrogen storage, it must be tested to ensure its
+integrity and safety. This involves filling the cavern with a test gas, such as nitrogen, and
+monitoring the pressure in the cavern over time. If the pressure remains stable, this indicates
+that the cavern is sealed and ready for use.
+
+Commissioning: The cavern is filled with a ‘cushion gas’11 and the working gas (e.g.
+hydrogen) under pressure. The pressure in the cavern can be adjusted to match the required
+demand, allowing for flexible cycling operations. While the pressure can be adjusted, it is within
+certain limits to ensure the stability and integrity of the cavern structure.
+
+In considering options for hydrogen storage, repurposing existing natural gas storage caverns
+and the construction of new salt caverns through solution mining are recognised as viable
+options. However, these approaches face limitations, with a notable constraint being the
+uneven distribution of suitable salt deposits across the UK. Regions whereby hydrogen storage
+in salt caverns have been identified include the northwest (Chesire Basin), the northeast (East
+Yorkshire), and the south coast (Wessex Basin)12. Factoring in this geographical constraint
+suggests that prospective hydrogen users beyond these regions, such as industry in Scotland
+or South Wales, may lack convenient access to nearby onshore salt cavern storage facilities.
+
+Salt caverns are regarded as an effective way to ensure hydrogen purity and hermetic storage.
+However, gaseous hydrogen is highly diffusive and bacterial activity can disturb the cavern
+impermeability and the purity of the stored gas. For instance, microbial impurities in salt
+caverns could lead to hydrogen loss and limit the applications of extracted hydrogen unless
+thorough purification measures are implemented. Microorganisms present in salt caverns, such
+as sulfate-reducing bacteria, can consume hydrogen, leading to losses and potential
+production of toxic hydrogen sulfide. The extent and rates of microbial hydrogen consumption
+under high-saline cavern conditions are not yet fully understood13. Processes to purify the
+hydrogen at the cavern outlet could therefore be necessary and contribute to additional cost in
+the construction of hydrogen ready salt caverns.
+Depleted Gas and Oil Fields
+
+Depleted gas and oil fields are underground formations of porous permeable rock from which
+the hydrocarbons (oil or gas) have been removed. They could potentially be used for large-
+scale storage of compressed gaseous hydrogen (CGH2).
+
+
+11 A ‘cushion gas’ (sometimes referred to as a ‘base gas’) is a volume of gas permanently stored in a storage
+facility. Various gases can serve as the cushion gas, including N2, CO2, CH4, amongst others. The purpose of this
+gas is to maintain sufficient pressure in the cavern to allow for adequate injection and withdrawal rates, as well as
+uphold the structural integrity of the cavern. For salt caverns, the required amount of cushion gas is approximately
+one-third of the total cavern volume.
+12 https://www.sciencedirect.com/science/article/pii/S2352152X22011100 (accessed November 2023)
+13 https://www.nature.com/articles/s41598-023-37630-y (accessed November 2023)
+                                                                                18
+
+PAGE 19
+Hydrogen Transport and Storage Cost Report
+
+Use of depleted oil and gas fields for storing hydrogen are at an earlier stage of technology
+readiness than salt and rock caverns - in the UK there are currently no depleted oil and gas
+field sites storing hydrogen. However, it is a well-established technology for storing very large
+volumes of natural gas in the UK and worldwide (the Rough depleted gas field in the North Sea
+has a capacity of 3.3bn m3), and as such is considered also theoretically possible for
+hydrogen. Depleted oil and gas fields could be repurposed from natural gas storage to
+hydrogen, or a hydrogen store could be built new from a depleted gas or oil field.
+
+Despite the UK’s geographical advantage with many oil and gas field sites in the North Sea,
+and the size of storage that a depleted field would offer, there are limitations. Depleted oil and
+gas fields are geographically constrained due to the location of geological formations and past
+oil and gas exploration. Furthermore, not all depleted oil and gas fields will have the geological
+properties required to contain hydrogen without it leaking. As with other forms of underground
+storage, purity of hydrogen due to bacteria is a further constraint. In a depleted gas field,
+stored hydrogen will also likely mix with pre-existing natural gas, meaning extracted hydrogen
+will need to be used as mixed gas, or treated to create pure hydrogen. Contamination of
+hydrogen in a depleted oil field is likely to be even higher, making depleted oil fields a less
+appealing option for storing hydrogen than depleted gas fields. In addition, current evidence
+indicates that cycle rates will be limited because the porous rock structure limits the injection
+and withdrawal rates that are possible. We anticipate that depleted oil and gas fields would
+therefore be more suited to long term seasonal storage.
+
+Like salt caverns, depleted oil and gas fields require a proportion of cushion gas so the working
+volume of gas is likely to be between 50% and 60%14 of the overall cavern volume. In addition,
+oil and gas field sites offer significant potential for storing carbon (CCS), which may limit
+availability of sites for hydrogen storage, although research indicates that the optimal sites for
+hydrogen and carbon storage may differ.
+Aquifers
+
+Aquifers are like depleted oil or gas fields in that they are underground formations of porous
+permeable rock, but water is removed rather than hydrocarbons. They could potentially be
+used for large-scale storage of compressed gaseous hydrogen. Aquifer technology is an
+established storage technology for natural gas. In theory, if used as a store for gaseous
+hydrogen, they have the advantage over depleted oil and gas fields of there being no risk of
+mixing hydrogen gas with hydrocarbons.
+
+However, aquifers are not currently used for gas storage in the UK so using aquifers for
+hydrogen storage would therefore require creating one from scratch, and would likely require
+more innovation than e.g. depleted gas fields, which have already been used for natural gas
+storage in the UK. This storage would be geographically constrained due to the location of
+geological formations and require considerable exploration to identify whether the site was
+suitable for storing hydrogen.
+
+
+
+14 https://www.sciencedirect.com/science/article/pii/S2352484721014414 (accessed November 2023)
+                                                                                19
+
+PAGE 20
+Hydrogen Transport and Storage Cost Report
+
+Rock Caverns
+
+Rock cavern storage for hydrogen is an emerging technology involving the storage of hydrogen
+in underground rock formations. The caverns are created through rock excavation, and a
+sealing layer is applied to the cavity to prevent leaks, ensuring secure storage.
+
+In the UK, while there is substantial potential for hydrogen storage in salt caverns and depleted
+oil and gas fields, rock cavern storage presents itself as an alternative with geological
+adaptability. This makes it a viable option in specific locations where salt caverns or depleted
+oil and gas fields are unavailable due to geological constraints.
+
+However, the use of rock caverns for hydrogen storage will likely come with higher costs
+compared to other forms of underground storage. For rock caverns, the construction process is
+more intricate and expensive. Unlike salt caverns formed through the dissolution of rock salt,
+rock caverns require intensive excavation, often involving drilling and blasting. In addition,
+these caverns must be lined to prevent leaks and ensure safe hydrogen storage, incurring
+additional costs for both procurement and installation.
+
+Despite the higher construction and operational costs, rock caverns offer geographical
+adaptability and could serve as a practical solution if large-scale hydrogen storage is required
+where alternative options are unavailable. For example, a FOAK lined-rock cavern facility is
+currently being piloted in Luleå (Sweden) for hydrogen storage15, which could provide valuable
+insights that could inform similar projects in the UK. Nevertheless, further research and
+development will be required to comprehensively understand the potential and challenges of
+implementing this storage technology in the UK.
+
+Levelised costs
+
+Based on our literature review, the publication which presents the most detailed levelised costs
+of storage technologies is DNV’s 2019 report on Hydrogen in the Electricity Value Chain16.
+
+Figure 2 below presents the levelised costs of storage by some hydrogen form/technology
+combinations and separates out compression/conversion costs. In the annex we present a
+table with the figures behind this graph, and as discussed in the Methods section, the annex
+also includes a comparison with the levelised costs of storage published in other literature.
+
+
+
+
+
+15 https://www.smart-energy.com/industry-sectors/storage/underground-rock-cavern-hydrogen-storage-facility-
+inaugurated-in-lulea/amp/ (accessed November 2023)
+16 NB: this was also the input data Frazer-Nash decided was most appropriate to use to calculate the T&S
+requirements in 2035 in this publication: https://www.gov.uk/government/publications/hydrogen-infrastructure-
+requirements-up-to-2035
+                                                                                20
+
+PAGE 21
+Hydrogen Transport and Storage Cost Report
+
+Figure 2: Levelised Cost of Hydrogen Storage (£/kg) by Technology, adjusted for £2023
+
+
+
+
+
+NB: the cost estimates presented in the above table will be more uncertain for technologies not yet
+deployed at scale, particularly aquifers and depleted gas fields.
+
+For storage in a vessel, liquefaction costs are higher per unit of hydrogen than compressing
+hydrogen for use in a tank. The costs of compressing gas for storage underground (salt
+caverns, aquifers, and depleted gas fields) are lower per unit of hydrogen, as hydrogen does
+not need to be compressed as much to be stored underground. For tank/vessel storage,
+levelised costs are based on a cycle rate of once every three days (I.e. 120 days per year) for
+pressurised storage and once every week (I.e. 52 days per year) for liquid storage. Due to the
+lower storage capacity of pressurised vessels, more load-unload cycles (I.e. more than once a
+week) are required to make this storage method viable in terms of costs and efficiency.
+
+Levelised costs for the three underground storage technologies are similar. Although we
+anticipate that depleted gas fields would have a larger capacity than salt caverns and aquifers,
+the economies of scale will not necessarily be realised, as depleted gas fields are not likely to
+have as many cycles per year as salt caverns. We anticipate that economies of scale will be
+realised within other storage technologies, for example a larger salt cavern which can achieve
+the same number of cycles as a smaller salt cavern would likely have a lower cost of storage
+per unit of hydrogen. The theoretical maximum cycling rates will be driven by the technical
+characteristics of a storage site, including, for example the shape of a cavern. However, the
+actual cycling rates will be driven by demand for the storage facility and the types of producers
+and users the facilities are supporting. Through compiling this report, we have identified cycling
+rates as a key evidence gap, and improved evidence on this would better our storage cost
+estimates.
+
+For underground storage, another driver of cost differences will be driven by the geology of the
+site. A site with lots of smaller caverns which share the same above-ground infrastructure
+(compressors, for example), will be more expensive than a site with one larger cavern as more
+complicated excavation will be required for the smaller caverns. Additionally, the shape and
+
+                                                                                21
+
+PAGE 22
+Hydrogen Transport and Storage Cost Report
+
+depth of the salt cavern, aquifer, or depleted gas field, will affect overall costs, because CGH2
+will need to be compressed to different levels. In addition, the flow rate (how much hydrogen
+you can get in and out of the store) will differ depending on the size and depth of the cavern, a
+lower flow rate will reduce the theoretical cycling rate of the store, and therefore the amount it
+can be utilised.
+
+This report has not considered development expenditure (DEVEX) in much detail as there is
+limited evidence on DEVEX costs. However, we can predict that the DEVEX costs for aquifers
+and rock caverns would be higher than for e.g. salt caverns, as these are unproven
+technologies for hydrogen storage.
+
+Levelised costs of hydrogen storage vs storing other fuels
+
+Storage costs for hydrogen are likely to always be more expensive than for natural gas. As a
+compressed gas, hydrogen takes up three to four times as much space as natural gas. In other
+forms, although hydrogen energy density is greater, the costs involved in transforming the
+hydrogen (liquification, cracking, etc) are greater.
+
+A key benefit of hydrogen storage is being able to store electricity as hydrogen when there is
+an excess of electricity generated through renewable sources (wind, solar), to be converted
+back to electricity when energy demand peaks. Because the technology has been tested, this
+makes hydrogen a feasible option for long-term energy storage. However, there are clearly
+draw-backs in terms of the costs involved and the energy required in producing and storing
+hydrogen and re-converting to electricity. Storing excess (curtailed) electricity on a large scale
+is a challenge currently being investigated using other technologies, for example, pumped-
+storage hydropower, compressed air storage, mechanical gravity storage and chemical
+batteries. In the long term it will be important to consider and monitor which technology or
+technologies are most cost effective at storing electricity at scale.
+
+Summary
+
+There are a number of feasible, and theoretical hydrogen storage technologies available.
+Based on the trade-offs between the technoeconomic characteristics of different storage
+technologies, we have considered the viability of uses of different technologies in the emerging
+hydrogen economy. These are based on evidence to date and may change as the market
+develops. As with everything presented in this report, we welcome feedback on these
+conclusions.
+
+We anticipate that storage as LH2 will only be preferable if hydrogen will need to be
+transported over a long distance, and transport by pipeline is not suitable, or available.
+Conversion costs for LH2 are very high, and storing hydrogen above ground as LH2 will
+require space above ground, including space to build facilities for liquefaction.
+
+
+
+                                                                                22
+
+PAGE 23
+Hydrogen Transport and Storage Cost Report
+
+Storage of CGH2 in a tank/vessel will likely be preferable if you need a small amount of
+storage soon, prior to other storage facilities (e.g. salt caverns) being available and accessible.
+These technologies are easy to build/buy, can be operated flexibly, and can be distributed by
+trailer (see discussion on road transportation of CGH2 in Section 4).
+
+Rock caverns might be the only solution for storing larger volumes of hydrogen if there is
+limited space overground, and there is not the right geology for salt, depleted oil or gas fields
+or aquifers (e.g. most of onshore mid/south England or Scotland). The advantage, if these are
+built, is that the hydrogen could be purer than that stored in other larger-scale stores, so could
+be a promising solution where the end-use requires hydrogen of a high purity.
+
+For larger-scale storage, salt caverns have the best advantage in terms of a higher flow rate
+(compared to depleted gas fields). Based on the technoeconomic evidence, aquifers do not
+appear to bring any advantages above those of salt caverns and depleted gas fields, unless in
+the future we find that there are aquifers located in locations where hydrogen storage is
+needed and there are no alternative large-scale storage options, e.g. salt caverns.
+
+Aside from storing CGH2, the three hydrogen forms – LH2, ammonia, and LOHCs all offer
+similar benefits of being high-energy dense methods for transporting hydrogen, but all have
+some drawbacks. Ammonia carries more safety risks, liquid hydrogen has the highest boil-off
+losses, and although LOHCs overcome both of these limitations, they are less well developed.
+Before these hydrogen forms are suitable for hydrogen transportation, which they may be if
+conversion/compression costs drop, or hydrogen needs to be transported longer distances
+(e.g. for international import/export), we predict that we are not likely to see hydrogen stored in
+these forms.
+
+We think the best approach to assess storage needs will be to focus on emerging demand for
+hydrogen, including purity requirements and locations relative to potential larger-scale
+underground storage.
+
+
+
+
+
+                                                                                23
+
+PAGE 24
+Hydrogen Transport and Storage Cost Report
+Section 4: Transport
+
+Transport Technologies
+
+This section describes the technoeconomic characteristics of two hydrogen transport
+technologies – road transportation and pipelines. Like for storage, and as discussed in the
+methods section, this is not an exhaustive list of potential transport technologies. Hydrogen
+could also be transported by rail and newer solutions for hydrogen transportation will likely
+emerge as the market develops. In addition, this report is focused on domestic hydrogen
+transport and storage, and therefore excludes shipping, which could be used in the future for
+hydrogen import and exports. The potential combinations of transport technologies and
+hydrogen forms are summarised in Table 3 below.
+
+Table 3: Feasibility of Transporting Different Forms of H2 by Technology
+
+                                                                         Metal   Technology     CGH2      LH2      LOHC    Ammonia                                                                       hydride
+
+
+
+     Road                 £                                        *For use as   transportation
+                                                            a feedstock
+
+
+      Pipeline        £
+
+
+   Currently used in the UK
+
+   Theoretically possible
+
+   Not likely to be a transport technology/hydrogen form combination
+
+  £ - levelised cost data presented
+
+
+
+
+
+                                                                                24
+
+PAGE 25
+Hydrogen Transport and Storage Cost Report
+
+Road transportation
+
+A hydrogen trailer is a specialised road vehicle designed for transportation of hydrogen from
+point of production or storage to end-user. Hydrogen trailers could be used to transport
+hydrogen in all five of the hydrogen forms described in Section 2 – gas, liquid, ammonia,
+LOHCs, and metal hydrides.
+
+Converting hydrogen to LH2, ammonia, LOHCs or a metal hydride increases the energy
+density of hydrogen, meaning more could theoretically be transported per trailer. However,
+conversion adds significant costs due to the considerable amount of energy required.
+Furthermore, for liquid hydrogen, cryogenic conditions (very low temperatures) are required
+during transportation, further increasing costs. If hydrogen needs to be transported greater
+distances, for example, domestic transport in countries larger than the UK, or international
+transport, then the benefits of being able to transport larger quantities of hydrogen could make
+these forms more economical.
+
+In addition, some of these forms of hydrogen could become more commercially viable with the
+introduction of newer technologies into the market. One such notable example is the FOAK
+metal hydride solid-state hydrogen storage and distribution trailer developed by Hydrexia
+Energy Technology17. This trailer utilises a magnesium-based alloy for hydrogen storage, with
+a solid-state capacity of 1 tonne, a high hydrogen storage density of 6.4%wt, and operates at a
+low pressure of under 12 bar.
+Compressed gas tube trailers
+
+Based on the technoeconomic evidence, we anticipate that composite-based (type IV)
+compressed gas tube trailers will be used for domestic road transportation of hydrogen in the
+UK in the early years of hydrogen economy growth. We have produced a calculator to provide
+bottom-up estimates of the levelised costs of road transportation of compressed gaseous
+hydrogen (CGH2) in type IV trailers at 500 bar. While the exact service lifetime for a truck-
+trailer for CGH2 transportation varies across different reports (e.g. 10-30 years), we have
+based our analysis on a project lifetime of 15 years as this allows for a comprehensive analysis
+of the costs and benefits over a significant period. However, it is worth noting that potential
+technological advancements and changes in market conditions could impact the cost over
+such a period.
+
+Our analysis enables us to understand the cost drivers, and make informed comparisons, such
+as those based on trailering carrying capacity and number of trailer journeys. Figure 3 presents
+a summary of the outputs from the cost calculator, along with a description of the technical
+characteristics of compressed gas tube trailers. For more information on the assumptions in
+the cost calculator, please refer to the Annex (Table A4).
+
+
+
+
+
+17 https://hydrexia.com/ (accessed November 2023)
+                                                                                25
+
+PAGE 26
+Hydrogen Transport and Storage Cost Report
+
+Figure 3: Levelised Costs of Hydrogen Transport by Type IV Compressed Gas Tube Trailers
+
+
+
+
+
+The levelised costs of transporting CGH2 are higher from smaller trailers, in part because of
+the lower carrying capacity. Our analysis suggests that increasing the carrying capacity of a
+CGH2 trailer from 500kg to 1,300kg results in a 10-25% reduction in levelised cost. The extent
+of this reduction is dependent on factors such as the number of trailer trips and the distance
+travelled.
+
+This cost reduction stems from the ability to spread fixed costs, including those associated with
+the trailer and equipment, across a larger volume of hydrogen transported. Essentially, the
+economies of scale tied to the transportation of greater hydrogen volumes outweigh the impact
+of operational costs, such as labour, fuel, and compression expenses, on a per unit basis. This
+highlights the economic benefits of transporting larger quantities of CGH2 using high-capacity
+trailers.
+
+It is evident that across each trailering scenario, the cost of compression accounts for a
+significant portion of the levelised cost of CGH2 transportation. As shown in Figure 3, the cost
+of compression was calculated to be 30-60% of the overall transportation cost. However, the
+high cost of compression can be offset by increasing trailer capacity and subsequent hydrogen
+payload per trip. A sensitivity analysis was carried out to examine compressor capex and opex
+on the levelised cost of transporting CGH2 by road trailer. The results are presented in Table
+A11 and Table A12 in the annex.
+
+
+
+
+
+                                                                                26
+
+PAGE 27
+Hydrogen Transport and Storage Cost Report
+
+Technical characteristics
+
+Tube trailers are articulated lorries that consist of multiple high-pressure vessels manifolded
+together. The pressurised gas cylinders are made from either steel or composite materials.
+Compressed hydrogen gas tube trailers (referred to herein as ‘tube trailers’) are constructed
+using high-pressure cylinders, also known as tubes, which are made from either steel or
+composite materials. These materials are chosen for their strength, durability, and ability to
+withstand high pressures.
+
+Steel Cylinders (Type I): These are all-metal construction vessels, generally made from steel.
+Historically, Type I cylinders have held more than 90% of the tube trailer market18. Steel
+cylinders are commonly used for lower pressures, typically around 200 bar.
+
+Composite Cylinders (Type III and Type IV): These cylinders are made from a combination
+of metal liners (usually aluminium) and composite materials such as carbon fibre and
+advanced polymers. The composite materials are wound around the liner to provide additional
+strength and durability. Type III cylinders have a metal liner and a composite overwrap, while
+Type IV cylinders have a plastic liner and a composite overwrap. These cylinders are often
+used for higher pressures, such as 500 bar or higher.
+
+Hydrogen is a compressible gas, therefore storing and transporting hydrogen at higher
+pressures increases the amount of hydrogen that can be transported (‘payload’). Table 4
+shows the typical operating pressures and hydrogen payloads for type I and type III/IV tube
+trailers. In the UK, a typical steel (Type I) tube trailer would be filled to 228 bar and carry
+around 300 kg of hydrogen19. Recent advancements in composite storage vessel designs have
+increased the capacity to transport larger hydrogen payloads. Newer tube trailers fitted with
+composite cylinders (Type III/IV) can transport >1000 kg of hydrogen at 500 bar working
+pressure or higher.
+
+
+Table 4: Tube Trailer Types, Pressure, and Payload
+
+     Tube trailer type             Pressure (bar)              Payload (kg)
+         Type I                     228                      300
+       Type III/IV                   500                    >1000
+
+
+It is worth noting that carrying capacity onboard a tube trailer is not primarily limited by its
+operating pressure. Instead, their capacity is constrained by road weight restrictions, which are
+enforced to protect road infrastructure and ensure safety.
+
+
+
+
+
+18 https://www.compositesworld.com/articles/composites-end-markets-pressure-vessels-2023 (Accessed
+November 2023)
+19 https://www.fuelsindustryuk.org/future-vision/hydrogen/ (accessed November 2023)
+                                                                                27
+
+PAGE 28
+Hydrogen Transport and Storage Cost Report
+
+In the United Kingdom, the maximum gross weights for goods vehicles are set out in the Road
+Vehicles (Construction and Use) Regulations 198620 and the Road Vehicles (Authorised
+Weight) Regulations 199821. The maximum weight limits for different types of vehicles vary
+depending on the number of axles. The maximum gross weight for vehicles with six axles is 44
+tonnes. These restrictions directly impact the carrying capacity of tube trailers. For example, a
+steel (Type I) tube trailer with a hydrogen payload of 300 kg is limited by the weight of the steel
+tubes. This is because the weight of the steel tubes, combined with the vehicle weight and
+hydrogen payload, must not exceed the road weight restrictions.
+
+Composite materials used in Type III and IV cylinders are lighter than the steel used in Type I
+cylinders. This results in a lighter overall weight of the trailer, allowing for more hydrogen to be
+transported within the same weight restrictions. Composite tube trailers are generally more
+expensive than steel tube trailers due to the advanced materials and manufacturing processes
+involved. However, the higher cost of composite tube trailers can be offset by their increased
+capacity and efficiency. For example, Spanish-based Calvera Hydrogen announced they had
+developed the largest capacity tube trailer on the international market22: designed to transport
+1,300 kg at an operating pressure of 517 bar. The carrying capacity of this trailer is over four
+times that of a conventional Type 1 tube trailer.
+
+Moreover, a study has found a linear relationship between the deliverable payload and the
+capital cost of a composite tube trailer23, suggesting that the cost per kilogram of hydrogen
+transported decreases as the payload increases. This indicates that while the upfront cost of
+composite tube trailers may be higher, they could be more cost-effective in the long run,
+especially for larger payloads and longer transportation distances. Moreover, the increased
+capacity can lead to more efficient transportation of hydrogen, as more hydrogen can be
+transported per trip.
+
+In the UK, the transportation of hydrogen by road is regulated under various legislative
+frameworks and guidelines. The European Agreement concerning the International Carriage of
+Dangerous Goods by Road (ADR) classifies hydrogen as a dangerous good and sets specific
+requirements for its transportation. Hydrogen is classified as a dangerous good under Annex 5
+of the ADR. Hydrogen transport is excluded through ten tunnels in the UK, based on its ADR
+classification. Drivers transporting hydrogen must be appropriately trained and hold an ADR
+training certificate specific for hydrogen transportation, which can increase the operating costs
+for hydrogen transportation by road.
+
+Pipeline Transportation
+
+Hydrogen can be transported by pipelines in gaseous or liquid form, or as ammonia.
+Transporting liquified hydrogen and LOHCs by pipeline is theoretically possible, but based on
+
+
+20 https://www.legislation.gov.uk/uksi/1986/1078/contents/made (accessed November 2023)
+21 https://www.legislation.gov.uk/uksi/1998/3111/contents/made (accessed November 2023)
+22 https://www.calvera.es/calvera-hydrogen-develops-the-largest-ever-hydrogen-transport-tube-trailer-model-for-
+shell-hydrogen/ (Accessed November 2023)
+23 https://www.osti.gov/biblio/1461439 (Accessed November 2023)
+                                                                                28
+
+PAGE 29
+Hydrogen Transport and Storage Cost Report
+
+existing evidence, this is not currently in use. Because ammonia is used widely as a feedstock
+for fertilisers, there is a high level of maturity in transport technologies – ammonia pipelines
+exist in the US, for example. Based on our literature review, there is little/no cost evidence on
+transporting liquid hydrogen or LOHCs by pipeline. There is some evidence comparing the cost
+of transporting compressed gas by pipeline vs ammonia. However, this evidence covers
+distances that would be larger than domestic transport in the UK, so have been excluded from
+this report. Most of the literature for UK domestic transport of hydrogen by pipeline focuses on
+transporting hydrogen as a compressed gas. This technology/form is therefore the focus of this
+next section.
+Levelised costs
+
+We do not have sufficient data on the inputs into the levelised costs of pipeline transport to
+produce a bottom-up calculator, like for road trailer transportation of gaseous hydrogen. Based
+on our literature review, the publication which presents the levelised cost of pipeline transport
+broken down by the most drivers is DNV’s 2019 report on Hydrogen in the Electricity Value
+Chain24. Figure 4 below presents DNV’s levelised costs of transport broken down by pipeline
+diameter, onshore or offshore, and length of pipe. In the annex to this report, other quantitative
+estimates of transportation by gaseous hydrogen are included. See Table A5 for the figures
+behind this graph. Although not directly comparable to other cost estimates in the literature
+because of differences in the method, the magnitude of levelised costs for gaseous transport of
+hydrogen is similar.
+
+Figure 4: Levelised Costs of Hydrogen Transport (£/kg) by Pipeline
+
+
+
+
+
+24 NB: this was also the input data Frazer-Nash decided was most appropriate to use to calculate the T&S
+requirements in 2035 in this publication: https://www.gov.uk/government/publications/hydrogen-infrastructure-
+requirements-up-to-2035
+                                                                                29
+
+PAGE 30
+Hydrogen Transport and Storage Cost Report
+
+Offshore pipelines are likely to be more expensive primarily because CAPEX costs are
+predicted to be higher, as more materials are required. Pipelines with a larger diameter would
+have slightly higher CAPEX costs, but here this is outweighed because higher capacities can
+be transported, lowering the levelised costs. In DNV’s analysis, the biggest driver of
+differences in costs is the length of the pipeline, with a doubling in distance (50 to 100km)
+increasing levelised costs by just less than half.
+
+Technical characteristics
+
+A gas pipeline is a system of pipes used to transport natural gas or other gases from one
+location to another. Pipelines are an essential part of the UK energy infrastructure, providing a
+convenient, efficient, and economic mode for mass transportation of gases over long
+distances. Pipelines can be broadly classified into three categories: gathering lines,
+transmission lines, distribution lines.
+
+Gathering pipelines are the initial stage in the gas supply chain, collecting gas from various
+wells and production facilities. They transport the gathered gas to central processing plants,
+where it is cleaned, processed, and compressed for transmission through larger pipelines.
+These gathering pipelines can vary in size and pressure levels, depending on the specific
+requirements of the production area.
+
+Transmission lines are responsible for moving large quantities of natural gas or other gases
+over long distances. They are the backbone of the gas distribution system, connecting gas
+production fields to distribution centres, industrial facilities, and even export terminals.
+Transmission pipelines are typically large in diameter and operate at high pressures to ensure
+efficient mass transportation of gas. The National Transmission System (NTS), operated by
+National Grid, is a network of 7,630 km of high-pressure pipelines, that supplies natural gas
+directly to around 40 power stations and larger industrial users in Great Britain. The NTS also
+supplies gas to distribution networks who then supply natural gas to commercial and domestic
+users.
+
+Distribution pipelines are the final stage in the gas supply chain, delivering natural gas from
+transmission pipelines to end-users, such as residential, commercial, and industrial
+consumers. These pipelines have a smaller diameter and operate at lower pressures
+compared to transmission pipelines. They are designed to transport gas safely and efficiently
+over shorter distances to homes and businesses.
+
+Gas pipelines are typically constructed from materials such as steel, although newer pipelines
+may use materials like plastic or composite materials. They are equipped with various safety
+features, including pressure-regulating stations, control valves, and safety valves to ensure the
+safe and reliable transportation of natural gas.
+
+Like natural gas, gaseous hydrogen can also be transported using pipelines. However, the
+current state of hydrogen pipeline infrastructure in the UK is still in the early stages of
+development. The UK currently has around 40 km of dedicated hydrogen pipeline networks
+
+                                                                                30
+
+PAGE 31
+Hydrogen Transport and Storage Cost Report
+
+that are owned and operated by two chemical companies25. While there are plans and projects
+underway to build new pipelines and repurpose existing gas pipelines for hydrogen
+transportation, there are no operational 100% hydrogen pipelines at scale in the country yet.
+
+The construction of hydrogen pipeline infrastructure in the UK will involve significant planning,
+engineering, and investment. Although transmission of hydrogen via pipeline has many
+similarities with that of natural gas; hydrogen pipelines come with their own set of challenges.
+
+In terms of materials and construction, hydrogen pipelines can experience issues with
+permeation and leaks due to the unique properties of hydrogen and the challenges associated
+with pipeline design and maintenance. Some of the key constraints for hydrogen pipelines
+include:
+
+    •  Hydrogen permeation through pipeline walls: Hydrogen molecules can permeate through the
+       walls of the pipeline. This phenomenon is a result of the small size of hydrogen molecules and
+       the various processes involved in hydrogen permeation, such as adsorption, dissociation,
+        diffusion, and desorption.
+    •  Hydrogen embrittlement of pipeline materials: Hydrogen can cause embrittlement in certain
+        materials, including metals like steel, which are commonly used in pipeline construction. This
+       embrittlement can lead to cracks and ruptures in the pipeline, increasing the risk of leaks.
+
+Material costs make up around 26% of the total expenses for building pipelines on average26.
+Therefore, reducing the thickness of the pipeline walls, can significantly cut down on the overall
+costs. Nowadays, natural gas transmission pipelines are usually made from higher strength
+steels, such as X70, which allows for thinner walls without compromising the pipeline's
+integrity. However, these high strength steels are more vulnerable to hydrogen permeation and
+embrittlement, making them potentially unsuitable for hydrogen pipelines. Instead, hydrogen
+pipelines are typically made from lower grade steel with thicker walls, which are more resistant
+to hydrogen embrittlement. Consequently, the use of more material in the construction of a
+hydrogen pipeline naturally increases the cost. Studies have found that pipelines designed
+specifically for carrying hydrogen can be up to 68% more expensive27 than those for natural
+gas, depending on factors like pipe diameter and operating pressure. Work is ongoing to
+understand the technoeconomic considerations of converting natural gas pipelines in the UK to
+carry 100% hydrogen. If repurposed pipelines could be used to transport hydrogen, this would
+be at a lower cost compared to constructing new pipelines. Research conducted by ACER
+reviewed published literature on repurposing costs and concluded that the costs of repurposing
+pipelines is estimated at around 10-15% of the cost of constructing new pipelines28.
+
+The specific type of steel used for hydrogen pipelines in the UK may vary, and the
+development of hydrogen pipeline materials is still ongoing. However, the following is an
+
+
+25 https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/energy-resources/deloitte-uk-energy-resources-
+investing-in-hydrogen.pdf (accessed November 2023)
+26 https://escholarship.org/content/qt2gk0j8kq/qt2gk0j8kq_noSplash_cfbe115e54fba9e62c107c7ac2f3ef17.pdf (accessed
+November 2023)
+27 https://www.sciencedirect.com/science/article/abs/pii/S036031991501575X?via%3Dihub (Accessed November 2023)
+28https://acer.europa.eu/Official_documents/Acts_of_the_Agency/Publication/Transporting%20Pure%20Hydrogen
+%20by%20Repurposing%20Existing%20Gas%20Infrastructure_Overview%20of%20studies.pdf (Accessed
+November 2023)
+                                                                                31
+
+PAGE 32
+Hydrogen Transport and Storage Cost Report
+
+example of some of the steel grades that have been used or are being developed for hydrogen
+pipelines.
+
+  Submerged Arc Welded (SAW) Steel: Liberty Pipes Hartlepool has successfully passed
+   trials to become the first UK producer of pipelines for safe transportation and storage of
+  hydrogen. Physical testing by Element Materials Technology confirmed that Liberty’s 42"
+  SAW steel line pipe meets international requirements for hydrogen pipelines set by the
+  American Society of Mechanical Engineers (ASME)29.
+
+
+
+
+
+29 https://libertysteelgroup.com/liberty-pipes-hartlepool-becomes-first-uk-producer-of-hydrogen-pipeline-material-one-of-
+only-a-handful-globally/ (Accessed November 2023)
+                                                                                32
+
+PAGE 33
+Hydrogen Transport and Storage Cost Report
+
+Summary
+
+Although hydrogen is and can technically be transported by a variety of different hydrogen
+technology/form combinations, based on the technoeconomic characteristics, existing
+literature, and market intelligence, we anticipate that road transportation and pipeline transport
+of CGH2 will be the two main technologies emerging in the early years of the hydrogen
+economy. A comparison of the costs for these technologies, and a summary of the pros and
+cons of the technical characteristics follows. Figure 5 compares the maximum and minimum
+levelised costs of transporting CGH2 100km by pipeline or trailers presented in this report (see
+Table A6 for figures). The methods used to derive these cost estimates differ so will not be
+directly comparable. However, the costs of transporting a kg of CGH2 by road transportation
+will likely be more than the costs of transporting a kg of CGH2 by pipeline.
+
+Figure 5: Minimum and Maximum Estimates of the Levelised Cost to Transport CGH2 100km, by
+Technology
+
+
+
+
+
+ Transport     Pros                    Cons
+ Technology
+
+ Road                                               •  Lower energy density compared to liquid
+                   •  Easier infrastructure setup        hydrogen trailers transportation                   and maintenance cost          •   Limited carrying capacity
+ – CGH2 tube    •  Composite storage vessels     •  Higher energy consumption for
+ trailer             have been developed that         compression
+                   have capacities of 500–1,300   •  High storage pressures require
+                    kg of hydrogen per trailer            significant investment and incur
+                   •  Lower cost compared to liquid      increased operating costs
+                    hydrogen trailers
+                   •  Faster refuelling times
+
+                                                                                33
+
+PAGE 34
+Hydrogen Transport and Storage Cost Report
+
+                                                      •  Safety concerns with high-pressure
+                                                        storage
+
+ Pipelines –                                         •  High initial capital costs of new pipeline
+                   •  Low cost option for delivering       construction CGH2                        large volumes of hydrogen      •  Converting existing natural gas pipelines
+                   •   Existing pipelines can be            to deliver pure hydrogen may require
+                     repurposed for hydrogen         more substantial modifications
+                        transport                       •  Technical concerns related to pipeline
+                                                           transmission, including the potential for
+                                                   hydrogen to embrittle the steel and welds
+                                                 used to fabricate the pipelines, need to
+                                                              control hydrogen permeation and leaks,
+                                                and need for lower cost, more reliable,
+                                                and more durable hydrogen compression
+                                                       technology
+
+
+Levelised costs of hydrogen transport vs transporting other
+fuels
+
+Like storage, the costs of transporting hydrogen are likely to always be more expensive than
+for natural gas because of its low volumetric energy density. Given transporting gas, including
+hydrogen, through pipelines is usually cheaper than transporting electricity, building hydrogen
+networks, or converting natural gas networks to hydrogen has the potential to reduce overall
+energy system costs30. However, there will be trade-offs across the energy system that will
+need to be considered before making decisions around network development, whether
+hydrogen or electricity.
+
+
+
+
+
+30 Cost of Long-Distance Energy Transmission by Different Carriers:
+https://www.sciencedirect.com/science/article/pii/S2589004221014668 (Accessed November 2023)
+                                                                                34
+
+PAGE 35
+Hydrogen Transport and Storage Cost Report
+Section 5: Conclusions
+
+As set out in the introduction, this report has collated existing evidence on transport and
+storage into a single reference point. Through compiling this report, we have identified several
+evidence gaps which would better our understanding of hydrogen transport and storage
+technologies, particularly:
+
+    •  Improved understanding of the potential emerging end-to-end archetypes, covering production
+        plants, transport and storage required, and end-use, which will be key to understanding the
+       compression/conversion costs necessary for transport and storage.
+
+    •  Improved understanding of the theoretical cycling rates for storage technologies, and the likely
+        cycling rates based on demand for the storage facility to better our understanding of storage
+        costs.
+
+Because hydrogen transport and storage technologies have not yet been deployed at scale,
+much of the evidence on potential costs is theoretical. As hydrogen projects apply for business
+model support and projects conduct more feasibility studies, we will obtain more up to date
+data on the predicted costs of transport and storage technologies which can be used to refine
+our evidence base.
+
+
+
+
+
+                                                                                35
+
+PAGE 36
+Hydrogen Transport and Storage Cost Report
+Annex
+
+Underlying data
+
+The following tables present the data included in Figures throughout this report.
+
+Table A1: Comparison of Selected Hydrogen Forms31
+
+                         H2    Properties       Units         CGH2    Liquid H2    MCH     Ammonia                        STP
+ State                          -       gas     gas         liquid           liquid          liquid
+                                          26.6a                                                                          610d Density             kg/m3     0.09    44.4b       70.8        770                                                                           680e                                           62.1c
+                                        26.6 Volumetric H2                                                              107.7                  kgH2/m3    0.09     44.4        70.8         47.1 content                                                              120                                        62.1
+                                           0.9 Volumetric energy                                                                3.6                 kWh/dm3   0.003     1.5         2.4           1.6 densityf                                                                          4.0                                           2.1
+ Gravimetric H2                 wt%     100    100       100           6.1         17.65 content
+ Gravimetric                  kWh/kg   33.33   33.33      33.33          2.0           5.8 energy densityg
+aAt 0°C and 300 bar. bAt 0°C and 500 bar. cAt 0°C and 700 bar. dAt 20 °C and 10 bar. eat –30
+°C. f,gValues are the corresponding hydrogen energy densities, calculated based on the LHV of
+hydrogen (LHVH2 = 33.33 kWh/kg).
+
+Table A2: Levelised Costs of Hydrogen Storage32
+
+                             Levelised cost (£/kg)
+                                                      Cycles     Hydrogen                                                               (per     Pressure (bar)   technology/form                             Conversion/    Total less     year)                        Total                          compression  conversion/
+                                       compression
+ Tank/vessel (CGH2)    £1.39      £0.96         £0.43       120         700
+ Tank/vessel (LH2)      £1.39      £1.22         £0.17       52            n/a
+ New salt cavern                       £0.26      £0.13         £0.13        9          250 (CGH2)
+ New aquifer (CGH2)    £0.23      £0.13         £0.10        5          250
+ New depleted gas                       £0.24      £0.13         £0.11        2          250 field (CGH2)
+
+
+31 https://pubs.acs.org/doi/10.1021/acsenergylett.1c02189 (accessed November 2023)
+32 https://www.dnv.com/Publications/hydrogen-in-the-electricity-value-chain-225850 (accessed November 2023)
+                                                                                36
+
+PAGE 37
+Hydrogen Transport and Storage Cost Report
+
+ Table A3: Levelised Costs of Hydrogen Transport by Type IV CGH2 Tube
+ Trailers – 100 Trips/yr
+
+                                     Levelised cost
+                     500 kg Capacity              1,300 kg Capacity
+  Distance
+  Travelled/trip                               Incl.                                  Incl.                       Trailering                          Trailering  (km)                          compression                 compression
+                  £/kg  £/MWh  £/kg  £/MWh   £/kg  £/MWh  £/kg £/MWh
+      25        2.39    61    3.86    98     2.20    56    3.47   88
+      100       2.62    67    4.09    104    2.29    58    3.56   90
+      200       2.93    74    4.40    112    2.41    61    3.68   93
+      300       3.24    82    4.71    120    2.53    64    3.80   97
+
+Table A4: Levelised Costs of Hydrogen Transport by Type IV CGH2 Tube Trailers – 300
+Trips/yr
+
+                                     Levelised cost
+                   500 kg Capacity              1,300 kg Capacity
+ Distance
+ Travelled/trip                               Incl.                                    Incl.                     Trailering                          Trailering (km)                          compression                  compression
+                 £/kg  £/MWh  £/kg  £/MWh   £/kg  £/MWh  £/kg  £/MWh
+     25        1.00    25    2.26    57     0.81    21    2.01    51
+     100       1.23    31    2.49    63     0.90    23    2.10    53
+     200       1.54    39    2.80    71     1.02    26    2.21    56
+     300       1.85    47    3.11    79     1.14    29    2.33    59
+
+Table A5: Levelised Costs of Hydrogen Transport (£/kg) by Pipeline
+
+                          Levelised Cost (£/kg)
+
+              50 km Pipeline          100 km Pipeline
+
+             7” Pipeline  10” Pipeline   7” Pipeline   10” Pipeline
+            Diameter    Diameter     Diameter     Diameter
+ Onshore      0.15         0.14         0.27         0.26
+ Offshore      0.16         0.16         0.31         0.30
+
+
+
+
+
+                                                                                37
+
+PAGE 38
+Hydrogen Transport and Storage Cost Report
+
+Table A6: Minimum and Maximum Estimates of the Levelised Cost to Transport CGH2
+100km, by Technology
+
+                         Levelised Cost (£/kg)
+                    Minimum  Maximum
+ Pipeline                    0.26        0.31
+ 1,300 kg CGH2 Trailer       2.10        3.56
+ 500 kg CHH2 Trailer         2.49        4.09
+
+Additional levelised cost data from published sources
+
+In the main body of this report, we presented the levelised cost data from DNV’s 2019
+publication and cost data on trailering based on internal analysis. In this section of the annex,
+where available we have provided costs estimates from other published sources for the
+technologies presented in this report33. Comparing these cost estimates allows us to have a
+useful insight into the potential ranges and uncertainty of the levelised cost of transport and
+storage technologies. However, the following estimates should not be used for direct
+comparisons as the methods used to produce levelised costs will differ, and variations in the
+methods may drive some differences, rather than revealing true cost differences between the
+technologies.
+
+Table A7:Levelised Cost of Trailering Compressed Hydrogen Gas, adjusted for £2023
+prices, by external source
+
+                       Levelised Cost (£/kg)
+               Gas    Incl. Compression Cost  Description
+ Deloitte34          0.15             0.76                         -
+ Royal Society35        -              1.88                         -
+ H2 Council36      0.79                     -                            -
+ DNV37                    -              1.48            350 bar
+
+
+
+
+
+33 For some storage technologies – aquifers and depleted gas fields – we found no other published data on the
+levelised costs of these technologies.
+34 https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/energy-resources/deloitte-uk-energy-resources-
+investing-in-hydrogen.pdf (accessed November 2023)
+35 https://royalsociety.org/-/media/policy/projects/green-ammonia/green-ammonia-policy-briefing.pdf (Accessed
+November 2023)
+36 https://hydrogencouncil.com/wp-content/uploads/2020/01/Path-to-Hydrogen-Competitiveness_Full-Study-1.pdf
+(November 2023)
+37 https://www.dnv.com/Publications/hydrogen-in-the-electricity-value-chain-225850 (accessed November 2023)
+                                                                                38
+
+PAGE 39
+Hydrogen Transport and Storage Cost Report
+
+Table A8:Levelised Cost of Transporting Compressed Hydrogen Gas via Pipelines,
+adjusted for £2023 prices, by external source
+
+                      Levelised Cost (£/kg)
+              Gas    Incl. Compression Cost    Description
+                  0.12             0.74                 Distribution Deloitte                  0.33             0.95             Transmission
+ Royal Society     0.83                      -               1,400km
+ H2 Council        0.4                      -                   Distribution
+
+Table A9: Levelised Cost of Hydrogen Storage Technologies, adjusted for £2023 prices,
+by external source
+
+ Storage Technology    External Source   LCOS £/kg £2023 Prices
+
+ CGH2 tank (700 bar)       Deloitte (2020)               0.74
+ Ammonia Tank             Deloitte (2020)               1.88
+                         Frazer Nash (2022)             0.27
+ Salt Cavern               Aurora (2021)               0.27
+                              Deloitte (2020)               0.72
+
+CGH2 trailers: Levelised Costs Calculations
+
+
+The following section outlines the assumptions used to calculate the levelised costs of road
+transportation of hydrogen via CGH2 tube trailers presented in Section 4 over a 15-year
+period.
+
+Assumptions: Compression
+
+The capital cost of a hydrogen compressor can vary significantly based on factors such as
+size, efficiency, and construction materials. Our findings indicate that the typical cost of a
+hydrogen compressor ranges from £40,000 to £120,000, with the possibility of exceeding this
+range for large compressors38. For our calculations, we assume an average cost of £80,000 for
+a hydrogen compressor. It is important to note that this assumption is specific to our
+calculations.
+
+Additionally, we estimate the annual fixed operating and maintenance (O&M) cost to be 5% of
+the hydrogen compressor's capital expenditure. Actual maintenance costs may vary depending
+
+
+
+
+38 https://pureenergycentre.com/hydrogen-products-pure-energy-centre/hydrogen-compressor/
+https://pureenergycentre.com/hydrogen-products-pure-energy-centre/hydrogen-compressor/ (accessed
+November 2023)
+                                                                                39
+
+PAGE 40
+Hydrogen Transport and Storage Cost Report
+
+on factors such as the compressor's reliability, operational frequency, and specific
+maintenance practices.
+
+The energy required to compress hydrogen is a significant cost factor. The required
+compression energy depends on the thermodynamic compression process. Two
+thermodynamic processes are considered: adiabatic compression, and isothermal
+compression39. For adiabatic compression, the energy consumed in the compression process
+is given by:
+                                                                         (𝛾𝛾−1)⁄𝛾𝛾                                                                 𝛾𝛾                    𝑊𝑊= ൤                ቈ൬𝑝𝑝1 ൰     −1቉                                     (𝛾𝛾−1)൨𝑝𝑝0𝑉𝑉0    𝑝𝑝1
+Where, W is the specific compression work (J/kg), p0 is the initial pressure (Pa), p1 is the final
+pressure (Pa), V0 is the initial specific volume (V0 = 11.11 m3/kg for hydrogen), and γ is the
+ratio of specific heats (γ = 1.41 for hydrogen).
+
+For isothermal compression, the required energy is then given by:
+                          𝑊𝑊= 𝑝𝑝0𝑉𝑉0 ln ൬𝑝𝑝1 ൰                                                                          𝑝𝑝0
+Figure A1provides a comparison of the energy requirements associated with adiabatic and
+isothermal compression methods. Achieving ideal isothermal conditions is currently
+unattainable with existing compressor technology. Instead, the use of multi-stage compressors
+with intercoolers allows compression to operate within a range between these two limiting
+curves. In our analysis, we assume a midpoint compression profile between the adiabatic and
+isothermal limiting curves as an illustrative example of the energy requirements of a multi-
+stage compressor.
+
+
+
+
+
+39 https://afdc.energy.gov/files/pdfs/hyd_economy_bossel_eliasson.pdf
+                                                                                40
+
+PAGE 41
+Hydrogen Transport and Storage Cost Report
+
+Figure A1: Adiabatic vs. Isothermal Compression Energy
+
+
+
+
+
+It is presumed that the compression energy is sourced from electricity. As of 2022, the average
+cost of electricity in the UK was 27p/kWh40. Using the midpoint compression energy profile
+depicted in Figure A1 we can calculate the cost of compressing hydrogen to 500 bar.
+Moreover, we assume a typical outlet pressure of 30 bar from an electrolyser, resulting in an
+overall compression energy requirement of 2.41 kWh/kg of hydrogen. This equates to a
+compressor operating cost of £0.68/kg of hydrogen.
+
+
+Assumptions: CGH2 Trailers
+
+The primary factors that contribute to hydrogen delivery costs include capital costs of tube
+trailers, driving distance, driver labour, diesel fuel expenses, and O&M costs. On average, the
+capital cost of composite tube trailers is approximately £1,046 per kilogram (price converted
+into GBP and adjusted for inflation to 2022 prices) of deliverable hydrogen payload41. We
+assumed an annual operational and maintenance cost of 5% of the trailer's capital
+expenditure. For a comprehensive understanding, we have detailed some key assumptions
+related to tube trailer delivery of hydrogen in Table A10 which were used to produce the cost
+estimates presented in this report.
+
+
+
+
+
+40 https://energyguide.org.uk/average-cost-electricity-kwh-uk/ (accessed November 2023)
+41 https://www.sciencedirect.com/science/article/abs/pii/S0360319918300843 (accessed November 2023)
+                                                                                41
+
+PAGE 42
+Hydrogen Transport and Storage Cost Report
+
+Table A10: General Tube Trailer Assumptions
+
+ Tube Trailer Capacity (kg)       500        1,300
+ Capital Cost42               £520,000   £1,360,000
+ Operating Pressure (bar)              500
+ Trailer loading time (hr)                3
+ Trailer unloading time (hr)              1
+ Fuel efficiency43 (mpg)                   7.9
+ Average trailer speed (km/hr)           50
+ Labour44 (£/hr)                       16.85
+ Fuel cost (£/L)                         1.60
+ O&M Cost (annual)          5% trailer capex
+
+
+Transporting hydrogen by compressed gas tube trailer involves several potential losses,
+including leakage and residual gas. For our analysis we estimate leakage volume to be in the
+range of 0.1 to 1% of the trailer’s capacity.
+
+Residual gas losses occur when the remaining pressure in the trailer is not sufficient to push
+the remaining hydrogen out of the trailer after delivery. While exact percentages for residual
+gas losses in tube trailers will vary, we have assumed here that residual gas left behind after
+delivery to be 0.5 to 2% of the trailer’s capacity.
+Sensitivity Analysis
+
+Multiple assumptions have been made in our calculations to derive levelised cost estimates.
+We decided to conduct sensitivity analysis on the cost of compression, as this plays a
+significant role in the levelised cost calculations and there was little publicly available data to
+cross-reference this with. Consequently, we carried out sensitivity tests to examine how
+levelised costs is affected by: (a) compressor capital cost, and (b) compression energy
+requirements.
+
+We chose to examine how a £40,000, £80,000, and £120,000 compressor effected the
+levelised costs of transporting hydrogen by CGH2 tube trailer. These price points were
+selected based on search results for the cost of a hydrogen compressor45. Note that in our
+calculations the annual O&M cost is 5% of the compressor capital cost. The results from this
+analysis are displayed in Table A11.
+
+
+
+
+
+42 Capital Cost (£) = £1,046/kg of deliverable hydrogen payload (price converted into GBP and adjusted for
+inflation to 2022 prices)
+43 https://assets.publishing.service.gov.uk/media/5bc75808e5274a1219d54a18/env0104.ods (accessed
+November 2023)
+44 https://uk.indeed.com/career/tanker-driver/salaries (Accessed November 2023)
+45 https://pureenergycentre.com/hydrogen-products-pure-energy-centre/hydrogen-compressor/
+https://pureenergycentre.com/hydrogen-products-pure-energy-centre/hydrogen-compressor/ (accessed
+November 2023)
+                                                                                42
+
+PAGE 43
+Hydrogen Transport and Storage Cost Report
+
+Table A11: Sensitivity analysis examining compressor capex on the levelised cost of
+transporting CGH2 by tube trailer
+
+                                           Levelised Cost
+                           (km)                      Trailer + £40k    Trailer + £80k        Trailer                            Trailering                                   +£120k                                    compressor     compressor                                                                  compressor
+                                         £/M                    £/MW                                               Distancetravelled  £/kg  £/MWh    £/kg           £/kg   £/MWh   £/kg                               Wh                         h
+              25    2.39    61      3.70    94    3.86     98     4.02   102
+       500kg    100   2.62    67      3.93    100   4.09    104    4.25   108        trailer 100
+          trips/yr    200   2.93    74      4.24    108   4.40    112    4.56   116
+              300   3.24    82      4.55    116   4.71    120    4.87   124
+
+              25    1.00    24      2.21    56    2.26     57     2.31   59
+       500kg              100   1.23    31      2.44    62    2.49     63     2.55   65        trailer 300
+          trips/yr    200   1.54    39      2.75    70    2.80     71     2.86   73
+              300   1.85    47      3.06    78    3.11     79     3.17   80
+
+              25    2.20    56      3.41    87    3.47     88     3.53   90
+       1,300kg              100   2.29    68      3.50    89    3.56     90     3.62   92        trailer 100
+          trips/yr    200   2.41    61      3.62    92    3.68     93     3.74   95
+              300   2.53    64      3.74    95    3.80     97     3.86   98
+
+              25    0.81    21      1.99    50    2.01     51     2.03   51
+       1,300kg              100   0.90    23      2.07    53    2.10     53     2.12   54        trailer 300
+          trips/yr    200   1.02    26      2.19    56    2.21     56     2.23   57
+              300   1.14    29      2.31    59    2.33     59     2.35   60
+
+
+The energy required to compress hydrogen is a considerable cost factor. We based our
+assumptions of compression energy requirements on theoretical calculations. As shown in
+Figure A1 we defined the midpoint curve as a reasonable assumption for the real-life energy
+cost to compress hydrogen (standard compression energy cost). By assuming a typical
+pressure outlet of 30 bar from an electrolyser, we calculated that the energy required to further
+compress hydrogen to 500 bar is 2.41 kWh/kg (£0.68/kg)
+
+As a sensitivity test, we examined how increasing and decreasing compression energy
+requirements affected the levelised cost of transporting hydrogen by CGH2 tube trailers.
+
+    •  High compression energy cost: a secondary midpoint curve was calculated between the
+       primary midpoint curve and upper adiabatic curve. The energy required to further compress
+      hydrogen from 30 bar to 500 bar is 3.36 kWh/kg (£0.94/kg)
+    •  Low compression energy cost: a secondary midpoint curve was calculated between the
+       primary midpoint curve and lower isothermal curve. The energy required to further compress
+      hydrogen from 30 bar to 500 bar is 1.47 kWh/kg (£0.41/kg)
+
+The results from this analysis are presented in Table A12.
+
+
+                                                                                43
+
+PAGE 44
+Hydrogen Transport and Storage Cost Report
+
+Table A12: Sensitivity analysis examining compressor operating costs on the levelised
+cost of transporting CGH2 by tube trailer
+
+                                           Levelised Cost
+                           (km)                    Standard         High         Low
+                            Trailering     compression   Compression   Compression
+                                             cost           Cost          Cost                                               Distancetravelled   £/kg   £/MWh    £/kg             £/kg             £/kg                                      £/MWh        £/MWh        £/MWh
+              25    2.39    61     3.86    98    4.31   109    3.41    87
+       500kg              100   2.62    67     4.09    104    4.54   115    3.64    92        trailer 100
+          trips/yr    200   2.93    74     4.40    112    4.85   123    3.95   100
+              300   3.24    82     4.71    120    5.16   131    4.26   108
+
+              25    1.00    25     2.26    57    2.71    69     1.81    46
+       500kg              100   1.23    31     2.49    63    2.94    75     2.04    52        trailer 300
+          trips/yr    200   1.54    39     2.80    71    3.25    83     2.35    60
+              300   1.85    47     3.11    79    3.56    91     2.66    68
+
+              25    2.20    56     3.47    88    3.92   100    3.02    77
+       1,300kg              100   2.29    58     3.56    90    4.01   102    3.11    79        trailer 100
+          trips/yr    200   2.41    61     3.68    93    4.13   105    3.23    82
+              300   2.53    64     3.80    97    4.25   108    3.35    85
+
+              25    0.81    21     2.01    51    2.46    62     1.55    39
+       1,300kg              100   0.90    23     2.10    53    2.55    65     1.64    42        trailer 300
+         trips/yrs.   200   1.02    26     2.21    56    2.67    68     1.76    45
+              300   1.14    29     2.33    59    2.79    71     1.88    48
+
+
+
+
+
+                                                                                44
+
+PAGE 45
+This publication is available from: www.gov.uk/government/publications/hydrogen-
+transport-and-storage-cost
+
+If you need a version of this document in a more accessible format, please email
+alt.formats@energysecurity.gov.uk. Please tell us what format you need. It will help us if you
+say what assistive technology you use.

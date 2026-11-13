@@ -1,0 +1,7 @@
+{
+  "owner": "R2",
+  "id": "S03",
+  "requested_url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+  "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage\nCall log:\n\u001b[2m  - navigating to \"https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "read_depth": "failed"
+}

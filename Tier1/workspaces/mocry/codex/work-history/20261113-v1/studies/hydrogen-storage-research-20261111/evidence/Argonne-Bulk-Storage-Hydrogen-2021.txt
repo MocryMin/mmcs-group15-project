@@ -1,0 +1,2163 @@
+PAGE 1
+ 1
+
+
+ 2
+
+ 3                              Bulk Storage of Hydrogen
+
+ 4                            D. D. Papadias and R. K. Ahluwalia
+
+ 5                              Argonne National Laboratory
+
+ 6                        9700 South Cass Avenue, Lemont, IL 60439
+
+
+ 7
+
+ 8                                    Corresponding author:
+
+
+ 9                                     D. D. Papadias
+
+10                              Argonne National Laboratory
+
+11                                9700 South Cass Avenue
+
+12                                    Lemont, IL 60439
+
+13                                     E-mail: papadias@anl.gov
+
+14                                   Phone: (630) 252-3206
+
+
+15
+
+
+
+
+
+                                               1
+PAGE 2
+ 1                              Bulk Storage of Hydrogen
+
+ 2                           Dionissios D. Papadias and Rajesh K. Ahluwalia
+
+ 3                              Argonne National Laboratory
+
+ 4                        9700 South Cass Avenue, Lemont, IL 60439
+
+ 5   Abstract
+
+ 6   The technical aspects and economics of bulk hydrogen storage in underground pipes, lined rock
+
+ 7   caverns (LRC) and salt caverns are analyzed. Hydrogen storage in underground pipes is more
+
+ 8   economical than in geological caverns for usable amounts <20-t-H2. However, because the pipe
+
+ 9    material is a major cost factor, the capital and operating costs for this storage method do not
+
+10    decrease appreciably with an increase in the amount of stored H2. Unlike underground pipes, the
+
+11    installed capital cost of salt caverns decreases appreciably from ~$95/kg-H2 at 100 t-H2 stored to
+
+12   <$19/kg-H2 at 3,000 t-H2 stored. Over the same scale, the annual storage cost decreases from
+
+13   ~$17/kg-H2 to ~$3/kg-H2. Like salt caverns, the installed capital cost of lined rock caverns
+
+14    decreases from ~$160/kg-H2 at 100 t-H2 stored to <$44/kg-H2 at 3,000 t-H2 stored. Storing >750-
+
+15     t usable H2 requires multiple caverns. The cost of salt caverns scales more favorably with size
+
+16   because the salt caverns are larger than lined rock caverns and need to be added at a slower rate as
+
+17    the storage capacity is increased.
+
+18   Keywords: Bulk storage of hydrogen, underground hydrogen pipes, hydrogen storage in salt
+
+19    caverns, hydrogen storage in lined rock caverns
+
+20    1. Introduction
+
+21      Massive deployment of hydrogen and fuel cells in use for power generation as well as
+
+22    transportation will necessarily require viable methods to store hydrogen at different time and
+
+23    length scales. Daily and seasonal storage of hydrogen can facilitate large-scale penetration of
+
+24   renewable energy by buffering the fluctuating imbalance between power/fuel production and
+
+                                               2
+PAGE 3
+ 1   demand. In the industrial sector, bulk storage may be required to balance daily demands as well as
+
+ 2    to prevent interruption in supply when the plant undergoes maintenance.
+
+ 3     At a small scale, hydrogen can be stored compactly as compressed gas at 350-950 bar in Type
+
+ 4    2, 3 or 4 tanks. Storing gas at such high pressures requires the tanks to be reinforced with carbon
+
+ 5    fibers or pre-stressed concrete, which results in high capital and operating costs [1–4]. Typical
+
+ 6    applications of this method are hydrogen storage on board vehicles (5-10 kg at 350-700 bar in
+
+ 7   Type 3 or 4 tanks), buffer hydrogen storage at refueling stations (100 kg in Type 2 or 4 tanks), and
+
+ 8   tube trailers for hydrogen delivery to refueling stations (1,000 kg capacity, 540 bar, Type 4 tanks)
+
+ 9    [5–8].
+
+10     At a medium scale, gaseous hydrogen could potentially be stored in spherical vessels or
+
+11   underground pipe facilities [3,9,10]. Spherical vessels have been utilized in Europe to store natural
+
+12   gas (NG) at a low pressure, ~20 bar, and thus require large spaces. Underground pipe facilities
+
+13   have been applied for seasonal storage of NG in Germany and Switzerland. A new pipe facility in
+
+14   Bocholt-Mussum (Germany) has the capacity to store 350,000 m3 of natural gas at pressures up to
+
+15   90 bar. The advantages of underground pipe storage facilities are the protection from adverse
+
+16   weather conditions and no requirement to have shaft structures, so that the land above ground can
+
+17   be used for other purposes such as farming.
+
+18     At larger scales, hydrogen is stored cryogenically as a liquid at 20 K (LH2) in spherical tanks
+
+19    [3,11–14]. The  largest LH2 storage  facility  at NASA’s (National Aeronautics and Space
+
+20    Administration, U.S.A.) Kennedy Space Center has two 3,200-m3 spheres, 21.3 m in diameter,
+
+21   each capable of storing 230 tonnes of LH2 [13]. There are several issues with LH2, however.
+
+22    Liquefaction of hydrogen is a costly and energy-demanding process [15–20]. State of the art
+
+23    liquefaction plants, based on a hydrogen compression/expansion sequence with a pre-cooling step,
+
+
+
+                                               3
+PAGE 4
+ 1   consume 10-12 kWh/kg-H2, which corresponds to one third of the lower heating value (LHV) of
+
+ 2   hydrogen and incurs ~$1.40/kg-H2 levelized capital cost. That cost increases to ~$2.75/kg-H2, if
+
+ 3    the cost of electricity is included [21]. Even though the cryogenic tanks are vacuum insulated, on
+
+ 4   a stored volume basis, the typical daily boil-off rate is 0.03% for the large spherical tank at the
+
+ 5  NASA complex, increasing to 1% for smaller cylindrical tanks [22,23]. Mitigation strategies exist
+
+ 6    to reduce boil-off by placing a liquid nitrogen shield between the insulation or using a closed-loop
+
+ 7   helium refrigeration system with an internal heat exchanger in the tank [24].
+
+ 8      Underground geological storage is expected to be the most economic method for storage at
+
+ 9    substantial amounts of hydrogen [4,25–29]. It has been used widely, primarily in the natural gas
+
+10   and  oil  industry,  for meeting seasonal and peak demands. The U.S. Energy Information
+
+11   Administration (EIA) estimates that there are 379 active underground fields for NG storage in the
+
+12    U.S., with ~3.8 trillion cubic feet of working gas capacity [30]. Eighty-eight percent of the
+
+13    operating storage is provided by depleted natural gas fields, 9% by aquifer reservoirs and 3% by
+
+14    salt caverns (although they account for 15% of the delivered capacity).
+
+15      Conceptual studies have evaluated geological storage of gaseous hydrogen in depleted oil and
+
+16   gas fields, aquifers and salt caverns [31–37]. To date, hydrogen storage has been demonstrated in
+
+17    salt caverns [9], but not in depleted fields or aquifers, which require a caprock to seal hydrogen.
+
+18   The high diffusivity of hydrogen can result in losses in porous underground formations. In case of
+
+19    aquifers, hydrogen could potentially be lost by dissolving in the large contact area with the
+
+20   surrounding brine. This may be relevant, especially under circumstances of elevated temperature
+
+21   and excessive pressures [34,37]. Other issues with porous underground storage are the potential
+
+22    interactions between hydrogen and hydrocarbons dissolved in reservoir rocks through microbial
+
+23   metabolism [37–39]. In the presence of CO, CO2 or sulfates, hydrogen can convert to CH4 and
+
+
+
+                                               4
+PAGE 5
+ 1   H2S. Other potential issues are hydrogen reacting chemically (or electrochemically) with mineral
+
+ 2    deposits and initiating adverse changes in porosity and permeability [34]. Also, if hydrogen
+
+ 3   becomes contaminated, a separation step is required to provide fuel cell-quality hydrogen to the
+
+ 4   consumer.
+
+ 5       Salt caverns are manmade artificial cavities with some unique properties of gas tightness and
+
+ 6    inertness. Depending on the depth of the cavity, storage pressures up to 25 MPa are feasible as are
+
+ 7    large capacities exceeding 1 million m3. Pure hydrogen has been successfully stored without losses
+
+ 8    in salt caverns at three locations [9]: three caverns in Teesside, U.K. since 1972 (200,000 m3), one
+
+ 9    in Clemens, TX since 1983 (580,000 m3), and a more recent one in Moss, Texas since 2007
+
+10   (566,000 m3). Large salt formations are geographically limited, however. In the U.S., large salt
+
+11   bodies are primarily located in the Gulf Coast [35].
+
+12     Where salt formations are not available, rock caverns can provide more possibilities close to
+
+13   hydrogen production  facilities. Rock caverns have been constructed  for storage of liquid
+
+14   hydrocarbons and natural gas and conceptually investigated for compressed air [40,41]. The
+
+15   caverns are constructed through typical mining operations. The concept of unlined rock caverns
+
+16    requires a competent rock with low permeability, free of fractures and fissures. Sufficient
+
+17   groundwater is needed to seal the rock or a water curtain must be applied in the surroundings for
+
+18   proper tightness [41]. However, the over-pressurized water system required around the caverns
+
+19    significantly increases the inflow of water to the caverns and may result in losses caused by
+
+20    dissolved gases dissolved in this water. In the absence of a low permeability rock mass, a tight
+
+21    storage medium can be constructed by cladding the cavern with a liner, which can be a polymer
+
+22   membrane or thin steel sheets [40,42–44]. The liner seals the gas whereas the surrounding rock
+
+23   absorbs the load. The host rock must be of sufficient quality as it determines the maximum storage
+
+
+
+                                               5
+PAGE 6
+ 1    pressure and consequently the storage volume and cost of mining. Lined rock caverns have been
+
+ 2    successfully demonstrated in a pilot project in Scandinavia in early 2000 to store natural gas [45];
+
+ 3   however, no commercial facility has been built to date.
+
+ 4      This work analyzes the technical aspects and cost effectiveness of different methods for bulk
+
+ 5    storage of gaseous hydrogen. Figure 1 identifies the storage methods of interest and their relevance
+
+ 6    to different applications. Confining the scope of the work, we only consider the large-scale gaseous
+
+ 7    storage options suitable for outages of hydrogen production plants (10-30 days of daily capacity)
+
+ 8   and seasonal variations in hydrogen demand. We consider two geological storage options, salt
+
+ 9   caverns and lined rock caverns, and one geographically agnostic underground pipe storage method.
+
+10   Bottoms-up cost analyses are performed for each case and the results are discussed below and in
+
+11    the supplemental document.
+
+12    2. Methodology
+
+13    2.1 Bulk H2 Storage in Underground Pipes
+
+14   Figure 2 presents a schematic of the core cost characteristics constructing the pipe facility.
+
+15      The main cost components are a) pipe production at the mill, b) surface coating of the pipes,
+
+16    c) transmission of pipes by rail and truck to the staging area, d) site preparation (excavation and
+
+17    backfilling), and e) pipe installation, welding, weld inspection, and final pressure testing for
+
+18    integrity.
+
+19       Starting with the production of the pipes, electric resistance welded (ERW) pipes were assumed
+
+20    in this analysis [46]. We also considered pipes with different diameters and wall thicknesses (18-
+
+21   36" O.D., schedule 10-100) as to determine the minimum cost. Steel plates are trimmed to proper
+
+22   dimensions, rolled into a pipe section and resistance welded. The pipe is cut in segments of 12 m,
+
+23   heated in a furnace and allowed to gradually cool as to temper the steel. Pipes are inspected and
+
+24    hydrostatically tested and packaged before delivery from the plant. Supplemental A details the cost
+
+                                               6
+PAGE 7
+ 1    of the pipes for different diameters and schedules investigated in this study. The cost of the pipes,
+
+ 2   normalized in terms of mass, ranges between $1,090/MT to $1,371/MT. These estimates compare
+
+ 3    well with the costs of similar pipes (>24") used in the natural gas and oil industry (1,080-1644
+
+ 4   $/MT) [47]. The variance is attributed to the cost of steel which accounts for ~64% of the cost of
+
+ 5    the pipe.
+
+ 6     The pipes are packaged and transported from the production mill to the nearest coating plant
+
+ 7    for corrosion resistance. A three-layer polyethylene coating is sufficient for corrosion prevention,
+
+ 8   without the need to install more expensive cathodic protection systems. The coated pipes are
+
+ 9    transported by rail to and from the coating plant and locally by trucks to the storage site. For our
+
+10   base case scenario, a 24" pipe schedule 60 can store hydrogen at a maximum pressure of 100 bar,
+
+11   and ~24,000 pipe segments are required for storing 500 tonnes of hydrogen. This number of pipes
+
+12   may require purchase orders from several mills and a broker to facilitate the procurement,
+
+13    inspection and other logistics. The cost contribution of coating and logistics [47] are summarized
+
+14    in Table 1.
+
+15       Site preparation costs include expenses for land acquisition, site clearing, grubbing and disposal
+
+16    of debris and excavation and backfilling of the pipe network. The pipes are covered by 1.2 m of
+
+17    soil, and pipe strings are spaced 80 cm apart as necessary clearance for welding. A land area of
+
+18   110 acres is required for our base case storage facility, and a total volume of 1,055,040 cubic yard
+
+19    (cy) of soil is excavated. Land clearing costs were estimated from guides for road construction
+
+20  (USDA forest service) [48]. The cost factors used are based on the use of the hydraulic excavator
+
+21    for clearing/pioneering. The land was assumed to primarily consist of tops and limbs (40%), logs
+
+22   (35%) and stumps (25%), which resulted in a total volume of 30 CCF/acre of classification.1 The
+
+
+
+
+         1 Timber volumes are generally expressed in CCF (100 cubic feet).
+
+                                               7
+PAGE 8
+ 1    total cost of the right of way for clearance was estimated at a base rate of $2,830/acre. A
+
+ 2    topographical factor of 10% was added to the base rate (less than 20% slope) and an additional
+
+ 3  65% for disposal and clearing of the debris. Costs for site excavation, hauling of soil and
+
+ 4    backfilling (after pipes have been installed) were determined from the cost of equipment, labor
+
+ 5    rate and machinery efficiency and diesel fuel costs. In addition, a land cost of $50,000/acre was
+
+ 6   assumed; 25% of the  site cost was  attributed  to engineering  costs,  logistics and project
+
+ 7    contingency. A total levelized cost for the site was estimated to $29.83/cy. The costs and
+
+ 8   assumptions for site preparation are detailed in Supplemental A.
+
+ 9      Pipes are installed at the site before backfilling. Pipe installation costs are associated with the
+
+10   welding of individual pipes segments (12-m long) and end domes, radiographic weld inspection
+
+11   and hydraulic pressure testing for all pipe strings. Welding all the segments of pipelines (process
+
+12    efficiency, and cost) is adopted after the work by Fekete et al.  [49]. A total welding cost of
+
+13    $1,192/joint was determined, 93% of which was attributed to labor. The methodology and cost of
+
+14   pipe installation is detailed in Supplemental A.
+
+15      After backfilling, aboveground facilities are included in the site preparation costs, which consist
+
+16    of compressor, valves and pipes connecting the storage facility to an adjacent hydrogen production
+
+17    facility. The inlet suction pressure from the hydrogen plant is at 20 bar, and H2 is compressed to
+
+18   100 bar with two 802 kW compressors. Aboveground capital costs and operational expenses were
+
+19    estimated by the hydrogen delivery scenario model [50]. Table 2 gives the capital, operational and
+
+20   maintenance costs for the aboveground facility.
+
+21
+
+22    2.2 Bulk H2 Storage in Underground Lined Rock Caverns (LRC)
+
+
+
+
+
+                                               8
+PAGE 9
+ 1      Lined rock caverns have as to date not been used for storage in industrial scale, however, pilot
+
+ 2    projects have confirmed its viability for NG storage with sufficient construction details [45,51,52].
+
+ 3   Figure 3a shows the principle cost features of this type of storage system and consists of four parts:
+
+ 4   excavation of the underground  facility including access tunnels and the cavern enclosure,
+
+ 5    installation of the liner and concrete surrounding the liner and the cavern forming the storage
+
+ 6    facility and the aboveground facilities including compressor, pipes and valves.
+
+ 7     The excavation of the rock cavern consists of one or multiple cavern systems with an
+
+ 8   arrangement of shafts and tunnels joining them with the ground surface. The excavation is
+
+ 9   performed by conventional drill-and-blast operations [52,53]. The cross-sections of the shafts and
+
+10    tunnels are 25 m2. The total length of the tunnels is 760 m (a 400 m access tunnel, two 80 m tunnels
+
+11   connecting to the lower and upper part of the dome and a 200 m shaft). The tunneling operations
+
+12    also include widenings periodically as to facilitate the turning of mining vehicles. This adds
+
+13    another 20% to the total length of the tunnels. Rock support is used in sections of the tunnels (30%)
+
+14   with grouted rebar. Grouting is also performed to minimize groundwater leaking and allows for
+
+15   more efficient pumping equipment. The caverns are excavated as hemispherical cylinders and
+
+16    reinforced with rock bolting and concrete. The dimensions of a cavern capable of storing 500 tonne
+
+17    of H2 at a pressure of 150 bar are 62 m in diameter and 71 m in height. The excavated rock is
+
+18   assumed to have no monetary value, and the rocks are trucked 10 miles to remote deposit sites.
+
+19   Cost contributions of mining the tunnels and cavern with additional work to fortify the walls are
+
+20    detailed in Supplemental B.
+
+21      Figure 3b shows some important technical details of the construction and structural properties
+
+22    for LRC storage. The lining represents a key component to ensure a proper gas storage and
+
+23    structural integrity. The steel liner contains the gas whereas the sealing layers transmits the
+
+
+
+                                               9
+PAGE 10
+ 1    pressure load to the surrounding rock [42,54,55]. The lining consists of 15-mm thick mild steel
+
+ 2    sheets which are welded together to form the inner vessel of the dome. The concrete layer (2-m
+
+ 3    thick), reinforced with a rebar lattice, distributes the pressure load to the surrounding rock. A
+
+ 4    drainage arrangement of perforated pipes is also mounted around the cavern before the concrete is
+
+ 5   poured as to remove water accumulating in the lining section. The maximum pressure of the gas
+
+ 6    that can be stored depends on the cavern depth and the quality of the rock mass [42]. A depth of
+
+ 7   150 m can typically a withstand pressure of 300 bar and higher preventing the rock mass from
+
+ 8    uplifting [52]. The surrounding rock mass must be strong enough as to not be deformed by the
+
+ 9    pressure load and cause fracture of the lining. This is determined by the rock mass rating (RMR)
+
+10   and thus a geological survey is imperative to locate the best site for the cavern [56,57]. The last
+
+11   panel in Figure 3b correlates the RMR method with the maximum cavern storage pressure. For our
+
+12   base case scenario, we consider that the cavern is located 150 m below the surface and assume an
+
+13  RMR value to the rock of 50, which limits the maximum storage pressure to 150 bar. The costs
+
+14    associated in commissioning the cavern to a fully functional storage system are detailed in
+
+15   Supplemental B.
+
+16       Finally, the above-bound facility consists of a compressor and balance of plant components
+
+17    (e.g. piping and valves) similar to that for pipe storage systems. We assume that the hydrogen
+
+18   production facility is located one mile from the storage site and a pipeline is constructed with right-
+
+19   of-way associated costs [58]. Table 3 presents the capital, operational and maintenance costs for
+
+20    the aboveground facility.
+
+21    2.3 Bulk H2 Storage in Underground Salt Caverns
+
+
+
+
+
+                                              10
+PAGE 11
+ 1       Salt caverns are especially suitable for low-cost hydrogen storage in extensive quantities, but
+
+ 2    are geographically limited to a few locations; see Figure 4. Favorable locations in the U.S. are
+
+ 3   found in the Gulf Coast and the northeast.
+
+ 4      Figure 5 shows the main cost contributions considered in the development of the salt cavern
+
+ 5    storage. Costs are associated with leaching out the cavern with fresh water at sufficient depth and
+
+ 6    size, brine transportation and disposal costs and the surface-bound facility.
+
+ 7      Before the salt cavern is constructed, a geological survey is necessary to ensure that the mining
+
+ 8    will not threaten the integrity of the containing salt. Three-dimensional mapping and seismic
+
+ 9   surveying are common geophysical methods. An exploratory drilling is finally conducted to
+
+10    explore porosity and permeability, stress measurements and the presence of corrosive substances
+
+11   and the adherence of the salt dome [9,59].
+
+12      Meeting all requirements, the underground cavern can be created using a process known as
+
+13    solution mining or leaching. Solution mining technology converts a simple borehole into a storage
+
+14   cavern through the injection and extraction of water. First, a borehole from the surface to the final
+
+15    required depth is drilled through the salt formation. This process is very similar to the established
+
+16    oil and gas drilling practice [9,60,61]. After drilling, an annular pipe is fitted through the borehole
+
+17   and lowered to the middle of the cavity. To form the salt cavern, fresh water is pumped through
+
+18    the inner tubing to the bottom of the borehole. The water dissolves the salt and saturated brine is
+
+19   removed through the other pipe, leaving an area of free space. Water supply for the leaching
+
+20    process is assumed to be available from a nearby well (2 miles), and pipelines are required to
+
+21   supply the water during the leaching operation. Approximately 7-8 m3 of fresh water is needed to
+
+22    dissolve 1 m3 of salt [62]. Brine is stored on site for up to 2 days of operation and is disposed by
+
+23    trucks into deep Class II wells [63,64]. It is possible to recover salt from the brine as a chemical
+
+
+
+                                              11
+PAGE 12
+ 1    feedstock (e.g., for the chlor-alkali process); however, the facilities need to be in close proximity
+
+ 2    to the storage site for this to be economically viable. In absence of Class II wells, a more costly
+
+ 3    disposal would be trucking the brine to the nearest wastewater treatment plant [65].
+
+ 4     Upon completion of the cavern structure, preparation is required to convert from brine to gas
+
+ 5    storage. Before any gas is introduced, an initial mechanical integrity test (MIT) is performed to
+
+ 6   confirm gas tightness of the uppermost salt and the well completion. The last step in the
+
+ 7    construction of the cavern is the debrining process, which essentially uses gas pressure to displace
+
+ 8    the brine contained in the cavern at the completion of solution mining. Caverns constructed in salt
+
+ 9   domes are typically 60 to 240 m in length, and there is a great deal of flexibility in positioning a
+
+10   cavern depth down to about 1,800 m. The storage pressure increases by 0.156 bar per meter of
+
+11   depth ( [60]. For our base scenario, the cavern was placed 765 meters belowground, requiring a
+
+12   gas pressure of 120 bar to prevent creep of the cavern walls. The cost to construct a salt cavern is
+
+13    detailed in Supplemental C.
+
+14     The surface-bound facility is identical to the LRC and pipe storage facilities, as discussed
+
+15    previously. The exception is that a water-wash and gas-drying step is needed for hydrogen purity
+
+16    control. The cavern contains a heel of brine in the sump (bottom layer of debris), which cannot be
+
+17   removed during the debrining process, therefore gas withdrawn from the cavern will be saturated
+
+18   with salt during an initial period of operation. The water-wash column removes entrained salt, and
+
+19    the dryer (sorbents) removes water in order to meet H2 quality specifications. This adds an
+
+20    operational cost of $44,783/year in desiccant drying costs.
+
+21    2.4 Life-Cycle Costs
+
+22      For consistent, transparent and comparable financial results across all options, storage life-cycle
+
+23    costs were evaluated using the U.S. Department of Energy (DOE) standard economic tool (H2A)
+
+
+
+                                              12
+PAGE 13
+ 1   and assumptions. H2A is a financial spreadsheet evaluating the net present value of a capital
+
+ 2   investment and is freely available for download at DOE’s website [66]. The following set of key
+
+ 3   economic parameters was selected for our analyses: a) reference year: 2019, b) after-tax internal
+
+ 4    rate of return: 10%, c) inflation rate: 1.9%, d) economic analysis period: 30 years, e) 15 year
+
+ 5    depreciation schedule (MARCS)2 with an effective total tax rate of 38.9% and f) electricity cost:
+
+ 6   $0.0574/kWh. Indirect costs are also included as fraction of the total installed underground cost.
+
+ 7  We have used the default H2A  financial assumptions of 15%  for engineering, 10%  for
+
+ 8    contingency, and 3% for permitting.
+
+
+ 9   Results and Discussion
+
+
+10    3.1 Bulk H2 Storage in Underground Pipes
+
+11    We investigated the cost of an underground pipe facility capable of storing 500 t-H2. We
+
+12   considered API 5L Grade X52 pipes (52 ksi minimum yield strength, 66 ksi tensile strength)
+
+13    available in 18-36" outer diameter (OD) and Schedules 20, 40, 60, 80 and 100. We followed the
+
+14  ASME B31.12 code for hydrogen piping and pipelines to determine the maximum permissible
+
+15    pressure considering the nominal pipe OD, nominal wall thickness, longitudinal joint factor, design
+
+16    factor, material performance factor and minimum yield strength. Table 4 lists the maximum
+
+17    permissible storage pressures after a 12.5% allowance in nominal wall thickness.
+
+18      Figure 6 presents the capital cost of the underground storage system using 24"-OD pipes of
+
+19    different schedules. It shows that the capital cost is lowest, $516/kg-H2 stored, for a storage facility
+
+20   with 24"-OD, Schedule 60 pipes. This system can be configured with 300 parallel pipe strings,
+
+21   each string 3,150 ft in length for a total of 180 miles equivalent length, requiring 110 acres of land.
+
+
+
+
+         2 The modified accelerated cost recovery system (MACRS) is a depreciation system used for assessing taxes in the
+       U.S. Federal and state taxes are based on year 2017 schedules.
+
+                                              13
+PAGE 14
+ 1   The majority the cost, 63%, is due to delivered pipe cost factors: 50% for pipe material and milling,
+
+ 2  10% for coating and <3% for shipping. Pipe installation accounts for 23% of the total cost: 11%
+
+ 3    for welding, 10% hydrostatic pressure testing and >1% for weld inspection and joint coating. Site
+
+ 4    preparation represents 14% of the overall cost: 8% for site excavation and backfilling, 4% for land
+
+ 5   and projects and 2% for aboveground facilities.
+
+ 6      Because the majority of the capital cost is due to manufacturing of pipes, followed by welding,
+
+ 7    pressure testing, site excavation and backfilling, minimizing the number of pipes and/or pipe mass
+
+ 8     is important in reducing costs. For example, choosing a Schedule 20 rather than Schedule 60 pipe
+
+ 9    increases the capital cost by 59%: 26% due to higher delivered pipe cost, 13% due to higher pipe
+
+10    installation cost and 20% due to higher site preparation cost. Similarly, choosing a Schedule 100
+
+11    rather than Schedule 60 pipe slightly increases the capital cost by 13%: 8% due to higher delivered
+
+12   pipe cost (more pipe mass), 8% due to higher pipe installation cost (more expensive welding),
+
+13    offset by 3% smaller site preparation cost (fewer pipes, smaller land area).
+
+14      Figure 6 includes the levelized the cost of underground pipe storage on a 50 tonnes per day
+
+15    (tpd)basis. This levelized cost is $2.17/kg-H2 for Schedule-60 pipes, nearly 95% of which is due
+
+16    to capital expenditure CAPEX levelized assuming a 10% annual rate of return. Because the pipe
+
+17    material cost is a major contributor, we did a single-variable study using the historical swings in
+
+18    line prices: $1127/ton, $803/ton and $1,360/ton for current, historical low, and historical high
+
+19    prices, respectively. These historical swings cause the H2 cost to decrease by $0.30/kg or increase
+
+20   by $0.22/kg. Clearly, the underground pipe storage method is unlikely to find wide deployment
+
+21    considering that the target cost of dispensed H2 is $4/kg.
+
+22      Table 5 summarizes the detailed breakdown of performance (storage pressures, total equivalent
+
+23    length) and cost parameters for storage systems with different pipe ODs and schedules that lead to
+
+
+
+                                              14
+PAGE 15
+ 1    least capital investment. In general, the cost parameters vary with ODs in a non-linear fashion, but
+
+ 2    the storage system with 24" OD, Schedule 60 pipes is an optimal combination of shortest length
+
+ 3   and least pipe material leading to the smallest costs for milling, coating, weld inspection and
+
+ 4    hydrostatic testing and site preparation.
+
+ 5    3.2 Bulk H2 Storage in Underground Lined Rock Caverns
+
+ 6    We conducted a study to estimate the cost of storing 500 t-H2 in an underground LRC facility
+
+ 7   varying the maximum storage pressure while holding the minimum pressure as constant at 20 bar.
+
+ 8   The results of the study are summarized in Figure 7 and Table 6. Figure 7 shows that the capital
+
+ 9    cost decreases at higher storage pressures; however, the rate of decrease slows at pressures above
+
+10   150-200 bar.
+
+11     At 150-bar storage pressure, the underground facility accounts for 66% of the total capital cost
+
+12    including 34% for cavern excavation, 16% for tunnels, 8% for liner and 8% for concrete. The
+
+13   aboveground facility represents 14% of the total cost including 11% for compressor, 3% for piping
+
+14   and instrumentation and <1% for cushion gas. The miscellaneous items represent 21% of the total
+
+15    cost including 10% for engineering, 6% for contingency, 3% for survey and 2% for permitting.
+
+16   Thus, cavern excavation, tunnels, compressor and engineering are the biggest cost items.
+
+17     Lowering the storage pressure from 150 bar to 75 bar results in 61% higher capital cost, 82%
+
+18    of which is due to the higher cost of the underground facility which has more than double the
+
+19    storage volume. The aboveground facility cost is ~3% lower primarily because of a smaller
+
+20   compressor bust; this cost saving is offset by a 14% increase in the miscellaneous costs for
+
+21    engineering services and contingency.
+
+22     The capital cost is smallest at 300-bar storage pressure. Compared to the 150-bar storage
+
+23   system, the required storage volume is about 50% smaller resulting in a 21% cost saving for the
+
+
+
+                                              15
+PAGE 16
+ 1   underground facility (cavern excavation, liner and concrete), and the 5% higher cost for the
+
+ 2   aboveground facility (compressor and piping) is nearly offset by 6% saving in the miscellaneous
+
+ 3    costs for engineering and contingency.
+
+ 4      Table 6 provides a detailed breakdown of the major cost components, grouped as underground
+
+ 5    facility, aboveground facility, and miscellaneous, for different storage pressures. For the purpose
+
+ 6    of this study, the costs of the underground tunnel, survey and land do not vary with storage
+
+ 7    pressure.
+
+ 8      Figure 7 includes the levelized the cost of underground LRC storage on a 50 tpd basis. The
+
+ 9    levelized cost is $0.36/kg-H2 for 1a 50-bar storage pressure, nearly 85% of which is due to the
+
+10    capital expenditures levelized assuming 10% annual rate of return. Within the parameters of this
+
+11    study, the levelized cost is $0.0.05/kg-H2 smaller for a 100-bar storage pressure and $0.0.05/kg-
+
+12   H2 larger for a 250-bar storage pressure. Compared to underground pipe storage, the capital cost
+
+13    of underground LRC is 90% smaller and the levelized cost is 85% smaller. However, finding a
+
+14    suitable rock mass strength that is able to contain the hydrogen gas at sufficiently high pressures,
+
+15   may be restricted and limited geographically.
+
+16    3.3 Bulk H2 Storage in Underground Salt Caverns
+
+17    We conducted a study to estimate the cost of storing 500 t-H2 in underground salt caverns at
+
+18   depths between 500 to 1,200 m. The results of the study are summarized in Figure 8 and Table 7
+
+19    as a function of the storage pressure that depends on the cavern depth. The study treats 30% of the
+
+20    storage capacity as minimum cushion gas. Figure 8 shows a general trend of the underground and
+
+21   aboveground facilities cost increasing, and the brine disposal cost decreasing, with higher pressure.
+
+22   The net result is that the capital cost varies narrowly between $35/kg-H2 and $38/kg-H2 with a
+
+23   shallow minimum at a 120-bar storage pressure.
+
+
+
+                                              16
+PAGE 17
+ 1     At a 120-bar storage pressure, the underground facility accounts for 50% of the total capital
+
+ 2    cost including 16% for drill and casing, 13% for geological survey and mechanical integrity
+
+ 3    testing, 12% for brine leaching and 9% for engineering and permitting. The aboveground facility
+
+ 4    represents 27% of the total capital cost including 18% for compressor, 5% for piping and drying
+
+ 5   and 4% for cushion gas. The brine-related activities represent 25% of the total capital cost
+
+ 6    including 12% for transportation, 12% for disposal and 1% for brine storage. Thus, the major cost
+
+ 7    factors  are  related  to  brine  leaching, handling  (transportation) and  disposal followed by
+
+ 8   compressor, and salt cavity formation (drill and casing, integrity testing and engineering).
+
+ 9      Table 7 provides a detailed breakdown of the major cost components grouped as underground
+
+10    facility construction, engineering, brine handling and aboveground  facility. Higher storage
+
+11    pressures require smaller cavern volumes and incur lower costs for brine leaching, transportation
+
+12   and disposal. However, higher storage pressures also require larger compressors and deeper
+
+13   caverns that lead to additional costs for bore and production tubing.
+
+14      Figure 8 includes the levelized the cost of underground salt cavern storage on a 50 tpd-H2 basis.
+
+15   The levelized cost is $0.21/kg-H2 for a 120-bar storage pressure, nearly 75% of which is due to
+
+16    the capital expenditures levelized assuming a 10% annual rate of return. Within the parameters of
+
+17    this study, the levelized cost is $0.0.02/kg-H2 smaller if the cost for brine disposal can be avoided
+
+18   because of an existing market demand, and it is $0.21/kg-H2 higher if the brine disposal cost is
+
+19    $2/bbl rather than the default value of $0.50/bbl. Brine disposition as affected by local political
+
+20    conditions and environmental concerns introduce a financial uncertainty in any project using salt
+
+21    caverns.
+
+22     Comparing the results in Figures 6-8, the capital cost of the underground salt cavern option is
+
+23  93% smaller than underground pipe storage and 51% smaller than underground LRC storage.
+
+
+
+                                              17
+PAGE 18
+ 1    Similarly, the levelized cost of the underground  salt cavern option  is 90% smaller than
+
+ 2   underground pipe storage and 40% smaller than underground LRC storage. However, like the LRC
+
+ 3    storage option, the applicability of underground salt caverns is geographically restricted, and may
+
+ 4    require a detailed environmental impact study.
+
+ 5    3.4 Bulk H2 Storage: Outlook
+
+ 6    We conducted a study to investigate the effect of economy of scale on the cost of the three
+
+ 7    storage options analyzed using working storage pressures of 100-8 bar for underground pipes, 200-
+
+ 8   30 bar for LRC and 120–28 bar for salt caverns. A lined rock cavern is situated 150-m deep and
+
+ 9   can hold up to 600-t H2; a salt cavern is located at a 800-m depth and can hold up to 1,000-t H2.
+
+10  Two or more caverns are placed in service if the required storage capacity exceeds the maximum
+
+11    capacity of a single cavern. The results of the study are summarized in Figure 9 in terms of the
+
+12    installed capital cost and annual storage cost ($/kg-H2 stored) over a 30-year lifetime of the storage
+
+13    facilities. The storage cost includes the levelized capital cost assuming a 10% annual rate of return
+
+14   and recurring operating (labor and utilities) and maintenance costs and can be calculated from the
+
+15   following correlation using the coefficients in Table 8.
+
+16   𝐴𝑛𝑛𝑢𝑎𝑙 𝐶𝑜𝑠𝑡= exp (𝑎(ln (𝑚))2 −𝑏𝑙𝑛(𝑚) + 𝑐)
+
+17      Figure 9 shows only a small effect of the economy of scale on the installed capital and annual
+
+18    storage costs of the underground pipe storage option, i.e., a less than 10% cost reduction in scaling
+
+19    usable H2 from 1 tonne to 20 tonnes. As discussed earlier, fabrication of coated pipes is a major
+
+20    cost factor that does not benefit much from manufacturing at high volumes. As indicated in Figure
+
+21    8, underground pipes can be more economical than geological facilities for usable H2 storage
+
+22   amounts less than 20 tonnes. However, the capital (~$600/kg-H2 stored) and annual (~$90/kg-H2
+
+23    stored) costs are far too high for underground pipe storage to be a viable storage solution for large
+
+
+
+                                              18
+PAGE 19
+ 1    quantities of hydrogen. This option could be more applicable when storing hydrogen at smaller
+
+ 2    scales, for instance to meet daily peak demands.
+
+ 3      Lined rock and salt caverns show substantial reduction in cost as the storage capacity is
+
+ 4    increased. The salt caverns are more cost-effective than lined rock caverns, although the two
+
+ 5    options are never available at the same location. Also, salt caverns scale better because of their
+
+ 6    higher maximum H2 storage capacity, i.e., salt caverns need to be added at a slower rate than lined
+
+ 7   rock caverns as the storage capacity is increased.
+
+ 8    3. Conclusions
+
+ 9      Massive deployment of hydrogen and fuel cell technologies will require viable methods to store
+
+10   hydrogen at different time and length scales. We have analyzed the technical aspects and
+
+11   economics of bulk hydrogen storage in underground pipes, lined rock caverns and salt caverns in
+
+12    different quantities, 1-3,000 tonnes, equivalent to <1 to 60 days of storage for a 50 tonnes per day
+
+13   production facility. The main conclusions are summarized below.
+
+14   ▪ Hydrogen storage in underground Type-1, API 5L X52 pipes is more economical than in
+
+15       geological caverns for usable amounts <20-t-H2. At ~$560/kg-H2 stored, the estimated capital
+
+16       cost is high as is the annual cost at ~$84/kg-H2 stored. Because the pipe material is a major cost
+
+17       factor, the capital and operating costs for this storage method do not decrease appreciably with
+
+18      an increase in the amount of stored H2.
+
+19   ▪  Unlike underground pipes, the installed capital cost of salt caverns decreases appreciably from
+
+20      ~$95/kg-H2 at 100 t-H2 stored to <$19/kg-H2 at 3,000 t-H2 stored. Over the same scale, the
+
+21      annual storage cost decreases from ~$17/kg-H2 at 100 t-H2 stored to ~$3/kg-H2 at 3,000 t-H2
+
+22       stored.
+
+
+
+
+
+                                              19
+PAGE 20
+ 1   ▪  Like salt caverns, the installed capital cost of lined rock caverns decreases from ~$160/kg-H2
+
+ 2        at 100 t-H2 stored to <$44/kg-H2 at 3,000 t-H2 stored. Over the same scale, the annual storage
+
+ 3       cost decreases from ~$26/kg-H2 at 100 t-H2 stored to ~$7/kg-H2 at 3,000 t-H2 stored.
+
+ 4   ▪  Storing >750-t usable H2 requires multiple caverns. Hydrogen storage in salt caverns is more
+
+ 5      economical than in lined rock caverns. Also, the cost of salt caverns scales more favorably with
+
+ 6       size because the salt caverns are larger than lined rock caverns and need to be added at a slower
+
+ 7       rate as the storage capacity is increased.
+
+ 8    4. Acknowledgments
+
+ 9   This work was supported by the U.S. Department of Energy’s Office of Energy Efficiency and
+
+10   Renewable Energy. Mr. Jesse Adams of the Office of Hydrogen and Fuel Cell Technologies was
+
+11    the Technology Development Manager  for  this  study. Argonne  National  Laboratory,  a
+
+12   U.S. Department of Energy Office of Science laboratory, is operated by UChicago Argonne, LLC,
+
+13   under Contract No. DE-AC02-06CH11357.
+
+
+14
+
+
+15    5. Attributions
+
+16    [p1] Natural gas spherical vessela – Marco Verch (https://flic.kr/p/Zj1NPH)
+
+17    [p2] NG Pipe Storage - https://www.flickr.com/photos/134605195@N07/19553187102
+
+18    [p3] Liquid hydrogen tankc. – Heather Paul (https://flic.kr/p/dqDHjF)
+
+19    [p4] Geological storaged - https://www.eia.gov/naturalgas/storage/basics/
+
+20    [p5] Tunnel excavationa – Wikimedia Commons File:SAS 9837 (8427326154).jpg
+
+21    [p6a] Pipe millf - https://pixabay.com/photos/bloom-rolling-mill-rail-hot-product-1578783/
+
+22   [p6b] Pipes from millf - https://pixabay.com/photos/pipe-metal-tube-steel-industry-1885281/
+
+23    [p7] Pipe transmission by raild - CC0 Public Domain: https://www.publicdomainpictures.net/
+
+24   en/view-image.php?image=305824&picture=pipes-on-train
+
+
+                                              20
+PAGE 21
+ 1    [p8] Pipe coatingd - www.loc.gov/pictures/item/al1143.photos.314669p
+
+ 2    [p9] Pipe transport by truckf - https://pixabay.com/photos/pipeline-plumbing-pipes-18-wheeler-
+ 3   5292027/
+
+ 4   [p10] Excavatorf - https://www.pikrepo.com/feevg/black-and-yellow-front-loader-under-blue-
+ 5   sky
+
+ 6   [p11] Site leveling and clearancef - https://www.pickpik.com/construction-site-heavy-equipment-
+ 7    dirt-mover-construction-equipment-industrial-146115
+
+ 8   [p12] Aboveground facilitya – https://www.flickr.com/photos/royluck/3519496307
+
+ 9   [p13] Pipe weldingf Courtesy by Gala Amarando https://pixabay.com/photos/work-gas-welder-
+10   pipe-work-man-4304178/
+
+11   [p14] Weld inspectiond - https://nara.getarchive.net/media/staff-sgt-abraham-malit-right-hometown-
+12    angeles-city-philippines-and-airman-c602ed
+
+13   [p15] Pressure testa - Courtesy by Flickr, https://flic.kr/p/bwrVX9
+
+14   [p16] Tunnel excavationa - Courtesy by Flickr, https://flic.kr/p/nNu1xa
+
+15   [p17] Cavern excavation and drainagea - Courtesy by Flickr, https://flic.kr/p/dQAE58
+
+16   [p18] Liner and concrete installationa - Courtesy by Flickr, https://flic.kr/p/dQGfnh
+
+17   [p19] Above ground facilitya - Courtesy by Flickr, https://flic.kr/p/dQGfRG
+
+18   [p20] Brine pipelinef – Courtesy by Deeann Arant. https://pixy.org/4806357/
+
+19   [p21] Brine transport by truckf - https://pixabay.com/photos/truck-tanker-water-carrier-metal-
+20   945364/
+
+21   [p22] Waste water treatment plantf – courtesy by
+22    Jarmolouk,https://pixabay.com/photos/treatment-plant-wastewater-refinery-2826988/
+
+23   [p23] Salt productiong - https://commons.wikimedia.org/wiki/File:Salt_production_Uyuni.JPG
+
+24   [p24] Chlor-alkali processd -
+25   https://commons.wikimedia.org/wiki/File:Cell_room_of_a_chlorine-caustic_soda_plant.JPG
+
+26   [p25] Brine disposal in Class II wellsd - https://www.epa.gov/uic/class-ii-oil-and-gas-related-
+27    injection-wells#well_use
+
+28
+
+29    aAttribution 2.0 Generic (CC BY 2.0)
+
+30   bAttribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)
+
+31    cAttribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)
+
+
+
+                                              21
+PAGE 22
+ 1    dPublic domain
+
+ 2    fFree for commercial use
+
+ 3    gCreative Commons Attribution 3.0 Unported (CC BY 2.0)
+
+ 4
+
+ 5
+
+
+ 6
+
+ 7    6. References
+
+ 8    [1]   Feng Z. Steel Concrete Composite Vessel for 875 bar Stationary Hydrogen Storage. 2015
+
+ 9      DOE Hydrogen and Fuel Cells AMR; 2015.
+
+10    [2]   Hua TQ, Ahluwalia RK, Peng JK, Kromer M, Lasher S, McKenney K, et al. Technical
+
+11         assessment of compressed hydrogen storage tank systems for automotive applications. Int
+
+12           J Hydrogen Energy 2011;36:3037–49. https://doi.org/10.1016/j.ijhydene.2010.11.090.
+
+13    [3]    Tietze V, Luhr S, Stolten D. Bulk Storage Vessels for Compressed and Liquid Hydrogen.
+
+14         Hydrog. Sci. Eng. Mater. Process. Syst. Technol., 2016, p. 659–89.
+
+15          https://doi.org/10.1002/9783527674268.ch27.
+
+16    [4]    Elberry AM, Thakur J, Santasalo-Aarnio A, Larmi M. Large-scale compressed hydrogen
+
+17          storage as part of renewable electricity storage systems. Int J Hydrogen Energy
+
+18         2021;46:15671–90. https://doi.org/10.1016/j.ijhydene.2021.02.080.
+
+19    [5]   Sapre S, Vyas M, Pareek K. Impact of refueling parameters on storage density of
+
+20         compressed hydrogen storage Tank. Int J Hydrogen Energy 2021;46:16685–92.
+
+21          https://doi.org/10.1016/j.ijhydene.2020.08.136.
+
+22    [6]   Sapre S, Pareek K, Rohan R, Singh PK. H2 refueling assessment of composite storage
+
+23          tank for fuel cell vehicle. Int J Hydrogen Energy 2019;44:23699–707.
+
+24          https://doi.org/10.1016/j.ijhydene.2019.07.044.
+
+
+                                              22
+PAGE 23
+ 1    [7]   Reddi K, Elgowainy A, Rustagi N, Gupta E. Techno-economic analysis of conventional
+
+ 2         and advanced high-pressure tube trailer configurations for compressed hydrogen gas
+
+ 3           transportation and refueling. Int J Hydrogen Energy 2018;43:4428–38.
+
+ 4          https://doi.org/10.1016/j.ijhydene.2018.01.049.
+
+ 5    [8]   Elgowainy A, Reddi K, Sutherland E, Joseck F. Tube-trailer consolidation strategy for
+
+ 6          reducing hydrogen refueling station costs. Int J Hydrogen Energy 2014;39:20197–206.
+
+ 7          https://doi.org/10.1016/j.ijhydene.2014.10.030.
+
+ 8    [9]   Kruck O, Prelicz R, Rudolph T. Overview on all Known Underground Storage
+
+ 9         Technologies for Hydrogen. www.hyunder.eu; 2013.
+
+10    [10]  Andersson J, Grönkvist S. Large-scale storage of hydrogen. Int J Hydrogen Energy
+
+11         2019;44:11901–19. https://doi.org/10.1016/j.ijhydene.2019.03.063.
+
+12    [11]  Amos WA. Costs of Storing and Transporting Hydrogen. NREL/TP-570-25106; 1999.
+
+13    [12]  Arnold SM, Bednarcyk BA, Collier CS, Yarrington PW. Spherical cryogenic hydrogen
+
+14          tank preliminary design trade studies. Collect. Tech. Pap. -
+
+15       AIAA/ASME/ASCE/AHS/ASC Struct. Struct. Dyn. Mater. Conf., 2007.
+
+16    [13]  Fesmire JE, Sass JP, Nagy Z, Sojourner SJ, Morris DL, Augustynowicz SD. Cost-efficient
+
+17          storage of cryogens. AIP Conf. Proc., 2008, p. 1383–991.
+
+18          https://doi.org/10.1063/1.2908498.
+
+19    [14]  Ishimoto Y, Voldsund M, Nekså P, Roussanaly S, Berstad D, Gardarsdottir SO. Large-
+
+20          scale production and transport of hydrogen from Norway to Europe and Japan: Value
+
+21          chain analysis and comparison of liquid hydrogen and ammonia as energy carriers. Int J
+
+22        Hydrogen Energy 2020;45:32865–83. https://doi.org/10.1016/j.ijhydene.2020.09.017.
+
+23    [15]  Syed MT, Sherif SA, Vezirog̃lu TN, Sheffield JW. An economic analysis of three
+
+
+
+                                              23
+PAGE 24
+ 1         hydrogen liquefaction systems. Int J Hydrogen Energy 1998;23:565–76.
+
+ 2          https://doi.org/10.1016/s0360-3199(97)00101-8.
+
+ 3    [16]  Ohlig K, Decker L. The latest developments and outlook for hydrogen liquefaction
+
+ 4          technology. AIP Conf. Proc., 2014. https://doi.org/10.1063/1.4860858.
+
+ 5    [17]  Essler J, Haberstroh C, Quack H, Wallnum HT, Berstrand D, Neksa P, et al. Report on
+
+ 6         technology overview and barriers to energy- and cost-efficient large-scale hydrogen
+
+ 7           liquefaction. IdealHy - Grant Agreement number: 278177; 2012.
+
+ 8    [18]  Cardella U, Decker L, Klein H. Roadmap to economically viable hydrogen liquefaction.
+
+ 9           Int J Hydrogen Energy 2017;42:13329–38.
+
+10          https://doi.org/10.1016/j.ijhydene.2017.01.068.
+
+11    [19]  Skaugen G, Berstad D, Wilhelmsen Ø. Comparing exergy losses and evaluating the
+
+12           potential of catalyst-filled plate-fin and spiral-wound heat exchangers in a large-scale
+
+13         Claude hydrogen liquefaction process. Int J Hydrogen Energy 2020;45:6663–79.
+
+14          https://doi.org/10.1016/j.ijhydene.2019.12.076.
+
+15    [20]  Krasae-in S, Stang JH, Neksa P. Development of large-scale hydrogen liquefaction
+
+16          processes from 1898 to 2009. Int J Hydrogen Energy 2010;35:4524–33.
+
+17          https://doi.org/10.1016/j.ijhydene.2010.02.109.
+
+18    [21]  Conelly E, Penev M, Egowainy A, Hunter C. Current Status of Hydrogen Liquefaction
+
+19          Costs. DOE Hydrogen and Fuel Cells Program Record, Record #: 19001; 2019.
+
+20    [22]  Majumdar AK, Steadman TE, Maroney JL, Sass JP, Fesmire JE. Numerical modeling of
+
+21          propellant boil-off in a cryogenic storage tank. AIP Conf. Proc., 2008.
+
+22          https://doi.org/10.1063/1.2908513.
+
+23    [23]  Sass JP, Fesmire JE, Nagy ZF, Sojourner SJ, Morris DL, Augustynowicz SD. Thermal
+
+
+
+                                              24
+PAGE 25
+ 1         performance comparison of glass microsphere and perlite insulation systems for liquid
+
+ 2         hydrogen storage tanks. AIP Conf. Proc., 2008. https://doi.org/10.1063/1.2908497.
+
+ 3    [24]  Notardonato WU, Swanger AM, Fesmire JE, Jumper KM, Johnson WL, Tomsik TM. Zero
+
+ 4           boil-off methods for large-scale liquid hydrogen tanks using integrated refrigeration and
+
+ 5           storage. IOP Conf. Ser. Mater. Sci. Eng., 2017. https://doi.org/10.1088/1757-
+
+ 6         899X/278/1/012012.
+
+ 7    [25]  Taylor JB, Alderson JEA, Kalyanam KM, Lyle AB, Phillips LA. Technical and economic
+
+ 8         assessment of methods for the storage of large quantities of hydrogen. Int J Hydrogen
+
+ 9         Energy 1986;11:5–22. https://doi.org/10.1016/0360-3199(86)90104-7.
+
+10    [26]  Ozarslan A. Large-scale hydrogen energy storage in salt caverns. Int J Hydrogen Energy
+
+11         2012;37:14265–77. https://doi.org/10.1016/j.ijhydene.2012.07.111.
+
+12    [27]  Caglayan DG, Weber N, Heinrichs HU, Linßen J, Robinius M, Kukla PA, et al. Technical
+
+13           potential of salt caverns for hydrogen storage in Europe. Int J Hydrogen Energy
+
+14         2020;45:6793–805. https://doi.org/10.1016/j.ijhydene.2019.12.161.
+
+15    [28]  Lemieux A, Shkarupin A, Sharp K. Geologic feasibility of underground hydrogen storage
+
+16           in Canada. Int J Hydrogen Energy 2020;45:32243–59.
+
+17          https://doi.org/10.1016/j.ijhydene.2020.08.244.
+
+18    [29]  Tarkowski R. Underground hydrogen storage: Characteristics and prospects. Renew
+
+19          Sustain Energy Rev 2019;105:86–94. https://doi.org/10.1016/j.rser.2019.01.051.
+
+20    [30]  Michanowicz DR, Buonocore JJ, Rowland ST, Konschnik KE, Goho SA, Bernstein AS. A
+
+21          national assessment of underground natural gas storage: Identifying wells with designs
+
+22           likely vulnerable to a single-point-of-failure. Environ Res Lett 2017;12:1–12.
+
+23          https://doi.org/10.1088/1748-9326/aa7030.
+
+
+
+                                              25
+PAGE 26
+ 1    [31]  Simon J, Ferriz AM, Correas LC. HyUnder - Hydrogen underground storage at large
+
+ 2           scale: Case study Spain. Energy Procedia, 2015, p. 136–44.
+
+ 3          https://doi.org/10.1016/j.egypro.2015.07.661.
+
+ 4    [32]  Amid A, Mignard D, Wilkinson M. Seasonal storage of hydrogen in a depleted natural gas
+
+ 5           reservoir. Int J Hydrogen Energy 2016;41:5549–58.
+
+ 6          https://doi.org/10.1016/j.ijhydene.2016.02.036.
+
+ 7    [33]  Le Duigou A, Bader AG, Lanoix JC, Nadau L. Relevance and costs of large scale
+
+ 8         underground hydrogen storage in France. Int J Hydrogen Energy 2017;42:22987–3003.
+
+ 9          https://doi.org/10.1016/j.ijhydene.2017.06.239.
+
+10    [34]  Liebscher A, Wackerl J, Streibel M. Geologic Storage of Hydrogen - Fundamentals,
+
+11          Processing, and Projects. Hydrog. Sci. Eng. Mater. Process. Syst. Technol., 2016.
+
+12          https://doi.org/10.1002/9783527674268.ch26.
+
+13    [35]  Lord AS, Kobos PH, Borns DJ. Geologic storage of hydrogen: Scaling up to meet city
+
+14           transportation demands. Int J Hydrogen Energy 2014;39:15570–82.
+
+15          https://doi.org/10.1016/j.ijhydene.2014.07.121.
+
+16    [36]   Pfeiffer WT, Bauer S. Subsurface Porous Media Hydrogen Storage - Scenario
+
+17         Development and Simulation. Energy Procedia, 2015, p. 565–72.
+
+18          https://doi.org/10.1016/j.egypro.2015.07.872.
+
+19    [37]  Reitenbach V, Ganzer L, Albrecht D, Hagemann B. Influence of added hydrogen on
+
+20         underground gas storage: a review of key issues. Environ Earth Sci 2015;73:6927–37.
+
+21          https://doi.org/10.1007/s12665-015-4176-2.
+
+22    [38]  Panfilov M. Underground Storage of Hydrogen: In Situ Self-Organisation and Methane
+
+23          Generation. Transp Porous Media 2010;85:841–65. https://doi.org/10.1007/s11242-010-
+
+
+
+                                              26
+PAGE 27
+ 1         9595-7.
+
+ 2    [39]  Hemme C, van Berk W. Hydrogeochemical modeling to identify potential risks of
+
+ 3         underground hydrogen storage in depleted gas fields. Appl Sci 2018;8:1–19.
+
+ 4          https://doi.org/10.3390/app8112282.
+
+ 5    [40]  Kim HM, Rutqvist J, Ryu DW, Choi BH, Sunwoo C, Song WK. Exploring the concept of
+
+ 6         compressed air energy storage (CAES) in lined rock caverns at shallow depth: A modeling
+
+ 7          study of air tightness and energy balance. Appl Energy 2012;92:653–67.
+
+ 8          https://doi.org/10.1016/j.apenergy.2011.07.013.
+
+ 9    [41]  Lindblom UE. A conceptual design for compressed hydrogen storage in mined caverns.
+
+10           Int J Hydrogen Energy 1985;10:667–75. https://doi.org/10.1016/0360-3199(85)90006-0.
+
+11    [42]   Perazzelli P, Anagnostou G. Design issues for compressed air energy storage in sealed
+
+12         underground cavities. J Rock Mech Geotech Eng 2016;8:314–28.
+
+13          https://doi.org/10.1016/j.jrmge.2015.09.006.
+
+14    [43]  Rutqvist J, Kim HM, Ryu DW, Synn JH, Song WK. Modeling of coupled thermodynamic
+
+15         and geomechanical performance of underground compressed air energy storage in lined
+
+16         rock caverns. Int J Rock Mech Min Sci 2012;52:71–81.
+
+17          https://doi.org/10.1016/j.ijrmms.2012.02.010.
+
+18    [44]  Semprich S, Crotogino F, Schneider HJ. Storage in lined hard-rock cavens: results of a
+
+19           pilot study. Tunn Undergr Sp Technol Inc Trenchless 1990;4:309–13.
+
+20          https://doi.org/10.1016/0886-7798(90)90124-3.
+
+21    [45]  P.Tengborg, J.Johansson JGD. Storage of highly compressed gases in underground Lined
+
+22        Rock Caverns- More than 10 years of experience. Procedings World Tunneal Congr 2014.
+
+23    [46]  Kim D, Quagliato L, Lee W, Kim N. Yield strength mapping in the cross section of ERW
+
+
+
+                                              27
+PAGE 28
+ 1          pipes considering kinematic hardening and residual stress. J. Phys. Conf. Ser., 2017, p. 1–
+
+ 2           8. https://doi.org/10.1088/1742-6596/896/1/012066.
+
+ 3    [47]  ICF. Feasibility and Impacts of Domestic Content Requirements for U.S. Oil and Gas
+
+ 4           Pipelines. American Petroleum Institute; 2016.
+
+ 5    [48]  https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fsbdev3_015406.pdf n.d.
+
+ 6    [49]  Fekete JR, Sowards JW, Amaro RL. Economic impact of applying high strength steels in
+
+ 7         hydrogen gas pipelines. Int J Hydrogen Energy 2015;40:10547–58.
+
+ 8          https://doi.org/10.1016/j.ijhydene.2015.06.090.
+
+ 9    [50]  https://hdsam.es.anl.gov/index.php?content=hdsam n.d.
+
+10    [51]  Johanson F, Spross J, Damasceno D, Johansson J, Stille H. Investigation of research needs
+
+11          regarding the storage of hydrogen gas in lined rock caverns. KTH Royal Institute of
+
+12         Technology, TRITA-ABE-RPT-182; 2018.
+
+13    [52]  Sofregaz, LRC. Commercial Potential of Natural Gas Storage in Lined Rock Caverns
+
+14         (LRC). Topical Report SZUS-0005 DE-AC26-97FT34348-01.Prepared for the U.S.
+
+15         Department of Energy; 1999.
+
+16    [53]  Doneva N, Despodov Z, Mirakovski D, Hadzi-Nikolova M, Mijalkovski S. Cost Analysis
+
+17           in Construction of Underground Mining Structures and Opportunities for their Reduction.
+
+18        Rud Zb 2015:1–12. https://doi.org/10.17794/rgn.2015.2.1.
+
+19    [54]  Brandshaug T, Christianson M, Damjanac B. Technical Review of the Lined Rock Cavern
+
+20        (LRC) Concept and Design Methodology: Mechanical Response of Rock Mass. DE-
+
+21        AM26-99FT40463.Prepared for the U.S. Department of Energy; 2001.
+
+22    [55]  Damjanac B, Carranza-Torres C, Dexter R. Technical Review of the Lined Rock Cavern
+
+23        (LRC) Concept and Design Methodology: Steel Liner Response. DE-AM26-99FT40463.
+
+
+
+                                              28
+PAGE 29
+ 1         Prepared for the U.S. Department of Energy; 2002.
+
+ 2    [56]  Aksoy CO. Review of rock mass rating classification: Historical developments,
+
+ 3           applications, and restrictions. J Min Sci 2008;44:51–63. https://doi.org/10.1007/s10913-
+
+ 4         008-0005-2.
+
+ 5    [57]  Bieniawski ZT. Classification of rock masses for engineering: the RMR system and future
+
+ 6           trends. Compr Rock Eng Vol 3 1993:553–73. https://doi.org/10.1016/b978-0-08-042066-
+
+ 7          0.50028-8.
+
+ 8    [58]  Brown D, Cabe J, Stout T. National lab uses OGJ data to develop cost equations. Oil Gas
+
+ 9           J 2011:108–11.
+
+10    [59]  Allen RD, Doherty TJ, Thoms RL. Geotechnical Factors and Guidelines for Storage of
+
+11        Compressed Air in Solution Mined Cavities. DE-AC06-76RLO. Prepared for the U.S.
+
+12         Department of Energy; 1982.
+
+13    [60]   Attkins. Salt Cavern Appraisal for Hydrogen and Gas Storage. 5149533-MD-REP-005.
+
+14         Prepared for the Energy Technologies Institute; 2018.
+
+15    [61]  Foster Wheeler. Hydrogen Storage and Flexible Turbine Systems WP2 Report –
+
+16        Hydrogen Storage. Contract number1.17.13058. Prepared for the Energy Technologies
+
+17            Institute; 2013.
+
+18    [62]  Barron TF. Regulatory, technical pressures prompt more US salt-cavern gas storage. Oil
+
+19        Gas J 1994;92:1–15. https://doi.org/10.1016/0148-9062(95)93465-2.
+
+20    [63]  Puder MG, Veil JA. Offsite Commercial Disposal of Oil and Gas Exploration and
+
+21          Production Waste: Availability, Options, and Costs. ANL/EVS/R-06/5. Prepared for the
+
+22         U.S. Department of Energy; 2006.
+
+23    [64]  U.S. Department of the Interiror - Bureau of Reclamation. Brine-Concentrate Treatment
+
+
+
+                                              29
+PAGE 30
+1         and Disposal Options Report. Management, Southern California Regional Brine-
+
+2          Concentrate I, Study – Phase; 2009.
+
+3    [65]  Jensen VB, Darby JL. Brine disposal options for small systems in California’s Central
+
+4          Valley. J Am Water Works Assoc 2016;108:276–89.
+
+5          https://doi.org/10.5942/jawwa.2016.108.0045.
+
+6    [66] DOE H2A Analysis 2020. https://www.hydrogen.energy.gov/h2a_analysis.html.
+
+
+7
+
+
+8
+
+
+
+
+
+                                             30
+PAGE 31
+ 1
+
+
+ 2
+
+                    Unit/Description               Value      Unit
+      Pipe broker (procurement, inspection, logistics)     10  % of pipe cost
+      Packing for shipping (mill)                     30     $/ton
+       Rail shipping                                    0.05    $/ton-mile
+      Truck shipping                                  0.12    $/ton-mile
+       Surface coating plant distance                  500    miles
+       Factory surface coating                        45    $/m2
+      Repacking at coating plant                     15     $/ton
+       Rail distance from mill to coating plant           500    miles
+       Rail distance from coating plant to staging area    400    miles
+      Truck distance from staging area to site           100    miles
+ 3
+
+ 4   Table 1. Coating and logistic cost contribution for pipes
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+
+
+                                              31
+PAGE 32
+1
+
+     Unit/Description              Value     Unit
+      Storage capacity                500,000    kg
+     Cushion gas needed              46,613    kg
+     Compressor cost (installed)     3,249,872    $
+      Pipes, valves and metering     1,079,173    $
+     Cushion gas                   233,064    $
+     Aboveground costs            4,562,109    $
+     Labor cost                     246,769   $/year
+     Maintenance cost               173,162   $/year
+      Electricity cost                  11,038   $/year
+      Property tax                     55,074   $/year
+      Insurance                       91,242   $/year
+      Total O&M                    577,285   $/year
+2
+
+3   Table 2. Aboveground capital and O&M costs for underground pipe storage. Cost of hydrogen
+4   cushion gas evaluated at $5/kg, labor cost of 33.5 h and electricity at 5.74 cents/kWh.
+
+5
+
+6
+
+7
+
+8
+
+
+
+
+
+                                             32
+PAGE 33
+     Unit/Description                Value        Unit
+      Storage capacity                 500,000        kg
+     Cushion gas needed               84,085         kg
+     Compressor cost (installed)       3,535,794        $
+     Pipe to H2 production facility      749,130         $
+     Valves and instrumentation        112,370         $
+     Cushion gas                     420,423         $
+     Land cost                       313,769         $
+     Aboveground costs               5,131,486        $
+     Labor cost                      252,000        $/year
+     Maintenance cost                150,047        $/year
+      Electricity cost                   11,982        $/year
+      Property tax $ insurance          102,630        $/year
+      Total O&M                      516,659       $/year
+1
+
+2   Table 3. Aboveground capital and O&M costs for LRC storage. Cost of hydrogen cushion gas
+3    evaluated at $5/kg, labor cost of 33.5 h and electricity at 5.74 cents/kWh.
+
+4
+
+5
+
+
+6
+
+7
+
+8
+
+9
+
+
+
+
+
+                                             33
+PAGE 34
+                       Pipe Outer Diameter
+      Schedule   18"     24"     32"     36"
+         20       43      39      39      34
+         40       77      71      53      47
+         60      103     100         -           -
+         80      117     114         -           -
+        100      140     139         -           -
+ 1
+
+ 2   Table 4. Available pipe sizes and maximum allowable pressure (atm)
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+
+
+
+
+                                              34
+PAGE 35
+     Pipe Diameter (inches)                     18      24      32      36
+     Schedule                                 60      60      40      40
+    Maximum storage pressure (atm)             103     100      53      47
+      Mill cost ($/kg)                           275     259     288     294
+     Coating ($/kg)                             67      53      71      71
+     Shipping ($/kg)                            12      12      11      12
+     Welding ($/kg)                            59      67      51      52
+    Weld inspection and hydrostatic testing
+      ($/kg)                                   92      54      55      49
+      Site preparation ($/kg)                      88      62      79      79
+     Aboveground facilities ($/kg)                 9       9       9       9
+      Total Cost ($/kg)                          602     516     564     566
+1
+
+2   Table 5. Breakdown of capital costs ($/kg-H2 stored) for underground pipe storage
+
+3
+
+4
+
+5
+
+
+
+
+
+                                             35
+PAGE 36
+    Maximum Storage Pressure (atm)      75      100     150     200     250     300
+    Dome water volume (m3)              116,741  81,458   51,630   38,396   30,925   26,130
+     Concrete volume (m3)                 26,151   20,724   15,454   12,783   11,134   10,001
+      Shaft ($/kg)                           $11.2    $11.2    $11.2    $11.2    $11.2    $11.2
+    Dome ($/kg)                          $54.0    $38.4    $25.0    $19.0    $15.6    $13.4
+      Liner ($/kg)                            $9.1     $7.2     $5.4     $4.6     $3.9     $3.6
+     Concrete ($/kg)                         $8.5     $6.7     $5.0     $4.2     $3.6     $3.3
+      Total underground costs ($/kg)          $82.8    $63.5    $46.6    $38.9    $34.3    $31.4
+     Engineering ($/kg)                     $12.4     $9.5     $7.0     $5.8     $5.1     $4.7
+     Contingency ($/kg)                      $8.3     $6.4     $4.7     $3.9     $3.4     $3.1
+      Permitting ($/kg)                        $2.5     $1.9     $1.4     $1.2     $1.0     $0.9
+      Geological survey ($/kg)                 $2.3     $2.3     $2.3     $2.3     $2.3     $2.3
+      Total other costs ($/kg)                 $25.5    $20.1    $15.4    $13.2    $11.9    $11.1
+     Compressor ($/kg)                      $5.0     $5.8     $7.1     $7.8     $8.5     $9.2
+      Piping, instrumentation, valves ($/kg)     $0.9     $1.2     $1.7     $2.2     $2.7     $3.1
+     Cushion gas ($/kg)                      $1.0     $0.7     $0.4     $0.3     $0.3     $0.2
+     Land cost ($/kg)                        $0.7     $0.7     $0.6     $0.6     $0.6     $0.6
+      Total aboveground costs ($/kg)           $7.6     $8.3     $9.8    $11.0    $12.1    $13.1
+      Total cost ($/kg)                      $115.8   $91.9    $71.8    $63.1    $58.3    $55.5
+1
+
+2   Table 6. Breakdown of capital costs ($/kg-H2 stored) for underground LRC
+
+3
+
+4
+
+5
+
+
+
+
+
+                                             36
+PAGE 37
+     Cavern Roof Depth (ft)              1,500    2,000    2,500    3,000    3,500    4,000
+    Maximum storage pressure (atm)       70      100     120     140     170     190
+    Minimum storage pressure (atm)       22      29      35      41      47      53
+     Cavern water volume (m3)           125,897  96,185   78,294   67,634   59,287   52,973
+     Cushion gas (%)                      31.1     31.1     30.7     30.8     30.8     31.0
+      Drill+casing ($/kg)                    $3.3     $4.4     $5.6     $6.7     $7.8     $8.9
+     Leaching ($/kg)                       $5.1     $4.5     $4.1     $4.0     $3.8     $3.8
+     Mechanical integrity test ($/kg)         $2.3     $2.3     $2.3     $2.3     $2.3     $2.3
+      Total construction costs               $10.7    $11.2    $11.9    $12.9    $13.9    $15.0
+      Geological survey ($/kg)               $2.3     $2.3     $2.3     $2.3     $2.3     $2.3
+     Engineering ($/kg)                    $1.6     $1.7     $1.8     $1.9     $2.1     $2.2
+     Contingency ($/kg)                    $1.1     $1.1     $1.2     $1.3     $1.4     $1.5
+      Permitting ($/kg)                      $0.3     $0.3     $0.4     $0.4     $0.4     $0.4
+      Total engineering costs ($/kg)          $5.3     $5.4     $5.6     $5.9     $6.2     $6.5
+     Brine transportation ($/kg)             $7.0     $5.3     $4.3     $3.7     $3.3     $2.9
+     Brine disposal ($/kg)                  $7.0     $5.3     $4.3     $3.7     $3.3     $2.9
+      Total brine disposal costs ($/kg)       $13.9    $10.6     $8.7     $7.5     $6.6     $5.9
+     Compressor ($/kg)                     $5.0     $5.7     $6.3     $6.9     $7.4     $7.8
+      Piping and instrumentation ($/kg)       $1.0     $1.0     $1.0     $1.0     $1.0     $1.0
+     Cushion gas ($/kg)                    $1.4     $1.4     $1.3     $1.3     $1.3     $1.3
+     Land cost ($/kg)                       $0.8     $0.7     $0.7     $0.7     $0.7     $0.6
+      Total aboveground costs ($/kg)         $8.1     $8.8     $9.4     $9.9    $10.4    $10.8
+      Total cost ($/kg)                     $38.0    $36.0    $35.6    $36.2    $37.0    $38.1
+1
+
+2   Table 7. Breakdown of capital costs ($/kg-H2 stored) for underground salt caverns
+
+3
+
+4
+
+
+
+
+
+                                             37
+PAGE 38
+ 1
+
+                    Storage                  a       b         c
+      Underground pipe storage          0.001559  0.035313  4.5183
+      Underground lined rock caverns    0.092286   1.5565   8.4658
+      Underground salt caverns          0.085863   1.5574   8.1606
+ 2
+
+ 3   Table 8. Coefficients for annual cost ($/kg-H2 stored) correlations: 𝑚 is tonnes of stored H2
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+
+
+
+
+                                              38
+PAGE 39
+1
+                NG Spherical Pressure Vessel, Germanyp1     NG Pipe Storage, Erdgas, Switzerlandp2   LH2 Cryogenic Storage, NASAp3
+
+
+
+
+
+                                                  Pressure Vessels                  Cryogenic            Geologic Storage
+
+                                    Spherical      Pipe     Pre-stressed                                                     Lined Rock
+                                                            WireTough    LH2       Aquifer    Salt Cavern
+                                     Vessels     Storage    Concrete                                                     Cavern
+
+       Pressure, bar                   1-10.4        7-100        7-875        7-875         20        150-170      55-152      10-230
+       Diameter, m                     39.5          1.4           2.2          0.43         20                                35
+      Wall Thickness, mm            34                     110                                                          6-12
+       Length, m                             200 (13x15)                     9.2
+       Depth, m                                                                                         1,500        1,200        115
+       Height, m                                                     5.3                                                      52
+      Water Volume, m3             32,000        6,100         22          0.77        3400       4,141,000     566,000      40,000
+      Net Volume (STP), m3         273,664      500,556       10,979        428       2,558,399    211,346,012   41,379,324    7,119,024
+      H2 Stored, Tonnes              27          50          1          0.0389                    54,000        6,000        672
+      Working Capacity, Tonnes      25          45          0.987        0.0385        230         19,000        3,720        640
+       Application                  City Gate    City Gate   Forecourt   Forecourt   City Gate    City Gate    City Gate    City Gate
+
+
+                              Geological Storagep4                                          Lined Rock (Shown Tunnel Excavation)p5
+
+
+
+
+
+                            A-E: See caption
+2
+
+3   Figure 1. Attributes of bulk storage methods: working pressures, storage volume, storage
+4   amount and working capacity. Geological storage: A) Salt caverns, B) Mines, C) Aquifers, D)
+5   Depleted mines, E) Hard rock caverns
+6
+
+
+
+
+
+                                             39
+PAGE 40
+      ERW - Pipe Millp6a,b                  Freight to Coating Plantp7      Surface Coatingp8                     Freight to Sitep7,p9
+
+
+
+
+
+                                    Delivered Pipe Cost Factors
+
+            Welding, Inspection, Pressure Testingp13-15         Site Preparation & Ground Facilitiesp2,p10-12
+
+
+
+
+
+          Pipe Installation Cost Factors           Site Preparation Cost Factors
+1
+2   Figure 2. Schematic of cost components considered in the installation of underground pipe
+3    storage
+
+4
+
+5
+
+6
+
+
+
+
+
+                                             40
+PAGE 41
+1
+
+          Tunnel Excavationp16   Cavern Excavation+Drainagep17 Liner+Concrete installationp18  Above Ground Facilityp19
+
+
+
+
+
+2
+
+3   Figure 3a. LRC main cost factors
+
+
+                                               Key issues
+   1.Cavern                                            Above
+   2.Steel Lining        6                                               ground                 Uplift failure                                   5
+   3.Concrete                                            facility
+                                3 4         Below                     Stability of
+   4.Drainage                              2    1        ground                 concrete plug
+   5.Shotcrete                               Acess               Rock                p, T
+   6.Rock Mass                               tunnels               deformation
+                                                                       Lining
+                          LRC                        integrity
+
+
+4
+
+5   Figure 3b. LRC main technical factors
+
+6
+
+7
+
+
+
+
+
+                                             41
+PAGE 42
+ 1
+
+
+                        ND                           Williston
+
+
+                                   Michigan
+
+                                         Appalachian
+
+                                     TX,
+                         NM
+                      Permian                                       Gulf
+                                  Coast
+
+                           SW Florida
+ 2
+
+ 3
+
+ 4   Figure 4. Location of major salt deposits in the United States. Redrawn after [22]. ND=North
+
+ 5   Dakota, TX=Texas, NM=New Mexico
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+
+
+
+
+                                              42
+PAGE 43
+1
+
+
+        Cavern construction                     Above ground facilities                 Brine disposal
+
+
+
+                     in        m
+
+                                        out                                                                           Waste treatment plantp22                                                    water                                        Mudstone                                                                                                                                                          600-2000                                                                   Brine                                                    Fresh
+                                                                              Compressor, pipes and gas dryingp19
+
+                                                     Brine transportation                               Halite                                                                                                                                       Salt productionp23
+
+
+
+             Bore hole,      Solution       Solution     Gas injection
+             + casing       mining        mining        for brine
+                                        completed    removal
+
+                                                                                    Pipelinep20             2,500 gallon truckp21            Chlor-alkalip24             Class II wellp25
+
+2
+
+3
+
+4   Figure 5. Underground salt cavern technical and main cost factors
+
+5
+
+6
+
+
+
+
+
+                                             43
+PAGE 44
+                             $1,000
+                                                               Pipe, Coating $ Shipping
+                            $900                      Pipe Installation
+                                                                   Site Preparation
+                            $800                24” O.D. Pipe, 40 ft. Long
+                                             $172
+                            $700                                                                                            stored)
+                            $600                                                      $116
+                                             $189                                        $58
+                                                               $94              $65                                                                                           $/(kg-H2$500                               $71
+
+                                                                                $139                                                              $127                                                     cost $400             $142                              $163                                                                       $121
+
+                            $300                                                                                            Capital
+                                             $456
+                            $200             $381
+                                                              $348     $324     $349     $363
+                            $100
+
+                              $0
+                                    20     30     40     60     80    100
+1                                                     Pipe schedule
+
+2                                     (a) Breakdown of main capital costs
+
+
+
+
+
+       Pipe, Coating & Shipping  Pipe Installation
+
+
+
+
+
+                                                   Cost of Pipes ($/t):
+                                                              (803/1127/1360)
+            Site Preparation
+3
+
+4    (b) Breakdown of capital costs for 24"-O.D., Schedule 60 pipe     (c) Levelized cost of H2
+
+5   Figure 6. Cost of 500-t H2 underground pipe storage facility
+
+
+
+                                             44
+PAGE 45
+                             $150.0
+                                                      Underground
+                                                   Above ground
+                             $125.0                           Eng., Contingency
+
+
+
+                                               $25.5
+                             $100.0                                                                                     stored)
+
+                                                 $7.6
+                                                        $20.1  $72                               $75.0                                                                                       $/(kg-H2
+                                                          $8.3
+                                                 cost                              $15.4                                                                          $13.2
+                               $50.0                        $9.8              $11.9    $11.1
+                                                                          $11.0
+                                               $82.8                               $12.1                                                                                     Capital                                                                                            $13.1
+                                                        $63.5
+                               $25.0                       $46.6
+                                                                          $38.9
+                                                                                   $34.3    $31.4
+
+                                $0.0
+                                     75    100    150    200    250    300
+                                    Max Storage Pressure, bar
+1
+
+2                                     (a) Breakdown of main capital costs
+
+
+
+
+
+       Underground costs   Above ground costs
+                                                                           0.36
+
+
+
+
+
+                                                               Pmax(bar)
+                                                                (100/150/250)
+                                   Misc. Costs
+3
+
+4          (b) Breakdown of capital costs; Pmax = 150 bar                (c) Levelized cost of H2
+
+5   Figure 7. Cost of 500-t H2 underground lined rock cavern facility
+
+
+                                             45
+PAGE 46
+                            $50
+                                                 Underground    Above ground
+
+                                                       Brine disposal
+                            $40   $38                         $38                                                 $37                                $36  $35   $36
+                                                                                                 $5.9
+                                                                                       $6.6                                                                                          stored)                                        $7.5
+                                              $13.9     $10.6     $8.7                            $30
+
+                                                                                              $10.8
+                                                                                    $10.4                                                                                            $/(kg-H2                                        $9.9
+                                                                    $9.4
+                                                         $8.8                                                   cost $20     $8.1
+                                                                                          Capital
+                            $10                                                     $21.4                                              $16.0     $16.6     $17.6     $18.8     $20.1
+
+
+
+                              $0
+                                    70     100    120    140    170    190
+                                    Max Storage Pressure, bar
+1
+
+2                                     (a) Breakdown of main capital costs
+
+
+
+
+
+     Underground costs   Above ground costs
+
+
+
+
+                                                                        0.21
+
+                                                                        0.19
+                                                      Brine disposal ($/bbl)
+                                                                            (0/0.5/2)
+                                 Brine costs3
+
+4          (b) Breakdown of capital costs; Pmax = 150 bar                (c) Levelized cost of H2
+
+5   Figure 8. Cost of 500-t H2 underground salt cavern facility
+
+
+                                             46
+PAGE 47
+       1,000
+                $/kg-H2
+               Underground
+                 Pipes             cost,
+                                               Lined Rock Cavern
+                                                   (LRC)
+
+        100
+
+
+                                    Salt Cavern                                          installedcapital
+                  Storage
+
+
+        10
+            1        10       100       1,000     10,000
+1                 Usable amount of H2 stored, Tonnes
+
+2
+
+3                     (a) Installed capital cost                       (b) Lifetime storage cost
+
+4   Figure 9. Installed capital cost and lifetime storage cost: scaling with usable amount of stored H2
+
+
+5
+
+6
+
+7
+
+
+
+
+
+                                             47

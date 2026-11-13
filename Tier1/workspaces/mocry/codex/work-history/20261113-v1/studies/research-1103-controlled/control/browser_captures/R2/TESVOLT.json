@@ -1,0 +1,27 @@
+{
+  "owner": "R2",
+  "id": "TESVOLT",
+  "requested_url": "https://www.tesvolt.com/_media/05%20SERVICE/03%20Downloads/E-Serie/TPS-E/Datenblatt/RD.TI.094.E.en-US_v.B.02.pdf",
+  "url": "https://www.tesvolt.com/_media/05%20SERVICE/03%20Downloads/E-Serie/TPS-E/Datenblatt/RD.TI.094.E.en-US_v.B.02.pdf",
+  "status": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Tue, 03 Nov 2026 16:22:43 GMT",
+    "content-type": "application/pdf",
+    "content-length": "264459",
+    "connection": "keep-alive",
+    "strict-transport-security": "max-age=31536000",
+    "last-modified": "Mon, 22 May 2023 06:52:10 GMT",
+    "etag": "\"4090b-5fc42b5b7eece\"",
+    "accept-ranges": "bytes",
+    "vary": "User-Agent",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff"
+  },
+  "bytes": 264459,
+  "read_depth": "binary retrieved; not interpreted by broker",
+  "accessed_at": "2026-11-03T16:22:42.431Z",
+  "binary_base64_path": "C:/研究生/courses/MMCS/assignments/FinalProject/research-1103-controlled/control/browser_captures/R2/TESVOLT.b64"
+}

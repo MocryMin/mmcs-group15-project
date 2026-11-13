@@ -1,0 +1,20 @@
+{
+  "date_count_per_file": 2452,
+  "fuel_cells": 26972,
+  "original_107_dates_fixed": 107,
+  "original_zero_solar_dates_fixed": 42,
+  "price_days_independently_recomputed": 2372,
+  "original_demand_midnight_values_reproduced": 350,
+  "original_price_values_reproduced": 2422,
+  "excluded_zero_volume_provider_records": 115571,
+  "retained_zero_price_positive_volume_records": 3,
+  "negative_final_price_days": 2,
+  "wind_zero_days_preserved": 10,
+  "demand_2022_08_02_MW": 28744,
+  "quality_panel_counts": {
+    "cross_source_dates": 323,
+    "estimated_dates": 436,
+    "strict_no_imputation_dates": 1929
+  },
+  "all_assertions_passed": true
+}

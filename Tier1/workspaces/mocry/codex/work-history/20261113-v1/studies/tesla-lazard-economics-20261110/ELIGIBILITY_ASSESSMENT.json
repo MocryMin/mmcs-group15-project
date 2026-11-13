@@ -1,0 +1,31 @@
+{
+  "as_of":"2026-11-10",
+  "status":"assistant eligibility assessment and recommended next comparison set;not an adopted baseline change",
+  "user_word_interpretation":"电容 interpreted as 电解槽 from the preceding course context",
+  "criterion":"Coherent per-product daily operation and lifecycle/cost reference with labelled industry estimates;full supplier disclosure not required",
+  "already_assembled_daily_battery_profiles":["sungrow-st255cs-2h","huawei-luna215","huawei-luna241"],
+  "battery_recommended_addition":{
+    "id":"tesla-megapack2xl-2h",
+    "economic_inputs":"ECONOMIC_INPUTS.json",
+    "remaining_integration":"Declare usableSOC/DoD scenario and productAC versus externaltransformer loss boundary;these have not yet been filled into the frozen rawmanufacturer catalogue",
+    "role":"Eligible for research comparison under declared assumptions,not a fullyfactorycalibrated operational profile"
+  },
+  "battery_extension":{
+    "id":"tesla-megapack2xl-4h",
+    "role":"4hour extension and cost sensitivity;financial inputs are industry proxies and physical integration conventions remain explicit"
+  },
+  "assembled_PEM_reference_profiles":9,
+  "recommended_common_sale_comparison_PEM":["itm-neptune-ii","itm-neptune-v","itm-alpha50","nel-mc250","nel-mc500","nel-mc1000","nel-mc2000","nel-mc4000"],
+  "conditional_PEM":{
+    "id":"itm-poseidon",
+    "reason":"Wet coreoutput;must match buyergrade/netback or add an evidenced purification package before using the same sale valuation as other plants",
+    "role":"Retain as reference/individual wet-gas scenario;daily input profile exists"
+  },
+  "deferred_from_main_price_ranking":[
+    {"group":"TESVOLT/DCsystem combinations,CATL,Huawei5015,PowerTitan2","reason":"PairedPCS/ACperformance/usableenergy or matched operating boundary needs closure;can still support labelled engineering extensions"},
+    {"group":"NelA485","reason":"Stack-only energy figure;wholeACplant scope unresolved"},
+    {"group":"EnapterAEM","reason":"Operating data strong;modern matched lifecycle/install-cost package weaker;retain technology sensitivity until that package is assembled"}
+  ],
+  "shared_integration_conditions":["Commoncurrency/priceyear","Deliveredhydrogengrade and netback","No duplicatemaintenance/renewal charges","Preserve rawmarketingMW and precise nominal flow/energy conversion"],
+  "baseline_modified":false
+}

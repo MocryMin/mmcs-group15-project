@@ -1,0 +1,60 @@
+% Typography informed by the CU report style at commit 5116a21.
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,
+  BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,
+  BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{amsmath}
+\usepackage[math-style=TeX]{unicode-math}
+\setmathfont{texgyrepagella-math.otf}
+\usepackage[a4paper,left=22mm,right=22mm,top=20mm,bottom=20mm,
+  headheight=13pt,headsep=5mm,footskip=9mm]{geometry}
+\usepackage{array,booktabs,tabularx}
+\usepackage{graphicx,float,caption,needspace}
+\usepackage{xcolor,microtype,fancyhdr,hyperref}
+\definecolor{ink}{HTML}{193548}
+\definecolor{accent}{HTML}{176976}
+\definecolor{muted}{HTML}{526574}
+\definecolor{panel}{HTML}{EDF4F6}
+\hypersetup{colorlinks=true,linkcolor=ink,citecolor=ink,urlcolor=ink}
+\captionsetup{font=small,labelfont={sf,bf},labelsep=period,skip=4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt plus 1pt}
+\setlength{\intextsep}{6pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{M}[1]{>{\raggedright\arraybackslash}m{#1}}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}
+  {-9pt plus -2pt}{4pt}{\sffamily\large\bfseries\color{ink}}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}
+  {-7pt plus -1pt}{3pt}{\sffamily\normalsize\bfseries\color{ink}}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}
+  {5pt plus 1pt}{-0.6em}{\normalfont\bfseries}}
+\makeatother
+\AtBeginDocument{\setlength{\abovedisplayskip}{5pt plus 1pt}
+  \setlength{\belowdisplayskip}{5pt plus 1pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\sffamily\color{muted}MMCS 2026/27 \textbar{} Group 15}
+\fancyhead[R]{\footnotesize\sffamily\color{muted}Technical report}
+\fancyfoot[R]{\footnotesize\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\reporttitle}[2]{{\sffamily\bfseries\fontsize{19}{22}\selectfont\color{ink}#1\par}
+  \vspace{4pt}{\small\sffamily\color{muted}#2\par}\vspace{4pt}}
+\newcommand{\decision}[1]{\begingroup\setlength{\fboxsep}{7pt}
+  \noindent\colorbox{panel}{\parbox{\dimexpr\linewidth-14pt\relax}{#1}}\par\endgroup\vspace{3pt}}
+\newcommand{\metric}[2]{\begin{minipage}[t]{.237\linewidth}
+  {\sffamily\bfseries\large\color{accent}#1\par}
+  {\footnotesize\sffamily\color{muted}#2\par}\end{minipage}}
+\newcommand{\gbp}{\pounds}
+\newcommand{\negval}[1]{\ensuremath{-\mathrm{#1}}}
+\newcommand{\guidance}[1]{\textit{\color{muted}[#1]}}
+\newcommand{\samplebreak}{}

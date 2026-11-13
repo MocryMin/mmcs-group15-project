@@ -1,0 +1,820 @@
+{
+  "as_of": "2026-11-10",
+  "files": [
+    {
+      "path": "catalogue.json",
+      "bytes": 88961,
+      "sha256": "2ff531476dfe98124861465918f8b99c666e6b1f19de9c8a3298535f534322b0"
+    },
+    {
+      "path": "comparison.csv",
+      "bytes": 2197,
+      "sha256": "c1d648eae0281c3f905d80201e43109e6641464854ce10ae3eb00319f2a18793"
+    },
+    {
+      "path": "evidence/alpha-50.pages.json",
+      "bytes": 6377,
+      "sha256": "47047310d212d03b20dd58d8f1dff987ad78d3521e92463fcc8103e79c99454d"
+    },
+    {
+      "path": "evidence/alpha-50.pdf",
+      "bytes": 4625157,
+      "sha256": "4021ad34b0312d9ccd333bb0e34216217d178a60e2b4075a7248c9d0932ea566"
+    },
+    {
+      "path": "evidence/alpha-50.txt",
+      "bytes": 6085,
+      "sha256": "1e8a4f70c2958d5cb26cfb5747fa9f354fe54cb164ddbfdedcf8774cd01e499f"
+    },
+    {
+      "path": "evidence/BEIS-Hydrogen-Costs2021-Annex.xlsx",
+      "bytes": 2119898,
+      "sha256": "0fc7170686b56784c1f9759f4f21f582bf7e865aec6b762de3bcffee61ccc646"
+    },
+    {
+      "path": "evidence/BEIS-Hydrogen-Costs2021.pages.json",
+      "bytes": 89724,
+      "sha256": "83666a5cbc5f553bd689e09b41f30d244a62ab58016b4544c2baa8145b954f70"
+    },
+    {
+      "path": "evidence/BEIS-Hydrogen-Costs2021.pdf",
+      "bytes": 747238,
+      "sha256": "a1bf5255f407c6dd66d0170fa47330c706a51d38fe3d5a0eca3af9b1bd84dc85"
+    },
+    {
+      "path": "evidence/BEIS-Hydrogen-Costs2021.txt",
+      "bytes": 88169,
+      "sha256": "ca5a198bf239f7c0fd6401876e6c38496b232f177e7c7d003f09cc9964e9aa26"
+    },
+    {
+      "path": "evidence/CATL-ESS-202406.pages.json",
+      "bytes": 59907,
+      "sha256": "dd378265eaac0d64237d01730196a267379895469cda5e0da5805ae52d236f56"
+    },
+    {
+      "path": "evidence/CATL-ESS-202406.pdf",
+      "bytes": 47755553,
+      "sha256": "5a43624256c24e9db8d5acc5fa714cb6ab54ce7bb7e0c4664d4f4a9e2ec0f779"
+    },
+    {
+      "path": "evidence/CATL-ESS-202406.txt",
+      "bytes": 58512,
+      "sha256": "e50659ad32ada87286887ac15b43ccccadd2f2fb91491d9787c24979b68ed333"
+    },
+    {
+      "path": "evidence/DEA-storage.xlsx",
+      "bytes": 336703,
+      "sha256": "227c63de212697978815a0a6ed86d84527899d2ae309fd411a6a8490fe122405"
+    },
+    {
+      "path": "evidence/Enapter-2022-pricing-assumptions.pages.json",
+      "bytes": 1739,
+      "sha256": "3c5c75c6d63aa5c2ab2b4fc80e313bc64f90512b86d041a7531af917d6dbf403"
+    },
+    {
+      "path": "evidence/Enapter-2022-pricing-assumptions.pdf",
+      "bytes": 123173,
+      "sha256": "a65577e74bd9749bc979cee0a3f04ca2cda3e3af484dfd4f6b7db694d8849448"
+    },
+    {
+      "path": "evidence/Enapter-2022-pricing-assumptions.txt",
+      "bytes": 1540,
+      "sha256": "ae0e9b3e1440c0b041451bda04323e561e2e22a8f962a278569960d91f6994f7"
+    },
+    {
+      "path": "evidence/enapter-faq-expanded.json",
+      "bytes": 82736,
+      "sha256": "26310625a59c74cdf7563fa584a62229c6c4b741dd49d1d362e00f2594e3a351"
+    },
+    {
+      "path": "evidence/Enapter-Flex120-202606.pages.json",
+      "bytes": 3669,
+      "sha256": "fcf6e468c6cda7a317767836fc3b8e8a16009f2694858c1ebb78b72a120317a5"
+    },
+    {
+      "path": "evidence/Enapter-Flex120-202606.pdf",
+      "bytes": 437790,
+      "sha256": "e2a68cc23a24a24dc07cf40fa9113c1d97f8bf1b10a880eced550824e15d2463"
+    },
+    {
+      "path": "evidence/Enapter-Flex120-202606.txt",
+      "bytes": 3441,
+      "sha256": "e36c943021b9cf83eb62978fc6113272ddd51f49a5ae00026bf6531d710307a3"
+    },
+    {
+      "path": "evidence/Enapter-Nexus1000-202606.pages.json",
+      "bytes": 4227,
+      "sha256": "c3d4f47a6ed688988df0a03706a3f63ec184278f6a05d85db078fd728852b70a"
+    },
+    {
+      "path": "evidence/Enapter-Nexus1000-202606.pdf",
+      "bytes": 555162,
+      "sha256": "f115af9b3d45b4732824c0aae65ac838819cbf3fdeea642df517747b77b837e0"
+    },
+    {
+      "path": "evidence/Enapter-Nexus1000-202606.txt",
+      "bytes": 3997,
+      "sha256": "fb9e98e02cad5e05cce4288f085267597ef1a7b9719a996fad7ee41949815190"
+    },
+    {
+      "path": "evidence/Enapter-Nexus2500-202606.pages.json",
+      "bytes": 4385,
+      "sha256": "a8e6916ef1648859979c8ae790ab2e5c38900d1726e26bef0206e70cbe024cac"
+    },
+    {
+      "path": "evidence/Enapter-Nexus2500-202606.pdf",
+      "bytes": 567642,
+      "sha256": "c4fd73baa229489ce7f2475622d24d8280a0ff881a863f558f0a82093db78ae0"
+    },
+    {
+      "path": "evidence/Enapter-Nexus2500-202606.txt",
+      "bytes": 4155,
+      "sha256": "865463a773952551e51b4ba7002e41f5fbe851ab3ddb0139611539c7bb97e0ed"
+    },
+    {
+      "path": "evidence/Enapter-Nexus500-202606.pages.json",
+      "bytes": 4249,
+      "sha256": "04237bba1dbbff40369c88bdfb9e8ec338ff94fa97b6a4fc3c4d17b6ee10fe6a"
+    },
+    {
+      "path": "evidence/Enapter-Nexus500-202606.pdf",
+      "bytes": 548203,
+      "sha256": "69e6578a6672df650fa7f401490fb275c6c1b5a8dd2ab77668452499b059a2ed"
+    },
+    {
+      "path": "evidence/Enapter-Nexus500-202606.txt",
+      "bytes": 4020,
+      "sha256": "895bc45cdb81c8e9cc2cec2bac9526bf89cee829cfcd021815d739deb3150cd5"
+    },
+    {
+      "path": "evidence/Enapter-Rheos20-202606.pages.json",
+      "bytes": 3087,
+      "sha256": "c0f03e48755243ada37e4a7c5d51d437acad4fce68a1bceb23d1d1065bbf5132"
+    },
+    {
+      "path": "evidence/Enapter-Rheos20-202606.pdf",
+      "bytes": 735572,
+      "sha256": "7a9359f21fe11ad966e4af15b44fb6511d285e16e333b881ab296cc33524df4d"
+    },
+    {
+      "path": "evidence/Enapter-Rheos20-202606.txt",
+      "bytes": 2859,
+      "sha256": "78fe0c313e364e50582a4ec95bf181912cdfd78225e4978d560fe60565fc0784"
+    },
+    {
+      "path": "evidence/Huawei-LUNA215-2S10.pages.json",
+      "bytes": 5019,
+      "sha256": "4ae0968ff1a1518737c985d7082fac284f041ff72246d3bb8a86673030b9bed3"
+    },
+    {
+      "path": "evidence/Huawei-LUNA215-2S10.pdf",
+      "bytes": 192619,
+      "sha256": "f35ad416b633084c3d684e392806f75d3011acba70445cbd390e3b51472fca1d"
+    },
+    {
+      "path": "evidence/Huawei-LUNA215-2S10.txt",
+      "bytes": 4833,
+      "sha256": "43c396903a32c9ad657015ef76002a718cbf98d85046ac1728f2135f2403da37"
+    },
+    {
+      "path": "evidence/Huawei-LUNA241-2S1.pages.json",
+      "bytes": 5455,
+      "sha256": "cb83aa300ee7b070864913b5a876e2a592dcaf82763de96b8d3bcc4fed3e78c0"
+    },
+    {
+      "path": "evidence/Huawei-LUNA241-2S1.pdf",
+      "bytes": 225210,
+      "sha256": "861ddf7a0a1fa8c4701a4fee7ea9ee702efb8bac545330683604342b329dd793"
+    },
+    {
+      "path": "evidence/Huawei-LUNA241-2S1.txt",
+      "bytes": 5270,
+      "sha256": "dbc66f7204070f21fa9ad81ac2283b711179e2edf9b142f42946697bcb23645f"
+    },
+    {
+      "path": "evidence/Huawei-LUNA5015-2S.pages.json",
+      "bytes": 3606,
+      "sha256": "8e6840b37cf72ec5dbd18b82a8b669e5f7dabc0fe582f42d9e936f1db715e795"
+    },
+    {
+      "path": "evidence/Huawei-LUNA5015-2S.pdf",
+      "bytes": 281691,
+      "sha256": "3d62c6d68a80abc80dada4b00fd23e682ad827f29f35c92c67e5cf29fb599300"
+    },
+    {
+      "path": "evidence/Huawei-LUNA5015-2S.txt",
+      "bytes": 3421,
+      "sha256": "734f0532f7ed4cca1541ce7cd822c6dcf39e9d7737158ddaeb17b7fc9d5a2f15"
+    },
+    {
+      "path": "evidence/Huawei-PCS213KTL-H0.pages.json",
+      "bytes": 7713,
+      "sha256": "29fe3dabde655cea32901c533b4ef663a9b38c4f5315c738342669d32492ed1d"
+    },
+    {
+      "path": "evidence/Huawei-PCS213KTL-H0.pdf",
+      "bytes": 236038,
+      "sha256": "dc0b3437d21c5da2b8b937d5bc46520eba2bb9e6c4ab69440c844ace902c02d0"
+    },
+    {
+      "path": "evidence/Huawei-PCS213KTL-H0.txt",
+      "bytes": 7488,
+      "sha256": "9acd4e04dc2fdee863b85d9ba88e8cf62e812df8d340e12455062fb17d2453f9"
+    },
+    {
+      "path": "evidence/IRENA-Green-Hydrogen-Cost2020.pages.json",
+      "bytes": 394024,
+      "sha256": "5259a5d1d0a4ab680ffe825933a1a8fb872b635343bce21b1e3026f5c71fbbec"
+    },
+    {
+      "path": "evidence/IRENA-Green-Hydrogen-Cost2020.pdf",
+      "bytes": 2014146,
+      "sha256": "cc0017018b5d199b3c0bc464a6b812f877b65b415c654050d6cbe8fa9a710a75"
+    },
+    {
+      "path": "evidence/IRENA-Green-Hydrogen-Cost2020.txt",
+      "bytes": 389733,
+      "sha256": "0a069e335a3613eaca11383f334eaa02c33f688817194864e9848f527bd83c08"
+    },
+    {
+      "path": "evidence/ITM-Poseidon20-2-7.pages.json",
+      "bytes": 6140,
+      "sha256": "cea4ddc7602c65872b8d710e4553d3feaef406d843f7b76ae8306268db224c46"
+    },
+    {
+      "path": "evidence/ITM-Poseidon20-2-7.pdf",
+      "bytes": 4202363,
+      "sha256": "f31e59f7424b787f72c02efb7f746eed281c65a3939dc40dc20124429b499075"
+    },
+    {
+      "path": "evidence/ITM-Poseidon20-2-7.txt",
+      "bytes": 5838,
+      "sha256": "4c83662b4b8dd5ecb02b0e3886f184aa7a90dbbac0341baaadcf93f9f34ab2c3"
+    },
+    {
+      "path": "evidence/Nel-A485-Rev03.pages.json",
+      "bytes": 3198,
+      "sha256": "5f0045a89a2065b1ded4e6980c21b41a35de49fb2ad39a763de57ce3d235e854"
+    },
+    {
+      "path": "evidence/Nel-A485-Rev03.pdf",
+      "bytes": 1717358,
+      "sha256": "4d31c8e95e66a93dec68453a423075dbd4a97498f44d5bcf71937256ad7c405f"
+    },
+    {
+      "path": "evidence/Nel-A485-Rev03.txt",
+      "bytes": 2978,
+      "sha256": "921f833769f851d8f4c1a4ab099eacdc0a48f4a40bd5fc6814c763b210a5f41d"
+    },
+    {
+      "path": "evidence/Nel-MC-Modular-RevA.pages.json",
+      "bytes": 4786,
+      "sha256": "a2878ec6aa811b46233b2be6561eeead266536e5c223ca29c3b972a607cdd837"
+    },
+    {
+      "path": "evidence/Nel-MC-Modular-RevA.pdf",
+      "bytes": 1764294,
+      "sha256": "6671836a1800870ec78f0737a79c3e9ed920fa0c542625b50b0645fc087ee637"
+    },
+    {
+      "path": "evidence/Nel-MC-Modular-RevA.txt",
+      "bytes": 4561,
+      "sha256": "364ab7f9b19f1ecd1aab7b6f86bd19bd2ba34f71e86522506049ec620ccd9eec"
+    },
+    {
+      "path": "evidence/Nel-MC-Series-RevJ.pages.json",
+      "bytes": 6573,
+      "sha256": "ce045b77930eebcdbfb85816d4698d9579b6b725878c3471f773f23850affb57"
+    },
+    {
+      "path": "evidence/Nel-MC-Series-RevJ.pdf",
+      "bytes": 4854487,
+      "sha256": "251078ab53a5bcb7303799fac780b96f53588b52bc61afbd47fe73ea4a7c8e5f"
+    },
+    {
+      "path": "evidence/Nel-MC-Series-RevJ.txt",
+      "bytes": 6349,
+      "sha256": "6e27476d7674d1bc51c48fa5fb44e9c3dc169419a1a6d2833af9f8576697625c"
+    },
+    {
+      "path": "evidence/neptune-2.pages.json",
+      "bytes": 6045,
+      "sha256": "73ef3f89f04c7dc2f8852fb3b9434a4ba7604d3d567e79028d9fe03de9bc94fb"
+    },
+    {
+      "path": "evidence/neptune-2.pdf",
+      "bytes": 3273585,
+      "sha256": "713a78001190ffd72804b405fede9bc903ceaecf6e4cfc6647f13acbf155f683"
+    },
+    {
+      "path": "evidence/neptune-2.txt",
+      "bytes": 5752,
+      "sha256": "7d0babe0fc5399107d8223504abf68886391e07ea139540b413e964044bd87c9"
+    },
+    {
+      "path": "evidence/neptune-5.pages.json",
+      "bytes": 6633,
+      "sha256": "6bf0b92f2de70fd75d647098844c024c6f1a64ed982f3bf9a92a483e6a20a35a"
+    },
+    {
+      "path": "evidence/neptune-5.pdf",
+      "bytes": 3517717,
+      "sha256": "988984552d58064ed65e2dfcb7d2ba34743ee58b207f74dd7988d2191b148d0d"
+    },
+    {
+      "path": "evidence/neptune-5.txt",
+      "bytes": 6340,
+      "sha256": "21f5bd7b377ec10b2e2f4d7adc412328bcb6aee81aca902ecbe526eec12a5286"
+    },
+    {
+      "path": "evidence/pages-01.json",
+      "bytes": 30715,
+      "sha256": "aad389ac982f652a30dfd5b690ea779f10b50e3d45c6dd3dbe5fd510079470a0"
+    },
+    {
+      "path": "evidence/pages-02.json",
+      "bytes": 18297,
+      "sha256": "01fa94a299d81a0affc0b18638bd1323d1342ac4bb476de576dcc00779f9aa27"
+    },
+    {
+      "path": "evidence/pages-03.json",
+      "bytes": 48306,
+      "sha256": "58d192951209bbf45db8f55a788ca618def5413b9f8f7e396ce07a66fc4d2293"
+    },
+    {
+      "path": "evidence/pages-04.json",
+      "bytes": 35087,
+      "sha256": "e8f4736f0b595ac5a75288deccd766c2b99aa64de438ffda88f0d495b486f94b"
+    },
+    {
+      "path": "evidence/pages-05.json",
+      "bytes": 34987,
+      "sha256": "204e2ee06da27a1d75bcb11b729373dc60c5202b1efc8ab81a2dbf016d417ccf"
+    },
+    {
+      "path": "evidence/pages-06.json",
+      "bytes": 19378,
+      "sha256": "e9f03a6c6da38e7bb48f337df8d7f20c85b7433fd76bcd9084a56326f4572d4d"
+    },
+    {
+      "path": "evidence/pages-07.json",
+      "bytes": 46067,
+      "sha256": "3707cde694ad6038b2db770a72c2591014b71411c12c80d562cf674408841e00"
+    },
+    {
+      "path": "evidence/pages-08.json",
+      "bytes": 24393,
+      "sha256": "85b6013d2fd538015e4e799155f0d107b5a96c634eeafc4f76259af4476eacfc"
+    },
+    {
+      "path": "evidence/pages-09.json",
+      "bytes": 22613,
+      "sha256": "7db7b3cdf518ea81e59f84f77493b36bf06112f95fe75a62ac36e4493d803ef9"
+    },
+    {
+      "path": "evidence/pages-10.json",
+      "bytes": 17462,
+      "sha256": "9cf1b45ce453ca10c87371f3f40694c713a377668026b430e63d8853f540e13f"
+    },
+    {
+      "path": "evidence/pages-11.json",
+      "bytes": 2109,
+      "sha256": "929ce4c262dde2750d67199d91784745c83703d9be92f4e022fa3bfc3f55b8de"
+    },
+    {
+      "path": "evidence/pages-12.json",
+      "bytes": 16152,
+      "sha256": "0441d6d835f1932eeba9952a182851b4820b239b6095617e9a4cf76307c89a52"
+    },
+    {
+      "path": "evidence/pages-13.json",
+      "bytes": 14819,
+      "sha256": "4a93d8a3525391aeb12608cc191ca9345b416a631959e12ba97bcdb72e58fbf1"
+    },
+    {
+      "path": "evidence/pages-14.json",
+      "bytes": 100740,
+      "sha256": "779066e39bfea5a650352f90ffc5677be92bba73c82a102afdf237d9c4e154ee"
+    },
+    {
+      "path": "evidence/pages-15.json",
+      "bytes": 1977,
+      "sha256": "a842fc9812bad5c6e84245a5e25ccd9807a083e663ea1164cb8b84e4c3b84185"
+    },
+    {
+      "path": "evidence/pages-16.json",
+      "bytes": 8933,
+      "sha256": "6885dbb1e81283ea9c5e8eea1386de58a6963174f8d04d43208428e7db2e52b0"
+    },
+    {
+      "path": "evidence/PNNL-cost-performance-2024.xlsx",
+      "bytes": 862630,
+      "sha256": "ef50e87012361e2a10d3df97cb61b93d38eae9255539ca76061e0c5feef501e9"
+    },
+    {
+      "path": "evidence/PNNL-LFP-10MW-2h-extract.json",
+      "bytes": 6791,
+      "sha256": "93c8a2756e1529809efaf516884dfdc7da18292e9cd35b807268c5c1ae8daa34"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS-manual.pages.json",
+      "bytes": 194504,
+      "sha256": "c29b8b0f95c7a5c23a65c3cc5951f1c5d9904df2abdfcaa88d3143246a62d175"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS-manual.pdf",
+      "bytes": 5819753,
+      "sha256": "c96e43cfc2683493486b697152bb3c21e9017a22ce75af943f97daf45cbfdfe5"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS-manual.txt",
+      "bytes": 190192,
+      "sha256": "fb1724d4c52c818231da51de62f1a67131732b925829cf3d32db15f99fbf0e8b"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS.pages.json",
+      "bytes": 6353,
+      "sha256": "dda3ee01fd7fa35f6bfe6e21078fd1975cf747ad566df858d613ea75c4247164"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS.pdf",
+      "bytes": 237651,
+      "sha256": "6ad96cab9e28d7ae41406fb3129958132370cf3f32a017fc1b7e3de30de5b1a9"
+    },
+    {
+      "path": "evidence/Sungrow-PowerStack255CS.txt",
+      "bytes": 6124,
+      "sha256": "edb503aa07bc3a7ad46b6a4830696de162f3a8ce2b8282b4148eefd04dadbc77"
+    },
+    {
+      "path": "evidence/Sungrow-PowerTitan2-2H4H-V3.pages.json",
+      "bytes": 4661,
+      "sha256": "1c1ac867ba4b111008bbe9416e7140aba462df99f7f2f5177d2014d8c654e663"
+    },
+    {
+      "path": "evidence/Sungrow-PowerTitan2-2H4H-V3.pdf",
+      "bytes": 291104,
+      "sha256": "e244c8208bedfc5c14191f60f8edd7c608ba83fc7c004aef696a214629d0e8de"
+    },
+    {
+      "path": "evidence/Sungrow-PowerTitan2-2H4H-V3.txt",
+      "bytes": 4428,
+      "sha256": "85e9785e5fa3bb069fda33ada638c838b53aeb48c328bb5cc317ef1720a37565"
+    },
+    {
+      "path": "evidence/Sungrow-SC5000UD-MV-P3.pages.json",
+      "bytes": 13982,
+      "sha256": "4be0c8ddac09cc5052d16cdc57292b16f4776ab1ce10570f71644ebf53d99855"
+    },
+    {
+      "path": "evidence/Sungrow-SC5000UD-MV-P3.pdf",
+      "bytes": 767233,
+      "sha256": "a0b9f98148d0f5a71ba33d4df3f7ea094734fd5f4bbb10183e79e23153ddff39"
+    },
+    {
+      "path": "evidence/Sungrow-SC5000UD-MV-P3.txt",
+      "bytes": 13754,
+      "sha256": "888d780828f56624c304e7ed3e6a2dc1e892aa30d6d9f058036cdcb5803fb69a"
+    },
+    {
+      "path": "evidence/TESVOLT-POWERCORE-G2.pages.json",
+      "bytes": 1884,
+      "sha256": "461c0ab57a8da7b15bec5cd3c01f533c2643d1f0ca7cc20818bd1ec65347f8ec"
+    },
+    {
+      "path": "evidence/TESVOLT-POWERCORE-G2.pdf",
+      "bytes": 623359,
+      "sha256": "5812e326fb46140b9bd9c289bd6d32b4b6493cceb36f5ca1cda3b0925f24b53e"
+    },
+    {
+      "path": "evidence/TESVOLT-POWERCORE-G2.txt",
+      "bytes": 1658,
+      "sha256": "eb0122405703ce78d53e843b8146edc34e900276cbb6ae8d734d3a078a912569"
+    },
+    {
+      "path": "evidence/tesvolt-prior-browser-pages.json",
+      "bytes": 17414,
+      "sha256": "e5903ff75a4c6ef8b7f523fee7a2112ff29140b53a4e25cde6553bcefa2a9a63"
+    },
+    {
+      "path": "evidence/TESVOLT-TALLON.pages.json",
+      "bytes": 4864,
+      "sha256": "72f2acf325c4a497f62c211889fa4d6d3afcb211283032578aa0cd0a4063a836"
+    },
+    {
+      "path": "evidence/TESVOLT-TALLON.pdf",
+      "bytes": 172519,
+      "sha256": "6cc0b3e22a55671964de28a89df780adb4ab71435adc71100cbbc3609ba227cc"
+    },
+    {
+      "path": "evidence/TESVOLT-TALLON.txt",
+      "bytes": 4683,
+      "sha256": "4bc97f97bab15b0497a80d478cc704c9ec3ad40bab1a6d313f95acfe43d7c02d"
+    },
+    {
+      "path": "evidence/visual/CATL-ESS-202406-p16.png",
+      "bytes": 222778,
+      "sha256": "214ff5d81be9ae27251fbe46974f9ab16100f2ee0161b46f42bd4a82b5fcd81a"
+    },
+    {
+      "path": "evidence/visual/CATL-ESS-202406-p17.png",
+      "bytes": 149000,
+      "sha256": "133076a391b43a93f45472a66c999e5c834447036e259a7d26cad746e687a2f5"
+    },
+    {
+      "path": "evidence/visual/Enapter-Flex120-202606-p2.png",
+      "bytes": 244569,
+      "sha256": "9b17901375fec242dfc8b352fcaea6660c7051ef113c5b075890565ab365eb86"
+    },
+    {
+      "path": "evidence/visual/Enapter-Nexus2500-202606-p2.png",
+      "bytes": 347420,
+      "sha256": "91138cd345d197cafa5ffd5ace02471e708efefc08957909eaf201925416077f"
+    },
+    {
+      "path": "evidence/visual/Enapter-Rheos20-202606-p2.png",
+      "bytes": 357564,
+      "sha256": "d4d467396ed85c289b22532ed0d5c949682099e3a260e4a6bd866e6c7f04c1df"
+    },
+    {
+      "path": "evidence/visual/Huawei-LUNA215-2S10-p1.png",
+      "bytes": 192718,
+      "sha256": "432bd7d7fae8e51e6c1739765f17e4ad876212927220f6577023c78ca67096dc"
+    },
+    {
+      "path": "evidence/visual/Huawei-LUNA241-2S1-p1.png",
+      "bytes": 201852,
+      "sha256": "a460f0f9aa6971503f362f4398dbe7e66ab2fe1f749a4794acce59bb55dca6e3"
+    },
+    {
+      "path": "evidence/visual/Nel-A485-Rev03-p1.png",
+      "bytes": 351130,
+      "sha256": "cb1709d19b939566ee0ea8bbadf97b8dd2b89e40a99df1a32213789866c1f4d4"
+    },
+    {
+      "path": "evidence/visual/Nel-MC-Modular-RevA-p1.png",
+      "bytes": 270971,
+      "sha256": "be56bc2271fea43b4f9331d40c8334489075670e8e22d571131479c212f9b843"
+    },
+    {
+      "path": "evidence/visual/Nel-MC-Series-RevJ-p1.png",
+      "bytes": 304398,
+      "sha256": "e37d5258b4ddb9c2ca3028c90ed91f07208b62ebb123d520a1a2ca2385a683b5"
+    },
+    {
+      "path": "evidence/visual/Sungrow-PowerStack255CS-p2.png",
+      "bytes": 99943,
+      "sha256": "193a53126d812e91d7296908596b80d1da2df91383d7543b184a5ae613196508"
+    },
+    {
+      "path": "evidence/visual/Sungrow-PowerTitan2-2H4H-V3-p2.png",
+      "bytes": 88483,
+      "sha256": "f026d239c1e4c62ad1f4401c088dfc89ff4af9fba4863d30ee24262d7a69dee2"
+    },
+    {
+      "path": "evidence/visual/TESVOLT-POWERCORE-G2-p2.png",
+      "bytes": 139564,
+      "sha256": "b0face1239fdb615051a8efad0053f498a93917d6072c38d5810b61ee48ccf58"
+    },
+    {
+      "path": "evidence/visual/TESVOLT-TALLON-p1.png",
+      "bytes": 175960,
+      "sha256": "d37ed28eae79294a647b54d5124099e2beae0c47d4133242755d79b42c4f193c"
+    },
+    {
+      "path": "field_coverage.csv",
+      "bytes": 134214,
+      "sha256": "5895661732ace410b251aa6ff755cc1c81e18e17815c18d8ea55efb21020073e"
+    },
+    {
+      "path": "illustrative_cost_inputs.json",
+      "bytes": 9318,
+      "sha256": "65de30c39c9aaec2a201059188ccbb898d7c6273e92f8a88722eb5d8c004855d"
+    },
+    {
+      "path": "MODELLING_INTERFACE.md",
+      "bytes": 5758,
+      "sha256": "c58dcfa5f8da3f2e290df0ed6225293cfa1708e7df2a4208e7a512f7b4af66f8"
+    },
+    {
+      "path": "PRODUCT_CARDS_ZH.md",
+      "bytes": 81780,
+      "sha256": "df030828748cb5c8ee813b0161d8cc91d65a341273166f64150fc390f6bd87b1"
+    },
+    {
+      "path": "products/catl-enerc-plus-280.json",
+      "bytes": 2621,
+      "sha256": "46a7c94355836de2ea66f1a9ef41c9be7b6b423157ef6a42aef9ec475d8df642"
+    },
+    {
+      "path": "products/catl-enerc-plus-306.json",
+      "bytes": 2621,
+      "sha256": "41c30cd781c38f58f1e513594362b1195e95c9d8e529cddcc9172a0302919cb5"
+    },
+    {
+      "path": "products/catl-enerone-plus-285.json",
+      "bytes": 2626,
+      "sha256": "f2b93c0efc193f9c6aebede77ab72159ca2c82b75fe704dac0ef1de158bdc429"
+    },
+    {
+      "path": "products/catl-enerone-plus-306.json",
+      "bytes": 2626,
+      "sha256": "2ba2347b3500e344e1e9a01cb601353e10aa5c2e8e7045bc7bd6480a81c155b4"
+    },
+    {
+      "path": "products/enapter-flex120.json",
+      "bytes": 2988,
+      "sha256": "439d8a956abc304758494933778276bdcfdbaacada951e8deff1c1772d822437"
+    },
+    {
+      "path": "products/enapter-nexus1000.json",
+      "bytes": 3024,
+      "sha256": "f254a6a8dfc40ba78a59f599e9752585c7827a84fc15ba4b6bf10a7cf2fdee0f"
+    },
+    {
+      "path": "products/enapter-nexus2500.json",
+      "bytes": 3127,
+      "sha256": "08236e2d08adf7ebf0bd11c6ae244197e23a9fc833113b0797ab45fa360a3043"
+    },
+    {
+      "path": "products/enapter-nexus500.json",
+      "bytes": 3005,
+      "sha256": "b55b996be765204b04424df39ec6ecc47e2d9aae5c9f607104e28a7107dc9d2d"
+    },
+    {
+      "path": "products/enapter-rheos20.json",
+      "bytes": 3021,
+      "sha256": "168c5e50ff3143d56f831dcac90513d92190e5e6cf145c8849300c1b760ba8cd"
+    },
+    {
+      "path": "products/huawei-luna215.json",
+      "bytes": 2932,
+      "sha256": "565d9026af9f8b3df50da6ddacad0f0a15855a33fb656b9b27bd441c41dfbedd"
+    },
+    {
+      "path": "products/huawei-luna241.json",
+      "bytes": 2932,
+      "sha256": "1a7a3c5e6395a3b23d19ea439aa35e93b3969baf0d33103cf472f69d892fc414"
+    },
+    {
+      "path": "products/huawei-luna5015.json",
+      "bytes": 2401,
+      "sha256": "c65e2dae649554fbc011b5b625b870fbbb256875e22a0b03c1222fcf449d4be5"
+    },
+    {
+      "path": "products/itm-alpha50.json",
+      "bytes": 3418,
+      "sha256": "46f0b71164f5a1234953d2792e96e9ea327c62c1d932adb46ca28bf150ff885f"
+    },
+    {
+      "path": "products/itm-neptune-ii.json",
+      "bytes": 3105,
+      "sha256": "6988dbe7f80bdf6547033b51150985a8e0a3065e34cd602c8a3552e6e70dbc04"
+    },
+    {
+      "path": "products/itm-neptune-v.json",
+      "bytes": 3418,
+      "sha256": "f3b262c3e5d7f50fbaf958bfb8e04160c075e913f9022f34898afd47cf804f5b"
+    },
+    {
+      "path": "products/itm-poseidon.json",
+      "bytes": 3117,
+      "sha256": "90def4af7389fc2154c9e8a812f758d427ae6e32915d8717daf061227dd39df3"
+    },
+    {
+      "path": "products/nel-a485.json",
+      "bytes": 2910,
+      "sha256": "b96a6cc90ba701f8d9e87bf4ce7daac9ee9141983aa6a7d7aca19f9fb930dc2c"
+    },
+    {
+      "path": "products/nel-mc1000.json",
+      "bytes": 3150,
+      "sha256": "9d0e758ac7428c437fc09eb407d41401211c828fff13d33b2f5977e83193afd1"
+    },
+    {
+      "path": "products/nel-mc2000.json",
+      "bytes": 3152,
+      "sha256": "d811baf559f60c0bf2020aec105a7b38c71539df69fcf1626aed687c6c9f0ad8"
+    },
+    {
+      "path": "products/nel-mc250.json",
+      "bytes": 3407,
+      "sha256": "75ba388fc26a17d1d4913b4184434649dd9187a99bf9de60b0ce6dc7b20c9896"
+    },
+    {
+      "path": "products/nel-mc4000.json",
+      "bytes": 3152,
+      "sha256": "d4642a85281e2a638df4466d7a1e1929c0a803b6c50d4d4b5ef4a7f37ce1246f"
+    },
+    {
+      "path": "products/nel-mc500.json",
+      "bytes": 3422,
+      "sha256": "66229fdc42bdf38352861c552617f812795e69f3110d252b58167ef5fd96d4c8"
+    },
+    {
+      "path": "products/sungrow-powertitan2-2h.json",
+      "bytes": 2461,
+      "sha256": "1096945aaa8b8ec4eb10fa0998f791d2a0d169f2e415820519a7e05508bbc769"
+    },
+    {
+      "path": "products/sungrow-powertitan2-4h.json",
+      "bytes": 2491,
+      "sha256": "9a8adbd6cfd879f1f9c3e26a64275c7c3794787b7e201b0558576c64d2cfcb0b"
+    },
+    {
+      "path": "products/sungrow-st255cs-2h.json",
+      "bytes": 3048,
+      "sha256": "1f6bf38c4d5350564b8feadfd2fd1363cb42864f80ca297d53e944492e25450b"
+    },
+    {
+      "path": "products/tesvolt-powercore-g2.json",
+      "bytes": 2954,
+      "sha256": "3deada3548edc3dc99a3e5e641d47e8cc757fc1e1f9eefc706c555f35d4da0cc"
+    },
+    {
+      "path": "products/tesvolt-tallon.json",
+      "bytes": 3242,
+      "sha256": "f4d52ebd25b38317cbfa305230ff7665ab10e1af4d79291f64bbdf1bf9abffc1"
+    },
+    {
+      "path": "QA.json",
+      "bytes": 2223,
+      "sha256": "1f800e35363730ab0dcf4d199d12e0872f4fcb53b0fb00ad9d465b58760e1b18"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2387,
+      "sha256": "8c9a2138b98e2343452680e454e3a841b27ed0683024bd5d4e5f25f5121b8048"
+    },
+    {
+      "path": "reference_scenarios.json",
+      "bytes": 5166,
+      "sha256": "b72950f5287c7446af8181ebab3e8f1f97b4c531e360a3c2ec087ed1395e4c92"
+    },
+    {
+      "path": "REPORT_ZH.md",
+      "bytes": 17454,
+      "sha256": "ef87863b83f091bad6028645b19d8ef6d782dda21e7131b1753cab7138371a08"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 43869,
+      "sha256": "abb23f66f48ea377c2be8eefd39d33d57003e8b225a76cbc87d51c2b92a64f75"
+    },
+    {
+      "path": "STUDY_INPUTS.json",
+      "bytes": 41985,
+      "sha256": "e69701e29e674340149b64ad5dac8ffb6f4b7272978bb154b0170101c02b549e"
+    },
+    {
+      "path": "tools/build_catalogue.py",
+      "bytes": 19653,
+      "sha256": "a8a53df720b2c9f084760f17f6597941f9d142c788d43815ad88d9c22ab637d0"
+    },
+    {
+      "path": "tools/build_readable_catalogue.py",
+      "bytes": 6453,
+      "sha256": "9bcf63acfa79de6373591ffe8be9fa74ae991f7a47148104a51061874c7d9cd2"
+    },
+    {
+      "path": "tools/build_reference_scenarios.py",
+      "bytes": 7605,
+      "sha256": "373f9388df9b206fcb537596d64a85bd31f6e1702b836743852c9812ab1cbdb8"
+    },
+    {
+      "path": "tools/build_sources.py",
+      "bytes": 6095,
+      "sha256": "37ab4a090d423b756286c8bcdd2f2353db6b41b7a5884825c714768439087c00"
+    },
+    {
+      "path": "tools/build_study_inputs.py",
+      "bytes": 8720,
+      "sha256": "040191b9546266fbbacd18873b9614ddb787a143e3ad6353d5ea35889c89e770"
+    },
+    {
+      "path": "tools/extract_pdfs.py",
+      "bytes": 790,
+      "sha256": "be8efdce026392378fe3aaed1f0823f58ca05121e2a6801c0a56bc88424f2503"
+    },
+    {
+      "path": "tools/package_research.py",
+      "bytes": 1412,
+      "sha256": "6434a011a7db87f859feb29618dcb313e7eb389291e24825ce209141f30b9897"
+    },
+    {
+      "path": "tools/render_key_pages.py",
+      "bytes": 947,
+      "sha256": "7f4ed61709d351b7002f8c150771a00a5356532bd1aa65d8c9a410d5167b9303"
+    },
+    {
+      "path": "tools/verify_catalogue.py",
+      "bytes": 5996,
+      "sha256": "0c384bbf3a6034ec9328a0e51bbf05c07ec2b2f8c9b16d63a441b4ed7145a3aa"
+    },
+    {
+      "path": "VENDOR_GAPS.md",
+      "bytes": 2840,
+      "sha256": "f6ca6799aa4a049905daf706e053c13d7b9563f18cf6a570ff8261938795c551"
+    }
+  ]
+}

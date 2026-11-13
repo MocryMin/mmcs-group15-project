@@ -1,0 +1,1773 @@
+PAGE 1
+LoDES PTES Demonstrator
+and Fenix - SynchroStor
+M20.19.07
+Project Final Report
+
+
+
+
+
+February 2026
+PAGE 2
+M20.19.7 LoDES Final Report - SynchroStor
+
+
+
+
+
+© Crown copyright 2026
+
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated.
+To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3 or write to the
+Information Policy Team, The National Archives, Kew, London TW9 4DU, or email: psi@nationalarchives.gov.uk.
+
+Where we have identified any third-party copyright information you will need to obtain permission from the
+copyright holders concerned.
+PAGE 3
+M20.19.7 LoDES Final Report - SynchroStor
+Contents
+
+Abbreviations _______________________________________________________________ 6
+Executive Summary __________________________________________________________ 9
+Context for Long Duration Energy Storage _______________________________________ 11
+  Global Perspective ________________________________________________________ 11
+  Long Duration Energy Storage _______________________________________________ 12
+SynchroStor PTES __________________________________________________________ 14
+  System Description _______________________________________________________ 14
+  System Benefits __________________________________________________________ 15
+  Technology Status Prior to Project ____________________________________________ 17
+Project Structure ___________________________________________________________ 18
+Work Package 1: Compressor/Expander Components ______________________________ 21
+  Objective _______________________________________________________________ 21
+  Outcome ________________________________________________________________ 21
+    Valve Development _____________________________________________________ 21
+    Test Rigs _____________________________________________________________ 21
+  Work Package 1 Conclusion ________________________________________________ 23
+Work Package 2: Compressor/expander machine _________________________________ 24
+  Objective _______________________________________________________________ 24
+  Outcome ________________________________________________________________ 24
+    Endurance Testing ______________________________________________________ 26
+    Productionisation _______________________________________________________ 26
+    Regulatory Compliance __________________________________________________ 26
+  Work Package 2 Conclusion ________________________________________________ 27
+Work Package 3: Low-level Hardware & Software _________________________________ 28
+  Objective _______________________________________________________________ 28
+  Outcome ________________________________________________________________ 28
+  Work Package 3 Conclusion ________________________________________________ 28
+Work Package 4: Lock-hopper and Heat Exchanger ________________________________ 29
+  Objective _______________________________________________________________ 29
+  Outcome ________________________________________________________________ 29
+PAGE 4
+M20.19.7 LoDES Final Report - SynchroStor
+
+  Work Package 4 Conclusion ________________________________________________ 31
+Work Package 5: Silos/Conveyors/Glass Media ___________________________________ 32
+  Objective _______________________________________________________________ 32
+  Outcome ________________________________________________________________ 32
+     Silos _________________________________________________________________ 32
+    Conveyors ____________________________________________________________ 33
+    Glass Balls ____________________________________________________________ 34
+  Work Package 5 Conclusion ________________________________________________ 35
+Work Package 6: System Control ______________________________________________ 36
+  Objective _______________________________________________________________ 36
+  Outcome ________________________________________________________________ 36
+    Model-based Software Development ________________________________________ 36
+    Control Logic __________________________________________________________ 36
+  Work Package 6 Conclusion ________________________________________________ 37
+Work Package 7: Demonstration Plant __________________________________________ 38
+  Objective _______________________________________________________________ 38
+  Outcome ________________________________________________________________ 38
+    Location ______________________________________________________________ 38
+    Demonstrator Infrastructure _______________________________________________ 39
+   Gas Management & Sub-system Integration __________________________________ 40
+  Work Package 7 Conclusion ________________________________________________ 43
+Work Package 8: Market/Stakeholder Engagement ________________________________ 44
+  Objective _______________________________________________________________ 44
+  Market study _____________________________________________________________ 44
+  Long Term Cost Analysis ___________________________________________________ 47
+  System Benefits __________________________________________________________ 48
+  Work Package 8 Conclusion ________________________________________________ 49
+Work Package 9: Project Management __________________________________________ 50
+  Objective _______________________________________________________________ 50
+  Outcome ________________________________________________________________ 50
+January 2025: Major Project Change ___________________________________________ 52
+Project Fenix ______________________________________________________________ 53
+  Market Push/Pull _________________________________________________________ 53
+PAGE 5
+M20.19.7 LoDES Final Report - SynchroStor
+
+     Industrial Heat Background _______________________________________________ 53
+     Barriers to High Temperature Heat Pump Deployment __________________________ 54
+    High Temperature Drying: An Unmet Market __________________________________ 55
+ MVP Specification ________________________________________________________ 56
+  Fenix Conclusion & Next Steps ______________________________________________ 57
+Conclusion and Next Steps ___________________________________________________ 59
+PAGE 6
+M20.19.7 LoDES Final Report - SynchroStor
+Abbreviations
+
+
+  Abbreviation                             Meaning
+  Ar                                         Argon
+                                   UK Department of Business, Enterprise and
+  BEIS
+                                                           Industrial Strategy
+  BESS                                             Battery Energy Storage System
+  BFD                                           Block Flow Diagram
+  C/E                                         Compressor/expander
+ CAN                                                Controller Area Network
+  CAPEX                                            Capital Expenditure
+  CO2                                      Carbon Dioxide
+ COP                                                Coefficient of Performance
+  COP21                           UN Climate Change Conference 2016
+                                                   D-series compressor/expander machine
+  D430
+                                               developed by SynchroStor
+                                   UK Department of Energy Security and Net
+  DESNZ
+                                               Zero
+ DHP                                           Drying Heat Pump
+ EPC                                            Engineer, Procure, Construct
+  FEED                                           Front End Engineering and Design
+  FOAK                                                    First of a Kind
+  FPGA                                               Field Programmable Gate Array
+  GUI                                            Graphical User Interface
+ GW                                           Gigawatt
+ GWP                                     Greenhouse Warming Potential
+  HAZID                                     Hazard Identification
+ HAZOP                                    Hazard and Operability Study
+ HFC                                           Hydrofluorocarbon
+ HFO                                               Hydrofluoroolefin
+ HPV                                         High Pressure Valve
+  HTF                                        Heat Transfer Fluid
+ HX                                         Heat Exchanger
+  IP                                                       Intellectual Property
+  IRR                                                   Internal Rate of Return
+  KPI                                     Key Performance Indicator
+PAGE 7
+M20.19.7 LoDES Final Report - SynchroStor
+
+ kW                                                 Kilowatt
+  LDES                                     Long Duration Energy Storage
+  LH                                         Lockhopper
+  Li-Ion                                            Lithium Ion
+                                              Longer Duration Energy Storage
+  LoDES
+                                         Programme
+  LPV                                  Low Pressure Valve
+ MRL                                           Manufacturing Readiness Level
+ MV                                    Medium Voltage
+ MVP                                    Minimum Viable Product
+ MW                                       Megawatt
+ NOAK                                       Next of a Kind
+ OPEX                                           Operational Expenditure
+  P&ID                                            Piping and Instrumentation Diagram
+ PCB                                              Printed Circuit Board
+  PFD                                         Process Flow Diagram
+ PHS                                  Pumped Hydro Storage
+  PTES                                 Pumped Thermal Energy Storage
+  PV                                                Photovoltaic
+ PWM                                         Pulse Width Modulation
+ RFQ                                       Request For Quotation
+  ROI                                          Return on Investment
+ WHR                                    Waste Heat Recovery
+ WP                                     Work Package
+                                   UK Department of Business, Enterprise and
+  BEIS
+                                                           Industrial Strategy
+  BESS                                             Battery Energy Storage System
+  BFD                                           Block Flow Diagram
+  C/E                                         Compressor/expander
+ CAN                                                Controller Area Network
+  CAPEX                                            Capital Expenditure
+  CO2                                      Carbon Dioxide
+ COP                                                Coefficient of Performance
+  COP21                           UN Climate Change Conference 2016
+                                                   D-series compressor/expander machine
+  D430
+                                               developed by SynchroStor
+PAGE 8
+M20.19.7 LoDES Final Report - SynchroStor
+
+                                   UK Department of Energy Security and Net
+  DESNZ
+                                               Zero
+ DHP                                           Drying Heat Pump
+ EPC                                            Engineer, Procure, Construct
+  FEED                                           Front End Engineering and Design
+  FOAK                                                    First of a Kind
+PAGE 9
+M20.19.7 LoDES Final Report - SynchroStor
+Executive Summary
+
+In December 2022 SynchroStor was awarded a contract to design, build and test a novel
+Pumped Thermal Energy Storage (PTES) system, with funding from The Department of
+Energy Security and Net Zero (DESNZ) Longer Duration Energy Storage (LoDES)
+Demonstration Programme Stream 2 Phase 2. This followed a short feasibility project (LoDES
+Stream 2 Phase 1) which facilitated entry to the Phase 2 competition. The contract value of
+Phase 1 was £79,560. The contract value of Phase 2 was £9,439,302.
+
+The target application for SynchroStor’s PTES is long-duration energy storage (defined as
+greater than 10 hours), bridging the gap between Lithium-Ion battery systems and Pumped
+Hydro Storage.
+
+The project started on March 1st 2023 and concluded on 14th November 2025. The project
+was structured as an R&D programme, with the objective of developing the technology from
+TRL 4 before combining all sub-systems in a whole-system demonstrator at TRL 6.
+
+During the project, a broad range of activities were undertaken across nine work packages.
+Progress and outcomes were reported monthly to DESNZ with over 120 individual milestone
+deliverables shared.
+
+Major engineering advances were made across all aspects of the design, with notable
+improvements beyond the concepts which had been developed prior to the project.
+
+There was a significant project change in January 2025 when supply chain challenges made it
+impossible to deliver the full scope of work to the original project budget and schedule. In
+discussion with DESNZ it was agreed to terminate the work packages which were running over
+time & budget. The remaining budget was allocated to areas where the innovation value and
+commercialization opportunity was greatest, i.e. the use of the core technology in industrial
+heat pumps.
+
+The project has concluded with some key outcomes.
+
+   •  Pumped thermal storage was modelled and found to be a viable alternative to other
+      energy storage systems, particularly when deployed at durations > 10 hours.
+   •  The technology readiness of the core sub-system in SynchroStor’s PTES – a unique
+      high temperature compressor/expander – was developed and demonstrated at
+       industrially-relevant scale (TRL 6), with market-beating performance, cost profile and
+        versatility.
+   •  The technology readiness of the storage element of SynchroStor’s PTES was not
+     advanced beyond TRL4.
+   •  Further R&D is required to fully develop the full scope of SynchroStor’s PTES.
+   •  As informed by market research, a Minimum Viable Product using this compressor was
+        identified: a high temperature heat pump for decarbonising industrial processes.
+PAGE 10
+M20.19.7 LoDES Final Report - SynchroStor
+
+   •  A route to market and productionisation roadmap for this product was developed.
+   •  Global market pull for this product was demonstrated and follow-on funding is being
+      explored to commercialise it.
+This document is a high-level summary of the 32-month project and more detailed information
+is available in the project deliverables, subject to non-disclosure agreements.
+PAGE 11
+M20.19.7 LoDES Final Report - SynchroStor
+Context for Long Duration Energy Storage
+
+Global Perspective
+
+Today, almost one-third1 of global electricity comes from renewables, of which almost half is
+now from wind and solar energy. These sectors have seen particularly dramatic growth in
+recent years, which has been driven by three factors.
+
+   •  The need to reduce emissions from the burning of fossil fuels to mitigate climate
+      change;
+   •  The increasing competitiveness of wind and solar;
+   •  The benefits to energy security of avoiding reliance on imported energy sources.
+Figure 1: Electricity generation from wind and solar power (UK demand = 300TWh/year)
+
+
+
+
+
+Source: Ember (2024); Energy Institute – Statistical Review of World Energy 2024.
+
+In December 2015 at the UN Climate Change Conference (COP21), 196 parties committed to
+the Paris Agreement, a legally binding international treaty on climate change2. It entered into
+force on 4 November 2016. Its overarching goal is to hold “the increase in the global average
+temperature to well below 2°C above pre-industrial levels” and pursue efforts “to limit the
+temperature increase to 1.5°C above pre-industrial levels.”
+
+In order to meet this goal, power, heat and transport will increasingly need to be decarbonised.
+The most efficient route to doing this is by electrification and using zero-carbon electricity
+
+1 https://ourworldindata.org/renewable-energy ~9000TWh was produced by hydropower, wind, solar and other
+renewables in 2023.
+2 https://unfccc.int/process-and-meetings/the-paris-agreement
+PAGE 12
+M20.19.7 LoDES Final Report - SynchroStor
+
+generation such as renewables, nuclear and possibly fossil fuel generation (when combined
+with carbon capture and storage). At present the lowest-cost forms of generating electricity are
+from wind and solar, which is reflected in the increasing growth of these technologies globally.
+However, the scale required for net zero by electrification is significant.  It is possible that up to
+a seven-fold increase in renewables may be required globally to displace existing use of fossil
+fuels.
+
+Figure 2: Levelized Cost of Energy for wind and solar over time
+
+
+
+
+
+Source: International Renewable Energy Agency (2023)
+
+To support this transition, it is widely understood that energy storage is a required technology,
+as evidenced by the major growth in BESS systems globally. Until recently, Li-ion systems
+(which are the dominant technology in BESS) have targeted short duration storage.
+
+Long Duration Energy Storage
+
+Long Duration Energy Storage (LDES) is generally considered to be of at least 6 hours
+duration and potentially up to several days duration, differentiating it from stand-alone lithium-
+ion battery systems which to date have mainly been deployed with 1-2 hours of capacity
+duration and are not considered to be economic at long durations, even with continued cost
+reductions.
+
+The market for LDES is evolving. McKinsey estimate that this will grow to $1 trillion capital
+investment by 20353. This is driven by:
+
+
+
+3 https://www.mckinsey.com/capabilities/sustainability/our-insights/net-zero-power-long-duration-energy-storage-
+for-a-renewable-grid
+PAGE 13
+M20.19.7 LoDES Final Report - SynchroStor
+
+    1. The growth in wind and solar PV deployment due to increasing cost competitiveness but
+      decreasing price capture with coinciding generation. Renewable generators will
+       increasingly require long-duration storage to shift production to when it is needed and to
+      maximise revenues.
+
+    2. Maximising asset utilisation and efficiency. Electricity network operators need storage
+        for balancing grids, optimising network investment and to obtain grid services that keep
+      the lights on.
+
+In 2022, DESNZ launched the LoDES programme4 to advance the development of LDES
+technologies.
+
+
+
+
+
+4 https://www.gov.uk/government/publications/longer-duration-energy-storage-demonstration-programme-
+successful-projects
+PAGE 14
+M20.19.7 LoDES Final Report - SynchroStor
+SynchroStor PTES
+
+System Description
+
+The proposed PTES is a grid-scale energy storage concept which uses electricity to move
+heat, via a closed Brayton-cycle heat pump, storing the thermal energy (both heat and cold)
+within a low-cost, mineral-based material (glass balls) and re-converting heat back to electricity
+by running the cycle in reverse as an engine. The Brayton cycle is ideally reversible, though
+there are inevitable component losses in the process, giving an expected round-trip efficiency
+of between 65 and 70 percent. Losses include friction in rotating parts, heat loss and minor
+electrical inefficiencies in the motor and controls.
+
+In a Brayton cycle, a gas is initially compressed to raise its temperature. This heat energy can
+be used to do meaningful work – or in this context be removed from the gas and used to heat a
+storage media. Once this heat energy is removed, the remaining high-pressure gas is allowed
+to expand – returning power to the system. At this stage the gas becomes very cold and can
+be used to cool a storage media. After this, the gas returns to the compressor in a closed loop.
+
+The key element in the system is a bespoke compressor/expander (C/E). The SynchroStor
+D430 is a reciprocating machine with compression cylinders mounted radially around a
+driveshaft. A unique hydraulic transmission enables high pressure ratios and versatility of
+operation. This machine is SynchroStor’s core IP.
+
+Figure 3: CAD view of the D430 compressor-expander
+
+
+
+
+
+Because of the unique design of the compressor-expander machine, the PTES process should
+be fully reversible between charge- and discharge-modes in as little as 30 milliseconds,
+allowing rapid frequency support to electricity networks. The power rating and duration of
+storage are both modular and independent of one another, allowing systems to be sized
+according to need – with the possibility of easily upgrading capacity at later dates. The
+minimum power rating and storage duration are 1MW and 5 hours, respectively. The glass
+PAGE 15
+M20.19.7 LoDES Final Report - SynchroStor
+
+storage material is inert and inexpensive, and the plant equipment is largely made of steel,
+allowing for full recycling of the facility at end of life.
+
+Figure 4: Operation of PTES system during charge (storing energy) [as proposed during
+Phase 1]
+
+
+
+
+
+Innovative features of the technology are as follows.
+
+    1. The reciprocating, multi-cylinder, compressor-expander, allows the charge/discharge
+       function to be reversed within 30 milliseconds. This machine is designed from first
+       principles to maximise thermal efficiency – an unusual requirement in reciprocating
+      machines, where intercooling and heat rejection are usually desirable.
+
+    2. Glass balls are used as the thermal storage medium. When not moving through the
+      heat-exchangers, the balls ‘rest’ in hot, cold, and ambient-temperature storage silos.
+
+    3. Hot and cold argon gas and glass balls pass in opposite directions through direct-
+       contact heat-exchangers. Compared with most systems, this effectively halves the
+     number of heat-exchange processes and reduces the associated losses. Argon is
+      chosen because it has favourable thermodynamic properties, is readily available at
+     modest cost and poses no flammability or toxicity challenges.
+
+    4. Lock-hoppers introduce and remove the balls to and from the pressurised heat-
+      exchangers. This allows all ball stores to operate at atmospheric pressure.
+
+System Benefits
+
+Flexible implementation
+The PTES architecture allows power rating and storage depth to be completely decoupled.
+This allows plant configurations to be optimised for different end users who may be targeting
+very different market use cases. A wind farm operator may wish to install a relatively large
+storage depth (measured in MWh) to offset prolonged wind curtailment. A utility-scale PV
+operator may want up to 12 hours of storage to flatten out their diurnal generation profile, or a
+PAGE 16
+M20.19.7 LoDES Final Report - SynchroStor
+
+peaking plant may only need around four hours of storage capacity. Similarly, the power rating
+(measured in MW) can be specified to suit the application.
+
+Given the low marginal cost of PTES thermal storage capacity, it is expected that the system
+will be most economically deployed in applications requiring storage depths greater than ten
+hours.
+
+Site agnostic
+The PTES is site agnostic in that no special climatic, geographical, or physical features are
+required for its location. It could be installed in virtually any site that has been zoned for
+industrial or light-industrial use, with the ideal locations being adjacent either to electrical
+distribution or power generation assets. Advantageously for both planning and operations,
+there are no hazardous materials on site, and during normal operation there would be no fume-
+generating processes. The land area requirement is modest (estimated at 0.5x the requirement
+for equivalently-rated Li-ion BESS), thanks to its high power and energy densities and the
+predominantly vertical arrangement of the system. There is no risk of land contamination to
+complicate decommissioning or site re-purposing.
+
+Synchronous operation
+The PTES is designed to use a directly connected synchronous motor-generator, the same
+type as the electrical workhorses used in traditional fossil and nuclear power stations. Unlike
+the electronic-power-converters that connect most wind and solar plants to the network,
+synchronous generators support the network by providing increasingly valued rotating-inertia,
+voltage support and excellent fault ride-through capacity. In market terminology, Dynamic
+Containment and Firm Frequency Response can be offered. Using synchronous machines
+also negates the need for costly inverters. However, to allow for experimental work and ease of
+commissioning, the arrangement under the LoDES project specified an asynchronous machine
+with an inverter.
+
+Fully reversible within milliseconds
+As the PTES can change its mode of operations within tens of milliseconds, it can be treated
+as fully dispatchable generation. It can also respond to the ancillary services market. Examples
+include peaking and frequency response. This allows the PTES to offer ancillary services to
+the grid, including Dynamic Firm Frequency Response.
+
+Very low energy loss when charged
+Parasitic energy loss from the ball storage silos will be very low. Using appropriate thicknesses
+of high-performance insulation, energy loss can be limited to less than 0.5 % per day.
+
+Long system life
+The PTES system components and storage material are projected to have a long life. Apart
+from some wear and tear typical of industrial equipment (which can be managed through
+planned maintenance) there is no substantial degradation of the storage material itself. Based
+on comparisons with similarly constructed process and generating plant, a plant life of 20 years
+PAGE 17
+M20.19.7 LoDES Final Report - SynchroStor
+
+is a reasonable minimum expectation. This can be compared with the materials that are used
+in Li-ion batteries, which can typically require complete replacement after seven years
+(Jimenez, 2018). However, in the case of the PTES, as a precaution during cost and saved-
+emissions estimations, we factor in the planned replacement of the PTES glass balls after
+every 5,000 cycles, at low marginal cost.
+
+Technology Status Prior to Project
+
+Prior to the LoDES Phase 2 project, SynchroStor had focused on demonstrating the key sub-
+systems and areas of greatest novelty, at lab-scale:
+
+    5. The digital compressor/expander machine;
+
+    6. Heat transfer process between the argon gas and glass balls;
+
+    7. Use of auger for transfer of balls;
+
+    8. The lockhopper.
+
+Reporting on these research and development activities is outside the scope of this document
+but all aspects had been successfully demonstrated to TRL 4, ‘laboratory demonstration’ level
+prior to 2023.
+PAGE 18
+M20.19.7 LoDES Final Report - SynchroStor
+Project Structure
+
+The objective of the project was to increase the PTES technology maturity to TRL 6 and
+validate the value proposition. The Phase 2 plan was a methodical, costed, and de-risked
+programme to develop and demonstrate a system with a one-megawatt power rating and a
+storage capacity of ten megawatt-hours (1 MW/10 MWh).
+
+SynchroStor aimed to significantly increase its UK-based operation while collaborating with
+other expert organisations. By de-risking the technology, SynchroStor expected to attract
+further private funding to accelerate commercialisation steps and identify a robust route to
+market.
+
+From the start, SynchroStor planned to work with sub-contractors. At the outset, PM Projen,
+Sequentec and PNDC were identified.
+
+PM Projen is an award-winning project engineering consultant with a focus on the energy and
+process industries and extensive experience in taking innovative concepts at early technology
+readiness levels to operational plants. PM Projen later restructured as PM Group.
+
+Sequentec is a specialist provider of control systems to the energy systems market.
+
+PNDC (Power Networks Demonstration Centre), a research and testing hub founded by
+government, industry and academia, with specific facilities for testing and operating grid-
+connected equipment, for demonstration and validation.
+
+Over the course of the project, PNDC’s role was reduced as their site was no longer suitable.
+Other sub-contractors were introduced including Orion Research, Quoceant, Caelulum and a
+wide range of component suppliers and manufacturers.
+
+The project was structured around seven engineering work packages supplemented by market
+engagement and project management.
+
+Table 1: Work package breakdown as proposed
+
+  Work          Work package     Description (inc. key tasks)
+  Package ID     Name
+
+  1               Compressor       Design and delivery of all compressor/expander cylinder
+                  Expander          mechanical components. This includes testing on the 200kW test
+                  components           rig, iterating components and developing the 1MW components.
+
+  2               Compressor       Design and delivery of compressor/expander main machine &
+                  Expander          performance data. This includes the design and delivery of a
+                  machine            containerised test-rig suitable for the full-scale
+                                     compressor/expander demonstration.
+PAGE 19
+M20.19.7 LoDES Final Report - SynchroStor
+
+
+  3             Low level          Design and delivery of compressor/expander low-level controller.
+                       controller           This controller will be implemented on the early test rigs in WP1
+                  hardware and      and WP2, for parallel development until integration into the PTES
+                    software          demo.
+
+  4                Lock-hopper /      Design, validation and delivery of hot heat-exchanger and lock-
+                   heat-exchanger     hopper. This includes the sequential testing of individual sub-
+                                      assemblies before integration into the complete HX&LH required
+                                                for the PTES demo.
+
+  5                 Storage: Silo /      Delivery of the storage system hardware required for the
+                   conveyer /         demonstration plant and other test-rigs. This includes all aspects
+                   Glass balls           relating to the thermal storage infrastructure. The scope includes
+                                         the sourcing and testing of glass balls and the design and
+                                        sourcing of insulated storage-silos, material-conveyors, and
+                                      argon-gas management equipment.
+
+  6              System control      This work packages will develop a higher-level system controller
+                  Hardware and       to control the complete PTES system including the heat-
+                   Software (HW      exchangers, lockhoppers and ball transfer equipment.
+                 and SW) and      Development of the controller will be supported by Matlab
+                     simulation          modelling of the sub-systems.
+
+  7                Demonstration     Design & delivery of 1MW x 10MWh demonstration PTES. This
+                      plant              work-package comprises the design, sourcing and supervision of
+                                                        all components and services necessary for the installation of the
+                                     complete demonstration plant. A system control team will run the
+                              demo plant through agreed test schedules and data collection
+                                     campaigns.
+
+  8                Market /            This WP includes the updating of the Phase 1 market study to
+                    stakeholder         refresh our understanding of the best short and long-term market
+                 engagement        opportunities for PTES technology. We will use the outputs of the
+                                       backward-facing simulations from WP6 to examine the sensitivity
+                                             of our business case to market variables. As we achieve key
+                                            project milestones, we will seek to interact with specialist and
+                                       general presses and will look for opportunities to publish the
+                                   outcomes of our work in peer-reviewed journals.
+
+  9                  Project              Project management, recruitment, reporting and financial control.
+                Management
+
+  10             NZIP KPIs        KPI reporting to BEIS as required at startup, mid-way and close.
+PAGE 20
+M20.19.7 LoDES Final Report - SynchroStor
+
+In the following sections, each work package is described including work completed and
+outcomes. In total, over 120 individual deliverables were submitted to DESNZ to document
+project process. This document is a high-level summary of the work undertaken in this project.
+PAGE 21
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 1: Compressor/Expander
+Components
+
+Objective
+
+The core components of the D430 compressor/expander are the valves and pistons in each of
+its cylinders. The digital control of each cylinder means that it can be controlled independently,
+making the technology easily scalable. This arrangement also allows rapid development as
+quick iteration can be done with a single cylinder prototype before committing to batch
+manufacture. This work package covered design and delivery of all compressor/expander
+cylinder mechanical components.
+
+A 200 kW test-rig suitable for performance and short-endurance testing was proposed. Based
+on experience with it, and a final machine specification, a second major iteration of the
+components was planned for the 1 MW demonstration plant.
+
+Outcome
+
+Valve Development
+
+Over the course of the project, the valve designs progressed through three major design
+iterations with a fourth design prepared for implementation just beyond the project period.
+
+The valve technology represents some of SynchroStor’s core IP. Hence the design detail is not
+reported on in this document.
+
+Learning from machine testing informed design iterations which included:
+
+   •  Improved packaging for ease of assembly;
+   •  Reduced part count for cost reduction;
+   •  Development of design features to improve quality;
+   •  Increased flow areas for reduced pressure drop.
+The net result of the work package was greatly improved machine performance, achieving the
+target temperature for LoDES and isentropic efficiency >85%.
+Test Rigs
+
+Rig 1
+In parallel with valve development, significant upgrades were made from what was previously
+SynchroStor’s only C/E test rig. Initially, the rig was only capable of basic seal leakage tests
+and lacked the infrastructure for continuous flow and temperature control. The first upgrade
+PAGE 22
+M20.19.7 LoDES Final Report - SynchroStor
+
+under LoDES introduced three major subsystems: a high-pressure heat exchanger, an
+advanced pressure regulation system, and a low-pressure heat exchanger. These additions
+allowed the rig to handle high-temperature gas flows, testing compression up to 475°C and
+pressures up to 200 bar, while maintaining safe and stable operating conditions. In expansion,
+testing showed successful cooling of gas from 260°C to 20°C.
+
+Rig 3
+A second, higher-power test rig (“Rig 3”) was also designed and built to allow full machine
+testing. This became SynchroStor’s key tool for validating machine performance and carrying
+out endurance testing.
+
+Figure 5: C/E Rig 3 under construction
+
+
+
+
+
+Figure 6: C/E Rig 3 completed
+PAGE 23
+M20.19.7 LoDES Final Report - SynchroStor
+
+Work Package 1 Conclusion
+
+This work package concluded with:
+
+   •  The SynchroStor compressor/expander valves were successfully developed over four
+      major design iterations.
+   •  SynchroStor test infrastructure was greatly improved in capacity and capability.
+   •  Compressor/expander performance was found to be in line with expectations.
+   •  Machine isentropic efficiency was measured above 85%.
+   •  Reaching 400°C temperature when operating in compression-only with Argon gas,
+     hence meeting the LDES performance target.
+   •  Capable of >200°C single-stage temperature lift when using CO2 gas. This is a major
+       differentiator in the heat pump market.
+   •  Demonstrating other unique features such as idling, high part-load efficiencies and rev-
+      by-rev controllability.
+PAGE 24
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 2: Compressor/expander
+machine
+
+Objective
+
+This work package included the design and delivery of a containerised test-rig suitable for the
+full-scale compressor/expander demonstration.
+
+Outcome
+
+During this work package, the general arrangement of the machine went through many
+iterations. The design concluded with a more modular design using a number of smaller
+machines rather than two larger units as initially envisaged. This has multiple benefits including
+following.
+
+   •  Increased pool of suppliers, which drives competition and reduces part costs.
+   •  Reduces lead times, allowing more iterations of components and reducing overall risk to
+      the project timeline.
+   •  Improved redundancy – if there is a failure in the machine it is possible to
+      remove/replace a single machine and continue testing.
+   •  Design efficiency – part commonality with the D430 reduces design burden, and the
+      spares requirement.
+   •  Assembly – Assembling several machines of the same design allows for an element of
+       “productionisation” thus increasing manufacturing maturity.
+   •  Commissioning – machines may be commissioned as smaller D430 modules, utilising
+      the same test setup and equipment as the first D430 build.
+
+
+Later in the project, this work package included assembly of machines as parts were delivered.
+All parts were inspected by SynchroStor staff and assembled according to procedures
+developed in-house. The machines were then assembled onto the test bed (called “C/E Rig 2”)
+where the machines were connected to a common shaft from the 1MW motor. Ancillary
+equipment – hydraulics, cooling, controls – were also installed and commissioned. These are
+illustrated below.
+PAGE 25
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 7: C/E Rig 2 Arrangement developed during Phase 2
+
+
+
+
+
+Figure 8: D430 machines being assembled for C/E Rig 2
+PAGE 26
+M20.19.7 LoDES Final Report - SynchroStor
+
+Endurance Testing
+
+In the latter stages of the project, SynchroStor has been developing at Minimum Viable
+Product (MVP) for industrial heat pump applications. The specification of any MVP should
+include a sufficient product lifetime such that customers can visualise long-term operating
+costs and emissions savings. With a working prototype on a robust test rig, SynchroStor’s
+focus has been to demonstrate the long-term reliability of the machine.
+
+Initially, the accumulation of test hours was slow as testing focused on short-term performance
+tests across a variety of operating conditions to better understand machine behaviour.
+Periodic downtime was required to make upgrades to the test rig for general operability and to
+make it suitable for operations with CO2 as a working fluid. Once confidence in the machine
+and test rig was established, the rig could be run for much longer hours.
+Productionisation
+
+A significant task within this work package was to explore the productionisation roadmap for
+the SynchroStor compressor/expander, i.e. how the machine would be made market-ready.
+The study was structured around three topics: cost reduction, supply chain and regulatory
+compliance. All three relate to increasing the Manufacturing Readiness Level (MRL) of the
+product.
+Regulatory Compliance
+
+SynchroStor is looking at both the EU and UK markets as the first markets to deploy the D430.
+To achieve this, the machine must have a CE mark affixed to the product (the UK accepts CE
+Marking in addition to UK CA marking for the indefinite future)
+(https://www.gov.uk/guidance/ce-marking). A roadmap was developed for pursuing compliance
+with relevant regulations, illustrated below.
+
+Figure 9: Route to regulatory compliance
+PAGE 27
+M20.19.7 LoDES Final Report - SynchroStor
+
+Five core directives were identified and explored in detail to identify next steps.
+
+The final step in the process would be to create a Declaration of Conformity / Declaration of
+Incorporation that can be issued to the purchaser to indicate that the complete system is
+compliant with EU Regulation and that all applicable directives and standards have been
+correctly adhered to.
+
+A CE mark and nameplate, detailing model number, serial number, and other key information,
+must be affixed to the product being sold. An appropriate nameplate and declaration of
+conformity would be created upon completion of technical construction file.
+
+Work Package 2 Conclusion
+
+This work package concluded with:
+
+   •  The SynchroStor compressor/expander machine was developed into a higher-TRL,
+      modular, stackable unit in line with PTES design ambitions.
+   •   All supporting sub-systems including control, hydraulics and driveline were similarly
+      developed to a scalable design.
+   •  Endurance testing showed good overall reliability apart from one component for which a
+      design change was already underway.
+   •  A comprehensive productionisation study identified the cost trajectory, supply chain and
+       regulatory requirements for market entry.
+PAGE 28
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 3: Low-level Hardware &
+Software
+
+Objective
+
+The low-level hardware and software components of the compressor/expander machine
+complement its mechanical components. ‘Low-level’ is used in this context in contrast to the
+‘high-level’ system-controller that will look after the entirety of the PTES system. The low-level
+control system operates on a timescale of microseconds because it must provide precisely
+orchestrated timing signals for the coordination of valve switching across the many cylinders of
+the compressor/expander machine.
+
+This controller and its embedded software have many parallels with the those developed for
+the 7MW wind transmission referred to above. Hence the functional requirements and
+operating framework are familiar to SynchroStor engineers, and its development has been
+underway since 2020.
+
+The methodology follows that of the mechanical compressor/expander components -
+increasing in scope as the machine grows from single-cylinder testing to multi-bank 1 MW
+scale.
+
+Outcome
+
+At the outset of the project, the test rig compressor-expander was controlled by an Arduino (a
+microcontroller designed for rapid-prototyping) and used an evaluation board as a coil driver.
+This setup had a lot of limitations, in particular it was not scalable to larger machines due to the
+delicate assembly & wiring. It was decided to develop a custom PCB which evolved over three
+iterations to a stable control platform now used on all SynchroStor’s test rigs. The firmware and
+front-end GUI continue to be developed, rolling out new features as required.
+
+As per WP1, this technology represents some of SynchroStor’s core IP. Hence the design
+detail is not reported on in this document.
+
+Work Package 3 Conclusion
+
+This work package concluded with following.
+
+   •  The embedded hardware and software required to control SynchroStor’s
+      compressor/expander developed to a highly refined stage with all functionality in place.
+   •  Front-end user interfaces also developed.
+   •  A comprehensive productionisation roadmap in place.
+PAGE 29
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 4: Lock-hopper and Heat
+Exchanger
+
+Objective
+
+The direct heat-exchanger developed by SynchroStor allows a high heat-transfer efficiency. Its
+design was based on a rotating screw-auger, moving balls in one direction while pressurised
+argon is pumped in the opposite direction, in a contraflow arrangement.
+
+A unique feature of the SynchroStor concept is the introduction and removal of glass balls to
+and from the pressurised heat-exchangers, whilst avoiding otherwise inescapable pressure
+losses. This is achieved by a specially developed isenthalpic lock-hopper system.
+
+Both sub-systems, the heat-exchanger and the lockhopper, had been demonstrated
+independently by SynchroStor. The design and manufacturing processes involved are those of
+pressure-vessel and heavy hydraulic engineering,
+
+This work package included design and delivery of the 1MW scale heat exchanger and
+lockhoppers.
+
+Commissioning was to be carried out step by step, starting with static pressure testing and
+gradually increasing in scope by adding dynamic interactions. This is the same, risk-controlled
+approach in the compressor-expander work package.
+
+Outcome
+
+The SynchroStor lockhopper concept is highly innovative, using pairs of large poppet valves to
+control the flow of glass balls into and out of a high pressure heat exchanger. This had been
+demonstrated at lab scale prior to the project so the first task was to demonstrate at larger
+scale. A test rig was designed and assembled.
+
+While these heavy-walled pressure vessels were being manufactured, other test rigs were built
+to test the flow of balls through the system. Bespoke knife and iris valves were conceived and
+tested successfully, required to control the flow of material.
+
+This work package also managed the design of the heat exchanger vessels. These were
+substantial, 600mm internal, 915mm external diameter x 2500mm long, heavy-walled steel
+tubes to be mounted between the upper and lower lockhopper assemblies. The large diameter
+was required to give sufficient cross-sectional area to reduce the gas pressure drop through
+the stack of balls inside the heat exchanger. A wall thickness of just under 160mm was
+needed to satisfy the high temperatures and pressures.
+PAGE 30
+M20.19.7 LoDES Final Report - SynchroStor
+
+The wall thickness and steel grade requirements were outside standard ‘off the shelf’ tube
+supply, so a custom forging was required. Several options for the supply of the two heat
+exchanger tubes were explored in UK and Europe. Ultimately the tubes were sourced through
+C+R Hydraulics who managed the forging, heat treatment, machining, coating and delivery
+process using specialist subcontractors in Italy.
+
+Figure 10: Forged tube prior to heat treatment and machining
+
+
+
+
+
+Figure 11: Finished tube after delivery to Edinburgh
+PAGE 31
+M20.19.7 LoDES Final Report - SynchroStor
+
+Work Package 4 Conclusion
+
+This work package concluded with:
+
+   •  Lockhoppers were successfully trialed and procured for the PTES demonstrator;
+   •  Innovative valves were developed for controlling the flow of glass balls;
+   •  The components for SynchroStor’s unique direct-contact heat exchanger proved to be
+       readily available, although not from the UK supply chain.
+PAGE 32
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 5: Silos/Conveyors/Glass
+Media
+
+Objective
+
+In this work-package, all aspects relating to the thermal storage infrastructure were to be
+finalised. Its scope includes the sourcing and testing of glass balls as well as the design and
+sourcing of insulated storage-silos, material conveyors and argon-gas management
+equipment.
+
+Most of the sub-systems developed in this workstream can be specified using off the shelf
+components and processes repurposed from other industries.
+
+Outcome
+
+Silos
+
+Silos are required in the PTES demonstrator to store the glass balls used as the energy
+storage medium. In July 2023 early engagement with suppliers showed the cost to
+manufacture vertical silos, as planned during the concept phase, was beyond the available
+budget. Traditional cylindrical, vertical silos would need to be substantially re-worked to resist
+the high temperatures. Additionally, the height required for the balls to flow through the silos
+added cost to the conveyors and surrounding support structure. A substantial amount of
+research was done to explore how to reduce the height of the silos and associated ball
+transport ductwork. It became clear that more research into material behaviour was required.
+
+The angle of repose (the steepest angle at which a granular material can be piled without
+slumping) of regular sized balls is approximately 30°. However, the angle that the balls roll
+reliability on a flat surface is about 10°. The design concept of the silos and ball ducting was
+revised so balls rolled to fill and empty the silo and rolled through the connecting ductwork in
+and out of the heat exchanger. This change in design substantially reduced the height of the
+conveyors and ductwork but required the ducting and silos to have flat, smooth rolling
+surfaces.
+
+Orion Research were contracted to design and build the “hot” and “ambient” storage silos.
+These were based on modified 20ft shipping containers using the flat floor as the rolling
+surface to ensure that the containers emptied reliably. Two similar units were specified.
+Modifications to the “hot” shipping container/silo included:
+
+   •  Sand blasting and removal of all paints and coatings;
+   •  Gas leak testing and seam welding to completely seal the volume;
+   •  Adding fill and empty features and an access hatch;
+PAGE 33
+M20.19.7 LoDES Final Report - SynchroStor
+
+   •  Lining with a thin, insulating later of vermiculite insulation to prevent the walls of the
+       container from warping when hot balls are loaded;
+   •  Adding a layer of stainless steel sheet on the inside of the insulation to give a smooth
+        rolling surface.
+   •  Suspending a flat loading chute to the ceiling so the balls load evenly
+   •  Reinforcing the outside of the container with a steel exoskeleton to ensure structural
+        integrity
+   •  Decoupling the container from the support structure with bearing pads which allow for
+      thermal expansion as the container changes in temperature
+   •  Adding sensors for measuring fill level, pressure and temperature
+The ambient silo was modified in a similar way but suitable for lower temperatures.
+
+Figure 12: Silo delivery & installation
+
+
+
+
+
+Conveyors
+
+Conveyors are needed to lift the balls from the outlet of the heat exchanger to the inlet of the
+silos and from the outlet of the silos to the inlet of the heat exchanger. 11m lift height was
+required. Two types of conveyor were investigated:
+
+   •  Tube chain/drag conveyors that pull material through a tube with a chain and discs
+   •  Bucket conveyor which uses a series of buckets attached to a chain or belt to transport
+       materials horizontally, vertically, or at an incline
+While a tube conveyor would have been easier to insulate and make gas-tight, and could have
+provided a longer-term, more cost-effective solution, no off-the-shelf high-temperature products
+were available and a bespoke system would have been required. Several test assemblies of a
+PAGE 34
+M20.19.7 LoDES Final Report - SynchroStor
+
+tube conveyor were built in-house but it was concluded that a full solution would have taken
+too long to develop and put the project at risk.
+
+An Italian manufacturer, MDG Handling Solutions, was identified who could supply gas-sealed
+bucket conveyors that could operate at the required temperature. Although these were
+expensive and over-sized for the PTES Demonstrator, they could be manufactured and
+delivered within schedule.
+Glass Balls
+
+11mm diameter SiLi (Soda Lime) glass balls were chosen for the heat storage medium, for the
+following reasons.
+
+   •  The material has good heat capacity.
+   •  Balls have a regular spherical shape which means the heat transfer process is easily
+     modeled and their rolling/flowing is predictable.
+   •  Glass balls are extremely robust.
+   •  Glass balls have an existing, accessible, high-volume supply chain.
+   •  Glass balls are relatively cheap. Longer-term, they can be manufactured from recycled
+      glass cullet to reduce the cost substantially.
+Specialist consultants, GTS (Glass Technology Services), were contracted to confirm the
+mechanical properties of glass balls, also to explore methods for improving their toughness (if
+required) and advise on large scale manufacturing.
+
+Testing at SynchroStor indicated the delivered glass beads performed well, and while a
+potential increase in strength might be attractive, it was likely to add cost. GTS considered
+thermal toughening to induce compressive stress onto the exterior surfaces of the glass
+spheres as well as water quenching.
+
+Thermal toughening was not effective as the glass is above the softening point and will tend to
+bond to other glass items, can stick to the container used and will distort away from a spherical
+geometry. Quenching using air jets was effective gave rise to a 39% increase in strength
+compared to the delivered beads.
+
+GTS research into high volume marble manufacture showed that ball production is by ‘rolling’
+and it would be possible to add additional air cooling as a quenching mechanism. This could
+offer an in-factory process improvement to increase the final residual stress in the spheres.
+
+Procurement
+50 tonnes of 11mm Diameter SiLi glass balls/marbles bought from Sigmund Lindner GmbH.
+These glass balls are more expensive and higher purity (clear rather than coloured) than would
+be used in a follow-on PTES projects but were available in the quantities needed for this
+project, on schedule.
+PAGE 35
+M20.19.7 LoDES Final Report - SynchroStor
+
+Work Package 5 Conclusion
+
+This work package concluded with following outcomes.
+
+   •  Silos proved to be more complex than expected but a modular solution was identified for
+      the PTES demonstrator.
+   •  Conveyors had also been expected to be off-the-shelf but time pressures meant a sub-
+      optimal procurement route was selected. Future PTES would require deeper supply
+      chain engagement to deliver a bespoke design.
+   •  Glass beads were confirmed to be readily available at reasonable cost, with significant
+      cost reduction potential.
+   •  Glass beads are mechanically durable and suitable to the PTES application.
+   •  Glass beads are highly suited to storing heat at high temperatures. At low temperatures,
+       greater volumes are required which reduces the system cost effectiveness unless
+      operating at scale. Future projects should down-select the optimum combination of
+       hot/cold media on a project-specific basis.
+PAGE 36
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 6: System Control
+
+Objective
+
+The system controller takes overall control of the complete PTES system including the heat-
+exchangers, lockhoppers and ball transfer equipment. The high-level system ensures smooth
+inter-operation of all sub-systems and integration of the whole with the power grid. The
+objective of this works package was two-fold: developing detailed models of the system to
+optimise design details; develop the control system for operating the PTES.
+
+Outcome
+
+Model-based Software Development
+
+As planned, models of all sub-systems were created in a virtual environment: Matlab
+Simscape. This work was non-trivial and required specialist skills from both SynchroStor’s
+team and a sub-consultant Quoceant. Over the course of the project, a complete model
+including the following elements was developed:
+
+   •  The Compressor/Expander (C/E) machines;
+   •  The Hot Heat Exchanger (HHX) and its twin lockhoppers (LH);
+   •  The conveyers that feed the glass balls into/out of the LHs from/into the stores;
+   •  The 2 silos where the glass balls will be stored. One ambient and one hot;
+   •  The Cold Heat Exchanger (CHX);
+   •  The cold material, storage volume and transfer method. Whether it is glass balls,
+      engineered cold fluid or indirect fixed packed bed;
+   •  The gas management system;
+   •  The auxiliary heat exchangers;
+   •  The electric motor;
+   •  The hydraulic circuit;
+   •  The pipes.
+
+Control Logic
+
+Following on from this model development, subsequent work in this work package developed
+the control logic for the PTES plant, illustrated below.
+PAGE 37
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 13: Plan view of PTES plant showing control elements
+
+
+
+
+
+Work Package 6 Conclusion
+
+This work package concluded with:
+
+   •  Comprehensive modelling of all sub-systems to support design, sizing and procurement
+       decisions;
+   •  Development of system control of the full PTES. This included the ‘full stack’ including
+       transducer/actuator I/O, control hardware, PLC code, control logic and user interfaces.
+PAGE 38
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 7: Demonstration Plant
+
+Objective
+
+This work-package comprised the design, sourcing and supervision of all components and
+services necessary for the installation of the complete demonstration plant. This included:
+
+   •  Definition of safety procedures and implementation of safe-systems-of-work to assure
+      operator safety and plant integrity for different life stages of the demonstration plant;
+   •  Definition of the interfaces between sub-systems;
+   •  Coordination of contractors for such as civil works, grid connection and building
+       modifications;
+   •  Support of engineering teams in the different work-packages during the installation,
+      commissioning, and operation of the plant.
+It was planned that PM Projen would be one of the main contributors to this work package, but
+SynchroStor would also rely on engineering resources from other work packages as required
+and engineers with responsibilities for different sub-systems will provide support as required.
+Design and implementation of the electrical balance-of-plant to connect to PNDC’s grid
+network would also be executed in this package.
+
+Outcome
+
+Location
+
+Early in the project, SynchroStor moved site to a location which offered (a) a high-capacity
+11kV grid connection and (b) ample outdoor space. This presented an option for the PTES
+Demonstrator to be located here rather than at PNDC’s site. This had obvious logistical
+benefits and was agreed with DESNZ.
+PAGE 39
+M20.19.7 LoDES Final Report - SynchroStor
+
+Table 2: Justification for change of site
+
+  Variable                     PNDC                       Edgefield Road
+
+   Electrical Supply                    11 kV, >1 MW              11 kV, >1 MW
+
+  Working Area                              Potentially up to 8m x 50m     Outdoors 30m x 32m, with
+                                          outdoors if we negotiated     good access on 3 sides.
+                                      use of most of the site.
+
+                                                                        Indoors 15m x 15m
+                                           Indoor space limited to a
+                                        meeting room.
+
+  Machine shop and assembly area      Not available. Would need    On site
+                                                 to fit our containers and
+                                             bring with us for smaller
+                                            jobs on site. Shuttle runs
+                                                 to SycnhroStor’s workshop
+                                                    for larger jobs.
+
+  Demonstrator location                 45-minute drive from          Co-located with SynchroStor’s
+                                          SynchroStor’s offices.           offices.
+
+   Civils                                Concrete pour required.       Concrete pour required.
+
+  Post LoDES                           Pressure to free up site for    Lead tenant status – reduced
+                                 new PNDC clients.            pressure to remove the
+                                                                      demonstrator immediately after
+                                                      LoDES Phase 2.
+
+
+Demonstrator Infrastructure
+
+Civil works and supporting infrastructure were large aspects of the work package. A 300m2
+concrete pad was laid and a large supporting frame designed & assembled. In addition,
+temporary bunds were specified to capture any spilled fluids. The existing 11kV electrical
+connection to the site was used, with an 11kV-690V transformer installed.
+
+
+Figure 14: PTES frame (left), bunding and ISO tanks (stainless steel pressure vessels built
+to 20-foot shipping container dimensions, conforming to standards by International
+PAGE 40
+M20.19.7 LoDES Final Report - SynchroStor
+
+Organization for Standardization, (right)
+
+
+
+
+
+Figure 15: 11kV to 690V transformer and cabling
+
+
+
+
+
+Gas Management & Sub-system Integration
+
+The purpose of the gas management system was to tie together the compressor/ expander
+with the hot and cold thermal stores and maintain operating pressures within the full plant.
+Many of the safety controls of the PTES plant were designed into the gas management
+system. As such the design was an iterative process requiring input from all design teams in
+SynchroStor as well as support from external experts.
+
+Most equipment procurement started towards the end of the P&ID phase however, some long-
+lead time equipment such as the high pressure trim cooler (Figure 16) and gas management
+compressors (Figure 17) were purchased early on in the project (before the completion of
+P&IDs) to mitigate against risks of delays. Following the completion of the P&ID phase by PM
+Group, the design was handed back to SynchroStor.
+PAGE 41
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 16: Cold Heat Exchangers (left); ISO Tank for Cold Storage (middle) and High
+Pressure Trim Cooler (right)
+
+
+
+
+
+Figure 17: Gas Management Compressors (LP, MP and HP left to right)
+
+
+
+
+
+Following a bidding stage for pipework design, manufacturing and installation, R&M
+Engineering (now Aurora Energy Services) were engaged to carry out the work. As part of the
+design they made a 3D scan of the PTES demonstration site and major equipment (Figure 18).
+The high pressure (hot) heat buffer imposed significant delays on the project due to the
+manufacturer’s inability to source hardware on time. This increased pipework design costs due
+to uncertainty about tie-in locations.
+
+Pipework design was split into Phase 1 (Figure 19) which would be sufficient to commission
+the compressor/ expander with a thermal load, whereas Phase 2 would be the tie-in to the hot
+heat exchanger and hot store system. The intention of the phasing of construction was to
+prevent construction and equipment delays impacting the full project, allowing testing to start
+before the completion of the complex hot store system.
+PAGE 42
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 18: Point Cloud Map of PTES Demonstrator for Pipework Design
+
+
+
+
+
+Figure 19: Phase 1 Pipework Design Overlayed on 3D Scan
+
+
+
+
+
+Upon pausing the project in April 2025, the gas management compressors were ready for
+commissioning; phase 1 pipework and gas management design had been approved and was
+ready for construction with all major equipment, including valves, on-site. The hot thermal
+buffer was still delayed. RFQs for piping phase 2 had also been submitted, with the design
+having been done by SynchroStor.
+PAGE 43
+M20.19.7 LoDES Final Report - SynchroStor
+
+Work Package 7 Conclusion
+
+This work package concluded with:
+
+   •  The PTES plant was designed appropriately with extensive input from sub-contractors.
+   •   Civil and electrical works were completed to specification.
+   •   All pressurised systems were subject to HAZOP studies, as per industry standards.
+   •  As the design developed, this work package presented the greatest challenges, with
+      cost increases which could not be accommodated.
+   •  This work package would have benefited from more extensive work during the feasibility
+       stage, e.g. a FEED study, prior to LoDES phase 2.
+PAGE 44
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 8: Market/Stakeholder
+Engagement
+
+Objective
+
+This work package aimed to refresh SynchroStor’s understanding of the best near-term and
+long-term market opportunities for PTES technology. A deep analysis of the market and
+potential revenue streams for the technology was completed alongside a long-term cost
+prediction for commercial plants. Both fed into a techno-economic analysis of the technology.
+
+An important objective was to consolidate SynchroStor’s visibility and credibility by
+communicating PTES capabilities to potential licensees, purchasers and the wider public. For
+the PTES technology to reach maturity and for SynchroStor to become financially viable,
+further investment was to be sought.
+
+It was also planned to present potential productionisation partners with intermediate project
+outcomes and market intelligence. Some of the key stakeholders targeted during the
+programme would be potential end customers. The intention was to be able to demonstrate to
+them that the PTES technology was credible from a technical, financial and business
+perspective, and that investor and partner risks had been identified and contained.
+
+Market study
+
+Over the course of the project, over 160 stakeholders were engaged with, both in the UK and
+overseas, across:
+
+   •  End users;
+   •  EPCs / Project Developers;
+   •  Investors; and
+   •   Politicians / industry groups.
+An initial area of analysis was the duration of storage required. LCP Delta were engaged to
+explore this. Their analysis showed that annually, in a decarbonised grid in the UK by 2030-
+2035, there will be more than 100 periods requiring discharge time of 15 to 24hours. This
+justifies the business case for LDES. The analysis also concluded that assets able to
+discharge for 24 hours or more will be able to participate in 95% of events requiring generation
+and will attract the largest revenues.
+PAGE 45
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 20. LCP Delta analysis of 2040 - 2050 UK electricity supply/demand
+
+
+
+
+
+Solar is a key area of growth. UK Government’s Clean Energy System target is 45-47GW of
+installed solar5. SynchroStor believes that with >2/3 of this likely to be non-domestic, the
+market opportunity for co-located storage is ~£10bn for 10GW capacity storing up to 240GWh.
+
+Renewable generators will increasingly require long-duration storage to shift production to
+when it is needed and to maximise revenues. Analysis showed that the ‘duck curve’ is
+changing shape as more renewables are added to the UK grid. The curve is getting broader
+and deeper.
+
+
+
+
+
+5 Solar roadmap: United Kingdom powered by solar (accessible webpage) - GOV.UK
+PAGE 46
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 21. SynchroStor analysis of Duck curve evolution
+
+
+
+
+
+Discussions with stakeholders (e.g. developers of solar projects) highlighted three key
+challenges which SynchroStor’s PTES can address.
+
+Economics
+   •  Solar projects face uncertain prices and returns over their project lifetime.
+   •  Average daily price captured by solar is falling as more solar is deployed.
+   •  SynchroStor can mitigate price risk and increase revenues by arbitraging cheap solar
+     and cheap off-peak electricity over periods of 8-24hours+.
+Planning consent
+   •  Solar developers looking to co-locate short duration lithium batteries have faced
+       rejection due to public concerns about safety.
+   •  SynchroStor’s technology is considered benign and unlikely to raise local environmental
+       objections.
+Grid connection
+   • UK grid capacity is scarce with some connection offers now being for 2035+.
+   •  With a relatively low capacity factor, existing solar projects have poor grid utilisation.
+   •  SynchroStor can enable a 3x larger project on an existing grid connection, a faster route
+       to market and significantly better grid capacity utilisation.
+In summary, co-locating PTES with solar presents an opportunity: significant increased
+revenues on constrained grid connections, reducing risks for project developers. Further
+PAGE 47
+M20.19.7 LoDES Final Report - SynchroStor
+
+modelling to quantify the benefit confirmed an attractive use case co-locating PTES with solar.
+The benefits to project developers are:
+
+   •  3x increase in size of project on same grid connection for existing projects:
+   •  66% less grid capacity requirement for new projects;
+   •  2x increase in revenue (vs project without SynchroStor Storage);
+   •  Increased ROI.
+
+Long Term Cost Analysis
+
+During the project a concept study of a commercial plant was developed and used to estimate
+the long term cost trajectory. The demonstration plant was developed as a test rig to validate
+the performance and viability of the different subsystems and not as a fully integrated
+commercial plant.
+
+For a commercial plant, SynchroStor is planning to develop factory-built power modules
+(compressor expander skid and heat exchanger conveyor skid), which can be dropped in
+place, very much like Li-ion battery containers. This strategy would allow the development of
+more efficient dedicated production lines, reducing work on site, reducing cost and improving
+quality.
+
+The energy storage component is made of lightweight structures to store materials in
+atmospheric enclosures. The duration of the energy storage is completely independent of the
+power rating and can be extended to reach the required storage depth. The storage enclosures
+can be made of modular components which can assembled on site very rapidly.
+
+The complete system has a relatively small footprint and elevation, which together with the
+absence of dangerous materials or risk of fire is expected to significantly reduce planning cost.
+
+The experience gained during the design phase of the demonstration plant and particularly the
+sourcing work with suppliers and development partners, has allowed SynchroStor to gain solid
+experience in designing complex process plants at commercial scale and provide a robust
+baseline to estimate cost of a complete system.
+
+The capital (hardware) cost required to duplicate the First of A Kind (FOAK) plant was
+estimated at $5.3m / MW + $150k / Hr of discharge.
+
+Considering a 10% learning rate and 1GW cumulative installed capacity, the FOAK plant cost
+is expected to drop at $1.3m/MW + $30k/Hr of discharge.
+
+The cost of capital was compared with other LDES options such as Li-ion Battery Energy
+Storage and Pump Hydro Storage. Although the SynchroStor PTES is more expensive than
+BESS and PHS for first commercial projects, SynchroStor expect that the system would have
+lower CAPEX than PHS and would be cost competitive against BESS from ~7hours of
+discharge duration.
+PAGE 48
+M20.19.7 LoDES Final Report - SynchroStor
+
+SynchroStor conducted extensive modelling of performance to optimise purchase and selling
+of electricity that could be applied to any geographic market. An example study was carried
+out for a Greek client that analysed prices in the Greek day-ahead market. Results showed
+that a SynchroStor system could enable 3x the size of PV project on the same grid connection
+and 4x the revenue of the PV project without storage. Combining the Capex of the PV project
+with the SynchroStor Storage project increases the IRR to 13.1% from 6.8% for a stand-alone
+project.
+
+Figure 22. Comparison of Li-ion and PTES value proposition
+
+
+
+
+
+Moreover investment returns would be substantially increased compared to projects without
+storage as more renewables are deployed; the best return obtained was with 24 hours of
+storage. 1-hour batteries can make similar returns but are far less useful for meeting Greek
+renewables targets since they will be unable to make any meaningful impact in displacing fossil
+fuel generation.
+
+System Benefits
+
+Broader system benefits were also identified:
+
+   •  The consumer could save significant sums in unnecessary network build through the
+      use of distributed Long Duration Energy Storage and better grid utilisation.
+   •  The UK could achieve clean power targets much quicker than might otherwise occur
+      through expansion of existing renewable energy generation sites and use of existing
+      network connections.
+PAGE 49
+M20.19.7 LoDES Final Report - SynchroStor
+
+BESS and PHS storage offer higher Round Trip Efficiency than the SynchroStor system, but
+SynchroStor’s PTES provides additional benefits, in addition to those described earlier.
+
+The technology has virtually no locational constraints and can be co-located with a large
+number of distribution grid connected assets such as wind or solar farms, large industrial
+users, or close to major grid equipment such as substations. In most cases the co-location of
+Long Duration Energy Storage enables the deployment of larger systems for a given grid
+connection, enabling expansion opportunities for existing sites bypassing grid connection
+queues.
+
+The technology can be directly connected to medium voltage distribution grid, avoiding the
+long lead time and losses associated with transformers. As well as offering energy storage, the
+technology can provide physical inertia providing grid stability and ancillary services in a
+distributed way around the network. This has the opportunity to avoid large grid strengthening
+cost and providing revenues for the operator. Mott MacDonald carried out an analysis for
+SynchroStor which modelled a £9.3bn cost saving in avoided network costs through the use of
+SynchroStor’s technology.
+
+While lithium-ion batteries continue to follow a cost reduction trajectory, in SynchroStor’s
+modelling they are unlikely to be viable for long durations of more than 8 hours. Deeper
+penetration of renewables, particularly wind energy, will require longer durations of storage.
+Based on SynchroStor revenue analysis an optimum discharge time of 16 to 24hr will make
+best use of otherwise curtailed wind energy.
+
+The supply chain of BESS is dominated by China. SynchroStor’s technology offers
+diversification opportunities improving resilience of supply chains. It will also generate job
+opportunities locally. The technology is well aligned with the oil & gas supply chain and could
+provide transition opportunities for the sector.
+
+Work Package 8 Conclusion
+
+The work package concluded with some key outcomes:
+
+   •  Analysis confirmed the LDES value proposition.
+   •  Co-locating PTES with solar showed tangible positive outcomes.
+   •  PTES was modelled and found to be a viable alternative to other energy storage
+      systems, particularly when deployed at durations > 10 hours.
+   •  Broader system benefits of co-locating on the MV network could offer up to £9.3bn
+      system cost savings.
+PAGE 50
+M20.19.7 LoDES Final Report - SynchroStor
+Work Package 9: Project Management
+
+Objective
+
+As is appropriate for all major projects, a dedicated project manager was assigned who had
+experience of delivering complex projects. The project was managed robustly using
+appropriate tools – waterfall and agile systems to both forecast work and track activities. It was
+anticipated that DESNZ would also provide project management templates for communications
+and project tracking.
+
+Lessons learned are reported separately.
+
+Outcome
+
+SynchroStor used both MS Project and Atlassian Jira for task management and tracking.
+Financial tracking was done using Xero, Excel and a cloud-based timesheet tool.
+
+Reporting to DESNZ was monthly, with milestone deliverables either quarterly or bi-monthly.
+Change management was strict. Ten formal change requests were submitted and approved.
+The DESNZ team was consistent throughout. This was enormously helpful, avoiding any time
+wasted bringing new staff up to speed. Financial management was good. All milestone
+payments were made in a timely manner and cashflow challenges were avoided.
+
+The greatest challenge to the project was engagement with the supply chain. On numerous
+occasions, SynchroStor was let down by suppliers, incurring major delays. In the context of a
+2-year project, this was very difficult to deal with. In conjunction with cost challenges, this led to
+the change of focus in 2025. Over 160 suppliers were engaged, of which 95% were in the UK
+(based on invoice address). However as described elsewhere, the origin of many key
+components was outside the UK.
+
+From the outset, a comprehensive risk register was developed. It should be noted that some of
+the risks identified at the start with medium/high consequences still affected the project,
+despite control measures.
+PAGE 51
+M20.19.7 LoDES Final Report - SynchroStor
+
+Figure 23: Supplier mapping
+PAGE 52
+M20.19.7 LoDES Final Report - SynchroStor
+January 2025: Major Project Change
+
+In January 2025 budgetary quotes that were received for the gas piping installation (Work
+package 7) significantly exceeded the available budget. Firm quotes were received later than
+expected, and the forecast cost overrun presented a critical challenge to project execution. The
+budget had been set in 2022, when the system TRL was lower and design uncertainty was
+higher. Since then the overall plant design had matured and SynchroStor’s team had grown
+substantially. However, the piping supply & installation costs were not a capability that could be
+fully internalized, and SynchroStor were dependent on the supply chain for this specialized
+activity.
+
+Several options were discussed with DESNZ over a 3-month period and it was concluded that
+the best use of the remaining time & budget was to capitalise the innovation value of the
+compressor/expander. Over the course of the LoDES project it became obvious that the
+compressor/expander had an opportunity to contribute to the decarbonisation of high
+temperature heat production, by enabling electrification of large segments of many industrial
+markets. This is distinct from the LDES application. Considering this, it was agreed to
+terminate work packages 4, 5, 6 and 7. Other work packages would continue until November
+2025. To avoid confusion, the project was renamed Fenix.
+PAGE 53
+M20.19.7 LoDES Final Report - SynchroStor
+Project Fenix
+
+For the period April 2025 to November 2025, SynchroStor’s focus shifted to the
+compressor/expander only and its application as a core component in an industrial heat pump.
+The project was re-named Fenix and new objectives were defined:
+
+ Key Deliverables:
+
+     1. Compressor/Expander component development
+
+     2. Compressor/Expander operation and productionisation study
+
+     3.  Electronics design, manufacture and test
+
+     4. Techno-economics to identify launch customer and concept MVP
+
+ High-Level Requirements:
+
+     1. 100 hours of cumulative testing under application conditions
+
+     2. Productionisation study including route to C/E Marking.
+
+     3. More compact electronics
+
+     4. Target launch customer and concept design of MVP completed
+
+Table 3. Fenix deliverables and objectives
+The project structure was similar to the LoDES project, with distinct work packages reporting
+regularly to DESNZ, triggering payment milestones. All deliverables were submitted on time.
+Output of the engineering work packages has been described in earlier sections. Work
+Package 16 – market push/pull – was introduced to look specifically at the dynamics of the
+industrial heat market and is summarized below.
+
+Market Push/Pull
+
+Industrial Heat Background
+
+This work packaged kick off with a market study to consolidate SynchroStor’s understanding of
+the market, identifying the best segment to target.
+
+An estimated $4 billion is expected to be invested in industrial heat decarbonisation across the
+UK and EU between 2024 and 20306. In the UK alone, approximately 60% of industrial heat
+
+6 McKinsey, 2024, Tackling Heat Electrification to Decarbonize Industry,
+https://www.mckinsey.com/industries/industrials-and-electronics/our-insights/tackling-heat-electrification-to-
+decarbonize-industry
+Heat Demand Charts: ERM, 2024, ‘NZIP Task 1: SynchroStor Best-fit First Use Case’ (for SynchroStor Ltd)
+PAGE 54
+M20.19.7 LoDES Final Report - SynchroStor
+
+demand falls below 400°C, aligning with SynchroStor’s target operating range. There is
+growing interest in heat pumps capable of delivering temperatures above 150°C, which is
+currently the upper limit for most commercially available systems. At present, higher
+temperature requirements are typically met using less efficient electric heaters, leading to
+increased operating costs. This trend, combined with the push to phase out fossil fuel heating,
+is driven by the need to cut emissions, reduce exposure to volatile gas prices, and avoid rising
+carbon and emissions taxes.
+
+Figure 24: Industrial heat energy use
+
+
+
+
+
+Barriers to High Temperature Heat Pump Deployment
+
+There are currently very few mature heat pump technologies for temperature greater than 150-
+200°C, meaning industries at these temperatures are either staying with fossil fuel heating or
+deploying direct electric heating. Other key barriers include:
+
+Most heat in the target industries range is currently delivered by steam (UK 81%, EU 76%).
+Steam has become a very common heat transfer fluid in industry, and many are reluctant to
+move away from systems they understand well.
+
+Currently, most heat pumps delivering steam either use a technology called mechanical vapour
+(re-)compression (MVR) or cascade solutions at lower steam pressures. This drives CAPEX,
+complexity and level of modifications that need to be made to the heating system.
+
+In the priority industries (dairy and food) steam is used to generate hot water which is then
+used in the process. This increases losses. A heat pump system could eliminate the
+requirement for the steam circuit, improving the efficiency of the heating system.
+
+Generating steam is not an ideal application for a high temperature heat pump. Deployment of
+high temperature CO2 heat pumps, such as that proposed by SynchroStor, would require
+PAGE 55
+M20.19.7 LoDES Final Report - SynchroStor
+
+considerable changes to the standard heating system to unlock all the benefits on offer.
+Available space and the difficulty in retrofitting new equipment into legacy factory processes
+have been cited by stakeholders. This make new heat pumps difficult to justify for existing
+installations but could be a lot more feasible in a new build.
+
+A high spark-gap (ratio of price of electricity to the price of gas) in the UK and some EU
+countries makes the deployment of electrical heating solutions economically unattractive. In
+the UK this can be as high as 4.77.
+High Temperature Drying: An Unmet Market
+
+High temperature drying is the process of removing moisture from a product, usually to
+produce powder or other dried substance. It is achieved by typically blowing hot air over a
+stationary or moving wet product. Water is evaporated into the air, reducing the moisture
+content of the product. Wet air is either vented to atmosphere or cooled to remove water and
+reheated. Heating of air is typically achieved by electric heaters, steam or burning of fossil
+fuels because many drying temperatures are significantly higher than that delivered by
+conventional heat pumps.
+
+Drying requires high temperature glides, maximising the amount of heat that can be extracted
+from the heat pump whilst also supplying waste heat in the form of moist air, making it an ideal
+application for transcritical CO2 heat pumps which have a large temperature difference
+between the gas sink and source. This results in a high coefficient of performance (COP) –
+efficiency. Hence CO2 is a common working fluid for heat pumps thanks to its thermodynamic
+properties and also offers a low GWP (Global Warming Potential) compared to HFCs or HFOs.
+
+An example drying application, based on data shared by an end-user, was explored and
+confirmed to be an excellent use case for a heat pump using a SynchroStor
+compressor/expander. High temperature drying is a great match with SynchroStor’s heat pump
+due to large temperature glides and requirement for high temperature lifts. It is also prevalent
+in many industries as a unit operation or full process, thus many customers.
+
+As one of the most energy-intensive unit operations in industry, drying can use about 12–15%
+of the total industry energy use8. Assuming this global annual industrial consumption is
+160EJ9, we can estimate up to 630GW of installed drying capacity globally. The equivalent
+consumption in EU is 8.7EJ10, with up to 33GW of installed dying capacity.
+
+
+
+
+
+7 Price gap between gas and electricity hits highest level since energy crisis of 2022 | Nesta
+8 Kemp, Fundamentals of Energy Analysis of Dryers, Modern Drying Technology Volume 4, 2012, Wiley
+9 https://www.iea.org/energy-system/industry
+10 https://iopscience.iop.org/article/10.1088/1748-9326/abbd02/pdf
+PAGE 56
+M20.19.7 LoDES Final Report - SynchroStor
+
+MVP Specification
+
+The final deliverable of work package 16 is a description of the Minimum Viable Product
+(MVP), i.e. the simplest version of a system which needs to be developed and sold into a
+market.
+
+As informed by the market segmentation work, the MVP was defined as the SynchroStor
+Transcritical Drying Heat Pump (DHP) designed to offer complete heating and waste heat
+recovery to high temperature drying processes. The system is designed with intermediate heat
+transfer loops allowing for easy integration regardless of process and site design. However, the
+DHP can also be installed without additional heat transfer equipment, exchanging heat
+between the air and CO2 which is used as the working fluid inside the heat pump.
+
+Figure 25: Drying Heat Pump Integration Concept.
+
+
+
+
+
+Figure 25 shows one integration concept for the DHP. The internal heat pump skid is built
+around SynchroStor’s D430 compressor/expander, which generates high pressure, high
+temperature CO2 while offering unparalleled controllability and efficiency. Heat is supplied to
+the process by passing hot CO2 exhaust gas through a heat exchanger. Depending on
+process specifics, the heat exchanger can be a shell-and-tube, printed circuit or a finned tube
+heat exchanger for direct heating of air. Integration is site-specific and sometimes heat from
+the CO2 is transferred to a heat transfer fluid (HTF) (e.g., thermal oil, pressurised water) which
+is pumped through the circuit and provides heat to the fresh air via a HTF-to-air heat
+exchanger). The end user may opt to heat the air directly without an intermediate circuit in
+which case, the HTF-to-air heat exchanger is not required.
+
+
+
+
+Figure 26: Concept design of the containerised skid component of the heat pump
+PAGE 57
+M20.19.7 LoDES Final Report - SynchroStor
+
+
+
+
+
+SynchroStor’s unique system architecture takes cooled high-pressure CO2 leaving the heat
+exchanger and expands it to low pressure and low temperature. By expanding instead of
+throttling, energy that would otherwise be wasted is recovered, boosting the overall system
+efficiency and thereby reducing the cost of heat for the end-user. Low-pressure, low
+temperature CO2 is passed through an evaporator which uses heat recovered from the dryer
+exhaust via a waste heat recovery (WHR) heat exchanger. There is an option to move the heat
+from the WHR exchanger to the evaporator via an intermediate heat transfer fluid circuit (e.g.,
+water) or to recover heat directly to the CO2 without the need for an additional heat transfer
+circuit. The system architecture will depend on project specifics.
+
+Fenix Conclusion & Next Steps
+
+SynchroStor are carrying out feasibility studies with a number of potential end users to identify
+a first project. The most promising applications include:
+
+   •  Commercial laundries looking at low-carbon solutions for providing high temperatures to
+        their plants.
+   •   Distilleries looking at decarbonisation opportunities.
+   •  Food & beverage feedstock suppliers who want to remove gas burners from drying
+      systems.
+   •  System integrators of chemical plants looking to electrify heating processes.
+For each of the above, the technical fit has been confirmed and techno-economics have been
+assessed. The next step for each is to explore funding opportunities to support CAPEX of
+installing pilot equipment on site.
+PAGE 58
+M20.19.7 LoDES Final Report - SynchroStor
+PAGE 59
+M20.19.7 LoDES Final Report - SynchroStor
+Conclusion and Next Steps
+
+This Research, Development and Demonstration project had the objective of developing
+SynchroStor’s PTES from TRL 4 to TRL 6. Major engineering advances were made across all
+aspects of the design, with notable improvements beyond the concepts which had been
+developed prior to the project.
+
+There was a significant project change in January 2025 when supply chain challenges made it
+impossible to deliver the full scope of work to the original project budget and schedule. In
+discussion with DESNZ it was agreed to terminate the work packages which were running over
+time & budget. The remaining budget was allocated to areas where the innovation value and
+commercialization opportunity was greatest.
+
+At the peak of the project, 20 new jobs were directly created, 15 key sub-contractors engaged
+and over 160 component suppliers delivering.
+
+The project has concluded with some key outcomes.
+
+   •  LDES is a requirement for the UK energy system.
+   •  Pumped thermal is a viable alternative to other energy storage systems, particularly
+     when deployed at scale >10 hours of storage.
+   •  Further R&D is required to fully develop SynchroStor’s PTES.
+   •  The core sub-system in SynchroStor’s PTES – a unique high temperature
+      compressor/expander – was demonstrated at industrially-relevant scale, with market-
+      beating performance, cost profile and versatility.
+   •  As informed by market research, a Minimum Viable Product using this compressor was
+        identified: a high temperature heat pump for decarbonising industrial processes.
+   •  A route to market and productionisation roadmap for this product was developed.
+   •  Global market pull for this product was demonstrated and follow-on funding to
+      commercialize the technology identified.
+Next steps
+
+   •  A continuing watch on the LDES market and new opportunities to restart PTES R&D.
+   •  Delivering a pilot heat pump project with an industrial partner to demonstrate
+      SynchroStor’s value proposition.
+   •  Securing follow-on funding to advance the TRL and MRL of the compressor/expander.
+   •  Identifying partners for longer-term market access and product development.
+PAGE 60
+M20.19.7 LoDES Final Report - SynchroStor
+PAGE 61
+If you need a version of this document in a more accessible format, please email
+alt.formats@energysecurity.gov.uk. Please tell us what format you need. It will help us if you
+say what assistive technology you use.

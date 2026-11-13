@@ -1,0 +1,47 @@
+[
+  {
+    "requested": "https://www.tesla.com/megapack/design",
+    "url": "https://www.tesla.com/megapack/design",
+    "status": 403,
+    "title": "Access Denied",
+    "text": "Access Denied\nYou don't have permission to access \"http://www.tesla.com/megapack/design\" on this server.\n\nReference #18.8fd37a5c.1794342345.4969552d\n\nhttps://errors.edgesuite.net/18.8fd37a5c.1794342345.4969552d",
+    "links": []
+  },
+  {
+    "requested": "https://www.tesla.com/megapack",
+    "url": "https://www.tesla.com/megapack",
+    "status": 403,
+    "title": "Access Denied",
+    "text": "Access Denied\nYou don't have permission to access \"http://www.tesla.com/megapack\" on this server.\n\nReference #18.8fd37a5c.1794342345.4969552e\n\nhttps://errors.edgesuite.net/18.8fd37a5c.1794342345.4969552e",
+    "links": []
+  },
+  {
+    "requested": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+    "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+    "status": 403,
+    "title": "403 Forbidden",
+    "text": "403 Forbidden",
+    "links": []
+  },
+  {
+    "requested": "https://www.google.com/search?q=Tesla+Megapack+maintenance+annual+cost+price+2025",
+    "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTesla%2BMegapack%2Bmaintenance%2Bannual%2Bcost%2Bprice%2B2025%26sei%3DyX3zarfqFu-gi-gPhJvqsQM&q=EgTAKYAEGMn7zdcGIjDKU13Vgp_xu73NF7gzlA2VHA93N7r3eoDxrJwsHml-jpPzoMc2nH9ndVTxOuWhOrEyAVJaAUNg4s2RgfSDuqyoAQ",
+    "status": 200,
+    "title": "https://www.google.com/search?q=Tesla+Megapack+maintenance+annual+cost+price+2025&sei=yX3zarfqFu-gi-gPhJvqsQM",
+    "text": "\n\n关于此网页\n\n我们的系统检测到您的计算机网络中存在异常流量。此网页用于确认这些请求是由您而不是自动程序发出的。为什么会这样？\n\n\n\nIP 地址：192.41.128.4\n时间：2026-11-10T20:25:45Z\n网址：https://www.google.com/search?q=Tesla+Megapack+maintenance+annual+cost+price+2025&sei=yX3zarfqFu-gi-gPhJvqsQM\n",
+    "links": [
+      {
+        "text": "为什么会这样？",
+        "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTesla%2BMegapack%2Bmaintenance%2Bannual%2Bcost%2Bprice%2B2025%26sei%3DyX3zarfqFu-gi-gPhJvqsQM&q=EgTAKYAEGMn7zdcGIjDKU13Vgp_xu73NF7gzlA2VHA93N7r3eoDxrJwsHml-jpPzoMc2nH9ndVTxOuWhOrEyAVJaAUNg4s2RgfSDuqyoAQ#"
+      },
+      {
+        "text": "服务条款",
+        "url": "https://www.google.com/policies/terms/"
+      },
+      {
+        "text": "了解详情",
+        "url": "https://support.google.com/websearch/answer/86640"
+      }
+    ]
+  }
+]

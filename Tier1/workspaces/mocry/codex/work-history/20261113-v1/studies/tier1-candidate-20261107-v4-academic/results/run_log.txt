@@ -1,0 +1,71 @@
+C:\研究生\courses\MMCS\assignments\FinalProject\tier1-candidate-20261107-v4-academic\run_study.py:142: LicenseWarning: Using the license file found in your Xpress installation. If you want to use this license and no longer want to see this message, use the following code before using the xpress module:
+  xpress.init('C:/xpressmp//bin/xpauth.xpr')
+  model = xp.problem()
+A_zero                           0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+A_battery                        0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+A_hydrogen                       0.0 MW B    20.0 MW H  +8.57235 GBP2020m/yr
+A_joint                          0.0 MW B    20.0 MW H  +8.57235 GBP2020m/yr
+A_fixed20_2020                   0.0 MW B    20.0 MW H  +16.77814 GBP2020m/yr
+A_fixed20_2021                   0.0 MW B    20.0 MW H  +6.28623 GBP2020m/yr
+A_fixed20_2022                   0.0 MW B    20.0 MW H  +8.90674 GBP2020m/yr
+A_fixed20_2023                   0.0 MW B    20.0 MW H  +8.57235 GBP2020m/yr
+A_fixed20_2024                   0.0 MW B    20.0 MW H  +11.95149 GBP2020m/yr
+A_fixed20_2025                   0.0 MW B    20.0 MW H  +13.16870 GBP2020m/yr
+A_fixed20_2026                   0.0 MW B    20.0 MW H  +12.84689 GBP2020m/yr
+A_simple20_2023                  0.0 MW B    20.0 MW H  -1.06542 GBP2020m/yr
+A_battery1_pool                  1.5 MW B     0.0 MW H  -0.08306 GBP2020m/yr
+A_battery1_stock                 1.5 MW B     0.0 MW H  -0.09204 GBP2020m/yr
+A_battery20_pool                30.0 MW B     0.0 MW H  -1.66114 GBP2020m/yr
+A_battery20_stock               30.0 MW B     0.0 MW H  -1.84086 GBP2020m/yr
+A_strict                         0.0 MW B    20.0 MW H  +8.69386 GBP2020m/yr
+A_site_fixed20_2023              0.0 MW B    20.0 MW H  +8.16865 GBP2020m/yr
+A_site_joint_2023                0.0 MW B    20.0 MW H  +8.16865 GBP2020m/yr
+A_site_fixed20_2025              0.0 MW B    20.0 MW H  +12.76432 GBP2020m/yr
+A_site_joint_2025                0.0 MW B    20.0 MW H  +12.76432 GBP2020m/yr
+B_zero                           0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_battery                        0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_hydrogen                       0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_joint                          0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_fixed20_2020                   0.0 MW B    20.0 MW H  +3.12397 GBP2020m/yr
+B_fixed20_2021                   0.0 MW B    20.0 MW H  -0.12786 GBP2020m/yr
+B_fixed20_2022                   0.0 MW B    20.0 MW H  +7.30563 GBP2020m/yr
+B_fixed20_2023                   0.0 MW B    20.0 MW H  -1.06542 GBP2020m/yr
+B_fixed20_2024                   0.0 MW B    20.0 MW H  -0.99845 GBP2020m/yr
+B_fixed20_2025                   0.0 MW B    20.0 MW H  +4.47837 GBP2020m/yr
+B_fixed20_2026                   0.0 MW B    20.0 MW H  +7.01048 GBP2020m/yr
+B_simple20_2023                  0.0 MW B    20.0 MW H  -1.06542 GBP2020m/yr
+B_battery1_pool                  1.5 MW B     0.0 MW H  -0.08983 GBP2020m/yr
+B_battery1_stock                 1.5 MW B     0.0 MW H  -0.09406 GBP2020m/yr
+B_battery20_pool                30.0 MW B     0.0 MW H  -1.79655 GBP2020m/yr
+B_battery20_stock               30.0 MW B     0.0 MW H  -1.88112 GBP2020m/yr
+B_strict                         0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_site_fixed20_2023              0.0 MW B    20.0 MW H  -1.06542 GBP2020m/yr
+B_site_joint_2023                0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+B_site_fixed20_2025              0.0 MW B    20.0 MW H  +4.46480 GBP2020m/yr
+B_site_joint_2025                0.0 MW B    20.0 MW H  +4.46480 GBP2020m/yr
+A_fixed20_downside               0.0 MW B    20.0 MW H  -0.24352 GBP2020m/yr
+A_fixed20_cost_stress            0.0 MW B    20.0 MW H  +7.28640 GBP2020m/yr
+B_fixed20_downside               0.0 MW B    20.0 MW H  -0.76750 GBP2020m/yr
+B_fixed20_cost_stress            0.0 MW B    20.0 MW H  -2.35137 GBP2020m/yr
+A_service_25                     0.0 MW B    20.0 MW H  +7.46178 GBP2020m/yr
+A_service_50                     0.0 MW B    20.0 MW H  +5.19106 GBP2020m/yr
+A_service_75                     0.0 MW B    20.0 MW H  +2.46304 GBP2020m/yr
+A_service_100                    0.0 MW B     0.0 MW H  +0.00000 GBP2020m/yr
+Verified results written to C:\研究生\courses\MMCS\assignments\FinalProject\tier1-candidate-20261107-v4-academic\results
+Six-year appraisal and additional checks passed.
+Generated academic tables, parameter macros and two vector diagrams.
+{
+  "all_passed": true,
+  "schedules_checked": 64,
+  "xpress_schedules": 60,
+  "simple_rules": 2,
+  "exact_common_size_schedules": 2,
+  "largest_flow_residual_MWh": 1.2670997584507402e-06,
+  "largest_cash_residual_GBP_year": 2.3092638912203256e-08,
+  "independent_annual_replays": 14,
+  "largest_peer_rounding_difference_GBP": 49.542552302939136,
+  "contract_grid_points": 7930,
+  "xpress_contract_grid_crosschecks": 8,
+  "input_sha256_checks": 8
+}
+Compiled report/report.pdf

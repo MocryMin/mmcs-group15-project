@@ -1,0 +1,44 @@
+[
+  {
+    "requested": "https://power-electronics.com/products/freemaq-pcsk/",
+    "url": "https://power-electronics.com/products/freemaq-pcsk",
+    "status": 404,
+    "title": "404: This page could not be found",
+    "text": "404\nThis page could not be found.\nabout\ncareers\ntraining\nblog\npolicies\ncertificates\nvulnerabilityDisclosure\ngrants\ncorporative-image\nPolígono Industrial Carrases Ronda del Camp d'Aviació, 4, 46160 Llíria, Valencia, España. Tel. (+34) 96 136 65 57\ntechnicalService\ncall\nlinkedin\ninstagram\nfacebook\n© Power Electronics S.L.\nprivacyAndCookies\nlegal\nwebsiteByPowerElectronics",
+    "links": [
+      {
+        "text": "technicalService",
+        "url": "https://power-electronics.com/services"
+      }
+    ]
+  },
+  {
+    "requested": "https://power-electronics.com/producto/freemaq-pcsk/",
+    "url": "https://power-electronics.com/producto/freemaq-pcsk",
+    "status": 404,
+    "title": "404: This page could not be found",
+    "text": "404\nThis page could not be found.\nabout\ncareers\ntraining\nblog\npolicies\ncertificates\nvulnerabilityDisclosure\ngrants\ncorporative-image\nPolígono Industrial Carrases Ronda del Camp d'Aviació, 4, 46160 Llíria, Valencia, España. Tel. (+34) 96 136 65 57\ntechnicalService\ncall\nlinkedin\ninstagram\nfacebook\n© Power Electronics S.L.\nprivacyAndCookies\nlegal\nwebsiteByPowerElectronics",
+    "links": [
+      {
+        "text": "technicalService",
+        "url": "https://power-electronics.com/services"
+      }
+    ]
+  },
+  {
+    "requested": "https://www.sma.de/en/products/battery-inverters/sunny-central-storage-up",
+    "url": "https://www.sma.de/en/products/battery-inverters/sunny-central-storage-up",
+    "status": 403,
+    "title": "403 Forbidden",
+    "text": "403 Forbidden",
+    "links": []
+  },
+  {
+    "requested": "https://www.sma.de/en/products/battery-inverters/sunny-central-storage-2200-2500-ev",
+    "url": "https://www.sma.de/en/products/battery-inverters/sunny-central-storage-2200-2500-ev",
+    "status": 403,
+    "title": "403 Forbidden",
+    "text": "403 Forbidden",
+    "links": []
+  }
+]

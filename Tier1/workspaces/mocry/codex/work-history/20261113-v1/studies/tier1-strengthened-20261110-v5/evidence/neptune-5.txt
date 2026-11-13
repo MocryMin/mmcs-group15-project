@@ -1,0 +1,94 @@
+PAGE 1
+* prices are based on ITM’s Standard T&C’s
+HEATINGREFINERIES STEELAMMONIA METHANOL TRANSPORT STORAGESEMICONDUCTORS MINING ELECTRICITY
+OUTPERFORMING. COMPACT. COMPETITIVE.
+EUR 5,000,000* 
+CONTACT OUR SALES TEAM
+sales@itm-power.com
+Best-in-class NEPTUNE V  5 MW Plug & Play Green Hydrogen Plant for 
+mid-scale projects.
+Designed against the highest safety and quality standards, and 
+building on the learnings from our operational electrolysers 
+around the world, NEPTUNE V  is our brand-new full scope 5 MW 
+containerised green hydrogen plant, engineered to outperform.
+Engineered to be safe, cost competitive and reliable.
+
+
+PAGE 2
+Water purification 
+unit
+Hydrogen/water 
+separation unit
+Water polishing 
+unit
+Hydrogen purification 
+unit
+Oxygen/Water 
+separation unit
+Chiller unit
+Instrument  
+air system
+TECHNOLOGY PEM
+NUMBER OF STACKS 8
+CAPACITY 5MW
+AC POWER CONSUMPTION 55.9 kWh/kg*
+SYSTEM FOOTPRINT Approx. 96m2 optimised layout***
+OPERATING RANGE 12.5–100%
+INPUT WATER PURITY Potable Water**
+NEPTUNE V: PROCESS FLOW & SPECIFICATIONS
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life 
+** Input water to the system, prior to purification
+***Not including hazardous areas
+PEM electrolyser 
+stacks
+Cooling system
+PSU
+Water Systems
+Hydrogen Systems
+Utilities
+H2 PRODUCTION 90 kg/hr
+H2 OUTPUT PRESSURE 30 bar(g)
+H2 OUTPUT PURITY <5ppm H2O, <5ppm O2 (EN 17124 & ISO 14687)
+AMBIENT TEMPERATURE RANGE -20°C to + 45°C 
+MODULATION
+10% per second ramp up
+50% per second ramp down
+COMPLIANCE CE
+Oxygen vent Hydrogen ventBreather
+Tap waterDiagram Key:
+Hydrogen @ 30 bar
+DrainDrain
+
+PAGE 3
+NEPTUNE V: PLUG & PLAY
+AIR BLAST COOLER
+ELECTROLYSER
+12m
+12m
+9m
+8m
+SCOPE OF SUPPLY
+Water purification unit
+Water polishing unit
+PEM stacks and skids
+Process water cooling system - adiabatic cooler
+Instrument air system
+Hydrogen purification unit
+Container temperature control
+Containerised power supply unit including; MV trafo, dual-rectifier and 
+cooling system, specifically designed to match our electrolyser
+Siemens S7 PLC, integrated safety
+Local HMI for plant control and diagnostics
+Fully autonomous operating software system, able to connect to 
+external SCADA or DCS
+All process and electrical interconnections within the container
+Factory Acceptance Test (FAT) before shipment
+
+PAGE 4
+Find out the detailed 
+scope of supply and more 
+on our product page
+NEPTUNE V: PLUG & PLAY
+CONTACT OUR SALES TEAM
+itm-power.com/products/neptune-5
+sales@itm-power.com

@@ -1,0 +1,10 @@
+note: using only cached resource files
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+note: Rerunning TeX because "report.out" changed ...
+note: Running xdvipdfmx ...
+note: Writing `report.pdf` (211.7158203125 KiB)
+note: Writing `report.log` (15.3505859375 KiB)
+note: Writing `report.aux` (8.5439453125 KiB)
+note: Writing `report.out` (3.0849609375 KiB)
+note: Writing `report.toc` (1.751953125 KiB)

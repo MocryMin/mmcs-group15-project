@@ -1,0 +1,80 @@
+MIP has 423056 rows; 210445 cols; 736512 nonzeros; 1 integer variable (0 binary)
+Coefficient ranges:
+  Matrix  [3e-03, 1e+00]
+  Cost    [3e-14, 8e+00]
+  Bound   [9e-01, 2e+01] (continuous)
+  Bound   [4e+02, 4e+02] (non-continuous)
+  RHS     [2e+00, 3e+01]
+WARNING: Problem has some excessively small costs
+Presolving model
+423056 rows, 210445 cols, 736512 nonzeros 0s
+0 rows, 0 cols, 0 nonzeros 0s
+Presolve reductions: rows 0(-423056); columns 0(-210445); nonzeros 0(-736512) - Reduced to empty
+Presolve: Optimal
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -21302.229237   -21302.229237      0.00%        0      0      0         0     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      -21302.2292366
+  Dual bound        -21302.2292366
+  Gap               0% (tolerance: 1e-05%)
+  P-D integral      0.24
+  Solution status   feasible
+                    -21302.2292366 (objective)
+  Timing            0.25
+                    0.23 (Presolve)
+                    0.00 (Solve)
+                    0.00 (Postsolve)
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0
+  LP iterations     0
+MIP has 423068 rows; 210451 cols; 736536 nonzeros; 7 integer variables (6 binary)
+Coefficient ranges:
+  Matrix  [3e-04, 1e+00]
+  Cost    [3e-14, 8e+00]
+  Bound   [9e-01, 2e+01] (continuous)
+  Bound   [1e+00, 4e+02] (non-continuous)
+  RHS     [2e+00, 3e+01]
+WARNING: Problem has some excessively small costs
+Presolving model
+423068 rows, 210451 cols, 736536 nonzeros 0s
+18 rows, 12 cols, 30 nonzeros 0s
+Presolve reductions: rows 0(-423068); columns 0(-210451); nonzeros 0(-736536) - Reduced to empty
+Presolve: Optimal
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -21302.229219   -21302.229219      0.00%        0      0      0         0     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      -21302.2292186
+  Dual bound        -21302.2292186
+  Gap               0% (tolerance: 1e-05%)
+  P-D integral      0.25
+  Solution status   feasible
+                    -21302.2292186 (objective)
+  Timing            0.26
+                    0.24 (Presolve)
+                    0.00 (Solve)
+                    0.00 (Postsolve)
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0
+  LP iterations     0

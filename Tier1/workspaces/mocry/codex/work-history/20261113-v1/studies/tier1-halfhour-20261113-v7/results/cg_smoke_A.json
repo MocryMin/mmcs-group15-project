@@ -1,0 +1,920 @@
+{
+  "name": "cg_smoke_A",
+  "policy": "A",
+  "cap_kg_day": 1558968.7748333344,
+  "years": 0.08493150684931507,
+  "dt_hours": 0.5,
+  "periods": 1488,
+  "days": 31,
+  "relaxation": true,
+  "annual_increment_mGBP": 115.62943480752438,
+  "upper_increment_mGBP": 17660.35433283166,
+  "annual_reference_mGBP": 52701.63597561496,
+  "investment": {
+    "sungrow-st255cs-2h": 2961.4169329303472,
+    "huawei-luna215": 94.26441809738749,
+    "huawei-luna241": 31497.629968752142,
+    "tesla-megapack2xl-2h": 0.0,
+    "itm-neptune-ii": 0.0,
+    "itm-neptune-v": 124.5350897929769,
+    "itm-alpha50": 0.0,
+    "nel-mc250": 0.0,
+    "nel-mc500": 0.0,
+    "nel-mc1000": 0.0,
+    "nel-mc2000": 0.0,
+    "nel-mc4000": 0.0
+  },
+  "active_products": {
+    "batteries": [
+      {
+        "id": "sungrow-st255cs-2h",
+        "E_MWh": 0.257,
+        "P_MW": 0.125,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 65584.53667023251,
+        "fom_GBP": 1901.9515634367428,
+        "fom_literal_GBP": 928.8510653696364,
+        "reference_idle_kW": 0.1,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.00015420000000000003,
+        "commission_GBP": 4.232902340995709,
+        "annual": 0.008220923665534074,
+        "retention": 1.0
+      },
+      {
+        "id": "huawei-luna215",
+        "E_MWh": 0.215,
+        "P_MW": 0.108,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 55128.73425622488,
+        "fom_GBP": 1598.7332934305216,
+        "fom_literal_GBP": 802.5273204793658,
+        "reference_idle_kW": 0.075,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.000129,
+        "commission_GBP": 3.541143981766839,
+        "annual": 0.006910302826589297,
+        "retention": 1.0
+      },
+      {
+        "id": "huawei-luna241",
+        "E_MWh": 0.241,
+        "P_MW": 0.108,
+        "rte": 0.9,
+        "life": 15,
+        "capital_GBP": 60796.149281516635,
+        "fom_GBP": 1763.0883291639825,
+        "fom_literal_GBP": 802.5273204793658,
+        "reference_idle_kW": 0.075,
+        "research_self_discharge": 0.001,
+        "source": "equipment_study_inputs.json",
+        "cost_kind": "DEA total installed industry transfer EUR2020",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9486832980505138,
+        "usable": 0.00014460000000000002,
+        "commission_GBP": 3.969375347003758,
+        "annual": 0.007620710847479722,
+        "retention": 1.0
+      },
+      {
+        "id": "tesla-megapack2xl-2h",
+        "E_MWh": 3.8544,
+        "P_MW": 1.9272,
+        "rte": 0.92,
+        "life": 15,
+        "capital_GBP": 1239439.6333058076,
+        "fom_GBP": 30985.99083264519,
+        "fom_literal_GBP": 30985.99083264519,
+        "reference_idle_kW": null,
+        "research_self_discharge": 0.001,
+        "source": "tesla_economic_inputs.json",
+        "cost_kind": "2024 US installation-included estimate; NREL total maintained-capacity FOM",
+        "soc_lower": 0.2,
+        "soc_upper": 0.8,
+        "self_discharge": 0.0,
+        "loss_boundary": "Nominal whole-AC cycle factor; no additional idle fee/energy is stacked onto it. Isolated standby at zero throughput is not resolved in the retained daily protocol.",
+        "capacity_accounting": "Maintained available capacity; maintenance budget includes renewal, no second explicit cell bill.",
+        "eta": 0.9591663046625439,
+        "usable": 0.0023126400000000004,
+        "commission_GBP": 62.78982160632205,
+        "annual": 0.15040248977394177,
+        "retention": 1.0
+      }
+    ],
+    "electrolysers": [
+      {
+        "id": "itm-neptune-ii",
+        "MW": 1.995,
+        "kg_hour": 35,
+        "kWh_kg": 57,
+        "minimum": 0.25,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 2913577.244865247,
+          "fom_GBP": 51593.99763864042,
+          "replacement_GBP": 976770.4817656529,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 1313999.3405,
+            "fom_GBP": 44618.021,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 1596534.2085,
+            "fom_GBP": 50598.32399999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 2600894.4044999997,
+            "fom_GBP": 58879.803499999995,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 2913577.244865247,
+        "fom_GBP": 51593.99763864042,
+        "replacement_GBP": 976770.4817656529,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.2999983394277017,
+        "unit_GWh": 0.0009975000000000001
+      },
+      {
+        "id": "itm-neptune-v",
+        "MW": 5.031,
+        "kg_hour": 90,
+        "kWh_kg": 55.9,
+        "minimum": 0.125,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 7347472.240058675,
+          "fom_GBP": 130109.97599999998,
+          "replacement_GBP": 2463224.2073999997,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 3378855.4469999997,
+            "fom_GBP": 114732.054,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 4105373.679,
+            "fom_GBP": 130109.97599999998,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 6688014.182999999,
+            "fom_GBP": 151405.209,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 7347472.240058675,
+        "fom_GBP": 130109.97599999998,
+        "replacement_GBP": 2463224.2073999997,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.7565371657447455,
+        "unit_GWh": 0.0025155
+      },
+      {
+        "id": "itm-alpha50",
+        "MW": 50.31,
+        "kg_hour": 900,
+        "kWh_kg": 55.9,
+        "minimum": 0.125,
+        "grade": "<5ppmH2O,<5ppmO2",
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 73474722.40058675,
+          "fom_GBP": 1301099.7599999998,
+          "replacement_GBP": 24632242.073999997,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 33788554.47,
+            "fom_GBP": 1147320.54,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 41053736.79000001,
+            "fom_GBP": 1301099.76,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 66880141.83,
+            "fom_GBP": 1514052.09,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 73474722.40058675,
+        "fom_GBP": 1301099.7599999998,
+        "replacement_GBP": 24632242.073999997,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 7.565371657447455,
+        "unit_GWh": 0.025155
+      },
+      {
+        "id": "nel-mc250",
+        "MW": 1.305375,
+        "kg_hour": 22.125,
+        "kWh_kg": 59.0,
+        "minimum": 0.1,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 1906421.5017623918,
+          "fom_GBP": 33759.15522182468,
+          "replacement_GBP": 639123.6930500446,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 830635.2973875,
+            "fom_GBP": 28204.963275000002,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 1009237.6960875001,
+            "fom_GBP": 31985.369099999996,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 1644136.8199874999,
+            "fom_GBP": 37220.4472125,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 1906421.5017623918,
+        "fom_GBP": 33759.15522182468,
+        "replacement_GBP": 639123.6930500446,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.19629590593004315,
+        "unit_GWh": 0.0006526875
+      },
+      {
+        "id": "nel-mc500",
+        "MW": 2.5355250000000003,
+        "kg_hour": 44.25,
+        "kWh_kg": 57.3,
+        "minimum": 0.1,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 3702981.425457121,
+          "fom_GBP": 65572.86760035779,
+          "replacement_GBP": 1241416.5292124597,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 1661270.594775,
+            "fom_GBP": 56409.926550000004,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 2018475.3921750002,
+            "fom_GBP": 63970.73819999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 3288273.6399749997,
+            "fom_GBP": 74440.894425,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 3702981.425457121,
+        "fom_GBP": 65572.86760035779,
+        "replacement_GBP": 1241416.5292124597,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.3812798443997111,
+        "unit_GWh": 0.0012677625000000001
+      },
+      {
+        "id": "nel-mc1000",
+        "MW": 5.024145000000001,
+        "kg_hour": 88.5,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 7337460.92576617,
+          "fom_GBP": 129932.6943690161,
+          "replacement_GBP": 2459867.9358949857,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 3322541.18955,
+            "fom_GBP": 112819.85310000001,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 4036950.7843500003,
+            "fom_GBP": 127941.47639999999,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 6576547.279949999,
+            "fom_GBP": 148881.78885,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 7337460.92576617,
+        "fom_GBP": 129932.6943690161,
+        "replacement_GBP": 2459867.9358949857,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 0.7555063443829526,
+        "unit_GWh": 0.0025120725000000003
+      },
+      {
+        "id": "nel-mc2000",
+        "MW": 10.048290000000001,
+        "kg_hour": 177.0,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 14674921.85153234,
+          "fom_GBP": 259865.3887380322,
+          "replacement_GBP": 4919735.871789971,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 6645082.3791,
+            "fom_GBP": 225639.70620000002,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 8073901.568700001,
+            "fom_GBP": 255882.95279999997,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 13153094.559899999,
+            "fom_GBP": 297763.5777,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 14674921.85153234,
+        "fom_GBP": 259865.3887380322,
+        "replacement_GBP": 4919735.871789971,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 1.5110126887659052,
+        "unit_GWh": 0.005024145000000001
+      },
+      {
+        "id": "nel-mc4000",
+        "MW": 20.096580000000003,
+        "kg_hour": 354.0,
+        "kWh_kg": 56.77,
+        "minimum": 0.2,
+        "grade": 0.9995,
+        "life": 30,
+        "comparable": {
+          "capital_GBP": 29349843.70306468,
+          "fom_GBP": 519730.7774760644,
+          "replacement_GBP": 9839471.743579943,
+          "replacement_years": [
+            11,
+            22
+          ],
+          "variable_GBP_kg": 0
+        },
+        "research": {
+          "low": {
+            "capital_GBP": 13290164.7582,
+            "fom_GBP": 451279.41240000003,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.114173
+          },
+          "central": {
+            "capital_GBP": 16147803.137400001,
+            "fom_GBP": 511765.90559999994,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.153543
+          },
+          "high": {
+            "capital_GBP": 26306189.119799998,
+            "fom_GBP": 595527.1554,
+            "replacement_GBP": 0,
+            "replacement_years": [],
+            "variable_GBP_kg": 0.35039299999999995
+          }
+        },
+        "source": "equipment_study_inputs.json",
+        "capital_GBP": 29349843.70306468,
+        "fom_GBP": 519730.7774760644,
+        "replacement_GBP": 9839471.743579943,
+        "replacement_years": [
+          11,
+          22
+        ],
+        "variable_GBP_kg": 0,
+        "annual": 3.0220253775318104,
+        "unit_GWh": 0.010048290000000001
+      }
+    ]
+  },
+  "battery_MWh": 8372.279824123303,
+  "electrolyser_MW": 626.5360367484668,
+  "trace": [
+    {
+      "iteration": 0,
+      "restricted_profit": 40.059478318122274,
+      "upper_profit": 19904.244475980835,
+      "reduced_costs": [
+        -0.005587239497359441,
+        -0.00472339411687879,
+        -0.005106779555047525,
+        -0.06765907627626469
+      ],
+      "seconds": 0.275793299995712
+    },
+    {
+      "iteration": 1,
+      "restricted_profit": 73.87386363884434,
+      "upper_profit": 22073.749668532146,
+      "reduced_costs": [
+        -0.006160718516516131,
+        -0.005252061247962814,
+        -0.005512959597806718,
+        -0.07779793594465362
+      ],
+      "seconds": 0.3937233000033302
+    },
+    {
+      "iteration": 2,
+      "restricted_profit": 85.77466378491226,
+      "upper_profit": 20668.012777891483,
+      "reduced_costs": [
+        -0.005778649115122221,
+        -0.004929748518243581,
+        -0.005161038606884212,
+        -0.07209531240140402
+      ],
+      "seconds": 0.5115489000017988
+    },
+    {
+      "iteration": 3,
+      "restricted_profit": 94.65276171169535,
+      "upper_profit": 19028.587494727733,
+      "reduced_costs": [
+        -0.005333354519597842,
+        -0.004550987413868819,
+        -0.00476099387252261,
+        -0.06539098017671019
+      ],
+      "seconds": 0.6323104000039166
+    },
+    {
+      "iteration": 4,
+      "restricted_profit": 99.54460603932966,
+      "upper_profit": 18225.305614099474,
+      "reduced_costs": [
+        -0.005121996547083207,
+        -0.004370334694898026,
+        -0.004573289844782959,
+        -0.06169960354699647
+      ],
+      "seconds": 0.7568406999926083
+    },
+    {
+      "iteration": 5,
+      "restricted_profit": 103.40182520846429,
+      "upper_profit": 19245.35762861682,
+      "reduced_costs": [
+        -0.005390881946093239,
+        -0.004601016386921824,
+        -0.004809567015023529,
+        -0.06620203314777195
+      ],
+      "seconds": 0.8779996999946889
+    },
+    {
+      "iteration": 6,
+      "restricted_profit": 105.86603987951094,
+      "upper_profit": 18012.209152485222,
+      "reduced_costs": [
+        -0.005060456446301239,
+        -0.00431439734677413,
+        -0.004527558828983632,
+        -0.06082019234988478
+      ],
+      "seconds": 1.0002202000032412
+    },
+    {
+      "iteration": 7,
+      "restricted_profit": 107.61365328081592,
+      "upper_profit": 17382.88914092494,
+      "reduced_costs": [
+        -0.004897751551795081,
+        -0.0041756499207476604,
+        -0.0043785559286659064,
+        -0.05789263363776717
+      ],
+      "seconds": 1.1235540000052424
+    },
+    {
+      "iteration": 8,
+      "restricted_profit": 109.01395657234389,
+      "upper_profit": 17854.079599124343,
+      "reduced_costs": [
+        -0.005011037181471492,
+        -0.004269366846074247,
+        -0.004491131993203795,
+        -0.06039112335411867
+      ],
+      "seconds": 1.2667538999958197
+    },
+    {
+      "iteration": 9,
+      "restricted_profit": 109.7491500007236,
+      "upper_profit": 17472.088723413995,
+      "reduced_costs": [
+        -0.004918063934181125,
+        -0.004187881509913076,
+        -0.004407428149871383,
+        -0.058321881534465714
+      ],
+      "seconds": 1.42679529999441
+    },
+    {
+      "iteration": 10,
+      "restricted_profit": 110.48414502893866,
+      "upper_profit": 18516.736835084095,
+      "reduced_costs": [
+        -0.005190383065068516,
+        -0.004430100232997893,
+        -0.004630652102250371,
+        -0.06328914331700766
+      ],
+      "seconds": 1.5867499000014504
+    },
+    {
+      "iteration": 11,
+      "restricted_profit": 111.3356447809274,
+      "upper_profit": 19127.34166295101,
+      "reduced_costs": [
+        -0.005354193240304311,
+        -0.004566104264640932,
+        -0.0047866187005403725,
+        -0.06571802113147493
+      ],
+      "seconds": 1.753920699993614
+    },
+    {
+      "iteration": 12,
+      "restricted_profit": 111.96636574481818,
+      "upper_profit": 16637.66861932734,
+      "reduced_costs": [
+        -0.004685471201010054,
+        -0.003989072361760829,
+        -0.0042071687278830315,
+        -0.05512681501985964
+      ],
+      "seconds": 1.9131977999932133
+    },
+    {
+      "iteration": 13,
+      "restricted_profit": 112.42494375808747,
+      "upper_profit": 17049.19476052531,
+      "reduced_costs": [
+        -0.004798328571993693,
+        -0.004087325029628351,
+        -0.004302127588194124,
+        -0.056778059027549704
+      ],
+      "seconds": 2.08028419999755
+    },
+    {
+      "iteration": 14,
+      "restricted_profit": 112.84161425250932,
+      "upper_profit": 18092.329634534228,
+      "reduced_costs": [
+        -0.0050863114540049496,
+        -0.0043384180288158596,
+        -0.0045453747934782246,
+        -0.060847957805810315
+      ],
+      "seconds": 2.2450667999946745
+    },
+    {
+      "iteration": 15,
+      "restricted_profit": 113.20871233350772,
+      "upper_profit": 18169.224023889874,
+      "reduced_costs": [
+        -0.005102870027657315,
+        -0.004357904140997026,
+        -0.00454595247201378,
+        -0.061548304980128365
+      ],
+      "seconds": 2.431059299997287
+    },
+    {
+      "iteration": 16,
+      "restricted_profit": 113.54709362281574,
+      "upper_profit": 19267.44420340587,
+      "reduced_costs": [
+        -0.005399497087681358,
+        -0.004609668667887697,
+        -0.004813916849361117,
+        -0.06599476405020446
+      ],
+      "seconds": 2.595836099993903
+    },
+    {
+      "iteration": 17,
+      "restricted_profit": 113.87153270776616,
+      "upper_profit": 18734.240093568504,
+      "reduced_costs": [
+        -0.005253891887823162,
+        -0.004489169764178912,
+        -0.004674330589728438,
+        -0.064005189154274
+      ],
+      "seconds": 2.761743099996238
+    },
+    {
+      "iteration": 18,
+      "restricted_profit": 114.19754317041225,
+      "upper_profit": 18615.526512109802,
+      "reduced_costs": [
+        -0.005220807164849208,
+        -0.004457081193026954,
+        -0.004655164099789578,
+        -0.063449069101263
+      ],
+      "seconds": 2.9424342999991495
+    },
+    {
+      "iteration": 19,
+      "restricted_profit": 114.48312853424432,
+      "upper_profit": 16836.584797220417,
+      "reduced_costs": [
+        -0.00473952449327783,
+        -0.004046023747966351,
+        -0.00422630858087616,
+        -0.05621315662609758
+      ],
+      "seconds": 3.1185409000026993
+    },
+    {
+      "iteration": 20,
+      "restricted_profit": 114.68836999934138,
+      "upper_profit": 16089.741841989502,
+      "reduced_costs": [
+        -0.00453867344124546,
+        -0.0038791477763482386,
+        -0.004034868197837879,
+        -0.053252677346726895
+      ],
+      "seconds": 3.3025570000027074
+    },
+    {
+      "iteration": 21,
+      "restricted_profit": 114.84399965259217,
+      "upper_profit": 19040.209566403235,
+      "reduced_costs": [
+        -0.005334468156220814,
+        -0.004556859906046025,
+        -0.004748897324748797,
+        -0.06532041878699363
+      ],
+      "seconds": 3.479306199995335
+    },
+    {
+      "iteration": 22,
+      "restricted_profit": 114.94339887034585,
+      "upper_profit": 17387.970697666016,
+      "reduced_costs": [
+        -0.004888607458916686,
+        -0.004177518900420138,
+        -0.004347889682340666,
+        -0.05858220831410163
+      ],
+      "seconds": 3.656715000004624
+    },
+    {
+      "iteration": 23,
+      "restricted_profit": 115.050125897018,
+      "upper_profit": 17664.894406216015,
+      "reduced_costs": [
+        -0.0049620980689477606,
+        -0.0042532690744642426,
+        -0.004377840864894148,
+        -0.06020236005081894
+      ],
+      "seconds": 3.8600623999955133
+    },
+    {
+      "iteration": 24,
+      "restricted_profit": 115.14939172116283,
+      "upper_profit": 19320.73797776576,
+      "reduced_costs": [
+        -0.0054030373478439545,
+        -0.004622645760903489,
+        -0.004789209876395921,
+        -0.06710702668506074
+      ],
+      "seconds": 4.05258980000508
+    },
+    {
+      "iteration": 25,
+      "restricted_profit": 115.26537826818821,
+      "upper_profit": 20068.230924326497,
+      "reduced_costs": [
+        -0.005609288727710476,
+        -0.004812703306475659,
+        -0.004935719849017007,
+        -0.07035708894444659
+      ],
+      "seconds": 4.250159499992151
+    },
+    {
+      "iteration": 26,
+      "restricted_profit": 115.3858467210157,
+      "upper_profit": 19206.209015889046,
+      "reduced_costs": [
+        -0.005378154845646689,
+        -0.004602603729526356,
+        -0.00476469111288516,
+        -0.06632464591115364
+      ],
+      "seconds": 4.444684300004155
+    },
+    {
+      "iteration": 27,
+      "restricted_profit": 115.48543451414298,
+      "upper_profit": 17686.129756426555,
+      "reduced_costs": [
+        -0.004968931859956054,
+        -0.004253505834811959,
+        -0.0043995001895223195,
+        -0.06003577865550447
+      ],
+      "seconds": 4.6394882000022335
+    },
+    {
+      "iteration": 28,
+      "restricted_profit": 115.56775672295043,
+      "upper_profit": 17235.536675810232,
+      "reduced_costs": [
+        -0.004846872322861309,
+        -0.004139055817727236,
+        -0.004318493359432474,
+        -0.05788539217575561
+      ],
+      "seconds": 4.8324439999996684
+    },
+    {
+      "iteration": 29,
+      "restricted_profit": 115.62943480752438,
+      "upper_profit": 17660.35433283166,
+      "reduced_costs": [
+        -0.004967905498725025,
+        -0.004255294571842825,
+        -0.00439165996888623,
+        -0.05968304324602325
+      ],
+      "seconds": 5.034914999996545
+    }
+  ],
+  "runtime_seconds": 5.042117100005271,
+  "method": "Dantzig-Wolfe battery trajectories; continuous investment/min-load/B-priority relaxation",
+  "stopping_bound_correction_mGBP": 17544.724898024135
+}

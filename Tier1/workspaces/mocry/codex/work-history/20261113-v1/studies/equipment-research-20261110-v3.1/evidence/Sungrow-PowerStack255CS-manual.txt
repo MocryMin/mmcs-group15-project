@@ -1,0 +1,4434 @@
+PAGE 1
+User Manual
+Energy Storage System
+PowerStack-ST255CS-2H
+
+
+
+
+
+                                                                                                      ST255CS-2H-UEN-Ver11-202512
+
+PAGE 2
+All Rights Reserved
+
+
+        All Rights Reserved
+     No part of this document can be reproduced in any form or by any means without the prior
+        written permission of Sungrow Power Supply Co., Ltd (hereinafter "SUNGROW").
+
+      Trademarks
+
+                     and other SUNGROW trademarks used in this manual are owned by
+     SUNGROW.
+
+         All other trademarks or registered trademarks mentioned in this manual are owned by their
+        respective owners.
+
+       Software Licenses
+          •    It is prohibited to use data contained in firmware or software developed by SUNGROW,
+             in part or in full, for commercial purposes by any means.
+          •    It is prohibited to perform reverse engineering, cracking, or any other operations that
+         compromise the original program design of the software developed by SUNGROW.
+
+
+
+
+
+                                                                                      I
+
+PAGE 3
+About This Manual
+
+
+       This manual gives an introduction to the transport and storage, mounting, electrical
+        connection, powering on/off, troubleshooting, and maintenance of the Energy Storage
+      System ("ESS").
+
+       Target Group
+       This manual is intended for operators of the energy storage plant and qualified technical
+       persons. The installation and operation must be performed only by qualified technical
+       persons, who must:
+          •  Have received professional training
+          •  Have read through this manual carefully and have a good understanding of the relevant
+           safety instructions
+          •  Be familiar with applicable local standards and the relevant safety code for electrical
+          system
+     How to Use This Manual
+      Read the manual and other related documents before performing any operation on the
+        product. Documents must be properly kept and be available at all times.
+
+       To increase customer satisfaction, the product and its manual will be updated and improved
+        constantly. If the manual you have received is slightly inconsistent with the real product,
+              it is probably owed to a product update. In such a case, the real product should take
+       precedence. You can find the latest manual at support.sungrowpower.com, or reach your
+       sales for the manual.
+
+      The figures in this manual are for reference only. The real product may differ.
+
+      Symbols in the Manual
+       To ensure the safety of life and property for users when using the product and to improve
+        the efficiency of product use, the manual provides relevant safety information, which are
+        highlighted by the following symbols.
+      Symbols that may appear in this manual are listed below. Please read carefully for better
+       use of this manual.
+
+       DANGER
+        Indicates an imminently hazardous situation which, if not avoided, will result in
+       death or serious injury.
+
+       WARNING
+        Indicates a moderately hazardous situation which, if not avoided, will result in
+       death or serious injury.
+
+
+
+
+                                                                                           II
+
+PAGE 4
+   CAUTION
+ Indicates a slightly hazardous situation which, if not avoided, may result in minor
+ or moderate injury.
+
+ NOTICE
+ Indicates a potential hazard which, if not avoided, will result in device malfunction
+ or property damage.
+
+
+       Indicates supplementary information, emphasis on specific points, or tips related to
+      the use of the product that might help to solve your problems or save your time.
+
+Signs on the Product
+Observe the safety signs on the product at all times, which include:
+
+  Sign               Explanation
+
+                   Hot surface! Do not touch. Otherwise, it may cause personal
+                          injuries.
+
+                    Disconnect the equipment from all the external power sources
+                     before maintenance!
+
+
+                    High voltages inside! Touching it may result in an electric shock.
+
+
+                  Danger of death due to high voltages!
+                        After the equipment is disconnected from the external power
+                      source, wait at least 5 minutes before touching any of its internal
+                     conductive parts.
+
+                  Beware of heavy weights! Lifting the heavy object directly may
+                   cause back injury. Please lift it with the assistance of proper tools.
+
+
+                  Beware of explosion.
+
+
+                  Beware of corrosion.
+
+
+                Do not dispose of it together with household waste.
+
+
+                No fires.
+
+
+
+                                                                      III
+
+PAGE 5
+  Sign               Explanation
+
+               A medical facility should be set up nearby.
+
+
+                                    If it gets in your eyes, flush your eyes immediately with running
+                     water or saline, and seek medical advice in time.
+
+                       Protective earthing (PE) terminal. This terminal should be
+                    connected for reliable grounding, to ensure the safety of the
+                       operator.
+
+                 Read the instructions before performing any operation on the
+                      product.
+
+
+                 Wear safety goggles.
+
+
+Related Manuals
+Related manuals and acquisition methods for this product are shown in the table below.
+
+  Link                   QR code
+
+
+
+  LC300 User Manual
+
+
+
+
+
+                                             IV
+
+PAGE 6
+                       Contents
+All Rights Reserved..............................................................................................................I
+About This Manual.............................................................................................................. II
+1 Safety Precautions..................................................................................................1
+     1.1 Personnel Requirements....................................................................................... 1
+     1.2 Electrical Safety.....................................................................................................1
+     1.3 Battery Safety........................................................................................................ 2
+     1.4 Hoisting and Transportation...................................................................................3
+     1.5 Installation and Wiring........................................................................................... 3
+     1.6 Operation and Maintenance.................................................................................. 4
+     1.7 Product Disposal....................................................................................................5
+2 Product Description............................................................................................... 6
+     2.1 Product Overview.................................................................................................. 6
+     2.2 External Design..................................................................................................... 7
+         2.2.1 ESS External Design...................................................................................7
+         2.2.2 Mechanical Data......................................................................................... 9
+         2.2.3 Ventilation Design..................................................................................... 10
+     2.3 Internal Design.....................................................................................................11
+         2.3.1 Internal Components.................................................................................11
+         2.3.2 DC/AC Power Converter Unit (SC125CX)................................................ 12
+         2.3.3 BSP...........................................................................................................15
+         2.3.4 Battery.......................................................................................................16
+     2.4 EMS (Optional).................................................................................................... 19
+3 Transport and Storage.........................................................................................22
+     3.1 Precautions..........................................................................................................22
+     3.2 Transport Methods...............................................................................................22
+     3.3 Transport Requirements...................................................................................... 22
+     3.4 Storage Requirements.........................................................................................23
+4 Mechanical Installation....................................................................................... 26
+     4.1 Inspection Before Installation...............................................................................26
+         4.1.1 Deliverables Inspection.............................................................................26
+         4.1.2 Equipment Inspection................................................................................26
+     4.2 Installation Environment Requirements...............................................................27
+         4.2.1 Installation Site Requirement.................................................................... 27
+         4.2.2 Foundation Requirements.........................................................................27
+
+
+                                   V
+
+PAGE 7
+         4.2.3 Installation Space Requirements.............................................................. 29
+     4.3 Handling with Forklift........................................................................................... 34
+     4.4 Hoisting and Transport.........................................................................................35
+         4.4.1 Safety Precautions....................................................................................35
+         4.4.2 Hoisting Operation.................................................................................... 37
+         4.4.3 Hoisting Procedure....................................................................................37
+     4.5 Securing ESS...................................................................................................... 38
+     4.6 Removing Films...................................................................................................40
+5 Electrical Connection...........................................................................................41
+     5.1 Precautions..........................................................................................................41
+     5.2 Electrical Connection Overview...........................................................................41
+     5.3 Preparation Before Wiring................................................................................... 43
+         5.3.1 Preparing Installation Tools.......................................................................43
+         5.3.2 Opening Cabinet Door.............................................................................. 44
+         5.3.3 Prepare Cables......................................................................................... 44
+         5.3.4 Cable Connection......................................................................................47
+              5.3.4.1 Main Power Supply Wiring............................................................. 47
+              5.3.4.2 Auxiliary Power Supply Wiring........................................................49
+         5.3.5 Cable Inlet Design.....................................................................................50
+     5.4 Ground Connection..............................................................................................51
+     5.5 AC Connection.....................................................................................................53
+         5.5.1 Safety Precautions....................................................................................53
+         5.5.2 AC Output Wiring...................................................................................... 53
+     5.6 Auxiliary Power Supply Wiring.............................................................................54
+     5.7 Communication Wiring.........................................................................................55
+         5.7.1 Ethernet Communication Wiring............................................................... 55
+         5.7.2 EMS/LC Communication Wiring................................................................57
+     5.8 Post-wiring Operations........................................................................................ 59
+6 Battery Connection...............................................................................................61
+     6.1 Precautions..........................................................................................................61
+     6.2 Cable Connection................................................................................................ 62
+7 Powering up and Shutdown..............................................................................66
+     7.1 Powering up.........................................................................................................66
+         7.1.1 Inspection Before Powering up................................................................. 66
+         7.1.2 Power-on Procedure................................................................................. 66
+     7.2 Shutdown.............................................................................................................67
+         7.2.1 Planned Shutdown....................................................................................67
+         7.2.2 Emergency Shutdown...............................................................................68
+8 Fire Suppression................................................................................................... 69
+
+
+                                                     VI
+
+PAGE 8
+     8.1 General Rules......................................................................................................69
+     8.2 Fire Suppression System.....................................................................................69
+     8.3 Detection and Alarm System............................................................................... 70
+     8.4 Fire Extinguishing System................................................................................... 71
+     8.5 Backup Protection System (Optional)..................................................................72
+9 Troubleshooting.....................................................................................................74
+10 Routine Maintenance.........................................................................................75
+    10.1 Precautions Before Maintenance.......................................................................75
+    10.2 Container Maintenance......................................................................................75
+         10.2.1 Appearance Repair................................................................................. 75
+              10.2.1.1 Detergent Cleaning.......................................................................76
+              10.2.1.2 Finish Paint Repair....................................................................... 77
+              10.2.1.3 Double-Layer Paint Repair........................................................... 79
+         10.2.2 Checking Door Locks and Hinges...........................................................82
+         10.2.3 Checking Sealing Strips..........................................................................82
+    10.3 Battery Use Safety and Maintenance................................................................ 82
+         10.3.1 Safety Precautions..................................................................................82
+         10.3.2 Battery Preventive Maintenance............................................................. 85
+         10.3.3 Battery Replacement and Maintenance..................................................85
+         10.3.4 Maintenance for Long-Term Stored Batteries......................................... 86
+    10.4 Battery Maintenance..........................................................................................88
+         10.4.1 Maintenance Precautions........................................................................88
+         10.4.2 Maintenance............................................................................................88
+    10.5 Coolant Replacement........................................................................................ 89
+    10.6 Post-maintenance Inspection............................................................................ 92
+11 Appendix.................................................................................................................93
+    11.1 System Parameters........................................................................................... 93
+    11.2 Abbreviations..................................................................................................... 94
+    11.3 Tightening Torques.............................................................................................96
+    11.4 Quality Assurance..............................................................................................96
+    11.5 Contact Information............................................................................................97
+
+
+
+
+
+                                                         VII
+
+PAGE 9
+1 Safety Precautions
+
+
+1.1 Personnel Requirements
+
+      The hoisting, transportation, installation, wiring, operation, and maintenance of the
+       equipment must be carried out by qualified electrical technicians in accordance with local
+        regulations. Qualified technicians must:
+
+          •  Have certain electrical wiring, electronic, and mechanical expertise, and be familiar with
+             electrical and mechanical schematics.
+          •  Be familiar with the composition and working principles of the equipment and its
+          upstream and downstream equipment.
+          •  Have received professional training in the installation and commissioning of electrical
+          equipment.
+          •  Be able to respond quickly and effectively to dangers or emergencies that may occur
+           during the process of installation and commissioning.
+          •  Be familiar with applicable local standards and specifications of the country/region
+         where the project is located.
+
+1.2 Electrical Safety
+
+       DANGER
+           •  Touching the power grid or the contact points and terminals in the devices
+          connected to the power grid may lead to electric shock!
+           •  The battery side or the power grid side may generate voltage. Always use a
+           standard voltmeter to ensure that there is no voltage before touching.
+
+       DANGER
+           •  Lethal voltages are present inside the product!
+           •  Note and observe the warnings on the product.
+           •  Respect all safety precautions listed in this manual and other pertinent
+          documents.
+           •  Respect the protection requirements and precautions of the lithium battery.
+
+
+
+
+
+                                                                                        1
+
+PAGE 10
+ 1 Safety Precautions                                                                             User Manual
+
+       DANGER
+           •   Electricity may still exist in the battery when the power supply of the equipment
+             is disconnected. Wait 10 minutes to ensure the equipment is completely
+            voltage-free before any operation.
+
+       WARNING
+           •   All hoisting, transportation, installation, wiring, operation, and maintenance
+         must be carried out complying with the relevant codes and regulations of the
+           country where the project is located.
+
+       WARNING
+           •  Always use the product in accordance with the requirements described in this
+          manual. Otherwise, equipment damage may occur.
+
+      NOTICE
+       To prevent misuse or accidents caused by unrelated personnel, observe the
+        following precautions:
+           •  Post prominent warning signs around the product to prevent accidents caused
+          by false switching.
+           •  Place necessary warning signs or barriers near the product..
+
+
+1.3 Battery Safety
+
+       For safe use of the product, technical personnel must thoroughly review and strictly
+       adhere to the following safety requirements. SUNGROW shall not be held liable for
+       product malfunctions, component damage, personal injury, property loss, or other damages
+        resulting from any of the following circumstances:
+
+          •   Failure to charge the batteries as required, resulting in capacity loss or irreversible
+         damage, due to customer action.
+          •   Battery damage, drops, or leaks due to improper operations or operations not in
+          compliance with the relevant instructions.
+          •   Battery damage from overdischarge caused by not powering on the batteries promptly
+         due to customer action.
+          •   Battery damage from using improper equipment for charging or discharging due to
+          customer action.
+          •  Frequent battery overdischarge caused by improper maintenance, improper capacity
+          expansion on-site, or batteries not being fully charged for a long time, due to customer
+            action.
+          •   Battery damage from incorrect operation parameter settings due to customer action.
+
+
+
+2
+
+PAGE 11
+ User Manual                                                                         1 Safety Precautions
+
+          •   Direct battery damage resulting from an operating environment that does not meet the
+            specified requirements.
+          •   Batteries used beyond the specified scenarios without approval, including but not limited
+            to connecting additional loads, due to customer action.
+          •   Failure to perform maintenance properly according to the system manual due to
+          customer action.
+          •  Damage from continued use of batteries beyond the warranty period due to customer
+            action.
+          •  Damage from use of defective or deformed batteries.
+          •  Use batteries provided by SUNGROW with other batteries, including but not limited to
+            batteries of other brands or of different rated capacities.
+          •  Product or property damage caused by storing or installing batteries in places with
+          flammable or explosive materials.
+          •  Personal injury or property damage resulting from operations performed by unqualified
+          personnel or without appropriate personal protective equipment.
+          •   Battery damage caused by eating, drinking, smoking, or similar activities nearby.
+
+1.4 Hoisting and Transportation
+
+       WARNING
+      When walking on the top of the equipment, be sure to follow the standard
+       procedure for working at heights.
+
+
+1.5 Installation and Wiring
+
+       WARNING
+         In the whole process of mechanical installation, the relevant standards and
+        requirements of the project location must be strictly observed.
+
+       WARNING
+       Only equipment designated by SUNGROW can be used. Failure to use equipment
+        designated by SUNGROW may cause damage to the protection function and injury
+        to personnel.
+
+
+
+
+
+                                                                                        3
+
+PAGE 12
+ 1 Safety Precautions                                                                             User Manual
+
+1.6 Operation and Maintenance
+
+       WARNING
+           •  Wear personal protective equipment (PPE) when performing equipment
+          maintenance or servicing.
+           •  Maintenance personnel must wear PPE properly, including goggles, helmets,
+           insulated shoes, and gloves.
+
+       WARNING
+           •  There are no user-maintainable parts inside the battery unit.
+           •  Only personnel authorized by SUNGROW may remove, replace, or dispose of
+             batteries. Users are prohibited from performing battery maintenance.
+
+       WARNING
+           •  To prevent electric shock, do not perform any maintenance operations beyond
+          those covered in this manual.
+           •  To protect the components secured on the doors (e.g., EMS and LC) from
+           short circuits caused by rainwater, avoid opening the doors for operation and
+          maintenance on rainy days.
+           •    If maintenance services are required, contact SUNGROW Customer Service.
+
+       WARNING
+           •  Replacement of internal components must be performed exclusively by
+            qualified personnel to ensure continuous fire protection.
+
+       DANGER
+           •  Dismantling or incinerating the battery may result in fire.
+
+      NOTICE
+           •  Do not spray paint any internal or external component of the equipment.
+           •  Do not use cleaning agents to clean the equipment or expose the equipment to
+          harsh chemicals.
+
+       WARNING
+           •  When replacing coolant (ethylene glycol solution) or performing maintenance
+         on liquid cooling pipes, wear protective equipment such as goggles.
+
+
+
+
+
+4
+
+PAGE 13
+ User Manual                                                                         1 Safety Precautions
+
+1.7 Product Disposal
+
+     When the equipment or its internal components reach end-of-life, do not dispose of it
+        together with household wastes. Some components inside the equipment can be recycled,
+        while some may pollute the environment.
+
+       Contact an authorized local facility for collection.
+
+
+
+
+
+                                                                                        5
+
+PAGE 14
+2 Product Description
+
+
+2.1 Product Overview
+
+      Product Model
+      The product model designation is defined as follows.
+
+
+
+
+
+         No.            Definition
+
+       A           Energy storage product
+
+       B             Battery capacity
+
+      C            Intended for commercial & industrial applications
+
+      D           Designed operating duration of the system (in hours)
+
+
+       Typical Application
+      The energy storage system (hereinafter referred to as the "ESS") integrates the electrical
+       equipment, communication device, temperature control system, and fire suppression
+       system into a single cabinet. For electrical equipment, the LFP battery system features
+         liquid cooling, while the DC/AC power converter unit adopts forced air cooling for heat
+        dissipation; these two components are integrated into the ESS through an all-in-one design.
+       For communication devices, the LC incorporates the functions of BSC, and the CMU is built
+         into the DC/AC power converter unit. The integrated design makes the entire system more
+      compact in structure and easy to maintain.
+
+       With an all-in-one design, the ESS allows flexible configuration and easy installation,
+        operation, and maintenance, with only a small space required. It also supports ancillary
+        services such as demand control, gaining revenue from peak-to-trough price spread (peak-
+        valley arbitrage), demand response, and virtual plant.
+
+
+
+
+
+6
+
+PAGE 15
+ User Manual                                                                        2 Product Description
+
+
+
+
+
+                             Figure 2-1 Typical Application of the ESS
+
+       *The figure is for reference only. The actual product may differ.
+
+       Grid Types
+      The ESS supports grid types of TN-S, TN-C, TN-C-S, TT, and IT.
+
+
+
+
+
+                                     Figure 2-2 Grid Types
+
+      NOTICE
+       The TT grid system supports pure grid-connected scenarios only.
+
+
+2.2 External Design
+
+2.2.1 ESS External Design
+      The external design of the ESS is shown in the figure below.
+
+
+
+
+
+                                                                                        7
+
+PAGE 16
+ 2 Product Description                                                                            User Manual
+
+
+
+
+
+                                 Figure 2-3 ESS External Design
+
+       *The figure is for reference only. The actual product may differ.
+
+         No.       Name
+
+       A             Indicator light
+
+       B             Air inlet
+
+      C          Emergency stop button
+
+      D          Door lock
+
+       E           Grounding point
+
+       F              Air outlet
+
+      G          Nameplate
+
+
+
+
+
+8
+
+PAGE 17
+ User Manual                                                                        2 Product Description
+
+      NOTICE
+       The nameplate contains critical parameter information related to the ESS and must
+       be protected against damage during transport, installation, maintenance, overhaul,
+       and other operations. Do not damage or remove the nameplate!
+
+       Indicator Light
+      The indicator light is located at the top of the ESS. The description of the indicator light
+        status is shown as follows.
+
+       Table 2-1 Indicator Light Status
+          Indicator Status                                  Description
+
+                                                The system is operating properly
+                            Steady on
+                                                              (charging/discharging)
+
+                                 Blink with fading effect at
+                                                The system is normal and
+                            2-second intervals
+                                                                 currently not charging or
+                                (Breathing)
+                                                            discharging
+
+                                                     There is a fault in the system
+                            Steady on                    (the auxiliary power supply is not
+                                                          disconnected)
+
+                                                The auxiliary power supply is
+                                 Off
+                                                         disconnected
+
+
+      Emergency Stop Button
+        In case of an emergency, press the emergency stop button. The system will then stop
+        operating immediately.
+
+       DANGER
+         After the emergency stop button is pressed, the system will shut down and the
+      DC contactor and main AC circuit breaker will open. However, the internal auxiliary
+       power supply and the PCB board will still carry voltage. Do not touch them!
+
+
+2.2.2 Mechanical Data
+       Overall Dimensions
+      The dimensions of the ESS are shown in the figure below.
+
+
+
+
+
+                                                                                        9
+
+PAGE 18
+ 2 Product Description                                                                            User Manual
+
+
+
+
+
+                                 Figure 2-4 Overall Dimensions
+
+
+
+
+
+                       Figure 2-5 Dimensions of ESS with its Door Fully Open
+
+       *The figure is for reference only. The actual product may differ.
+
+2.2.3 Ventilation Design
+      The ESS features an air inlet at the front and an air outlet at the rear, as shown below.
+
+
+
+
+
+10
+
+PAGE 19
+ User Manual                                                                        2 Product Description
+
+
+
+
+
+                                  Figure 2-6 Ventilation Design
+
+       *The figure is for reference only. The actual product may differ.
+
+2.3 Internal Design
+
+2.3.1 Internal Components
+      The main electrical equipment inside the ESS is shown in the figure below.
+
+
+
+
+
+                             Figure 2-7 Internal Structure of the ESS
+
+         No.       Name
+
+       A         DC/AC power converter unit (SC125CX)
+
+
+                                                                                              11
+
+PAGE 20
+ 2 Product Description                                                                            User Manual
+
+         No.       Name
+
+       B            Liquid cooling unit
+
+      C           Detectors of fire suppression system
+
+      D            Battery RACK (compartment)
+
+       E            Battery supply panel (BSP)
+
+       F           Alarm sounder
+
+      G            Stainless steel vent mesh
+
+      H           Aerosol
+
+                I             Dehumidifier
+
+         J          LC300
+
+       K        EMS300CP (optional)
+
+       *The figure is for reference only. The actual product may differ.
+
+2.3.2 DC/AC Power Converter Unit (SC125CX)
+       External Design
+      The external design of the SC125CX DC/AC power converter unit is shown in the figure
+       below.
+
+
+
+
+
+12
+
+PAGE 21
+User Manual                                                                        2 Product Description
+
+
+
+
+
+                                  Figure 2-8 External Design
+
+      *The figure here is for reference only. The actual product may differ.
+
+        No.       Designation          Description
+
+                                 Used to restrict the free movement of the DC/AC
+       1         Locating pin
+                                   power converter unit.
+
+       2        Vent valve            Resistant to dust and water; air permeable.
+
+                                 Used for the transport, installation, and removal of
+       3        Guide rail
+                                         the device.
+
+                   Ports for DC
+       4                         Used for DC wiring of the device.
+                    wiring
+
+                   Ports for AC
+       5                         Used for AC wiring of the device.
+                    wiring
+
+       6          Indicator light          Indicates the current operating status.
+
+                   Ports for
+       7        communication      Used for communication wiring of the device.
+                    wiring
+
+
+
+
+                                                                                      13
+
+PAGE 22
+ 2 Product Description                                                                            User Manual
+
+         No.       Designation          Description
+
+                      *Additional         Used for additional protective grounding, as specified
+        8
+                   grounding terminal     in EN 50178.
+
+                                   Fans are installed at the back of the cover plate,
+        9          Air inlet cover
+                                    used for forced cooling.
+
+                                 Used to disconnect the equipment from the battery
+        10     DC switch
+                                                safely.
+
+       WARNING
+        *During product use, avoid DC positive/negative-to-ground short circuits and short
+         circuits between the positive and negative terminals. Otherwise, it may lead to
+        serious damage to the DC/AC power converter unit.
+         In case a short circuit fault has occurred, the whole DC/AC power converter unit
+       needs to be replaced.
+
+       Indicator Light Panel
+      The indicator light panel serves as an interface for human-machine interaction and is used
+        to indicate the current operating status of the DC/AC power converter unit.
+
+       Table 2-2 Indicator Light Status
+          Indicator       Status                  Description
+
+                      Steady on            The device is operating.
+
+                           Blink fast             The device has connected to Bluetooth and
+                              (Interval: 0.2 s)          data communication is in process.
+                                            There is no fault in the device.
+
+                           Blink slow with fading
+         Blue                             The device has been powered on and is                             effect
+                                                           in the emergency stop, standby, or startup                              (Interval: 2 s)
+                                                         state.
+
+                                   A fault has occurred (the device cannot
+                      Steady on
+                                              connect to the grid).
+
+                                        The device has connected to Bluetooth and
+                           Blink                   data communication is in process.       Red
+                                            There is a fault in the device.
+
+
+                                        The AC and DC sides are both disconnected
+                           Off
+                                              from power.
+
+
+
+
+14
+
+PAGE 23
+ User Manual                                                                        2 Product Description
+
+          Indicator       Status                  Description
+
+          Off
+
+
+2.3.3 BSP
+       External Design
+      The external design of the BSP is shown in the figure below.
+
+
+
+
+
+                                   Figure 2-9 External Design
+
+       *The figure here is for reference only. The actual product may differ.
+
+         No.           Designation               Description
+
+                                         Used to restrict the free movement of the
+        1             Locating pin
+                                            BSP.
+
+                                         Used to exhaust the circulating hot air from
+        2               Air outlet
+                                                   the BSP.
+
+                                         Used to bring circulating cool air into the
+        3               Air inlet
+                                            BSP.
+
+                                         Used for power supply or communication
+        4            Connection ports 3–4       wiring of the 24 Vdc device inside the
+                                                      cabinet.
+
+
+
+                                                                                       15
+
+PAGE 24
+ 2 Product Description                                                                            User Manual
+
+         No.           Designation               Description
+
+                        Ethernet               Used for communication wiring of the
+        5
+                      communication port        device.
+
+                                                   Includes communication and 24 V power
+        6            Connection ports 1–2
+                                                      supply.
+
+                        Ports for AC output
+        7                                Used for AC output wiring of the device.
+                          wiring
+
+                         Miniature circuit        AC auxiliary power supply and UPS control
+        8
+                       breaker                     switch.
+
+                          Additional grounding      Used for additional protective grounding, as
+        9
+                         terminal                    specified by EN 50178.
+
+                        Ports for AC input         Connected to the AC side of the DC/AC
+        10
+                          wiring                  power converter unit.
+
+                    Power port for liquid      Used for power supply wiring of the liquid
+         11
+                         cooling unit                cooling unit.
+
+        12        UPS                        Uninterruptible power supply.
+
+                                         Used to disconnect the device from loads
+        13        AC main switch
+                                                           safely.
+
+       *The system is equipped with an internal auxiliary power supply as standard.
+
+2.3.4 Battery
+        Cell
+      The exterior and technical data of the cell are shown as follows.
+
+       Table 2-3 Cell Data 1
+          Cell                    Parameter            Value
+
+                               Rated capacity       314 Ah
+
+                               Rated energy         1004.8 Wh
+
+                               Rated voltage          3.2 V
+
+                                                          2.5 V – 3.65 V (cell temperature T >
+                                                 0 ℃)                                  Voltage range
+                                                          2.0 V – 3.65 V (cell temperature T ≤
+                                                 0 ℃)
+
+      The dimensions and weights of cells from different brands are shown below.
+
+16
+
+PAGE 25
+User Manual                                                                        2 Product Description
+
+
+      Table 2-4 Cell Data 2
+        Dimensions (Thickness * Height * Width)           Weight
+
+         (71.60 ± 0.50) mm * (207.20 ± 0.50) mm * (174.70
+       ± 0.80) mm (including terminal post)
+                                                              (5.56 ± 0.15) kg
+         (71.60 ± 0.50) mm * (204.57 ± 0.80) mm * (174.70
+       ± 0.80) mm (not including terminal post)
+
+         (71.60 ± 0.50) mm * (207.90 ± 0.80) mm * (174.30
+       ± 0.80) mm (including terminal post)
+                                                              (5.55 ± 0.15) kg
+         (71.60 ± 0.50) mm * (204.60 ± 0.80) mm * (174.30
+       ± 0.80) mm (not including terminal post)
+
+         (71.70 ± 0.50) mm * (207.20 ± 0.50) mm * (174.40
+       ± 0.50) mm (including terminal post)
+                                                              (5.60 ± 0.15) kg
+         (71.70 ± 0.50) mm * (204.30 ± 0.50) mm *
+        (174.40± 0.50) mm (not including terminal post)
+
+         (71.60 ± 0.50) mm * (207.10 ± 0.80) mm * (174.20
+       ± 0.80) mm (including terminal post)
+                                                            (5.526 ± 0.15) kg
+         (71.60 ± 0.50) mm * (204.40 ± 0.80) mm * (174.20
+       ± 0.80) mm (not including terminal post)
+
+
+    PACK
+     The PACK (battery module) is mainly composed of cells connected in series and features
+       functions including battery voltage and temperature sampling and balancing control.
+      Designed with a chip dedicated to battery management, it receives control commands and
+      uploads collected data through daisy chain communication.
+
+      Table 2-5 PACK Data 1
+      PACK              Parameter          Value
+
+                          Dimensions (W *
+                   H * D) (not
+                                               (868 ± 5 mm) * (247 ± 5 mm) * (1415 ± 5
+                               including wiring
+                                   mm)
+                               terminals and
+                               faucets)
+
+                           Charge/
+                                           ≤ 0.5P
+                             discharge rate
+
+                                Cell type             Prismatic cell with aluminum shell, LFP
+
+                              Configuration
+                                (series and        1P64S
+                                   parallel)
+
+
+                                                                                      17
+
+PAGE 26
+ 2 Product Description                                                                            User Manual
+
+       PACK              Parameter          Value
+
+                         Key components    64 cells, 1 BMU, 1 fuse (1P64S)
+
+                              Ingress
+                                               IP65
+                                protection rating
+
+      The weights of different models of PACK are shown below.
+
+       Table 2-6 PACK Data 2
+       PACK Model                      Weight
+
+        P0643AL-AHA / P0643BL-AHA
+                                            (410 ± 6) kg
+        P0643AL-AA-H / P0643BL-AA-H
+
+       P0643AL-AMA / P0643BL-AMA
+                                            (413 ± 6) kg
+        P0643AL-AA-M / P0643BL-AA-M
+
+        P0643AL-ANA / P0643BL-ANA
+                                            (413 ± 6) kg
+        P0643AL-AA-N / P0643BL-AA-N
+
+       P0643AL-AGA / P0643BL-AGA
+                                            (408 ± 6) kg
+        P0643AL-AA-G / P0643BL-AA-G
+
+
+     RACK
+      The RACK is mainly composed of several PACKs and fuses.
+
+        Technical data of the RACK is shown in the table below.
+
+       Table 2-7 RACK Data
+                                                                                   Short-                      DC Output Voltage    Rated        Rated       RACK Model                                                                  Circuit                          Range             Power         Voltage                                                                               Current
+
+       R0257BL-AHAA
+        R0257BL-AAA-H
+       R0257BL-AMAA
+        R0257BL-AAA-M
+                               691.2 V – 934.4 V     128.6 kW     819.2 V    ≤ 20 kA
+       R0257BL-ANAA
+        R0257BL-AAA-N
+       R0257BL_AGAA
+       R0257BL_AAA-G
+
+
+
+
+
+18
+
+PAGE 27
+ User Manual                                                                        2 Product Description
+
+     RACK Structure
+
+       Table 2-8 RACK Structure
+        Model                     Arrangement
+
+
+
+
+
+        ST255CS-2H
+
+
+
+
+
+       Note:               represents a 1P64S PACK. LCS represents liquid cooling unit and
+     BSP represents power distribution box.
+
+2.4 EMS (Optional)
+
+      The EMS300CP energy management system (EMS) controller can collect the operation data
+         of the ESS and upload them to iSolarCloud so that users can monitor and control the system
+        operation remotely.
+
+     EMS300CP is an optional feature. It is positioned on the inner side of the cabinet door for
+       easy maintenance and management.
+
+       Auxiliary Meter
+        In addition to the ESS operation data, the EMS300CP also needs to collect the meter
+        data, as required by some particular functions. Therefore, please install the following three
+       meters before installing the ESS.
+          •  Gateway meter: Reverse power protection, demand control.
+          •  Overload monitoring meter: Overload protection.
+          •   Electricity meter: Overload protection.
+
+       Monitoring via Local Web
+      The internal communication wiring between the EMS300CP and the ESS is completed at
+         factory. At the site, connect the PC to the communication port on the ESS. Then, you may
+       access the EMS300CP Web system on the PC.
+
+      The homepage of the EMS300CP Web system is shown below:
+
+
+
+
+                                                                                       19
+
+PAGE 28
+ 2 Product Description                                                                            User Manual
+
+
+
+
+
+                         Figure 2-10 Homepage of EMS300CP Local Web
+
+      You can scan the QR code on the nameplate on the back of the ESS to get the user
+
+
+
+
+
+      manual for the EMS300CP Web system, or scan the QR code:
+
+       To connect the EMS to a northbound controller, set Scheduling Mode to Third Party
+       Scheduling (Fixed Value) on the Web of the EMS300CP.
+
+
+
+
+
+20
+
+PAGE 29
+User Manual                                                                        2 Product Description
+
+     Remote Monitoring via iSolarCloud
+     You can also monitor the ESS remotely via iSolarCloud. You can log in to the iSolarCloud
+     Web system on the PC, or download the iSolarCloud App from an application store on your
+
+
+
+
+
+      phone:
+
+
+
+
+
+                     Figure 2-11 EMS300CP Homepage in iSolarCloud (Web)
+
+
+
+
+
+                                                                                      21
+
+PAGE 30
+3 Transport and Storage
+
+
+3.1 Precautions
+
+        CAUTION
+         Failure to transport and store the product in accordance with the requirements in
+         this manual may invalidate the warranty.
+
+
+3.2 Transport Methods
+
+      The ESS weighs approximately 3 tons and can be transported by land and sea. It adopts
+      an integrated and easy-to-lift design that facilitates transport. Currently, permission has
+        not been granted to transport the ESS by air, and no relevant guide for rail transport is
+        available.
+
+      The ESS can be transported by truck within the country.
+
+      NOTICE
+         In most cases, the total weight of the truck that carries the ESS will exceed the
+        general weight limit on the road. Therefore, you may need to acquire an overweight
+        permit from the relevant local agency in that area.
+
+
+3.3 Transport Requirements
+
+      The ESS leaves the factory with most of its internal components secured inside its body.
+      You may lift or move the ESS as a whole directly during transport.
+
+       WARNING
+         In the whole process of loading, unloading, and transport, follow strictly the
+        applicable safe operation procedure for ESS in the country/region where the
+        project is located.
+           •   All the tools used on the ESS, or during operation, must have undergone
+           proper maintenance.
+           •   All personnel engaged in loading, unloading, and anchoring operations must
+          have received relevant training, especially in safety.
+           •  Do not transport the ESS when the temperature is below -30 ℃.
+
+
+
+
+22
+
+PAGE 31
+ User Manual                                                                      3 Transport and Storage
+
+
+             During the whole process of loading, unloading, and transport, always keep in mind
+              the mechanical parameters (overall dimensions and weight) of the ESS.
+
+       To transport and move the ESS, make sure the below requirements are met:
+
+          •   All the doors of the ESS are locked.
+          •   Select an appropriate crane or lifting tool according to the on-site conditions. The tool
+         used must have a sufficient load capacity, boom length, and swing radius.
+          •    It is recommended to use one crane to lift the ESS.
+          •   Extra traction may be required to move the ESS along a slope.
+          •  Remove all obstacles that exist or may exist along the route, such as tree branches and
+           cables.
+          •   Transport or move the ESS in good weather, whenever possible.
+          •  Be sure to set up warning signs or fence off warning zones to prevent irrelevant
+          personnel from entering the operating area, thus avoiding accidents.
+          •  The ESS must stand upright during transport.
+          •  Ensure the base of the ESS remains level throughout the whole transport process, with
+         a maximum allowable tilt of 15°.
+          •  Avoid collision or strong shock during transport.
+          •    If the ESS is transported by land, use ropes to secure the lifting rings at the top of the
+        ESS to the transport vehicle, to prevent it from getting overly tilted during transport.
+
+                   After the ESS arrives at the project site, remove the diagonal fixing pieces at the
+                 top four corners, and store them properly.
+
+          •   Transport vehicles must comply with local traffic regulations.
+          •  During transportation, the vehicle shall maintain a constant speed whenever possible.
+         Sudden braking is not allowed.
+          •  The logistics carrier shall monitor abnormal driving behavior through the logistics
+            tracking platform or the vehicle’s on-board GPS system and issue early warnings or
+         manual intervention alerts. If any visible damage is found during on-site unpacking, the
+             carrier shall provide driving records as evidence for responsibility determination.
+
+3.4 Storage Requirements
+
+      NOTICE
+        Store the product according to the storage requirements. Damage resulting from
+         failure to meet the storage requirements will not be covered by the warranty
+
+          •  During storage, properly archive all documentation demonstrating compliance with
+           product storage requirements, including ambient temperature and humidity logs, photos,
+         and inspection reports.
+
+
+
+
+                                                                                       23
+
+PAGE 32
+ 3 Transport and Storage                                                                          User Manual
+
+          •  The base of the ESS must be elevated off the ground to a certain height, to avoid
+            internal condensation and also to prevent the ESS bottom from getting soaked by rain
+          water in rainy seasons. The height shall be decided according to the on-site geological
+         and meteorological conditions, etc.
+          •   Store the ESS on a dry, flat, solid, and hard ground surface that is not covered by any
+           vegetation. Requirements for the surface are as follows:
+               -  The surface must have sufficient load-bearing capacity to support the equipment.
+               -  The surface must be level, with a levelness deviation of 0–10 mm, and the slope
+            must be less than 5°.
+               -  The surface must provide good drainage to prevent water accumulation or
+             submersion of the ESS.
+          •  Before storage, ensure that the doors of the ESS and all internal equipment are locked.
+          During storage, avoid opening the doors, unless it is necessary.
+          •   Maintain a clearance of 200 cm in front and 60 cm behind the ESS during storage.
+          •  The ambient temperature range for system storage is -30°C to +50°C. Since battery
+           degradation (SOC and SOH) is related to temperature, the optimal storage temperature
+              is -30°C to +25°C.
+
+                Long-term storage of the battery is not recommended as it may lead to battery
+                  capacity degradation. Even if the battery is stored at the recommended optimal
+                 storage temperature, irreversible capacity degradation will still happen during
+                 the period of rest, and such degradation will become more severe as the
+                 storage time lengthens. Please refer to the technical agreement for the specific
+               amount of degradation.
+
+          •  The UPS that is not put into operation needs to be charged every six months.
+          •  The relative humidity for storage is 0%–95%, non-condensing.
+          •  Use effective protections for the air inlets and outlets of the ESS. During storage, make
+          sure the protective films on the air inlets and outlets are intact. Meanwhile, take effective
+         measures to prevent the ingress of rainwater, dust, and sand.
+          •    It is recommended to replace the desiccant every six months. Use montmorillonite
+           desiccant, 200 g per bag. Place eight bags of desiccant at the collection tray area under
+         each cabinet. Remove all desiccant from the cabinet before operation.
+          •  Perform regular inspections at least every half a month. Check for signs of damage
+         caused by pests or animals, and inspect the ESS and its packaging, wiring terminals,
+           cables, and internal components for damage or aging. Promptly address any issues
+          found or replace parts as necessary.
+          •  Before installing an ESS that has been stored for more than six months, open its doors
+         and perform a visual inspection. Ensure that the ESS and all internal components are
+             intact and free of damage. Additionally, conduct inspections after powering on and
+            startup. If necessary, request qualified personnel to test it before installation.
+          •  Avoid storing the ESS in areas containing flammable or explosive materials. Ensure
+           there is no fire hazard.
+
+
+
+
+24
+
+PAGE 33
+User Manual                                                                      3 Transport and Storage
+
+         •  Avoid storing the ESS in dusty environments with a large amount of dust, smoke, or
+             floc. These particles may cling to the air inlets and outlets or heat sink of the equipment,
+          thus impairing its heat dissipation performance or even getting it damaged.
+         •  Avoid storing the ESS in places where corrosive gas or dust may be produced or
+         accumulated, or in places within 30 km of saline-alkaline land or pollution-generating
+            industrial complex such as chemical plants and power plants (chemical gas class: 1C1,
+           solid particle level: 1S2).
+         •  Do not store the ESS in environments contaminated with halogen or sulfur pollutants.
+         •  Do not store the ESS in places with vibration or a magnetic field strength of over 30
+         A/m.
+         •  When storing PACKs separately, in addition to the ESS storage requirements, observe
+          the following:
+              -   Store PACKs indoors in a clean and dry place, avoiding direct sunlight or rain.
+              -  Keep the storage area free of hazardous gases, flammable or explosive materials,
+           and corrosive chemicals. Avoid mechanical shock, heavy pressure, and strong
+            magnetic fields.
+              -   Protect PACKs from harsh environmental conditions, such as sudden temperature
+            changes or collisions, to avoid damage.
+              -  Do not tilt the packing case or turn it upside down.
+           If the ESS has been stored for over six months (from the date it is delivered from
+    SUNGROW) under the required conditions mentioned above, perform charging-discharging
+      once until the system SOC reaches 30%–40%. Make sure the SOC values are consistent
+        after recharging.
+
+
+
+
+
+                                                                                      25
+
+PAGE 34
+4 Mechanical Installation
+
+
+       WARNING
+       During the whole process of mechanical installation, the relevant standards and
+        requirements of the project site must be strictly observed.
+
+
+4.1 Inspection Before Installation
+
+4.1.1 Deliverables Inspection
+      Check whether deliverables are complete against the attached packing list.
+
+4.1.2 Equipment Inspection
+          •  Check whether the product you have received matches the order you have placed.
+          •   Inspect the equipment and its internal components, and make sure there is no damage.
+          •    If an EMS300CP is equipped (optional), before commissioning, ensure the gateway
+          meter and electricity meter used in conjunction with EMS300CP are properly installed.
+        In case of any problem or doubt, contact your transport service provider or SUNGROW in
+        time.
+
+       WARNING
+       Proceed with installation only if the ESS is intact without any signs of damage!
+        Before installation, ensure that:
+           •  The ESS is in good condition, without any damage.
+           •   All the components inside the ESS are intact without any signs of damage.
+
+      NOTICE
+        Before installing an ESS that has been stored for more than six months, open
+        the door and conduct a visual inspection first. Make sure the ESS and its internal
+       components are all intact without any damage. Meanwhile, perform inspections
+         after powering on and starting up. If necessary, ask qualified personnel to test the
+       equipment before installation.
+
+      NOTICE
+        Inspect the equipment for paint damage. If damage is found, it is suggested to
+         repair the paint to prevent rusting. For detailed instructions, see “Appearance
+        Repair”.
+
+
+
+
+
+26
+
+PAGE 35
+ User Manual                                                                      4 Mechanical Installation
+
+4.2 Installation Environment Requirements
+
+4.2.1 Installation Site Requirement
+          •  The climate environment and geological conditions, such as stress wave emission and
+          underground water level, should be fully considered when selecting the installation site.
+          •  The environment around the installation site should be dry and well ventilated.
+          •  There should be no trees around the installation site to prevent branches or leaves
+          blown off by heavy winds from blocking the door or air inlet of the Battery Energy
+          Storage System Container.
+          •  The installation site should be away from areas where toxic and harmful gases are
+           concentrated, and free from inflammable, explosive and corrosive materials.
+          •    It is suggested the product be installed in a place away from the residential area. Ensure
+           the distance and noise requirements specified by the local laws and regulations are met.
+                  If the requirements cannot be met due to geographical restrictions, use noise mitigation
+          measures. For detailed solutions, consult with the designer or SUNGROW.
+          •  Avoid installing the Battery Energy Storage System Container in dusty environments
+           with a large amount of dust, smoke, or floc. These particles may cling to the air inlets/
+            outlets or heat sink of the Battery Energy Storage System Container, thus impairing its
+          heat dissipation performance or even getting it damaged.
+          •  Avoid installing the Battery Energy Storage System Container in places where corrosive
+         gas or dust may be produced or accumulated, or in places within 30km (20 miles) of
+            saline-alkaline land or pollution-generating industrial complex such as chemical plants
+         and power plants (chemical gas class: 1C1, solid particle level: 1S2).
+          •  Do not install the Battery Energy Storage System Container in environments
+          contaminated with halogen or sulfur pollutants.
+          •  There are no underground facilities at the site.
+      NOTICE
+      Do not install the device in an environment with vibration and strong
+        electromagnetic field. Strong-magnetic-field environments refer to places where
+       magnetic field strength measures over 30 A/m.
+
+
+4.2.2 Foundation Requirements
+       WARNING
+        Considering the equipment's heavy weight, before foundation building, perform
+       a thorough inspection on the installation site first (from the aspects of geology,
+        environment, and climate, etc.). You can only proceed with foundation design
+       and construction after confirming that the installation site meets all relevant
+        requirements.
+
+      An improperly built foundation may lead to difficulties or troubles in equipment mounting,
+       opening and closing of cabinet doors, and the future operation of the equipment. Therefore,
+
+
+
+                                                                                       27
+
+PAGE 36
+ 4 Mechanical Installation                                                                         User Manual
+
+        the foundation must be designed and constructed in compliance with certain standards, to
+      meet the requirements of support structure, cable laying, and future maintenance.
+
+      Make sure at least the below requirements are met during foundation building:
+
+          •  The bottom of the foundation pit must be compacted, filled and made even.
+          •  The foundation must be built in compliance with the foundation drawing provided, or
+          approved, by SUNGROW. The tolerance for the upper surface of the foundation is ± 5
+        mm.
+          •  The foundation must provide sufficient and effective support for the equipment.
+          •  The equipment must be positioned in a higher place, to protect its base and interior from
+            rain erosion. It is recommended to build a foundation about 300 mm higher than the
+            horizontal ground.
+          •  Foundation design shall consider the impact of overall settlement on the grounding
+           blocks, main circuit connections, and the connection between the external fire water
+           piping and the BESS container. Even in the event of differential settlement, the
+           foundation elevation difference shall not exceed 10 mm. The foundation depth shall
+          reach the bearing stratum with sufficient bearing capacity, which shall be determined
+          by the geological survey report. The foundation design shall also ensure safe and
+          convenient maintenance operations for personnel.
+          •  Set up a proper drainage system based on the local geological conditions.
+          •   Build a cement foundation with sufficient cross-sectional area and height. The
+           foundation height shall be determined by the constructor based on the on-site
+           geological conditions.
+          •  Take cable laying into consideration when building the foundation.
+
+                   In the process of foundation building, remove the muck immediately after
+                  excavation, to avoid affecting the hoisting and transport of the equipment.
+
+          •   Build a maintenance platform around the foundation to facilitate future maintenance.
+          •  During the foundation building, reserve sufficient space for the AC side cable trench
+           according to the position and size of the cable inlet and outlet on the equipment, and
+        embed the cable conduit in advance.
+          •  Determine the specifications and quantity of the perforating gun according to the model
+         and quantity of cables used.
+          •  Both ends of each embedded conduit must be temporarily sealed off to prevent the
+           ingress of foreign objects. Otherwise, it may lead to difficulties in wiring.
+          •   After all the cables are connected, seal off the cable inlet and outlet and the connectors
+           with fireproof mud or other suitable materials, to prevent rodents from entering the
+          equipment.
+
+                 Pre-bury the grounding unit according to the applicable standards of the
+                  country/region where the project is located.
+
+
+
+
+
+28
+
+PAGE 37
+ User Manual                                                                      4 Mechanical Installation
+
+4.2.3 Installation Space Requirements
+       For effective heat dissipation and ease of maintenance, it is recommended to reserve
+         sufficient space around the ESS during installation.
+
+      NOTICE
+       The clearance here refers to the clearance between cabinets, not foundations.
+
+        Installation of One ESS
+
+
+
+
+
+                             Figure 4-1 Space Required for One ESS
+
+         Maintenance Item          Clearance Requirements
+
+         Automatic PACK tooling    L1 ≥ 430 mm, L2 ≥ 2500 mm, L3 ≥ 4410 mm, L4 ≥ 2210
+         maintenance         mm
+
+        Manual PACK tooling      L1 ≥ 430 mm, L2 ≥ 2000 mm, L3 ≥ 3910 mm, L4 ≥ 2210
+         maintenance         mm
+
+
+
+
+
+                                                                                       29
+
+PAGE 38
+ 4 Mechanical Installation                                                                         User Manual
+
+        Installation of Multiple ESSs
+
+
+
+
+
+                         Figure 4-2 Space Required for ESSs in One Row
+
+         Maintenance Item          Clearance Requirements
+
+         Automatic PACK tooling    L1 ≥ 430 mm, L2 ≥ 2500 mm, L3 ≥ 4410 mm, L5 ≥ 6820
+         maintenance         mm
+
+        Manual PACK tooling      L1 ≥ 430 mm, L2 ≥ 2000 mm, L3 ≥ 3910 mm, L5 ≥ 6820
+         maintenance         mm
+
+
+
+
+
+30
+
+PAGE 39
+User Manual                                                                      4 Mechanical Installation
+
+
+
+
+
+                 Figure 4-3 Space Required for ESSs in Two Rows (back to back)
+
+        Maintenance Item          Clearance Requirements
+
+        Automatic PACK tooling
+                               L2 ≥ 2500 mm, L6 ≥ 8820 mm
+        maintenance
+
+       Manual PACK tooling
+                               L2 ≥ 2000 mm, L6 ≥ 7820 mm
+        maintenance
+
+      *The figure is for reference only. The actual product may differ.
+
+
+
+
+
+                                                                                      31
+
+PAGE 40
+ 4 Mechanical Installation                                                                         User Manual
+
+
+
+
+
+                   Figure 4-4 Space Required for ESSs in Two Rows (face to face)
+
+         Maintenance Item          Clearance Requirements
+
+         Automatic PACK tooling
+                               L2 ≥ 2500 mm, L7 ≥ 6320 mm
+         maintenance
+
+        Manual PACK tooling
+                               L2 ≥ 2000 mm, L7 ≥ 5820 mm
+         maintenance
+
+       *The figure is for reference only. The actual product may differ.
+
+          When arranging the ESSs in two rows, ensure that the two rows are aligned on
+             both sides. Avoid misaligned arrangements to minimize the risk of hindered heat
+                dissipation.
+
+      With Obstructions in Heat Dissipation Path
+             If the ESS is installed indoors or if there are significant obstructions in the air outlet
+       pathway, add ventilation equipment to enhance heat dissipation. The temperature at the
+         air inlet must not exceed 45 °C to ensure long-term stable operation of the system.
+
+
+
+
+
+32
+
+PAGE 41
+User Manual                                                                      4 Mechanical Installation
+
+      For indoor installation, ensure that the distance from the top and two sides of the ESS
+       to any obstructions that could hinder heat dissipation, such as walls, meets the following
+       requirements:
+
+         •   Maintain a space of ≥ 800 mm above the ESS for effective ventilation.
+     NOTICE
+      Ensure a ventilation rate of ≥ 2500 m3/h and a cooling capacity of ≥ 7 kW at the rear
+         air outlet of each ESS.
+
+     NOTICE
+      Outdoor installations where heat dissipation is significantly compromised by large
+       obstructions above or beside the ESS are treated as indoor installations. In such
+       cases, the distance from the cabinet to the obstruction must comply with the same
+       requirements specified for indoor installations.
+
+
+                 •   Installing the ESS outdoors is recommended, as per the general plant design
+                standards.
+                 •    If indoor installations are selected due to layout constraints: SUNGROW
+                  specifies indoor arrangement requirements from the perspective of product
+                design and maintenance only. The owner/EPC shall consider plant-level
+                requirements in these cases.
+
+      Instructions for PACK Maintenance Tooling
+     Two types of PACK maintenance tooling are available for the ESS: automatic and manual.
+     The required clearance for maintenance during installation must be determined based on
+       the dimensions of the selected tooling. For details, please refer to the illustration below.
+
+
+
+
+
+                       Figure 4-5 The Required Clearance for Maintenance
+
+
+
+
+
+                                                                                      33
+
+PAGE 42
+ 4 Mechanical Installation                                                                         User Manual
+
+4.3 Handling with Forklift
+
+      You can move the ESS using a forklift if the ground on the installation site is flat. Forklift
+       pockets are provided at the bottom of the ESS for the insertion of forklift forks.
+
+       To move the ESS using a forklift, make sure the below requirements are met:
+
+          •  The forklift has sufficient load capacity.
+          •  The forks are long enough for moving the equipment.
+      The forks must be inserted into the forklift pockets at the bottom of the equipment (see
+        the figure below for the positions of the pockets). The depth of the forks inserted into the
+       pockets should be the depth of the pockets.
+
+          •   Transport, move, and place the ESS slowly and steadily. It is suggested to perform a
+             test lift first, to make sure all requirements are met.
+          •   Position the ESS on a stable surface only. The place must be free of obstacles or
+            protrusions, with good drainage.
+
+
+
+
+
+                               Figure 4-6 Handle with Forklift (Side)
+
+
+
+
+
+                              Figure 4-7 Handle with Forklift (Front)
+
+
+34
+
+PAGE 43
+ User Manual                                                                      4 Mechanical Installation
+
+       WARNING
+           •  Move the ESS using a forklift through the bottom forklift pockets.
+           •  Never insert the forklift forks into any position on the equipment else than the
+          bottom pockets.
+
+
+           The ESS will be delivered with forklift pockets exposed to air. It is suggested to
+             cover the pockets with sealing plates after the installation is completed. The sealing
+               plates are included in the accessories.
+
+
+4.4 Hoisting and Transport
+
+4.4.1 Safety Precautions
+          Strictly adhere to safe operating procedures throughout the hoisting process to ensure the safety
+         of operators, equipment, and the surrounding environment.
+
+      Requirements for Hoisting
+          •   Qualifications:
+               -  Engage a qualified specialized hoisting service provider to perform the hoisting.
+          •   Foundation:
+               -  Ensure sufficient space is reserved in the cable trench, and the cable conduit is
+           embedded in advance.
+               -   Clearly mark the designated area for the equipment on the foundation with lines.
+               -   Prior to hoisting, recheck the flatness of the foundation. The flatness deviation must
+              not exceed 10 mm, and the slope must not exceed 5°.
+               -   Correct any excessive deviations in flatness or slope, or prepare in advance an
+             adequate number of metal washers that match the sizes of the load-bearing points.
+               -    If a firewall is present on site, ensure that the designated area for the ESS is ≥ 150
+        mm away from the firewall.
+          •   Familiarity with Equipment Arrangement
+               -   Properly determine the order of trailer arrivals at the site based on the project’s
+             equipment layout. Vehicles carrying lifting devices have priority for entry.
+               -  Determine the positions and orientations of all equipment.
+               -   Identify the location of any ESSs that are not fully equipped (not fully loaded with
+            PACKs).
+               -  Ensure that all ESSs within the same block are of the same grade (battery grade).
+          •  Equipment Status:
+               -   Verify that all equipment and lifting devices have undergone inspections, and that
+              cabinet doors are securely closed and locked.
+
+
+
+
+
+                                                                                       35
+
+PAGE 44
+ 4 Mechanical Installation                                                                         User Manual
+
+       Selection of Cranes
+      The load capacity of the crane must be determined based on the weight of the load to
+      be lifted, the crane's operating zone (operating radius and range of motion) and design
+       parameters, the foundation conditions, and the specific hoisting requirements.
+       WARNING
+        Before hoisting, select an appropriate crane with sufficient load capacity based on
+       an evaluation by a qualified hoisting service provider to ensure operation safety.
+     SUNGROW shall not be held liable for any damage resulting from the use of
+        inappropriate cranes.
+
+
+       Hoisting Device Requirements
+          •  Ensure that the selected hoisting devices meet the requirements specified in “Hoisting
+           Operation”.
+       Safety Instructions
+
+       WARNING
+       Perform operations in strict accordance with the local safe operating procedures
+        relevant to the country or region, including but not limited to:
+           •  Stop hoisting immediately in severe weather conditions, such as heavy rain,
+            fog, or strong winds.
+           •  Set up warning signages or fence off a warning zone to prevent irrelevant
+          personnel from entering the operating area, thus avoiding personal injury or
+           death.
+           •  Ensure that all personnel engaged in hoisting, loading, unloading, and
+          anchoring operations have received relevant training, especially in safety.
+           •  Do not stand directly beneath or within 10 meters of any moving equipment to
+           avoid personal injuries or death.
+           •  Conduct all work under the guidance of qualified technical personnel on site.
+           •  Ensure that all tools and equipment used during the operation have undergone
+           proper maintenance.
+           •   Lift and lower the equipment gently, avoiding any dragging or collisions.
+           •  Do not proceed with hoisting in low light conditions or when vision is not clear.
+           •  Do not proceed with hoisting if there is any person or moving or movable
+           objects on top of the equipment.
+
+
+
+
+
+36
+
+PAGE 45
+ User Manual                                                                      4 Mechanical Installation
+
+4.4.2 Hoisting Operation
+
+
+
+
+
+                                    Figure 4-8 ESS Hoisting
+
+       *The figure here is for reference only and the actual product may differ.
+
+                   •  Three-meter slings are recommended, each with a rated capacity of six tons. (If
+                   folded, the unfolded length of a single sling must be at least four meters, with a
+                  rated capacity of 12 tons per sling.)
+
+
+4.4.3 Hoisting Procedure
+
+Step 1 Secure the lifting devices.
+         a. Pass the 4 slings respectively through the 4 shackles. (If the slings are used in a folded
+            configuration, only two slings are required.)
+        b. Secure the 4 shackles respectively to the 4 lifting lugs at the top of the ESS.
+         c. Hang the 4 slings onto the crane's lifting hook. (If the slings are used in a folded
+            configuration, only two slings are required.)
+Step 2  Lift the equipment smoothly and stably.
+         a. Suspend lifting when the equipment is lifted 300 mm off the supporting surface. Then,
+          check the connections between the slings and the equipment.
+        b. Ensure that the connections between the slings and the equipment are all secure and
+            that the angle of the equipment relative to the horizontal plane is less than 5° after it
+             settles naturally. Once confirmed, continue with the lifting.
+Step 3 Lay the equipment down steadily in the designated area marked by lines on the foundation.
+Step 4 Check and adjust the load-bearing points.
+
+
+
+
+
+                                                                                       37
+
+PAGE 46
+ 4 Mechanical Installation                                                                         User Manual
+
+         a.  Verify that the equipment doors open and close properly, that the equipment frame
+         shows no signs of deformation, and that the equipment rests securely and evenly on
+           the supporting surface.
+        b.  If any deformation is detected, lift the equipment slowly and add washers at the load-
+           bearing points. Then, lower the equipment again gradually, until it is fully seated with
+          each load-bearing point completely bearing the weight.
+Step 5 Remove the lifting devices.
+       --End
+       Ensure the equipment is securely and fully seated on the foundation within the designated
+       area and neatly positioned. Verify that the equipment is free from deformation and that its
+       doors open and close smoothly.
+
+4.5 Securing ESS
+
+        After moving the ESS to the target position, secure it in place. You can secure the
+       equipment by welding or using L-shaped angle steels as needed.
+
+      Secured by Welding
+       Secure the ESS bottom to the foundation by welding. Apply anti-corrosion treatment to the
+       welding points after welding is completed.
+
+
+
+
+
+                                Figure 4-9 Full welding schematic
+
+         * The figure is for reference only. The product received may differ.
+
+      Secured with L-shaped Angle Steels
+      As shown in the figure below, mounting holes for L-shaped angle steels are provided at the
+       bottom of the ESS.
+
+
+
+
+
+38
+
+PAGE 47
+User Manual                                                                      4 Mechanical Installation
+
+
+
+
+
+                               Figure 4-10 L-shaped Angle Steels
+
+        Installation Tools
+
+       Tools that may be used when installing the L-shaped angle steels are as follows:
+
+        No.           Item                   Source
+
+       1            Marker                 Not included in the scope of delivery
+
+       2          Hammer drill            Not included in the scope of delivery
+
+       3            Angle steel               Included in the scope of delivery
+
+       4          M16 expansion bolt      Not included in the scope of delivery
+
+       5          M16 screw               Included in the scope of delivery
+
+        Installation Method
+
+
+
+
+
+                                                                                      39
+
+PAGE 48
+ 4 Mechanical Installation                                                                         User Manual
+
+4.6 Removing Films
+
+        After securing the ESS in place, remove the 3M protective films at the air inlet, air outlet,
+      and door lock.
+
+      Remove the 3M film with yellow "Key" label to get the door key.
+
+
+
+
+
+       *The figure is for reference only. The actual product may differ.
+
+
+
+
+
+40
+
+PAGE 49
+5 Electrical Connection
+
+5.1 Precautions
+
+       DANGER
+       High voltage! Electric shock!
+           •    It is strictly forbidden to directly touch the live parts in the unprotected state!
+           •  Before installation, ensure that the all switches are off.
+
+       WARNING
+       Sand and moisture penetration may damage the electrical equipment in the
+        system, or affect their operating performance!
+           •  Avoid electrical connections during sandstorms or when the relative humidity
+             in the surrounding environment is greater than 95%.
+           •  Perform electrical connection when there is no sandstorm and the weather is
+              fair and dry.
+
+       WARNING
+           •  Before wiring, check and ensure that the polarity of all input cables is correct.
+           •  During electrical installation, do not forcibly pull any wires or cables, as this
+        may compromise the insulation performance.
+           •  Ensure that all cables and wires have sufficient space for any bends.
+           •  Adopt the necessary auxiliary measures to reduce the stress applied to cables
+         and wires.
+           •   After completing each connection, carefully check and ensure that the
+          connection is correct and secure.
+
+       WARNING
+      When an external short circuit occurs in the RACK circuit and the switch box fuse
+       produces a protective action, the fuse and the two DC contactors must be replaced
+         at the same time.
+
+
+5.2 Electrical Connection Overview
+
+      The wiring diagram of the ESS is shown below:
+
+
+
+
+
+                                                                                       41
+
+PAGE 50
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+                                   Figure 5-1 Wiring Diagram
+
+       Table 5-1 Interface Description
+                                             Recommended Cable         No.     Designation                                                              Specifications*
+
+       A     AC output port                      4×95 mm2/copper cable**
+
+            EMS communication port (connection    2×0.5 mm2 shielded twisted-pair
+       B
+                    port 3)***                                cable
+
+              LC communication port (connection      2×0.5 mm2 shielded twisted-pair
+      C
+                    port 3)                                 cable
+
+      D       Ethernet communication port          CAT5E S/FTP
+
+                   External auxiliary power supply
+       E                                        2×4 mm2
+                        port****
+
+                                                 70–95 mm2 yellow-green cable or
+       F       Grounding point
+                                                        grounding flat steel
+
+       *The above cables are not included in the scope of delivery and need to be prepared
+        separately.
+
+          **If aluminum cables are used, prepare M12 OT/DT terminals suitable for the cable size.
+
+       ***The EMS is optional.
+
+
+42
+
+PAGE 51
+ User Manual                                                                       5 Electrical Connection
+
+       ****The system is equipped with an internal auxiliary power supply as standard. The
+        external auxiliary power supply is optional.
+
+       WARNING
+           •   Electrical connections must all be performed in strict accordance with the
+           wiring diagram.
+           •   Electrical connections must all be performed when the equipment is completely
+            voltage-free.
+
+       WARNING
+        Operations related to the electrical connection must only be performed by qualified
+         electrical engineers, all in compliance with the “Safety Precautions” specified in
+         this manual. SUNGROW shall not be held liable for any personal injury or property
+      damage arising from failure to follow the safety instructions.
+
+      NOTICE
+           •  The installation and wiring of the ESS must conform to the applicable
+          standards or regulations in the country/region where the project is located.
+           •   Failing to follow the relevant installation and wiring requirements in this manual
+        may result in equipment or system failure, and the damage caused therefrom
+              will not be covered by warranty.
+
+
+5.3 Preparation Before Wiring
+
+5.3.1 Preparing Installation Tools
+
+
+
+
+
+                                                                                   Protective
+             Safety gloves           Goggles          Safety shoes
+                                                                                       clothing
+
+
+
+
+
+          Torque screwdriver       Wire stripper       Hydraulic pliers        Heat gun
+
+
+
+                                                                                       43
+
+PAGE 52
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+               Multimeter            Screwdriver       Torque wrench
+
+
+5.3.2 Opening Cabinet Door
+      Open the cabinet door before wiring.
+
+
+
+
+
+                                 Figure 5-2 Open the Front Door
+
+         Steps     Introduction
+
+        1        Door locked
+
+        2       Move the cover above the lock hole
+
+        3          Insert the door key and turn it clockwise
+
+                   Rotate the handle counterclockwise to the position shown in the figure to
+        4
+                open the front door.
+
+
+5.3.3 Prepare Cables
+       DANGER
+        Before electrical connection, check and ensure that the cables are all intact and
+         well-insulated. Poor insulation or cable damage may result in safety hazards. If
+        necessary, replace the cable immediately.
+
+      The cables must meet the following requirements:
+
+          •  The current carrying capacity of the cable meets requirements. Factors affecting the
+           current carrying capacity of a conductor include but are not limited to:
+               -   Environmental conditions;
+               -  Type of the insulation material of the conductor;
+               -   Cabling method;
+               -   Material and cross-sectional area of the cable.
+
+44
+
+PAGE 53
+User Manual                                                                       5 Electrical Connection
+
+         •   Select cables with a proper diameter according to the maximum load, and the cables
+         should be long enough.
+         •  Ensure that all cables and wires have sufficient space for any bends.
+         •  During electrical connection, do not forcibly pull any wires or cables, as this may
+          diminish their insulation performance.
+         •   All DC input cables must be of the same specifications and materials.
+         •  AC output cables of three phases must be of the same specifications and materials.
+         •  Only flame retardant cables can be used.
+         •  Keep a sufficient distance between the cables and the heat-generating components,
+           to prevent the cable insulation layer from aging or getting damaged due to high
+          temperature.
+         •   After completing each connection, carefully check that the connection is correct and
+          secure.
+         •  Adopt necessary auxiliary measures to reduce the stress applied to cables and wires.
+         •   Select cables with appropriate cross-sectional areas, according to the actual
+          environmental conditions for heat dissipation of the cables laid on-site.
+         •   Select communication cables equipped with corresponding shielding protection features
+          according to the requirements of SUNGROW.
+         •  Secure the power cables and the communication cables separately. Ensure a minimum
+         space of 10cm between the lines of strong and weak electricity to avoid electromagnetic
+           interference.
+         •   Inspect the connection between the wiring terminal and the copper bar. If any part of the
+           heat-shirk tubing is caught between them, remove it immediately. Otherwise, it may lead
+           to poor contact or even damage due to heat.
+     NOTICE
+          •  The cables used should comply with requirements of local laws and
+           regulations.
+          •  The cable color in figures in this manual is for reference only. Please select
+          cables according to local standards.
+
+     Crimp OT/DT terminals
+      Follow the steps shown below to crimp terminal.
+
+
+
+
+
+                                                                                      45
+
+PAGE 54
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+         No.        Name                 No.         Name
+
+        1            Heat shrink tubing      2            OT/DT terminal
+
+        3              Hydraulic pliers        4             Heat gun
+
+      NOTICE
+           •   Strip the cables with caution. Avoid scratching the core wires.
+           •   After crimping, the conductor crimp barrel of the OT/DT terminal must fully
+          enclose the core wire, forming a closed cavity that ensures a tight and secure
+          connection between the wire and the terminal.
+           •  Take appropriate protective measures when using a heat gun to prevent heat
+         damage to the equipment.
+
+
+      Crimp the Ferrule
+
+
+
+
+
+         No.               Name
+
+        1                     Crimping tool
+
+        2                       Ferrule
+
+
+
+
+
+46
+
+PAGE 55
+ User Manual                                                                       5 Electrical Connection
+
+5.3.4 Cable Connection
+       DANGER
+           •  When fastening the product and terminals, tighten the fasteners at the specified
+           torques using proper tools and leave marks accordingly. Failure to do so may
+         damage the product, and such damage will not be covered by the warranty.
+            Unreliable connection may cause fire or even burn the product.
+           •  During electrical connection, do not forcibly pull any wires or cables, as this
+        may diminish their insulation performance.
+           •  Do not connect aluminum terminals directly to the copper bar, as this may
+          cause galvanic corrosion and compromise the reliability of the connection.
+
+      NOTICE
+           •  When using copper-aluminum bimetallic washers, the outer profile of the
+          washer must be no smaller than that of the OT/DT terminal. Pay attention to
+           the correct orientation, ensuring that the aluminum side of the washer contacts
+           the aluminum terminal, and the copper side contacts the copper bar.
+           •    It is recommended to source the washers and terminals from the same
+           manufacturer.
+           •  The bolts must be securely tightened, with at least two exposed threads
+           remaining.
+           •  Use screws of an appropriate length for wiring. The screw shall protrude 2–3
+           threads (approximately 3 mm) through the mounting hole in the copper bar.
+          Using overly long screws may compromise insulation performance or even
+          cause short circuits.
+
+
+5.3.4.1 Main Power Supply Wiring
+       Main power supply wiring can use copper cables, copper-clad aluminum cables, or aluminum
+         alloy cables.
+
+          •  When using copper-core cables or copper-clad aluminum cables, select copper
+            terminals, and complete the connections by referring to the figure below.
+
+
+
+
+
+                                                                                       47
+
+PAGE 56
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+                            Figure 5-3 Connection Using Copper Terminal
+
+            Item       Name                      Item       Name
+
+         A          Copper bar           C           Flange nut
+
+         B             Bolt                D          Copper terminal
+
+          •  When selecting aluminum alloy cables, use copper-aluminum bimetallic terminals, or
+         aluminum terminals in combination with copper-aluminum bimetallic washers. Please
+          complete the connections by referring to the figure below.
+
+
+
+
+
+              Figure 5-4 Connections Using Copper-Aluminum Bimetallic Terminal (Left) and
+                                  Aluminum Terminal (Right)
+
+            Item       Name                      Item       Name
+
+                                                            Copper-aluminum
+         A          Copper bar           D
+                                                                            bimetallic terminal
+
+         B             Bolt                 E          Aluminum terminal
+
+
+
+48
+
+PAGE 57
+ User Manual                                                                       5 Electrical Connection
+
+            Item       Name                      Item       Name
+
+                                                            Copper-aluminum
+        C           Flange nut              F
+                                                                            bimetallic washer
+
+
+5.3.4.2 Auxiliary Power Supply Wiring
+         Auxiliary power supply wiring can use copper cables, copper-clad aluminum cables, or aluminum
+         alloy cables.
+
+          •  When using copper-core cables or copper-clad aluminum cables, select copper
+            terminals, and complete the connections by referring to the figure below.
+
+
+
+
+
+                            Figure 5-5 Connection Using Copper Terminal
+
+            Item       Name                      Item       Name
+
+         A          Copper bar           D             Bolt
+
+         B             Flat washer            E          Copper terminal
+
+        C            Spring washer
+
+          •  When selecting aluminum alloy cables, use copper-aluminum bimetallic terminals, or
+         aluminum terminals in combination with copper-aluminum bimetallic washers. Please
+          complete the connections by referring to the figure below.
+
+
+
+
+
+                                                                                       49
+
+PAGE 58
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+              Figure 5-6 Connections Using Copper-Aluminum Bimetallic Terminal (Left) and
+                                  Aluminum Terminal (Right)
+
+            Item       Name                      Item       Name
+
+                                                            Copper-aluminum
+         A           Copper bar            E
+                                                                             bimetallic terminal
+
+         B              Flat washer             F          Aluminum terminal
+
+                                                            Copper-aluminum
+        C            Spring washer         G
+                                                                             bimetallic washer
+
+        D             Bolt
+
+
+5.3.5 Cable Inlet Design
+       Cables connecting the ESS to the external devices can be led through the cable inlet/outlet
+        at the bottom of the ESS. Take protective measures for the cables, such as routing cables
+       through conduits, to avoid damage caused by rodents. After wiring is completed, seal off
+        the cable inlet/outlet using fireproof mud or other appropriate materials.
+
+      The cable inlet/outlet design is illustrated in the figure below.
+
+
+
+
+
+50
+
+PAGE 59
+ User Manual                                                                       5 Electrical Connection
+
+
+
+
+
+                                     Figure 5-7 Cable Inlet
+
+       *The figure is for reference only; the actual product may differ.
+
+      NOTICE
+             If it is required to pre-bury cable conduits in the cable inlet/outlet area during
+        construction, please confirm the specific position with SUNGROW.
+
+      NOTICE
+         After wiring, seal off the cable inlet/outlet by filling the gaps around the cables
+        with fireproof/waterproof materials, such as fireproof mud, to prevent the ingress
+        of foreign objects or moisture, thus avoiding affecting the product's long-term
+        operation.
+
+
+5.4 Ground Connection
+
+      NOTICE
+       Grounding must be completed by strictly following the applicable local standards
+       and regulations.
+
+      NOTICE
+           •  Before grounding, clean the surface and threads of the grounding point to
+           avoid compromising the grounding performance.
+           •   After grounding is complete, apply anti-corrosion treatment to the ground
+          connection area to avoid rust.
+
+
+
+
+                                                                                       51
+
+PAGE 60
+ 5 Electrical Connection                                                                           User Manual
+
+      Overview
+       Grounding can be made in the following two ways: welding a grounding flat steel, or
+       connecting a grounding cable. For the position of the grounding point, see “ESS External
+       Design”.
+
+      Grounding Flat Steel (Recommended)
+      Remove the protective tape from the grounding point and weld the hot-dip galvanized flat
+        steel to the grounding point (the area where the flat steel and the ESS are joined together
+       should be 40 mm x 70 mm). Spray paint the whole welding area after completing welding.
+
+
+
+
+
+                               Figure 5-8 ESS Grounding Diagram
+
+       *The figure is for reference only and the actual product shall prevail.
+
+      Grounding Cable
+      Use a 70 mm2–95 mm2 copper grounding cable to connect the grounding point on the ESS
+        to a designated grounding point properly and reliably (the grounding point is covered with
+        protective tape upon delivery, which should be removed before wiring).
+
+       Crimp the DT terminal. For details, see 5.3.3 Prepare Cables. Secure the DT terminal to the
+        wiring hole with an M10 bolt at a tightening torque of 34–40 N·m.
+
+
+
+
+
+       *The figure is for reference only and the actual product shall prevail.
+
+
+52
+
+PAGE 61
+ User Manual                                                                       5 Electrical Connection
+
+       Carry out external ground connection in compliance with the actual on-site conditions and
+        the instructions by the plant staff.
+
+      Measure the ground resistance after completing the grounding. Make sure the resistance
+      does not exceed 4 Ω.
+
+           The specific ground resistance must comply with the applicable national/local
+             standards and regulations.
+
+
+5.5 AC Connection
+
+5.5.1 Safety Precautions
+       WARNING
+        Accidental touching of live terminals can cause fatal electric shock!
+           •  Ensure that the AC/DC switches of the DC/AC power converter cabinet are
+          open, and that the wiring terminals are dead.
+           •  Connecting to the power grid must be approved by the relevant department and
+          comply with all power-related safety instructions and specifications.
+
+       WARNING
+           •  When connecting to the AC grid, disconnect the upstream AC side circuit
+           breaker to ensure that there is no voltage at the contact terminals.
+           •  Connect to the grid only if approved by the utility grid and all relevant safety
+            instructions are followed.
+           •  The AC output is not grounded inside the device.
+           •  The DC and AC circuits are isolated from the enclosure. If required by the
+            relevant national electrical codes, the installer is required to connect the
+          system.
+
+
+5.5.2 AC Output Wiring
+
+Step 1 Switch off the upstream AC circuit breaker and measure with a multimeter to ensure no
+        voltage is present at the terminals.
+Step 2 Lead the cables to the AC wiring area inside the cabinet through the cable inlet.
+Step 3 Connect the AC cables properly in the designated positions.
+
+
+
+
+
+                                                                                       53
+
+PAGE 62
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+                                   Figure 5-9 AC Wiring Area
+Step 4  Strip the protective layers of the cables using wire strippers to expose the copper cores.
+Step 5 Crimp the OT terminals. For details, see 5.3.3 Prepare Cables.
+Step 6 Secure the OT terminals to the wiring holes with M12 bolts at a tightening torque of 40 N·m
+          (for detailed wiring instructions, please refer to 5.3.4.1 Main Power Supply Wiring ).
+Step 7  Pull gently the cables backward after wiring, ensuring the cables are long enough.
+Step 8 Close the protective cover for terminals, fasten the snap-ons on both sides, and tighten the
+        four screws.
+      NOTICE
+            •  The terminals on the power distribution box panel support cables with an
+           diameter of up to 26 mm.
+            •  Perform wiring in strict accordance with the correct phase sequence.
+
+       --End
+
+5.6 Auxiliary Power Supply Wiring
+
+       Devices of the system, such as the internal liquid cooling unit, 24 Vdc device, and fans, are
+        supplied by an external or internal auxiliary power supply. Internal auxiliary power supply is used
+          for this system by default. If the system uses an internal power supply, please disregard the
+         following content.
+
+       Prerequisite
+      Power Supply Mode
+
+
+
+
+54
+
+PAGE 63
+ User Manual                                                                       5 Electrical Connection
+
+      The auxiliary power supply of the system includes the internal auxiliary power supply and
+        the external auxiliary power supply:
+
+          •    If the external auxiliary power supply is adopted, use the auxiliary power supply port
+            inside the BSP of the ESS for wiring.
+      Steps for External Auxiliary Power Supply Wiring
+Step 1 Make sure the circuit breakers of the upstream and downstream devices are all in the open
+         state.
+Step 2 Pass the cables through the cable inlet/outlet into the ESS.
+Step 3 Connect the AC cables properly in the designated positions.
+
+       Table 5-2 Port Definition
+
+                                                        *Recommended cable
+       Mode          Port                    Introduction
+                                                                          specifications
+
+                            Auxiliary power        230 Vac
+                        supply L              Connected to          external
+                                         a customer-side      4 mm2
+        power                            Auxiliary power        power source
+          supply                        supply N
+
+       *These are recommended cable specifications. You may make adjustments based on
+        actual requirements.
+Step 4 Complete the wiring by referring to the port marks on the equipment and the above port
+         definitions. After completing the wiring, secure the terminals at a tightening torque of 5 N·m
+          (for detailed wiring instructions, please refer to 5.3.4.2 Auxiliary Power Supply Wiring ).
+       --End
+
+5.7 Communication Wiring
+
+      The ESS provides interfaces for external Ethernet communication, LC communication, EMS
+       communication, and FSS power supply wiring.
+
+                   •  The default IP address for port LC-ETH1 is 192.168.1.100. The subnet mask is
+                255.255.255.0 and the gateway is 192.168.1.1.
+                   •  The default IP address for port LC-ETH2 is 192.168.13.100. The subnet mask is
+                255.255.255.0 and the gateway is 192.168.13.1.
+                   •  The default IP addresses for the ports of the EMS are as follows:
+                192.168.13.200 for ETH1, 192.168.1.200 for ETH2, and 13.13.13.13 for ETH5.
+
+
+5.7.1 Ethernet Communication Wiring
+      The positions of the Ethernet communication ports are shown in the figure below.
+
+
+                                                                                       55
+
+PAGE 64
+ 5 Electrical Connection                                                                           User Manual
+
+
+
+
+
+                              Figure 5-10 Communication Interfaces
+
+       Table 5-3 Interface Description
+          Position         Designation
+
+       NET1           Connected to EMS
+
+       NET2           Connected to LC (internal connections are completed at factory)
+
+       NET3           Reserved
+
+       NET4           Connected to EMS
+
+       NET5–NET6     Reserved
+
+       NET7–NET8    Used for networking between ESSs
+
+
+
+
+
+                          Figure 5-11 Networking Diagram Between ESSs
+
+
+
+
+
+56
+
+PAGE 65
+ User Manual                                                                       5 Electrical Connection
+
+
+             For the same transformer (with capacity ≤ 3.15 MVA):
+                   •   In the grid-connected scenario, up to 25 ESSs can be operated in parallel.
+                   •   In the off-grid scenario, up to 20 ESSs can be operated in parallel.
+                      (If ESSs are connected from the AC side to the LV side of the transformer, the
+               shortest cable length among these connections shall be used.) It is recommended
+                that the cable length be > 20 m and 95 mm² copper cables be used.
+
+
+                   •  The ESS with an EMS is accessed to the customer network and connected
+                hand-in-hand with other ESSs that do not have EMS.
+                   •  Users can check from the label on the product whether it is equipped with an
+             EMS.
+                   •  NET7 and NET8 are both used for networking between ESSs. No distinction is
+             made between these two ports.
+
+
+5.7.2 EMS/LC Communication Wiring
+     CONN1 and CONN2 on the BSP house terminals for ATS communication and FSS power supply
+         wiring, etc.
+
+      The positions of CONN1, CONN2, and EMS communication interface are shown as follows.
+
+
+
+
+
+                              Figure 5-12 Communication Interfaces
+
+         Port        Position                 Description
+
+                  CONN1-1/2         CMU communication, reserved for maintenance
+      CONN1                                                     Parallel communication between DC/AC power
+                  CONN1-3/4
+                                               converter units
+
+
+                                                                                       57
+
+PAGE 66
+ 5 Electrical Connection                                                                           User Manual
+
+         Port        Position                 Description
+
+                  CONN1-5/6
+
+                  CONN1-7/8            Reserved
+
+                  CONN1-9/10
+
+                  CONN1-11/12
+                                         Reserved for 24 Vdc
+                  CONN1-13/14
+
+                                               “Aerosol fire extinguishing agent spraying” dry
+                  CONN2-1/2
+                                                contact output
+
+                  CONN2-3/4           “FSS fire alarm” dry contact output
+
+                  CONN2-5/6             "Combustible gas detector" dry contact output
+
+      CONN2    CONN2-7/8            Reserved
+
+                                         Reserved for DC/AC power converter unit's on/
+                  CONN2-9/10
+                                                         off-grid switching input (connected to the ATS)
+
+                  CONN2-11/12             Interface reserved for ATS power supply
+
+                  CONN2-13/14            Interface for dehumidifier power supply
+
+     EMS External Communication
+
+         Port              Designation             Description
+
+                                          Used for data exchange. It can be
+       ETH1–ETH2      Ethernet port           connected to the background master via
+                                                   devices such as a router or switch
+
+       ETH5             Ethernet port           Reserved for the master-standby feature
+
+         DI               DI port                 Dry contact input
+
+                                                Relay output
+       DO1–DO4     DO port                Relay specifications: 250 Vac/1 A, or 30
+                                                  Vac/1 A
+
+                                                   Provides 7 positions for RS485 wiring
+                     RS485
+       A1B1–A7B7                                                     It can be connected to slave devices or
+                         communication port
+                                               background
+
+                      Used for IRIG-B time
+         IRIG-B                                Reserved
+                            synchronization
+
+
+
+
+58
+
+PAGE 67
+ User Manual                                                                       5 Electrical Connection
+
+5.8 Post-wiring Operations
+
+      Check the wiring thoroughly and carefully when all electrical connections have been
+       completed. In addition, perform the following operations:
+
+          •  Check all air inlets and outlets for blockage.
+          •   After wiring, check that the connections are correct, then seal off the cable inlet/outlet
+           holes using fire-/water-stop materials such as firestop mud. This prevents impacts
+         on the equipment's long-term operation due to the ingress of moisture or rodents. If
+           water-stop connectors are used for sealing, check that these connectors are properly
+            tightened. Additionally, close off the unused terminals.
+        NOTICE
+        When firestop putty is used as the sealing material, the following requirements
+            shall be met:
+                 -  The apparent density shall be ≤ 1.6 × 10³ kg/m³, and the air permeability shall
+            be ≤ 3.5 m³/(㎡ h). When immersed in tap water, a 3% ammonia solution, or
+             a 3% hydrochloric acid solution at 20°C±5°C, the material shall exhibit acid
+              resistance for ≥ 3 days without swelling or cracking.
+                 -  When exposed to an environment with a relative humidity of (90±5)% and
+             a temperature of 45°C±5°C, the material shall exhibit heat and humidity
+              resistance for ≥ 360 h, without cracking or chalking. When subjected to
+              freeze-thaw cycles consisting of immersion in water at 23°C±2°C for 18
+                h, freezing at -20°C±2°C for 3 h after the temperature reaches -18°C, and
+             exposure to 50°C±2°C for 3 h, the material shall withstand at least 15 cycles
+              without cracking or chalking.
+                 -   In addition to meeting the national standards of the country where they
+              are used, the foam sealant and firestop putty shall not release corrosive
+             gases such as chlorine, ammonia, or sulfur within the operating temperature
+             range of -40°C to 85°C. Halogen-free and environmentally friendly sealing
+               materials shall be used.
+                 -   Fire resistance integrity (Fr) ≥ 3.0 h. The cotton pad on the unexposed side
+            must not ignite, no flame shall persist for more than 10 s, and the gap
+             probe must not penetrate any gaps. Fire resistance insulation (Fr) ≥ 3.0 h.
+            The temperature rise at any point on the unexposed side shall not exceed
+              180°C, and the temperature rise at any point on the frame surface on the
+            unexposed side shall not exceed 180°C. After the fire resistance test, a
+              water spray test shall be conducted. The firestop putty shall not develop any
+              holes that could result in water flow on the unexposed side.
+
+          •  Ensure the space between cable connectors in the wiring area meets the requirements
+             in safety regulations.
+          •  Seal the gap around the cable inlet holes.
+          •  Put all protective covers back in place firmly.
+
+
+
+                                                                                       59
+
+PAGE 68
+ 5 Electrical Connection                                                                           User Manual
+
+          •   After electrical connections are completed, inspect the wiring thoroughly and carefully.
+          Ensure that all connections are correct and secure.
+       WARNING
+           •  Moisture may enter the product if it is not properly sealed.
+           •  Rodents may enter if the product is not properly sealed.
+
+      Locking Cabinet Doors
+
+Step 1 Reinstall the protection cover of the wiring area in the reverse order of removal.
+Step 2 Lock the cabinet door, pull out the key, and store it securely.
+       --End
+      NOTICE
+      Make sure that the seal around the container door does not curl when the door is
+        closed!
+
+
+
+
+
+60
+
+PAGE 69
+6 Battery Connection
+
+
+6.1 Precautions
+
+       Always follow the safety instructions in this manual. In order to avoid personal injury and
+        property damage that may occur during installation or operation, and extend the service life
+        of this product, please carefully read all safety instructions.
+
+       Improper or incorrect use may result in:
+
+          •  A threat to the life and personal safety of the operator or third parties;
+          •  Damage to the Battery Energy Storage System Container or other property of the
+           operator or third party.
+
+                   •  The safety precautions in this manual do not cover all specifications to be
+                  followed, and all operations should be performed based on the site conditions.
+                   •  SUNGROW shall not be liable for any loss arising from failure to follow the
+                  safety precautions in the manual.
+
+       WARNING
+           •  While installing the device with hazardous voltage, follow relevant regulations
+         and local installation safety guidelines.
+           •  Please observe the regulations on the correct use of tools and personal
+            protective equipment.
+           •   All connections must be carried out with distinctive guidance. Any guess and
+         ambiguous attempts must be prohibited.
+           •  Tools with an insulating protective coating must be used.
+
+          •  Connecting cables should meet the voltage and current requirements.
+          •   All connectors must be safe and reliable to avoid loosening or virtual contact. They must
+         be corrosion-resistant, wear-resistant and shock-proof.
+          •   All connections must comply with the requirements of relevant national standards to
+           prevent arc discharge in any form.
+          •  The connections of internal batteries must be equipped with anti-vibration and
+           antiloosening devices. Temperature, voltage and current sensors must be connected
+            safely and reliably, to prevent loosening, ageing and extrusion. All sensor cables must
+         be free of metal exposure.
+          •  Any type of short circuit should be prevented in the connection process.
+          •  Operators must use this product with personal protective equipment.
+
+
+                                                                                       61
+
+PAGE 70
+ 6 Battery Connection                                                                            User Manual
+
+          •   All connections must be carried out with distinctive guidance. Any guess and ambiguous
+           attempts must be prohibited.
+          •  Key connections must be correct, reliable (without loosening) and in good contact,
+           without short-circuits.
+          •   All the finished connections must be measured and confirmed one by one.
+          •   All connections must not be in contact with the casing or other components or
+            shortcircuited.
+          •    If there are other uncertain factors, please consult the after-sales technicians of
+       SUNGROW before any operation.
+
+6.2 Cable Connection
+
+       Tools
+
+
+
+
+
+                                   Figure 6-1 Installation Tools
+
+Step 1 Before connecting the power cable, put on insulated shoes and safety gloves. Before
+        connecting the power cable between PACKs, disconnect the wiring between the PACK and
+        the DC/AC power converter unit first.
+Step 2  Install the fuse. Open the cabinet door, and remove the sponge separators that hold the
+        fuse plugs.
+
+
+
+
+
+62
+
+PAGE 71
+ User Manual                                                                         6 Battery Connection
+
+
+
+
+
+                                    Figure 6-2 Fuse Location
+Step 3  Insert the plugs that come with the fuse into the PACK bases properly.
+
+
+
+
+
+                           Figure 6-3 Insert Fuse Plugs into PACK Bases
+
+       WARNING
+       Once the aviation plug is connected in place, you will hear a "click". Ensure that
+        the connection is secure.
+
+
+                   •   Insert the positive aviation plug into the designated positive terminal on the
+            PACK base, and the negative plug into the designated negative terminal on the
+                 base. Note that the negative aviation plugs are pre-connected at the factory;
+                  only the positive plugs need to be connected on-site. Orange indicates positive,
+               and black indicates negative. Once the aviation plug is connected in place, you
+                        will hear a "click".
+                   •  When connecting the power cables, you can adjust the position of the fuse
+                   properly.
+
+Step 4 Connect the power cables between the PCAKs. The positive connector of the power cable
+       between PACKs is secured on the RACK, and the negative connector is secured on the
+        side bracket with a quick-connect clip and cable tie.
+       WARNING
+       Once the aviation plug is connected in place, you will hear a "click". Ensure that
+        the connection is secure.
+
+
+
+
+                                                                                       63
+
+PAGE 72
+ 6 Battery Connection                                                                            User Manual
+
+      NOTICE
+      When connecting the power cables between the PACKs, remove the negative
+        connector of the power cable from the quick-connect clip on the side bracket,
+       and then insert it into the designated negative terminal on the base.
+
+
+
+
+
+                                  Figure 6-4 Quick-connect Clip
+
+         a. Connect the BAT- of PACK1# to the BAT+ of PACK2#.
+        b. Connect the BAT- of PACK2# to the BAT+ of PACK3#.
+Step 5 Connect the power cable between the PACK and the DC/AC power converter unit:
+         a. Connect the BAT+ of PACK1# to the BAT+ of the DC/AC power converter unit.
+        b. Connect the BAT- of PACK4# to the BAT- of the DC/AC power converter unit.
+
+
+
+
+
+                                Figure 6-5 PACK Wiring Diagram
+
+       WARNING
+       Once the aviation plug is connected in place, you will hear a "click". Ensure that
+        the connection is secure.
+
+
+
+64
+
+PAGE 73
+User Manual                                                                         6 Battery Connection
+
+      --End
+
+
+
+
+
+                                                                                      65
+
+PAGE 74
+7 Powering up and Shutdown
+
+
+7.1 Powering up
+
+       WARNING
+           •  The equipment can only be put into operation after confirmation by a
+           professional and approval of the local energy department.
+
+       WARNING
+           •  For equipment that has a long shutdown time, inspect it thoroughly and
+            carefully and make sure all the indicators meet the relevant requirements
+           before powering up.
+
+
+7.1.1 Inspection Before Powering up
+       Before powering up the equipment, check the following items carefully.
+
+          •  Check whether the wiring is correct.
+          •  Check whether the protective covers inside the equipment are installed firmly.
+          •  Check whether the emergency stop button is released.
+          •  Check and ensure that there is no grounding fault.
+          •  Check whether the AC and DC voltages meet startup conditions and ensure that there
+              is no over-voltage with a multimeter.
+          •  Check and ensure that no tools or components are left inside the equipment.
+          •  Check all air inlets and outlets for blockage.
+          •    If the equipment has been stored for more than six months, the top radiator fan should
+         be checked for proper rotation, noise or stalling before powering up.
+
+7.1.2 Power-on Procedure
+        Inspect the equipment thoroughly before powering it on. The equipment can only be powered on
+         after all the inspection items are confirmed to meet the requirements.
+
+       Prerequisite
+
+
+
+
+
+66
+
+PAGE 75
+ User Manual                                                                  7 Powering up and Shutdown
+
+      NOTICE
+        Before the ESS is powered on for the first time, disconnect the red actuation cable
+        of the aerosol fire extinguishing equipment to prevent accidental activation. The
+        disconnection point is inside the junction box of its accessories. Reconnect the
+        actuation cable once the FSS enters normal operation.
+
+          •  The power and communication wiring of the ESS have been completed.
+          •  The outdoor temperature is in the range of -30 ℃ to 50 ℃.
+                             It is not recommended to power on the equipment at temperatures below -30
+                 °C. If the temperature is too low, it will take 24 consecutive hours or more for the
+               system to heat the cells. During this period, the system cannot operate normally.
+
+
+
+
+
+                   •  The auxiliary power supply is used to power devices including the switch, LC,
+               and fans.
+                   •  The liquid cooling unit may be switched on at factory. Check whether it is
+                 switched on when powering on.
+
+
+7.2 Shutdown
+
+7.2.1 Planned Shutdown
+       Planned shutdown refers to an interruption to the equipment operation that is scheduled in
+       advance for overhaul, test, or maintenance.
+
+       Prerequisite
+
+
+
+
+                                                                                       67
+
+PAGE 76
+ 7 Powering up and Shutdown                                                                     User Manual
+
+       Shut down the system via the control software, and switch off the battery relay (in case of
+      an emergency, you can press the emergency stop button on the ESS).
+
+
+
+
+
+                   •  Before working on the AC wiring terminals, be sure to turn off the upstream
+                 switches of the ESS first.
+
+       Proceed with the electricity test after the system self-discharge is completed.
+
+7.2.2 Emergency Shutdown
+       Contact the local fire department in case of an emergency.
+
+
+
+
+
+68
+
+PAGE 77
+8 Fire Suppression
+
+
+                   •  The equipment has an internal automatic fire suppression system. Do not flip
+                 the fire suppression switch unless an emergency occurs.
+
+
+8.1 General Rules
+
+       Always comply with the fire laws and regulations of the country/region where the project is
+        located.
+
+       Perform regular inspection and maintenance on the fire suppression system regularly to
+       ensure it can function properly.
+
+      NOTICE
+             If an operation and management personnel receives an ESS alarm or fault signal
+         on-site, via the software, or from the plant-level FACP, while ensuring safety,
+        request qualified firefighting personnel to conduct an on-site inspection and then
+       manually clear the alarm or fault.
+
+
+8.2 Fire Suppression System
+
+      Each ESS has a fire suppression system (FSS) that can function independently, without
+         interfering with each other.
+
+      The FSS of the ESS includes a detection and alarm system, a fire extinguishing system,
+      and a backup protection system (optional).
+
+
+
+
+
+                                  Figure 8-1 FSS Composition
+
+
+
+
+                                                                                       69
+
+PAGE 78
+ 8 Fire Suppression                                                                              User Manual
+
+
+
+
+
+                                   Figure 8-2 FSS Equipment
+
+      Combustible Gas Detectors Test Requirements
+       To ensure the detection accuracy of the combustible gas detectors, perform a bump test at
+        least twice a year. If the detector fails the bump test, check and if necessary, calibrate the
+        detector.
+
+     Bump Test Requirements:
+
+          •  Personal protective equipment: Safety goggles (recommended).
+          •   Test gas: 4000 ppm hydrogen with nitrogen as the balance gas.
+          •  Gas flow: Use a pressure-reducing valve to maintain a gas flow rate of ≥ 0.5 L/min.
+          •  Gas pipe: Vinyl (recommended); maximum outer diameter of 5/16 inches (approximately
+         8 mm).
+
+8.3 Detection and Alarm System
+
+      The detection and alarm system is able to discover fires early in their development and thus
+        helps to reduce the risk of fire to the minimum.
+
+      Each ESS is equipped with a fire detection and alarm system consisting of a combustible
+       gas detector, a smoke detector, a heat detector, and an alarm sunder.
+
+          •  The combustible gas detector can detect the concentration of combustible gases
+          produced during thermal runaway. When the concentration of combustible gases inside
+           the battery compartment reaches the preset alarm threshold, the detector will trigger an
+          alarm and upload the alarm signal to the LC.
+          •  The smoke detector assesses the smoke concentration based on the scattering of
+              light in smoke. When the smoke concentration in the battery compartment reaches the
+           preset threshold (0.15 dB/m), the smoke detector will trigger an alarm and upload the
+          alarm signal to the LC.
+
+
+70
+
+PAGE 79
+ User Manual                                                                          8 Fire Suppression
+
+          •  The heat detector senses the changes of temperature in the battery compartment. If the
+          temperature in the battery compartment reaches the preset threshold (54 °C), the heat
+           detector will trigger an alarm and upload the alarm signal to the LC.
+          •   In addition, if the LC also receives a cell overtemperature fault signal, the LC will shut
+        down the current ESS.
+          •  When both the smoke detector and heat detector trigger an alarm, under their linkage
+            control, the alarm sounder will trigger an acoustic alarm to alert on-site personnel to the
+          abnormal conditions in the equipment.
+
+
+
+
+
+                     Figure 8-3 Control Logic of the Detection and Alarm System
+
+8.4 Fire Extinguishing System
+
+       Each ESS is equipped with a condensed aerosol fire extinguishing system. Its condensed
+        aerosol fire extinguishing equipment consists of an aerosol generator, a feedback element, and
+       an enclosure.
+
+     When both the smoke detector and heat detector trigger an alarm, under their linkage
+         control, the aerosol generator will be activated, releasing smoke-like fire extinguishing
+        agent. The fire extinguishing agent will then be discharged into the battery compartment
+       through the nozzle on the enclosure to extinguish the fire. After the fire extinguishing agent
+          is released, the feedback element will send a fire extinguishing agent released signal to the
+       LC. In addition, if the LC also receives a cell overtemperature fault signal, the LC will shut
+      down the current ESS.
+
+
+
+
+
+                                                                                       71
+
+PAGE 80
+ 8 Fire Suppression                                                                              User Manual
+
+      NOTICE
+      When both the smoke and heat detector trigger an alarm, triggered by the
+        linkage control mechanism, the aerosol fire extinguishing agent will be discharged.
+        Therefore, before conducting tests, disconnect the activation line of the aerosol
+          fire extinguishing system to prevent accidental activation.
+
+
+
+
+
+                      Figure 8-4 Control Logic of the Fire Extinguishing System
+
+8.5 Backup Protection System (Optional)
+
+         In addition to the fire extinguishing system, the ESS also has a backup protection system, in
+       case the fire keeps spreading even after the fire extinguishing system has activated.
+
+        In case the fire keeps spreading after the fire extinguishing system activates, the customer
+       can activate the backup protection system after the ESS is powered off to extinguish the
+          fire. The backup protection system consists of the sprinkler, water piping system, and
+       reserved interface (pipe connector).
+
+          •  When the temperature around the sprinkler reaches 93 °C, the glass bulb inside bursts,
+            activating the sprinkler. Water then flows through the external and internal piping into
+           the battery compartment, immersing the PACKs, to cool the equipment down and
+           extinguish the fire.
+          •  The reserved interface has a DN25 pipe connector. The external piping system shall
+         be designed and installed by the customer separately and properly connected to the
+          reserved interface on the ESS.
+
+
+
+
+
+72
+
+PAGE 81
+User Manual                                                                          8 Fire Suppression
+
+     The external piping system can be designed according to the actual situation at the
+       project site. Generally, there are two options: manual fire extinguishing and automatic fire
+       extinguishing.
+         •  Manual: Suitable for scenarios where fire trucks or other movable equipment are
+           available at the site. In this scenario, set up a water supply piping system at the site
+            in advance, with one side connected to the reserved pipe connector of the ESS and the
+          other side to the fire truck or other movable equipment. In case of a fire, people need to
+         manually let the water in to extinguish the flames.
+         •   Automatic: Suitable for scenarios where fire water ponds are available at the site. In this
+          scenario, the water supply piping system is connected to the reserved pipe connector of
+          the ESS on one side and to the pond on the other side. In case of a fire, water from the
+        pond will automatically flow into the piping system for fire extinguishing. A valve must be
+           installed on the pipe connected to the reserved connector on the ESS. Ensure that no
+          water is present in the pipes inside the ESS under normal operating conditions.
+
+
+
+
+
+                     Figure 8-5 Control Logic of the Backup Protection System
+
+
+
+
+
+                                                                                      73
+
+PAGE 82
+9 Troubleshooting
+
+
+        In case of anything abnormal with the ESS, it is suggested to perform troubleshooting by
+        referring to the troubleshooting methods mentioned in the LC300 user manual first.
+
+       For more information, refer to the below document: LC300 User Manual.
+
+             If the problem persists or there are any other questions, please contact SUNGROW. It
+       would be helpful if you could provide the below information:
+
+          •  Model and S/N of the ESS and its internal devices.
+          •   Fault information and a brief description of the fault.
+          •  A photo of the fault, if possible.
+
+                       If the Web user interface crashes when connecting to the LC, you need to log in
+              again.
+
+             If switches connected hand-in-hand (cascaded) fail to communicate with each other
+        properly, follow the troubleshooting instructions below:
+
+        1. Check that the cables are in good condition, without damage or poor contact.
+        2. Check the power supply.
+              •  Check that all switches are powered properly.
+              •  Check that the power indicator is in a normal state.
+
+
+
+
+
+74
+
+PAGE 83
+10 Routine Maintenance
+
+
+10.1 Precautions Before Maintenance
+
+       WARNING
+           •  Do not open the door to maintain the device in rainy, humid or windy days.
+       SUNGROW shall not be held liable for any damage caused by violation of the
+           warning.
+           •  Avoid opening the container door when the humidity is high in rain, snow or
+            fog, and make sure that the seals around the container door do not curl when
+           the door is closed.
+
+       WARNING
+           •  To avoid electric shock, do not perform any other maintenance operations
+         beyond this manual.
+           •    If necessary, contact SUNGROW customer service for maintenance.
+
+      NOTICE
+         In the event of heavy snowfall at the project site, please clear the snow from the
+        top of the equipment and the surrounding area in a timely manner.
+
+
+                In fair weather, it is recommended to open the container door to dehumidify the
+             equipment.
+
+
+10.2 Container Maintenance
+
+10.2.1 Appearance Repair
+
+           Check if the protective paint sprayed on the enclosure of the product fell off or
+             peeled off. If so, repair it timely.
+            Spray a special protective paint to the exterior of the product every 5 years.
+
+       Solutions
+        Select different repair solutions based on the damage conditions.
+
+
+
+
+
+                                                                                       75
+
+PAGE 84
+ 10 Routine Maintenance                                                                          User Manual
+
+
+         Conditions                                  Solutions
+
+         Surface dirt that can be wiped off               10.2.1.1 Detergent Cleaning
+
+          Finish paint falls off, and the primer is intact     10.2.1.2 Finish Paint Repair
+
+         Primer is damaged, and the base material
+                                                         10.2.1.3 Double-Layer Paint Repair
+            is exposed
+
+
+10.2.1.1 Detergent Cleaning
+       Prerequisite
+
+       For dust or stains on the product surface, you can wipe them off using water and alcohol.
+
+      Prepared by Users
+
+       Table 10-1 Cleaning Tools
+         No.              Item
+
+        1                Cleaning cloth
+
+        2               Water
+
+        3                Alcohol or other non-corrosive detergents
+
+
+Step 1 Wet the cleaning cloth (or other scrubbing tools) with water, and scrub the dirty parts on the
+        surface.
+Step 2  If the dirt cannot be cleaned with water, scrub with 97% alcohol till the surface is
+        acceptable. (Or try to use non-corrosive detergents that are generally used locally.)
+
+
+
+
+
+       --End
+
+
+
+
+
+76
+
+PAGE 85
+ User Manual                                                                      10 Routine Maintenance
+
+10.2.1.2 Finish Paint Repair
+       Prerequisite
+
+       For minor scratches or surface paint chalking, where the finish paint has peeled off, but
+        the base material is not exposed, finish paint repair is needed to restore the product
+       appearance.
+
+       Finish Paint Selection and Mixing
+       Table 10-2 Finish Paint Selection and Mixing
+                                                                            Drying        Brand and      Chemical                                           Mixing Ratio       Thinner       Time        Model         Component                                                                       (Minimum)
+
+         Jotun Finish
+                                        Main                   5℃ 24h        Coat          Two-component                       Jotun
+                                       component :                10℃ 12h         Hardtop XP     chemically cured                       Thinner
+                                         Hardener= 10:1              23℃ 5h          or Hardtop       aliphatic                            No.10
+                                         (Volume Ratio)              40℃ 3h       XPL
+
+        AkzoNobel     Two-component    Main
+                                                   5℃ 24h          Finish Paint      acrylic            component :        Internationa
+                                                        25℃ 6h          Interthane       polyurethane       Hardener= 6:1            l GTA056
+                                                        35℃ 4h        990              paint              (Volume Ratio)
+
+
+                   •  Confirm with SUNGROW before using paints of other brands or models.
+                   •  When using a two-component paint, first thoroughly agitate each component
+                     individually, and then mix them in the specified proportions for stirring.
+                   •  Add the thinner only after the paint and hardener have been mixed.
+                   •  Do not use paint that has exceeded its shelf life.
+
+      Prepared by Users
+       Table 10-3 Cleaning Tools
+         No.         Item
+
+        1         400 mesh/600 abrasive paper
+
+        2          Cleaning cloth
+
+        3           Alcohol
+
+        4          Brush
+
+        5           Finish paint
+
+        6           Film thickness meter
+
+      Environment Requirements
+
+
+                                                                                       77
+
+PAGE 86
+ 10 Routine Maintenance                                                                          User Manual
+
+          •  Ambient temperature: 5℃–40℃
+          •  Base material temperature: 5℃–60℃
+          •   Relative humidity: 10%–85%RH
+       Repair Steps
+Step 1 Polish the paint surface with blistering or scratches with an abrasive paper to expose the
+       gray primer. Use a film thickness meter to measure the primer thickness, which must be at
+         least 150μm.
+Step 2 Use a clean brush to remove any residue from the surface.
+Step 3 Use a piece of clean cloth dipped in alcohol or detergent to remove the surface powder.
+
+
+
+
+
+Step 4 Repair the finish paint.
+         a. Prepare the finish paint with the same color as the appearance.
+            Common finish paint colors
+                RAL7035 (Streamer                         RAL7016 (Dolphin
+                                     RAL9003 (White)
+                          Grey)                                          Grey)
+
+
+
+
+
+        b. Mix the finish paint according to the paint model and the requirements of Table 10-2
+            Finish Paint Selection and Mixing.
+         c. Apply the finish paint using a brush in a crosshatch pattern. Once the paint fully dried,
+         measure the film thickness using a film thickness meter. Ensure that the single coat
+           thickness falls between 50μm–100μm.
+
+
+
+
+
+78
+
+PAGE 87
+ User Manual                                                                      10 Routine Maintenance
+
+
+
+
+
+        d. When applying multiple layers of paint, wait for each layer to dry completely before
+           applying the next. The total thickness of the primer and finish paint must be at least
+         240μm.
+Step 5 Inspect the paint to ensure it has a uniform color, smooth transitions, and meets the
+        required film thickness.
+       --End
+
+10.2.1.3 Double-Layer Paint Repair
+       Prerequisite
+
+             If the rusted area is large, or there are deep scratches or dents that expose the base
+        material, perform a double-layer paint repair, including both a primer and a finish paint.
+
+       Primer and Finish Paint Selection and Mixing
+       Table 10-4 Primer and Finish Paint Selection and Mixing
+        Brand                     Chemical                                           Drying Time        and                            Mixing Ratio        Thinner                   Component                                      (Minimum)        model
+         Jotun                        Main                   5℃ 30h                                                             Jotun
+         Primer       Two-component    component :                10℃ 10h                                                             Thinner
+         Jotamasti    epoxy paint        Hardener= 3.5:1              23℃ 3h                                                        No.17
+         c 90                          (Volume Ratio)              40℃ 1.5h
+
+                                     Main
+        AkzoNobe                                     5℃ 36h                                     component :
+                    l Primer      Two-component                           Internation   10℃ 16h                                      Hardener=
+          Interseal     epoxy paint                                   al GTA220   25℃ 10h                                           5.67:1 (Volume
+       670HS                                           40℃ 4h                                             Ratio)
+
+                                     Main                   5℃ 24h         Jotun        Two-component                        Jotun
+                                     component :                10℃ 12h          Finish        chemically                             Thinner
+                                      Hardener= 10:1              23℃ 5h        Coat         cured aliphatic                       No.10
+                                      (Volume Ratio)              40℃ 3h
+
+
+
+                                                                                       79
+
+PAGE 88
+ 10 Routine Maintenance                                                                          User Manual
+
+        Brand                     Chemical                                           Drying Time        and                            Mixing Ratio        Thinner                   Component                                      (Minimum)        model
+
+         Hardtop
+       XP or
+         Hardtop
+       XPL
+
+        AkzoNobe
+                    Two-component    Main
+                    l Finish                                       5℃ 24h                           acrylic           component :          Internation
+          Paint                                            25℃ 6h                       polyurethane      Hardener= 6:1        al GTA056
+          Interthane                                         35℃ 4h                         paint             (Volume Ratio)
+        990
+
+
+                   •  Use primers and finish paints from the same manufacturer.
+                   •  Confirm with SUNGROW before using any paint from a different manufacturer.
+
+
+                   •  When using a two-component paint, first thoroughly agitate each component
+                     individually, and then mix them in the specified proportions for stirring.
+                   •  Add the thinner only after the paint and hardener have been mixed.
+                   •  Do not use paint that has exceeded its shelf life.
+
+      Prepared by users
+       Table 10-5 Cleaning Tools
+         No.              Item
+
+        1              400 mesh/600 mesh abrasive paper
+
+        2                Cleaning cloth
+
+        3                 Alcohol
+
+        4               Brushes with different sizes
+
+        5                 Grinder (conical and cylindrical polishing heads)
+
+        6                 Wall putty
+
+        7                  Finish coat
+
+        8                Primer
+
+        9                 Film thickness meter
+
+      Environment Requirements
+
+
+
+80
+
+PAGE 89
+ User Manual                                                                      10 Routine Maintenance
+
+          •  Ambient temperature: 5℃–40℃
+          •  Base material temperature: 5℃–60℃
+          •   Relative humidity: 10%RH–85%RH
+       Repair Steps
+Step 1 Use a grinder or abrasive paper to smooth uneven areas on the surface, achieving a
+       smooth finish with a metallic luster. Ensure a uniform transition from rusted areas to intact
+        coating.
+
+            Uneven areas refer to burrs, metal fragments, slag, gaps, and sharp edges on the
+               product.
+
+Step 2 For deeper defects such as scratches or dents, repair them with wall putty to ensure a flat
+        surface.
+Step 3 Use a clean brush to remove any residue from the surface.
+Step 4 Use a piece of clean cloth dipped in alcohol to remove the surface powder.
+
+
+
+
+
+Step 5 Repair the primer.
+         a. Prepare the primer with the same color as the appearance.
+            Common finish paint colors
+                RAL7035 (Streamer                         RAL7016 (Dolphin
+                                     RAL9003 (White)
+                          Grey)                                          Grey)
+
+
+
+
+
+                                                                                       81
+
+PAGE 90
+ 10 Routine Maintenance                                                                          User Manual
+
+        b. Mix the primer according to the paint model and the requirements of Table 10-4 Primer
+         and Finish Paint Selection and Mixing.
+         c. Apply a primer with a small brush, and use a film thickness meter to ensure the coating
+           thickness in corners and gaps is between 70μm–80μm.
+        d.  After the first layer dries, apply another layer of primer using a brush in a crosshatch
+            pattern. Once it is dry, check that the dry film thickness is within 100μm–300μm.
+Step 6 Refer to 10.2.1.2 Finish Paint Repair for finish paint repair.
+Step 7 Inspect the paint to ensure it has a uniform color, smooth transitions, and meets the
+        required film thickness.
+       --End
+          When using spray paint, follow these steps:
+                1.  Carefully cover the area outside the damaged spot (extending 800mm outward)
+                 using masking paper.
+                2. Spray the exposed area with the paint. After the paint dries, check that the dry
+                     film thickness is within the range of 100μm–300μm.
+
+
+10.2.2 Checking Door Locks and Hinges
+      Check whether the door locks and hinges of the container can be used normally after
+        cleaning. Lubricate the door lock holes and hinges properly when necessary.
+
+10.2.3 Checking Sealing Strips
+             If the sealing strip is in good condition, it can effectively prevent water seepage inside the
+        container. Therefore, carefully check the sealing strip and replace it immediately if there is
+       any damage.
+
+10.3 Battery Use Safety and Maintenance
+
+       This product is equipped with UPS batteries. Pay attention to battery use safety and
+       maintenance during product operation and storage.
+
+10.3.1 Safety Precautions
+       WARNING
+         Strictly perform the following steps before installing or maintaining battery-
+       powered equipment. Failure to comply may result in equipment damage, electric
+        shock, and other safety hazards!
+           •  Ensure the equipment is fully powered off and completely disconnected from
+            grid power and batteries. Live working is strictly prohibited.
+           •   After disconnection, wait for at least 5 min to fully discharge capacitors before
+          subsequent installation or maintenance, to eliminate risks caused by residual
+             electric charge.
+
+
+
+82
+
+PAGE 91
+User Manual                                                                      10 Routine Maintenance
+
+       WARNING
+        Strictly adhere to the following standards and requirements when installing or
+      commissioning batteries:
+          •  Do not install batteries until the system is fully ready for power-on. Ensure that
+          the system is ready before battery installation.
+          •   After battery installation, energize the UPS within 72 h to prevent battery drain
+         and extend battery service life.
+          •    If the batteries have been stored for a long time, measure their appearance,
+           open-circuit voltage, and internal resistance after commissioning when their
+       SOC reaches 100%. If the results fail to meet specification limits, do not use the
+            batteries, and replace them promptly.
+          •  The expected service life of the UPS and batteries is one year. High ambient
+          temperature can cause capacity degradation, overheating, bulging, leakage,
+         and other defects that shorten battery service life. Evaluate the actual
+          replacement cycle based on on-site project environmental conditions.
+          •   (Optional for FSS) When the main power of the FACP / FSS power supply
+            is disconnected and no fire occurs, power off the standby battery to avoid
+          undervoltage damage to the battery.
+
+       WARNING
+      Check UPS status before energizing the ESS!
+          •  Do not energize the system unless the UPS is confirmed to start up normally, to
+         have sufficient battery charge, and to provide normal output.
+          •  Do not energize the equipment with high voltage when the UPS that serves
+         as the power supply for the protective relays is de-energized, not yet
+         commissioned, or in a fault condition. Failure to comply may result in severe
+           safety incidents.
+
+       WARNING
+        Strictly adhere to the battery recharging standards and requirements!
+          •   (Optional for FSS) FSS batteries: Complete recharge within 24 h if the batteries
+          are fully discharged after grid power disconnection.
+          •  UPS batteries: Complete recharge within 7 days if the batteries are fully
+          discharged after grid power disconnection.
+          •  Disable the power backup function after grid power disconnection to avoid
+         complete battery discharge.
+
+
+
+
+
+                                                                                      83
+
+PAGE 92
+ 10 Routine Maintenance                                                                          User Manual
+
+       WARNING
+         Strictly adhere to the storage and transportation requirements!
+           •  Store batteries at full SOC. Storage when undercharged is forbidden. Failure to
+         do so will result in irreversible damage to the batteries.
+           •  High temperature or poor ventilation during storage and transportation
+           accelerates battery self-discharge. Therefore, the batteries must be kept in well-
+            ventilated conditions and kept away from open flames, sparks, heat sources,
+           organic solvents, and other hazards.
+           •   Batteries lose partial capacity via self-discharge during storage or
+            transportation. Perform recharging before use.
+           •  Conduct regular recharging of batteries during storage according to specified
+           procedures. For detailed operation, refer to #unique_91.
+           •    If storage duration exceeds six months, conduct a comprehensive functional
+           inspection and test on the UPS and batteries before commissioning.
+          Commissioning is permitted only after passing all tests.
+           •  Battery storage environment requirements: The temperature range is -20°C to
+           +40°C. (The recommended storage temperature range is -20°C to +25°C.) The
+             relative humidity is 0% to 95%, non-condensing. Do not store the batteries in
+          environments that do not meet the requirements.
+
+
+           The following conditions void the product warranty for the UPS and batteries:
+                   •   Battery damage caused by human factors.
+                   •   Alteration of the serial number or loss of the anti-counterfeit label.
+                   •   Battery damage or loss arising from force majeure events.
+                   •   Operation outside the service conditions specified in this manual, or failure to
+               comply with all prohibitions and precautions herein.
+                   •  Usage beyond product specifications, such as operation at high ambient
+                 temperatures, frequent charge-discharge cycles (more than 4.5 cycles per
+               month on average), and low-current overdischarging.
+
+
+
+
+
+84
+
+PAGE 93
+ User Manual                                                                      10 Routine Maintenance
+
+10.3.2 Battery Preventive Maintenance
+
+           The battery service life is affected by ambient temperature and depth of discharge.
+              Accordingly:
+                   •  Operate the batteries within the temperature range specified in the product
+                   specifications whenever possible.
+                   •  Perform regular inspections (e.g., once per year) covering appearance, open-
+                      circuit voltage, and internal resistance of the batteries. The internal resistance
+                   of batteries will change after commissioning. A battery is deemed qualified if
+                        its internal resistance is less than 2.5 times the value specified in the Battery
+                   Specifications.
+                   •  Recharge batteries promptly after deep discharge.
+                   •  When the on-site ambient temperature is high, maintain a certain quantity of
+                spare batteries on-site for emergency use.
+                   •  For large-capacity batteries, replace individual faulty cells rather than replacing
+                 the entire string.
+
+
+       Table 10-6 List of Tools
+         No.              Item
+
+        1                 Battery tester
+
+        2                Multimeter
+
+       Battery Inspection Procedure:
+
+          •  Connect the probe of the tester or multimeter to the positive and negative terminals of
+           the battery, and ensure secure contact.
+          •  Read and record the battery voltage displayed on the test device.
+          •  Compare the measured voltage with the specification parameters of the corresponding
+         model to check whether the voltage is within the normal range. Replace the battery if it
+              is not within the range.
+
+10.3.3 Battery Replacement and Maintenance
+             It is recommended to replace all batteries found with leakage on site.
+
+                   •  Before replacing batteries, shut down the equipment and cut off its power supply
+                   to ensure that the equipment is completely de-energized during the operation.
+                   •  Wear insulated gloves throughout the entire operation.
+                   •   Battery electrolyte is concentrated sulfuric acid with strong corrosivity. Do not
+                 touch it with bare hands. If leakage occurs during battery replacement or
+                maintenance, wear rubber gloves to prevent acid contact with skin.
+
+
+
+
+
+                                                                                       85
+
+PAGE 94
+ 10 Routine Maintenance                                                                          User Manual
+
+
+         No.              Item
+
+        1                 Insulated gloves / corrosion-resistant insulated gloves
+
+        2                Multimeter
+
+        3             Wrench
+
+
+Step 1 Power off the system, and turn off the battery power supply switch.
+Step 2 Turn off the UPS power supply switch, then press and hold the shutdown button on the
+     UPS panel to shut down the UPS.
+
+
+
+
+
+                                     Figure 10-1 UPS Panel
+Step 3 Remove interconnection cables between batteries one by one, and keep them properly
+        stored.
+Step 4 Take out the batteries to be replaced, and install new batteries. Reconnect the previously
+       removed cables according to the wiring diagram.
+
+                After wiring, inspect the battery connections for tightness and correctness:
+                   •  Check that all screws are properly tightened and that there are no stripped or
+                 misaligned threads.
+                   •  Check that all components are properly installed and that there are no incorrect
+                    installations or missing parts.
+
+        CAUTION
+        Before installation, inspect new batteries for bulging or leakage, and measure their
+         open-circuit voltage to ensure it is no less than 12.9 V.
+
+Step 5 Start up the UPS, and close its internal output circuit breaker. Confirm the voltage across
+     UPS output terminals is 230 V, and then close the UPS power supply switch.
+       --End
+
+10.3.4 Maintenance for Long-Term Stored Batteries
+       For long-term stored batteries, perform discharge before charging to prevent uneven charging or
+         local overheating, which would shorten battery service life.
+
+
+
+86
+
+PAGE 95
+User Manual                                                                      10 Routine Maintenance
+
+
+      Table 10-7 List of Tools
+
+        No.              Item
+
+       1                 Battery tester
+
+       2                Multimeter
+
+       3                 On-site charging device*
+
+      *Since the UPS cannot perform long-duration equalized charging, other on-site charging
+      devices shall be used for charging based on the actual conditions.
+
+      Table 10-8 Recharging Method
+
+        Storage
+                    Rechargin
+        Temperat                 Recharging Procedure
+                  g Interval
+        ure
+
+                 Once
+                                Charge and discharge the batteries via the UPS (pay       25°C        every 6
+                                        attention to load heat dissipation).                   months
+                                Connect the specified number of 12 V / 100 Ah batteries
+                 Once            in series according to product requirements, then connect
+       30°C        every 4       them to the UPS via a 63 A / 2P air circuit breaker,
+                   months       and connect to a resistive load (resistor bar or light
+                                                                     PL                                       bulb) of the corresponding power rating (W =            *)                 Once                                       N ⋅6 ⋅η
+       35°C        every 3         for constant-power discharge for 4 h. After discharging
+                   months          is complete, recharge the batteries. A charging duration
+                                         of 16 h or more is recommended. After charging is
+                 Once                                    complete, measure the battery voltage to confirm it is
+       40°C        every 2                                above 13.2 V.
+                   months
+
+
+       *PL: active power of UPS rated output.N: number of batteries.η: efficiency of Battery Energy
+      Storage System Container.
+
+       WARNING
+      To meet charging requirements and extend battery service life, the max. storage
+       duration of batteries shall not exceed 6 months. If the UPS needs to be stored with
+      power disconnected for a long time, a 24-hour recharge must be performed on the
+        batteries at least once a month to prevent irreversible performance degradation.
+
+       CAUTION
+       Excessively high discharge current may lead to overcurrent hazards.
+
+
+
+                                                                                      87
+
+PAGE 96
+ 10 Routine Maintenance                                                                          User Manual
+
+
+            Measure the internal resistance and voltage of batteries after recharging. For
+               detailed operation, refer to 10.3.2 Battery Preventive Maintenance.
+
+
+10.4 Battery Maintenance
+
+10.4.1 Maintenance Precautions
+       For safe and effective maintenance of the system, maintenance personnel must carefully
+       read and observe the following safety requirements.
+
+        1. Maintenance personnel must hold an electrician's license issued by the local safety
+           supervision authority and successfully complete professional training before operation.
+        2. Observe related safety precautions, use necessary tools, and wear personal protective
+          equipment.
+        3. Do not wear jewelry or metal accessories such as watches.
+        4. Do not touch the positive and negative high-voltage terminals of the ESS with hands at
+           the same time.
+        5. Turn off all HV and LV switches before maintaining the ESS.
+        6. Do not clean the ESS with water directly. Use a vacuum cleaner if necessary.
+        7. Connect and disconnect cables by following the standard operation procedure. Do not
+          connect or disconnect any cables forcefully or brutally.
+        8. Put away the tools and materials in time after maintenance. Check that no metal objects
+           are left inside or on top of the equipment.
+        9.   If there is any question about the operation and maintenance of the equipment, please
+           contact SUNGROW Customer Service. Unauthorized operation is prohibited.
+
+10.4.2 Maintenance
+        1. PACK operating temperature: The working temperature should be kept between -30℃–
+         50℃.
+        2. The RACK should not be charged or discharged with high magnifying power. The
+          continuous charging and discharging current of a single rack should not exceed the
+           rated current.
+        3. When the energy storage system is not used in a long time, it should be charged once
+          every six months, until its SOC is 30%–40%.
+        4. When the system is used after long-term storage, it should be fully charged at least
+         once to restore the best performance of the battery.
+        5. To perform maintenance on the PACK on the top layer, first remove the nearby smoke
+            detector, heat detector, and any other components that may hinder smooth removal of
+           the PACK. Ensure that no components are damaged during the removal process.
+        6.  Regularly check whether the air duct of the cooling system is blocked and clean the
+          system. In particular, clean the air inlet and outlet of the fan and use a vacuum cleaner
+
+
+
+88
+
+PAGE 97
+ User Manual                                                                      10 Routine Maintenance
+
+                    if necessary, to maintain free air circulation inside the cabinet. Before dust removal, the
+         power supply must be cut off. It is forbidden to rinse the system with water.
+        7.  Regularly check whether the fastening bolts of the high-voltage cables and connecting
+          busbars of the energy storage system are loose, whether the contacts are in good
+            conditions, and whether the terminal surfaces are severely corroded or oxidized.
+        8.  Regularly check the protective covers of high-voltage positive and negative electrodes
+            of the PACK for ageing, damage and missing.
+        9.  Regularly check cables for loosening, ageing, damage and fracture and inspect whether
+           the insulation is in good conditions.
+        10. Regularly check the battery container for pungent odor and high-voltage connections for
+           burning odor.
+        11. Regularly check whether the voltage, temperature and other data of the monitoring
+          upper computer are correct and whether there are fault alarms in the alarm column.
+        12. Regularly check whether the status and alarm indicators of the energy storage system
+           are in good conditions and whether they work properly.
+        13. Regularly check whether the emergency stop button of the energy storage system can
+         be used, in order to quickly shut down the system in an emergency.
+        14. Regularly check whether the fire extinguishers are in good conditions and within the
+             validity period.
+        15. Never use different types of battery modules in series or parallel.
+        16. PACK A and PACK B are prohibited from replacing each other.
+       WARNING
+           •  The battery is potentially dangerous, so appropriate protective measures must
+          be taken during operation and maintenance!
+           •   Incorrect operation may cause severe personal injury and property damage!
+           •  Use the appropriate tools and protective equipment during battery operation.
+           •  Battery maintenance must be performed by those who have battery expertise
+         and received safety training.
+
+
+10.5 Coolant Replacement
+
+         Object     Standard               Period       Tools
+
+                        1. There are
+                                                     Water pump, hose, hose clamp,
+                    obvious impurities in
+                                                                  slotted screwdriver
+        Coolan     antifreeze;            5–6
+                                                          Note: Please contact Sungrow
+                t            2. Antifreeze is          years
+                                                   Customer Service to replace
+                         significantly darker in
+                                                     hardware facilities
+                         color.
+
+
+
+
+
+                                                                                       89
+
+PAGE 98
+ 10 Routine Maintenance                                                                          User Manual
+
+       WARNING
+       Normally coolant is not a health hazard, excessive exposure may cause irritation to
+        the eyes, skin and breathing.
+
+      NOTICE
+           •  The coolant in the refill tank must not exceed the "H" line.
+           •  The brand of coolant to be replaced is limited to Great Wall and Acwell, and it
+             is recommended to use the same brand of coolant. If you choose to mix Great
+           Wall and Acwell coolants, the mixing ratio of different coolants is limited to 9:1.
+
+       Personal protection
+      Wear personal protective equipment (PPE) when changing coolant. PPE should comply
+        with relevant national standards, including but not limited to the following protective
+       equipment.
+
+          Protective parts        Protective equipment
+
+                            Under normal conditions of use, it is generally not necessary
+                                     to wear respiratory protection equipment. If the engineering
+                                    control facility does not maintain the air concentration at a level
+                                       sufficient to protect the health of personnel, choose respiratory
+          Respiratory             protection equipment suitable for the conditions of use and
+          protection                in compliance with relevant legal requirements. If you need
+                                     to wear a safety filter mask, please choose a suitable mask
+                           and filter combination. Choose a filter suitable for a mixture
+                                     of particulate/organic gas and vapor [boiling point >65 ℃ (149
+                                    ℉)].
+
+        Hands protection     Use oil-resistant, chemical-resistant protective gloves.
+
+        Eyes protection        Please use protective goggles.
+
+         Skin and body
+                          Use non-permeable protective clothing and safety shoes.
+          protection
+
+
+       Disposal considerations
+
+        Waste types           Disposal measures
+
+                              Discharges are made in accordance with local regulations and
+         Coolant
+                                are not disposed of haphazardly.
+
+                              Separate and recycle, and if it meets the relevant regulations,
+         Rubbish remnant
+                                                             it can be burned or reused.
+
+
+
+
+
+90
+
+PAGE 99
+User Manual                                                                      10 Routine Maintenance
+
+       Waste types           Disposal measures
+
+                             Dispose of in accordance with all applicable local and national
+                                  regulations. Use recovery/recycling where feasible, otherwise
+                                   incineration is the recommended method of disposal. Empty
+                                containers may contain hazardous residues. Do not cut,
+                              puncture or weld on or near to the container. Labels should
+        Containers
+                                not be removed from containers until they have been cleaned.
+                             Contaminated containers must not be treated as household
+                               waste. Containers should be cleaned by appropriate methods
+                           and then re-used or disposed of by landfill or incineration as
+                                 appropriate. Do not incinerate closed containers.
+
+
+      Accidental release measures
+     When a coolant leak occurs, refer to the following measures to deal with it.
+
+         •   Immediately contact a professional to have uninvolved persons evacuated quickly to
+           safety.
+         •  Cut off the source of the spill as far as possible and prevent it from entering spaces
+         such as sewers, drains and bodies of water.
+         •  When cleaning up spilled liquids, wear protective equipment to protect your body from
+          contact with the spilled or released material.
+         •  Use sand, mud or other materials that can be used as barriers to set up barriers to
+          prevent diffusion. Recover liquid directly or store in absorbent. Clean the contaminated
+         area with detergent, water and a hard broom. Put the collected liquid in a disposable
+           container.
+       First aid measures
+
+        Contact                        Measures       method
+
+                     Move to fresh air. If breathing has stopped, give artificial respiration
+         Inhalation
+                                        first aid. Seek medical attention.
+
+                         Take off contaminated clothing. Rinse the skin thoroughly with
+        Skin contact      soap and water. Seek medical attention if skin inflammation or rash
+                            occurs.
+
+                           Flush eyes with plenty of water for at least 15 minutes. Seek
+       Eyes contact
+                          medical attention.
+
+                                               If ingested, but conscious, water or milk to drink and actively
+                         seek medical help, do not induce vomiting unless instructed by
+         Ingestion
+                            healthcare patients. If you cannot get help from a doctor, please
+                        send the patient and the container and label to the nearest medical
+
+
+
+                                                                                      91
+
+PAGE 100
+ 10 Routine Maintenance                                                                          User Manual
+
+         Contact                         Measures        method
+
+                        emergency center or hospital. Do not give any food to unconscious
+                                patients.
+
+
+10.6 Post-maintenance Inspection
+
+        After maintenance work is completed, perform the following checks:
+
+          •  Do not leave screws, washers, or other metal parts inside the cabinet during
+          maintenance. Otherwise, the equipment may be damaged.
+          •  Make sure all screws are tightened in place.
+          •   In most cases, the protective covers inside the equipment need to be removed
+           before the maintenance work. After completing the maintenance work, mount back all
+            protective covers in their original positions, and make sure the screws are all tightened
+            properly.
+          •  To prevent collisions between the door lock tab and the door frame hinge, ensure that
+           the angle between the door handle and the vertical direction is at least 100° when
+           locking the door.
+          •  Ensure the seal strip around the door does not curl when the door is closed.
+
+
+
+
+
+92
+
+PAGE 101
+11 Appendix
+
+11.1 System Parameters
+
+         Product Model             ST255CS-2H
+
+         Battery Data
+
+          Cell type                LFP
+
+        System battery
+                               256S1P
+          configuration
+
+        Rated battery capacity       257 kWh
+
+          Battery voltage range         691.2 V – 934.4 V
+
+        Depth of charge/discharge   0% – 100%
+
+       DC/AC Power Converter
+         Unit Data (Grid-
+        connected)
+
+        Rated power               125 kW
+
+        Rated grid voltage          400 V
+
+         Grid voltage range          340 V – 440 V
+
+        Rated grid frequency        50 Hz / 60 Hz
+
+         Grid frequency range        45 Hz – 55 Hz / 55 Hz – 65 Hz
+
+         Current THD               ≤ 3% (at rated power)
+
+         Current DC component       ≤ 0.5% (at rated power)
+
+       DC/AC Power Converter
+         Unit Data (Off-grid)
+
+        Rated AC voltage           400 V
+
+        Rated AC frequency         50 Hz / 60 Hz
+
+        Unbalanced load capacity    100%
+
+        System Data
+
+
+
+                                                                                       93
+
+PAGE 102
+ 11 Appendix                                                                                    User Manual
+
+         Product Model             ST255CS-2H
+
+         *Dimensions (width *
+                                  1150 * 2450 * 1610 mm
+          height * depth)
+
+         *Weight                   ≤ 2900 kg
+
+         IP rating (battery
+                                    IP55
+         compartment)
+
+                                            Internal auxiliary power supply (standard) / external
+           Auxiliary power supply
+                                             auxiliary power supply (optional)
+
+         Corrosion protection class    C5
+
+         Ambient humidity         0% – 100%
+
+         Ambient temperature         -30 ℃ to 50 ℃ (derate at > 45 ℃)
+
+        Max. altitude               3000 m
+
+         Cooling method             Smart liquid cooling
+
+                                    Combustible gas detector, smoke detector, heat
+                                           detector, alarm sounder, hot aerosol fire extinguishing
+          Fire suppression system      equipment, water-based fire extinguishing system
+                                             (optional), emergency ventilation system (optional),
+                                       explosion vent panel (optional)
+
+        Communication interface      Ethernet
+
+        Communication protocol     Modbus TCP
+
+                                 IEC 62619, IEC 63056, IEC 62040, IEC 62477, IEC
+        Compliance
+                                    61000, IEC 62933, UN 38.3
+
+       *The technical data is for reference only, please refer to the information on the nameplate of
+        the product.
+
+11.2 Abbreviations
+
+         Abbreviation          Definition
+
+      B
+
+      BM                   Battery Module (PACK)
+
+      BC                   Battery Cluster (RACK)
+
+      BMU                  Battery Management Unit
+
+
+94
+
+PAGE 103
+User Manual                                                                                     11 Appendix
+
+        Abbreviation          Definition
+
+     BCMU (CMU)         Battery Cluster Management Unit (CMU for short)
+
+      BSMU (SMU)         Battery System Management Unit (SMU for short)
+
+      BMS                  Battery Management System
+
+      BSC                  Battery System Controller
+
+                               Battery Collection Panel. Battery DC inputs are combined into
+                               the BCP’s DC copper bar, and then connected to the DC/AC
+      BCP
+                          power converter unit’s DC side through the copper bar on the
+                               other side of the BCP.
+
+                               Battery Supply Panel. It is used as an auxiliary power supply for
+      BSP
+                          components inside the battery, such as lighting, FSS, etc.
+
+      D
+
+      DC/DC           DC/DC Converter
+
+      E
+
+      ESS               Energy Storage System
+
+      EMS               Energy Management System
+
+       F
+
+      FSS                   Fire Suppression System
+
+      FACP                  Fire Host Alarm Control Panel
+
+       L
+
+      LC                   Local Controller
+
+      S
+
+      SCADA              Supervisory Control and Data Acquisition
+
+       S/G                 Switch Gear
+
+      SOC                 State Of Charge
+
+      SOH                 State Of Health
+
+
+
+
+
+                                                                                      95
+
+PAGE 104
+ 11 Appendix                                                                                    User Manual
+
+11.3 Tightening Torques
+
+       To avoid poor contact caused by the loosening of copper cable lugs due to stress, and
+        to prevent heat or even fire due to increased contact resistance, make sure to tighten the
+       screws on the cable lugs at the recommended torques:
+
+          Bolt                Torque(N·m)          Bolt                Torque(N·m)
+
+      M3                  0.7–1           M8                18–23
+
+      M4                  1.8–2.4           M10               34–40
+
+      M5                  4–4.8            M12               60–70
+
+      M6                7–8             M16               119–140
+
+       *Torque values listed in the table are intended for the bolt and nut assembly, and do not
+       apply to riveted nuts or riveted screws, etc. The torque to be adopted should depend on the
+        actual situation.
+
+       **Secure the cable at a proper point to reduce the stress on the cable lug.
+
+11.4 Quality Assurance
+
+     When product faults occur during the warranty period, SUNGROW will provide free service
+        or replace the product with a new one.
+
+      The software security update period for this product aligns with the warranty period.
+       During the warranty, security patches or updates will be provided if any vulnerabilities or
+        compatibility issues are identified.
+
+      Evidence
+
+       During the warranty period, the customer shall provide the product purchase invoice and
+        date. In addition, the trademark on the product shall be undamaged and legible. Otherwise,
+     SUNGROW has the right to refuse to honor the quality guarantee.
+
+       Conditions
+
+          •   After replacement, unqualified products shall be processed by SUNGROW.
+          •  The customer shall give SUNGROW a reasonable period to repair the faulty device.
+       Exclusion of Liability
+
+        In the following circumstances, SUNGROW has the right to refuse to honor the quality
+       guarantee:
+
+          •  The free warranty period for the whole machine/components has expired.
+          •  The device is damaged during transport.
+          •  The device is incorrectly installed, refitted, or used.
+
+96
+
+PAGE 105
+ User Manual                                                                                     11 Appendix
+
+          •  The device operates in harsh conditions beyond those described in this manual.
+          •  The fault or damage is caused by installation, repairs, modification, or disassembly
+          performed by a service provider or personnel not from SUNGROW.
+          •  The fault or damage is caused by the use of non-standard or non-SUNGROW
+         components or software.
+          •  The installation and use range are beyond stipulations of relevant international
+           standards.
+          •  The damage is caused by unexpected natural factors.
+       For faulty products in any of above cases, if the customer requests maintenance, paid
+       maintenance service may be provided based on the judgment of SUNGROW.
+
+             Product data such as product dimensions are subject to change without prior
+               notice. The latest documentation from SUNGROW should take precedence in case
+                of any deviation.
+
+
+11.5 Contact Information
+
+        In case of questions about this product, please contact us. We need the following
+        information to provide you the best assistance:
+
+          •  Model of the device
+          •   Serial number of the device
+          •   Fault code/name
+          •   Brief description of the problem
+       For detailed contact information, please visit: https://en.SUNGROWpower.com/
+      contactUS
+
+
+
+
+
+                                                                                       97
+
+PAGE 106
+Sungrow Power Supply Co., Ltd.
+
+www.sungrowpower.com                                                                                                                                                                                                                                                                                                                                                                                                                                 M0D02063

@@ -1,0 +1,44 @@
+{
+  "policy": "B",
+  "path": "joint",
+  "factor": 16.0,
+  "forced": false,
+  "objective_lower_GBP": 0.0,
+  "objective_upper_GBP": 2.0463630789890885e-06,
+  "zero_upper_minus_feasible_GBP": 0.0,
+  "battery_MWh": 0.0,
+  "counts": {
+    "sungrow-st255cs-2h": 0,
+    "huawei-luna215": 0,
+    "huawei-luna241": 0,
+    "tesla-megapack2xl-2h": 0
+  },
+  "attempts": 1,
+  "status": "HighsModelStatus.kOptimal",
+  "exact_priority_added": false,
+  "price_min": -1499.2380165206037,
+  "price_max": 9032.425079477422,
+  "elapsed_seconds": 6.578000000037719,
+  "gap_std_multiplier": 4.0,
+  "price_std_multiplier": 16.0,
+  "no_battery_annual_profit_GBP": 29913748357.078655,
+  "electrolyser_counts": {
+    "itm-neptune-ii": 0,
+    "itm-neptune-v": 721,
+    "nel-mc250": 1,
+    "nel-mc500": 1,
+    "nel-mc1000": 0
+  },
+  "no_battery_electrolyser_counts": {
+    "itm-neptune-ii": 0,
+    "itm-neptune-v": 721,
+    "nel-mc250": 1,
+    "nel-mc500": 1,
+    "nel-mc1000": 0
+  },
+  "electrolyser_MW": 3631.1919,
+  "no_battery_electrolyser_MW": 3631.1919,
+  "battery_MW": 0.0,
+  "battery_annual_cost_GBP": 0.0,
+  "decision": "zero_within_50p"
+}

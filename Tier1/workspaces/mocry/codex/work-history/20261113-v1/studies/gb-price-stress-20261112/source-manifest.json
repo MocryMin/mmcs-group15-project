@@ -1,0 +1,75 @@
+{
+  "retrieved_on_Europe_London": "2026-11-12",
+  "Elexon": [
+    {
+      "file": "source\\mid-2016-11-01.json",
+      "record_count": 674,
+      "sha256": "4b3bc42d7d61e230a01d5d2a261018372511bceaef3bdccba82cc216312bb5ed",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2016-11-01T00%3A00%3A00Z&to=2016-11-08T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2016-11-08.json",
+      "record_count": 672,
+      "sha256": "55e5069038d0d4b26f9f52df4306fb406a4b0fa7c1f8ab60bac1da38c122257e",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2016-11-08T00%3A00%3A00Z&to=2016-11-15T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2016-11-15.json",
+      "record_count": 629,
+      "sha256": "b101310ad88155a3bc849537037aedcbd130501d9631e01f26dffc432edd97b0",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2016-11-15T00%3A00%3A00Z&to=2016-11-22T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2016-11-22.json",
+      "record_count": 655,
+      "sha256": "020217d328da12487c593077412c1a33810b6a63f776ed376478389b859a204c",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2016-11-22T00%3A00%3A00Z&to=2016-11-29T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2016-11-29.json",
+      "record_count": 194,
+      "sha256": "7dd5364991d007bd0d2985d3de4a8523ae73edf986de70b2e3a5e9a36853d540",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2016-11-29T00%3A00%3A00Z&to=2016-12-01T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2018-02-22.json",
+      "record_count": 653,
+      "sha256": "4309c8d22710c7138fdbc98be968f7025245e0db8015b80a3dc84ec353f462a1",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2018-02-22T00%3A00%3A00Z&to=2018-03-01T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2018-03-01.json",
+      "record_count": 663,
+      "sha256": "2a6860f1f7b247df70ac9122eea171284bd4c72c3bc89507660da97147c9519c",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2018-03-01T00%3A00%3A00Z&to=2018-03-08T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2018-03-08.json",
+      "record_count": 288,
+      "sha256": "a13497d6968e485664d1230bf3adcd91d142726fca96382b9e8fe204606f71e1",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2018-03-08T00%3A00%3A00Z&to=2018-03-11T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2021-09-07.json",
+      "record_count": 290,
+      "sha256": "9a4e6e9e850f4218f7faedef6b1563e0e705e1f02323df61525de88c247d40ca",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2021-09-07T00%3A00%3A00Z&to=2021-09-10T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2022-08-26.json",
+      "record_count": 98,
+      "sha256": "2fb20a6693a8feb7da3c7f47e42a1fa5292f78c53c2eb17a1f038d7244833701",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2022-08-26T00%3A00%3A00Z&to=2022-08-27T00%3A00%3A00Z&format=json"
+    },
+    {
+      "file": "source\\mid-2022-09-23.json",
+      "record_count": 88,
+      "sha256": "c2088e02849b009f3fe4c5e7b4a98a4393be91958058f054287e501c6c4e89a1",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/balancing/pricing/market-index?from=2022-09-23T00%3A00%3A00Z&to=2022-09-24T00%3A00%3A00Z&format=json"
+    }
+  ],
+  "local_raw": "data-repair-20261104-v2\\evidence\\mid.json.gz",
+  "local_cpi": "tier1-multiproduct-20261110-v6\\inputs\\CPI.csv",
+  "CPI_series": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+  "currency_conversion": "108.7 / corresponding monthly ONS CPI"
+}

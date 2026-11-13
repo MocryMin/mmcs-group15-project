@@ -1,0 +1,2089 @@
+{
+  "as_of": "2026-11-10",
+  "products": [
+    {
+      "id": "tesvolt-tallon",
+      "type": "battery",
+      "manufacturer": "TESVOLT",
+      "model": "TALLON",
+      "source": "TESVOLT-TALLON.pdf p1, revisionRD.TI.150.E.de-DE B.01",
+      "technical": {
+        "nominal_energy_kWh": 5015,
+        "usable_energy_kWh": 5015.0,
+        "nominal_AC_power_kW": 2500,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": 1.0,
+        "normalized_SOC_operating_range": [
+          0,
+          1
+        ],
+        "roundtrip_AC": null,
+        "roundtrip_DC": {
+          "points": [
+            {
+              "rate_Cp": 0.5,
+              "efficiency": 0.937
+            },
+            {
+              "rate_C": 0.25,
+              "efficiency": 0.952
+            }
+          ],
+          "boundary": "DC connection point"
+        },
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": {
+          "typical25C": 23,
+          "typical45C": 33,
+          "peak": 36
+        },
+        "auxiliary_standby_kW": {
+          "value": 2,
+          "kind": "stated standby"
+        },
+        "self_discharge_per_day": null,
+        "lifetime_years": 15,
+        "cycle_life": 11000,
+        "EOL_SOH": 0.6,
+        "degradation_curve": null,
+        "warranty_years": {
+          "standard": 15,
+          "optional": 20,
+          "kind": "combined product/performance, purchase terms control"
+        },
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -30,
+          55
+        ],
+        "derating_above_C": null,
+        "scope": "DC battery container;needs matchingPCS and AC-system boundary",
+        "auxiliary_duty_reference": {
+          "annual_MWh": 63.51,
+          "cycles_day": 1.5,
+          "warning": "not additive to all other auxiliary figures"
+        },
+        "lifetime_conditions": "average2cycles/day,100%DoD,max0.5Cp;optional20yearwarranty not automatic20yearconstantcapacity",
+        "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": 5015.0,
+        "rated_AC_kW": 2500,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "tesvolt-powercore-g2",
+      "type": "battery",
+      "manufacturer": "TESVOLT",
+      "model": "POWERCORE G2 IA-250kW/500kWh",
+      "source": "TESVOLT-POWERCORE-G2.pdf p2; manufacturer product pageFAQ retained inlegacy sources",
+      "technical": {
+        "nominal_energy_kWh": 509,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": 250,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": 244,
+        "battery_DC_discharge_power_kW": 254.8,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": {
+          "maximum_approx": 0.92,
+          "conditions": "manufacturerFAQ:configurationandoperatingconditions"
+        },
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": {
+          "value": 10000,
+          "kind": "webpage>10000 cycles"
+        },
+        "EOL_SOH": {
+          "lower": 0.7,
+          "at_year": 10,
+          "kind": "webpage reference;detailed duty/contract not verified"
+        },
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -20,
+          55
+        ],
+        "derating_above_C": 45,
+        "scope": "battery plusPCS, but usable depth and rating boundaries not fully published",
+        "marketed_energy_kWh": 500,
+        "rating_issue": "Battery section and250kWACrating cannot be equated without conversion/boundary confirmation"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": 250,
+        "roundtrip": {
+          "maximum_approx": 0.92,
+          "conditions": "manufacturerFAQ:configurationandoperatingconditions"
+        },
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "sungrow-st255cs-2h",
+      "type": "battery",
+      "manufacturer": "Sungrow",
+      "model": "PowerStack ST255CS-2H",
+      "source": "Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual",
+      "technical": {
+        "nominal_energy_kWh": 257,
+        "usable_energy_kWh": 257.0,
+        "nominal_AC_power_kW": 125,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": 1.0,
+        "normalized_SOC_operating_range": [
+          0,
+          1
+        ],
+        "roundtrip_AC": {
+          "lower_exclusive": 0.9,
+          "kind": "productpage states consistentlyover90%;not a mean or point"
+        },
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": {
+          "on_grid": 25,
+          "off_grid": 10,
+          "boundary": "one system group;not a global investment cap"
+        },
+        "ambient_temperature_C": [
+          -30,
+          50
+        ],
+        "derating_above_C": 45,
+        "scope": "integratedACBESS, approximately2-hourclass",
+        "PCS_efficiency_max": 0.985,
+        "auxiliary_supply": "internal bydefault;external optional;quantified draw unpublished",
+        "maintenance": "Usermanualp93:yearlyinspection and cell replacement when needed;no numeric service life guarantee",
+        "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": 257.0,
+        "rated_AC_kW": 125,
+        "roundtrip": {
+          "lower_exclusive": 0.9,
+          "kind": "productpage states consistentlyover90%;not a mean or point"
+        },
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [],
+        "reference_ready": "bounded/performance-referencepoint study only;do not treat maxima asaverage"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "sungrow-powertitan2-2h",
+      "type": "battery",
+      "manufacturer": "Sungrow",
+      "model": "PowerTitan2.0 ST5015kWh-2500kW-2h",
+      "source": "Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023)",
+      "technical": {
+        "nominal_energy_kWh": 5015,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": 2500,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -30,
+          50
+        ],
+        "derating_above_C": 45,
+        "scope": "integratedACblock;DoD and ACroundtrip not stated in retained sheet",
+        "apparent_power_kVA": 2520,
+        "course_scope": "2-hourreference"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": 2500,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "sungrow-powertitan2-4h",
+      "type": "battery",
+      "manufacturer": "Sungrow",
+      "model": "PowerTitan2.0 ST5015kWh-1250kW-4h",
+      "source": "Sungrow-PowerTitan2-2H4H-V3.pdf pp1-2V3(2023)",
+      "technical": {
+        "nominal_energy_kWh": 5015,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": 1250,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -30,
+          50
+        ],
+        "derating_above_C": 45,
+        "scope": "integratedACblock;DoD and ACroundtrip not stated in retained sheet",
+        "apparent_power_kVA": 1260,
+        "course_scope": "4-hourextension;not silently a2-hourcandidate"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": 1250,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "huawei-luna215",
+      "type": "battery",
+      "manufacturer": "Huawei",
+      "model": "LUNA2000-215-2S10",
+      "source": "Huawei-LUNA215-2S10.pdf p1;pages-12/13.json",
+      "technical": {
+        "nominal_energy_kWh": 215,
+        "usable_energy_kWh": 215.0,
+        "nominal_AC_power_kW": 108,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": 1.0,
+        "normalized_SOC_operating_range": [
+          0,
+          1
+        ],
+        "roundtrip_AC": {
+          "maximum": 0.913,
+          "kind": "maximumcycleefficiency;not routineaverage",
+          "test_rate_C": 0.5
+        },
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": {
+          "upper": 0.15,
+          "kind": "standbyupperbound"
+        },
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -30,
+          55
+        ],
+        "derating_above_C": 50,
+        "scope": "integratedACBESS;productgrades/revisions keptseparate",
+        "auxiliary_supply_rating_kW_upper": 5,
+        "auxiliary_warning": "5kW is supply rating,not a constant parasitic load;avoid doublecounting cycleauxiliaries",
+        "PCS_model": "PCS2000-108K-MB1",
+        "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": 215.0,
+        "rated_AC_kW": 108,
+        "roundtrip": {
+          "maximum": 0.913,
+          "kind": "maximumcycleefficiency;not routineaverage",
+          "test_rate_C": 0.5
+        },
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [],
+        "reference_ready": "bounded/performance-referencepoint study only;do not treat maxima asaverage"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "huawei-luna241",
+      "type": "battery",
+      "manufacturer": "Huawei",
+      "model": "LUNA2000-241-2S1",
+      "source": "Huawei-LUNA241-2S1.pdf p1;pages-12/13.json",
+      "technical": {
+        "nominal_energy_kWh": 241,
+        "usable_energy_kWh": 241.0,
+        "nominal_AC_power_kW": 108,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": 1.0,
+        "normalized_SOC_operating_range": [
+          0,
+          1
+        ],
+        "roundtrip_AC": {
+          "maximum": 0.913,
+          "kind": "maximumcycleefficiency;not routineaverage",
+          "test_rate_C": 0.25
+        },
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": {
+          "upper": 0.15,
+          "kind": "standbyupperbound"
+        },
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": [
+          -30,
+          55
+        ],
+        "derating_above_C": 50,
+        "scope": "integratedACBESS;productgrades/revisions keptseparate",
+        "auxiliary_supply_rating_kW_upper": 5,
+        "auxiliary_warning": "5kW is supply rating,not a constant parasitic load;avoid doublecounting cycleauxiliaries",
+        "PCS_model": "PCS2000-108K-MB1",
+        "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": 241.0,
+        "rated_AC_kW": 108,
+        "roundtrip": {
+          "maximum": 0.913,
+          "kind": "maximumcycleefficiency;not routineaverage",
+          "test_rate_C": 0.25
+        },
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [],
+        "reference_ready": "bounded/performance-referencepoint study only;do not treat maxima asaverage"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "huawei-luna5015",
+      "type": "battery",
+      "manufacturer": "Huawei",
+      "model": "LUNA2000-5015-2S",
+      "source": "Huawei-LUNA5015-2S.pdf p1;PCS213KTL-H0 is a separate component",
+      "technical": {
+        "nominal_energy_kWh": 5015,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": null,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": 2507.5,
+        "battery_DC_discharge_power_kW": 2507.5,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": null,
+        "derating_above_C": null,
+        "scope": "DCcontainer,not an integrated2507.5kWACsystem;needsPCS and efficiency closure"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": null,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "nominal_AC_power_kW",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "catl-enerone-plus-285",
+      "type": "battery",
+      "manufacturer": "CATL",
+      "model": "EnerOne Plus 285Ah",
+      "source": "CATL-ESS-202406.pdf p17",
+      "technical": {
+        "nominal_energy_kWh": 379.4,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": null,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": null,
+        "derating_above_C": null,
+        "scope": "DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",
+        "cell_capacity_Ah": 285,
+        "voltage_nominal_DC_V": 1361.2,
+        "optional_cycle_claim": "up to12000cycles for optionalcells;not guaranteed for everyconfiguration",
+        "reliability_claim": "20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": null,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "nominal_AC_power_kW",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "catl-enerone-plus-306",
+      "type": "battery",
+      "manufacturer": "CATL",
+      "model": "EnerOne Plus 306Ah",
+      "source": "CATL-ESS-202406.pdf p17",
+      "technical": {
+        "nominal_energy_kWh": 407.3,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": null,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": null,
+        "derating_above_C": null,
+        "scope": "DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",
+        "cell_capacity_Ah": 306,
+        "voltage_nominal_DC_V": 1361.2,
+        "optional_cycle_claim": "up to12000cycles for optionalcells;not guaranteed for everyconfiguration",
+        "reliability_claim": "20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": null,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "nominal_AC_power_kW",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "catl-enerc-plus-280",
+      "type": "battery",
+      "manufacturer": "CATL",
+      "model": "EnerC Plus 280Ah",
+      "source": "CATL-ESS-202406.pdf p16",
+      "technical": {
+        "nominal_energy_kWh": 3720,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": null,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": null,
+        "derating_above_C": null,
+        "scope": "DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",
+        "cell_capacity_Ah": 280,
+        "voltage_nominal_DC_V": 1331.2,
+        "optional_cycle_claim": "up to12000cycles for optionalcells;not guaranteed for everyconfiguration",
+        "reliability_claim": "20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": null,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "nominal_AC_power_kW",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "catl-enerc-plus-306",
+      "type": "battery",
+      "manufacturer": "CATL",
+      "model": "EnerC Plus 306Ah",
+      "source": "CATL-ESS-202406.pdf p16",
+      "technical": {
+        "nominal_energy_kWh": 4070,
+        "usable_energy_kWh": null,
+        "nominal_AC_power_kW": null,
+        "max_AC_charge_power_kW": null,
+        "max_AC_discharge_power_kW": null,
+        "battery_DC_charge_power_kW": null,
+        "battery_DC_discharge_power_kW": null,
+        "permitted_DoD": null,
+        "normalized_SOC_operating_range": null,
+        "roundtrip_AC": null,
+        "roundtrip_DC": null,
+        "one_way_efficiencies": null,
+        "auxiliary_active_kW": null,
+        "auxiliary_standby_kW": null,
+        "self_discharge_per_day": null,
+        "lifetime_years": null,
+        "cycle_life": null,
+        "EOL_SOH": null,
+        "degradation_curve": null,
+        "warranty_years": null,
+        "availability": null,
+        "parallel_limit": null,
+        "ambient_temperature_C": null,
+        "derating_above_C": null,
+        "scope": "DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",
+        "cell_capacity_Ah": 306,
+        "voltage_nominal_DC_V": 1331.2,
+        "optional_cycle_claim": "up to12000cycles for optionalcells;not guaranteed for everyconfiguration",
+        "reliability_claim": "20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty"
+      },
+      "public_prices": [],
+      "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+      "model_protocol": [
+        "daily net charge or discharge",
+        "daily stock carryover",
+        "declared initial and terminal usable stock",
+        "declare any one-way efficiency split",
+        "do not apply60%usable multiplier toalreadyusableenergy",
+        "separate group/controller parallel limit from project-wide capacity"
+      ],
+      "general_gaps": [
+        "Matched installed price and site scope",
+        "Maintenance/renewal/disposal contract",
+        "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+      ],
+      "model_view": {
+        "energy_kWh": null,
+        "rated_AC_kW": null,
+        "roundtrip": null,
+        "loss_boundary": "ACreferencepoint,ifprovided",
+        "missing_core_fields": [
+          "usable_energy_kWh",
+          "nominal_AC_power_kW",
+          "roundtrip_AC"
+        ],
+        "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "itm-neptune-ii",
+      "type": "electrolyser",
+      "manufacturer": "ITM",
+      "model": "NEPTUNE II",
+      "source": "neptune-2.pdf p2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 2,
+        "hydrogen_kg_per_hour": 35,
+        "system_specific_kWh_per_kg": 57,
+        "nominal_system_input_kW": 1995,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.25,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.25,
+        "operating_range_basis": "operating range of installed/online reference product as specified",
+        "outlet_pressure_barg": 30,
+        "base_purity": "<5ppmH2O,<5ppmO2",
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": null,
+        "water_quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "ramp": {
+          "up_fraction_per_second": 0.1,
+          "down_fraction_per_second": 0.5
+        },
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": [
+          -20,
+          40
+        ],
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct",
+        "water_flow_status": "Input water quality is stated; no numerical water-consumption rate published in retained product sheet",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 57.0,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 840,
+        "system_kWh_kg": 57,
+        "full_load_input_MWh_day": 47.88,
+        "minimum_flow_fraction": 0.25,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "itm-neptune-v",
+      "type": "electrolyser",
+      "manufacturer": "ITM",
+      "model": "NEPTUNE V",
+      "source": "neptune-5.pdf p2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 5,
+        "hydrogen_kg_per_hour": 90,
+        "system_specific_kWh_per_kg": 55.9,
+        "nominal_system_input_kW": 5031.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.125,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.125,
+        "operating_range_basis": "operating range of installed/online reference product as specified",
+        "outlet_pressure_barg": 30,
+        "base_purity": "<5ppmH2O,<5ppmO2",
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": null,
+        "water_quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "ramp": {
+          "up_fraction_per_second": 0.1,
+          "down_fraction_per_second": 0.5
+        },
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": [
+          -20,
+          45
+        ],
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct",
+        "water_flow_status": "Input water quality is stated; no numerical water-consumption rate published in retained product sheet",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 55.9,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [
+        {
+          "currency": "EUR",
+          "value": 5000000,
+          "price_basis": "manufactureradvertisedprice subjecttostandardterms",
+          "price_year": null,
+          "observed_at": "2026-11-10",
+          "source": "pages-08.json",
+          "scope": "suppliedpackage;not verifiedsite-totalcost"
+        }
+      ],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 2160,
+        "system_kWh_kg": 55.9,
+        "full_load_input_MWh_day": 120.744,
+        "minimum_flow_fraction": 0.125,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "itm-poseidon",
+      "type": "electrolyser",
+      "manufacturer": "ITM",
+      "model": "POSEIDON",
+      "source": "ITM-Poseidon20-2-7.pdf p2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 20,
+        "hydrogen_kg_per_hour": 360,
+        "system_specific_kWh_per_kg": 55.9,
+        "nominal_system_input_kW": 20124.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.2,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.2,
+        "operating_range_basis": "operating range of installed/online reference product as specified",
+        "outlet_pressure_barg": 31,
+        "base_purity": "fullysaturatedwithtraceO2",
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": null,
+        "water_quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "ramp": {
+          "up_fraction_per_second": 0.1,
+          "down_fraction_per_second": 0.5
+        },
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": [
+          -20,
+          45
+        ],
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "POSEIDONcoremodulewithoptionalBoP;systemenergyalreadyincludesBoP",
+        "water_flow_status": "Input water quality is stated; no numerical water-consumption rate published in retained product sheet",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 55.9,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 8640,
+        "system_kWh_kg": 55.9,
+        "full_load_input_MWh_day": 482.976,
+        "minimum_flow_fraction": 0.2,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "itm-alpha50",
+      "type": "electrolyser",
+      "manufacturer": "ITM",
+      "model": "ALPHA50",
+      "source": "alpha-50.pdf p2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 50,
+        "hydrogen_kg_per_hour": 900,
+        "system_specific_kWh_per_kg": 55.9,
+        "nominal_system_input_kW": 50310.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.125,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.125,
+        "operating_range_basis": "operating range of installed/online reference product as specified",
+        "outlet_pressure_barg": 30,
+        "base_purity": "<5ppmH2O,<5ppmO2",
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": null,
+        "water_quality": "DI forPOSEIDON;potableinput forotherfullscopepackages",
+        "ramp": {
+          "up_fraction_per_second": 0.1,
+          "down_fraction_per_second": 0.5
+        },
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": [
+          -20,
+          45
+        ],
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "fullsystemenergyatBoL;suppliedpackage and siteinstallationcoststilldistinct",
+        "water_flow_status": "Input water quality is stated; no numerical water-consumption rate published in retained product sheet",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 55.9,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [
+        {
+          "currency": "EUR",
+          "value": 50000000,
+          "price_basis": "manufactureradvertisedprice subjecttostandardterms",
+          "price_year": null,
+          "observed_at": "2026-11-10",
+          "source": "pages-08.json",
+          "scope": "suppliedpackage;not verifiedsite-totalcost"
+        }
+      ],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 21600,
+        "system_kWh_kg": 55.9,
+        "full_load_input_MWh_day": 1207.44,
+        "minimum_flow_fraction": 0.125,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-mc250",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "MC250",
+      "source": "Nel-MC-Series-RevJ.pdf pp1-2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 1.25,
+        "hydrogen_kg_per_hour": 22.125,
+        "system_specific_kWh_per_kg": 59.0,
+        "nominal_system_input_kW": 1305.375,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.1,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.1,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 30,
+        "base_purity": 0.9995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 15.9,
+        "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "ramp": {
+          "min_to_full_seconds_upper": 15,
+          "max_fraction_per_second": 0.074
+        },
+        "hot_start_seconds": {
+          "upper": 480,
+          "source_wording": "fromstandby;not proof ofcoldstart"
+        },
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+        "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 59.0,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [
+        {
+          "currency": "USD",
+          "value": 2000000,
+          "year": 2020,
+          "kind": "approximatehistoricalpurchaseorder",
+          "scope": "1.25MWcontainerandresearchcollaboration;not currentquote",
+          "source": "pages-09.json:NRELorder"
+        }
+      ],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 531.0,
+        "system_kWh_kg": 59.0,
+        "full_load_input_MWh_day": 31.329,
+        "minimum_flow_fraction": 0.1,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-mc500",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "MC500",
+      "source": "Nel-MC-Series-RevJ.pdf pp1-2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 2.5,
+        "hydrogen_kg_per_hour": 44.25,
+        "system_specific_kWh_per_kg": 57.3,
+        "nominal_system_input_kW": 2535.525,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.1,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.1,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 30,
+        "base_purity": 0.9995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 15.9,
+        "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "ramp": {
+          "min_to_full_seconds_upper": 15,
+          "max_fraction_per_second": 0.074
+        },
+        "hot_start_seconds": {
+          "upper": 480,
+          "source_wording": "fromstandby;not proof ofcoldstart"
+        },
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+        "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 57.300000000000004,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [
+        {
+          "currency": "USD",
+          "value": 3500000,
+          "year": 2025,
+          "kind": "derivedmeanperunitfromtwo-unitUSD7morder",
+          "source": "pages-09.json:2025-01-21",
+          "scope": "equipmentpurchaseorder;not UKsiteinstallationquote"
+        }
+      ],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 1062.0,
+        "system_kWh_kg": 57.3,
+        "full_load_input_MWh_day": 60.8526,
+        "minimum_flow_fraction": 0.1,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-mc1000",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "MC1000",
+      "source": "Nel-MC-Modular-RevA.pdf pp1-2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 5,
+        "hydrogen_kg_per_hour": 88.5,
+        "system_specific_kWh_per_kg": 56.77,
+        "nominal_system_input_kW": 5024.145,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.2,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.2,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 30,
+        "base_purity": 0.9995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 15.9,
+        "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "ramp": {
+          "min_to_full_seconds_upper": 15,
+          "max_fraction_per_second": 0.074
+        },
+        "hot_start_seconds": {
+          "upper": 480,
+          "source_wording": "fromstandby;not proof ofcoldstart"
+        },
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+        "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 56.77,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 2124.0,
+        "system_kWh_kg": 56.77,
+        "full_load_input_MWh_day": 120.57948,
+        "minimum_flow_fraction": 0.2,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-mc2000",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "MC2000",
+      "source": "Nel-MC-Modular-RevA.pdf pp1-2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 10,
+        "hydrogen_kg_per_hour": 177.0,
+        "system_specific_kWh_per_kg": 56.77,
+        "nominal_system_input_kW": 10048.29,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.2,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.2,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 30,
+        "base_purity": 0.9995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 15.9,
+        "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "ramp": {
+          "min_to_full_seconds_upper": 15,
+          "max_fraction_per_second": 0.074
+        },
+        "hot_start_seconds": {
+          "upper": 480,
+          "source_wording": "fromstandby;not proof ofcoldstart"
+        },
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+        "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 56.77,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 4248.0,
+        "system_kWh_kg": 56.77,
+        "full_load_input_MWh_day": 241.15896,
+        "minimum_flow_fraction": 0.2,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-mc4000",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "MC4000",
+      "source": "Nel-MC-Modular-RevA.pdf pp1-2",
+      "technical": {
+        "technology": "PEM",
+        "marketing_class_MW": 20,
+        "hydrogen_kg_per_hour": 354.0,
+        "system_specific_kWh_per_kg": 56.77,
+        "nominal_system_input_kW": 20096.58,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.2,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.2,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 30,
+        "base_purity": 0.9995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 15.9,
+        "water_quality": "potable subjecttositeanalysis;RO/EDIincluded",
+        "ramp": {
+          "min_to_full_seconds_upper": 15,
+          "max_fraction_per_second": 0.074
+        },
+        "hot_start_seconds": {
+          "upper": 480,
+          "source_wording": "fromstandby;not proof ofcoldstart"
+        },
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "containerizedsystem;stackenergy53.2kWhkgnot substituted forsystemconsumption",
+        "scope_warning": "MarketingclassMW is not proof of exact ACinput ceiling;use derived nominal input and recordedflow",
+        "power_origin": "Derived from quoted nominal production and full-system specific energy;not an independent electrical maximum.",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 56.77,
+        "nominal_power_consistency_relative_error": 0.0
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 8496.0,
+        "system_kWh_kg": 56.77,
+        "full_load_input_MWh_day": 482.31792,
+        "minimum_flow_fraction": 0.2,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "nel-a485",
+      "type": "electrolyser",
+      "manufacturer": "Nel",
+      "model": "A485",
+      "source": "Nel-A485-Rev03.pdf pp1-2;pages-08.json",
+      "technical": {
+        "technology": "alkaline",
+        "marketing_class_MW": 2.2,
+        "hydrogen_kg_per_hour": 43.583333333333336,
+        "system_specific_kWh_per_kg": null,
+        "nominal_system_input_kW": null,
+        "nominal_stack_input_kW": 2179.166666666667,
+        "minimum_flow_fraction": 0.15,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.15,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 0.03,
+        "base_purity": "99+% saturatedwithliquidwater,O2<1%",
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 10,
+        "water_quality": "DI<1uScm",
+        "ramp": {
+          "min_fraction_per_minute": 0.1
+        },
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": "20+webclaim;not full-servicewarranty",
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "stackandelectrolyteonly;notfullACplant;requiresrectifier,BoP,quality/pressurematching",
+        "stack_specific_kWh_per_kg": {
+          "value": 50,
+          "tolerance": 1.1
+        },
+        "hydrogen_rate_kind": "maximum production; source tolerance +0/-3%, not a guaranteed mean"
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 1046.0,
+        "system_kWh_kg": null,
+        "full_load_input_MWh_day": null,
+        "minimum_flow_fraction": 0.15,
+        "missing_core_fields": [
+          "system_specific_kWh_per_kg"
+        ],
+        "reference_ready": "not a complete ACplantcandidate"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": false,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "enapter-flex120",
+      "type": "electrolyser",
+      "manufacturer": "Enapter",
+      "model": "AEM Flex120",
+      "source": "Enapter-Flex120-202606.pdf p2rev08(2026-06-15)",
+      "technical": {
+        "technology": "AEM",
+        "marketing_class_MW": 0.12,
+        "hydrogen_kg_per_hour": 2.16,
+        "system_specific_kWh_per_kg": 51.3,
+        "nominal_system_input_kW": 112.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.12,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.12,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 31,
+        "base_purity": 0.995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": 3.0,
+        "water_litre_per_kg": 8.981481481481481,
+        "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+        "ramp": null,
+        "hot_start_seconds": 225,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits",
+        "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+        "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 51.85185185185185,
+        "nominal_power_consistency_relative_error": 0.010757346039997048
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 51.84,
+        "system_kWh_kg": 51.3,
+        "full_load_input_MWh_day": 2.688,
+        "minimum_flow_fraction": 0.12,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "enapter-nexus500",
+      "type": "electrolyser",
+      "manufacturer": "Enapter",
+      "model": "AEM Nexus500",
+      "source": "Enapter-Nexus500-202606.pdf p2rev08(2026-06-15)",
+      "technical": {
+        "technology": "AEM",
+        "marketing_class_MW": 0.5,
+        "hydrogen_kg_per_hour": 9.1,
+        "system_specific_kWh_per_kg": 51.3,
+        "nominal_system_input_kW": 467.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.17,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.17,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 31,
+        "base_purity": 0.995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": 12.0,
+        "water_litre_per_kg": 8.956043956043956,
+        "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+        "ramp": null,
+        "hot_start_seconds": 225,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits",
+        "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+        "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 51.31868131868132,
+        "nominal_power_consistency_relative_error": 0.0003641582588951351
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 218.39999999999998,
+        "system_kWh_kg": 51.3,
+        "full_load_input_MWh_day": 11.208,
+        "minimum_flow_fraction": 0.17,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "enapter-nexus1000",
+      "type": "electrolyser",
+      "manufacturer": "Enapter",
+      "model": "AEM Nexus1000",
+      "source": "Enapter-Nexus1000-202606.pdf p2rev08(2026-06-15)",
+      "technical": {
+        "technology": "AEM",
+        "marketing_class_MW": 1.0,
+        "hydrogen_kg_per_hour": 18.2,
+        "system_specific_kWh_per_kg": 51.3,
+        "nominal_system_input_kW": 933.2,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.085,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.085,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 31,
+        "base_purity": 0.995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": 12.0,
+        "water_litre_per_kg": 8.956043956043956,
+        "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+        "ramp": null,
+        "hot_start_seconds": 225,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits",
+        "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+        "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 51.27472527472528,
+        "nominal_power_consistency_relative_error": 0.0004926847032109362
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 436.79999999999995,
+        "system_kWh_kg": 51.3,
+        "full_load_input_MWh_day": 22.396800000000002,
+        "minimum_flow_fraction": 0.085,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "enapter-nexus2500",
+      "type": "electrolyser",
+      "manufacturer": "Enapter",
+      "model": "AEM Nexus2500",
+      "source": "Enapter-Nexus2500-202606.pdf p2rev08(2026-06-15)",
+      "technical": {
+        "technology": "AEM",
+        "marketing_class_MW": 2.5,
+        "hydrogen_kg_per_hour": 44.2,
+        "system_specific_kWh_per_kg": 51.3,
+        "nominal_system_input_kW": 2266.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.1,
+        "minimum_transient_flow_fraction": 0.035,
+        "transient_limit_hours": 24,
+        "minimum_steady_flow_fraction": 0.1,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 31,
+        "base_purity": 0.995,
+        "optional_purity": 0.99999,
+        "additional_purification_kW": 18.0,
+        "water_litre_per_kg": 8.959276018099548,
+        "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+        "ramp": null,
+        "hot_start_seconds": 225,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "systemBoLfull-loadbasegradeincludesutilitiesinsidebatterylimits",
+        "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+        "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 51.26696832579185,
+        "nominal_power_consistency_relative_error": 0.0006438922847591739,
+        "low_load_rule": "3.5-10%atmost24h;then10-100%;shutdown/reset details require confirmation;notconstant3.5%forever"
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 1060.8000000000002,
+        "system_kWh_kg": 51.3,
+        "full_load_input_MWh_day": 54.384,
+        "minimum_flow_fraction": 0.1,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    },
+    {
+      "id": "enapter-rheos20",
+      "type": "electrolyser",
+      "manufacturer": "Enapter",
+      "model": "AEM Rheos20",
+      "source": "Enapter-Rheos20-202606.pdf p2rev08(2026-06-15)",
+      "technical": {
+        "technology": "AEM",
+        "marketing_class_MW": 20.0,
+        "hydrogen_kg_per_hour": 362.0,
+        "system_specific_kWh_per_kg": 51.4,
+        "nominal_system_input_kW": 18590.0,
+        "nominal_stack_input_kW": null,
+        "minimum_flow_fraction": 0.01,
+        "minimum_transient_flow_fraction": null,
+        "transient_limit_hours": null,
+        "minimum_steady_flow_fraction": 0.01,
+        "operating_range_basis": "flow fraction unless datasheet explicitly says power",
+        "outlet_pressure_barg": 31,
+        "base_purity": 0.99999,
+        "optional_purity": null,
+        "additional_purification_kW": null,
+        "water_litre_per_kg": 8.955801104972375,
+        "water_quality": "TypeIIpurifiedwater;rawrequirementdependsontreatment",
+        "ramp": null,
+        "hot_start_seconds": null,
+        "cold_start_seconds": null,
+        "standby_kW": null,
+        "minimum_up_time_hours": null,
+        "minimum_down_time_hours": null,
+        "stack_lifetime_hours": null,
+        "plant_lifetime_years": null,
+        "warranty_years": null,
+        "ambient_temperature_C": null,
+        "degradation_curve": null,
+        "replacement_cost": null,
+        "maintenance": null,
+        "scope": "full-scopeplant,includingpurificationto99.999%,transformers,rectifiers,waterconditioning",
+        "efficiency_conditions": "55Celectrolyte,15Cambient;do not borrowPEMlife/cost asmanufacturerAEMdata",
+        "startup_warning": "225s requires warmcirculatingelectrolyte>=45C;not acoldstartguarantee",
+        "nominal_power_to_flow_ratio_kWh_per_kg": 51.353591160220994,
+        "nominal_power_consistency_relative_error": 0.0009028957155448155
+      },
+      "public_prices": [],
+      "investment_reference": "PEM/alkaline generic references separated by technology;AEMlifecycle not silently borrowed fromPEM",
+      "model_protocol": [
+        "daily steady-state and shutdown convention",
+        "preserve both nominal output and input definitions",
+        "part-load curve approximation must be declared",
+        "common delivered hydrogen grade before applying equal netback",
+        "use one consistent stack-replacement accounting route"
+      ],
+      "general_gaps": [
+        "Current full installed project price",
+        "Product-specific lifetime/renewal cost and downtime",
+        "Off/standby/start energy and full partial-load curves where unpublished"
+      ],
+      "model_view": {
+        "hydrogen_kg_day": 8688.0,
+        "system_kWh_kg": 51.4,
+        "full_load_input_MWh_day": 446.16,
+        "minimum_flow_fraction": 0.01,
+        "missing_core_fields": [],
+        "reference_ready": "nominal-point operating study;investment needslifecycle/cost assumptions"
+      },
+      "readiness": {
+        "unconditional_full_investment_ready": false,
+        "technical_reference_core_known": true,
+        "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+      }
+    }
+  ],
+  "principle": "Manufacturer observations, derived nominal ratios, engineering references and model protocols remain distinct",
+  "counts": {
+    "battery": 12,
+    "electrolyser": 15
+  }
+}

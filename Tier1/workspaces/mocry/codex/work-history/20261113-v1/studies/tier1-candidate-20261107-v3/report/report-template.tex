@@ -1,0 +1,44 @@
+\documentclass[11pt,a4paper]{article}
+\input{report-style}
+\hypersetup{pdftitle={MMCS group technical report template}}
+% Suggested ten-page budget: common context and Tier 1 4, chosen Tier 2 4,
+% integrated decision 1, references and reserve 1. Count physical pages.
+% To start from the filled candidate, bring generated/numbers.tex and tier1.tex
+% into this report; leave samplebreak empty so the full group report reflows.
+\begin{document}
+\reporttitle{[Client-facing recommendation]}{MMCS 2026/27\quad\textbar\quad
+  Group [number]\quad\textbar\quad [authors]}
+\decision{\guidance{State the chosen investment, its incremental benefit,
+the matched alternative and the contract or operating condition that changes it.}}
+\section{Decision context and data}
+\guidance{Define the inherited assets, system boundary, dates, units and price basis.
+Record data checks, adjustments and estimate flags. Keep a short audit table in the body.}
+\section{Tier 1 investment}
+\subsection{Assumptions and model}
+\guidance{Define inputs and decisions before numbered equations. State time
+simplification, device constraints, annualisation and each policy's counterfactual.}
+\begin{subequations}
+\begin{align}
+\max_{x\in\mathcal X}\quad &c^\top x,\\
+\text{subject to}\quad &Ax\le b.
+\end{align}
+\end{subequations}
+\subsection{Results, validation and decision thresholds}
+\guidance{Compare no investment, battery, hydrogen and joint choice, then a simple
+rule with the same capacity. Separate captured surplus and diverted sales.
+Validate the schedules and test contracts, costs, data and historical conditions.}
+\section{Tier 2 [chosen extension]}
+\guidance{For 2A, specify generation options and investment trade-offs.
+For 2B, specify chronology and the information available at each decision.
+Carry over matched boundaries, validate and explain what the extension changes.}
+\section{Integrated recommendation}
+\guidance{Give the action now, a threshold for each expansion and the
+conditions to verify. Relate the recommendation to evidence from both tiers.}
+\paragraph{Writing check.}
+\guidance{Every quoted result has a table, figure or data source. All symbols and
+units are defined. Figures and tables have consistent captions and references.
+Equations and code agree. The physical PDF meets the ten-page budget.}
+\begin{thebibliography}{9}
+\bibitem{source}\guidance{Author or organisation. Title, date, version and source.}
+\end{thebibliography}
+\end{document}

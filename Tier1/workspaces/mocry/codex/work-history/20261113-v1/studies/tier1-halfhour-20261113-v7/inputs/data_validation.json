@@ -1,0 +1,12 @@
+{
+  "days": 2192,
+  "periods": 105216,
+  "price_full_days": 2114,
+  "generation_full_days": 1825,
+  "demand_full_days": 2043,
+  "all_three_full_days": 1692,
+  "daily_generation_error_GWh": 2.2737367544323206e-13,
+  "daily_demand_error_GWh": 3.410605131648481e-13,
+  "daily_price_error": 1.1368683772161603e-13,
+  "note": "Observed/reconstructed shapes anchored to v6 daily means. Farm intraday profiles are assumptions, not observations."
+}

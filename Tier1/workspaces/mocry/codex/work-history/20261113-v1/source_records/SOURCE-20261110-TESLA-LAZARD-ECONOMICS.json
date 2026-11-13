@@ -1,0 +1,26 @@
+{
+  "source_id":"LOCAL-MMCS-TESLA-LAZARD-ECONOMICS-20261110",
+  "course_id":"MMCS",
+  "academic_year":"2026/27",
+  "collected_at":"2026-11-10",
+  "user_request":"补齐Tesla完整经济输入并核实Lazard维护、保修和规模成本边界；储氢和运输不展开",
+  "directory":"../assignments/FinalProject/tesla-lazard-economics-20261110",
+  "report":"../assignments/FinalProject/tesla-lazard-economics-20261110/REPORT_ZH.md",
+  "inputs":"../assignments/FinalProject/tesla-lazard-economics-20261110/ECONOMIC_INPUTS.json",
+  "evidence_status":"Original TeslapublicSSRquotes andcontracttemplates;Lazardoriginalreportarchive;NRELprimarypagearchive independently read; engineering transfers separately labelled",
+  "verified_facts":[
+    "SixTeslaarchivedquotes,all5unitCalifornia2hXLconfigurations;2024installedUSD9759770/5,2026equipmentonlyUSD5045400/5;annualmaintenanceUSD29610/5",
+    "Archived2024DOMinstallationYesselected;not an inferred installation-price difference across years",
+    "Tesla maintenance15years,2%nominalescalator,routineannualservices and10yearcoolant/fan/pump/gasketreplacement;no normalagingaugmentationpromise in maintainedscope",
+    "Lazard2025pp19/42/43:generalOM,warranty,augmentationseparate;10%initialoverbuild;sizeclassesnotdiscountcurve",
+    "NRELATB2024FOM2.5%capitalincludesaugmentationtohold15yearratedcapacity;engineeringtransfer,notsupplierguarantee"
+  ],
+  "profiles":"2h2024installedreference;2h2026equipmentplusEPCproxy;4hindustrycostrange,each15yearswithlabelledmaintained-capacitybudget",
+  "unpublished_fields":"4hTeslaquote,UKfirmquote,fullretentioncurve,quantitydiscount,20yearextensionprice;referencesandconditionalestimatenotmanufacturerfacts",
+  "access":"AnonymousPlaywrightMCPonly;archivesstaticJSdisabledtoavoidcachebusterredirect;noforms,orders,payments,contactorsubscription",
+  "source_register":"../assignments/FinalProject/tesla-lazard-economics-20261110/SOURCES.json",
+  "baseline_modified":false,
+  "new_optimization":false,
+  "remote_publication":false,
+  "hydrogen_storage_or_transport_research":false
+}

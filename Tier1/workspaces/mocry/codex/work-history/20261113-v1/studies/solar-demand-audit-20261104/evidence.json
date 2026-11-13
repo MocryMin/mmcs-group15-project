@@ -1,0 +1,668 @@
+{
+  "date_uk": "2026-11-04",
+  "release_status": "Local candidate values for review and sensitivity analysis; no source or shared input overwritten.",
+  "source_repository_head": "012ec50685495b466a79190dec2935fbc7245f46",
+  "source_files": {
+    "fuel": "daily_generation_by_fuel.csv",
+    "demand": "daily_demand.csv",
+    "prior_patch": "Tier1/public/data_quality/generation_repair/20261103-v1/generation_repair_audit.json"
+  },
+  "definition": "Mean MW in a UTC day. Elexon intervals selected by their startTime and restricted to the date; the API also returns the next day 00:00 endpoint. NESO settlement dates translated from Europe/London to UTC using the settlement-period offset.",
+  "sources": {
+    "agpt": "https://bmrs.elexon.co.uk/api-documentation/endpoint/generation/actual/per-type",
+    "agpt_utc_day_query_template": "https://data.elexon.co.uk/bmrs/api/v1/generation/actual/per-type?from={date}T00%3A00Z&to={next_date}T00%3A00Z&format=json",
+    "elexon_demand_outturn": "https://data.elexon.co.uk/bmrs/api/v1/demand/outturn/summary?from=2022-08-02T00%3A00Z&to=2022-08-03T00%3A00Z&format=json",
+    "neso_demand_description": "https://www.neso.energy/data-portal/historic-demand-data",
+    "neso_2020_2022": [
+      "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/33ba6857-2a55-479f-9308-e5c4c53d4381/download/demanddata_2020.csv",
+      "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/18c69c42-f20d-46f0-84e9-e279045befc6/download/demanddata_2021.csv",
+      "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/bb44a1b5-75b1-4db2-8491-257f23385006/download/demanddata_2022.csv"
+    ],
+    "neso_generation_mix": "https://api.neso.energy/dataset/88313ae5-94e4-4ddc-a790-593554d8c6b9/resource/f93d1835-75bc-43e5-84ad-12472b180a98/download/df_fuel_ckan.csv"
+  },
+  "solar": {
+    "total_candidates": 42,
+    "methods": {
+      "complete_same_source": 6,
+      "two_missing_dark_intervals": 1,
+      "estimated_from_calibrated_NESO": 35
+    },
+    "direct_replay": "Original windows were reproduced using an inclusive UTC-midnight endpoint. Example: first window ends at 2021-01-01 00:00, next begins at 2021-01-02 00:00.",
+    "direct_source_2023_01_05": "Prior 107-day candidate already applies the full-day solar correction of 199 MW. Retain its FUELHH repair of the other eight categories instead of copying their AGPT zeros.",
+    "method_partial": "2022-01-03 46 AGPT intervals plus two missing intervals at 23:00 and 23:30 UTC. NESO embedded solar records are zero in both. The full-day solar value reconstructed from these is 233.521 MW. This does not reconstruct the other fuel categories for this date.",
+    "partial_missing_intervals": [
+      "2022-01-03T23:00:00.000Z",
+      "2022-01-03T23:30:00.000Z"
+    ],
+    "method_neso": "Use NESO Embedded Solar Generation half-hour values with complete UTC coverage. Compute a daily mean and apply a within-year scale factor fitted through zero to the course Solar field. Training takes nonzero records on calendar days 03 and 12 of each month for 2020–2022, testing on 21. No information from any zero candidate was used to fit the factor.",
+    "control_count": 104,
+    "training_count": 69,
+    "held_out_count": 35,
+    "yearly_scale": {
+      "2020": 0.9328822672600552,
+      "2021": 0.9058367032988142,
+      "2022": 0.860270362967756
+    },
+    "holdout_metrics_columns": [
+      "n",
+      "signed_mean_error_MW",
+      "mean_absolute_error_MW",
+      "mean_absolute_percentage_error"
+    ],
+    "holdout_uncalibrated": [
+      35,
+      142.9071428571429,
+      156.79047619047623,
+      12.175413683188008
+    ],
+    "holdout_calibrated": [
+      35,
+      -7.068979738947114,
+      54.37428485845547,
+      5.109700953441577
+    ],
+    "original_versus_neso_uncalibrated_on_all_controls": [
+      104,
+      138.55008012820514,
+      154.60136217948718,
+      13.841083177301856
+    ],
+    "neso_historic_generation_mix_check": [
+      104,
+      144.01722756410263,
+      159.920673076923,
+      14.26901420133526
+    ],
+    "caution": "NESO embedded solar is an operator estimate in a related reporting boundary. Calibrated replacements are sensitivity inputs; holdout errors do not certify the zero dates. Five complete-AGPT dates outside the old patch have usable full-day 11-category vectors. Recompute the daily total after any selected changes.",
+    "dates": [
+      {
+        "date": "2020-07-07",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1323,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1418.5833333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-09",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 326,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 349.1666666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-12",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 859,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 921.0625,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-14",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 105,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 112.4375,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-19",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 617,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 660.9166666666666,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-21",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 263,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 281.7291666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-24",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 341,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 365.2083333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-26",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 554,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 593.6875,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2020-11-30",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 106,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 113.41666666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2021-01-01",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 176,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 27,
+        "neso_embedded_solar_daily_mean_MW": 203.95833333333334,
+        "already_in_107_date_candidate": false,
+        "full_day_agpt_by_fuel_rounded_MW": {
+          "Biomass": 3069,
+          "Fossil Gas": 13588,
+          "Fossil Hard coal": 515,
+          "Fossil Oil": 0,
+          "Hydro Pumped Storage": 126,
+          "Hydro Run-of-river and poundage": 427,
+          "Nuclear": 5939,
+          "Other": 224,
+          "Solar": 176,
+          "Wind Offshore": 2018,
+          "Wind Onshore": 2517
+        }
+      },
+      {
+        "date": "2021-02-18",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 832,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 918.0625,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2021-02-20",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 517,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 571.1458333333334,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2021-02-27",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1654,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1826.25,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2021-03-10",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 223,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 245.97916666666666,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2021-04-28",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1267,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 4,
+        "available_positive_solar_half_hours": 1,
+        "neso_embedded_solar_daily_mean_MW": 1398.375,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-03",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 234,
+        "method": "AGPT_46_plus_2_NESO_zero",
+        "available_agpt_half_hours": 46,
+        "available_positive_solar_half_hours": 21,
+        "neso_embedded_solar_daily_mean_MW": 287.4375,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-05",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 731,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 849.5208333333334,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-10",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 102,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 119.02083333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-14",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 813,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 945.25,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-19",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 583,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 677.875,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-23",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 97,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 112.70833333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-01-30",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 946,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1099.6041666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-04",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 651,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 756.1875,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-09",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2226,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2588.125,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-13",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1365,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 3,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1586.5625,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-18",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2022,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2351,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-20",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2472,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2873.4166666666665,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-04-30",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2431,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2825.8333333333335,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-05-05",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2205,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2563.125,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-06-15",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2710,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 3150.125,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-06-23",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1838,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 1,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 2136.4791666666665,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-01",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1683,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1956.9375,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-15",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1303,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 3,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1514.9375,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-18",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1416,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1646.5208333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-20",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1284,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1492.4791666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-24",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1494,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1736.3541666666667,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2022-09-26",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1230,
+        "method": "NESO_embedded_solar_scaled",
+        "available_agpt_half_hours": 2,
+        "available_positive_solar_half_hours": 0,
+        "neso_embedded_solar_daily_mean_MW": 1429.2708333333333,
+        "already_in_107_date_candidate": false
+      },
+      {
+        "date": "2023-01-05",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 199,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 15,
+        "neso_embedded_solar_daily_mean_MW": null,
+        "already_in_107_date_candidate": true
+      },
+      {
+        "date": "2024-01-07",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 509,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 17,
+        "neso_embedded_solar_daily_mean_MW": 546.5208333333334,
+        "already_in_107_date_candidate": false,
+        "full_day_agpt_by_fuel_rounded_MW": {
+          "Biomass": 2703,
+          "Fossil Gas": 13425,
+          "Fossil Hard coal": 574,
+          "Fossil Oil": 0,
+          "Hydro Pumped Storage": 194,
+          "Hydro Run-of-river and poundage": 537,
+          "Nuclear": 3675,
+          "Other": 279,
+          "Solar": 509,
+          "Wind Offshore": 5042,
+          "Wind Onshore": 1139
+        }
+      },
+      {
+        "date": "2025-01-08",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 249,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 16,
+        "neso_embedded_solar_daily_mean_MW": null,
+        "already_in_107_date_candidate": false,
+        "full_day_agpt_by_fuel_rounded_MW": {
+          "Biomass": 2321,
+          "Fossil Gas": 17988,
+          "Fossil Hard coal": 0,
+          "Fossil Oil": 0,
+          "Hydro Pumped Storage": 702,
+          "Hydro Run-of-river and poundage": 707,
+          "Nuclear": 4965,
+          "Other": 1172,
+          "Solar": 249,
+          "Wind Offshore": 4539,
+          "Wind Onshore": 2480
+        }
+      },
+      {
+        "date": "2026-01-10",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 1020,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 18,
+        "neso_embedded_solar_daily_mean_MW": null,
+        "already_in_107_date_candidate": false,
+        "full_day_agpt_by_fuel_rounded_MW": {
+          "Biomass": 2211,
+          "Fossil Gas": 14321,
+          "Fossil Hard coal": 0,
+          "Fossil Oil": 0,
+          "Hydro Pumped Storage": 126,
+          "Hydro Run-of-river and poundage": 355,
+          "Nuclear": 3813,
+          "Other": 544,
+          "Solar": 1020,
+          "Wind Offshore": 6836,
+          "Wind Onshore": 3231
+        }
+      },
+      {
+        "date": "2026-09-17",
+        "original_solar_MW": 0,
+        "candidate_solar_MW": 2219,
+        "method": "AGPT_48",
+        "available_agpt_half_hours": 48,
+        "available_positive_solar_half_hours": 28,
+        "neso_embedded_solar_daily_mean_MW": null,
+        "already_in_107_date_candidate": false,
+        "full_day_agpt_by_fuel_rounded_MW": {
+          "Biomass": 2506,
+          "Fossil Gas": 3838,
+          "Fossil Hard coal": 0,
+          "Fossil Oil": 0,
+          "Hydro Pumped Storage": 178,
+          "Hydro Run-of-river and poundage": 419,
+          "Nuclear": 3314,
+          "Other": 787,
+          "Solar": 2219,
+          "Wind Offshore": 5480,
+          "Wind Onshore": 5875
+        }
+      }
+    ]
+  },
+  "demand": {
+    "date": "2022-08-02",
+    "original_daily_MW": 636,
+    "current_Elexon_daily_mean_including_abnormal_slots_MW": 27309.621527777777,
+    "neso_TSD_full_day_mean_MW": 28467.333333333332,
+    "repaired_estimate_daily_MW": 28711.243055555555,
+    "rounded_candidate_MW": 28711,
+    "rule": "Preserve the 271 Elexon VD records outside the corrupt block. Replace the 17 records from 00:00 through 01:20 UTC that equal 636 MW by NESO TSD for the UTC half-hour covering the record start. Average all 288 five-minute values. This is a cross-source repair estimate, not an exact published corrected VD total.",
+    "same_day_clean_overlap_mean_Elexon_minus_NESO_TSD_MW": 259.21033210332104,
+    "same_day_clean_overlap_MAE_MW": 305.2841328413284,
+    "replacement_columns": [
+      "UTC start",
+      "Elexon VD MW",
+      "NESO TSD MW"
+    ],
+    "replaced_intervals": [
+      [
+        "2022-08-02T00:00:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:05:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:10:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:15:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:20:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:25:00Z",
+        636,
+        24752
+      ],
+      [
+        "2022-08-02T00:30:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T00:35:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T00:40:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T00:45:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T00:50:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T00:55:00Z",
+        636,
+        24312
+      ],
+      [
+        "2022-08-02T01:00:00Z",
+        636,
+        24019
+      ],
+      [
+        "2022-08-02T01:05:00Z",
+        636,
+        24019
+      ],
+      [
+        "2022-08-02T01:10:00Z",
+        636,
+        24019
+      ],
+      [
+        "2022-08-02T01:15:00Z",
+        636,
+        24019
+      ],
+      [
+        "2022-08-02T01:20:00Z",
+        636,
+        24019
+      ]
+    ]
+  }
+}

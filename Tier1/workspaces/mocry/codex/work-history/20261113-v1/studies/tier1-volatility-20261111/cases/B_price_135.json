@@ -1,0 +1,23 @@
+{
+  "policy": "B",
+  "path": "price",
+  "factor": 135.0,
+  "forced": false,
+  "objective_lower_GBP": 1738876.1263282504,
+  "objective_upper_GBP": 1738876.126375267,
+  "zero_upper_minus_feasible_GBP": 0.0006548361852765083,
+  "battery_MWh": 875.312,
+  "counts": {
+    "sungrow-st255cs-2h": 0,
+    "huawei-luna215": 0,
+    "huawei-luna241": 3632,
+    "tesla-megapack2xl-2h": 0
+  },
+  "attempts": 2,
+  "status": "HighsModelStatus.kOptimal",
+  "exact_priority_added": true,
+  "price_min": -13293.579292798402,
+  "price_max": 75567.32807968493,
+  "elapsed_seconds": 5.375,
+  "decision": "positive"
+}

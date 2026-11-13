@@ -1,0 +1,88 @@
+{
+  "id": "tesla-megapack2xl-4h",
+  "type": "battery",
+  "manufacturer": "Tesla",
+  "model": "Megapack2XL 4-hour (Rev1.5.1,2023)",
+  "source": "Tesla-Megapack2XL-20230210.pdf p1,CU source lead independently retrieved2026-11-10",
+  "technical": {
+    "nominal_energy_kWh": 3916,
+    "usable_energy_kWh": null,
+    "nominal_AC_power_kW": 979,
+    "max_AC_charge_power_kW": null,
+    "max_AC_discharge_power_kW": null,
+    "battery_DC_charge_power_kW": null,
+    "battery_DC_discharge_power_kW": null,
+    "permitted_DoD": null,
+    "normalized_SOC_operating_range": null,
+    "roundtrip_AC": {
+      "value": 0.937,
+      "conditions": "full-depth cycle at25C",
+      "boundary": "includes product power conversion and thermal system losses; external site MV transformer not explicitly covered"
+    },
+    "roundtrip_DC": null,
+    "one_way_efficiencies": null,
+    "auxiliary_active_kW": null,
+    "auxiliary_standby_kW": null,
+    "self_discharge_per_day": null,
+    "lifetime_years": null,
+    "cycle_life": null,
+    "EOL_SOH": null,
+    "degradation_curve": null,
+    "warranty_years": {
+      "standard": 15,
+      "optional": 20,
+      "coverage": "equipment and energy retention;retention curve not published in this sheet"
+    },
+    "availability": null,
+    "parallel_limit": null,
+    "ambient_temperature_C": [
+      -30,
+      50
+    ],
+    "derating_above_C": null,
+    "scope": "integrated product;published nominal energy,allowed DoD/usable energy and external connection efficiency require declared assumptions",
+    "apparent_power_kVA": 1320,
+    "inverter_apparent_configuration": {
+      "minimum_kVA": 400,
+      "step_kVA": 50
+    },
+    "nominal_AC_voltage_V": 480,
+    "cell_chemistry": "not stated in retained sheet;do not silently assign LFP/NMC life",
+    "course_scope": "4-hour extension",
+    "site_interface": "480VAC product interface requires matched UKsite transformer/grid equipment"
+  },
+  "public_prices": [],
+  "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+  "model_protocol": [
+    "daily net charge or discharge",
+    "daily stock carryover",
+    "declared initial and terminal usable stock",
+    "declare any one-way efficiency split",
+    "do not apply60%usable multiplier toalreadyusableenergy",
+    "separate group/controller parallel limit from project-wide capacity"
+  ],
+  "general_gaps": [
+    "Matched installed price and site scope",
+    "Maintenance/renewal/disposal contract",
+    "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+  ],
+  "model_view": {
+    "energy_kWh": null,
+    "rated_AC_kW": 979,
+    "roundtrip": {
+      "value": 0.937,
+      "conditions": "full-depth cycle at25C",
+      "boundary": "includes product power conversion and thermal system losses; external site MV transformer not explicitly covered"
+    },
+    "loss_boundary": "ACreferencepoint,ifprovided",
+    "missing_core_fields": [
+      "usable_energy_kWh"
+    ],
+    "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": false,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "source_id": "USER-MMCS-TIER1-ASSUMPTION-REVIEW-20261103",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "recorded_date": "2026-11-03",
+  "status": "user_proposal_reviewed_baseline_not_frozen",
+  "sources_read": [
+    "materials/sync-20261023/Project-brief-extracted.txt",
+    "materials/project-launch-transcripts-20261028/transcript-timed.txt",
+    "materials/SOURCE-20261103-PROJECT-DATA-SCOPE.json",
+    "assignments/FinalProject/PROJECT_INFORMATION.md",
+    "https://www.gov.uk/government/publications/electricity-generation-costs-2023"
+  ],
+  "scope": "Assess coherence, feasibility and alignment with the brief; no research packages completed, no solver run, no GitHub project assumptions published",
+  "annotation_assessments": [
+    {"index":1,"proposal":"Baseline uses fixed total generation plus specified independent wind profile; remove independent wind only in ablation","assessment":"Workable constructed-system convention; do not re-optimize existing generation in Tier1"},
+    {"index":2,"proposal":"Use later non-inclusion conclusion","assessment":"Adopt separate simulated farm as additional to background total for the model. Total already includes offshore/onshore wind categories; no deletion of those categories. Distinguish the chosen connection convention from an explicit CSV provenance statement about a particular facility"},
+    {"index":3,"proposal":"Use confirmed demand definition","assessment":"Given constructed-system demand, described at UK scale. Does not establish client's own behind-meter load"},
+    {"index":4,"proposal":"Background generation fixed; technology dispatchability research as optional experiment","assessment":"Sound. Dispatchability alone does not justify free redispatch: also needs available capacities, costs and operating constraints"},
+    {"index":5,"proposal":"Pool electricity regardless of generation source","assessment":"Fine for aggregate energy/economic model. Renewable-specific utilisation/capture claims require provenance accounting or must be labelled total-electricity metrics"},
+    {"index":6,"proposal":"Economic and demand-coverage objectives","assessment":"Valid. Recommend primary incremental NPV with coverage/unused energy KPIs and optional epsilon-constraint tradeoff, not an arbitrary unit-mixing sum. Battery-discharge sales are electricity revenue, not another hardware revenue"},
+    {"index":7,"proposal":"No baseline hard supply guarantee","assessment":"Valid if unmet demand is explicit and reported; not the same as ignoring the demand series"},
+    {"index":8,"proposal":"Incremental investment and revenue/cost comparisons; omit existing capital costs","assessment":"Existing sunk capital and unchanged costs may be omitted in incremental objective. Changed operating costs and displaced electricity sales cannot be omitted"},
+    {"index":9,"proposal":"Chronological train/validation with fixed learned capacities and global/validation oracles","assessment":"Strong design. Separate capacity information from operational information. Fixed-capacity full-validation optimization is an operational oracle, not a fully causal strategy. Validation-only oracle is an upper bound only under matched feasible set, information, horizon and accounting; all-years optimum need not dominate on validation subset"},
+    {"index":10,"proposal":"Date intersection and cleaned train/validation data","assessment":"Reasonable. Removed dates can break SOC continuity; require explicit gap/segment treatment, report retained coverage, and avoid fitting cleaning thresholds on held-out data"},
+    {"index":11,"proposal":"Lenient deterministic cleaning; 2/3-sigma alternative","assessment":"Keep negative prices and genuine tail events. Statistical rarity is a flag, not proof of erroneous data. Do not label all extreme-event exclusions as cleaning"},
+    {"index":12,"proposal":"Daily granularity on user's Ultra9 275HX and RTX5090 laptop budget","assessment":"Reasonable starting point; pilot runtime and optimization gap rather than promise hardware-based solve time. Daily observations cannot identify intraday 2-hour battery arbitrage"},
+    {"index":13,"proposal":"Equal day weights","assessment":"Fine for full daily observations. Distinct from financial discounting and annualisation; do not extrapolate selectively missing days to a full year without justification"},
+    {"index":14,"proposal":"Prioritise self-supply, then economically optimize charge/hydrogen/discharge; deficit penalty deferred","assessment":"Needs definition of self-supply. If supplied demand is the sales market, forcing it first conflicts with equal sale-vs-charge choice. If a separate internal load is introduced, define its source and avoided cost; no hard guarantee is compatible with reporting residual unmet demand"},
+    {"index":15,"proposal":"Research sales headroom; assume unlimited if unavailable; equal sale/charge decisions; battery timing by lifetime/prices","assessment":"Sale-vs-charge choice is appropriate. Unlimited sales cannot silently erase the supplied demand's role. Keep as explicit market alternative if chosen. Initial sizing/lifetime can be baseline; dynamic equipment acquisition/replacement timing is a separate extension"},
+    {"index":16,"proposal":"Grid purchases only with sufficient evidence","assessment":"Reasonable conservative fallback: disabled in baseline until tariff/access/limits are specified. Unlimited imports plus profitable unlimited hydrogen outlet and scalable investment can make the model unbounded"},
+    {"index":17,"proposal":"Purchase/sale prices based on research","assessment":"Appropriate; do not infer equal import/export tariff or full retail price from wholesale price column"},
+    {"index":18,"proposal":"Research quantity-dependent prices","assessment":"Appropriate; a price-taking baseline is a labelled simplification if market impact parameters are unavailable, especially with aggregate-system scale"},
+    {"index":19,"proposal":"Research curtailment economics","assessment":"Appropriate; no assumed compensation or free opportunity value without justification. Report physical unused energy independently"},
+    {"index":20,"proposal":"Retain classroom network/geography simplification","assessment":"Aligned with brief and lecture; no baseline transmission/locational model required"},
+    {"index":21,"proposal":"Research topic 1: electricity trading and operations","assessment":"Coherent package; end with sourced parameters, applicability, uncertainty and fallback assumptions, not an exhaustive market simulation"},
+    {"index":22,"proposal":"Research suitable battery specifications; use current technology in historical years without launch constraints","assessment":"Valid present-technology historical counterfactual, not a historically deployable investment claim. Use a finite justified candidate set, normalise installed cost/power/energy/SOC/lifetime/efficiency and price vintage"},
+    {"index":23,"proposal":"Research topic 3: electrolyser products, hydrogen storage and markets","assessment":"Coherent. Direct H2 sale can be minimal baseline; storage/transport/reconversion need their own cost and outlet assumptions if included"},
+    {"index":24,"proposal":"Technology capex set by research","assessment":"Appropriate; account for installed-system boundaries, operations, replacement, residual value, currency and base year. Preserve source ranges for sensitivity"},
+    {"index":25,"proposal":"Risk-free rate and exponential compounding","assessment":"Risk-free case can be a financing benchmark but does not alone represent risky project investor's hurdle rate. Use effective-annual discounting with consistent real/nominal cash flows; continuous rate rho=ln(1+r) if using exponential discounting"}
+  ],
+  "remaining_before_freezing_baseline": [
+    "Role of given system demand versus internal load and external sales headroom",
+    "Single primary economic objective and any coverage constraints or Pareto experiments",
+    "Finite technology candidates, installed costs, lifetime and operating/financial parameters",
+    "Daily state transitions including missing dates, starting/terminal inventories and energy units",
+    "Capacity-fitting versus causal-operation versus hindsight-oracle evaluation protocols"
+  ],
+  "github_repository_changed": false,
+  "no_new_school_platform_or_mail_access": true,
+  "formal_requirements_or_deadlines_changed": false
+}

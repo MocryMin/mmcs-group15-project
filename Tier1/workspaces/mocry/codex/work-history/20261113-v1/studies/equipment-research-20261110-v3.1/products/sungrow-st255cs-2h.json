@@ -1,0 +1,82 @@
+{
+  "id": "sungrow-st255cs-2h",
+  "type": "battery",
+  "manufacturer": "Sungrow",
+  "model": "PowerStack ST255CS-2H",
+  "source": "Sungrow-PowerStack255CS.pdf pp1-2V2(2025);pages-04.json;user manual",
+  "technical": {
+    "nominal_energy_kWh": 257,
+    "usable_energy_kWh": 257.0,
+    "nominal_AC_power_kW": 125,
+    "max_AC_charge_power_kW": null,
+    "max_AC_discharge_power_kW": null,
+    "battery_DC_charge_power_kW": null,
+    "battery_DC_discharge_power_kW": null,
+    "permitted_DoD": 1.0,
+    "normalized_SOC_operating_range": [
+      0,
+      1
+    ],
+    "roundtrip_AC": {
+      "lower_exclusive": 0.9,
+      "kind": "productpage states consistentlyover90%;not a mean or point"
+    },
+    "roundtrip_DC": null,
+    "one_way_efficiencies": null,
+    "auxiliary_active_kW": null,
+    "auxiliary_standby_kW": null,
+    "self_discharge_per_day": null,
+    "lifetime_years": null,
+    "cycle_life": null,
+    "EOL_SOH": null,
+    "degradation_curve": null,
+    "warranty_years": null,
+    "availability": null,
+    "parallel_limit": {
+      "on_grid": 25,
+      "off_grid": 10,
+      "boundary": "one system group;not a global investment cap"
+    },
+    "ambient_temperature_C": [
+      -30,
+      50
+    ],
+    "derating_above_C": 45,
+    "scope": "integratedACBESS, approximately2-hourclass",
+    "PCS_efficiency_max": 0.985,
+    "auxiliary_supply": "internal bydefault;external optional;quantified draw unpublished",
+    "maintenance": "Usermanualp93:yearlyinspection and cell replacement when needed;no numeric service life guarantee",
+    "usable_definition": "Derived within the manufacturer-defined permitted depth;not chemical-cell absolute0-100%."
+  },
+  "public_prices": [],
+  "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+  "model_protocol": [
+    "daily net charge or discharge",
+    "daily stock carryover",
+    "declared initial and terminal usable stock",
+    "declare any one-way efficiency split",
+    "do not apply60%usable multiplier toalreadyusableenergy",
+    "separate group/controller parallel limit from project-wide capacity"
+  ],
+  "general_gaps": [
+    "Matched installed price and site scope",
+    "Maintenance/renewal/disposal contract",
+    "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+  ],
+  "model_view": {
+    "energy_kWh": 257.0,
+    "rated_AC_kW": 125,
+    "roundtrip": {
+      "lower_exclusive": 0.9,
+      "kind": "productpage states consistentlyover90%;not a mean or point"
+    },
+    "loss_boundary": "ACreferencepoint,ifprovided",
+    "missing_core_fields": [],
+    "reference_ready": "bounded/performance-referencepoint study only;do not treat maxima asaverage"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": true,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

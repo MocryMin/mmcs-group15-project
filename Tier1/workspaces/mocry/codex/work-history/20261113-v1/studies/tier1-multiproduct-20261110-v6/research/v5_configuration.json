@@ -1,0 +1,28 @@
+{
+  "version": "v5-20261110",
+  "active_economic_basis": "inputs/parameters.json (frozen v4.1 financial values)",
+  "overrides": {
+    "hydrogen_limit_kg": 1558968.7748333344
+  },
+  "market_case": "national historical annual demand high-envelope, smoothed daily",
+  "chronology": "daily contiguous state balance, zero initial and terminal usable stock",
+  "battery_routes": [
+    "electricity sales",
+    "electrolyser electricity input"
+  ],
+  "policy_B": "current generation first; stored usable energy must next cover remaining demand",
+  "equipment_grid": "3MWh/1.5MW generic BESS and 20MW reference PEM; not a universal product set",
+  "new_product_catalogue": "research/EQUIPMENT_OPTIONS.md; not silently substituted into baseline",
+  "unchanged": [
+    "constant H2 netback",
+    "no H2 storage/reconversion",
+    "no grid imports",
+    "two-hour batteries",
+    "20-80% SOC",
+    "one net charge/discharge action per day",
+    "initial investment once",
+    "real5% and existing maintenance convention"
+  ],
+  "full_study_solver": "SciPy/HiGHS; installed Xpress Community is limited to5000rows+columns",
+  "solver_crosscheck": "same-row Xpress behavioural examples, plus fixed-capacity annual Xpress replays"
+}

@@ -1,0 +1,66 @@
+{
+  "policy": "B",
+  "nominal_capacity_MWh": 3000000,
+  "annual_gain_GBP": 130950314.75684996,
+  "annual_gain_upper_GBP": 133733218.68482481,
+  "annual_incremental_profit_mGBP": 168.6627681861352,
+  "no_battery_profit_mGBP": 37.71245342928523,
+  "annual_reference_receipts_mGBP": 20959.853256230683,
+  "roundtrip_efficiency": 0.92,
+  "available_stock_window_fraction": 0.6,
+  "electrolyser_units": {
+    "itm-neptune-ii": 0,
+    "itm-neptune-v": 104,
+    "nel-mc250": 0,
+    "nel-mc500": 0,
+    "nel-mc1000": 0
+  },
+  "electrolyser_MW": 523.2239999999999,
+  "annual_charge_MWh": 1467722.259864705,
+  "annual_battery_sales_MWh": 899729.1123063539,
+  "annual_battery_to_H2_MWh": 450575.36676917487,
+  "max_stock_GWh": 1713.9003858349909,
+  "elapsed_seconds": 125.09400000001187,
+  "solver_history": [
+    {
+      "status": "HighsModelStatus.kTimeLimit",
+      "objective": -130.95031475684996,
+      "lower_bound": -136.4042408573191,
+      "relative_gap": 0.041648820093300724,
+      "nodes": 362,
+      "invalid_minimum_load_days": 0
+    },
+    {
+      "status": "HighsModelStatus.kTimeLimit",
+      "objective": -130.95031475684996,
+      "lower_bound": -133.7332186848248,
+      "relative_gap": 0.021251601671536037,
+      "nodes": 823,
+      "invalid_minimum_load_days": 0
+    }
+  ],
+  "audit": {
+    "stock_balance": 5.453415496958769e-13,
+    "terminal_stock": 0.0,
+    "stock_capacity": 0.0,
+    "max_generation_use": 4.547473508864641e-13,
+    "max_sales": 1.5916157281026244e-12,
+    "no_simultaneous_charge_discharge": 0.0,
+    "nonnegative_flows": 2.7355895326763857e-13,
+    "B_direct": 8.071765478234738e-12,
+    "B_battery": 8.033964604692301e-12,
+    "itm-neptune-ii_capacity": 0.0,
+    "itm-neptune-ii_minimum": 0.0,
+    "itm-neptune-v_capacity": 1.0249578963339445e-12,
+    "itm-neptune-v_minimum": 2.7448135149076226e-13,
+    "nel-mc250_capacity": 0.0,
+    "nel-mc250_minimum": 0.0,
+    "nel-mc500_capacity": 0.0,
+    "nel-mc500_minimum": 0.0,
+    "nel-mc1000_capacity": 0.0,
+    "nel-mc1000_minimum": 0.0,
+    "h2_sources": 7.052136652418994e-13,
+    "h2_cap_GWh_equivalent": 0.0,
+    "profit_error_mGBP": 3.126388037344441e-13
+  }
+}

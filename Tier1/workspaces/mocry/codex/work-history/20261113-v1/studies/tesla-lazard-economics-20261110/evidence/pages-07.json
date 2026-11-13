@@ -1,0 +1,688 @@
+[
+  {
+    "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign*&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&from=2023&to=2025&limit=100",
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fmegapack%2Fdesign*&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&from=2023&to=2025&limit=100",
+    "status": 200,
+    "title": "",
+    "text": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,tesla)/megapack/design\",\"20230123082807\",\"https://www.tesla.com/megapack/design\",\"text/html\",\"200\",\"ADTWGEOQOB3F5QVN6AOHLQ7W2IKPAYNV\",\"11552\"],\n[\"com,tesla)/megapack/design?ref=rogerprice.me\",\"20251207141636\",\"https://www.tesla.com/megapack/design?ref=rogerprice.me\",\"text/html\",\"200\",\"JFG77DLSBWW55KOLUAXXWQNB5J3PROXA\",\"16134\"]]\n",
+    "links": []
+  },
+  {
+    "requested": "https://www.tesla.cn/en_GB/megapack",
+    "url": "https://www.tesla.com/en_GB/megapack",
+    "status": 403,
+    "title": "Access Denied",
+    "text": "Access Denied\nYou don't have permission to access \"http://www.tesla.com/en_GB/megapack\" on this server.\n\nReference #18.97d37a5c.1794342649.589cb5af\n\nhttps://errors.edgesuite.net/18.97d37a5c.1794342649.589cb5af",
+    "links": []
+  },
+  {
+    "requested": "https://www.tesla.cn/support/energy/megapack/resources",
+    "url": "https://www.tesla.cn/support/energy/megapack/resources",
+    "status": 200,
+    "title": "Megapack 资源 | 特斯拉中国",
+    "text": " \nSkip to main content\n车辆\n能源\n充电\n发现\n在线商店\nMegapack 资源\n\nTesla 设计制造涵盖硬件、软件和服务的完整储能产品生态系统。Megapack 是 Tesla 推出的公用事业级储能产品，支持可再生能源并入电网，助力构建更清洁、更经济、更高效的能源系统。\n\n了解 Tesla 如何在电池储能方面处于领先地位。\n\n电网形成：通向稳定与可持续未来的路径\n电网形成逆变器在提供惯量方面的作用\nMegapack 安全入门指南\n适用于数据中心的 Megapack：助力人工智能基础设施的发展\nTesla 能源软件\n\nTesla 软件可以最大限度地发挥 Megapack 的价值，使我们能够有效地为多元化的客户群提供支持。查看其他资源，深入了解 Tesla 能源软件。\n\nTesla 能源软件\nAutobidder\nPowerhub\nMicrogrid Controller\nOpticaster\n关注 Megapack 更新\n\n注册以了解 Megapack 如何不断发展，并为世界各地的社区和电网供电。\n\n订阅更新\n页脚菜单\nTesla © 2026\n沪ICP备2021004806号-1\n沪公网安备 31011502017892 号\n营业执照\n隐私和法律\n联系我们\n最新消息",
+    "links": [
+      {
+        "text": "了解更多",
+        "url": "https://www.tesla.cn//support/browser-support"
+      },
+      {
+        "text": "Skip to main content",
+        "url": "https://www.tesla.cn/support/energy/megapack/resources#main-content"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/"
+      },
+      {
+        "text": "在线商店",
+        "url": "https://shop.tesla.cn/?redirect=no"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/support"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/teslaaccount"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/model3-choose"
+      },
+      {
+        "text": "订购",
+        "url": "https://www.tesla.cn/model3/design"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/modely"
+      },
+      {
+        "text": "订购",
+        "url": "https://www.tesla.cn/modely/design"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/modely-L"
+      },
+      {
+        "text": "订购",
+        "url": "https://www.tesla.cn/modely/design?cfg=$MTY69"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/cybertruck"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/roadster/reserve"
+      },
+      {
+        "text": "选购现车",
+        "url": "https://www.tesla.cn/new"
+      },
+      {
+        "text": "选购认证二手车",
+        "url": "https://www.tesla.cn/used"
+      },
+      {
+        "text": "预约试驾",
+        "url": "https://www.tesla.cn/drive"
+      },
+      {
+        "text": "车辆置换",
+        "url": "https://www.tesla.cn/tradein"
+      },
+      {
+        "text": "对比车型",
+        "url": "https://www.tesla.cn/compare"
+      },
+      {
+        "text": "车辆安全报告",
+        "url": "https://www.tesla.cn/fsd/safety"
+      },
+      {
+        "text": "申请金融服务",
+        "url": "https://www.tesla.cn/financing-calculator"
+      },
+      {
+        "text": "We, Robot",
+        "url": "https://www.tesla.cn/we-robot"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/powerwall"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/megapack"
+      },
+      {
+        "text": "公用事业",
+        "url": "https://www.tesla.cn/utilities"
+      },
+      {
+        "text": "商用能源",
+        "url": "https://www.tesla.cn/commercial"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/charging"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/home-charging"
+      },
+      {
+        "text": "在线商店",
+        "url": "https://shop.tesla.cn/category/charging#charging.at-home"
+      },
+      {
+        "text": "",
+        "url": "https://www.tesla.cn/supercharger"
+      },
+      {
+        "text": "查找",
+        "url": "https://www.tesla.cn/findus"
+      },
+      {
+        "text": "目的地充电",
+        "url": "https://www.tesla.cn/destination-charging"
+      },
+      {
+        "text": "成为超级充电合作伙伴",
+        "url": "https://www.tesla.cn/host-a-supercharger"
+      },
+      {
+        "text": "成为目的地充电合作伙伴",
+        "url": "https://www.tesla.cn/charging-partners"
+      },
+      {
+        "text": "视频教程",
+        "url": "https://cx.tesla.cn/video-tutorial/web"
+      },
+      {
+        "text": "下载 Tesla 应用程序",
+        "url": "https://ts.la/cnapp"
+      },
+      {
+        "text": "查找钣喷中心",
+        "url": "https://www.tesla.cn/support/bodyshop"
+      },
+      {
+        "text": "关于我们",
+        "url": "https://www.tesla.cn/about"
+      },
+      {
+        "text": "工作机会",
+        "url": "https://www.tesla.cn/careers"
+      },
+      {
+        "text": "投资者关系",
+        "url": "https://ir.tesla.com/"
+      },
+      {
+        "text": "充电",
+        "url": "https://shop.tesla.cn/category/charging"
+      },
+      {
+        "text": "优选配件",
+        "url": "https://shop.tesla.cn/category/vehicle-accessories"
+      },
+      {
+        "text": "精选服饰",
+        "url": "https://shop.tesla.cn/category/apparel"
+      },
+      {
+        "text": "周边精品",
+        "url": "https://shop.tesla.cn/category/lifestyle"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_CA/support/energy/megapack/resources"
+      },
+      {
+        "text": "法语",
+        "url": "https://www.tesla.cn/fr_CA/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_PR/support/energy/megapack/resources"
+      },
+      {
+        "text": "西班牙语",
+        "url": "https://www.tesla.cn/es_PR/support/energy/megapack/resources"
+      },
+      {
+        "text": "美国",
+        "url": "https://www.tesla.cn/support/energy/megapack/resources"
+      },
+      {
+        "text": "墨西哥",
+        "url": "https://www.tesla.cn/es_MX/support/energy/megapack/resources"
+      },
+      {
+        "text": "智利",
+        "url": "https://www.tesla.cn/es_CL/support/energy/megapack/resources"
+      },
+      {
+        "text": "哥伦比亚",
+        "url": "https://www.tesla.cn/es_CO/support/energy/megapack/resources"
+      },
+      {
+        "text": "乌拉圭",
+        "url": "https://www.tesla.cn/es_UY/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_AE/support/energy/megapack/resources"
+      },
+      {
+        "text": "阿拉伯语",
+        "url": "https://www.tesla.cn/ar_AE/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_QA/support/energy/megapack/resources"
+      },
+      {
+        "text": "阿拉伯语",
+        "url": "https://www.tesla.cn/ar_QA/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_SA/support/energy/megapack/resources"
+      },
+      {
+        "text": "阿拉伯语",
+        "url": "https://www.tesla.cn/ar_SA/support/energy/megapack/resources"
+      },
+      {
+        "text": "以色列",
+        "url": "https://www.tesla.cn/he_IL/support/energy/megapack/resources"
+      },
+      {
+        "text": "约旦",
+        "url": "https://www.tesla.cn/en_JO/support/energy/megapack/resources"
+      },
+      {
+        "text": "中文",
+        "url": "https://www.tesla.cn/zh_HK/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_HK/support/energy/megapack/resources"
+      },
+      {
+        "text": "中文",
+        "url": "https://www.tesla.cn/zh_MO/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_MO/support/energy/megapack/resources"
+      },
+      {
+        "text": "泰语",
+        "url": "https://www.tesla.cn/th_TH/support/energy/megapack/resources"
+      },
+      {
+        "text": "英语",
+        "url": "https://www.tesla.cn/en_TH/support/energy/megapack/resources"
+      },
+      {
+        "text": "台湾",
+        "url": "https://www.tesla.cn/zh_TW/support/energy/megapack/resources"
+      },
+      {
+        "text": "印度",
+        "url": "https://www.tesla.cn/en_IN/support/energy/megapack/resources"
+      },
+      {
+        "text": "日本",
+        "url": "https://www.tesla.cn/ja_JP/support/energy/megapack/resources"
+      },
+      {
+        "text": "马来西亚",
+        "url": "https://www.tesla.cn/en_MY/support/energy/megapack/resources"
+      },
+      {
+        "text": "新加坡",
+        "url": "https://www.tesla.cn/en_SG/support/energy/megapack/resources"
+      },
+      {
+        "text": "韩国",
+        "url": "https://www.tesla.cn/ko_KR/support/energy/megapack/resources"
+      },
+      {
+        "text": "澳大利亚",
+        "url": "https://www.tesla.cn/en_AU/support/energy/megapack/resources"
+      },
+      {
+        "text": "新西兰",
+        "url": "https://www.tesla.cn/en_NZ/support/energy/megapack/resources"
+      },
+      {
+        "text": "菲律宾",
+        "url": "https://www.tesla.cn/en_PH/support/energy/megapack/resources"
+      },
+      {
+        "text": "荷兰语",
+        "url": "https://www.tesla.cn/nl_BE/support/energy/megapack/resources"
+      },
+      {
+        "text": "法语",
+        "url": "https://www.tesla.cn/fr_BE/support/energy/megapack/resources"
+      },
+      {
+        "text": "法语",
+        "url": "https://www.tesla.cn/fr_LU/support/energy/megapack/resources"
+      },
+      {
+        "text": "德语",
+        "url": "https://www.tesla.cn/de_LU/support/energy/megapack/resources"
+      },
+      {
+        "text": "法语",
+        "url": "https://www.tesla.cn/fr_CH/support/energy/megapack/resources"
+      },
+      {
+        "text": "德语",
+        "url": "https://www.tesla.cn/de_CH/support/energy/megapack/resources"
+      },
+      {
+        "text": "意大利语",
+        "url": "https://www.tesla.cn/it_CH/support/energy/megapack/resources"
+      },
+      {
+        "text": "捷克",
+        "url": "https://www.tesla.cn/cs_CZ/support/energy/megapack/resources"
+      },
+      {
+        "text": "丹麦",
+        "url": "https://www.tesla.cn/da_DK/support/energy/megapack/resources"
+      },
+      {
+        "text": "爱沙尼亚",
+        "url": "https://www.tesla.cn/et_EE/support/energy/megapack/resources"
+      },
+      {
+        "text": "德国",
+        "url": "https://www.tesla.cn/de_DE/support/energy/megapack/resources"
+      },
+      {
+        "text": "希腊",
+        "url": "https://www.tesla.cn/el_GR/support/energy/megapack/resources"
+      },
+      {
+        "text": "西班牙",
+        "url": "https://www.tesla.cn/es_ES/support/energy/megapack/resources"
+      },
+      {
+        "text": "法国",
+        "url": "https://www.tesla.cn/fr_FR/support/energy/megapack/resources"
+      },
+      {
+        "text": "克罗地亚",
+        "url": "https://www.tesla.cn/hr_HR/support/energy/megapack/resources"
+      },
+      {
+        "text": "匈牙利",
+        "url": "https://www.tesla.cn/hu_HU/support/energy/megapack/resources"
+      },
+      {
+        "text": "爱尔兰",
+        "url": "https://www.tesla.cn/en_IE/support/energy/megapack/resources"
+      },
+      {
+        "text": "冰岛",
+        "url": "https://www.tesla.cn/is_IS/support/energy/megapack/resources"
+      },
+      {
+        "text": "意大利",
+        "url": "https://www.tesla.cn/it_IT/support/energy/megapack/resources"
+      },
+      {
+        "text": "拉脱维亚",
+        "url": "https://www.tesla.cn/lv_LV/support/energy/megapack/resources"
+      },
+      {
+        "text": "立陶宛",
+        "url": "https://www.tesla.cn/lt_LT/support/energy/megapack/resources"
+      },
+      {
+        "text": "荷兰",
+        "url": "https://www.tesla.cn/nl_NL/support/energy/megapack/resources"
+      },
+      {
+        "text": "挪威",
+        "url": "https://www.tesla.cn/no_NO/support/energy/megapack/resources"
+      },
+      {
+        "text": "奥地利",
+        "url": "https://www.tesla.cn/de_AT/support/energy/megapack/resources"
+      },
+      {
+        "text": "波兰",
+        "url": "https://www.tesla.cn/pl_PL/support/energy/megapack/resources"
+      },
+      {
+        "text": "葡萄牙",
+        "url": "https://www.tesla.cn/pt_PT/support/energy/megapack/resources"
+      },
+      {
+        "text": "罗马尼亚",
+        "url": "https://www.tesla.cn/ro_RO/support/energy/megapack/resources"
+      },
+      {
+        "text": "斯洛伐克",
+        "url": "https://www.tesla.cn/sk_SK/support/energy/megapack/resources"
+      },
+      {
+        "text": "斯洛文尼亚",
+        "url": "https://www.tesla.cn/sl_SI/support/energy/megapack/resources"
+      },
+      {
+        "text": "瑞典",
+        "url": "https://www.tesla.cn/sv_SE/support/energy/megapack/resources"
+      },
+      {
+        "text": "芬兰",
+        "url": "https://www.tesla.cn/fi_FI/support/energy/megapack/resources"
+      },
+      {
+        "text": "土耳其",
+        "url": "https://www.tesla.cn/tr_TR/support/energy/megapack/resources"
+      },
+      {
+        "text": "英国",
+        "url": "https://www.tesla.cn/en_GB/support/energy/megapack/resources"
+      },
+      {
+        "text": "欧洲其他国家/地区",
+        "url": "https://www.tesla.cn/en_EU/support/energy/megapack/resources"
+      },
+      {
+        "text": "阿拉伯语",
+        "url": "https://www.tesla.cn/ar_MA/support/energy/megapack/resources"
+      },
+      {
+        "text": "法语",
+        "url": "https://www.tesla.cn/fr_MA/support/energy/megapack/resources"
+      },
+      {
+        "text": "为什么选择 Powerwall",
+        "url": "https://www.tesla.cn/node/271226"
+      },
+      {
+        "text": "Powerwall 如何运作",
+        "url": "https://www.tesla.cn/node/271233"
+      },
+      {
+        "text": "Powerwall 可为哪些设备提供备用电力",
+        "url": "https://www.tesla.cn/node/255966"
+      },
+      {
+        "text": "系统设计",
+        "url": "https://www.tesla.cn/node/271240"
+      },
+      {
+        "text": "合并系统",
+        "url": "https://www.tesla.cn/node/271254"
+      },
+      {
+        "text": "订购 Powerwall",
+        "url": "https://www.tesla.cn/node/254622"
+      },
+      {
+        "text": "住宅评估",
+        "url": "https://www.tesla.cn/node/255245"
+      },
+      {
+        "text": "安装前的准备",
+        "url": "https://www.tesla.cn/node/255266"
+      },
+      {
+        "text": "订单更改",
+        "url": "https://www.tesla.cn/node/255252"
+      },
+      {
+        "text": "订购协议",
+        "url": "https://www.tesla.cn/node/255273"
+      },
+      {
+        "text": "结算",
+        "url": "https://www.tesla.cn/node/255427"
+      },
+      {
+        "text": "电网连接申请",
+        "url": "https://www.tesla.cn/node/255238"
+      },
+      {
+        "text": "安装前",
+        "url": "https://www.tesla.cn/node/271149"
+      },
+      {
+        "text": "安装日",
+        "url": "https://www.tesla.cn/node/271177"
+      },
+      {
+        "text": "安装后",
+        "url": "https://www.tesla.cn/node/271296"
+      },
+      {
+        "text": "Tesla 应用程序（能源）",
+        "url": "https://www.tesla.cn/node/271016"
+      },
+      {
+        "text": "将 Powerwall 连接到 Wi-Fi",
+        "url": "https://www.tesla.cn/node/271023"
+      },
+      {
+        "text": "能源数据",
+        "url": "https://www.tesla.cn/node/271037"
+      },
+      {
+        "text": "“Impact“界面",
+        "url": "https://www.tesla.cn/node/271044"
+      },
+      {
+        "text": "备用储备能量",
+        "url": "https://www.tesla.cn/node/273431"
+      },
+      {
+        "text": "节省模式",
+        "url": "https://www.tesla.cn/node/273466"
+      },
+      {
+        "text": "自供电",
+        "url": "https://www.tesla.cn/node/273445"
+      },
+      {
+        "text": "高级设置",
+        "url": "https://www.tesla.cn/node/273438"
+      },
+      {
+        "text": "停电期间为车辆充电",
+        "url": "https://www.tesla.cn/node/271135"
+      },
+      {
+        "text": "软件更新",
+        "url": "https://www.tesla.cn/node/271142"
+      },
+      {
+        "text": "断电时的最佳做法",
+        "url": "https://www.tesla.cn/node/270981"
+      },
+      {
+        "text": "连接到 Tesla Gateway",
+        "url": "https://www.tesla.cn/node/261244"
+      },
+      {
+        "text": "为您的 Powerwall 获取帮助与服务",
+        "url": "https://www.tesla.cn/node/274039"
+      },
+      {
+        "text": "故障排除",
+        "url": "https://www.tesla.cn/node/270988"
+      },
+      {
+        "text": "认证",
+        "url": "https://www.tesla.cn/node/255308"
+      },
+      {
+        "text": "文件",
+        "url": "https://www.tesla.cn/node/270974"
+      },
+      {
+        "text": "认证安装服务商",
+        "url": "https://partners.tesla.com/"
+      },
+      {
+        "text": "联系我们",
+        "url": "https://www.tesla.cn/node/270967"
+      },
+      {
+        "text": "电网形成：通向稳定与可持续未来的路径",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/megapack-grid-forming-primer-en.pdf"
+      },
+      {
+        "text": "电网形成逆变器在提供惯量方面的作用",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-energy-the-role-of-grid-forming-inverters-in-providing-inertia-white-paper.pdf"
+      },
+      {
+        "text": "Megapack 安全入门指南",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/megapack-resources-community-risk-explainer.pdf"
+      },
+      {
+        "text": "适用于数据中心的 Megapack：助力人工智能基础设施的发展",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/megapack-resources-megapack-for-data-centers-powering-growth-of-ai-infrastructure.pdf"
+      },
+      {
+        "text": "Tesla 能源软件",
+        "url": "https://www.tesla.cn/support/energy/tesla-software"
+      },
+      {
+        "text": "Autobidder",
+        "url": "https://www.tesla.cn/support/energy/tesla-software/autobidder"
+      },
+      {
+        "text": "Powerhub",
+        "url": "https://www.tesla.cn/support/energy/tesla-software/powerhub"
+      },
+      {
+        "text": "Microgrid Controller",
+        "url": "https://www.tesla.cn/support/energy/tesla-software/microgrid-controller"
+      },
+      {
+        "text": "Opticaster",
+        "url": "https://www.tesla.cn/support/energy/tesla-software/opticaster"
+      },
+      {
+        "text": "订阅更新",
+        "url": "https://www.tesla.cn/megapack#updates"
+      },
+      {
+        "text": "沪ICP备2021004806号-1",
+        "url": "https://beian.miit.gov.cn/"
+      },
+      {
+        "text": "沪公网安备 31011502017892 号",
+        "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502017892"
+      },
+      {
+        "text": "营业执照",
+        "url": "https://www.tesla.cn/businesslicense"
+      },
+      {
+        "text": "隐私和法律",
+        "url": "https://www.tesla.cn/legal"
+      },
+      {
+        "text": "联系我们",
+        "url": "https://www.tesla.cn/contact"
+      }
+    ]
+  },
+  {
+    "requested": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fsites%2Fdefault%2Ffiles%2Fpdfs%2F*megapack*&output=json&filter=statuscode%3A200&collapse=urlkey&limit=100",
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.tesla.com%2Fsites%2Fdefault%2Ffiles%2Fpdfs%2F*megapack*&output=json&filter=statuscode%3A200&collapse=urlkey&limit=100",
+    "status": 503,
+    "title": "Internet Archive: Temporarily Offline",
+    "text": "   \nTemporarily Offline\n\nInternet Archive services are temporarily offline.\n\nPlease check our official accounts, including Twitter/X, Bluesky or Mastodon for the latest information.\n\nWe apologize for the inconvenience.",
+    "links": [
+      {
+        "text": "Twitter/X",
+        "url": "https://twitter.com/internetarchive/"
+      },
+      {
+        "text": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:73dpznbu4wqwtcyurwbiulov"
+      },
+      {
+        "text": "Mastodon",
+        "url": "https://mastodon.archive.org/deck/@internetarchive"
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+PAGE 1
+MODULAR. HIGH-PERFORMING. COMPETITIVE.
+
+ALPHA 50 unites technology, engineering, manufacturing, and
+ deployment, in one full-scope 50 MW plant.
+
+
+ With its compact footprint and designed for outdoor installation,
+ALPHA 50 can be easily configured into larger plants. Fully skid-
+ mounted, pre-fabricated and standardised, offering in-built
+ redundancy for key components to maximise uptime, the full-scope
+ plant can cope with the widest ambient temperature range and is
+ capable of being deployed globally into any territory.
+
+
+
+
+
+ CONTACT OUR SALES TEAM
+ sales@itm-power.com                  EUR 50,000,000*
+
+
+
+
+
+ REFINERIES     AMMONIA      METHANOL     TRANSPORT  SEMICONDUCTORS     STEEL        STORAGE        MINING        HEATING     ELECTRICITY
+
+
+
+* prices are based on ITM’s Standard T&C’s
+
+PAGE 2
+ALPHA 50: PROCESS FLOW & SPECIFICATIONS
+
+
+
+
+ Diagram Key:                                                    Breather                   Oxygen vent                                       Hydrogen vent                Instrument
+                                                                                                                                                                                                                         air system
+    Water Systems
+
+   Hydrogen Systems
+
+          Utilities                                                                                                             Cooling system                                                  Chiller unit
+
+
+
+                       Water purification                  Water polishing               Oxygen/Water           PEM electrolyser           Hydrogen/water          Hydrogen purification Tap water                                                                                                                                                                   Hydrogen @ 30 bar                                    unit                                   unit                      separation unit                   stacks                  separation unit                       unit
+
+
+
+                             Drain                                                                      PSU                                                  Drain
+
+
+
+  TECHNOLOGY                     PEM                          H2 PRODUCTION                    900 kg/hr
+
+  NUMBER OF STACKS                 80                            H2 OUTPUT PRESSURE               30 bar(g)
+
+  CAPACITY                         50 MW                         H2 OUTPUT PURITY                <5ppm H2O, <5ppm O2 (EN 17124 & ISO 14687)
+
+  AC POWER CONSUMPTION                55.9 kWh/kg*                    AMBIENT TEMPERATURE RANGE         -20°C to + 45°C
+
+  SYSTEM FOOTPRINT                  74 x 35 m                                                10% per second ramp-up
+                                                                MODULATION
+                                                                                    50% per second ramp-down
+  OPERATING RANGE                  12.5–100%
+                                                                  INSTALLATION                        Outdoor installation
+  INPUT WATER PURITY                   Potable Water**
+                                                               COMPLIANCE                       CE/ASME
+
+
+
+
+
+* This is the full system (water purification, stack, and BOP) energy consumption at beginning of life
+** Input water to the system, prior to purification
+
+PAGE 3
+ALPHA 50: FULL-SCOPE
+
+
+
+
+
+                   SCHEMATIC                                          SCOPE OF SUPPLY
+
+
+                                 74m
+                                                              Water purification unit
+                                                              Water polishing unit
+                                                  PEM stacks and skids
+  35m                                                                 Hydraulic package unit
+                                                                     Cooling system – hybrid cooling tower
+                                                             Hydrogen purification unit
+                                                          Power supply unit including MV trafo, dual-rectifier and cooling
+                                                                  system, specifically designed to match our electrolyser
+                                                                       Plant DCS (Siemens PCS7) and safety system
+                                                                       Heat-tracing installation and insulation for ISBL
+  15m                                                                               All piping, instrumentation and electrical interconnections
+                                                                       prefabricated within the process units
+
+
+
+
+                                35m
+
+PAGE 4
+ALPHA 50: FULL-SCOPE
+
+
+
+
+
+                                                                                                                                                     Find out the detailed
+                                                                                                                                     scope of supply and more
+                                                                                                                                  on our product page
+
+
+
+                                                                                                                         CONTACT OUR SALES TEAM
+                                                                                                                                   sales@itm-power.com
+
+                                                                                                                              itm-power.com/products/alpha

@@ -1,0 +1,36 @@
+{
+  "archive_days": 2499,
+  "halfhour_slots": 119952,
+  "positive_volume_halfhours": 118049,
+  "redownloaded_provider_records_matching": {
+    "2021-09-07": 288,
+    "2022-08-26": 96,
+    "2022-09-23": 86
+  },
+  "v6_dates": 2192,
+  "complete_v6_raw_days_reproduced": 2114,
+  "v6_raw_days_without_active_record": 31,
+  "v6_raw_days_with_incomplete_coverage": 78,
+  "max_v6_error_GBP2020_MWh": 1.1368683772161603e-13,
+  "max_rolling_sd": {
+    "30": {
+      "max_sd_GBP2020_MWh": 103.36074053911408,
+      "ending_utc_day": "2021-09-15"
+    },
+    "90": {
+      "max_sd_GBP2020_MWh": 114.05208793635555,
+      "ending_utc_day": "2022-11-11"
+    },
+    "365": {
+      "max_sd_GBP2020_MWh": 89.51928973347995,
+      "ending_utc_day": "2023-07-17"
+    }
+  },
+  "largest_daily_within_day_spreads_v6": {
+    "2021-09-09": 1818.9068861209964,
+    "2021-11-02": 1626.009598253275,
+    "2022-01-24": 1355.1834290687555,
+    "2025-01-08": 1044.603788774003,
+    "2021-01-13": 1009.5138532110091
+  }
+}

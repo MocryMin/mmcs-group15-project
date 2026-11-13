@@ -1,0 +1,70 @@
+{
+  "id": "catl-enerone-plus-285",
+  "type": "battery",
+  "manufacturer": "CATL",
+  "model": "EnerOne Plus 285Ah",
+  "source": "CATL-ESS-202406.pdf p17",
+  "technical": {
+    "nominal_energy_kWh": 379.4,
+    "usable_energy_kWh": null,
+    "nominal_AC_power_kW": null,
+    "max_AC_charge_power_kW": null,
+    "max_AC_discharge_power_kW": null,
+    "battery_DC_charge_power_kW": null,
+    "battery_DC_discharge_power_kW": null,
+    "permitted_DoD": null,
+    "normalized_SOC_operating_range": null,
+    "roundtrip_AC": null,
+    "roundtrip_DC": null,
+    "one_way_efficiencies": null,
+    "auxiliary_active_kW": null,
+    "auxiliary_standby_kW": null,
+    "self_discharge_per_day": null,
+    "lifetime_years": null,
+    "cycle_life": null,
+    "EOL_SOH": null,
+    "degradation_curve": null,
+    "warranty_years": null,
+    "availability": null,
+    "parallel_limit": null,
+    "ambient_temperature_C": null,
+    "derating_above_C": null,
+    "scope": "DCbatteryunit;no same-sheetPCS power,DoD,ACefficiency or sitecost",
+    "cell_capacity_Ah": 285,
+    "voltage_nominal_DC_V": 1361.2,
+    "optional_cycle_claim": "up to12000cycles for optionalcells;not guaranteed for everyconfiguration",
+    "reliability_claim": "20yearreliability claim,not a verifiedconstantcapacitylifetime/warranty"
+  },
+  "public_prices": [],
+  "investment_reference": "BATTERY-DECOMPOSITION-2020; transfer scenario, not a supplier quotation",
+  "model_protocol": [
+    "daily net charge or discharge",
+    "daily stock carryover",
+    "declared initial and terminal usable stock",
+    "declare any one-way efficiency split",
+    "do not apply60%usable multiplier toalreadyusableenergy",
+    "separate group/controller parallel limit from project-wide capacity"
+  ],
+  "general_gaps": [
+    "Matched installed price and site scope",
+    "Maintenance/renewal/disposal contract",
+    "Duty-dependent whole-system performance and degradation, if not explicitly supplied"
+  ],
+  "model_view": {
+    "energy_kWh": null,
+    "rated_AC_kW": null,
+    "roundtrip": null,
+    "loss_boundary": "ACreferencepoint,ifprovided",
+    "missing_core_fields": [
+      "usable_energy_kWh",
+      "nominal_AC_power_kW",
+      "roundtrip_AC"
+    ],
+    "reference_ready": "requires stated engineering assumptions or more supplier evidence"
+  },
+  "readiness": {
+    "unconditional_full_investment_ready": false,
+    "technical_reference_core_known": false,
+    "reason": "No product has a complete public siteinstalledprice+lifecycle+all-dutycontract;see per-field gaps and research-only proxysets"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "exact_break_even_GBP_kg": 4.6145360965965665,
+  "probe_GBP_kg": 4.618,
+  "free_modules": 1,
+  "free_gain_GBP_year": 7138.491451362139,
+  "fixed_one_gain_GBP_year": 7138.491451362139,
+  "miprelcutoff": 0,
+  "interpretation": "At GBP4.618/kg the build is profitable; peer CSV rounding cannot explain zero build here."
+}

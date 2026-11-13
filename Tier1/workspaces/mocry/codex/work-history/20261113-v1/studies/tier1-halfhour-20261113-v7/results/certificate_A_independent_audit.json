@@ -1,0 +1,34 @@
+{
+  "policy": "A",
+  "passed": true,
+  "master_errors": {
+    "master_h_reduced_cost_negative": 8.673617379884035e-19,
+    "master_capacity_reduced_cost_negative": 3.774758283725532e-14,
+    "master_row_sign": 0.0,
+    "master_sales_reduced_cost_negative": 0.0,
+    "master_primal_dual_GBP": 0.001291482476517558
+  },
+  "battery_dual_lower_bounds": [
+    {
+      "id": "sungrow-st255cs-2h",
+      "reduced_cost_lower_GBP": 2545.7416354229686,
+      "max_trajectory_error_GWh": 2.9569744530036206e-14
+    },
+    {
+      "id": "huawei-luna215",
+      "reduced_cost_lower_GBP": 2125.6887590621286,
+      "max_trajectory_error_GWh": 1.165534407717237e-14
+    },
+    {
+      "id": "huawei-luna241",
+      "reduced_cost_lower_GBP": 2398.080337098922,
+      "max_trajectory_error_GWh": 1.2965611177202184e-13
+    },
+    {
+      "id": "tesla-megapack2xl-2h",
+      "reduced_cost_lower_GBP": 60355.90494827472,
+      "max_trajectory_error_GWh": 8.554438063764276e-14
+    }
+  ],
+  "upper_increment_mGBP_from_duals": 1807.615574843352
+}

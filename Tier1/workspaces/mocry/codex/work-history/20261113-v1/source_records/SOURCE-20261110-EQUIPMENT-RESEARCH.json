@@ -1,0 +1,22 @@
+{
+  "source_id": "LOCAL-MMCS-EQUIPMENT-RESEARCH-20261110-V3",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-10T18:43:25Z",
+  "user_request": "Complete per-product model-relevant battery and electrolyser research across multiple models and competitors",
+  "user_clarification": "如果一个产品整体齐全度较高，则有调查价值；此外，不需要强求原厂披露值",
+  "evidence_status": "Manufacturer documents/pages read; industry government/research workbooks checked; manufacturer facts, derived values and engineering transfers distinguished",
+  "directory": "../assignments/FinalProject/equipment-research-20261110-v3",
+  "report": "../assignments/FinalProject/equipment-research-20261110-v3/REPORT_ZH.md",
+  "product_counts": {"battery_configurations":12,"battery_brands":4,"electrolyser_configurations":15,"electrolyser_brands":3},
+  "field_records": 861,
+  "raw_documents": {"PDF":26,"XLSX":3},
+  "reference_scenarios": {"battery":3,"PEM":9,"meaning":"Numerical daily reference inputs under labelled lifecycle/cost/operation conventions; not unconditional supplier quotations or warranties"},
+  "remaining": "Product-specific site-installed prices, full performance/ageing curves and service contracts are not uniformly public; high-completeness candidates use labelled industry/engineering reference scenarios. AEM and DC-only combinations remain separately ranked research/reserve candidates.",
+  "access": "Anonymous Playwright MCP only; no manufacturer contact, registration, or quote request",
+  "source_register": "../assignments/FinalProject/equipment-research-20261110-v3/SOURCES.json",
+  "QA": "../assignments/FinalProject/equipment-research-20261110-v3/QA.json",
+  "baseline_change": false,
+  "new_optimization": false,
+  "remote_change": false
+}

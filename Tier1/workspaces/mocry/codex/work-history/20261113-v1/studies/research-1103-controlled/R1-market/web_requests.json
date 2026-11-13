@@ -1,0 +1,7 @@
+[
+  {"id":"R1-NESO-COSTS","url":"https://www.neso.energy/industry-information/balancing-costs","want":"Read actual explanation of balancing/constraint costs; extract links with constraint, curtailment, balancing mechanism for follow-on."},
+  {"id":"R1-NESO-SERVICES","url":"https://www.neso.energy/industry-information/balancing-services","want":"Evidence balancing service is procured/participation rather than automatic compensation; extract relevant constraint or mechanism links."},
+  {"id":"R1-ELEXON-IMBALANCE","url":"https://www.elexon.co.uk/bsc/settlement/imbalance-pricing/","want":"Current settlement vs wholesale price distinction, negative prices, single price if stated; don't assume old reverse-price glossary current."},
+  {"id":"R1-GOV-CFD","url":"https://www.gov.uk/government/collections/contracts-for-difference","want":"CfD support not guaranteed wholesale sale; links to negative-price rules only if found."},
+  {"id":"R1-GOV-PPA","url":"https://www.gov.uk/government/publications/power-purchase-agreements-ppas-and-route-to-market","want":"PPA/offtake contract route to market and eligibility; failed guessed URLs should be recorded as failures."}
+]

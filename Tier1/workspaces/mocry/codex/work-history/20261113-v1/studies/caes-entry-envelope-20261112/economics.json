@@ -1,0 +1,15 @@
+{
+  "storage_output_capacity_GWh": 1.5,
+  "charge_MW": 50.0,
+  "discharge_MW": 50.0,
+  "roundtrip_efficiency": 0.62,
+  "installation_cost_GBP2020": 128117388.3268464,
+  "reference_battery_installed_GBP2020_MWh": 256234.7766536928,
+  "installation_ratio": 0.3333333333333333,
+  "fixed_om_share_per_year": 0.013711533505727208,
+  "fixed_om_GBP2020_year": 1756685.8627098184,
+  "life_years": 60,
+  "real_discount_rate": 0.05,
+  "annuity_GBP2020_year": 6768209.031679009,
+  "annual_total_GBP2020": 8524894.894388828
+}

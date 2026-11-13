@@ -1,0 +1,63 @@
+PAGE 1
+ LUNA2000-215-2S10
+Smart String ESS
+
+
+
+
+
+             More Energy                              Simple O&M                              Safe & Reliable
+
+                                     Energy Storage System Parameters
+Model type                                                                     LUNA2000-215-2S10
+Rated capacity                                                                    215.0kWh
+Maximum cycle rate                                                                               0.5 CP
+Maximum cycle efficiency                                                               91.3%
+Depth of charge and discharge                                                      0~100%
+Dimensions (W x D x H)                                             1150mm×1800mm×2100mm
+Weight                                                                              ≤ 2.8 T
+Operating temperature range                                                       -30 °C ~ 55 °C (＞50°C Derating)
+Storage temperature range                                                                  -35 °C ~ 60 °C
+Operating humidity range                                                      0 ~ 100% (non-condensing)
+Maximum operating altitude                                                                 4,000 m
+System temperature control mode                                                          Hybrid cooling
+Balance mode                                                                                   Active balance
+SOC calibration mode                                                                     Automatic
+
+Fire suppression mode                                                          Directional gas exhaust, Top explosion vent, Aerosol
+Auxiliary power supply                                                    176~264 Vac，single phase，≤5 kW
+Power consumption standby                                                           ≤150 W
+Communication port                                                                    Ethernet / Optical fiber
+Communication protocol                                                      Modbus TCP
+Protection degree                                                                              IP55
+EMC protection rating                                                                                 Class B
+Noise (rated operating condition)                                                       65 dB(A)
+Lightning protection                                                                Type II (AC port)
+                                                         Anti-islanding protection, residual current detection, insulation resistance detection, AC overcurrent
+Protection mode
+                                                                                  protection, and AC cable connection protection
+Environment                                                                     RoHS6
+
+Certification standards                                     UL9540A; UN38.3; IEC 62477-1; IEC 62040-1; IEC 61000-6-1/2/3/4; IEC61727
+
+                                             Battery Parameters (DC)
+Cell material                                                                                LFP
+Rated battery capacity                                                              280Ah
+System battery configuration                                                            240S1P
+Number of battery packs                                                                 4
+Operating voltage range                                                              648~864 V
+Rated DC current                                                                     140 A
+                                        PCS Parameters (AC)
+PCS model type                                                                 PCS2000-108K-MB1
+Rated output power                                                                  108 kW
+Rated AC current                                                                            164.1 A
+AC voltage & frequency                                                   380 / 400 / 415 V (3P4W)，50 / 60 Hz
+Adjustable power factor range                                                                       -1 ... +1
+
+AC current harmonics THDi (rated operating condition)                                             ≤1.5 %
+
+
+Note：
+(1) * Rated operating condition: In the on-grid scenario, the ambient temperature is 25°C, the charge/discharge rate is 0.5 CP, and the AC output voltage is 400 Vac.
+(2) This product datasheet is used only for the bidding of early projects  .
+                                                                                  S O L A R . H U A W E I . C O M

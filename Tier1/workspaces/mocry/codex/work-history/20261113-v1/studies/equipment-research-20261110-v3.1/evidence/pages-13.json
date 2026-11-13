@@ -1,0 +1,256 @@
+[
+  {
+    "requested": "https://solar.huawei.com/en/products/luna2000-215-series/specs/",
+    "url": "https://solar.huawei.com/en/products/luna2000-215-series/specs/",
+    "status": 200,
+    "title": "LUNA2000-241 Series Specs | HUAWEI Smart PV Global",
+    "text": "LUNA2000-241 Series Specs | HUAWEI Smart PV Global\nModel: LUNA2000-241 Series\nOverview\nSpecs\nDownload & Support\nC&I Hybrid Cooling Grid Forming ESS\n\nModel: LUNA2000-241 Series\n\nModel type\nLUNA2000-241-2S1\nEnergy Storage System Parameters\nRated capacity\n241.0 kWh\nMaximum cycle efficiency\n91.3%\nDepth of charge and discharge\n0 ~ 100%\nDimensions (W x D x H)\n1150 mm × 1800 mm × 2100 mm\nWeight\n＜2.8 T\nOperating temperature range\n-30 °C ~ 55 °C ( ＞50 °C Derating)\nStorage temperature range\n-35 °C ~ 60 °C\nOperating humidity range\n0 ~ 100%RH (non-condensing)\nMaximum operating altitude\n4000 m\nSystem temperature control mode\nHybrid cooling\nBalance mode\nActive balance\nSOC calibration mode\nAutomatic\nFire suppression mode\nPack-level oxygen barrier, Directional gas exhaust, Top explosion vent, Aerosol\nAuxiliary power supply\n176 ~ 300 Vac，single phase，≤5 kW\nPower consumption standby\n≤150 W\nCommunication port\nEthernet / Optical fiber\nCommunication protocol\nModbus TCP\nProtection degree\nIP55\nEMC protection rating\nClass B\nNoise (rated operating condition)\n≤65 dB(A)\nLightning protection\nType II (AC port)\nProtection mode\nAnti-islanding protection, residual current detection, insulation resistance detection, AC overcurrent protection, and AC cable connection protection\nEnvironment\nRoHS6\nCertification standards\nUL9540A; UN38.3; IEC 62477-1; IEC 62040-1; IEC 61000-6-1/2/3/4; IEC 62619; IEC 60529; VDE-AR-E 2510-2/50; IEC 62933-5-1/2; IEC 61727; EN 50549; GB/T 34120\nBattery Parameters (DC)\nCell material\nLFP\nRated battery capacity\n314 Ah\nSystem battery configuration\n240S1P\nNumber of battery packs\n4\nOperating voltage range\n648 ~ 852 V\nRated DC current\n140 A\nPCS Parameters (AC)\nPCS model type\nPCS2000-108K-MB1\nRated output power\n108 kW\nRated AC current\n155.9 A\nAC voltage & frequency\n380 / 400 / 415 V (3P4W)，50 / 60 Hz\nAdjustable power factor range\n-1 ... +1\nAC current harmonics THDi (rated output power @on-grid)\n≤1.5%\nAC Voltage harmonics THDu (linear load @off-grid)\n≤2.0%\n\n* Rated operating condition: In the on-grid scenario, the ambient temperature is 25 °C, and the AC output voltage is 400 Vac.\n\nHome > Product > Model: LUNA2000-241 Series > Specs\n\nAbout FusionSolar\n\n \n\nProducts & Solution\n\n \n\nPartners\n\n \n\nService & Support\n\n \n\nQuick Links\n\n© 2026 Huawei Technologies Co., Ltd.\nTerms of Use Privacy Cookies Cookie Settings\n\nHuawei Technologies Co. Ltd use cookies on this site, including third party cookies, in order for the site to work properly and to analyse traffic, offer enhanced functionality, social media features, and personalise content and ads. Learn more\n\n  Consent Preferences >",
+    "links": [
+      {
+        "text": "Download",
+        "url": "https://info.support.huawei.com/Energy/info/en_US/solar/index"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/residential/"
+      },
+      {
+        "text": "Smart String ESS \n                 \n                 Model: LUNA2000-5/7/10/12/14/15/17/19/21-S1",
+        "url": "https://solar.huawei.com/en/products/luna2000-7-14-21-s1/"
+      },
+      {
+        "text": "Smart Energy Controller \n                 \n                 Model: SUN2000-12/15/17/20/25K-MB0",
+        "url": "https://solar.huawei.com/en/products/sun2000-12-15-17-20-25k-mb0/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: SUN2000-600W-PA0",
+        "url": "https://solar.huawei.com/en/products/merc-600w-pa0/"
+      },
+      {
+        "text": "Smart Guard \n                 \n                 Model: SmartGuard-63A-S0",
+        "url": "https://solar.huawei.com/en/products/huawei-smartguard/"
+      },
+      {
+        "text": "Product Comparison",
+        "url": "https://solar.huawei.com/en/residential/compare-smart-energy-controller-single-phase/"
+      },
+      {
+        "text": "Product Configuration",
+        "url": "https://solar.huawei.com/en/products/product-configuration/"
+      },
+      {
+        "text": "Download FusionSolar App",
+        "url": "https://intl.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/index.html#/jumppage"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/commercial-industrial/"
+      },
+      {
+        "text": "Smart PV Controller \n                 \n                 Model: SUN2000-150K-MG0",
+        "url": "https://solar.huawei.com/en/products/sun2000-150k-mg0/"
+      },
+      {
+        "text": "C&I Hybrid Cooling Grid Forming ESS \n                 \n                 Model: LUNA2000-241 Series",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: MERC-1100/1300W-P",
+        "url": "https://solar.huawei.com/en/products/merc-1100-1300-p/"
+      },
+      {
+        "text": "Accessories \n                 \n                 Model: Smart Dongle - 4G",
+        "url": "https://solar.huawei.com/en/products/ci-smartdongle-4g/"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/utility/"
+      },
+      {
+        "text": "Smart PV Controller \n                \n                Model: SUN2000-506KTL-H1/H3",
+        "url": "https://solar.huawei.com/dam/asset/view/c627e3ca4436437a8611374853aa4331.pdf"
+      },
+      {
+        "text": "Smart String Grid Forming ESS \n                \n                Model: LUNA2000-5015-2S",
+        "url": "https://solar.huawei.com/dam/asset/view/e9bb9b1319904298949861cb2d7c94ac.pdf"
+      },
+      {
+        "text": "Smart PCS \n                \n                Model: LUNA2000-213KTL-H0",
+        "url": "https://solar.huawei.com/dam/asset/view/129065513be14d9e93f68ff542d4f2c9.pdf"
+      },
+      {
+        "text": "Management System \n                \n                Smart PV Plant Management System",
+        "url": "https://solar.huawei.com/en/products/smart-pv-plant-management-system/"
+      },
+      {
+        "text": "",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/specs/"
+      },
+      {
+        "text": "Software Download",
+        "url": "https://support.huawei.com/enterprise/en/category/fusion-solar-pid-1600073963553?submodel=software"
+      },
+      {
+        "text": "Residential",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/specs/#"
+      },
+      {
+        "text": "Download & Support",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/support/"
+      },
+      {
+        "text": "Product",
+        "url": "https://solar.huawei.com/en/products/residential"
+      },
+      {
+        "text": "Model: LUNA2000-241 Series",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series"
+      },
+      {
+        "text": "Technical Support Center",
+        "url": "https://solar.huawei.com/en/support/"
+      }
+    ]
+  },
+  {
+    "requested": "https://solar.huawei.com/en/products/luna2000-215-series/support/",
+    "url": "https://solar.huawei.com/en/products/luna2000-215-series/support/",
+    "status": 200,
+    "title": "LUNA2000-241 Series User Guide | Smart Dongle Support | HUAWEI Smart PV Global",
+    "text": "LUNA2000-241 Series User Guide | Smart Dongle Support | HUAWEI Smart PV Global\nModel: LUNA2000-241 Series\nOverview\nSpecs\nDownload & Support\n\nC&I Hybrid Cooling Grid Forming ESS\n\nModel: LUNA2000-241-2S1\nModel: LUNA2000-215-2S10\nLUNA2000-241-2S1 Datasheet\n219.93 KB\nLUNA2000-215-2S10 Datasheet\n187 KB\nUser Manual\n6.0 MB\nQuick Guide\n6.5 MB\nDownload More\n\nInstallation Video\n\nFAQ\n\nQuestions Related to C&I GFM ESS Performance Specifications and System Functions\ni. Questions Related to C&I GFM ESS Warranty, Site Selection, and Layout\nii. Questions Related to Off-Grid Scenarios\nQuestions Related to C&I GFM ESS Performance Specifications and System Functions\n\n1. Q: What is the 2s backflow prevention function? Is it a globally unified requirement?\n\n2. Q: Does a parallel C&I GFM ESS system contain no more than 4 ESSs?\n\n3. Q: Is an isolation transformer required when the ESS or PV+ESS system is configured in the maximum self-consumption mode?\n\n4. Q: What are the requirements on the power supply of auxiliary devices of C&I GFM ESSs?\n\nClick to view   >\n\nCommunity\n\nLearn more\n\nDesign Tools\n\nLearn more\n\nHome > Product > Model: LUNA2000-241 Series > Support\n\nAbout FusionSolar\n\n \n\nProducts & Solution\n\n \n\nPartners\n\n \n\nService & Support\n\n \n\nQuick Links\n\n© 2026 Huawei Technologies Co., Ltd.\nTerms of Use Privacy Cookies Cookie Settings\n\nHuawei Technologies Co. Ltd use cookies on this site, including third party cookies, in order for the site to work properly and to analyse traffic, offer enhanced functionality, social media features, and personalise content and ads. Learn more\n\n  Consent Preferences >",
+    "links": [
+      {
+        "text": "Download",
+        "url": "https://info.support.huawei.com/Energy/info/en_US/solar/index"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/residential/"
+      },
+      {
+        "text": "Smart String ESS \n                 \n                 Model: LUNA2000-5/7/10/12/14/15/17/19/21-S1",
+        "url": "https://solar.huawei.com/en/products/luna2000-7-14-21-s1/"
+      },
+      {
+        "text": "Smart Energy Controller \n                 \n                 Model: SUN2000-12/15/17/20/25K-MB0",
+        "url": "https://solar.huawei.com/en/products/sun2000-12-15-17-20-25k-mb0/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: SUN2000-600W-PA0",
+        "url": "https://solar.huawei.com/en/products/merc-600w-pa0/"
+      },
+      {
+        "text": "Smart Guard \n                 \n                 Model: SmartGuard-63A-S0",
+        "url": "https://solar.huawei.com/en/products/huawei-smartguard/"
+      },
+      {
+        "text": "Product Comparison",
+        "url": "https://solar.huawei.com/en/residential/compare-smart-energy-controller-single-phase/"
+      },
+      {
+        "text": "Product Configuration",
+        "url": "https://solar.huawei.com/en/products/product-configuration/"
+      },
+      {
+        "text": "Download FusionSolar App",
+        "url": "https://intl.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/index.html#/jumppage"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/commercial-industrial/"
+      },
+      {
+        "text": "Smart PV Controller \n                 \n                 Model: SUN2000-150K-MG0",
+        "url": "https://solar.huawei.com/en/products/sun2000-150k-mg0/"
+      },
+      {
+        "text": "C&I Hybrid Cooling Grid Forming ESS \n                 \n                 Model: LUNA2000-241 Series",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/"
+      },
+      {
+        "text": "Smart Module Controller \n                 \n                 Model: MERC-1100/1300W-P",
+        "url": "https://solar.huawei.com/en/products/merc-1100-1300-p/"
+      },
+      {
+        "text": "Accessories \n                 \n                 Model: Smart Dongle - 4G",
+        "url": "https://solar.huawei.com/en/products/ci-smartdongle-4g/"
+      },
+      {
+        "text": "All Products",
+        "url": "https://solar.huawei.com/en/products/utility/"
+      },
+      {
+        "text": "Smart PV Controller \n                \n                Model: SUN2000-506KTL-H1/H3",
+        "url": "https://solar.huawei.com/dam/asset/view/c627e3ca4436437a8611374853aa4331.pdf"
+      },
+      {
+        "text": "Smart String Grid Forming ESS \n                \n                Model: LUNA2000-5015-2S",
+        "url": "https://solar.huawei.com/dam/asset/view/e9bb9b1319904298949861cb2d7c94ac.pdf"
+      },
+      {
+        "text": "Smart PCS \n                \n                Model: LUNA2000-213KTL-H0",
+        "url": "https://solar.huawei.com/dam/asset/view/129065513be14d9e93f68ff542d4f2c9.pdf"
+      },
+      {
+        "text": "Management System \n                \n                Smart PV Plant Management System",
+        "url": "https://solar.huawei.com/en/products/smart-pv-plant-management-system/"
+      },
+      {
+        "text": "",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/support/"
+      },
+      {
+        "text": "Software Download",
+        "url": "https://support.huawei.com/enterprise/en/category/fusion-solar-pid-1600073963553?submodel=software"
+      },
+      {
+        "text": "Residential",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/support/#"
+      },
+      {
+        "text": "Specs",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/specs/"
+      },
+      {
+        "text": "219.93 KB",
+        "url": "https://solar.huawei.com/dam/asset/view/91e4c6e06feb4284a0d71f515288352f.pdf"
+      },
+      {
+        "text": "187 KB",
+        "url": "https://solar.huawei.com/dam/asset/view/135e950d5f0c40ffa317c4cd20554e08.pdf"
+      },
+      {
+        "text": "6.0 MB",
+        "url": "https://download.huawei.com/edownload/e/download.do?actionFlag=download&nid=EDOC1100394281&partNo=6001&mid=SUPE_DOC&_t=20250908173303000"
+      },
+      {
+        "text": "6.5 MB",
+        "url": "https://download.huawei.com/edownload/e/download.do?actionFlag=download&nid=EDOC1100429497&partNo=6001&mid=SUPE_DOC&_t=20250830175752000"
+      },
+      {
+        "text": "Click to view\n                                  >",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/faq/#anchor1"
+      },
+      {
+        "text": "Click to view\n                                  >",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/faq/#anchor2"
+      },
+      {
+        "text": "Click to view\n                                  >",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series/faq/#anchor3"
+      },
+      {
+        "text": "Product",
+        "url": "https://solar.huawei.com/en/products/residential"
+      },
+      {
+        "text": "Model: LUNA2000-241 Series",
+        "url": "https://solar.huawei.com/en/products/luna2000-215-series"
+      },
+      {
+        "text": "Technical Support Center",
+        "url": "https://solar.huawei.com/en/support/"
+      }
+    ]
+  }
+]

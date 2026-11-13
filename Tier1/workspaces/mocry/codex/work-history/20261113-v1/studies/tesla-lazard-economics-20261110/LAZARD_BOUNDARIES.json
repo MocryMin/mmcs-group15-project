@@ -1,0 +1,181 @@
+{
+  "source_pdf": "evidence/Lazard-LCOEplus-202506-archived20251025.pdf",
+  "physical_pages": [
+    19,
+    42,
+    43
+  ],
+  "original_url": "https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+  "archive_url": "https://web.archive.org/web/20251025104311id_/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+  "report_year": 2025,
+  "currency": "USD",
+  "price_year_assumption": 2025,
+  "price_year_note": "Report presents USD;using2025pricebase is a modelling interpretation,not an independently stated real-dollar index",
+  "cases": {
+    "utility_2h": {
+      "P_MW": 100,
+      "E_MWh": 200,
+      "DC_USD_kWh": [
+        113,
+        244
+      ],
+      "AC_USD_kW": [
+        26,
+        70
+      ],
+      "EPC_USD_kWh": [
+        29,
+        122
+      ],
+      "installed_total_mUSD_reported": [
+        34,
+        88
+      ],
+      "OM_USD_kWh_year": [
+        3,
+        8.2
+      ],
+      "warranty_fraction_K": [
+        0.0065,
+        0.015
+      ],
+      "RTE": [
+        0.91,
+        0.87
+      ],
+      "charging_USD_MWh": 33,
+      "reconstructed_K_before_overbuild": [
+        31000000,
+        80200000
+      ],
+      "reconstructed_K_with10pct_overbuild": [
+        34100000.0,
+        88220000.0
+      ],
+      "reconstructed_installed_USD_per_reference_kWh": [
+        170.5,
+        441.1
+      ],
+      "first_year_general_OM_USD": [
+        600000,
+        1639999.9999999998
+      ]
+    },
+    "utility_4h": {
+      "P_MW": 100,
+      "E_MWh": 400,
+      "DC_USD_kWh": [
+        107,
+        232
+      ],
+      "AC_USD_kW": [
+        25,
+        67
+      ],
+      "EPC_USD_kWh": [
+        28,
+        116
+      ],
+      "installed_total_mUSD_reported": [
+        62,
+        160
+      ],
+      "OM_USD_kWh_year": [
+        3,
+        8
+      ],
+      "warranty_fraction_K": [
+        0.0066,
+        0.0185
+      ],
+      "RTE": [
+        0.92,
+        0.86
+      ],
+      "charging_USD_MWh": 27,
+      "reconstructed_K_before_overbuild": [
+        56500000,
+        145900000
+      ],
+      "reconstructed_K_with10pct_overbuild": [
+        62150000.00000001,
+        160490000.0
+      ],
+      "reconstructed_installed_USD_per_reference_kWh": [
+        155.37500000000003,
+        401.225
+      ],
+      "first_year_general_OM_USD": [
+        1200000,
+        3200000
+      ]
+    },
+    "CI_2h": {
+      "P_MW": 1,
+      "E_MWh": 2,
+      "DC_USD_kWh": [
+        238,
+        445
+      ],
+      "AC_USD_kW": [
+        40,
+        80
+      ],
+      "EPC_USD_kWh": [
+        56,
+        168
+      ],
+      "installed_total_mUSD_reported": [
+        1,
+        1
+      ],
+      "OM_USD_kWh_year": [
+        7.3,
+        9.1
+      ],
+      "warranty_fraction_K": [
+        0.005,
+        0.013
+      ],
+      "RTE": [
+        0.92,
+        0.88
+      ],
+      "charging_USD_MWh": 111,
+      "reconstructed_K_before_overbuild": [
+        628000,
+        1306000
+      ],
+      "reconstructed_K_with10pct_overbuild": [
+        690800.0,
+        1436600.0
+      ],
+      "reconstructed_installed_USD_per_reference_kWh": [
+        345.4,
+        718.3
+      ],
+      "first_year_general_OM_USD": [
+        14600.0,
+        18200.0
+      ]
+    }
+  },
+  "general_OM_escalator": 0.025,
+  "warranty_start_year": 3,
+  "project_years": 20,
+  "depth": 0.9,
+  "initial_overbuild": 0.1,
+  "cycles_per_operating_day": 1,
+  "operating_days_year": 350,
+  "general_OM_row_scope": "General O&M only;warranty and augmentation separately enter total operating-cost line",
+  "augmentation_scope": "Not in initial capital cost;incurred later to restore usable energy,valued at original module cost in methodology",
+  "charging_scope": "LCOS already includes charging and financing/tax assumptions;not an additional cash charge in a separate dispatch model",
+  "transfer_rules": [
+    "Do not add10%overbuild again to alreadyoverbuilt installed totals",
+    "Do not add general O&M,warranty and augmentation twice by reading the total cost line as another fee",
+    "Year3warranty is a Lazard scenario,not Tesla15year warranty terms",
+    "Scale endpoints are scenario types,not a supplier quantity-discount curve",
+    "Do not add a standalonePCS charge to the integratedTesla equipment quote",
+    "UKproject does not inherit USITC,MACRS,leverage or charging tariff automatically"
+  ]
+}

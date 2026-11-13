@@ -1,0 +1,172 @@
+{
+  "repository": "https://github.com/MocryMin/mmcs-group15-project",
+  "commit": "53e3b50181ff9b6238a802cb32d65652518dbb29",
+  "scope": "Public shared source snapshots; original hashes precede local-link adaptation.",
+  "files": [
+    {
+      "file": "research/R1-market/CROSS_REVIEW_R4.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/CROSS_REVIEW_R4.md",
+      "sha256": "12b86b3ceef17e835bb19a4d93254c3401ac2133e9a45ab0fb7832db9ac65cdd"
+    },
+    {
+      "file": "research/R1-market/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/parameters.json",
+      "sha256": "e205a0afaec2c6ba5742a4b09982a41d6b56048f4404dd2038e979b429f4dc5d"
+    },
+    {
+      "file": "research/R1-market/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/REPORT.md",
+      "sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc"
+    },
+    {
+      "file": "research/R1-market/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/sources.json",
+      "sha256": "138914c4feac9b5f9d6f793c4b82bfce6887a76ee06c26c0b798c1f813e485f6"
+    },
+    {
+      "file": "research/R1-market/FIRST_PASS/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/FIRST_PASS/parameters.json",
+      "sha256": "e205a0afaec2c6ba5742a4b09982a41d6b56048f4404dd2038e979b429f4dc5d"
+    },
+    {
+      "file": "research/R1-market/FIRST_PASS/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/FIRST_PASS/REPORT.md",
+      "sha256": "af71b93b279a3ecbaf556c5a4319715635a70f699365fcc3494a69393d8753dc"
+    },
+    {
+      "file": "research/R1-market/FIRST_PASS/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R1-market/FIRST_PASS/sources.json",
+      "sha256": "138914c4feac9b5f9d6f793c4b82bfce6887a76ee06c26c0b798c1f813e485f6"
+    },
+    {
+      "file": "research/R2-battery/calculations.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/calculations.json",
+      "sha256": "cee130cdc85db0b21c05df534925592f21d28a7a8781508bb36045f3ff5241ea"
+    },
+    {
+      "file": "research/R2-battery/CROSS_REVIEW_R3.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/CROSS_REVIEW_R3.md",
+      "sha256": "d26c90817eeab9961b3be41b87265ceb43dc7c4ea906608cef07620842b479f2"
+    },
+    {
+      "file": "research/R2-battery/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/parameters.json",
+      "sha256": "be6ac96e59c0f7da6a9b1bba8ea0489795a6078ca3319949aedd7f91a18a85c2"
+    },
+    {
+      "file": "research/R2-battery/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/REPORT.md",
+      "sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b"
+    },
+    {
+      "file": "research/R2-battery/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/sources.json",
+      "sha256": "94b551f0fb2ae60bab7a41e30a24195228beda1866871eaf7e803dfeab7c08e4"
+    },
+    {
+      "file": "research/R2-battery/FIRST_PASS/calculations.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/FIRST_PASS/calculations.json",
+      "sha256": "cee130cdc85db0b21c05df534925592f21d28a7a8781508bb36045f3ff5241ea"
+    },
+    {
+      "file": "research/R2-battery/FIRST_PASS/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/FIRST_PASS/parameters.json",
+      "sha256": "be6ac96e59c0f7da6a9b1bba8ea0489795a6078ca3319949aedd7f91a18a85c2"
+    },
+    {
+      "file": "research/R2-battery/FIRST_PASS/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/FIRST_PASS/REPORT.md",
+      "sha256": "ecc4607be8fa6cd160fc7f1ff3991daf94e88a646e48de7420ae8b70019d052b"
+    },
+    {
+      "file": "research/R2-battery/FIRST_PASS/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R2-battery/FIRST_PASS/sources.json",
+      "sha256": "94b551f0fb2ae60bab7a41e30a24195228beda1866871eaf7e803dfeab7c08e4"
+    },
+    {
+      "file": "research/R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/CONTROLLER_FOLLOWUP_IEA.md",
+      "sha256": "aa09041627eacb97892131b39d8738f539c267c8e15e6863ef317fad16517097"
+    },
+    {
+      "file": "research/R3-hydrogen/CROSS_REVIEW_R2.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/CROSS_REVIEW_R2.md",
+      "sha256": "64555ff567a372082ff4f57417c61fc7924dd627b154e788cc6005c40972df10"
+    },
+    {
+      "file": "research/R3-hydrogen/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/parameters.json",
+      "sha256": "2f6cf6a06f66f7777bac5118ad73ba6c346f06ac9ef8e7811152554622e46a6a"
+    },
+    {
+      "file": "research/R3-hydrogen/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/REPORT.md",
+      "sha256": "39fd00fa6e4864fdbd225042bb960c451cd563d4ef057dec4653174dc64d2b57"
+    },
+    {
+      "file": "research/R3-hydrogen/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/sources.json",
+      "sha256": "70210c3ff40511948d9b90c9d177af7c480e44ac7de89b7ce46d9a4ec61f856e"
+    },
+    {
+      "file": "research/R3-hydrogen/FIRST_PASS/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/FIRST_PASS/parameters.json",
+      "sha256": "348fafa71f185ee413ca5246b1a4263f0db61e1cbc41e1e59798c2ba6daa50cd"
+    },
+    {
+      "file": "research/R3-hydrogen/FIRST_PASS/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/FIRST_PASS/REPORT.md",
+      "sha256": "e0ddd4b7d1f5b8bfca13270e531dc5f6b67a15669facde3a42a838bdff57f783"
+    },
+    {
+      "file": "research/R3-hydrogen/FIRST_PASS/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R3-hydrogen/FIRST_PASS/sources.json",
+      "sha256": "f4d0856a4ec2cd31c66656188a313ae516c8b40e47a44d9bb54fdeb4c60411c5"
+    },
+    {
+      "file": "research/R4-finance-data/data_audit.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R4-finance-data/data_audit.json",
+      "sha256": "17a9eb1924debff907f22fe72a68fd5b56fe872d8443bf6a9956118c7358f458"
+    },
+    {
+      "file": "research/R4-finance-data/financial_audit.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R4-finance-data/financial_audit.json",
+      "sha256": "e708ae3504b9a03b57d711dc4bfd69d19d6db91334c293c7a7b8c8ca959b0db0"
+    },
+    {
+      "file": "research/R4-finance-data/parameters.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R4-finance-data/parameters.json",
+      "sha256": "801f7c57a1e8c9108cb0559073fe8a6551647ae499a23c21d5a6d8ee88ddcfeb"
+    },
+    {
+      "file": "research/R4-finance-data/REPORT.md",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R4-finance-data/REPORT.md",
+      "sha256": "340fcb76ec4883b73ad464fda4ad003ce14ef5492136ee756938bb5919a994b5"
+    },
+    {
+      "file": "research/R4-finance-data/sources.json",
+      "repo_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1.1/R4-finance-data/sources.json",
+      "sha256": "42629da95a459c4ffc775cf08a47a61b74e1cea1ef4b44aef1042b73913f9650"
+    },
+    {
+      "file": "references/TEACHER_CLARIFICATIONS.md",
+      "repo_path": "Tier1/public/baseline_1103/TEACHER_CLARIFICATIONS.md",
+      "sha256": "be1670b618be9cf1b503f99c039f1aa5893a77779eb2774772d01e5d325b25b1"
+    },
+    {
+      "file": "references/TEACHER_ORIGINAL_EXCERPTS.md",
+      "repo_path": "Tier1/public/baseline_1103/TEACHER_ORIGINAL_EXCERPTS.md",
+      "sha256": "0b19ce258d12af15a374c73dbaab0b0afd4dd9455365474536fc030f1482feb0"
+    },
+    {
+      "file": "references/Project_Launch_Transcript.txt",
+      "repo_path": "Project_Launch_Transcript.txt",
+      "sha256": "8e50a2273029841413ec28432b475d23e81bcba8450528641319110950d72746"
+    },
+    {
+      "file": "review/cu-correction-notice-20261106.md",
+      "repo_path": "Tier1/agent_message/messages/20261106T174745991277Z_mocry-cleveruser_bfd098a124ae49268ac9edfb7ec131db.md",
+      "sha256": "1b49b0b48dd4b08dbc1bf0e05b811ae497528c70f6bcc77576a6fa021937bae8"
+    }
+  ]
+}

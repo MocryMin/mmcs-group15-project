@@ -1,0 +1,19 @@
+{
+  "source_id":"LOCAL-MMCS-CU-EQUIPMENT-CROSSCHECK-20261110",
+  "course_id":"MMCS",
+  "academic_year":"2026/27",
+  "collected_at":"2026-11-10",
+  "user_request":"CU进行的那轮调查是否有额外可用/值得深入调查的信息",
+  "peer_scope":"CU20261103-cu-v1R2/R3; originals, source registries and controller correction read",
+  "remote_sync":"gitfetchandfastforwardmain48a3cdd;no remotewrites",
+  "review":"../assignments/FinalProject/equipment-cu-crosscheck-20261110/REVIEW_ZH.md",
+  "evidence_register":"../assignments/FinalProject/equipment-cu-crosscheck-20261110/SOURCES.json",
+  "access":"Anonymous Playwright MCP; Tesla regulatory-copy source recovered by browser fetch after requestDNSfailure; no authenticated pages or challenges bypassed",
+  "verified_primary_sources":["Tesla2023Megapack2XLdatasheet,governmentarchive","PNNL2022fullreportprintedpp17-22","DEA2025cataloguepp180-181","DESNZhydrogenstorage/transportreportpp36-37"],
+  "unverified_lead":"Lazard2025PDF403;CUextractsnotpromotedtoverifiedinputs",
+  "correction":"v3cycle-reference terminalcapacity clarified;2400cyclesat80%DoDreaches80%remainingcapacity,notultimate60%",
+  "revised_directory":"../assignments/FinalProject/equipment-research-20261110-v3.1",
+  "baseline_modified":false,
+  "new_optimization":false,
+  "remote_publication":false
+}

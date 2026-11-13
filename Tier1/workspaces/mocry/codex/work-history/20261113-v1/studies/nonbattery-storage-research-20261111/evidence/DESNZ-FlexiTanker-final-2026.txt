@@ -1,0 +1,1802 @@
+PAGE 1
+Flexitanker final project
+report
+LoDES Stream 2
+
+
+
+
+
+January 2026
+PAGE 2
+Acknowledgements
+
+With special thanks to the Department of Energy Security & Net Zero for making this work
+possible, to our project monitoring officer Andrew, and to all of the Keep Energy Systems team
+present and past for their outstanding efforts and commitment.
+
+
+
+
+
+© Crown copyright 2026
+
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated.
+To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3.
+
+Where we have identified any third-party copyright information you will need to obtain permission from the
+copyright holders concerned.
+PAGE 3
+Contents
+
+Contents __________________________________________________________________ 3
+Executive summary __________________________________________________________ 4
+Abbreviations _______________________________________________________________ 5
+Glossary ___________________________________________________________________ 6
+Project context ______________________________________________________________ 9
+  Background ______________________________________________________________ 9
+  Programme overview _______________________________________________________ 9
+  Company introduction _____________________________________________________ 10
+  Objectives ______________________________________________________________ 10
+Technology overview ________________________________________________________ 11
+ How the system works _____________________________________________________ 11
+  Benefits and challenges ____________________________________________________ 13
+Project overview ___________________________________________________________ 16
+  Project summary and evolution ______________________________________________ 16
+Design and development of the system __________________________________________ 19
+  Previous design history ____________________________________________________ 19
+  Technology development pathway ____________________________________________ 20
+  Overall design and layout ___________________________________________________ 20
+  Subsystems _____________________________________________________________ 24
+Test results _______________________________________________________________ 26
+  Prototype system operation _________________________________________________ 26
+  Demonstrator test plan and simulations ________________________________________ 35
+Delivery against objectives ___________________________________________________ 50
+Key successes and lessons learned ____________________________________________ 52
+  Technical successes ______________________________________________________ 52
+  Commercial traction and engagement _________________________________________ 52
+  Lessons learned __________________________________________________________ 52
+Commercialisation pathway ___________________________________________________ 54
+  Commercial opportunities __________________________________________________ 54
+PAGE 4
+Executive summary
+
+As part of the Longer Duration Energy Storage competition, Keep Energy Systems (KES) has
+progressed its modular compressed air energy storage technology with the support of the
+Department for Energy Security and Net Zero (DESNZ), as part of the Net Zero Innovation
+Portfolio (NZIP). The technology is designed to support commercial and industrial customers
+that need five to twenty hours of energy storage capacity and makes use of proven industrial
+hardware such as repurposed truck engines as compressor-expanders and compressed
+natural gas pressure vessels for high pressure air storage.
+
+Over the course of the project, three main work streams have been delivered. The first was the
+first full-scale prototype of the KES technology. This was designed, procured, assembled and
+tested at a site in Nottingham, within the Boots industrial campus. Testing showed strong
+performance, with representative power output close to design specifications as well as
+opportunities for improvement around engine valve sealing and controllability.
+
+The project initially planned to deploy multiple pilot units to a customer site in Colchester as the
+second work stream, unlocking a new mixed-use development that faces significant grid
+constraints. Unfortunately, the progress of the new development slowed materially and the site
+remains unoccupied at time of writing. This led the KES team to rescope the second work
+stream in late 2024 to instead focus on deploying a second-generation system at the
+Nottingham site, known as Demonstrator. This allowed for greater technical innovation,
+pushing up the power rating and energy capacity of the system alongside higher round trip
+efficiency, while also reducing the total project spend by over £2.5m.
+
+The change was approved in January 2025 and the Demonstrator system was designed,
+manufactured and commissioned within 12 months. The testing of the system was ongoing at
+the time of writing, and consequently the Demonstrator findings provided within the report are
+simulation data at this point. The simulations show that the system is able to deliver the
+upgraded 200 kW and 1 MWh specification, with the potential to reach 52% round trip
+efficiency in due course, exceeding the 50% target set on the performance roadmap.
+
+In the third workstream, commercial engagement with major customers like Shell, Amazon and
+a major mining player in Western Australia, key stakeholders such as Northern Powergrid and
+supply chain partners Siemens, Volvo Penta and Tharsus have helped to shape the
+technology rapidly towards its full production specification.
+PAGE 5
+Abbreviations
+
+BDC       Bottom Dead Centre
+
+CAES      Compressed Air Energy Storage
+
+CAS       Compressed Air Store
+
+DESNZ     Department for Energy Security and Net Zero
+
+ECS          Electrical Control System (overall system controller)
+
+EMS       Engine Management System
+
+EVCU       Electronic Valve Control Unit
+
+GUI         Graphical User Interface
+
+HMI       Human/Machine Interface
+
+HP         High Pressure
+
+IHE          Intermediate- and High-Pressure Engine
+
+IP           Intermediate Pressure
+
+IPS          Isobaric Pressure Store
+
+KES       Keep Energy Systems
+
+LoDES     Longer Duration Energy Storage
+
+LP        Low Pressure
+
+LPE        Low- Pressure Engine
+
+P&ID        Piping and Instrumentation Diagram
+
+PLC       Programmable Logic Controller
+
+SC         Supercharger
+
+TDC       Top Dead Centre
+
+VSD         Variable Speed Drive
+PAGE 6
+Glossary
+
+Table 1: Definitions
+
+  Term                                    Definition
+
+  Charge (engine)                   Engine valve operating mode. When charge mode is
+                                         selected, the cold-side valve opens during the piston
+                                    downstroke to draw in air from the cold plenum then
+                                       closes at BDC. The air is compressed during the
+                                      upstroke and the hot valve is opened when the cylinder
+                                      pressure approximates the hot plenum pressure. The
+                                  compressed air is discharged into the hot plenum until
+                                        the hot valve closes at TDC. This consumes mechanical
+                                  power (supplied by one of the electric motors) and
+                                    produces hot compressed air.
+
+  Charge (system)                 System operating state wherein the engine subsystems
+                                      are in engine charge (compression) mode and in
+                                    communication with the thermal store and air store
+                                    subsystems. Electrical power is consumed by the
+                                       engines, and the heat and compressed air produced are
+                                        stored in the thermal and air stores.
+
+  Demonstrator                   Second generation KES energy storage system,
+                                    developed with learnings from the Prototype system but
+                                         with higher power rating and energy storage capacity.
+
+  Discharge (engine)                Engine valve operating mode. When discharge mode is
+                                         selected, the hot-side valve opens at TDC then closes
+                                        during the piston downstroke. The inducted air is then
+                                  expanded until it reaches approximately the pressure of
+                                        the cold plenum, at which point the cold valve opens. The
+                                                  air is discharged through the cold valve during the
+                                      upstroke and the cold valve closes shortly before TDC,
+                                   such that enough air remains to reach hot plenum
+                                      pressure at TDC. This consumes hot compressed air and
+                                    produces mechanical power (which may be converted to
+                                              electric power by the electric motor-generator).
+PAGE 7
+Discharge (system)               System operating state wherein the engine subsystems
+                                    are in engine discharge (expansion) mode and in
+                                  communication with the thermal store and air store
+                                  subsystems. The heat and compressed air stored in the
+                                     thermal and air stores are used by the engines and
+                                    converted to electrical power.
+
+Engine                        The reciprocating expander/compressor component of
+                                      the LPE and IHE. The term engine is used for brevity
+                                     regardless of the current function. The engine interfaces
+                                          to the raft, to either of the motors at its flywheel and to
+                                      the two plenums.
+
+Engine valves                   The two valves located in the cylinder head of each
+                                   engine cylinder. Engine valves are differentiated from the
+                                     valves elsewhere as they are controlled by the EVCU
+                                        rather than by the system ECS. The “hot” valve is the
+                                     higher-pressure side of the engine in all cases (operating
+                                 as the outlet in charge mode and the inlet in discharge
+                                  mode), and vice-versa for the “cold” valve.
+
+ECS                           The overall controller for the system.
+
+EMS                           The controller for each engine, which comprises 12-off
+                                     valve actuator controllers (one per engine valve, which
+                                         control the motion of the valves) and one or two EVCUs
+                                          that command the drivers to open or close according to
+                                    user instructions and the engine’s current state.
+
+EVCU                         The EVCU controls timing of the engine valves based on
+                                      the position of the engine's crankshaft. Based on the
+                                      operating mode and the plenum pressures, the EVCU
+                                       calculates the crank angle at which to trigger each
+                                   engine valve to open and close, and transmits this signal
+                                          to the actuator drive.
+
+Idle mode                         Engine valve operating mode as set by the EVCU. This
+                                      allows the engine to rotate freely (there is no net torque
+                                    exerted by pressure) without the need to actuate valves.
+
+IHE                           The IHE subsystem, comprising the engine, raft, motor,
+                                           etc.
+
+LPE                           The LPE subsystem, comprising the engine, raft, motor
+                                plenums etc.
+PAGE 8
+Plenums                             Pulsation bottles and manifolds connecting the engines
+                                          to the wider pipework system, connecting multiple engine
+                                        cylinders into one pipe interface and damping out
+                                        pulsations.
+
+Thermal store                   Combined thermal store/heat exchanger subsystem.
+
+System valve                   Any manual or actuated valves located in the system
+                                     pipework. (Cf engine valves.)
+PAGE 9
+Project context
+
+Background
+
+The UK’s transition to a net-zero energy system will require much greater flexibility to integrate
+renewables, with storage, demand side response and interconnection together expected to
+deliver £6–12bn of system savings by 20501 and support up to 10,000 domestic jobs2.
+
+Energy storage enables higher utilisation of intermittent generation, provides essential
+balancing, stability and congestion management services, and can defer network
+reinforcement, contributing to a lower-cost and more secure system as renewables continue to
+scale.
+
+Longer duration storage could reduce reliance on fossil back-up and renewable curtailment,
+which reached over 3.6 TWh of wind in 2020 (75% of days)3. Alongside mature technologies
+such as the 2.8 GW of pumped hydro already deployed4, new technologies will help meet the
+UK's full system needs.
+
+Programme overview
+
+The Longer Duration Energy Storage (LoDES) funding competition is a UK government
+innovation programme under the Net Zero Innovation Portfolio run by the Department for
+Energy Security and Net Zero (DESNZ). It seeks to accelerate the commercialisation and
+demonstration of innovative longer-duration energy storage technologies (beyond lithium-ion
+and pumped hydro) that can store energy for four or more hours and provide grid flexibility as
+renewables grow. The competition has supported projects from feasibility to full demonstration,
+with winners receiving grants to scale prototypes and enhance UK energy system capabilities.
+
+  ‘The aim of the Competition is to further accelerate commercialisation of innovative
+  energy storage technologies. It will do this by focusing on technologies that
+  provide longer duration storage capability and can provide novel services/system
+   benefits.’
+
+  LoDES Stream 2 guidance, July 2021
+
+
+
+
+1 BEIS, Modelling 2050: Electricity System Analysis (2020),
+https://www.gov.uk/government/publications/modelling-2050-electricity-system-analysis
+2 BEIS, Energy Innovation Needs Assessment (2019), https://www.gov.uk/government/publications/energy-
+innovation-needs-assessments
+3 Lane, Clark and Peacock, “Is battery storage a good investment opportunity?” (2020),
+https://www.lcp.uk.com/energy/publications/is-battery-storage-a-good-investment-opportunity/
+4 British Hydropower Association, Pumped Storage Hydropower (2025), https://british-hydro.org/wp-
+content/uploads/2025/05/Pumped-Storage-Brochure-May25.pdf
+PAGE 10
+Company introduction
+
+Keep Energy Systems is a Nottingham-based clean energy technology company developing
+longer-duration energy storage solutions, targeting grid resilience and renewable integration. It
+was formerly known as Cheesecake Energy and rebranded in 2025 to reflect its focus on
+dependable, resilient energy storage. Building on research developed at the University of
+Nottingham over more than a decade, Keep Energy Systems aims to lower storage costs and
+accelerate the clean energy transition.
+
+Objectives
+
+The DESNZ LoDES Competition objectives were to:
+
+   •  Explore the potential for cost reductions of longer duration storage technologies;
+   •  De-risk effective non-conventional storage technologies and therefore
+   •  Secure buy-in from commercial investors;
+   •  Demonstrate capability, securing data to inform policy formulation;
+   •  Build a pipeline of storage technologies in the UK, supporting expertise and export
+       opportunities.
+
+
+The specific Flexitanker project aims were to:
+
+   •  Deliver a strong multi-unit demonstrator for Keep Energy Systems’ technology
+   •  Engage at meaningful volumes with a scalable supply chain
+   •  Validate the technology and cost roadmaps to production units
+   •  Build customer feedback into technology development
+PAGE 11
+Technology overview
+
+Keep Energy Systems has developed a modular compressed air energy storage solution for
+longer-duration daily cycling applications. The technology aims to deliver low-cost and reliable
+energy storage in a modular, containerised package, and provides durable medium-duration
+energy storage designed for discharge durations of between 5 and 20 hours for power outputs
+from 200 kW up to 50 MW. The final production system is designed to be simple, robust, and
+straightforward to operate, with an operational lifetime of up to 25 years, and a target round trip
+efficiency of 65%. The prototype of this technology has been developed and tested, and a
+more advanced demonstrator system has also been built and installed, both representing key
+steps on the technology development journey towards this production system.
+
+How the system works
+
+Electricity from renewables or the local grid is used to charge the system. In charge mode the
+system takes in air from the local atmosphere and then uses electrical power to compress it to
+around 230 bar(g). This compression is achieved in three stages (the first of which is
+supercharged), using electric motors that drive reciprocating-piston machines that are based
+on modified automotive diesel engines (with fuel systems removed). Each compression stage
+raises the air temperature, and the air is then passed through a stage of the thermal store to
+deposit heat prior to the next compression stage. The extracted heat is stored in the form of a
+bed of magnetite (iron ore), and the compressed air in pressure vessels.
+
+A schematic of the system is shown in Figure 1.
+
+Figure 1: Schematic of KES energy storage system.
+
+
+
+
+
+In discharge mode the process is reversed to generate electricity. The compressed air is
+released from the air store, heated using the stored heat in the thermal store and allowed to
+expand in the cylinders of the same engines which have been used for the compression
+PAGE 12
+process. This is repeated for each of the three thermal store and piston machine stages. The
+expanding air drives the pistons to turn the engine crankshaft, which in turn drives the motors
+as generators.
+
+The KES team consider there to be four key innovative aspects of the technology. These
+enable the system to deliver its aims and differentiate it from alternatives. These innovations
+are summarised below.
+
+    1.  The KES system has been designed to store the pressurised air at a constant pressure
+        (isobaric conditions). This uses water to balance the pressures in the pressure vessels
+        at all times. The isobaric storage has the advantage of allowing:
+        o  the compression / expansion machines to always operate at the same condition,
+        o  the complete charge of air to be removed from the tank during a discharge cycle,
+        o  tank wall stresses to remain constant, which removes fatigue limits and enables
+             longer lifetimes for the vessels,
+        o  ‘water testing’ of the tanks at regular intervals – improving safety.
+    2.  The system re-tasks ex-service diesel truck engines to provide affordable reversible
+       compressor-expander machines compatible with hot compression-expansion, and
+        giving the performance required. The past years of testing have developed very
+         significant Intellectual Property in the design of the modification packs for these
+       engines.
+
+    3.  The system will ultimately incorporate synchronous AC generators directly connected
+        to the grid. These deliver inertia services, reduce harmonic distortion, and provide fault
+        current services in addition to the energy storage services.
+
+    4.  The compressor-expander machines rely on an active valve actuation system invented
+      and patented by KES.
+
+It is this fourth aspect which allows the reuse of truck engines as efficient and reversible
+compressor-expander units. The key to achieving the reversible operation of these, and
+allowing the same units to be used for both compression and expansion, was developing a
+way to actively control the poppet-valves. It is entirely possible to operate a compressor with
+passive one-way valves, and if the system were only operating in a compression mode, this
+would be the simplest solution. But by pioneering a way of flexibly controlling rapid transits of
+the poppet-valves from one extreme to the other, the same power train can be used for both
+charging and discharging. This significantly reduces the amount of installed equipment
+required.
+PAGE 13
+Benefits and challenges
+
+Independent power and energy storage capacity
+
+In the KES system these are scaled independently of one another, allowing commercial and
+industrial customers to install exactly what is needed for their application, reducing
+unnecessary CAPEX.
+System degradation and asset life
+
+The KES system is designed to be cycled >20,000 times with negligible degradation of the
+energy storage capacity, giving an asset life of >25 years. This is especially helpful for
+applications needing a specific energy delivery each day, for example to charge electric
+vehicles, as it means the system does not need to be oversized to allow for reducing capacity
+over time.
+Synchronous electrical machines
+
+In common with conventional fossil-fired power plants, the KES system is designed to make
+use of synchronous electrical machines, which deliver a range of grid stability benefits through
+real inertia, voltage support, short circuit level and fault tolerance. For testing, the Prototype
+and Demonstrator plants have been developed using variable speed machines ahead of the
+switch to fixed speed.
+Operational environment
+
+The KES technology can operate in a wide range of operating environments, from -20 °C to
++50 °C, without the need for air conditioning. This helps to eliminate a source of self-discharge.
+Analysis has shown that operating at an average ambient temperature of 40 °C results in a
+roughly 6% derating of maximum power output, and up to 9% derating of maximum energy
+capacity versus an average ambient temperature of 20 °C. For severe day-night temperature
+swings of 20 °C or more, the water level in the isobaric air store is managed to avoid over-
+pressurising the air, for example where the air in an air store filled during cool temperatures
+overnight starts to expand due to daytime solar heating.
+
+At low ambient temperatures, e.g. 0 °C, the maximum power rating and energy capacity
+increase by 6% and 8% respectively. A minimal level of oil pre-heating is advised for a -20 °C
+start but this remains within typical engine testing certifications. Glycol may be added to the
+water to prevent freezing.
+Integration with renewables
+
+The KES system can be developed to charge and discharge with DC power or AC power with
+no inverters or rectifiers. For certain applications requiring inverters, such as solar farms, this
+can improve efficiency and lower CAPEX and O&M costs.
+PAGE 14
+Technology maturity, construction and manufacture
+
+As a technology only just breaking through into commercialisation, the KES CAES supply
+chain is still in the early stages of development but is being designed to take advantage of
+capable existing supply chains from other industries such as genset manufacturing and
+Compressed Natural Gas. Manufacturing of the KES system will ultimately be highly
+outsourced to supply chain partners with only KES’s proprietary valve actuation technology
+and control software being produced in house. The design of the rest of the system is being
+developed to offer maximum supply chain choice by using well established manufacturing
+technology that is widely available from established suppliers.
+Raw materials price volatility
+
+The markets for the materials the KES system is made from are large and liquid with low price
+volatility.
+Raw material environmental impacts
+
+The KES system is produced using environmentally benign materials.
+Maintenance (parts and skills)
+
+The KES system will require replacement of low-cost consumable parts such as filters and oils
+during planned maintenance. The skills required for the planned maintenance activities on the
+KES system are widely available in the automotive/genset and process industries. KES also
+plans to establish a service and training network for customers. The common availability of the
+necessary maintenance skills is particularly relevant in less economically developed countries
+where the required specialist battery commissioning, operation, maintenance and
+decommissioning skills are more nascent.
+Operational risks
+
+Although the thermal store holds high-temperature air and magnetite, there is no combustible
+material or fuel anywhere in the system beyond a small amount of lubrication oil. The fire risk
+from the system is minimal, and there are no other chemical-related health risks arising. The
+primary hazard is high-pressure air: this is managed using extremely well-established pressure
+vessel and pipework codes and protective devices such as relief valves. Electrical hazards are
+akin to those in all low voltage systems, noting that unlike a battery it is possible to physically
+decouple the entire electrical system from the stored energy source for maintenance.
+Operational impacts
+
+During normal operation when charging and generating the mechanical components of the
+system will emit noise. The design of the system will ensure that this does not cause nuisance
+to anyone in proximity, but this does necessitate enclosures. The standard production system
+is expected to emit less than 65 dB of noise, and this can be reduced further with additional
+soundproofing technologies commonly used in diesel generator applications. The air release
+from relief valves will also cause noise, but this is in exceptional circumstances only.
+PAGE 15
+End of life
+
+Due to being modular, all the main KES subsystems can be reconditioned or fully recycled at
+the end of their operational life, reducing end of life risks, be they economic, legislative, safety
+or environmental.
+System configuration and installation
+
+The KES system is a containerised solution. It is possible to stack some of the KES system’s
+containers, e.g. with a double or triple-height thermal store. However, the footprint remains
+larger than battery alternatives and may limit the use of the systems within tightly space-
+constrained environments.
+PAGE 16
+Project overview
+
+Project summary and evolution
+
+Over the course of the project, the Keep Energy Systems team designed and built two
+iterations of its energy storage system: starting with the Prototype and then advancing the
+design and concept to deliver the Demonstrator system. Alongside the technical developments
+required to design, manufacture, assemble and test these units, a parallel commercial
+workstream drove engagement with potential customers and partners, leading to multiple
+signed memoranda of understanding with key partners and in-depth customer engagement
+with major blue-chip companies including Amazon, Shell and Northern Powergrid.
+
+The project was designed from the start to have two stages of technology development: a first
+stage in which a prototype of the technology was tested at a local site, and a second in which
+more mature systems were deployed, building on learnings from the prototype. The prototype
+was designed, procured, assembled and tested at a site in Nottingham, located within the
+Boots industrial campus. Some supply chain issues were identified along the way, including
+the supplier of the engine enclosure going into administration unexpectedly.
+
+The second work stream was originally intended to deploy multiple pilot units at a customer
+site in Colchester, supporting a new mixed-use development that faces significant grid
+constraints. However, progress on the development slowed substantially following the
+departure of key personnel at Colchester City Council, and the site remains unoccupied as of
+early 2026. As a result, following detailed discussions with the DESNZ team, KES revised the
+scope of the second work stream in late 2024 to focus instead on deploying a second-
+generation system at the Nottingham site, referred to as the Demonstrator. This approach
+enabled additional technical development, increasing both the power rating and energy
+capacity of the system while improving round-trip efficiency. It also reduced overall project
+expenditure by more than £2.5m and significantly reduced key project risks.
+
+The revised approach was approved in January 2025, after which the Demonstrator system
+was designed, manufactured and commissioned within a 12-month period, though further
+challenges included the subsidiary of a different supplier entering administration, though KES
+had identified this possibility in advance from its observations of quality issues and delays from
+that subsidiary and was able to work quickly to mitigate the impacts. Testing of the
+Demonstrator system is currently ongoing.
+
+The following timeline summarises key developments over the project in more detail.
+31/03/23   Project kick-off
+
+The project was launched with three main workstreams, namely:
+
+   •  Development of Prototype system;
+   •  Development of pilots;
+PAGE 17
+   •  Commercials and dissemination.
+The Prototype system workstream was to install and commission a prototype energy storage
+system at KES’s own site for comprehensive offline testing, helping to de-risk the technology
+and validate its performance.
+
+The pilots were to be deployed to support a large new mixed-use development in Colchester
+known as the Colchester Northern Gateway. Being in a highly grid-constrained part of the UK,
+Colchester City Council received costs for the required grid connection of up to £15m,
+representing a major programme of reinforcement works. In order to mitigate this, the site was
+to be run as a microgrid with onsite solar and KES energy storage to turn this into around-the-
+clock power.
+
+Commercial and dissemination activities intended to build awareness of the technology and
+develop a customer pipeline were carried out in parallel.
+08/12/23  KES overcomes engine enclosure supplier entering administration
+
+The order for the Prototype system engine enclosure was placed with a well-established
+enclosure supplier. Following completion of the design, in September of 2023 that supplier was
+put into administration. A major procurement effort by the KES team was launched, resulting in
+a new supplier being spooled up at short notice and delivering a suitable engine enclosure just
+weeks after the original delivery date.
+04/01/24  Commissioned to carry out engineering study by a major mining
+player in Western Australia
+
+The KES team secured an order for a paid engineering study for a set of systems for
+deployment at a site in the Pilbara, Western Australia. The work unlocked a set of key
+customer understandings that have since shaped the product development and commercial
+strategy very directly, and established a strong working relationship that continues today. The
+feasibility study was extremely well-received with glowing reviews.
+04/04/24  Technoeconomic analysis by Cornwall Insight
+
+The study, by respected industry consultants Cornwall Insight, showed higher returns for
+production KES systems versus lithium-ion systems of the same size at a discharge duration of
+five hours. This was an unexpected but welcome finding, as it had previously been anticipated
+that the lower round trip efficiency of the KES system would drive lower economic returns.
+However, the modelling by Cornwall Insight takes into account the economic cost of
+degradation of the battery, which attaches a cost to high cycling and therefore makes it
+unattractive to carry out trades below a certain return threshold. For the KES system, while the
+lower efficiency means it also has a returns threshold, this is much less restrictive and the KES
+system undertakes significantly more cycles, generating more revenue as a result.
+PAGE 18
+30/04/24   Selected for Amazon Sustainability Accelerator
+
+KES (trading as Cheesecake Energy at the time) was selected to join the Amazon
+Sustainability Accelerator, a four-week intensive programme supporting sustainable innovation
+across Europe. KES was successful in securing entry to Amazon’s follow-on pilot programme
+and was invited to join a tendering process for energy storage deployments at Amazon’s
+European distribution centres. While the technology showed a strong business case and the
+commercial proposal was well-received, Amazon ultimately selected a different technology to
+procure.
+25/10/24   Colchester City Council delay
+
+In October of 2024, following the departure of key personnel working on the Northern Gateway
+development, Colchester City Council confirmed a serious delay to the project in order to
+complete an estates review. The choice to suspend the project for several months while
+undertaking this review and the associated uncertainty in the intervening time was not
+compatible with the project timelines, and KES was forced to evaluate alternative approaches
+to delivering strong value from the LoDES project opportunity.
+07/01/25  Change request approved
+
+An intensive period of replanning and options assessment led to a revised work plan that
+rescoped the project to instead invest time and effort to deliver a more innovative
+Demonstrator system at the Boots site in Nottingham, at significantly lower cost than the
+original Colchester deployment. The project budget was revised down from £9.4m to £7.2m in
+recognition of the smaller number of systems being deployed, while the level of performance
+for the Demonstrator was increased through a number of major upgrades. Subsequent
+negotiation with suppliers to cancel and refund spend on existing orders for Colchester allowed
+the project budget to be further reduced to £6.8m without reducing scope.
+
+The decision to approve this rescoping in January unlocked a rapid design and procurement
+campaign that led to the Demonstrator system being developed, manufactured, assembled
+and commissioned in under 12 months.
+27/03/25  Memoranda of Understanding signed
+
+Memoranda of understanding were signed with both Volvo Penta and Siemens, the former
+providing the truck engines that form the basis of the compressor-expanders in the KES
+system, and the latter providing the control system hardware and much of the instrumentation.
+28/03/25   Prototype system test report delivered
+
+Alongside the Demonstrator design and procurement exercise, the KES team carried out
+extensive testing of the Prototype system, leading to a detailed test report characterising the
+prototype system.
+PAGE 19
+28/10/25  Key supplier enters administration
+
+The manufacturing arm of a major pressure vessel and heat exchanger supplier went into
+administration abruptly prior to completing orders for the thermal store and plenums for the
+Demonstrator system. KES had had a successful track record of procuring pressure equipment
+from this company in the past, and the company was in a strong financial position. The
+manufacturing subsidiary was created to bring together an existing manufacturing site with a
+recently acquired new facility and the KES order was allocated to this subsidiary.
+Unfortunately, the new facility proved to have numerous quality issues, leading to delays,
+manufacturing flaws and degraded performance expectations for the thermal store and repeat
+work on the plenums. Both facilities were ultimately closed and the subsidiary was put into
+administration after the delivery of the thermal stores but before delivery of the plenums, and
+with all quality documentation still outstanding.
+08/12/25  Plenums delivered and installed
+
+Through swift and sustained engagement with the administrators, KES was able to agree a
+route forward to release the plenums and avoid what could have been a very protracted delay.
+With agreement from the administrators and the parent company, the plenums were delivered
+and installed by early December, just over a month after the administration was announced
+and quality documentation was being assembled.
+28/01/25   Project closeout meeting
+
+KES hosted a visit from the DESNZ team and project monitoring officer to tour the
+Demonstrator site and explore findings and lessons learned from the project. KES is continuing
+to progress Demonstrator testing and commercialisation of the technology and is now well-
+placed to seek pilot opportunities and investment to continue its development.
+Design and development of the system
+
+Previous design history
+
+Between 2020 and 2023 initial lab-scale prototype testing and development of the system was
+carried out in the University of Nottingham’s Research Acceleration and Demonstration
+facilities. The innovative valve actuators and associated engine control system were further
+developed. A full-scale LP compressor-expander was assembled, coupled with 1 MWh of heat
+storage and 10m3 compressed air storage at a pressure of 230 bar. Through this the concept
+of the system and the interoperability of all the sub-systems was proven. The highest priority
+areas of focus to improve efficiency and reduce system complexity were identified. An example
+of this is the switch made for the thermal store from being a packed gravel bed with a
+dedicated air circulation system and heat exchangers, to a packed sand bed with the hot
+compressed air piping embedded in it, which entirely removed the need for a separate sub-
+system.
+PAGE 20
+Technology development pathway
+
+In March 2023, KES commenced the DESNZ LoDES project which supported the construction
+of a full-scale prototype plant at the Boots Site in Beeston, Nottingham. The Prototype had a
+design output of 150 kW coupled with 2 hours of energy storage, resulting in a 300 kWh CAES
+system operating at 230 bar and a peak design temperature of around 400 °C. Construction
+and installation of this system was completed in 2023, with final testing and commissioning
+from January to March of 2024. This was the first full-scale modular compressed air system to
+be demonstrated in the UK.
+
+The system has been extended further into a Demonstrator plant, with additional capacity
+(1 MWh) and power (200 kW), providing a showcase for upgraded capabilities of the system
+and more closely approximating the production system design.
+
+Looking forward, continued use of both lab-scale systems and the Demonstrator plant is a key
+part of the KES research and development strategy. These will provide the platforms to rapidly
+test, monitor, evaluate, learn, develop and prove the ideas and innovations that are in the
+technology development pipeline, and will continue to be identified.
+
+The Demonstrator installation at Nottingham is targeting an ultimate RTE of at least 50%, on
+route to the target of 55% for pilot systems and 60-65% for production systems. Five initial
+developments have been identified to improve the system RTE by circa 15%, and a plan
+developed for how these will be progressively implemented on the Demonstrator to verify their
+effectiveness, prior to more widespread rollout on pilot systems and inclusion in the standard
+production system design going forward.
+
+
+Overall design and layout
+
+Prototype
+
+The physical arrangement of the Prototype site is shown below in Figure 2.
+
+Figure 2: Aerial view of the Prototype energy storage system in Nottingham
+PAGE 21
+     Welfare
+
+                       Controls cabin
+
+                                    Engine enclosure
+                                                                            Air store
+
+    Power cabin         Thermal store
+
+
+                                               Water tank
+
+
+
+
+
+It comprises a high-pressure air storage vessel, a water pump and tank to maintain pressure
+within the air vessel by hydraulic displacement, a combined thermal store/heat exchanger unit
+that stores heat in a large volume of sand, three engine stages (which are mechanically
+arranged as two physical units), plus piping and a control system that interconnect the above.
+The Prototype and Demonstrator systems are deliberately spread out for ease of access and
+reconfiguration – production systems will have a more compact footprint.
+
+
+Evolution to Demonstrator
+
+While the Demonstrator system has been constructed on the same site as the Prototype
+system, every major subsystem has been upgraded to deliver higher power, larger energy
+capacity and greater round trip efficiency. Figure 3 shows the upgraded system.
+PAGE 22
+Figure 3: View of the Demonstrator system. The existing engine enclosure and site cabins
+have been painted grey for extended planning permission reasons.
+
+
+
+
+
+New containerised air stores
+Two new 20-foot shipping containers (Figure 4) filled with glass-fibre composite cylinders have
+boosted the air store capacity and are much closer to the production air store design. The
+array of uniform cylinders and containerised approach allows for much faster manufacture and
+deployment of the store, while the composite cylinders also remove a corrosion risk that is
+managed using corrosion inhibitor for steel vessels.
+
+Figure 4: Containerised air stores
+PAGE 23
+New thermal stores
+Switching from sand to much denser magnetite (a type of readily available iron ore) as the
+thermal storage medium has delivered a four-times increase in thermal capacity in
+approximately the same footprint. The thermal stores in Figure 5 have been fabricated in much
+the same way as a conventional shell and tube heat exchanger, making use of seamless tube
+and tubesheets with D-shaped headers. This eliminates the extensive branched connection
+welding of the previous thermal store and reduces the manufacturing time, unlocking greater
+automation of the process. The move to tubesheets made it possible to greatly increase the
+number of tubes passing through the thermal storage medium, and transverse aluminium fins
+further increase the surface area to conduct heat into the store, unlocking higher heat transfer
+rates as well as the higher storage capacity.
+
+Figure 5: Views of the thermal store from the side and from above
+
+
+
+
+
+New actuators
+A new generation of actuators with larger valves, higher lifts and higher speed capability has
+been developed, drawing on experience from assembly and test of the Prototype actuators.
+The actuators are an area where KES has extensive expertise and intellectual property and
+has filed multiple patents over the course of the project. As well as allowing each piston
+machine to be switched between compressor and expander for charge and discharge
+depending on the software-commanded valve timings, the actuators also allow balancing of
+flows between stages and part-load power flows, while delivering rich telemetry data.
+PAGE 24
+Improved cylinder heads and extensions
+The shape of the cylinder head flow passages has been improved for smoother flow. This
+leads to reduced turbulence and lower pressure drops during intake and exhaust. Reducing
+swirl and mixing also helps to reduce heat transfer losses, which can reduce thermal stressing
+challenges as well as losses.
+
+Supercharger
+When operating with a supercharger, the LP piston engine operates with a smaller pressure
+ratio and larger mass flow rate. When supercharged, the configuration of the IP and HP stages
+is unchanged, although also operating at a higher mass flow rate, and with correspondingly
+larger bores. Including the supercharger in the system is predicted to reduce the round trip
+efficiency by up to 3% but boost the rated system power by 25%. Figure 6 shows the two units,
+with the supercharger assembly on the left and the LP engine on the right.
+
+Figure 6: The low pressure engine and supercharger assembly
+
+
+
+
+
+New control system
+A major recontrol exercise has switched the entire system over to the latest Siemens control
+hardware, which allows for live feedback from actuators and much stronger cyber security.
+Production systems will operate entirely autonomously at customer sites, and establishing
+strong security foundations for remote operations is crucial to unlocking that capability, against
+known cyber threats to infrastructure and businesses. The Siemens ecosystem offers one of
+the leading industrial cloud and communications setups, designed to support compliance to
+key security standards such as the Network and Information Security Directive 2.
+
+Subsystems
+
+The following sections describe the current (Demonstrator) design for each subsystem.
+PAGE 25
+Thermal store
+
+The combined thermal store/heat exchanger comprises a number of steel pipes in contact with
+transverse aluminium plates to aid thermal transfer. These pipes and fins are immersed in
+magnetite, such that heat carried in air flowing through the pipes is transferred to the magnetite
+if the air is hotter or vice versa if the magnetite is hotter.
+
+There are three exchanger units stacked into the assembly, for the low-, intermediate- and
+high-pressure stages of the system.
+Engines
+
+Each engine is arranged in a similar manner to a diesel generator, i.e., a base skid or raft, with
+an electrical machine and coupled reciprocating-piston heat engine. The electrical machines
+are motors with variable speed, regenerative drives and the reciprocating machines are
+modified diesel engines, optimised for adiabatic operation and serving as compressors and
+expanders depending on whether the system is charging or discharging respectively. The LPE
+has a single pressure stage and the IHE has two (IP and HP stages).
+
+Each engine has a dedicated, bespoke electronic management system which operates its
+cylinder valves.
+Air storage
+
+Compressed air is stored using two containerised arrays of glass-fibre composite vessels
+totalling 33 m³ and an 8 m³ carbon steel vessel. These are connected to a pair of ambient
+pressure water tanks via two electrically driven reciprocating pumps and a pressure regulator,
+which operate in order to maintain a constant pressure of up to 230 barg inside the vessels.
+Control
+
+The plant is controlled by a high-integrity Siemens safety PLC which also provides supervisory
+control and data acquisition functions. For initial testing, this controller is used to operate the
+plant in a primarily manual condition, whereby single control setpoints or positions are adjusted
+in sequence. The system will have the capability to operate fully autonomously once testing
+has been completed.
+
+The PLC’s safety functions are fully operational in all cases to immediately shut the system
+down should a hazardous condition occur.
+PAGE 26
+Test results
+
+Prototype system operation
+
+Purpose of testing
+
+To demonstrate operation of all equipment in the system, both separately and operating in
+coordination, thus confirming:
+
+   •  Mechanical integrity;
+   •   Air tightness;
+   •  Efficiency;
+   •  Engine valve train reliability;
+   •  Isobaric control of the compressed air store; and
+   •  Discharge operations.
+System testing also involves incrementally bringing the system up to operational conditions of
+pressure and temperature, and a final key output is a functional demonstration of the system
+storing and releasing energy.
+Measurements
+
+Data was recorded throughout each operation from the following instruments.
+
+   •  Thermal store temperatures
+   •   Air store pressures and levels
+   •  Engine (plenum) pressures and temperatures
+   •  Engine oil pressures and temperatures
+   •   Electrical power input/output – (AC and DC input, and DC output)
+   •  LPE VSD
+   •  IHE VSD
+   •  P-001 VSD
+   •  System airflow
+Data was logged at a rate of at least one reading every 10 seconds and all instruments were
+calibrated where applicable.
+PAGE 27
+Test results and discussion
+
+SY-C-02A
+In this charge test, air is compressed from ambient to 24 barg using all three stages: LPE, IPE,
+and HPE. Three cylinders are used—one for LPE, one for IPE, and one for HPE. The
+compressed air exiting the HPE is stored in the CAS. The system starts in idle mode until 9:30,
+after which it enters charge mode. Air is compressed from ambient to 2 barg across LPE, from
+2 barg to 8 barg across IPE, and finally to 24 barg across HPE. LPE speed is set to 500 RPM,
+and IHE speed to 750 RPM. As seen in Figure 7, the pressure gradually ramps up to 24 barg
+before stabilising at a steady 24 barg at a timestamp of around 10:10.
+
+Figure 8 shows the air temperature profile across the engine during the charge test. At the end
+of the compression period, temperatures reach 100°C for LPE, about 102°C for IPE, and
+around 85°C for HPE. Figure 9 shows the thermal store temperatures: the hot inlet at the LP
+thermal store reaches 80°C, the IP thermal store reaches 75°C, and the HP thermal store
+reaches 20°C. Notably, the gradient of the thermal store temperature profiles is lower than that
+of the engine hot side temperatures. This is due to heat transfer to the pipework between the
+engine and thermal store, as well as thermal losses, which reduce the air temperature entering
+the thermal store.
+
+The mass flow rate of air, based on level readings in the CAS, is approximately 0.169 kg/s,
+with the volumetric efficiency of the HPE calculated at about 53%. A significant leak was
+identified in the HPE hot valve due to valve wear, which contributed to the lower volumetric
+efficiency. This issue was resolved for subsequent tests.
+
+Figure 7: Cold and hot side pressure profiles for LPE (1st), IPE (2nd) and HPE (3rd). The
+pressure axis scaling differs between plots.
+PAGE 28
+Figure 8: Cold and hot side temperature profiles for LPE (1st), IPE (2nd) and HPE (3rd)
+
+
+
+
+
+Figure 9: Low pressure (1st), Intermediate pressure (2nd) and High pressure (3rd) thermal
+store temperature profiles. The temperature axis scaling differs between plots.
+
+
+
+
+
+Figure 10 shows the power consumption of each compressor-expander. During the idle period,
+power gradually decreases at a constant RPM as the oil warms up, reducing friction losses.
+During compression, the LPE power drops from around 14 kW to 11 kW, while the IHE power
+remains relatively constant at approximately 15 kW.
+PAGE 29
+Figure 10: LPE (top) and IHE (bottom) power profiles with LPE_VSD and IHE_VSD speed
+respectively. The y-axis scaling differs between plots.
+
+
+
+
+
+SY-C-03B
+In this discharge test, air expands from 24 barg to ambient using all three stages, supplied
+from the compressed air store, as shown in Figure 11. The system uses three cylinders in LPE,
+one in IPE, and two in HPE to balance flow rates and enhance system resilience. The system
+remains in idle mode until 15:37 to warm up the engines. It then enters charge mode to
+pressurise the system and heat the pipework, preventing heat losses during discharge. If the
+pipework is cold, heat from the air would be lost to warming it up, while warmer pipework helps
+stabilise air temperature before expansion.
+
+During charge mode, the pressures are set to 24 barg for HPE, initially 11 barg for IPE (later
+increased to 15 barg), and about 3.5 barg for LPE. Oscillatory behaviour is observed in LPE
+and IPE due to PID-controlled pressure valves, which require further tuning to improve stability.
+
+The dotted black line marks the start of discharge, which lasts approximately six minutes
+before the system is fully depressurised. Each stage transitions to discharge at different times,
+with HPE starting first, followed by IPE and LPE, ensuring system stability and control. The test
+was stopped earlier than planned due to instability in LPE pressure control, as seen in Figure
+11, where pressure fluctuates significantly. A system hardware troubleshooting study was
+conducted, and the team worked on fine-tuning the pressure control loop for improved stability.
+PAGE 30
+Figure 11: Cold and hot side pressure profiles for LPE (1st), IPE (2nd) and HPE (3rd). The
+pressure axis scaling differs between plots.
+
+
+
+
+
+Figure 12 presents the temperature profiles during the system test. As air is compressed, the
+exit temperature increases before transitioning to discharge. During expansion, the hot-side
+temperature decreases as heat dissipates into the pipework, while the cold-side temperature
+drops due to the expansion process.
+
+Figure 12: Cold and hot side temperature profiles for LPE (1st), IPE (2nd) and HPE (3rd). The
+y-axis scaling differs between plots.
+PAGE 31
+Figure 13 shows that, during the transition from charge to discharge, LPE and IHE power
+consumption suddenly drop, reversing to approximately 1 kW output power. Given that the
+friction power for LPE at 350 RPM is around 6 kW, the power contribution from air is estimated
+at 7 kW. In full operation, all six LPE cylinders are utilised at 1500 RPM with a higher
+expansion pressure ratio—nearly twice that of the current test. Consequently, friction power is
+expected to scale up significantly, exceeding double the current value. Based on these factors,
+the anticipated power generation from air in the full prototype system was projected to be
+around 100 kW, prior to improvements in the Demonstrator programme.
+
+Based on the analysis, the isentropic efficiency of the IPE is approximately 60%. However, this
+figure is expected to increase once the leakage issues are addressed.
+
+Figure 13: LPE (top) and IHE (bottom) power profiles with LPE_VSD and IHE_VSD speed
+respectively
+
+
+
+
+
+SY-D-01
+This pump test pressurises the compressed air store (CAS) to 124 barg by pumping water into
+it. The pump initially operates at 500 RPM before ramping up to approximately 1450 RPM.
+Figure 14 illustrates the non-linear increase in air pressure until it reaches 124 barg, at which
+point the pump is stopped. This process is carried out to prepare for charge test SY-D-02,
+ensuring the CAS is pre-pressurised to 124 barg before introducing compressed air at the
+same pressure.
+PAGE 32
+Figure 14: Pressure in the compressed air store and pump speed profile
+
+
+
+
+
+SY-D-02
+This charge test compresses air from ambient to 124 barg using three compression stages,
+with three cylinders in LPE, one in IPE, and two in HPE. The system remains in idle mode until
+08:33, after which the speed reference is set to 600 RPM for LPE and 750 RPM for IHE under
+charge mode to build pressure. The pressurised air exiting HPE is stored in the compressed air
+store. LPE compresses the air to approximately 4.5 barg, IPE to 17 barg and 24 barg towards
+the end of the test, and HPE to 124 barg.
+
+Figure 15 shows a pressure ramp as the air pressurises the pipework. The system uses
+pressure control valves, resulting in oscillatory behaviour, though the pressure profile is more
+stable than in the previous test due to improved control tuning.
+
+Figure 16 presents the temperature profiles for air on the hot and cold sides of the
+compression stages. At the start of the operation (idle state), the hot-side air temperature is
+around 50°C due to residual heat from a previous charge test conducted during system
+troubleshooting. As the system transitions to charge mode, temperatures rise, reaching
+approximately 140°C for LPE, 147°C for IPE, and 152°C for HPE.
+
+Figure 17 further illustrates the increase in thermal store inlet temperature, which reaches 65°C
+for LP, 95°C for IP, and 45°C for HP.
+
+Figure 18 presents the power profile, showing that engine oil remains warm from a prior charge
+test, preventing a power drop during the idle state. These values correspond to friction power.
+When the system switches to charge mode, LPE power increases to 16 kW, while IHE power
+reaches approximately 27 kW. As the pressure ratio in IPE rises from 17 barg to 24 barg, IHE
+power further increases to around 30 kW.
+PAGE 33
+Figure 15: Cold and hot side pressure profiles for LPE (1st), IPE (2nd) and HPE (3rd). The
+pressure axis scaling differs between plots.
+
+
+
+
+
+Figure 16: Cold and hot side temperature profiles for LPE (1st), IPE (2nd) and HPE (3rd)
+PAGE 34
+Figure 17: Low pressure (1st), Intermediate pressure (2nd) and High pressure (3rd) thermal
+store temperature profiles. The temperature axis scaling differs between plots.
+
+
+
+
+
+Figure 18: LPE (top) and IHE (bottom) power profiles with LPE_VSD and IHE_VSD speed
+respectively. The y-axis scaling differs between plots.
+PAGE 35
+Prototype system testing summary
+
+The Prototype system has demonstrated sound basic operation, as evidenced by the results
+from the various tests conducted. The compression, expansion, and heat dynamics are
+validated through pressure and temperature profiles, confirming the system's effective
+performance. At the subsystem level, tests were performed to assess the controls and
+structural integrity of each individual compression stage. As expected, the air temperature in
+the thermal store increases during the compression tests, which validates both the principle
+and design of the thermal store.
+
+The test plan was designed to systematically evaluate the system, checking controls at
+different pressure limits. In later compression tests, the air was directed into the compressed
+air store, which tested the pressure control and water level sensing capabilities of the store.
+For high-pressure compression and expansion tests, the system operated under a 3-1-1 or 3-
+1-2 configuration, using fewer cylinders and lower speeds. This setup resulted in lower
+temperatures, flow rates, friction, power consumption, and power generation during expansion.
+Based on the test results, the anticipated power generation from air in the full Prototype system
+is projected to be around 100 kW.
+
+Despite these positive outcomes, challenges such as leaking engine valves, which reduced
+volumetric efficiency, and oscillatory control on pressure control valves were encountered.
+These have informed design efforts on the Demonstrator system.
+
+
+Demonstrator test plan and simulations
+
+Time constraints and supply chain challenges have meant that completion of the Demonstrator
+testing phase has not been possible within the duration of the project; instead the following
+section outlines the test plan that has been developed and the detailed simulations that have
+been carried out in accordance with the test plan. The test plan will be carried out from
+February 2026 onwards and results fed back to DESNZ once available.
+
+The test plan is designed to sequentially characterise different parts of the system, building
+from low speed and pressure up to full design conditions. The staged approach allows data to
+be gathered and potential issues to be addressed with a clear baseline for comparison, such
+that new findings can be attributed to the incremental changes in each test.
+PAGE 36
+Table 2: Summary of tests and which subsystems are active (marked with X if active)
+ Test     SC LP  IP HP Mode       Purpose
+
+ DEM-S-   X  X           Compression  Assess basic SC (supercharger) operation
+ 01                              (1.2 barg)    and controllability of SC pressure versus
+                                       speed
+
+ DEM-C-   X  X           Compression  Assess basic operation and compression
+ 01                              (5.2 barg)     performance of SC+LPE together
+
+ DEM-C-   X  X  X      Compression  Assess basic operation and compression
+ 02                             (32.4 barg)    performance of SC+LPE+IPE together
+
+ DEM-C-   X  X  X  X   Compression  Assess basic operation and compression
+ 03                          (200 barg)    performance of SC+LPE+IPE+HPE together
+
+ DEM-SD-         X  X   Expansion    Assess expansion performance of IHE
+ 01                           (28 barg)
+
+ DEM-SD-     X  X  X   Expansion    Assess expansion performance of IHE + LPE
+ 02                           (28 barg)
+
+ DEM-SC-  X  X  X  X   Compression  Test compression via all pressure stages,
+ 01                          (125 barg)    and storing pressurised air in the air store to
+                                           understand hydrostatic pressure dynamics
+
+ DEM-SD-  X  X  X  X   Expansion    Assess expansion performance of all
+ 03                          (125 barg)    pressure stages and thermal store
+                                             degradation
+
+ DEM-SC-  X  X  X  X   Compression  Test compression at higher engine speeds
+ 02                          (200 barg)     via all pressure stages, and storing
+                                              pressurised air in the air store to understand
+                                                 hydrostatic pressure dynamics
+
+ DEM-SD-  X  X  X  X   Expansion    Assess expansion performance with higher
+ 04                          (200 barg)      air store pressure and higher engine speeds
+
+ DEM-CC-  X  X  X  X   Compression  Assess full system cyclic operation at design
+ 01                          (230 barg)     point
+
+ DEM-CD-  X  X  X  X   Expansion    Assess full system cyclic operation at design
+ 01                          (230 barg)     point
+PAGE 37
+The test plan includes dedicated motor speed tests for the LPE, IPE, and HPE, as well as
+blower-only tests intended to assess engine oil temperature and pressure, in addition to engine
+vibration and friction characteristics.
+Test plan simulation results
+
+The Demonstrator test plan sequences have been implemented using a detailed Simscape-
+based transient system model of the Demonstrator plant. The model captures the dominant
+thermodynamics, providing physically consistent estimates of process air and thermal mass
+temperatures across the system. The time-resolved formulation enables tracking of key system
+parameters, including pressures, temperatures, mass flow rates, and net power, allowing
+system performance to be assessed as a function of operating sequence and test duration.
+Execution of the Demonstrator hardware tests and systematic comparison of model outputs
+with HMI data will be carried out after the formal project close, focusing on pressures,
+temperatures, mass flow rates, and power. Any identified discrepancies will be used to
+calibrate model parameters and refine modelling assumptions.
+
+DEM-C-01
+During the charge sequence, both the supercharger and the LPE operate in charge mode, with
+the LPE initially running in blower mode for the first ten minutes before transitioning to active
+compression. This operating strategy allows the supercharger to reach its normal operating
+pressure and pre-pressurises the LPE pipework, resulting in a smoother and more stable
+transition to full compression. The pipes and thermal stores are initialised at ambient
+conditions. The model simulates a continuous compression period of two hours. The
+supercharger increases the air pressure from ambient to approximately 1.3 bara, after which
+the LPE further compresses the air to around 6.3 bara. The LPE operates at a fixed speed of
+500 RPM, while the supercharger runs at approximately 1900 RPM.
+
+As shown in Figure 19, the supercharger outlet temperature rises to approximately 50 °C, while
+the LPE outlet temperature reaches around 172 °C during compression. The temperature at
+the LPE outlet increases as initially the engine thermal mass is cold, and the heat from
+compressed air goes into heating the engine assembly. However, gradually as the engine
+thermal mass temperature increases the rate of heat transfer from air to the engine reduces,
+thus air retaining the heat from compression. The downstream LP thermal store absorbs the
+heat from the LPE outlet air, reducing the air temperature back to near ambient conditions. The
+simulated air mass flow rate through the system is approximately 0.06 kg/s. The average
+electrical power consumption of the combined supercharger and LPE during this operating
+period is approximately 9 kW.
+PAGE 38
+Figure 19. Process air temperature of supercharger (left) and LPE (right) at cold (inlet) and
+hot (outlet) side.
+
+
+
+
+
+DEM-S-01
+The supercharger is in charge mode, with a pressure ratio of 2.2, while the LPE runs in blower
+mode (rather than active compression) at 500 RPM. The supercharger runs at about 2400
+RPM. The speed of supercharger is an output from a PID loop on pressure ratio which control
+its speed. The pipes and thermal stores are initialised at ambient conditions. Ambient air enters
+the supercharger at 15 °C and is compressed to an outlet temperature of approximately
+127 °C. As the LPE is not performing compression, the air experiences cooling as it passes
+through the machine due to heat losses to the engine structure and surrounding environment,
+resulting in an outlet temperature of approximately 80 °C by the end of the simulation. The
+model simulates a continuous compression period of two hours. Downstream of the LPE, the
+air passes through the low-pressure thermal store, where heat is transferred to the thermal
+media. As a result, the air temperature reduces further, reaching approximately 15 °C at the
+outlet of the LP thermal store.
+
+The mass flow rate of air is 0.074 kg/s and the average electrical power consumed by the
+supercharger is 9.3 kW.
+
+DEM-C-02
+This test compresses air using the supercharger, LP and IP stages operating sequentially. The
+LP stage is enabled in charge mode after an initial 10-minute period, followed by the IP stage
+after a further 20 minutes. Both LP and IP operate at a fixed speed of 500 RPM. All pipes and
+thermal stores are initialised at ambient pressure and temperature conditions. The model
+represents a continuous compression process with a total simulated duration of two hours. The
+supercharger raises the air pressure from ambient to 1.3 bara, the LP stage further
+compresses the flow to 6.3 bara, and the IP stage increases the pressure to a final level of
+33.4 bara. Over the duration of the test, the average electrical power consumption of the
+system is approximately 21 kW, with a corresponding mean air mass flow rate of 0.064 kg/s.
+
+Figure 20 shows the air temperature profiles at the inlet and outlet of the active engine stages.
+The outlet temperature from the LP stage increases steadily, reaching approximately 190 °C,
+while the IP outlet temperature rises to around 200 °C. A transient disturbance is observed
+when the IP stage is brought into charge mode, which is reflected as a deviation in the
+temperature traces. This behaviour is caused by a rapid change in downstream pressure as
+the IP stage is activated. The controller responds by adjusting the effective volume ratio to
+rebalance mass flow across the stages. During this transient, the IP pressure initially
+PAGE 39
+overshoots, which is compensated by the LP stage, resulting in a temporary reduction in the
+LP pressure ratio to ensure mass flow continuity through the compression train.
+
+
+Figure 20. Temperature (left) and pressure ratio (right) profiles for supercharger, LPE and
+IPE during the simulation. The y-axis scaling differs between plots.
+
+
+
+
+
+DEM-C-03
+In this charge test, the engines are engaged sequentially in the compression train, beginning
+with the supercharger, followed by the LP, IP, and HP stages after 10, 20 and 30 minutes
+respectively, to progressively pressurise the system. All three stages are running at a fixed
+speed of 500 RPM. As shown in Figure 21, the supercharger increases the air pressure to 1.3
+bara, after which the LPE raises it to 6.3 bara, the IPE to 33.4 bara, and finally the HPE to
+approximately 200 bara.
+
+As per Figure 22, air temperatures exceed 150 °C at the LPE and IPE outlets after the thermal
+losses from engines; this is as designed as these air flows provide heat for storage in the
+thermal store. Until the downstream engine stages are activated for charge, the air is vented
+out before entering those engines and hence the temperature profiles do not account for
+thermal losses during this duration for those stages. A controlled numerical disturbance is
+observed when the IP stage is activated, arising from the controller adjusting pressure ratios to
+rebalance mass flow rates across the compression stages. The average air mass flow rate
+during the test is 0.061 kg/s, and the average net electrical power consumption is 25.7 kW.
+PAGE 40
+Figure 21. Process air pressure at the cold (inlet) and hot (outlet) of the engines during
+compression. The pressure axis scaling differs between plots.
+
+
+
+
+
+Figure 22. Process air temperature at the cold (inlet) and hot (outlet) of the engines during
+compression. The temperature axis scaling differs between plots.
+
+
+
+
+
+DEM-SD-01
+In this discharge test, the IPE and HPE are used to expand air from 29.5 bara to 6.25 bara
+through the HPE, and subsequently to ambient pressure through the IPE. The system is pre-
+charged (put into charge mode briefly ahead of commencing a discharge) for 10 minutes,
+during which the pipes and thermal stores are brought to the required initial expansion
+PAGE 41
+pressures using the IPE and HPE, and the pipework is pre-heated to provide residual thermal
+energy to the process air during expansion. This approach avoids rapid expansion of cold air
+within the pipes and thermal store, and prevents expansion under low-pressure, thermally
+depleted conditions. The IHE is running at 500 RPM for a two-hour expansion process. The IP
+and HP thermal stores are assumed to be at 150 °C, reflecting the practical operating
+sequence in which discharge is preceded by a charge cycle that deposits usable heat into the
+system.
+
+The average air mass flow rate during the test is 0.02 kg/s, with an average net electrical
+power generation of 1.9 kW. During expansion, the outlet air temperatures decrease to
+approximately 0 °C at the HPE outlet and around -15 °C at the IPE outlet. These temperatures
+remain above the lower operating limit of -20 °C. The ambient temperature and the
+downstream pipework end up heating the air back to 15 °C before it is discharged to the
+ambient.
+
+An increase in the hot-side temperatures of the HPE and IPE is also observed in Figure 23.
+This arises as the expanding air progressively absorbs heat from the interconnecting pipework
+and thermal store, leading to a gradual rise in the inlet and hot-side temperatures over the
+course of the test. As the pipework, thermal store and engine thermal mass progressively lose
+stored heat over time, the available thermal energy on the hot side reduces. This behaviour is
+evident in the IPE temperature profile, where the hot-side temperature gradually decreases
+during continued operation. If the simulation were extended, a similar trend would be expected
+for the HPE. However, due to the significantly larger thermal mass of the HPE, the stored heat
+is sufficient to sustain elevated temperatures for a longer duration before a comparable decline
+is observed.
+
+Figure 23. Temperature (left) and pressure (right) profiles for IPE and HPE during the
+simulation. The y-axis scaling differs between plots.
+PAGE 42
+DEM-SD-02
+This discharge test engages the LPE and IHE in expansion mode. The overall test sequence
+mirrors that of DEM-SD-01, comprising an initial pre-charge phase followed by a continuous
+discharge period. At the start of discharge, the thermal mass within the LP, IP and HP thermal
+stores is initialised to 150 °C, representing a system state in which usable heat is already
+available from a preceding charge operation.
+
+During the test, the LPE operates at 300 RPM while the IHE runs at 1000 RPM. These
+rotational speeds are selected to balance the mass flow rates across the active expansion
+stages. The supercharger is not used and is bypassed via its internal bypass valve, ensuring
+no contribution to pressure rise or flow restriction during discharge.
+
+The expansion process reduces the air pressure from 29.5 bara to 6.4 bara through the HPE,
+followed by further expansion to 3 bara via IPE and finally to ambient pressure through the
+LPE, as shown in Figure 24. Low pressure ratios are deliberately selected for this test, as it
+represents the first expansion scenario involving the LPE and IHE. This choice provides
+improved controllability and operational robustness at lower mass flow rates, thereby reducing
+the risk of failure modes. In addition, the reduced pressure ratios ensure that the cold-side
+outlet temperatures from the engines remain comfortably within acceptable operating limits
+(Figure 25).
+
+Over the two-hour discharge period, the average mass flow rate of the process air is
+approximately 0.046 kg/s. The system generates an average net electrical power output of
+8.3 kW.
+
+Figure 24. Pressure profiles for hot (inlet) and cold (outlet) during expansion test DEM-SD-
+02. The pressure axis scaling differs between plots.
+PAGE 43
+Figure 25. Temperature profiles for hot (inlet) and cold (outlet) during expansion test DEM-
+SD-02. The temperature axis scaling differs between plots.
+
+
+
+
+
+DEM-SC-01
+This charge test engages the full compression train, comprising the supercharger followed by
+the LP, IP, and HP engine stages, to compress air and charge the air store. All active engines
+operate at a fixed rotational speed of 500 RPM over a continuous two-hour compression
+period. The test configuration is largely identical to DEM-C-03, with the sole deviation being the
+operating point of the HPE. In this case, the HPE is commanded to a reduced pressure ratio of
+3.8, resulting in a final pressure of approximately 129 bara rather than 200 bara.
+
+The resulting thermal behaviour closely mirrors that observed in DEM-C-03. Temperature
+profiles across the supercharger, LPE and IPE show comparable trends, while the HPE outlet
+temperature is noticeably lower, 150 °C for current test versus 200 °C in DEM-C-03 due to the
+reduced compression ratio and correspondingly lower specific work input at this stage. This
+reduction in HPE temperature also leads to a marginally lower thermal load on the downstream
+thermal store associated with the HP stage.
+
+Across the duration of the test, the average mass flow rate of the process air is 0.062 kg/s. The
+average net electrical power consumed by the system is 24.2 kW, reflecting the reduced
+overall compression work relative to the higher-pressure DEM-C-03 case.
+
+
+DEM-SD-03
+This discharge test engages all three engine stages together with the supercharger to expand
+the stored air. The test sequence mirrors DEM-SD-01, consisting of an initial pre-charge phase
+followed by a continuous discharge. Air is expanded from 133.5 bara to 43.5 bara through the
+HPE, then to 6.6 bara through the IPE, further to 1.2 bara through the LPE, and finally to
+ambient pressure via the supercharger.
+PAGE 44
+The supercharger operates with a low expansion pressure ratio to facilitate flow balancing
+across the expansion train. In practice, the supercharger could be operated in blower mode.
+However, in the present model the control loops were unable to maintain stable flow balance
+under blower operation. Consequently, the supercharger was operated at a low-pressure ratio
+set point of 1.05. The LPE runs at 750 RPM, the IHE at 1000 RPM, and the supercharger at
+approximately 5250 RPM.
+
+The average net electrical power generated during the test is 49.4 kW, with an average
+process air mass flow rate of 0.2 kg/s.
+
+Figure 26 shows the temperature profiles at the outlets of all engine stages during the
+discharge operation. A progressive reduction in outlet temperature is observed as expansion
+proceeds, with the supercharger outlet temperature decreasing significantly over time and
+reaching approximately −18 °C at the end of the two-hour simulation. This behaviour is
+consistent with sustained expansion and the gradual depletion of available thermal energy in
+the system.
+
+Figure 26. Temperature profiles for hot (inlet) and cold (outlet) during expansion test DEM-
+SD-03. The temperature axis scaling differs between plots.
+
+
+
+
+
+DEM-SC-02
+This charge test is identical to DEM-C-03 in terms of the pressure ratios and operating
+sequence, with the system progressing through the same staged compression arrangement.
+The key difference is that all engines operate at a higher rotational speed of 1000 RPM,
+resulting in a higher throughput of compressed air being charged into the air store.
+
+Due to the increased engine speed, the system processes a higher mass flow rate, with an
+average value of 0.125 kg/s over the duration of the test as per Figure 27. The higher flow rate
+leads to a corresponding increase in electrical power demand, with the average net power
+consumption measured at 59.4 kW.
+PAGE 45
+The elevated engine speed and mass flow rate also result in higher temperature levels (Figure
+28) throughout the compression train compared to DEM-C-03. This behaviour is consistent
+with the increased compression work and reduced residence time for heat rejection within the
+engines and associated thermal masses. Figure 29 shows the rising air temperature entering
+the thermal store, with all three stages active after one hour. The staged start-up is designed to
+mirror a gradual test progression in which each stage is tested individually before the next one
+is activated – a production system would activate all stages within seconds, not minutes.
+
+
+Figure 27. Mass flow rate (left) and net charge power (right) profiles for DEM-SC-02
+
+
+
+
+
+Figure 28. Temperature profiles for cold (inlet) and hot (outlet) for engines for compression
+test DEM-SC-02. The temperature axis scaling differs between plots.
+PAGE 46
+Figure 29. Process air temperature at inlet (hot) and outlet (cold) side of the thermal store
+during the test DEM-SC-02. The temperature axis scaling differs between plots.
+
+
+
+
+
+DEM-SD-04
+This discharge test uses all the engine stages at a higher speed and a higher expansion
+pressure ratio. The operating sequence is similar to previous discharge tests – a pre-charge
+followed by the discharge and the LP, IP and HP thermal stores are initialised at 150 °C at the
+start of discharge. The LPE runs at 750 RPM and the IHE at 1000 RPM. The air first expands
+across the HPE with a pressure ratio of 3.9, followed by further expansion through the IPE
+stage with a ratio of 4.8. The LPE then expands the air with a pressure ratio of 5.5 before the
+final expansion across the supercharger, which operates at an expansion ratio of 2 to facilitate
+flow continuity and pressure matching to ambient. This staged pressure reduction results in a
+gradual decrease in pressure across the train, avoiding large single-stage expansions and
+limiting excessive temperature drops during discharge.
+
+The average mass flow rate of air during the discharge process is about 0.32 kg/s and the net
+average power over two-hour period is about 85.2 kW (Figure 30).
+
+It is observed in Figure 31 that the air temperature decreases significantly during expansion,
+reaching close to 0 °C at the outlets of the LPE and IHE. The temperature reduces further
+across the supercharger, reaching approximately −45 °C by the end of the two-hour expansion
+period. This behaviour arises because there is no thermal store between the LPE and the
+supercharger, and therefore the supercharger expands the already cold air exiting the LPE.
+
+In the present model, as mentioned earlier, the pipework between the LPE and the
+supercharger is assumed to be perfectly insulated. This assumption is made on the basis that
+the pipe run is short and located within the engine enclosure. However, this is a simplifying
+assumption and is not fully representative of the physical system. In practice, inclusion of pipe
+PAGE 47
+thermal mass and thermal resistances would allow heat transfer from the surrounding
+enclosure air, leading to partial reheating of the process air both upstream and downstream of
+the supercharger. As a result, the actual supercharger outlet temperatures are expected to be
+slightly higher than those predicted by the model.
+
+In addition, the supercharger is modelled with an isentropic efficiency of 60%, based on off-
+engine testing carried out. At off-design conditions, the effective isentropic efficiency may be
+lower, which would further increase the outlet temperature during expansion. Consequently,
+the predicted supercharger outlet temperature represents a conservative estimate.
+
+Figure 30. Mass flow rate (left) and the transient net discharge power profile for DEM-SD-04.
+
+
+
+
+
+Figure 31. Temperature profiles for engine stages at hot (inlet) and cold(outlet) during
+expansion for DEM-SD-04. The temperature axis scaling differs between plots.
+
+
+
+
+
+DEM-CC-01 and DEM-CD-01
+Having tested incrementally each of the subsystems, the next step is to carry out repeated
+charge and discharge cycles to achieve steady-state cyclic operation. This primarily affects the
+thermal store, which attains a dynamic equilibrium over the course of multiple charges and
+discharges, with a thermal gradient translating back and forth within each store. The initial
+PAGE 48
+system running is predicted to deliver around 150 kW of net output power, leading to a longer
+discharge duration of over 6 hours. The round trip efficiency is forecasted at 40%.
+
+The most influential driver of performance is the engine valving – small tweaks in the timings of
+the valves opening and closing can deliver multiple percentage points of stage isentropic
+efficiency, which translate into similarly large gains in round trip efficiency. Drawing on the live
+feedback provided by the Demonstrator control system, we will refine the valve timings to
+deliver optimised performance, and this is expected to drive the round trip efficiency up to 48%,
+while increasing the discharge power to 195 kW and delivering this over five hours of full-
+power discharge.
+
+The final improvement proposed is the introduction of hydraulic energy recovery. This is a
+design modification that has been specified and designed as part of the Demonstrator project
+but not yet procured. The isobaric pressure store uses water pumped into and released out of
+the air store pressure vessels to maintain the air pressure at a constant 230 barg. Pumping the
+water into the vessels during discharge consumes energy, though much less than expanding
+the equivalent volume of air releases. In its current form, the pressurised water that is released
+from the vessels during charging, as air is added to the vessels, is simply allowed to
+depressurise through a pressure control valve. This way of operating is simple and robust but
+represents an opportunity to capture additional energy during the charge process that would
+increase the round trip efficiency further. A water-driven turbine has been identified and this
+would allow the pressurised water to be expanded to do useful work, driving the turbine and its
+attached generator to produce electrical power. Retrofitting the turbine in place of the existing
+valve would deliver an additional 4% round trip efficiency, purely by reducing the net input
+energy required to fully charge the system. The discharge side of the process is entirely
+unaffected.
+
+Table 3: Summary of overall performance for cyclic steady-state operation
+ Run              Round trip   Charge   Discharge   Charge     Discharge
+                        efficiency    power    power (kW)  duration    duration
+                     (%)          (kW)                   (hours)     (hours)
+
+ DEM-CC-01a and    40%         228      150          10.6         6.4
+ DEM CD-01a: Initial
+ full system running
+
+ DEM-CC-01b and    48%         219      195          9.7          5.1
+ DEM CD-01b:
+ Optimised valves
+
+ DEM-CC-01c and    52%         198      195          9.7          5.1
+ DEM CD-01c: Hydro
+ recovery
+PAGE 49
+The overall result of this sequence is a pathway from initial cyclic testing with 150 kW and 40%
+round trip efficiency to a system delivering over 50% round trip efficiency and 195 kW of output
+power and 1 MWh of output energy, in line with the project targets and specification.
+ Demonstrator test plan and simulation summary
+
+The test plan and simulations map out a sequence of incremental testing, building up from low
+power and low speed early tests to final cyclic tests that deliver the target of over 50% round
+trip efficiency, with 195 kW of output power delivered for 5.1 hours for a total of 1 MWh of
+output electrical energy. This very closely aligns with the design criteria of 200 kW of output
+power over five hours.
+PAGE 50
+Delivery against objectives
+
+The following tables outline the project outcomes against the competition and project
+objectives. While final test results for the Demonstrator system are still being established, the
+vast majority of the aims have been meaningfully met and evidenced.
+
+Table 4: Assessment of outcomes against competition aims
+ Competition aims                     Outcomes
+
+                                A cost reduction pathway has been
+                                                       identified, drawing on engagement with Tata, 1. Explore the potential for cost reductions of                                            Ricardo and the wider supply chain. This is longer duration storage technologies;                                             explored further in the section on Cost
+                                               reduction potential.
+
+                                         Rapid development has taken place, with two
+                                                     iterations of the technology built out, 2. De-risk effective non-conventional storage                                                incorporating major design upgrades and technologies and therefore                                                with significant technical and commercial
+                                                learnings delivered.
+
+                                       £6.5m in equity investment has been raised
+                                              since the start of LoDES and a lead investor 3. Secure buy-in from commercial investors;                                        has been identified for the upcoming £6m
+                                              Series A round.
+
+                                             Prototype performance data has been
+ 4. Demonstrate capability, securing data to    shared, and modelling results provided for
+ inform policy formulation;                    Demonstrator though final performance is
+                                                                          still to be evidenced.
+
+                                KES continuing to emphasise UK 5. Build a pipeline of storage technologies in                                                  applications, manufacturing and supply the UK, supporting expertise and export                                                chain, including expertise in motorsport and opportunities.                                                     grids.
+PAGE 51
+Table 5: Assessment of outcomes against project objectives
+ Project objectives                    Outcomes
+
+ Deliver a strong multi-unit demonstrator for     Multi-unit demonstration has not been
+ KES’s technology                             possible but a more advanced single-unit
+                                            demonstrator has been developed and a
+                                              multi-system design and operating study has
+                                       been carried out.
+
+                                              Objective met through alternative approach.
+
+ Engage at meaningful volumes with a        Work towards the Colchester pilots meant
+ scalable supply chain                            that we engaged with supply chains and
+                                               extracted learning and costdown information.
+
+                                              Objective met
+
+ Validate the technology and cost roadmaps    This is ongoing, though the fidelity of the cost
+ to production units                       roadmap has been markedly increased by
+                                         work with supply chain and tendering
+                                                          activities.
+
+                                              Objective partially met and remains ongoing
+                                                with work to test the Demonstrator system.
+
+ Build customer feedback into technology      Sustained engagement with Colchester,
+ development                                     Shell, Amazon and others has helped put
+                                          customer requirements into the heart of the
+                                            design process.
+
+                                              Objective met.
+PAGE 52
+Key successes and lessons learned
+
+Technical successes
+
+   •  Two full CAES systems have been designed, manufactured and assembled.
+   •  Zero lost-time injuries throughout the project and 95th percentile on HSE safety climate.
+   •  Major performances upgrades have been designed and implemented.
+   •  New control system developed for higher cyber security.
+   •  A scalable supply chain, drawing on existing engine assembly shops and contract
+      manufacturing, has been proved out for engine and actuator assembly.
+   •  A viable cost and performance pathway to production systems has been identified.
+   •  Two patents granted and two new patents filed during project.
+
+Commercial traction and engagement
+
+   •  Memoranda of Understanding signed with Siemens and Volvo Penta, and KES has
+      presented to Volvo Penta’s global board.
+   •  A paid feasibility study has been delivered for a major mining player in Western
+       Australia.
+   •  Selected for Amazon accelerator, pilot programme and procurement.
+   •  Working with Northern Powergrid to map out grid strengthening capabilities.
+   •  Selected for Shell Startup Engine.
+   •   Visit from Lillian Greenwood MP, LDES Roundtable with Minister Shanks (Nov 24),
+      Energy roundtable (Jan 26).
+   •  Presentations at CERAweek, Energy Technologies Live, Solar and Storage Live,
+      PowerEx, Innovation Zero, Shell demonstration day, multiple events in Europe and the
+    USA with the Department of Business and Trade.
+
+Lessons learned
+
+Lessons learned are summarised briefly here.
+
+   •  Rapid partial testing has driven faster progress than full system testing by reducing
+      downtime, for example through reduced engine cylinder running.
+   •  A capable, experienced supplier can come unstuck with a new facility – contractual
+      commitments to specific facilities preferred where possible and additional diligence
+     needed where this is not possible.
+PAGE 53
+•  Major blue-chip design houses have had difficulties working at our pace – experienced
+   contractors embedded in the business have been much more effective.
+•  Actuator procurement and assembly through a contract manufacturer has been
+   successful, injecting pace into a complex process and highlighting simplification
+   opportunities.
+•  Plan for the end goal but stage technical effort alongside concrete results – e.g. an
+   automated Prototype system control system running was developed but rarely used.
+PAGE 54
+Commercialisation pathway
+
+Commercial opportunities
+
+Energy storage outlook 2026
+
+The global energy storage market reached a record 106 GW of installations in 20255 and is
+expected to continue expanding in 2026, driven by decarbonisation, rising variable renewable
+energy (VRE) penetration and new applications. Growth has been geographically broad-based,
+with Europe seeing a 160% increase in installations in 20256 and rapid uptake across the
+Middle East and APAC, while China remains dominant in manufacturing despite margin
+pressure.
+
+Increasing VRE penetration, reaching around 36% of global installed capacity in 20256, is
+accelerating the need for grid-forming storage, with formal regulation expected in Europe in
+2026. Energy storage deployment is increasingly driven by large, inflexible loads such as data
+centres, with over 230 GW announced in the US alone6, and by co-located solar and wind
+projects responding to curtailment, falling capture prices and rising instances of negative power
+prices.
+Specification for KES production systems
+
+The specification for production KES systems closely aligns with that for the Demonstrator.
+There is a potential further uplift in power from 200 kW to 250 kW as the technology advances,
+particularly as higher valve lifts and larger supercharger pressure ratios unlock larger mass
+flow rates. This would improve the economics of the system by extracting more value from
+effectively the same base hardware. The storage capacity will remain modular, with 800 kWh-
+1 MWh increments. The number of power and energy modules required for a given site will of
+course depend on the application in question. The systems will be packaged in a double-
+stacked 40-foot ISO shipping container for ease of transport and installation, minimising the
+onsite connections and maximising the offsite commissioning that can be completed in factory
+conditions. The production systems will run at fixed speed using synchronous electrical
+machines, rather than the variable speed drives used for testing purposes in the Prototype and
+Demonstrator systems.
+Cost reduction potential
+
+Producing first-of-a-kind systems is invariably extremely expensive, as a result of drawing upon
+low-volume agile supply chains that specialise in one-off machining and fabrications, plus the
+
+
+5 Wood Mackenzie, Global energy storage market surpasses 100 GW annual installation milestone in 2025
+(2026). https://www.woodmac.com/news/opinion/global-energy-storage-market-surpasses-100-gw-annual-
+installation-milestone-in-2025/
+6 Energy Storage News, Grid-forming, hybrids and alternative chemistries in Wood Mackenzie’s 2026 energy
+storage trend predictions (2026). https://www.energy-storage.news/grid-forming-hybrids-and-alternative-
+chemistries-in-wood-mackenzies-2026-energy-storage-trend-predictions/
+PAGE 55
+use of development parts which are expected to change further and therefore have not been
+value-engineered for lowest cost. The cost reduction strategy is as follows:
+
+    1.  Simplify, reduce pipework lengths and optimise temperatures;
+
+    2. Switch from local to global supply chain;
+
+    3. Design for manufacture and secure learning by doing effects.
+
+Major opportunities have been identified around reducing temperatures further, unlocking a
+much more compact thermal store that makes use of pressurised water storage.
+Containerising the system also brings down pipe lengths, while system simplification allows
+superfluous valves and flexible testing capability to be stripped out. Removal of the inverters
+also drives cost out. KES has identified global suppliers for the air store at around half the cost
+of European suppliers, and machined compressor-expander parts at 50-85% lower cost than
+UK providers.
+
+The rapid fall in lithium-ion costs over the last few years has put intense pressure on unit
+economics for novel technologies, as shown below in Figure 32. Eventual production systems
+would need to cost less than £300/kWh to compete with commercial and industrial scale
+lithium-ion systems, which have already benefited from decades of investment and technology
+development. This remains a major challenge and while progress has already been made, it is
+far from certain that this can be achieved and will require very patient capital to secure.
+
+Figure 32: Evolution of lithium-ion cost (volume-weighted pack price across all
+applications) and cycle life over time. Data publicly available from BNEF, CATL and BYD
+datasheets. Pack price is a component of overall lithium-ion system cost.
+
+
+
+
+
+Focusing on the unique offering of KES technology
+
+The market for flexibility has seen an evolution from decarbonisation being the principal driver
+towards resilience and speed to power becoming new priorities, in response to growing load
+demand, increasingly stretched networks and long waits for new connections. Combined with
+this, the fall in lithium-ion prices (as per Figure 32) means that it is increasingly competitive in
+longer duration applications, putting severe pressure on the economic attractiveness of
+innovative longer duration technologies.
+PAGE 56
+In response to these market conditions, the KES product offering has been adapted to
+emphasise its unique capabilities in delivering the services required to operate the electricity
+system safely and affordably. Rather than focusing solely on energy storage, the proposition to
+customers and grid operators centres on what the grid needs to reliably connect additional
+generation and load, including inertia, fault level, voltage support, and resilience. This positions
+the technology as a system-enabling asset that addresses structural network constraints, not
+just a tool for local optimisation, while retaining all of the longer duration energy storage
+capabilities needed for system-wide energy management and decarbonisation.
+
+Figure 33 maps out the set of services required to operate a grid. Historically all of these
+services have been provided by fossil-fired power stations, at which the energy storage is
+simply the pile of coal, tank of oil or stored natural gas. These large centralised plants provide
+a strong and robust grid, albeit at the cost of harmful carbon emissions and high running costs.
+As grids move to increasing renewables penetrations and the proportion of synchronous
+generation falls, however, without additional grid stability measures customers are facing:
+
+   •  Longer waits for new connections;
+   •  More frequent voltage dips and outages;
+   •  Weaker protection and slower fault clearance.
+Figure 33 also identifies the proportion of the essential grid services that can be provided by
+inverter-based resources such as batteries. Inertia provision, which is required to stabilise grid
+frequency (50Hz in the UK), can be partially replicated through batteries equipped with grid-
+forming inverters if configured correctly.
+
+Figure 33: Essential grid services provided by inverter-based battery technologies
+PAGE 57
+Figure 34 shows the wider set of services which production KES systems can provide. As the
+systems use the same synchronous electrical machines as diesel generators and fossil fired
+power stations, they are able to deliver the voltage support, inertia and short circuit level that
+grids need and batteries cannot fully replicate. Most significantly, the electrical machines are
+able to deliver several times more short circuit level than even a grid-forming inverter, helping
+to increase system strength against disturbances and supporting the correct action of grid
+protection measures.
+
+Figure 34: Essential grid services provided by Keep Energy Systems’ modular CAES
+
+
+
+
+
+Customer needs
+
+Grid constraints and reliability risks translate directly into material financial losses for large
+electricity users. For a 100 MW AI data centre, each year of delay in securing a grid connection
+can result in an estimated USD 0.4–1.2 billion of lost revenue7, reflecting the opportunity cost
+of idle capacity and deferred service delivery. Once operational, exposure to outages remains
+a major risk: large continuous-process manufacturing plants face an average cost of
+approximately USD 56,000 for a single one-second power interruption8, driven by equipment
+trips, product losses, and restart delays. For data centres, the impact can be even more
+severe, with one in five operators reporting that their most recent outage cost in excess of USD
+1 million9, underlining the high value placed on resilience and power quality.
+
+
+7 Camus Energy, Encoord and Princeton University, ‘Flexible Data Centers: A Faster, More Affordable Path to
+Power’ (2026), https://www.camus.energy/blog/flexible-data-centers-a-faster-more-affordable-path-to-power
+
+8 EPRI, ‘The Cost of Power Disturbances to Industrial & Digital Economy Companies’ (2001),
+https://restservice.epri.com/publicdownload/000000003002000476/0/Product (adjusted for inflation)
+9 Uptime Intelligence, ‘Annual outage analysis 2026’ (2026),
+https://intelligence.uptimeinstitute.com/resource/annual-outage-analysis-2026
+PAGE 58
+By drawing on the grid strength, resilience and storage benefits of the KES technology,
+commercial and industrial customers benefit from:
+
+   •  Faster connections
+   •  Improved power quality and reduced outages
+   •  Cost and emissions savings from up to 20hrs of onsite storage
+   •  Grid service revenues
+In parallel, distribution network operators get access to grid-strengthening services faster and
+at lower cost than deploying new infrastructure
+
+The commercial and industrial market is approached through three priority segments where the
+technical characteristics of KES’s synchronous modular CAES create value.
+
+Mining and heavy industry
+Mining and energy-intensive industrial operators face sustained pressure from high electricity
+costs alongside shareholder and lender expectations to decarbonise operations. These sites
+often operate in hot climates where conventional batteries suffer accelerated degradation. The
+KES technology offers a long-life, high-temperature-tolerant solution that reduces peak power
+costs, supports integration of on-site renewables, and improves power quality. The
+synchronous design provides inertia and fault contribution, which is particularly valuable for
+sites operating weak internal networks or islanded systems. Commercial engagement focuses
+on resilience, asset longevity, and measurable emissions reduction rather than short-term
+arbitrage.
+
+Industrial, logistics, and data centres
+These customers are increasingly constrained by multi-year delays and escalating costs for
+grid connections and capacity upgrades. Outages carry high operational and reputational
+costs. KES energy storage is positioned as a non-wires alternative that enables load growth,
+reduces exposure to network interruptions, and improves voltage stability. The ability to earn
+third-party network revenues improves project economics and supports potential energy-as-a-
+service offerings.
+
+Remote, islanded and weak-grid sites
+Remote industrial sites and weak-grid locations struggle to connect new loads or generation.
+Capacity headroom, resilience, and inertia are highly valued. KES systems provide firm
+capacity and synchronous grid support, enabling electrification and renewable deployment
+without full network reinforcement.
+PAGE 59
+If you need a version of this document in a more accessible format, please email
+alt.formats@energysecurity.gov.uk. Please tell us what format you need. It will help us if you
+say what assistive technology you use.

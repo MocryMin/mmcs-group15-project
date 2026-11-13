@@ -1,0 +1,66 @@
+\chapter{Introduction and data}\label{chap:common}
+\section{Introduction}\label{sec:intro}
+The client wants to know which flexible assets to add to its existing
+generation and how to operate them \cite{brief}. Tier 1 appraises batteries
+and electrolysers under historical market conditions. The Tier 2B
+specification considers operation when future prices, generation and demand
+are unknown.
+
+We reconcile the five supplied datasets before modelling. The audit
+identifies missing and zero generation records, midnight observations used
+as daily averages, low demand readings and inactive price entries.
+We rebuild daily values from upstream observations where available and
+flag values estimated from other records.
+
+Tier 1 combines market and equipment research with mixed-integer
+optimisation. We compare economic dispatch, which allocates electricity by
+value, with a rule that serves current electricity demand first. At an
+illustrative hydrogen offtake limit of 10 tonnes/day, both select
+23.4 MW of electrolysis and zero batteries. Annual gains over the respective
+no-investment baselines are \gbp 12.68m and \gbp 2.44m. The analysis tests
+when these choices change with offtake, prices and equipment costs.
+
+Tier 2B uses a rolling plan to apply only the current day's decisions
+and update the plan as new observations arrive. Forecast accuracy and
+operating value are evaluated separately in the design in
+Chapter~\ref{chap:tier2}.
+
+\section{Data audit and reconstruction}\label{sec:data}
+The inputs are fuel-level generation, its reported total, a simulated wind
+farm, demand and market index prices. We align them on 2,452 UTC days from
+1 January 2020 to 17 September 2026. Generation and demand are reported as
+mean MW and converted to daily MWh. Table~\ref{tab:repair} summarises the
+repairs. Appendix~\ref{app:data} documents the evidence, methods and checks.
+
+\begin{table}[H]
+\centering\small
+\caption{Data issues and treatments. Counts can overlap.}
+\label{tab:repair}
+\begin{tabularx}{\linewidth}{@{}P{.44\linewidth}Y@{}}
+\toprule
+Issue & Treatment \\
+\midrule
+Eight fuels recorded as zero (107 days) &
+Rebuild from Elexon generation and fuel outturn. \\
+\addlinespace[2pt]
+Solar recorded as zero (42 days) &
+Rebuild from Elexon or calibrated solar data. \\
+\addlinespace[2pt]
+Midnight values used as daily averages &
+Recalculate the mean over each full UTC day. \\
+\addlinespace[2pt]
+Dates absent from the original files &
+Restore source records and flag remaining estimates. \\
+\addlinespace[2pt]
+Missing or implausible demand readings &
+Fill invalid intervals with calibrated demand data. \\
+\addlinespace[2pt]
+Zero-volume price placeholders &
+Average active providers by volume, then by time. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The repaired series share a complete calendar. Fuel components reconcile
+to the total and the two price columns retain their factor-of-24 identity.
+Of the 2,452 dates, 1,929 meet the strict quality flag \cite{repair}.

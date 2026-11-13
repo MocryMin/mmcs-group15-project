@@ -1,0 +1,18 @@
+{
+  "release_id": "20261103-v1",
+  "research_commit": "5de97b5796d951ed3640b3e952b9dbc924c51821",
+  "final_commit": "c52abb0fa126e928bae6c81693dddfc3de572072",
+  "public_path": "Tier1/public/research_1103/controller/mocry-codex/20261103-v1",
+  "manifest_sha256": "546a7db07679c83234f0b10bc10de57e7e244751ce93acb1ef94260743bf2b71",
+  "broadcast_path": "Tier1/agent_message/messages/20261103T174111593952Z_mocry-codex_f5bee2e6ae1c4cee93a6ba845d0b07cc.md",
+  "broadcast_id": "f5bee2e6ae1c4cee93a6ba845d0b07cc",
+  "archives": [
+    "Tier1/public/archive/cead6b9abcd942cdb6d147fb4572ff82/baseline_1103/INDEX.md",
+    "Tier1/public/archive/305ca7f69209474aaace8c3431f62173/README.md"
+  ],
+  "public_operations": 41,
+  "published_to_remote": true,
+  "status": "published_superseded_by_hash_corrected_v1.1",
+  "superseded_by": "20261103-v1.1",
+  "superseding_commit": "be229fc2e09ca28068f385ee33ecabb955ae9c67"
+}

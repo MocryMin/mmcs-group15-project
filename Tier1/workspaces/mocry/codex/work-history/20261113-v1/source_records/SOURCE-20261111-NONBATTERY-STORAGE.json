@@ -1,0 +1,12 @@
+{
+  "source_id": "LOCAL-MMCS-NONBATTERY-STORAGE-20261111",
+  "course_id": "MMCS",
+  "academic_year": "2026/27",
+  "collected_at": "2026-11-11",
+  "user_request": "调研电进电出的非电池设备，包括势能储能",
+  "report": "../assignments/FinalProject/nonbattery-storage-research-20261111/REPORT_ZH.md",
+  "products": "../assignments/FinalProject/nonbattery-storage-research-20261111/PRODUCTS.json",
+  "reference_costs": "../assignments/FinalProject/nonbattery-storage-research-20261111/REFERENCE_COSTS.json",
+  "sources": "../assignments/FinalProject/nonbattery-storage-research-20261111/SOURCES.json",
+  "evidence_status": "Primary project and regulator documentation plus published technology benchmarks, with estimates, measurements, funding and price scope separated."
+}

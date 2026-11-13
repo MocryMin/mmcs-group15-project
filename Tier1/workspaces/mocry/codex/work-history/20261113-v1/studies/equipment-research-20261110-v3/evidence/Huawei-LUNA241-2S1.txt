@@ -1,0 +1,66 @@
+PAGE 1
+HUAWEI LUNA2000-241-2S1
+C&I Hybrid Cooling Grid Forming ESS
+
+
+
+
+
+              More Energy                             Simple O&M                              Safe & Reliable
+
+                                      Energy Storage System Parameters
+   Model type                                                                   LUNA2000-241-2S1
+   Rated capacity                                                                  241.0kWh
+   Maximum cycle efficiency                                                            91.3%
+   Depth of charge and discharge                                                    0~100%
+   Dimensions (W x D x H)                                           1150mm×1800mm×2100mm
+   Weight                                                                   ＜2.8 T
+   Operating temperature range                                                     -30 °C ~ 55 °C (＞50°C Derating)
+   Storage temperature range                                                                -35 °C ~ 60 °C
+   Operating humidity range                                                  0 ~ 100%RH (non-condensing)
+   Maximum operating altitude                                                              4,000 m
+   System temperature control mode                                                       Hybrid cooling
+   Balance mode                                                                                Active balance
+   SOC calibration mode                                                                  Automatic
+    Fire suppression mode                                         Pack-level oxygen barrier, Directional gas exhaust, Top explosion vent, Aerosol
+    Auxiliary power supply                                                   176~300 Vac, single phase, ≤5 kW
+   Power consumption standby                                                         ≤150 W
+   Communication port                                                                  Ethernet / Optical fiber
+   Communication protocol                                                     Modbus TCP
+    Protection degree                                                                            IP55
+   EMC protection rating                                                                             Class B
+   Noise (rated operating condition)                                                    ≤65 dB(A)
+    Lightning protection                                                              Type II (AC port)
+                                                          Anti-islanding protection, residual current detection, insulation resistance detection, AC overcurrent
+    Protection mode
+                                                                                    protection, and AC cable connection protection
+   Environment                                                                   RoHS6
+                                                        UL9540A; UN38.3; IEC 62477-1; IEC 62040-1; IEC 61000-6-1/2/3/4; IEC 62619;
+    Certification standards
+                                                                IEC 60529; VDE-AR-E 2510-2/50; IEC 62933-5-1/2; IEC 61727; EN 50549; GB/T 34120
+                                              Battery Parameters (DC)
+    Cell material                                                                              LFP
+   Rated battery capacity                                                            314Ah
+   System battery configuration                                                         240S1P
+   Number of battery packs                                                              4
+   Operating voltage range                                                           648~852 V
+   Rated DC current                                                                  140 A
+                                          PCS Parameters (AC)
+   PCS model type                                                              PCS2000-108K-MB1
+   Rated output power                                                               108 kW
+   Rated AC current                                                                         155.9 A
+   AC voltage & frequency                                                380 / 400 / 415 V (3P4W)，50 / 60 Hz
+    Adjustable power factor range                                                                     -1 ... +1
+   AC current harmonics THDi (rated output power
+                                                                                                 ≤1.5 %
+   @on-grid)
+   AC Voltage harmonics THDu (linear load
+                                                                                                 ≤2.0 %
+    @off-grid)
+
+
+    Note：
+     * Rated operating condition: In the on-grid scenario, the ambient temperature is 25°C, and the AC output voltage is 400 Vac.
+
+                                                                                 S O L A R . H U A W E I . C O M
+                                                                                                                                                                           Version No.: 01-202601

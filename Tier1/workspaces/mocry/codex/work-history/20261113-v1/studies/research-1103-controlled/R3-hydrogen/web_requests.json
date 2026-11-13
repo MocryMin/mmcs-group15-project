@@ -1,0 +1,15 @@
+{
+  "owner": "R3",
+  "created_at": "2026-11-03",
+  "scope": "Independent electrolysers/H2 Tier1 first pass; parent sole anonymous Playwright broker",
+  "requests": [
+    {"id":"R3-W01","url":"https://itm-power.com/poseidon","query_if_missing":"site:itm-power.com POSEIDON 20MW consumption pressure purity module","want":"Official manufacturer actual POSEIDON text/specification PDF. Need capacity/module grid, AC/DC electricity scope, kg/h or Nm3/h, kWh/kg, pressure/purity, turndown/shutdown, BOP inclusions/exclusions. If URL 404, official product navigation/search. Do not invent price if RFQ only."},
+    {"id":"R3-W02","url":"https://www.gov.uk/government/publications/net-zero-hydrogen-fund-har1-successful-projects","want":"Actual HAR1 December2023 awarded-projects page; weighted average strike price £241/MWh, price basis year (likely 2022), HHV/LHV, distinction strike and market price; project capacities/offtakers if present; link to terms."},
+    {"id":"R3-W03","url":"https://www.gov.uk/government/publications/hydrogen-production-costs-2021","want":"Official DESNZ/BEIS hydrogen cost report PDF/tables: PEM CAPEX £/kW, cost year, scale, installed vs equipment, fixed O&M, water, stack replacement/lifetime and efficiency. Retrieve actual report, not landing-page only."},
+    {"id":"R3-W04","url":"https://www.energy.gov/eere/fuelcells/technical-targets-proton-exchange-membrane-electrolysis","want":"DOE actual table: 2022 status versus future targets; system/stack CAPEX, system/stack kWh/kg, lifetime/hours and replacement/degradation definition; footnotes clarify installation/high-volume basis. Independent technical cost crosscheck, not UK installed quote."},
+    {"id":"R3-W05","url":"https://www.gov.uk/government/publications/uk-low-carbon-hydrogen-standard-emissions-reporting-and-sustainability-criteria","want":"Current official UK Low Carbon Hydrogen Standard: emission threshold gCO2e/MJ LHV, electricity sourcing/additionality/temporal rules and HAR/business-model qualification. Need show pooled gas/nuclear total generation cannot automatically claim green/subsidised H2."},
+    {"id":"R3-W06","url":"https://www.gov.uk/government/publications/hydrogen-transport-and-storage-cost","want":"Actual official report PDF. HHV 39.4kWh/kg; storage/transport cost scope, compression endpoints/power, pipeline vs tube trailer costs/scale, losses. At least explicit why gate-sale needs buyer/delivery boundary; optional module can remain deferred."},
+    {"id":"R3-W07","query":"site:iea.org Global Hydrogen Review 2024 electrolyser installed costs PEM 2000 2600","want":"Actual IEA chapter/report primary text giving installed electrolyser CAPEX range, year/USD and project scope. Prefer current or 2024 known range, distinguish China alkaline vs PEM; record not quote."},
+    {"id":"R3-W08","url":"https://www.energy.gov/eere/fuelcells/fuel-cells","want":"Official reconversion overview/efficiency. Optional, lower priority: fuel cell efficiency electrical vs combined CHP, no use of roundtrip efficiency without system/compression costs."}
+  ]
+}
