@@ -204,7 +204,7 @@ def validate_change(before, after, agent, acting_tier):
                     all_messages[record["id"]] = record
     for p in sorted(changes):
         safe_path(p)
-        if "/logs/" not in p or not p.startswith(TIERS):
+        if not re.match(r"Tier[12]/(?:public|agent_message)/logs/", p):
             continue
         parts = p.split("/")
         require(len(parts) == 4 and parts[1] in ("public", "agent_message")

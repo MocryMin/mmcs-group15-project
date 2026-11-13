@@ -78,6 +78,38 @@ class ProtocolChecks(unittest.TestCase):
         with self.assertRaisesRegex(c.ProtocolError, "another member"):
             self.check(after)
 
+    def test_workspace_experiment_logs_add_update_delete(self):
+        path = "Tier1/workspaces/alice/experiment/logs/train.log"
+        for action in ("add", "update", "delete"):
+            with self.subTest(action=action):
+                before = copy.deepcopy(self.before)
+                if action != "add":
+                    before[path] = b"epoch 1\n"
+                after = copy.deepcopy(before)
+                if action == "delete":
+                    del after[path]
+                else:
+                    after[path] = b"recomputed training log\n"
+                self.check(after, before=before)
+
+    def test_other_member_experiment_log_rejected(self):
+        after = copy.deepcopy(self.before)
+        after["Tier1/workspaces/bob/experiment/logs/train.log"] = b"new\n"
+        with self.assertRaisesRegex(c.ProtocolError, "another member"):
+            self.check(after)
+
+    def test_shared_log_namespace_remains_reserved(self):
+        for area in ("public", "agent_message"):
+            with self.subTest(area=area):
+                after = copy.deepcopy(self.before)
+                after[f"Tier1/{area}/logs/train.log"] = b"new\n"
+                with self.assertRaisesRegex(c.ProtocolError, "Cannot write this log"):
+                    self.check(after)
+
+    def test_published_research_log_uses_public_operation_rules(self):
+        after, _, _ = publication(self.before, path="Tier1/public/experiment/logs/train.log")
+        self.check(after)
+
     def test_cross_tier_workspace_rejected(self):
         after = copy.deepcopy(self.before)
         after["Tier2/workspaces/alice/model.py"] = b"new\n"
