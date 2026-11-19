@@ -1,0 +1,23 @@
+{
+  "device": "cuda",
+  "splits": {
+    "test25": {
+      "origins": 5833,
+      "max_standardized_delta": 2.1457672119140625e-06,
+      "MSE": 0.03644300638329955,
+      "archived_MSE": 0.03644300625591456
+    },
+    "jan_may26": {
+      "origins": 7225,
+      "max_standardized_delta": 5.125999450683594e-06,
+      "MSE": 0.03821080346506061,
+      "archived_MSE": 0.03821080318016505
+    },
+    "test26": {
+      "origins": 4393,
+      "max_standardized_delta": 3.0994415283203125e-06,
+      "MSE": 0.05205503404515672,
+      "archived_MSE": 0.05205503465310455
+    }
+  }
+}

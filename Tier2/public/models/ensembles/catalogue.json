@@ -1,0 +1,20 @@
+{
+  "metric": "Pooled joint standardized 12-hour MSE over 17,451 half-hour issue times",
+  "current_highest_accuracy_released": "in-12h-exact-v2",
+  "versions": [
+    {
+      "id": "in-12h-exact-v1",
+      "path": "in-12h-exact-v1",
+      "role": "Frozen feature-engineering benchmark",
+      "pooled_MSE": 0.043760652873558896
+    },
+    {
+      "id": "in-12h-exact-v2",
+      "path": "in-12h-exact-v2",
+      "role": "Current highest-accuracy frozen predictor",
+      "pooled_MSE": 0.04110497253832897,
+      "pooled_MSE_reduction_percent": 6.07,
+      "six_seed_recipe_replication_MSE": 0.04069707904841099
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "model_id": "generation12h-w24x76-v22x256h4-p1093707-20261119T184837Z",
+  "family": "transformer",
+  "kind": "residual_transformer",
+  "output_used": "generation",
+  "input_shape": [
+    24,
+    76
+  ],
+  "architecture": {
+    "layers": 2,
+    "hidden_width": 256,
+    "attention_heads": 4,
+    "feedforward_width": 512,
+    "dropout": 0.1,
+    "readout": "local_global",
+    "activation": "gelu",
+    "position": "sinusoidal",
+    "attention": "bidirectional_pre_layer_norm"
+  },
+  "ridge_anchor": 1,
+  "parameters_per_seed": 1093707,
+  "training": {
+    "epochs": 5,
+    "seed": 17,
+    "batch_size": 256,
+    "short_batch_every": 9,
+    "short_batch_size": 144,
+    "checkpoint_every_updates": 24,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": {
+      "peak": 0.0008,
+      "warmup_updates": 18,
+      "plateau_factor": 0.5,
+      "plateau_patience_evaluations": 4,
+      "min_relative_improvement": 0.001,
+      "minimum": 8e-05
+    }
+  },
+  "source_case": {
+    "id": "pdg2_split",
+    "width": 256,
+    "depth": 1,
+    "streams": [
+      {
+        "targets": [
+          0
+        ],
+        "width": 256,
+        "depth": 2
+      },
+      {
+        "targets": [
+          1
+        ],
+        "width": 256,
+        "depth": 2
+      },
+      {
+        "targets": [
+          2
+        ],
+        "width": 128
+      }
+    ],
+    "ridge_anchor": 1
+  },
+  "exported_encoder": 1,
+  "feature_contract": "../../engineered-76-features.json",
+  "weights": [
+    {
+      "file": "seed-17.safetensors",
+      "seed": 17,
+      "step": 456,
+      "sha256": "baf95fe352758bf9b833678759a38646d8fe5368c5b12358b8cf57ec740e3b32",
+      "source_sha256": "481f0e98ef7fcab41ea275a69659016d56dc75816661eb4cf93f363c7687c3a5",
+      "training_started_utc": "20261119T184837Z"
+    },
+    {
+      "file": "seed-29.safetensors",
+      "seed": 29,
+      "step": 312,
+      "sha256": "0fbeed8970c124ef3fefb680d446af20e7c2d5124018f5815e94e85b64a01113",
+      "source_sha256": "f4b7e64daa3db2dfa4e88fdc0db5ad929b008ee78e6e39013f767b5cd7711941",
+      "training_started_utc": "20261119T185025Z"
+    },
+    {
+      "file": "seed-43.safetensors",
+      "seed": 43,
+      "step": 480,
+      "sha256": "108bab1606c34980ed8926471a2b43fc8d3e6331818a0ed0ce3e28c749de678a",
+      "source_sha256": "5b74fedf0d05b3faa39af640fcb58b29b770b4b84d766da47916730c9a3bf8ff",
+      "training_started_utc": "20261119T185214Z"
+    }
+  ],
+  "selected_by": "minimum validation MSE on the trained loss"
+}

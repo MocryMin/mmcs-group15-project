@@ -1,0 +1,76 @@
+{
+  "id": "in-12h-exact-v2",
+  "version": 2,
+  "status": "frozen",
+  "role": "Highest-accuracy released Tier 2B forecasting ensemble",
+  "input_shape": [
+    24,
+    76
+  ],
+  "output_shape": [
+    24,
+    3
+  ],
+  "targets": [
+    "price",
+    "generation",
+    "demand"
+  ],
+  "target_sd": [
+    79.21033288773458,
+    3398.401600050584,
+    2771.149689553985
+  ],
+  "forecast_cadence_minutes": 30,
+  "forecast_horizon_hours": 12,
+  "inference_parameters": 47601018,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "routes": [
+    {
+      "target": 1,
+      "start": 0,
+      "stop": 24,
+      "weight": 0.5,
+      "bundle": "transformer/generation12h-w24x76-v22x256h4-p1093707-20261119T184837Z"
+    },
+    {
+      "target": 0,
+      "start": 0,
+      "stop": 8,
+      "weight": 0.5,
+      "bundle": "transformer/price12h-w24x76-v24x320h4-p3340235-20261119T193437Z"
+    },
+    {
+      "target": 0,
+      "start": 8,
+      "stop": 24,
+      "weight": 0.5,
+      "bundle": "transformer/price12h-w24x76-v24x320h4-p3340235-20261119T193437Z"
+    },
+    {
+      "target": 2,
+      "start": 0,
+      "stop": 8,
+      "weight": 0.5,
+      "bundle": "transformer/demand12h-w24x76-v21x128h4-p152267-20261119T193535Z"
+    },
+    {
+      "target": 2,
+      "start": 8,
+      "stop": 24,
+      "weight": 0.5,
+      "bundle": "transformer/demand12h-w24x76-v22x128h4-p277007-20261119T193721Z"
+    }
+  ],
+  "training_period": "2022–2024",
+  "validation_period": "2025-01 to 2025-08",
+  "load_method": "../../ensemble_inference.py",
+  "features": "../../engineered-76-features.json",
+  "base_ensemble": "in-12h-exact-v1",
+  "route_registration": "2026-11-19T19:38:22.214904+00:00",
+  "ranking_scope": "Highest among the frozen, published ensembles. Exploratory alternatives are reported separately."
+}

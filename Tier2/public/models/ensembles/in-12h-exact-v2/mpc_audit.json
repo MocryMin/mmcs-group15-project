@@ -1,0 +1,38 @@
+{
+  "windows": {
+    "test25": {
+      "start": "2025-09-01T00:00:00+00:00",
+      "end_exclusive": "2025-12-31T12:00:00+00:00",
+      "slots": 5832,
+      "days": 121.5,
+      "current_price_coverage": 1.0
+    },
+    "jan_may26": {
+      "start": "2026-01-01T00:00:00+00:00",
+      "end_exclusive": "2026-05-31T12:00:00+00:00",
+      "slots": 7224,
+      "days": 150.5,
+      "current_price_coverage": 1.0
+    },
+    "test26": {
+      "start": "2026-06-01T00:00:00+00:00",
+      "end_exclusive": "2026-08-31T12:00:00+00:00",
+      "slots": 4392,
+      "days": 91.5,
+      "current_price_coverage": 1.0
+    }
+  },
+  "fixed_annual_cost_GBP": 4695346.554053117,
+  "battery_MW": 100,
+  "battery_MWh": 400,
+  "electrolyser_modules": {
+    "A": 845,
+    "B": 362
+  },
+  "horizon_slots": 24,
+  "slot_minutes": 30,
+  "component_plan_registered_utc": "2026-11-19T19:38:22.214904+00:00",
+  "forecast_archive": "component_lock_paths.npz",
+  "forecast_sha256": "dfaf56971215cfd81180869173e634097b171abea0fdd5fc3481d54f4c96182a",
+  "baseline_replays_verified": 16
+}

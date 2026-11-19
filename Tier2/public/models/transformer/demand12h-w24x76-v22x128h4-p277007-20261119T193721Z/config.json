@@ -1,0 +1,85 @@
+{
+  "model_id": "demand12h-w24x76-v22x128h4-p277007-20261119T193721Z",
+  "family": "transformer",
+  "kind": "residual_transformer",
+  "output_used": "demand",
+  "input_shape": [
+    24,
+    76
+  ],
+  "architecture": {
+    "layers": 2,
+    "hidden_width": 128,
+    "attention_heads": 4,
+    "feedforward_width": 256,
+    "dropout": 0.1,
+    "readout": "local_dct",
+    "activation": "gelu",
+    "position": "sinusoidal",
+    "attention": "bidirectional_pre_layer_norm",
+    "dct_nonconstant_bands": 3
+  },
+  "ridge_anchor": 1,
+  "parameters_per_seed": 277007,
+  "training": {
+    "epochs": 5,
+    "seed": 17,
+    "batch_size": 256,
+    "short_batch_every": 9,
+    "short_batch_size": 144,
+    "checkpoint_every_updates": 24,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": {
+      "peak": 0.0008,
+      "warmup_updates": 18,
+      "plateau_factor": 0.5,
+      "plateau_patience_evaluations": 4,
+      "min_relative_improvement": 0.001,
+      "minimum": 8e-05
+    }
+  },
+  "source_case": {
+    "id": "demand_only_dct",
+    "width": 128,
+    "depth": 2,
+    "ridge_anchor": 1,
+    "loss_targets": [
+      0,
+      0,
+      1
+    ],
+    "readout": "fourier",
+    "basis_kind": "dct",
+    "harmonics": 3
+  },
+  "exported_encoder": null,
+  "feature_contract": "../../engineered-76-features.json",
+  "weights": [
+    {
+      "file": "seed-17.safetensors",
+      "seed": 17,
+      "step": 456,
+      "sha256": "b56b6cd0e8e8372169e00704fb69e94ea2d63a58424075887b166b54d64e5971",
+      "source_sha256": "f76a3738ec85b6a3af3a7af747769e6141bb0441c39768445c2acbe840dc6a9c",
+      "training_started_utc": "20261119T193721Z"
+    },
+    {
+      "file": "seed-29.safetensors",
+      "seed": 29,
+      "step": 576,
+      "sha256": "b60e5ddc7fed876f34003330f47a88f7456d7d069ea020ae45ab72f323c3be16",
+      "source_sha256": "a8abde61ce3cacd0f52335a51f57dafa8b26ae390b35f207a6e6bb704af06013",
+      "training_started_utc": "20261119T193729Z"
+    },
+    {
+      "file": "seed-43.safetensors",
+      "seed": 43,
+      "step": 912,
+      "sha256": "1ffe06c0ae8c33c3721f13a7bf83a523f12aa74ce7ac99177bc1aefaeca5599f",
+      "source_sha256": "9f2c3624a9b7f0d11dd29907c8a33fb355b60a8eb25f2cc80c1ad236a706a115",
+      "training_started_utc": "20261119T193736Z"
+    }
+  ],
+  "selected_by": "minimum validation MSE on the trained loss"
+}

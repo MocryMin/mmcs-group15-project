@@ -1,5 +1,18 @@
 # Tier 2B model bundles
 
+## Frozen 76-feature ensembles
+
+**in-12h-exact v2 is the current highest-accuracy released Tier 2B ensemble.** On the matched three-window benchmark it reduces 12-hour standardized MSE by 6.07% from v1. The new and old versions share the same 24 × 76 input. Their profiles disclose forecast accuracy and the distinct A/B operating results.
+
+| Version | Role | Pooled MSE | Model card |
+|:--|:--|--:|:--|
+| in-12h-exact v1 | Feature-engineering benchmark | 0.043761 | [v1](ensembles/in-12h-exact-v1/README.md) |
+| in-12h-exact v2 | Highest-accuracy released ensemble | 0.041105 | [v2](ensembles/in-12h-exact-v2/README.md) |
+
+[Ensemble catalogue](ensembles/catalogue.json) · [76-feature input contract and inference instructions](INPUTS-exact-76.md)
+
+## Earlier 59-feature standalone models
+
 **Featured Transformer: 1×864.** These weights use the frozen 59-feature publication-aware input.
 Each bundle contains Hugging Face Safetensors weights, configuration, a card, numerical replay snapshots and held-out scores.
 The supplied PyTorch loader implements the project-specific encoder and the original Ridge.
