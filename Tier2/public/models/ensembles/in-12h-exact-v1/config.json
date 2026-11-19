@@ -1,0 +1,62 @@
+{
+  "id": "in-12h-exact-v1",
+  "version": 1,
+  "status": "frozen",
+  "role": "Frozen baseline",
+  "input_shape": [
+    24,
+    76
+  ],
+  "output_shape": [
+    24,
+    3
+  ],
+  "targets": [
+    "price",
+    "generation",
+    "demand"
+  ],
+  "target_sd": [
+    79.21033288773458,
+    3398.401600050584,
+    2771.149689553985
+  ],
+  "forecast_cadence_minutes": 30,
+  "forecast_horizon_hours": 12,
+  "inference_parameters": 33011370,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "routes": [
+    {
+      "target": 0,
+      "start": 8,
+      "stop": 24,
+      "bundle": "transformer/price12h-w24x76-v11x864h4-p6114603-20261119T145827Z"
+    },
+    {
+      "target": 1,
+      "start": 0,
+      "stop": 24,
+      "bundle": "transformer/generation12h-w24x76-v11x768h4-p4845387-20261119T172142Z"
+    },
+    {
+      "target": 0,
+      "start": 0,
+      "stop": 8,
+      "bundle": "ridge/pgd12h-w24x76-ridge-a100-p131400-20261119T145702Z"
+    },
+    {
+      "target": 2,
+      "start": 0,
+      "stop": 24,
+      "bundle": "ridge/pgd12h-w24x76-ridge-a100-p131400-20261119T145702Z"
+    }
+  ],
+  "training_period": "2022–2024",
+  "validation_period": "2025-01 to 2025-08",
+  "load_method": "../../ensemble_inference.py",
+  "features": "../../engineered-76-features.json"
+}

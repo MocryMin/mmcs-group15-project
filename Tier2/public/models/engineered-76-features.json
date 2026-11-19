@@ -1,0 +1,829 @@
+{
+  "shape": [
+    24,
+    76
+  ],
+  "first_base_columns": 59,
+  "appended_blocks": [
+    "forecast_shape",
+    "indgen",
+    "tsdf"
+  ],
+  "columns": [
+    {
+      "name": "AGPT_age_hours",
+      "mean": 1.48240691962618,
+      "std": 1.161358044745748,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_history_0",
+      "mean": 25425.87995183487,
+      "std": 6726.383960923225,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_history_1",
+      "mean": 25444.854365988173,
+      "std": 6684.015041826839,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_age_hours",
+      "mean": 0.0824112225847801,
+      "std": 0.04997292852738471,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_history_0",
+      "mean": 28742.41443091205,
+      "std": 5559.553581441155,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_history_1",
+      "mean": 28744.093626862366,
+      "std": 5563.4289062350035,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_0",
+      "mean": 28754.353446800418,
+      "std": 5548.92205668393,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_1",
+      "mean": 28774.290902169774,
+      "std": 5548.8609732013,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_2",
+      "mean": 28787.49321456442,
+      "std": 5547.573962048046,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_3",
+      "mean": 28791.553220648697,
+      "std": 5543.52929048956,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_4",
+      "mean": 28797.215309365663,
+      "std": 5546.660966716335,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_5",
+      "mean": 28777.52965811315,
+      "std": 5550.162074231779,
+      "block": "asof59"
+    },
+    {
+      "name": "INDO_age_hours",
+      "mean": 0.40760352781622133,
+      "std": 0.039099463782528814,
+      "block": "asof59"
+    },
+    {
+      "name": "INDO_history_0",
+      "mean": 26283.33235439788,
+      "std": 6008.983993074776,
+      "block": "asof59"
+    },
+    {
+      "name": "INDO_history_1",
+      "mean": 26287.9298399929,
+      "std": 6009.049389434554,
+      "block": "asof59"
+    },
+    {
+      "name": "ITSDO_age_hours",
+      "mean": 0.407542121684108,
+      "std": 0.0389041016963845,
+      "block": "asof59"
+    },
+    {
+      "name": "ITSDO_history_0",
+      "mean": 28681.591154857742,
+      "std": 5576.123089102813,
+      "block": "asof59"
+    },
+    {
+      "name": "ITSDO_history_1",
+      "mean": 28684.549587778856,
+      "std": 5576.575451360761,
+      "block": "asof59"
+    },
+    {
+      "name": "NDF_forward",
+      "mean": 26339.965272085927,
+      "std": 6025.917587605713,
+      "block": "asof59"
+    },
+    {
+      "name": "NDF_forward_known",
+      "mean": 0.9996117397229882,
+      "std": 0.01970049589402225,
+      "block": "asof59"
+    },
+    {
+      "name": "NDF_forecast_age_hours",
+      "mean": 0.2323375348530916,
+      "std": 0.1145295367292141,
+      "block": "asof59"
+    },
+    {
+      "name": "WINDFOR_forward",
+      "mean": 7959.894298912871,
+      "std": 4833.167794725229,
+      "block": "asof59"
+    },
+    {
+      "name": "WINDFOR_forward_known",
+      "mean": 1.0,
+      "std": 1.0,
+      "block": "asof59"
+    },
+    {
+      "name": "WINDFOR_forecast_age_hours",
+      "mean": 1.5236534366014052,
+      "std": 0.8457166305738564,
+      "block": "asof59"
+    },
+    {
+      "name": "PRICES_forward",
+      "mean": 128.67664339448606,
+      "std": 93.185981236366,
+      "block": "asof59"
+    },
+    {
+      "name": "PRICES_forward_known",
+      "mean": 0.7605305695540553,
+      "std": 0.42675967704558476,
+      "block": "asof59"
+    },
+    {
+      "name": "past_auction_0",
+      "mean": 123.69048781270435,
+      "std": 90.22859489170536,
+      "block": "asof59"
+    },
+    {
+      "name": "past_auction_1",
+      "mean": 123.7193095928339,
+      "std": 90.2266574594924,
+      "block": "asof59"
+    },
+    {
+      "name": "daily_demand",
+      "mean": 25520.956397380432,
+      "std": 3750.9711946051534,
+      "block": "asof59"
+    },
+    {
+      "name": "daily_demand_count",
+      "mean": 11.529428544261672,
+      "std": 0.6639454672572764,
+      "block": "asof59"
+    },
+    {
+      "name": "daily_wind",
+      "mean": 7204.944159858169,
+      "std": 4189.736277952313,
+      "block": "asof59"
+    },
+    {
+      "name": "daily_wind_count",
+      "mean": 41.53023200532471,
+      "std": 15.003576472987993,
+      "block": "asof59"
+    },
+    {
+      "name": "time_sin",
+      "mean": 1.208919806622623e-05,
+      "std": 0.7071067717095529,
+      "block": "asof59"
+    },
+    {
+      "name": "time_cos",
+      "mean": -0.00018444552014948678,
+      "std": 0.7071067480778567,
+      "block": "asof59"
+    },
+    {
+      "name": "weekday_sin",
+      "mean": -0.0008476928917867688,
+      "std": 0.7071310738911031,
+      "block": "asof59"
+    },
+    {
+      "name": "weekday_cos",
+      "mean": 0.0017602566697303475,
+      "std": 0.707079784923019,
+      "block": "asof59"
+    },
+    {
+      "name": "season_sin",
+      "mean": -2.5663961564693936e-06,
+      "std": 0.7071734493057872,
+      "block": "asof59"
+    },
+    {
+      "name": "season_cos",
+      "mean": -0.00018862878318881698,
+      "std": 0.7070400814910494,
+      "block": "asof59"
+    },
+    {
+      "name": "PRICES_seasonal_count",
+      "mean": 4.0,
+      "std": 1.0,
+      "block": "asof59"
+    },
+    {
+      "name": "PRICES_seasonal_mean",
+      "mean": 126.0879759864714,
+      "std": 81.6495908316847,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_seasonal_count",
+      "mean": 3.543767234002092,
+      "std": 0.8797373349844296,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_seasonal_mean",
+      "mean": 25570.331348123622,
+      "std": 6161.569898242321,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_seasonal_count",
+      "mean": 3.992583436341162,
+      "std": 0.08579952545401497,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_seasonal_mean",
+      "mean": 28791.28954047118,
+      "std": 5222.924337239249,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_history_0_observed",
+      "mean": 0.9790513771354316,
+      "std": 0.14321235102114013,
+      "block": "asof59"
+    },
+    {
+      "name": "AGPT_history_1_observed",
+      "mean": 0.9665398878007037,
+      "std": 0.17983473031903316,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_history_0_observed",
+      "mean": 0.9986608982282653,
+      "std": 0.036569230717773384,
+      "block": "asof59"
+    },
+    {
+      "name": "FUELINST_history_1_observed",
+      "mean": 0.9984017939209534,
+      "std": 0.03994561197462617,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_1_observed",
+      "mean": 0.9991442426547494,
+      "std": 0.029240811086613482,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_2_observed",
+      "mean": 0.999125225824855,
+      "std": 0.029563642915213167,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_3_observed",
+      "mean": 0.9990681753351717,
+      "std": 0.03051157876448292,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_4_observed",
+      "mean": 0.9992012931444328,
+      "std": 0.028250114060136996,
+      "block": "asof59"
+    },
+    {
+      "name": "five_minute_demand_lag_5_observed",
+      "mean": 0.9989921080155938,
+      "std": 0.0317313108786573,
+      "block": "asof59"
+    },
+    {
+      "name": "INDO_history_0_observed",
+      "mean": 0.9999009540109663,
+      "std": 0.009951692047067643,
+      "block": "asof59"
+    },
+    {
+      "name": "INDO_history_1_observed",
+      "mean": 0.9999239326804221,
+      "std": 0.008721326429783174,
+      "block": "asof59"
+    },
+    {
+      "name": "ITSDO_history_0_observed",
+      "mean": 0.9998993692751418,
+      "std": 0.010030982052442398,
+      "block": "asof59"
+    },
+    {
+      "name": "ITSDO_history_1_observed",
+      "mean": 0.9999239326804221,
+      "std": 0.008721326429783174,
+      "block": "asof59"
+    },
+    {
+      "name": "NDF_forecast_age_hours_observed",
+      "mean": 0.9996117397229882,
+      "std": 0.01970049589402225,
+      "block": "asof59"
+    },
+    {
+      "name": "daily_wind_observed",
+      "mean": 0.8849521409780989,
+      "std": 0.319079681469228,
+      "block": "asof59"
+    },
+    {
+      "name": "PRICES_vs_season",
+      "mean": -2.5481765568938233,
+      "std": 64.71164695416942,
+      "coverage": [
+        0.7605305695540553,
+        0.7609311914783953,
+        0.7614435110577747,
+        0.7617801047120419
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "PRICES_from_start",
+      "mean": 7.8501965481134395,
+      "std": 46.032829848623784,
+      "coverage": [
+        0.7605305695540553,
+        0.7609311914783953,
+        0.7614435110577747,
+        0.7617801047120419
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "PRICES_step_change",
+      "mean": -0.22495061428297103,
+      "std": 17.250456459648827,
+      "coverage": [
+        0.7188639028873887,
+        0.7192645248117286,
+        0.7197768443911081,
+        0.7201134380453752
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "PRICES_relative_to_recent",
+      "mean": 8.563118753228348,
+      "std": 47.27442174665125,
+      "coverage": [
+        0.7605305695540553,
+        0.7609311914783953,
+        0.7614435110577747,
+        0.7617801047120419
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "NDF_vs_season",
+      "mean": -2451.400210525835,
+      "std": 2891.8053367791344,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "NDF_from_start",
+      "mean": 11.065264937137103,
+      "std": 6143.849071431526,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "NDF_step_change",
+      "mean": 0.5972604690207636,
+      "std": 886.0601315265645,
+      "coverage": [
+        0.9579450730563215,
+        0.9583333333333334,
+        0.9583333333333334,
+        0.9583333333333334
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "NDF_relative_to_recent",
+      "mean": -2414.3723464508257,
+      "std": 5997.640503965738,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "net_demand_after_wind_forecast",
+      "mean": 18381.836590410854,
+      "std": 7551.437596683547,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "wind_share_of_forecast_demand",
+      "mean": 0.31660351350605925,
+      "std": 0.20944453122245651,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "modelled_gap_simple",
+      "mean": -769.5495167318044,
+      "std": 4609.490123494042,
+      "coverage": [
+        0.9996117397229882,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "recent_generation_minus_demand",
+      "mean": -3211.593308750119,
+      "std": 4721.312776766809,
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "forecast_shape",
+      "provenance": "Known forward prices and demand/wind forecasts; level, trend and scarcity proxies."
+    },
+    {
+      "name": "indgen_forward",
+      "mean": 29409.913130432717,
+      "std": 5662.500260447745,
+      "coverage": [
+        0.9999920763208773,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "indgen",
+      "provenance": "Elexon BMRS INDGEN publication vintages, Great Britain national boundary N."
+    },
+    {
+      "name": "indgen_forecast_age",
+      "mean": 2.7817170663759274,
+      "std": 0.21378452636918566,
+      "coverage": [
+        0.9999920763208773,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "indgen",
+      "provenance": "Elexon BMRS INDGEN publication vintages, Great Britain national boundary N."
+    },
+    {
+      "name": "indgen_known",
+      "mean": 0.9999920763208773,
+      "std": 0.0028148918874442426,
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "indgen",
+      "provenance": "Elexon BMRS INDGEN publication vintages, Great Britain national boundary N."
+    },
+    {
+      "name": "tsdf_forward",
+      "mean": 28658.93856850813,
+      "std": 5740.341146876944,
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "tsdf",
+      "provenance": "Elexon BMRS TSDF publication vintages, Great Britain national boundary N."
+    },
+    {
+      "name": "tsdf_forecast_age",
+      "mean": 2.7788858918870734,
+      "std": 0.20526407344038106,
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "block": "tsdf",
+      "provenance": "Elexon BMRS TSDF publication vintages, Great Britain national boundary N."
+    }
+  ],
+  "names": [
+    "AGPT_age_hours",
+    "AGPT_history_0",
+    "AGPT_history_1",
+    "FUELINST_age_hours",
+    "FUELINST_history_0",
+    "FUELINST_history_1",
+    "five_minute_demand_lag_0",
+    "five_minute_demand_lag_1",
+    "five_minute_demand_lag_2",
+    "five_minute_demand_lag_3",
+    "five_minute_demand_lag_4",
+    "five_minute_demand_lag_5",
+    "INDO_age_hours",
+    "INDO_history_0",
+    "INDO_history_1",
+    "ITSDO_age_hours",
+    "ITSDO_history_0",
+    "ITSDO_history_1",
+    "NDF_forward",
+    "NDF_forward_known",
+    "NDF_forecast_age_hours",
+    "WINDFOR_forward",
+    "WINDFOR_forward_known",
+    "WINDFOR_forecast_age_hours",
+    "PRICES_forward",
+    "PRICES_forward_known",
+    "past_auction_0",
+    "past_auction_1",
+    "daily_demand",
+    "daily_demand_count",
+    "daily_wind",
+    "daily_wind_count",
+    "time_sin",
+    "time_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "season_sin",
+    "season_cos",
+    "PRICES_seasonal_count",
+    "PRICES_seasonal_mean",
+    "AGPT_seasonal_count",
+    "AGPT_seasonal_mean",
+    "FUELINST_seasonal_count",
+    "FUELINST_seasonal_mean",
+    "AGPT_history_0_observed",
+    "AGPT_history_1_observed",
+    "FUELINST_history_0_observed",
+    "FUELINST_history_1_observed",
+    "five_minute_demand_lag_1_observed",
+    "five_minute_demand_lag_2_observed",
+    "five_minute_demand_lag_3_observed",
+    "five_minute_demand_lag_4_observed",
+    "five_minute_demand_lag_5_observed",
+    "INDO_history_0_observed",
+    "INDO_history_1_observed",
+    "ITSDO_history_0_observed",
+    "ITSDO_history_1_observed",
+    "NDF_forecast_age_hours_observed",
+    "daily_wind_observed",
+    "PRICES_vs_season",
+    "PRICES_from_start",
+    "PRICES_step_change",
+    "PRICES_relative_to_recent",
+    "NDF_vs_season",
+    "NDF_from_start",
+    "NDF_step_change",
+    "NDF_relative_to_recent",
+    "net_demand_after_wind_forecast",
+    "wind_share_of_forecast_demand",
+    "modelled_gap_simple",
+    "recent_generation_minus_demand",
+    "indgen_forward",
+    "indgen_forecast_age",
+    "indgen_known",
+    "tsdf_forward",
+    "tsdf_forecast_age"
+  ],
+  "mean": [
+    1.48240691962618,
+    25425.87995183487,
+    25444.854365988173,
+    0.0824112225847801,
+    28742.41443091205,
+    28744.093626862366,
+    28754.353446800418,
+    28774.290902169774,
+    28787.49321456442,
+    28791.553220648697,
+    28797.215309365663,
+    28777.52965811315,
+    0.40760352781622133,
+    26283.33235439788,
+    26287.9298399929,
+    0.407542121684108,
+    28681.591154857742,
+    28684.549587778856,
+    26339.965272085927,
+    0.9996117397229882,
+    0.2323375348530916,
+    7959.894298912871,
+    1.0,
+    1.5236534366014052,
+    128.67664339448606,
+    0.7605305695540553,
+    123.69048781270435,
+    123.7193095928339,
+    25520.956397380432,
+    11.529428544261672,
+    7204.944159858169,
+    41.53023200532471,
+    1.208919806622623e-05,
+    -0.00018444552014948678,
+    -0.0008476928917867688,
+    0.0017602566697303475,
+    -2.5663961564693936e-06,
+    -0.00018862878318881698,
+    4.0,
+    126.0879759864714,
+    3.543767234002092,
+    25570.331348123622,
+    3.992583436341162,
+    28791.28954047118,
+    0.9790513771354316,
+    0.9665398878007037,
+    0.9986608982282653,
+    0.9984017939209534,
+    0.9991442426547494,
+    0.999125225824855,
+    0.9990681753351717,
+    0.9992012931444328,
+    0.9989921080155938,
+    0.9999009540109663,
+    0.9999239326804221,
+    0.9998993692751418,
+    0.9999239326804221,
+    0.9996117397229882,
+    0.8849521409780989,
+    -2.5481765568938233,
+    7.8501965481134395,
+    -0.22495061428297103,
+    8.563118753228348,
+    -2451.400210525835,
+    11.065264937137103,
+    0.5972604690207636,
+    -2414.3723464508257,
+    18381.836590410854,
+    0.31660351350605925,
+    -769.5495167318044,
+    -3211.593308750119,
+    29409.913130432717,
+    2.7817170663759274,
+    0.9999920763208773,
+    28658.93856850813,
+    2.7788858918870734
+  ],
+  "std": [
+    1.161358044745748,
+    6726.383960923225,
+    6684.015041826839,
+    0.04997292852738471,
+    5559.553581441155,
+    5563.4289062350035,
+    5548.92205668393,
+    5548.8609732013,
+    5547.573962048046,
+    5543.52929048956,
+    5546.660966716335,
+    5550.162074231779,
+    0.039099463782528814,
+    6008.983993074776,
+    6009.049389434554,
+    0.0389041016963845,
+    5576.123089102813,
+    5576.575451360761,
+    6025.917587605713,
+    0.01970049589402225,
+    0.1145295367292141,
+    4833.167794725229,
+    1.0,
+    0.8457166305738564,
+    93.185981236366,
+    0.42675967704558476,
+    90.22859489170536,
+    90.2266574594924,
+    3750.9711946051534,
+    0.6639454672572764,
+    4189.736277952313,
+    15.003576472987993,
+    0.7071067717095529,
+    0.7071067480778567,
+    0.7071310738911031,
+    0.707079784923019,
+    0.7071734493057872,
+    0.7070400814910494,
+    1.0,
+    81.6495908316847,
+    0.8797373349844296,
+    6161.569898242321,
+    0.08579952545401497,
+    5222.924337239249,
+    0.14321235102114013,
+    0.17983473031903316,
+    0.036569230717773384,
+    0.03994561197462617,
+    0.029240811086613482,
+    0.029563642915213167,
+    0.03051157876448292,
+    0.028250114060136996,
+    0.0317313108786573,
+    0.009951692047067643,
+    0.008721326429783174,
+    0.010030982052442398,
+    0.008721326429783174,
+    0.01970049589402225,
+    0.319079681469228,
+    64.71164695416942,
+    46.032829848623784,
+    17.250456459648827,
+    47.27442174665125,
+    2891.8053367791344,
+    6143.849071431526,
+    886.0601315265645,
+    5997.640503965738,
+    7551.437596683547,
+    0.20944453122245651,
+    4609.490123494042,
+    4721.312776766809,
+    5662.500260447745,
+    0.21378452636918566,
+    0.0028148918874442426,
+    5740.341146876944,
+    0.20526407344038106
+  ],
+  "target_sd": [
+    79.21033288773458,
+    3398.401600050584,
+    2771.149689553985
+  ],
+  "timing": "One row per delivery half-hour, all inputs available at the forecast issue time."
+}

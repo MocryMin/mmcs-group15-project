@@ -1,0 +1,82 @@
+{
+  "model_id": "price12h-w24x76-v11x864h4-p6114603-20261119T145827Z",
+  "family": "transformer",
+  "kind": "local_transformer",
+  "output_used": "price",
+  "input_shape": [
+    24,
+    76
+  ],
+  "architecture": {
+    "layers": 1,
+    "hidden_width": 864,
+    "attention_heads": 4,
+    "feedforward_width": 1728,
+    "dropout": 0.1,
+    "readout": "local_global",
+    "activation": "gelu",
+    "position": "sinusoidal",
+    "attention": "bidirectional_pre_layer_norm"
+  },
+  "ridge_anchor": 0,
+  "parameters_per_seed": 6114603,
+  "training": {
+    "epochs": 5,
+    "seed": 17,
+    "batch_size": 256,
+    "short_batch_every": 9,
+    "short_batch_size": 144,
+    "checkpoint_every_updates": 10,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": {
+      "peak": 0.0008,
+      "warmup_updates": 18,
+      "plateau_factor": 0.5,
+      "plateau_patience_evaluations": 4,
+      "min_relative_improvement": 0.001,
+      "minimum": 8e-05
+    },
+    "parameters": 6114603
+  },
+  "source_case": {
+    "id": "national_1x864",
+    "width": 864,
+    "layers": 1,
+    "head": "local",
+    "blocks": [
+      "forecast_shape",
+      "indgen",
+      "tsdf"
+    ]
+  },
+  "exported_encoder": null,
+  "feature_contract": "../../engineered-76-features.json",
+  "weights": [
+    {
+      "file": "seed-17.safetensors",
+      "seed": 17,
+      "step": 450,
+      "sha256": "3a800d6cc7fd589506dc6edf6541796f16d32cef8ff4c53ecb8fbdc39903aa12",
+      "source_sha256": "ac44a32b86d3c0ebc19630e133ad796b76edea384f1abcc9dd9f3f7c0cdfc5db",
+      "training_started_utc": "20261119T145827Z"
+    },
+    {
+      "file": "seed-29.safetensors",
+      "seed": 29,
+      "step": 810,
+      "sha256": "9db9454b4d862eda4533516c00e9cf8a0a932a27ff34267ef2d8b4722c3bc046",
+      "source_sha256": "5cbb079cd576ce31bd4e0e7b7f535782f4321bd2eb02f68fe485d02e78f646e1",
+      "training_started_utc": "20261119T145852Z"
+    },
+    {
+      "file": "seed-43.safetensors",
+      "seed": 43,
+      "step": 1020,
+      "sha256": "afe21e77a6cc72b37f85d5a654a959ceed2a0eca0b4e71f968938fc7cc77b71d",
+      "source_sha256": "24958cfdfd34de5f99439144921fe4d73510835f62e02b013755c3f06caf9835",
+      "training_started_utc": "20261119T145918Z"
+    }
+  ],
+  "selected_by": "minimum validation MSE on the trained loss"
+}

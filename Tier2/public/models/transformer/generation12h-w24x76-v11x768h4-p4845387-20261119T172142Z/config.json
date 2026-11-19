@@ -1,0 +1,83 @@
+{
+  "model_id": "generation12h-w24x76-v11x768h4-p4845387-20261119T172142Z",
+  "family": "transformer",
+  "kind": "local_transformer",
+  "output_used": "generation",
+  "input_shape": [
+    24,
+    76
+  ],
+  "architecture": {
+    "layers": 1,
+    "hidden_width": 768,
+    "attention_heads": 4,
+    "feedforward_width": 1536,
+    "dropout": 0.1,
+    "readout": "local_global",
+    "activation": "gelu",
+    "position": "sinusoidal",
+    "attention": "bidirectional_pre_layer_norm"
+  },
+  "ridge_anchor": 0,
+  "parameters_per_seed": 4845387,
+  "training": {
+    "epochs": 5,
+    "seed": 17,
+    "batch_size": 256,
+    "short_batch_every": 9,
+    "short_batch_size": 144,
+    "checkpoint_every_updates": 10,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": {
+      "peak": 0.0008,
+      "warmup_updates": 18,
+      "plateau_factor": 0.5,
+      "plateau_patience_evaluations": 4,
+      "min_relative_improvement": 0.001,
+      "minimum": 8e-05
+    },
+    "parameters": 4845387,
+    "early_2024": false
+  },
+  "source_case": {
+    "id": "national_1x768",
+    "width": 768,
+    "layers": 1,
+    "head": "local",
+    "blocks": [
+      "forecast_shape",
+      "indgen",
+      "tsdf"
+    ]
+  },
+  "exported_encoder": null,
+  "feature_contract": "../../engineered-76-features.json",
+  "weights": [
+    {
+      "file": "seed-17.safetensors",
+      "seed": 17,
+      "step": 1000,
+      "sha256": "dbe4bb251c81555ca07e21017785596f213af7385fbcbb7c2e27cd00a838bd55",
+      "source_sha256": "230d4125e25bc3dc3e50bb90c09fc960a3b8a041349b1e7011163fd532795ec4",
+      "training_started_utc": "20261119T172142Z"
+    },
+    {
+      "file": "seed-29.safetensors",
+      "seed": 29,
+      "step": 810,
+      "sha256": "260a7d05c4ae88d37566878937c451857c9f8326e36dc20f32eeba11f5251547",
+      "source_sha256": "8e1eeb2ac1ec8dba21f7baafe637935e44903709653206b6614e035741d0f97c",
+      "training_started_utc": "20261119T172202Z"
+    },
+    {
+      "file": "seed-43.safetensors",
+      "seed": 43,
+      "step": 1020,
+      "sha256": "91fdc852abfad7865f0fe58e17cc0b65da1335b88fcf13f6b329946e937d2a1d",
+      "source_sha256": "cce13c3d8ca5493c8f1b881d2f52f116cf9253a7dfcc80b7a57555a74e215572",
+      "training_started_utc": "20261119T172223Z"
+    }
+  ],
+  "selected_by": "minimum validation MSE on the trained loss"
+}

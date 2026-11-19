@@ -1,0 +1,25 @@
+{
+  "model_id": "pgd12h-w24x76-ridge-a100-p131400-20261119T145702Z",
+  "family": "ridge",
+  "kind": "ridge",
+  "alpha": 100.0,
+  "parameters": 131400,
+  "input_shape": [
+    24,
+    76
+  ],
+  "outputs": [
+    "price",
+    "generation",
+    "demand"
+  ],
+  "training": "2022–2024, alpha selected on 2025 January–August validation MSE",
+  "feature_contract": "../../engineered-76-features.json",
+  "weights": [
+    {
+      "file": "model.safetensors",
+      "sha256": "0098de0afb5320e060338eb7592836f6a88edb222294205cf57d0ff70e05fc8b",
+      "source_sha256": "cdcc070c3fd524920996043d70737ed62ddd9a1f89064f7563b60516f05bdc06"
+    }
+  ]
+}
