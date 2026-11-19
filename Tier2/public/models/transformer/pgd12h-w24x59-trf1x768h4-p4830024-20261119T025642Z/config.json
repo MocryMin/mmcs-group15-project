@@ -1,0 +1,96 @@
+{
+  "model_id": "pgd12h-w24x59-trf1x768h4-p4830024-20261119T025642Z",
+  "role": "Frozen single-layer width reference",
+  "status": "frozen",
+  "publication_date": "2026-11-19",
+  "training_timestamp_utc": "20261119T025642Z",
+  "timestamp_evidence": "saved training config creation (Ridge uses saved fitted model creation)",
+  "parameters": 4830024,
+  "architecture": {
+    "family": "transformer",
+    "layers": 1,
+    "hidden_width": 768,
+    "attention_heads": 4,
+    "feedforward_width": 1536,
+    "dropout": 0.1,
+    "activation": "gelu",
+    "pre_layer_norm": true,
+    "final_layer_norm": true,
+    "position_encoding": "fixed sinusoidal stored as pos",
+    "pooling": "mean over the 24 rows"
+  },
+  "checkpoint_selection": {
+    "criterion": "minimum validation 12h MSE",
+    "step": 460
+  },
+  "input": {
+    "shape": [
+      24,
+      59
+    ],
+    "feature_contract": "../../features.json",
+    "cadence_minutes": 30,
+    "value_type": "standardized published-at-issue features"
+  },
+  "output": {
+    "shape": [
+      24,
+      3
+    ],
+    "horizon_hours": 12,
+    "lead_minutes": 30,
+    "targets": [
+      "price",
+      "total_generation",
+      "demand"
+    ],
+    "units": [
+      "GBP2020/MWh",
+      "MWh per half-hour",
+      "MWh per half-hour"
+    ],
+    "type": "scaled residual to the same-slot seasonal reference",
+    "training_std": [
+      79.21033288773458,
+      3398.401600050584,
+      2771.149689553985
+    ]
+  },
+  "training": {
+    "epochs": 5,
+    "seed": 17,
+    "batch_size": 256,
+    "short_batch_every": 9,
+    "short_batch_size": 144,
+    "checkpoint_every_updates": 10,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": {
+      "peak": 0.0008,
+      "warmup_updates": 18,
+      "plateau_factor": 0.5,
+      "plateau_patience_evaluations": 4,
+      "min_relative_improvement": 0.001,
+      "minimum": 8e-05
+    },
+    "steps_per_epoch": 216,
+    "total_updates": 1080,
+    "parameters": 4830024,
+    "split_windows": {
+      "train": 52585,
+      "val": 11641,
+      "test": 5833
+    },
+    "width": 768,
+    "selection": "minimum validation 12h MSE"
+  },
+  "windows": {
+    "train": "2022–2024",
+    "val": "2025 Jan–Aug",
+    "test": "2025 Sep–Dec",
+    "summer": "2026 Jun–Aug"
+  },
+  "source_checkpoint_sha256": "ba83f536615571c92919a14adb17453a0b42653f14939e552b47507937125f6d",
+  "weights": "model.safetensors",
+  "replay_snapshots": "training_replay.csv"
+}

@@ -1,0 +1,63 @@
+{
+  "model_id": "pgd12h-w24x59-ridge-p102024-20261119T020022Z",
+  "role": "Frozen original full-output Ridge baseline (alpha 10)",
+  "status": "frozen",
+  "publication_date": "2026-11-19",
+  "training_timestamp_utc": "20261119T020022Z",
+  "timestamp_evidence": "saved training config creation (Ridge uses saved fitted model creation)",
+  "parameters": 102024,
+  "architecture": {
+    "family": "ridge",
+    "feature_flattening": "row-major",
+    "alpha": 10.0
+  },
+  "checkpoint_selection": {
+    "criterion": "minimum validation 12h MSE",
+    "alpha": 10.0
+  },
+  "input": {
+    "shape": [
+      24,
+      59
+    ],
+    "feature_contract": "../../features.json",
+    "cadence_minutes": 30,
+    "value_type": "standardized published-at-issue features"
+  },
+  "output": {
+    "shape": [
+      24,
+      3
+    ],
+    "horizon_hours": 12,
+    "lead_minutes": 30,
+    "targets": [
+      "price",
+      "total_generation",
+      "demand"
+    ],
+    "units": [
+      "GBP2020/MWh",
+      "MWh per half-hour",
+      "MWh per half-hour"
+    ],
+    "type": "scaled residual to the same-slot seasonal reference",
+    "training_std": [
+      79.21033288773458,
+      3398.401600050584,
+      2771.149689553985
+    ]
+  },
+  "training": {
+    "method": "closed-form ridge, one alpha for all 72 outputs; intercept unpenalized"
+  },
+  "windows": {
+    "train": "2022–2024",
+    "val": "2025 Jan–Aug",
+    "test": "2025 Sep–Dec",
+    "summer": "2026 Jun–Aug"
+  },
+  "source_checkpoint_sha256": "b07df452d2720bf4b8621022a8c7baae7274155ac305d10f6514b1b8dd9e2b44",
+  "weights": "model.safetensors",
+  "replay_snapshots": "validation_replay.csv"
+}
