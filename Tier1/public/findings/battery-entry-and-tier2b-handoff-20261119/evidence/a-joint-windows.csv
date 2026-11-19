@@ -1,0 +1,5 @@
+case,start,end,battery_plants,battery_MW,battery_MWh,electrolyser_MW,net_gain_vs_zero_GBP_per_year,gap_to_relaxed_upper_bound_GBP_per_year,zero_entry_excluded
+A_full_low,2020-01-01,2025-12-31,41,4100,16400,4039.8929999999996,46454576.40689731,3945.1711914539337,False
+A_postcrisis_low,2023-01-01,2025-12-31,9,900,3600,4356.846,926383.4375705719,4210.004327535629,False
+A_recent_low,2024-01-01,2025-12-31,0,0,0,4356.846,0.0,869.9064531326294,True
+A_full_mid,2020-01-01,2025-12-31,0,0,0,4251.195,0.0,235.80860948562622,True

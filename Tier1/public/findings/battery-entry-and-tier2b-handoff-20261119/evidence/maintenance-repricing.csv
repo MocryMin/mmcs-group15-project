@@ -1,0 +1,7 @@
+policy,window,battery_blocks,old_gain_GBP,extra_annual_FOM_GBP,fixed_plan_gain_4pct_GBP,scope
+A,A_full_low,41.0,46454576.40689731,23794242.179949168,22660334.22694814,same old free-switching plan; no reoptimization
+A,A_postcrisis_low,9.0,926383.4375705719,5223126.332183964,-4296742.894613392,same old free-switching plan; no reoptimization
+A,A_recent_low,0.0,0.0,0.0,0.0,same old free-switching plan; no reoptimization
+B,full,7.0,3233898.760445321,4062431.5916986386,-828532.8312533177,same old free-switching plan; no reoptimization
+B,postcrisis,0.0,0.0,0.0,0.0,same old free-switching plan; no reoptimization
+B,recent,0.0,0.0,0.0,0.0,same old free-switching plan; no reoptimization

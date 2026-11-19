@@ -1,0 +1,62 @@
+{
+  "status": "fixed dispatch research case; investment appraisal remains conditional",
+  "currency_basis": "GBP2020",
+  "time_zone": "UTC",
+  "settlement_hours": 0.5,
+  "battery": {
+    "units": 1,
+    "ac_charge_MW": 100,
+    "ac_discharge_MW": 100,
+    "nominal_MWh": 400,
+    "soc_lower": 0.2,
+    "soc_upper": 0.8,
+    "usable_internal_MWh": 240,
+    "round_trip_efficiency": 0.9,
+    "one_way_efficiency": 0.9486832980505138,
+    "standby_loss_assumed": 0,
+    "max_internal_discharge_MWh_per_replay_day_equivalent": 400,
+    "throughput_convention": "Annual budget, prorated to calendar days tested; this is not a daily hard cap.",
+    "opening_and_terminal_usable_inventory_MWh": 0,
+    "capital_cost_low_GBP": 38689824.68284418,
+    "life_years": 15,
+    "real_discount_rate": 0.05,
+    "annualised_capital_GBP": 3727466.217145814,
+    "annualised_initial_soc_GBP": 634.7198361980263,
+    "cost_scenarios": [
+      {
+        "fixed_om_and_augmentation_fraction_of_capital": 0.025,
+        "annual_om_and_augmentation_GBP": 967245.6170711045,
+        "annual_total_GBP": 4695346.554053117
+      },
+      {
+        "fixed_om_and_augmentation_fraction_of_capital": 0.04,
+        "annual_om_and_augmentation_GBP": 1547592.9873137672,
+        "annual_total_GBP": 5275693.924295779
+      }
+    ]
+  },
+  "electrolysers": {
+    "technology": "ITM NEPTUNE V",
+    "count_by_policy": {
+      "A": 845,
+      "B": 362
+    },
+    "ac_MW_per_module": 5.031,
+    "maximum_kg_per_hour_per_module": 90,
+    "minimum_operating_load_fraction": 0.125,
+    "ac_kWh_per_kg": 55.9,
+    "netback_GBP_per_kg": 7.7990270551508845,
+    "system_scale_offtake_kg_per_day": 1558968.7748333344,
+    "offtake_treatment_in_pilot": "Daily cap evenly allocated to half-hour slots."
+  },
+  "controller": {
+    "forecast_horizon_hours": 12,
+    "reissue_hours": 0.5,
+    "applied_slots_per_reissue": 1,
+    "inventory_grid_MWh": 10,
+    "action_grid_MWh": 25,
+    "allow_grid_import": false,
+    "allow_hydrogen_inventory": false,
+    "comparator": "same A/B rule and electrolysers, no battery"
+  }
+}

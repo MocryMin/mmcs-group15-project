@@ -1,0 +1,3 @@
+policy,power_MW,capacity_MWh,operating_gain_GBP,annual_cost_GBP,net_gain_GBP,gain_over_all_zero_upper_GBP,fixed_capacity_dispatch_upper_gain_GBP,break_even_capital_GBP_kWh,status
+A,100.0,400.0,7208682.377902745,4695346.554053117,2513335.8238496287,2513104.3293077946,2513335.823903799,148.50650585388766,HighsModelStatus.kOptimal
+B,100.0,400.0,5659235.39282498,4695346.554053117,963888.8387718638,963841.2520689517,1185423.6677828133,116.58344309469086,HighsModelStatus.kTimeLimit

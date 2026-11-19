@@ -1,0 +1,40 @@
+# Battery investment evidence and the Tier 2B equipment handoff
+
+Ran Min · 19 November 2026 · Research record and fixed replay configuration. Money is in 2020 GBP unless noted. Investment gains are incremental against the relevant zero-battery case. Replay operating gains use the same policy and retained electrolysers on both sides.
+
+## How a positive storage case emerged
+
+| Stage | What changed | What the result supports |
+|---|---|---|
+| Daily v6 | Joint selection among commercial battery and electrolyser options, with daily energy accounting | Zero battery under both A (economic dispatch) and B (supply priority). Free-storage and volatility sweeps isolated the small value of a commercial-sized unit on daily data. Mean-preserving volatility and free storage served as diagnostic counterfactuals. |
+| Half-hour v7 | Restored intraday profiles against repaired daily totals, explicit charge/discharge power, carried state of charge, and multiple intraday cycles. Battery discharge can serve electricity sales or electrolysis. | Finer dispatch materially increased available opportunities, particularly surplus accessible to B, but both policies still selected zero battery for the original equipment menu. Positive-entry exclusion was checked against a relaxed upper bound. |
+| Lower-cost and alternative storage screens | Tested a wider battery operating window, wear/cycle-budget sensitivity, four-hour utility-scale storage, compressed air, other durations and frequency response. | Small high-throughput battery positives depended on a wider state-of-charge window and maintenance assumptions. The assumed compressed-air economics failed the value upper-bound screen. Frequency-response auction data supported a separate revenue question that requires qualified capacity and delivery modelling. |
+| One 100 MW / 400 MWh unit | Used the low capital case, 20–80% state of charge, 90% round-trip efficiency, and a separate annual throughput budget. Held the v7 electrolyser counts fixed for both policies. | The six-year, perfect-information operating gains were £7.209m/year in A and £5.659m/year in B. After £4.695m/year of storage costs, that was **+£2.513m/year in A and +£0.964m/year in B**. The B feasible solution proves positive value in that case, while its fixed-capacity upper bound is +£1.185m/year. |
+| Joint investment and tested windows | Selected storage blocks, electrolysis and half-hour operation on 2020–25, 2023–25 and 2024–25 separately. Included the six-year central capital scenario and separately repriced old plans at higher maintenance. | Entry was sensitive to prices, history and operating policy. The low-cost six-year cases found positive storage for both policies. Both selected zero in the latest two-year window. The arithmetic-midpoint capital case excluded positive storage in A on the six-year window. |
+
+The archived [v6/v7 and early research index](../../../workspaces/mocry/codex/work-history/20261113-v1/README.md) links the baseline, product research, cost-free battery sweeps, price and surplus volatility, compressed-air entry and half-hour certification. [Source and result manifest](sources.json) identifies the later experiments and hashes the local records used here.
+
+### Joint battery and electrolyser sizing
+
+| Historical optimisation window (low capital, 2.5% O&M plus augmentation) | A battery MW / MWh | A incremental net £m/year | B battery MW / MWh | B incremental net £m/year |
+|---|---:|---:|---:|---:|
+| 2020–2025 | 4,100 / 16,400 | 46.455 | 700 / 2,800 | 3.234 |
+| 2023–2025 | 900 / 3,600 | 0.926 | 0 / 0 | 0.000 |
+| 2024–2025 | 0 / 0 | 0.000 | 0 / 0 | 0.000 |
+
+These are historical perfect-information results with checked feasible integer plans and reported bounds. The large capacities depend strongly on the high-opportunity years. Repricing the existing plans at 4% reduced the A six-year gain to £22.660m/year, the A 2023–25 gain to −£4.297m/year and the B six-year gain to −£0.829m/year. Repricing holds those plans fixed. See [one-block dispatch](evidence/fixed-100mw.csv), [A joint-window evidence](evidence/a-joint-windows.csv), [B joint-window evidence](evidence/b-joint-windows.csv) and [maintenance repricing](evidence/maintenance-repricing.csv).
+
+### Capital and operating boundaries
+
+Lazard’s US utility-scale 100 MW / 400 MWh example supports a low/arithmetical-midpoint/high scenario of approximately **£96.72 / £173.25 / £249.77 per reference kWh**. The source’s 10% initial oversizing is already incorporated in the capital reconstruction. The model maps 400 MWh to its nominal capacity and uses 240 MWh for dispatch. The low scenario is £38.690m capital. With a 15-year life and 5% real discount rate, annualised capital is £3.727m. Fixed operations, maintenance and augmentation are £0.967m/year at 2.5% or £1.548m/year at 4%, plus £635/year for the initial minimum state of charge. Annual total is **£4.695m or £5.276m**. The operating budget includes augmentation. UK site, procurement and grid-upgrade quotes remain open. [Lazard assumptions, p. 43](https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf) · [2024 ATB](https://atb.nlr.gov/electricity/2024/utility-scale_battery_storage) · [2025 ATB](https://atb.nlr.gov/electricity/2025/utility-scale_battery_storage) · [NREL cost update](https://www.osti.gov/servlets/purl/2583471)
+
+## Equipment carried into Tier 2B
+
+The fixed replay uses **one 100 MW / 400 MWh battery** in both A and B so that forecasting policies face the same storage opportunity and could be tested with an existing or conditionally purchased asset. It retains the v7 NEPTUNE V portfolios of **845 modules in A and 362 in B**, **5.031 MW per module**. [Equipment and controller contract](tier2b-equipment.json)
+
+- Battery energy carries between decisions, including across midnight. UTC settlement is every 30 minutes. The usable internal inventory is 0–240 MWh, the maximum charge and discharge in one interval is 50 MWh on the AC side, and the 90% round-trip factor is split symmetrically between charge and discharge. The annual internal discharge budget is 400 MWh times the number of days, prorated for partial replay windows. Replay comparisons start from minimum inventory and end there.
+- Policy A allocates power economically. Policy B serves current demand from generation first and then from available battery output, limited by the current shortage, inventory and power. Remaining eligible energy can be directed to electrolysis. The replay keeps the no-grid-import and no-hydrogen-storage assumptions. It compares against the same policy and module count with no battery.
+- V7 uses a £7.799/kg conditional netback and approximately 1,559 tonnes/day as a system-scale hydrogen offtake scenario. The forecasting pilot spreads that daily cap equally across slots. The separate 4 and 10 tonne/day contract cases, which include a seven-module A illustration, address a different sizing question. The replay portfolios reflect the wide market assumption. Installation advice depends on a real buyer, site quote and operating conditions. [ITM NEPTUNE V](https://itm-power.com/products/neptune-5)
+- The first rolling controller compares historical same-slot forecasts, learned paths and a perfect-information diagnostic. Its state grid is 10 MWh and its action grid is 25 MWh, with physical feasibility checks. A release of 12 hours is updated every half hour and only the first action is applied. The saved early economic replay belongs to an older forecasting/input version. Newer forecasting weights have prediction-error results in Tier 2B; matched dispatch reperformance is a separate test. [Earlier rolling replay results](evidence/rolling-replay.csv)
+
+The zero-battery conclusion for the original equipment menu and the positive low-cost scenario therefore answer complementary investment questions. The present Tier 2B equipment is a common research case for testing dispatch and value of forecasts. The total netback from a portfolio depends on the market scenario, and profitability for a new installation includes annualised storage cost.

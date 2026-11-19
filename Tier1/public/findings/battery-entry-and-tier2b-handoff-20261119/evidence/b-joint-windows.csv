@@ -1,0 +1,4 @@
+window,window_id,battery_blocks,battery_MW,battery_MWh,usable_MWh,electrolyser_MW,zero_electrolyser_MW,gain_over_zero_mGBP,total_increment_over_no_equipment_mGBP,global_gap_GBP,electricity_increment_mGBP,hydrogen_increment_mGBP,battery_annuity_mGBP,electrolyser_annuity_change_mGBP,annual_unserved_reduction_GWh,result
+2020–2025,full,7.0,700.0,2800.0,1680.0,1710.54,1821.222,3.233898760445321,121.6121704186553,669.9304119734961,22.97169647054646,-3.5141894781137073,32.86742587837183,-16.643817646384402,168.72466985631036,decomp_n7_h340
+2023–2025,postcrisis,0.0,0.0,0.0,0.0,1625.013,1625.013,0.0,87.26141888985512,106.98084821569864,0.0,0.0,0.0,0.0,0.0,zero_323
+2024–2025,recent,0.0,0.0,0.0,0.0,2163.33,2163.33,0.0,154.62708628746987,191.27868159785066,0.0,0.0,0.0,0.0,0.0,zero_430

@@ -1,0 +1,19 @@
+{
+  "archived_early_research_commit": "ca0e9ab",
+  "local_research_artifacts_and_sha256": {
+    "storage-investment-20261116-v3/policy_100MW.csv": "4eb9e83b86cdfcd3f1cf6074ea794aef8678f00d2972cb49a3a2a88080d8d86e",
+    "priority-investment-20261116-v4/comparison.csv": "70103e730f0b081aaa99a1e223c5ec40a17f4ee5b69595d33882fd19a8631547",
+    "operating-cost-review-20261117-v5/old_plans_maintenance_repricing.csv": "7492a5dddcaf916a4de61ad16263535af967acc016413883faa5eb1371a114e5",
+    "tier2b-halfhour-mpc-20261118/comparison.csv": "1b3ceaec4cb759b59f6cf3b85d86fea3a2c0feee060a90082a76d7d919699580",
+    "storage-investment-20261116-v3/SUMMARY.json": "3edd3e29f6cb6390db5080864128a1873d9fd1dff51d8cb23b71019fff59bf60",
+    "tier1-halfhour-20261113-v7/configuration.json": "0b15ef3cd7d1597028231471e264cf57a03b38a624dd5564a911aafa3de7f7a9",
+    "tier1-halfhour-20261113-v7/results/global_certificates.json": "dcc03cd376fc3f93c03d14094c834bf253a1eb66e92aabee488f59bc76320b91",
+    "storage-exploration-20261116-v2/SUMMARY.json": "9d018fef5221ef4b32bba1dda8f1f0740e05bf8e23f560ee2d3693e67be2899a",
+    "priority-investment-20261116-v4/FINAL_AUDIT.json": "4991756d80308491bd2839c7ea76de0e4a0c902b049c1e530fa025193ceb7605",
+    "operating-cost-review-20261117-v5/SOURCES.md": "76984c8634813c6207ded1630e971aeee010edbd32a3047cfe4a9912a4cfdbd7",
+    "tier1-tier2b-bridge-20261117/REPORT_ZH.md": "50ed6bae931754917e8c76e9e8d9c1cc51e336432f757fab5d9e19d8412657b4",
+    "tier2b-target-pilot-20261118/pilot.py": "437a1b6622b0c89de92201b29ec3723e6da09dca06e49aec6ccbdd678a175e82",
+    "tier2b-halfhour-mpc-20261118/rolling.py": "a590fbc6e5b697cbc6b4485e07c1ed653b0ad38bd3f074876c6faea580a93632"
+  },
+  "note": "Paths identify the research records used by the publisher. The evidence CSVs are the public numerical extract."
+}
