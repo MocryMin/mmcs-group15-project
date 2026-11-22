@@ -1,4 +1,4 @@
-"""Verify and extract all archived research to a separate experiments directory."""
+"""Verify and extract archived research to a separate experiments directory."""
 import argparse
 import hashlib
 import json
@@ -26,11 +26,17 @@ def inside(root, name):
     return path
 
 
-def restore(target, verify_only):
+def restore(target, verify_only, group_names=()):
     index = json.loads((HERE / "MANIFEST.json").read_text(encoding="utf-8"))
+    requested = set(group_names)
+    groups = [group for group in index["groups"] if not requested or group["name"] in requested]
+    missing = requested - {group["name"] for group in groups}
+    if missing:
+        raise ValueError(f"Unknown ZIP group: {', '.join(sorted(missing))}")
+
     count = 0
     with tempfile.TemporaryDirectory(prefix="mmcs-research-") as temp:
-        for group in index["groups"]:
+        for group in groups:
             zipped = Path(temp) / "archive.zip"
             with zipped.open("wb") as combined:
                 for part in group["parts"]:
@@ -66,5 +72,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("destination", type=Path, nargs="?", default=HERE / "extracted")
     parser.add_argument("--verify-only", action="store_true")
+    parser.add_argument("--group", action="append", default=[], metavar="ZIP",
+                        help="verify or extract a named ZIP group (repeat for multiple groups)")
     args = parser.parse_args()
-    restore(args.destination, args.verify_only)
+    restore(args.destination, args.verify_only, args.group)

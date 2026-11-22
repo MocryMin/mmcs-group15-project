@@ -8,4 +8,10 @@ This is Ran Min's working evidence after publication `63a78bd`. It includes sour
 - The direct-policy studies retain all trained seeds from the categorical policy and expected-cash experiments, including the Transformer width grid and the matched three-action A/B test.
 - The five-minute studies retain publication-time data processing, oracle diagnostics, direct and adapter forecasts, and matched battery replays. The older oracle and latest strict B replay have distinct commitment rules.
 
-`MANIFEST.json` maps every original project-relative path to its byte count and SHA-256, and orders the parts of each ZIP. All parts belong under `volumes/`. From this directory use `python restore.py --verify-only` to verify delivery, then `python restore.py path-to-experiment-copy` to extract it with the original paths. The script requires Python 3.11 or later. Existing files with different contents cause extraction to stop. Large checkpoints and arrays are stored in volume parts and reconstruct byte for byte. This archive supplements the preceding Tier 1 input archives and the frozen 19 November forecast release. Python environments, local browser-session artifacts and compiled Python caches are omitted.
+## Download and restore selected material
+
+The initial lightweight checkout includes this summary. When you need an experiment, first select this folder's `MANIFEST.json` and `restore.py`. The manifest lists the original paths and SHA-256 checksums in each ZIP group. Find the group that contains the files you want and select its folder under `volumes/`. For example, selecting `volumes/arrays-02/` downloads that entire ZIP group (59 MiB).
+
+From this directory, use `python restore.py --verify-only --group arrays-02.zip` to verify that group, then `python restore.py path-to-experiment-copy --group arrays-02.zip` to extract it. Repeat `--group` for multiple groups. Each selected group needs every part listed for it. With no group argument, those commands process the complete archive. The script requires Python 3.11 or later. Existing files with different contents cause extraction to stop.
+
+This archive supplements the preceding Tier 1 input archives and the frozen 19 November forecast release. Python environments, local browser-session artifacts and compiled Python caches are omitted.
