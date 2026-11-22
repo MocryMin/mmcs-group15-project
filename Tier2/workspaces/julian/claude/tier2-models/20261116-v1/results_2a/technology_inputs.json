@@ -1,0 +1,34 @@
+{
+  "offshore": {
+    "capex_GBP2020_per_MW": 3311810,
+    "annual_cost_GBP2020_per_MW": 317621,
+    "load_factor": 0.505,
+    "achieved_mean_cf": 0.5049999995677573,
+    "lcoe_GBP2020_per_MWh": 71.74919529069699,
+    "capture_price_all_days": 80.65574744411757,
+    "realised_revenue_per_MWh_generated": 61.58789159063158,
+    "corr_with_existing_generation": 0.2675861210372894
+  },
+  "onshore": {
+    "capex_GBP2020_per_MW": 1322725,
+    "annual_cost_GBP2020_per_MW": 114182,
+    "load_factor": 0.381,
+    "achieved_mean_cf": 0.3809999999312389,
+    "lcoe_GBP2020_per_MWh": 34.18791489180784,
+    "capture_price_all_days": 79.91915126294673,
+    "realised_revenue_per_MWh_generated": 61.47538328205532,
+    "corr_with_existing_generation": 0.32448814288897965
+  },
+  "solar": {
+    "capex_GBP2020_per_MW": 548914,
+    "annual_cost_GBP2020_per_MW": 40288,
+    "load_factor": 0.122,
+    "achieved_mean_cf": 0.12199999999999998,
+    "lcoe_GBP2020_per_MWh": 37.671994680977356,
+    "capture_price_all_days": 82.10271221378245,
+    "realised_revenue_per_MWh_generated": 55.61190652801169,
+    "corr_with_existing_generation": -0.49741342862169796
+  },
+  "electrolyser_annual_GBP_per_MW": 150375.10417418974,
+  "mean_real_price": 86.55576852515094
+}

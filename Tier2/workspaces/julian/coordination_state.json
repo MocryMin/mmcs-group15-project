@@ -1,6 +1,11 @@
 {
   "member": "julian",
-  "seen_message_ids": [],
+  "seen_message_ids": [
+    "dae4cde5c3484f63b1d254e78cc6433e",
+    "810908f8dbca452e9752b0803b969221",
+    "09098474a23a4490827450de47b7d47b",
+    "b615fa43d69f4b4293740470b6de1c7c"
+  ],
   "tasks": [],
-  "handoff": ""
+  "handoff": "2026-11-22: julian-claude added claude/tier2-models/20261116-v1 (daily runnable models for Tier 2A and 2B on the v6 inputs). Personal research, not a group decision. Xpress branch never run. No message sent and no public file changed. See claude/SESSION_STATE.md."
 }
