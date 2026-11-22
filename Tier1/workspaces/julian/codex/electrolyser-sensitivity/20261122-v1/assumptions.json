@@ -1,0 +1,21 @@
+{
+  "source_sha256": {
+    "inputs/halfhour.csv.gz": "890ee68ae2014caa96f2e63e9c07ef14c37112799d5d5f97a16989da3294b4ae",
+    "configuration.json": "0b15ef3cd7d1597028231471e264cf57a03b38a624dd5564a911aafa3de7f7a9",
+    "model.py": "2cea30902eebdd9d0c2ed18666fdff894b9c92925651370b79da69f51d140bd5"
+  },
+  "half_hour_periods": 105216,
+  "daily_offtake_cap_kg": 10000.0,
+  "fixed_modules": {
+    "A": 8,
+    "B": 11
+  },
+  "neptune_v_capex_gbp2020_per_unit": 7347472.240058675,
+  "neptune_v_annual_cost_gbp2020_per_unit": 756537.1657447455,
+  "neptune_v_fixed_om_gbp2020_per_unit": 130109.97599999998,
+  "min_run_schedule": "Each module starts/stops at UTC midnight; energy dispatch remains half-hourly. Across years the same sequence is used.",
+  "solver": "Day-commitment dynamic programming and HiGHS 1.16.0 for independent days",
+  "simple_payback": "Initial capital divided by average annual operating contribution less fixed O&M (undiscounted, before future stack replacements).",
+  "npv": "Constant-equivalent 30-year NPV at 5% real, using the six-year mean, with fixed O&M and discounted stack replacements.",
+  "boundary_conditions": "Start with all modules off; finish all commenced minimum runs within the historical horizon. No power imports, battery, or hydrogen storage."
+}
