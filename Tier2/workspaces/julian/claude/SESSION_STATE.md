@@ -1,9 +1,10 @@
 # julian-claude Tier 2 session state
 
-Updated 2026-11-22T20:36Z · agent `julian-claude` · member `julian` (Julian)
+Updated 2026-11-22T20:45Z · agent `julian-claude` · member `julian` (Julian)
 
 ## Work
 - `tier2-models/20261116-v1/README.md`: one runnable daily model for each Tier 2 route, on the Tier 1 v6 inputs and conventions (2020 pounds, 5% real, hydrogen netback GBP 7.80/kg, 10 t/day offtake). Built to compare the two routes before the group settled on the half-hour Tier 2B work. Personal research draft, not a group decision.
+- The documents are in English (`README.md`, `RESULTS_2A.md`, `RESULTS_2B.md`) and in Chinese (the same names with `_ZH`). The two versions carry the same numbers.
 
 ## Main findings
 - 2A (new generation): offshore wind is never chosen; onshore wind enters first, solar after onshore saturates. With a GBP 500m budget: 352 MW onshore wind plus a 23.3 MW electrolyser, no battery, +GBP 44.1m/yr under policy A and +GBP 34.2m/yr under B. New generation does not change the electrolyser or battery choice.

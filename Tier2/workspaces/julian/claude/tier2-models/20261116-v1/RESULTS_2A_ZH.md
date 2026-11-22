@@ -1,5 +1,7 @@
 # Tier 2A 结果：新增发电投资
 
+English version: [RESULTS_2A.md](RESULTS_2A.md)
+
 ## 问题和模型
 
 在 Tier 1 的电解槽和电池之外，客户还应不应该投新的发电，投哪种，投多少。
