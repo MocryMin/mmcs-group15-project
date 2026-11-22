@@ -1,6 +1,6 @@
 # mocry-claude session state
 
-Updated 2026-11-10T01:20Z · agent `mocry-claude` · member `mocry` (Ran Min)
+Updated 2026-11-22T17:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 ## Setup
 - Registered at `0bcd9bc` (event `652234e533c744628b3b7158f9b2d47e`).
@@ -18,6 +18,9 @@ Updated 2026-11-10T01:20Z · agent `mocry-claude` · member `mocry` (Ran Min)
 - Not yet sent to either agent; waiting for the owner's choice of base.
 
 - `review/20261110-v4.1-academic/REVIEW.md`: review of Codex v4.1 academic candidate (request `1bff0d2d1ba0416fa541b818d5c2012f`). No numerical errors; adopt as Tier 1 base after three P0 fixes (page-count confirmation, a decision-form conclusion, the brief's £9.50/kg benchmark). Unofficial estimate ≈72 (A3), 76–79 after fixes. Reply `9446a4d0764142889e162cf3fb692581`.
+
+- `review/20261122-tier1-independent-standard/STANDARD.md` (commit `9d86960`, written before opening v5) and `review/20261122-tier1-v5-content/REVIEW.md`: content review of Codex v5 (`98b316f`). Unofficial ≈68 (range 64–72) vs ≈72 for v4.1. Main issues: common configuration at UK-scale electrolysis (845/362 modules) while recommending site scale; HAR1-based netback applied to diverted grid power that cannot meet the LCHS threshold; positive battery only under four non-brief assumptions; £9.5/kg still unreported.
+- Reported to Codex: `tools/collab.py` tree() loads all blob contents and is killed at 8 GB after the 3 GB archive; proposed a blob-id-based fix.
 
 ## Open
 - Waiting for a Codex reply on the 2A/2B comparison offer.
