@@ -1,0 +1,306 @@
+{
+  "source_sha256": "7b8a9fa573796be5ad80bc0844d8d8cf88efb7a68a07a9cf0b1451db46cc4e72",
+  "checks": [
+    {
+      "name": "calendar days 2020-01-01..2026-09-17",
+      "computed": 2452,
+      "stated": 2452,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Tier 1 days 2020-2025",
+      "computed": 2192,
+      "stated": 2192,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Tier 1 half-hours",
+      "computed": 105216,
+      "stated": 105216,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "module input MW",
+      "computed": 5.031,
+      "stated": 5.031,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "845 modules MW",
+      "computed": 4251.195,
+      "stated": 4251.195,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "362 modules MW",
+      "computed": 1821.222,
+      "stated": 1821.222,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "capital A \u00a3bn",
+      "computed": 6.245,
+      "stated": 6.247,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "capital B \u00a3bn",
+      "computed": 2.698,
+      "stated": 2.698,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery annual cost \u00a3m",
+      "computed": 4.6947,
+      "stated": 4.695,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "payback A yr",
+      "computed": 5.85,
+      "stated": 5.8,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "payback B yr",
+      "computed": 8.25,
+      "stated": 8.2,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even A \u00a3/kWh",
+      "computed": 156.3,
+      "stated": 156,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even B \u00a3/kWh",
+      "computed": 116.6,
+      "stated": 117,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "4% maintenance A \u00a3m/yr",
+      "computed": 2.311,
+      "stated": 2.311,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "4% maintenance B \u00a3m/yr",
+      "computed": 0.384,
+      "stated": 0.383,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery full-foresight gain A",
+      "computed": 2.89,
+      "stated": 2.89,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery full-foresight gain B",
+      "computed": 0.96,
+      "stated": 0.96,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery simple-rule loss A",
+      "computed": -2.6,
+      "stated": -2.605,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery simple-rule loss B",
+      "computed": -0.94,
+      "stated": -0.938,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "net after annual cost A",
+      "computed": 2.891,
+      "stated": 2.891,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "net after annual cost B",
+      "computed": 0.964,
+      "stated": 0.964,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "conversion factor implied by Lazard low total",
+      "computed": 0.6225,
+      "stated": 0.635,
+      "ok": false,
+      "note": "report states 0.635 in Appendix B.4/B.2"
+    },
+    {
+      "name": "conversion factor implied by Lazard mid total",
+      "computed": 0.6225,
+      "stated": 0.635,
+      "ok": false,
+      "note": "report states 0.635 in Appendix B.4/B.2"
+    },
+    {
+      "name": "conversion factor implied by Lazard high total",
+      "computed": 0.6225,
+      "stated": 0.635,
+      "ok": false,
+      "note": "report states 0.635 in Appendix B.4/B.2"
+    },
+    {
+      "name": "low capital from 0.635",
+      "computed": 39.47,
+      "stated": 38.69,
+      "ok": "mismatch",
+      "note": "0.635 * 62.15 != 38.69"
+    },
+    {
+      "name": "mid capital from 0.635",
+      "computed": 70.69,
+      "stated": 69.3,
+      "ok": "mismatch",
+      "note": "stated 173.25 \u00a3/kWh = 69.30 \u00a3m"
+    },
+    {
+      "name": "electrolyser 2,300 $/kW at 0.635",
+      "computed": 1.46,
+      "stated": 1.46,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "brief \u00a39.5 basis",
+      "computed": 9.4954,
+      "stated": 9.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "HAR1 2012-price deflation",
+      "computed": 7.799,
+      "stated": 7.799,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "\u00a3/kg to \u00a3/MWh at 55.9 kWh/kg",
+      "computed": 139.53,
+      "stated": 139.53,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "A unused delta Table II.3",
+      "computed": 4505,
+      "stated": 4505,
+      "ok": "text states 4,536",
+      "note": "Table II.3 gives 4,505; text says 4,536"
+    },
+    {
+      "name": "B unused delta Table II.3",
+      "computed": 2812,
+      "stated": 2812,
+      "ok": "text states 2,857",
+      "note": "Table II.3 gives 2,812; text says 2,857"
+    },
+    {
+      "name": "A take-up vs less-unused (text)",
+      "computed": 4221,
+      "stated": 4536,
+      "ok": "inconsistent by 315 GWh",
+      "note": "same sentence, A: take-up 4,221 vs less unused 4,536"
+    },
+    {
+      "name": "B take-up vs less-unused (text)",
+      "computed": 2857,
+      "stated": 2857,
+      "ok": "coincident",
+      "note": "B: 2,857 used twice"
+    },
+    {
+      "name": "implied opportunity cost A 4t 7.8\u00a3/kg (\u00a3/MWh)",
+      "computed": -97.0,
+      "stated": null,
+      "ok": "info",
+      "note": "revenue - equipment charge - stated gain"
+    },
+    {
+      "name": "implied opportunity cost B 4t 7.8\u00a3/kg (\u00a3/MWh)",
+      "computed": -106.3,
+      "stated": null,
+      "ok": "info",
+      "note": "same for B"
+    },
+    {
+      "name": "implied opportunity cost A 10t 5.0\u00a3/kg (\u00a3/MWh)",
+      "computed": -50.2,
+      "stated": null,
+      "ok": "info",
+      "note": "revenue - equipment charge - stated gain"
+    },
+    {
+      "name": "implied opportunity cost B 10t 5.0\u00a3/kg (\u00a3/MWh)",
+      "computed": -50.2,
+      "stated": null,
+      "ok": "info",
+      "note": "same for B"
+    },
+    {
+      "name": "implied opportunity cost A 10t 7.8\u00a3/kg (\u00a3/MWh)",
+      "computed": -98.6,
+      "stated": null,
+      "ok": "info",
+      "note": "revenue - equipment charge - stated gain"
+    },
+    {
+      "name": "implied opportunity cost B 10t 7.8\u00a3/kg (\u00a3/MWh)",
+      "computed": -109.8,
+      "stated": null,
+      "ok": "info",
+      "note": "same for B"
+    },
+    {
+      "name": "implied opportunity cost A 10t 10.0\u00a3/kg (\u00a3/MWh)",
+      "computed": -136.3,
+      "stated": null,
+      "ok": "info",
+      "note": "revenue - equipment charge - stated gain"
+    },
+    {
+      "name": "implied opportunity cost B 10t 10.0\u00a3/kg (\u00a3/MWh)",
+      "computed": -151.1,
+      "stated": null,
+      "ok": "info",
+      "note": "same for B"
+    },
+    {
+      "name": "module count mismatch",
+      "computed": 827,
+      "stated": 845,
+      "ok": false,
+      "note": "Appendix B.3.1 says 827-module A plan; body uses 845"
+    }
+  ]
+}

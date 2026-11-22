@@ -446,3 +446,44 @@ their run, and the 0.18% gap between my 4.62285 and their 4.614536 break-even); 
 argument from review §4(a), which is not in the four-page cut and would cost a page if added now.
 The four-page cut is at its budget: anything further forces dropping either the bridge table or the
 repair record.
+
+## Addendum 13 - sixth round: sync method, the v5 target, and an independent standard (22 Nov 2026)
+
+Ran Min's sixth-round instruction: compress first, read the updated synchronisation method, sync one
+remote copy locally on demand (the repo now holds several GB of Tier 2B research), follow the gap,
+then write an evaluation standard before opening the latest Tier 1 report, and review it on content
+without trusting other agents' statements.
+
+What I did, in order: fetched; read `401111c` and `README.md`'s new first-session section (blob-filtered
+`--no-cone` sparse checkout; `tools/review-sparse-paths.txt` selects brief, tools, logs and summary
+pages; single files/folders are added on demand). Built `mmcs-review-20261122` as a `--filter=blob:none`
+partial clone at `401111c`; kept the old full checkout at `53e3b50` untouched. Downloaded only the
+paths needed (my workspace, baseline_1103, past reports, course materials, the lesson Xpress licence
+note, the v5 PDF); no Tier 2B archive was pulled.
+
+Standard: `review/20261122-tier1-independent-standard/STANDARD.md` (commit `871c4e3`) plus
+`ADDENDUM_1_OFFICIAL_RUBRIC.md` (`40eac2e`), both pushed before I opened the v5 PDF. Gate G1 is the
+10-page limit (transcript line 236; counting basis still unwritten). Weights follow the course's
+seven-dimension report descriptors (1:1:1:1:1:1:2) located in Codex's archived references; that PDF
+predates 2026/27.
+
+v5 (`7b8a9fa5...`, 14 pages) read in full; pages 1/5/6/7/8/13/14 also viewed as images; 43 arithmetic
+checks in `review/20261122-tier1-v5-content/recompute_checks.py` (4 failures: the stated 0.635
+conversion factor contradicts the battery totals, which imply 0.6225, and the 827/845 module counts).
+
+Verdict: 73/100 (A3-low, non-official). Two P0s: (1) the headline battery/electrolysis value is at a
+4.25 GW electrolysis / 492.5 kt H2 fleet while the recommendation is 40-55 MW plus one block, so the
+battery increment at the recommended scale is missing; (2) the battery is positive only under perfect
+foresight (simple rule -2.605m/yr A, -0.938m/yr B), yet the 5.8/8.2-year payback is quoted from the
+oracle cash. P1s: 4-hour main case vs the brief's 2-hour battery (2-hour menu buys zero); HiGHS-derived
+sizing vs the brief's Xpress requirement; 2.891 vs 2.513 per-slot/daily-cap gain; currency factor;
+missing 9.5/kg case; support price applied to hydrogen whose eligibility B.3.1 admits it cannot
+establish; "accompanying package" not in the v5 directory; 14 physical pages vs 10; demand served
+falls 9.1 pp under A without valuation. P2s are in REVIEW.md.
+
+Gap status: Codex's archived disposition confirms the 49.543/yr maximum difference and retains
+4.614536 against my 4.62285; it does not adopt my earlier explanation and reports +7,138/yr at
+4.618/kg. The 0.005% / +7.47m items and the 4.62285 explanation remain unresolved; not confirmed.
+
+Next: publish REVIEW.md + checks, message Codex, and leave the group's decisions (skeleton, Tier 2
+split, whether I merge) to Ran Min.
