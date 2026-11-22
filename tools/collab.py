@@ -4,12 +4,13 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import io
 import json
+import os
 import re
 import subprocess
 import sys
 import uuid
+from collections.abc import Mapping
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 
@@ -136,8 +137,28 @@ def identity(repo):
     return entries[agent]
 
 
+class GitTree(Mapping):
+    """Index Git paths by blob ID and read bytes only when requested."""
+
+    def __init__(self, blobs, cwd):
+        self.blobs = blobs
+        self.cwd = cwd
+
+    def __getitem__(self, path):
+        return git("cat-file", "blob", self.blobs[path], cwd=self.cwd).stdout
+
+    def __iter__(self):
+        return iter(self.blobs)
+
+    def __len__(self):
+        return len(self.blobs)
+
+    def __contains__(self, path):
+        return path in self.blobs
+
+
 def tree(ref, cwd=None):
-    """Read committed or staged trees without checking them out."""
+    """Read committed or staged tree metadata without fetching file contents."""
     paths = {}
     for entry in git("ls-tree", "-rz", ref, cwd=cwd).stdout.split(b"\0"):
         if not entry:
@@ -145,23 +166,8 @@ def tree(ref, cwd=None):
         metadata, path = entry.split(b"\t", 1)
         mode, kind, blob = metadata.split()
         require(mode in (b"100644", b"100755") and kind == b"blob", "Symlinks/submodules are not allowed")
-        paths[path.decode("utf-8")] = blob
-    if not paths:
-        return {}
-
-    blobs = dict.fromkeys(paths.values())
-    request = b"\n".join(blobs) + b"\n"
-    with io.BytesIO(git("cat-file", "--batch", cwd=cwd, data=request).stdout) as response:
-        for blob in blobs:
-            header = response.readline().split()
-            require(len(header) == 3 and header[:2] == [blob, b"blob"] and header[2].isdigit(),
-                    f"Unexpected Git blob response: {blob.decode()}")
-            size = int(header[2])
-            data = response.read(size)
-            require(len(data) == size and response.read(1) == b"\n", "Truncated Git blob response")
-            blobs[blob] = data
-        require(not response.read(1), "Unexpected trailing Git blob data")
-    return {path: blobs[blob] for path, blob in paths.items()}
+        paths[path.decode("utf-8")] = blob.decode("ascii")
+    return GitTree(paths, cwd)
 
 
 def log_rows(data):
@@ -174,10 +180,11 @@ def validate_change(before, after, agent, acting_tier):
     require(acting_tier in (*TIERS, "registration", "control"), "Invalid acting tier")
     require(REGISTRY in after, "Missing registry")
     old_registry = before.get(REGISTRY, b"")
+    new_registry = after[REGISTRY]
     old_events = registration_events(old_registry)
-    new_events = registration_events(after[REGISTRY])
+    new_events = registration_events(new_registry)
     require(new_events[:len(old_events)] == old_events, "Past registrations cannot change")
-    entries = registry(after[REGISTRY])
+    entries = registry(new_registry)
     require(agent in entries and entries[agent]["active"], "Unregistered/inactive actor")
     member = entries[agent]["member"]
     control = acting_tier == "control" and agent == MAINTAINER
@@ -187,17 +194,21 @@ def validate_change(before, after, agent, acting_tier):
     if added_events:
         require(acting_tier == "registration", "Use a registration commit")
     if not control:
-        require(after[REGISTRY].startswith(old_registry), "Global protocol is append-only for members")
-        suffix = after[REGISTRY][len(old_registry):].decode("utf-8")
+        require(new_registry.startswith(old_registry), "Global protocol is append-only for members")
+        suffix = new_registry[len(old_registry):].decode("utf-8")
         require(all(not line or line.startswith(REG_PREFIX) for line in suffix.splitlines()),
                 "Only registration lines may be appended")
 
-    changes = {p for p in before.keys() | after.keys() if before.get(p) != after.get(p)}
+    old_content = before.blobs if isinstance(before, GitTree) else before
+    new_content = after.blobs if isinstance(after, GitTree) else after
+    changes = {p for p in old_content.keys() | new_content.keys() if old_content.get(p) != new_content.get(p)}
     new_log_events = {}
     all_ids, all_messages = set(), {}
-    for p, data in after.items():
+    shared_logs = {}
+    for p in after:
         if re.fullmatch(r"Tier[12]/(?:public|agent_message)/logs/[a-z0-9-]+\.jsonl", p):
-            for record in log_rows(data):
+            shared_logs[p] = after[p]
+            for record in log_rows(shared_logs[p]):
                 require(record["id"] not in all_ids, "Duplicate log event ID")
                 all_ids.add(record["id"])
                 if "/agent_message/" in p:
@@ -209,8 +220,10 @@ def validate_change(before, after, agent, acting_tier):
         parts = p.split("/")
         require(len(parts) == 4 and parts[1] in ("public", "agent_message")
                 and parts[3] == f"{agent}.jsonl", f"Cannot write this log: {p}")
-        require(p in after and after[p].startswith(before.get(p, b"")), f"Log is append-only: {p}")
-        appended = after[p][len(before.get(p, b"")):]
+        old_log = before.get(p, b"")
+        new_log = shared_logs.get(p)
+        require(new_log is not None and new_log.startswith(old_log), f"Log is append-only: {p}")
+        appended = new_log[len(old_log):]
         require(bool(appended), "Empty log change")
         records = log_rows(appended)
         for record in records:
@@ -257,12 +270,13 @@ def validate_change(before, after, agent, acting_tier):
             require(p not in before, f"Messages are immutable: {p}")
             require(p in new_log_events and new_log_events[p][0] == "agent_message", "Missing message log")
             r = new_log_events[p][1]
-            first = after[p].split(b"\n", 1)[0].decode("utf-8")
+            message = after[p]
+            first = message.split(b"\n", 1)[0].decode("utf-8")
             require(first.startswith("<!-- MESSAGE ") and first.endswith(" -->"), "Missing message metadata")
             metadata = json.loads(first[len("<!-- MESSAGE "):-len(" -->")])
             require(metadata == {k: v for k, v in r.items() if k not in ("path", "sha256")},
                     "Message header and log differ")
-            require(sha(after[p]) == r["sha256"], "Message content hash differs")
+            require(sha(message) == r["sha256"], "Message content hash differs")
             require(r["id"] in parts[-1] and f"_{agent}_" in parts[-1], "Message filename does not identify sender/ID")
             recipients = r["recipients"]
             require(bool(recipients) != bool(r["broadcast"]), "Choose recipients OR broadcast")
@@ -284,7 +298,8 @@ def validate_change(before, after, agent, acting_tier):
             archive = r["archive"]
             require(r["action"] == "update" and r["old_sha256"] == sha(before[p]), "Old public hash differs")
             require(isinstance(archive, str) and archive.startswith(f"{tier}/public/archive/{r['id']}/"), "Invalid archive path")
-            require(archive not in before and after.get(archive) == before[p], "Archive must preserve exact parent bytes")
+            require(archive not in before and new_content.get(archive) == old_content[p],
+                    "Archive must preserve exact parent bytes")
             require(bool(r.get("restore")), "Missing restore instructions")
             expected_archives.add(archive)
         else:
@@ -414,23 +429,36 @@ def commit(args, repo):
     print(result.stdout.decode("utf-8", "replace"))
 
 
+def has_project_pre_push_hook(repo):
+    hook = repo / git_text("rev-parse", "--git-path", "hooks/pre-push", cwd=repo)
+    expected_path = repo / ".githooks" / "pre-push"
+    if hook.resolve() != expected_path.resolve() or not hook.is_file() or not os.access(hook, os.X_OK):
+        return False
+    # Compare with the fetched hook, so an unpublished hook edit cannot skip the explicit check.
+    expected = git("show", "origin/main:.githooks/pre-push", cwd=repo, check=False)
+    return expected.returncode == 0 and hook.read_bytes() == expected.stdout
+
+
 def push(args, repo):
     require(git_text("branch", "--show-current", cwd=repo) == "main", "Integrate on local main before publishing")
     require(not git_text("status", "--porcelain", cwd=repo), "Commit or safely set aside local changes before push")
-    git("fetch", "origin", "main", cwd=repo)
-    count = validate_range("origin/main", "HEAD", repo)
+    if not has_project_pre_push_hook(repo):
+        git("fetch", "--no-tags", "origin", "main", cwd=repo)
+        count = validate_range("origin/main", "HEAD", repo)
+        print(f"Checked {count} unpublished commit(s).")
+    # The installed hook receives the advertised remote tip from this push.
     result = git("push", "origin", "HEAD:main", cwd=repo)
     print(result.stdout.decode("utf-8", "replace") + result.stderr.decode("utf-8", "replace"))
-    print(f"Checked {count} unpublished commit(s).")
 
 
 def pre_push(args, repo):
+    count = 0
     for line in sys.stdin:
         local_ref, local_sha, remote_ref, remote_sha = line.split()
         require(remote_ref == "refs/heads/main", "This shared remote uses main only")
         require(set(local_sha) != {"0"}, "Branch deletion is forbidden")
-        validate_range(None if set(remote_sha) == {"0"} else remote_sha, local_sha, repo)
-    print("Collaboration pre-push check passed.")
+        count += validate_range(None if set(remote_sha) == {"0"} else remote_sha, local_sha, repo)
+    print(f"Collaboration pre-push check passed for {count} unpublished commit(s).")
 
 
 def main():

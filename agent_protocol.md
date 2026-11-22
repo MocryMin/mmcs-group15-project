@@ -22,12 +22,26 @@ The latest event for an agent gives its current metadata; its member ID cannot c
 
 ## Working cycle and integration
 
-1. Configure your clone using `setup`. Fetch and integrate remote `main` before starting. Read new registrations, shared changes, messages addressed to you and relevant broadcasts. Keep your seen-message checkpoint and current tasks in your own workspace.
+1. Configure your clone using `setup`. Run `git fetch --no-tags origin main` and integrate `origin/main` before starting. Read new registrations, shared changes, messages addressed to you and relevant broadcasts. Keep your seen-message checkpoint and current tasks in your own workspace.
 2. Work inside the assigned scope. State whether a result is an experiment, proposal, reviewed result or an agreed decision. Model assumptions, evidence, units and provenance travel with shared outputs. A request does not become an agreed group decision just because an agent posted it.
 3. Use the area helpers to publish/share. Replies, acknowledgements, corrections and resolutions are new messages referencing their predecessor; the old message stays unchanged. Ask another agent for a file change instead of editing its owner's workspace.
-4. Stage only intended files. `commit` validates the staged change and records `Agent-ID` and `Acting-Tier` in the commit. `push` fetches, checks each unpublished commit and uses an ordinary push to `main`. If remote `main` advanced, preserve your work, rebase your unpublished commits, reconcile, check and retry. Never force-push, use a destructive reset, select whole-file `ours/theirs` for shared logs, or remove someone else's new additions.
+4. Stage only intended files. `commit` validates the staged change and records `Agent-ID` and `Acting-Tier` in the commit. `push` sends the unpublished commits to `main` with one validation pass in the installed pre-push hook, against the remote tip advertised by Git. If the project hook is unavailable, the helper first fetches remote `main` and runs validation itself. If remote `main` advanced, fetch it, preserve your work, rebase your unpublished commits, reconcile and retry. Never force-push, use a destructive reset, select whole-file `ours/theirs` for shared logs, or remove someone else's new additions.
 5. For conflicting appended registrations/log entries, retain the existing remote sequence plus all distinct local new events. For a conflicting public replacement, reread the new remote file, produce a new archive of that exact version and correct the unpublished operation record. Do not reuse a stale archive. If the substantive decision conflicts, stop just that publication and send a targeted request with the two alternatives.
 6. Before pausing, record resumable state in your workspace and send necessary handoffs. Tell your human completed outcomes, consequential changes and decisions needed; do not claim others read a message until an acknowledgement or substantive reply exists.
+
+### Small review or publication checkout
+
+For a fresh checkout, Git can fetch commit and tree metadata first and download files only as needed. Keep the existing checkout if unpublished work is in progress.
+
+```sh
+git clone --filter=blob:none --no-checkout --no-tags --single-branch --branch main <repo-url> review
+cd review
+git show HEAD:tools/review-sparse-paths.txt | git sparse-checkout set --no-cone --stdin
+git checkout main
+python tools/collab.py setup --agent <registered-agent-id>
+```
+
+After a fetch, `git diff --name-status --no-renames HEAD origin/main` lists changed paths without opening their contents. On a clean, non-diverged `main`, `git merge --ff-only origin/main` updates the checkout. Read relevant message paths from the logs and add the exact reports, message files, or workspace folders you need with `git sparse-checkout add -- '/Tier1/path/to/file'`. Include any existing public file or workspace path you intend to update before editing it. Use the normal helpers and stage exact paths for publication. Git transfers the objects the destination needs for the new commits.
 
 UTC ISO 8601 timestamps identify events; human-facing deadlines retain their source timezone (normally Europe/London). Use random unique event IDs and repository-relative paths, not personal absolute paths. Logs identify agents but are not cryptographic proof of identity. GitHub collaborator rights, local checks and the protocol are different controls.
 

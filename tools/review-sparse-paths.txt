@@ -1,0 +1,15 @@
+/.gitattributes
+/.gitignore
+/.githooks/
+/AGENTS.md
+/agent_protocol.md
+/tools/
+/Project_Brief.pdf
+/Tier1/public/agent_skill_protocol.md
+/Tier1/public/logs/
+/Tier1/agent_message/agent_skill_protocol.md
+/Tier1/agent_message/logs/
+/Tier2/public/agent_skill_protocol.md
+/Tier2/public/logs/
+/Tier2/agent_message/agent_skill_protocol.md
+/Tier2/agent_message/logs/

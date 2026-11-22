@@ -208,7 +208,7 @@ class ProtocolChecks(unittest.TestCase):
 
 
 class ConcurrentGitChecks(unittest.TestCase):
-    def test_tree_batches_duplicate_and_binary_blobs(self):
+    def test_tree_reads_only_requested_blobs(self):
         with tempfile.TemporaryDirectory(prefix="mmcs-tree-test-") as tmp:
             repo = Path(tmp)
             c.git("init", str(repo))
@@ -219,9 +219,36 @@ class ConcurrentGitChecks(unittest.TestCase):
             c.git("add", ".", cwd=repo)
             ref = c.git_text("write-tree", cwd=repo)
             with patch.object(c, "git", wraps=c.git) as git:
-                self.assertEqual(c.tree(ref, repo), data)
-            self.assertEqual([call.args[0] for call in git.call_args_list], ["ls-tree", "cat-file"])
-            self.assertEqual(len(git.call_args_list[-1].kwargs["data"].splitlines()), 3)
+                snapshot = c.tree(ref, repo)
+                self.assertEqual(set(snapshot), data.keys())
+                self.assertIn("duplicate.bin", snapshot)
+                self.assertEqual(snapshot.blobs["duplicate.bin"], snapshot.blobs["raw.bin"])
+                self.assertEqual(snapshot["raw.bin"], data["raw.bin"])
+                self.assertEqual([call.args[0] for call in git.call_args_list], ["ls-tree", "cat-file"])
+            self.assertEqual(dict(snapshot), data)
+
+    def test_validation_does_not_read_workspace_blobs(self):
+        with tempfile.TemporaryDirectory(prefix="mmcs-scope-test-") as tmp:
+            repo = Path(tmp)
+            c.git("init", str(repo))
+            before = base_tree()
+            owned_path = "Tier1/workspaces/alice/bundle.bin"
+            other_path = "Tier1/workspaces/bob/bundle.bin"
+            before[owned_path] = b"old workspace bundle"
+            before[other_path] = b"unrelated workspace bundle"
+            for name, content in before.items():
+                path = repo / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(content)
+            c.git("add", ".", cwd=repo)
+            old = c.tree(c.git_text("write-tree", cwd=repo), repo)
+            (repo / owned_path).write_bytes(b"new workspace bundle")
+            c.git("add", owned_path, cwd=repo)
+            new = c.tree(c.git_text("write-tree", cwd=repo), repo)
+            with patch.object(c, "git", wraps=c.git) as git:
+                c.validate_change(old, new, "alice-ai", "Tier1")
+            read_blobs = {call.args[2] for call in git.call_args_list if call.args[0] == "cat-file"}
+            self.assertEqual(read_blobs, {old.blobs[c.REGISTRY]})
 
     @unittest.skipUnless(sys.platform == "win32", "Windows console behavior")
     def test_background_child_has_no_console(self):
@@ -319,6 +346,56 @@ class ConcurrentGitChecks(unittest.TestCase):
             c.git("push", "origin", "main", cwd=b)
             self.assertEqual((b / "Tier1/workspaces/alice/result.txt").read_text(), "alice")
             self.assertEqual((b / "Tier1/workspaces/bob/result.txt").read_text(), "bob")
+
+    def test_push_uses_installed_hook_and_rejects_unauthorized_commit(self):
+        with tempfile.TemporaryDirectory(prefix="mmcs-push-test-") as tmp:
+            folder = Path(tmp)
+            remote, repo = folder / "remote.git", folder / "work"
+            c.git("init", "--bare", "--initial-branch=main", str(remote))
+            c.git("clone", str(remote), str(repo))
+            c.git("config", "user.name", "Test", cwd=repo)
+            c.git("config", "user.email", "test@example.invalid", cwd=repo)
+            source_root = Path(c.__file__).resolve().parents[1]
+            files = base_tree() | {
+                ".gitattributes": b"* text=auto eol=lf\n",
+                ".githooks/pre-push": (source_root / ".githooks/pre-push").read_bytes(),
+                "tools/collab.py": Path(c.__file__).read_bytes(),
+            }
+            for name, content in files.items():
+                path = repo / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(content)
+            (repo / ".githooks/pre-push").chmod(0o755)
+            c.git("add", ".", cwd=repo)
+            c.git("commit", "-m", "Bootstrap", cwd=repo)
+            c.git("push", "origin", "main", cwd=repo)
+            c.git("config", "collab.agent", "alice-ai", cwd=repo)
+            c.git("config", "collab.python", Path(sys.executable).as_posix(), cwd=repo)
+            c.git("config", "core.hooksPath", ".githooks", cwd=repo)
+            self.assertTrue(c.has_project_pre_push_hook(repo))
+
+            def commit(member):
+                path = f"Tier1/workspaces/{member}/review.txt"
+                (repo / path).write_bytes(b"test review\n")
+                c.git("add", path, cwd=repo)
+                c.git("commit", "-m", "Write review", "-m", "Agent-ID: alice-ai\nActing-Tier: Tier1", cwd=repo)
+                return c.git_text("rev-parse", "HEAD", cwd=repo)
+
+            accepted = commit("alice")
+            with patch.object(c, "git", wraps=c.git) as git, patch("builtins.print"):
+                c.push(None, repo)
+            self.assertNotIn("fetch", [call.args[0] for call in git.call_args_list])
+            self.assertEqual(c.git_text("rev-parse", "main", cwd=remote), accepted)
+
+            commit("bob")
+            with self.assertRaisesRegex(c.ProtocolError, "Cannot modify another member's workspace"):
+                c.push(None, repo)
+            self.assertEqual(c.git_text("rev-parse", "main", cwd=remote), accepted)
+
+            c.git("config", "core.hooksPath", ".git/hooks", cwd=repo)
+            with self.assertRaisesRegex(c.ProtocolError, "Cannot modify another member's workspace"):
+                c.push(None, repo)
+            self.assertEqual(c.git_text("rev-parse", "main", cwd=remote), accepted)
 
 
 if __name__ == "__main__":
