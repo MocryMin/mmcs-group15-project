@@ -1,0 +1,81 @@
+{
+  "parameters": {
+    "h2_value": 9.5,
+    "kwh_per_kg": 55.9,
+    "h2_cap_kg_day": null,
+    "el_capex": 2000000,
+    "el_fom": 0.03,
+    "el_life": 25,
+    "stack_share": 0.3,
+    "stack_hours": 50000,
+    "module_mw": 20.0,
+    "min_load": 0.2,
+    "min_load_mode": "module",
+    "bat_capex": 244800.0,
+    "bat_fom": 0.01,
+    "bat_life": 20,
+    "bat_rte": 0.9,
+    "bat_usable": 0.6,
+    "bat_hours": 2.0,
+    "rate": 0.08,
+    "policy": "surplus",
+    "boundary": "farm",
+    "n_max": null
+  },
+  "derived": {
+    "margin_GBP_per_MWh": 157.94633273703042,
+    "h2_value_per_MWh": 169.94633273703042,
+    "stack_cost_per_MWh": 12.0,
+    "electrolyser_annual_cost_per_MW": 247357.55810393623,
+    "battery_annual_cost_per_MWh": 27381.42071990726,
+    "breakeven_full_load_hours": 1566.0861117666418
+  },
+  "baseline": {
+    "years": 5.999999999999998,
+    "farm_output_GWh_per_year": 3704.8070056000006,
+    "unused_GWh_per_year": 803.5724264000002,
+    "unused_share": 0.21689994247618305,
+    "days_with_unused_energy": 0.1989051094890511,
+    "days_fully_unsold": 0.1551094890510949,
+    "national_generation_above_demand_days": 0.15100364963503649,
+    "revenue_if_all_output_sold_m": 352.5945131374482,
+    "revenue_actually_saleable_m": 283.2381955208674,
+    "mean_price": 103.7311778740876,
+    "unused_share_by_year": {
+      "2020": 0.18555763444362092,
+      "2021": 0.13493276245122215,
+      "2022": 0.2550806723568738,
+      "2023": 0.12301843279211305,
+      "2024": 0.1321541026274776,
+      "2025": 0.4676762196603224
+    }
+  },
+  "integration": {
+    "designs_by_method": {
+      "surplus": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2
+      },
+      "divert": {
+        "M1": 30,
+        "M2": 31,
+        "M3": 30,
+        "M4": 30
+      }
+    },
+    "recommended": {
+      "surplus": {
+        "expected_value_modules": 2,
+        "minmax_regret_modules": 8,
+        "minmax_regret_m": 24.278800357064565
+      },
+      "divert": {
+        "expected_value_modules": 30,
+        "minmax_regret_modules": 30,
+        "minmax_regret_m": 14.879023201846316
+      }
+    }
+  }
+}

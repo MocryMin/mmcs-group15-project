@@ -1,0 +1,28 @@
+{
+  "data": {
+    "demand_replaced_days": 313,
+    "demand_replaced_MAE_MW": 688.7172523961661,
+    "demand_replaced_bias_pct": -0.8178352310822854,
+    "demand_raw_error_on_those_days_pct": -17.072104289051378,
+    "demand_other_days_MAE_MW": 17.276210750399148,
+    "price_ratio_mine_to_repo_untouched_days_median": 1.0,
+    "price_untouched_days_within_1pct": 0.9137001078748651,
+    "price_replaced_days": 338,
+    "price_replaced_MAE": 12.739941111857096,
+    "price_mean_mine": 98.13680958029198,
+    "price_mean_repo": 98.35105930001997,
+    "generation_imputed_days": 125,
+    "generation_imputed_MAE_MW": 1250.3067744000004,
+    "generation_imputed_bias_MW": 164.1499712000001,
+    "generation_other_days_MAE_MW": 165.63667150459602,
+    "generation_other_days_changed_over_100MW": 167,
+    "unused_share_mine": 0.21689994247618305,
+    "days_gen_above_demand_mine": 0.15100364963503649,
+    "days_fleet_plus_farm_above_demand_mine": 0.19936131386861314,
+    "unused_share_repo": 0.22256072864539952,
+    "days_gen_above_demand_repo": 0.15921532846715328,
+    "days_fleet_plus_farm_above_demand_repo": 0.20985401459854014,
+    "days_same_surplus_classification": 0.9735401459854015
+  },
+  "note": "money in GBP2023 except the reproduction table (GBP2020)"
+}

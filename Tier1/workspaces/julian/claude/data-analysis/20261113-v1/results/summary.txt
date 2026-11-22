@@ -1,0 +1,72 @@
+== RAW DATA ==
+demand               rows= 2451  2020-01-01 -> 2026-09-17  missing days=1
+generation by fuel   rows= 2422  2020-01-01 -> 2026-09-17  missing days=30
+generation total     rows= 2422  2020-01-01 -> 2026-09-17  missing days=30
+price                rows= 2422  2020-01-01 -> 2026-09-17  missing days=30
+wind farm            rows= 2453  2020-01-01 -> 2026-09-18  missing days=0
+total_MW equals sum of fuels on every common day: True
+
+== CLEANING ==
+demand: 1 missing day, 1 outlier (2022-08-02=636 MW) -> linear interpolation
+price: 30 missing days (longest gap 4 days) -> linear interpolation
+generation: 30 days absent; 127 days where gas/nuclear/biomass/hydro are reported as (near) zero -> flagged gen_incomplete, total_MW not usable
+    incomplete block 2022-10-16 -> 2022-10-17 (2 days)
+    incomplete block 2022-11-19 -> 2022-11-21 (3 days)
+    incomplete block 2022-11-30 -> 2023-01-12 (44 days)
+    incomplete block 2023-02-16 -> 2023-02-20 (5 days)
+    incomplete block 2023-04-23 -> 2023-05-04 (12 days)
+    incomplete block 2023-08-02 -> 2023-08-02 (1 days)
+    incomplete block 2024-02-07 -> 2024-02-20 (14 days)
+    incomplete block 2025-03-08 -> 2025-03-12 (5 days)
+    incomplete block 2025-03-21 -> 2025-03-31 (11 days)
+    incomplete block 2026-06-29 -> 2026-07-01 (3 days)
+    incomplete block 2026-07-09 -> 2026-08-03 (26 days)
+    incomplete block 2026-09-13 -> 2026-09-13 (1 days)
+    'Fossil Oil' is zero on every day; 'Fossil Hard coal' is zero from 2024-09-30 onward (coal closure, real)
+wind farm: no gaps; 10 zero-output days, 29 days at rated 1125 MW
+clean table: 2452 days x 23 columns -> clean_daily.csv (2295 days with valid system generation)
+
+== KEY NUMBERS ==
+demand         mean 28,123 MW   min 19,241   max 42,031
+wind farm      mean 424 MW   capacity factor 37.7%   annual energy 3,718 GWh
+price          mean 47.8  median 41.0  max 334  days<0: 9  days<20: 398
+wind farm capture price 43.6 GBP/MWh = 91.2% of the time-average price
+wind farm merchant revenue ~ 180 m GBP/yr (2021-25 mean)
+farm share of national demand: 1.51%
+valid days: system generation > demand on 593 of 2295 days (25.8%); renewables > demand on 0 days
+renewable share of demand: mean 31.9%, max 91.4%
+
+Annual means (2026 = Jan-Sep only):
+      demand_MW  total_gen_MW(valid)  renew_share_of_demand  farm_MW  farm_CF   price  price_std
+date                                                                                            
+2020  27595.142            26843.734                  0.284  470.245    0.418  16.285      6.317
+2021  28834.732            27559.925                  0.251  371.068    0.330  53.868     34.439
+2022  29111.430            28039.099                  0.279  456.709    0.406  95.178     45.370
+2023  27306.674            24344.015                  0.277  381.864    0.339  45.373     15.788
+2024  27702.178            23293.929                  0.283  449.258    0.399  35.034     11.940
+2025  28337.874            27589.756                  0.421  405.876    0.361  39.561     14.703
+2026  27914.031            27829.652                  0.458  440.150    0.391  50.427     14.298
+
+Correlation (daily):
+                  demand_MW  wind_farm_MW  wind_national_MW  Solar  price_GBP_MWh
+demand_MW              1.00          0.19              0.26  -0.59           0.25
+wind_farm_MW           0.19          1.00              0.69  -0.28          -0.16
+wind_national_MW       0.26          0.69              1.00  -0.26          -0.19
+Solar                 -0.59         -0.28             -0.26   1.00          -0.10
+price_GBP_MWh          0.25         -0.16             -0.19  -0.10           1.00
+
+wind farm autocorrelation: lag1 0.59, lag2 0.33, lag7 0.20
+demand weekday effect: weekend is 8.1% below weekdays
+
+low-wind spells (farm CF<10%): 573 days in 250 spells, mean 2.3 d, longest 21 d, spells >=3 d: 67
+high-wind spells (farm CF>70%): 464 days in 248 spells, mean 1.9 d, longest 10 d, spells >=3 d: 59
+
+'Surplus' when the client's demand is national demand scaled so that the farm covers a share r of it on average:
+      client_mean_demand_MW  surplus_days_%  surplus_GWh_per_yr  surplus_%_of_farm_output  shortfall_GWh_per_yr  p95_surplus_MW  max_surplus_MW  longest_surplus_spell_d
+r                                                                                                                                                                       
+0.50                  848.8            14.8               188.5                       5.1                3906.3           186.0           487.5                        6
+0.75                  565.9            32.7               762.0                      20.5                2001.3           461.6           700.0                       11
+1.00                  424.4            43.3              1232.9                      33.2                1232.9           604.0           806.3                       20
+1.25                  339.5            50.8              1587.0                      42.7                 843.4           691.7           870.0                       23
+1.50                  282.9            57.1              1857.5                      50.0                 618.2           748.5           912.5                       39
+2.00                  212.2            64.3              2236.5                      60.2                 377.6           827.3           965.6                       39

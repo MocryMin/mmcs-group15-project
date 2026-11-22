@@ -1,0 +1,11 @@
+{
+  "_note": "Derived by t1_data.py from the five supplied CSVs at the repository root. Each adjustment has a flag column; see data_quality_log.txt.",
+  "clean_daily.csv": {
+    "source": "t1_data.py",
+    "sha256": "41ede5fab25cf5321445d8282762d90bf92997a24ed4121be81bc54e6c7ff63b"
+  },
+  "data_quality_log.txt": {
+    "source": "t1_data.py",
+    "sha256": "54dc88401a59e2d5bcf3907aefc3ae9ff14e311154086b7404fd243a8b0f7343"
+  }
+}

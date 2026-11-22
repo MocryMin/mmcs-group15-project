@@ -1,0 +1,27 @@
+{
+  "_note": "Byte-identical copies of files already in this repository, kept so that t1_compare_repo.py runs from this folder. Used for the comparison only; the independent model reads data/clean_daily.csv.",
+  "CPI.csv": {
+    "source": "Tier1/workspaces/mocry/codex/tier1-independent/20261105-v1/inputs/CPI.csv",
+    "sha256": "05bf2ec5459e46961aa994c2cbfdd2abcef5c1591b99659358a414652966bee6"
+  },
+  "daily_demand.csv": {
+    "source": "Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_demand.csv",
+    "sha256": "9122fad42b62771bf54a4daab0ae5b0c94496a57834bf55d77dfccebae87b56e"
+  },
+  "daily_generation_by_fuel.csv": {
+    "source": "Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_generation_by_fuel.csv",
+    "sha256": "b151d39aadebdc77812066fbe658fdedc43aba9264f17e07ccd22e7a5dc568ec"
+  },
+  "daily_generation_total.csv": {
+    "source": "Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_generation_total.csv",
+    "sha256": "996a840e1d61fde89c26675bdd4529b3008d6ac7852f1adef93bc8119e58b964"
+  },
+  "daily_market_index_price.csv": {
+    "source": "Tier1/public/data_quality/full_data_repair/20261104-v2/data/daily_market_index_price.csv",
+    "sha256": "145d910fdf12c3b2899c16245dc820679acc55ec4dd5144e6b193f53b97a3ab7"
+  },
+  "wind_farm_generation.csv": {
+    "source": "Tier1/public/data_quality/full_data_repair/20261104-v2/data/wind_farm_generation.csv",
+    "sha256": "89137cb4922e20f6ad4ab9b5a47bbecf9afa8b3c0f603265837d4416f7db028a"
+  }
+}
