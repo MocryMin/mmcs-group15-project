@@ -1,118 +1,120 @@
-# 独立 Tier 1：风电场边界、题面参数、四种方法
+# Independent Tier 1: farm boundary, brief parameters, four methods
 
-2026-11-16 · MMCS Group 15 · 个人研究稿与复算材料，不是小组决定
+中文版：[README_ZH.md](README_ZH.md)
 
-从题面、课件、`get_data.py`、`farm_generator.py` 和五个原始 CSV 出发，独立定义边界、清洗数据、查成本，用四种方法求解并互相核对，再与仓库的 Tier 1 v6（日尺度）对比。金额为 2023 年英镑。结果由 SciPy 自带的 HiGHS 求出，Xpress 分支尚未运行，见"复算"。
+16 November 2026 · MMCS Group 15 · Personal research draft and replication material, not a group decision
 
-- [问题定义、数据处理、参数来源、四种方法、敏感性](RESULTS_ZH.md) · [与仓库 Tier 1 v6 的对比和差异分解](COMPARISON_ZH.md)
-- [结果汇总](results/summary.json) · [四种方法的结果](results/method_results.csv) · [敏感性](results/sensitivity.csv) · [电池价值](results/battery_value.csv) · [逐年最优](results/by_year_optimum.csv)
-- [数据清洗](t1_data.py) · [模型与四种方法](t1_model.py) · [完整研究与出图](t1_run.py) · [与仓库对比](t1_compare_repo.py)
-- [清洗后的日表](data/clean_daily.csv) · [数据调整日志](data/data_quality_log.txt) · [对比用输入快照及哈希](repo_data/MANIFEST.json)
+Starting from the brief, the course slides, `get_data.py`, `farm_generator.py` and the five supplied CSVs, this study defines the boundary, cleans the data and researches costs independently, solves the problem with four methods that check one another, and then compares the result with the repository's Tier 1 v6 (daily). Money is in 2023 pounds. The results were obtained with HiGHS through SciPy. The Xpress branch has not been run; see "Replication".
 
-## 结论和取舍
+- [Problem definition, data preparation, parameter sources, the four methods, sensitivities](RESULTS.md) · [Comparison with the repository's Tier 1 v6 and decomposition of the difference](COMPARISON.md)
+- [Summary of results](results/summary.json) · [Results by method](results/method_results.csv) · [Sensitivities](results/sensitivity.csv) · [Battery value](results/battery_value.csv) · [Optimum by year](results/by_year_optimum.csv)
+- [Data cleaning](t1_data.py) · [Model and the four methods](t1_model.py) · [Full study and figures](t1_run.py) · [Comparison with the repository](t1_compare_repo.py)
+- [Cleaned daily table](data/clean_daily.csv) · [Log of data adjustments](data/data_quality_log.txt) · [Snapshot and hashes of the inputs used for the comparison](repo_data/MANIFEST.json)
 
-| 问题 | 本轮证据 |
+## Conclusions and trade-offs
+
+| Question | Evidence from this study |
 |---|---|
-| 风电场有多少电卖不掉 | 2020–25 年均出力 3,705 GWh，其中 804 GWh（21.7%）没有买家。各年为 19%、13%、26%、12%、13%、47%。按"全部卖出"算的年收入是 £352.6m，实际可售 £283.2m。 |
-| 建不建电池 | 四种方法都选零。题面的两小时电池每 MWh 年成本 £27,381；强制安装时，完全预知下每 MWh 年价值 £2,890–3,175，按规则运行 £1,840–2,580。造价要从约 £24.5 万/MWh 降到 £2.6–2.8 万/MWh 才打平。 |
-| 只用卖不掉的电，电解槽建多大 | 2 台 20 MW，共 40 MW。年净收益 £0.71m，资本 £80m，回收期 9.75 年，年产氢 1,201 t。2021、2023、2024 年为负。第一台的保本点：氢价 £8.72/kg，或造价 £2.18m/MW，或折现率 9.5%。 |
-| 允许把可售的电转去制氢 | 600 MW（代表周法给 620 MW）。年净收益 £118.4m，资本 £1.2bn，回收期 5.2 年，年产氢 46,623 t。保本氢价 £5.52/kg。 |
-| 氢的销量受限时 | 允许转用、日承购上限 10、25、50、100 t 时，规模为 20、60、120、240 MW，年净收益 £9.7m、£25.8m、£46.8m、£78.2m。第一台年净收益 £9.70m，回收期 2.98 年，对应约 7.3 t/天。 |
-| 结论对什么敏感 | 只用余电时，下列任一条件都使规模降为零：氢价不高于 £8/kg、造价 £2.5m/MW、折现率 10%、固定运维 5%、只看 2023–25 年。造价 £1.5m/MW 时为 240 MW，只看 2025 年时为 520 MW。 |
-| 与仓库 v6 的差距从哪来 | 用仓库的数据和假设复现了 B 的 739.557 MW 和 £37.712m。逐项替换后：只算风电场自己的余电，740 → 267 MW；换成本和 8% 折现率，→ 60 MW；氢价 £9.5，→ 65 MW；换数据清洗，→ 45 MW；20 MW 整台，→ 40 MW。 |
+| How much of the wind farm's output cannot be sold | Mean output in 2020–25 is 3,705 GWh a year, of which 804 GWh (21.7%) has no buyer. By year: 19%, 13%, 26%, 12%, 13% and 47%. Annual revenue is £352.6m if all output is assumed sold, and £283.2m for what can actually be sold. |
+| Should a battery be built | All four methods choose zero. The brief's two-hour battery costs £27,381 per MWh per year. When one is forced in, it is worth £2,890–3,175 per MWh per year with perfect foresight and £1,840–2,580 under rule-based operation. The capital cost would have to fall from about £245k/MWh to £26–28k/MWh to break even. |
+| How large an electrolyser, using only unsold output | Two 20 MW modules, 40 MW in total. Net gain £0.71m a year, capital cost £80m, payback 9.75 years, 1,201 t of hydrogen a year. Negative in 2021, 2023 and 2024. Break-even for the first module: hydrogen at £8.72/kg, or a capital cost of £2.18m/MW, or a discount rate of 9.5%. |
+| If saleable electricity may be diverted to hydrogen | 600 MW (620 MW from the representative-weeks method). Net gain £118.4m a year, capital cost £1.2bn, payback 5.2 years, 46,623 t of hydrogen a year. Break-even hydrogen price £5.52/kg. |
+| When the hydrogen offtake is limited | With diversion allowed and a daily offtake limit of 10, 25, 50 and 100 t, the size is 20, 60, 120 and 240 MW and the net gain £9.7m, £25.8m, £46.8m and £78.2m a year. The first module nets £9.70m a year and pays back in 2.98 years, which corresponds to about 7.3 t/day. |
+| What the conclusion is sensitive to | In the surplus-only case, any one of the following reduces the size to zero: hydrogen at £8/kg or less, a capital cost of £2.5m/MW, a 10% discount rate, a 5% fixed operating cost, or using 2023–25 only. The size is 240 MW at a capital cost of £1.5m/MW, and 520 MW on 2025 alone. |
+| Where the gap to the repository's v6 comes from | With the repository's data and assumptions, the model reproduces 739.557 MW and £37.712m for policy B. Replacing one assumption at a time: counting only the wind farm's own surplus, 740 → 267 MW; my cost and an 8% discount rate, → 60 MW; hydrogen at £9.5, → 65 MW; my data cleaning, → 45 MW; whole 20 MW modules, → 40 MW. |
 
-## 实现与口径
+## Implementation and conventions
 
-### 边界和策略
+### Boundary and policies
 
-客户的资产是那座 1,125 MW 的风电场，不是整个电力系统。依据是题面对风电场数据的表述，以及 `get_data.py` 里课程自带的分析函数：缺口日风电场补缺口，余电日风电场的出力算作盈余。每天的可售电量是 min(风电场出力, max(需求 − 全国发电, 0))，电价为负时不卖。
+The client's asset is the 1,125 MW wind farm, not the whole power system. This follows from how the brief describes the wind-farm data and from the analysis function supplied in `get_data.py`: on deficit days the farm covers the deficit, and on surplus days the farm's output counts as surplus. Saleable energy each day is min(farm output, max(demand − national generation, 0)), and nothing is sold when the price is negative.
 
-- **只用余电**（中心情景）：只有无人买的电可以制氢或充电。
-- **允许转用**：电价低于氢的折算价值（£158/MWh）时，可售的电也可以制氢。
+- **Surplus only** (central case): only energy with no buyer may be used for hydrogen or for charging.
+- **Diversion allowed**: when the electricity price is below the value of electricity as hydrogen (£158/MWh), saleable electricity may also be used for hydrogen.
 
-这个边界是一种解读，尚未向老师确认。仓库 v6 和报告 v5 用的是系统池口径（全国发电加风电场对全国需求）。
+This boundary is an interpretation and has not been confirmed with the course staff. The repository's v6 and report v5 use a system-pool convention (national generation plus the wind farm against national demand).
 
-### 数据
+### Data
 
-只用五个原始 CSV，每项调整在 `data/clean_daily.csv` 里有标记列。
+Only the five raw CSVs are used. Each adjustment has a flag column in `data/clean_daily.csv`.
 
-| 编号 | 问题 | 处理 |
+| ID | Issue | Treatment |
 |---|---|---|
-| D1、P1 | 每 7 天的最后一天（全是周二）只是一个清晨读数，约为相邻两天均值的 0.84 倍 | 用相邻两天均值替换 |
-| P2 | 电价整体约为公开水平的一半 | 乘以 2 |
-| P3 | 30 天电价缺失 | 线性插值 |
-| G1 | 30 天发电缺失，107 天火电、核电、水电全为零，18 天记录不全 | 非风光部分用需求和风光回归估计（R² 0.89，平均绝对误差 1,311 MW） |
-| R1 | 名义价格 | 用 ONS CPI 年度指数折到 2023 年英镑 |
+| D1, P1 | The last day of every 7-day block (always a Tuesday) holds a single early-morning reading, about 0.84 times the mean of its two neighbours | Replaced by the mean of the two neighbouring days |
+| P2 | The price series as a whole is about half the published level | Multiplied by 2 |
+| P3 | 30 days of prices missing | Linear interpolation |
+| G1 | 30 days of generation missing, 107 days with thermal, nuclear and hydro all at zero, 18 days with an incomplete record | The non-wind, non-solar part is estimated by regression on demand and wind and solar output (R² 0.89, mean absolute error 1,311 MW) |
+| R1 | Nominal prices | Converted to 2023 pounds with the annual ONS CPI |
 
-这是统计修补，精度低于仓库回到 Elexon 和 NESO 源头的[完整修复](../../../../../public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md)。两套数据的对照见 [COMPARISON_ZH.md](COMPARISON_ZH.md)：97.4% 的日子对"是否有余电"的判断相同，无买家电量占比为 21.7% 对 22.3%。
+This is a statistical repair, and it is less accurate than the repository's [full repair](../../../../../public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md), which goes back to the Elexon and NESO sources. The two datasets are compared in [COMPARISON.md](COMPARISON.md): they agree on whether a day is in surplus on 97.4% of days, and the share of output with no buyer is 21.7% against 22.3%.
 
-### 参数
+### Parameters
 
-| 设备 | 取值 | 来源 |
+| Asset | Values | Source |
 |---|---|---|
-| 电解槽 | 20 MW 整台，最低负荷 20%，55.9 kWh/kg，造价 £2.0m/MW，固定运维 3%/年，寿命 25 年，电堆 50,000 小时后按造价的 30% 更换 | 题面；IEA Global Hydrogen Review 2024、2025；TNO；Andoni et al. |
-| 电池 | 两小时，往返效率 90%，可用区间 20–80%，造价 £244.8k/MWh，固定运维 1%/年，寿命 20 年 | 题面；运维和寿命为假设 |
-| 氢价 | £9.5/kg | 题面（HAR1 £241/MWh × 39.4 kWh/kg） |
-| 折现率 | 实际 8% | NESO 给出的 6–15% 区间内取值 |
+| Electrolyser | Whole 20 MW modules, 20% minimum load, 55.9 kWh/kg, capital cost £2.0m/MW, fixed operating cost 3% a year, life 25 years, stack replaced after 50,000 hours at 30% of capital cost | Brief; IEA Global Hydrogen Review 2024 and 2025; TNO; Andoni et al. |
+| Battery | Two-hour, 90% round-trip efficiency, usable range 20–80%, capital cost £244.8k/MWh, fixed operating cost 1% a year, life 20 years | Brief; operating cost and life are assumptions |
+| Hydrogen price | £9.5/kg | Brief (HAR1 £241/MWh × 39.4 kWh/kg) |
+| Discount rate | 8% real | Chosen within the 6–15% range given by NESO |
 
-### 四种方法
+### The four methods
 
-| 方法 | 做法 | 用途 |
+| Method | Approach | Purpose |
 |---|---|---|
-| M1 持续曲线 | 第 E 个 MW 的边际价值的解析式，电池循环次数上界 | 解释机制，给出保本点 |
-| M2 代表周 | KMeans 选 52 个代表周，按能量重标定，混合整数规划 | 检验简化时间的做法能否得到同样的规模 |
-| M3 全时序 | 2,192 天的混合整数规划，完全预知，约 1.75 万个变量，其中 2,193 个整数变量 | 基准 |
-| M4 规则仿真 | 只看当天的运行规则加穷举搜索 | 检验不靠预知能拿到多少 |
+| M1 Duration curve | Closed-form marginal value of the E-th MW; upper bound on battery cycles | Explains the mechanism and gives the break-even points |
+| M2 Representative weeks | KMeans selects 52 representative weeks, rescaled to match energy totals; mixed-integer programme | Tests whether simplified time gives the same size |
+| M3 Full chronology | Mixed-integer programme over 2,192 days with perfect foresight; about 17,500 variables, 2,193 of them integer | Benchmark |
+| M4 Rule simulation | Operating rules that see only the current day, with exhaustive search | Tests how much can be captured without foresight |
 
-四种方法在两种策略下选出的规模一致，M2 在允许转用时差一台。
+The four methods choose the same size under both policies; M2 differs by one module when diversion is allowed.
 
-## 与报告 v5 的关系
+## Relation to report v5
 
-2026-11-22 补充。这份稿子完成于 v5 之前，对比对象是 v6。v5 改为半小时粒度并加入四小时电池，本稿没有复现 v5 的结果。两者可以对照的地方：
+Added on 22 November 2026. This draft was finished before v5 and is compared with v6. v5 moved to half-hour resolution and added a four-hour battery, and this draft does not reproduce v5's results. Points where the two can be set side by side:
 
-| v5 审核提出的问题 | 本稿已有的对应内容 |
+| Issue raised in the v5 reviews | What this draft already contains |
 |---|---|
-| 没有报告题面的 £9.5/kg 情景 | 全部结果按 £9.5/kg，保本氢价见上表 |
-| 没有基于所给日数据和题面两小时电池的结论 | 本稿只用所给日数据，电池为题面参数，结论为零电池 |
-| 推荐规模下缺少容量、资本、回收期和保本点 | 40 MW 和 10 t/天下 20 MW 两个规模都有 |
-| Tier 1 图太少 | `results/` 下有 8 张图 |
+| The brief's £9.5/kg case is not reported | Every result uses £9.5/kg; the break-even hydrogen prices are in the table above |
+| No conclusion on the supplied daily data with the brief's two-hour battery | This draft uses only the supplied daily data and the brief's battery parameters, and concludes zero battery |
+| Capacity, capital cost, payback and break-even points are missing at the recommended scale | Available at two scales: 40 MW, and 20 MW with a 10 t/day offtake |
+| Too few figures in Tier 1 | Eight figures in `results/` |
 
-并入报告前需要换算口径：本稿为 2023 年英镑、8% 折现率、£2.0m/MW；v5 为 2020 年英镑、5%、£1.46m/MW。日尺度会低估余电和电池价值，v5 的半小时结果显示这部分差别不小。
+Conventions need converting before anything is merged into the report: this draft uses 2023 pounds, an 8% discount rate and £2.0m/MW; v5 uses 2020 pounds, 5% and £1.46m/MW. Daily resolution understates both the surplus and the value of a battery, and v5's half-hour results show that the difference is not small.
 
-## 复算
+## Replication
 
-需要 Python 3.10 以上，以及 numpy、pandas、scipy、scikit-learn、matplotlib。在本目录运行。
+Requires Python 3.10 or later with numpy, pandas, scipy, scikit-learn and matplotlib. Run from this folder.
 
 ```sh
-python t1_run.py --check       # 一致性检查，约 10 秒
-python t1_run.py               # 完整研究，约 6 分钟
-python t1_compare_repo.py      # 与仓库 v6 对比，约 10 秒
-python t1_data.py              # 从五个原始 CSV 重建 data/clean_daily.csv
+python t1_run.py --check       # consistency check, about 10 seconds
+python t1_run.py               # full study, about 6 minutes
+python t1_compare_repo.py      # comparison with the repository's v6, about 10 seconds
+python t1_data.py              # rebuilds data/clean_daily.csv from the five raw CSVs
 ```
 
-`t1_data.py` 读仓库根目录的五个原始 CSV。轻量克隆默认不带它们，先运行：
+`t1_data.py` reads the five raw CSVs at the repository root. A lightweight clone does not include them by default; first run:
 
 ```sh
 git sparse-checkout add -- '/daily_demand.csv' '/daily_generation_by_fuel.csv' '/daily_generation_total.csv' '/daily_market_index_price.csv' '/wind_farm_generation.csv'
 ```
 
-**关于 Xpress。** 题面要求主要建模用 Xpress。`t1_model.py` 里有 `--solver xpress` 分支，用 Xpress Python 接口建同一个模型，但从未运行过。M3 的规模超出社区版限制，需要学校的完整许可。请先运行 `python t1_run.py --check --solver xpress`，确认输出与下面一致后再引用：
+**About Xpress.** The brief asks for the main modelling to use Xpress. `t1_model.py` has a `--solver xpress` branch that builds the same model through the Xpress Python interface, but it has never been run. M3 is larger than the community licence allows and needs the University's full licence. Run `python t1_run.py --check --solver xpress` first, and quote the results only after the output matches the following:
 
 ```
 surplus  modules  exact 3  M1 3  M3 3  M4 3   net gain exact 0.6038  M3 0.6038
 divert   modules  exact 36  M1 36  M3 36  M4 36   net gain exact 174.7346  M3 174.7346
 ```
 
-## 核对过的内容
+## What has been checked
 
-- 固定设计下，解析公式与混合整数规划的结果相同。
-- 强制加电池时，规则仿真的收益不超过完全预知。
-- 手算例子：一天 600 MWh 余电、一台 20 MW，产氢 8.587 t。
-- 不经过模型代码、直接从清洗后的日表重算，40 MW 的年净收益是 £0.709m，600 MW 是 £118.4m。
-- 用仓库 v6 的数据和假设复现了公布的 739.557 MW 和 £37.712m（B），以及 3,632 MW 和 £1,638.5m（A，公布值 3,631 MW 和 £1,638.7m）。
+- For a fixed design, the closed-form formula and the mixed-integer programme give the same result.
+- When a battery is forced in, the gain from rule simulation never exceeds the gain with perfect foresight.
+- Hand example: one day with 600 MWh of surplus and one 20 MW module produces 8.587 t of hydrogen.
+- Recomputed directly from the cleaned daily table without going through the model code, the annual net gain is £0.709m for 40 MW and £118.4m for 600 MW.
+- With the repository's v6 data and assumptions, the model reproduces the published 739.557 MW and £37.712m (B), and gives 3,632 MW and £1,638.5m for A (published: 3,631 MW and £1,638.7m).
 
-## 依据索引
+## Index of sources
 
-- 题面、原始数据：仓库根目录的 [Project_Brief.pdf](../../../../../../Project_Brief.pdf) 和五个 CSV。
-- 对比用的修复数据：[full_data_repair/20261104-v2](../../../../../public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md)，逐文件哈希见 [repo_data/MANIFEST.json](repo_data/MANIFEST.json)。
-- 成本来源的出处和取值过程见 [RESULTS_ZH.md](RESULTS_ZH.md) 第 3 节。
+- Brief and raw data: [Project_Brief.pdf](../../../../../../Project_Brief.pdf) and the five CSVs at the repository root.
+- Repaired data used for the comparison: [full_data_repair/20261104-v2](../../../../../public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md); file-by-file hashes are in [repo_data/MANIFEST.json](repo_data/MANIFEST.json).
+- The origin of each cost figure and how it was derived are in section 3 of [RESULTS.md](RESULTS.md).

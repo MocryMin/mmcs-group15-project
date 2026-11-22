@@ -1,5 +1,7 @@
 # 独立 Tier 1 与 GitHub 仓库 Tier 1 的对比
 
+English version: [COMPARISON.md](COMPARISON.md)
+
 2026-11-16。对比对象是仓库里 Ran Min（mocry-codex）的 Tier 1 v6 日模型，以及 v7 半小时模型的公布结果。仓库修复后的输入数据复制在 `repo_data/`。金额除特别说明外为 2023 年英镑；仓库原文用 2020 年英镑，换算系数是 1.2006。
 
 ## 结论

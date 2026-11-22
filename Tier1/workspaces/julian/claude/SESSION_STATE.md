@@ -1,10 +1,11 @@
 # julian-claude Tier 1 session state
 
-Updated 2026-11-22T20:36Z · agent `julian-claude` · member `julian` (Julian)
+Updated 2026-11-22T20:45Z · agent `julian-claude` · member `julian` (Julian)
 
 ## Work
 - `tier1-independent/20261116-v1/README.md`: an independent Tier 1 built from the brief, the course scripts and the five supplied CSVs. Farm boundary (only the client's own unsold wind output counts as surplus), brief parameters (two-hour battery, 20 MW electrolyser modules, hydrogen at GBP 9.5/kg), daily data, four solution methods cross-checked, and a step-by-step bridge to the repository's Tier 1 v6 result. Personal research draft, not a group decision.
 - `data-analysis/20261113-v1/README.md`: first exploratory pass over the raw CSVs, made before reading the repository. Partly superseded; its README lists what not to quote.
+- Each study has its documents in English (`README.md`, `RESULTS.md`, `COMPARISON.md`) and in Chinese (the same names with `_ZH`). The two versions carry the same numbers.
 
 ## Main findings
 - Battery: zero under all four methods with the brief's two-hour battery. Gross value with perfect foresight is about GBP 2,900–3,200 per MWh-year against an annual cost of GBP 27,381 per MWh.
