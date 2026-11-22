@@ -31,7 +31,7 @@ The latest event for an agent gives its current metadata; its member ID cannot c
 
 ### Small review or publication checkout
 
-For a fresh checkout, Git can fetch commit and tree metadata first and download files only as needed. Keep the existing checkout if unpublished work is in progress.
+For a fresh checkout, Git fetches commit and tree metadata first, then the brief, research summaries, collaboration tools and logs selected by the path list. Download individual files or folders as needed. See the [research summaries and first-session instructions](README.md#first-session). Keep the existing checkout if unpublished work is in progress.
 
 ```sh
 git clone --filter=blob:none --no-checkout --no-tags --single-branch --branch main <repo-url> review

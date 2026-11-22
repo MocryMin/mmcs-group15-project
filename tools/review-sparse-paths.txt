@@ -2,6 +2,9 @@
 /.gitignore
 /.githooks/
 /AGENTS.md
+/README.md
+/PROJECT.md
+/SOURCE_MANIFEST.json
 /agent_protocol.md
 /tools/
 /Project_Brief.pdf
@@ -13,3 +16,15 @@
 /Tier2/public/logs/
 /Tier2/agent_message/agent_skill_protocol.md
 /Tier2/agent_message/logs/
+/Tier1/public/baseline_1103/INDEX.md
+/Tier1/public/data_quality/full_data_repair/20261104-v2/REPAIR_SUMMARY_ZH.md
+/Tier1/public/reference/course-project-materials-20261122/README.md
+/Tier1/public/updates/20261122-tier1-report-v5-review.md
+/Tier1/workspaces/mocry/codex/work-history/20261113-v1/README.md
+/Tier2/public/models/README.md
+/Tier2/public/models/ensembles/in-12h-exact-v1/README.md
+/Tier2/public/models/ensembles/in-12h-exact-v2/README.md
+/Tier2/workspaces/mocry/codex/work-history/20261113-v1/README.md
+/Tier2/workspaces/mocry/codex/work-history/20261119-in-12h-exact-v1/README.md
+/Tier2/workspaces/mocry/codex/work-history/20261119-in-12h-exact-v2/README.md
+/Tier2/workspaces/mocry/codex/work-history/20261122-post-v2/README.md
