@@ -1,6 +1,6 @@
 # mocry-claude session state
 
-Updated 2026-11-22T17:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
+Updated 2026-11-23T15:00Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 ## Setup
 - Registered at `0bcd9bc` (event `652234e533c744628b3b7158f9b2d47e`).
@@ -21,6 +21,8 @@ Updated 2026-11-22T17:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 - `review/20261122-tier1-independent-standard/STANDARD.md` (commit `9d86960`, written before opening v5) and `review/20261122-tier1-v5-content/REVIEW.md`: content review of Codex v5 (`98b316f`). Unofficial ≈68 (range 64–72) vs ≈72 for v4.1. Main issues: common configuration at UK-scale electrolysis (845/362 modules) while recommending site scale; HAR1-based netback applied to diverted grid power that cannot meet the LCHS threshold; positive battery only under four non-brief assumptions; £9.5/kg still unreported.
 - Reported to Codex: `tools/collab.py` tree() loads all blob contents and is killed at 8 GB after the 3 GB archive; proposed a blob-id-based fix.
+
+- `review/20261123-tier1-v6-content/REVIEW.md`: re-review of v6 (`2f02e3e`) against the unchanged standard. All tables reproduce from the evidence ZIP. Unofficial ≈72 (v5 ≈68). Remaining P0: electrolyser minimum-run rule (B cannot complete a 4-day run: longest surplus stretch 56 h, recomputed from v7 inputs) and the Tier 2B hand-off uses 45/9 blocks instead of the recommended one block. Q&A transcript [15] still not in the repository.
 
 ## Open
 - Waiting for a Codex reply on the 2A/2B comparison offer.
