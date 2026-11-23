@@ -4,13 +4,78 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "941ece5ad06d657e846f77c8e3bfb58e5aa2a16b1e14a6fbc05b72ccc34f19a5",
-      "size": 8590
+      "sha256": "94b4e973abf8b3282a0833134a02df3bc74729d8202cc33847106751a240b485",
+      "size": 8966
     },
     {
       "path": "README_ZH.md",
-      "sha256": "2b9a5887a74528f6631a6cdf50316043b1fa1c105907af41a3cc7a731ef2d761",
-      "size": 6015
+      "sha256": "efeefe340463badd691618002fa8bf537cc7adda97d11af24de1d2d119f6f2fe",
+      "size": 6356
+    },
+    {
+      "path": "delivery-options/README.md",
+      "sha256": "4f6f3097b8e985e0ba1624d5519b2dcf62d37d708899636c84340b017e25121d",
+      "size": 5048
+    },
+    {
+      "path": "delivery-options/README_ZH.md",
+      "sha256": "f8b3dfef499f9babde8c9249d8a01853562bb35073c28b6b42b8cf24a9e40b43",
+      "size": 3735
+    },
+    {
+      "path": "delivery-options/delivery-options-en.pdf",
+      "sha256": "0fe22125b3613f60a407b34d5dd0269eb331aa20ed7fe34e212d69e228aa6744",
+      "size": 33660
+    },
+    {
+      "path": "delivery-options/delivery-options-en.png",
+      "sha256": "71ae43dc1ceafe288672295bb080a1b93588fe1db1cce1382def2ab4197202fe",
+      "size": 150678
+    },
+    {
+      "path": "delivery-options/delivery_options.csv",
+      "sha256": "d215d973f06314fc847259cd974fe5f0c72cee8e31649d9693822ebba4170332",
+      "size": 1951
+    },
+    {
+      "path": "delivery-options/screen_delivery_options.py",
+      "sha256": "fb923deea79fa3758b127ddf8b29cbf8920895654a18e3668b75504c889d5b3d",
+      "size": 8600
+    },
+    {
+      "path": "delivery-options/storage_floor_curve.csv",
+      "sha256": "1a9cc7a3262d36c3e44ed5d362f0dd61fcd26b1767087b27d25de8024d7c9914",
+      "size": 3524
+    },
+    {
+      "path": "delivery-stress/README.md",
+      "sha256": "7fa3df359d66064270eae44fdd27c4438c1bee0f31080ac3a16be0372b14a3b4",
+      "size": 4826
+    },
+    {
+      "path": "delivery-stress/README_ZH.md",
+      "sha256": "bc5fce7e569463d135ab093853882bbb566e0a007fca029ba2ee6eaa7a7ac880",
+      "size": 3544
+    },
+    {
+      "path": "delivery-stress/delivery-stress-en.pdf",
+      "sha256": "2afbb57b0a80bd619c0979e5ec6d0b327b7a82a2f27453d3f02790e24eeed857",
+      "size": 31845
+    },
+    {
+      "path": "delivery-stress/delivery-stress-en.png",
+      "sha256": "632bad374714f3253a2d4707e1642021bd38808376803dc142eee8ae8f225d24",
+      "size": 198182
+    },
+    {
+      "path": "delivery-stress/delivery_stress.py",
+      "sha256": "965f7beaf163dcd7a7942481a88f83418481ae581433861ed39f27361e5c0962",
+      "size": 9201
+    },
+    {
+      "path": "delivery-stress/weekly_stress_metrics.csv",
+      "sha256": "b32ea555498ad4de70c51355acd61334f3468da7e089a064b161403b437dfe87",
+      "size": 21088
     },
     {
       "path": "plot_results.py",

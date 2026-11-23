@@ -45,6 +45,11 @@ The published v5 site appraisal uses **8 modules in A (40.248 MW)** and **11 in 
 
 The group's **100 MW / 400 MWh** case belongs in the investment sensitivity. It assumes a separately costed asset with 240 MWh of usable inventory and a zero opening and terminal usable level. Its reference £4.695m/year storage charge (low capital, 2.5% O&M plus augmentation) and broad-market electrolysers (845 A and 362 B) apply to that separate case. The archived six-year low-cost appraisal has positive storage gains, and joint re-sizing on 2024–2025 selected zero in both policies. The site-scale results above estimate contract timing value. A battery purchase would require a matched dispatch and cost appraisal at the secured buyer volume. [Battery investment and Tier 2B handoff](https://github.com/MocryMin/mmcs-group15-project/tree/f8f5cc04ed71034a51e3c89db1aea40202cf815b/Tier1/public/findings/battery-entry-and-tier2b-handoff-20261119)
 
+## Delivery stress and backup supply
+
+- [Delivery stress test](delivery-stress/README.md) compares A and B in the highest-price and zero-surplus weeks and measures how often B can meet a weekly floor.
+- [Policy B storage and backup supply](delivery-options/README.md) estimates the attainable weekly floor with storage and the backup volumes needed for stronger commitments.
+
 ## Evidence and reproduction
 
 [File inventory and SHA-256 checksums](MANIFEST.json)

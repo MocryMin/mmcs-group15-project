@@ -45,6 +45,11 @@ v5 站点报告采用 A **8 台（40.248 MW）**、B **11 台（55.341 MW）**�
 
 组内 100 MW／400 MWh 电池实验继续作为独立投资敏感性证据。该实验对应 240 MWh 可用库存，期初和期末可用库存均为零，低资本、2.5% 运维及增容情景年化费用约 £4.695m，并配有系统尺度的电解槽装机（A 845 台、B 362 台）。六年低成本情景曾出现正收益，2024–2025 年单独重新选型时两种策略均选择零电池。若有采购报价和已落实的承购条件，再用对应站点方案评估这一投资。 [电池投资与 Tier 2B 交接记录](https://github.com/MocryMin/mmcs-group15-project/tree/f8f5cc04ed71034a51e3c89db1aea40202cf815b/Tier1/public/findings/battery-entry-and-tier2b-handoff-20261119)
 
+## 交付压力与补供
+
+- [交付压力测试](delivery-stress/README_ZH.md)比较 A、B 在高价周与零余电周的交付量和净增益，并统计 B 的周保底达标情况。
+- [B 方案储氢与备用补供优化](delivery-options/README_ZH.md)估算储氢可支撑的周保底量，以及更高交付承诺所需的补供量。
+
 ## 可复核成果
 
 [文件清单与 SHA-256 校验值](MANIFEST.json)
