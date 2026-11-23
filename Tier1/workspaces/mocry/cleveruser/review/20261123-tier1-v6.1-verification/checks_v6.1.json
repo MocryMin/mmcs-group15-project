@@ -1,0 +1,1240 @@
+{
+  "source_pdf_sha256": "f218a0e00b4e9f23f9aa866f50ef7668967a5b49ba8c3e478b633c13d3564f83",
+  "source_zip_sha256": "618cb5699567356c5cf4e18db9e28cd1f28b654525caedf8068c58d142a250a3",
+  "evidence_zip_sha256": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+  "checks": [
+    {
+      "name": "v6.1 report.pdf sha256",
+      "computed": "f218a0e00b4e9f23f9aa866f50ef7668967a5b49ba8c3e478b633c13d3564f83",
+      "stated": "f218a0e00b4e9f23f9aa866f50ef7668967a5b49ba8c3e478b633c13d3564f83",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "SHA256SUMS lists report.pdf",
+      "computed": "f218a0e00b4e9f23f9aa866f50ef7668967a5b49ba8c3e478b633c13d3564f83",
+      "stated": "f218a0e00b4e9f23f9aa866f50ef7668967a5b49ba8c3e478b633c13d3564f83",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "report-source.zip sha256",
+      "computed": "618cb5699567356c5cf4e18db9e28cd1f28b654525caedf8068c58d142a250a3",
+      "stated": "618cb5699567356c5cf4e18db9e28cd1f28b654525caedf8068c58d142a250a3",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "SHA256SUMS lists report-source.zip",
+      "computed": "618cb5699567356c5cf4e18db9e28cd1f28b654525caedf8068c58d142a250a3",
+      "stated": "618cb5699567356c5cf4e18db9e28cd1f28b654525caedf8068c58d142a250a3",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "source archive files",
+      "computed": 10,
+      "stated": 10,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "source archive has report.tex + sections",
+      "computed": true,
+      "stated": true,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "pinned v6 evidence zip sha256",
+      "computed": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+      "stated": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6 manifest still lists its own report",
+      "computed": true,
+      "stated": true,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6 manifest file count",
+      "computed": 190,
+      "stated": 190,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "PDF pages",
+      "computed": 15,
+      "stated": "15 (i cover/abstract, ii contents, body 1-6, R1, A1-A6)",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A None",
+      "computed": [
+        0,
+        0,
+        0.0,
+        89.66
+      ],
+      "stated": [
+        0,
+        0,
+        0.0,
+        89.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A Electrolysis",
+      "computed": [
+        0,
+        8,
+        14.1,
+        89.61
+      ],
+      "stated": [
+        0,
+        8,
+        14.1,
+        89.61
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A One block, simple",
+      "computed": [
+        1,
+        8,
+        15.73,
+        89.64
+      ],
+      "stated": [
+        1,
+        8,
+        15.73,
+        89.64
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A One block, optimised",
+      "computed": [
+        1,
+        7,
+        19.74,
+        89.64
+      ],
+      "stated": [
+        1,
+        7,
+        19.74,
+        89.64
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A Joint sizing",
+      "computed": [
+        45,
+        6,
+        119.04,
+        90.16
+      ],
+      "stated": [
+        45,
+        6,
+        119.04,
+        90.16
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B None",
+      "computed": [
+        0,
+        0,
+        0.0,
+        91.03
+      ],
+      "stated": [
+        0,
+        0,
+        0.0,
+        91.03
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B Electrolysis",
+      "computed": [
+        0,
+        11,
+        5.48,
+        91.03
+      ],
+      "stated": [
+        0,
+        11,
+        5.48,
+        91.03
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B One block, simple",
+      "computed": [
+        1,
+        11,
+        6.98,
+        91.06
+      ],
+      "stated": [
+        1,
+        11,
+        6.98,
+        91.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B One block, optimised",
+      "computed": [
+        1,
+        11,
+        7.12,
+        91.06
+      ],
+      "stated": [
+        1,
+        11,
+        7.12,
+        91.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B Joint sizing",
+      "computed": [
+        9,
+        10,
+        11.4,
+        91.23
+      ],
+      "stated": [
+        9,
+        10,
+        11.4,
+        91.23
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "one-block increment A",
+      "computed": 5.64,
+      "stated": 5.63,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "one-block increment B",
+      "computed": 1.64,
+      "stated": 1.64,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "simple-rule increment A",
+      "computed": 1.63,
+      "stated": 1.63,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "simple-rule increment B",
+      "computed": 1.5,
+      "stated": 1.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint battery power A",
+      "computed": 4500,
+      "stated": 4500,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint battery power B",
+      "computed": 900,
+      "stated": 900,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint capex A \u00a3bn",
+      "computed": 1.785,
+      "stated": 1.79,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint capex B \u00a3m",
+      "computed": 422.0,
+      "stated": 422,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "surplus capture A",
+      "computed": 1918.0,
+      "stated": 1918,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "surplus capture B",
+      "computed": 647.0,
+      "stated": 647,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "renewable attribution A",
+      "computed": 829.0,
+      "stated": 829,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "renewable attribution B",
+      "computed": 278.0,
+      "stated": 278,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 drops the unreconciled 2,092 GWh claim",
+      "computed": 0,
+      "stated": 0,
+      "ok": true,
+      "note": "v6 printed 'decrease in total unused ... 2,092' next to capture 1,918; v6.1 prints capture only"
+    },
+    {
+      "name": "A direct-surplus share of electrolysis input",
+      "computed": 41.7,
+      "stated": 41.7,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 prints 41.7%",
+      "computed": "41.7% of electrolysis input",
+      "stated": "41.7",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 4.0t 7.8",
+      "computed": [
+        3,
+        5.66
+      ],
+      "stated": [
+        3,
+        5.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 4.0t 7.8",
+      "computed": [
+        4,
+        2.21
+      ],
+      "stated": [
+        4,
+        2.21
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 2.5",
+      "computed": [
+        0,
+        0.0
+      ],
+      "stated": [
+        0,
+        0.0
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 2.5",
+      "computed": [
+        0,
+        0.0
+      ],
+      "stated": [
+        0,
+        0.0
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 5.0",
+      "computed": [
+        7,
+        4.96
+      ],
+      "stated": [
+        7,
+        4.96
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 5.0",
+      "computed": [
+        7,
+        1.19
+      ],
+      "stated": [
+        7,
+        1.19
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 7.8",
+      "computed": [
+        8,
+        14.1
+      ],
+      "stated": [
+        8,
+        14.1
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 7.8",
+      "computed": [
+        11,
+        5.48
+      ],
+      "stated": [
+        11,
+        5.48
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 9.5",
+      "computed": [
+        8,
+        20.02
+      ],
+      "stated": [
+        8,
+        20.02
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 9.5",
+      "computed": [
+        12,
+        8.56
+      ],
+      "stated": [
+        12,
+        8.56
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 10.0",
+      "computed": [
+        8,
+        21.79
+      ],
+      "stated": [
+        8,
+        21.79
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 10.0",
+      "computed": [
+        12,
+        9.49
+      ],
+      "stated": [
+        12,
+        9.49
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "two-rate A modules/gain",
+      "computed": [
+        11,
+        6.06
+      ],
+      "stated": [
+        11,
+        6.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "two-rate B modules/gain",
+      "computed": [
+        11,
+        5.48
+      ],
+      "stated": [
+        11,
+        5.48
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 labels the \u00a39.50 row as stress",
+      "computed": "10 t/day at \u00a39.50/kg (real-price stress)",
+      "stated": "label",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV A 5%",
+      "computed": 217.0,
+      "stated": 217,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV B 5%",
+      "computed": 84.0,
+      "stated": 84,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV A 8%",
+      "computed": 144.0,
+      "stated": 144,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV B 8%",
+      "computed": 42.0,
+      "stated": 42,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even receipt A",
+      "computed": 3.69,
+      "stated": 3.69,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even receipt B",
+      "computed": 4.7,
+      "stated": 4.7,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "min eligible share A",
+      "computed": 22.5,
+      "stated": 22.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 prints 22.5%",
+      "computed": "22.5% of output",
+      "stated": "22.5",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "support fraction formula A",
+      "computed": 22.5,
+      "stated": 22.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "min eligible share B (not printed in v6.1)",
+      "computed": 41.6,
+      "stated": "not stated",
+      "ok": true,
+      "note": "v6 printed 42%; evidence gives 41.6%; v6.1 omits the B share"
+    },
+    {
+      "name": "20% capex threshold A",
+      "computed": 3.91,
+      "stated": 3.91,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "20% capex threshold B",
+      "computed": 5.3,
+      "stated": 5.3,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "recommended A capacity",
+      "computed": 40.2,
+      "stated": 40.2,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "recommended B capacity",
+      "computed": 55.3,
+      "stated": 55.3,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "capital A \u00a3m",
+      "computed": 58.8,
+      "stated": 58.8,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "capital B \u00a3m",
+      "computed": 80.8,
+      "stated": 80.8,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Julian A half-hour 20% net",
+      "computed": 14.1,
+      "stated": 14.100113198292263,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Julian B half-hour 20% net",
+      "computed": 5.478,
+      "stated": 5.47823275512947,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "report payback A 3.1",
+      "computed": 3.1,
+      "stated": 3.1,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "report payback B 6.5",
+      "computed": 6.5,
+      "stated": 6.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 1 A/B",
+      "computed": [
+        14.1,
+        5.48
+      ],
+      "stated": [
+        14.1,
+        5.48
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 12.5% vs 20% identical at 2 dp A",
+      "computed": [
+        14.1,
+        14.1
+      ],
+      "stated": [
+        14.1,
+        14.1
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 2 midnight 20% A/B",
+      "computed": [
+        13.18,
+        -8.14
+      ],
+      "stated": [
+        13.18,
+        -8.14
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 3 four-day A/B",
+      "computed": [
+        13.16,
+        -8.32
+      ],
+      "stated": [
+        13.16,
+        -8.32
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 4 five-day A/B",
+      "computed": [
+        13.16,
+        -8.32
+      ],
+      "stated": [
+        13.16,
+        -8.32
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 5 A resized six modules",
+      "computed": [
+        6,
+        13.46
+      ],
+      "stated": [
+        6,
+        13.46
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 5 A capacity MW",
+      "computed": 30.2,
+      "stated": 30.2,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table B.1 row 5 B zero modules",
+      "computed": [
+        0,
+        0.0
+      ],
+      "stated": [
+        0,
+        0.0
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "A/B counts fixed at 8 and 11 until the last row",
+      "computed": [
+        8,
+        11,
+        5
+      ],
+      "stated": 5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "longest one-module surplus spell",
+      "computed": "56.0 hours",
+      "stated": "56.0 hours",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 prints 56 hours and 96-hour requirement",
+      "computed": [
+        true,
+        true
+      ],
+      "stated": [
+        true,
+        true
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "minimum-run schedules solved to optimality",
+      "computed": [
+        "largest gap GBP 0.000 per year; every path passes the independent minimum-run check"
+      ],
+      "stated": "gap GBP 0.000",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "supply priority cannot hold minimum load",
+      "computed": [
+        true
+      ],
+      "stated": true,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "B reserve variant modules/MW",
+      "computed": [
+        10,
+        50.3
+      ],
+      "stated": [
+        10,
+        50.3
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "B reserve variant net",
+      "computed": 8.11,
+      "stated": 8.11,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "B reserve served change pp",
+      "computed": -0.024,
+      "stated": -0.024,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "B reserve share of input from surplus",
+      "computed": 5078.3,
+      "stated": "5,078 unused vs 5,165 baseline",
+      "ok": true,
+      "note": "reserve takes 61.2 GWh/yr ahead of sales per Julian table/revision note"
+    },
+    {
+      "name": "v6.1 prints 61 GWh forgone",
+      "computed": "61 GWh/year of forgone sales",
+      "stated": "61",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A 2h 0 block",
+      "computed": 13.42,
+      "stated": 13.42,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A 2h 1 block",
+      "computed": 14.47,
+      "stated": 14.47,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B 2h 0 block",
+      "computed": 3.78,
+      "stated": 3.78,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B 2h 1 block",
+      "computed": 2.46,
+      "stated": 2.46,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "2h one-block increment A",
+      "computed": 1.05,
+      "stated": 1.05,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "2h one-block increment B",
+      "computed": -1.32,
+      "stated": -1.32,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 holds five electrolyser modules",
+      "computed": [
+        5
+      ],
+      "stated": 5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 labels fixed one-block reference",
+      "computed": "fixed one block",
+      "stated": "label",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 labels brief capital basis",
+      "computed": "under the brief\u2019s capital cost",
+      "stated": "label",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A daily 2h",
+      "computed": 12.46,
+      "stated": 12.46,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B daily 2h",
+      "computed": 2.18,
+      "stated": 2.18,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "HiGHS model size",
+      "computed": [
+        13155,
+        24113
+      ],
+      "stated": [
+        13155,
+        24113
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "daily two-hour metadata source string (unresolved in pinned archive)",
+      "computed": true,
+      "stated": "brief 2h EUR288k/MWh basis",
+      "ok": true,
+      "note": "carried unchanged from v6; report now labels the basis in Table II.5 caption"
+    },
+    {
+      "name": "Table C.2 A 2020-25",
+      "computed": [
+        5.63,
+        1.63,
+        5.05
+      ],
+      "stated": [
+        5.63,
+        1.63,
+        5.05
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A 2023-25",
+      "computed": [
+        2.15,
+        -0.95,
+        1.57
+      ],
+      "stated": [
+        2.15,
+        -0.95,
+        1.57
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A 2024-25",
+      "computed": [
+        1.65,
+        -0.96,
+        1.07
+      ],
+      "stated": [
+        1.65,
+        -0.96,
+        1.07
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A without 2022",
+      "computed": [
+        3.24,
+        -0.32,
+        2.66
+      ],
+      "stated": [
+        3.24,
+        -0.32,
+        2.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2020-25",
+      "computed": [
+        1.64,
+        1.5,
+        1.06
+      ],
+      "stated": [
+        1.64,
+        1.5,
+        1.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2023-25",
+      "computed": [
+        -0.99,
+        -1.08,
+        -1.57
+      ],
+      "stated": [
+        -0.99,
+        -1.08,
+        -1.57
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2024-25",
+      "computed": [
+        -0.95,
+        -1.05,
+        -1.53
+      ],
+      "stated": [
+        -0.95,
+        -1.05,
+        -1.53
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B without 2022",
+      "computed": [
+        -0.31,
+        -0.42,
+        -0.89
+      ],
+      "stated": [
+        -0.31,
+        -0.42,
+        -0.89
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery-only net A",
+      "computed": 5.7,
+      "stated": 5.7,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery-only net B",
+      "computed": 1.65,
+      "stated": 1.65,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "one-block payback A at 5.63",
+      "computed": 4.1,
+      "stated": 4.1,
+      "ok": true,
+      "note": "capital / (net gain + annualised capital charge) reproduces the printed payback"
+    },
+    {
+      "name": "one-block payback B at 1.64",
+      "computed": 7.2,
+      "stated": 7.2,
+      "ok": true,
+      "note": "capital / (net gain + annualised capital charge) reproduces the printed payback"
+    },
+    {
+      "name": "one-block payback A at 1.63",
+      "computed": 7.2,
+      "stated": 7.2,
+      "ok": true,
+      "note": "capital / (net gain + annualised capital charge) reproduces the printed payback"
+    },
+    {
+      "name": "one-block payback B at 1.5",
+      "computed": 7.4,
+      "stated": 7.4,
+      "ok": true,
+      "note": "capital / (net gain + annualised capital charge) reproduces the printed payback"
+    },
+    {
+      "name": "Xpress blocks",
+      "computed": 551,
+      "stated": 551,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress runtime",
+      "computed": 4.3,
+      "stated": 4.3,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress vs archived \u00a3/yr",
+      "computed": 4.1,
+      "stated": 4.0,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress fixed-config gap \u00a3/yr printed 5.1",
+      "computed": 5.1,
+      "stated": 5.1,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B pooled days",
+      "computed": "363.5",
+      "stated": "363.5",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B B pooled binary_all_in",
+      "computed": 7.75,
+      "stated": 7.75,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B A pooled five-action",
+      "computed": -20.68,
+      "stated": -20.68,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 labels A five-action and B binary full-group",
+      "computed": [
+        true,
+        true
+      ],
+      "stated": [
+        true,
+        true
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 labels B full-group order size",
+      "computed": "requests up to 450 MWh",
+      "stated": "450 MWh",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "[9] still says 'accompanying package'",
+      "computed": true,
+      "stated": "archive-internal path",
+      "ok": true,
+      "note": "path R1-R4 research/PARAMETER_BASIS.md is named, but the package itself is not"
+    },
+    {
+      "name": "v6.1 states Xpress/HiGHS split",
+      "computed": [
+        true,
+        true
+      ],
+      "stated": [
+        true,
+        true
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "v6.1 states A capacity master role",
+      "computed": true,
+      "stated": "stated",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "cover page names",
+      "computed": [
+        true,
+        false
+      ],
+      "stated": [
+        true,
+        false
+      ],
+      "ok": true,
+      "note": "cover still carries no named authors; unchanged from v6"
+    }
+  ],
+  "all_passed": true
+}

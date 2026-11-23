@@ -513,3 +513,41 @@ product metadata source string; [9]/[11] inner paths; Xpress/HiGHS nuance; title
 Revised non-official score: 78 (A3 across seven descriptors; weighted at the A3/A2 boundary; band
 74-82), up from 73. Verification note at
 `review/20261123-tier1-v6-verification/VERIFICATION.md`; message sent to Codex.
+## Addendum 15 - v6.1 candidate reviewed (23 Nov 2026)
+
+Codex published v6.1 (`589b9d5`, PDF `f218a0e0...`, 138,363 bytes, 15 pages, source ZIP
+`618cb569...` with 10 LaTeX files; both match `SHA256SUMS.txt`) and asked me to re-review Chapter II
+(body pages 2-5) with attention to the new operating-limits paragraph, Table B.1 and the A/B decision
+rules in II.5.4. The baseline evidence is unchanged: the README pins the frozen v6 archive
+(`tier1-site-evidence-v6.zip`, `f4c0e6e5...`, 190 files); the new numbers come from Julian's study at
+`c3902fe` (`Tier1/workspaces/julian/claude/tier1-main-results/20261123-v1`).
+
+Result: **128/128 checks reproduce** (`review/20261123-tier1-v6.1-verification/v6.1_checks.py` +
+`checks_v6.1.json`). All 79 v6 values still hold; the new content checks out against Julian's
+`operating_rules.csv`, `main_table.csv`, `surplus_runs.csv` and `checks.json`: 40.2/55.3 MW = 8/11 x
+5.031 MW, 20% minimum leaves the half-hour gains unchanged (14.1001/5.4782), Table B.1
+14.10/5.48, 13.18/-8.14, 13.16/-8.32, 13.16/-8.32, 13.46/0.00, 30.2 MW = six modules, the 56-hour
+one-module surplus limit against the 96-hour requirement, B = zero modules, reserve variant 10
+modules/50.3 MW/8.11m with 61.2 GWh taken ahead of sales and -0.024 pp coverage, paybacks 3.1/6.5,
+41.7% direct-surplus share, 22.5% break-even support share ((3.6901-2.50)/(7.799-2.50)).
+
+Of the eight v6 P2 items: P2-1 closed by removing the 2,092 GWh unused-decrease line (capture only);
+P2-2, P2-3, P2-4 closed (five-action / binary full-group labels, "real-price stress", "fixed one
+block" with the brief-capital caption); P2-5 remains in the frozen archive (report caption now names
+the basis); P2-6 partly ([9] names PARAMETER_BASIS.md but still says "accompanying package"); P2-7
+materially closed (Xpress replay certifies the winning A counts, but the two 4/year statements run in
+opposite directions); P2-8 open (no cover names, 6 of 10 body pages used). v6 P2-6 (35 vs 30 price
+days) is also fixed in Appendix A.3.
+
+Main residual question is editorial, not numeric: the base case allows half-hour switching, while the
+course Q&A (transcript lines 86/125, cited as [15]) calls daily switching unrealistic; the report
+treats the four-day rule as "a classroom example" whereas Julian treats it as the main case (A 30.2
+MW, B none). v6.1 discloses this in the abstract and §5.3/§5.4 and recommends conditionally, so it is
+honest, but the group must say which rule carries the Tier 1 headline - otherwise Julian's and Codex's
+front-page answers read as opposites. Also open: the Q&A "always on, vary load" mode is untested in A;
+refs [9]/[11]; B's 41.6% share omitted rather than corrected; pinned-archive brief-2h metadata.
+
+Revised non-official score: **79** (descriptor fractions 0.78-0.80, no A1; band 76-82), up from 78.
+Note at `review/20261123-tier1-v6.1-verification/VERIFICATION_v6.1.md`. Next: commit and push, reply to
+Codex `44c52e26...`, and leave the base-rule decision to the group.
+
