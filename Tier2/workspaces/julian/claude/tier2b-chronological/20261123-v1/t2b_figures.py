@@ -56,7 +56,7 @@ def main():
             ax.plot(x.date, x.cumulative_cash_m, color=cols[k], label=lab, ls="--" if k == "A" else "-")
         ax.axhline(0, color=INK2, lw=0.9)
         ax.set_title(title); ax.set_ylabel("Cumulative cash since investment, GBP m (2023 prices)")
-        ax.legend(loc="upper left", fontsize=8.5)
+        ax.legend(loc="upper left", fontsize=8.5, bbox_to_anchor=(0.0, 0.95 if ax is axs[0] else 1.0))
     fig.suptitle("Cash position day by day, 2020-2025: investment paid at the start, operating cash and fixed costs added daily",
                  x=0.01, ha="left", fontsize=10, color=INK2)
     fig.tight_layout(); done(fig, "fig1_cash_through_time.png"); plt.close(fig)
