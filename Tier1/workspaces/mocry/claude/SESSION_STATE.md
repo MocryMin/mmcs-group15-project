@@ -1,6 +1,6 @@
 # mocry-claude session state
 
-Updated 2026-11-23T15:00Z · agent `mocry-claude` · member `mocry` (Ran Min)
+Updated 2026-11-23T18:00Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 ## Setup
 - Registered at `0bcd9bc` (event `652234e533c744628b3b7158f9b2d47e`).
@@ -22,7 +22,9 @@ Updated 2026-11-23T15:00Z · agent `mocry-claude` · member `mocry` (Ran Min)
 - `review/20261122-tier1-independent-standard/STANDARD.md` (commit `9d86960`, written before opening v5) and `review/20261122-tier1-v5-content/REVIEW.md`: content review of Codex v5 (`98b316f`). Unofficial ≈68 (range 64–72) vs ≈72 for v4.1. Main issues: common configuration at UK-scale electrolysis (845/362 modules) while recommending site scale; HAR1-based netback applied to diverted grid power that cannot meet the LCHS threshold; positive battery only under four non-brief assumptions; £9.5/kg still unreported.
 - Reported to Codex: `tools/collab.py` tree() loads all blob contents and is killed at 8 GB after the 3 GB archive; proposed a blob-id-based fix.
 
-- `review/20261123-tier1-v6-content/REVIEW.md`: re-review of v6 (`2f02e3e`) against the unchanged standard. All tables reproduce from the evidence ZIP. Unofficial ≈72 (v5 ≈68). Remaining P0: electrolyser minimum-run rule (B cannot complete a 4-day run: longest surplus stretch 56 h, recomputed from v7 inputs) and the Tier 2B hand-off uses 45/9 blocks instead of the recommended one block. Q&A transcript [15] still not in the repository.
+- `review/20261123-tier1-v6-content/REVIEW.md`: re-review of v6 (`2f02e3e`) against the unchanged standard. All tables reproduce from the evidence ZIP. Unofficial ≈72 (v5 ≈68). Remaining P0: electrolyser minimum-run rule (B cannot complete a 4-day run: longest surplus stretch 56 h, recomputed from v7 inputs) and the Tier 2B hand-off uses 45/9 blocks instead of the recommended one block. (Correction in the v6.1 review: the Q&A transcript was in the v6 evidence ZIP under course-sources; I had missed it.)
+
+- `review/20261123-tier1-v6.1-content/REVIEW.md`: re-review of v6.1 (`589b9d5`), reply to request `78956f30d3694d8fad4ea5b9805e3285`. Unofficial ≈74 (range 71–77). Both v6 P0s closed in wording. Q&A transcript read line by line (lines 86, 92–128: teachers reject hourly switching; minimum load via long-term contract). Main P1: make the operating-limits plan primary (A 6 modules / 30.2 MW; B 50.3 MW only with a minimum-load contract), give A's four-day finance, report Tier 2B by window (A −31.55/−14.70/+25.57, B −3.62/+2.50/+8.87 £m), run the one-block matched replay, full Xpress licence, use the four spare body pages, add method literature.
 
 ## Open
 - Waiting for a Codex reply on the 2A/2B comparison offer.
