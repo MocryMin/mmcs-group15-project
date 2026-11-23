@@ -1,0 +1,813 @@
+{
+  "source_pdf_sha256": "769b89e4100b33ee6de555530fd147f6b90ff8b34af2832bc59743a71a442db8",
+  "zip_sha256": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+  "checks": [
+    {
+      "name": "report.pdf sha256",
+      "computed": "769b89e4100b33ee6de555530fd147f6b90ff8b34af2832bc59743a71a442db8",
+      "stated": "769b89e4100b33ee6de555530fd147f6b90ff8b34af2832bc59743a71a442db8",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "zip sha256",
+      "computed": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+      "stated": "f4c0e6e517df44dc6edbb8c7eb7453257558839ce1701e63d9bd009055b50440",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "manifest lists report.pdf",
+      "computed": true,
+      "stated": true,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "manifest report sha matches",
+      "computed": "769b89e4100b33ee6de555530fd147f6b90ff8b34af2832bc59743a71a442db8",
+      "stated": "769b89e4100b33ee6de555530fd147f6b90ff8b34af2832bc59743a71a442db8",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "manifest file count",
+      "computed": 190,
+      "stated": "190",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "PDF pages",
+      "computed": 15,
+      "stated": "15 (body 1-6, R1, A1-A6)",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A One block, optimised",
+      "computed": [
+        1,
+        7,
+        19.74,
+        89.64
+      ],
+      "stated": [
+        1,
+        7,
+        19.74,
+        89.64
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A One block, simple",
+      "computed": [
+        1,
+        8,
+        15.73,
+        89.64
+      ],
+      "stated": [
+        1,
+        8,
+        15.73,
+        89.64
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B One block, optimised",
+      "computed": [
+        1,
+        11,
+        7.12,
+        91.06
+      ],
+      "stated": [
+        1,
+        11,
+        7.12,
+        91.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B One block, simple",
+      "computed": [
+        1,
+        11,
+        6.98,
+        91.06
+      ],
+      "stated": [
+        1,
+        11,
+        6.98,
+        91.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A Joint sizing",
+      "computed": [
+        45,
+        6,
+        119.04,
+        90.16
+      ],
+      "stated": [
+        45,
+        6,
+        119.04,
+        90.16
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B Joint sizing",
+      "computed": [
+        9,
+        10,
+        11.4,
+        91.23
+      ],
+      "stated": [
+        9,
+        10,
+        11.4,
+        91.23
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B Electrolysis",
+      "computed": [
+        0,
+        11,
+        5.48,
+        91.03
+      ],
+      "stated": [
+        0,
+        11,
+        5.48,
+        91.03
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 B None",
+      "computed": [
+        0,
+        0,
+        0.0,
+        91.03
+      ],
+      "stated": [
+        0,
+        0,
+        0.0,
+        91.03
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A Electrolysis",
+      "computed": [
+        0,
+        8,
+        14.1,
+        89.61
+      ],
+      "stated": [
+        0,
+        8,
+        14.1,
+        89.61
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.3 A None",
+      "computed": [
+        0,
+        0,
+        0.0,
+        89.66
+      ],
+      "stated": [
+        0,
+        0,
+        0.0,
+        89.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "one-block increment A",
+      "computed": 5.64,
+      "stated": 5.63,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "one-block increment B",
+      "computed": 1.64,
+      "stated": 1.64,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "simple-rule increment A",
+      "computed": 1.63,
+      "stated": 1.63,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "simple-rule increment B",
+      "computed": 1.5,
+      "stated": 1.5,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint battery power A",
+      "computed": 4500,
+      "stated": 4500,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint battery power B",
+      "computed": 900,
+      "stated": 900,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint capex A \u00a3bn",
+      "computed": 1.785,
+      "stated": 1.79,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "joint capex B \u00a3m",
+      "computed": 422.0,
+      "stated": 422,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "surplus capture A",
+      "computed": 1918.0,
+      "stated": 1918,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "unused decrease A",
+      "computed": 2092.0,
+      "stated": 2092,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "unused decrease B",
+      "computed": 647.0,
+      "stated": 647,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "renewable attribution A",
+      "computed": 829.0,
+      "stated": 829,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "renewable attribution B",
+      "computed": 278.0,
+      "stated": 278,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 4.0t 7.8",
+      "computed": [
+        3,
+        5.66
+      ],
+      "stated": [
+        3,
+        5.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 4.0t 7.8",
+      "computed": [
+        4,
+        2.21
+      ],
+      "stated": [
+        4,
+        2.21
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 2.5",
+      "computed": [
+        0,
+        0.0
+      ],
+      "stated": [
+        0,
+        0.0
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 2.5",
+      "computed": [
+        0,
+        0.0
+      ],
+      "stated": [
+        0,
+        0.0
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 5.0",
+      "computed": [
+        7,
+        4.96
+      ],
+      "stated": [
+        7,
+        4.96
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 5.0",
+      "computed": [
+        7,
+        1.19
+      ],
+      "stated": [
+        7,
+        1.19
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 7.8",
+      "computed": [
+        8,
+        14.1
+      ],
+      "stated": [
+        8,
+        14.1
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 7.8",
+      "computed": [
+        11,
+        5.48
+      ],
+      "stated": [
+        11,
+        5.48
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 9.5",
+      "computed": [
+        8,
+        20.02
+      ],
+      "stated": [
+        8,
+        20.02
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 9.5",
+      "computed": [
+        12,
+        8.56
+      ],
+      "stated": [
+        12,
+        8.56
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 A 10.0t 10.0",
+      "computed": [
+        8,
+        21.79
+      ],
+      "stated": [
+        8,
+        21.79
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.4 B 10.0t 10.0",
+      "computed": [
+        12,
+        9.49
+      ],
+      "stated": [
+        12,
+        9.49
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "two-rate A modules/gain",
+      "computed": [
+        11,
+        6.06
+      ],
+      "stated": [
+        11,
+        6.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "two-rate B modules/gain",
+      "computed": [
+        11,
+        5.48
+      ],
+      "stated": [
+        11,
+        5.48
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV A 5%",
+      "computed": 217.0,
+      "stated": 217,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV B 5%",
+      "computed": 84.0,
+      "stated": 84,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV A 8%",
+      "computed": 144.0,
+      "stated": 144,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "NPV B 8%",
+      "computed": 42.0,
+      "stated": 42,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even receipt A",
+      "computed": 3.69,
+      "stated": 3.69,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "break-even receipt B",
+      "computed": 4.7,
+      "stated": 4.7,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "min eligible share A",
+      "computed": 22.0,
+      "stated": 22,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "min eligible share B",
+      "computed": 42.0,
+      "stated": 42,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "20% capex threshold A",
+      "computed": 3.91,
+      "stated": 3.91,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "20% capex threshold B",
+      "computed": 5.3,
+      "stated": 5.3,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A 2h 0 block",
+      "computed": 13.42,
+      "stated": 13.42,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A 2h 1 block",
+      "computed": 14.47,
+      "stated": 14.47,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B 2h 0 block",
+      "computed": 3.78,
+      "stated": 3.78,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B 2h 1 block",
+      "computed": 2.46,
+      "stated": 2.46,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "2h one-block increment A",
+      "computed": 1.05,
+      "stated": 1.05,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "2h one-block increment B",
+      "computed": -1.32,
+      "stated": -1.32,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 A daily 2h",
+      "computed": 12.46,
+      "stated": 12.46,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table II.5 B daily 2h",
+      "computed": 2.18,
+      "stated": 2.18,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "HiGHS model size",
+      "computed": [
+        13155,
+        24113
+      ],
+      "stated": [
+        13155,
+        24113
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A 2020-25",
+      "computed": [
+        5.63,
+        1.63,
+        5.05
+      ],
+      "stated": [
+        5.63,
+        1.63,
+        5.05
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A 2023-25",
+      "computed": [
+        2.15,
+        -0.95,
+        1.57
+      ],
+      "stated": [
+        2.15,
+        -0.95,
+        1.57
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A 2024-25",
+      "computed": [
+        1.65,
+        -0.96,
+        1.07
+      ],
+      "stated": [
+        1.65,
+        -0.96,
+        1.07
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 A without 2022",
+      "computed": [
+        3.24,
+        -0.32,
+        2.66
+      ],
+      "stated": [
+        3.24,
+        -0.32,
+        2.66
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2020-25",
+      "computed": [
+        1.64,
+        1.5,
+        1.06
+      ],
+      "stated": [
+        1.64,
+        1.5,
+        1.06
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2023-25",
+      "computed": [
+        -0.99,
+        -1.08,
+        -1.57
+      ],
+      "stated": [
+        -0.99,
+        -1.08,
+        -1.57
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B 2024-25",
+      "computed": [
+        -0.95,
+        -1.05,
+        -1.53
+      ],
+      "stated": [
+        -0.95,
+        -1.05,
+        -1.53
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Table C.2 B without 2022",
+      "computed": [
+        -0.31,
+        -0.42,
+        -0.89
+      ],
+      "stated": [
+        -0.31,
+        -0.42,
+        -0.89
+      ],
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery-only net A",
+      "computed": 5.7,
+      "stated": 5.7,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "battery-only net B",
+      "computed": 1.65,
+      "stated": 1.65,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress blocks",
+      "computed": 551,
+      "stated": 551,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress runtime",
+      "computed": 4.3,
+      "stated": 4.3,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress vs archived \u00a3/yr",
+      "computed": 4.1,
+      "stated": 4.0,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Xpress fixed-config gap \u00a3/yr",
+      "computed": 5.13,
+      "stated": 5.13,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B pooled days",
+      "computed": "363.5",
+      "stated": "363.5",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B B pooled binary_all_in",
+      "computed": 7.75,
+      "stated": 7.75,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "T2B A pooled five-action",
+      "computed": -20.68,
+      "stated": -20.68,
+      "ok": true,
+      "note": ""
+    }
+  ]
+}

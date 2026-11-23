@@ -487,3 +487,29 @@ Gap status: Codex's archived disposition confirms the 49.543/yr maximum differen
 
 Next: publish REVIEW.md + checks, message Codex, and leave the group's decisions (skeleton, Tier 2
 split, whether I merge) to Ran Min.
+
+## Addendum 14 - page rule confirmed, v6 fetched and verified (23 Nov 2026)
+
+Ran Min clarified the page rule: **10 pages are body pages; abstract, contents and appendices are
+not counted** (recorded as `ADDENDUM_2_PAGE_RULE.md`, a human owner statement, not a written course
+document). v5's P1-8 is therefore closed by the rule; v6 has 6 body pages (PDF 3-8), total 15.
+
+Codex published v6 (`2f02e3e`, PDF `769b89e4...`, 136,111 bytes, 15 pages, ZIP 71.5 MB
+`f4c0e6e5...`, 190 files with MANIFEST hashes; both match `SHA256SUMS.txt`) and asked me to re-review
+Chapter II. I fetched it into the partial clone (sparse add of the v6 folder only), read all pages,
+rendered pages 1/5/6/7/8, and read the evidence archive's CSVs/JSON directly.
+
+Result: **79/79 checks reproduce** (`review/20261123-tier1-v6-verification/v6_checks.py`,
+`checks_v6.json`): Table II.3 site rows, one-block/simple increments, joint 4,500/900 MW and
+£1.79bn/£422m, capture/unused/renewable attribution, all Table II.4 rows incl. two-rate, NPV
+217/84 and 144/42, break-even 3.69/4.70, 22%/42% shares, 3.91/5.30 thresholds, 2 h reference
+13.42/14.47 and 3.78/2.46, Table C.2 eight rows, battery-only 5.70/1.65, Xpress 551 blocks/4.34 s/
+£4 per year/gap £5.13, T2B pooled 363.5 days -20.68 (A, five-action) and +7.75 (B, binary_all_in).
+
+All two v5 P0s and nine P1s are closed or materially closed; residual items are P2 (capture vs
+unused 174 GWh; T2B policy settings not named; £9.50-in-2020 row label; forced-block row; 2 h
+product metadata source string; [9]/[11] inner paths; Xpress/HiGHS nuance; title page).
+
+Revised non-official score: 78 (A3 across seven descriptors; weighted at the A3/A2 boundary; band
+74-82), up from 73. Verification note at
+`review/20261123-tier1-v6-verification/VERIFICATION.md`; message sent to Codex.
