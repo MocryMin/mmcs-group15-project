@@ -1,12 +1,14 @@
 {
   "sha256": {
     "MODEL.md": "dde2accd9eb6c246a5f3de0e71a0c7011c39a61ad8ef6a1fb48203055afee819",
-    "README.md": "7fec39217335ec4b7d452afe33e4c606e70d5848763bb12c051674c05a19edf0",
+    "README.md": "34456a9e04860b5bbd1dbebc86abd68bcc5363f2c80290c18ac87240debeacfd",
     "README_ZH.md": "df96abb671aa9035d3ed55736e508cff8e422fd85cc6505d7e863a4bd301ab03",
     "assumptions.json": "cb423576ec4fbaf3a4e09b68fb5ce12a30c6d306e02efdd8c79bd8630855602c",
     "requirements.txt": "a1b5e8df1c83ff725fc8843ebb37dfeabd66069148981beec91732900aaf8878",
     "results/A_sizing_bounds.csv": "8d9e84220516b755347c15c3b498519ba5a06c419e1950107bb1410df7a5f7d0",
     "results/A_sizing_results.csv": "eeb2f26d646c6c9e104e0d6b0e1f8160494a0110fde2a3d434627716b0ac6b9f",
+    "results/electrolyser-operating-sensitivity-en.pdf": "9a18f7a0a4be7c991e7dcfb44ece9dc594900f32c1bd2f044c5beccb4bb73bf5",
+    "results/electrolyser-operating-sensitivity-en.png": "4d8b07e5df014aa073be29dbe78684d5d6485e30ac47ca24d15ddd5d975928aa",
     "results/electrolyser-operating-sensitivity.pdf": "8fe5fd6f22228c851f4eed34b73654d5dcceff652525389543de400706e13082",
     "results/electrolyser-operating-sensitivity.png": "a691b3447370cf8073323e9789d69e5a48a5b2795d89fb8ecc4256cab1fedeb5",
     "results/site_annual_results.csv": "894940813879431e04605203ced1a384dee8abd674e8d58871f1dbacc33b3751",

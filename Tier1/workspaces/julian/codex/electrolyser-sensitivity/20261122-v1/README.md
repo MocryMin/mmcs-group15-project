@@ -18,9 +18,9 @@ The study tests the 10 t/day hydrogen offtake scenario used in the Tier 1 v5 sit
 
 Money is in 2020 real GBP. Gains are measured against the same-policy no-additions case, after annual-equivalent capital, fixed maintenance and stack replacements. Simple payback uses the mean historical operating contribution less fixed maintenance, before future stack replacements. The daily and multi-day cases schedule starts and stops at UTC midnight and modulate load every half hour.
 
-![Site-scale electrolyser operating sensitivity, including net gain, delivery frequency, capacity and hydrogen price](results/electrolyser-operating-sensitivity.png)
+![Site-scale electrolyser operating sensitivity, including net gain, delivery frequency, capacity and hydrogen price](results/electrolyser-operating-sensitivity-en.png)
 
-[Vector PDF](results/electrolyser-operating-sensitivity.pdf)
+[Vector PDF](results/electrolyser-operating-sensitivity-en.pdf)
 
 - **A.** At the reference netback, shifting starts and stops to UTC midnight accounts for about £0.919m/year of the reduction. Requiring four days online reduces gain by a further £0.017m/year. With the four-day rule, resizing to six modules (30.186 MW) increases mean net gain to £13.460m/year. The share of days producing at least 9.5 t falls from 90.7% to 85.0%.
 - **B.** Surplus sufficient to support one module at 20% load lasts at most 56 continuous hours. Neither the 96-hour nor the 120-hour requirement can be met, even with arbitrary half-hour starting times. The negative value is the annualized cost of the fixed eleven-module configuration. Zero new modules is optimal under these constraints. The £5.00 and £9.50/kg comparisons use the same cap and real price convention.
