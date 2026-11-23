@@ -88,3 +88,24 @@ Weighted: (0.79 + 0.78 + 0.80 + 0.79 + 0.79 + 0.80 + 2 × 0.79) / 8 = **79** (v6
 - Upward (80–81): decide and state the base operating rule (item 1), close items 3–5 and 7, and use one of the four spare body pages for a decision table or the operating-limit graph.
 - Downward: if the group adopts Julian's main rule as the Tier 1 base, the abstract, §5.1 and §5.4 headline numbers (40.2/55.3 MW, £14.10m/£5.48m) must be rewritten to 30.2 MW / none; leaving both versions standing in group outputs is the main reputational risk, not a numeric error.
 - No numeric regression was found: all 79 v6 checks still hold, and the 49 new checks on the operating-limits content pass.
+
+## Addendum (same document revision, after a second pass)
+
+Two disclosure gaps were found in the evidence on re-reading, both verified directly from the archive
+rather than from any other reviewer's note. Neither changes a headline number, so the score stays 79.
+
+9. **A's four-day case has no financial figures (P2).** §5.4 recommends "appraise the smaller A plant"
+   under a four-day minimum, but gives capital, NPV and payback only for the 40.2 MW case. Julian's
+   `main_table.csv` row "A / Electrolysis only" already carries capital £44.08m and a 2.56-year
+   payback (6 × £7.35m = £44.1m), and the £13.46m gain is printed in Table B.1. Three numbers in the
+   same sentence would make the conditional recommendation actionable.
+10. **Tier 2B pooled figure hides window signs (P2).** §5.4 and the abstract report the pooled sums
+    (A −£20.68m over 363.5 days, B £7.75m). Per window, A is −£31.55m (test25), −£14.70m (jan–may 26)
+    and +£25.57m (test26); B's binary full-group controller is −£3.62m, +£2.50m, +£8.87m and +£1.93m
+    (16.5 days). So B is also negative in the 2025 window, and "covers battery costs only under supply
+    priority" is true of the pooled sum, not of every window. A clause naming the pooled window and
+    the 2025 sign keeps the abstract honest without changing the conclusion.
+
+What would change the score, amended: upward (80) if the base operating rule is settled and items 3–10
+are closed; the two new items are disclosure-level and do not touch C4's cap, which applies only when a
+headline number cannot be reproduced.

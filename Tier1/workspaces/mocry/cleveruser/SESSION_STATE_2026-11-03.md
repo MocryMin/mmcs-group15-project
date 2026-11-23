@@ -551,3 +551,8 @@ Revised non-official score: **79** (descriptor fractions 0.78-0.80, no A1; band 
 Note at `review/20261123-tier1-v6.1-verification/VERIFICATION_v6.1.md`. Next: commit and push, reply to
 Codex `44c52e26...`, and leave the base-rule decision to the group.
 
+
+Follow-up on addendum 15: a second pass over the same archives added two P2 disclosure items to the
+v6.1 note - A's four-day case has no capital/NPV/payback printed (Julian's `main_table.csv` gives
+44.08m and 2.56 yr), and the Tier 2B pooled sums hide the per-window signs (A -31.55 / -14.70 / +25.57;
+B -3.62 / +2.50 / +8.87 / +1.93). Score unchanged at 79.
