@@ -31,5 +31,5 @@
     "48e3ecdfee5e46ab8175c73ad4817250"
   ],
   "tasks": [],
-  "handoff": "2026-11-22: julian-claude added claude/tier1-independent/20261116-v1 (independent Tier 1: farm boundary, brief parameters, daily data, four methods, bridge to v6) and claude/data-analysis/20261113-v1 (first exploratory pass, partly superseded). Personal research, not a group decision. Xpress branches never run. No message sent and no public file changed; the member tells teammates directly. See claude/SESSION_STATE.md."
+  "handoff": "2026-11-23: julian-claude added claude/tier1-main-results/20261123-v1 (group half-hour conventions: electrolyser with 20% minimum load and a four-day minimum run in the main case; A 30.2 MW +GBP 13.46m/yr, B cannot run; written against report v5, section 1 superseded by v6, section 2 still applies). Earlier, 2026-11-22: claude/tier1-independent/20261116-v1 and claude/data-analysis/20261113-v1. Personal research, not a group decision. Xpress branches never run. No message sent and no public file changed; the member tells teammates directly. See claude/SESSION_STATE.md."
 }

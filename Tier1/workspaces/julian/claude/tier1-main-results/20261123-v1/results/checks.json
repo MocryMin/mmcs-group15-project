@@ -1,0 +1,175 @@
+{
+  "inputs": {
+    "inputs/halfhour.csv.gz": "890ee68ae2014caa96f2e63e9c07ef14c37112799d5d5f97a16989da3294b4ae",
+    "configuration.json": "0b15ef3cd7d1597028231471e264cf57a03b38a624dd5564a911aafa3de7f7a9"
+  },
+  "items": [
+    {
+      "check": "no-additions figures of report v5 Table II.3",
+      "passed": true,
+      "detail": "A 89.66% / 8647 GWh, B 91.03% / 5165 GWh"
+    },
+    {
+      "check": "Table C.1 reproduced, 4 t/day at GBP 7.80/kg",
+      "passed": true,
+      "detail": "A 15.093 MW 5.655 (published 15.093 / 5.66); B 20.124 MW 2.207 (published 20.124 / 2.21)"
+    },
+    {
+      "check": "Table C.1 reproduced, 10 t/day at GBP 5.00/kg",
+      "passed": true,
+      "detail": "A 35.217 MW 4.957 (published 35.217 / 4.96); B 35.217 MW 1.190 (published 35.217 / 1.19)"
+    },
+    {
+      "check": "Table C.1 reproduced, 10 t/day at GBP 7.80/kg",
+      "passed": true,
+      "detail": "A 40.248 MW 14.100 (published 40.248 / 14.1); B 55.341 MW 5.478 (published 55.341 / 5.48)"
+    },
+    {
+      "check": "Table C.1 reproduced, 10 t/day at GBP 10.00/kg",
+      "passed": true,
+      "detail": "A 40.248 MW 21.788 (published 40.248 / 21.79); B 60.372 MW 9.493 (published 60.372 / 9.49)"
+    },
+    {
+      "check": "report v5 Table II.3 reproduced, electrolysis only, A 845 modules",
+      "passed": true,
+      "detail": "1689.96 / 80.57% / 4142 GWh (published 1689.96 / 80.57 / 4142)"
+    },
+    {
+      "check": "report v5 battery simple rule reproduced at national scale, A",
+      "passed": true,
+      "detail": "-2.605 (published -2.605)"
+    },
+    {
+      "check": "battery full foresight with electrolysers held fixed is below the published joint optimum, national A",
+      "passed": true,
+      "detail": "7.229 <= 7.586"
+    },
+    {
+      "check": "report v5 Table II.3 reproduced, electrolysis only, B 362 modules",
+      "passed": true,
+      "detail": "118.38 / 91.03% / 2353 GWh (published 118.38 / 91.03 / 2353)"
+    },
+    {
+      "check": "report v5 battery simple rule reproduced at national scale, B",
+      "passed": true,
+      "detail": "-0.938 (published -0.938)"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 8 modules, run 1",
+      "passed": true,
+      "detail": "13.180800 against 13.180800"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 8 modules, run 4",
+      "passed": true,
+      "detail": "13.163731 against 13.163731"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 8 modules, run 5",
+      "passed": true,
+      "detail": "13.155459 against 13.155459"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 6 modules, run 4",
+      "passed": true,
+      "detail": "13.459603"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 8 modules, run 4",
+      "passed": true,
+      "detail": "13.163731"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 6 modules, run 5",
+      "passed": true,
+      "detail": "13.453822"
+    },
+    {
+      "check": "earlier site sensitivity reproduced, A 8 modules, run 5",
+      "passed": true,
+      "detail": "13.155459"
+    },
+    {
+      "check": "minimum-run programmes solved to optimality",
+      "passed": true,
+      "detail": "largest gap GBP 0.000 per year; every path passes the independent minimum-run check"
+    },
+    {
+      "check": "supply priority cannot hold minimum load",
+      "passed": true,
+      "detail": "no production at any size with a 4- or 5-day minimum run"
+    },
+    {
+      "check": "longest continuous surplus for one module is 56 hours",
+      "passed": true,
+      "detail": "56.0 hours"
+    },
+    {
+      "check": "battery schedule audit, A, simple rule",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "battery schedule audit, A, full foresight",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "A full foresight is at least the simple rule, A",
+      "passed": true,
+      "detail": "10.331 >= 6.351"
+    },
+    {
+      "check": "battery schedule audit, B, simple rule",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "battery schedule audit, B, full foresight",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "B full foresight lies between the simple rule and the hold-back bound, B",
+      "passed": true,
+      "detail": "6.332 <= 6.335 <= 7.988"
+    },
+    {
+      "check": "battery schedule audit, B with reserve, simple rule",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "battery schedule audit, B with reserve, full foresight",
+      "passed": true,
+      "detail": "all operating conditions hold"
+    },
+    {
+      "check": "B full foresight lies between the simple rule and the hold-back bound, B with reserve",
+      "passed": true,
+      "detail": "6.219 <= 6.222 <= 7.863"
+    },
+    {
+      "check": "battery scheduled jointly with the electrolyser, 2022",
+      "passed": true,
+      "detail": "joint 22.343, electrolyser fixed first 22.233, difference 0.110"
+    },
+    {
+      "check": "closed-form electrolysis dispatch equals the linear programme, 2022",
+      "passed": true,
+      "detail": "difference GBP -0.0017"
+    },
+    {
+      "check": "battery scheduled jointly with the electrolyser, 2023",
+      "passed": true,
+      "detail": "joint 7.870, electrolyser fixed first 7.864, difference 0.006"
+    },
+    {
+      "check": "closed-form electrolysis dispatch equals the linear programme, 2023",
+      "passed": true,
+      "detail": "difference GBP -0.0033"
+    }
+  ],
+  "runtime_seconds": 406.85689067840576,
+  "all_passed": true
+}
