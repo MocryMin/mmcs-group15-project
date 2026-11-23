@@ -1,0 +1,52 @@
+{
+  "training_utc": [
+    "2020-01-01",
+    "2023-01-01"
+  ],
+  "test_utc": [
+    "2023-01-01",
+    "2026-01-01"
+  ],
+  "end_dates_exclusive": true,
+  "input_sha256": {
+    "inputs/halfhour.csv.gz": "890ee68ae2014caa96f2e63e9c07ef14c37112799d5d5f97a16989da3294b4ae",
+    "configuration.json": "0b15ef3cd7d1597028231471e264cf57a03b38a624dd5564a911aafa3de7f7a9",
+    "model.py": "2cea30902eebdd9d0c2ed18666fdff894b9c92925651370b79da69f51d140bd5"
+  },
+  "input_reference": "b0377299dc452bf01f387c0dd60f6e7f6510e1a2",
+  "half_hour_slots": 52608,
+  "designs": {
+    "pre_test": {
+      "A": 9,
+      "B": 12
+    },
+    "v5_appraisal": {
+      "A": 8,
+      "B": 11
+    }
+  },
+  "battery_mw": 0,
+  "battery_mwh": 0,
+  "hydrogen_inventory_kg": 0,
+  "daily_equivalent_acceptance_kg": 10000.0,
+  "currency": "GBP2020",
+  "equipment": {
+    "module_mw": 5.031,
+    "minimum_mwh": 0.3144375,
+    "mwh_per_kg": 0.0559,
+    "annual_gbp": 756537.1657447455,
+    "netback": 7.7990270551508845
+  },
+  "checks": {
+    "verified_windows": 20048,
+    "min_load_repairs_by_rule": {
+      "greedy": 0,
+      "pace": 0,
+      "perfect": 8,
+      "rolling": 1816
+    },
+    "matched_request_and_physical_limits": true,
+    "first_issue_unchanged_when_future_actuals_perturbed": true,
+    "perfect_dominates_all_other_rules_each_window": true
+  }
+}
