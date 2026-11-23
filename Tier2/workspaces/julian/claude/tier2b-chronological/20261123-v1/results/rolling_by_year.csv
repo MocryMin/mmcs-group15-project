@@ -1,0 +1,193 @@
+rule,h2_value,method,year,operating_cash_m
+topup,9.5,Never switch off,2022,88.9585
+topup,9.5,Never switch off,2023,68.7863
+topup,9.5,Never switch off,2024,82.1092
+topup,9.5,Never switch off,2025,154.257
+topup,9.5,Price rule on yesterday's price,2022,45.342
+topup,9.5,Price rule on yesterday's price,2023,68.7816
+topup,9.5,Price rule on yesterday's price,2024,82.0955
+topup,9.5,Price rule on yesterday's price,2025,154.225
+topup,9.5,"Rolling plan, persistence forecast",2022,88.8666
+topup,9.5,"Rolling plan, persistence forecast",2023,68.7816
+topup,9.5,"Rolling plan, persistence forecast",2024,82.0955
+topup,9.5,"Rolling plan, persistence forecast",2025,154.423
+topup,9.5,"Rolling plan, regression forecast",2022,68.5983
+topup,9.5,"Rolling plan, regression forecast",2023,68.7814
+topup,9.5,"Rolling plan, regression forecast",2024,82.0393
+topup,9.5,"Rolling plan, regression forecast",2025,154.423
+topup,9.5,"Rolling plan, regression + NESO day-ahead",2022,65.141
+topup,9.5,"Rolling plan, regression + NESO day-ahead",2023,68.7006
+topup,9.5,"Rolling plan, regression + NESO day-ahead",2024,82.0955
+topup,9.5,"Rolling plan, regression + NESO day-ahead",2025,154.405
+topup,9.5,"Rolling plan, same forecast, expected unsold energy",2022,83.9891
+topup,9.5,"Rolling plan, same forecast, expected unsold energy",2023,64.6519
+topup,9.5,"Rolling plan, same forecast, expected unsold energy",2024,80.9377
+topup,9.5,"Rolling plan, same forecast, expected unsold energy",2025,152.734
+topup,9.5,"Rolling plan, perfect 7-day forecast",2022,112.68
+topup,9.5,"Rolling plan, perfect 7-day forecast",2023,68.9041
+topup,9.5,"Rolling plan, perfect 7-day forecast",2024,82.1704
+topup,9.5,"Rolling plan, perfect 7-day forecast",2025,154.594
+topup,9.5,Full foresight (upper bound),2022,112.685
+topup,9.5,Full foresight (upper bound),2023,68.9041
+topup,9.5,Full foresight (upper bound),2024,82.1704
+topup,9.5,Full foresight (upper bound),2025,154.594
+topup,7.5,Never switch off,2022,49.9283
+topup,7.5,Never switch off,2023,41.4586
+topup,7.5,Never switch off,2024,54.6654
+topup,7.5,Never switch off,2025,111.395
+topup,7.5,Price rule on yesterday's price,2022,21.5441
+topup,7.5,Price rule on yesterday's price,2023,42.4465
+topup,7.5,Price rule on yesterday's price,2024,54.8153
+topup,7.5,Price rule on yesterday's price,2025,110.423
+topup,7.5,"Rolling plan, persistence forecast",2022,58.6303
+topup,7.5,"Rolling plan, persistence forecast",2023,42.4465
+topup,7.5,"Rolling plan, persistence forecast",2024,54.8153
+topup,7.5,"Rolling plan, persistence forecast",2025,110.671
+topup,7.5,"Rolling plan, regression forecast",2022,41.4174
+topup,7.5,"Rolling plan, regression forecast",2023,42.739
+topup,7.5,"Rolling plan, regression forecast",2024,54.6896
+topup,7.5,"Rolling plan, regression forecast",2025,109.64
+topup,7.5,"Rolling plan, regression + NESO day-ahead",2022,39.5637
+topup,7.5,"Rolling plan, regression + NESO day-ahead",2023,42.0041
+topup,7.5,"Rolling plan, regression + NESO day-ahead",2024,54.7695
+topup,7.5,"Rolling plan, regression + NESO day-ahead",2025,110.575
+topup,7.5,"Rolling plan, same forecast, expected unsold energy",2022,57.0348
+topup,7.5,"Rolling plan, same forecast, expected unsold energy",2023,39.0983
+topup,7.5,"Rolling plan, same forecast, expected unsold energy",2024,53.948
+topup,7.5,"Rolling plan, same forecast, expected unsold energy",2025,108.894
+topup,7.5,"Rolling plan, perfect 7-day forecast",2022,82.9425
+topup,7.5,"Rolling plan, perfect 7-day forecast",2023,43.1905
+topup,7.5,"Rolling plan, perfect 7-day forecast",2024,54.8886
+topup,7.5,"Rolling plan, perfect 7-day forecast",2025,112.006
+topup,7.5,Full foresight (upper bound),2022,82.9698
+topup,7.5,Full foresight (upper bound),2023,43.2028
+topup,7.5,Full foresight (upper bound),2024,54.8886
+topup,7.5,Full foresight (upper bound),2025,112.006
+topup,6,Never switch off,2022,20.6556
+topup,6,Never switch off,2023,20.9628
+topup,6,Never switch off,2024,34.0826
+topup,6,Never switch off,2025,79.2485
+topup,6,Price rule on yesterday's price,2022,6.09475
+topup,6,Price rule on yesterday's price,2023,24.2691
+topup,6,Price rule on yesterday's price,2024,32.822
+topup,6,Price rule on yesterday's price,2025,73.5121
+topup,6,"Rolling plan, persistence forecast",2022,37.6148
+topup,6,"Rolling plan, persistence forecast",2023,23.8822
+topup,6,"Rolling plan, persistence forecast",2024,32.8238
+topup,6,"Rolling plan, persistence forecast",2025,76.0041
+topup,6,"Rolling plan, regression forecast",2022,27.0396
+topup,6,"Rolling plan, regression forecast",2023,22.1312
+topup,6,"Rolling plan, regression forecast",2024,31.1588
+topup,6,"Rolling plan, regression forecast",2025,72.1321
+topup,6,"Rolling plan, regression + NESO day-ahead",2022,27.6021
+topup,6,"Rolling plan, regression + NESO day-ahead",2023,22.9205
+topup,6,"Rolling plan, regression + NESO day-ahead",2024,30.4263
+topup,6,"Rolling plan, regression + NESO day-ahead",2025,69.4526
+topup,6,"Rolling plan, same forecast, expected unsold energy",2022,37.3887
+topup,6,"Rolling plan, same forecast, expected unsold energy",2023,23.1941
+topup,6,"Rolling plan, same forecast, expected unsold energy",2024,32.8026
+topup,6,"Rolling plan, same forecast, expected unsold energy",2025,74.6668
+topup,6,"Rolling plan, perfect 7-day forecast",2022,61.4745
+topup,6,"Rolling plan, perfect 7-day forecast",2023,26.7785
+topup,6,"Rolling plan, perfect 7-day forecast",2024,34.6911
+topup,6,"Rolling plan, perfect 7-day forecast",2025,80.7232
+topup,6,Full foresight (upper bound),2022,61.7013
+topup,6,Full foresight (upper bound),2023,26.7785
+topup,6,Full foresight (upper bound),2024,34.6911
+topup,6,Full foresight (upper bound),2025,80.7232
+divert,9.5,Never switch off,2022,140.283
+divert,9.5,Never switch off,2023,231.833
+divert,9.5,Never switch off,2024,341.18
+divert,9.5,Never switch off,2025,356.368
+divert,9.5,Price rule on yesterday's price,2022,97.6766
+divert,9.5,Price rule on yesterday's price,2023,231.49
+divert,9.5,Price rule on yesterday's price,2024,341.089
+divert,9.5,Price rule on yesterday's price,2025,355.954
+divert,9.5,"Rolling plan, persistence forecast",2022,148.897
+divert,9.5,"Rolling plan, persistence forecast",2023,231.49
+divert,9.5,"Rolling plan, persistence forecast",2024,341.089
+divert,9.5,"Rolling plan, persistence forecast",2025,356.175
+divert,9.5,"Rolling plan, regression forecast",2022,121.686
+divert,9.5,"Rolling plan, regression forecast",2023,228.503
+divert,9.5,"Rolling plan, regression forecast",2024,336.811
+divert,9.5,"Rolling plan, regression forecast",2025,345.73
+divert,9.5,"Rolling plan, regression + NESO day-ahead",2022,122.946
+divert,9.5,"Rolling plan, regression + NESO day-ahead",2023,226.618
+divert,9.5,"Rolling plan, regression + NESO day-ahead",2024,338.379
+divert,9.5,"Rolling plan, regression + NESO day-ahead",2025,351.884
+divert,9.5,"Rolling plan, same forecast, expected unsold energy",2022,142.613
+divert,9.5,"Rolling plan, same forecast, expected unsold energy",2023,226.302
+divert,9.5,"Rolling plan, same forecast, expected unsold energy",2024,339.187
+divert,9.5,"Rolling plan, same forecast, expected unsold energy",2025,352.754
+divert,9.5,"Rolling plan, perfect 7-day forecast",2022,189.782
+divert,9.5,"Rolling plan, perfect 7-day forecast",2023,232.037
+divert,9.5,"Rolling plan, perfect 7-day forecast",2024,341.298
+divert,9.5,"Rolling plan, perfect 7-day forecast",2025,357.022
+divert,9.5,Full foresight (upper bound),2022,189.796
+divert,9.5,Full foresight (upper bound),2023,232.037
+divert,9.5,Full foresight (upper bound),2024,341.298
+divert,9.5,Full foresight (upper bound),2025,357.022
+divert,7.5,Never switch off,2022,58.4685
+divert,7.5,Never switch off,2023,127.392
+divert,7.5,Never switch off,2024,217.145
+divert,7.5,Never switch off,2025,241.771
+divert,7.5,Price rule on yesterday's price,2022,45.6201
+divert,7.5,Price rule on yesterday's price,2023,128.964
+divert,7.5,Price rule on yesterday's price,2024,217.337
+divert,7.5,Price rule on yesterday's price,2025,240.31
+divert,7.5,"Rolling plan, persistence forecast",2022,91.1535
+divert,7.5,"Rolling plan, persistence forecast",2023,128.906
+divert,7.5,"Rolling plan, persistence forecast",2024,217.337
+divert,7.5,"Rolling plan, persistence forecast",2025,240.59
+divert,7.5,"Rolling plan, regression forecast",2022,64.9828
+divert,7.5,"Rolling plan, regression forecast",2023,128.203
+divert,7.5,"Rolling plan, regression forecast",2024,214.271
+divert,7.5,"Rolling plan, regression forecast",2025,234.537
+divert,7.5,"Rolling plan, regression + NESO day-ahead",2022,66.3216
+divert,7.5,"Rolling plan, regression + NESO day-ahead",2023,126.514
+divert,7.5,"Rolling plan, regression + NESO day-ahead",2024,216.54
+divert,7.5,"Rolling plan, regression + NESO day-ahead",2025,237.148
+divert,7.5,"Rolling plan, same forecast, expected unsold energy",2022,84.2091
+divert,7.5,"Rolling plan, same forecast, expected unsold energy",2023,126.727
+divert,7.5,"Rolling plan, same forecast, expected unsold energy",2024,216.532
+divert,7.5,"Rolling plan, same forecast, expected unsold energy",2025,238.332
+divert,7.5,"Rolling plan, perfect 7-day forecast",2022,127.977
+divert,7.5,"Rolling plan, perfect 7-day forecast",2023,130.755
+divert,7.5,"Rolling plan, perfect 7-day forecast",2024,217.578
+divert,7.5,"Rolling plan, perfect 7-day forecast",2025,242.963
+divert,7.5,Full foresight (upper bound),2022,128.034
+divert,7.5,Full foresight (upper bound),2023,130.779
+divert,7.5,Full foresight (upper bound),2024,217.578
+divert,7.5,Full foresight (upper bound),2025,242.963
+divert,6,Never switch off,2022,2.93471
+divert,6,Never switch off,2023,58.339
+divert,6,Never switch off,2024,124.882
+divert,6,Never switch off,2025,157.427
+divert,6,Price rule on yesterday's price,2022,12.9318
+divert,6,Price rule on yesterday's price,2023,63.4329
+divert,6,Price rule on yesterday's price,2024,122.587
+divert,6,Price rule on yesterday's price,2025,148.348
+divert,6,"Rolling plan, persistence forecast",2022,49.5401
+divert,6,"Rolling plan, persistence forecast",2023,62.1945
+divert,6,"Rolling plan, persistence forecast",2024,122.532
+divert,6,"Rolling plan, persistence forecast",2025,151.393
+divert,6,"Rolling plan, regression forecast",2022,35.808
+divert,6,"Rolling plan, regression forecast",2023,56.3746
+divert,6,"Rolling plan, regression forecast",2024,119.641
+divert,6,"Rolling plan, regression forecast",2025,144.456
+divert,6,"Rolling plan, regression + NESO day-ahead",2022,39.56
+divert,6,"Rolling plan, regression + NESO day-ahead",2023,59.9553
+divert,6,"Rolling plan, regression + NESO day-ahead",2024,120.783
+divert,6,"Rolling plan, regression + NESO day-ahead",2025,139.477
+divert,6,"Rolling plan, same forecast, expected unsold energy",2022,49.7128
+divert,6,"Rolling plan, same forecast, expected unsold energy",2023,60.6447
+divert,6,"Rolling plan, same forecast, expected unsold energy",2024,123.312
+divert,6,"Rolling plan, same forecast, expected unsold energy",2025,145.789
+divert,6,"Rolling plan, perfect 7-day forecast",2022,89.114
+divert,6,"Rolling plan, perfect 7-day forecast",2023,69.5227
+divert,6,"Rolling plan, perfect 7-day forecast",2024,126.093
+divert,6,"Rolling plan, perfect 7-day forecast",2025,160.286
+divert,6,Full foresight (upper bound),2022,89.4822
+divert,6,Full foresight (upper bound),2023,69.5227
+divert,6,Full foresight (upper bound),2024,126.093
+divert,6,Full foresight (upper bound),2025,160.286

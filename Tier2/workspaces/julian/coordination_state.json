@@ -7,5 +7,5 @@
     "b615fa43d69f4b4293740470b6de1c7c"
   ],
   "tasks": [],
-  "handoff": "2026-11-22: julian-claude added claude/tier2-models/20261116-v1 (daily runnable models for Tier 2A and 2B on the v6 inputs). Personal research, not a group decision. Xpress branch never run. No message sent and no public file changed. See claude/SESSION_STATE.md."
+  "handoff": "2026-11-23: julian-claude added claude/tier2b-chronological/20261123-v1 (independent daily Tier 2B on the independent Tier 1 conventions: minimum run and minimum load for the electrolyser, battery carried across days, daily re-planning on forecasts incl. NESO day-ahead). Earlier, 2026-11-22: claude/tier2-models/20261116-v1 (daily runnable models for Tier 2A and 2B on the v6 inputs). Both are personal research, not a group decision. No Xpress branch has been run. No message sent and no public file changed. See claude/SESSION_STATE.md."
 }

@@ -1,0 +1,25 @@
+{
+  "_note": "Inputs of the Tier 2B study. The two NESO files are byte-identical copies of files already in this repository (built by mocry-codex from the NESO data portal); clean_daily.csv is this member's own cleaned daily table from the independent Tier 1 study.",
+  "clean_daily.csv": {
+    "source": "Tier1/workspaces/julian/claude/tier1-independent/20261116-v1/data/clean_daily.csv",
+    "sha256": "41ede5fab25cf5321445d8282762d90bf92997a24ed4121be81bc54e6c7ff63b",
+    "content": "Cleaned daily table built by t1_data.py from the five supplied CSVs; prices in 2023 pounds."
+  },
+  "neso_demand.csv": {
+    "source": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/features/neso_demand.csv",
+    "sha256": "e17dcfba9e0838b0f20e852622944116b3b1e295489350067cf8cb955d55f887",
+    "origin": "NESO 1-day-ahead demand forecast archive, https://www.neso.energy/data-portal/1-day-ahead-demand-forecast",
+    "content": "Row dated t: mean, minimum and maximum of the cardinal-point demand forecasts for day t+1 in the latest issue published before the end of day t (UTC)."
+  },
+  "neso_wind.csv": {
+    "source": "Tier2/workspaces/mocry/codex/work-history/20261113-v1/studies/tier2b-feature-engineering-20261110/features/neso_wind.csv",
+    "sha256": "6d1342e3497b02965f3f23038a2a11946bdd1e9092fbcca3f27e7e57fd1b7d6f",
+    "origin": "NESO day-ahead wind forecast, https://www.neso.energy/data-portal/day-ahead-wind-forecast",
+    "content": "Row dated t: mean forecast wind output and capacity for day t+1 issued before the end of day t (UTC). 175 of the 1,825 days in 2021-2025 carry the previous forecast forward and are flagged."
+  },
+  "t1_model.py (study folder)": {
+    "source": "Tier1/workspaces/julian/claude/tier1-independent/20261116-v1/t1_model.py",
+    "sha256": "05e021696a87f1dca0bcb36a2c8cc88e05f5a0201ca9434888a1d2228ba64bbd",
+    "content": "Unchanged copy of the Tier 1 model, used for parameters, daily energy accounting and the Tier 1 reference results."
+  }
+}

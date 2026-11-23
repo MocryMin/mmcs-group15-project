@@ -1,0 +1,9 @@
+label,rule,min_run,modules,electrolyser_MW,battery_MWh,operating_cash_m,annual_cost_m,h2_t_per_year,utilisation,unused_energy_used_share,h2_share_from_unused,diverted_GWh,imported_GWh,days_on_share,starts_per_year,forced_GWh,net_gain_m,capex_m,payback_years,best_nonzero_net_gain_m
+"strict, minimum run 1 d",strict,1,2,40,0,10.6038,9.8943,1200.99,0.191422,0.0835462,1,0,0,0.197536,55.5,0,0.709488,80,9.75159,
+"strict, minimum run 5 d",strict,5,0,0,,,,,,,,,,,,,0,,,-2.99634
+"topup, minimum run 1 d",topup,1,17,340,0,101.798,84.1016,15134.6,0.283794,0.542562,0.515337,364.193,45.8434,0.87865,240.5,0,17.6967,680,8.35399,
+"topup, minimum run 5 d",topup,5,17,340,0,101.365,84.1016,15251.4,0.285985,0.542564,0.511391,370.287,46.28,0.892792,163.667,0,17.2636,680,8.39867,
+"divert, minimum run 1 d",divert,1,33,660,0,291.958,163.256,51556.5,0.498024,0.830761,0.231636,2066.89,147.538,0.87865,1434,0,128.702,1320,5.23066,
+"divert, minimum run 5 d",divert,5,33,660,0,291.053,163.256,51710.8,0.499515,0.830771,0.230948,2074.53,148.52,0.903285,1029.83,0,127.797,1320,5.24949,
+"Tier 1 plan (surplus), free switching, own output only",tier1-surplus,1,2,40,,,,1200.99,,,,,,,,,0.709488,,,
+"Tier 1 plan (divert), free switching, own output only",tier1-divert,1,30,600,,,,46622.8,,,,,,,,,118.383,,,

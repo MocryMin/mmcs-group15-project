@@ -1,0 +1,14 @@
+rule,modules,case,battery_MWh,operating_cash_m,gross_value_per_MWh_year,annual_cost_per_MWh,break_even_capex_per_MWh,net_gain_change_m,solver_status,mip_gap
+strict,2,"battery size chosen by the model, electrolyser plan unchanged",0,3.80956,,27381.4,,0,optimal,0
+strict,2,"battery size chosen by the model, electrolyser plan re-optimised",-1.2581e-13,3.80956,,27381.4,,3.44486e-15,optimal,0
+strict,2,"battery forced to 100 MWh, electrolyser plan re-optimised",100,4.07414,2645.85,27381.4,23654.9,-2.47356,optimal,0
+strict,2,"battery forced to 500 MWh, electrolyser plan re-optimised",500,10.9198,14220.5,27381.4,127137,-6.58044,optimal,6.23518e-12
+strict,2,"battery forced to 2000 MWh, electrolyser plan re-optimised",2000,15.9587,6074.57,27381.4,54308.9,-42.6137,optimal,0
+topup,2,"battery size chosen by the model, electrolyser plan unchanged",-0,14.3598,,27381.4,,0,optimal,0
+topup,2,"battery forced to 100 MWh, electrolyser plan re-optimised",100,14.5744,2146.2,27381.4,19187.8,-2.52352,optimal,1.22789e-05
+topup,2,"battery forced to 500 MWh, electrolyser plan re-optimised",500,15.5266,2333.64,27381.4,20863.6,-12.5239,optimal,0.000197412
+topup,2,"battery forced to 2000 MWh, electrolyser plan re-optimised",2000,19.3868,2513.51,27381.4,22471.7,-49.7358,Time limit reached. (HiGHS Status 13: Ti,0.00102024
+divert,33,"battery size chosen by the model, electrolyser plan unchanged",-7.57912e-14,291.053,,27381.4,,2.07527e-15,optimal,0
+divert,33,"battery forced to 100 MWh, electrolyser plan re-optimised",100,291.484,4311.17,27381.4,38543.4,-2.30703,optimal,0.000192136
+divert,33,"battery forced to 500 MWh, electrolyser plan re-optimised",500,293.211,4315.24,27381.4,38579.8,-11.5331,optimal,0.000198496
+divert,33,"battery forced to 2000 MWh, electrolyser plan re-optimised",2000,299.426,4186.53,27381.4,37429.1,-46.3898,optimal,0.000199876
