@@ -1,0 +1,151 @@
+{
+  "calendar_input_columns": [
+    "mean_price_GBP_per_MWh",
+    "price_std_GBP_per_MWh",
+    "surplus_TWh",
+    "surplus_slots_pct"
+  ],
+  "calendar_input_rows": {
+    "2020": [
+      34.15962178157957,
+      18.503170473021097,
+      5.738917542378181,
+      29.030054644808743
+    ],
+    "2021": [
+      109.45031374581455,
+      84.63275702789069,
+      3.530836054429599,
+      20.884703196347033
+    ],
+    "2022": [
+      177.0534559576885,
+      94.31103857125137,
+      6.982912541139694,
+      33.869863013698634
+    ],
+    "2023": [
+      78.12614305800867,
+      34.31427350707331,
+      2.4792148344716964,
+      14.845890410958903
+    ],
+    "2024": [
+      57.91551057556504,
+      25.11376039000955,
+      2.922355490933653,
+      15.846994535519126
+    ],
+    "2025": [
+      62.851583579355385,
+      32.15514835828396,
+      9.333804789027724,
+      34.05251141552512
+    ]
+  },
+  "window_mean_mGBP_per_year": {
+    "2020--25": [
+      118.89889272018746,
+      6.070258038157349
+    ],
+    "2023--25": [
+      39.1189800282545,
+      -13.073917334349707
+    ],
+    "2024--25": [
+      19.531920225213838,
+      -12.84778815437868
+    ],
+    "2020--25 excluding 2022": [
+      65.09731035008284,
+      -8.013485728402959
+    ]
+  },
+  "finance_columns": [
+    "modules",
+    "MW",
+    "initial_capital_mGBP",
+    "mean_annual_net_mGBP",
+    "lowest_annual_net_mGBP",
+    "payback_year",
+    "npv_mGBP",
+    "break_even_GBP_per_kg"
+  ],
+  "finance_12_5_and_20_pct": [
+    [
+      7,
+      35.217,
+      51.43230568041073,
+      13.6792100350457,
+      9.81060338495163,
+      2.847195261685635,
+      210.28298635018436,
+      3.8198146465310927
+    ],
+    [
+      6,
+      30.186,
+      44.08483344035205,
+      13.459603221739565,
+      8.66583833691793,
+      2.560367493151541,
+      206.90709136746597,
+      3.847753663195015
+    ]
+  ],
+  "v7_review_followup": {
+    "brief_two_hour_annual_upkeep": {
+      "rate_fraction_of_capital": 0.025,
+      "capital_GBP_per_block": 51247000.0,
+      "one_block_net_increment_mGBP_per_year": {
+        "A": -0.23068937285661906,
+        "B": -2.5987070186696073
+      },
+      "source": "v6 evidence archive, reference/fixed_pair.csv and reference_day_A_integer.json"
+    },
+    "policy_A_joint_at_20_pct": {
+      "demand_served_pct": 90.16094469780816,
+      "delivered_MWh": 1370869993.22787,
+      "demand_MWh": 1520469863.99999,
+      "feasible_mGBP_per_year": 118.81820738907118,
+      "raw_fixed_capacity_LP_upper_mGBP_per_year": 118.8208047108362,
+      "tighter_fixed_capacity_MIP_dual_bound_mGBP_per_year": 118.8198214654476,
+      "tightened_global_upper_mGBP_per_year": 118.8198234654476,
+      "best_alternative_upper_mGBP_per_year": 118.811176577479,
+      "source": "v6.3 supplement A-45-6-rounded.npz and A-capacity-certificate.json, v6.2 half-hour panel, and A-45-6.json"
+    },
+    "policy_A_fixed_dispatch_two_price_sensitivity": {
+      "merchant_GBP_per_kg": 2.5,
+      "supported_GBP_per_kg": 7.7990270551508845,
+      "by_minimum_load_pct": {
+        "20": {
+          "share_of_electricity_input_from_surplus_pct": 34.149625103305226,
+          "break_even_supported_share_of_hydrogen_pct": 25.433983430692997
+        },
+        "12.5": {
+          "share_of_electricity_input_from_surplus_pct": 38.38956125866246,
+          "break_even_supported_share_of_hydrogen_pct": 24.906735383586607
+        }
+      },
+      "source": "A-zero-finance.json (v6.3 evidence) and A-7-finance.json (v6.2 evidence)"
+    },
+    "fixed_electrolyser_replay": {
+      "A_electrolyser_modules": 6,
+      "A_minimum_load_pct": 12.5,
+      "B_electrolyser_modules": 0,
+      "by_policy": {
+        "A": {
+          "one_block_total_GBP": 4651590.829056516,
+          "one_block_excluding_2021_22_GBP": -1542796.3870212538,
+          "eleven_block_total_GBP": 22987380.719163187
+        },
+        "B": {
+          "one_block_total_GBP": 7578701.679495462,
+          "one_block_excluding_2021_22_GBP": -1229766.493631361,
+          "eleven_block_total_GBP": 40969204.19359417
+        }
+      },
+      "source": "v6.3 supplement tier2b-commitment-125-20261124/capacity-summary.csv"
+    }
+  }
+}
