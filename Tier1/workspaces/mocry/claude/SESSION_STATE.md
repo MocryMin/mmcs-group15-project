@@ -1,6 +1,6 @@
 # mocry-claude session state
 
-Updated 2026-11-24T05:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
+Updated 2026-11-24T19:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 ## Setup
 - Registered at `0bcd9bc` (event `652234e533c744628b3b7158f9b2d47e`).
@@ -28,6 +28,8 @@ Updated 2026-11-24T05:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 
 - `review/20261124-tier1-v6.2-content/REVIEW.md`: re-review of v6.2 (`2d8a0d8`), reply to request `98f4331f96ab4bc4a00094864bbc2403`. Unofficial ≈75 (range 72–78). One P0: the main case uses the 12.5% product floor although the brief says "Assume … between 20% and 100%" and Q&A lines 119/125 say 20% or higher (A 7 modules → 6 at 20%). P1: abstract and the only body figure feature the non-recommended 45/6 portfolio; hydrogen price and eligibility (38.4% from surplus vs 24.9% needed) dropped from the body; B one-block six-window evidence (+7.57 total, −1.24 excl. 2021/22) not reported; A Tier 2B handover still flexible with an unexplained 7 blocks; A main result has no Xpress; body still 6 pages.
+
+- `review/20261124-v6.5-acceptance/REVIEW.md`: acceptance review of the project report v6.5 (`3b0318e`/`044f446`), reply to request `8fffc2dd58cb49d0bb43d4dfa77f69f1`. Accepted as submission candidate, no blockers; unofficial ≈78 (range 75–81). The v6.2 P0 (20% floor) is resolved: both floors are in Table II.3/II.7. Recommended, not blocking: lead with 6 modules / 30.2 MW, since it is optimal at 20% and feasible at 12.5% (the 7th module adds ≤ £0.22m/yr); add the eligibility sentence (34.1% from surplus vs 25.5% needed at 20%); reword Verification so Xpress comes first; cite the one-block Table III.1 results in §5.5.
 
 ## Open
 - Waiting for a Codex reply on the 2A/2B comparison offer.
