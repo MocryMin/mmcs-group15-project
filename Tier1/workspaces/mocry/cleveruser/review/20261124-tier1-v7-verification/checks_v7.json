@@ -1,0 +1,1281 @@
+{
+ "report_sha256": "2cb86889e93487dec92d54b372806d76c78acba1f9d4e3fcd473372b304b7b2f",
+ "checks": 117,
+ "failed": 7,
+ "failures": [
+  "pinned report.pdf hash equals the shipped report.pdf",
+  "third pinned input (storage exploration configuration.json) is shipped in the repository",
+  "residual identity: input - surplus capture equals the printed diverted GWh (20%)",
+  "residual identity: input - surplus capture equals the printed diverted GWh (12.5%)",
+  "Table III.1 does not print the 11-block column named in the text",
+  "Table II.3 still routes the 20% joint Served cell through the 12.5% macro",
+  "cover still carries no author names"
+ ],
+ "items": [
+  {
+   "name": "v7 README.md sha256 matches SHA256SUMS.txt",
+   "computed": "ff5ba41b809ebdc2",
+   "stated": "ff5ba41b809ebdc2",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 display-table-evidence.json sha256 matches SHA256SUMS.txt",
+   "computed": "dc25285805b2e53d",
+   "stated": "dc25285805b2e53d",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 renewable-attribution.csv sha256 matches SHA256SUMS.txt",
+   "computed": "143f7463f16f1969",
+   "stated": "143f7463f16f1969",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 report-source.zip sha256 matches SHA256SUMS.txt",
+   "computed": "27f4e4b08ec7c22b",
+   "stated": "27f4e4b08ec7c22b",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 report.pdf sha256 matches SHA256SUMS.txt",
+   "computed": "2cb86889e93487de",
+   "stated": "2cb86889e93487de",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 tier1-xpress-review-evidence.zip sha256 matches SHA256SUMS.txt",
+   "computed": "3cf6712f75ab2cc8",
+   "stated": "3cf6712f75ab2cc8",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "v7 xpress-comparison.csv sha256 matches SHA256SUMS.txt",
+   "computed": "54c4d6ed7d5d4492",
+   "stated": "54c4d6ed7d5d4492",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "SHA256SUMS lists exactly the seven shipped artefacts",
+   "computed": [
+    "README.md",
+    "display-table-evidence.json",
+    "renewable-attribution.csv",
+    "report-source.zip",
+    "report.pdf",
+    "tier1-xpress-review-evidence.zip",
+    "xpress-comparison.csv"
+   ],
+   "stated": [
+    "README.md",
+    "display-table-evidence.json",
+    "renewable-attribution.csv",
+    "report-source.zip",
+    "report.pdf",
+    "tier1-xpress-review-evidence.zip",
+    "xpress-comparison.csv"
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "no unlisted file in the v7 release directory",
+   "computed": [],
+   "stated": [],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "PDF page count",
+   "computed": 16,
+   "stated": 16,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "body pages numbered 1-6 only (page rule: 10 pages = body pages)",
+   "computed": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "stated": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "front matter and appendix page labels",
+   "computed": [
+    "i",
+    "ii",
+    "R1",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7"
+   ],
+   "stated": [
+    "i",
+    "ii",
+    "R1",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7"
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "README page claim (six body pages, 16 PDF pages) matches the PDF",
+   "computed": [
+    16,
+    6
+   ],
+   "stated": [
+    16,
+    6
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "source archive entries",
+   "computed": 15,
+   "stated": 15,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "source archive evidence/renewable-attribution.csv is byte-identical to the shipped renewable-attribution.csv",
+   "computed": "143f7463f16f1969",
+   "stated": "143f7463f16f1969",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "source archive evidence/xpress-comparison.csv is byte-identical to the shipped xpress-comparison.csv",
+   "computed": "54c4d6ed7d5d4492",
+   "stated": "54c4d6ed7d5d4492",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "evidence archive entries",
+   "computed": 34,
+   "stated": 34,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "evidence archive carries an internal hash manifest (v6.3 did)",
+   "computed": [],
+   "stated": [],
+   "ok": true,
+   "note": "the v6.3 supplement shipped MANIFEST.json with 33 sha256 rows; the v7 bundle relies on the outer zip digest only"
+  },
+  {
+   "name": "evidence archive comparison.csv is byte-identical to xpress-comparison.csv",
+   "computed": "54c4d6ed7d5d4492",
+   "stated": "54c4d6ed7d5d4492",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "evidence archive renewable-attribution.csv is byte-identical to the shipped copy",
+   "computed": "143f7463f16f1969",
+   "stated": "143f7463f16f1969",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "pinned half-hour panel hash equals the archived study panel",
+   "computed": "890ee68ae2014caa",
+   "stated": "890ee68ae2014caa",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "pinned report.pdf hash equals the shipped report.pdf",
+   "computed": "2cb86889e93487de",
+   "stated": "7ab31838e9c81245",
+   "ok": false,
+   "note": "input-hashes.json records 7ab31838... for report.pdf; the shipped file is 2cb86889... (the PDF itself is still bound correctly by SHA256SUMS.txt)"
+  },
+  {
+   "name": "third pinned input (storage exploration configuration.json) is shipped in the repository",
+   "computed": [],
+   "stated": "one path",
+   "ok": false,
+   "note": "not present anywhere in the published tree; only the outer hash remains as an unverifiable pin"
+  },
+  {
+   "name": "A 20% feasible annual net equals A-0.2-xpress.json",
+   "computed": 118.818207356,
+   "stated": 118.818207356,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.1 prints A 20% feasible 118.818207 and upper bound 118.820807",
+   "computed": [
+    118.818207,
+    118.820807
+   ],
+   "stated": [
+    "118.818207",
+    "118.820807"
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.1 prints A 12.5% feasible 118.898893 and upper bound 118.900891",
+   "computed": [
+    "118.898893",
+    "118.900891"
+   ],
+   "stated": [
+    "118.898893",
+    "118.900891"
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.1 prints B 6.07025804 / 6.07025820",
+   "computed": "6.07025804",
+   "stated": "6.07025804",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.1 wall-clock times match comparison.csv",
+   "computed": [
+    0.21,
+    76.8,
+    50.99,
+    86.33,
+    70.04
+   ],
+   "stated": [
+    0.21,
+    76.8,
+    50.99,
+    86.33,
+    70.04
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "20% nearest competing capacity upper bound is below the 45/6 feasible gain",
+   "computed": [
+    "118.811177",
+    true
+   ],
+   "stated": [
+    "118.811177",
+    true
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "12.5% nearest competing capacity upper bound is below the 45/6 feasible gain",
+   "computed": [
+    "118.890634",
+    true
+   ],
+   "stated": [
+    "118.890634",
+    true
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B eight-block upper bound 6.069620 is below the nine-block feasible gain",
+   "computed": [
+    "6.069620",
+    true
+   ],
+   "stated": [
+    "6.069620",
+    true
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§5.1 gap wording: £2,600/year in A and £0.17/year in B",
+   "computed": [
+    2599.4,
+    0.17
+   ],
+   "stated": [
+    2599.4,
+    0.17
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "nearest competing capacity at 20% is 46 blocks and six modules",
+   "computed": [
+    [
+     46,
+     6
+    ],
+    118.811175
+   ],
+   "stated": [
+    [
+     46,
+     6
+    ],
+    118.811175
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "nearest competing capacity at 12.5% is also 46 blocks and six modules",
+   "computed": [
+    46,
+    6
+   ],
+   "stated": [
+    46,
+    6
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "upper-bound ordering feasible < tightened global upper < raw LP upper",
+   "computed": [
+    118.818207,
+    118.819823,
+    118.820805
+   ],
+   "stated": [
+    "118.818207 < 118.819823 < 118.820805"
+   ],
+   "ok": true,
+   "note": "v6.5 printed 118.819823 as the global upper next to an upper_mGBP of 118.820805; v7 reports the raw LP bound in Table C.1 and the tightened bound in the text"
+  },
+  {
+   "name": "§C.2 tighter 20% bound 118.819824 matches the archived certificate",
+   "computed": "118.819823",
+   "stated": "118.819824",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Xpress upper bound in Table C.1 is above the archived raw LP bound by <= £2/year",
+   "computed": 2.06,
+   "stated": "<= 2 GBP/year",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "A-0.2-xpress annual mean reproduces the Xpress feasible gain",
+   "computed": 118.818207356,
+   "stated": 118.818207356,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "A-0.125-xpress annual mean reproduces the Xpress feasible gain",
+   "computed": 118.89889278,
+   "stated": 118.89889278,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B-0.2-xpress annual mean reproduces the Xpress feasible gain",
+   "computed": 6.070258038,
+   "stated": 6.070258038,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.4 window means recomputed from annual-results.csv (A, 12.5% basis)",
+   "computed": {
+    "2023--25": 39.12,
+    "2024--25": 19.53,
+    "2020--25 excluding 2022": 65.1
+   },
+   "stated": {
+    "2023--25": 39.12,
+    "2024--25": 19.53,
+    "2020--25 excluding 2022": 65.1
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.4 window means recomputed from annual-results.csv (B, 12.5% basis)",
+   "computed": {
+    "2023--25": -13.07,
+    "2024--25": -12.85,
+    "2020--25 excluding 2022": -8.01
+   },
+   "stated": {
+    "2023--25": -13.07,
+    "2024--25": -12.85,
+    "2020--25 excluding 2022": -8.01
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.4 2020--25 row equals the Xpress feasible gains",
+   "computed": [
+    118.9,
+    6.07
+   ],
+   "stated": [
+    118.9,
+    6.07
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Figure II.1 / Table II.4 basis is the 12.5% four-day fleet 45/6 and 9/0",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B negative in four of six years at 12.5%",
+   "computed": 4,
+   "stated": 4,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "half-hour panel shape 105,216 intervals / 2,192 days",
+   "computed": [
+    105216,
+    2192
+   ],
+   "stated": [
+    105216,
+    2192
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "renewable share of daily generation stays within [0,1]",
+   "computed": [
+    true,
+    true
+   ],
+   "stated": [
+    true,
+    true
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§I.3 all-fuel half-hour surplus 5,165 GWh/yr reproduced",
+   "computed": 5164.674,
+   "stated": 5165,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§I.3 daily-netted all-fuel surplus 2,276 GWh/yr reproduced",
+   "computed": 2276.157,
+   "stated": 2276,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§II.5.3 renewable surplus 2,432 GWh/yr reproduced",
+   "computed": 2432.234,
+   "stated": 2432,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily-net renewable surplus (Table C.3 two-hour row) is 1,138 GWh/yr",
+   "computed": 1137.7,
+   "stated": 1138,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily A schedule generation/demand reconciles to the panel",
+   "computed": [
+    3.831814865407068e-09,
+    3.5015546018257737e-10
+   ],
+   "stated": "<1e-7 GWh",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily B schedule generation/demand reconciles to the panel",
+   "computed": [
+    3.831814865407068e-09,
+    3.5015546018257737e-10
+   ],
+   "stated": "<1e-7 GWh",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B battery charge is flows[1] (560.8 GWh/yr)",
+   "computed": 560.8,
+   "stated": 560.8,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B delivered share 91.23% reproduced from flows[0] + flows[2]",
+   "computed": 91.23,
+   "stated": 91.23,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "flexible A replay timestamps align with the panel",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "flexible B replay timestamps align with the panel",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "shipped CSV renewable surplus equals the recomputation",
+   "computed": 2432.234265,
+   "stated": 2432.234265,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "renewable capture reproduced independently: Daily two-hour A 0.2",
+   "computed": 19.050612,
+   "stated": 19.050612,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Daily two-hour B 0.2",
+   "computed": 19.050612,
+   "stated": 19.050612,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Four-day electrolysis only A 0.2",
+   "computed": 28.113416,
+   "stated": 28.113416,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Four-day electrolysis only A 0.125",
+   "computed": 31.704615,
+   "stated": 31.704615,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Four-day joint A 0.2",
+   "computed": 882.556856,
+   "stated": 882.556856,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Four-day joint A 0.125",
+   "computed": 883.264494,
+   "stated": 883.264494,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Four-day joint B both",
+   "computed": 240.154695,
+   "stated": 240.154695,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Flexible joint A 0.125",
+   "computed": 828.518195,
+   "stated": 828.518195,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "renewable capture reproduced independently: Flexible joint B 0.125",
+   "computed": 278.466961,
+   "stated": 278.466961,
+   "ok": true,
+   "note": "recomputed from the frozen panel, the daily fuel table and the archived schedule"
+  },
+  {
+   "name": "Table C.3 captures match the CSV after independent recomputation",
+   "computed": {
+    "daily A": 19.051,
+    "daily B": 19.051,
+    "zero 0.2": 28.113,
+    "zero 0.125": 31.705,
+    "joint 0.2": 882.557,
+    "joint 0.125": 883.264,
+    "B": 240.155,
+    "flex A": 828.518,
+    "flex B": 278.467
+   },
+   "stated": {
+    "daily A": 19.050612,
+    "daily B": 19.050612,
+    "zero 0.2": 28.113416,
+    "zero 0.125": 31.704615,
+    "joint 0.2": 882.556856,
+    "joint 0.125": 883.264494,
+    "B": 240.154695,
+    "flex A": 828.518195,
+    "flex B": 278.466961
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.3 printed row (20% joint) reads 883 captured and 1,550 remaining",
+   "computed": [
+    883.0,
+    1550.0
+   ],
+   "stated": [
+    883,
+    1550
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.3 printed row (20% electrolysis only) reads 28 captured and 2,404 remaining",
+   "computed": [
+    28.0,
+    2404.0
+   ],
+   "stated": [
+    28,
+    2404
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.3 printed row (B nine blocks) reads 240 captured and 2,192 remaining",
+   "computed": [
+    240.0,
+    2192.0
+   ],
+   "stated": [
+    240,
+    2192
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.3 printed row (12.5% electrolysis only) reads 32 captured and 2,401 remaining",
+   "computed": [
+    32.0,
+    2401.0
+   ],
+   "stated": [
+    32,
+    2401
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.3 two-hour row reads 1,138 available / 19 captured / 1,119 remaining",
+   "computed": [
+    1138.0,
+    19.0,
+    1119.0
+   ],
+   "stated": [
+    1138.0,
+    19.0,
+    1119.0
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "discharge-to-hydrogen-first reduces capture by less than 0.3 GWh/yr at both floors",
+   "computed": {
+    "0.2": 0.264,
+    "0.125": 0.261
+   },
+   "stated": "<= 0.3",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§C.4 'diverts 125 GWh/year' matches the archived 20% finance split",
+   "computed": 125.4,
+   "stated": 125.4,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§C.4 'diverts 118 GWh/year' matches the archived 12.5% finance split",
+   "computed": 118.4,
+   "stated": 118.4,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "residual identity: input - surplus capture equals the printed diverted GWh (20%)",
+   "computed": 127.18,
+   "stated": 125.39,
+   "ok": false,
+   "note": "Table C.3's capture (63.23) and §C.4's diverted figure (125.39) come from two different optimal schedules of the same case: input 190.42 - 63.23 = 127.19, not 125.39 (1.8 GWh/yr, 1.4%)"
+  },
+  {
+   "name": "residual identity: input - surplus capture equals the printed diverted GWh (12.5%)",
+   "computed": 120.47,
+   "stated": 118.39,
+   "ok": false,
+   "note": "input 192.17 - 71.70 = 120.47 against the archived 118.39 (2.1 GWh/yr); the archived all-fuel capture is 65.03 (20%) and 73.77 (12.5%) versus 63.23 and 71.70 here"
+  },
+  {
+   "name": "§C.4 served-change 0.049 and 0.047 pp match the archived finance files",
+   "computed": [
+    0.049,
+    0.047
+   ],
+   "stated": [
+    0.049,
+    0.047
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily B input equals its all-fuel surplus capture (input met from daily surplus)",
+   "computed": [
+    42.74,
+    42.74
+   ],
+   "stated": "equal",
+   "ok": true,
+   "note": "daily A takes 182.1 GWh/yr of electricity and captures 42.74 GWh from surplus"
+  },
+  {
+   "name": "§5.5 'All-fuel surplus supplies 34%' matches the archived share",
+   "computed": 34.15,
+   "stated": 34.15,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§5.5 'about 25% of output earns £7.80/kg' matches the archived break-even share",
+   "computed": 25.43,
+   "stated": 25.43,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily two-hour block is 100 MW / 200 MWh with a 20-80% band",
+   "computed": [
+    100.0,
+    200.0,
+    0.2,
+    0.8
+   ],
+   "stated": [
+    100.0,
+    200.0,
+    0.2,
+    0.8
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily buyer cap 10,000 kg/day and £7.799/kg receipt",
+   "computed": [
+    10000,
+    7.799
+   ],
+   "stated": [
+    10000,
+    7.799
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily A/B 12.462039 and 2.180223 reproduced by both solvers",
+   "computed": [
+    12.462039,
+    2.180223,
+    12.462039,
+    2.180223
+   ],
+   "stated": [
+    12.462039,
+    2.180223,
+    12.462039,
+    2.180223
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "daily model size 13,155 columns / 24,113 rows matches the archived build",
+   "computed": [
+    13155,
+    24113
+   ],
+   "stated": [
+    13155,
+    24113
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "archived daily implementation applies eta*c_d <= W*b and (r+u)/eta <= W*b per period",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": "model.py, daily branch: m.rows(T,[(c,eta),(n,-b['usable'])],hi=0) and m.rows(T,[(r,1/eta),(bh,1/eta),(n,-b['usable'])],hi=0)"
+  },
+  {
+   "name": "archived daily implementation carries stock across days and pins s_T = 0",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "archived daily implementation enforces zero-or-minimum electrolyser input per day",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "archived daily implementation makes both equipment counts integer decisions",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": "model.py lines 82-83 build the battery and electrolyser count variables with integer=not relaxation"
+  },
+  {
+   "name": "report describes the daily model consistently (one window, cross-day stock, integer counts)",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "four-day commitment rule documented as II.8 and implemented in the commitment subproblem",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": "site_model.py day DP: 'each start followed by at least min_days days'; the MILP path is site_model.commit used by halfhour.py"
+  },
+  {
+   "name": "Table II.7 six modules at 20%: MW, capital, net, worst year, payback, NPV, break-even",
+   "computed": [
+    30.19,
+    44.08,
+    13.46,
+    8.67,
+    2.56,
+    206.91,
+    3.85
+   ],
+   "stated": [
+    30.19,
+    44.08,
+    13.46,
+    8.67,
+    2.56,
+    206.91,
+    3.85
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.7 seven modules at 12.5%: MW, capital, net, worst year, payback, NPV, break-even",
+   "computed": [
+    35.22,
+    51.43,
+    13.68,
+    9.81,
+    2.85,
+    210.28,
+    3.82
+   ],
+   "stated": [
+    35.22,
+    51.43,
+    13.68,
+    9.81,
+    2.85,
+    210.28,
+    3.82
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.5 half-hour fixed 0/1 block A and B",
+   "computed": [
+    13.42,
+    14.47,
+    3.78,
+    2.46
+   ],
+   "stated": [
+    13.42,
+    14.47,
+    3.78,
+    2.46
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.5 daily two-hour row 12.46 / 2.18",
+   "computed": [
+    12.46,
+    2.18
+   ],
+   "stated": [
+    12.46,
+    2.18
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.5 one-block increments +1.05 (A) and -1.32 (B)",
+   "computed": [
+    1.05,
+    -1.32
+   ],
+   "stated": [
+    1.05,
+    -1.32
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.5 upkeep sentence -0.23 (A) and -2.60 (B) at 2.5% of capital",
+   "computed": [
+    -0.231,
+    -2.599
+   ],
+   "stated": [
+    -0.23,
+    -2.6
+   ],
+   "ok": true,
+   "note": "v6.5 printed -0.24; the corrected value is -0.2307 and the v7 text prints -0.23"
+  },
+  {
+   "name": "display-table follow-up carries the same corrections",
+   "computed": [
+    -0.2307,
+    -2.5987
+   ],
+   "stated": [
+    -0.2307,
+    -2.5987
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.6 price sweep 2.50/5.00/7.80/9.50",
+   "computed": {
+    "2.5": [
+     0,
+     0.0
+    ],
+    "5.0": [
+     6,
+     4.52
+    ],
+    "7.8": [
+     7,
+     13.68
+    ],
+    "9.5": [
+     7,
+     19.6
+    ]
+   },
+   "stated": {
+    "2.5": [
+     0,
+     0.0
+    ],
+    "5.0": [
+     6,
+     4.52
+    ],
+    "7.8": [
+     7,
+     13.68
+    ],
+    "9.5": [
+     7,
+     19.6
+    ]
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table III.1 one-block totals 4.65 (A) and 7.58 (B)",
+   "computed": {
+    "A": 4.65,
+    "B": 7.58
+   },
+   "stated": {
+    "A": 4.65,
+    "B": 7.58
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table III.1 excluding-2021/22 totals -1.54 (A) and -1.23 (B)",
+   "computed": {
+    "A": -1.54,
+    "B": -1.23
+   },
+   "stated": {
+    "A": -1.54,
+    "B": -1.23
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "six-window sum is highest at 11 blocks for both policies (22.99 / 40.97)",
+   "computed": {
+    "A": [
+     11,
+     22.99
+    ],
+    "B": [
+     11,
+     40.97
+    ]
+   },
+   "stated": {
+    "A": [
+     11,
+     22.99
+    ],
+    "B": [
+     11,
+     40.97
+    ]
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table III.1 does not print the 11-block column named in the text",
+   "computed": [
+    "Window & 1 & 7 & 45 & 1 & 9 & 22"
+   ],
+   "stated": "expected 11 among the printed columns",
+   "ok": false,
+   "note": "the text says the six-window sum peaks at 11 blocks, but the table still prints 1, 7, 45 and 1, 9, 22"
+  },
+  {
+   "name": "nine-block increment over eight is £639/year",
+   "computed": 1652198.2,
+   "stated": 638.5,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "B hydrogen bound 116 days / £0.326m / £0.757m",
+   "computed": [
+    116,
+    0.326,
+    0.757
+   ],
+   "stated": [
+    116,
+    0.326,
+    0.757
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table C.2 2020--25 foresight/simple one-block gains A and B",
+   "computed": [
+    5.63,
+    1.63,
+    1.64,
+    1.5
+   ],
+   "stated": [
+    5.63,
+    1.63,
+    1.64,
+    1.5
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "§5.4 break-even quotes £213/kWh (A) and £130/kWh (B)",
+   "computed": [
+    212.7,
+    130.5
+   ],
+   "stated": [
+    212.7,
+    130.5
+   ],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "fixed replay table (display evidence) one-block and 11-block totals",
+   "computed": {
+    "A": [
+     4.65,
+     22.99
+    ],
+    "B": [
+     7.58,
+     40.97
+    ]
+   },
+   "stated": {
+    "A": [
+     4.65,
+     22.99
+    ],
+    "B": [
+     7.58,
+     40.97
+    ]
+   },
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "20% joint demand served 90.16% recomputed from the archived schedule",
+   "computed": 90.1609,
+   "stated": 90.1609,
+   "ok": true,
+   "note": "v6.5 reused one served macro for both joint rows without a 20% source; v7 records the 20% value"
+  },
+  {
+   "name": "Table II.3 A no-additions Served 89.66% equals min(G,D) with negative-price sales declined",
+   "computed": 89.6575,
+   "stated": 89.6575,
+   "ok": true,
+   "note": "A may decline negative-price sales (II.4.2): 1,942 half-hours and 3,483 GWh/yr of demand are deliberately left unserved, so the A and B Served columns are not directly comparable"
+  },
+  {
+   "name": "Table II.3 B no-additions Served 91.03% equals min(G,D)/D",
+   "computed": 91.0318,
+   "stated": 91.0318,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "Table II.3 still routes the 20% joint Served cell through the 12.5% macro",
+   "computed": true,
+   "stated": "own literal",
+   "ok": false,
+   "note": "cosmetic only: display-table-evidence.json now carries the 20% value and both round to 90.16%"
+  },
+  {
+   "name": "printed strings required by the v7 argument are all present",
+   "computed": [],
+   "stated": [],
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "figure I.1 axis label in the shipped source matches the printed label",
+   "computed": 1,
+   "stated": 1,
+   "ok": true,
+   "note": "v6.5 shipped a figure labelled 'Mean surplus (GWh)' while the script said GWh per half-hour; the two now agree"
+  },
+  {
+   "name": "abstract leads with the brief's 20% floor and six modules",
+   "computed": true,
+   "stated": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "name": "cover still carries no author names",
+   "computed": [
+    false,
+    true
+   ],
+   "stated": [
+    true,
+    true
+   ],
+   "ok": false,
+   "note": "cover shows title, course, group and date only; the report never names its authors"
+  }
+ ]
+}
