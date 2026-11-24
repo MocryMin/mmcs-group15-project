@@ -556,3 +556,46 @@ Follow-up on addendum 15: a second pass over the same archives added two P2 disc
 v6.1 note - A's four-day case has no capital/NPV/payback printed (Julian's `main_table.csv` gives
 44.08m and 2.56 yr), and the Tier 2B pooled sums hide the per-window signs (A -31.55 / -14.70 / +25.57;
 B -3.62 / +2.50 / +8.87 / +1.93). Score unchanged at 79.
+
+
+### addendum 16 - Tier 1 v6.2 复核（2026-11-24）
+
+对象：`20261124-v6.2/`（发布于 `2d8a0d8`，复核请求 `150e74b`）。五项哈希与 `SHA256SUMS.txt` 相符：report.pdf
+`4837c08d…f1ea`（155,073 B，15 页）、report-source.zip `20aacf7c…602a`、新证据包
+`tier1-site-evidence-v6.2.zip` `3a1a9377…abd3e`（132 条目，MANIFEST 131 条）、README `a800a3f6…512e`、
+REVIEW_RESPONSE `a6d24932…5453`。正文 6 页（引言 1 + Tier 1 四页 + Tier 2B 一页），符合户主 10 页=正文口径。
+
+结论：**188 项机器核对全部通过**（`review/20261124-tier1-v6.2-verification/{v6.2_checks.py,checks_v6.2.json,VERIFICATION_v6.2.md}`），
+未发现算错或回归；主案例改为「午夜启停 + 四天最小运行」后内部一致：A 45/6 £118.90m（可行 118.898893，
+上界 118.900891，46/6 上界 118.890634）、B 9/0 £6.07m（第 9 块比第 8 块多 £638.5/年，B 年电池成本 42.258m，
+9 块空库存证书 561=536 Xpress+25 HiGHS，gap £0.1667，最优替代 6.069620）、A 零电池 7 台 35.217 MW
+（£51.43m，回收 2.85 年，NPV 210.28，盈亏 £3.82/kg，118.394 GWh 让渡），`A-electrolysis-only.json` 的 6/8 台上界均低。
+Tier 2B 六窗：A −20.45/41.02/6.17/−2.78/2.31/2.03，Σ28.31，去 2021/22 −12.71；B −4.20/65.31/−3.95/−16.83/−9.45/8.57，
+Σ39.45，去 2021/22 −25.86，2/6 覆盖成本；1 块 0.82/1.27，45 块 −21.26，12 块 3.006，22 块 12.51 但其余五窗 −2.39。
+
+两条 P1（非 P0）：
+1) **主案例下限 12.5% 与题面 20%**。题面 p.3「Assume that the electrolyser can operate between 20% and 100%」，
+   参数表「20 MW 机组 4–20 MW」；问答 119/125 行同样说至少 20%。报告摘要写「the product's 12.5% minimum load」、
+   §II.2 也印了题面 20%，但正文没有把「改用供应商 12.5%」写成有论证的偏离，题面一致的 A 零电池情形只在附录 B.1
+   （六台 13.46）。若按题面，应为 Julian 的六台/30.2 MW/£44.08m/2.56 年/NPV≈206.9m。修法便宜（B.1 已有）。
+2) **题面要求主建模用 Xpress**（p.1「The main modelling work should be implemented in Python using the Xpress optimiser」）。
+   A 的四天定容与容量证书是 HiGHS；Xpress 用于 A 45/6 重放（551 块，4.3 s，gap 5.1）与 B 536 个子问题。
+   已在 §II.4/C.1 披露、REVIEW_RESPONSE 列为待办；建议全许可下用 Xpress 解一次 A 零电池 7 台（或 6 台）四天模型并入 C.1。
+
+P2/P3：①「With 2.5% upkeep, both increments are negative」易被读成与上一句 +£1.05m 矛盾（实际 brief-2h 的 fom=0，
+加 2.5%×51.247m=1.281m 后为 −0.24/−2.60；表 II.4 题注未说明）；此句 v6.1 已有，我上轮未记，现补记；
+②Figure II.1 panel B 的 2022 柱 76.49 超过顶部刻度 75（轴上限 88），均值标注在轴顶并与该柱相交；
+③§5.4「Battery .」多一空格；④封面无作者姓名（v6.1 遗留）；⑤A 的四天时序重放缺失（已披露）；
+⑥1,559 t/day 广域行（4,100/700 MW、46.46/3.23）两包都无文件，仍按作者自报；⑦一块电池六窗序列未印（B 一块六窗
++7.58，去 2021/22 −1.23，3/6 为正）；⑧「最后三天不得启机」只在文字中，(II.8) 未表达。
+
+分数 **81**（描述符 0.79–0.86，区间 78–84；v6.1 记 79）。说明：v6.1 的 79 未计上述两条 P1，故不可直接比较；
+内容增益（主规则落定、A 财务、容量证书、B 排氢上界、六窗交接、成本/求解器披露）大于 +2 的表面分。
+已渲染并目视第 1、3–8、13–15 页，正文无溢出。
+
+已读 claude 的 v6.2 复核（`1ef6a9e`）仅作线索：其 P0（12.5% vs 20%）我独立从题面与问答原文复核后降为 P1（两带
+都已印出、20% 情形在 B.1 存在，但建议的四天方案尺寸绑定在偏离参数上）；其「A 完全没用 Xpress」不准确（A 45/6
+重放用了 Xpress）。其 P1-1（头条/图给的是不买的组合）、P1-2（氢价表在附录）、P1-3（一块六窗/§III.3）我记为 P2。
+
+下一步：提交并推送本目录（含 checks_v6.2.json），回 Codex 请求 `86f6b289…`（reply_to `4441b781…`）；
+20% 与 Xpress 两条留给组内决定，不代组改稿。
