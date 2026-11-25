@@ -1,0 +1,1993 @@
+{
+ "target_pdf_sha256": "5d03f59e8bf29ba4627f95eca49dd8c329fe8bfd56ee3cb7e7c8381a430a125b",
+ "checks": [
+  {
+   "id": "artifact.pdf.sha256",
+   "group": "artifact",
+   "printed": "5d03f59e8bf29ba4627f95eca49dd8c329fe8bfd56ee3cb7e7c8381a430a125b",
+   "computed": "5d03f59e8bf29ba4627f95eca49dd8c329fe8bfd56ee3cb7e7c8381a430a125b",
+   "tol": 0,
+   "note": "",
+   "ok": true
+  },
+  {
+   "id": "artifact.zip.sha256",
+   "group": "artifact",
+   "printed": "abf99335961b6301ce0643528958cd498615e120e7093568f151919c7e21486c",
+   "computed": "abf99335961b6301ce0643528958cd498615e120e7093568f151919c7e21486c",
+   "tol": 0,
+   "note": "",
+   "ok": true
+  },
+  {
+   "id": "III.1 A forecast_plant 0 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 net",
+   "group": "III.1",
+   "printed": 11.95,
+   "computed": 11.945365,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 cost",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 16.49,
+   "computed": 16.48666,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 served_pp",
+   "group": "III.1",
+   "printed": 89.98,
+   "computed": 89.980228,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 unused",
+   "group": "III.1",
+   "printed": 7962.0,
+   "computed": 7962.035497,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 RE",
+   "group": "III.1",
+   "printed": 28.7,
+   "computed": 28.707645,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A forecast_plant 0 H2",
+   "group": "III.1",
+   "printed": 3.4,
+   "computed": 3.39886,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 net",
+   "group": "III.1",
+   "printed": 11.5,
+   "computed": 11.504843,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 20.74,
+   "computed": 20.743629,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 served_pp",
+   "group": "III.1",
+   "printed": 89.995,
+   "computed": 89.995072,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 unused",
+   "group": "III.1",
+   "printed": 7919.5,
+   "computed": 7919.48905,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 RE",
+   "group": "III.1",
+   "printed": 48.5,
+   "computed": 48.53822,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A reactive 1 H2",
+   "group": "III.1",
+   "printed": 3.4,
+   "computed": 3.398647,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 net",
+   "group": "III.1",
+   "printed": 12.72,
+   "computed": 12.717474,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 21.96,
+   "computed": 21.95626,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 served_pp",
+   "group": "III.1",
+   "printed": 89.989,
+   "computed": 89.98914,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 unused",
+   "group": "III.1",
+   "printed": 7927.1,
+   "computed": 7927.082048,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 RE",
+   "group": "III.1",
+   "printed": 44.7,
+   "computed": 44.724579,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 1 H2",
+   "group": "III.1",
+   "printed": 3.4,
+   "computed": 3.398436,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 net",
+   "group": "III.1",
+   "printed": 16.24,
+   "computed": 16.236332,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 25.48,
+   "computed": 25.475118,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 served_pp",
+   "group": "III.1",
+   "printed": 89.998,
+   "computed": 89.998193,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 unused",
+   "group": "III.1",
+   "printed": 7901.2,
+   "computed": 7901.162996,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 RE",
+   "group": "III.1",
+   "printed": 56.9,
+   "computed": 56.856631,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A twelve_hour_truth 1 H2",
+   "group": "III.1",
+   "printed": 3.4,
+   "computed": 3.398016,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 net",
+   "group": "III.1",
+   "printed": 15.75,
+   "computed": 15.751288,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 cost",
+   "group": "III.1",
+   "printed": 51.67,
+   "computed": 51.672396,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 71.96,
+   "computed": 71.96498,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 served_pp",
+   "group": "III.1",
+   "printed": 90.061,
+   "computed": 90.061128,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 unused",
+   "group": "III.1",
+   "printed": 7625.4,
+   "computed": 7625.447004,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 RE",
+   "group": "III.1",
+   "printed": 182.1,
+   "computed": 182.149057,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A selected 11 H2",
+   "group": "III.1",
+   "printed": 3.41,
+   "computed": 3.406324,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 net",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 cost",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 served_pp",
+   "group": "III.1",
+   "printed": 90.934,
+   "computed": 90.934454,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 unused",
+   "group": "III.1",
+   "printed": 5725.1,
+   "computed": 5725.075978,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 RE",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B direct 0 H2",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 net",
+   "group": "III.1",
+   "printed": 1.46,
+   "computed": 1.462077,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 6.16,
+   "computed": 6.159567,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 served_pp",
+   "group": "III.1",
+   "printed": 90.957,
+   "computed": 90.95662,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 unused",
+   "group": "III.1",
+   "printed": 5662.4,
+   "computed": 5662.407806,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 RE",
+   "group": "III.1",
+   "printed": 28.0,
+   "computed": 28.003489,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B previous_slot 1 H2",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 net",
+   "group": "III.1",
+   "printed": 1.26,
+   "computed": 1.263117,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 5.96,
+   "computed": 5.960607,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 served_pp",
+   "group": "III.1",
+   "printed": 90.956,
+   "computed": 90.956393,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 unused",
+   "group": "III.1",
+   "printed": 5663.1,
+   "computed": 5663.051728,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 RE",
+   "group": "III.1",
+   "printed": 27.8,
+   "computed": 27.788286,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 1 H2",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 net",
+   "group": "III.1",
+   "printed": 2.13,
+   "computed": 2.128495,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 cost",
+   "group": "III.1",
+   "printed": 4.7,
+   "computed": 4.697491,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 6.83,
+   "computed": 6.825986,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 served_pp",
+   "group": "III.1",
+   "printed": 90.961,
+   "computed": 90.960504,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 unused",
+   "group": "III.1",
+   "printed": 5651.4,
+   "computed": 5651.432191,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 RE",
+   "group": "III.1",
+   "printed": 32.9,
+   "computed": 32.908531,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B truth_gate 1 H2",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 net",
+   "group": "III.1",
+   "printed": 6.57,
+   "computed": 6.57441,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 cost",
+   "group": "III.1",
+   "printed": 42.28,
+   "computed": 42.277415,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 gross=net+plant+batt",
+   "group": "III.1",
+   "printed": 48.85,
+   "computed": 48.851825,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 served_pp",
+   "group": "III.1",
+   "printed": 91.112,
+   "computed": 91.112204,
+   "tol": 0.0005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 unused",
+   "group": "III.1",
+   "printed": 5222.4,
+   "computed": 5222.40548,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 RE",
+   "group": "III.1",
+   "printed": 226.3,
+   "computed": 226.304966,
+   "tol": 0.05,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 B selected 9 H2",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A plant_oracle net",
+   "group": "III.1",
+   "printed": 51.4,
+   "computed": 51.399287,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A plant_oracle rows=6",
+   "group": "III.1",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A plant_oracle gross",
+   "group": "III.1",
+   "printed": 55.94,
+   "computed": 55.940582,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.1 A plant_oracle oracle_gap<1",
+   "group": "III.1",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 1.0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 capacity grid rows",
+   "group": "III.2",
+   "printed": 552,
+   "computed": 552,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 capacity grid = 46x6x2",
+   "group": "III.2",
+   "printed": 552,
+   "computed": 552,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2021",
+   "group": "III.2",
+   "printed": 14.47,
+   "computed": 14.467368,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2022",
+   "group": "III.2",
+   "printed": 5.32,
+   "computed": 5.324297,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2023",
+   "group": "III.2",
+   "printed": 7.74,
+   "computed": 7.741622,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2024",
+   "group": "III.2",
+   "printed": 14.81,
+   "computed": 14.806161,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2025",
+   "group": "III.2",
+   "printed": 13.97,
+   "computed": 13.971639,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant 2026",
+   "group": "III.2",
+   "printed": 15.36,
+   "computed": 15.3611,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2021",
+   "group": "III.2",
+   "printed": 27.57,
+   "computed": 27.573732,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2022",
+   "group": "III.2",
+   "printed": 27.32,
+   "computed": 27.318716,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2023",
+   "group": "III.2",
+   "printed": 54.73,
+   "computed": 54.734554,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2024",
+   "group": "III.2",
+   "printed": 80.72,
+   "computed": 80.715193,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2025",
+   "group": "III.2",
+   "printed": 49.71,
+   "computed": 49.714433,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle 2026",
+   "group": "III.2",
+   "printed": 68.34,
+   "computed": 68.339093,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2021",
+   "group": "III.2",
+   "printed": -2.99,
+   "computed": -2.9861,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2022",
+   "group": "III.2",
+   "printed": 6.19,
+   "computed": 6.186461,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2023",
+   "group": "III.2",
+   "printed": 0.96,
+   "computed": 0.956623,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2024",
+   "group": "III.2",
+   "printed": -0.19,
+   "computed": -0.186861,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2025",
+   "group": "III.2",
+   "printed": 0.49,
+   "computed": 0.493289,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +1 2026",
+   "group": "III.2",
+   "printed": 0.17,
+   "computed": 0.169243,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2021",
+   "group": "III.2",
+   "printed": -34.16,
+   "computed": -34.157271,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2022",
+   "group": "III.2",
+   "printed": 55.38,
+   "computed": 55.377869,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2023",
+   "group": "III.2",
+   "printed": 5.94,
+   "computed": 5.940597,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2024",
+   "group": "III.2",
+   "printed": -6.05,
+   "computed": -6.054851,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2025",
+   "group": "III.2",
+   "printed": 1.34,
+   "computed": 1.339086,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A +11 2026",
+   "group": "III.2",
+   "printed": 0.39,
+   "computed": 0.390113,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2021",
+   "group": "III.2",
+   "printed": -0.11,
+   "computed": -0.10524,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2022",
+   "group": "III.2",
+   "printed": 8.81,
+   "computed": 8.808468,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2023",
+   "group": "III.2",
+   "printed": 0.03,
+   "computed": 0.028141,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2024",
+   "group": "III.2",
+   "printed": -1.6,
+   "computed": -1.595888,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2025",
+   "group": "III.2",
+   "printed": -0.83,
+   "computed": -0.828438,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 1 2026",
+   "group": "III.2",
+   "printed": 1.27,
+   "computed": 1.271659,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2021",
+   "group": "III.2",
+   "printed": -6.08,
+   "computed": -6.08223,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2022",
+   "group": "III.2",
+   "printed": 76.59,
+   "computed": 76.589489,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2023",
+   "group": "III.2",
+   "printed": -6.06,
+   "computed": -6.056912,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2024",
+   "group": "III.2",
+   "printed": -21.12,
+   "computed": -21.123286,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2025",
+   "group": "III.2",
+   "printed": -12.04,
+   "computed": -12.041962,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 B 11 2026",
+   "group": "III.2",
+   "printed": 9.68,
+   "computed": 9.684106,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A plant mean",
+   "group": "III.2",
+   "printed": 11.95,
+   "computed": 11.945365,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 A oracle mean",
+   "group": "III.2",
+   "printed": 51.4,
+   "computed": 51.399287,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 mean A +1",
+   "group": "III.2",
+   "printed": 0.77,
+   "computed": 0.772109,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 mean A +11",
+   "group": "III.2",
+   "printed": 3.81,
+   "computed": 3.805924,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 mean B +1",
+   "group": "III.2",
+   "printed": 1.26,
+   "computed": 1.263117,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.2 mean B +11",
+   "group": "III.2",
+   "printed": 6.83,
+   "computed": 6.828201,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A six-window argmax blocks",
+   "group": "selection",
+   "printed": 11,
+   "computed": 11,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A reference-window argmax blocks",
+   "group": "selection",
+   "printed": 7,
+   "computed": 7,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A reference-window peak value",
+   "group": "selection",
+   "printed": 0.69,
+   "computed": 0.687894,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A all positive counts < 0 excluding 2021/22",
+   "group": "selection",
+   "printed": -1.0,
+   "computed": -1.0,
+   "tol": 0,
+   "ok": true,
+   "note": "(-1 = every positive count has a negative five-window mean)"
+  },
+  {
+   "id": "B six-window argmax blocks",
+   "group": "selection",
+   "printed": 11,
+   "computed": 11,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B reference-window argmax blocks",
+   "group": "selection",
+   "printed": 22,
+   "computed": 22,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B reference-window peak value",
+   "group": "selection",
+   "printed": 12.51,
+   "computed": 12.509826,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B all positive counts < 0 excluding 2021/22",
+   "group": "selection",
+   "printed": -1.0,
+   "computed": -1.0,
+   "tol": 0,
+   "ok": true,
+   "note": "(-1 = every positive count has a negative five-window mean)"
+  },
+  {
+   "id": "A single-block portfolio mean",
+   "group": "selection",
+   "printed": 12.72,
+   "computed": 12.717474,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A single-block lowest portfolio window",
+   "group": "selection",
+   "printed": 8.7,
+   "computed": 8.698245,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A single-block shock-year gain",
+   "group": "selection",
+   "printed": 6.19,
+   "computed": 6.186461,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A single-block loss elsewhere",
+   "group": "selection",
+   "printed": -1.55,
+   "computed": -1.553806,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A weekday rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A weekday price",
+   "group": "III.5",
+   "printed": 42.7,
+   "computed": 42.696542,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A weekday gen",
+   "group": "III.5",
+   "printed": 1453,
+   "computed": 1452.671552,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A weekday load",
+   "group": "III.5",
+   "printed": 1063,
+   "computed": 1063.44897,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A weekday net",
+   "group": "III.5",
+   "printed": 0.41,
+   "computed": 0.413946,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A uncorrected rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A uncorrected price",
+   "group": "III.5",
+   "printed": 26.2,
+   "computed": 26.198579,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A uncorrected gen",
+   "group": "III.5",
+   "printed": 929,
+   "computed": 928.712765,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A uncorrected load",
+   "group": "III.5",
+   "printed": 446,
+   "computed": 446.499084,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A uncorrected net",
+   "group": "III.5",
+   "printed": 0.71,
+   "computed": 0.714382,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A quote_mix rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A quote_mix price",
+   "group": "III.5",
+   "printed": 25.96,
+   "computed": 25.961039,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A quote_mix gen",
+   "group": "III.5",
+   "printed": 929,
+   "computed": 928.712765,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A quote_mix load",
+   "group": "III.5",
+   "printed": 446,
+   "computed": 446.499084,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A quote_mix net",
+   "group": "III.5",
+   "printed": 0.76,
+   "computed": 0.757079,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A selected rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A selected price",
+   "group": "III.5",
+   "printed": 25.16,
+   "computed": 25.164587,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A selected gen",
+   "group": "III.5",
+   "printed": 929,
+   "computed": 928.712765,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A selected load",
+   "group": "III.5",
+   "printed": 446,
+   "computed": 446.499084,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A selected net",
+   "group": "III.5",
+   "printed": 0.77,
+   "computed": 0.772109,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A twelve_hour_truth rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A twelve_hour_truth price",
+   "group": "III.5",
+   "printed": 0.0,
+   "computed": 0.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A twelve_hour_truth gen",
+   "group": "III.5",
+   "printed": 0,
+   "computed": 0.0,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A twelve_hour_truth load",
+   "group": "III.5",
+   "printed": 0,
+   "computed": 0.0,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 A twelve_hour_truth net",
+   "group": "III.5",
+   "printed": 4.29,
+   "computed": 4.290967,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B previous_slot rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B previous_slot sign_pct",
+   "group": "III.5",
+   "printed": 94.81,
+   "computed": 94.81435,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B previous_slot net",
+   "group": "III.5",
+   "printed": 1.46,
+   "computed": 1.462077,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B selected rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B selected sign_pct",
+   "group": "III.5",
+   "printed": 95.09,
+   "computed": 95.094963,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B selected net",
+   "group": "III.5",
+   "printed": 1.26,
+   "computed": 1.263117,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B truth_gate rows=6",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B truth_gate sign_pct",
+   "group": "III.5",
+   "printed": 100.0,
+   "computed": 100.0,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.5 B truth_gate net",
+   "group": "III.5",
+   "printed": 2.13,
+   "computed": 2.128495,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B simple rule beats classifier in all six one-block replays",
+   "group": "III.5",
+   "printed": 6,
+   "computed": 6,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B simple-minus-classifier gap",
+   "group": "III.5",
+   "printed": 0.2,
+   "computed": 0.19896,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output rows=1",
+   "group": "III.3",
+   "printed": 1,
+   "computed": 1,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output RE",
+   "group": "III.3",
+   "printed": 104,
+   "computed": 103.811465,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output load",
+   "group": "III.3",
+   "printed": 766,
+   "computed": 765.586286,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output price",
+   "group": "III.3",
+   "printed": 80,
+   "computed": 80.24999,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output A_k",
+   "group": "III.3",
+   "printed": -28,
+   "computed": -28.474114,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 Low renewable output B_k",
+   "group": "III.3",
+   "printed": -90,
+   "computed": -90.047742,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output rows=1",
+   "group": "III.3",
+   "printed": 1,
+   "computed": 1,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output RE",
+   "group": "III.3",
+   "printed": 547,
+   "computed": 547.000401,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output load",
+   "group": "III.3",
+   "printed": 839,
+   "computed": 838.827429,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output price",
+   "group": "III.3",
+   "printed": 75,
+   "computed": 75.351442,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output A_k",
+   "group": "III.3",
+   "printed": -51,
+   "computed": -50.720707,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High renewable output B_k",
+   "group": "III.3",
+   "printed": 10,
+   "computed": 10.255978,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand rows=1",
+   "group": "III.3",
+   "printed": 1,
+   "computed": 1,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand RE",
+   "group": "III.3",
+   "printed": 384,
+   "computed": 383.807423,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand load",
+   "group": "III.3",
+   "printed": 933,
+   "computed": 932.691427,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand price",
+   "group": "III.3",
+   "printed": 84,
+   "computed": 83.719176,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand A_k",
+   "group": "III.3",
+   "printed": -8,
+   "computed": -8.065381,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High demand B_k",
+   "group": "III.3",
+   "printed": 20,
+   "computed": 20.247405,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price rows=1",
+   "group": "III.3",
+   "printed": 1,
+   "computed": 1,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price RE",
+   "group": "III.3",
+   "printed": 147,
+   "computed": 146.719364,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price load",
+   "group": "III.3",
+   "printed": 637,
+   "computed": 636.833143,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price price",
+   "group": "III.3",
+   "printed": 436,
+   "computed": 436.431252,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price A_k",
+   "group": "III.3",
+   "printed": -134,
+   "computed": -133.837292,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.3 High price B_k",
+   "group": "III.3",
+   "printed": 773,
+   "computed": 773.232475,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 break-even A All six windows",
+   "group": "III.4",
+   "printed": 113,
+   "computed": 112.622822,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 break-even A Without 2021/22",
+   "group": "III.4",
+   "printed": 90,
+   "computed": 90.32636,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 break-even B All six windows",
+   "group": "III.4",
+   "printed": 123,
+   "computed": 122.733009,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 break-even B Without 2021/22",
+   "group": "III.4",
+   "printed": 92,
+   "computed": 91.660676,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 base cost \u00a397/kWh implied by the same conversion",
+   "group": "III.4",
+   "printed": 97,
+   "computed": 96.724562,
+   "tol": 0.51,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 per-block annual cost \u00a34.695m",
+   "group": "III.4",
+   "printed": 4.7,
+   "computed": 4.695347,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "III.4 hydrogen break-even \u00a34.28/kg",
+   "group": "III.4",
+   "printed": 4.28,
+   "computed": 4.285479,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A round-trip discharge/charge = 0.90",
+   "group": "mechanics",
+   "printed": 0.9,
+   "computed": 0.899823,
+   "tol": 0.002,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "B round-trip discharge/charge = 0.90",
+   "group": "mechanics",
+   "printed": 0.9,
+   "computed": 0.899633,
+   "tol": 0.002,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "A cycles per block-day (informational)",
+   "group": "mechanics",
+   "printed": 0.8414,
+   "computed": 0.841393,
+   "tol": 0.0001,
+   "ok": true,
+   "note": "printed nowhere; cap is 1/day"
+  },
+  {
+   "id": "A cycles/day <= 1",
+   "group": "mechanics",
+   "printed": 1.0,
+   "computed": 0.8414,
+   "tol": 0,
+   "note": "",
+   "ok": true
+  },
+  {
+   "id": "daily net sum = six-window table sum (A, 1 block)",
+   "group": "mechanics",
+   "printed": 4.632655469285368,
+   "computed": 4.632655,
+   "tol": 0.006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "daily rows = six 365/366-day windows",
+   "group": "mechanics",
+   "printed": 2191,
+   "computed": 2191,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "audit sampled solutions",
+   "group": "audit",
+   "printed": 192,
+   "computed": 192,
+   "tol": 0,
+   "ok": true,
+   "note": ""
+  }
+ ],
+ "summary": {
+  "artifact": {
+   "passed": 2,
+   "total": 2
+  },
+  "III.1": {
+   "passed": 84,
+   "total": 84
+  },
+  "III.2": {
+   "passed": 44,
+   "total": 44
+  },
+  "selection": {
+   "passed": 12,
+   "total": 12
+  },
+  "III.5": {
+   "passed": 36,
+   "total": 36
+  },
+  "III.3": {
+   "passed": 24,
+   "total": 24
+  },
+  "III.4": {
+   "passed": 7,
+   "total": 7
+  },
+  "mechanics": {
+   "passed": 6,
+   "total": 6
+  },
+  "audit": {
+   "passed": 1,
+   "total": 1
+  }
+ },
+ "audit": {
+  "rows": 192,
+  "order_mismatches": 9,
+  "status_not_6": 2,
+  "max_abs_gap_gbp": 295.0632252589712
+ }
+}
