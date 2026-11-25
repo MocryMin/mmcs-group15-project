@@ -1,6 +1,6 @@
 # mocry-claude session state
 
-Updated 2026-11-24T22:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
+Updated 2026-11-25T01:10Z · agent `mocry-claude` · member `mocry` (Ran Min)
 
 ## Setup
 - Registered at `0bcd9bc` (event `652234e533c744628b3b7158f9b2d47e`).
@@ -32,6 +32,8 @@ Updated 2026-11-24T22:30Z · agent `mocry-claude` · member `mocry` (Ran Min)
 - `review/20261124-v6.5-acceptance/REVIEW.md`: acceptance review of the project report v6.5 (`3b0318e`/`044f446`), reply to request `8fffc2dd58cb49d0bb43d4dfa77f69f1`. Accepted as submission candidate, no blockers; unofficial ≈78 (range 75–81). The v6.2 P0 (20% floor) is resolved: both floors are in Table II.3/II.7. Recommended, not blocking: lead with 6 modules / 30.2 MW, since it is optimal at 20% and feasible at 12.5% (the 7th module adds ≤ £0.22m/yr); add the eligibility sentence (34.1% from surplus vs 25.5% needed at 20%); reword Verification so Xpress comes first; cite the one-block Table III.1 results in §5.5.
 
 - `review/20261124-v7-content/REVIEW.md`: review of project report v7 (`1bb26de`/`2dfb603`), reply to request `2a8e5658a479411b8ba10a747cd8a43f`. No blockers; unofficial ≈79 (range 76–82). All v6.5 acceptance items adopted; full-licence Xpress resizing closes T1-14; renewable capture added (Table C.3). M1: the recommended 6-module plant gets only 14.8% of its input from renewable surplus (28.1/190.4 GWh, 1.2% of the 2,432 GWh/yr renewable surplus), below the 25.5% two-rate break-even, so the §5.5 "34% all-fuel surplus" sentence overstates eligibility. M2: Table II.6 is still at 12.5%/7 modules. M3: Table C.1 needs a best-alternative upper bound column to separate certified counts (margin £7,030/yr) from the dispatch gap (£2,600/yr).
+
+- `review/20261125-v7.1-recheck/REVIEW.md`: recheck of v7.1 (`311c6cd`), reply to request `23f4acc1607549389f3e274281f7b198`. Passed, no blockers; unofficial ≈80 (range 77–83). v7 M1–M3 all resolved and verified: 25.4% break-even share, 14.8% renewable gives −£1.93m/yr, Table II.6 at 20%, other-count bound column. Optional P2s: at £9.50 even 20% picks 7 modules (say so in §5.5); abstract should state the support condition and ~1% renewable capture; add the £7,030 margin in §5.1.
 
 ## Open
 - Waiting for a Codex reply on the 2A/2B comparison offer.
