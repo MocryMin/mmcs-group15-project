@@ -1,0 +1,1246 @@
+{
+ "total": 248,
+ "passed": 248,
+ "checks": [
+  {
+   "check": "sha256 tier2b-report-v1.pdf",
+   "ok": true,
+   "detail": "e09c3e62c37c"
+  },
+  {
+   "check": "sha256 project-report-with-tier2b-v1.pdf",
+   "ok": true,
+   "detail": "c7f76f6a6852"
+  },
+  {
+   "check": "sha256 tier2b-report-v1-review.zip",
+   "ok": true,
+   "detail": "a1b85d40d8a5"
+  },
+  {
+   "check": "sha256 tier2b-report-v1-source-and-evidence.zip",
+   "ok": true,
+   "detail": "d5b076fcb563"
+  },
+  {
+   "check": "review zip internal SHA256SUMS",
+   "ok": true,
+   "detail": "55 entries; problems []"
+  },
+  {
+   "check": "package file present: build_evidence.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: continuous.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: replay.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: site_model.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: site_replay.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: solver_adapter.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: xpress_replay.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: audit_dispatch.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: make_exhibits.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: tier2.tex",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: tier2b-report-v1.tex",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: parameters.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "package file present: tier2b-equipment.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "chapter pdf = 5 pages",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "check": "chapter printed page numbers 6-10",
+   "ok": true,
+   "detail": "['6', '7', '8', '9', '10']"
+  },
+  {
+   "check": "merged body pages = 10",
+   "ok": true,
+   "detail": "['i', 'ii', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'R1', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8']"
+  },
+  {
+   "check": "merged chapter occupies printed 6-10",
+   "ok": true,
+   "detail": "['6', '7', '8', '9', '10']"
+  },
+  {
+   "check": "merged front matter = i, ii",
+   "ok": true,
+   "detail": "['i', 'ii']"
+  },
+  {
+   "check": "merged: no duplicate table label 'Table III.1'",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "check": "merged: 12.5% table relabelled II.4",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "merged: appendix C labels both floors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "2x2 all four combinations present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "2x2 six windows each",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "A plant forecast 11.95",
+   "ok": true,
+   "detail": "11.94536452336366"
+  },
+  {
+   "check": "A plant oracle 12.93",
+   "ok": true,
+   "detail": "12.925614251515912"
+  },
+  {
+   "check": "A forecast commitment, oracle allocation 12.80",
+   "ok": true,
+   "detail": "12.795284556454634"
+  },
+  {
+   "check": "A oracle commitment, forecast allocation 12.11",
+   "ok": true,
+   "detail": "12.10849149770737"
+  },
+  {
+   "check": "attribution allocation 0.83",
+   "ok": true,
+   "detail": "0.8335213934497583"
+  },
+  {
+   "check": "attribution commitment 0.15",
+   "ok": true,
+   "detail": "0.1467283347024937"
+  },
+  {
+   "check": "attributions add to the total gap",
+   "ok": true,
+   "detail": "0.9802 vs 0.9802"
+  },
+  {
+   "check": "92.4% retention",
+   "ok": true,
+   "detail": "92.41622325192562"
+  },
+  {
+   "check": "market-information value 38.47/window",
+   "ok": true,
+   "detail": "38.473672469962594"
+  },
+  {
+   "check": "51.40 (preview) = 12.93 + 38.47",
+   "ok": true,
+   "detail": "51.399286721478504"
+  },
+  {
+   "check": "oracle gap <= 0.05 each window",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "hydrogen 3.40 kt/window",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 gross",
+   "ok": true,
+   "detail": "16.486660222395813"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 batt cost",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 net",
+   "ok": true,
+   "detail": "11.945364523363656"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 served %",
+   "ok": true,
+   "detail": "89.98022798469115"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 unused GWh",
+   "ok": true,
+   "detail": "7962.035496978909"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 RE GWh",
+   "ok": true,
+   "detail": "28.707645404417757"
+  },
+  {
+   "check": "TIII.1 A forecast_plant b=0 H2 kt",
+   "ok": true,
+   "detail": "3.3988600812555902"
+  },
+  {
+   "check": "TIII.1 A selected b=1 gross",
+   "ok": true,
+   "detail": "21.956260015190125"
+  },
+  {
+   "check": "TIII.1 A selected b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 A selected b=1 net",
+   "ok": true,
+   "detail": "12.717473768244549"
+  },
+  {
+   "check": "TIII.1 A selected b=1 served %",
+   "ok": true,
+   "detail": "89.98913953705876"
+  },
+  {
+   "check": "TIII.1 A selected b=1 unused GWh",
+   "ok": true,
+   "detail": "7927.082048235505"
+  },
+  {
+   "check": "TIII.1 A selected b=1 RE GWh",
+   "ok": true,
+   "detail": "44.724578510540056"
+  },
+  {
+   "check": "TIII.1 A selected b=1 H2 kt",
+   "ok": true,
+   "detail": "3.398435965234931"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 gross",
+   "ok": true,
+   "detail": "20.743628893615934"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 net",
+   "ok": true,
+   "detail": "11.50484264667036"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 served %",
+   "ok": true,
+   "detail": "89.99507202448405"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 unused GWh",
+   "ok": true,
+   "detail": "7919.489049977243"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 RE GWh",
+   "ok": true,
+   "detail": "48.53821952737206"
+  },
+  {
+   "check": "TIII.1 A reactive b=1 H2 kt",
+   "ok": true,
+   "detail": "3.3986467588839813"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 gross",
+   "ok": true,
+   "detail": "25.475118209344572"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 net",
+   "ok": true,
+   "detail": "16.236331962398996"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 served %",
+   "ok": true,
+   "detail": "89.99819320676104"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 unused GWh",
+   "ok": true,
+   "detail": "7901.162995808165"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 RE GWh",
+   "ok": true,
+   "detail": "56.85663142074455"
+  },
+  {
+   "check": "TIII.1 A twelve_hour_truth b=1 H2 kt",
+   "ok": true,
+   "detail": "3.398016021386088"
+  },
+  {
+   "check": "TIII.1 A selected b=11 gross",
+   "ok": true,
+   "detail": "71.96497995966203"
+  },
+  {
+   "check": "TIII.1 A selected b=11 batt cost",
+   "ok": true,
+   "detail": "51.67239602704759"
+  },
+  {
+   "check": "TIII.1 A selected b=11 net",
+   "ok": true,
+   "detail": "15.751288233582278"
+  },
+  {
+   "check": "TIII.1 A selected b=11 served %",
+   "ok": true,
+   "detail": "90.06112773240744"
+  },
+  {
+   "check": "TIII.1 A selected b=11 unused GWh",
+   "ok": true,
+   "detail": "7625.447004354808"
+  },
+  {
+   "check": "TIII.1 A selected b=11 RE GWh",
+   "ok": true,
+   "detail": "182.14905712140006"
+  },
+  {
+   "check": "TIII.1 A selected b=11 H2 kt",
+   "ok": true,
+   "detail": "3.4063238084355643"
+  },
+  {
+   "check": "TIII.1 B direct b=0 gross",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B direct b=0 batt cost",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B direct b=0 net",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B direct b=0 served %",
+   "ok": true,
+   "detail": "90.93445362746021"
+  },
+  {
+   "check": "TIII.1 B direct b=0 unused GWh",
+   "ok": true,
+   "detail": "5725.075978497172"
+  },
+  {
+   "check": "TIII.1 B direct b=0 RE GWh",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B direct b=0 H2 kt",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 gross",
+   "ok": true,
+   "detail": "6.159567209101076"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 net",
+   "ok": true,
+   "detail": "1.4620766611876592"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 served %",
+   "ok": true,
+   "detail": "90.95662044482609"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 unused GWh",
+   "ok": true,
+   "detail": "5662.407806413492"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 RE GWh",
+   "ok": true,
+   "detail": "28.003489355270418"
+  },
+  {
+   "check": "TIII.1 B previous_slot b=1 H2 kt",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B selected b=1 gross",
+   "ok": true,
+   "detail": "5.960607494495991"
+  },
+  {
+   "check": "TIII.1 B selected b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 B selected b=1 net",
+   "ok": true,
+   "detail": "1.263116946582574"
+  },
+  {
+   "check": "TIII.1 B selected b=1 served %",
+   "ok": true,
+   "detail": "90.95639258660091"
+  },
+  {
+   "check": "TIII.1 B selected b=1 unused GWh",
+   "ok": true,
+   "detail": "5663.051728005584"
+  },
+  {
+   "check": "TIII.1 B selected b=1 RE GWh",
+   "ok": true,
+   "detail": "27.78828599834537"
+  },
+  {
+   "check": "TIII.1 B selected b=1 H2 kt",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 gross",
+   "ok": true,
+   "detail": "6.825985784652756"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 batt cost",
+   "ok": true,
+   "detail": "4.697490547913417"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 net",
+   "ok": true,
+   "detail": "2.1284952367393393"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 served %",
+   "ok": true,
+   "detail": "90.96050427845206"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 unused GWh",
+   "ok": true,
+   "detail": "5651.432190631708"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 RE GWh",
+   "ok": true,
+   "detail": "32.90853144115425"
+  },
+  {
+   "check": "TIII.1 B truth_gate b=1 H2 kt",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.1 B selected b=11 gross",
+   "ok": true,
+   "detail": "58.50059672597993"
+  },
+  {
+   "check": "TIII.1 B selected b=11 batt cost",
+   "ok": true,
+   "detail": "51.67239602704759"
+  },
+  {
+   "check": "TIII.1 B selected b=11 net",
+   "ok": true,
+   "detail": "6.82820069893234"
+  },
+  {
+   "check": "TIII.1 B selected b=11 served %",
+   "ok": true,
+   "detail": "91.14693738999813"
+  },
+  {
+   "check": "TIII.1 B selected b=11 unused GWh",
+   "ok": true,
+   "detail": "5124.165767169293"
+  },
+  {
+   "check": "TIII.1 B selected b=11 RE GWh",
+   "ok": true,
+   "detail": "270.8114512709665"
+  },
+  {
+   "check": "TIII.1 B selected b=11 H2 kt",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "A plant oracle row: gross 17.47 / net 12.93",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "Table III.1 A gross-net gap equals plant cost 4.54",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "Table III.1 column arithmetic closes only with the plant capital (defect)",
+   "ok": true,
+   "detail": "21.96 - 4.7 != 12.72"
+  },
+  {
+   "check": "TIII.2 2020/21 A plant",
+   "ok": true,
+   "detail": "14.467367760155186"
+  },
+  {
+   "check": "TIII.2 2020/21 A plant oracle",
+   "ok": true,
+   "detail": "15.264480428310163"
+  },
+  {
+   "check": "TIII.2 2020/21 A +1",
+   "ok": true,
+   "detail": "-2.9860997727074197"
+  },
+  {
+   "check": "TIII.2 2020/21 A +11",
+   "ok": true,
+   "detail": "-34.157271419756306"
+  },
+  {
+   "check": "TIII.2 2020/21 B 1",
+   "ok": true,
+   "detail": "-0.006268272749601863"
+  },
+  {
+   "check": "TIII.2 2020/21 B 11",
+   "ok": true,
+   "detail": "-6.082230327597223"
+  },
+  {
+   "check": "TIII.2 2021/22 A plant",
+   "ok": true,
+   "detail": "5.324297405686179"
+  },
+  {
+   "check": "TIII.2 2021/22 A plant oracle",
+   "ok": true,
+   "detail": "6.931185490561695"
+  },
+  {
+   "check": "TIII.2 2021/22 A +1",
+   "ok": true,
+   "detail": "6.186461082618122"
+  },
+  {
+   "check": "TIII.2 2021/22 A +11",
+   "ok": true,
+   "detail": "55.37786890889718"
+  },
+  {
+   "check": "TIII.2 2021/22 B 1",
+   "ok": true,
+   "detail": "9.322516253373466"
+  },
+  {
+   "check": "TIII.2 2021/22 B 11",
+   "ok": true,
+   "detail": "76.58948884164316"
+  },
+  {
+   "check": "TIII.2 2022/23 A plant",
+   "ok": true,
+   "detail": "7.741621695022369"
+  },
+  {
+   "check": "TIII.2 2022/23 A plant oracle",
+   "ok": true,
+   "detail": "8.567149555746784"
+  },
+  {
+   "check": "TIII.2 2022/23 A +1",
+   "ok": true,
+   "detail": "0.9566229158250215"
+  },
+  {
+   "check": "TIII.2 2022/23 A +11",
+   "ok": true,
+   "detail": "5.940596501277446"
+  },
+  {
+   "check": "TIII.2 2022/23 B 1",
+   "ok": true,
+   "detail": "0.3654802487850478"
+  },
+  {
+   "check": "TIII.2 2022/23 B 11",
+   "ok": true,
+   "detail": "-6.056911831539936"
+  },
+  {
+   "check": "TIII.2 2023/24 A plant",
+   "ok": true,
+   "detail": "14.806160966065605"
+  },
+  {
+   "check": "TIII.2 2023/24 A plant oracle",
+   "ok": true,
+   "detail": "15.607176374147794"
+  },
+  {
+   "check": "TIII.2 2023/24 A +1",
+   "ok": true,
+   "detail": "-0.18686107187703904"
+  },
+  {
+   "check": "TIII.2 2023/24 A +11",
+   "ok": true,
+   "detail": "-6.05485073660893"
+  },
+  {
+   "check": "TIII.2 2023/24 B 1",
+   "ok": true,
+   "detail": "-1.513057225965503"
+  },
+  {
+   "check": "TIII.2 2023/24 B 11",
+   "ok": true,
+   "detail": "-21.123286398772073"
+  },
+  {
+   "check": "TIII.2 2024/25 A plant",
+   "ok": true,
+   "detail": "13.971638965598252"
+  },
+  {
+   "check": "TIII.2 2024/25 A plant oracle",
+   "ok": true,
+   "detail": "14.835890790939528"
+  },
+  {
+   "check": "TIII.2 2024/25 A +1",
+   "ok": true,
+   "detail": "0.4932892961283"
+  },
+  {
+   "check": "TIII.2 2024/25 A +11",
+   "ok": true,
+   "detail": "1.339086200224571"
+  },
+  {
+   "check": "TIII.2 2024/25 B 1",
+   "ok": true,
+   "detail": "-0.7268744823432514"
+  },
+  {
+   "check": "TIII.2 2024/25 B 11",
+   "ok": true,
+   "detail": "-12.041961603943147"
+  },
+  {
+   "check": "TIII.2 2025/26 A plant",
+   "ok": true,
+   "detail": "15.361100347654364"
+  },
+  {
+   "check": "TIII.2 2025/26 A plant oracle",
+   "ok": true,
+   "detail": "16.347802869389504"
+  },
+  {
+   "check": "TIII.2 2025/26 A +1",
+   "ok": true,
+   "detail": "0.16924301929838398"
+  },
+  {
+   "check": "TIII.2 2025/26 A +11",
+   "ok": true,
+   "detail": "0.39011280727773906"
+  },
+  {
+   "check": "TIII.2 2025/26 B 1",
+   "ok": true,
+   "detail": "1.3306634460257971"
+  },
+  {
+   "check": "TIII.2 2025/26 B 11",
+   "ok": true,
+   "detail": "9.684105513803265"
+  },
+  {
+   "check": "TIII.2 Mean mean plant",
+   "ok": true,
+   "detail": "11.94536452336366"
+  },
+  {
+   "check": "TIII.2 Mean mean oracle",
+   "ok": true,
+   "detail": "12.925614251515912"
+  },
+  {
+   "check": "TIII.2 Mean mean A+1",
+   "ok": true,
+   "detail": "0.7721092448808947"
+  },
+  {
+   "check": "TIII.2 Mean mean A+11",
+   "ok": true,
+   "detail": "3.8059237102186163"
+  },
+  {
+   "check": "TIII.2 Mean mean B1",
+   "ok": true,
+   "detail": "1.4620766611876592"
+  },
+  {
+   "check": "TIII.2 Mean mean B11",
+   "ok": true,
+   "detail": "6.828200698932341"
+  },
+  {
+   "check": "TIII.1 A net = TIII.2 plant column + TIII.2 battery column",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "TIII.1 B rows equal the B curve values (no plant)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "six-window mean argmax A = 11",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "six-window mean argmax B = 11",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "2025/26 argmax A = 7 (0.69)",
+   "ok": true,
+   "detail": "0.6878935417453311"
+  },
+  {
+   "check": "2025/26 argmax B = 22 (12.51)",
+   "ok": true,
+   "detail": "12.509826412925467"
+  },
+  {
+   "check": "without 2021/22 no positive count, policy A",
+   "ok": true,
+   "detail": "-0.31076112266655065"
+  },
+  {
+   "check": "without 2021/22 no positive count, policy B",
+   "ok": true,
+   "detail": "-0.2459532987262753"
+  },
+  {
+   "check": "552 capacity rows",
+   "ok": true,
+   "detail": "552"
+  },
+  {
+   "check": "recomputed == archived to 0.01",
+   "ok": true,
+   "detail": "1.4901161193847656e-07"
+  },
+  {
+   "check": "recomputed and archived agree to 1e-6",
+   "ok": true,
+   "detail": "1.4901161193847656e-07"
+  },
+  {
+   "check": "TIII.3 Low renewables RE",
+   "ok": true,
+   "detail": "103.81146537150263"
+  },
+  {
+   "check": "TIII.3 Low renewables load",
+   "ok": true,
+   "detail": "765.5862857142857"
+  },
+  {
+   "check": "TIII.3 Low renewables price",
+   "ok": true,
+   "detail": "80.24998953228906"
+  },
+  {
+   "check": "TIII.3 Low renewables A",
+   "ok": true,
+   "detail": "-28.474113943620807"
+  },
+  {
+   "check": "TIII.3 Low renewables B",
+   "ok": true,
+   "detail": "-90.04774213252557"
+  },
+  {
+   "check": "TIII.3 High renewables RE",
+   "ok": true,
+   "detail": "547.0004010686262"
+  },
+  {
+   "check": "TIII.3 High renewables load",
+   "ok": true,
+   "detail": "838.8274289899554"
+  },
+  {
+   "check": "TIII.3 High renewables price",
+   "ok": true,
+   "detail": "75.35144208726429"
+  },
+  {
+   "check": "TIII.3 High renewables A",
+   "ok": true,
+   "detail": "-50.720707425472824"
+  },
+  {
+   "check": "TIII.3 High renewables B",
+   "ok": true,
+   "detail": "13.018741772299473"
+  },
+  {
+   "check": "TIII.3 High demand RE",
+   "ok": true,
+   "detail": "383.8074231346949"
+  },
+  {
+   "check": "TIII.3 High demand load",
+   "ok": true,
+   "detail": "932.6914271763393"
+  },
+  {
+   "check": "TIII.3 High demand price",
+   "ok": true,
+   "detail": "83.71917603129431"
+  },
+  {
+   "check": "TIII.3 High demand A",
+   "ok": true,
+   "detail": "-8.065380665239363"
+  },
+  {
+   "check": "TIII.3 High demand B",
+   "ok": true,
+   "detail": "29.06559410489518"
+  },
+  {
+   "check": "TIII.3 High price RE",
+   "ok": true,
+   "detail": "146.71936378829662"
+  },
+  {
+   "check": "TIII.3 High price load",
+   "ok": true,
+   "detail": "636.8331431361606"
+  },
+  {
+   "check": "TIII.3 High price price",
+   "ok": true,
+   "detail": "436.4312520708357"
+  },
+  {
+   "check": "TIII.3 High price A",
+   "ok": true,
+   "detail": "-133.83729173982255"
+  },
+  {
+   "check": "TIII.3 High price B",
+   "ok": true,
+   "detail": "821.4439411805498"
+  },
+  {
+   "check": "TIII.3 stress periods stay inside one replay window",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "TIII.4 break-even A rolling All six windows -> 113",
+   "ok": true,
+   "detail": "112.62497160750216"
+  },
+  {
+   "check": "TIII.4 break-even A rolling Without 2021/22 -> 90",
+   "ok": true,
+   "detail": "90.32549543821474"
+  },
+  {
+   "check": "TIII.4 break-even B prior-slot All six windows -> 127",
+   "ok": true,
+   "detail": "126.83379608399717"
+  },
+  {
+   "check": "TIII.4 break-even B prior-slot Without 2021/22 -> 94",
+   "ok": true,
+   "detail": "94.45925477481617"
+  },
+  {
+   "check": "TIII.4 break-even B classifier All six windows -> 123",
+   "ok": true,
+   "detail": "122.73652482755239"
+  },
+  {
+   "check": "TIII.4 break-even B classifier Without 2021/22 -> 92",
+   "ok": true,
+   "detail": "91.65999171168117"
+  },
+  {
+   "check": "break-even recomputed A All six windows",
+   "ok": true,
+   "detail": "112.68 vs ledger 112.62"
+  },
+  {
+   "check": "break-even recomputed A Without 2021/22",
+   "ok": true,
+   "detail": "90.37 vs ledger 90.33"
+  },
+  {
+   "check": "break-even recomputed B prior-slot All six windows",
+   "ok": true,
+   "detail": "126.89 vs ledger 126.83"
+  },
+  {
+   "check": "break-even recomputed B prior-slot Without 2021/22",
+   "ok": true,
+   "detail": "94.51 vs ledger 94.46"
+  },
+  {
+   "check": "break-even recomputed B classifier All six windows",
+   "ok": true,
+   "detail": "122.79 vs ledger 122.74"
+  },
+  {
+   "check": "break-even recomputed B classifier Without 2021/22",
+   "ok": true,
+   "detail": "91.71 vs ledger 91.66"
+  },
+  {
+   "check": "four-hour baseline 96.7 GBP/kWh -> printed as 97",
+   "ok": true,
+   "detail": "96.72456170711044"
+  },
+  {
+   "check": "hydrogen break-even 4.28 = 7.80 - 11.95/3.40",
+   "ok": true,
+   "detail": "4.285294117647059"
+  },
+  {
+   "check": "B 11-block delivery gain 0.21 pp; B 1-block only 0.02 pp",
+   "ok": true,
+   "detail": "0.213 / 0.023"
+  },
+  {
+   "check": "TIII.5 A weekday price MAE",
+   "ok": true,
+   "detail": "42.69654197108328"
+  },
+  {
+   "check": "TIII.5 A weekday generation MAE",
+   "ok": true,
+   "detail": "1452.6715520669422"
+  },
+  {
+   "check": "TIII.5 A weekday demand MAE",
+   "ok": true,
+   "detail": "1063.4489702573997"
+  },
+  {
+   "check": "TIII.5 A weekday net",
+   "ok": true,
+   "detail": "0.41394611581877155"
+  },
+  {
+   "check": "TIII.5 A uncorrected price MAE",
+   "ok": true,
+   "detail": "26.198578845808434"
+  },
+  {
+   "check": "TIII.5 A uncorrected generation MAE",
+   "ok": true,
+   "detail": "928.7127648708973"
+  },
+  {
+   "check": "TIII.5 A uncorrected demand MAE",
+   "ok": true,
+   "detail": "446.49908420720925"
+  },
+  {
+   "check": "TIII.5 A uncorrected net",
+   "ok": true,
+   "detail": "0.7143819829361578"
+  },
+  {
+   "check": "TIII.5 A quote_mix price MAE",
+   "ok": true,
+   "detail": "25.961038811887455"
+  },
+  {
+   "check": "TIII.5 A quote_mix generation MAE",
+   "ok": true,
+   "detail": "928.7127648708973"
+  },
+  {
+   "check": "TIII.5 A quote_mix demand MAE",
+   "ok": true,
+   "detail": "446.49908420720925"
+  },
+  {
+   "check": "TIII.5 A quote_mix net",
+   "ok": true,
+   "detail": "0.7570790377461446"
+  },
+  {
+   "check": "TIII.5 A selected price MAE",
+   "ok": true,
+   "detail": "25.16458653812333"
+  },
+  {
+   "check": "TIII.5 A selected generation MAE",
+   "ok": true,
+   "detail": "928.7127648708973"
+  },
+  {
+   "check": "TIII.5 A selected demand MAE",
+   "ok": true,
+   "detail": "446.49908420720925"
+  },
+  {
+   "check": "TIII.5 A selected net",
+   "ok": true,
+   "detail": "0.7721092448808947"
+  },
+  {
+   "check": "TIII.5 A twelve_hour_truth price MAE",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.5 A twelve_hour_truth generation MAE",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.5 A twelve_hour_truth demand MAE",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "TIII.5 A twelve_hour_truth net",
+   "ok": true,
+   "detail": "4.290967439035339"
+  },
+  {
+   "check": "TIII.5 B previous_slot sign %",
+   "ok": true,
+   "detail": "94.81434956458816"
+  },
+  {
+   "check": "TIII.5 B previous_slot net",
+   "ok": true,
+   "detail": "1.4620766611876592"
+  },
+  {
+   "check": "TIII.5 B selected sign %",
+   "ok": true,
+   "detail": "95.09496302950154"
+  },
+  {
+   "check": "TIII.5 B selected net",
+   "ok": true,
+   "detail": "1.263116946582574"
+  },
+  {
+   "check": "TIII.5 B truth_gate sign %",
+   "ok": true,
+   "detail": "100.0"
+  },
+  {
+   "check": "TIII.5 B truth_gate net",
+   "ok": true,
+   "detail": "2.1284952367393393"
+  },
+  {
+   "check": "A forecast/truth ratio 18%",
+   "ok": true,
+   "detail": "17.991144255418316"
+  },
+  {
+   "check": "B prior-slot/truth ratio 69%",
+   "ok": true,
+   "detail": "68.70300751879698"
+  },
+  {
+   "check": "B classifier earns 0.20m less than prior-slot",
+   "ok": true,
+   "detail": "0.19900000000000007"
+  },
+  {
+   "check": "B prior-slot five-window loss 0.55",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "B true-sign five-window gain 1.86",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "192 Xpress comparisons",
+   "ok": true,
+   "detail": "192"
+  },
+  {
+   "check": "all Xpress rows status 6",
+   "ok": true,
+   "detail": "['6']"
+  },
+  {
+   "check": "every DP value within [feasible-0.025, bound+0.025]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "Xpress MIP band is non-negative and at most 2.26",
+   "ok": true,
+   "detail": "max 2.2500, 87/192 proven to zero gap, widest rows y2021 b45 gap 2.250, y2026 b45 gap 2.250, y2024 b45 gap 2.250"
+  },
+  {
+   "check": "order differences are exact objective ties",
+   "ok": true,
+   "detail": "9"
+  },
+  {
+   "check": "48 four-slot enumerations",
+   "ok": true,
+   "detail": "48"
+  },
+  {
+   "check": "each enumeration has 625 sequences",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "enumeration vs DP agreement < 1e-9",
+   "ok": true,
+   "detail": "1.3096723705530167e-10"
+  },
+  {
+   "check": "section 2.2 B delivery claim matches 11 blocks only",
+   "ok": true,
+   "detail": "0.21 pp holds at 11 blocks; the one-block figure is 0.02 pp"
+  },
+  {
+   "check": "13.46 vs 12.93 difference attributed to calendar vs Sep-Aug windows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "terminal stock / zero closing credit disclosed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "renewable capture denominator stated",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "hydrogen input energy stated",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "Unused definition differs by policy, explained",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "TIII.2's B one-block column is off the classifier curve (disclosed in the caption)",
+   "ok": true,
+   "detail": "caption: 'B uses the prior-slot rule at one block and the classifier at eleven'"
+  }
+ ]
+}
